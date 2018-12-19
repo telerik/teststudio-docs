@@ -1,0 +1,21 @@
+---
+title: Anonymous Access Error When Connectiong to Team Foundation Service
+page_title: Anonymous Access Error When Connectiong to Team Foundation Service
+description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+position: 1
+---
+#Anonymous Access Error When Connectiong to Team Foundation Service#
+
+Specific machines fail to connect to Team Foundation Service with the error:
+
+**TF400813: Resource not available for anonymous access. Client authentication required.**
+
+##Solution##
+
+Install the following updates:
+
+* <a href="http://visualstudiogallery.msdn.microsoft.com/a37e19fb-3052-4fc9-bef7-4a4682069a75" target="_blank">Team Foundation Server 2010 SP1 Object Model Installer</a>
+
+* <a href="http://www.microsoft.com/en-us/download/details.aspx?id=29082" target="_blank">Visual Studio 2010 SP1 Team Foundation Server Compatibility GDR</a>
+
+

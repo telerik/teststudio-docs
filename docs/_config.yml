@@ -1,0 +1,362 @@
+# The public documentation URL, used for sitemap.xml
+url: "https://docs.telerik.com/teststudio"
+
+## The application virtual path
+baseurl: "/teststudio"
+
+## The product name
+productName: "Test Studio Documentation"
+
+# Exclude files which should not be in the output
+exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*]
+
+## Ignore API directory
+navigation:
+## Test Studio Documentation Main Nodes:
+    index:
+        title: "Overview"
+        position: 1
+    "general-information":
+        title: "General Information"
+        position: 2
+    "getting-started":
+        title: "Getting Started" 
+        position: 3
+    "features":
+        title: "Features"
+        position: 4
+    "advanced-topics":
+        title: "Advanced Topics"
+        position: 5
+    "knowledge-base":
+        title: "Knowledge Base"
+        position: 6
+    "troubleshooting-guide":
+        title: "Troubleshooting Guide"
+        position: 7
+    "testing-framework":
+        title: "Testing Framework"
+        position: 8
+    "test-studio-mobile":
+        title: "Test Studio Mobile"
+        position: 9
+    "test-studio-for-apis":
+        title: "Test Studio for APIs"
+        position: 10
+# === General Information ===
+# === Getting Started ===
+    getting-started/installation:
+        title: "Installation"
+        position: 1
+    getting-started/start-a-project:
+        title: "Start a Project"
+        position: 2
+    getting-started/configure-your-browser:
+        title: "Configure your browser"
+        position: 3
+    getting-started/create-test-standalone:
+        title: "Create a Test (Standalone)"
+        position: 4
+    getting-started/create-test-vsplugin:
+        title: "Create a Test (VS plugin)"
+        position: 5
+    getting-started/test-recording:
+        title: "Test Recording"
+        position: 6
+    getting-started/test-execution:
+        title: "Test Execution"
+        position: 7
+    getting-started/test-results:
+        title: "Test Results"
+        position: 8
+# === Features ===
+    features/data-driven-testing:
+        title: "Data Driven Testing"
+    features/scheduling-test-runs:
+        title: "Scheduling Test Runs"
+    features/test-maintenance:
+        title: "Test Maintenance"
+    features/recorder:
+        title: "Recorder"
+    features/elements-explorer:
+        title: "Elements Explorer"
+    features/project-settings:
+        title: "Project Settings"
+    features/recorder/verifications:
+        title: "Verifications"
+    features/dialogs-and-popups:
+        title: "Dialogs & Popups"
+    features/custom-steps:
+        title: "Custom Steps"
+    features/logical-steps:
+        title: "Logical Steps"
+    features/testing-types:
+        title: "Testing Types"
+    features/integration:
+        title: "Integration"
+    features/integration/bug-tracking:
+        title: "Bug Tracking"
+    features/integration/quality-center:
+        title: "Quality Center"
+    features/test-runners:
+        title: "Test Runners"
+    features/source-control:
+        title: "Source Control"
+    features/source-control/git:
+        title: "Git"
+    features/source-control/tfs:
+        title: "TFS"
+    features/recorder/mouse-actions:
+        title: "Actions"
+    features/custom-layout:
+        title: "Custom Layout"
+    features/project-explorer:
+        title: "Project Explorer"
+    features/execute-apitest:
+        title: "Execute API test as Step"    
+# ....Testing types
+    "*performance-testing":
+        title: "Performance Testing"
+    "*load-testing":
+        title: "Load Testing"
+    "*manual-testing":
+        title: "Manual Testing"
+    "*exploratory-testing":
+        title: "Exploratory Testing"
+    "*wpf-testing":
+        title: "WPF Testing"
+# === Advanced Topics ===
+    "*coded-steps":
+        title: "Coded Steps"
+    "*coded-samples":
+        title: "Coded Samples"
+#.....Coded Samples
+    "*general":
+        title: "General"
+    "*html":
+        title: "HTML"
+    "*silverlight":
+        title: "Silverlight"
+    "*combobox-automation":
+        title: "ComboBox Automation"
+    "*radgridview-automation":
+        title: "RadGridView Automation"
+    "*wpf":
+        title: "WPF"
+#........................
+    "*build-server":
+        title: "Build Server"
+# === Knowledge Base ===
+    "*activation-kb":
+        title: "Activation"
+    "*best-practices-kb":
+        title: "Best Practices"
+    "*code-coverage-kb":
+        title: "Code Coverage"
+    "*data-driven-testing-kb":
+        title: "Data Driven Testing"
+    "*dialogs-and-popups-kb":
+        title: "Dialogs and Popups"
+    "*load-testing-kb":
+        title: "Load Testing"
+    "*project-configuration-kb":
+        title: "Project Configuration"
+    "*scheduling-kb":
+        title: "Scheduling"
+    "*silverlight-kb":
+        title: "Silverlight"
+    "*source-control-kb":
+        title: "Source Control"
+    "*test-automation-kb":
+        title: "Test Automation"
+    "*test-execution-kb":
+        title: "Test Execution"
+    "*test-recording-kb":
+        title: "Test Recording"
+    "*verification-kb":
+        title: "Verification"
+    "*visual-studio-kb":
+        title: "Visual Studio"
+    "*browsers-kb":
+        title: "Browsers"
+# === Troubleshooting Guide ===
+    "*browser-inconsistencies-tg":
+        title: "Browser Inconsistencies"
+    "*cannot-launch-test-studio-tg":
+        title: "Cannot Launch Test Studio"
+    "*installation-problems-tg":
+        title: "Installation Problems"
+    "*load-testing-problems-tg":
+        title: "Load Testing Problems"
+    "*recording-problems-tg":
+        title: "Recording Problems"
+    "*scheduling-issues-tg":
+        title: "Scheduling Issues"
+    "*source-control-problems-tg":
+        title: "Source Control Problems"
+    "*test-execution-problems-tg":
+        title: "Test Execution Problems"
+    "*chrome-tg":
+        title: "Chrome"
+    "*firefox-tg":
+        title: "Firefox"
+    "*safari-tg":
+        title: "Safari"
+    "*silverlight-wpf-tg":
+        title: "Silverlight WPF"
+    "*test-maintenance-problems-tg":
+        title: "Test Maintenance Problems"
+    "*troubleshooting-tools-tg":
+        title: "Troubleshooting Tools"
+    "*verification-problems-tg":
+        title: "Verification Problems"
+    "*visual-studio-tg":
+        title: "Visual Studio"
+    "*network-related-problems-tg":
+        title: "Network Related Problems"
+# === Testing Framework ===
+    "*write-tests-in-code":
+        title: "Write Tests in Code"
+    "*intermediate-topics-wtc":
+        title: "Intermediate Topics"
+        position: 1
+    "*element-identification-wtc":
+        title: "Element Identification"
+    "*html-control-suite-wtc":
+        title: "HTML Control Suite"
+    "*settings-and-configuration-wtc":
+        title: "Settings & Configuration"
+    "*advanced-topics-wtc":
+        title: "Advanced Topics"
+        position: 2
+    "*html-popups-and-dialogs-wtc":
+        title: "HTML Popups and Dialogs"
+    "*javascript-wtc":
+        title: "Javascript"
+    "*test-regions-wtc":
+        title: "Test Regions"
+    "*silverlight-wpf-automation-wtc":
+        title: "Silverlight/WPF Automation"
+    testing-framework/api-reference:
+        title: "Api Reference"
+# === Mobile Testing ===
+    test-studio-mobile/getting-started:
+       title: "Getting Started"
+       position: 3
+    test-studio-mobile/native-applications:
+       title: "Native Applications"
+       position: 4
+    test-studio-mobile/native-applications/installation:
+       title: "Installation"
+       position: 1
+    test-studio-mobile/native-applications/configure-your-app:
+       title: "Configure Your App"
+       position: 2
+    test-studio-mobile/native-applications/connect-agent-app:
+       title: "Connect Agent App"
+       position: 3
+    test-studio-mobile/web-applications:
+       title: "Web Applications"
+       position: 5
+    test-studio-mobile/web-applications/configuration:
+       title: "Configuration"
+       position: 1
+    test-studio-mobile/test-recording:
+       title: "Test Recording"
+       position: 6
+    test-studio-mobile/test-recording/record-a-test:
+       title: "Record a Test"
+       position: 1
+    test-studio-mobile/test-execution:
+       title: "Test Execution"
+       position: 7
+    test-studio-mobile/features:
+       title: "Features"
+       position: 8
+    test-studio-mobile/features/code-features:
+       title: "Code Features"
+       position: 1
+    test-studio-mobile/knowledge-base:
+       title: "Knowledge Base"
+       position: 9
+    test-studio-mobile/knowledge-base/continuous-integration:
+       title: "Continuous Integration"
+       position: 1
+    test-studio-mobile/troubleshooting:
+       title: "Troubleshooting Guide"
+       position: 10
+    test-studio-mobile/api-reference:
+        title: "API Reference"
+        position: 11
+
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "documentation"
+        category: "default"
+        editable: false
+-
+    scope:
+        path: knowledge-base
+    values:
+        res_type: "kb"
+
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+product: "Progress Test Studio"
+platform: teststudio
+main_theme: teststudio
+tabbed_code_marker_length: 3
+tabbed_code_complex_separator: true
+download: https://www.telerik.com/download-trial-file/v2/test-studio-ultimate
+nav:
+  "Demos": https://www.telerik.com/teststudio/live-demos
+  "Release History": https://www.telerik.com/support/whats-new/teststudio/release-history
+  "About": https://www.telerik.com/teststudio
+  "Pricing": https://www.telerik.com/purchase/teststudio
+
+footer:
+-
+  title: "Getting Started"
+  links:
+    "Getting Started": https://www.youtube.com/playlist?list=PLvmaC-XMqeBadBenwSoANlrc57y4bGBVY
+    "Videos": https://www.youtube.com/playlist?list=PLPd3ce5hn3ozSoFDKG4XElnE5nOQ6AyHd
+    "Whats New": "https://www.telerik.com/support/whats-new/teststudio"
+    "Roadmap": https://www.telerik.com/support/whats-new/teststudio/roadmap
+-
+  title: "Community"
+  links:
+    "Forums": https://www.telerik.com/forums/teststudio
+    "Blogs": https://www.telerik.com/blogs/testing-alm
+    "Feedback Portal": https://feedback.telerik.com/Project/161
+
+footer_social: 
+    facebook: https://www.facebook.com/Telerik/
+    youtube: https://www.youtube.com/user/TelerikInc
+    linkedin: https://www.linkedin.com/showcase/telerik/ 
+    twitter: https://twitter.com/Telerik/ 
+
+# Feedback Form Google Sheet ID		
+ff-sheet-id: 33b86fb1-d8b0-c7b0-84c0-aaff59d0d84a 
+
+# The google services configuration
+google_tag_manager: GTM-6X92
+gcs_engine: '001595215763381649090:ymztq4og6vc'
+gcs_api_key: 'AIzaSyDLQ-eVOEEH8Godvt6PZq3vSMpI5dHhX54'
+
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
