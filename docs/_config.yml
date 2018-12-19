@@ -8,7 +8,7 @@ baseurl: "/teststudio"
 productName: "Test Studio Documentation"
 
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*]
+exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*, docs-watcher/*]
 
 ## Ignore API directory
 navigation:
