@@ -1,0 +1,2 @@
+whoami
+powershell.exe -noprofile -noninteractive -command "import-module .\_deployment\BuildAndDeployDocumentation.psm1; new-documentation -buildNumber $env:BUILDS_TODAY -sourceLocation $env:WORKSPACE -targetLocation //telerik.com/resources/AppDirector/Drops/TestStudio/TestStudioDev.Docs"
