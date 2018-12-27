@@ -199,7 +199,7 @@ cdnVersion: "2017.3.1026"
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
-product: "Telerik TestStudioDev"
+product: "Progress Telerik TestStudio Dev"
 platform: "teststudiodev"
 main_theme: teststudio
 skip_tabbed_code: true
