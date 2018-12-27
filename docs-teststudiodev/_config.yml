@@ -2,7 +2,7 @@
 url: "https://docs.telerik.com/devtools/teststudiodev"
 
 # Exclude files which should not be in the output
-exclude: [readme.md, Gemfile, Gemfile.lock, docs-watcher/*]
+exclude: [README.md, Gemfile, Gemfile.lock, docs-watcher/*]
 navigation:
 ## List your directory names and order here, like this:
     

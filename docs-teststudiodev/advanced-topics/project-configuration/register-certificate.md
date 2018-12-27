@@ -2,7 +2,7 @@
 title: Register Certificate
 page_title: Register Certificate | Test Studio Dev Documentation
 description: Register https certificate 
-position: o
+position: 0
 ---
 # Register Certificate for HTTPS Connection
 
