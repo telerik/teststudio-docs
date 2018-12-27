@@ -203,6 +203,7 @@ product: "Telerik TestStudioDev"
 platform: "teststudiodev"
 main_theme: teststudio
 skip_tabbed_code: true
+has_api_reference: false
 
 ff-sheet-id: 89e6a295-7125-473f-a472-88ffa9bb60fa
 
