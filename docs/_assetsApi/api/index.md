@@ -82,7 +82,7 @@ article:not(.api-reference)>p:first-child, article:not(.api-reference) h1+p {
 
 </style>
 
-# UI for WPF API Reference
-The API reference section of the documentation contains a list and descriptions of all public available classes, methods and properties of the UI for WPF product.
+# Progress Telerik TestStudio API Reference
+The API reference section of the documentation contains a list and descriptions of all public available classes, methods and properties of the Progress Telerik TestStudio product.
 
-> This documentation refers to the latest version of UI for WPF.
+> This documentation refers to the latest version of Progress Telerik TestStudio.
