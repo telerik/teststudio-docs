@@ -1,0 +1,1 @@
+jekyll serve -w --baseurl /teststudio-apis --port 801 --host %COMPUTERNAME%  --incremental
