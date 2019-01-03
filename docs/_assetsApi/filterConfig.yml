@@ -1,0 +1,9 @@
+apiRules:
+- exclude:
+    uidRegex: ^Telerik\.Windows\.
+- exclude:
+    uidRegex: ^Telerik\.Licensing
+- exclude:
+    uidRegex: ^ArtOfTest\.InternetExplorer
+- exclude:
+    uidRegex: ^ArtOfTest\.ShDocVw
