@@ -8,7 +8,7 @@ position: 1
 
 **Test Studio 2017 R3 (v. 2017.3.1010) And Later**
 
-There is a single extension combining the recording and execution which could be downloaded from the Mozzila Extension Page. For your convenience here is a direct link to the <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/" target="_blank">**Progress Test Studio Extension**</a>.
+There is a single extension combining the recording and execution which could be downloaded from the Mozzila Extension Page. For your convenience here is a direct link to the <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/" target="_blank">**Progress Telerik Test Studio Extension**</a>.
 
 >If you face any troubles when installing or enabling the extension please expand the **Extension Install Procedure** section <a href="/getting-started/configure-your-browser/firefox#Extension_Install" target="_blank">in this article</a>.
 

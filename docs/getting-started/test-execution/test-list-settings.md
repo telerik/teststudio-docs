@@ -71,7 +71,8 @@ This opens a dialog box that shows all of the possible configuration settings fo
 	* Browser - the default browser to launch.
 	* EnableUILessRequestViewing - whether to allow debugging of UILess page requests using a UI browser, like IE.
 	* KillBrowserProcessOnClose - whether to kill the browser process when closing the browser.
-	* RecycleBrowser - when set to true, one instance of the browser is launched and recycled throughout all tests until *Manager.Dispose* is called. 
+	* KillBrowsersBeforeStart - Kill all executing browser instances before test lists starts. Does not affect remote execution runs.
+	* RecycleBrowser - when set to true, one instance of the browser is launched and recycled throughout all tests until *Manager.Dispose* is called.
 * **HttpProxy**
 	* UseHttpProxy - whether to use the built-in HTTP proxy during automation. Enabling Silverlight will automatically enable the HTTP proxy.
 * **Log**
