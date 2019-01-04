@@ -8,5 +8,5 @@ position: 1
 
 #API Reference#
 
-You can access Test Studio API <a href="http://docs.telerik.com/teststudioapi/index.aspx" target="_blank">here</a>.
+You can access Test Studio API <a href="http://docs.telerik.com/teststudio/api" target="_blank">here</a>.
 

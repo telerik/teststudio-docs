@@ -9,4 +9,4 @@ position: 5
 ---
 # API Reference
 
-Find the API reference <a href="http://docs.telerik.com/teststudioapi/index.aspx" target="_blank"> here</a>.
+Find the API reference <a href="http://docs.telerik.com/teststudio/api" target="_blank"> here</a>.
