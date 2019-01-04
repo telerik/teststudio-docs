@@ -35,6 +35,8 @@ Options:
 
   - `-t|--test        Test key to run`
 
+  - `-s|--suite       Test suite (folder) to run`
+
   - `-f|--format      The format of the test results. Can be: 'xml', 'junit', 'junitstep'. Default is 'xml'`
 
   - `-o|--output      The path of the generated test results file`
@@ -58,6 +60,10 @@ Here are several examples for command line commands to execute tests with the co
   - To run a single test:
 
     `C:\>"C:\Program Files (x86)\Telerik\Test Studio for APIs\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe" test -p "C:\ApiTests\DemoTests" -t ".\CRUD Tests\Get All Users"`
+  
+  - To run a suite (folder):
+
+    `C:\>"C:\Program Files (x86)\Telerik\Test Studio for APIs\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe" test -p "C:\ApiTests\DemoTests" -s ".\CRUD Tests"`
 
   - To run more than one specific tests, list each one of them with a separate `-t` option:
 
