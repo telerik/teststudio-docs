@@ -577,6 +577,8 @@ public class SubmitAdTestClass : BaseTest
    
 End Class
 ```
+
+
 By taking advantage of the object oriented nature of the HTML element wrapper classes, our test code that fills in the fields and clicks the submit button is much simpler, more descriptive and more intuitive in nature. Note how simple it was to enter text into all the input fields, as well as make all the drop down selections using intuitive methods included with Telerik's HTML element wrapper classes!
 Also notice how we're doing a nested find. The line **form.Find.AllByTagName<HtmlSelect>("select");** is returning all of the **\<select>** elements that are contained within the form "Form2" contained on the page, not the entire page itself which may contain other \<select> elements on the page, perhaps even on other forms contained on the same page.
  

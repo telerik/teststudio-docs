@@ -33,12 +33,12 @@ The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/c
 	Assert.IsNotNull(listItem);
 	listItem.Click();
 	```
-	
 	```VB
 	Dim listItem As HtmlListItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent(Of HtmlListItem)(Data("Col1").ToString())
 	Assert.IsNotNull(listItem)
 	listItem.Click()
 	```
+
 7. Test Studio uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
 
 	![Execute test][3]

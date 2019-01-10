@@ -123,6 +123,7 @@ An MSTest task is an "Exec" task to CruiseControl.NET. It should look something 
   </project>
 </cruisecontrol>
 ```
+
 If you want to run a suite of tests, add them to a Visual Studio test list and use a buildArgs like this:
 
 ```XML

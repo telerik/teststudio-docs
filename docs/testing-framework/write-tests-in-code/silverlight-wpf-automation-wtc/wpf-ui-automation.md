@@ -62,6 +62,8 @@ public void wpfDemo()
    
   End Sub
 ```
+
+
 Let's take a closer look at the code above line by line:
 
 * Line 5 (*WpfApplication wpfApp = Manager.LaunchNewApplication(@"C:\Projects\WpfApplication2\bin\Debug\WpfApplication2.exe");*)

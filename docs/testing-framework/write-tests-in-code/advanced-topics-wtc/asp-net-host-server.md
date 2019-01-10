@@ -91,6 +91,8 @@ With all these in mind, let's look at an example that illustrates how we can ena
 </body>
 </html>
 ```
+
+
 You can run this page using the Asp.Net InProc server by first setting the default browser to 'AspNetHost' and setting the physical location of the web application. For example, you can override these settings in your test initialization or set them in your .config file:
 
 ```C#
@@ -100,8 +102,6 @@ settings.DefaultBrowser = BrowserType.AspNetHost;
 // Set the location of the Asp.Net App
 settings.WebAppPhysicalPath = @"C:\MyAspNetApp\";
 ```
- 
-
 ```VB
 ' Set the default browser to be AspNetHost
 mysettings.DefaultBrowser = BrowserType.AspNetHost
@@ -111,6 +111,7 @@ mysettings.WebAppPhysicalPath = System.IO.Path.Combine(Globals.PATH_TO_PAGES, "A
 ```
 
 Next you can perform your automation in the same manner as you would for any other browser. For example:
+
 
 ```C#
 // Will initialize a new AspNetApplication object.
@@ -175,8 +176,6 @@ Actions.Click(Find.ById("treeView1t1"));
 label.Refresh();
 Assert.IsTrue(label.InnerText.Contains("Node2"));
 ```
- 
-
 ```VB
 
 ' Will initialize a new AspNetApplication object.
@@ -236,6 +235,7 @@ Actions.Click(Find.ById("treeView1t1"))
 label.Refresh()
 Assert.IsTrue(label.InnerText.Contains("Node2"))
 ```
+
 
 ##Debugging Page Requests##
 

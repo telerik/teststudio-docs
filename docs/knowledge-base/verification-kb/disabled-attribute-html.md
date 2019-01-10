@@ -48,6 +48,7 @@ Element e = Find.ByExpression("id=myInput");
 ```C#
 HtmlInputText e = Pages.TryitEditorV14.FrameView.LnameText;
 ```
+
 3.&nbsp; Once you have your Element e, here is the verification in code:
 
 ```C#

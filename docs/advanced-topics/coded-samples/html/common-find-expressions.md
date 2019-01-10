@@ -40,6 +40,7 @@ Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("InnerText=~English", "ta
 Assert.IsNotNull(a)
 a.Click()
 ```
+
 If we locate by an exact match on TextContent, the bottom *English* link will found.
 
 ![english link][2]
@@ -57,7 +58,6 @@ HtmlAnchor a = Find.ByExpression<HtmlAnchor>("TextContent=English", "tagname=a")
 Assert.IsNotNull(a);
 a.Click();
 ```
-
 ```VB
 Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("TextContent=English", "tagname=a")
 Assert.IsNotNull(a)
@@ -69,7 +69,6 @@ The following attributes apply to both links, however Test Studio returns the fi
 ```C#
 HtmlAnchor a = Find.ByExpression<HtmlAnchor>("tagname=a", "href=//en.wikipedia.org/");
 ```
-
 ```VB
 Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("tagname=a", "href=//en.wikipedia.org/")
 ```
@@ -79,7 +78,6 @@ You can find it by xpath:
 ```C#
 HtmlAnchor a = Find.ByXPath<HtmlAnchor>("//*[@id=\"www-wikipedia-org\"]/div[5]/div/a[2]");
 ```
-
 ```VB
 Dim a As HtmlAnchor = Find.ByXPath(Of HtmlAnchor)("//*[@id=""www-wikipedia-org""]/div[5]/div/a[2]")
 ```
@@ -89,10 +87,10 @@ You can also data drive the find expression:
 ```C#
 HtmlAnchor a = Find.ByExpression<HtmlAnchor>("tagname=a", "textcontent=" + Data["Col1"].ToString());
 ```
-
 ```VB
 Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("tagname=a", "textcontent=" + Data("Col1").ToString())
 ```
+
 
 [1]: /img/advanced-topics/coded-samples/html/common-find-expressions/fig1.png
 [2]: /img/advanced-topics/coded-samples/html/common-find-expressions/fig2.png

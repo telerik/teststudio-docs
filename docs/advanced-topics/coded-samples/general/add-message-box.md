@@ -19,7 +19,6 @@ NativeWindow window = new NativeWindow();
 window.AssignHandle(ActiveBrowser.Window.Handle);
 MessageBox.Show(window, "This is a message!");
 ```
-
 ```VB
 Dim window As New NativeWindow()
 window.AssignHandle(ActiveBrowser.Window.Handle)
@@ -28,17 +27,19 @@ MessageBox.Show(window, "This is a message!")
 
 Here's how to do it in a **WPF Test**:
 
+
 ```C#
 NativeWindow window = new NativeWindow();
 window.AssignHandle(ActiveApplication.MainWindow.Window.Handle);
 MessageBox.Show(window, "This is a message!");
 ```
-
 ```VB
 Dim window As New NativeWindow()
 window.AssignHandle(ActiveApplication.MainWindow.Window.Handle)
 MessageBox.Show(window, "This is a message!")
 ```
+
+
 This will pause the test and the alert box will be displayed:
 
 ![Messagebox][1]
@@ -50,7 +51,6 @@ Ensure you add the *using* or *Imports* statement to the top of the code-behind 
 ```C#
 using System.Windows.Forms;
 ```
-
 ```VB
 Imports Windows.Forms;
 ```
@@ -62,7 +62,6 @@ NativeWindow window = new NativeWindow();
 window.AssignHandle(ActiveBrowser.Window.Handle);
 MessageBox.Show(window, Data["excelColumnName"].ToString());
 ```
-
 ```VB
 Dim window As New NativeWindow()
 window.AssignHandle(ActiveBrowser.Window.Handle)

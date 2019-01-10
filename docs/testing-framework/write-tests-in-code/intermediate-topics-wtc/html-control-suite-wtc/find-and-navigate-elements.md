@@ -73,6 +73,8 @@ Assert.AreEqual(1, imgCtrls.Count)
 Dim EasternUSDivision As HtmlDiv = Find.ByContent(Of HtmlDiv)("Eastern US Division", FindContentType.TextContent)
 Assert.IsNotNull(EasternUSDivision)
 ```
+
+
 The above example demonstrates how to use many of the more useful find methods. There are many more. It would take up too much space to try and document them all here. Refer to the API reference to learn about the others. Let's look at some HTML navigation functions:
 
 ```C#
@@ -102,8 +104,6 @@ Assert.IsTrue(table2.ID.Equals(outertable.ID));
 HtmlForm form1 = table2.Parent<HtmlForm>();
 Assert.IsTrue(form1.ID.Equals("form1"));
 ```
- 
-
 ```VB
 ' Traverse the control tree upwards too. You can easily
 ' Find the container control of a certain type from its children.

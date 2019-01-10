@@ -122,6 +122,8 @@ spanWaitObj.ForStylesNot("backgroundColor=red", "margin=30px")
 ' Uses the default timeout value from Settings.Current.ExecuteCommandTimeout
 span.Wait.ForStylesNot("backgroundColor=red", "margin=30px")
 ```
+
+
 The HtmlWait.ForCondition is an advanced method that calls a user defined function to determine whether or not the wait condition has been satisfied. You, the test automation programmer, may code up any sort of wait condition you can imagine. The only requirement is that your function must return true to indicate that the condition has been satisfied or return false to indicate the condition has not been satisfied.
  
 The overloads of the HtmlWait.ForCondition are split into two virtually identical sets of three overloads. The first set operates on basic Element objects. The second set operates on Control objects, which all of the classes contained in the HTML control suite derive from. Except for this difference, they operate identically. The sample below shows only the Control version:

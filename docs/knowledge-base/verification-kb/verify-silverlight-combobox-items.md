@@ -42,6 +42,7 @@ The next problem you may run into (depending on the design of the application) i
 ```C#
 Wait.For<ComboBox>(cb => cb.Items.Count > 0, cbox, 10000);
 ```
+
 This code will wait up to 10 seconds for the list of available items to be at least 1. The test will fail and abort here if there isn't at least 1 items present after 10 seconds. If you know exactly how many items should show up, you can change "> 0" so something like "== 5" to wait for 5 items to be present. To change the timeout, simply change 10000 to the number of milliseconds you want to use for your timeout.
 
 To verify the number of items presented we use this code:
@@ -53,6 +54,7 @@ IList<ComboBoxItem> items = cbox.Items;
 
 Assert.AreEqual<int>(5, items.Count);
 ```
+
 This code will cause the test to fail of the count is something other than 5. Adjust it to match what your ComboBox actually has.
 
 To verify the actual text contain in the drop down we'll need to use code like this:
@@ -76,7 +78,9 @@ Assert.AreEqual<string>("ComboBoxItem4", items[3].TextBlockContent);
 
 Assert.AreEqual<string>("ComboBoxItem5", items[4].TextBlockContent);
 ```
+
 This code assumes the list of items and their order will never change. The test will immediately fail at the first item that doesn't match. Putting it all together this is our code:
+
 
 ```C#
 ComboBox cbox = Pages.Pale2.SilverlightApp.ComboBoxItem1Combobox;

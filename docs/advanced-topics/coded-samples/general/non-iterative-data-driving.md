@@ -27,6 +27,7 @@ The solution is to save the number of the row into an XML file. Each time you ex
 		<numVal>0</numVal>
 	</IterationValue>
 ```
+
 2.&nbsp; Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
 
 ![File][1]

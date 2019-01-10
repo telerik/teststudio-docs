@@ -14,6 +14,8 @@ A partial search of control by attribute may return null even with correct parti
 ```C#
 HtmlInputButton button = Find.ById<HtmlInputButton>("~MyButtonIDPart");
 ```
+
+
 Although the next example works:
 
 

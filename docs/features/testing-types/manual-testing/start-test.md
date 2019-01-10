@@ -7,7 +7,7 @@ position: 2
 ---
 # Start a Manual Test
 
-1.&nbsp Click **Start Manual Test** from the **Next Steps** ribbon or in the test notes area.
+1.&nbsp; Click **Start Manual Test** from the **Next Steps** ribbon or in the test notes area.
 
 ![Start Manual][1]
 

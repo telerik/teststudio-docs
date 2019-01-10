@@ -22,7 +22,6 @@ Ensure you add the *using* or *Imports* statement to the top of the code-behind 
 ```C#
 using System.Data.SqlClient;
 ```
-
 ```VB
 Imports System.Data.SqlClient;
 ```

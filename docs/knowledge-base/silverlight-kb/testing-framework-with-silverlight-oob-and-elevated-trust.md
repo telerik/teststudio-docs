@@ -35,6 +35,8 @@ This is fixed by modifying the initial call to hardwire in a service path:
 ```
 TestMath context = new TestMath(new Uri("http://localhost:49569/ClientBin/TestAutomationByRia-Web-Services-TestMath.svc", UriKind.Absolute));
 ```
+
+
 We have effectively forced the app to make cross-site calls, so this needs to be enabled on the server. You'll need to modify the app manifest, as well as generate some policy documents which tell the server this sort of operation is acceptable.
  
 The AppManifest.xml file needs to set ExternalCallersFromCrossDomain in its root node:
@@ -64,6 +66,7 @@ And in the root of the server, these files need to be created:
 ```
 
 **crossdomain.xml**
+
 ```XML
 <?xml version="1.0"?>
 <!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">

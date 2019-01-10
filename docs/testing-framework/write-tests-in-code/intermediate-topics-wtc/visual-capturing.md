@@ -89,6 +89,8 @@ Dim myDiv As Element = ActiveBrowser.Find.ById("mydiv")
 ' Capture it visually as a bitmap
 Dim divimage As System.Drawing.Bitmap = ActiveBrowser.Window.GetBitmap(myDiv.GetRectangle())
 ```
+
+
 The divimage bitmap captured object is:
 
 ![Captured div][2]

@@ -202,6 +202,8 @@ Public Class FFDownloadsDialog
     End Property
 #End Region
 ```
+
+
 So far everything is very simple and straightforward. Now that the local variables and properties are complete, it's time to implement the constructor. Since all we're going to do to handle the dialog is close it, we don't require the Desktop or DialogButton parameter that standard Win32 dialog handlers require:
 
 ```C#
@@ -214,8 +216,6 @@ public FFDownloadsDialog()
 }
 #endregion
 ```
- 
-
 ```VB
 #Region "Constructor"
     ' <summary>
@@ -264,8 +264,6 @@ public bool IsDialogActive(ArtOfTest.WebAii.Win32.WindowCollection dialogs)
     return true;
 }
 ```
- 
-
 ```VB
 ' <summary>
 ' Check whether the dialog is present or not. This function is
@@ -335,8 +333,6 @@ public void Handle()
     }
 }
 ```
- 
-
 ```VB
 ' <summary>
 ' This is called by the DialogMonitor whenever IsDialogActive returns true.
@@ -395,8 +391,6 @@ Lastly we need to implement the WaitUntilHandled function:
      }
 }
 ```
- 
-
 ```VB
     ' <summary>
 ' <summary>

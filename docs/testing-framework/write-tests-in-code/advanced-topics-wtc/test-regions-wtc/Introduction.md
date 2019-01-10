@@ -165,6 +165,8 @@ TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
 ```
+
+
 Each TestRegion above represents the part of the application as defined by the TestRegio's that are part of the application. It is worth noting here that the TestRegions collection accessor is case-insensitive to avoid test failures due to id casing mistakes.
 
 ##Identifying Elements Using TestRegions##

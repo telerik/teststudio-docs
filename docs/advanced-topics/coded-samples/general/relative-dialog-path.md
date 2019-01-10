@@ -4,6 +4,7 @@ page_title: Relative Dialog Path
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
 ---
+
 #Use Relative Paths in File Upload/Downloads#
 
 *I need to upload/download a file to a path relative to my test execution folder. I don't want to use an absolute file path.*
@@ -20,7 +21,6 @@ public void RelativePathDownloadStep()
     Pages.ThinkbroadbandDownload.IconDownload5MBPngImage.Download(false, DownloadOption.Save, fullPath, 30000);
 }
 ```
-
 ```VB
 Public Sub RelativePathDownloadStep()
 	Directory.CreateDirectory(System.IO.Path.Combine(Me.ExecutionContext.DeploymentDirectory, "download"))
@@ -28,12 +28,14 @@ Public Sub RelativePathDownloadStep()
 	Pages.ThinkbroadbandDownload.IconDownload5MBPngImage.Download(False, DownloadOption.Save, fullPath, 30000)
 End Sub
 ```
+
 You'll have to <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">add an assembly reference</a> to *System.Windows.Forms.dll* and to include the following line at the top of your code file to use the given sample:
 
 ```C#
 using System.IO;
 ```
-
 ```VB
 Imports System.IO
 ```
+
+
