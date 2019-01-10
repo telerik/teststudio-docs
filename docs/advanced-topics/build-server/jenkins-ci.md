@@ -84,24 +84,22 @@ Your Jenkins CI build is now ready to run.
 
 In case you are running Test Studio tests using <a href="http://www.donaldsimpson.co.uk/2011/10/06/jenkins-slave-nodes/" target="_blank">Jenkins slaves</a> you may experience the following exception:
 
-<div>
-The process is not running in 'Interactive Mode'! The 'DialogMonitor' has been disabled for this Browser.<br>
+The process is not running in 'Interactive Mode'! The 'DialogMonitor' has been disabled for this Browser.
 
-<i>TestExecuteProxy.ExecuteTest() : EXCEPTION! (see below)<br>
-Outer Exception Type: System.TimeoutException<br>
-Message: Wait for condition has timed out<br>
-HRESULT: 0x80131505 (Official ID (if app.) = COR_E_TIMEOUT, Error Bit = FAILED, Facility = FACILITY_URT, Code = 5381)<br>
-Call Stack:<br>
-at ArtOfTest.Common.WaitSync.CheckResult(WaitSync wait, String extraExceptionInfo, Object target)<br>
-at ArtOfTest.Common.WaitSync.For[T](Predicate`1 predicate, T target, Boolean invertCondition, Int32 timeout, WaitResultType errorResultType)<br>
-at ArtOfTest.Common.WaitSync.For[T](Predicate`1 predicate, T target, Boolean invertCondition, Int32 timeout)<br>
-at ArtOfTest.WebAii.Core.Manager.WaitForBrowserToConnect(Int32 browserIndexToWaitFor)<br>
-at ArtOfTest.WebAii.Core.Manager.LaunchNewBrowser(BrowserType browserToLaunch, Boolean waitForBrowserToConnect, <br>ProcessWindowStyle windowStyle, String arguments)<br>
-at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.InitializeWeb(ExecutionEngineCreateParams initParams)<br>
-at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.CreateAndInitializeEngine(Test test, ExecutionEngineCreateParams cp)<br>
-at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.ExecuteTest(ExecuteTestCommand command)<br></i>
-
-</div>
+*TestExecuteProxy.ExecuteTest() : EXCEPTION! (see below)* <br>
+*Outer Exception Type: System.TimeoutException*<br>
+*Message: Wait for condition has timed out*<br>
+*HRESULT: 0x80131505 (Official ID (if app.) = COR_E_TIMEOUT, Error Bit = FAILED, Facility = FACILITY_URT, Code = 5381)*<br>
+*Call Stack:*<br>
+*at ArtOfTest.Common.WaitSync.CheckResult(WaitSync wait, String extraExceptionInfo, Object target)*<br>
+*at ArtOfTest.Common.WaitSync.For&#91;T&#93;(Predicate`1 predicate, T target, Boolean invertCondition, Int32 timeout, WaitResultType errorResultType)*<br>
+*at ArtOfTest.Common.WaitSync.For&#91;T&#93;(Predicate`1 predicate, T target, Boolean invertCondition, Int32 timeout)*<br>
+*at ArtOfTest.WebAii.Core.Manager.WaitForBrowserToConnect(Int32 browserIndexToWaitFor)*<br>
+*at ArtOfTest.WebAii.Core.Manager.LaunchNewBrowser(BrowserType browserToLaunch, Boolean waitForBrowserToConnect,*<br>
+*ProcessWindowStyle windowStyle, String arguments)*<br>
+*at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.InitializeWeb(ExecutionEngineCreateParams initParams)*<br>
+*at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.CreateAndInitializeEngine(Test test, ExecutionEngineCreateParams cp)*<br>
+*at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.ExecuteTest(ExecuteTestCommand command)*<br>
 
 The problem is that Jenkins slaves cannot be ran as service. This will cause the automation to fail with the above exception. In this case you should start Jenkins service headless.
 
