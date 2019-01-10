@@ -297,7 +297,6 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
-        editable: false
 -
     scope:
         path: knowledge-base
@@ -310,6 +309,7 @@ defaults:
 product: "Progress Test Studio"
 platform: teststudio
 main_theme: teststudio
+edit_repo_url: https://github.com/telerik/teststudio/edit/master/docs
 tabbed_code_marker_length: 3
 tabbed_code_complex_separator: true
 download: https://www.telerik.com/download-trial-file/v2/test-studio-ultimate
