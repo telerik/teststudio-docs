@@ -53,6 +53,7 @@ test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} jun
 https://confluence.atlassian.com/bamkb/junit-parser-failing-to-find-or-parse-test-results-935372076.html
 
 Source of the script:
+
 ```
 Write-Output $env:WORKDIR;
 
@@ -68,6 +69,7 @@ Foreach-Object {
 
 Save the script in desired location.
 Add following Environment variable to the task:
+
 ```
 WORKDIR=${bamboo.build.working.directory}
 ```

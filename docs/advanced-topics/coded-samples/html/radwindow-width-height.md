@@ -26,7 +26,6 @@ RadWindow window = Find.ById<RadWindow>("RadWindowWrapper_RadWindow_ContentTempl
 //First Option
 Assert.AreEqual(300, window.Width);
 ```
-
 ```VB
 Manager.LaunchNewBrowser()
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx")
@@ -37,6 +36,8 @@ Dim window As RadWindow = Find.ById(Of RadWindow)("RadWindowWrapper_RadWindow_Co
 
 Assert.AreEqual(300, window.Width)
 ```
+
+
 Invoking JavaScript on the page:
 
 ```C#
@@ -51,7 +52,6 @@ RadWindow window = Find.ById<RadWindow>("RadWindowWrapper_RadWindow_ContentTempl
 string windowWidth = this.ActiveBrowser.Actions.InvokeScript(String.Format("$telerik.getBounds($find('RadWindow_ContentTemplate').get_popupElement()).width"));
 Assert.AreEqual("300", windowWidth);
 ```
-
 ```VB
 Manager.LaunchNewBrowser()
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx")

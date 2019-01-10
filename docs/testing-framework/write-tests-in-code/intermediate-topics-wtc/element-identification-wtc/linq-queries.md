@@ -38,6 +38,8 @@ foreach (HtmlImage img in images)
     // Do what you want with each img.
 }
 ```
+
+
 We can also use lambda expressions like this:
 
 ```C#

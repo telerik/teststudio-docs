@@ -61,11 +61,16 @@ Dim app As WpfApplication = Manager.LaunchNewApplication(pinfo)
 
 Assert.IsNotNull(app)
 ```
+
+
 You can extend this code to include parameterization for the app's location. You can use data binding, for instance. Let's say your test is bound to a data sheet with a column named "paths":
+
 
 ```C#
 var pinfo = new System.Diagnostics.ProcessStartInfo(Data["paths"]);
 ```
+
+
 Of course this is only one of the possible solutions you can implement. If you need to use additional assemblies, <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">here</a> is how to do that in the Standalone version.
 
 [1]: /img/advanced-topics/coded-samples/wpf/parameterize-wpf-app/fig1.png

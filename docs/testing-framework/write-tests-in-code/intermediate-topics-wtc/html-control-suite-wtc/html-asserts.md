@@ -256,6 +256,8 @@ table.AssertTable().RowRange(ArtOfTest.Common.NumberRangeCompareType.OutsideRang
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.Contains, "TD5")
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.NotContain, "TD37")
 ```
+
+
 There are many other possible assert verification combinations built into the framework that you can take advantage of. The above examples are just a small subset of what is possible to help you get started implementing them in your code and crafting the kinds of verification you need for your particular website. Consult the API reference manual to learn about the other combinations.
 
 

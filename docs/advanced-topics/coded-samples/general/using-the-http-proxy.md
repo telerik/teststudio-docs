@@ -13,8 +13,11 @@ The Telerik Testing *Framework ArtOfTest.WebAii.Messaging.Http* namespace contai
 
 The project setting 'Use http proxy' enables the HTTP proxy for the use of the HTTP proxy classes in Test Studio coded steps. It functions like the following line from the HTTP Proxy code sample, which is only necessary in Telerik Testing Framework tests:
 
+
 ```C#
 // Override the settings you want. For example:
 settings.Web.UseHttpProxy = true;
 ```
+
+
 [1]: /img/advanced-topics/coded-samples/general/using-the-http-proxy/fig1.png

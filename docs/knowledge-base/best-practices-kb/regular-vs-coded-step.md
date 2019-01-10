@@ -31,6 +31,8 @@ HtmlImage logo = Find.ByExpression<HtmlImage>(@"src=//upload.wikimedia.org/wikip
 
 logo.AssertAttribute().Value("alt", ArtOfTest.Common.StringCompareType.Contains, "WikipediA");
 ```
+
+
 The first part of this code is Find Logic. This is one of the challenging aspects of of UI automation and a lot of the times you'll be unable to find a good way to identify an element. Particularly when no ID (HTML) or <a href="http://blogs.telerik.com/automated-testing-tools/posts/11-03-01/best-practices-element-identification-with-id-and-automationid" target="_blank">Automation ID</a> (Silverlight) has been implemented. Test Studio will do that for you, saving you a lot of work and improving the reliability of your test. Additionally, Test Studio allows you to control and change the Find Logic as seen <a href="/features/elements-explorer/find-element" target="_blank">here</a> and <a href="/features/project-settings/identification-logic" target="_blank">here</a>.
  
 Additionally using coded step increases the chances of hitting compilation errors and other errors related to building a test project.

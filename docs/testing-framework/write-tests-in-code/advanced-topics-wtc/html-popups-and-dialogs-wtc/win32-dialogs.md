@@ -18,7 +18,6 @@ ActiveBrowser.NavigateTo("<Place a Url to LogOn to here>");
 
 // Dialog should be automatically handled
 ```
-
 ```VB
 ' Add a logon dialog support with username/password
 Manager.DialogMonitor.AddDialog(New LogonDialog(ActiveBrowser, "<username>", "<password>", DialogButton.OK))
@@ -29,6 +28,8 @@ ActiveBrowser.NavigateTo("<Place a Url to LogOn to here>")
 
 ' Dialog should be automatically handled
 ```
+
+
 > **To compile the above code include the following using:**
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;

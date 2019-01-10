@@ -57,6 +57,7 @@ AndroidQuery query = new AndroidQuery(){Class="TYPE"};
 Dim query As New AndroidQuery()
 query.Class="TYPE"
 ```
+
 Queries for a class type will find views of that type, and views that derive from that type in their inheritance chain. It is possible to define a query that only locates views with an exact class type, excluding parent class types.
 
 ```C#
@@ -78,6 +79,8 @@ AndroidQuery query = new AndroidQuery(){Class="android.widget.Button", Propertie
 Dim query As New AndroidQuery() With {.Class = "android.widget.Button"}
 query.Properties.Add("text", "Button 1")
 ```
+
+
 You can query for a control using the id specified in a layout XML file. As an example, to query for the control specified as:
 
 ```XML
@@ -102,7 +105,6 @@ query.Properties.Add("ID", "myControl")
 //Finds the first android.widget.ExpandableListView, then search inside of it for android.widget.Button with index 10 
 AndroidQuery[] chainedQuery = new AndroidQuery[] { new AndroidQuery(){Class = "TYPE"}, new AndroidQuery() {Class = "TYPE", Index = 10} } ;
 ```
-
 ```VB
 Dim chainedQuery As AndroidQuery() = New AndroidQuery() {New AndroidQuery() With {.Class = "TYPE"}, New AndroidQuery() With {.Class = "TYPE", .Index=10}}
 ```
@@ -118,7 +120,6 @@ iOS queries are objects that define one or more properties to match in a UIView.
 ```C#
 IOSQuery query = new IOSQuery(){Properties = new Dictionary<string, string>(){ {  "propertyName1" , "expectedValue"}, {"propertyName2" , "expectedValue2"} } };
 ```
-
 ```VB
 Dim query As New IOSQuery()
 query.Properties.Add("propertyName1", "expectedValue")
@@ -143,6 +144,7 @@ IOSQuery query = new IOSQuery(){Class="TYPE", ExactClass = true};
 ```VB
 Dim query As New IOSQuery() With { .Class="Type", .ExactClass = True}
 ```
+
 Queries for class type can be combined with queries for property values.
 
 ```C#
@@ -162,7 +164,6 @@ query.Properties.Add("text", "Button 1")
 //Finds the first UITableView, then search inside of it for UITableViewCell with index 10 
 IOSQuery[] chainedQuery = new IOSQuery[] { new IOSQuery(){Class = "UITableView"}, new IOSQuery() {Class = "UITableViewCell", Index = 10} } ;
 ```
-
 ```VB
 Dim chainedQuery As IOSQuery() = New IOSQuery() {New IOSQuery() With {.Class = "UITableView"}, New IOSQuery() With {.Class = "UITableViewCell", .Index=10}}
 ```
@@ -170,7 +171,6 @@ Dim chainedQuery As IOSQuery() = New IOSQuery() {New IOSQuery() With {.Class = "
 <a href="#methodsSelect">Back to Top</a>
 <br>
 
-<a id="web"></a>
 ## Web
 
 Web queries are objects that define one or more properties to match in a **Html element**. If an element is found where all properties match, the requested operation is performed on that element. If multiple elements with matching properties are found, the operation is performed on the first element found to be a match.
@@ -196,6 +196,7 @@ Dim queryById As New WebQuery() With { .Id = "ui-autocomplete" }
 ```
 
 or by XPath
+
 
 ```C#
 //Search for html element with XPath @"//*[@id=""c1""]/div[1]/div[1]/a"
@@ -239,7 +240,6 @@ Dim chainedQuery As WebQuery() = New WebQuery() {New WebQuery() With { .
 <a href="#methodsSelect">Back to Top</a>
 <br>
 
-<a id="hybrid"></a>
 ## Hybrid
 
 Hybrid queries are a combination of native and web queries. A native query (iOS, Android) is needed to identify the native web view that hosts the app and a web query to identify a specific web element. If the hybrid app is hosted inside only one web view, then the native view query can be skipped:
@@ -251,7 +251,6 @@ this.ActiveDevice.Web.Tap(this.Elements.MyScreen.webview.BUTTON);
 // This will perform a web tap action on the provided element located inside a specific WebView object in the app.
 this.ActiveDevice.Web.Tap(this.Elements.MyScreen.webview.View, this.Elements.MyScreen.webview.BUTTON);
 ```
-
 ```VB
 ' Me.ActiveDevice.Web.Tap(Elements.MyScreen.webview.BUTTON)
 

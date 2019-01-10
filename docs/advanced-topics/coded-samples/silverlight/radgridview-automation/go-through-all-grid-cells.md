@@ -50,7 +50,6 @@ foreach (Telerik.WebAii.Controls.Xaml.GridViewRow gRow in rgv.Rows) { //Loop to 
     rowCounter++;
 }
 ```
-
 ```VB
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
 'Get Silverlight app              

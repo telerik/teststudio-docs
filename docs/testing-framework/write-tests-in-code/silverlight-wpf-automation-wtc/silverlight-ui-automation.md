@@ -68,6 +68,8 @@ Public Sub SampleWebAiiTest()
     Assert.IsTrue(app.Find.ByTextContent("p:Hello").TextContent.Equals("Hello Telerik"))
 End Sub
 ```
+
+
 Let's take a closer look at the code above line by line:
 
 * Line 8-12

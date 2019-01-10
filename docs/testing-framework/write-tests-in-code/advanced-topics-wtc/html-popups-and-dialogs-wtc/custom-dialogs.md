@@ -47,8 +47,6 @@ public bool MyCustomAlertHandler(IDialog dialog)
     }
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub DoCustomDialogHandlingForBuiltInDialogs()
@@ -83,6 +81,8 @@ Public Sub MyCustomAlertHandler(ByVal dialog As ArtOfTest.WebAii.Win32.Dialogs.I
   
 End Sub
 ```
+
+
 > **To compile the above code include the following using:**
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;

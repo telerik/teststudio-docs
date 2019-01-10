@@ -73,7 +73,8 @@ Log.WriteLine(dr.GetString(0).ToString());
 conn.Dispose();
 ```
 
->**Note**: This code won't run without modification. The database, table, and column in the original code won't exist in your environment unless you create the same database.
+
+>This code won't run without modification. The database, table, and column in the original code won't exist in your environment unless you create the same database.
 
 For additional help on using Oracle database please visit <a href="http://www.oracle.com/webfolder/technetwork/tutorials/obe/db/dotnet/GettingStartedNETVersion/GettingStartedNETVersion.htm" target="_blank">the Oracle official help page</a>.
 

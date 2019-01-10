@@ -54,7 +54,6 @@ public void MyCustomAlertHandler(IDialog dialog)
     dialog.HandleCount++;
 }
 ```
-
 ```VB
 Private dialogText As String
  
@@ -88,14 +87,16 @@ Public Sub MyCustomAlertHandler(dialog As IDialog)
     dialog.HandleCount += 1
 End Sub
 ```
+
+
 Ensure you add the following *using or Imports* statements to the top of the code-behind file. Click the **View Entire Code Behind File** button, scroll to the top of the code, and add these lines:
 
 ```C#
 using ArtOfTest.WebAii.Win32.Dialogs;
 using System.Windows.Forms;
 ```
-
 ```VB
 Imports ArtOfTest.WebAii.Win32.Dialogs
 Imports System.Windows.Forms
 ```
+

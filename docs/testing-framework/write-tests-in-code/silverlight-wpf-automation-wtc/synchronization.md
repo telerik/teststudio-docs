@@ -100,8 +100,6 @@ public bool myComparator(FrameworkElement elem)
     return elem.Visibility == ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible;
 }
 ```
- 
-
 ```VB
 Dim guideButton As FrameworkElement = app.FindName("guideButton")
     guideButton.Wait.[For](AddressOf myComparator)
@@ -110,6 +108,8 @@ Public Function myComparator(ByVal elem As FrameworkElement) As Boolean
     Return elem.Visibility = ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible
 End Function
 ```
+
+
 To do the same thing in a lambda expression would look like this:
 
 
@@ -117,8 +117,6 @@ To do the same thing in a lambda expression would look like this:
 FrameworkElement guideButton = app.FindName("guideButton");
 guideButton.Wait.For(new System.Predicate<FrameworkElement>((fe) => fe.Visibility == ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible));
 ```
- 
-
 ```VB
 Dim guideButton As FrameworkElement = app.FindName("guideButton")
 guideButton.Wait.[For](New System.Predicate(Of FrameworkElement)(Function(fe) fe.Visibility = ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible))

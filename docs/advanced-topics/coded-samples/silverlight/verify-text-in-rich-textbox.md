@@ -21,6 +21,8 @@ To make matters worse, the contents of the RichTextBox may not be contained in t
     </Paragraph>
 </RichTextBox>
 ```
+
+
 The application will show text as shown below.
 
 ![SL app][1]

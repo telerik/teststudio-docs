@@ -133,6 +133,8 @@ Public Function FindElementByTextContent(content As String) As FrameworkElement
     Return Nothing
 End Function
 ```
+
+
 Place this in the code-behind and then call this method from a coded step.
 
 [1]: /img/advanced-topics/coded-samples/silverlight/radgridview-automation/scrolling-paging/fig1.png

@@ -31,6 +31,8 @@ Suppose we have some HTML that looks like this:
        </div>
 </div>
 ```
+
+
 Here is how we can navigate around the DOM once we have a starting element:
 
 ```C#

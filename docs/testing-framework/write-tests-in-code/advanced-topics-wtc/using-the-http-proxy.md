@@ -87,6 +87,8 @@ settings.UseHttpProxy = True
 ' Now call Initialize again with your updated settings object
 Initialize(settings, New TestContextWriteLine(AddressOf Me.TestContext.WriteLine))
 ```
+
+
 Now that we have the HTTP proxy turned on we can start using it. Here's an example of how we would detect that a response coming back from the web server is an image response.
 
 ```C#

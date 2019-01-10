@@ -14,6 +14,8 @@ All the identification methods exposed by the 'Find' object described above use 
 Element e = Find.ByParam(new FindParam("div", 1,"class=myclass"));
 Assert.IsNotNull(e);
 ```
+
+
 Here are some other examples:
 
 ```C#
@@ -35,6 +37,7 @@ p.ContentType = FindContentType.InnerMarkup;
 e = Find.ByParam(p);
 Assert.IsNotNull(e);
 ```
+
 
 ##Chained Identification##
 

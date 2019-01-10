@@ -43,6 +43,7 @@ Once any custom targets are added to the user profile these will be displayed un
 
 __Example:__ The head section of a HTTP response's body is:
 
+
 ```
 <html>
 <head><title>Example ASP Scripts</title></head>
@@ -65,7 +66,10 @@ The only possible approach is to use the partial search using Regex. The standar
 ```
 domain=(.*?)$
 ```
+
+
 This returns the following match information:
+
 
 ```
 Full match	65-80	`domain=bing.com`
@@ -74,14 +78,18 @@ Group 1.	72-80	`bing.com`
 
 Using that standard regular expression in Test Studio will return the _Full match_ instead the value in _Group 1_. Therefore Test Studio uses \<val\> to express the first match group and the regular expression becomes:
 
+
 ```
 domain=(?<val>.*?)$
 ```
+
+
 - ___JSON___ - use <a href="http://goessner.net/articles/JsonPath/index.html#e3" target="_blank">JSONPath</a> to locate the desired value in response.
 
 - __\__XML___ - use <a href="https://msdn.microsoft.com/en-us/library/ms256122(v=vs.110).aspx" target="_blank">XPath</a> to locate the desired value in response.
 
 ## Destination Section Properties
+
 
 - **Step**: Step to pass the target to. Any step that follows the selected one for source and contains a HTTP request could be selected for destination step. The Think time steps are filtered out and not displayed in the dropdown.
 - **Field Type**: In what part of the HTTP request to include the custom dynamic target - Query Paramater, Header, Cookie, POST data, URL.

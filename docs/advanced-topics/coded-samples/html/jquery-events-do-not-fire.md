@@ -26,6 +26,8 @@ This is the HTML for the text input element:
 ```HTML
 Enter your name: <input class="field" type="text">
 ```
+
+
 Invoke the script that changes the background color with the following coded step:
 
 ```C#

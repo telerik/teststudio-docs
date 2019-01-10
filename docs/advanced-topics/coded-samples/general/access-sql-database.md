@@ -22,10 +22,11 @@ Ensure you add the *using* or *Imports* statement to the top of the code-behind 
 ```C#
 using System.Data.SqlClient;
 ```
-
 ```VB
 Imports System.Data.SqlClient;
 ```
+
+
 ##Sample Code##
 
 Here we've create a SQL database named **myFirstDB**. This database contains a table named **Table_1**. This table contains a column named **City**.
@@ -58,7 +59,6 @@ while (thisReader.Read())
 thisReader.Close();
 thisConnection.Close();
 ```
-
 ```VB
 'Define a new SQL connection with a connection string. 
 'The connection string will be different depending on your environment and the name of the database, table, etc.
@@ -82,7 +82,10 @@ End While
 thisReader.Close()
 thisConnection.Close()
 ```
+
+
 ###Write into SQL Database###
+
 
 ```C#
 //Define a new SQL connection with a connection string.
@@ -99,7 +102,6 @@ SqlCommand thisCommand = thisConnection.CreateCommand();
 thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')";
 thisCommand.ExecuteNonQuery();
 ```
-
 ```VB
 'Define a new SQL connection with a connection string.
 'The connection string will be different depending on your environment and the name of the database, table, etc.

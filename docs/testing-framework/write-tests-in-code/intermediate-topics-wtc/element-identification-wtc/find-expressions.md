@@ -52,6 +52,8 @@ innermarkup=hellothere
 name=~bar [name attribute partially contains bar]
 automationid=^hat [the automation id of an element starts with hat]
 ```
+
+
 **Note:** The optional operator is ALWAYS the first character after the = in the expression. This special character can be escaped with a preceding ' character if it is meant to be interpreted as a literal character.
 
 
@@ -167,8 +169,6 @@ HtmlFindExpression parentExpr = new HtmlFindExpression("id=foo1"); // matches [1
 // Note that HierarchyConstraints are [1] based. Zero signifies the target element or reference point.
 expression.AddHierarchyConstraint(new HierarchyConstraint(parentExpr, -2));
 ```
- 
-
 ```VB
 ' This expression will locate both p tags at [0] & [3]
 Dim expression As New HtmlFindExpression("class=bar", "tagname=div")
@@ -181,6 +181,8 @@ Dim parentExpr As New HtmlFindExpression("id=foo1")
 ' Note that HierarchyConstraints are [1] based. Zero signifies the target element or reference point.
 expression.AddHierarchyConstraint(New HierarchyConstraint(parentExpr, -2))
 ```
+
+
 The resulting expression now will match [3] ONLY.
  
 Here is a more involved scenario:
