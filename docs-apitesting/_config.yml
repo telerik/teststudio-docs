@@ -58,6 +58,7 @@ platform: "teststudio-apis"
 main_theme: teststudio
 has_api_reference: false
 tabbed_code_marker_length: 3
+edit_repo_url: https://github.com/telerik/teststudio/edit/master/docs-apitesting
 
 # The google services configuration
 google_tag_manager: GTM-6X92
