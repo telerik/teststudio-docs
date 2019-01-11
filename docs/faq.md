@@ -488,6 +488,12 @@ As with any other system, there are some guidelines to follow in order for you t
 
 
 <script>
+window.animateScrollTo = function(e) {
+    e.preventDefault();
+};
+
+$("body p.trigger > a[href^='#']").on('click', window.animateScrollTo);
+
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(){
