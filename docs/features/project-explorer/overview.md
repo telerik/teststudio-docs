@@ -8,11 +8,13 @@ position: 1
 ---
 # Project Explorer
 
-The Project Explorer pane shows a tree-like structure of your tests in the project. Tests can be added directly to the project, or logically grouped in folders. Double click opens the test. Folders in turn, can be nested forming hierarchical representation of your testing solution. If there are multiple folders expanded you can collapse these usign the Collapse button (available since release R1 2018).
+The Project Explorer pane shows a tree-like structure of your tests in the project. Tests can be added directly to the project, or logically grouped in folders. Double click opens the test. Folders in turn, can be nested forming hierarchical representation of your testing solution. If there are multiple folders expanded you can collapse these using the Collapse button (available as of release R1 2018 - v.2018.1.0130).
 
 ![Collapse Button][4]
 
 Each project file has a context menu with further actions that can be taken. Note that some context menu items will show up only for certain project file types.
+
+## Project Context Menu Options
 
 ![Project Context Menu][1]
 
@@ -34,8 +36,11 @@ Each project file has a context menu with further actions that can be taken. Not
 
 - **Close Project** - close the project.
 
+- **Edit Embedded Api Project** - open the embedded Api project, applicable if there is an <a href="/features/execute-apitest/add-api-test-as-step" target="_blank">Execute API Test as Step</a> in the project.
+
 - **Open Project Folder in Windows Explorer** - launch an explorer window with the project path loaded.
 
+## Test File Context Menu Options
 
 ![Test File Context Menu][2]
 
@@ -49,13 +54,21 @@ Each project file has a context menu with further actions that can be taken. Not
 
 - **Used By** - Active for test used in Test as Step and shows a list of all test containing a reference to that one.
 
-- **Properties** - show all test properties.
-
 - **In Development/Remove In Development** - Active for web and wpf tests and indicates whether the test will be included in compilation. **Load and Manual tests could not be set 'In Development' mode.**
 
-**In Development/Remove In Development** is also applicable for folders in Project Explorer providing both options. The option selected will be applied to all tests in the folder regardless their initial state.
+- **Exclude from Project** - remove the test or folder from the project, but keep it on disk.
+
+- **Properties** - show all test properties.
+
+## Folder File Context Menu Options
 
 ![Folder Context Menu][3]
+
+The folder context menu options are a mix of the Project and Test context menus options.
+
+> **In Development/Remove In Development** is also applicable for folders in Project Explorer providing both options. The option selected will be applied to all tests in the folder regardless their initial state.
+
+## General Context Menu Options
 
 - **Cut** - keyboard shortcut is Ctrl+X.
 
@@ -66,8 +79,6 @@ Each project file has a context menu with further actions that can be taken. Not
 - **Delete** - permanently remove the file or folder from disk.
 
 - **Rename** - edit the name of the test or folder.
-
-- **Exclude from Project** - remove the test or folder from the project, but keep it on disk.
 
 [1]: /img/features/project-explorer/overview/fig1.png
 [2]: /img/features/project-explorer/overview/fig2.png

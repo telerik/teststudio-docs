@@ -9,8 +9,6 @@ position: 1
 
 Connect with bug tracking applications to track bugs you encounter while testing your application. Test Studio has integration with the following bug trackers:
 
-
-- <a href="#tp">TeamPulse</a>
 - <a href="#tfs">Team Foundation Server</a>
 - <a href="#jira">JIRA</a>
 - <a href="#jira-cloud">JIRA Cloud</a>
@@ -49,17 +47,13 @@ Log bugs directly from Test Studio into defect tracking systems like TeamPulse a
 
 ![TFS Trackers][8]
 
-6.&nbsp; Enter the Server URL, TeamPulse credentials, and click **Connect**. Under the **Project Options** section, select the **Project**, **Severity**, and **Status**. Click **Save** <a name="tp"></a>.
-
-![Login to TP][9]
-
-7.&nbsp; Enter the Server URL, Username, Password, and click **Connect** <a name="jira"></a>.
+6.&nbsp; Enter the Server URL, Username, Password, and click **Connect** <a name="jira"></a>.
 
 ![Login to JIRA][10]
 
 > The format of the server URL requires http://jiraserver.com (dashboard or other links that end on *.jspa are not accepted).
 
-8.&nbsp; Select your project and click **Save**.
+7.&nbsp; Select your project and click **Save**.
 
 ![Login to JIRA Tracker][11]
 

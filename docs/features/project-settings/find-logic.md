@@ -3,7 +3,7 @@ title: Find Logic (Html)
 page_title: Find Logic (Html)
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 previous_url: /features/project-settings/identification-logic
-position: 3
+position: 4
 ---
 # Find Logic (Html)
 

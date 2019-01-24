@@ -3,7 +3,7 @@ title: Recording
 page_title: Recording
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 previous_url: /user-guide/project-settings/recording-options.aspx, /user-guide/project-settings/recording-options
-position: 1
+position: 2
 ---
 # Recording
 
@@ -11,7 +11,7 @@ Use Recording section to configure how recording will take place. Some of the op
 
 ![Recording Options][1]
 
-> As of version **R1 2016** **BaseUrl** and **Compare Mode** can be set directly from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+> As of version **R1 2016** **BaseUrl** and **Compare Mode** can be set directly from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
 ## BaseURL
 

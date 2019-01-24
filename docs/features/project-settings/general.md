@@ -1,15 +1,14 @@
 ---
-title: Others
-page_title: Others
+title: General
+page_title: General
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /features/project-settings/general
-position: 6
+position: 1
 ---
-# Others
+# General
 
-The Others section displays miscellaneous settings for specialized circumstances.
+The General section displays miscellaneous settings for specialized circumstances.
 
-![Others][1]
+![General][1]
 
 ## Highlighting
 
@@ -29,7 +28,7 @@ Use this feature to no longer receive certificate-related warnings when automati
 
 ## Http Proxy
 
-This property allows the user to specify whether to use the HTTP proxy in Quick Execution.
+This property allows the user to specify whether to <a href="/advanced-topics/coded-samples/general/using-the-http-proxy" target="_blank">use the HTTP proxy</a> in Quick Execution.
 
-[1]: /img/features/project-settings/others/fig1.png
-[2]: /img/features/project-settings/others/fig2.png
+[1]: /img/features/project-settings/general/fig1.png
+[2]: /img/features/project-settings/general/fig2.png

@@ -20,8 +20,8 @@ As of version 2015 R1 you can find the dialog steps in the <a href="/getting-sta
 
 <table id="no-table">
 <tr>
-<td>![Standalone][22]<br>**Standalone Version**</td>
-<td>![VS Plugin][23]<br>**VS Plugin**</td>
+<td>![Standalone][23]<br>**Standalone Version**</td>
+<td>![VS Plugin][24]<br>**VS Plugin**</td>
 </tr>
 <table>
 
@@ -100,9 +100,13 @@ Indicate multiple files for upload using space-separated quoted file paths.
 
 ## Download
 
-Saves a file hosted on the server locally to disk.
+Saves a file locally to disk.
 
 ![Download][21]
+
+The DownloadPath property is mandatory and needs to provide a full valid path where to save the file along with its name.
+
+![Download Step][22]
 
 [1]: /img/features/dialogs-and-popups/dialogs/fig1.png
 [2]: /img/features/dialogs-and-popups/dialogs/fig2.png
@@ -125,8 +129,6 @@ Saves a file hosted on the server locally to disk.
 [19]: /img/features/dialogs-and-popups/dialogs/fig19.png
 [20]: /img/features/dialogs-and-popups/dialogs/fig20.png
 [21]: /img/features/dialogs-and-popups/dialogs/fig21.png
-[22]: /img/features/dialogs-and-popups/dialogs/fig22.png
-[23]: /img/features/dialogs-and-popups/dialogs/fig23.png
-
-
-
+[22]: /img/features/dialogs-and-popups/dialogs/fig21a.png
+[23]: /img/features/dialogs-and-popups/dialogs/fig22.png
+[24]: /img/features/dialogs-and-popups/dialogs/fig23.png

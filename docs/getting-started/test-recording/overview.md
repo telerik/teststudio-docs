@@ -9,13 +9,13 @@ position: 0
 
 > Once a recording session is started **do not start another instance of the same browser** until the session is finished! 
 
-There are two ways to initiate recording. You can either launch a new browser instance with the recording toolbar attached, or you can attach the recording toolbar to an existing browser instance (IE only or WPF application).
+There are two ways to initiate recording. You can either launch a new browser instance with the recording toolbar attached, or you can attach the recording toolbar to an existing browser instance (applicable for IE only or WPF application).
 
 ## **2016 R3 Version and Later** ##
 
 ## Launch New Recording Browser ##
 
-1.&nbsp;  Click the **Record** button or press **CTRL+R**.
+1.&nbsp;  Double click the newly created test to open it. Click the ***Record*** button in the *Tests* ribbon or press **CTRL+R**.
 
 <table id=no-table>
 	<tr>
@@ -24,25 +24,30 @@ There are two ways to initiate recording. You can either launch a new browser in
 	</tr>
 <table>
 
-2.&nbsp; Type the URL you want to navigate to, select the recording browser and press Enter / Record button. You can choose a URL from your recent URLs.
+2.&nbsp; In the next dialog type the URL you want to navigate to, select the recording browser and press Enter or the *Record* button. You can choose a URL from your recent URLs.
 
-**Note**: Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+> **Note**: Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
-![Choose browser][12] 
+![Choose browser][12]
 
-If you enable **Save my choice for the future** or you have set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a> the Record button in <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> Standalone will display the icon for the default browser. 
+If you enable **Save my choice for the future** or you have set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a> the ***Record*** button in the Test Studio project will display the icon for the selected default browser.
 
 ![Choose preferred browser][13]
 
-3.&nbsp; A recording step is added to the Steps pane and the recorder is attached to the browser.
+3.&nbsp; Once the selected browser navigates to the desired page, the recorder gets attached to it, a navigate step gets recorded in the Steps pane and you can continue recording the next actions as per the required scenario.
 
 ![Attached recorder][14]
 
-## Attach to Existing Instance (IE only) ##
+## Attach to Existing Instance (Applicable for IE Only or WPF Application) ##
 
-Click the drop-down arrow on the **Record** button to see a list of available IE browser instances or WPF applications. Select one to attach the recorder to that instance.
+Click the drop-down arrow on the ***Record*** button to see a list of available IE browser instances or WPF applications. Select one to attach the recorder to that instance.
 
-![Attache to existing instance][15]
+<table id=no-table>
+	<tr>
+		<td>![Attach to running browser][15] <br><br>**Web Test - Internet Explorer only**</td>
+		<td>![Attach to running WPF instance][16] <br><br>**WPF Test - connect to running WPF application instance**</td>
+	</tr>
+<table>
 
 ## **2016 R2 Version and Lower** ##
 
@@ -116,3 +121,4 @@ To end recording, simply close the IE window or WPF application that has the rec
 [13]: /img/getting-started/test-recording/overview/fig13.png
 [14]: /img/getting-started/test-recording/overview/fig14.png
 [15]: /img/getting-started/test-recording/overview/fig15.png
+[16]: /img/getting-started/test-recording/overview/fig15a.png
