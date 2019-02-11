@@ -28,4 +28,4 @@ Start the Feedback Listener process manually from the following location, then l
 
 - You may need to right click *Telerik.TestStudio.Feedback.Listener.exe* and select <a href="http://www.sevenforums.com/tutorials/11841-run-administrator.html" target="_blank">Run as Administrator</a>. Then launch the browser in the same fashion.
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.

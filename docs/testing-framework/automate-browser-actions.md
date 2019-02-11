@@ -99,8 +99,6 @@ ActiveBrowser.Actions.SelectDropDown(selection, "test", true);
 string textSelected = ActiveBrowser.GetSelectedText();   
 Assert.AreEqual("test", textSelected, "Actual test is \"{0}\"", textSelected);
 ```
- 
-
 ```VB
  
 ActiveBrowser.NavigateTo("http://www.google.com")
@@ -197,8 +195,6 @@ input1.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementTopAtWin
 Manager.Desktop.Mouse.Click(MouseClickType.LeftClick, input1.GetRectangle());
 Manager.Desktop.KeyBoard.TypeText("Hello there", 100);
 ```
- 
-
 ```VB
 ActiveBrowser.Actions.ScrollToVisible(input1)
 Manager.Desktop.Mouse.Click(MouseClickType.LeftClick, input1.GetRectangle())
@@ -229,8 +225,6 @@ Element mydestination = ActiveBrowser.Find.ById("mydestinationlocation");
 Manager.Desktop.Mouse.DragDrop(mywindow.GetRectangle(), new System.Drawing.Point(0, 2), OffsetReference.TopCenter,
     mydestination.GetRectangle(), new System.Drawing.Point(0, 0), OffsetReference.AbsoluteCenter);
 ```
- 
-
 ```VB
 ' get the window element we are trying to drag.
 Dim mywindow As Element = ActiveBrowser.Find.ByName("mydraggablewindow")

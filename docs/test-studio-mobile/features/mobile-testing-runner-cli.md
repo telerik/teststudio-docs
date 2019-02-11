@@ -122,7 +122,7 @@ The following command will run a test list on the first valid device connected t
 	"C:\Program Files (x86)\Telerik\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /list=AllAndroidTests.mtlist  /runName=AndroidListIteration1   /ouput="c:\mobileTestingResults\androidSingleTestRun.mtresult"
 
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 [1]: http://www.mono-project.com/download/
 

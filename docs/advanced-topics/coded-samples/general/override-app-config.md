@@ -30,7 +30,6 @@ string pw = config.AppSettings.Settings["Pass"].Value;
 string UserId = config.AppSettings.Settings["UserId"].Value;
 string conn = config.ConnectionStrings.ConnectionStrings["ConnectionString"].ConnectionString;
 ```
-
 ```VB
 Dim [me] As Assembly = Assembly.GetExecutingAssembly()
 Dim config As Configuration = ConfigurationManager.OpenExeConfiguration([me].ManifestModule.Assembly.Location)

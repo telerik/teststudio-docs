@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/general/extracted-variables-in-code.aspx, /user-guide/code-samples/general/extracted-variables-in-code
 position: 1
 ---
-#Get/Set Extracted Variables in Code#
+# Get/Set Extracted Variables in Code #
 
 Use the *SetExtractedValue()* method to set the value of an extraction variable so it can be used later in a standard action or verification step:
 
@@ -13,7 +13,6 @@ Use the *SetExtractedValue()* method to set the value of an extraction variable 
 string area = "Atlanta";
 SetExtractedValue("extractedID", area);
 ```
-
 ```VB
 Dim area As String = "Atlanta"
 SetExtractedValue("extractedID", area)
@@ -24,7 +23,6 @@ Use the *GetExtractedValue()* method to use the extracted variable in a coded st
 ```C#
 object myData = GetExtractedValue("varname");
 ```
-
 ```VB
 Dim myData As Object = GetExtractedValue("varname")
 ```

@@ -9,7 +9,6 @@ position: 1
 
 Throughout the Telerik Testing Framework tutorials, we've been focusing only on the single browser instance 'ActiveBrowser,' given that it is the most common usage in web automation. Multi-browser instance automation within one session of the Manager object is supported, however. Having different types of browsers being automated within the same session is also supported. For example, within one test case session, you can automate two Internet Explorer browser instances and one Firefox instance all running concurrently. Such types of automation might not be very common but might be useful for certain specialized scenarios. (i.e. you could use this feature to do bitmap comparison across different browser types by capturing browser images from one instance and comparing it to the captured image from another instance).
 
-
 ##How It Works##
 
 The 'Manager' object is the main object that keeps tracks of all active browser instances using the Manager.Browsers[] collection. Users can launch as many instances as they want by using the 'Manager.LaunchNewBrowser()' method. Each time a new browser is launched, the 'Manager' creates the new 'Browser' object corresponding to that browser instance and adds it to the Browsers[] collection. The 'ActiveBrowser' property exposed off the 'Manager' is actually the last launched browser and should be the last browser instance in the 'Browsers[]' collection.
@@ -57,8 +56,6 @@ ie.Window.SetFocus();
 // browser has actually closed and its handle is no longer visible.
 ff.Close(40);
 ```
- 
-
 ```VB
 ' Launch a new instance of IE
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)

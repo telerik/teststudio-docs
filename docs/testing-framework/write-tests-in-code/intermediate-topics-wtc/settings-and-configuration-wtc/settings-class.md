@@ -29,9 +29,7 @@ mySettings.ClientReadyTimeout = 60000;
   
 // Use my Settings object to construct my Manager object
 Manager myManager = new Manager(mySettings);
-```
- 
-
+``` 
 ```VB
 ' Create my own Settings object and then modify the defaults
 Dim mySettings As New Settings()
@@ -58,8 +56,6 @@ settings.UseHttpProxy = true;
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(this.TestContext.WriteLine));
 ```
- 
-
 ```VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
@@ -83,8 +79,6 @@ Lastly you can modify most of the settings after your test is already initialize
 Manager.Settings.AnnotateExecution = true;
 Manager.Settings.DefaultBrowser = BrowserType.FireFox;
 ```
- 
-
 ```VB
 Manager.Settings.AnnotateExecution = True
 Manager.Settings.DefaultBrowser = BrowserType.FireFox
@@ -98,9 +92,9 @@ The RecycleBrowser feature was added in version 2.0. Using it can significantly 
 
 There are a just a couple of things you need to be aware of to properly use the RecycleBrowser feature:
 
-1. When RecycleBrowser is active, any Manager.LaunchNewBrowser or Browser.Close() calls will be ignored.
+1.&nbsp; When RecycleBrowser is active, any Manager.LaunchNewBrowser or Browser.Close() calls will be ignored.
 
-2. You must call the base classes ShutDown() method in the test fixture teardown section to properly the browser window at the end of the test suite. If you miss this then browser windows will be left behind after your test suite has finished and exited.
+2.&nbsp; You must call the base classes ShutDown() method in the test fixture teardown section to properly the browser window at the end of the test suite. If you miss this then browser windows will be left behind after your test suite has finished and exited.
 
 ##Restoring Default Settings##
 
@@ -109,8 +103,6 @@ If it ever becomes necessary you can restore all the settings (except for those 
 ```C#
 Manager.Settings.Reset();
 ```
- 
-
 ```VB
 Manager.Settings.Reset()
 ```

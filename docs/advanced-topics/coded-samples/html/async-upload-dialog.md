@@ -22,7 +22,6 @@ Manager.Current.DialogMonitor.Stop();
 Manager.Current.DialogMonitor.RemoveDialog(uploadDialog);
 }
 ```
-
 ```VB
 Public Sub Upload(index As Integer, filePath As String)
     Dim uploadDialog As New FileUploadDialog(OwnerBrowser, filePath, DialogButton.OPEN, Me.UploadDialogTitle)

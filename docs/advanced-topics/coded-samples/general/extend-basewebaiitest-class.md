@@ -10,11 +10,11 @@ A possible scenario is to use same functionality in most of the tests in the pro
 
 Steps to implement such approach are as follows:
 
-1. Create a new project
+1.&nbsp; Create a new project
 
-1. Add a <a href="/features/coded-steps/standalone-code-file" target="_blank">stand alone class file</a> *ExtendedBaseWebAiiTest* which inherits from the abstract class *BaseWebAiiTest*. A sample implementation of such file containing the method *PrintMessage()* is given below:
+2.&nbsp; Add a <a href="/features/coded-steps/standalone-code-file" target="_blank">stand alone class file</a> *ExtendedBaseWebAiiTest* which inherits from the abstract class *BaseWebAiiTest*. A sample implementation of such file containing the method *PrintMessage()* is given below:
 
-	```C#
+```C#
 	using ArtOfTest.WebAii.Design;
 	
 	namespace ExtendBaseWebAiiTestProject
@@ -28,8 +28,8 @@ Steps to implement such approach are as follows:
         	}
     	}
 	}
-	```
-	```VB
+```
+```VB
 	Imports ArtOfTest.WebAii.Design
 	
 	Namespace ExtendBaseWebAiiTestProject
@@ -42,14 +42,15 @@ Steps to implement such approach are as follows:
 	        End Sub
 	    End Class
 	End Namespace
-	```
+```
 
-1. Close the project and edit project settings file (Settings.aiis - located in the project folder) to use *ExtendedBaseWebAiiTest* as a base class to each test in the project as shown on the next screen-shot:
+3.&nbsp; Close the project and edit project settings file (Settings.aiis - located in the project folder) to use *ExtendedBaseWebAiiTest* as a base class to each test in the project as shown on the next screen-shot:
 
-	![Settings file][1]
+![Settings file][1]
 
-1. Re-open the project, add a WebTest and a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside. Then in the step it will be available the *PrintMessage()* defined in the *ExtendedBaseWebAiiTest* class. Bellow is given a sample of the code behind file of the WebTest. 
-	```C#
+4.&nbsp; Re-open the project, add a WebTest and a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside. Then in the step it will be available the *PrintMessage()* defined in the *ExtendedBaseWebAiiTest* class. Bellow is given a sample of the code behind file of the WebTest.
+
+```C#
 	using ArtOfTest.WebAii.Core;
 	using ArtOfTest.WebAii.Design.Execution;
 	
@@ -64,8 +65,8 @@ Steps to implement such approach are as follows:
 	        }
 	    }
 	}
-	```
-	```VB
+```
+```VB
 	Imports ArtOfTest.WebAii.Core
 	Imports ArtOfTest.WebAii.Design.Execution
 	
@@ -80,8 +81,6 @@ Steps to implement such approach are as follows:
 	        End Sub
 	    End Class
 	End Namespace
-	```
-
-<br/>
+```
 
 [1]: /img/advanced-topics/coded-samples/general/extend-BaseWebAiiTest-class/fig1.png

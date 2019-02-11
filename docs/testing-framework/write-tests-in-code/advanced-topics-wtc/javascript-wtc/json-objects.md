@@ -24,8 +24,6 @@ public void KeyValuePairs()
     Assert.AreEqual<string>("value2", o["root"]["key2"]);
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub KeyValuePairs()
@@ -60,8 +58,6 @@ public void ReturnObject()
     Assert.AreEqual<int>(15, o.Fifteen);
 }
 ```
- 
-
 ```VB
 <DataContract()> _
 Public Class MyObject
@@ -108,8 +104,6 @@ double val = arr[i];
 Log.WriteLine(val.ToString());
 }
 ```
- 
-
 ```VB
 Dim actions = Manager.Current.ActiveBrowser.Actions
 Dim result As JsonObject = actions.InvokeScript(Of JsonObject)("window.my_list=[1,2,3]")

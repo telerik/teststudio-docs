@@ -283,7 +283,6 @@ Let's put together our custom HtmlControl that we can use interact with an ASP.N
            }
        }
 ```
-
 ```VB
    Public Class AspNetCalendar
         Inherits HtmlTable

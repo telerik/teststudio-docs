@@ -39,7 +39,6 @@ Manager.DialogMonitor.RemoveDialog(ad);
  
 ActiveBrowser.NavigateTo("http://www.bing.com");
 ```
-
 ```VB
 ActiveBrowser.NavigateTo("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert")
  

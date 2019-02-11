@@ -12,7 +12,7 @@ Quick execution allows you to easily find out if a test is configured and design
 
 ## Execute a Test
 
-1.&nbsp; Once a test scenario is already recorded click the **Execute** button in the test step pane.
+1.&nbsp; Once a test scenario is already recorded, click the **Execute** button in the test step pane.
 
 ![Execute button][2]
 
@@ -20,7 +20,7 @@ Quick execution allows you to easily find out if a test is configured and design
 
 ![Select browser][3]
 
-2.&nbsp; The Test Studio Dev Test Runner launches first in a command prompt window. This calls the applicable browser or application.
+2.&nbsp; The Test Studio Dev Test Runner launches first in a command prompt window. This calls the set browser or application.
 
 ![Test Runner][4]
 
@@ -38,19 +38,19 @@ Click **Toggle Annotation** button to have the browser annotate each step with a
 
 ## Debugger Options
 
-Click **Debugger Options** icon to customize Auto-Pause Options if errors occur during the execution.
+Click **Debugger Options** icon to to turn the debugger on/off and customize the Auto-Pause Options, if errors occur during the execution.
 
 ![Debugger options][9]
 
 ## Execution Timeouts
 
-Quick access to change the default Timeouts for **Wait on elements** and **Client ready** is also available through the test step pane.
+Quick access to change the default timeouts for **Wait on elements** and **Client ready** is also available through the test step pane.
 
 ![Timeouts][10]
 
 ## Execution Results 
 
-Afterwards when the test execution is complete test results are automatically generated and can be reviewed. Click **View Log** for test results details.
+Afterwards, when the test execution is complete, test results are automatically generated and can be reviewed. Click **View Log** for test results details.
 
 ![View log][6]
 

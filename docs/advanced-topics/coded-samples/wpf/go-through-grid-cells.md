@@ -35,7 +35,6 @@ foreach (Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow gRow in grid.Rows)
     rowCounter++;
 }
 ```
-
 ```VB
 Dim app As WpfApplication = Manager.ActiveApplication
 Assert.IsNotNull(app)

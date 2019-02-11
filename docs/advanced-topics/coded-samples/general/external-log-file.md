@@ -46,7 +46,6 @@ public override void OnAfterTestCompleted(TestResult result)
     file.Close();
 }
 ```
-
 ```VB
 Public Property stepResults() As IList(Of AutomationStepResult)
     Get
@@ -79,7 +78,7 @@ Finally you'll need to <a href="/advanced-topics/coded-steps/add-assembly-refere
 
 *	**C:\Program Files (x86)\Telerik\Test Studio\Bin**
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 ##Excel File##
 
@@ -123,7 +122,6 @@ public override void OnAfterTestCompleted(TestResult result)
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
 }
 ```
-
 ```VB
 Public Overrides Sub OnAfterTestCompleted(result As TestResult)
     Dim passed As String = Convert.ToString(result.TotalPassedSteps)

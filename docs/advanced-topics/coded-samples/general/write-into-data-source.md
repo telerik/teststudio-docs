@@ -64,7 +64,6 @@ excelApp.Quit();
 GC.Collect();
 System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
 ```
-
 ```VB
 Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\domainResults.xlsx"
 Dim myPath As String = "C:\domainResults.xlsx"

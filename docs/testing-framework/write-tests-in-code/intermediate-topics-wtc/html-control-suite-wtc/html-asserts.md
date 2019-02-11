@@ -199,8 +199,6 @@ table.AssertTable().RowRange(ArtOfTest.Common.NumberRangeCompareType.OutsideRang
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.Contains, "TD5");
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.NotContain, "TD37");
 ```
- 
-
 ```VB
 ' Attribute checks
 Dim span As HtmlSpan = Find.ById(Of HtmlSpan)("Warning")

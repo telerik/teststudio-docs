@@ -42,4 +42,3 @@ Inserting an _Inspection Point_ step will pause the test and display the DOM Exp
 The test will remain paused until you close the DOM Explorer window.
 
 ![DOM Window at Paused Test](images/inspect-dom-test-paused.png)
-

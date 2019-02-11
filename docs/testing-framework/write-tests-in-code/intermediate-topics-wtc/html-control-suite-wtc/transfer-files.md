@@ -16,8 +16,6 @@ Find.ByTagIndex<HtmlInputFile>("input", 0).Upload(
 // Initiate a file download. Download will not return until the download is complete.
 Find.ByTagIndex<HtmlAnchor>("a", 0).Download(false, DownloadOption.Save, saveLocation, 20000);
 ```
- 
-
 ```VB
 ' Initiate a file upload
 Find.ByTagIndex(Of HtmlInputFile)("input", 0).Upload( _
@@ -26,5 +24,3 @@ Find.ByTagIndex(Of HtmlInputFile)("input", 0).Upload( _
 ' Initiate a file download. Download will not return until the download is complete.
 Find.ByTagIndex(Of HtmlAnchor)("a", 0).Download(False, DownloadOption.Save, saveLocation, 20000)
 ```
-
-

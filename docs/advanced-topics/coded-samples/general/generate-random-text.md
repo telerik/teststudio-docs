@@ -37,7 +37,6 @@ string randomText = new String(Enumerable.Repeat(charSet, length).Select(set => 
 Find.ById<HtmlInputText>("sb_form_q").Text = randomText;
 Find.ById<HtmlInputSubmit>("sb_form_go").Click();
 ```
-
 ```VB
 ActiveBrowser.NavigateTo("http://www.bing.com")
  

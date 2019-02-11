@@ -107,8 +107,6 @@ namespace WebTesting
         }
         #endregion
 ```
- 
-
 ```VB
 Public Class FFDownloadsDialog
     Implements ArtOfTest.WebAii.Win32.Dialogs.IDialog

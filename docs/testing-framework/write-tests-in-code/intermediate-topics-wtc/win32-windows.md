@@ -40,8 +40,6 @@ foreach (Window win in winManager.Items)
 Window vsWindowRecur = WindowManager.FindWindowRecursively(
      IntPtr.Zero, "Microsoft Visual Studio", true, 0);
 ```
- 
-
 ```VB
 Dim vsWindow As Window = Nothing
   

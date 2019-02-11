@@ -1,14 +1,14 @@
 ---
-title: Others
-page_title: Others | Test Studio Dev Documentation
+title: General
+page_title: General | Test Studio Dev Documentation
 description: Miscellaneous settings in Test Studio Dev
-position: 6
+position: 1
 ---
-# Others Tab in Project Settings
+# general Tab in Project Settings
 
-The Others section provides miscellaneous settings for other specific circumstances.
+The General section provides miscellaneous settings for other specific circumstances.
 
-![Others][1]
+![general][1]
 
 ## Highlighting
 
@@ -30,5 +30,9 @@ Use this feature to no longer receive certificate-related warnings when automati
 
 This property allows the user to specify whether to use the HTTP proxy in Quick Execution.
 
-[1]: images/others/fig1.png
-[2]: images/others/fig2.png
+## Track Active File
+
+This property is useful for large projects, which contain multiple tests. If enabled, this will highlight the currently opened and active test file within the Project Explorer.
+
+[1]: images/general/fig1.png
+[2]: images/general/fig2.png

@@ -28,7 +28,7 @@ position: 9
 
 ![Configure CLI step][5]
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 When you choose to save the step you could rename it with a meaningful to you name. 
 

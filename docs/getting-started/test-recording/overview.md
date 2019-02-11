@@ -49,7 +49,7 @@ Click the drop-down arrow on the ***Record*** button to see a list of available 
 	</tr>
 <table>
 
-## **2016 R2 Version and Lower** ##
+## **2016 R2 Version and Earlier** ##
 
 ## Launch New Recording Browser ##
 

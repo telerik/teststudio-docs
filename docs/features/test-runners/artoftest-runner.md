@@ -11,7 +11,7 @@ The ArtOfTest.Runner.exe is installed in your <a href="http://www.telerik.com/te
 
 - **C:\Program Files (x86)\Telerik\Test Studio\Bin**
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 When working with the execution engine in the command prompt always make sure you have started it as Administrator and have the root directory in context as shown below so that you can call the runner directly.
 

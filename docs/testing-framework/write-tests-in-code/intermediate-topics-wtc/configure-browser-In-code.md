@@ -22,7 +22,6 @@ Manager.ConfigureBrowser(BrowserType.Safari, out error);
 // to configure Edge
 Manager.ConfigureBrowser(BrowserType.MicrosoftEdge, out error);
 ```
-
 ```VB
 Dim error As String
 Manager.ConfigureBrowser(BrowserType.FireFox, error)

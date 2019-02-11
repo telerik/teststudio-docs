@@ -8,13 +8,13 @@ position: 3
 
 Once you have found an element you can then interact with it. Many different types of interactions are supported like clicking, mouse hover over, mouse wheel-related actions, keyboard clicks etc.
 
-1. <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Clicking-On-an-Element">Clicking On an Element</a> - invoke a click on a FrameworkElement.
+1.&nbsp; <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Clicking-On-an-Element">Clicking On an Element</a> - invoke a click on a FrameworkElement.
 
-2. <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Sending-Text-to-a-Control">Sending Text to a Control</a> - type text content into a FrameworkElement.
+2.&nbsp; <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Sending-Text-to-a-Control">Sending Text to a Control</a> - type text content into a FrameworkElement.
 
-3. <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Mouse-Actions">Mouse Actions</a> - invoking different mouse actions on FrameworkElement.
+3.&nbsp; <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Mouse-Actions">Mouse Actions</a> - invoking different mouse actions on FrameworkElement.
 
-4. <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Framework-Element-Properties-and-Actions">Framework Element Properties and Actions.</a>
+4.&nbsp; <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Framework-Element-Properties-and-Actions">Framework Element Properties and Actions.</a>
 	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#UI-Element-Actions">UI Element Actions</a> - understanding wrappers.
 	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Telerik-Testing-Framework-Specific-Properties">Telerik Testing Framework Specific Properties</a> - commonly used Properties of Telerik's FrameworkElement.
 	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Telerik-Testing-Framework-Specific-Methods">Telerik Testing Framework Specific Methods</a> - commonly used Methods of Telerik's FrameworkElement.
@@ -34,8 +34,6 @@ app.Find.ByName("guideButton").User.Click();
 app.Find.ByName("guideButton").User.Click(MouseClickType.RightClick,
      new System.Drawing.Point(5, 5), OffsetReference.AbsoluteCenter);
 ```
- 
-
 ```VB
 'In this example app can be a Silverlight application or the MainWindow of a WPF application 
 ' Click the ShowGuide button.
@@ -59,8 +57,6 @@ searchText.User.KeyPress(System.Windows.Forms.Keys.L, 100);
 searchText.User.KeyDown(System.Windows.Forms.Keys.L);
 searchText.User.KeyUp(System.Windows.Forms.Keys.L);
 ```
- 
-
 ```VB
 searchText.User.TypeText("Abe Lincoln", 100)
  
@@ -81,8 +77,6 @@ admin1.User.MouseEnter(OffsetReference.LeftCenter);
 admin1.User.MouseLeave(OffsetReference.RightCenter);
 admin1.User.TurnMouseWheel(5, MouseWheelTurnDirection.Backward, false);
 ```
- 
-
 ```VB
 admin2.Find.ByType("Thumb").User.DragTo(admin3.Find.ByType("Thumb"))
 admin1.User.HoverOver()
@@ -201,8 +195,6 @@ string flightNo = (string)ticket.GetProperty(flightNoProperty);
 // Update the flight number on the ticket
 ticket.SetProperty(flightNoProperty, "HX-1572");
 ```
- 
-
 ```VB
 ' Fetch the flight number from the ticket
 Dim ticket As FrameworkElement = app.FindName("airlineTicket")
@@ -224,8 +216,6 @@ searchScroll = app.FindName().Find.ByType<>();
 AutomationMethod scrollVert = new AutomationMethod("ScrollToVerticalOffset", null);
 searchScroll.InvokeMethod(scrollVert, 2000);
 ```
- 
-
 ```VB
 Dim searchScroll As ScrollViewer = app.FindName("patientSearchScroller").Find.ByType(Of ScrollViewer)()
  

@@ -15,8 +15,6 @@ Given that HTML pop-up dialogs are launched through some actions on the page and
 ```C#
 Manager.SetNewBrowserTracking(true);
 ```
- 
-
 ```VB
 Manager.SetNewBrowserTracking(true)
 ```
@@ -77,8 +75,6 @@ ActiveBrowser.Close();
 Assert.IsTrue(Manager.Browsers.Count == 1);
 Assert.IsTrue(ActiveBrowser.Url.Contains("PAGE_NAME.com"));
 ```
- 
-
 ```VB
 ' Set new browser tracking to enabled.
 ' This will make all new browser instances connect to
@@ -115,8 +111,6 @@ Sometimes you need to close the popup by clicking on a button instead of just cl
 ```C#
 Find.ById<HtmlInputButton>("button1").Click(true);  // Here we tell the framework that this click causes the browser window to close
 ```
- 
-
 ```VB
 Find.ById(Of HtmlInputButton)("button1").Click(True)    ' Here we tell the framework that this click causes the browser window to close
 ```

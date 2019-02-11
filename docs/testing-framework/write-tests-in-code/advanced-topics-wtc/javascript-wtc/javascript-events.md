@@ -26,8 +26,6 @@ me.Type = "mouseover";
 me.SetRelatedTarget(body1);
 area1.InvokeEvent(me);
 ```
- 
-
 ```VB
 ' Invoke the OnFocus event
 Dim b As HtmlButton = Find.ById(Of HtmlButton)("b")
@@ -59,8 +57,6 @@ private void OnClick(object sender, JavascriptEventArgs e)
     _clickARE.Set();
 }
 ```
- 
-
 ```VB
 Private _clickHandled As Boolean
 _clickHandled
@@ -95,8 +91,6 @@ public void ClickHandler()
     Assert.IsTrue(_clickHandled);
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub ClickHandler()

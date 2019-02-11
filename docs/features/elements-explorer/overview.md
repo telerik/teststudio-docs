@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/elements-pane-overview.aspx, /user-guide/elements-pane-overview
 position: 0
 ---
-# Elements Explorer
+# Elements Explorer #
 
 The Elements Explorer is similar to the DOM Explorer in that it displays a tree of elements, but the Elements Explorer only contains elements you want to use in your tests. Also, the elements in the tree view have properties that are more specific to testing. Although elements may be used in several tests and test steps, each element is shown only once in the Elements Explorer.
 
-You can find the Elements Explorer under the Elements tab on the left bottom pane.
+You can find the Elements Explorer under/next to the Project's Explorer on the left bottom pane.
 
 ![Standalone Version][1]
 
@@ -19,7 +19,9 @@ You can find the Elements Explorer under the Elements tab on the left bottom pan
 
 **VS Plugin**
 
-The Elements tab, maintains a list of all Elements within the current project. It provides a one-stop shop to view elements and edit the way they are found during execution. 
+The Elements tab, maintains a list of all Elements within the current project. It provides a one-stop shop to view elements and edit the way they are found during execution.
+
+## Element's Explorer Menu Bar ##
 
 The Elements menu bar ![Elements bar][3] has the following buttons:
 
@@ -32,6 +34,8 @@ The Elements menu bar ![Elements bar][3] has the following buttons:
 - **Expand/Collapse** - show or hide all elements under their respective page nodes.
 - **This Test/All Tests** - show elements for the currently loaded test only, or the elements for every test in the project.
 
+## Hierarchy of Recorded Elements ##
+
 <table id="no-table">
 <tr>
 <td>![HTML Tree View][4]<br>**HTML Tree View**</td>
@@ -40,29 +44,34 @@ The Elements menu bar ![Elements bar][3] has the following buttons:
 </tr>
 <table>
 
-
 - The HTML tree view is organized by **Page > Frame > Test Regions > Element**.
 - The Silverlight tree view is organized by **Page > Frame > SilverlightApp > Element**.
 - The WPF tree view is organized by **Application > Window > Element**.
 
 The hierarchy is maintained according to where the element is located on the page. For example, if there are no frames or regions, then elements for that particular page will be listed under the Page node.
 
+## Element's Explorer Context Menu ##
+
+### Page Node Context Menu ###
+
 Right click a Page node to see a context menu with these active choices:
 
-![Elements][7]
+![Page Node][7]
 
 - **Validate** - validate all elements in the page node against the currently loaded page. Requires the page to be loaded in the recording window. Results indicated with green checks and red X's. 
 - **Rename** - alters the Friendly Name.
 - **Load Page** - loads the URL to which the page belongs in the recording window.
-- **Properties** - makes the Properties pane active. 
+- **Properties** - makes the Properties pane active.
+
+### Element Context Menu ###
 
 Each Element node has a context menu with these active choices:
 
 ![Elements][8]
 
 - **Edit Element** - loads the Find Element menu to choose where and how to locate this element in your web page or application.
-- **Edit in Live** - locate the element in the currently loaded page.
-- **Used By** - loads the Test Step Selector and displays all tests and their steps that contain this element.
+- **Edit in Live** - locate the element in the currently loaded page (available in Test Studio 2018 R3 and earlier).
+- **Used By** - loads the Test Step Selector and displays all tests and their steps that contain this element. Selecting one of the listed steps in any test, opens the test in the test pane with the step highlighted.
 - **Validate** - validate all elements in the page node against the currently loaded page. Requires the page to be loaded in the recording window. Results indicated with green checks and red X's.
 - **Rename** - alters the element's Friendly Name (an easy way to identify the node). This name will also be used for code generation as a variable name or a collection indexer.
 - **Delete** - remove the element from the Explorer. The element must be linked to no steps.

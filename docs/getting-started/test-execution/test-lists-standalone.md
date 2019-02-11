@@ -54,7 +54,7 @@ As of release **R1 2018** there is a *Collapse button* for your convenience. It 
 
 ![Results][5]
 
-10.&nbsp; To view the test results, double click the test result entry in the Timeline view (*MyTestList* in this example).
+10.&nbsp; To view the detailed test list results, double click any of the test result entries in the Timeline view.
 
 ## Dynamic Test List ##
 

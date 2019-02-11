@@ -37,7 +37,6 @@ double average = sum / r;
 Log.WriteLine("Average: " + average.ToString());
 Assert.IsTrue(sum == 90);
 ```
-
 ```VB
 Dim table As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)
  

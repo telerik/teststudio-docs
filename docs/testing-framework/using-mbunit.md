@@ -86,8 +86,6 @@ Telerik MbUnit.net tests inherit from a base test class called **BaseTest** that
 ```C#
 Initialize(false);
 ```
- 
-
 ```VB
 Initialize(False)
 ```
@@ -107,8 +105,6 @@ settings.DefaultBrowser = BrowserType.FireFox;
 // Now call Initialize with your updated settings object
 Initialize(settings);
 ```
- 
-
 ```VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
@@ -143,8 +139,6 @@ public void SimpleTest()
      Assert.AreEqual("Google", ActiveBrowser.Find.ByTagIndex("title", 0).InnerText);
 }
 ```
- 
-
 ```VB
 <Test(), _
 Description("My simple demo")> _
@@ -163,4 +157,3 @@ End Sub
 ```
 
 [1]: /img/testing-framework/using-mbunit/fig1.png
-

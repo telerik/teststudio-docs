@@ -9,7 +9,9 @@ position: 0
 
 > While a test is being executed **do not start another instance of the same browser** until the run is finished!
 
-1.&nbsp; Click the **Execute** button in the **Quick Execution** ribbon.
+## Execute a Test ##
+
+1.&nbsp; Once a test scenario is already recorded, click the **Execute** button in the Test ribbon.
 
 <table id="no-table">
 	<tr>
@@ -24,27 +26,19 @@ position: 0
 
 ![Select browser][3]
 
-2.&nbsp; The Test Studio Test Runner launches first in a command prompt window. This calls the applicable browser or application.
+2.&nbsp; The Test Studio Test Runner launches first in a command prompt window. This calls the set browser or application.
 
 ![Test Runner][4]
 
-3.&nbsp; Notice the display in the lower right of your screen. It indicates the current step, includes play and pause ability, and shows additional Debug Options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint</a>.
+## Visual Debugger ##
 
-![Indicator][5]
+By default in the lower right of your screen there is a ribbon which indicates the current step, includes play and pause ability, and shows additional Debug Options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>. This is the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">visual debugger</a> and is a feature you could turn on or off.
 
-**Note:** You can turn off / on the <a href="/getting-started/test-execution/visual-debugger" target="_blank">visual debugger</a> by pressing the Debugger button.
+![Visual Debugger Indicator][5]
 
-![Debugger][11] 
+## Debugger Options ##
 
-4.&nbsp; Afterwards, test results are automatically displayed. Click **View Log** for more information.
-
-![View log][6]
-
-5.&nbsp; Click **Toggle Annotation** button to have the browser annotate each step with a brief message and by highlighting that step's element. This will also slow the test run down by inserting a delay between steps (in milliseconds) you set from either from the drop-down menu or by entering a custom value.
-
-![Toggle Annotation][7]
-
-6.&nbsp; Click **Debugging Options** icon in the Quick Execution ribbon or the Visual Studio toolbar to Customize Auto-Pause Options if errors occur.
+Click **Debugging Options** icon in the Test ribbon or the Visual Studio toolbar to turn the debugger on/off and customize the Auto-Pause Options, if errors occur during the execution.
 
 <table id="no-table">
 	<tr>
@@ -55,17 +49,41 @@ position: 0
 	</tr>
 <table>
 
-7.&nbsp; An easy way to change the default Timeouts for **Wait on elements** and **Client ready**.
+## Execute with Annotations ##
+
+Click **Toggle Annotation** button to have the browser annotate each step with a brief message and by highlighting that step's element. This will also slow the test run down by inserting a delay between steps (in milliseconds) you set from either from the drop-down menu or by entering a custom value.
+
+![Toggle Annotation][7]
+
+## Execution Timeouts ##
+
+Quick access to change the default timeouts for for **Wait on elements** and **Client ready** is also available through the test step pane.
 
 ![Timeouts][10]
 
-8.&nbsp; Use **Base Url** field if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
+## BaseURL ##
+
+Set a **Base Url**, if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
 
 ![BaseUrl][12]
 
-9.&nbsp; Under **Prefered browser** you can set your preferred browser for execution and calibrate your browsers.
+## Compare Mode ##
 
-![Prefered browser][14]
+When a **BaseURL** is set for the project, you can change the **Compare Mode** for future recorded elements. Detailed description of the different options can be found <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">here</a>.
+
+![Compare Mode][13]
+
+## Preferred Browser ##
+
+Under **Preferred browser** you can set your preferred browser for recording and execution and quick access the calibrate browsers view.
+
+![Preferred browser][14]
+
+## Execution Results ##
+
+Afterwards, when the test execution is complete, test results are automatically generated and can be reviewed. Click **View Log** for test results details.
+
+![View log][6]
 
 [1]: /img/getting-started/test-execution/quick-execution/fig1.png
 [2]: /img/getting-started/test-execution/quick-execution/fig2.png

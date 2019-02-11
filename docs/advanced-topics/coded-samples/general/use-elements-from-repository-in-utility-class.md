@@ -45,7 +45,6 @@ namespace SomeTestProject
     }
 }
 ```
-
 ```VB
 Imports ArtOfTest.WebAii.Core
 Imports ArtOfTest.WebAii.Design
@@ -85,7 +84,6 @@ var MyClass = new Utility();
 // call a method of this class
 MyClass.DoSomething();
 ```
-
 ```VB
 // create an instance of the class
 Dim [MyClass] = New Utility()

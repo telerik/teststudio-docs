@@ -39,8 +39,6 @@ Assert.AreEqual(1, imgCtrls.Count);
 HtmlDiv EasternUSDivision = Find.ByContent<HtmlDiv>("Eastern US Division", FindContentType.TextContent);
 Assert.IsNotNull(EasternUSDivision);
 ```
- 
-
 ```VB
 ' Find the first table on the page.
 Dim outertable As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)

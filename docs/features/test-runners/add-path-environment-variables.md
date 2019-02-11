@@ -32,7 +32,7 @@ It can get tedious to always have to navigate to the Bin directory each time you
 
 ![Edit System Variable][11]
 
-> Please note that as of version 2017 R3 the default installation path for new installation is C:\Program Files (x86)\**Progress**\Test Studio.
+> Please note that as of version 2017 R3 the default installation path for new installation is C:\Program Files (x86)\Progress\Test Studio.
 
 6.&nbsp; Click the **OK** button. You now have access to the execution engine from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
 
@@ -60,7 +60,7 @@ It can get tedious to always have to navigate to the Bin directory each time you
 
 ![Edit System Variable][5]
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 6.&nbsp; Click the **OK** button. You now have access to the execution engine from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
 

@@ -18,7 +18,6 @@ HtmlTableCell cell = row.Cells[1];
 Log.WriteLine(cell.TextContent);
 Assert.IsTrue(cell.TextContent.Length > 0);
 ```
-
 ```VB
 Dim table As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)
 Dim row As HtmlTableRow = table.Rows(0)

@@ -43,7 +43,6 @@ namespace YourTestProjectNamespace
 	}
 }
 ```
-
 ```VB
 Imports System.IO
 Imports ArtOfTest.WebAii.Controls.HtmlControls
@@ -97,7 +96,6 @@ HtmlControl searchBtn = Find.ById<HtmlControl>("controlId");
 //call Utility class method to perform click on element using the predefined static function
 Utility.ClickOnElement(searchBtn);
 ```
-
 ```VB
 Utility.valueHolder = 2
 

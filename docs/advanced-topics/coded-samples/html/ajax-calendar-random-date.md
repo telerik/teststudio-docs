@@ -51,7 +51,6 @@ while (randomNum != 0)
 //Click on the node after we reach it in the list.
 l.Value.MouseClick();
 ```
-
 ```VB
 'We scroll to the date picker so that we can see the click occuring. //Pages.WeekEndCourseullesSurMer.WeekendFormFormTag is a definiton which Test Studio automatically generated.
 Pages.WeekEndCourseullesSurMer.WeekendFormFormTag.ScrollToVisible(ScrollToVisibleType.ElementBottomAtWindowBottom)

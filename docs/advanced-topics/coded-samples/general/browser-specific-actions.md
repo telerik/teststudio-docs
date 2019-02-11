@@ -47,7 +47,6 @@ Log.WriteLine("Test is executing in the following browser:" + ActiveBrowser.Brow
 Find.ById<HtmlInputSubmit>("~btnSearchSubmit").Click(); //Click submit button
 System.Threading.Thread.Sleep(2000); //Wait a bit so we can see the result
 ```
-
 ```VB
 ActiveBrowser.NavigateTo("http://www.telerik.com/")
 'Navigate to the page
@@ -81,4 +80,3 @@ System.Threading.Thread.Sleep(2000)
 The coded solution is also applicable to the Telerik Testing Framework.
 
 [1]: /img/advanced-topics/coded-samples/general/browser-specific-actions/fig1.png
-

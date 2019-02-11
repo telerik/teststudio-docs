@@ -81,8 +81,6 @@ t1_frame.Actions.Click(toggleOn);
 // Click the toggleoff button
 t2_frame.Actions.Click(toggleOff);
 ```
- 
-
 ```VB
 ' Launch an instance of the browser
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)

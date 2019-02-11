@@ -501,8 +501,6 @@ public class SubmitAdTestClass : BaseTest
     }
 }
 ```
- 
-
 ```VB
 <TestClass()> _
  Public Class SubmitAdTestClass

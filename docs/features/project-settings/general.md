@@ -30,5 +30,9 @@ Use this feature to no longer receive certificate-related warnings when automati
 
 This property allows the user to specify whether to <a href="/advanced-topics/coded-samples/general/using-the-http-proxy" target="_blank">use the HTTP proxy</a> in Quick Execution.
 
+## Track Active File
+
+This property is useful for large projects, which contain multiple tests. If enabled, this will highlight the currently opened and active test file within the Project Explorer.
+
 [1]: /img/features/project-settings/general/fig1.png
 [2]: /img/features/project-settings/general/fig2.png

@@ -67,8 +67,6 @@ Assert.IsTrue(span1.IdAttributeValue.Equals("span1"), string.Format("Actual ID: 
 Assert.IsTrue(span2.IdAttributeValue.Equals("span2"), string.Format("Actual ID: {0}", span2.IdAttributeValue));
 Assert.IsTrue(span3.IdAttributeValue.Equals("span3"), string.Format("Actual ID: {0}", span3.IdAttributeValue));
 ```
- 
-
 ```VB
 ' Let's start with the span1 element.
 Dim span1 As Element = Find.ById("span1")

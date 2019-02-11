@@ -15,7 +15,6 @@ This is doable with a coded solution. Create a <a href="/features/custom-steps/s
 ```C#
 this.ExecutionContext.DeploymentDirectory;
 ```
-
 ```VB
 Me.ExecutionContext.DeploymentDirectory
 ```
@@ -35,7 +34,6 @@ You might also want to get the path of the data source files attached to your te
 ```C#
 string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\excelSample.xlsx";
 ```
-
 ```VB
 Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\excelSample.xlsx"
 ```

@@ -31,7 +31,6 @@ SetExtractedValue("colorVar", color);
 paragraph.AssertStyle().Font(HtmlStyleFont.Family, "verdana", HtmlStyleType.Computed, StringCompareType.Exact);
 paragraph.AssertStyle().ColorAndBackground(HtmlStyleColorAndBackground.Color, "#FF0000", HtmlStyleType.Computed, StringCompareType.Exact);
 ```
-
 ```VB
 Dim frame As Browser = ActiveBrowser.Frames("view")
 Dim paragraph As HtmlControl = frame.Find.ByTagIndex(Of HtmlControl)("p", 0)
@@ -48,6 +47,3 @@ SetExtractedValue("colorVar", color)
 paragraph.AssertStyle().Font(HtmlStyleFont.Family, "verdana", HtmlStyleType.Computed, StringCompareType.Exact)
 paragraph.AssertStyle().ColorAndBackground(HtmlStyleColorAndBackground.Color, "#FF0000", HtmlStyleType.Computed, StringCompareType.Exact)
 ```
-
-
-

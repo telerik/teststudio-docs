@@ -13,7 +13,7 @@ Telerik.TestStudio.CommandLineClient.exe is installed in your Test Studio instal
 
 - **C:\Program Files (x86)\Telerik\Test Studio\Bin**
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 When working with the Telerik.TestStudio.CommandLineClient in the command prompt, make sure you always are running as Administrator and have the root directory in context as shown below so that you can call the runner directly.
 
@@ -29,14 +29,14 @@ Supported options can be viewed by calling Telerik.TestStudio.CommandLineClient.
 
 Execution options modify command line test list execution behavior. The help file provides a brief explanation of each option. Here are some further notes about specific options.
 
-Several execution options use file paths as values. When using file paths in the command prompt:  
+Several execution options use file paths as values. When using file paths in the command prompt:
 
 - Enclose the file path in double quotes.
 - To prevent typing mistakes, use the clipboard paste option within the command prompt window. To find the paste option after copying the path to the clipboard, right mouse click on the top left corner of the command prompt and choose **Edit > Paste**.
 
 ![Edit][3]
 
-- The -**l** option takes the full path to an individual test list with the **.aiilist** file extension. This file will be located in your main project directory/TestLists and under any folder structure you have created to organize your tests. Your test project should be connect to a scheduling server. The test list will be executed on all execution machines which are connected to this scheduling server. If any of the optional parameters are not supplied, they will be either be pulled off the project, or omitted.
+- The -**l** option takes the full path to an individual test list with the **.aiilist** file extension. This file will be located in your main project directory/TestLists and under any folder structure you have created to organize your tests. Your test project should be connected to a scheduling server. The test list will be executed on all execution machines which are connected to this scheduling server. If any of the optional parameters are not supplied, they will be either be pulled off the project, or omitted.
 
 ![L Option][4]
 

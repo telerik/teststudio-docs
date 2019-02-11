@@ -22,7 +22,7 @@ The code will wait for the end of the API test execution. After the process ends
 Hint: in a default installation, the path to the executable Telerik.ApiTesting.Runner.exe is: 
 "C:\Program Files (x86)\Telerik\Test Studio\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe"
 
-> Please note that as of version 2017 R3 the default installation path for new installation is C:\Program Files (x86)\**Progress**\Test Studio.
+> Please note that as of version 2017 R3 the default installation path for new installation is C:\Program Files (x86)\Progress\Test Studio.
 
 ```C#
 	
@@ -93,7 +93,7 @@ Test Studio for APIs stores [runtime variables](http://docs.telerik.com/teststud
 
 `C:\>"C:\Program Files (x86)\Telerik\Test Studio for APIs\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe" test -p "C:\ApiTests\DemoTests" -t ".\CRUD Tests\Get All Users" --save-contexts`
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 Inside the ".variables" folder, Test Studio for APIs generates a separate file for each executed test (with a file name like: `my-test-name.variables`) and an additional "root" file for project-level variables, called ".global.variables".
 

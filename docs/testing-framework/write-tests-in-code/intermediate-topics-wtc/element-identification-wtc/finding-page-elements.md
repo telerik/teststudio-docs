@@ -381,8 +381,6 @@ Assert.IsTrue(rootFind.ByNodeIndexPath("1/0/0").TagName.Equals("div", StringComp
 //*** Using name
 Assert.IsNull(r1.Find.ByName("bla"));
 ```
- 
-
 ```VB
 ' Set the short-cuts to the main automation objects.
 Dim brwser As ArtOfTest.WebAii.Core.Browser = Manager.ActiveBrowser

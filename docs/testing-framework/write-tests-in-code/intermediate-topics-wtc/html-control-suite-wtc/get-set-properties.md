@@ -33,8 +33,6 @@ string strColor = mySpan.GetStyleValue("color");
 HtmlStyle styleMargin = mySpan.GetComputedStyle("margin");
 string strMargin = mySpan.GetComputedStyleValue("margin");
 ```
- 
-
 ```VB
 ' Get whether a checkbox is enabled or disabled.
 Dim cks As HtmlInputCheckBox = Find.ById(Of HtmlInputCheckBox)("checkbox1")
@@ -54,5 +52,3 @@ Dim strColor As String = mySpan.GetStyleValue("color")
 Dim styleMargin As HtmlStyle = mySpan.GetComputedStyle("margin")
 Dim strMargin As String = mySpan.GetComputedStyleValue("margin")
 ```
-
-

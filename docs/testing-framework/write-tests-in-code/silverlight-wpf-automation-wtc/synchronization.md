@@ -44,8 +44,6 @@ Before you can use the VisualWait.ForExists method to wait for an element to exi
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy;
 FrameworkElement myElementProxy = app.Find.ByName("MyElement");
 ```
- 
-
 ```VB
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy
 Dim myElementProxy As FrameworkElement = app.Find.ByName("MyElement")
@@ -57,8 +55,6 @@ Now that you have an element proxy you use it to wait for the element to exist u
 // Wait 15 seconds for the element to exist
 proxy.Wait.ForExists(15000);
 ```
- 
-
 ```VB
 ' Wait 15 seconds for the element to exist
 proxy.Wait.ForExists(15000)
@@ -75,8 +71,6 @@ ticket.Wait.ForVisible(3000);       // Wait up to 3 seconds for the element to b
 ticket.Wait.ForVisibleNot(2500);    // Wait up to 2.5 seconds for the element to no longer be visible
 ticket.Wait.ForNoMotion(250, 4500); // Wait up to 4.5 seconds for the element to stop moving. Check every 1/4 second.
 ```
- 
-
 ```VB
 Dim ticket As FrameworkElement = app.FindName("airlineTicket")
 ticket.Wait.ForExistsNot()          ' Wait for the element to no longer exist

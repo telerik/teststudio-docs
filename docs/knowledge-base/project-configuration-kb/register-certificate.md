@@ -47,7 +47,7 @@ Open a command prompt and navigate to the following directory:
 
 * **C:\Program Files (x86)\Telerik\Test Studio\Bin**
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 Then enter the following command:
 

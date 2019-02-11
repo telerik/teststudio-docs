@@ -43,5 +43,3 @@ Dim atr As String = a.Attributes.[Single](Function(x) x.Name = "lang").Value
 Log.WriteLine(atr)
 SetExtractedValue("extraction", atr)
 ```
-
-

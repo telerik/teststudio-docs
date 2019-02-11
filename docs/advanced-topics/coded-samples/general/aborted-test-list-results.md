@@ -12,7 +12,7 @@ position: 1
 
 Test Studio has the ability to store run results on each executed step and this could be turned on within the ***Telerik.TestStudio.Desktop.exe.config*** file. For the default installation, the file could be found in the following folder: *C:\Program Files (x86)\Telerik\Test Studio\Bin*. Open the file in a text editor and set the **'PersistOnEachStep'** key value to True.
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 ```XML
   <appSettings>

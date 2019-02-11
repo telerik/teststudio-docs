@@ -18,7 +18,6 @@ notePad.StartInfo.FileName   = "notepad.exe";
 notePad.StartInfo.Arguments = @"c:\myText.txt";
 notePad.Start();
 ```
-
 ```VB
 Dim notePad As New System.Diagnostics.Process()
 notePad.StartInfo.FileName = "notepad.exe"

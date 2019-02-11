@@ -25,7 +25,7 @@ The tool will open and you will have to fill the following fields:
 > You can get both connection strings from the following file: **CloudStorageSelfHost.exe.config** located in:
 > *C:\Program Files (x86)\Telerik\Test Studio\StorageService*
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 Once you fill the fields as demonstrated above click the **Migrate** button. You will have to allow certain time (depends on how large is your database) in order to migrate the results to the MongoDB database.
 

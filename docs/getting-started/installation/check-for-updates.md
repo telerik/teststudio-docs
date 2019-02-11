@@ -13,15 +13,15 @@ This guide explains how to update Test Studio using the Check for Updates featur
 
 In **Test Studio Standalone** the **Help** drop down in the upper right corner contains an option to run Check for Updates.
 
-![Update](/img/getting-started/installation/check-for-updates/fig1.png)
+![Update](/img/getting-started/installation/check-for-updates/CheckForUpdatesFull.gif)
 
 So does the **Update** in the **Software Update** section in the <a href="/getting-started/start-a-project/welcome-screen" target="_blank">Welcome Screen</a>.
 
-![Project settings](/img/getting-started/installation/check-for-updates/fig2.png)
+![Project settings](/img/getting-started/installation/check-for-updates/CheckForUpdatesSoftwareUpdateFull.gif)
 
 In **Visual Studio** you can access the update section under the Project Settings.
 
-![Updates in VS](/img/getting-started/installation/check-for-updates/fig7.png)
+![Updates in VS](/img/getting-started/installation/check-for-updates/CheckForUpdatesVisualStudio.gif)
 
 This dialog also contains options to check for updates on startup and limit the update notifications to only official builds. When 'Check for Updates on Test Studio Startup' is enabled, the welcome screen will display a 'Checking for updates...' status message at Test Studio startup.
 

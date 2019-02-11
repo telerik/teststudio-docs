@@ -47,11 +47,11 @@ Watch a <a href="http://www.telerik.com/automated-testing-tools/support/videos/b
 10.&nbsp; <a href="/features/scheduling-test-runs/scheduling-results" target="_blank">View Scheduling Results</a> after the scheduled test execution time.
 
 <p id=ports></p>
-> Important: If the machines in your configuration have active firewalls, ensure that the following incoming ports are unblocked on the appropriate machines:
+> Important: If the machines in your configuration have active firewalls, ensure that the following ports are opened in both in- and outbound directions on the respective machines:
 
-> - Scheduling Server: 8009
-> - Storage Server: 8492
-> - Execution Machine(s): 55555, 8030-8039 (and sometimes <a href="/troubleshooting-guide/load-testing-problems-tg/cannot-dispatch-load-test" target="_blank">a range of ports from 8040 upward</a>)
+> - Scheduling Service: 8009
+> - Storage Service: 8492
+> - Execution Machine(s): 55555
 
 [1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig1.png
 [2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2.png

@@ -125,8 +125,6 @@ myManager.ActiveBrowser.Actions.Click(mybtn);
 // Shut-down the manager and do all clean-up
 myManager.Dispose();
 ```
- 
-
 ```VB
 
 

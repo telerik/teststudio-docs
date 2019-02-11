@@ -33,8 +33,6 @@ waitObj.ForVisible();
 // Wait 120 seconds for the div to become invisible
 waitObj.ForVisibleNot();
 ```
- 
-
 ```VB
 HtmlDiv div = Find.ByTagIndex<HtmlDiv>("div", 0);
 HtmlWait waitObj = div.Wait;
@@ -87,8 +85,6 @@ spanWaitObj.ForStylesNot("backgroundColor=red", "margin=30px");
 // Uses the default timeout value from Settings.Current.ExecuteCommandTimeout
 span.Wait.ForStylesNot("backgroundColor=red", "margin=30px");
 ```
- 
-
 ```VB
 Dim span As HtmlSpan = Find.ByTagIndex(Of HtmlSpan)("span", 0)
 Dim spanWaitObj As HtmlWait = div.Wait
@@ -134,8 +130,6 @@ HtmlWait textAreaWaitObj = textArea.Wait;
 // Wait 30 seconds for the HtmlTextArea element to contain the text "Now is the time"
 textArea.Wait.ForCondition(textAreaContainsStr, false, "Now is the time", 30000);
 ```
- 
-
 ```VB
 Dim textArea As HtmlTextArea = Find.ByTagIndex(Of HtmlTextArea)("textarea", 0)
 Dim textAreaWaitObj As HtmlWait = textArea.Wait
@@ -168,8 +162,6 @@ public bool textAreaContainsStr(ArtOfTest.WebAii.Controls.Control ctl, Object ob
     return textArea.Text.Contains((string)obj);
 }
 ```
- 
-
 ```VB
 ''' <summary>
 ''' Tests whether or not the HtmlTextArea element contains the specified string.

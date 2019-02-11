@@ -34,7 +34,6 @@ HtmlAnchor a = Find.ByExpression<HtmlAnchor>("InnerText=~English", "tagname=a");
 Assert.IsNotNull(a);
 a.Click();
 ```
-
 ```VB
 Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("InnerText=~English", "tagname=a")
 Assert.IsNotNull(a)

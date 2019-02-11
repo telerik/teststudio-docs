@@ -55,7 +55,6 @@ using (WebResponse response = request.GetResponse())
     }
 }
 ```
-
 ```VB
 ' Create the WebRequest object we'll use for sending the request
 Dim request As WebRequest = WebRequest.Create("http://money.service.msn.com/StockQuotes.aspx?v=1&symbols=$INDU,AAPL,NFLX")

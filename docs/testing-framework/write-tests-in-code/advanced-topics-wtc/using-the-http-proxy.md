@@ -73,8 +73,6 @@ settings.Web.UseHttpProxy = true;
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(this.TestContext.WriteLine));
 ```
- 
-
 ```VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
@@ -124,8 +122,6 @@ private void CheckTypeForImage(object sender, HttpResponseEventArgs e)
     }
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub ImageDetection()
@@ -182,8 +178,6 @@ private void Check(object sender, HttpResponseEventArgs e)
     }
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub CheckImageSize()

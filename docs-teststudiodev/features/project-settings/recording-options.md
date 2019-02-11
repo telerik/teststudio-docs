@@ -2,7 +2,7 @@
 title: Recording
 page_title: Recording Settings | Test Studio Dev Documentation
 description: Configure how recording with Test Studio Dev will take place
-position: 1
+position: 2
 ---
 # Recording Tab in Project Settings
 

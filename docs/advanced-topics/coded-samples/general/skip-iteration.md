@@ -21,7 +21,6 @@ After this add **Subtest** via the <a href="/features/custom-steps/test-as-step"
 ```C#
 this.ExecuteTest("Subtest.tstest");
 ```
-
 ```VB
 Me.ExecuteTest("Subtest.tstest")
 ```
@@ -36,7 +35,6 @@ if (Convert.ToInt16(this.GetExtractedValue("num")) % 2 == 0 )
      this.ExecuteTest("SubTest.tstest");
 }
 ```
-
 ```VB
 If Convert.ToInt16(Me.GetExtractedValue("num")) Mod 2 = 0 Then
     Me.ExecuteTest("SubTest.tstest")

@@ -45,7 +45,6 @@ Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000);
  
 //Now we're free to click around the page without worrying whether the click will actually occur
 ```
-
 ```VB
 ' Launch a browser instance
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer)
@@ -63,5 +62,3 @@ Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000)
 ```
 
 [1]: /img/advanced-topics/coded-samples/general/grayed-out-controls/fig1.png
-
-

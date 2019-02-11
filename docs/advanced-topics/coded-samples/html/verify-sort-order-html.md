@@ -44,9 +44,7 @@ for (int j = 0; j < list.Count; j++)
     }
 }
 ```
-
 ```VB
-
 Dim table As HtmlTable = Find.ByExpression(Of HtmlTable)("id=Grid", "|", "tagIndex=table:1")
  
 Dim r As Integer = table.Rows.Count

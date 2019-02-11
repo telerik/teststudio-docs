@@ -37,8 +37,6 @@ public void wpfDemo()
    
     }
 ```
- 
-
 ```VB
 <TestMethod> _
   Public Sub wpfDemo()
@@ -97,10 +95,5 @@ Let's take a closer look at the code above line by line:
 	Now that the button is clicked, we need to verify that the message is correct.
  
 	Now that we understand this sample, let's dig into some of the key objects available in the WPF Extension.
-	
-
-
 
 [1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png
-
-

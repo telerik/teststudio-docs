@@ -26,8 +26,6 @@ public void DLog()
   
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub DLog()

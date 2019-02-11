@@ -27,7 +27,6 @@ foreach (Cookie cookie in ActiveBrowser.Cookies.GetCookies("http://www.google.co
     Log.WriteLine(cookie.Name);
 }
 ```
-
 ```VB
 Manager.LaunchNewBrowser()
  

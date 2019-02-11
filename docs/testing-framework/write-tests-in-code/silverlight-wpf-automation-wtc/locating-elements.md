@@ -23,8 +23,6 @@ The simplest method of searching is to use the **Find.ByName(String name)** meth
 FrameworkElement zoomBox = app.FindName("zoomBox");
 TextBox searchText = app.FindName<TextBox>("searchText");
 ```
- 
-
 ```VB
 Dim zoomBox As FrameworkElement = app.FindName("zoomBox")
 Dim searchText As TextBox = app.FindName(Of TextBox)("searchText")
@@ -93,8 +91,6 @@ Sometimes you may need to fetch a list of the elements contained in the applicat
 IList<FrameworkElement> dataGrids1 = app.Find.AllByType("DataGrid");
 IList<DataGrid> dataGrids2 = app.Find.AllByType<DataGrid>();
 ```
- 
-
 ```VB
 Dim dataGrids1 As IList(Of FrameworkElement) = app.Find.AllByType("DataGrid")
 Dim dataGrids2 As IList(Of DataGrid) = app.Find.AllByType(Of DataGrid)()
@@ -129,8 +125,6 @@ A more advanced feature is scoped searches. Suppose you need to find the ScrollB
 ScrollViewer searchScroll = app.FindName("patientSearchScroller").Find.ByType<ScrollViewer>();
 searchScroll = app.FindName().Find.ByType<>();
 ```
- 
-
 ```VB
 Dim searchScroll As ScrollViewer = app.FindName("patientSearchScroller").Find.ByType(Of ScrollViewer)()
 searchScroll ScrollViewer = app.FindName().Find.ByType( ScrollViewer)()
@@ -145,8 +139,6 @@ Another advanced feature is to find the element using a XamlFindExpression. Find
 ```C#
 ScrollViewer searchScroll = app.Find.ByExpression(new XamlFindExpression("Name=patientSearchScroller", "|", "XamlTag=ScrollViewer")).As<ScrollViewer>();
 ```
- 
-
 ```VB
 Dim searchScroll2 As ScrollViewer = app.Find.ByExpression(New XamlFindExpression("Name=patientSearchScroller", "|", "XamlTag=ScrollViewer")).[As](Of ScrollViewer)()
 ```

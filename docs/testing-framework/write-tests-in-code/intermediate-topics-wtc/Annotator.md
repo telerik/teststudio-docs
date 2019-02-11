@@ -30,8 +30,6 @@ Manager.Settings.AnnotateExecution = true;
 // Disable Annotated Execution.
 Manager.Settings.AnnotateExecution = false;
 ```
- 
-
 ```VB
 ' Enable Annotated Execution.
 Manager.Settings.AnnotateExecution = True
@@ -51,8 +49,6 @@ myAnnotator.Annotate("This annotation message appears at the top left corner of 
 myAnnotator.Annotate(new Point(100, 300), "This annotation message appears under the point at 100,300 in the browser document window");
 myAnnotator.Annotate(Find.ById("btn1").GetRectangle(), "This annotation highlights the Color On button");
 ```
- 
-
 ```VB
 Dim myAnnotator As Annotator = New Annotator(ActiveBrowser)
 myAnnotator.Annotate("This annotation message appears at the top of the browser document window")
@@ -63,5 +59,4 @@ myAnnotator.Annotate(Find.ById("btn1").GetRectangle(), "This annotation highligh
 ```
 
 [1]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/annotator/fig1.png
-
 

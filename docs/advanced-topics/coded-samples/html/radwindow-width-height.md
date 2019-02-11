@@ -37,7 +37,6 @@ Dim window As RadWindow = Find.ById(Of RadWindow)("RadWindowWrapper_RadWindow_Co
 Assert.AreEqual(300, window.Width)
 ```
 
-
 Invoking JavaScript on the page:
 
 ```C#
@@ -63,5 +62,3 @@ Dim window As RadWindow = Find.ById(Of RadWindow)("RadWindowWrapper_RadWindow_Co
 Dim windowWidth As String = Me.ActiveBrowser.Actions.InvokeScript([String].Format("$telerik.getBounds($find('RadWindow_ContentTemplate').get_popupElement()).width"))
 Assert.AreEqual("300", windowWidth)
 ```
-
-

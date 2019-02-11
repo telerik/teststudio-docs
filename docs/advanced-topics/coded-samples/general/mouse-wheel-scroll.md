@@ -15,8 +15,6 @@ This is doable with a coded solution. The code is desktop-based, which means it 
 ```C#
 Manager.Desktop.Mouse.TurnWheel(100, MouseWheelTurnDirection.Backward);
 ```
-
 ```VB
 Manager.Desktop.Mouse.TurnWheel(100, MouseWheelTurnDirection.Backward)
 ```
-

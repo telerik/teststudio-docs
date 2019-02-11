@@ -24,8 +24,7 @@ The last three could be usually found in *'C:\Program Files (x86)\Reference Asse
 
 <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Here</a> is an article on how to add an assembly reference in the Standalone version.
 
-```C#
- 
+```C# 
 [CodedStep(@"New Coded Step")]
         public void WebTest_CodedStep()
         {
@@ -56,9 +55,7 @@ The last three could be usually found in *'C:\Program Files (x86)\Reference Asse
             Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
         }
 ```
-
-```VB
- 
+```VB 
 <CodedStep("New Coded Step")> _
 Public Sub WebTest_CodedStep()
 	System.Threading.Thread.Sleep(1000)

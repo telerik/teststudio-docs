@@ -40,8 +40,6 @@ string jsRetValue = Actions.InvokeScript("Test3();");
 // Call a JavaScript function that returns a value
 int val = Actions.InvokeScript<int>(@"Test3(""Bear"", ""Utah"")");
 ```
-
-
 ```VB
 ' Assume our page has JavaScript method Test1() & Test2() & Test3()
  
@@ -81,8 +79,6 @@ public void JsUnitTest1()
     Assert.IsTrue(bool.Parse(strBool));
 }
 ```
- 
-
 ```VB
 <TestMethod()> _
 Public Sub JsUnitTest1()

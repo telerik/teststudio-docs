@@ -24,8 +24,6 @@ Pages.YourSite.YourButton.Click();
   
 // Dialog should be automatically handled
 ```
- 
-
 ```VB
 ' Add a FileUpload dialog to be monitored.
 Manager.DialogMonitor.AddDialog(New FileUploadDialog(ActiveBrowser, Path.Combine(Globals.PATH_TO_PAGES, "..\SupportFiles\EmptyTextFile.txt"), DialogButton.OPEN))
@@ -43,7 +41,6 @@ Pages.YourSite.YourButton.Click()
 There are scenarios where multiple files needs to be uploaded. Below you could find a sample code how to obtain that with the Testing Framework. The code will loop through a set of files and will upload each after the previous. The sample is built against a <a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_fileupload_multiple" target="_blank">public accessible webpage</a> and to give a try to that example you have to first navigate to that page. 
 
 ```C#
-
 // place small pictures with names file1.png and file2.png in c:\temp folder to have the sample working without modification
 string path = @"C:\temp\" ;
 string[] fileNames = new string[] { "file1.png", "file2.png" } ;

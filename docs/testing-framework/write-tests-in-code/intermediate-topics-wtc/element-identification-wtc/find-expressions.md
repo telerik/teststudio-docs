@@ -14,13 +14,13 @@ Some of the key problems we faced with FindParam's that are solved by using
 
 FindExpression's are the following:
 
-1. FindParam's are very closely coupled with HTML. The object model for FindParam's was built with HTML in mind.
+1.&nbsp; FindParam's are very closely coupled with HTML. The object model for FindParam's was built with HTML in mind.
 
-2. Chained identifications [e.g. find element 'foo' then 'bar' starting at 'foo'] cannot currently be represented as one FindParam object.
+2.&nbsp; Chained identifications [e.g. find element 'foo' then 'bar' starting at 'foo'] cannot currently be represented as one FindParam object.
 
-3. The ability to extend the capability of the current search routines based on FindParam's is expensive. The search logic is disconnected from the search definition.
+3.&nbsp; The ability to extend the capability of the current search routines based on FindParam's is expensive. The search logic is disconnected from the search definition.
 
-4. The FindParam object model is very verbose which results in:
+4.&nbsp; The FindParam object model is very verbose which results in:
 
 	* Constant OM changes when extending search patterns.
 
@@ -30,9 +30,9 @@ FindExpression's are the following:
 
 	* Complex OMs make Code Gen more complex.
 
-5. No extensible infrastructure where customers can build their own search engines if they wish.
+5.&nbsp; No extensible infrastructure where customers can build their own search engines if they wish.
 
-6. Can't easily be leveraged for searches within other technologies.
+6.&nbsp; Can't easily be leveraged for searches within other technologies.
 
 ##Basic Concept##
 

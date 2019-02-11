@@ -159,8 +159,6 @@ With test regions defined, our test code can directly access these regions regar
 TestRegion userInput = Manager.ActiveBrowser.Regions["userinput"];
 TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
 ```
- 
-
 ```VB
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
@@ -175,9 +173,9 @@ Now that we know how to define test regions as part of an application under test
  
 Each TestRegion object has two properties that provide access to the elements contained in it:
 
-1. Each TestRegion has an 'Element' property which returns the actual DOM Element object of that testregion tag as it exists in the DOM tree of the loaded document. You can use that Element object to navigate the DOM tree up or down to a specific element as needed. That approach is though highly discouraged because your test will become reliant on a specific DOM structure for your application and will result in test code that can easily break.
+1.&nbsp; Each TestRegion has an 'Element' property which returns the actual DOM Element object of that testregion tag as it exists in the DOM tree of the loaded document. You can use that Element object to navigate the DOM tree up or down to a specific element as needed. That approach is though highly discouraged because your test will become reliant on a specific DOM structure for your application and will result in test code that can easily break.
 
-2. The second way for accessing elements is the more robust and recommended way to use in test code. Each TestRegion has a 'Find' object associated with it. The Find object provides the same rich APIs and search routines as described in the Finding Page Elements topic. The difference is that this Find object uses the TestRegion element as the root element to start the search from. This difference is the key difference that enables test code to have higher resilience to changes outside the targeted testregion. In fact, test code that targets a specific testregion and exclusively uses the Find object exposed to locate elements, will not be impacted at all by any changes in the application outside that region. Of course, changes inside that region will impact the tests that target it which is probably a desired behavior.
+2.&nbsp; The second way for accessing elements is the more robust and recommended way to use in test code. Each TestRegion has a 'Find' object associated with it. The Find object provides the same rich APIs and search routines as described in the Finding Page Elements topic. The difference is that this Find object uses the TestRegion element as the root element to start the search from. This difference is the key difference that enables test code to have higher resilience to changes outside the targeted testregion. In fact, test code that targets a specific testregion and exclusively uses the Find object exposed to locate elements, will not be impacted at all by any changes in the application outside that region. Of course, changes inside that region will impact the tests that target it which is probably a desired behavior.
  
 For example, to locate the restaurants table in the above sample, you can write:
 
@@ -187,8 +185,6 @@ TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
 // Given that the table is the first table within the 'restaurantdata' test region, it has an occurrence index of '0'
 Element restaurantTable = restaurantData.Find.ByTagIndex("table", 0);
 ```
- 
-
 ```VB
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
  
@@ -208,8 +204,6 @@ Element zipCodeTextBox = userInput.Find.ByXPath("//input[2]");
 // Perform an action on the element.
 Manager.ActiveBrowser.Actions.SetText(zipCodeTextBox, "90210");
 ```
- 
-
 ```VB
 ' access the userinput test region.
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")

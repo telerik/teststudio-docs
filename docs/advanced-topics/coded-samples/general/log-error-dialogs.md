@@ -16,11 +16,11 @@ This is possible with a coded solution. The stipulation is that the dialog is di
 
 ![Dialog][1]
 
-1. <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *System.Windows.Forms*.
-2. Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the beginning of the test that creates a dialog monitor.
-3. Define a custom dialog handler that is referenced in the coded step.
-4. Override the *OnAfterTestCompleted* method to log whatever text the dialog handler captured.
-5. Auto reset the dialog handler in case of multiple dialogs.
+1.&nbsp; <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *System.Windows.Forms*.
+2.&nbsp; Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the beginning of the test that creates a dialog monitor.
+3.&nbsp; Define a custom dialog handler that is referenced in the coded step.
+4.&nbsp; Override the *OnAfterTestCompleted* method to log whatever text the dialog handler captured.
+5.&nbsp; Auto reset the dialog handler in case of multiple dialogs.
 
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the Dynamic Pages Reference region:
 
@@ -68,7 +68,6 @@ namespace TestProject7
     }
 }
 ```
-
 ```VB
 Imports System.Threading
 Imports System.Windows.Forms

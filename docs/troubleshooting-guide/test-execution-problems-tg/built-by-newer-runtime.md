@@ -20,7 +20,7 @@ It is not permissible to make a copy of ArtOfTest.Runner.exe and execute it from
 
 - **C:\Program Files (x86)\Telerik\Test Studio 20XX.X\Bin**
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 For more information please see our user's guide article on <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner</a>. 
 

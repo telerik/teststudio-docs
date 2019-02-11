@@ -53,7 +53,6 @@ while (false == found && false == disabled)
     table.Refresh();
 }
 ```
-
 ```VB
 Dim table As HtmlTable = Find.ByExpression(Of HtmlTable)("id=Grid", "|", "tagIndex=table:1")
 Dim [next] As HtmlSpan = Find.ByExpression(Of HtmlSpan)("class=k-icon k-i-arrow-e")
@@ -89,5 +88,3 @@ While False = found AndAlso False = disabled
     table.Refresh()
 End While
 ```
-
-

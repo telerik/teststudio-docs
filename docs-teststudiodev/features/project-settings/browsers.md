@@ -2,7 +2,7 @@
 title: Browsers
 page_title: Browsers Settings| Test Studio Dev Documentation
 description: Configure browsers to be used for recording and execution with Test Studio Dev. 
-position: 2
+position: 3
 ---
 # Browsers Tab In Project Settings
 

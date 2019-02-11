@@ -49,7 +49,6 @@ public override void OnAfterTestCompleted(TestResult result)
     result.ExportToResultFile(@"C:\", result.TestName);
 }
 ```
-
 ```VB
 Public Overrides Sub OnAfterTestCompleted(result As TestResult)
 	Dim overall As String = Convert.ToString(result.Result)
@@ -66,7 +65,6 @@ public override void OnBeforeTestStarted()
     this.ExecuteTest("Folder1\\WebTest2.tstest");
 }
 ```
-
 ```VB
 Public Overrides Sub OnBeforeTestStarted()
 	Me.ExecuteTest("Folder1\WebTest2.tstest")
@@ -79,6 +77,3 @@ You can use logic from assemblies in these methods. First add references to the 
 [1]: /img/advanced-topics/coded-samples/general/custom-scripts-before-after/fig1.png
 [2]: /img/advanced-topics/coded-samples/general/custom-scripts-before-after/fig2.png
 [3]: /img/advanced-topics/coded-samples/general/custom-scripts-before-after/fig3.png
-
-
-

@@ -38,7 +38,6 @@ app = null;
  
 Pages.Bing.SbFormQText.Text = value;
 ```
-
 ```VB
 Dim random As New Random()
 Dim num As Integer = random.[Next](1, 6)

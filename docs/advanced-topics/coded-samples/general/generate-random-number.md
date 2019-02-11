@@ -24,7 +24,6 @@ int randomPage = random.Next(1, 11);
 Find.ByExpression<HtmlInputText>("id=~TextBox_text").Text = randomPage.ToString();
 Find.ByExpression<HtmlInputControl>("id=~GoToPageButton").Click();
 ```
-
 ```VB
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/datapager/examples/firstlook/defaultcs.aspx")
  

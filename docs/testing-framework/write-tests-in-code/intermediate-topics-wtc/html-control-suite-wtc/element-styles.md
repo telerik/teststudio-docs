@@ -61,8 +61,6 @@ Assert.IsTrue(warningMarginStyle.IsInt());
 int warningMargin = warningMarginStyle.ToInt();
 Assert.AreEqual(30, warningMargin);
 ```
- 
-
 ```VB
 ' Verify the color of the warning text is Red
 Dim warningSpan As HtmlSpan = Find.ById(Of HtmlSpan)("Warning")
@@ -117,8 +115,6 @@ Assert.IsTrue(string.IsNullOrEmpty(paddingStyle.Value));
 paddingStyle = warningSpan.GetComputedStyle("padding");
 Assert.IsFalse(string.IsNullOrEmpty(paddingStyle.Value));
 ```
- 
-
 ```VB
 ' GetStyle returns the value of an explicit style applied to the element.
 ' If the element does not have an explicit style applied, GetStyle returns an empty value.

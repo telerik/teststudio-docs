@@ -32,7 +32,7 @@ If the test does not execute, or you never receive the second prompt, install th
 
 ![Open With][3]
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 3.&nbsp; Open the file with Safari to install the extension. 
 

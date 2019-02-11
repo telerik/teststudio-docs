@@ -41,8 +41,6 @@ public void SLDemo()
 	Assert.IsTrue(app.Find.ByTextContent("p:Hello").TextContent.Equals("Hello Telerik"));
 }
 ```
- 
-
 ```VB
 <TestMethod> _
 Public Sub SampleWebAiiTest()

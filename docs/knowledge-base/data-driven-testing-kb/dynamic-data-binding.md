@@ -39,6 +39,6 @@ You can <a href="/advanced-topics/coded-samples/general/execution-extensions" ta
 
 * **C:\Program Files (x86)\Telerik\Test Studio\Bin\Plugins\**
 
-> Please note that as of version **2017 R3** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 It will be called for every test you execute. Whatever OnInitializeDataSource creates and returns will be used as the data source, overriding any file to which the test may have been previously bound.

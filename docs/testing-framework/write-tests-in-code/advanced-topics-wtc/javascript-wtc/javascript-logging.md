@@ -29,8 +29,6 @@ Settings.Current.EnableScriptLogging = false;
 // NOTE: Once script logging is disabled, any logging calls from
 // the script will be ignored and won't cause a script error.
 ```
- 
-
 ```VB
 ' Settings.Current.EnableScriptLogging must be set to true before
 ' LaunchNewBrowser. This was done in the Initialize section of

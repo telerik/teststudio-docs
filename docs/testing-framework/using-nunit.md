@@ -25,8 +25,6 @@ public void NUnitLog()
      Log.WriteLine("Hi from WebAii");
 }
 ```
- 
-
 ```VB
 <Test()> _
 Public Sub NUnitLog()
@@ -125,8 +123,6 @@ Telerik NUnit tests inherit from a base test class called **BaseTest** that live
 ```C#
 Initialize(new TestContextWriteLine(Console.Out.WriteLine));
 ```
- 
-
 ```VB
 Initialize(New TestContextWriteLine(AddressOf Console.Out.WriteLine))
 ```
@@ -147,8 +143,6 @@ settings.DefaultBrowser = BrowserType.FireFox;
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(Console.Out.WriteLine));
 ```
- 
-
 ```VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
@@ -169,8 +163,6 @@ Also if you don't really want to unify the logging and would prefer the framewor
 ```C#
 Initialize(myCustomLocation);
 ```
- 
-
 ```VB
 Initialize(myCustomLocation)
 ```
@@ -196,8 +188,6 @@ public void SimpleTest()
      Assert.AreEqual("Google", ActiveBrowser.Find.ByTagIndex("title", 0).InnerText);
 }
 ```
- 
-
 ```VB
 <Test(), _
 Description("My simple demo")> _
