@@ -9,9 +9,9 @@ position: 3
 
 When an action is recorded against an element from a web page or WPF application, or an element is explicitly added to the Elements repository from the DOM explorer, Test Studio generates a **Find Expression**, which then uses to locate that element during execution. 
 
-In certain scenarios the automatically generated find expression may be ineffective, because locates multiple elements on the active window, or may use dynamically generated attributes, which are unreliable by the next test execution. In such cases you may require to adjust the find expression manually, so that it reflects the specifics of the application under test.
+In certain scenarios the automatically generated find expression may be ineffective, because locates multiple elements on the active window, or may use dynamically generated attributes, which are unreliable by the next test execution. In such cases you may require adjusting the find expression manually, so that it reflects the specifics of the application under test.
 
-## Version 2019 R1 and Later
+## Version 2019 R1 and Later (Standalone Application Only)
 
 ### Edit the Find Expression of an Element
 
@@ -30,13 +30,13 @@ Each element selected for edit will be opened as a separate tab in the test pane
 
 ![Element's Pane][103]
 
-To open another element to edit, switch back to the active test and the recorded elements will be listed again in the Element's Explorer. 
+To open another element to edit, select any other element from the Element's Explorer.
 
 ![Open second Element][104]
 
 ### Options in Element Pane without Active Recording Session
 
-When there is no active recording session, the *Edit Element* pane displays the currently used find expression for the element and allows you to modify it. However, there are no avaialble suggestions based on the DOM tree and the modifed expression cannot be validated.
+When there is no active recording session, the *Edit Element* pane displays the currently used find expression for the element and allows you to modify it. However, there are no available suggestions based on the DOM tree and the modified expression cannot be validated.
 
 ***Save*** and ***Reset*** buttons get enabled once there is any change in the find expression. Once the changes in the element are saved, these cannot be reverted and ***Reset*** button gets automatically disabled.
 
@@ -68,11 +68,11 @@ From the *Edit Element* pane you can start a recording session choosing between:
 
 If the test was executed to a step, where the element exists on the page, it will be highlighted once the recorder is attached to the browser (the recorder is automatically paused to avoid recording any unnecessary steps).
 
-In the *Eidt Element* pane are displayed the suggested properties of the element and the DOM tree of the current page.
+In the *Edit Element* pane are displayed the suggested properties of the element and the DOM tree of the current page.
 
 ![Edit in Live][111]
 
-The DOM explorer in the *Eidt Element* pane provides its standard options from the <a href="/features/recorder/dom-explorer#context-menu" target="_blank">context menu</a>.
+The DOM explorer in the *Edit Element* pane provides its standard options from the <a href="/features/recorder/dom-explorer#context-menu" target="_blank">context menu</a>.
 
 ![DOM explorer][112]
 
@@ -118,7 +118,7 @@ To filter an element's find expression using the column name from parent data so
 
 ![Bind Coded variable][120]
 
-## Version 2018 R3 and Earlier
+## Version 2018 R3 and Earlier (Both Standalone Application and Visual Studio Plugin)
 
 When a web page element has an action recorded against it, or you explicitly add an element to the Elements pane, a **Find Expression** is generated that Test Studio uses to find that specific element on the web page.
 
@@ -193,7 +193,7 @@ The **Find Settings** view is on the right side. You can edit these settings by 
 
 ![Data drive find exp][14]
 
-electing a column databinds the column to the value of the find expression rule.
+Selecting a column data binds the column to the value of the find expression rule.
 
 ![Data drive find exp][15]
 
@@ -245,7 +245,7 @@ Once you've confirmed you are targeting the correct element and it is correctly 
 [101]: /img/features/elements-explorer/find-element/fig101.png
 [102]: /img/features/elements-explorer/find-element/fig102.png
 [103]: /img/features/elements-explorer/find-element/fig103.png
-[104]: /img/features/elements-explorer/find-element/fig104.png
+[104]: /img/features/elements-explorer/find-element/fig104.gif
 [105]: /img/features/elements-explorer/find-element/fig105.png
 [106]: /img/features/elements-explorer/find-element/fig106.png
 [107]: /img/features/elements-explorer/find-element/fig107.png
