@@ -1,7 +1,7 @@
 
-.DS_Store
 .asset-cache
 .dockerignore
+.DS_Store
 .editorconfig
 .jekyll-metadata
 .ruby-version
@@ -16,9 +16,6 @@
 /favicon.ico
 /fonts/
 /styles/
-Dockerfile
-Gemfile
-Gemfile.lock
 _site
 _tempconfig.yml
 api/aspnet-mvc
@@ -26,6 +23,9 @@ bs-config.js
 build-docs.sh
 copy_content.sh
 copy_local.sh
+Dockerfile
+Gemfile
+Gemfile.lock
 install-npm.sh
 knowledge-base.html
 robots.txt

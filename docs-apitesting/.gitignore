@@ -1,54 +1,34 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
 
+# =========================
+# Directories potentially created on remote AFP share
+# Files that might appear on external disk
 # Folder config file
-Desktop.ini
-
+# Icon must end with two \r
+# Operating System Files
+# OSX
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
-
+# Thumbnails
+# Windows image file caches
 # Windows Installer files
+$RECYCLE.BIN/
 *.cab
 *.msi
 *.msm
 *.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
 ._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
+.apdisk
 .AppleDB
 .AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-=======
-.DS_Store
+.AppleDouble
 .asset-cache
 .dockerignore
+.DS_Store
 .editorconfig
 .jekyll-metadata
+.LSOverride
 .ruby-version
+.Spotlight-V100
+.Trashes
 /_assets/
 /_common/root/
 /_data/
@@ -60,19 +40,27 @@ Temporary Items
 /favicon.ico
 /fonts/
 /styles/
-Dockerfile
-Gemfile
-Gemfile.lock
 _site
 _tempconfig.yml
+=======
 api/aspnet-mvc
 bs-config.js
 build-docs.sh
 copy_content.sh
 copy_local.sh
+Desktop.ini
+Dockerfile
+ehthumbs.db
+Gemfile
+Gemfile.lock
+Icon
 install-npm.sh
 knowledge-base.html
+Network Trash Folder
 robots.txt
 search.html
 start-docs.sh
+Temporary Items
+Thumbs.db
 watch.sh
+watch.sh/_assets/
