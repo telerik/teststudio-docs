@@ -7,7 +7,7 @@ position: 6
 ---
 # Create an Execution Server
 
-The Execution Server is the Test Studio Test Runner instance of Test Studio Standalone installation or the Test Studio Run-Time Edition isntallation. An Execution Server is ready for use when configured and registered with your Scheduling Server. Because of this, first is required a successfully <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">configured Scheduling Server</a>. 
+The Execution Server is the Test Studio Test Runner instance of Test Studio Standalone installation or the Test Studio Run-Time Edition installation. An Execution Server is ready for use when configured and registered with your Scheduling Server. Because of this, first is required a successfully <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">configured Scheduling Server</a>. 
 
 An Execution Server (ES) could be a physical or virtual machine. Multiple Execution Servers could be connected to a single Scheduling Server (SS) to allow you to execute multiple test lists simultaneously. Differences in operating systems between the machines running the SS and the ES are allowed. Though, each ES **must be running the same version of Test Studio** as the SS. 
 
@@ -64,17 +64,17 @@ If this option is enabled, as long as the Test Studio Scheduling Client process 
 Once the option is disabled or the Test Studio Scheduling Client process is stopped, the operating system will be able to get to sleep/lock normally.
 
 > __Note:__ This functionality will not prevent the user to manually lock the machine or put it to sleep.
-
+</br>
 > __Note:__ Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Please consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
 
 ### Reconnect to Console on Disconnect
 
-When running tests on a remote virtual or physical machine, users would usually connect to that machine via Remote Desktop Connection (RDC) to start and configure the Test Studio Scheduling Client. If after that the user closes their RDC window, their user session on the virtual machine will be switched to “disconnected” state and will lose access to the graphical user interface (GUI). This will prevent UI tests to be executed normally, whenever an interaction to the GUI is needed (e.g. performing real mouse click or keyboard actions, dialog interaction, etc.).
+When running tests on a remote virtual or physical machine, users would usually connect to that machine via Remote Desktop Connection (RDC) to start and configure the Test Studio Scheduling Client. If after that the user closes their RDC window, their user session on the virtual machine will be switched to 'disconnected' state and will lose access to the graphical user interface (GUI). This will prevent UI tests to be executed normally, whenever an interaction to the GUI is needed (e.g. performing real mouse click or keyboard actions, dialog interaction, etc.).
 
-When the “Reconnect to Console on Disconnect” feature is enabled, Test Studio will try to reconnect your disconnected session to the local console session, regaining access to the GUI.
+When the 'Reconnect to Console on Disconnect' feature is enabled, Test Studio will try to reconnect your disconnected session to the local console session, regaining access to the GUI.
 
 > __Note:__ When your session gets connected to the local console session, if there is a physical monitor, attached to the Windows machine, your session will be displayed on it. If there is another user, that has physical access to the machine, they will be able to view your screen or interact with it. This could be a security issue, so please consider carefully if that is acceptable for your organization before using the feature.
-
+</br>
 > __Note:__ This feature will not have effect if you keep your Remote Desktop Connection session open, but minimized. You can see <a href="/knowledge-base/test-execution-kb/minimized-rdc" target="_blank">this article</a> for information on handling this case.
 
 [1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png

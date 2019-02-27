@@ -114,7 +114,7 @@ There are few specific scenarios when the names of variables will not be display
 
 - a column name from a data source of a parent test - in the cases when the current test is nested as a step and uses the parent test data source (see <a href="/features/data-driven-testing/multi-level-tests" target="_blank">further details for multi level tests</a>)
 
-To filter an element's find expression using the column name from parent data source or the value of an extracted variable, enter its name in the *Add coded data variable* field (without the $ notation), click on the brackets and then the *Set* button. 
+To filter an element's find expression using the column name from parent data source or the value of an extracted variable, enter its name in the *Add coded data variable* field (without the $ notation), click on the brackets and then the *Set* button.
 
 ![Bind Coded variable][120]
 

@@ -13,7 +13,7 @@ In a distributed Test Studio installation, the Storage Server is responsible for
 
 1.&nbsp;  Install the Storage Service component in the **Customize Installation dialog** during Test Studio Installation for the machine that will host the Storage Service. This component is not selected by default in a Standalone installation.
 
-![Instalation Dialog][1]
+![Installation Dialog][1]
 
 2.&nbsp; You must agree the MongoDB license agreement in order to start downloading and install MongoDB.
 

@@ -7,9 +7,7 @@ position: 5
 ---
 # Create a Scheduling Server
 
-
 The scheduling server keeps track of what tests to run and sends this data to the execution servers.
-
 
 Before proceeding, there are a few things to confirm regarding the computer you will be using as the Scheduling Server:
 
@@ -17,14 +15,12 @@ Before proceeding, there are a few things to confirm regarding the computer you 
 - User Account Control must be turned off completely (set to *Never notify*).
 - The Scheduling Server requires a Test Studio Runtime installation or higher.
 
-
 If you do not meet the above requirements, the software will not launch or will quit immediately. 
-
 
 > Configuring a Scheduling Server for remote execution requires that you <a href="/features/scheduling-test-runs/overview" target="_blank">install the Storage Service</a> on a machine you can access from the Scheduling Server.
 > If the Scheduling Server has a Standalone installation, enable the <a href="/getting-started/installation/install-procedure" target="_blank">Scheduling Component</a>.
 
-1.&nbsp; Open Test Studio. In the top navigation menu click the **Set** button in the Scheduling tab.
+1.&nbsp; Open Test Studio. In the top navigation menu click the **Configure** button in the Scheduling ribbon.
 
 ![set][5]
 
@@ -33,7 +29,6 @@ If you do not meet the above requirements, the software will not launch or will 
 ![MongoDB][6]
 
 > The **MongoDB** tab will be grayed out (inactive) if you do not have MongoDB installed on the machine!
-
 
 3.&nbsp; In the **Storage** tab verify the connection string and hit **Apply**. Verify the Telerik Storage Service is started in the lower left.
 

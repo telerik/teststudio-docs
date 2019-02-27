@@ -29,13 +29,12 @@ Below is a diagram of the Scheduling setup and how its components communicate be
 
 The local all-in-one setup allows you to <a href="/features/scheduling-test-runs/local-run-all-in-one" target="_blank">schedule the test lists</a> for a certain time in the future. The execution is on the same machine and complete standalone installation of Test Studio is sufficient to setup that configuration. 
 
-In addition to the local scheduling feature the local all-in-one installation could be used to<a href="/features/scheduling-test-runs/remote-run-all-in-one" target="_blank">simulate remote run</a> on the same machine. 
+In addition to the local scheduling feature the local all-in-one installation could be used to<a href="/features/scheduling-test-runs/remote-run-all-in-one" target="_blank">simulate remote run</a> on the same machine.
 
 ### Remote Setup
 
 The remote configuration allows you to execute and/or schedule test lists on multiple machines <a href="/knowledge-base/test-execution-kb/multi-browsers#How-to-Run-Tests-in-Parallel" target="_blank">even simultaneously</a>. 
 
 The setup may vary from single to multiple execution machines. It only requires <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">scheduler</a> and <a href="/features/scheduling-test-runs/create-storage-server" target="_blank">storage</a> to be configured once on any of the machines and <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">all execution clients need to be connected to that single scheduler</a>.
-
 
 [1]: /img/features/scheduling-test-runs/overview/fig1.png
