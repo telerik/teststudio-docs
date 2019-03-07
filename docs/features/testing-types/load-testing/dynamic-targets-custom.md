@@ -5,7 +5,6 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 position: 8
 publish: false
 ---
-
 # Custom Dynamic Targets
 
 Based on the HTTP traffic there might be targets which are not detected by Test Studio as dynamic but still these will be required to accomplish meaningful scenario. Or any of the auto-detected dynamic targets is not listed for transfer to a desired request.
