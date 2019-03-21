@@ -312,6 +312,7 @@ main_theme: teststudio
 edit_repo_url: https://github.com/telerik/teststudio/edit/master/docs
 tabbed_code_marker_length: 3
 tabbed_code_complex_separator: true
+api_reference_url: "api/"
 download: https://www.telerik.com/download-trial-file/v2/test-studio-ultimate
 nav:
   "Demos": https://www.telerik.com/teststudio/live-demos
@@ -347,6 +348,7 @@ ff-sheet-id: 33b86fb1-d8b0-c7b0-84c0-aaff59d0d84a
 google_tag_manager: GTM-6X92
 gcs_engine: '001595215763381649090:ymztq4og6vc'
 gcs_api_key: 'AIzaSyDLQ-eVOEEH8Godvt6PZq3vSMpI5dHhX54'
+
 
 # Assets pipeline configuration
 assets:
