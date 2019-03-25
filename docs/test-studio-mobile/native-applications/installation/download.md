@@ -15,7 +15,9 @@ position: 2
 
 The Mobile Testing Agent app must be installed on physical or virtual devices that will execute tests against native or hybrid apps. This app connects Test Studio Mobile and the actual testable app. Read [this article]({% slug ms-install-agent-app%}) for more information.
 
-  * [Mobile Testing Agent app for iOS](https://itunes.apple.com/us/app/mobile-testing/id787441509?ls=1&amp;mt=8) - required to execute native tests on an iOS device.
+  * [Mobile Testing Agent app for iOS](https://itunes.apple.com/us/app/mobile-testing/id787441509?ls=1&amp;mt=8) - required to execute native tests on an iOS device (link to the AppStore).
+
+  * [Mobile Testing Agent app for iOS](/samples/MobileTestingAgentForSimulator.zip) - required to execute native tests on an iOS simualtor (direct download of the application package).
 
   * [Mobile Testing Agent app for Android](https://play.google.com/store/apps/details?id=com.telerik.testing.executionagent) - required to execute native tests on an Android device.
 

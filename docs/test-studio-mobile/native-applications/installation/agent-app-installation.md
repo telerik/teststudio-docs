@@ -6,17 +6,17 @@ previous_url: /test-studio-mobile/installation/agent-app-installation
 position: 2
 slug: ms-install-agent-app
 ---
-#Agent App Installation
+# Agent App Installation
 
-##Overview
+## Overview
 
 The Mobile Testing Agent app must be installed on physical or virtual devices that will execute tests against native or hybrid apps. This app connects the machine where Test Studio Mobile is installed and the actual testable app.
 
-##Install to a real device
+## Install to a real device
 
 Mobile Testing Agent app can be installed for free from [AppStore](https://itunes.apple.com/us/app/mobile-testing/id787441509?ls=1&amp;mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.telerik.testing.executionagent). Search for `Mobile Testing` and install the app to any supported device aimed for testing.
 
-##Install to an Android emulator
+## Install to an Android emulator
 
 1. Create an Android emulator with the [AVD Manager](http://developer.android.com/tools/devices/managing-avds.html).
 
@@ -47,11 +47,11 @@ Mobile Testing Agent app can be installed for free from [AppStore](https://itune
 		![Device ID Windows](/img/test-studio-mobile/getting-started-mb/agent-app-installation/fig2.png)
 
 
-##Install on iOS simulator
+## Install on iOS simulator
 
 1. Open a new command window.
 
-2. [Download](/samples/MobileTestingExtension_iOS.zip) the Test Studio Mobile extension for iOS and unpack it. Find the `MobileTesting.app` folder.
+2. [Download](/samples/MobileTestingAgentForSimulator.zip) the Test Studio Agent App package for iOS and unpack it. Find the `MobileTestingSimulator.app` folder.
 
 * ###Using Xcode 6
 
