@@ -8,16 +8,16 @@ publish: true
 previous_url: /test-studio-mobile/configure-your-app/configure-android
 position: 1
 ---
-#Configure your Android app to be testable
+# Configure your Android app to be testable
 
 > The application configured following the steps bellow, should be used for testing purposes only and will not be accepted in Google Play Store. 
 
 Android apps must be configured in order to be testable by Test Studio Mobile. This can be achieved through the built-in configuration or manually:
 
-*   [Built-In Configuration](#Built-In-Configuration)
-*   [Manual Configuration](#Manual-Configuration)
+*   [Built-In Configuration](#built-in-configuration)
+*   [Manual Configuration](#manual-configuration)
 
-##Built-In Configuration
+## Built-In Configuration
 
  > The built-in configuration requires that you have Java SDK 1.8 or later installed. It doesn't change already instrumented app and you have to ensure that the `libs` folder of your project doesn't contain `MobileTestingExtension.jar` or `MobileTestingExtension.aar` files. In addition built-in configuration is not supported for the bellow cases:
  > * Apps downloaded from Google play or built in production mode.
@@ -57,18 +57,18 @@ Clicking the **Run** button will start the configuration process. After the app 
 
 Testing the configured app can start immediatelly by opening an Android test and selecting a device for recording. The app identifier is automatically added and can be chosen from the list of app identifiers that is shown when recording starts. [This article]({% slug ms-record-test-android%}) describes test recording in detail.
 
-##Manual Configuration
+## Manual Configuration
 
 > The manual configuration requires the source code (Android Studio/Eclipse project).
 
 Configure your Android app to be testable.
 
-* [Android Studio and AAR extension](#Android-Studio-and-AAR-extension)
-* [Android Studio and JAR extension](#Android-Studio-and-JAR-extension)
-* [Eclipse](#Eclipse)
+* [Android Studio and AAR extension](#android-studio-and-aar-extension)
+* [Android Studio and JAR extension](#android-studio-and-jar-extension)
+* [Eclipse](#eclipse)
 
+# Android Studio and AAR extension.
 
-#Android Studio and AAR extension.
 ## Copy Extension
 
 1. [Download](/samples/MobileTestingExtension_Android.zip) the Test Studio Mobile extension for Android and unpack it.
@@ -114,7 +114,8 @@ Configure your Android app to be testable.
 <a href="#Configure-your-Android-app-to-be-testable">Back to Top</a>
 <br><br>
 
-#Android Studio and JAR extension.
+# Android Studio and JAR extension.
+
 ## Copy Extension
 
 1. [Download](/samples/MobileTestingExtension_Android.zip) the Test Studio Mobile extension for Android and unpack it.
@@ -128,12 +129,12 @@ Configure your Android app to be testable.
 1. Open your project in Android Studio.
 2. Right Click on the project and select **Open Module Settings**.
 3. Click **app** under **Project Settings**.
-3. Click the **Flavors** tab.
-4. Click **+** to add two new entries: `production` and `mobileTesting`.
+4. Click the **Flavors** tab.
+5. Click **+** to add two new entries: `production` and `mobileTesting`.
 
     ![Product Flavors](/img/test-studio-mobile/configure-your-app/configure-android/fig1.png)
 
-5. Click **OK**.
+6. Click **OK**.
 
 ## Configure Testing Flavor
 
@@ -204,7 +205,7 @@ Create the following subfolders in the project:
 <a href="#Configure-your-Android-app-to-be-testable">Back to Top</a>
 <br><br>
 
-#Eclipse
+# Eclipse
 ## Copy Extension
 
 1. Open `/Telerik Mobile Testing/extensions/Android`.
