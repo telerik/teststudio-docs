@@ -1,16 +1,16 @@
 ---
 title: Keep an Active Session
 page_title: Keep an Active Session
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: No Functional tests can be executed on locked machine or inactive desktop session. This is a possible solution how to configure few machines to keep an active session on one of the machines. 
 position: 1
 ---
-#Keep an Active Session Running on the Execution Server#
+# Keep an Active Session Running on the Execution Server
 
-Scheduling involves running Progress Test Studio tests on an Execution Server. However, any test that requires moving the mouse or sending keystrokes requires an unlocked desktop. Telerik tests are not the only ones affected by this Windows limitation. This is a general problem with any tool that performs UI testing.
- 
-Telerik tests running against HTML-based web applications (ASP .NET and others) frequently can work on a locked machine because most test steps don't use the mouse or keyboard. Instead they are able to inject events (like a Click or Select) directly into the DOM structure of the page. Unfortunately, when performing Silverlight or WPF testing, these events cannot be injected in the same way. We have to simulate system-wide mouse moves and mouse clicks instead.
+Scheduling involves running Test Studio tests on an Execution Server. However, any test that requires moving the mouse or sending keystrokes requires an unlocked desktop. Test Studio tests are not the only ones affected by this Windows limitation. This is a general problem with any tool that performs UI testing.
 
-##Solution##
+Test Studio tests running against HTML-based web applications (ASP .NET and others) frequently can work on a locked machine because most test steps don't use the mouse or keyboard. Instead they are able to inject events (like a Click or Select) directly into the DOM structure of the page. Unfortunately, when performing Silverlight or WPF testing, these events cannot be injected in the same way. We have to simulate system-wide mouse moves and mouse clicks instead.
+
+## Solution
 
 Here is one possible solution to this challenge:
 
@@ -38,4 +38,3 @@ A **Remote Desktop Connection** remains open between **A** and **B**. This cause
 
 [1]: /img/knowledge-base/scheduling-kb/keep-active-session/fig1.png
 [2]: /img/knowledge-base/scheduling-kb/keep-active-session/fig2.png
-

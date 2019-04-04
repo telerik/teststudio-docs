@@ -1,7 +1,7 @@
 ---
 title: Virtual Users
 page_title: Virtual Users
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: clarify some of the concepts behind Virtual Users in Test Studio Load Tests. Workload in Test Studio load test. How to adjust the workload of user profiles to cover the load test requirements.
 position: 1
 ---
 #Virtual Users#
@@ -18,13 +18,11 @@ The Workload is the proportion that each User Profile will be used compared to a
 
 As of 2013 R1, Test Lists can run in <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">Parallel Execution</a> mode. If load tests are executed in this mode, each Execution Server will utilize all VUs. If a Test List is run in Distributed mode instead, a Test Studio Load Test will evenly distribute the users across all of the available Execution Server. For example, if you specify 500 users and have 5 Execution Servers, each load agent will simulate 100 users.
 
-
 To determine how Workload will affect the number of VUs assigned to a particular Execution Machine in Distributed Execution, divide all users equally between all agents, then apply workload ratios. For example, if the Load Test reaches 2000 concurrent users, and 4 Execution Server, then each Execution Server will be assigned 500 VU. If the Load Test has 2 user profiles with Workloads of 60% and 40%, then the first Profile will use 300 of the Execution Server's 500 VUs, and the second Profile will use 200 VUs.
 
 Workloads determine the percentage of the Execution Server's VUs to apply to a User Profile:
 
 ![user profile][1]
-
 
 ### Available Users ###
 

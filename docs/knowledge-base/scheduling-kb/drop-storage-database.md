@@ -1,30 +1,34 @@
 ---
 title: Drop The Storage Database
 page_title: Drop The Storage Database
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Drop The Storage Database. The Telerik Storage Database cannot be accessed. Telerik Storage database gets corrupted. This can lead to execution of outdated test lists or even inability to execute a test list. Unable to find test file.  
 position: 1
 ---
-#Drop The Storage Database
+# Drop The Storage Database
 
-It may happen that the storage database gets corrupted and cannot be updated with the latest changes of your test lists. This can lead in execution of outdated test lists or even inability to execute a test list.
+In certain situations the storage database can get corrupted and cannot be updated with the latest changes of your test lists. This can lead to execution of outdated test lists or even inability to execute a test list due to missing test files. 
 
-In this situation you should drop the storage database so Test Studio can create a new one. This will ensure fresh storage and in case there are any corrupted entries the tests and test lists will be newly uploaded to the storage.
+In such cases you should drop the MongoDB database, which will force Test Studio to newly upload the project files to the storage by the next scheduled job.
 
-> Dropping the storage database will lead in loss of the schedule test list results. If the already existing results need to be stored you could drop only the tests and test list collections.
+> Dropping the whole MongoDB database will delete the results of any previous scheduled test list executions. If the already existing results are still necessary, you could drop only the *tests* and *testlists* collections.
 
-1.&nbsp; Install **Robomongo** which is the official tool for maintaining the MongoDB databases from <a href="https://robomongo.org/" target="_blank">here</a>.
+## Install the MongoDB Official Maintenance Tool
 
-2.&nbsp; Create a connection to the storage database and connect to it.
+Download and install the **Robo 3T** - the official tool for maintaining the MongoDB databases from <a href="https://robomongo.org/download" target="_blank">here</a>. Once started, create a connection to the storage database and connect to it - the default values should be sufficient to connect to the TSStorageData databse. 
 
-![Create connection][1]  
+![Create connection][1]
 
-3.1.&nbsp; Drop the entire database (if you don't want to lose the already existing results continue to step 3.2). Right click on **TSStorageData** and select drop **Drop Database**
+## Drop the Entire Database
 
-![Drop the entire database][2] 
+Drop the entire database (this will delete the already existing results from previous scheduled executions). Right click on **TSStorageData** and select drop **Drop Database**
 
-3.2. If you don't want to loose your schedule results you may drop only **tests** and **testlists** collections.
+![Drop the entire database][2]
 
-![Drop the collections][3] 
+## Drop Single Collections From Database
+
+If you don't want to loose your schedule results you may drop only ***tests*** and ***testlists*** collections.
+
+![Drop the collections][3]
 
 With the next schedule execution the test lists will be newly uploaded to the storage database.
 

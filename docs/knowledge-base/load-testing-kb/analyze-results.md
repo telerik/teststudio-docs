@@ -1,7 +1,7 @@
 ---
 title: Analyze Results
 page_title: Analyze Results
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Analyze Load Result. Identify Key Areas of Load Data. User Experience Metrics. Load Generation Metrics. Resource Use Metrics. Correlate Key Load Data. Identify Issues based on the load test runs results. View Page Specific Metrics. 
 position: 1
 ---
 #Analyze Load Results#

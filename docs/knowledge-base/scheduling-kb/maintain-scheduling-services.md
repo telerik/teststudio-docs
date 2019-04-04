@@ -1,13 +1,13 @@
 ---
 title: Maintain Scheduling Services
 page_title: Maintain Scheduling Services
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Restart Telerik Scheduling and Storage Services. The Scheduling setup is stuck or hanged and no scheduled tests or test lists can be executed. 
 position: 1
 ---
 
 # Maintain Scheduling Services
 
-##Restart Scheduling and Storage Services 
+## Restart Scheduling and Storage Services
 
 If multiple jobs stuck to the Schedule server and it does not work and no test lists could be executed remotely restarting the scheduling services might solve the issue. 
 
@@ -15,7 +15,7 @@ Exit Test Studio and ensure all its processes are stopped in the Task Manager. O
 
 ![Windows Services][1]
 
-##Config files 
+## Config files
 
 The Scheduling config file is generated automatically during the initial Scheduling setup. Its default location is *C:\ProgramData\Telerik\Configs* and its name is ***Telerik.TestStudio.Scheduling.Client.exe.config***. Opened in a text editor it looks similar to this: 
 
@@ -23,7 +23,7 @@ The Scheduling config file is generated automatically during the initial Schedul
 
 In some rare cases it might become corrupted and to prevent the Scheduling service to execute successfully. If the file is missing it will be automatically recreated to its default values once Test Studio is started. Therefore if an issue is identified with the Config file it is recommended to simply delete it. 
 
-##Re-install Scheduling and Storage Services 
+## Reinstall Scheduling and Storage Services
 
 The Scheduling and Storage services could be re-installed from Test Studio installation wizard. Close Test Studio and terminate all its processes. Open Control Panel and navigate to the Change icon once Progress Test Studio is selected. Both services could be accessed in the **Customize Installation Dialog**. If it is required you could uninstall and then install them again. 
 

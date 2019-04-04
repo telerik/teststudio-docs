@@ -15,11 +15,21 @@ One article with step-by-step quick start guide – what are the first and most 
 
 Create a new project using the Test Studio Dev template - select _Create New Test Project_ under the _Telerik->Test Studio_ menu.
 
-![Create TS Dev project](images/quickstart/create-project.png)
+<table id=no-table>
+	<tr>
+		<td>![Create TS Dev project](images/quickstart/create-project.png)<br><br>**Visual Studio 2017**</td>
+		<td>![Create TS Dev project VS 2019](images/quickstart/create-project-vs-2019.png)<br><br>**Visual Studio 2019**</td>
+	</tr>
+<table>
 
 Next choose the type of programming language between _C# or VB.NET_ and set a meaningful name for your first project.
 
-![Name_Language_of_Project](images/quickstart/name-of-project.png)
+<table id=no-table>
+	<tr>
+		<td>![Choose type of TS Dev project](images/quickstart/name-of-project.png)<br><br>**Visual Studio 2017**</td>
+		<td>![Choose type of TS Dev project VS 2019](images/quickstart/name-of-project-vs-2019.png)<br><br>**Visual Studio 2019**</td>
+	</tr>
+<table>
 
 ### Add a Test in Project
 

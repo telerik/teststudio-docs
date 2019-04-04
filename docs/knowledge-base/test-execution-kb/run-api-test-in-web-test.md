@@ -1,7 +1,7 @@
 ---
 title: Run an API Test within a Web Test
 page_title: Run an API Test within a Web Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description:  Run an API Test within a Web Test with Test Studio. Execute API test as step in a web test in Test Studio. Run API tests as part of a Test Studio web project. Integrate API testing with Test Studio web tests. 
 position: 1
 ---
 # How to Run an API Test within a Web Test

@@ -1,22 +1,22 @@
 ---
-title: Verify Silverlight Tool-Tips
-page_title: Verify Silverlight Tool-Tips
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: Verify Silverlight Tooltips
+page_title: Verify Silverlight Tooltips
+description: Verify Silverlight Tooltips
 position: 1
 ---
-#How to Verify Tool-Tips in Silverlight#
+#How to Verify Tooltips in Silverlight#
 
-Verifying Silverlight tool-tips sometimes can be tricky. First we must understand that tool-tips are attached to elements and Test Studio has the ability to verify what the tool-tip is that is attached to a specific element. We don't try to get the tool-tip element itself and verify the tool-tip contents, because a tool-tip is just a property of the Silverlight UI element for which the tool-tip is intended to be displayed.
+Verifying Silverlight tooltips sometimes can be tricky. First we must understand that tooltips are attached to elements and Test Studio has the ability to verify what the tooltip is that is attached to a specific element. We don't try to get the tooltip element itself and verify the tooltip contents, because a tooltip is just a property of the Silverlight UI element for which the tooltip is intended to be displayed.
 
-One other small hurdle is that in order to verify a tool-tip, it must first appear in the Silverlight Visual Tree, which is Microsoft's internal representation of the Silverlight application UI. The first trick is to <a href="/knowledge-base/test-automation-kb/invoke-mouse-hover" target="_blank">Invoke a Mouse Hover event</a>. By hovering the mouse over the element, it causes the tool-tip to appear in the UI, which also adds it to the Visual Tree. Once it appears you can try to add a tool-tip verification of your UI element.
+One other small hurdle is that in order to verify a tooltip, it must first appear in the Silverlight Visual Tree, which is Microsoft's internal representation of the Silverlight application UI. The first trick is to <a href="/knowledge-base/test-automation-kb/invoke-mouse-hover" target="_blank">Invoke a Mouse Hover event</a>. By hovering the mouse over the element, it causes the tooltip to appear in the UI, which also adds it to the Visual Tree. Once it appears you can try to add a tooltip verification of your UI element.
 
-In some cases, just highlighting the UI element in the recorder and adding a tool-tip verification doesn't work as expected.
+In some cases, just highlighting the UI element in the recorder and adding a tooltip verification doesn't work as expected.
 
 ![Highlight][1]
 
-The problem is that the tool-tip is being applied to the parent RatingItem element and not the child Grid or TextBlock elements. To further complicate things, we can't simply find the RatingItem element in the DOM Explorer and try to use the Sentence Verification Builder to create a tool-tip verification. You can find the RatingItem element in DOM Explorer, but Test Studio won't be able to build a tool-tip verification for it.
+The problem is that the tooltip is being applied to the parent RatingItem element and not the child Grid or TextBlock elements. To further complicate things, we can't simply find the RatingItem element in the DOM Explorer and try to use the Sentence Verification Builder to create a tooltip verification. You can find the RatingItem element in DOM Explorer, but Test Studio won't be able to build a tooltip verification for it.
 
-Instead we have to resort to code to perform our tool-tip verification. First add the RatingItem element to the Project Elements.
+Instead we have to resort to code to perform our tooltip verification. First add the RatingItem element to the Project Elements.
 
 1.&nbsp; Highlight the element. 
 2.&nbsp; Click Locate in DOM. 

@@ -1,12 +1,12 @@
 ---
 title: Disconnect From Source Control
 page_title: Disconnect From Source Control
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: How to disconnect a local project from TFS, so it is no longer source controlled.
 position: 1
 ---
 #Disconnect From Source Control#
 
-I'd like to disconnect from TFS of a local project so it is no longer source controlled.
+I'd like to disconnect a local project from TFS, so it is no longer source controlled.
 
 ##Solution##
 

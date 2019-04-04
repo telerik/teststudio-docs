@@ -1,10 +1,10 @@
 ---
 title: Security Certificates
 page_title: Security Certificates
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Security (SSL) Certificates. Browser prompt certificate warning. 
 position: 1
 ---
-#Security Certificates#
+# Security Certificates
 
 Security (SSL) Certificates are tricky to automate because each browser prompts its warning differently. Because Test Studio only records in Internet Explorer, the "Continue to this website" link pictured below is recorded and expected to pass when executed in IE. That specific link does not exist in the other browsers, so we expect the test to fail at that step in Firefox, Safari, and Chrome.
 
@@ -24,9 +24,9 @@ Security (SSL) Certificates are tricky to automate because each browser prompts 
 
 ![Security warning Safari][4]
 
-##Solution##
+## Solution 
 
-There are a few work-arounds to consider:
+There are a few workarounds to consider:
 
 1. Register <a href="/knowledge-base/project-configuration-kb/register-certificate" target="_blank">Certificate for HTTPS Connection</a>.
 
@@ -44,8 +44,6 @@ if (ActiveBrowser.BrowserType == BrowserType.Chrome)
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Space);
 }
 ```
- 
-
 ```VB
 If ActiveBrowser.BrowserType = BrowserType.Chrome Then
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Tab)

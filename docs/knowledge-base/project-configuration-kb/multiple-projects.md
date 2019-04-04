@@ -1,13 +1,12 @@
 ---
 title: Multiple Projects
 page_title: Multiple Projects
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Reusing tests and Helper methods across multiple projects. When multiple projects use the same or similar resources, you may wish to share or integrate these project resources. Here we address four scenarios - Sharing helper methods (standalone code file) between projects, sharing data sources between projects, and importing tests from other projects.
 position: 1
 ---
 #Multiple Projects#
 
 When multiple projects use the same or similar resources, you may wish to share or integrate these project resources. Here we address four scenarios: Sharing helper methods between projects, sharing data sources between projects, and importing tests from other projects.
-
 
 ##Sharing Helper Methods Between Projects##
 

@@ -1,19 +1,18 @@
 ---
 title: Testing Framework with Silverlight OOB and Elevated Trust
 page_title: Testing Framework with Silverlight OOB and Elevated Trust
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Using Telerik Testing Framework with Silverlight Out-of-Browser and Elevated Trust. Your Silverlight runs correctly out-of-browser with elevated trust when running without Telerik Testing Framework. When running with Telerik Testing Framework, as part of automatic test execution, an error occurs similar to this - An error has occurred in the script on this page. 
 position: 1
 ---
-#Using Telerik Testing Framework with Silverlight Out-of-Browser and Elevated Trust#
+# Using Telerik Testing Framework with Silverlight Out-of-Browser and Elevated Trust
 
-### Basic functionalities ###
-
+## Basic functionalities
 
 *Your Silverlight runs correctly out-of-browser with elevated trust when running without Telerik Testing Framework. When running with Telerik Testing Framework, as part of automatic test execution, an error occurs similar to this:*
 
 ![Error][1]
 
-##Solution##
+## Solution
 
 This is a communication problem. Telerik Testing Framework supports elevated trust, but after a bit of configuring. Here are the changes that need to be made:
  

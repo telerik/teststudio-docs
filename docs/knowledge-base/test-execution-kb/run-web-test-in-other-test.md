@@ -1,7 +1,7 @@
 ---
 title: Run a Web Test within Other Test
 page_title: Run a Web Test within Other Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Execute a Test Studio web test as part of any other test in code. 
 position: 1
 ---
 #How to Run a Web Test within Other Test#

@@ -1,7 +1,7 @@
 ---
 title: Slow Execution via RDC
 page_title: Slow Execution via RDC
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Test Studio tests execution is too slow via RDC. Test Studio Tests fail via RDC
 position: 1
 ---
 #Slow Execution via Remote Desktop Connection#

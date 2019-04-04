@@ -1,7 +1,7 @@
 ---
 title: Using BaseURL
 page_title: Using BaseURL
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Using BaseURL in a Test Studio project. Multiple test environments in which to execute test scripts. The server URL is different for each environment. How can I avoid rewriting all of my tests from scratch to make them work with a different server URL?
 position: 1
 ---
 #Running a Test Against Multiple Environments (Using BaseURL)#

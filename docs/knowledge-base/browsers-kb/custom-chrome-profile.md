@@ -1,7 +1,7 @@
 ---
 title: Custom Chrome Profile
 page_title: Custom Chrome Profile
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Calibrate the default Chrome Profile
 position: 2
 ---
 #How to Set a Custom Chrome Profile#
@@ -21,4 +21,3 @@ As of version **2017.2** Test Studio also provides options for the user to suppo
 ![Custom Profile][1]
 
 [1]: /img/knowledge-base/browsers-kb/custom-chrome-profile/fig1.png
-

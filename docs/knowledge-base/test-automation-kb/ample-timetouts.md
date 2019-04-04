@@ -1,7 +1,7 @@
 ---
 title: Ample Timetouts
 page_title: Ample Timetouts
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Randomly failing tests. I have recorded few tests and each time I run these, they fail at different step. 
 position: 1
 ---
 #Setting Ample Timeouts in your Test#
@@ -17,7 +17,7 @@ By default, each step is set to use the Global **WaitOnElementsTimeout** as defi
 ![TimeOut][1]
 
 The corresponding <a href="/getting-started/test-execution/test-list-settings" target="_blank">Test List Setting</a> is **ElementWaitTimeout**.
- 
+
 Each test step will wait 30 seconds for the element to appear in the page's DOM. So, if you have a button to be clicked but it's not there yet, the Click step will wait for 30 seconds for the element to appear. If it appears in that time, it will be clicked and the test will continue executing. If it's still not there after 30 seconds, the test will fail with a Timed Out: Waiting for Element exception. In most situations the elements will appear immediately and the 30 seconds timeout will be ample.
  
 In other cases, however, you will need to increase the timeout for a step in order to get it to work. You can either increase the Global WaitOnElementsTimeout to affect all elements, or edit the properties of a single step. For a single step, change **UseStepWaitOnElementsTimeout** to True and increase the **WaitOnElementsTimeout** to an ample number.

@@ -1,7 +1,7 @@
 ---
 title: Think Times
 page_title: Think Times
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Think times in Test Studioo Load test represents the time it takes a user to process the information received from the application and decide what to do next. It also represents other delays, like the amount of time spent filling in a form before submitting the content. Advantages if choosing the right Think Times in Test Studio load test. 
 position: 1
 ---
 #Think Times#

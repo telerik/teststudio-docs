@@ -1,7 +1,7 @@
 ---
 title: Test Modularization
 page_title: Test Modularization
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Best practices how to organize a Test Studio project to ease its maintenance in the future. Reusing tests across the project, using coded steps and custom code, data driven testing, data binding verification and input steps, dynamic data binding using extracted values in runtime. logical steps - if else, loop.
 position: 1
 ---
 #Test Modularization#
@@ -40,5 +40,4 @@ The opportunities that data driven testing offers do not end here - the <a href=
 
 Test Studio offers other useful features implemented in its UI that could help for modulirizing a test project properly. Namely these are the logical steps <a href="/features/logical-steps/if-else" target="_blank">if...else</a>, <a href="/features/logical-steps/loop" target="_blank">loop</a> and <a href="/features/logical-steps/while-loop" target="_blank">while...loop</a>. Combining these steps with a <a href="/features/data-driven-testing/attach-columns-verifications" target="_blank">data bound verification</a> could bring your tests to another level of automation. 
 
-All of the above allow you to create a single test/project that could be automatically adjusted for each execution/iteration and offers good visibility into a project to ease its maintenance.     
-
+All of the above allow you to create a single test/project that could be automatically adjusted for each execution/iteration and offers good visibility into a project to ease its maintenance.

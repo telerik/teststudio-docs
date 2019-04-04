@@ -1,7 +1,7 @@
 ---
 title: Data Driven Tests With MSTest
 page_title: Data Driven Tests With MSTest
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: How to configure data driven tests to be executed with MSTest.
 position: 1
 ---
 #How To Use Data Driven Tests With MSTest

@@ -1,7 +1,7 @@
 ---
 title: Swap License
 page_title: Swap License
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: If you want to use the single purchased Test Studio license on multiple machines, it can be swapped between the different machines. 
 previous_url: /user-guide/knowledge-base/activation/swap-license.aspx, /user-guide/knowledge-base/activation/swap-license
 position: 1
 ---

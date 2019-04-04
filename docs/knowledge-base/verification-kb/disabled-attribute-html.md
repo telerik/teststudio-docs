@@ -1,7 +1,7 @@
 ---
 title: Disabled Attribute (HTML)
 page_title: Disabled Attribute (HTML)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: How to verify an HTML element attribute is disabled. Many website developers will setup buttons or other elements within the site to be "disabled" until a certain action occurs. When using Test Studio to test this, it is sometimes necessary to create a special verification that confirms that the button (in this example) is visible but disabled (not clickable/usable)
 position: 1
 ---
 #How to Verify the Disabled Attribute (HTML)#

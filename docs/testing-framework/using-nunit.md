@@ -64,7 +64,7 @@ In this section we will walk you through the steps to get you started using Tele
 
 * If you haven't already done so, you'll need to add references to the NUnit dll's nunit.core.dll and nunit.framework.dll.
 
-> <font color="red">IMPORTANT:</font> If you plan to use Unit Testing Web Extensions with NUnit, please make sure to install the NUnit Extension dll. To do that:
+> <font color="red">IMPORTANT:</font> If you plan to use Telerik Testing Framework attributes with NUnit (optional), please make sure to install the NUnit Extension dll. To do that:
 
 1. Download the NUnit Extension source from <a href="http://www.telerik.com/documents/automated-testing-tools/ArtOfTest.WebAii.NUnitExtension.zip">here</a>.
 

@@ -1,7 +1,7 @@
 ---
 title: Execute Selenium Test
 page_title: Execute Selenium Test with Test Studio
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Execute Selenium Test with Test Studio. Execute Selenium Test as part of Test Studio web test.
 position: 1
 ---
 # Execute Selenium Test with Test Studio

@@ -1,7 +1,7 @@
 ---
 title: SQL Random Row
 page_title: SQL Random Row
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: I would like to use a single, random row of data for each execution of a test that is data bound to a SQL Database.
 position: 1
 ---
 #Use T-SQL to Pull a Random Row from a SQL Database#

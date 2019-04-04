@@ -1,7 +1,7 @@
 ---
 title: Test Explorer Settings
 page_title: Test Explorer Settings
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Test Explorer Settings. Apply the settings from a Test Studio project to the one exported to Visual Studio. No settings are transferred from the Test Studio project to the Visual Studio project. Move settings from the Test Studio project to the Visual Studio projectmanually. 
 position: 1
 ---
 #Test Explorer Settings#

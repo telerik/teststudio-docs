@@ -1,7 +1,7 @@
 ---
 title: Change Trial to Purchase
 page_title: Change Trial to Purchase
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: How to upgrade your trial license to the purchased one. 
 position: 1
 ---
 # Change from Trial to Purchase

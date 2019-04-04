@@ -1,7 +1,7 @@
 ---
 title: Load Strategies
 page_title: Load Strategies
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Choose which load strategy will suit the current requirements and adjust the Test Strudio load test accordingly. Stress Testing. Baseline Tests and High Load Tests. Soak Testing. Scalability Testing. Geographic Diversity Testing. 
 position: 1
 ---
 #Types of Load Tests#

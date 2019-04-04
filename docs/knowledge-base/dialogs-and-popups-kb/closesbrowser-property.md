@@ -1,7 +1,7 @@
 ---
 title: ClosesBrowser Property
 page_title: ClosesBrowser Property
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: When to use the ClosesBrowser Property for popups which invokes an event that closes the pop-up.
 position: 1
 ---
 #Using the ClosesBrowser Property for Pop-ups#

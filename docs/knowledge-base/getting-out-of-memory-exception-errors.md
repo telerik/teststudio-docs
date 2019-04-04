@@ -1,7 +1,7 @@
 ---
 title: Getting Out of Memory Exception Errors
 page_title: Getting Out of Memory Exception Errors
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Getting Out of Memory Exception (OutOfMemory) Errors when scheduling tests to run on remote machine. remote test list execution is failing because of OutOfMemory exceptions. 
 previous_url: /user-guide/knowledge-base/oom.aspx
 position: 1
 ---

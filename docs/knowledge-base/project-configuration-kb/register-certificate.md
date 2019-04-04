@@ -1,7 +1,7 @@
 ---
 title: Register Certificate
 page_title: Register Certificate
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Register Certificate for HTTPS Connection. I encounter certificate-related warnings when the Test Studio recorder or runner is attached to the browser
 position: 1
 ---
 #Register Certificate for HTTPS Connection#
@@ -9,17 +9,14 @@ position: 1
 I'm working on a web application accessible via secure HTTP (HTTPS) with a URL like this:
 
 * https://www.something.com
- 
+
 I encounter certificate-related warnings when the Test Studio recorder or runner is attached to the browser. I do not see this warning when the recorder or runner is not attached:
 
 ![Certificate][1]
 
-
-
 [1]: /img/knowledge-base/project-configuration-kb/register-certificate/fig1.png
 [2]: /img/knowledge-base/project-configuration-kb/register-certificate/fig2.png
 [3]: /img/knowledge-base/project-configuration-kb/register-certificate/fig3.png
-
 
 ##Standalone version and VS plugin##
 

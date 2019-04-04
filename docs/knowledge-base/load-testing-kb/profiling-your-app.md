@@ -1,7 +1,7 @@
 ---
 title: Profiling Your App
 page_title: Profiling Your App
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Profiling Your App in Test Studio load test. Identifying performance metrics to gather and analyze. Role-specific Metrics - Application Server (performance counters to measure the resource usage of different components of the application server). Database Server (performance counters to measure the behavior and resource usage of your SQL database server). Execution Server (performance counters to determine if the machine executing the load test is a bottleneck).
 position: 1
 ---
 #Profiling Your App#

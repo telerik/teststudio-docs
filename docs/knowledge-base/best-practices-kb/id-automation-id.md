@@ -1,7 +1,7 @@
 ---
 title: ID & Automation ID
 page_title: ID & Automation ID
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Static and unique id attribute for the elements in a dynamic application. It is recommended to assign such during the application development process to ease the automation process. 
 position: 1
 ---
 # Element Identification with ID and Automation ID #

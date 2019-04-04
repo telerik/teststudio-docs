@@ -12,13 +12,23 @@ position: 1
 1.Launch Visual Studio.
 2.Click __Telerik > Test Studio > Create New Test Project__.
 
-![Create project][1]
+<table id=no-table>
+	<tr>
+		<td>![Create project][1] <br><br>**Visual Studio 2017**</td>
+		<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019**</td>
+	</tr>
+<table>
 
 3.Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__.<br> 
 
 > **Note:** As of version 2015.3.1202 Test Studio projects will appear only under **.NET Framework 4.5** or higher.
 
-![Create C#/VB project][2]
+<table id=no-table>
+	<tr>
+		<td>![Choose C#/VB project][2]<br><br>**Visual Studio 2017**</td>
+		<td>![Choose C#/VB project VS 2019][12]<br><br>**Visual Studio 2019**</td>
+	</tr>
+<table>
 
 4.By default the newly created project contains a Web test.
 
@@ -61,5 +71,5 @@ To stop the recording session close the browser.
 [5]: /img/getting-started/create-test-vsplugin/web-test/fig5.png
 [6]: /img/getting-started/create-test-vsplugin/web-test/fig6.png
 [7]: /img/getting-started/create-test-vsplugin/web-test/fig7.png
-
-
+[11]: /img/getting-started/create-test-vsplugin/wpf-test/fig11.png
+[12]: /img/getting-started/create-test-vsplugin/wpf-test/fig12.png

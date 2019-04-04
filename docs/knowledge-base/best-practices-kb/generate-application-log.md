@@ -1,7 +1,7 @@
 ---
 title: Generate Application Log
 page_title: Generate Application Log
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: How to enable/disalbe, view, clear the Test Studio application log. The application log records all events happening in the UI and can be used when troubleshooting various errors, which appear while recording, executing tests or while maintaining the test project. Any unexpected errors can be also explored in the application log. 
 previous_url: /user-guide/knowledge-base/best-practices/generate-application-log.aspx, /user-guide/knowledge-base/best-practices/generate-application-log
 position: 1
 ---

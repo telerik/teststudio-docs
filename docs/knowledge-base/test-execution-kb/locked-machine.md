@@ -1,7 +1,7 @@
 ---
 title: Execution on Locked Machine
 page_title: Execution on Locked Machine
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Test Script Execution on Locked Machine. If disconnect from and/or lock the machine that acts as Execution Server, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling - UnsupportedNonInteractiveOperationException
 previous_url: /user-guide/knowledge-base/test-execution/no-tests-execute-on-locked-machine.aspx, /user-guide/knowledge-base/test-execution/no-tests-execute-on-locked-machine
 position: 1
 ---

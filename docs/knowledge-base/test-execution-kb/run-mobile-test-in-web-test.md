@@ -1,7 +1,7 @@
 ---
 title: Run a Mobile Test within a Web Test
 page_title: Run a Mobile Test within a Web Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Run mobile Test within a Web Test with Test Studio. Execute mobile test as step in a web test in Test Studio. Run Mobiletests as part of a Test Studio web project. Integrate Mobile testing with Test Studio web tests. 
 position: 1
 ---
 #How to Run a Mobile Test within a Web Test#

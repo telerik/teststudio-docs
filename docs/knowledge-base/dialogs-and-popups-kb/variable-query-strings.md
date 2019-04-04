@@ -1,7 +1,7 @@
 ---
 title: Variable Query Strings
 page_title: Variable Query Strings
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Often web applications are designed such that they use a variable or random query string in the URL address. The order status page at Newegg.com is a good example of this. Every time you go to their order status page, a random ID is added to the URL. Here is how Test Studio can handle these dynamic URLs.
 position: 1
 ---
 #How to Deal with Variable Query Strings in URLs#

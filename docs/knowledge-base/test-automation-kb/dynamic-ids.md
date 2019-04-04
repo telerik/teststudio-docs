@@ -1,18 +1,17 @@
 ---
 title: Dynamic IDs
 page_title: Dynamic IDs
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Web site or application generates ID attributes for its elements dynamically. This causes the Test Studio tests to fail because once the ID attribute for a given element changes, it can no longer be identified. How to choose find logic for elements with dynamic ids. 
 previous_url: /user-guide/knowledge-base/test-automation/dynamically-generated-id-attributes.aspx
 position: 1
 ---
-#Working Around Dynamically Generated ID Attributes#
+# Working Around Dynamically Generated ID Attributes
 
 *Your web site or application generates ID attributes for its elements dynamically. This causes your tests to fail because once the ID attribute for a given element changes, it can no longer be identified.*
 
-
 We recommend that you consider changing your application in order to make it use non-dynamically generated IDs. It will pay off in time saved on automation tasks. However, we realize this will not be an option for everyone. In this case you need to bypass the ID attributes. There are two ways to do this:
 
-###Edit the Identification Logic Configuration for the Project###
+## Edit the Identification Logic Configuration for the Project
 
 1. Open the Project Settings menu:
 
@@ -28,12 +27,12 @@ We recommend that you consider changing your application in order to make it use
 	![Identificaiton logic][3]
 
 This is a list of the attributes Test Studio will use to build the Find Logic for elements when you're recording a test. The attributes are listed in order of priority.
- 
+
 **Note:** Keep in mind that the Find Expression for a given element will only use two attributes.
- 
+
 You can delete the ID tag from the list altogether or you can can move it further down to decrease its priority. After you've saved the changes, any new tests you record will use the new configuration designed to avoid ID tags.
 
-###Manually Edit the Find Expression for the Affected Elements###
+## Manually Edit the Find Expression for the Affected Elements
 
 A recorder step is failing due to a changed ID. If you click on the recorder step from the Steps menu, an Element in the Elements Explorer becomes highlighted in the Elements Explorer:
 

@@ -1,7 +1,7 @@
 ---
 title: Minimized RDC
 page_title: Minimized RDC
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Scheduled tests cannot be run on minimized RDC. To run tests on a remote machine while the RDC window is minimized, add registry keys on the computer from which you connect to the remote machine
 position: 1
 ---
 #Minimized Remote Desktop Connection#

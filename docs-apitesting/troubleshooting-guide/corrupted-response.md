@@ -6,7 +6,7 @@ position: 2
 publish: true
 ---
 
-#Corrupted Response due to HTTP compression
+# Corrupted Response due to HTTP compression
 
 When you are <a href="/features/import/http-traffic">importing</a> or <a href="/features/record/http-traffic">recording</a> traffic, 
 sometimes the request may contain an `Accept-Encoding` header that determines certain compression of the received response data. 

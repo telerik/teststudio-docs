@@ -1,18 +1,18 @@
 ---
 title: Non-Domain Environment
 page_title: Non-Domain Environment
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Scheduling setup using machines in different networks - Non-Domain And Cloud Environment. Use the machine IP addresses instead of domain names to configure the Scheduling and Execution servers. 
 position: 1
 ---
-#Scheduling in a Non-Domain And Cloud Environment#
+# Scheduling in a Non-Domain And Cloud Environment
 
 I would like to use the Test Studio Scheduling feature in a non-domain environment.
 
 This is possible, however there are several important steps you must take in addition to the standard Scheduling setup.
 
-Basically the same rules apply here, the only difference is that machines are not in the same domain. This is the reason the scheduling and storage should be configured to use the machine's **IP addresses** instead of their host names. 
+Basically the same rules apply here, the only difference is that machines are not in the same domain. This is the reason the scheduling and storage should be configured to use the machine's **IP addresses** instead of their host names.
 
-##Scheduling Server Configuration
+## Scheduling Server Configuration
 
 1.&nbsp; Find in the Windows programs **Configure as Scheduling Server** application.
 
@@ -38,7 +38,7 @@ In the **Scheduling** tab specify the storage service location and scheduling se
 
 The scheduling is now configured. 
 
-##Execution Server Configuration
+## Execution Server Configuration
 
 We will have to configure the Execution server as well. Log in on the execution machine. You will need to have RunTime installed already.
 
@@ -61,7 +61,6 @@ You may now start the execution server:
 Click **Start Menu > All Programs > Telerik > Test Execution 20XX.X > Start Execution Server**.
 
 In the Windows Task Bar, right click the Test Studio icon and click **Show**
-
 
 ![Show button][6]
 

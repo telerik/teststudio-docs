@@ -24,7 +24,6 @@ Test Studio for APIs supports **JSONPath**, **XPath** and **Regex** for path exp
 
 ![Source Path Type Options][2]
 
-
 ## XPath
 
 Since version R1 2017, Test Studio for APIs supports XPath expressions. Here are some useful links where you can read more about the XPath syntax:
@@ -33,7 +32,6 @@ Since version R1 2017, Test Studio for APIs supports XPath expressions. Here are
  - [msdn](https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx)
 
  Also see below for some [examples](#Examples).
-
 
 ## JSONPath
 

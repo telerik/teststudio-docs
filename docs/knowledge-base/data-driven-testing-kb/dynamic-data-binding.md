@@ -1,7 +1,7 @@
 ---
 title: Dynamic Data Binding
 page_title: Dynamic Data Binding
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: I want my test to dynamically bind to a different data set at run-time. The data I want the test to use will depend on certain conditions of my application, but the test steps will always be the same.
 previous_url: /user-guide/knowledge-base/data-driven-testing/dynamic-data-binding.aspx, user-guide/knowledge-base/data-driven-testing/dynamic-data-binding
 position: 1
 ---

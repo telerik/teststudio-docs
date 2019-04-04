@@ -1,16 +1,14 @@
 ---
 title: Codeless Scrolling in Virtualized Panel
 page_title: Codeless Scrolling in Virtualized Panel
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Codeless Scrolling in Virtualized Panel in Silverlight application
 position: 1
 ---
-#Codeless Scrolling in Virtualized Panel
+# Codeless Scrolling in Virtualized Panel
 
-
-It may be necessary to scroll down through a control that uses a Silverlight virtualizing panel, because in Test Studio, only the rows presented in the Visual Tree can be tested. This is a limitation of the Visual Tree contained in the Silverlight engine. Silverlight puts into the Visual Tree only the UI components necessary to render the page on the screen. 
+It may be necessary to scroll down through a control that uses a Silverlight virtualizing panel, because in Test Studio, only the rows presented in the Visual Tree can be tested. This is a limitation of the Visual Tree contained in the Silverlight engine. Silverlight puts into the Visual Tree only the UI components necessary to render the page on the screen.
 
 For example, for a grid that holds 100 rows of data but can only display 20 at a time, Silverlight typically will only put 22 rows of UI elements in the Visual Tree (20 visible plus one above and one below). The only way to get all 100 rows is to scroll down through the entire grid.
-
 
 1.&nbsp; Hover over highlighting the element you want to scroll to. 
 

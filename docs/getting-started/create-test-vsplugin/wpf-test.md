@@ -10,27 +10,35 @@ position: 2
 1. Launch Test Studio.
 2. Click __Telerik > Test Studio > Create New Test Project__.
 
-	![Create project][1]
+<table id=no-table>
+	<tr>
+		<td>![Create project][1] <br><br>**Visual Studio 2017**</td>
+		<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019**</td>
+	</tr>
+<table>
 
-3. Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__. <br> 
+3. Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__.
 
-	**Note:** As of version 2015.3.1202 Test Studio projects will appear only under **.NET Framework 4.5** or higher.
+**Note:** As of version 2015.3.1202 Test Studio projects will appear only under **.NET Framework 4.5** or higher.
 
-	![Create C#/VB project][2]
-
-
+<table id=no-table>
+	<tr>
+		<td>![Choose C#/VB project][2]<br><br>**Visual Studio 2017**</td>
+		<td>![Choose C#/VB project VS 2019][12]<br><br>**Visual Studio 2019**</td>
+	</tr>
+<table>
 
 4. Right click on the project node in the solution explorer and select __Add > New WPF Test__.
 
-	![New WPF test][3]
+![New WPF test][3]
 
 5. Click __Add__.
 
-	![Add][4]
+![Add][4]
 
 6. Open the new test and click the __Configure WPF Application Path__ icon in the toolbar.
 
-	![Configure path][5]
+![Configure path][5]
 
 7. The __Configure WPF Application Path__ window appears. There are two options to determine the default application to launch when recording and executing this test.
 	
@@ -55,3 +63,5 @@ position: 2
 [5]: /img/getting-started/create-test-vsplugin/wpf-test/fig5.png
 [6]: /img/getting-started/create-test-vsplugin/wpf-test/fig6.png
 [7]: /img/getting-started/create-test-vsplugin/wpf-test/fig7.png
+[11]: /img/getting-started/create-test-vsplugin/wpf-test/fig11.png
+[12]: /img/getting-started/create-test-vsplugin/wpf-test/fig12.png

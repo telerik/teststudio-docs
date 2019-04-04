@@ -6,8 +6,7 @@ previous_url: /troubleshooting-guide/deregister-proxy
 position: 3
 publish: true
 ---
-
-#No Internet Connection
+# No Internet Connection
 
 If the process of Test Studio for APIs (Telerik.ApiTesting.exe) is forced to stop unexpectedly (e.g. in case of a computer power off or killing the process from the Windows Task Manager) while [HTTP Recording](/features/record/http-traffic) is running, you may experience problems connecting to the Internet.
 

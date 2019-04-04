@@ -1,16 +1,16 @@
 ---
 title: Invoke Mouse Hover
 page_title: Invoke Mouse Hover
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: Insert Mouse Hoverover step. I recorded a click in a fly-out sub-menu, however it does not execute properly because the menu never properly expands to expose the element. Invoke mouse action.
 position: 1
 ---
-#Invoke a Mouse Hover event#
+# Invoke a Mouse Hover event
 
-##PROBLEM##
+## PROBLEM
 
 I recorded a click in a fly-out sub-menu, however it does not execute properly because the menu never properly expands to expose the element.
 
-##SOLUTION##
+## SOLUTION
 
 Invoking a mouse action can come in handy, especially in navigation menus that use hover-over fly-out sub-menus.
 
