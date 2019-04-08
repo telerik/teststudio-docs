@@ -24,7 +24,7 @@ __Test Studio Dev__ is a Visual Studio extension and inherits all the system req
 
 ## Visual Studio requirements
 
-* The extension can be used with Professional or higher version of Visual Studio 2012, 2013, 2015 and 2017. 
+* The extension can be used with Professional or higher version of Visual Studio 2012, 2013, 2015, 2017 and 2019.
 * You must run Visual Studio as Administrator
 * Visual Studio projects should target .Net 4.5 or higher.
 

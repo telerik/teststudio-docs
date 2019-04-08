@@ -53,7 +53,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 ## Test Studio VS plugin
 
-* IDE (Visual Studio plug-in only): Visual Studio 2012, 2013, 2015 and 2017 Professional or higher. 
+* IDE (Visual Studio plug-in only): Visual Studio 2012, 2013, 2015, 2017 and 2019 Professional or higher.
 	
 	* You must run Visual Studio as Administrator
 	* Visual Studio projects should target .Net 4.5 or higher.
