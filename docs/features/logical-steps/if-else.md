@@ -79,7 +79,7 @@ To check if an element is present in the application DOM - a "<a href="/features
 
 ![If Element Exists][14]
 
-If step 4 is executed the *SecondLink* element would be added to the DOM and **if condition** passes normally as shown bellow.
+If step 4 is executed the *SecondLink* element would be added to the DOM and **if condition** passes normally as shown below.
 
 ![Else Element Exists][15]
 

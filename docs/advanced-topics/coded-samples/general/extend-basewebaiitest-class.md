@@ -48,7 +48,7 @@ Steps to implement such approach are as follows:
 
 ![Settings file][1]
 
-4.&nbsp; Re-open the project, add a WebTest and a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside. Then in the step it will be available the *PrintMessage()* defined in the *ExtendedBaseWebAiiTest* class. Bellow is given a sample of the code behind file of the WebTest.
+4.&nbsp; Re-open the project, add a WebTest and a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside. Then in the step it will be available the *PrintMessage()* defined in the *ExtendedBaseWebAiiTest* class. Below is given a sample of the code behind file of the WebTest.
 
 ```C#
 	using ArtOfTest.WebAii.Core;

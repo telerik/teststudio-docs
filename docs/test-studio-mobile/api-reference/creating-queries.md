@@ -19,7 +19,7 @@ When a query is executed, all elements matching the query are stored in an inter
 
 *Note: The properties are case sensitive, you should use them in the queries as they are defined in your application.*
 
-> A *Dictionary* data structure is used in the sample code lines bellow. It is necessary to add a reference to the project of the *System.Collections.Generic* namespace.
+> A *Dictionary* data structure is used in the sample code lines below. It is necessary to add a reference to the project of the *System.Collections.Generic* namespace.
 
 ```C#
 { Class = "TYPE", Index=2 }

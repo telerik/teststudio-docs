@@ -10,7 +10,7 @@ position: 1
 ---
 # Configure your Android app to be testable
 
-> The application configured following the steps bellow, should be used for testing purposes only and will not be accepted in Google Play Store. 
+> The application configured following the steps below, should be used for testing purposes only and will not be accepted in Google Play Store. 
 
 Android apps must be configured in order to be testable by Test Studio Mobile. This can be achieved through the built-in configuration or manually:
 
@@ -19,7 +19,9 @@ Android apps must be configured in order to be testable by Test Studio Mobile. T
 
 ## Built-In Configuration
 
- > The built-in configuration requires that you have Java SDK 1.8 or later installed. It doesn't change already instrumented app and you have to ensure that the `libs` folder of your project doesn't contain `MobileTestingExtension.jar` or `MobileTestingExtension.aar` files. In addition built-in configuration is not supported for the bellow cases:
+ > The built-in configuration requires that you have Java SDK v.1.8 or later, Android SDK v.14 or later Android Build Tools v.20 or later installed (Android Build Tools are a component of the Android Studio installation).</br>
+
+ > It doesn't change already instrumented app and you have to ensure that the `libs` folder of your project doesn't contain `MobileTestingExtension.jar` or `MobileTestingExtension.aar` files. In addition built-in configuration is not supported for the below cases:
  > * Apps downloaded from Google play or built in production mode.
  > * The app to be instrumented has more than 65536 methods and is installed on device running API level 20 and below. See [that article]({% slug ms-known-issues%}#instumentation-exception) for more information.
 

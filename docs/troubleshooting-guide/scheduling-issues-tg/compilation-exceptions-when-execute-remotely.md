@@ -12,7 +12,7 @@ My test list executes exception free when it is executed from the project locati
 
 `Compile failed: c:\Users\someuser\AppData\Local\Temp\8\Projects\2fa80212-43cb-4b99-882c-e69f4d1936d2\TestRemoteElemMissing\RunTest.tstest.cs(53,19) : error CS1061: 'TestRemoteElemMissing.Pages' does not contain a definition for 'Google' and no extension method 'Google' accepting a first argument of type 'TestRemoteElemMissing.Pages' could be found (are you missing a using directive or an assembly reference?)`
 
-Such behavior could appear if executing a test list scheduled or remotely. By design when a test list is being run remotely/scheduled only tests listed for execution in the current list are deployed on the execution machines. While maintaining the project and creating tests elements will be recorded in tests (please see *Test 1* on the image bellow to illustrate the example).
+Such behavior could appear if executing a test list scheduled or remotely. By design when a test list is being run remotely/scheduled only tests listed for execution in the current list are deployed on the execution machines. While maintaining the project and creating tests elements will be recorded in tests (please see *Test 1* on the image below to illustrate the example).
 
 ![Defined Element][1]
 

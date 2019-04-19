@@ -6,7 +6,7 @@ position: 1
 ---
 # Add Existing Test Script #
 
-If you would need to reuse a test from another project the easiest and safest way would be to use the built-in option to import existing test files as shown on the screenshot bellow:
+If you would need to reuse a test from another project the easiest and safest way would be to use the built-in option to import existing test files as shown on the screenshot below:
 
 ![Add existing file][1]
 

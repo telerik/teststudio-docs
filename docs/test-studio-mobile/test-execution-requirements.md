@@ -10,11 +10,11 @@ previous_url: /test-studio-mobile/test-execution-requirements-mb
 
 ##Test Recording
 
-To utilize the codeless point and click test recording, a Windows 7+ machine running Test Studio Mobile is needed. Currently, Test Studio Mobile comes as part of the Test Studio Ultimate bundle and can't be installed on Mac machines. Test recording requires at least 1 connected Native or Web test agent (see bellow).
+To utilize the codeless point and click test recording, a Windows 7+ machine running Test Studio Mobile is needed. Currently, Test Studio Mobile comes as part of the Test Studio Ultimate bundle and can't be installed on Mac machines. Test recording requires at least 1 connected Native or Web test agent (see below).
 
 ##Test Execution
 
-Test execution requires at least 1 connected Native or Web test agent (see bellow).
+Test execution requires at least 1 connected Native or Web test agent (see below).
 
 * Windows 7+ machines - tests can be executed either by the Test Studio Mobile GUI or Mobile Testing Test Runner CLI for Windows.
 * Mac OS X 10.8+ machines - tests can be executed only by the Mobile Testing Test Runner CLI for Mac and Linux. 
@@ -34,7 +34,7 @@ When a native or hybrid app is to be tested, test agent is the Mobile Testing Ag
 
 ##Test Agent for Web Applications
 
-When a web app is to be tested, test agent is the browser itself (mobile or desktop). The browser must support WebSockets. Bellow is a short list of browsers that support WebSockets:
+When a web app is to be tested, test agent is the browser itself (mobile or desktop). The browser must support WebSockets. Below is a short list of browsers that support WebSockets:
 
 *	iOS Safari 6.0+
 
