@@ -28,8 +28,6 @@ Click the **Select DataSource** drop-down and choose the data source you just de
 
 Note how the first row of the spreadsheet is used as the column names.
 
- 
-
 To limit which rows from the data source to use, check the **Filter data between rows** box under the **Configure** section.
 
 - If left unchecked, all data rows will be used during the test run.
