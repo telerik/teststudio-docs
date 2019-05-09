@@ -34,7 +34,7 @@ Follow the step-by-step instructions below to create a new sample AppBuilder hyb
   <a name="appid"></a>
  > In your iOS hybrid tests the app identifier for an iOS app must match the IOS_APP_URL entered in the **Configuration variables** dialog, and suffixed with **://** . For example **airlinessampleapp://**.
 
- > The **Configuration variables** window sets only the iOS variable. The Android variable is set by default in the `General` settings and can be changed from there (see bellow).
+ > The **Configuration variables** window sets only the iOS variable. The Android variable is set by default in the `General` settings and can be changed from there (see below).
 
  <!--- > When automation against `WKWebView` views is targeted, additional set of plugins is required. Click on **Install from Plugins Marketplace** button, and search for **Mobile Testing Extension - WebKit** and **WKWebView Polyfill** plugins. 
 

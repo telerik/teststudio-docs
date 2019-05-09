@@ -64,7 +64,7 @@ Methods
 
 Methods for automating hybrid applications.
 
-Since hybrid app is a web app running inside a native container (WebView), hybrid API methods that target specific element accept a web query to identify the element. If the app contains only one native container (WebView), using a API overload method that accepts a WebQuery object to identify that element suffices. However, if the app implements more than one native containers (WebView), finding an element inside the different native containers requires using and API overload method that identifies the native container first in which the web element is located. Bellow you can find an example of 2 overloads of the Tap hybrid API method:
+Since hybrid app is a web app running inside a native container (WebView), hybrid API methods that target specific element accept a web query to identify the element. If the app contains only one native container (WebView), using a API overload method that accepts a WebQuery object to identify that element suffices. However, if the app implements more than one native containers (WebView), finding an element inside the different native containers requires using and API overload method that identifies the native container first in which the web element is located. Below you can find an example of 2 overloads of the Tap hybrid API method:
 
 ```C#
 // This will perform a web tap action on the provided element located inside the first found WebView object in the app.

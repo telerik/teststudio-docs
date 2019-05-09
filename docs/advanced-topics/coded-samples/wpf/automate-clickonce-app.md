@@ -32,7 +32,7 @@ End Class
 
 <br/>
 
-The following scenario assumes that the app is downloaded form a web destination, installed and ran from a browser. In such case the first test in the list will be a Web test that will complete the app installation part. At the end of the installation the latest app version will be up and running. This test have to end with a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> that will save in a variable path to the new application as given bellow:
+The following scenario assumes that the app is downloaded form a web destination, installed and ran from a browser. In such case the first test in the list will be a Web test that will complete the app installation part. At the end of the installation the latest app version will be up and running. This test have to end with a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> that will save in a variable path to the new application as given below:
 
 ```C#
 // check if there is running process with same name

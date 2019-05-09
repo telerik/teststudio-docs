@@ -14,7 +14,7 @@ As of version **2017.2** Test Studio also provides options for the user to suppo
 
 2.&nbsp; Navigate to *HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Telerik\TestStudio*
 
-3.&nbsp; Create a *String* key with name **ChromeProfileName** and value - the profile directory as shown on the screenshot bellow.
+3.&nbsp; Create a *String* key with name **ChromeProfileName** and value - the profile directory as shown on the screenshot below.
 
 > Note that if the **ChromePreferencesPath** is set the variable **ChromeProfileName** would not be taken into consideration.
 

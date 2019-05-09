@@ -33,5 +33,5 @@ This security fix was addressed in Windows Updates on 12th of May, 2015. The pat
 
 
 
-You may wish to uninstall KB3058985 security patch or downgrade Silverlight bellow version 5.1.40416 to allow recording the Silverlight OOB applications.
+You may wish to uninstall KB3058985 security patch or downgrade Silverlight below version 5.1.40416 to allow recording the Silverlight OOB applications.
 

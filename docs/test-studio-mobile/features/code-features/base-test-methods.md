@@ -10,7 +10,7 @@ previous_url: /test-studio-mobile/getting-started-mb/code-features/coded-stepsd
 
 #Base test methods
 
-Every Native/Hybrid/Web mobile test inherits a base mobile test class that provides some additional functionality. For example, some code can be executed before the test is started or after the test is completed. In these cases you can override the `OnBeforeTestStarted` and `OnAfterTestCompleted` methods the base test class provides. The code bellow shows how to utilize this scenario and add sample test execution duration calculation to the test execution log.
+Every Native/Hybrid/Web mobile test inherits a base mobile test class that provides some additional functionality. For example, some code can be executed before the test is started or after the test is completed. In these cases you can override the `OnBeforeTestStarted` and `OnAfterTestCompleted` methods the base test class provides. The code below shows how to utilize this scenario and add sample test execution duration calculation to the test execution log.
 
 ```C#
 protected override void OnAfterTestCompleted()

@@ -11,7 +11,7 @@ position: 3
 
 #Configure your NativeScript app to be testable.
 
-> The application configured following the steps bellow, should be used for testing purposes only and will not be accepted in Apple App Store and Google Play Store. 
+> The application configured following the steps below, should be used for testing purposes only and will not be accepted in Apple App Store and Google Play Store. 
 
 Since building NativeScript mobile applications produce native iOS and Android apps, they can be easily tested with Test Studio Mobile. [This getting-started article]({% slug ms-getting-started-native%}) provides more details about testing native iOS and Android apps.
 

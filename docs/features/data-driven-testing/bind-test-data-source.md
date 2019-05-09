@@ -22,13 +22,11 @@ The **Bind test to data source** dialog opens:
 
 Click the **Select DataSource** drop-down and choose the data source you just defined in the previous section. If your source is an Excel spreadsheet, choose which sheet from the spreadsheet to use. Once you select a sheet, the data from that sheet will be read and displayed in the dialog.
 
-> You must have Excel installed on this machine for this to work.
+> You need to have __Microsoft Excel__ installed on this machine and/or the __Microsoft Access Database Engine 2010__ - see <a href="/troubleshooting-guide/test-execution-problems-tg/unable-to-show-data" target="_blank">this article</a> for more information.
 
 ![Select Data Source][4]
 
 Note how the first row of the spreadsheet is used as the column names.
-
- 
 
 To limit which rows from the data source to use, check the **Filter data between rows** box under the **Configure** section.
 
