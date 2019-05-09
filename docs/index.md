@@ -27,8 +27,27 @@ position: 0
 
 > Test Studio includes runtime files that allow for the execution of tests on the machine in which it’s licensed. Our <a href="/general-information/test-studio-run-time" target="_blank">**Runtime Edition**</a> is available and suggested for build servers and remote machines where test execution is required. 
 
-
-
 All versions use identical repositories and file formats, facilitating seamless collaboration between even geographically diverse teams.
 
+## Getting Started
+1. [Installation and Activation](/getting-started/installation-and-activation)
+2. [Your First Project](/getting-started/first-project)
+3. [Troubleshooting Basics](/getting-started/troubleshooting-basics)
 
+## List of Features
+Here are quick links to some of the features in Test Studio:
+* [Coded Step](/features/coded-steps/coded-step)
+* [Custom Step](/features/custom-steps/overview)
+* [Data Driven Testing](/features/data-driven-testing/overview)
+* [Dialog Handling](/features/dialogs-and-popups/dialogs)
+* [Elements Explorer](/features/elements-explorer/overview)
+* [API Test as Step](/features/execute-apitest/add-api-test-as-step)
+* [Logical Steps](/features/logical-steps/if-else)
+* [Project Settings](/features/project-settings/overview)
+* [Recorder](/features/recorder/overview)
+* [Scheduling Test Runs](/features/scheduling-test-runs/overview)
+* [Source Control](/features/source-control/checkin-guidelines)
+
+
+## List of Knowledge Base Articles
++ test
