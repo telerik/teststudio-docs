@@ -1,7 +1,7 @@
 ---
 title: Bind Test to a Data Source
 page_title: Bind Test to a Data Source
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to add/use a data source for a certain test in Test Studio. Bind a test to the project data source."
 previous_url: /user-guide/data-driven-testing/bind-test-to-data-source.aspx, /user-guide/data-driven-testing/bind-test-to-data-source
 position: 3
 ---

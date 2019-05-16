@@ -1,7 +1,7 @@
 ---
 title: Quick Execute Results
 page_title: Quick Execute Results
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Analyze the results of a data driven/ parameterized test in Test Studio quick execution/ single test run."
 previous_url: /user-guide/data-driven-testing/data-driven-test-results.aspx, /user-guide/data-driven-testing/data-driven-test-results
 position: 5
 ---

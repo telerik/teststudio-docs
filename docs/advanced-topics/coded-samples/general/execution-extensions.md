@@ -364,12 +364,16 @@ End Function
 
 ##Remote Execution Behavior##
 
-It was mentioned above in sense of variable scope that some methods are executed only on the machine where the involved in the remote run shceduling server is located. It would be necessary to know how would an execution extension behave in case of different execution scenarios. For all of the listed configurations the presence of the library file in the **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\** folder on the remote machine is required.
+It was mentioned above in terms of the scope for variables, that some methods are executed only on the machine, where the scheduling server for the current remote setup is located. It is important to know how will the execution extension behave in case of different execution scenarios. For all of the listed configurations the built custom dll file needs to be copied in the **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\** folder on each remote machine.
 
 ###Scheduling Server Setup###
 
-This feature allows only one machine to have a running <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">scheduling server</a> and the rest of the machines to be connected to it and serve as <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution clients</a>. In this case the complete set of execution extension methods would be executed on the scheduling server machine only. All other machines will **not** execute *OnBeforeTestListStarted()* and *OnAfterTestListCompleted()*.
+This feature allows only one machine to have a running <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">scheduling server</a> and multiple machines to be connected to it and serve as <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution clients</a>. In this case **the complete set of execution extension methods will be executed on the scheduling server machine** only.
+
+All execution machines will **not execute *OnBeforeTestListStarted()* and _OnAfterTestListCompleted()_** and will only recognize the *OnBeforeTestStarted()* and *OnAfterTestCompleted()*.
 
 ###CI Setup###
 
-In the context of <a href="/advanced-topics/build-server/continious-integration-overview" target="_blank">Continuous Integration</a> setup - running a build using <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> on the execution agent machines with *list* option - all methods would be executed. If *test* option is used non of the test list methods would be executed. 
+In the context of <a href="/advanced-topics/build-server/continious-integration-overview" target="_blank">Continuous Integration</a> setup - running test lists using the <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> with **the *list* option, will execute all methods** in the extension.
+
+However, if using the *test* option to run a single test, the agent will **not execute *OnBeforeTestListStarted()* and _OnAfterTestListCompleted()_** and will only recognize the *OnBeforeTestStarted()* and *OnAfterTestCompleted()*.

@@ -1,7 +1,7 @@
 ---
 title: Navigate To
 page_title: Navigate To
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to navigate to a page in Test Studio? Can I add a step to navigate to a page in the middle of the test in Test Studio"
 position: 2
 ---
 

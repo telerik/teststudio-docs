@@ -1,7 +1,7 @@
 ---
 title: Coded Step
 page_title: Coded Step
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How can I execute some code at certain point of the test execution in Test Studio. Can I combine the recorded steps with some coded solution in Test Studio test."
 position: 3
 ---
 # Coded Step

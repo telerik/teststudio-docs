@@ -21,7 +21,7 @@ Table of Contents:
 * <a href="/advanced-topics/build-server/mtm#runnin-a-test">Running a test</a>
 * <a href="/advanced-topics/build-server/mtm#viewing-test-results">Viewing test results</a>
 
-### Create Test Studio poject and TFS build
+### Create Test Studio project and TFS build
 
 1.&nbsp; <a name="project-settings"></a>Create a Progress Test Studio project and connect it to TFS. 
 
@@ -42,7 +42,7 @@ Table of Contents:
 
 2.&nbsp; <a href="https://msdn.microsoft.com/en-us/library/ms181716.aspx" target="_blank" id="create-and-configure-tfs-build-definition">Create and configure TFS build definition</a> which MTM needs for execution the tests.
 
-**Specific settings for Test Studio project:** 
+**Specific settings for Test Studio project:**
 
 * Edit the build definition to include the source with the Test Studio project solution.
 

@@ -1,7 +1,7 @@
 ---
 title: Predefined Elements
 page_title: Predefined Elements
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create your automated tests in Test Studio, while the application you will be testing, is still in development and does not yet have its UI elements."
 position: 1
 ---
 # Predefined Elements

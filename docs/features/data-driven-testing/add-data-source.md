@@ -1,7 +1,7 @@
 ---
 title: Add a Data Source
 page_title: Add an External Data Source to your Test Project
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to add Excel/ CSV/ SQL Oracle DataBase/ external data source into a Test Studio project. How to add the data source for data driven test in Test Studio"
 previous_url: /user-guide/data-driven-testing/add-a-data-source.aspx, /user-guide/data-driven-testing/add-a-data-source
 position: 2
 ---
@@ -14,7 +14,6 @@ The default path in Windows 7 is:
 - **C:\Users\User\Documents\Test Studio Projects\Project Name\Data**
 
 Jump to the following sections:
-
 
 - [Excel spreadsheet](#add-an-excel-spreadsheet)
 - [XML file](#add-an-xml-file)
@@ -82,7 +81,6 @@ Just like an Excel spreadsheet, the first row of data will be used as the column
 
 ## Add a Database Source
 
-
 Adding a database source is different than adding an Excel spreadsheet, CSV, or XML file. When you select Database in the Create new data source dialog, you have a number of new options you need to specify in order to define your database connection.
 
 - **Provider** - in this drop-down, select which database provider to use to access your database. The list that is displayed here depends on which providers have been installed on your computer. You should contact your database administrator if you are not sure what to select.
@@ -92,7 +90,11 @@ Adding a database source is different than adding an Excel spreadsheet, CSV, or 
 
 ![Database source][10]
 
-See [this example](/features/data-driven-testing/sql-database-example) that demonstrates how to connect to a SQL Database. 
+**See also:**
+
+- [How to connect to a SQL Database](/features/data-driven-testing/sql-database-example)
+
+- [How to connect to an Oracle Database](/features/data-driven-testing/oracle-db-example)
 
 [1]: /img/features/data-driven-testing/add-data-source/fig1.png
 [2]: /img/features/data-driven-testing/add-data-source/fig2.png
