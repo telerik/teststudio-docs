@@ -1,14 +1,14 @@
 ---
 title: Browser Specific Actions
 page_title: Browser Specific Actions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Invoke browser specific actions in a standard or coded step in Test Studio only if the specified browser type is the execution browser. "
 position: 1
 ---
-#Invoke Browser-Specific Actions#
+# Invoke Browser-Specific Actions #
 
 *I would like to invoke browser-specific actions in a standard or coded step. This means the step is only executed if the test is running in the specified browser type.*
 
-##Soluiton##
+## Solution ##
 
 Use a standard (non-coded) step or use a coded solution.
 

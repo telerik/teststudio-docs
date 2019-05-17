@@ -1,7 +1,7 @@
 ---
 title: Search Test Steps
 page_title: Search Test Steps
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Search Test Steps in the Test Studio test by description, by step type."
 previous_url: /user-guide/modifying-tests/search_test_steps.aspx, /user-guide/modifying-tests/search_test_steps
 position: 1
 ---

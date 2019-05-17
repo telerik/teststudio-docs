@@ -1,7 +1,7 @@
 ---
 title: Steps Pane
 page_title: Steps Pane
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Steps pane ists the steps in order of execution for the current test and provides additional actions and options to interact with the steps"
 previous_url: /user-guide/modifying-tests/steps-pane-overview.aspx, /user-guide/modifying-tests/steps-pane-overview
 position: 1
 ---

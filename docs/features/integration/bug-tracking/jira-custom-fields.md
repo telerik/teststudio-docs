@@ -1,7 +1,7 @@
 ---
 title: Jira Custom Fields
 page_title: How to Submit a Bug to Jira with Required Custom Field
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to Submit a Bug from Test Studio to Jira with Required Custom Field. Custom fileds in Jira bug scheme supported in Test Studio. "
 position: 1
 ---
 # How to Submit a Bug to Jira with Required Custom Field
@@ -14,7 +14,7 @@ In order to denote your required fields and what to fill them with, create a fil
 
 ![Plugins Folder][2]
 
-> Please note that as of version **2017 R3 2017.3.1010** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> Note that as of version **2017 R3 2017.3.1010** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 Open it with a text editor, like Notepad, and insert the following content:
 

@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: Bug Tracking Configuration
-description: "Test Studio has built-in integration with bug tracking systems like TFS, VSTS, Visual Studio Team Services, Azure DevOps, online TFS, Visual Studioo online, Jira, Jira Cloud."
+description: "Configure bug tracker in Test Studio. Built-in bug tracker in Test Studio. Can I submit bug directly from Test Studio. Bug tracking system integration in Test Studio."
 previous_url: /user-guide/extensions/bug-tracking/configuration.aspx, /user-guide/extensions/bug-tracking/configuration
 position: 1
 ---

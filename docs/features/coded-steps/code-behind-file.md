@@ -1,13 +1,13 @@
 ---
 title: Code-Behind File
 page_title: Code-Behind File
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Code-Behind File of a test in Test Studio."
 previous_url: /user-guide/coded_steps/code-behind-file.aspx, /user-guide/coded_steps/code-behind-file, /advanced-topics/coded-steps/code-behind-file
 position: 1
 ---
 # Code-Behind File #
 
-##Standalone version##
+## Standalone version ##
 
 You can create a code behind file for each test where you can implement <a href="/features/coded-steps/coded-step" target="_blank">coded steps</a> and custom test classes.
 
@@ -46,7 +46,6 @@ The code-behind file is nested under the parent test in Solution Explorer:
 **See Also:**
 
 *	<a href="/features/coded-steps/coded-step" target="_blank">Coded Step</a>
-
 
 [1]: /img/features/coded-steps/code-behind-file/fig1.png
 [2]: /img/advanced-topics/coded-steps/code-behind-file/fig2.png

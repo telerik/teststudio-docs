@@ -1,7 +1,7 @@
 ---
 title: General
 page_title: General
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio project settings - general settings in Test Studio. WPF application default path in Test Studio project. Highlighting border adjsutment in Test Studio recording. Https certificate errror in Test Studio - register the https connection certificate. Enable tracking of active Test Studio test file - highlight the currently opened test in the Test Studio Project pane."
 position: 1
 ---
 # General

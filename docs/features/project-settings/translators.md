@@ -1,7 +1,7 @@
 ---
 title: Translators
 page_title: Translators
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio has built in translators for the Telerik controls. Test Studio provides Basic translators for HTML, Silverlight, and WPF, and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular"
 previous_url: /user-guide/project-settings/translators.aspx, /user-guide/project-settings/translators
 position: 6
 ---

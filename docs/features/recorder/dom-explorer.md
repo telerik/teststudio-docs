@@ -1,12 +1,11 @@
 ---
 title: DOM Explorer
 page_title: DOM Explorer
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "The Test Studio DOM Explorer displays the DOM in a tree format where you see all elements of a page at one time. The Test Studio DOM Explorer is helpful with a complex page when simply using the mouse and hover-over-highlighting may not be enough to find the element you're looking for"
 previous_url: /user-guide/elements-menu/dom-explorer.aspx, /user-guide/elements-menu/dom-explorer, /features/elements-menu/dom-explorer
 position: 1
 ---
 # DOM Explorer
-
 
 The DOM (Document Object Model) is a language neutral and platform independent abstraction that allows the content, structure, and style of HTML pages to be updated dynamically. The DOM Explorer displays the DOM in a tree format where you see all elements of a page at one time. The DOM Explorer is helpful with a complex page when simply using the mouse and hover-over-highlighting may not be enough to find the element you're looking for. The DOM Explorer typically shows the HTML page as the parent element, with HEAD and BODY elements forming the next level. The elements we're testing are usually within the BODY element.
 
@@ -38,12 +37,11 @@ Right click an element to see the context menu and perform several operations ag
 
 - **Search Tree** - to search an element in the DOM.
 
-  	> Use # for find expression
+> Use # for find expression
 
 - **Elements Tree View** - list elements in their original hierarchy order.
 
-
-- **Elements Tag View** - group elements by their tagname.
+- **Elements Tag View** - group elements by their TagName.
 
 ## Searching For Elements
 

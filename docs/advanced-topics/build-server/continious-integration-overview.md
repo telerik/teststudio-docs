@@ -1,11 +1,11 @@
 ---
 title: Continious Integration Overview
 page_title: Telerik Testing in Continuous Integration Environments
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Telerik Testing in Continuous Integration Environments with Test Studio"
 previous_url: /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments.aspx, /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments
 position: 2
 ---
-#Telerik Testing in Continuous Integration Environments#
+# Telerik Testing in Continuous Integration Environments #
 
 Continuous Integration almost continuously integrates the individual developer's changes into the main source code control system or repository, performing a new build, verifying the build, and running automated tests against those builds. Continuous integration has many advantages. These include the constant availability of a current build for testing purposes, immediate testing of all changes, and the opportunity for developers to revert the codebase back to a bug-free state when a test fails or a bug is discovered, without wasting time debugging. Learn more about continuous integration at <a href="http://msdn.microsoft.com/en-us/library/ee308011(v=vs.100).aspx" target="_blank">MSDN</a> and Martin Fowler's <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous Integration</a>.
 
@@ -18,7 +18,7 @@ Because the framework actually drives and interacts with the browser, the setup 
 The testing agent (sometimes identical with the build server) must run in console mode (that is, started via the command line after logging onto the testing machine). Running a testing agent as a service that logs onto a real user account does not provide full functionality. Some Telerik test features require desktop interaction, which is disabled for test agents running as a service.
 Do not run Telerik tests in parallel. Telerik tests are not thread safe. Also, if one Telerik test is running at the time a second test opens, the second test may connect to the browser window already connected to the first Telerik testing session. 
 
-##Setup automated testing agents##
+## Setup automated testing agents ##
 
 1. Log onto the testing agent machine using an account with permissions needed to run your agent and unit tests.
 

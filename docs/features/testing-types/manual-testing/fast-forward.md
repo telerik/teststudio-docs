@@ -1,7 +1,7 @@
 ---
 title: Fast Forward Test
-page_title: Fast Forward Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Fast Forward Manual Test 
+description: "Fast Forward Test Run of a manual test in Test Studio."
 previous_url: /user-guide/manual-testing/fast-forward-test.aspx, /user-guide/manual-testing/fast-forward-test
 position: 3
 ---

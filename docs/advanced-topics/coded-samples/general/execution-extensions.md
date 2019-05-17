@@ -1,7 +1,7 @@
 ---
 title: Execution Extensions
 page_title: Execution Extension
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio has enhanced extensibility support for test execution. Integrate Test Studio better into your environment that contains custom results reporting and code defect tracking. Extend the Test Studio test execution with custom coded solutions in Execution Extension"
 previous_url: /user-guide/code-samples/general/execution-extensions.aspx, /user-guide/code-samples/general/execution-extensions
 position: 1
 ---

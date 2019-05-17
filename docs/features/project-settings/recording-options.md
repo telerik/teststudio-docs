@@ -1,7 +1,8 @@
 ---
 title: Recording
 page_title: Recording
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio project settings recording settings. Use the Test Studio recording settings to configure how recording will take place. Set BaseURL for a project in Test Studio. How newly recorded pages are compared to the existing pages and their URL in Test Studio. The same element is recorded In Test Studio for each new recording session under different page node. Add custom Code Base Class in Test Studio. Silverlight Connection Timeout in Test Studio. Test Studio cannot connect to a Silverlight application. Set default Record Drop-Down Option in Test Studio - by index, by value, by text. Enable/Disable Storyboard in Test Studio. Set Simulate Real Clicks/Typing By Default in Test Studio. Test Studio allow you to choose a custom name each time a new element is manually added to the Elements repository.
+"
 previous_url: /user-guide/project-settings/recording-options.aspx, /user-guide/project-settings/recording-options
 position: 2
 ---
@@ -76,7 +77,6 @@ This option allows you to create and use a specialized test class. For example, 
 ## SL Connect Timeout
 
 The amount of time in milliseconds to wait for Test Studio to connect to a Silverlight application.
-
 
 ## Default DropDown Record Option
 

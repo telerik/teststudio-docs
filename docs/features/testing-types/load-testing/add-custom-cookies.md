@@ -1,10 +1,9 @@
 ---
 title: Add Custom Cookies
 page_title: Insert a Cookie into a User Profile
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Insert a Cookie into a User Profile in Test Studio load test."
 position: 15
 ---
-
 # Insert a Cookie into a User Profile
 
 To insert a cookie with custom attributes into your Load Test User Profile:
@@ -26,7 +25,7 @@ To insert a cookie with custom attributes into your Load Test User Profile:
 <br>
 <br>
 
-**See Also**
+**See Also:**
 
 - <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">Capturing Traffic</a>
 - <a href="/features/testing-types/load-testing/manage-windows-auth" target="_blank">Manage Windows Authentication</a>

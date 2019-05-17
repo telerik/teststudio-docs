@@ -1,7 +1,7 @@
 ---
 title: Open Git Project
 page_title: Open Git Project
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Open Test Studio Project To Git Source control repository"
 publish: true
 position: 1
 ---

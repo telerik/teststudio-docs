@@ -1,7 +1,7 @@
 ---
 title: If...Else
 page_title: If...Else
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Logical steps in Test Studio. If else block in Test Studio. Can I build an if else conditions in Tets Studio test. "
 previous_url: /user-guide/logical-steps/if-else.aspx, /user-guide/logical-steps/if-else
 position: 1
 ---

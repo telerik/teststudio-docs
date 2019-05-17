@@ -1,14 +1,13 @@
 ---
 title: Overview
 page_title: Performance Testing
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Performance Testing in Test Studio."
 previous_url: /user-guide/performance.aspx, /user-guide/performance
 position: 1
 ---
 # Performance Testing
 
 Automated functional testing tools help you build automated tests for your critical end-user scenarios. Once automated, these scenarios can be run automatically to help discover any regressions. Functional correctness of your application is one measure of quality, another quite important one is performance testing. How responsive is my application? What are the bottlenecks in my application? How do I discover them and, most importantly, am I regressing or enhancing application performance with each build? These are questions Test Studio answers with the Performance testing functionality.
-
 
 - **Performance Measuring & Benchmarking** - Take a functional scenario and measure each step's execution time. Measure not only the total time but also Client vs. Server time. Then create benchmarks to later compare against for regression detection or goal setting. 
 

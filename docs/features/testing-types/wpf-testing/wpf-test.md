@@ -1,7 +1,7 @@
 ---
 title: Configure WPF Test
 page_title: Configure WPF Test (Standalone)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Configure WPF Test (Standalone) in Test Studio."
 previous_url: /getting-started/create-test-standalone/wpf-test
 position: 1
 ---
@@ -13,11 +13,11 @@ After <a href="/getting-started/create-test-standalone/add-test" target="_blank"
 
 ## Configure WPF Test to Record the Specific Application ##
 
-1. Click the ***Configure*** button in the *Test* ribbon.
+1.&nbsp; Click the ***Configure*** button in the *Test* ribbon.
 
 ![Configure][3]
 
-1. The __Configure WPF Application Path__ window appears. There are two options to determine the default application to launch when recording and executing this test.
+2.&nbsp; The __Configure WPF Application Path__ window appears. There are two options to determine the default application to launch when recording and executing this test.
 	* __WPF Application Path__ - drag and drop the shortcut icon into this text box, or click __Browse__ and locate it manually.
 	* __Current Path Expanded__ - read-only display of full path if environment variables are used.
 	* __Use default path__ - whether to use the path set here or the default path set in __Project Settings > General__.
@@ -32,7 +32,6 @@ After <a href="/getting-started/create-test-standalone/add-test" target="_blank"
 ![Record][5]
 
 Notice that steps are added to the test as actions are taken within the application.
-	
 
 [1]: /img/getting-started/create-test-standalone/wpf-test/fig1.png
 [2]: /img/getting-started/create-test-standalone/wpf-test/fig2.png

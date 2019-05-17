@@ -1,7 +1,7 @@
 ---
 title: Create a Storage Server
 page_title: Create a Storage Server
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create a Test Studio Storage Server. The Telerik storage service is responsible for handling tests and test results for scheduled test runs in remote machine execution setup. Storage server uses MongoDb as storage database"
 previous_url: /user-guide/scheduling-test-runs/create-storage-server.aspx, /user-guide/scheduling-test-runs/create-storage-server
 position: 4
 ---

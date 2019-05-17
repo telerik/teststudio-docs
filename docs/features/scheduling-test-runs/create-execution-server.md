@@ -1,7 +1,7 @@
 ---
 title: Create an Execution Server
 page_title: Create an Execution Server
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create a Test Studio Execution Server on a dedicated execution machine in a scheduling setup. Execute Test Studio tests on remote machines. The Execution Server is the Test Studio Test Runner instance of Test Studio Standalone installation or the Test Studio Run-Time Edition installation. An Execution Server is ready for use when configured and registered with your Scheduling Server."
 previous_url: /user-guide/scheduling-test-runs/create-an-execution-server.aspx, /user-guide/scheduling-test-runs/create-an-execution-server
 position: 6
 ---

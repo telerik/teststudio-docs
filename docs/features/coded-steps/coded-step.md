@@ -1,7 +1,7 @@
 ---
 title: Coded Step
 page_title: Create Coded Step
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create Coded Step in Test Studio test."
 previous_url: /user-guide/coded_steps.aspx, /user-guide/coded_steps, /advanced-topics/coded-steps/coded-step 
 position: 0
 ---

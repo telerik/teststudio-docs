@@ -1,7 +1,7 @@
 ---
 title: Using the Scheduling Service APIs
 page_title: Using the Scheduling Service APIs
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Using the Scheduling Service APIs to create custom reporting applications"
 previous_url: /user-guide/scheduling-test-runs/service-apis.aspx, /user-guide/scheduling-test-runs/service-apis
 position: 11
 ---

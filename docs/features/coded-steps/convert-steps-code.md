@@ -1,7 +1,7 @@
 ---
 title: Convert All Steps to Code (VS plugin)
 page_title: Convert All Steps to Code (VS plugin)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Convert All Steps to Code (VS plugin) in Test Studio Plugin for Visual Studio."
 previous_url: /user-guide/coded_steps/convert-all-steps-to-code.aspx, /user-guide/coded_steps/convert-all-steps-to-code
 position: 6
 ---
@@ -20,7 +20,7 @@ A unit test file and XML file containing your data are created in your Test Proj
 ![Unit Test][3]
 
 **Note:** This conversion is a one-way process. You cannot convert the coded unit test back into a Test Studio test. Also, we do not guarantee the converted test will run perfectly. Sometimes the code needs a little tweaking before it works (e.g. if you have coded steps or dialog handling that does not convert properly).
- 
+
 **Note:** When you convert an entire test to code, it doesn't take into account the **Enable Silverlight** setting. You need to enable it in code prior to the LaunchNewBrowser call:
 
 ```C#

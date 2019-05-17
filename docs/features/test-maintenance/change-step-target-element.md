@@ -1,7 +1,7 @@
 ---
 title: Change Step Target Element
 page_title: Change Step Target Element
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Change the Target Element for a step if a test step targets an incorrect element"
 previous_url: /user-guide/modifying-tests/change-step-target-element.aspx, /user-guide/modifying-tests/change-step-target-element
 position: 1
 ---

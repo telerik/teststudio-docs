@@ -1,7 +1,7 @@
 ---
 title: While...Loop
 page_title: While...Loop
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Loop a repeating action until a condition is met in Test Studio test. Loop cycle in Test Studio test"
 previous_url: /user-guide/logical-steps/while-loop.aspx, /user-guide/logical-steps/while-loop
 position: 1
 ---
@@ -28,7 +28,6 @@ Walk--through of <a href="/features/logical-steps/while-loop#Build-a-While-loop"
 ![Build Verification][2]
 
 7.&nbsp; Choose **Content** under **Verifications** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a>.
-
 
 - Set the first drop-down to **InnerText**.
 - Set the second drop-down to **NotContain**.

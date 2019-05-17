@@ -1,7 +1,7 @@
 ---
 title: Extraction
 page_title: Create an Extraction Step
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create an Extraction Step in Test Studio. Use a dynamic generated value during the Test Studio test run. Reuse a dynamic value available in run-time only in Test Studio test. Get an atrtibute value of an element in Test Studio test. Data bind dynamic value in Test Studio test. "
 previous_url: /user-guide/verifications/data-bind-an-extraction-step.aspx, /user-guide/verifications/data-bind-an-extraction-step, /features/verifications/Extraction, /features/verifications/Extraction.html
 position: 1
 ---

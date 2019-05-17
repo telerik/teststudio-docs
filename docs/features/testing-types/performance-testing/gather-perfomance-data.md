@@ -1,11 +1,11 @@
 ---
-title: Gather Perfomance Data
-page_title: Gather Perfomance Data
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: Gather Performance Data
+page_title: Gather Performance Data
+description: "Gather Performance Data from performance test run in Test Studio."
 previous_url: /user-guide/performance/gather-performance-data.aspx, /user-guide/performance/gather-performance-data
 position: 2
 ---
-# Gather Perfomance Data
+# Gather Performance Data
 
 > The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution server</a> needs to be running before Test Studio can connect to it for performance monitoring.
 

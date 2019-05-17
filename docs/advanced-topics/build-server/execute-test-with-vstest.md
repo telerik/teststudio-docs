@@ -1,7 +1,7 @@
 ---
 title: Execute Test Studio Tests with VSTestConsole.exe
 page_title: Execute Test Studio Test with VSTestConsole.exe
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Integrate Test Studio tests in TFS continuous integration builds. Execute Test Studio tests with VSTestConsole.exe"
 position: 10
 ---
 # Execute Test Studio Tests with VSTestConsole.exe #

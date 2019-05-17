@@ -1,17 +1,17 @@
 ---
 title: Utility Class In Test Studio Standalone
-page_title: Utility Class In Test Studio  Standalone
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Utility Class In Test Studio Standalone
+description: "Utility Class Helper class file In Test Studio Standalone project"
 previous_url: /user-guide/code-samples/general/utility-in-standalone.aspx, /user-guide/code-samples/general/utility-in-standalone
 position: 1
 ---
-#How To Use A Utility Class In Test Studio Version#
+# How To Use A Utility Class In Test Studio Standalone Version #
 
-##Problem
+## Problem ##
 
 *I would like to create/use global variables and/or functions in Test Studio Standalone version and access these from all tests within the current project.*
 
-##Solution##
+## Solution ##
 
 <a href="/features/coded-steps/standalone-code-file" target="_blank">Here</a> you could read how to create a standalone code file within a Test Studio project. Below are listed two examples how a class file named *Utility* could be adjusted to cover two  common scenarios: ***write text to external file*** and ***perform certain action against an element***. The provided sample code requires reference to ***System.IO.dll*** and  ***ArtOfTest.WebAii.Controls.HtmlControls.dll*** added in the project settings and the respective *using* statements in the code. Note that the namespace of the standalone code file must be the same as the namespace of the project.
 
@@ -76,7 +76,7 @@ End Namespace
 
 Once the code file is ready for use compile the project to build the assembly. Then you'll be able to access the functions/variables within your *Utility* class from all tests in this project. Note that the Test Studio code editor will not auto-complete references to the contents of the *Utility* class.
 
-###How To Use Methods And Variables From The Utility Class File###
+### How To Use Methods And Variables From The Utility Class File ###
 
 The code sample below demonstrates how the global methods and variables could be accessed in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a>. 
 

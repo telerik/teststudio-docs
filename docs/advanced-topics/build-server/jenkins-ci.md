@@ -1,7 +1,7 @@
 ---
 title: Jenkins CI
 page_title: Jenkins CI
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Integrate Test Studio tests in Jenkins continuous integration. Execute Test Studio tests with Jenkins."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/jenkins_ci.aspx, /user-guide/command-line-test-execution/continuous-integration/jenkins_ci
 position: 2
 ---

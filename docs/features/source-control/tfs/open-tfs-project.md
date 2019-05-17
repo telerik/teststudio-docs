@@ -1,7 +1,7 @@
 ---
 title: Open TFS-Controlled Project
 page_title: Open TFS-Controlled Project
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Open a Test Studio Project from TFS"
 previous_url: /features/source-control/open-tfs-project
 position: 2
 ---

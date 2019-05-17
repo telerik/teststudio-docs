@@ -1,7 +1,7 @@
 ---
 title: Manage Windows Authentication
 page_title: Manage Windows Authentication
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Manage Windows Authentication in Test Studio load test. The tested application supports Windows Authentication - can use that in Test Studio load test"
 position: 16
 ---
 # Manage Windows Authentication

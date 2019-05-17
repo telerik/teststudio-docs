@@ -1,7 +1,7 @@
 ---
 title: Loop
 page_title: Loop
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Loop a repeating action certain amount of times in Test Studio test. Loop cycle in Test Studio test"
 previous_url: /user-guide/logical-steps/loop.aspx, /user-guide/logical-steps/loop
 position: 1
 ---
@@ -21,7 +21,7 @@ Walk--through of creating a loop process.
 
 5.&nbsp; Pause recording and minimize the browser.
 
-6.&nbsp; Choose **Conditions** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a> and add **loop** step.  
+6.&nbsp; Choose **Conditions** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a> and add **loop** step.
 
 <table id="no-table">
 <tr>

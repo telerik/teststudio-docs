@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: Project Explorer Overview
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Project Explorer pane in Test Studio. The test explorer in Test Studio. Organize the tests structure in Test Studio project. Group few tests in a separate folder in Test Studio project. Project Explorer context menu in Test Studio"
 previous_url: /features/test-maintenance/project-files-context-menu
 publish: true
 position: 1
 ---
 # Project Explorer
 
-The Project Explorer pane shows a tree-like structure of your tests in the project. Tests can be added directly to the project, or logically grouped in folders. Double click opens the test. Folders in turn, can be nested forming hierarchical representation of your testing solution. If there are multiple folders expanded you can collapse these using the Collapse button (available as of release R1 2018 - v.2018.1.0130).
+The Project Explorer pane shows a tree-like structure of your tests in the project. Tests can be added directly to the project, or logically grouped in folders. Double click opens the test. Folders in turn, can be nested forming hierarchical representation of your testing solution. If there are multiple folders expanded you can collapse these using the Collapse button (available as of release R1 2018 - v.2018.1.130).
 
 ![Collapse Button][4]
 

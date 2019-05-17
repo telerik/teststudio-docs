@@ -1,15 +1,13 @@
 ---
 title: Build Server Test Execution
 page_title: Build Server Test Execution
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Build Server Test Studio Test Execution."
 previous_url: /user-guide/command-line-test-execution.aspx, /user-guide/command-line-test-execution
 position: 2
 ---
 #Build Server Test Execution#
 
-
 > A minimum of Test Studio <a href="/general-information/test-studio-run-time" target="_blank">Run-Time Edition</a> is required on your build server.
-
 
 Here are your options for command line test execution of tests and test lists:
 

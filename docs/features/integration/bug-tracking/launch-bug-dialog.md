@@ -1,7 +1,7 @@
 ---
 title: Launch Bug Dialog
 page_title: Launch Bug Dialog
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to launch the bug dialog to submit a bug from Test Studio. Submit a bug from the genererated fauilure detail/failed test in Test Studio. Submit a bug from failed Test Studio test list results."
 previous_url: /user-guide/extensions/bug-tracking/launch-submit-bug-dialog.aspx, /user-guide/extensions/bug-tracking/launch-submit-bug-dialog
 position: 1
 ---
@@ -9,10 +9,10 @@ position: 1
 
 There are four ways to launch the Submit Bug dialog:
 
-1. <a href="/getting-started/test-results/step-failure-details" target="_blank">Step Failure Details</a>
-1. <a href="/features/test-maintenance/test-step-context-menu" target="_blank">Test Step Context Menu</a>
-1. <a href="/getting-started/test-execution/visual-debugger" target="_blank">Visual Debugger</a>
-1. <a href="/getting-started/test-results/analyze-test-results" target="_blank">Test List Results</a>
+- <a href="/getting-started/test-results/step-failure-details" target="_blank">Step Failure Details</a>
+- <a href="/features/test-maintenance/test-step-context-menu" target="_blank">Test Step Context Menu</a>
+- <a href="/getting-started/test-execution/visual-debugger" target="_blank">Visual Debugger</a>
+- <a href="/getting-started/test-results/analyze-test-results" target="_blank">Test List Results</a>
 
 ## Step Failure Details
 

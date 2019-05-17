@@ -1,7 +1,7 @@
 ---
 title: Stop or Cancel a Scheduled Job
 page_title: Stop or Cancel a Scheduled Job
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Stop or Cancel a Scheduled Job"
 previous_url: /user-guide/scheduling-test-runs/cancel-scheduled-job.aspx, /user-guide/scheduling-test-runs/cancel-scheduled-job
 position: 14
 ---

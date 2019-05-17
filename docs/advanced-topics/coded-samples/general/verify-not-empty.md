@@ -1,10 +1,10 @@
 ---
 title: Verify Not Empty
-page_title: Verify Not Empty
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Verify The Text Content of an Element is Not Empty
+description: "Verify the text content of an element is not empty in Test Studio test run."
 position: 1
 ---
-#Verify Not Empty#
+# Verify Not Empty #
 
 *I would like to verify the text content of an element is not empty. In other words, that it contains one or more characters.*
 
