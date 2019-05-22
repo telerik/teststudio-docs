@@ -40,7 +40,7 @@ You can also download Test Studio from your telerik.com account. Once you have i
 
 ## Install Test Studio ##
 
-1. After you have <a href="#download-test-studio">downloaded the install file</a>, locate it using Windows Explorer and double click it to launch the installer.
+1. After you have [downloaded the install file](#download-test-studio), locate it using Windows Explorer and double click it to launch the installer.
 2. Click __Read License Agreement__, then __OK__, then I __Agree - Continue__.
 
 	![Setup Wizzard](/img/getting-started/installation-and-activation/fig06.png)
@@ -110,3 +110,6 @@ The below process assumes that you have not launched the Standalone or VS plugin
 9.	If you perform the above process and you receive the screen below, click on Activate Manually and follow this article for <a href="manual-activation" target="_blank">Manual Activation</a>.
 
 	![Couldn't log](/img/getting-started/installation-and-activation/fig17.png)
+
+
+<div><a style="float:right" href="/getting-started/first-project">Go to Your First Project</a></div>

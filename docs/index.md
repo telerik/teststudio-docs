@@ -32,9 +32,10 @@ All versions use identical repositories and file formats, facilitating seamless 
 ## Getting Started
 1. [Installation and Activation](/getting-started/installation-and-activation)
 2. [Your First Project](/getting-started/first-project)
-3. [Troubleshooting Basics](/getting-started/troubleshooting-basics)
+3. [Analyze the Results](/getting-started/analyze-the-results)
+4. [Next Steps](/getting-started/next-steps)
 
-## List of Features
+## Next Steps
 Here are quick links to some of the features in Test Studio:
 * [Coded Step](/features/coded-steps/coded-step)
 * [Custom Step](/features/custom-steps/overview)
@@ -49,5 +50,11 @@ Here are quick links to some of the features in Test Studio:
 * [Source Control](/features/source-control/checkin-guidelines)
 
 
-## List of Knowledge Base Articles
-+ test
+## Getting Help
+* <a href="https://www.telerik.com/videos/teststudio">Videos</a>
+* <a href="https://www.telerik.com/forums/teststudio">Forums</a>
+* <a href="https://www.telerik.com/account/support-tickets">Contact support</a>
+* <a href="https://www.telerik.com/account/support-tickets/customer-service">Submit a general feedback</a>
+* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry">Send a presale inquiry</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio">What's new</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history">Release notes</a>
