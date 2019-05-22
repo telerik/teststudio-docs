@@ -2,7 +2,11 @@
 title: Register Certificate
 page_title: Register Certificate
 description: Register Certificate for HTTPS Connection. I encounter certificate-related warnings when the Test Studio recorder or runner is attached to the browser
-previous_url: /user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection.aspx
+<<<<<<< HEAD
+previous_url: /user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection.aspx, /user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection
+=======
+previous_url: /user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection.aspx, /user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection
+>>>>>>> gettingstarted
 position: 1
 ---
 #Register Certificate for HTTPS Connection#
