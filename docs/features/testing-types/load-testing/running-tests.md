@@ -1,7 +1,7 @@
 ---
 title: Running Tests
-page_title: Running Tests
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Running Load Tests
+description: "Run Load Tests in Test Studio. How to execute a load test in Test Studio"
 previous_url: /user-guide/load-testing/load-running-tests.aspx
 position: 17
 ---

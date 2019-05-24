@@ -1,10 +1,10 @@
 ---
 title: VS Team Services Builds
-page_title: VS Team Services Test Execution
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: VS Team Services Azure DevOps Test Execution
+description: "Integrate Test Studio tests in VS Team Services, Azure DevOps, online TFS continuous integration. Execute Test Studio tests with VS Team Services. Azure DevOps, online TFS build."
 position: 9
 ---
-#VS Team Services Test Execution#
+# VS Team Services/ Azure DevOps Test Execution #
 
 **VS Team Services** supports integration with external command line utility where <a href="/features/test-runners/artoftest-runner" target="_blank">**ArtOfTest.Runner.exe**</a> could be plugged in.
 
@@ -47,7 +47,6 @@ Once the agent is successfully installed run it in interactive mode. It will be 
 8.&nbsp; The build should now successfully **start the ArtOfTest.Runner** and execute the tests or test lists from the provided arguments. 
 
 ![Build succeeded][8]
-
 
 [1]: /img/advanced-topics/build-server/vs-team-services-builds/EmptyBuildDefinition.png
 [2]: /img/advanced-topics/build-server/vs-team-services-builds/fig2.png

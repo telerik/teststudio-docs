@@ -1,13 +1,13 @@
 ---
 title: Check-in Guidelines
 page_title: Check-in Guidelines
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio specific remote repository Check-in Guidelines tips and tricks. Files to exclude from source control check in"
 previous_url: /user-guide/source-control/check-in-guidelines.aspx, /user-guide/source-control/check-in-guidelines
 position: 1
 ---
 # Check-in Guidelines
 
-## Files to exclude from check-in
+## Files to Exclude from Check-in
 
 For any source control system, check in all files **except** the following:
 
@@ -17,7 +17,7 @@ For any source control system, check in all files **except** the following:
 - The project *.dll file in the project bin folder - this file is auto-generated with every build.
 - If you also use the Standalone version, you will want to exclude the Results folder. This folder is only created by the Standalone version and holds the results of test list runs.
 
-## Files to check-in
+## Files to Check-in
 
 **Visual Studio test projects may also use these unique files:**
 
@@ -36,10 +36,10 @@ For any source control system, check in all files **except** the following:
 
 >Note: The <a href="/features/source-control/connect-to-tfs" target="_blank">TFS Plugin</a> selects the correct files for check-in automatically.
 
-## Upgrading a project which is used by multiple team members
+## Upgrading a Project Which is Used by Multiple Team Members
 
 1.&nbsp; One of the team member should check out the test project and upgrade it on his local machine.
 
 2.&nbsp; After upgrading the project this same member should check in the upgraded project back into the source control.
 
-3.&nbsp; The other team members now can get the latest version of the project and use it without merging conflict in the newer version of Test Studio.   
+3.&nbsp; The other team members now can get the latest version of the project and use it without merging conflict in the newer version of Test Studio.

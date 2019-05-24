@@ -1,7 +1,7 @@
 ---
 title: Modal Popups
 page_title: Modal Popups
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "There is a modal popup displayed in the tested page - how can I automate modal popup windows in Test Studio tests. Connect to modal popup window during Test Studio test run/execution"
 previous_url: /user-guide/dialogs-and-popups/modal-popups.aspx, /user-guide/dialogs-and-popups/modal-popups
 position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Non-iterative Data Driving
 page_title: Non-iterative Data Driving
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio - data drive a step in a test script to select a different sequential row from the data source by each test run. Non-iterative Data Driving in Test Studio"
 previous_url: /user-guide/code-samples/general/non-iterative-data-driven-testing.aspx, /user-guide/code-samples/general/non-iterative-data-driven-testing
 position: 1
 ---

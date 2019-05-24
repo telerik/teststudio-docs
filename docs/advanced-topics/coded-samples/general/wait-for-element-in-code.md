@@ -1,7 +1,7 @@
 ---
 title: Wait for Element in Code
 page_title: Wait for Element in Code
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Wait for Element in Coded Test Studio test."
 previous_url: /user-guide/code-samples/general/wait-for-element-to-exist-in-code.aspx, /user-guide/code-samples/general/wait-for-element-to-exist-in-code
 position: 1
 ---

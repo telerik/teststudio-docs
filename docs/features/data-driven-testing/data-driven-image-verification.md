@@ -1,7 +1,7 @@
 ---
 title: Data Driven Image Verification
 page_title: Data Driven Image Verification
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Is there a way to data drive an image verification in Test Studio test?"
 position: 12
 ---
 # Data Driven Image Verification #

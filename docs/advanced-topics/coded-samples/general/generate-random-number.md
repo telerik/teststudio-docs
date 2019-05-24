@@ -1,7 +1,7 @@
 ---
 title: Generate Random Number
 page_title: Generate Random Number
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Generate Random Number in Test Studio coded test."
 previous_url: /user-guide/code-samples/general/random-number-input.aspx, /user-guide/code-samples/general/random-number-input
 position: 1
 ---

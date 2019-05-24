@@ -1,7 +1,7 @@
 ---
 title: Access SQL Database
 page_title: Access SQL Database
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "how to access an SQL database through code in Test Studio coded step."
 previous_url: /user-guide/code-samples/general/access-sql-database.aspx, /user-guide/code-samples/general/access-sql-database
 position: 1
 ---
@@ -25,7 +25,6 @@ using System.Data.SqlClient;
 ```VB
 Imports System.Data.SqlClient;
 ```
-
 
 ##Sample Code##
 
@@ -83,9 +82,7 @@ thisReader.Close()
 thisConnection.Close()
 ```
 
-
 ###Write into SQL Database###
-
 
 ```C#
 //Define a new SQL connection with a connection string.
@@ -121,4 +118,3 @@ thisCommand.ExecuteNonQuery()
 **Note**: This code won't run without modification. The database, table, and column in the original code won't exist in your environment.
 
 [1]: /img/advanced-topics/coded-samples/general/access-sql-database/fig1.png
-

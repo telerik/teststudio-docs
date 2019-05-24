@@ -1,7 +1,7 @@
 ---
 title: Standalone Code File
 page_title: Standalone Code File
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Standalone Code File in Test Studio. Utility class that defines a set of methods which perform common, often re-used functions across the Test Studio project. The code item can be used also as a helper class which can assist in providing some extended functionality for your test project"
 position: 2
 ---
 # Standalone Code File
@@ -28,4 +28,3 @@ Add a standalone code file to create a utility class that defines a set of metho
 [2]: /img/features/coded-steps/standalone-code-file/fig2.png
 [3]: /img/features/coded-steps/standalone-code-file/fig3.png 
 [4]: /img/features/coded-steps/standalone-code-file/fig4.png 
-

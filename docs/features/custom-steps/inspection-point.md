@@ -1,7 +1,7 @@
 ---
 title: Inspection Point
 page_title: Inspection Point
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How can I pause the test execution in Test Studio to inspect the DOM tree at certain moment of the run. Is there a way to verify/check/inspect the DOM tree/the page state at certain step of the test run in Test Studio."
 position: 12
 ---
 # Inspection Point

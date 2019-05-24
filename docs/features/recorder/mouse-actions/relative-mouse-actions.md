@@ -1,7 +1,7 @@
 ---
 title: Specific location
 page_title: Specific location
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Add a click step on certain specific location of an element in Test Studio test recording mode"
 position: 1
 ---
 # Specific location

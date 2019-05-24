@@ -1,7 +1,7 @@
 ---
 title: Clear Browser Cache
 page_title: Clear Browser Cache
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to clear the browser cache during a test run in Test Studio. Clear the browser cache in a Test Studio test execution."
 position: 6
 ---
 # Clear Browser Cache

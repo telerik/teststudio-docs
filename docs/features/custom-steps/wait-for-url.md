@@ -1,7 +1,7 @@
 ---
 title: Wait For URL
 page_title: Wait For URL
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "can i wait for certain URL to appear in the browser address bar during a Test Studio test run/execution. There is redirected URLs for my page and Test Studio fails to wait for the last URL. How to wait for the last redirected URL in Test Studio test."
 position: 9
 ---
 # Wait For URL

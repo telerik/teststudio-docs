@@ -1,7 +1,7 @@
 ---
 title: TFS 2017 Builds
 page_title: TFS 2017 Test Execution
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Integrate Test Studio tests in TFS 2017 continuous integration. Execute Test Studio tests with TFS 2017 build."
 position: 9
 ---
 #TFS 2017 Builds Test Execution#

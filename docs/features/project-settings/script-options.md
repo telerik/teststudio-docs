@@ -1,7 +1,7 @@
 ---
 title: Script
 page_title: Script
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio script coded code settings. Where is the Namespace in Test Studio project How to add reference/reference assembly in a Test Studio project.  Test Studio project's bin folder "
 previous_url: /user-guide/project-settings/script-options.aspx, /user-guide/project-settings/script-options
 position: 5
 ---
@@ -10,7 +10,6 @@ position: 5
 Script Options dictate how Test Studio treats the <a href="/advanced-topics/coded-steps/code-behind-file" target="_blank">code behind file</a>. Note: This section is applicable to the Standalone version only.
 
 ![Script Options][1]
-
 
 ## Assembly Name
 

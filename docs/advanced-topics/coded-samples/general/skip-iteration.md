@@ -1,7 +1,7 @@
 ---
 title: Skip Iteration
 page_title: Skip Iteration
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Skip one or more iterations in a data driven Test Studio test execution."
 position: 1
 ---
 #How to Skip a Specific Iteration While Executing a Data-Bound Test#

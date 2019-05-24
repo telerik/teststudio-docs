@@ -1,11 +1,10 @@
 ---
 title: Think Times
-page_title: Think Times
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Think Times in Test Studio Load Test
+description: "Think Times in Test Studio Load Test. Think Times simulate delays between requests in your User Profile"
 position: 9
 ---
 # Think Times
-
 
 Think Times simulate delays between requests in your User Profile. If you recorded new HTTP traffic via <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">Capture New</a>, Test Studio will automatically detect and record Think Times and add them to the new User Profile. Similarly, if you imported a Fiddler trace, Test Studio will insert Think Times based on the time stamps of the HTTP requests contained in the trace. When you capture traffic from an existing Web Test, Test Studio will execute it as fast as possible and add default Think Times into the recorded HTTP transactions that correspond to the delay between test steps.
 

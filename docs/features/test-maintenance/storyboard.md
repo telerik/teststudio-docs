@@ -1,15 +1,14 @@
 ---
 title: Storyboard
 page_title: Storyboard
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Storyboard is a three-dimensional, visual representation of test steps. Test Studio automatically takes screenshots during recording"
 previous_url: /user-guide/modifying-tests/storyboard.aspx, /user-guide/modifying-tests/storyboard
 position: 1
 ---
 # Storyboard
 
-
 - The Storyboard is a three-dimensional, visual representation of test steps.
-- Test Studio automatically takes screen shots where appropriate and highlights the element of interest for each screenshot.
+- Test Studio automatically takes screenshots where appropriate and highlights the element of interest for each screenshot.
 - Click background images to bring the image "up front."
 - As you record your test, a screenshot of your action on the target element is captured to the Storyboard. This gives you a visual flow of how your test has progressed.
 - It is a great time saver in helping others understand the state of the test at the time of recording, along with what the target elements of the tests were.

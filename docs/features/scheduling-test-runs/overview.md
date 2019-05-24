@@ -1,15 +1,13 @@
 ---
 title: Overview
 page_title: Scheduling Test Runs Optionally Remotely (Standalone only)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Scheduling Test Runs, Optionally Remotely (Standalone only). Test Studio Scheduling allows you to select atest list to execute at a future time, set the date and time for the test run and return later to see the results. The Scheduling Service could be also used to schedule a test list to run on remote execution machines."
 previous_url: /user-guide/scheduling-test-runs.aspx, /user-guide/scheduling-test-runs
 position: 1
 ---
 # Scheduling Test Runs, Optionally Remotely (Standalone only)
 
-
 Test Studio Scheduling allows you to select a <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test list</a> to execute at a future time, set the date and time for the test run and return later to see the results. The Scheduling Service could be also used to schedule a test list to run on remote machines.
-
 
 From your local instance of Test Studio test lists could be scheduled on any machine in the network including virtual machines. If you have to run a number of tests, you can spread the workload between different machines in order to reduce the total execution time. All the results will be stored in one centralized location for you to examine later.
 

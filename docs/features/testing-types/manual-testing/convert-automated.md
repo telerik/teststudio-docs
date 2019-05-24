@@ -1,11 +1,11 @@
 ---
 title: Convert to Automated
 page_title: Convert to Automated
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Convert manual Test Studio test to an automated one."
 previous_url: /user-guide/manual-testing/convert-to-automated.aspx, /user-guide/manual-testing/convert-to-automated
 position: 4
 ---
-# Convert to Automated
+# Convert Manual Test to an Automated
 
 Once most or all of the steps of your manual test are automated, you can convert the test to an automated Web or WPF test.
 

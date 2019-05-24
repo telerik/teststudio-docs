@@ -1,15 +1,15 @@
 ---
 title: Attach Data Columns
-page_title: Attach Data Columns
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Attach Data Columns in Code
+description: "Attach Data Columns in Code in Test Studio coded test. Data bind a value in coded test in Test Studio."
 previous_URL: /user-guide/code-samples/general/attach-columns-to-input-values-in-code.aspx
 position: 1
 ---
-#Attach Columns to Input Values in Code#
+# Attach Columns to Input Values in Code #
 
 *I would like to attach a column from my data table to an input value in code. (This is more easily accomplished through the <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">Test Studio UI</a>.)*
 
-##Soluiton##
+## Solution ##
 
 Use the Data object in conjunction with the column name or index.
 

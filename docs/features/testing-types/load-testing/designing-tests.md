@@ -1,23 +1,22 @@
 ---
 title: Designing Tests
 page_title: Load Testing - Designing Your Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Design your load test in Test Studio - Add user profiles to the load test, Select the dynamic targets/parts in the http requests, add think times to simulate real user interacting with the application udner test. Configure the work load distribution of the user profiles, Configure the number of virtual users and time to run the laod test."
 position: 2
 ---
-
 # Load Testing: Designing Your Test
 
 Getting started with Test Studio Load Testing is a snap. Do you have existing functional tests in Test Studio? You can set up powerful profiles by using those tests without having to modify them. You can also quickly tailor “think time” delays to simulate the pauses real users make as they navigate your site.
 
 Have you been capturing Fiddler traces of site activity during troubleshooting or monitoring? Use this invaluable data directly by importing it into Test Studio as a user profile!
- 
+
 To get the most out of your Load Test, it is best if you follow a few simple guidelines:
 
 1.&nbsp; Make sure you have think times with deviations. Think Times with deviations have a random duration. By having some users at different intervals sitting out of the test (thinking) it not only mimics real world usage better, but it allows for your agents I/O to not be as congested. It may be counter intuitive, but having your virtual users stop to think for a time will actually increase the number of users and requests that your agent can complete.
 
 2.&nbsp; Use ramp times to build up your users from a small number to larger numbers. Again, if you start with a large consistent load, without any ramping, you will likely clog the I/O. By ramping up from lower numbers you give your think times better chances to get involved.
 
-There are six steps to create and fully define a load test: 
+There are six steps to create and fully define a load test:
 
 1.&nbsp; Add a new Load test to your project:
 
@@ -28,7 +27,7 @@ There are six steps to create and fully define a load test:
 
 ![Load test][1]
 
-2.&nbsp; <a href="/features/testing-types/load-testing/adding-user-profiles" target="_blank">Add user profiles to the load test</a>. A "user profile" is a specific sequence of HTTP traffic that represents how one user is interacting with your web applications. A load test must have at least one user profile. Your load test may contain as many user profiles as you like. There are four possible sources for the HTTP traffic representing a user profiles. 
+2.&nbsp; <a href="/features/testing-types/load-testing/adding-user-profiles" target="_blank">Add user profiles to the load test</a>. A "user profile" is a specific sequence of HTTP traffic that represents how one user is interacting with your web applications. A load test must have at least one user profile. Your load test may contain as many user profiles as you like. There are four possible sources for the HTTP traffic representing a user profiles.
 
 - Imported from an existing load test.
 - Imported from a <a href="http://fiddler2.com/fiddler2/" target="_blank">Fiddler</a> trace.

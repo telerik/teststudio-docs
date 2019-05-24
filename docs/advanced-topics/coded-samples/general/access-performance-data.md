@@ -1,7 +1,7 @@
 ---
 title: Access Performance Data
 page_title: Access Performance Data
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "access the results of a performance test in code in Test Studio coded step."
 position: 1
 ---
 #Access Performance Data#

@@ -1,7 +1,7 @@
 ---
 title: Add an Assembly Reference
 page_title: Add an Assembly Reference
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Add an external Assembly Reference in Test Studio project."
 previous_url: /user-guide/coded_steps/add-an-assembly-reference.aspx, /user-guide/coded_steps/add-an-assembly-reference, /advanced-topics/coded-steps/add-assembly-reference
 position: 5
 ---

@@ -1,7 +1,7 @@
 ---
 title: Find Element
 page_title: Find Element
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Unable to find Element - Test Studio test failure. How to change how an element is located in Test studio test run/ execution. Update the elements find expression in Test Studio. How to adjust the proeprties used to locate an element in Test Studio."
 previous_url: /user-guide/elements-pane-overview/find-element.aspx, /user-guide/elements-pane-overview/find-element
 position: 3
 ---

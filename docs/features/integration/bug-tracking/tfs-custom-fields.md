@@ -1,7 +1,7 @@
 ---
 title: TFS Custom Fields
 page_title: How to Submit a Bug to TFS with Custom Fields
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to Submit a Bug from Test Studio to TFS with Custom Fields. Custom fields in the TFS issue/bug scheme supported in Test Studio."
 previous_url: /user-guide/extensions/bug-tracking/tfs-custom-fields.aspx, /user-guide/extensions/bug-tracking/tfs-custom-fields
 position: 1
 ---

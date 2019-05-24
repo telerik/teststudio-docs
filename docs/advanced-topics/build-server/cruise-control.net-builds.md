@@ -1,7 +1,7 @@
 ---
 title: CruiseControl.NET Builds
 page_title: CruiseControl.NET Builds
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Integrate Test Studio tests in CruiseControl.NET continuous integration builds. Execute Test Studio tests with CruiseControl.NET"
 previous_url: /user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net.aspx, /user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net
 position: 2
 ---

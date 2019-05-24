@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Data Driven Testing Overview
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Data Driven Testing in Test Studio. Parameterize the test in Test Studio. Use iterated data in a Test Studio test"
 previous_url: /user-guide/data-driven-testing.aspx, /user-guide/data-driven-testing
 position: 0
 ---

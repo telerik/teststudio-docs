@@ -1,7 +1,7 @@
 ---
 title: Reorder Test Steps
 page_title: Reorder Test Steps
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Reorder the Test Steps in a Test Studio test. Change the order of existing recorded test steps in a Test Studio steps."
 previous_url: /user-guide/modifying-tests/reorder-test-steps.aspx, /user-guide/modifying-tests/reorder-test-steps
 position: 1
 ---
@@ -29,5 +29,3 @@ You can easily change the order of existing test steps.
 [2]: /img/features/test-maintenance/reorder-test-steps/fig2.png
 [3]: /img/features/test-maintenance/reorder-test-steps/fig3.png
 [4]: /img/features/test-maintenance/reorder-test-steps/fig4.png
-
-

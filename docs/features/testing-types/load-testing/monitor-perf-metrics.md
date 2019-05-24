@@ -1,7 +1,7 @@
 ---
 title: Monitor Performance Metrics
 page_title: Monitor Performance Metrics
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Monitor Performance Metrics in Test Studio load test. monitor performance counters of one or more machines during a Test Studio load test run"
 position: 11
 ---
 # Monitor Performance Metrics
@@ -35,7 +35,6 @@ To monitor performance counters of one or more machines during your load test:
 6.&nbsp; Click **Save**.
 
 ![Save][7]
-
 
  An entry for this machine will appear under **Monitor Performance**. Click the checkbox next to the machine name to toggle performance monitoring for this machine. 
 

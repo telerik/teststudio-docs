@@ -1,10 +1,9 @@
 ---
 title: Overview
 page_title: Overview
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Custom steps in the Step Builder in Test Studio. Steps, which can be added only manually from the Step Buidler"
 position: 0
 ---
-
 # Add a Custom Step #
 
 ## Test Studio 2015 R1 (v.2015.1.319) and Later ##
@@ -34,8 +33,6 @@ As of version 2015 R1 you can find the custom steps in the <a href="/getting-sta
 ## Test Studio 2014 R4 (v.2014.4.1211) and Earlier ##
 
 The Recording Surface can help build a wide range of automation and verification quickly and without having to resort to manual configuration. However, there are some steps that need to be added manually. For these, use the "**Add**" ribbon in the Standalone version and the "**Add**" button in Visual Studio.
-<br>
-<br>
 
 ### Web ###
 
@@ -46,12 +43,7 @@ The Recording Surface can help build a wide range of automation and verification
 </tr>
 <table>
 
-
-<br>
-<br>
-
 ### WPF ###
-
 
 <table id="no-table">
 <tr>
@@ -59,9 +51,6 @@ The Recording Surface can help build a wide range of automation and verification
 	<td>![VS Plugin][4] <br> VS Plugin</td>
 </tr>
 <table>
-
-<br>
-<br>
 
 1. [Test as Step](/features/custom-steps/test-as-step) - run an existing test as a single step.
 1. [Navigate To](/features/custom-steps/navigate-to) - navigate to an url step.

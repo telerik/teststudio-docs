@@ -1,7 +1,7 @@
 ---
 title: Connect to Scheduling Server
 page_title: Connect a Project to the Scheduling Server
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "connect the Test Studio project to the configured Scheduling Server to run test lists on remote machines. Unable to choose the connected execution machines to run test lists on these."
 previous_url: /user-guide/scheduling-test-runs/connect-a-project-to-a-scheduling-server.aspx, /user-guide/scheduling-test-runs/connect-a-project-to-a-scheduling-server
 position: 7
 ---

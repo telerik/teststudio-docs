@@ -1,7 +1,7 @@
 ---
 title: Compare View
 page_title: Compare View
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Compare View of multiple performance test results in Test Studio."
 previous_url: /user-guide/performance/compare-view.aspx, /user-guide/performance/compare-view
 position: 2
 ---
@@ -31,8 +31,6 @@ Use this feature to put two Runs side by side and identify potential regressions
 - Click **Expand** to show details for each step.
 - Click **Collapse** to hide all details.
 - Click the arrow icon by a step to expand or collapse its details.
-
-
 
 [1]: /img/features/testing-types/performance-testing/compare-view/fig1.png
 [2]: /img/features/testing-types/performance-testing/compare-view/fig2.png

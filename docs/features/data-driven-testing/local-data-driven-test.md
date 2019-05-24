@@ -1,7 +1,7 @@
 ---
 title: Local Data Driven Test
 page_title: Local Data Driven Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio can use built-in data source for each test. Data drive/ Parameterize a test with Internal data source in Test Studio"
 previous_url: /user-guide/data-driven-testing/local-data-driven-test.aspx, /user-guide/data-driven-testing/local-data-driven-test
 position: 1
 ---

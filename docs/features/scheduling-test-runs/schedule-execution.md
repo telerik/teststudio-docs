@@ -1,7 +1,7 @@
 ---
 title: Schedule Execution
 page_title: Schedule Test List Execution
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio test list schedule execution. How to schedule a test list on remote machine with Test Studio"
 position: 9
 previous_url: /user-guide/scheduling-test-runs/schedule-test-execution.aspx, /user-guide/scheduling-test-runs/schedule-test-execution
 ---

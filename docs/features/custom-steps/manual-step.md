@@ -1,7 +1,7 @@
 ---
 title: Manual Step
 page_title: Manual Step
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to make the test run in Test Studio to stop at certain point of the execution and allow me to do something manually against the application under test. Can I insert a manual step in Test Studio test? Can I perfomr some manual actions during a test run in Test Studio"
 position: 13
 ---
 # Manual Step

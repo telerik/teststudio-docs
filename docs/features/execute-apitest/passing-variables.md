@@ -1,7 +1,7 @@
 ---
 title: Passing Variables Between API and Web&Desktop Projects
 page_title: Passing Variables Between API and Web&Desktop Projects
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Reusing Passing Variables Between Test Studio API and Web&Desktop Projects"
 position: 2
 ---
 # Passing Variables Between API and Web&Desktop Projects

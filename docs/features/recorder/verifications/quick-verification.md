@@ -1,7 +1,7 @@
 ---
 title: Quick Verification
 page_title: Quick Verification
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio provides quick verification sugestions during recording. Add verification in Test Studio test with one click."
 previous_url: /user-guide/verifications/quick-verification.aspx, /user-guide/verifications/quick-verification, /features/verifications/quick-verification
 position: 1
 ---
@@ -25,7 +25,6 @@ The easiest and fastest way to add a verification to your test is through the Qu
 
 ![highlight telerik](/img/features/recorder/verifications/quick-verification/fig2.png)
 
-
 6.&nbsp; The Verify step is added to the test.
 
 ![test steps](/img/features/recorder/verifications/quick-verification/fig3.png)
@@ -33,6 +32,5 @@ The easiest and fastest way to add a verification to your test is through the Qu
 <br />
 <br />
 **See Also...**
-
 
 * <a href="/features/recorder/verifications/advanced-verification" target="_blank">Advanced verification</a>

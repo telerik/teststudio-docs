@@ -1,7 +1,7 @@
 ---
 title: Remote Load Test Execution
 page_title: Remote Load Test Execution
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How Test Studio executes load test in remote machines environment. Use multiple machines for laod testing with Test Studio"
 position: 24
 ---
 # Remote Load Test Execution

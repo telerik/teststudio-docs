@@ -1,7 +1,7 @@
 ---
 title: Export Results
-page_title: Export Results
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Export Load Test Results
+description: "Export Load Test Results in Test Studio"
 position: 19
 ---
 # Export Results

@@ -1,14 +1,13 @@
 ---
 title: Team Foundation Service
 page_title: Team Foundation Service
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test Studio TFS plugin is compatible with Team Foundation Service Azure DevOps."
 previous_url: /features/source-control/team-foundation-service
 position: 2
 ---
-# Team Foundation Service
+# Integration with Team Foundation Service/Azure DevOps
 
 Test Studio's TFS plugin is also compatible with Team Foundation Service.
-
 
 ## Configure Team Project
 

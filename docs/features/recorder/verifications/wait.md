@@ -1,7 +1,7 @@
 ---
 title: Wait
 page_title: Create a Wait Step
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Wait Step. Add a step to wait for specific element /element state in Test Studio test. My test is failing on random step by each execution. Can I slow down the Test Studio test execution depending on how fast the automated page application loads the elements."
 previous_url: /user-guide/verifications/wait.aspx, /user-guide/verifications/wait, /features/verifications/wait
 position: 1
 ---
@@ -23,9 +23,7 @@ You can create a Wait step in the same manner as a <a href="/features/recorder/v
 
 4.&nbsp; You can also toggle a verify step between Verification, Wait, and Extraction (if based on text). Right click the step and select __Change Role > Set As...__
 
-
 ![Set as Wait](/img/features/recorder/verifications/wait/fig4.png)
-
 
 <br />
 <br />
@@ -35,13 +33,3 @@ __See Also...__
 
 * <a href="/features/recorder/verifications/quick-verification" target="_blank">Quick verification</a>
 * <a href="/features/recorder/verifications/advanced-verification" target="_blank">Advanced verification</a>
-
-
-         
-
-
-
-
-
-
-

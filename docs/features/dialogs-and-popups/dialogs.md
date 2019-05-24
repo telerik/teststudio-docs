@@ -1,12 +1,11 @@
 ---
 title: Dialogs
 page_title: Dialogs
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to handle download upload confirm alert logon prompt generic FileUpload dialog in Test Studio test. "
 previous_url: /user-guide/dialogs-and-popups/dialogs.aspx, /user-guide/dialogs-and-popups/dialogs
 position: 1
 ---
 # Dialogs
-
 
 - Not all test steps play out directly inside the browser. Web pages can display popup dialog windows in the form of alerts, confirmations, and other browser instances. 
 - Test Studio allows you to track and respond to dialog windows and can handle HTML popups and Win32 dialogs.
@@ -49,7 +48,7 @@ Displays a message and a single "OK" button.
 
 ## Confirm
 
-Displays a message and asks a question. 
+Displays a message and asks a question.
 
 <table id="no-table">
 <tr>

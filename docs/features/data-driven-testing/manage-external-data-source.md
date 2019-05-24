@@ -1,7 +1,7 @@
 ---
 title: Manage an External Data Source
 page_title: Manage an External Data Source
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Manage Test Studio external data sources. How to update the data source added in Test Studio project. "
 previous_url: /user-guide/data-driven-testing/manage-data-source.aspx, /user-guide/data-driven-testing/manage-data-source
 position: 2
 ---
