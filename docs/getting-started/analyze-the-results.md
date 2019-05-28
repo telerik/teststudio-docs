@@ -21,11 +21,11 @@ The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution
 
 ## Analyze Test List Results ##
 
-The *Results* tab contains results for all locally and remotely executed test lists. There you can <a href="/getting-started/test-results/analyze-test-results" target="_blank">analyze the executions</a>, drill down to the individual test step and go back up to the main test list level for each execution.
+The *Results* tab contains results for all locally and remotely executed test lists. There you can <a href="/general-information/test-results/analyze-test-results" target="_blank">analyze the executions</a>, drill down to the individual test step and go back up to the main test list level for each execution.
 
 ## Step Failure Details ##
 
-The sucecssfully executed steps will be marked with ![pass](/img/getting-started/analyze-the-results/fig01.png) and the failed steps are marked with ![step failure icon](/img/getting-started/analyze-the-results/fig02.png). You can double-click on the icon of a failed steps to load the <a href="/getting-started/test-results/step-failure-details" target="_blank">**Step Failure Details**</a> dialog. You can see the reason for the failure, a screenshot from the moment of failure and <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-dom-on-failure" target="_blank">the page DOM tree</a>.
+The sucecssfully executed steps will be marked with ![pass](/img/getting-started/analyze-the-results/fig01.png) and the failed steps are marked with ![step failure icon](/img/getting-started/analyze-the-results/fig02.png). You can double-click on the icon of a failed steps to load the <a href="/general-information/test-results/step-failure-details" target="_blank">**Step Failure Details**</a> dialog. You can see the reason for the failure, a screenshot from the moment of failure and <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-dom-on-failure" target="_blank">the page DOM tree</a>.
 
 ![Test](/img/getting-started/analyze-the-results/fig03.png)
 

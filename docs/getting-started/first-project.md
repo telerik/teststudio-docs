@@ -35,11 +35,11 @@ You can explore a sample **Web & Desktop** or **API** project, from the **Get St
 
 Once the test project is created you need to configure your browser for testing, we call this "browser calibration". This is done to ensure flawless and consistent automation process. We have implemented a feature to [automatically calibrate the browser](/features/project-settings/browsers) out of the box without manual actions. In this case we will be using Internet Explorer.
 
->**Note:** Other supported browsers like [Chrome](/getting-started/configure-your-browser/chrome) and [Firefox](/getting-started/configure-your-browser/firefox) require the Progress Test Studio extension, where [Microsoft Edge](/getting-started/configure-your-browser/edge) uses the WebDriver.
+>**Note:** Other supported browsers like [Chrome](/general-information/configure-your-browser/chrome) and [Firefox](/general-information/configure-your-browser/firefox) require the Progress Test Studio extension, where [Microsoft Edge](/general-information/configure-your-browser/edge) uses the WebDriver.
 
 ## Add a Test to the Project ##
 
-The same project can have different types of tests, organized in folders. Those test can be later added to <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test lists</a>. For your first test in this project add a new **Web** test.
+The same project can have different types of tests, organized in folders. Those test can be later added to <a href="/general-information/test-execution/test-lists-standalone" target="_blank">test lists</a>. For your first test in this project add a new **Web** test.
 
 1. Go to the *Project* ribbon and click on the **Add New Test** button.
 
@@ -51,7 +51,7 @@ The same project can have different types of tests, organized in folders. Those 
 
 You can find more information on all test types available in a Test Studio Web & Desktop project:
 
-*	<a href="/getting-started/test-recording/overview" target="_blank">**Web Test**</a>
+*	<a href="/general-information/test-recording/overview" target="_blank">**Web Test**</a>
 *	<a href="/features/testing-types/load-testing/Overview" target="_blank">**Load Test**</a>
 *	<a href="/features/testing-types/wpf-testing/wpf-test" target="_blank">**WPF Test**</a>
 *	<a href="/features/testing-types/manual-testing/overview" target="_blank">**Manual Test**</a>
@@ -66,7 +66,7 @@ The Test Studio Recorder will add all actions against the application to your te
 
 2. In the *Recording* dialog type the URL you want to navigate to, select Internet Explorer browser and press Enter or the *Record* button. You can choose a URL from your recent URLs.
 
-    > **Note**: Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+    > **Note**: Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
     ![Choose browser](/img/getting-started/first-project/fig05.png)
 
@@ -80,7 +80,7 @@ The Test Studio Recorder will add all actions against the application to your te
 
 ## Test Execution ##
 
-It is time to execute the recorded test or <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test list</a> and observer the execution process. At the end of the execution, you will see which step passed and which failed, along with <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">the execution log</a>.
+It is time to execute the recorded test or <a href="/general-information/test-execution/test-lists-standalone" target="_blank">test list</a> and observer the execution process. At the end of the execution, you will see which step passed and which failed, along with <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">the execution log</a>.
 
 > While a test is being executed **do not start another instance of the same browser** until the run is finished!
 
@@ -88,7 +88,7 @@ It is time to execute the recorded test or <a href="/getting-started/test-execut
 
     ![Test Studio](/img/getting-started/first-project/fig08.png)
 
-2. Select Internet Explorer as the execution browser and click **Run**. This step will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+2. Select Internet Explorer as the execution browser and click **Run**. This step will be skipped if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Web ribbon</a>.
 
     ![Select browser](/img/getting-started/first-project/fig09.png)
 

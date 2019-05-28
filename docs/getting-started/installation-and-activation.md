@@ -51,7 +51,7 @@ You can also download Test Studio from your telerik.com account. Once you have i
 4. On this screen you can select which features to install by clicking __Customize__ button. You can also change the installation path. After making your selections, click __OK__ to continue.
 
 	* To use this machine as a Storage Server or Scheduling Server, you must install the appropriate services at this time.
-	* To add the Storage and Scheduling Services features, <a href="/getting-started/installation/add-services" target="_blank">you must complete the installation and perform a change using the installer</a>.
+	* To add the Storage and Scheduling Services features, <a href="/general-information/installation/add-services" target="_blank">you must complete the installation and perform a change using the installer</a>.
 	* Storage server uses <a href="https://www.mongodb.com" target="_blank">MongoDb</a> as storage database. MongoDb requires at least 4Gb hard drive space to operate normally.
 	* If you have installed Visual Studio on the machine Test Studio plugin for Visual Studio will be also installed.
 
@@ -104,7 +104,7 @@ The below process assumes that you have not launched the Standalone or VS plugin
 
     ![Activation successful](/img/getting-started/installation-and-activation/fig16.png)
 
-8.	If your machine was freshly imaged or replaced and you need to re-activate your license (__0 seats available__) on the new machine, please visit <a href="/getting-started/installation/re-activating-your-license" target="_blank">Re-Activating your License</a> article.
+8.	If your machine was freshly imaged or replaced and you need to re-activate your license (__0 seats available__) on the new machine, please visit <a href="/general-information/installation/re-activating-your-license" target="_blank">Re-Activating your License</a> article.
 
 9.	If you perform the above process and you receive the screen below, click on Activate Manually and follow this article for <a href="manual-activation" target="_blank">Manual Activation</a>.
 
