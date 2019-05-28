@@ -2,7 +2,7 @@
 title: Add A Test To The Project
 page_title: Add A Test To The Project
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /getting-started/create-test-standalone/load-test, /getting-started/create-test-standalone/manual-test, /getting-started/create-test-standalone/web-test, /getting-started/add-test
+previous_url: /getting-started/create-test-standalone/load-test, /getting-started/create-test-standalone/manual-test, /getting-started/create-test-standalone/web-test, /getting-started/create-test-standalone/add-test
 position: 1
 ---
 # Add A Test To The Project (Standalone)

@@ -51,7 +51,7 @@ All versions use identical repositories and file formats, facilitating seamless 
 </td>
 <td valign=top>
 
-## Next Steps
+## Features
 * [Coded Step](/features/coded-steps/coded-step)
 * [Custom Step](/features/custom-steps/overview)
 * [Data Driven Testing](/features/data-driven-testing/overview)

@@ -2,7 +2,7 @@
 title: Safari
 page_title: Safari
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/configure-your-browser/safari.aspx, /user-guide/configure-your-browser/safari.aspx, /getting-started/safari
+previous_url: /user-guide/configure-your-browser/safari.aspx, /user-guide/configure-your-browser/safari.aspx, /getting-started/configure-your-browser/safari
 position: 1
 ---
 

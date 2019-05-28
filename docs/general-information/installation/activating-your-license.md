@@ -2,7 +2,7 @@
 title: Activating your License
 page_title: Activating your License
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/installation/activating-your-license.aspx, /user-guide/installation/activating-your-license, /getting-started/activeting-your-license
+previous_url: /user-guide/installation/activating-your-license.aspx, /user-guide/installation/activating-your-license, /getting-started/installation/activeting-your-license
 position: 2
 ---
 # Activating your License #

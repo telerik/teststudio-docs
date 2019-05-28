@@ -9,9 +9,9 @@ position: 1
 
 This article explains how to download, install and activate Telerik Test Studio. The process consists of the following steps:
 
-- [Download Test Studio](#download-test-studio)
-- [Install Test Studio](#install-test-studio)
-- [Activate Your License](#activate-your-license)
+1. [Download Test Studio](#download-test-studio)
+2. [Install Test Studio](#install-test-studio)
+3. [Activate Your License](#activate-your-license)
 
 ## Download Test Studio ##
 The easiest way to download the latest version of Test Studio is from <a href=https://www.telerik.com/teststudio target="_blank">the official website</a>.

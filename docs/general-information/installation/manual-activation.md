@@ -2,7 +2,7 @@
 title: Manual Activation
 page_title: Manual Activation
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/installation/manual-activation.aspx, /user-guide/installation/manual-activation, /getting-started/manual-activation
+previous_url: /user-guide/installation/manual-activation.aspx, /user-guide/installation/manual-activation, /getting-started/installation/manual-activation
 position: 4
 ---
 # Manual Activation #

@@ -2,7 +2,7 @@
 title: Calendar
 page_title: Test Results Calendar
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/test-results/calendar.aspx, /user-guide/test-results/calendar, /getting-started/calendar
+previous_url: /user-guide/test-results/calendar.aspx, /user-guide/test-results/calendar, /getting-started/test-results/calendar
 position: 1
 ---
 # Test Results Calendar #

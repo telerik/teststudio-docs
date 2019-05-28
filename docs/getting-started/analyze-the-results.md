@@ -17,11 +17,11 @@ them. In case the test has failed, you can review the results and try to quickly
 
 ## Execution Log ##
 
-The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">execution log</a> is available in the test view after test execution. It contains details about all the steps and you can open it by clicking on the **View Log**.
+The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">execution log</a> is available in the test view after test execution. It contains details about all the steps from the quick execution and you can open it by clicking on the **View Log**.
 
 ## Analyze Test List Results ##
 
-The *Results* tab contains the result for all locally and remotely executed test lists. There you can <a href="/getting-started/test-results/analyze-test-results" target="_blank">analyze the test list results</a>, drill down to the individual test step and go back up to the main test list level for each execution.
+The *Results* tab contains results for all locally and remotely executed test lists. There you can <a href="/getting-started/test-results/analyze-test-results" target="_blank">analyze the executions</a>, drill down to the individual test step and go back up to the main test list level for each execution.
 
 ## Step Failure Details ##
 

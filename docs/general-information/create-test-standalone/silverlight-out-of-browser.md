@@ -2,7 +2,7 @@
 title: Silverlight Out-of-Browser
 page_title: Create a Silverlight Out-of-Browser Test (Standalone)
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /getting-started/silverlight-out-of-browser
+previous_url: /getting-started/create-test-standalone/silverlight-out-of-browser
 position: 1
 ---
 # Create a Silverlight Out-of-Browser Test (Standalone)#

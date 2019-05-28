@@ -2,7 +2,7 @@
 title: Manual Download
 page_title: Manual Download
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/installation/manual_download.aspx, /user-guide/installation/manual_download, /getting-started/manual-download
+previous_url: /user-guide/installation/manual_download.aspx, /user-guide/installation/manual_download, /getting-started/installation/manual-download
 position: 3
 ---
 # Manual Download #

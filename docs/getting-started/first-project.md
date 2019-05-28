@@ -8,12 +8,12 @@ position: 2
 
 Once you have successfully installed and activated Test Studio, you are ready to create your first automation test. The process is devided in several steps:
 
-- [Create new project](#create-new-project)
-- [Calibrate your browser](#calibrate-your-browser)
-- [Add a Test to the Project](#add-a-test-to-the-project)
-- [Test Recording](#test-recording)
-- [Test Execution](#test-execution)
-- [Execution Results](#execution-results)
+1. [Create new project](#create-new-project)
+2. [Calibrate your browser](#calibrate-your-browser)
+3. [Add a Test to the Project](#add-a-test-to-the-project)
+4. [Test Recording](#test-recording)
+5. [Test Execution](#test-execution)
+6. [Execution Results](#execution-results)
 
 ## Create new Project ##
 
