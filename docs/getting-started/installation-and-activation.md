@@ -2,7 +2,6 @@
 title: Installation and Activation
 page_title: Getting started with installing Test Studio
 description: "A step by step guide on how to download, install and activate Test Studio."
-previous_url: /user-guide/installation/manual_download.aspx, /user-guide/installation/manual_download, /getting-started/installation/manual_download, /user-guide/installation/install-procedure, /getting-started/installation/activate-your-license
 position: 1
 ---
 # Installation and Activation #
