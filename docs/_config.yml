@@ -16,104 +16,129 @@ navigation:
     index:
         title: "Overview"
         position: 1
-    "general-information":
-        title: "General Information"
+    "introduction":
+        title: "Introduction"
         position: 2
     "getting-started":
         title: "Getting Started" 
         position: 3
+    "general-information":
+        title: "General Information"
+        position: 4
     "features":
         title: "Features"
-        position: 4
+        position: 5
     "advanced-topics":
         title: "Advanced Topics"
-        position: 5
+        position: 6
     "knowledge-base":
         title: "Knowledge Base"
-        position: 6
+        position: 7
     "troubleshooting-guide":
         title: "Troubleshooting Guide"
-        position: 7
+        position: 8
     "testing-framework":
         title: "Testing Framework"
-        position: 8
+        position: 9
     "test-studio-mobile":
         title: "Test Studio Mobile"
-        position: 9
+        position: 10
     "test-studio-for-apis":
         title: "Test Studio for APIs"
-        position: 10
+        position: 11
 # === General Information ===
 # === Getting Started ===
-    getting-started/installation:
+    general-information/installation:
         title: "Installation"
         position: 1
-    getting-started/start-a-project:
+    general-information/start-a-project:
         title: "Start a Project"
         position: 2
-    getting-started/configure-your-browser:
+    general-information/configure-your-browser:
         title: "Configure your browser"
         position: 3
-    getting-started/create-test-standalone:
+    general-information/create-test-standalone:
         title: "Create a Test (Standalone)"
         position: 4
-    getting-started/create-test-vsplugin:
+    general-information/create-test-vsplugin:
         title: "Create a Test (VS plugin)"
         position: 5
-    getting-started/test-recording:
+    general-information/test-recording:
         title: "Test Recording"
         position: 6
-    getting-started/test-execution:
+    general-information/test-execution:
         title: "Test Execution"
         position: 7
-    getting-started/test-results:
+    general-information/test-results:
         title: "Test Results"
         position: 8
 # === Features ===
     features/data-driven-testing:
         title: "Data Driven Testing"
+        position: 1
     features/scheduling-test-runs:
         title: "Scheduling Test Runs"
+        position: 2
     features/test-maintenance:
         title: "Test Maintenance"
+        position: 3
     features/recorder:
         title: "Recorder"
-    features/elements-explorer:
-        title: "Elements Explorer"
-    features/project-settings:
-        title: "Project Settings"
-    features/recorder/verifications:
-        title: "Verifications"
-    features/dialogs-and-popups:
-        title: "Dialogs & Popups"
-    features/custom-steps:
-        title: "Custom Steps"
-    features/logical-steps:
-        title: "Logical Steps"
-    features/testing-types:
-        title: "Testing Types"
-    features/integration:
-        title: "Integration"
-    features/integration/bug-tracking:
-        title: "Bug Tracking"
-    features/integration/quality-center:
-        title: "Quality Center"
-    features/test-runners:
-        title: "Test Runners"
-    features/source-control:
-        title: "Source Control"
-    features/source-control/git:
-        title: "Git"
-    features/source-control/tfs:
-        title: "TFS"
+        position: 4
     features/recorder/mouse-actions:
         title: "Actions"
+        position: 1
+    features/recorder/verifications:
+        title: "Verifications"
+        position: 2
+    features/elements-explorer:
+        title: "Elements Explorer"
+        position: 5
+    features/project-settings:
+        title: "Project Settings"
+        position: 6
+    features/dialogs-and-popups:
+        title: "Dialogs & Popups"
+        position: 7
+    features/custom-steps:
+        title: "Custom Steps"
+        position: 8
+    features/logical-steps:
+        title: "Logical Steps"
+        position: 9
+    features/testing-types:
+        title: "Testing Types"
+        position: 10
+    features/integration:
+        title: "Integration"
+        position: 11
+    features/integration/bug-tracking:
+        title: "Bug Tracking"
+        position: 1
+    features/integration/quality-center:
+        title: "Quality Center"
+        position: 2
+    features/test-runners:
+        title: "Test Runners"
+        position: 12
+    features/source-control:
+        title: "Source Control"
+        position: 13
+    features/source-control/git:
+        title: "Git"
+        position: 1
+    features/source-control/tfs:
+        title: "TFS"
+        position: 2
     features/custom-layout:
         title: "Custom Layout"
+        position: 14
     features/project-explorer:
         title: "Project Explorer"
+        position: 15
     features/execute-apitest:
-        title: "Execute API test as Step"    
+        title: "Execute API test as Step"
+        position: 16
 # ....Testing types
     "*performance-testing":
         title: "Performance Testing"

@@ -29,9 +29,9 @@ position: 0
 
 All versions use identical repositories and file formats, facilitating seamless collaboration between even geographically diverse teams.
 
-<table id="no-table">
+<table id=no-table>
 <tr>
-<td valign="top">
+<td valign=top>
 
 ## Getting Started
 1. [Installation and Activation](/getting-started/installation-and-activation)
@@ -49,7 +49,7 @@ All versions use identical repositories and file formats, facilitating seamless 
 * <a href="https://www.telerik.com/support/whats-new/teststudio">What's new</a>
 * <a href="https://www.telerik.com/support/whats-new/teststudio/release-history">Release notes</a>
 </td>
-<td valign="top">
+<td valign=top>
 
 ## Next Steps
 * [Coded Step](/features/coded-steps/coded-step)

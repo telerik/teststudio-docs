@@ -23,6 +23,8 @@ In the **Create project** section you could choose among different type projects
 
 ![Create Project](/img/getting-started/first-project/fig00.png)
 
+>After the project is successfully created, you can open the <a href="/general-information/start-a-project/in-product-tips-tricks" target="_blank">Tips and Tricks</a> from the top right corner of Test Studio. The popup dialog has many useful references to the documentation and a short video on some of the topics.
+
 The **Open Projects** tab allows you to open an existing local project. 
 
 You can explore a sample **Web & Desktop** or **API** project, from the **Get Started** section. And you can learn more about the **Mobile** project.
