@@ -96,8 +96,8 @@ If your Visual Studio Test List runs for more than 30 minutes and fails with an 
 
 ![Timeouts][5]
 
-[1]: /img/getting-started/test-execution/test-list-settings/fig1.png
-[2]: /img/getting-started/test-execution/test-list-settings/fig2.png
-[3]: /img/getting-started/test-execution/test-list-settings/fig3.png
-[4]: /img/getting-started/test-execution/test-list-settings/fig4.png
-[5]: /img/getting-started/test-execution/test-list-settings/fig5.png
+[1]: /img/general-information/test-execution/test-list-settings/fig1.png
+[2]: /img/general-information/test-execution/test-list-settings/fig2.png
+[3]: /img/general-information/test-execution/test-list-settings/fig3.png
+[4]: /img/general-information/test-execution/test-list-settings/fig4.png
+[5]: /img/general-information/test-execution/test-list-settings/fig5.png

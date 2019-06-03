@@ -11,4 +11,4 @@ As of version 2017 R2 Test Studio is compatible with the latest Visual Studio 20
 
 ![Visual Studio 2017 Installation][1]
 
-[1]: /img/getting-started/installation/vs2017/vs2017installation.png
+[1]: /img/general-information/installation/vs2017/vs2017installation.png

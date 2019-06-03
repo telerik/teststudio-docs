@@ -35,9 +35,9 @@ This is often due to a dynamic frame Id or Name. This is remedied by using the t
 
 ![Dynamic frame][3]
 
-[1]: /img/getting-started/test-recording/frames/fig1.png
-[2]: /img/getting-started/test-recording/frames/fig2.png
-[3]: /img/getting-started/test-recording/frames/fig3.png
+[1]: /img/general-information/test-recording/frames/fig1.png
+[2]: /img/general-information/test-recording/frames/fig2.png
+[3]: /img/general-information/test-recording/frames/fig3.png
 
 
 

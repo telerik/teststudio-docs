@@ -35,9 +35,9 @@ __Important Notes:__
 
 ![Recording][6]
 
-[1]: /img/getting-started/create-test-standalone/silverlight-out-of-browser/fig1.png
-[2]: /img/getting-started/create-test-standalone/silverlight-out-of-browser/fig2.png
-[3]: /img/getting-started/create-test-standalone/silverlight-out-of-browser/fig3.png
-[4]: /img/getting-started/create-test-standalone/silverlight-out-of-browser/fig4.png
-[5]: /img/getting-started/create-test-standalone/silverlight-out-of-browser/fig5.png
-[6]: /img/getting-started/create-test-standalone/silverlight-out-of-browser/fig6.png
+[1]: /img/general-information/create-test-standalone/silverlight-out-of-browser/fig1.png
+[2]: /img/general-information/create-test-standalone/silverlight-out-of-browser/fig2.png
+[3]: /img/general-information/create-test-standalone/silverlight-out-of-browser/fig3.png
+[4]: /img/general-information/create-test-standalone/silverlight-out-of-browser/fig4.png
+[5]: /img/general-information/create-test-standalone/silverlight-out-of-browser/fig5.png
+[6]: /img/general-information/create-test-standalone/silverlight-out-of-browser/fig6.png

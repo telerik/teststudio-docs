@@ -13,26 +13,26 @@ This guide explains how to update Test Studio using the Check for Updates featur
 
 In **Test Studio Standalone** the **Help** drop down in the upper right corner contains an option to run Check for Updates.
 
-![Update](/img/getting-started/installation/check-for-updates/CheckForUpdatesFull.gif)
+![Update](/img/general-information/installation/check-for-updates/CheckForUpdatesFull.gif)
 
 So does the **Update** in the **Software Update** section in the <a href="/getting-started/start-a-project/welcome-screen" target="_blank">Welcome Screen</a>.
 
-![Project settings](/img/getting-started/installation/check-for-updates/CheckForUpdatesSoftwareUpdateFull.gif)
+![Project settings](/img/general-information/installation/check-for-updates/CheckForUpdatesSoftwareUpdateFull.gif)
 
 In **Visual Studio** you can access the update section under the Project Settings.
 
-![Updates in VS](/img/getting-started/installation/check-for-updates/CheckForUpdatesVisualStudio.gif)
+![Updates in VS](/img/general-information/installation/check-for-updates/CheckForUpdatesVisualStudio.gif)
 
 This dialog also contains options to check for updates on startup and limit the update notifications to only official builds. When 'Check for Updates on Test Studio Startup' is enabled, the welcome screen will display a 'Checking for updates...' status message at Test Studio startup.
 
 If Test Studio detects a new release, the new version number appears. To read release notes for this new version, click __What's New?__
 
-![Project settings](/img/getting-started/installation/check-for-updates/fig4.png)
+![Project settings](/img/general-information/installation/check-for-updates/fig4.png)
 
 After the download completes, click __Install__ to install the new version.
 
-![Project settings](/img/getting-started/installation/check-for-updates/fig5.png)
+![Project settings](/img/general-information/installation/check-for-updates/fig5.png)
 
 This launches the Setup Wizard for the new Test Studio version. The Setup Wizard will confirm that you wish to upgrade to the new version. Click __Yes__ to continue with the upgrade.
 
-![Project settings](/img/getting-started/installation/check-for-updates/fig6.png)
+![Project settings](/img/general-information/installation/check-for-updates/fig6.png)

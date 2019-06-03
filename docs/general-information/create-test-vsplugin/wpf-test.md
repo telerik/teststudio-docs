@@ -56,12 +56,12 @@ position: 2
 10.Close the application to stop recording.
 
 
-[1]: /img/getting-started/create-test-vsplugin/wpf-test/fig1.png
-[2]: /img/getting-started/create-test-vsplugin/wpf-test/fig2.png
-[3]: /img/getting-started/create-test-vsplugin/wpf-test/fig3.png
-[4]: /img/getting-started/create-test-vsplugin/wpf-test/fig4.png
-[5]: /img/getting-started/create-test-vsplugin/wpf-test/fig5.png
-[6]: /img/getting-started/create-test-vsplugin/wpf-test/fig6.png
-[7]: /img/getting-started/create-test-vsplugin/wpf-test/fig7.png
-[11]: /img/getting-started/create-test-vsplugin/wpf-test/fig11.png
-[12]: /img/getting-started/create-test-vsplugin/wpf-test/fig12.png
+[1]: /img/general-information/create-test-vsplugin/wpf-test/fig1.png
+[2]: /img/general-information/create-test-vsplugin/wpf-test/fig2.png
+[3]: /img/general-information/create-test-vsplugin/wpf-test/fig3.png
+[4]: /img/general-information/create-test-vsplugin/wpf-test/fig4.png
+[5]: /img/general-information/create-test-vsplugin/wpf-test/fig5.png
+[6]: /img/general-information/create-test-vsplugin/wpf-test/fig6.png
+[7]: /img/general-information/create-test-vsplugin/wpf-test/fig7.png
+[11]: /img/general-information/create-test-vsplugin/wpf-test/fig11.png
+[12]: /img/general-information/create-test-vsplugin/wpf-test/fig12.png

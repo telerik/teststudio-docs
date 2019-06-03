@@ -81,11 +81,11 @@ When Test Studio exports data to Excel format it actually exports it as an HTML 
 
 Click **Yes** to proceed safely.
 
-[1]: /img/getting-started/test-results/export-test-results/fig1.png
-[2]: /img/getting-started/test-results/export-test-results/fig2.png
-[3]: /img/getting-started/test-results/export-test-results/fig3.png
-[4]: /img/getting-started/test-results/export-test-results/fig4.png
-[5]: /img/getting-started/test-results/export-test-results/fig5.png
-[6]: /img/getting-started/test-results/export-test-results/fig6.png
-[7]: /img/getting-started/test-results/export-test-results/fig7.png
-[8]: /img/getting-started/test-results/export-test-results/fig8.png
+[1]: /img/general-information/test-results/export-test-results/fig1.png
+[2]: /img/general-information/test-results/export-test-results/fig2.png
+[3]: /img/general-information/test-results/export-test-results/fig3.png
+[4]: /img/general-information/test-results/export-test-results/fig4.png
+[5]: /img/general-information/test-results/export-test-results/fig5.png
+[6]: /img/general-information/test-results/export-test-results/fig6.png
+[7]: /img/general-information/test-results/export-test-results/fig7.png
+[8]: /img/general-information/test-results/export-test-results/fig8.png

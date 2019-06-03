@@ -64,15 +64,15 @@ Other possible scnearios when is recommended to use the Step Builder from the **
 
 * <a href="/features/verifications/overview" target="_blank">Verifications</a>
 
-[1]: /img/getting-started/test-recording/recording-toolbar/fig1.png
-[2]: /img/getting-started/test-recording/recording-toolbar/fig2.png
-[3]: /img/getting-started/test-recording/recording-toolbar/fig3.png
-[4]: /img/getting-started/test-recording/recording-toolbar/fig4.png
-[5]: /img/getting-started/test-recording/recording-toolbar/fig5.png
-[6]: /img/getting-started/test-recording/recording-toolbar/fig6.png
-[7]: /img/getting-started/test-recording/recording-toolbar/fig7.png
-[8]: /img/getting-started/test-recording/recording-toolbar/fig8.png
-[9]: /img/getting-started/test-recording/recording-toolbar/fig9.png
-[10]: /img/getting-started/test-recording/recording-toolbar/fig10.png
+[1]: /img/general-information/test-recording/recording-toolbar/fig1.png
+[2]: /img/general-information/test-recording/recording-toolbar/fig2.png
+[3]: /img/general-information/test-recording/recording-toolbar/fig3.png
+[4]: /img/general-information/test-recording/recording-toolbar/fig4.png
+[5]: /img/general-information/test-recording/recording-toolbar/fig5.png
+[6]: /img/general-information/test-recording/recording-toolbar/fig6.png
+[7]: /img/general-information/test-recording/recording-toolbar/fig7.png
+[8]: /img/general-information/test-recording/recording-toolbar/fig8.png
+[9]: /img/general-information/test-recording/recording-toolbar/fig9.png
+[10]: /img/general-information/test-recording/recording-toolbar/fig10.png
 
 

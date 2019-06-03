@@ -75,16 +75,16 @@ navigation:
 # === Features ===
     features/data-driven-testing:
         title: "Data Driven Testing"
-        position: 1
+        position: 5
     features/scheduling-test-runs:
         title: "Scheduling Test Runs"
-        position: 2
+        position: 7
     features/test-maintenance:
         title: "Test Maintenance"
-        position: 3
+        position: 6
     features/recorder:
         title: "Recorder"
-        position: 4
+        position: 1
     features/recorder/mouse-actions:
         title: "Actions"
         position: 1
@@ -93,25 +93,25 @@ navigation:
         position: 2
     features/elements-explorer:
         title: "Elements Explorer"
-        position: 5
+        position: 2
     features/project-settings:
         title: "Project Settings"
-        position: 6
+        position: 9
     features/dialogs-and-popups:
         title: "Dialogs & Popups"
-        position: 7
+        position: 4
     features/custom-steps:
-        title: "Custom Steps"
+        title: "Custom Steps from Step Builder"
         position: 8
     features/logical-steps:
         title: "Logical Steps"
-        position: 9
+        position: 11
     features/testing-types:
         title: "Testing Types"
-        position: 10
+        position: 3
     features/integration:
         title: "Integration"
-        position: 11
+        position: 12
     features/integration/bug-tracking:
         title: "Bug Tracking"
         position: 1
@@ -120,7 +120,7 @@ navigation:
         position: 2
     features/test-runners:
         title: "Test Runners"
-        position: 12
+        position: 14
     features/source-control:
         title: "Source Control"
         position: 13
@@ -132,13 +132,16 @@ navigation:
         position: 2
     features/custom-layout:
         title: "Custom Layout"
-        position: 14
+        position: 15
     features/project-explorer:
         title: "Project Explorer"
-        position: 15
+        position: 17
     features/execute-apitest:
         title: "Execute API test as Step"
         position: 16
+    features/coded-steps:
+        title: "Coded Steps"
+        position: 10
 # ....Testing types
     "*performance-testing":
         title: "Performance Testing"

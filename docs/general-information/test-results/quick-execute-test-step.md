@@ -15,5 +15,5 @@ Clicking the **View Log** link displays both the overall test results and the re
 
 ![View Log][2]
 
-[1]: /img/getting-started/test-results/quick-execute-test-step/fig1.png
-[2]: /img/getting-started/test-results/quick-execute-test-step/fig2.png
+[1]: /img/general-information/test-results/quick-execute-test-step/fig1.png
+[2]: /img/general-information/test-results/quick-execute-test-step/fig2.png

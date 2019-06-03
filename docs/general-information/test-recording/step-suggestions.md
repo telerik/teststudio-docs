@@ -32,9 +32,9 @@ The Step Builder on project level can also be used to build steps against alread
 
 > If you work very frequently with the Step Builder you can <a href="/features/custom-layout/custom-layout" target="_blank">dock</a> it as a separate pane. 
 
-[1]: /img/getting-started/test-recording/step-suggestions/fig1.png
-[2]: /img/getting-started/test-recording/step-suggestions/fig2.png
-[3]: /img/getting-started/test-recording/step-suggestions/fig3.png
-[4]: /img/getting-started/test-recording/step-suggestions/fig4.png
-[5]: /img/getting-started/test-recording/step-suggestions/fig5.png
-[6]: /img/getting-started/test-recording/step-suggestions/step-builder-recorder.png
+[1]: /img/general-information/test-recording/step-suggestions/fig1.png
+[2]: /img/general-information/test-recording/step-suggestions/fig2.png
+[3]: /img/general-information/test-recording/step-suggestions/fig3.png
+[4]: /img/general-information/test-recording/step-suggestions/fig4.png
+[5]: /img/general-information/test-recording/step-suggestions/fig5.png
+[6]: /img/general-information/test-recording/step-suggestions/step-builder-recorder.png

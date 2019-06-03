@@ -23,5 +23,5 @@ Execute your tests via a <a href="/getting-started/test-execution/test-lists-sta
 
 ![Results][2]
 
-[1]: /img/getting-started/test-results/calendar/fig1.png
-[2]: /img/getting-started/test-results/calendar/fig2.png
+[1]: /img/general-information/test-results/calendar/fig1.png
+[2]: /img/general-information/test-results/calendar/fig2.png

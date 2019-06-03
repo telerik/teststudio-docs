@@ -98,7 +98,7 @@ To ensure flawless and consistent automation process there are some settings to 
 
 2.&nbsp; Select 100% zoom (or use the keyboard shortcut: Ctrl + 0).<br><br>
 
-<img src="/img/getting-started/configure-your-browser/edge/fig1.png" alt="favourites bar"><br><br>
+<img src="/img/general-information/configure-your-browser/edge/fig1.png" alt="favourites bar"><br><br>
 
 <h2>Hide The Favorites Bar</h2>
 
@@ -110,7 +110,7 @@ This bar conflicts with highlighting coordinates.<br><br>
 
 3.&nbsp; Set <strong>Show the favorites bar</strong> to <strong>Off</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/edge/fig2.png" alt="zoom">
+<img src="/img/general-information/configure-your-browser/edge/fig2.png" alt="zoom">
 
 <h2>Open New Tabs With A Blank Page</h2>
 
@@ -120,7 +120,7 @@ This bar conflicts with highlighting coordinates.<br><br>
 
 3.&nbsp; Set <strong>Open new tabs with</strong> to <strong>A blank page</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/edge/fig3.png" alt="new tab">
+<img src="/img/general-information/configure-your-browser/edge/fig3.png" alt="new tab">
 
 <h2>Disable Password Save Offering</h2>
 
@@ -130,7 +130,7 @@ This bar conflicts with highlighting coordinates.<br><br>
 
 3.&nbsp; Set <strong>Offer to save passwords</strong> and <strong>Save for entries</strong> to <strong>Off</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/edge/fig4.png" alt="disable password offering">
+<img src="/img/general-information/configure-your-browser/edge/fig4.png" alt="disable password offering">
 
 <h2>Allow Cookies</h2>
 
@@ -140,7 +140,7 @@ This bar conflicts with highlighting coordinates.<br><br>
 
 3.&nbsp; Set <strong>Cookies</strong> to <strong>Don't block cookies</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/edge/fig5.png" alt="allow cookies">
+<img src="/img/general-information/configure-your-browser/edge/fig5.png" alt="allow cookies">
 
 </div>
 </div>
@@ -162,15 +162,15 @@ $(".toggle_container").hide();
     });
 </script>
 
-[1]: /img/getting-started/configure-your-browser/edge/fig1.png
-[2]: /img/getting-started/configure-your-browser/edge/fig2.png
-[3]: /img/getting-started/configure-your-browser/edge/fig3.png
-[4]: /img/getting-started/configure-your-browser/edge/fig4.png
-[5]: /img/getting-started/configure-your-browser/edge/fig5.png
-[6]: /img/getting-started/configure-your-browser/edge/fig6.png
-[7]: /img/getting-started/configure-your-browser/edge/fig7.png
-[8]: /img/getting-started/configure-your-browser/edge/fig8.png
-[9]: /img/getting-started/configure-your-browser/edge/fig9.png
-[10]: /img/getting-started/configure-your-browser/edge/fig10.png
+[1]: /img/general-information/configure-your-browser/edge/fig1.png
+[2]: /img/general-information/configure-your-browser/edge/fig2.png
+[3]: /img/general-information/configure-your-browser/edge/fig3.png
+[4]: /img/general-information/configure-your-browser/edge/fig4.png
+[5]: /img/general-information/configure-your-browser/edge/fig5.png
+[6]: /img/general-information/configure-your-browser/edge/fig6.png
+[7]: /img/general-information/configure-your-browser/edge/fig7.png
+[8]: /img/general-information/configure-your-browser/edge/fig8.png
+[9]: /img/general-information/configure-your-browser/edge/fig9.png
+[10]: /img/general-information/configure-your-browser/edge/fig10.png
 
 

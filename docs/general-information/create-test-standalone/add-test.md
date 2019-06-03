@@ -30,6 +30,6 @@ To start developing an automation project, add a new test file to it.
 *	<a href="/features/testing-types/wpf-testing/wpf-test" target="_blank">**WPF Test**</a>
 *	<a href="/features/testing-types/manual-testing/overview" target="_blank">**Manual Test**</a>
 
-[1]: /img/getting-started/create-test-standalone/overview/fig1.png
-[2]: /img/getting-started/create-test-standalone/overview/fig1a.png
-[3]: /img/getting-started/create-test-standalone/overview/fig2.png
+[1]: /img/general-information/create-test-standalone/overview/fig1.png
+[2]: /img/general-information/create-test-standalone/overview/fig1a.png
+[3]: /img/general-information/create-test-standalone/overview/fig2.png

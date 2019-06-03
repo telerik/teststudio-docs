@@ -32,8 +32,8 @@ Create **Performance** Runs for one or more Web Tests. Click **Configure** to ed
 
 ![Configure][4]
 
-[1]: /img/getting-started/test-execution/test-lists-type-standalone/fig1.png
-[2]: /img/getting-started/test-execution/test-lists-type-standalone/fig2.png
-[3]: /img/getting-started/test-execution/test-lists-type-standalone/fig3.png
-[4]: /img/getting-started/test-execution/test-lists-type-standalone/fig4.png
+[1]: /img/general-information/test-execution/test-lists-type-standalone/fig1.png
+[2]: /img/general-information/test-execution/test-lists-type-standalone/fig2.png
+[3]: /img/general-information/test-execution/test-lists-type-standalone/fig3.png
+[4]: /img/general-information/test-execution/test-lists-type-standalone/fig4.png
 

@@ -32,15 +32,15 @@ position: 1
 
 4.By default the newly created project contains a Web test.
 
-![Web Test by deafault](/img/getting-started/create-test-vsplugin/web-test/web-test-by-default.png)
+![Web Test by deafault](/img/general-information/create-test-vsplugin/web-test/web-test-by-default.png)
 
 5.To add new test in the project click with the right mouse button on the project name in Solution Explorer, select Add and choose between Test Studio Web Test... or Test Studio WPF Test....
 
-![Add new test](/img/getting-started/create-test-vsplugin/web-test/add-new-test.png)
+![Add new test](/img/general-information/create-test-vsplugin/web-test/add-new-test.png)
 
 The respective item is selected in the list of items, type a name and click Add. To open the test double click on its name in the Solution Explorer.
 
-![Open new test](/img/getting-started/create-test-vsplugin/web-test/open-new-test.png)
+![Open new test](/img/general-information/create-test-vsplugin/web-test/open-new-test.png)
 
 ## Begin Recording in the VS Plugin ##
 
@@ -50,7 +50,7 @@ The respective item is selected in the list of items, type a name and click Add.
 
 In the dialog that pops up enter the URL to record a test against and select the recording browser. Then click on __Record__ button.
 
-![Select url and browser](/img/getting-started/create-test-vsplugin/web-test/enter-url.png)
+![Select url and browser](/img/general-information/create-test-vsplugin/web-test/enter-url.png)
 
 The URLs recently used for recording will be listed in the Recent URLs section where you can select directly any of them.
 
@@ -60,16 +60,16 @@ The URLs recently used for recording will be listed in the Recent URLs section w
 
 3.Each action against the page will be automatically recorded and presented by a single step in the test.
 
-![Perform actions](/img/getting-started/create-test-vsplugin/web-test/recorded-steps.png)
+![Perform actions](/img/general-information/create-test-vsplugin/web-test/recorded-steps.png)
 
 To stop the recording session close the browser.
 
-[1]: /img/getting-started/create-test-vsplugin/web-test/fig1.png
-[2]: /img/getting-started/create-test-vsplugin/web-test/fig2.png
-[3]: /img/getting-started/create-test-vsplugin/web-test/fig3.png
-[4]: /img/getting-started/create-test-vsplugin/web-test/fig4.png
-[5]: /img/getting-started/create-test-vsplugin/web-test/fig5.png
-[6]: /img/getting-started/create-test-vsplugin/web-test/fig6.png
-[7]: /img/getting-started/create-test-vsplugin/web-test/fig7.png
-[11]: /img/getting-started/create-test-vsplugin/wpf-test/fig11.png
-[12]: /img/getting-started/create-test-vsplugin/wpf-test/fig12.png
+[1]: /img/general-information/create-test-vsplugin/web-test/fig1.png
+[2]: /img/general-information/create-test-vsplugin/web-test/fig2.png
+[3]: /img/general-information/create-test-vsplugin/web-test/fig3.png
+[4]: /img/general-information/create-test-vsplugin/web-test/fig4.png
+[5]: /img/general-information/create-test-vsplugin/web-test/fig5.png
+[6]: /img/general-information/create-test-vsplugin/web-test/fig6.png
+[7]: /img/general-information/create-test-vsplugin/web-test/fig7.png
+[11]: /img/general-information/create-test-vsplugin/wpf-test/fig11.png
+[12]: /img/general-information/create-test-vsplugin/wpf-test/fig12.png

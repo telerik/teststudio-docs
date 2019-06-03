@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 position: 0
 ---
 
-# Add a Custom Step #
+# Add a Custom Step from Step Builder #
 
 ## Test Studio 2015 R1 (v.2015.1.319) and Later ##
 

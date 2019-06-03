@@ -52,17 +52,23 @@ All versions use identical repositories and file formats, facilitating seamless 
 <td valign=top>
 
 ## Features
-* [Coded Step](/features/coded-steps/coded-step)
-* [Custom Step](/features/custom-steps/overview)
+* [Recorder](/features/recorder/overview)
+* [Elements Explorer](/features/elements-explorer/overview) 
+* [Testing Types](/features/testing-types)
 * [Data Driven Testing](/features/data-driven-testing/overview)
 * [Dialog Handling](/features/dialogs-and-popups/dialogs)
-* [Elements Explorer](/features/elements-explorer/overview)
-* [API Test as Step](/features/execute-apitest/add-api-test-as-step)
-* [Logical Steps](/features/logical-steps/if-else)
-* [Project Settings](/features/project-settings/overview)
-* [Recorder](/features/recorder/overview)
 * [Scheduling Test Runs](/features/scheduling-test-runs/overview)
+* [Custom Step from Step Builder](/features/custom-steps/overview)
+* [Project Settings](/features/project-settings/overview)
+* [Logical Steps](/features/logical-steps/if-else)
 * [Source Control](/features/source-control/checkin-guidelines)
+* [Coded Step](/features/coded-steps/coded-step)
+* [API Test as Step](/features/execute-apitest/add-api-test-as-step)
+* [Mobile Testing](/test-studio-mobile/overview)
+
+### Advanced Features
+* [Continious Integration](/advanced-topics/build-server/continious-integration-overview)
+* [Coded Samples for Different Scenarios](/advanced-topics/coded-samples/general/send-keystrokes)
 </td>
 </tr>
 <table>

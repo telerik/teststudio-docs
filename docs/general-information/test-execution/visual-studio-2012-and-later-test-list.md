@@ -42,10 +42,10 @@ Although test lists are deprecated in Visual Studio 2012 you can still use them:
 > You can only create a test list and edit it in Visual Studio 2012 and later. In order to execute the test list you need to use <a href="/features/test-runners/mstest" target="_blank">**MSTest**</a> via the command line.
 	
 
-[1]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig1.png
-[2]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig2.png
-[3]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig3.png
-[4]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig4.png
-[5]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig5.png
-[6]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig6.png
-[7]: /img/getting-started/test-execution/visual-studio-2012-and-later-test-list/fig7.png
+[1]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig1.png
+[2]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig2.png
+[3]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig3.png
+[4]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig4.png
+[5]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig5.png
+[6]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig6.png
+[7]: /img/general-information/test-execution/visual-studio-2012-and-later-test-list/fig7.png

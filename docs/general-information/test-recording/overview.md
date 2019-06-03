@@ -105,20 +105,20 @@ To end recording, simply close the IE window or WPF application that has the rec
 
 * <a href="/features/project-settings/browsers" target="_blank">Calibrate Browsers</a>
 
-[1]: /img/getting-started/test-recording/overview/fig1.png
-[2]: /img/getting-started/test-recording/overview/fig2.png
-[3]: /img/getting-started/test-recording/overview/fig3.png
-[4]: /img/getting-started/test-recording/overview/fig4.png
-[5]: /img/getting-started/test-recording/overview/fig5.png
-[6]: /img/getting-started/test-recording/overview/fig6.png
-[7]: /img/getting-started/test-recording/overview/fig7.png
-[8]: /img/getting-started/test-recording/overview/fig8.png
-[9]: /img/getting-started/test-recording/overview/fig9.png
-[13]: /img/getting-started/test-execution/quick-execution/fig13.png
-[10]: /img/getting-started/test-recording/overview/fig10.png
-[11]: /img/getting-started/test-recording/overview/fig11.png
-[12]: /img/getting-started/test-recording/overview/fig12.png
-[13]: /img/getting-started/test-recording/overview/fig13.png
-[14]: /img/getting-started/test-recording/overview/fig14.png
-[15]: /img/getting-started/test-recording/overview/fig15.png
-[16]: /img/getting-started/test-recording/overview/fig15a.png
+[1]: /img/general-information/test-recording/overview/fig1.png
+[2]: /img/general-information/test-recording/overview/fig2.png
+[3]: /img/general-information/test-recording/overview/fig3.png
+[4]: /img/general-information/test-recording/overview/fig4.png
+[5]: /img/general-information/test-recording/overview/fig5.png
+[6]: /img/general-information/test-recording/overview/fig6.png
+[7]: /img/general-information/test-recording/overview/fig7.png
+[8]: /img/general-information/test-recording/overview/fig8.png
+[9]: /img/general-information/test-recording/overview/fig9.png
+[13]: /img/general-information/test-execution/quick-execution/fig13.png
+[10]: /img/general-information/test-recording/overview/fig10.png
+[11]: /img/general-information/test-recording/overview/fig11.png
+[12]: /img/general-information/test-recording/overview/fig12.png
+[13]: /img/general-information/test-recording/overview/fig13.png
+[14]: /img/general-information/test-recording/overview/fig14.png
+[15]: /img/general-information/test-recording/overview/fig15.png
+[16]: /img/general-information/test-recording/overview/fig15a.png

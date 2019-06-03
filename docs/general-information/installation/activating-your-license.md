@@ -20,17 +20,17 @@ The below process assumes that you have not launched the Standalone or VS plugin
 	
 3. Input the email address and password that correspond to your <a href="https://www.telerik.com/login/v2/telerik?returnurl=%2f" target="_blank">Telerik.com</a> account.
 
-	![Log In screen](/img/getting-started/installation/activating-your-license/fig1.png)
+	![Log In screen](/img/general-information/installation/activating-your-license/fig1.png)
 
 4.	Click __Login.__
 
 5.	Chose your purchased version and click __Activate Selected Version__ (please note that you can change your version later on).
 
-	![Choose version](/img/getting-started/installation/activating-your-license/fig2.png)
+	![Choose version](/img/general-information/installation/activating-your-license/fig2.png)
 
 6.	If you are activating purchased version and you have more than one purchases you will have to choose which license to activate. __NOTE: The following screen does NOT appear if you are activating trial version or have only one purchase.__
 
-	![Choose license](/img/getting-started/installation/activating-your-license/fig3.png)
+	![Choose license](/img/general-information/installation/activating-your-license/fig3.png)
 
 7.	Click __Activate Selected License.__ If the activation is successful the you can start using Test Studio.
 
@@ -38,4 +38,4 @@ The below process assumes that you have not launched the Standalone or VS plugin
 
 9.	If you perform the above process and you receive the screen below, click on Activate Manually and follow this article for <a href="manual-activation" target="_blank">Manual Activation</a>.
 
-	![Couldn't log](/img/getting-started/installation/activating-your-license/fig5.png)
+	![Couldn't log](/img/general-information/installation/activating-your-license/fig5.png)

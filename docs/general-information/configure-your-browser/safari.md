@@ -50,7 +50,7 @@ If you need to resort to manual configuration, use the following settings:
 1. Click the <strong>Page</strong> icon and then select <strong>Zoom</strong>.<br><br>
 2. Choose <strong>Actual Size</strong> (or use the keyboard shortcut: Ctrl + 0).<br><br>
 
-<img src="/img/getting-started/configure-your-browser/safari/fig1.png" alt="Zoom"><br><br>
+<img src="/img/general-information/configure-your-browser/safari/fig1.png" alt="Zoom"><br><br>
 
 <h2>Enable File Downloads</h2>
 
@@ -58,7 +58,7 @@ If you need to resort to manual configuration, use the following settings:
 2. Click on the <strong>General</strong> tab.<br><br>
 3. Make sure that <strong>Always prompt before downloading</strong> is checked.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/safari/fig2.png" alt="Downloads"><br><br>
+<img src="/img/general-information/configure-your-browser/safari/fig2.png" alt="Downloads"><br><br>
 
 <h2>Disable Pop-up Blocker, Enable Plug-ins, Accept Cookies, Enabled JavaScript, & No Mixed Content Prompt</h2>
 
@@ -69,7 +69,7 @@ If you need to resort to manual configuration, use the following settings:
 5. Make sure <strong>Always</strong> is selected.<br><br>
 6. Make sure <strong>Ask before sending a non-secure form to a secure website</strong> is unchecked.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/safari/fig3.png" alt="Security"><br><br>
+<img src="/img/general-information/configure-your-browser/safari/fig3.png" alt="Security"><br><br>
 
 <h2>Enable Extensions</h2>
 
@@ -78,7 +78,7 @@ If you need to resort to manual configuration, use the following settings:
 3. Make sure that Extensions is set to <strong>On</strong>.<br><br>
 4. Make sure that the <strong>Telerik Test Studio Automation Extension</strong> extension is enabled.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/safari/fig4.png" alt="Extension"><br><br>
+<img src="/img/general-information/configure-your-browser/safari/fig4.png" alt="Extension"><br><br>
 
 <h2>Pop-ups Open in a New Window</h2>
 
@@ -87,7 +87,7 @@ If you need to resort to manual configuration, use the following settings:
 3. Set <strong>Open pages in tabs instead of windows</strong> to <strong>Never</strong>.<br><br>
 4. Place a check by <strong>When a new tab or window opens, make it active</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/safari/fig5.png" alt="Pop up"><br><br>
+<img src="/img/general-information/configure-your-browser/safari/fig5.png" alt="Pop up"><br><br>
 
 <h2>Never Block Cookies</h2>
 
@@ -95,7 +95,7 @@ If you need to resort to manual configuration, use the following settings:
 2. Click on the <strong>Privacy</strong> tab.<br><br>
 3. Under the <strong>Block cookies</strong> section, select <strong>Never</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/safari/fig6.png" alt="Pop up"><br><br>
+<img src="/img/general-information/configure-your-browser/safari/fig6.png" alt="Pop up"><br><br>
 
 
 </div>

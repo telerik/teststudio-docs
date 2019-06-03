@@ -21,4 +21,4 @@ My machine was freshly imaged or replaced and I need to re-activate my license o
 
 4. Find and delete your old key. This will free up a slot allowing to activate your new machine.
 
-![Delete key](/img/getting-started/installation/re-activating-your-license/fig1.png)
+![Delete key](/img/general-information/installation/re-activating-your-license/fig1.png)

@@ -83,14 +83,14 @@ As of release **R1 2018** there is a *Collapse button* for your convenience. It 
 
 * <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">Blog post</a> for an in-depth look at Dynamic Test Lists.
 
-[1]: /img/getting-started/test-execution/test-lists-standalone/fig1.png
-[2]: /img/getting-started/test-execution/test-lists-standalone/fig2.png
-[3]: /img/getting-started/test-execution/test-lists-standalone/fig3.png
-[4]: /img/getting-started/test-execution/test-lists-standalone/fig4.png
-[5]: /img/getting-started/test-execution/test-lists-standalone/fig5.png
-[6]: /img/getting-started/test-execution/test-lists-standalone/fig6.png
-[7]: /img/getting-started/test-execution/test-lists-standalone/fig7.png
-[8]: /img/getting-started/test-execution/test-lists-standalone/fig8.png
-[9]: /img/getting-started/test-execution/test-lists-standalone/fig2_FilterTestsByType.png
-[10]: /img/getting-started/test-execution/test-lists-standalone/fig2_searchField.png
-[11]: /img/getting-started/test-execution/test-lists-standalone/fig2_collapse.png
+[1]: /img/general-information/test-execution/test-lists-standalone/fig1.png
+[2]: /img/general-information/test-execution/test-lists-standalone/fig2.png
+[3]: /img/general-information/test-execution/test-lists-standalone/fig3.png
+[4]: /img/general-information/test-execution/test-lists-standalone/fig4.png
+[5]: /img/general-information/test-execution/test-lists-standalone/fig5.png
+[6]: /img/general-information/test-execution/test-lists-standalone/fig6.png
+[7]: /img/general-information/test-execution/test-lists-standalone/fig7.png
+[8]: /img/general-information/test-execution/test-lists-standalone/fig8.png
+[9]: /img/general-information/test-execution/test-lists-standalone/fig2_FilterTestsByType.png
+[10]: /img/general-information/test-execution/test-lists-standalone/fig2_searchField.png
+[11]: /img/general-information/test-execution/test-lists-standalone/fig2_collapse.png

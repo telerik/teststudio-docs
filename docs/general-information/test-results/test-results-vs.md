@@ -25,7 +25,7 @@ That matching sub-folder contains an \ **Out** directory with the output from th
 
 ![Out folder][5]
 
-[3]: /img/getting-started/test-results/test-results-vs/fig3.png
-[4]: /img/getting-started/test-results/test-results-vs/fig4.png
-[5]: /img/getting-started/test-results/test-results-vs/fig5.png
-[6]: /img/getting-started/test-results/test-results-vs/fig6.png
+[3]: /img/general-information/test-results/test-results-vs/fig3.png
+[4]: /img/general-information/test-results/test-results-vs/fig4.png
+[5]: /img/general-information/test-results/test-results-vs/fig5.png
+[6]: /img/general-information/test-results/test-results-vs/fig6.png

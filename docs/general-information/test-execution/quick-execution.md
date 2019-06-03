@@ -85,17 +85,17 @@ Afterwards, when the test execution is complete, test results are automatically 
 
 ![View log][6]
 
-[1]: /img/getting-started/test-execution/quick-execution/fig1.png
-[2]: /img/getting-started/test-execution/quick-execution/fig2.png
-[3]: /img/getting-started/test-execution/quick-execution/fig3.png
-[4]: /img/getting-started/test-execution/quick-execution/fig4.png
-[5]: /img/getting-started/test-execution/quick-execution/fig5.png
-[6]: /img/getting-started/test-execution/quick-execution/fig6.png
-[7]: /img/getting-started/test-execution/quick-execution/fig7.png
-[8]: /img/getting-started/test-execution/quick-execution/fig8.png
-[9]: /img/getting-started/test-execution/quick-execution/fig9.png
-[10]: /img/getting-started/test-execution/quick-execution/fig10.png
-[11]: /img/getting-started/test-execution/quick-execution/fig11.png
-[12]: /img/getting-started/test-execution/quick-execution/fig12.png
-[13]: /img/getting-started/test-execution/quick-execution/fig13.png
-[14]: /img/getting-started/test-execution/quick-execution/fig14.png
+[1]: /img/general-information/test-execution/quick-execution/fig1.png
+[2]: /img/general-information/test-execution/quick-execution/fig2.png
+[3]: /img/general-information/test-execution/quick-execution/fig3.png
+[4]: /img/general-information/test-execution/quick-execution/fig4.png
+[5]: /img/general-information/test-execution/quick-execution/fig5.png
+[6]: /img/general-information/test-execution/quick-execution/fig6.png
+[7]: /img/general-information/test-execution/quick-execution/fig7.png
+[8]: /img/general-information/test-execution/quick-execution/fig8.png
+[9]: /img/general-information/test-execution/quick-execution/fig9.png
+[10]: /img/general-information/test-execution/quick-execution/fig10.png
+[11]: /img/general-information/test-execution/quick-execution/fig11.png
+[12]: /img/general-information/test-execution/quick-execution/fig12.png
+[13]: /img/general-information/test-execution/quick-execution/fig13.png
+[14]: /img/general-information/test-execution/quick-execution/fig14.png

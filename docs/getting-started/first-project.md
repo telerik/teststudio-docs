@@ -6,10 +6,10 @@ position: 2
 ---
 # Your First Project #
 
-Once you have successfully installed and activated Test Studio, you are ready to create your first automation test. The process is devided in several steps:
+Once you have successfully installed and activated Test Studio, you are ready to setup the machine for testing and create your first automation test. The process is devided in several steps:
 
 1. [Create new project](#create-new-project)
-2. [Calibrate your browser](#calibrate-your-browser)
+2. [Calibrate your browser for testing](#calibrate-your-browser)
 3. [Add a Test to the Project](#add-a-test-to-the-project)
 4. [Test Recording](#test-recording)
 5. [Test Execution](#test-execution)
@@ -17,9 +17,9 @@ Once you have successfully installed and activated Test Studio, you are ready to
 
 ## Create new Project ##
 
-When you launch Test Studio, you will see the **Welcome Screen**. It lets you open or create projects, see notifications about software updates and news related to the product.
+When you launch Test Studio, you will see the **Welcome Screen**. It lets you open or create projects, and see notifications about software updates and news related to the product.
 
-In the **Create project** section you could choose among different type projects - **Web & Desktop**, **Mobile** or **API**. Lets select a **Web & Desktop** project and specify its name and location and click the 'Create' button.
+In the **Create project** section you could choose among different type projects - **Web & Desktop**, **Mobile** or **API**. Let's select a **Web & Desktop** project, specify its name and location and click the **Create** button.
 
 ![Create Project](/img/getting-started/first-project/fig00.png)
 

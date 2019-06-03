@@ -17,7 +17,7 @@ them. In case the test has failed, you can review the results and try to quickly
 
 ## Execution Log ##
 
-The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">execution log</a> is available in the test view after test execution. It contains details about all the steps from the quick execution and you can open it by clicking on the **View Log**.
+The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">execution log</a> is available in the test view after a [quick test execution](/general-information/test-execution/quick-execution). It contains details about the latest test run and you can open it by clicking on the **View Log** button.
 
 ## Analyze Test List Results ##
 
@@ -31,7 +31,7 @@ The sucecssfully executed steps will be marked with ![pass](/img/getting-started
 
 ## Application Log ##
 
-The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-application-log" target="_blank">application log</a> is a record of log messages recorded by Test Studio throughtout runtime. It is used if there is an unexpected behavior outside of the test steps.
+The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-application-log" target="_blank">application log</a> is a list of messages logged by Test Studio throughout the tool usage and bring information for the performed actions in Test Studio. It is usually used if there are unexpected errors, crashes, or a recommended configuration in the project cannot be accomplished
 
 ## Visual Debugger ##
 

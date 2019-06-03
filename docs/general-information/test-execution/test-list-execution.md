@@ -72,7 +72,7 @@ Click _"Other Options.."_ -> Uncheck _"Display encoder status"_
 
 > If the limit is reached, video recording will be stopped before the test execution ends.
 
-[1]: /img/getting-started/test-execution/test-list-execution/fig1.png
-[2]: /img/getting-started/test-execution/test-list-execution/fig2.png
-[3]: /img/getting-started/test-execution/test-list-execution/fig3.png
-[4]: /img/getting-started/test-execution/test-list-execution/fig4.png
+[1]: /img/general-information/test-execution/test-list-execution/fig1.png
+[2]: /img/general-information/test-execution/test-list-execution/fig2.png
+[3]: /img/general-information/test-execution/test-list-execution/fig3.png
+[4]: /img/general-information/test-execution/test-list-execution/fig4.png

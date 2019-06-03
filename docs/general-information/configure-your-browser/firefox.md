@@ -75,23 +75,23 @@ To ensure flawless and consistent automation process there are some settings to 
 1.&nbsp; The latest Firefox extension is not automatically installed with the Test Studio installation.<br><br>
 In case you haven't performed the above recommendation to install the Progress extension manually when you first start recording against Firefox the browser will load the recording start page and will try to load the extension. If that is missing the recorder will search for it for the set ClientReady Timeout (the default is 60 seconds).<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig14.png" alt="Wait For Extension"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig14.png" alt="Wait For Extension"><br><br>
 
 2.&nbsp; In case the Progress extension is not yet loaded after that timeout a link to the Mozzila Extension Page will be displayed to install the extension.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig10.png" alt="Get Extension"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig10.png" alt="Get Extension"><br><br>
 
 3.&nbsp; By clicking on <strong>Get It Free From Mozilla Extensions Page</strong> you will be directly navigated to the Progress extension on the Extension Page.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig11.png" alt="Extension In Page"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig11.png" alt="Extension In Page"><br><br>
 
 4.&nbsp; By clicking the <strong>Add to Firefox</strong> button the extension will be added after confirmation. <br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig12.png" alt="Add Extension Confirmation"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig12.png" alt="Add Extension Confirmation"><br><br>
 
 5.&nbsp;  The version of an installed extension could be double checked by clicking on its icon located on the right of the address bar.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig13.png" alt="Extension Version"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig13.png" alt="Extension Version"><br><br>
 
 <hr/>
 
@@ -111,11 +111,11 @@ In case you haven't performed the above recommendation to install the Progress e
 
 1. Click on browser settings in the right upper corner and press on <strong>Add-ons</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig1.png" alt="Extension"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig1.png" alt="Extension"><br><br>
 
 2. Ensure that the <strong>Progress Test Studio Extension</strong> is enabled.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig2.png" alt="Extension"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig2.png" alt="Extension"><br><br>
 
 <h3>Zoom Level Set to 100%</h3>
 
@@ -123,19 +123,19 @@ In case you haven't performed the above recommendation to install the Progress e
 
 2. Use the plus (+) and minus (-) buttons to set it to 100%.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig3.png" alt="Zoom"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig3.png" alt="Zoom"><br><br>
 
 <h3>Turn Off Pop-up Blocker & Enable JavaScript</h3>
 
 1. Click on browser settings and press on <strong>Options</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig4.png" alt="Zoom"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig4.png" alt="Zoom"><br><br>
 
 2. Click on the <strong>Privacy and Security</strong> tab (on the left side) and scroll down to <strong>Permissions</strong> section.<br><br>
 
 3. Uncheck the <strong>Block pop-up windows</strong> checkbox.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig5.png" alt="Pop up blocker"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig5.png" alt="Pop up blocker"><br><br>
 
 <h3>Pop-ups Open in a New Tab</h3>
 
@@ -143,7 +143,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 2. Scroll down to <strong>Tabs</strong> section and check <strong>Open new windows in a new tab instead</strong>. <br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig6.png" alt="Pop up open in new window"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig6.png" alt="Pop up open in new window"><br><br>
 
 <h3>Enable File Downloads</h3>
 
@@ -151,7 +151,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 2. Scroll down to <strong>Downloads</strong> section and check and select <strong>Always ask you where to save files</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig7.png" alt="Downloads"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig7.png" alt="Downloads"><br><br>
 
 <h3>Enable Cookies</h3>
 
@@ -159,7 +159,7 @@ In case you haven't performed the above recommendation to install the Progress e
 2. Click on the <strong>Privacy and Security</strong>.<br>
 3. Scroll down to <strong>History</strong> section to set the option to <strong>Remember history</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig8.png" alt="Cookies"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig8.png" alt="Cookies"><br><br>
 
 <h3>Disable 'Remember passwords for sites'</h3>
 
@@ -167,7 +167,7 @@ In case you haven't performed the above recommendation to install the Progress e
 2. Click on the <strong>Privacy and Security</strong>.<br>
 3. Make sure the <strong>Remember logins and passwords for websites</strong> option is disabled.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig9.png" alt="Passwords"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig9.png" alt="Passwords"><br><br>
 
 <h3>Use System Proxy Settings</h3>
 
@@ -178,16 +178,16 @@ As of the 2012 R1 version released in April 2012, set the Connection Settings to
 3. Scroll down to <strong>Network Proxy</strong> section and press on <strong>Settings... </strong> button.<br>
 4. In the <strong>Connection Settings</strong> window select <strong>Use system proxy settings</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/firefox/fig15.png" alt="Proxy"><br><br>
+<img src="/img/general-information/configure-your-browser/firefox/fig15.png" alt="Proxy"><br><br>
 
 <h3>Setting Configuration Flags</h3>
 
 There are three more settings to be modified in the configuration editor -  type <strong>about:config</strong> in the url bar and press Enter to access it. Double click the following settings to set these to <strong>false</strong>:
 
 <ul>
-	<li> <strong>browser.sessionstore.resume_from_crash</strong> <br> <br> <img src="/img/getting-started/configure-your-browser/firefox/fig16.png" alt="browser_sessionstore_resume_from_crash"> <br> </li>
-	<li> <strong>browser.tabs.warnOnClose</strong> <br> <br><img src="/img/getting-started/configure-your-browser/firefox/fig17.png" alt="browser_tabs_warnOnClose"> <br></li>
-	<li> <strong>browser.tabs.warnOnCloseOtherTabs</strong> <br> <br> <img src="/img/getting-started/configure-your-browser/firefox/fig18.png" alt="browser_tabs_warnOnCloseOtherTabs"> <br></li>
+	<li> <strong>browser.sessionstore.resume_from_crash</strong> <br> <br> <img src="/img/general-information/configure-your-browser/firefox/fig16.png" alt="browser_sessionstore_resume_from_crash"> <br> </li>
+	<li> <strong>browser.tabs.warnOnClose</strong> <br> <br><img src="/img/general-information/configure-your-browser/firefox/fig17.png" alt="browser_tabs_warnOnClose"> <br></li>
+	<li> <strong>browser.tabs.warnOnCloseOtherTabs</strong> <br> <br> <img src="/img/general-information/configure-your-browser/firefox/fig18.png" alt="browser_tabs_warnOnCloseOtherTabs"> <br></li>
 
 </ul>
 

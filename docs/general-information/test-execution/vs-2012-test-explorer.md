@@ -27,7 +27,7 @@ To execute specific tests in the Test Explorer, use **Run...** and select a crit
 
 > Note: When executing tests from Test Explorer <a href="/features/project-settings/overview" target="_blank">Test Studio test settings</a> are not applied. To use the default Test Studio settings it will be necessary to add a project settings file and apply it for Test Explorer test execution as shown <a href="/knowledge-base/visual-studio-kb/test-explorer-settings" target="_blank">here</a>.
 
-[1]: /img/getting-started/test-execution/vs-2012-test-explorer/fig1.png
-[2]: /img/getting-started/test-execution/vs-2012-test-explorer/fig2.png
-[3]: /img/getting-started/test-execution/vs-2012-test-explorer/fig3.png
-[4]: /img/getting-started/test-execution/vs-2012-test-explorer/fig4.png
+[1]: /img/general-information/test-execution/vs-2012-test-explorer/fig1.png
+[2]: /img/general-information/test-execution/vs-2012-test-explorer/fig2.png
+[3]: /img/general-information/test-execution/vs-2012-test-explorer/fig3.png
+[4]: /img/general-information/test-execution/vs-2012-test-explorer/fig4.png

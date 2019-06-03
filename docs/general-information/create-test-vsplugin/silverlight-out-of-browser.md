@@ -46,8 +46,8 @@ __Important Notes:__
 
 Notice that steps are added to the test as actions are taken within the application.
 
-[1]: /img/getting-started/create-test-vsplugin/silverlight-out-of-browser/fig1.png
-[2]: /img/getting-started/create-test-vsplugin/silverlight-out-of-browser/fig2.png
-[3]: /img/getting-started/create-test-vsplugin/silverlight-out-of-browser/fig3.png
-[4]: /img/getting-started/create-test-vsplugin/silverlight-out-of-browser/fig4.png
-[5]: /img/getting-started/create-test-vsplugin/silverlight-out-of-browser/fig5.png
+[1]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig1.png
+[2]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig2.png
+[3]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig3.png
+[4]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig4.png
+[5]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig5.png

@@ -29,5 +29,5 @@ Resume normal execution with the **Play** button, or use the **Fast Forward** bu
 
 * <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">Using the Visual Debugger</a>
 
-[1]: /img/getting-started/test-execution/visual-debugger/fig1.png
-[2]: /img/getting-started/test-execution/visual-debugger/fig2.png
+[1]: /img/general-information/test-execution/visual-debugger/fig1.png
+[2]: /img/general-information/test-execution/visual-debugger/fig2.png

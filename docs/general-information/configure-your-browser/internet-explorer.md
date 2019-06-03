@@ -58,7 +58,7 @@ To ensure flawless and consistent automation process there are some settings to 
 2. Click Tools button -> <strong>Zoom</strong>.<br><br>
 3. Select 100% (or use the keyboard shortcut: Ctrl + 0).<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig1.png" alt="Zoom"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig1.png" alt="Zoom"><br><br>
 
 <h2>Disable Protected Mode</h2>
 
@@ -70,7 +70,7 @@ To ensure flawless and consistent automation process there are some settings to 
 - <strong>Local intranet</strong><br><br>
 - <strong>Trusted sites</strong><br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig2.png" alt="Protected Mode"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig2.png" alt="Protected Mode"><br><br>
 
 
 <h2>Disable Pop-up Blocker</h2>
@@ -79,7 +79,7 @@ To ensure flawless and consistent automation process there are some settings to 
 2. Click the <strong>Privacy</strong> tab.<br><br>
 3. Uncheck the <strong>Turn on Pop-up Blocker</strong> checkbox.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig3.png" alt="Pop up blocker"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig3.png" alt="Pop up blocker"><br><br>
 
 <h2>Pop-ups Open in a New Window</h2>
 
@@ -87,7 +87,7 @@ To ensure flawless and consistent automation process there are some settings to 
 2. On the <strong>General tab</strong>, click the <strong>Settings</strong> button for </strong>Change how webpages are displayed in tabs</strong>.<br><br>
 3. Select <strong>Always open pop-ups in a new window</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig4.png" alt="Pop ups open in new window"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig4.png" alt="Pop ups open in new window"><br><br>
 
 <h2>Add the Websites to List of Trusted Sites</h2>
 
@@ -100,7 +100,7 @@ To ensure flawless and consistent automation process there are some settings to 
 7. Click <strong>Add</strong>.<br><br>
 8. Repeat steps 6-7 for each website you'll be testing.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig5.png" alt="Trusted site"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig5.png" alt="Trusted site"><br><br>
 
 <h2>Disable Trusted Sites Message</h2>
 
@@ -110,7 +110,7 @@ To ensure flawless and consistent automation process there are some settings to 
 4. Scroll down until you find the <strong>Websites in less privileged web content zone</strong> can navigate into this zone under the <strong>Miscellaneous heading</strong>.<br><br>
 5. Check <strong>Enable</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig6.png" alt="Trusted site message"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig6.png" alt="Trusted site message"><br><br>
 
 <h2>Ensure JavaScript Is Enabled</h2>
 
@@ -120,7 +120,7 @@ To ensure flawless and consistent automation process there are some settings to 
 4. Scroll down until you find the <strong>Active scripting</strong> setting under the <strong>Scripting</strong> heading.<br><br>
 5. Check <strong>Enable</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig7.png" alt="Enable Scripting"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig7.png" alt="Enable Scripting"><br><br>
 
 <h2>Disable Mixed Content Message</h2>
 
@@ -130,7 +130,7 @@ To ensure flawless and consistent automation process there are some settings to 
 4. Scroll down until you find the <strong>Display mixed content</strong> setting under the Micellaneous heading.<br><br>
 5. Check <strong>Enable</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig8.png" alt="Disable script content"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig8.png" alt="Disable script content"><br><br>
 
 <h2>Enable File Downloads</h2>
 
@@ -141,11 +141,11 @@ To ensure flawless and consistent automation process there are some settings to 
 5. Check <strong>Enable</strong>.<br><br>
 6.  Repeat steps 3 - 5 for the <strong>Local intranet</strong> and the <strong>Internet</strong> zones.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig9.png" alt="Downloads"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig9.png" alt="Downloads"><br><br>
 
 For <strong>IE7</strong> and <strong>IE8</strong> file downloads, uncheck <strong>Close this dialog box when download completes</strong>. The only way to do this is to actually start downloading something and uncheck this checkbox while the download is running.<br><br>
 	
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig10.png" alt="Downloads"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig10.png" alt="Downloads"><br><br>
 
 For __IE9__ downloads, check __Notify me when my downloads are complete__:<br><br>
 
@@ -154,7 +154,7 @@ For __IE9__ downloads, check __Notify me when my downloads are complete__:<br><b
 3. Check <strong>Notify me when my downloads are complete</strong>.<br><br>
 4. Click <strong>OK</strong><br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig11.png" alt="Downloads"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig11.png" alt="Downloads"><br><br>
 
 <h2>Allow Local Files to Run Unhindered</h2>
 
@@ -162,7 +162,7 @@ For __IE9__ downloads, check __Notify me when my downloads are complete__:<br><b
 2. Click the <strong>Advanced</strong> tab.<br><br>
 3. Check <strong>Allow active content to run in files on My Computer</strong> under the <strong>Security</strong> heading.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig12.png" alt="Local files"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig12.png" alt="Local files"><br><br>
 
 <h2>Turn Off AutoComplete</h2>
 
@@ -171,7 +171,7 @@ For __IE9__ downloads, check __Notify me when my downloads are complete__:<br><b
 3. Click the <strong>Settings</strong> button under the <strong>AutoComplete</strong> section.<br><br>
 4. In <strong>AutoComplete Settings</strong>, uncheck <strong>Forms</strong> and <strong>User names and passwords on forms</strong>.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig13.png" alt="Turn of auto-complete"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig13.png" alt="Turn of auto-complete"><br><br>
 
 <h2>Windows updates</h2>
 
@@ -186,7 +186,7 @@ The latest Internet Explorer updates should be installed. <br><br>
 3. Click <strong>Trusted sites</strong>.<br><br>
 4. Add <strong>http://www.w3.org</strong> to the trusted sites.<br><br>
 
-<img src="/img/getting-started/configure-your-browser/internet-explorer/fig14.png" alt="Add http://www.w3.org"><br><br>
+<img src="/img/general-information/configure-your-browser/internet-explorer/fig14.png" alt="Add http://www.w3.org"><br><br>
 
 </div>
 </div>

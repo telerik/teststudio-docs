@@ -29,5 +29,5 @@ If you close the tips window you can bring it up again by clicking that toggle b
 
 By default the **Always show this pop-up** option is checked and the *Tips And Tricks* window will instantly popup. If you would like to stop the *Tips and Tricks* window from popping up uncheck that checkbox.
 
-[1]: /img/getting-started/start-a-project/in-product-tips-tricks/fig1.png
-[2]: /img/getting-started/start-a-project/in-product-tips-tricks/fig2.png
+[1]: /img/general-information/start-a-project/in-product-tips-tricks/fig1.png
+[2]: /img/general-information/start-a-project/in-product-tips-tricks/fig2.png

@@ -91,12 +91,12 @@ To do so, click on the bar for which you want more information, and you are take
 
 ![Pie][2]
 
-[1]: /img/getting-started/test-results/reports/fig1.png
-[2]: /img/getting-started/test-results/reports/fig2.png
-[3]: /img/getting-started/test-results/reports/fig1-new.png
-[4]: /img/getting-started/test-results/reports/fig2-new.png
-[5]: /img/getting-started/test-results/reports/fig3.png
-[6]: /img/getting-started/test-results/reports/fig4.png
-[7]: /img/getting-started/test-results/reports/fig5.png
-[8]: /img/getting-started/test-results/reports/fig6.png
-[9]: /img/getting-started/test-results/reports/fig7.png
+[1]: /img/general-information/test-results/reports/fig1.png
+[2]: /img/general-information/test-results/reports/fig2.png
+[3]: /img/general-information/test-results/reports/fig1-new.png
+[4]: /img/general-information/test-results/reports/fig2-new.png
+[5]: /img/general-information/test-results/reports/fig3.png
+[6]: /img/general-information/test-results/reports/fig4.png
+[7]: /img/general-information/test-results/reports/fig5.png
+[8]: /img/general-information/test-results/reports/fig6.png
+[9]: /img/general-information/test-results/reports/fig7.png

@@ -17,7 +17,7 @@ The easiest way to download the latest version of Test Studio is from <a href=ht
 
 ![Download](/img/getting-started/installation-and-activation/fig00.png)
 
-You can also download Test Studio from your telerik.com account. Once you have installed it, you can <a href="check-for-updates" target="_blank">check for updates automatically</a>, or download and install them manually:
+You can also download Test Studio from your telerik.com account.
 
 1. Navigate to <a href="http://www.telerik.com" target="_blank">Telerik.com</a> and login to your Telerik account.
 
@@ -33,14 +33,14 @@ You can also download Test Studio from your telerik.com account. Once you have i
 
 	![Download](/img/getting-started/installation-and-activation/fig04.png)
 
-4. Select the official release or latest internal build. Download the installer and execute the file to install that version or upgrade an existing Test Studio installation the newer version.
+4. Select the official release or latest internal build. Download the installer and execute the file to install that version or upgrade an existing Test Studio installation to the newer version.
 
 	![Install](/img/getting-started/installation-and-activation/fig05.png)
 
 ## Install Test Studio ##
 
 1. After you have [downloaded the install file](#download-test-studio), locate it using Windows Explorer and double click it to launch the installer.
-2. Click __Read License Agreement__, then __OK__, then I __Agree - Continue__.
+2. Click the __Read License Agreement__ to read the Test Studio EULA. When ready click __OK__ and then __I Agree – Continue__ button to confirm you agree with the terms of the license. .
 
 	![Setup Wizzard](/img/getting-started/installation-and-activation/fig06.png)
 
@@ -48,12 +48,12 @@ You can also download Test Studio from your telerik.com account. Once you have i
 
 	![Install](/img/getting-started/installation-and-activation/fig07.png)
 
-4. On this screen you can select which features to install by clicking __Customize__ button. You can also change the installation path. After making your selections, click __OK__ to continue.
+4. Once you select the __Customize__ button, you can choose whether to install some optional components or to change the installation path. After making your selections, click __OK__ to continue
 
-	* To use this machine as a Storage Server or Scheduling Server, you must install the appropriate services at this time.
+	* To use this machine as a Storage Server and/or Scheduling Server, you need to install the appropriate services at this time or [add these at a later moment](/general-information/installation/add-services).
 	* To add the Storage and Scheduling Services features, <a href="/general-information/installation/add-services" target="_blank">you must complete the installation and perform a change using the installer</a>.
-	* Storage server uses <a href="https://www.mongodb.com" target="_blank">MongoDb</a> as storage database. MongoDb requires at least 4Gb hard drive space to operate normally.
-	* If you have installed Visual Studio on the machine Test Studio plugin for Visual Studio will be also installed.
+	* Storage server uses <a href="https://www.mongodb.com" target="_blank">MongoDb</a> as storage database and its minimum requirement is 4GB hard drive space to operate normally.
+	* If you have Visual Studio on the machine, Test Studio plugin for Visual Studio will be also installed for all detected Visual Studio installations.
 
 	![Install services](/img/getting-started/installation-and-activation/fig08.png)
 
@@ -61,7 +61,7 @@ You can also download Test Studio from your telerik.com account. Once you have i
 
 	![Install VS plugin](/img/getting-started/installation-and-activation/fig10.png)
 
-5. Review all the selections and click __Install__ to start the installation process.
+5. Review the custom selections and click __OK__ and then __Install__ to start the installation process.
 
 	![Installing](/img/getting-started/installation-and-activation/fig11.png)
 
@@ -73,9 +73,11 @@ You can also download Test Studio from your telerik.com account. Once you have i
 
 	* Note: When upgrading, users may encounter an error: "Service 'Telerik Scheduling Service' (Telerik Scheduling Service) failed to start. Verify that you have sufficient privileges to start system services." See <a href="/troubleshooting-guide/installation-problems-tg/error-starting-services" target="_blank">Error Starting Services troubleshooting article</a>.
 
+Once you have installed Test Studio, you can <a href="/general-information/installation/check-for-updates" target="_blank">check for updates automatically</a>, or download and install them manually.
+
 ## Activate Your License ##
 
-After installing Telerik <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a>, you will be asked to activate your license. During this process, your machine creates its own unique key and provides it to our server. We use this key to generate a unique license key for the installation of the product. This article discusses how to go through this process and provides a guided walk-through. All users, both trial and purchased, will need to activate their product after installation before they can begin using the tool.
+After installing Telerik <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a>, you will be asked to activate your license. During this process, your machine creates its own unique key and provides it to our server. We use this key to generate a unique license key for the installation of the product. This tutorial below describes how to go through this process and provides a guided walk-through. All users, both trial and purchased, will need to activate their product after installation before they can begin using the tool.
  
 The below process assumes that you have not launched the Standalone or VS plugin version after the installation completed. If you have already launched Test Studio and are ready to input your licensing data (user email and password), skip to step 3.
 
@@ -106,7 +108,7 @@ The below process assumes that you have not launched the Standalone or VS plugin
 
 8.	If your machine was freshly imaged or replaced and you need to re-activate your license (__0 seats available__) on the new machine, please visit <a href="/general-information/installation/re-activating-your-license" target="_blank">Re-Activating your License</a> article.
 
-9.	If you perform the above process and you receive the screen below, click on Activate Manually and follow this article for <a href="manual-activation" target="_blank">Manual Activation</a>.
+9.	If you perform the above process and you receive the screen below, click on Activate Manually and follow this article for <a href="/general-information/installation/manual-activation" target="_blank">Manual Activation</a>.
 
 	![Couldn't log](/img/getting-started/installation-and-activation/fig17.png)
 

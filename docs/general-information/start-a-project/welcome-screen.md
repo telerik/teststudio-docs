@@ -63,9 +63,9 @@ As of release **R1 2018 (v.2018.1.301)** once Test Studio is launched you will s
 
 ![Newsfeed][6]
 
-[1]: /img/getting-started/start-a-project/welcome-screen/fig1.png
-[2]: /img/getting-started/start-a-project/welcome-screen/fig2.png
-[3]: /img/getting-started/start-a-project/welcome-screen/fig3.png
-[4]: /img/getting-started/start-a-project/welcome-screen/fig4.png
-[5]: /img/getting-started/start-a-project/welcome-screen/fig5.png
-[6]: /img/getting-started/start-a-project/welcome-screen/fig6.png
+[1]: /img/general-information/start-a-project/welcome-screen/fig1.png
+[2]: /img/general-information/start-a-project/welcome-screen/fig2.png
+[3]: /img/general-information/start-a-project/welcome-screen/fig3.png
+[4]: /img/general-information/start-a-project/welcome-screen/fig4.png
+[5]: /img/general-information/start-a-project/welcome-screen/fig5.png
+[6]: /img/general-information/start-a-project/welcome-screen/fig6.png

@@ -13,17 +13,17 @@ position: 6
 
 3.	Click __Change.__
 
-	![Programs and Features](/img/getting-started/installation/add-services/fig1.png)
+	![Programs and Features](/img/general-information/installation/add-services/fig1.png)
 
 4.	Click __Next__ in the Progress Test Studio 20XX.X Setup Wizard.
 5.	Click the __Change__ button.
 
-	![Change button](/img/getting-started/installation/add-services/fig2.png)
+	![Change button](/img/general-information/installation/add-services/fig2.png)
 
 6.	Select the services to install.
 
 	
-	![Select services](/img/getting-started/installation/add-services/fig3.png)
+	![Select services](/img/general-information/installation/add-services/fig3.png)
 
 7.	<a href="install-procedure" target="_blank">Complete the installation as normal.</a>
 

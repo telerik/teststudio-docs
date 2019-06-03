@@ -15,4 +15,4 @@ There are two software testing products to consider:
 
 The diagram below shows the relationship between the Framework and Test Studio. Note that Telerik Testing Framework is the foundation. It provides all the base functionality used by Test Studio. Test Studio includes the Graphical User Interface, the Telerik RadControls Translators, and Visual Studio integration.
 
-![Diagram](/img/general-information/test-studio-framework/fig1.png)
+![Diagram](/img/introduction/test-studio-framework/fig1.png)
