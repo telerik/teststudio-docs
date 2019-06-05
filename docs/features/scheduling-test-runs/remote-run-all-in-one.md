@@ -24,7 +24,7 @@ Watch a <a href="http://www.telerik.com/automated-testing-tools/support/videos/b
 
 ![Storage][12]
 
-5.&nbsp; In the Scheduling tab verify the information displayed and click **Apply**. Verify the Scheduling Service is running from lower left. Optionally you can configure Email (SMTP) server. This is in case you would like to receive scheduling result via email.
+5.&nbsp; In the Scheduling tab verify the information displayed and click **Apply**. Verify the Scheduling Service is running from lower left. Optionally you can configure an Email (SMTP) server by specifying the necessary details below. This is in case you would like to receive scheduling result via email.
 
 ![Scheduling][13]
 
