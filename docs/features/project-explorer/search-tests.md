@@ -1,7 +1,7 @@
 ---
 title: Search And Filter Tests
 page_title: Search And Filter Tests
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Search for a test in Test Studio. Filter tests containing a key word in Test Studio."
 previous_url: /features/test-maintenance/search-tests
 publish: true
 position: 1

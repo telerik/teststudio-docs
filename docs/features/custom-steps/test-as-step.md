@@ -1,7 +1,7 @@
 ---
 title: Test as Step
 page_title: Test as Step
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to reuse tests in Test Studio? Use a test as a step in another Test Studio test. Can I have a single function used in multiple scenarios - like logout, login and insert it in a larger test in Test Studio. "
 position: 1
 ---
 # Test as Step

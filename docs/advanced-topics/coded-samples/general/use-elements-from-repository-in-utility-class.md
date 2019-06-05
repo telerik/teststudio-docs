@@ -1,7 +1,7 @@
 ---
 title: Using Elements From Elements Repository In A Utility Class
 page_title: Using Elements From Repository In A Utility Class
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Use Elements From Repository In A Utility Class in Test Studio code file."
 position: 1
 ---
 #How to Use Elements From Repository In A Utility Class#

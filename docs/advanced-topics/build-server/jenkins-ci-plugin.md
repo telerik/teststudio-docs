@@ -1,10 +1,10 @@
 ---
 title: Jenkins CI Plugin
 page_title: Jenkins CI Plugin
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio plugin for Jenkins Continuous integration setup. Configure the Test Studio plugin for Jenkins CI."
 position: 2
 ---
-#Test Studio Plugin for Jenkins CI#
+# Test Studio Plugin for Jenkins CI #
 
 The Test Studio Plugin allows you to build and execute Test Studio tests and test lists in Jenkins CI environment and easily explore the generated JUnit xml results in the built-in Jenkins functionality. 
 

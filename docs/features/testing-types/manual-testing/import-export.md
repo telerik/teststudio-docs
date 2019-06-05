@@ -1,7 +1,7 @@
 ---
 title: Import and Export Excel Workbooks
 page_title: Import and Export Excel Workbooks
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Import and Export Excel Workbooks for manual tests / manual test steps in Test Studio."
 previous_url: /user-guide/manual-testing/import_and_export_excel.aspx, /user-guide/manual-testing/import_and_export_excel
 position: 5
 ---

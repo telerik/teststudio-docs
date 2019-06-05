@@ -1,7 +1,7 @@
 ---
 title: ArtOfTest.Runner
 page_title: ArtOfTest.Runner
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Command line runner client is called ArtOfTest.Runner. Test Studio execution engine in the command prompt"
 previous_url: /user-guide/test-runners/artoftestrunner.aspx, /user-guide/test-runners/artoftestrunner, /user-guide/command-line-test-execution/artoftestrunner.aspx, /user-guide/command-line-test-execution/artoftestrunner
 position: 1
 ---

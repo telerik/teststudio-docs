@@ -1,13 +1,11 @@
 ---
 title: Overview
 page_title: Verifications Overview
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Verifications in Test Studio. Measure and record if an occurrence happened or did not happen as expected during a test run in Test Studio. Verifications in Test Studio can measure against multiple criteria at one time, can build measurements in an interactive manner without code, can detect if elements are in a particular state (e.g. is visible, exists), can detect if attributes and properties compare with specific values, can verify content, attributes, styles, visibility, drop-down list selections, checkboxes, radio buttons, tables and Silverlight property values"
 previous_url: /user-guide/verifications.aspx, /user-guide/verifications, /features/verifications/overview
 position: 0
 ---
-
 # Verifications
-
 
 Automation is only the starting point of testing where the browser is manipulated automatically without tester intervention. Once you've automated the interaction, you still have to test something, such as measuring and recording that an occurrence happened or did not happen as expected. There are several ways to verify elements in Test Studio:
 
@@ -36,8 +34,3 @@ Test Studio implements verification through "sentences" that compare a portion o
 - wait for element to exist
 
 > Test Studio cannot read and verify against the contents of a PDF file loaded in the browser, as it does not have a DOM structure like a traditional web page. If you can store that information in a file type such as XLS, XML, CSV, or a SQL database, then you can use the <a href="/features/data-driven-testing/Overview" target="blank">Data Driving</a> feature. 
-
-
-
-
-

@@ -1,13 +1,12 @@
 ---
 title: Migrate from SQL to MongoDB
 page_title: Migrate from SQL to MongoDB
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio MongoDB storage service. Transfer old SQL results (prior 15th of October 2015) to the new Mongo database"
 position: 16
 ---
 # Migrate from SQL to MongoDB
 
-Since Test Studio R3 release in October 2015 we have introduced a new improved storage server using MongoDB database instead of SQL database.
-You will be able to transfer your old results (prior 15th of October 2015) to the new Mongo database using <a href="http://docs.telerik.com/teststudio/downloads/DbMigratorExe.zip">this tool</a>. 
+Since Test Studio R3 release in October 2015 (v.2015.3.1015) we have introduced a new improved storage server using MongoDB database instead of SQL database. You will be able to transfer your old results (prior 15th of October 2015) to the new Mongo database using <a href="http://docs.telerik.com/teststudio/downloads/DbMigratorExe.zip">this tool</a>. 
 
 > Note that you must have the <a href="http://docs.telerik.com/teststudio/features/scheduling-test-runs/create-storage-server" target="_blank">Storage Server</a> already configured.
 

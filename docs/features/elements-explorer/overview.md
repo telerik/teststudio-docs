@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Elements Explorer Overview
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Elements Explorer in Test Studio. Elements in the Elements Explorer in Test Studio. Edit an element in Test Studio. Unable to find element failure in Test Studio test"
 previous_url: /user-guide/elements-pane-overview.aspx, /user-guide/elements-pane-overview
 position: 0
 ---

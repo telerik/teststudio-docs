@@ -1,7 +1,7 @@
 ---
 title: Extend BaseWebAiiTest Class
 page_title: Extend BaseWebAiiTest Class
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to Extend BaseWebAiiTest Class Functionality in Test Studio coded projects."
 position: 1
 ---
 # How to Extend BaseWebAiiTest Class Functionality #
@@ -48,7 +48,7 @@ Steps to implement such approach are as follows:
 
 ![Settings file][1]
 
-4.&nbsp; Re-open the project, add a WebTest and a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside. Then in the step it will be available the *PrintMessage()* defined in the *ExtendedBaseWebAiiTest* class. Bellow is given a sample of the code behind file of the WebTest.
+4.&nbsp; Re-open the project, add a WebTest and a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside. Then in the step it will be available the *PrintMessage()* defined in the *ExtendedBaseWebAiiTest* class. Below is given a sample of the code behind file of the WebTest.
 
 ```C#
 	using ArtOfTest.WebAii.Core;

@@ -1,21 +1,16 @@
 ---
 title: Mobile Device Traffic
 page_title: Mobile Device Traffic
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Configure Test Studio to capture user profile http traffic from a remote machine, including a mobile device"
 previous_url: /user-guide/load-testing/designing-load-tests/adding-user-profiles/capture-remote-traffic.aspx
 position: 7
 ---
 # Mobile Device Traffic
 
-
  In addition to capturing traffic from the local machine, you can also capture a user profile from a remote machine, including a mobile device. First, you must configure the remote device to connect to the Test Studio Load remote proxy. Here, we show how to connect a mobile device to your Load Testing remote proxy. Since Test Studio Load Testing uses the same proxy as Fiddler, you can configure your remote devices to connect to Test Studio Load Testing in the same way as connecting to Fiddler, but using port 9001.
-
-
-
 
 - [Configure iOS](/features/testing-types/load-testing/configure-remote-device#configure-an-ios-device)
 - [Configure Android](/features/testing-types/load-testing/configure-remote-device#configure-an-android-device)
-
 
 ## Configure an iOS Device
 
@@ -71,7 +66,7 @@ position: 7
 Now you are ready to <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">capture traffic</a> from your remote device. 
 <br>
 <br>
-**See Also**
+**See Also:**
 
 - <a href="http://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/MonitorRemoteMachine" target="_blank">Connect a remote machine to Fiddler</a>.
 

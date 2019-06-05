@@ -1,7 +1,7 @@
 ---
 title: Create a Scheduling Server
 page_title: Create a Scheduling Server
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create a Scheduling Server in Test Studio to be able to run schedule tests on remote machines. The Telerik scheduling service keeps track of what tests to run and sends this data to the execution servers."
 previous_url: /user-guide/scheduling-test-runs/create-a-scheduling-server.aspx, /user-guide/scheduling-test-runs/create-a-scheduling-server
 position: 5
 ---
@@ -43,7 +43,6 @@ If you don't have MongoDB installed on the local machine you need to specify the
 ![Scheduling][9]
 
 Close the dialog window and your scheduling setup is finished.
-
 
 [5]: /img/features/scheduling-test-runs/create-scheduling-server/fig1new.png
 [6]: /img/features/scheduling-test-runs/create-scheduling-server/fig2new.png

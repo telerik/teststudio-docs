@@ -1,7 +1,7 @@
 ---
 title: Test Properties (Standalone)
 page_title: Test Properties (Standalone)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test Properties reflect the attributes of anything you select in the Project tab"
 previous_url: /user-guide/modifying-tests/test-properties.aspx, /user-guide/modifying-tests/test-properties
 position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Test Properties (VS Plugin)
 page_title: Test Properties (VS Plugin)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test Properties in Visual Studio Plugin"
 previous_url: /user-guide/modifying-tests/test-properties-vs-plugin.aspx, /user-guide/modifying-tests/test-properties-vs-plugin
 position: 1
 ---

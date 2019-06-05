@@ -1,7 +1,7 @@
 ---
 title: Elements Mapping (IntelliMap)
 page_title: Elements Mapping (IntelliMap)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Elements Mappting in Test Studio. I have predefined elements in a mockup application - how to map these to the actual application in Test Studio"
 position: 2
 ---
 # Elements Mapping (IntelliMap)

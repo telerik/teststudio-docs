@@ -1,7 +1,7 @@
 ---
 title: Customize Test Studio Layout
 page_title: Customize Test Studio Layout
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Customize Test Studio Layout. Where is the Properties/ Step Builder/ Elements explorer/ Project Explorer panel in Test Studio"
 position: 0
 ---
 # Customize Test Studio's Layout

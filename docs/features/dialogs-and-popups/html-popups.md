@@ -1,7 +1,7 @@
 ---
 title: HTML Popups
 page_title: HTML Popups
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "There is a popup displayed in the tested page - how can I automate popup windows in Test Studio tests. Connect to popup window during Test Studio test run/execution"
 previous_url: /user-guide/dialogs-and-popups/html-popups.aspx, /user-guide/dialogs-and-popups/html-popups
 position: 1
 ---
@@ -16,7 +16,6 @@ The sequence is typically like the test steps shown below.
 1. The popup window is connected.
 1. Actions and/or verifications are performed inside the new browser window.
 1. The popup window is closed.
-
 
 ![Popup Test Steps][2]
 

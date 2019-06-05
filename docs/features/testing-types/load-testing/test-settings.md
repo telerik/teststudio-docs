@@ -1,7 +1,7 @@
 ---
 title: Test Settings
-page_title: Test Settings
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Load Test Settings
+description: "Load Test Settings in Test Studio - User Profile Name, Workload, Available Users, Time"
 position: 10
 ---
 # Test Settings
@@ -34,7 +34,7 @@ Each of your Test Settings will appear in the Users Over Time graph.
 
 ![Time Graph][6]
 
-**See Also**
+**See Also:**
 
 - <a href="/knowledge-base/load-testing-kb/virtual-users" target="_blank">Virtual Users Knowledge Base article</a>
 - <a href="/knowledge-base/load-testing-kb/load-strategies" target="_blank">Load Strategies</a> 

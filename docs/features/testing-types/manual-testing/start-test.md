@@ -1,7 +1,7 @@
 ---
 title: Start a Manual Test
 page_title: Start a Manual Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Start a Manual Test in Test Studio."
 previous_url: /user-guide/manual-testing/start-a-manual-test.aspx, /user-guide/manual-testing/start-a-manual-test
 position: 2
 ---

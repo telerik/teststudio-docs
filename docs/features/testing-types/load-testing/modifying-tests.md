@@ -1,13 +1,12 @@
 ---
 title: Modifying Tests
-page_title: Modifying Tests
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Modifying Load Tests
+description: "how to Modify Load Tests in Test Studio. Add/Remove user profiles, Change the test settings (number of virtual users, the duration of the test, the workload), Change the user profile name, Add/Remove/Change the think times, Modify the HTTP transactions"
 position: 12
 ---
 # Modifying Tests
 
 Tests can be modified in a number of ways:
-
 
 - Add/Remove user profiles
 - Change the test settings (number of virtual users, the duration of the test, the workload)

@@ -10,7 +10,7 @@ position: 5
 
 #Configure your Hybrid app (Cordova) to be testable
 
-  > The application configured following the steps bellow, should be used for testing purposes only and will not be accepted in Apple App Store and Google Play Store. 
+  > The application configured following the steps below, should be used for testing purposes only and will not be accepted in Apple App Store and Google Play Store. 
 
 Since building Hybrid mobile applications produce native iOS and Android apps, they can be easily tested with Test Studio Mobile. [This getting-started article]({% slug ms-getting-started-native%}) provides more details about testing native iOS and Android apps.
 
@@ -35,11 +35,11 @@ Follow the standard flow for creating hybrid Cordova app described [here][1].
 To successfully test a Condova hybrid app, Test Studio Mobile needs to know the app identifier. It is set like this:
 
 * Android - the App Identifier for Android is set during app creation in the Cordova CLI (see **Create a hybrid Cordova app** above) and looks something like **com.mycompany.myapp**.
-* iOS - the App Identifier for iOS comes from the Test Studio Mobile extension for iOS (see **Add Extension** above). By default this extension sets **telerikmt1** to be the App Identifier for iOS. To change it in the extension before it is added to the app, navigate to the folder of the downloaded extension (`com.telerik.mobiletesting`) and open the **plugin.xml** file in your preferred text editor. Locate the App Identifier as shown bellow and cahnge it:
+* iOS - the App Identifier for iOS comes from the Test Studio Mobile extension for iOS (see **Add Extension** above). By default this extension sets **telerikmt1** to be the App Identifier for iOS. To change it in the extension before it is added to the app, navigate to the folder of the downloaded extension (`com.telerik.mobiletesting`) and open the **plugin.xml** file in your preferred text editor. Locate the App Identifier as shown below and cahnge it:
 
 ![Mobile Testing AppId iOS](/img/test-studio-mobile/configure-your-app/configure-hybrid/pluginxml-ios.png)
 
- > If you deploy the app to an **iOS 9** device then you must use one of the names listed bellow:
+ > If you deploy the app to an **iOS 9** device then you must use one of the names listed below:
 * telerikmt1
 * telerikmt2
 * telerikmt3

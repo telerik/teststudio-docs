@@ -1,7 +1,7 @@
 ---
 title: Tests In Development
 page_title: Tests In Development
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Tests In Development each test or standalone code file could be set into 'In Development' state. If the test includes a code file it will be automatically set to 'In Development' along with the test"
 
 position: 1
 ---

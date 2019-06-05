@@ -1,13 +1,13 @@
 ---
 title: Telerik.TestStudio.CommandLineClient
 page_title: Telerik.TestStudio.CommandLineClient
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Scheduled runs via command line"
 previous_url: /user-guide/scheduling-test-runs/telerik-teststudio-commandline-client.aspx, /user-guide/scheduling-test-runs/telerik-teststudio-commandline-client
 position: 13
 ---
 # Telerik.TestStudio.CommandLineClient
 
-Telerik.TestStudio.CommandLineClient is a remote command line execution engine. It allows you to execute your test lists via any scheduling server in your domain, distribute them across the all execution machines and send the result via e-mail.
+Telerik.TestStudio.CommandLineClient is a command line execution engine for remote runs and can be used if the <a href="/features/scheduling-test-runs/remote-run-all-in-one" target="_blank">Telerik Scheduling and Storage services</a> are installed. It allows you to execute your test lists via any configured Scheduling server in your domain, distribute them across the configured execution machines in the setup and send the result via e-mail.
 
 Telerik.TestStudio.CommandLineClient.exe is installed in your Test Studio installation directory. The default location is:
 

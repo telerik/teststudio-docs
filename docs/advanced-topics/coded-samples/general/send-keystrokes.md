@@ -1,7 +1,7 @@
 ---
 title: Send Keystrokes
 page_title: Send Keystorkes
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Send keystrokes like Alt+F4 in Test Studio test run. How to automate holding down the Ctrl key + performing selection in Test Studio test run"
 previous_url: /user-guide/code-samples/general/send-keystrokes.aspx, /user-guide/code-samples/general/send-keystrokes
 position: 1
 ---

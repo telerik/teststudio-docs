@@ -1,7 +1,7 @@
 ---
 title: Test Step Context Menu
 page_title: Test Step Context Menu
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test Step Context Menu with further actions that can be taken"
 previous_url: /user-guide/modifying-tests/test-step-context-menu.aspx, /user-guide/modifying-tests/test-step-context-menu
 position: 1
 ---

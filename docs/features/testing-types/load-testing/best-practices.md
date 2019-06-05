@@ -1,13 +1,12 @@
 ---
 title: Best Practices
 page_title: Best Practices
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Best Practices in load testing "
 position: 23
 ---
 # Best Practices
 
 To get the most out of your Load Test it is best if you follow a few simple guidelines:
-
 
 - Make sure you have think times with deviations. Think Times with deviations have a random duration. By having some users at different intervals sitting out of the test (thinking) it not only mimics real world usage better, but it allows for your agents I/O to not be as congested. It may be counter intuitive, but having your virtual users stop to think for a time will actually increase the number of users and requests that your agent can complete.
 

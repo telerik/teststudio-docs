@@ -1,7 +1,7 @@
 ---
 title: Attach Columns to Input Values
 page_title: Attach Columns to Input Values
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to set the values from the data source to be used in the test steps in Test Studio. Set a column from the data source/excel/csv/database for a enter text step in Test Studio. Parameterize the test in Test Studio. Parameterize the values selected from a drop down/ the values entered in a form"
 previous_url: /user-guide/data-driven-testing/attach-columns-to-input-values.aspx, /user-guide/data-driven-testing/attach-columns-to-input-values
 position: 4
 ---

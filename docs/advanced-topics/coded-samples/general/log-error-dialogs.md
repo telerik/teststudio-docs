@@ -1,13 +1,13 @@
 ---
 title: Log Error Dialogs
 page_title: Log Error Dialogs
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Log Random appearing Error Dialogs and automatically handle these during a Test Studio test run."
 position: 1
 ---
 #Log Error Dialogs#
 
 *My application can potentially display a dialog containing an error message during test execution. The dialog can appear multiple times and will not always appear at the same point in the test, therefore I cannot use a standard Dialog Handler step.
- 
+
 I want to capture these error messages and automatically handle these dialogs if they appear.*
 
 ##Solution##

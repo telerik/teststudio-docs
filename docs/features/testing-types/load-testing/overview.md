@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Load Testing
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Load Testing in Test Studio. The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction"
 previous_url: /user-guide/load-testing.aspx, /user-guide/load-testing
 position: 1
 ---

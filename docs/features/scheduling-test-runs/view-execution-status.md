@@ -1,7 +1,7 @@
 ---
 title: View Execution Status
 page_title: View Execution Status
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Execution Status view. View the status of the Test Studio Execution Servers connected to a Test Studio Scheduling Server. Access the execution machines details and logging from the Test Studio Project"
 previous_url: /user-guide/scheduling-test-runs/machine-status.aspx, /user-guide/scheduling-test-runs/machine-status
 position: 15
 ---

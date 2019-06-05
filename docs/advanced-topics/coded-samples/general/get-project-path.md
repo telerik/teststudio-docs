@@ -1,7 +1,7 @@
 ---
 title: Get Project Path
 page_title: Get Project Path
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Get Project root Path in Test Studio coded test."
 position: 1
 ---
 #Get Current Test Project Path#
@@ -41,4 +41,3 @@ Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\
 It's still possible to edit or replace it from that location in a coded step. This will work even if the test is data bound to the file in question. 
 
 [1]: /img/advanced-topics/coded-samples/general/get-project-path/fig1.png
-

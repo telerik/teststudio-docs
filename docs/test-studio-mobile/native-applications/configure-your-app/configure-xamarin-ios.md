@@ -10,7 +10,7 @@ position: 6
 
 #Configure your Xamarin iOS app to be testable
 
-> The application configured following the steps bellow, should be used for testing purposes only and will not be accepted in Apple App Store. 
+> The application configured following the steps below, should be used for testing purposes only and will not be accepted in Apple App Store. 
 
 Since building Xamarin iOS mobile applications produce native iOS apps, they can be easily tested with Test Studio Mobile. [This getting-started article]({% slug ms-getting-started-native%}) provides more details about testing native iOS apps.
 
@@ -31,7 +31,7 @@ Since building Xamarin iOS mobile applications produce native iOS apps, they can
     ![Add URL](/img/test-studio-mobile/configure-your-app/configure-xamarin-ios/fig2.png)
 
     > The **URL Schemes** should not contain any spaces. The APPLICATIONNAME portion need not match your app name exactly. The only requirement is that APPLICATIONNAME is unique so it does not conflict with another testable application.<br/>
-    If you deploy the app to an **iOS 9 device** then you must use one of the names listed bellow:
+    If you deploy the app to an **iOS 9 device** then you must use one of the names listed below:
     * telerikmt1
     * telerikmt2
     * telerikmt3

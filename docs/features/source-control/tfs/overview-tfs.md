@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Integration with Source Control Systems
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Integration with Source Control Systems"
 previous_url: /features/source-control/overview
 position: 0
 ---
@@ -28,7 +28,6 @@ You will need to install Team Explorer. This is the client SKU that allows you t
 
 - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=16338" target="_blank">Visual Studio Team System 2008 Team Explorer</a>
 - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=4240" target="_blank">Microsoft Visual Studio Team Explorer 2010</a>
-
 
 If you are using the Test Studio VS plugin, be aware that Visual Studio has built-in TFS integration.
 

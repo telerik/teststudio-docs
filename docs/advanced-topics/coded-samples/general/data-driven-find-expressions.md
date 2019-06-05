@@ -1,17 +1,17 @@
 ---
 title: Data Driven Find Expressions
 page_title: Data Driven Find Expressions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Data Driven Find Expressions in Test Studio test. Select different value from a drop down for each test run. Parameterize or data drive how an element in Test Studio test is found."
 previous_url: /user-guide/code-samples/general/data-driven-find-expressions.aspx, /user-guide/code-samples/general/data-driven-find-expressions
 position: 1
 ---
-#Data Driven Find Expressions#
+# Data Driven Find Expressions #
 
 *I would like to data drive a find expression and use it to perform an action against or verify an element.*
 
 > After 2012 R2, you can create <a href="/features/elements-explorer/find-element#data-driven" target="_blank">data driven find expressions without code</a>.
 
-##Soluiton##
+## Solution ##
 
 The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/combobox/index" target="_blank">Telerik demo site</a>.
 
@@ -46,5 +46,3 @@ listItem.Click()
 [1]: /img/advanced-topics/coded-samples/general/data-driven-find-expressions/fig1.png
 [2]: /img/advanced-topics/coded-samples/general/data-driven-find-expressions/fig2.png
 [3]: /img/advanced-topics/coded-samples/general/data-driven-find-expressions/fig3.png
-
-

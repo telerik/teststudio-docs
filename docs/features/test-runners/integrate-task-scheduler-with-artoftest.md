@@ -1,7 +1,7 @@
 ---
 title: Integrate Windows Task Scheduler with ArtOfTest.Runner
 page_title: Integrate Windows Task Scheduler with ArtOfTest.Runner
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio can integrate the command line runner ArtOfTest.Runner with Windows Task Scheduler "
 position: 1
 ---
 # Integrate Windows Task Scheduler with ArtOfTest.Runner
@@ -33,7 +33,6 @@ position: 1
 Windows Task Scheduler will run the .bat file in the selected time. 
 
 > OnBeforeTestListStarted and OnAfterTestListCompleted methods will be called accordingly.
-
 
 
 [1]: /img/features/test-runners/integrate-task-scheduler-with-artoftest/fig1.png

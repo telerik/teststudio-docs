@@ -1,7 +1,7 @@
 ---
 title: Comment
 page_title: Comment
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to add a comment in Test Studio test. Comment step during a test run/execution in Test Studio"
 previous_url: /user-guide/add-custom-step/comment.aspx, /user-guide/add-custom-step/comment
 position: 10
 ---

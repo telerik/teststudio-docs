@@ -1,7 +1,7 @@
 ---
 title: Custom Plugin
 page_title: Create a Custom Bug Tracking Plugin
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create a Custom Bug Tracking Plugin in Test Studio. Interface Test Studio with your custom Bug Tracking application. Sample code to build custom bug tracking plugin in Test Studio."
 previous_url: /user-guide/extensions/bug-tracking/custom-plugin.aspx, /user-guide/extensions/bug-tracking/custom-plugin
 position: 1
 ---
@@ -9,8 +9,7 @@ position: 1
 
 This document shows you how to build a plugin to interface Test Studio with your custom Bug Tracking application, such as JIRA's bug tracking system. For a complete working example, including source code, go to the <a href="https://github.com/TestStudio/JiraPlugin" target="_blank">JIRA bug tracking repository on GitHub</a>.
 
- 
-> After 2014 R2 Test Studio has integration with <a href="/features/integration/bug-tracking/Configuration#jira" target="_blank">Jira bug tracker</a>.
+> As of Test Studio release 2014 R2 (v.2014.2.618) Test Studio has integration with <a href="/features/integration/bug-tracking/Configuration#jira" target="_blank">Jira bug tracker</a>.
 
 Test Studio uses its plugins model to run the Bug Trackers. The type of Bug Tracking tool isn't important – it's all about the actual implementation of the Bug Tracker (IBugTracker interface). The absolute minimum is to just implement the IBugTracker interface to display the app in the **Manage Bug Tracking** dialog. Find a sample class below.
 
@@ -42,9 +41,8 @@ namespace ClassLibrary1
 ```
 
 5.&nbsp; Right click on IBugTracker and select Implement Interface > Implement Interface. This displays all the methods   	and notifications exposed by Test Studio. Here are definitions for each IBugTracker member:
-	
-<code>
 
+```C#
 	namespace ClassLibrary1
 	{
 		public class Class2 : IBugTracker
@@ -121,10 +119,10 @@ namespace ClassLibrary1
         #endregion
     }
     }
-</code>
+```
 
 6.&nbsp; Any implementation beyond this is specific to the actual Bug Tracking application you're using.
-	
+
 - **ConnectionUI** is a WPF control Test Studio loads when you choose to configure the selected bug tracker.
 - The bug tracker implementation is supposed to work with the ConnectionUI inputs, hence it depends on the needs of the specific bug tracker.
 - For example, if the bug tracker requires a Server URL field, you can add that input here.
@@ -137,27 +135,25 @@ namespace ClassLibrary1
 
 8.&nbsp; Compile the class library.
 
-9.&nbsp; Deploy the plugin by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to one 	of the following directories:
+9.&nbsp; Deploy the plugin by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to one of the following directories:
 
-- For versions 2012.2.920 and later:  **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\**
-- For versions before 2012.2.920: **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\BugTrackers\**
+- For Test Studio versions 2012.2.920 and later:  **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\**
+- For Test Studio versions before 2012.2.920: **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\BugTrackers\**
 
-	> To implement the auto-submit option (specifically for Visual Studio execution), the signed assembly must be installed into the GAC.
-
+> To implement the auto-submit option (specifically for Visual Studio execution), the signed assembly must be installed into the GAC.
+</br>
+</br>
+</br>
+> Note that as of version **2017 R3 2017.3.1010** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 The **IBugTrackerConnectionUI** interface exposes additional methods to further customize the connection dialog behavior. For example, use it if you'd like to restrict submitting the data depending on what's entered.
 
 
 Create another class and implement the **IBugTrackerConnectionUI** interface. Here are the definitions for each **IBugTrackerConnectionUI** member:
 
-	
-<code>
-			
-
-
-
-		public class Class3 : IBugTrackerConnectionUI
-			{
+```C#
+        public class Class3 : IBugTrackerConnectionUI
+                {
     	#region IBugTrackerConnectionUI Members
  
     	/// <summary>
@@ -222,6 +218,4 @@ Create another class and implement the **IBugTrackerConnectionUI** interface. He
 	 
 	    #endregion
 		}
-
-</code>
-	
+```

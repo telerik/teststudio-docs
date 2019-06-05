@@ -1,12 +1,10 @@
 ---
 title: Remote Run All In One Configuration
 page_title: Remote Run All In One
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio can be configured to run tests and test lists on remote execution machines. Scheduling setup. Telerik Scheduling Storage service"
 position: 3
 ---
-# All-In-One Installation
-
-## Remote Execution
+# Remote Scheduled Test Execution
 
 Watch a <a href="http://www.telerik.com/automated-testing-tools/support/videos/best-practices/how-to-setup-test-studio-remote-execution.aspx" target="_blank">video tutorial</a> on how to setup remote execution.
 

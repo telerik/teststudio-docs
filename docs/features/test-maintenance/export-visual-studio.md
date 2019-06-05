@@ -1,7 +1,7 @@
 ---
 title: Export to Visual Studio
 page_title: Export to Visual Studio
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Export Test Studio project to Visual Studio. Open Test Studio Project in Visual Studio."
 previous_url: /user-guide/modifying-tests/export-to-visual-studio.aspx, /user-guide/modifying-tests/export-to-visual-studio
 position: 1
 ---

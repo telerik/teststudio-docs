@@ -1,7 +1,7 @@
 ---
 title: Open Port on Server
 page_title: Open Port on Server
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Open Port on Server for a performance test in Test Studio project."
 previous_url: /user-guide/performance/open-port-on-server.aspx, /user-guide/performance/open-port-on-server
 position: 2
 ---

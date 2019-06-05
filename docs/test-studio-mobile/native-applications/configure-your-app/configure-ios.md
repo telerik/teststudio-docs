@@ -11,7 +11,7 @@ position: 2
 
 #Configure your iOS app to be testable
 
-> The application configured following the steps bellow, should be used for testing purposes only and will not be accepted in Apple App Store. 
+> The application configured following the steps below, should be used for testing purposes only and will not be accepted in Apple App Store. 
 
 ## Duplicate Target
 
@@ -105,7 +105,7 @@ position: 2
 
   > The **URL Schemes** should not contain any spaces. The APPLICATIONNAME portion need not match your duplicate Target name exactly, however we recommend consistency. The only requirement is that APPLICATIONNAME is unique so it does not conflict with another testable application.
 
-  > If you deploy the app to an **iOS 9+** device  then you must use one of the names listed bellow:
+  > If you deploy the app to an **iOS 9+** device  then you must use one of the names listed below:
   *	telerikmt1
   *	telerikmt2
   *	telerikmt3

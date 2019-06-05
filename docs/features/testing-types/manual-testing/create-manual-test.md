@@ -1,7 +1,7 @@
 ---
 title: Create a Manual Test
 page_title: Create a Manual Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create a Manual Test in Test Studio."
 position: 2
 ---
 # Create a Manual Test
@@ -20,7 +20,6 @@ position: 2
 * __Custom Property__ - you can better organize your tests using custom property. 
 * __Notes__ - add helpful descriptions and test requirements.
 * __Images__ - attach screen shots or image assets of your application.
-
 
 ![Manual test view][4]
 

@@ -1,7 +1,7 @@
 ---
 title: TeamCity Builds
 page_title: TeamCity Test Execution
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Integrate Test Studio tests in TeamCity continuous integration. Execute Test Studio tests with TeamCity."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/teamcity.aspx, /user-guide/command-line-test-execution/continuous-integration/teamcity
 position: 2
 ---
@@ -62,9 +62,11 @@ For report type select "Ant JUnit" and save build feature.
 
 For "Monitoring rules" specify output directory from previous step and ad all xml files.
 
-Example: 
-	C:\Users\deyan\Desktop\TestStudioResults\*.xml
- 
+Example:
+```
+C:\Users\deyan\Desktop\TestStudioResults\*.xml
+```
+
 [1]: /img/advanced-topics/build-server/team-city-builds/New_project.png
 [2]: /img/advanced-topics/build-server/team-city-builds/New_Build_config.png
 [3]: /img/advanced-topics/build-server/team-city-builds/New_build_step.png

@@ -1,7 +1,7 @@
 ---
 title: Run List Remotely
 page_title: Run List Remotely
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio test list executed run on remote machine"
 previous_url: /user-guide/scheduling-test-runs/run-list-remotely.aspx, /user-guide/scheduling-test-runs/run-list-remotely
 position: 8
 ---
@@ -31,7 +31,7 @@ Once you've correctly configured a Scheduling Server and you've attached at leas
 
 ## View Test List Results 
 
-Go to the **Results** tab to view the outcome. <a href="/features/scheduling-test-runs/scheduling-results" target="_blank">See here</a> for furhter information. 
+Go to the **Results** tab to view the outcome. <a href="/features/scheduling-test-runs/scheduling-results" target="_blank">See here</a> for further information.
 
 ![Results][4]
 

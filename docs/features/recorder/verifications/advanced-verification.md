@@ -1,7 +1,7 @@
 ---
 title: Advanced Verification
 page_title: Create Advanced Test Verifications
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Create Advanced Test Verifications in Test Studio test. Verify an element's attribute in Test Studio test"
 previous_url: /user-guide/verifications/advanced-verification.aspx, /user-guide/verifications/advanced-verification, /features/verifications/advanced-verification
 position: 1
 ---

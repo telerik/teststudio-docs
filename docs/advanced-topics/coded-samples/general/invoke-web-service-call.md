@@ -1,7 +1,7 @@
 ---
 title: Invoke Web Service Call
 page_title: Invoke a Web Service Call
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Invoke a Web Service Call from a coded step in Test Studio."
 previous_url: /user-guide/code-samples/general/invoke-web-service-call.aspx
 position: 1
 ---
@@ -10,7 +10,6 @@ position: 1
 *I would like to invoke a web service call from a coded step in Test Studio and verify its response.*
 
 ##Solution##
-
 
 Below you will find a code sample which demonstrates one possible solution for this automation challenge. This sample requires that you add references to the following assemblies:
 
@@ -86,4 +85,3 @@ Using response As WebResponse = request.GetResponse()
     End Using
 End Using
 ```
-

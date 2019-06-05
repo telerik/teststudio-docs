@@ -1,7 +1,7 @@
 ---
 title: Execution Delay
 page_title: Execution Delay
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "How to make the execution of a test in Test Studio wait for some time. How can I slow down the test run in Test Studio. How to insert execution delay in Test Studio."
 position: 4
 ---
 # Execution Delay

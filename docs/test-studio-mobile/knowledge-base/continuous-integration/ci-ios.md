@@ -39,7 +39,7 @@ This topic is dedicated to the steps that can be followed to create a Jenkins CI
 
   In this step add a short script that will start a simulator, install apps in it and execute tests. Note the describing comments in the code.
 
-  > Before the script bellow is called the Mobile Testing Agent app must be [installed]({% slug ms-install-agent-app%}) and the testable аpp must be [configured for testing]({% slug ms-configure-ios%}) and available for deployment as built .app file.
+  > Before the script below is called the Mobile Testing Agent app must be [installed]({% slug ms-install-agent-app%}) and the testable аpp must be [configured for testing]({% slug ms-configure-ios%}) and available for deployment as built .app file.
 
 
   ```

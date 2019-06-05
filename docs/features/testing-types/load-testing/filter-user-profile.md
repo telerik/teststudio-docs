@@ -1,7 +1,7 @@
 ---
 title: Filter User Profile
 page_title: Filter User Profile
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Filter User Profile in Test Studio. Remove domains from the load test user profile."
 position: 14
 ---
 # Filter User Profile
@@ -21,7 +21,7 @@ To search for a domain in the domains list, input the domain name under **Active
 ![Active Domains][4]
 <br>
 <br>
-**See Also**
+**See Also:**
 
 - <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">Capturing Traffic</a>
 

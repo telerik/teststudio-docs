@@ -1,12 +1,11 @@
 ---
 title: Add Path to Environment Variables
 page_title: Add Path to Environment Variables
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Add Path to Environment Variables. Workaround to avoid always navigate to the Bin directory each time you want to call the execution engine"
 previous_url: /user-guide/test-runners/addpathtoenvironmentvariables.aspx, /user-guide/test-runners/addpathtoenvironmentvariables
 position: 1
 ---
 # Add Path to Environment Variables
-
 
 It can get tedious to always have to navigate to the Bin directory each time you want to call the execution engine. A great workaround is to register this path with Windows so that you can call ArtOfTest.Runner.exe from any directory within the command prompt.
 

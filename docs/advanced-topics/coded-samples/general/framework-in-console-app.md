@@ -1,7 +1,7 @@
 ---
 title: Framework in Console App
 page_title: Framework in Console App
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio - create a console application that performs UI automation tasks by using the Telerik Testing Framework."
 position: 1
 ---
 #Create a Console Application that Utilizes the Telerik Testing Framework#

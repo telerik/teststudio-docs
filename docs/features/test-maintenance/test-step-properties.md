@@ -1,7 +1,7 @@
 ---
 title: Test Step Properties
 page_title: Test Step Properties
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test Step Properties shown in the properties pane to the right"
 previous_url: /user-guide/modifying-tests/change-test-step-properties.aspx, /user-guide/modifying-tests/change-test-step-properties
 position: 1
 ---

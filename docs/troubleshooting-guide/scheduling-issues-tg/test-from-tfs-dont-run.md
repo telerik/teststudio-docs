@@ -27,7 +27,7 @@ The first time a project is opened from TFS it is mapped to a local directory. A
           at Telerik.TestStudio.Shared.Storage.Local.FileReaderWriterSync.<ReadFileAsync>d__1.MoveNext()
 ```
 
-The remote path in TFS for each source control enabled project is stored in the Settings.aiis file and could be changed only manually. The value of "RemotePath" setting in Test Studio project settings file (Settings.aiis) must be updated with the actual TFS project location. For your reference bellow is listed part of a sample Settings.aiis file showing the "RemotePath" setting:
+The remote path in TFS for each source control enabled project is stored in the Settings.aiis file and could be changed only manually. The value of "RemotePath" setting in Test Studio project settings file (Settings.aiis) must be updated with the actual TFS project location. For your reference below is listed part of a sample Settings.aiis file showing the "RemotePath" setting:
 
 ```
     ...

@@ -1,7 +1,7 @@
 ---
 title: Relative Dialog Path
 page_title: Relative Dialog Path
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Use relative paths in a Test Studio test - upload/download dialog handling."
 position: 1
 ---
 
@@ -37,5 +37,3 @@ using System.IO;
 ```VB
 Imports System.IO
 ```
-
-

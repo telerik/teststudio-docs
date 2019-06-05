@@ -1,7 +1,7 @@
 ---
 title: TFS Builds
 page_title: TFS Builds
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Integrate Test Studio tests in TFS continuous integration. Execute Test Studio tests with TFS build."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds.aspx, /user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds
 position: 2
 ---
