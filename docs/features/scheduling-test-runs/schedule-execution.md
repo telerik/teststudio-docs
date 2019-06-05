@@ -69,11 +69,13 @@ To remove a scheduled test execution:
 
 ## Automatically upload changed project files to Storage
 
-As of release **2017 R3** (v.2017.3.1010) you could choose whether to automatically upload all recent changes to the storage database. The below dialog will be triggered after saving the project and if there are any upcoming scheduled test list runs within that project.
+As of release **2017 R3** (v.2017.3.1010) you can choose whether to automatically upload all recent changes to the storage database. The below dialog will be triggered after saving the project and if there are any upcoming scheduled test list runs within that project.
 
 ![Automatic Files Update][13]
 
 If it is clear whether the automatic upload for that project is required or not and you don't want to see the notification by each save operation you could check the respective checkbox. The selected option will be applied on project level and performed automatically once the project is saved. Alternatively you could leave the prompt dialog to be triggered by each save operation and choose each time whether to upload the changes or not.
+
+> **Note:**  See <a href="/knowledge-base/scheduling-kb/upload-latest-files#automatic-upload-of-recent-changes">here</a> for more details if that message doesn't appear anymore. 
 
 <br/>
 

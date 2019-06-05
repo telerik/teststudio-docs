@@ -40,7 +40,7 @@ You can also download Test Studio from your telerik.com account.
 ## Install Test Studio ##
 
 1. After you have [downloaded the install file](#download-test-studio), locate it using Windows Explorer and double click it to launch the installer.
-2. Click the __Read License Agreement__ to read the Test Studio EULA. When ready click __OK__ and then __I Agree – Continue__ button to confirm you agree with the terms of the license. .
+2. Click the __Read License Agreement__ to read the  <a href="http://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Test Studio EULA</a>. When ready click __OK__ and then __I Agree – Continue__ button to confirm you agree with the terms of the license.
 
 	![Setup Wizzard](/img/getting-started/installation-and-activation/fig06.png)
 
