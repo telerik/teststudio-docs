@@ -63,7 +63,7 @@ You can also download Test Studio from your telerik.com account.
 
 5. Review the custom selections and click __OK__ and then __Install__ to start the installation process.
 
-	![Installing](/img/getting-started/installation-and-activation/fig11.png)
+	![Installing](/img/getting-started/installation-and-activation/fig11.gif)
 
 6. When the install is complete, the __Installation Successful__  screen is displayed.
 
