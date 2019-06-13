@@ -2,7 +2,6 @@
 title: Configure Windows Server
 page_title: Configuring Windows Server 2008/2012 for Test Automation
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/installation/configure-windows-server.aspx, /user-guide/installation/configure-windows-server, /getting-started/installation/configure-windows-server
 position: 9
 ---
 # Configuring Windows Server 2008/2012 for Test Automation #
