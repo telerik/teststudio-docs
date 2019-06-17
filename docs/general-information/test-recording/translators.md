@@ -2,7 +2,7 @@
 title: Translators
 page_title: Translators
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/recording-tests/translators.aspx, /user-guide/recording-tests/translators, /getting-started/test-recording/translators
+previous_url: /user-guide/recording-tests/translators.aspx, /user-guide/recording-tests/translators
 position: 1
 ---
 #Translators#
