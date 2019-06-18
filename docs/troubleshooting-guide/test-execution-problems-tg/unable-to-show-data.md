@@ -24,6 +24,6 @@ I am able to bind an excel file to be used for data driving a test but there are
 
 ## SOLUTION
 
-Download and install the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=13255" target="_blank">Microsoft Access Database Engine 2010</a>. It will install the required drivers for communication between Test Studio and the Microsoft Office files for all of the above cases.
+Download and install the 32-bit version of <a href="https://www.microsoft.com/en-us/download/details.aspx?id=13255" target="_blank">Microsoft Access Database Engine 2010</a>. It will install the required drivers for communication between Test Studio and the Microsoft Office files for all of the above cases.
 
 [1]: /img/troubleshooting-guide/test-execution-problems-tg/unable-to-show-data/fig1.png
