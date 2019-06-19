@@ -42,7 +42,7 @@ The *'name'* portion of a FindClause pair can be any element's property that a c
 
 - AutomationId - search for an element having an automation ID of a specific value.
 
-- TextContent - search for an containing or not containing some text in the element.
+- TextContent - search for an element containing or not containing some text.
 
 - XamlTag - search for an element of a specific type.
 
@@ -61,7 +61,7 @@ The *'name'* portion of a FindClause pair can be any element's property that a c
 ### Comparison Operators
 
 The available comparison operators for each FindClause are: *'is exactly'*, *'contains'*, *'does not contain'*, *'starts with'*, *'ends with'*,
-*'matches the regular expression'*, *'is missing'*, *'exists'*.
+*'matches the regular expression'*, *'is missing'* and *'exists'*.
 
 ![FindClause comparison operators][2]
 
@@ -71,7 +71,7 @@ The find expression of elements in Test Studio is also enhanced with correspondi
 
 ### Conditions to Fall Back to Find Elements by Image
 
-The test execution flow remains unchanged. The enhancement is that when an element fails to be located on page with its find expression within the set [Elements Timeout](/general-information/test-execution/quick-execution#execution-timeouts), Test Studio automatically falls back to the element image search and continue as expected if the element is found by the predefined image. The execution results contain warning that the element's find expression didn't match any element on page and it was found by image.
+The test execution flow remains unchanged. The enhancement is that when an element fails to be located on page with its find expression within the set [Elements Timeout](/general-information/test-execution/quick-execution#execution-timeouts), Test Studio automatically falls back to the element image search and continues as expected if the element is found using the predefined image. The execution results contain warning that the element's find expression didn't match any element on page and it was found by image.
 
 ### Modifying the Predefined Image
 

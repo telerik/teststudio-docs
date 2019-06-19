@@ -6,7 +6,7 @@ position: 3
 ---
 # Modifying Element's Image
 
-As of Test Studio release 2019 R2 (v.2019.2.619) the elements <a href="/features/elements-explorer/elements-find-expression" target="_blank">find expression</a> is enhanced with an image and thus, each newly recorded element gets an image along with its automatically generated find expression. The image will be used as a backup search criteria in case the element's find clauses didn't match any element on the page.
+As of Test Studio release 2019 R2 (v.2019.2.619) the elements' <a href="/features/elements-explorer/elements-find-expression" target="_blank">find expression</a> is enhanced with an image and thus, each newly recorded element gets an image along with its automatically generated find expression. The image will be used as a backup search criteria in case the element's find clauses didn't match any element on the page.
 
 ## Edit Image in Elements Edit Mode
 
@@ -60,9 +60,9 @@ The recorded image keeps details for the browser and display used to be recorded
 
 The threshold and index values in this section can be additionally adjusted depending on the scenarios to cover. The important notes to keep in mind are listed below:
 
-- **Threshold** - the default value is 90 and can be adjusted on project level in the <a href="/features/project-settings/element-images" target="_blank">Project Settings</a>. The threshold can be lowered if the tests are failing when executed against different browser or on other display. However, setting it too low can lead to locating incorrect images. Since adjusting the optimal value for the threshold depends on the tested application and execution requirements, we recommend to perform few test runs and find out which will suit best on the current project.
+- **Threshold** - the default value is 90 and can be adjusted on project level in the <a href="/features/project-settings/element-images" target="_blank">Project Settings</a>. The threshold can be lowered if the tests are failing when executed against different browser or on other display. However, setting it too low can lead to locating incorrect images. Since adjusting the optimal value for the threshold depends on the tested application and execution requirements, we recommend to perform few test runs and find out which will suit best for the current project.
 
-- **Index** - the index is zero based and its value is recorded depending on how many matching images are found on the current page. The amount of matching images depends on the set threshold, so changing the threshold will affect the index as well.
+- **Index** - the index is zero based and its value is recorded depending on how many matching images are found on the current page. The number of matching images depends on the set threshold, so changing the threshold will affect the index as well.
 
 ## Recording New Image
 
@@ -120,7 +120,7 @@ The highlighted image can be resized horizontally, vertically or proportionally 
 
 ![Resize the Selected Image][15]
 
-### View Recorded Image and The Current Selected
+### View Recorded Image and the Current Selected
 
 While changing the selected element on the page, the **Image Recorder** displays the newly selected image next to the image, which is still in use and needs to be replaced.
 

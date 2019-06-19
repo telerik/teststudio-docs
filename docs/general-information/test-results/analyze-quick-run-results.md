@@ -10,7 +10,7 @@ The Quick Run results are generated after a <a href="/general-information/test-e
 
 ## Generate the Quick Execution Log
 
-<a href="/getting-started/first-project#test-recording" target="_blank">Record and execute a test</a>. The generated Quick Run results are displayed in the upper ribbon in the <a href="/features/test-maintenance/steps-pane" target="_blank">Steps Pane</a>. You can see the overall result - passed or failed, to open the execution log, or directly clear the results.
+<a href="/getting-started/first-project#test-recording" target="_blank">Record and execute a test</a>. The generated Quick Run results are displayed in the upper ribbon in the <a href="/features/test-maintenance/steps-pane" target="_blank">Steps Pane</a>. You can see the overall result - passed or failed, open the execution log, or directly clear the results.
 
 ![Quick Run results][1]
 
