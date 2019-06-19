@@ -1,7 +1,7 @@
 ---
 title: Analyze Test List Results
 page_title: Analyze Test List Results
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test List Results. Analyze test list results. Explore test list results in Test Studio."
 previous_url: /user-guide/test-results/analyze-test-results.aspx, /user-guide/test-results/analyze-test-results, /getting-started/test-results/analyze-test-results
 position: 1
 ---
@@ -28,6 +28,30 @@ The **Test Results** panel allows you to traverse test execution results, drilli
 If the test contains a <a href="/features/custom-steps/test-as-step" target="_blank">Test as Step</a>, ![More icon][3] appears next to the Test as Step. Double click that step to view the step results for that Test as Step.
 
 ![Step as step results][4]
+
+## Element Not Found Results
+
+### Successful Test List Run with Warnings
+
+The automatic fall back to image based search of elements will log a warning in the test list result. The test list result is marked as successful as all elements are located, but if any element failed to be located by its default find expression, it will be listed for your convenience.
+
+![Successful Test List Result with Warnings][10]
+
+Double click the result to see details for the warning in the test list result.
+
+![Test List result Warning details][11]
+
+### Resolve the Warning
+
+Test Studio provides direct access from the test list results to the <a href="/features/elements-explorer/find-element" target="_blank">Element Edit Pane</a> in order to modify the element's find expression.
+
+![Resolve Find Expression warning][12]
+
+### Failed Test List Run
+
+An element, which failed to be located by its backup image search, will fail the test and test list result will be reported as Failed. The test result provides details for the failure in the <a href="/general-information/test-results/step-failure-details" target="_blank">step failure details</a>, including if the image based search was used.
+
+![Image based search failure in step failure details][13]
 
 ## In Development Tests Results
 
@@ -59,3 +83,7 @@ Click the _'Screen Recording Info'_ icon for any of the tests which triggered vi
 [6]: /img/general-information/test-results/analyze-test-results/fig6.png
 [7]: /img/general-information/test-results/analyze-test-results/fig7.png
 [8]: /img/general-information/test-results/analyze-test-results/fig8.png
+[10]: /img/general-information/test-results/analyze-test-results/fig10.png
+[11]: /img/general-information/test-results/analyze-test-results/fig11.png
+[12]: /img/general-information/test-results/analyze-test-results/fig12.gif
+[13]: /img/general-information/test-results/analyze-test-results/fig13.png

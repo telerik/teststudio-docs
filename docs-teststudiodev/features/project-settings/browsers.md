@@ -1,12 +1,12 @@
 ---
 title: Browsers
 page_title: Browsers Settings| Test Studio Dev Documentation
-description: Configure browsers to be used for recording and execution with Test Studio Dev. 
-position: 3
+description: "Configure browsers to be used for recording and execution with Test Studio Dev."
+position: 4
 ---
-# Browsers Tab In Project Settings
+# Browsers Tab in Project Settings
 
-Under the Browser Tab, you can set your preferred browser and calibrate your browsers. 
+Under the Browser Tab, you can set your preferred browser and calibrate your browsers.
 
 ![Browsers][1]
 

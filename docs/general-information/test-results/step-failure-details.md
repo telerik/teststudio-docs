@@ -1,7 +1,7 @@
 ---
 title: Step Failure Details
 page_title: Step Failure Details
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Step Failure Details. Analyze test run failure. My test studio test failed. How to fix a failed test studio test. "
 previous_url: /user-guide/test-results/step-failure-details.aspx, /user-guide/test-results/step-failure-details, /getting-started/test-results/step-failure-details
 position: 1
 ---

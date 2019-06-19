@@ -1,7 +1,7 @@
 ---
 title: Test as Step Results
 page_title: Test as Step Results
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test as Step Results. Analyze the Test Studio test as step results. Nested tests results. "
 previous_url: /user-guide/test-results/test-as-step-results.aspx, /user-guide/test-results/test-as-step-results, /getting-started/test-results/quick-execution-test-step
 position: 1
 ---
