@@ -92,7 +92,7 @@ navigation:
         title: "Verifications"
         position: 2
     features/elements-explorer:
-        title: "Elements Explorer"
+        title: "Elements"
         position: 2
     features/project-settings:
         title: "Project Settings"

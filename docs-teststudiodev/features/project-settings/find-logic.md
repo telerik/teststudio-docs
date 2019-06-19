@@ -1,8 +1,8 @@
 ---
 title: Find Logic (Html)
 page_title: Find Logic (Html) | Test Studio Dev Documentation
-description: Modify the attributes to be considered when generating find expression during recording with Test Studio Dev
-position: 3
+description: "Modify the attributes to be considered when generating find expression during recording with Test Studio Dev"
+position: 5
 ---
 # Find Logic Tab in Project Settings
 

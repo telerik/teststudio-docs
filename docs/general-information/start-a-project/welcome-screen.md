@@ -1,48 +1,54 @@
 ---
 title: Welcome Screen
 page_title: Welcome Screen
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio welcome screen. Start a new project in Test Studio. Open an existing project in Test Studio. Get started with Test Studio. Update Test Studio. Check/Find Test Studio version. News related to Test Studio. New Test Studio blogs"
 position: 0
 ---
 # Welcome Screen
 
 The Welcome Screen is displayed immediately after launching Test Studio.
 
-It lets you access or create projects, getting started samples for the product, or notification about software updates.
+It lets you access or create projects, getting started samples for the product, guided tutorials and notification about software updates.
 
-## Create Project (Version 2016 R2 and Later)
+## Project Tab
 
-In this section you could choose among different type projects - **Web & Desktop**, **Mobile** or **API**. Select the desired type you want to create, specify its name and location and click on the 'Create' button. 
+In this section you can choose whether to create a new project or load an existing one.
 
-![Create Project][1]
+![Project Tab][1]
 
-## Recent Projects
+### Create a New Project
 
-*Recent projects* tab lists the recently opened projects displaying their name and full physical path. 
+Click on *'Create Project'* to proceed with starting a new project. 
 
-![Recent Projects][2]
+![Create Project][2]
 
-## Open Project
+Here you can choose among different type projects - <a href="/getting-started/first-project" target="_blank">**Web & Desktop**</a>, <a href="/test-studio-mobile/getting-started/native-applications" target="_blank">**Mobile**</a> or <a href="https://docs.telerik.com/teststudio-apis/getting-started/sample-project" target="_blank">**API**</a>. Select the desired type project you want to create, specify its name and location and click on the *'Create'* button.
 
-*Open Projects* tab allows you to choose whether to open an existing local project or connect to source control and clone a project from a remote repository. 
+![Choose Project Type and Name][3]
 
-![Open Projects][3]
+The *'Back'* button returns to the Project tab.
 
-### Add Tests To Your Project
+### Open Existing Project
 
-Once the test project is created you can start <a href="/getting-started/create-test-standalone/add-test" target="_blank">adding tests</a>.
+To open an existing project you can choose whether to open an existing local project or connect to source control and clone a project from a remote repository, or use the *Recent projects* list, which shows the recently opened projects, displaying their name and full physical path.
+
+![Open Existing Project][4]
+
+### Add Tests to Your Project
+
+Once the test project is created you can start <a href="/getting-started/first-project#add-a-test-to-the-project" target="_blank">adding tests</a>.
 
 ## Get Started
 
-The *Get Started* section allows you to create demo projects of the three different types - **Web & Desktop**, **Mobile** or **API**. These will be helpful to start creating your first tests.
+The *Get Started* section provides access to the different types demo projects, video tutorials, and interactive in-product tutorials to guide you through the Test Studio tool.
 
-![Get Started Projects][4]
+![Get Started][5]
 
-## Software Updates
+## Software Update
 
 Under this section you can find information about the installed version of Test Studio, activation and update notifications.
 
-![Software Updates][5]
+![Software Update][6]
 
 **Product Version**
 
@@ -58,9 +64,9 @@ This section displays options to <a href="/getting-started/installation/check-fo
 
 ## Newsfeed
 
-As of release **R1 2018 (v.2018.1.301)** once Test Studio is launched you will see the Newsfeed section. It will inform you for any important news related to the product, will share new blog posts in regards Test Studio features and capabilities. Its content is live updated and requires internet connection. 
+As of release **R1 2018 (v.2018.1.301)** once Test Studio is launched you will see the *Newsfeed* section in the Welcome Screen. It will inform you for any important news related to the product, will share new blog posts in regards Test Studio features and capabilities. Its content is live updated and requires Internet connection.
 
-![Newsfeed][6]
+![Newsfeed][7]
 
 [1]: /img/general-information/start-a-project/welcome-screen/fig1.png
 [2]: /img/general-information/start-a-project/welcome-screen/fig2.png
@@ -68,3 +74,4 @@ As of release **R1 2018 (v.2018.1.301)** once Test Studio is launched you will s
 [4]: /img/general-information/start-a-project/welcome-screen/fig4.png
 [5]: /img/general-information/start-a-project/welcome-screen/fig5.png
 [6]: /img/general-information/start-a-project/welcome-screen/fig6.png
+[7]: /img/general-information/start-a-project/welcome-screen/fig7.png

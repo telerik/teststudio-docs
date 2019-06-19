@@ -1,12 +1,12 @@
 ---
 title: Updates 
 page_title: Updates | Test Studio Dev Documentation
-description: Double check your Test Studio Dev version, activate/deactivate your license key, check for updates. 
-position: 4
+description: "Double check your Test Studio Dev version, activate/deactivate your license key, check for updates." 
+position: 6
 ---
 # Updates Tab in Project Settings
 
-The _Updates_ tab provides information for the current product version, current active license key and available updates. 
+The _Updates_ tab provides information for the current product version, current active license key and available updates.
 
 ![Updates][1]
 
@@ -20,6 +20,6 @@ Double check whether your license key is a Trial or a Purchased one. You can als
 
 **Update And Updates Notifications**
 
-Set when to be notified for available updates of __Test Studio Dev__ and what type of builds to be notified for. 
+Set when to be notified for available updates of __Test Studio Dev__ and what type of builds to be notified for.
 
 [1]: images/updates/fig1.png

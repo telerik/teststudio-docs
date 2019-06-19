@@ -20,5 +20,17 @@ Use this dialog to configure how tests are recorded, fine tune how web page elem
 <tr>
 <table>
 
+The available settings are divided in few areas:
+
+- <a href="/features/project-settings/general" target="_blank">General</a>
+- <a href="/features/project-settings/recording-options" target="_blank">Recording</a>
+- <a href="/features/project-settings/element-images" target="_blank">Element Images</a>
+- <a href="/features/project-settings/browsers" target="_blank">Browsers</a>
+- <a href="/features/project-settings/find-logic" target="_blank">Find Logic (html)</a>
+- <a href="/features/project-settings/script-options" target="_blank">Script</a>
+- <a href="/features/project-settings/translators" target="_blank">Translators</a>
+- <a href="/features/project-settings/analytics" target="_blank">Analytics</a>
+- <a href="/features/project-settings/updates" target="_blank">Updates (Visual Studio only)</a>
+
 [1]: /img/features/project-settings/overview/fig1.png
 [2]: /img/features/project-settings/overview/fig2.png

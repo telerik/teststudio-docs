@@ -1,15 +1,13 @@
 ---
-title: Find Element
-page_title: Find Element
+title: Modifying Elements Find Expression
+page_title: Modifying Elements Find Expression
 description: "Unable to find Element - Test Studio test failure. How to change how an element is located in Test studio test run/ execution. Update the elements find expression in Test Studio. How to adjust the proeprties used to locate an element in Test Studio."
 previous_url: /user-guide/elements-pane-overview/find-element.aspx, /user-guide/elements-pane-overview/find-element
-position: 3
+position: 2
 ---
-# Change How an Element Is Found
+# Modifying Element's Find Expression
 
-When an action is recorded against an element from a web page or WPF application, or an element is explicitly added to the Elements repository from the DOM explorer, Test Studio generates a **Find Expression**, which then uses to locate that element during execution. 
-
-In certain scenarios the automatically generated find expression may be ineffective, because locates multiple elements on the active window, or may use dynamically generated attributes, which are unreliable by the next test execution. In such cases you may require adjusting the find expression manually, so that it reflects the specifics of the application under test.
+In certain scenarios the automatically generated <a href="/features/elements-explorer/elements-find-expression" target="_blank">find expression</a> may be ineffective, because locates multiple elements on the active window, or may use dynamically generated attributes, which are unreliable by the next test execution. In such cases you may require adjusting the find expression manually, so that it reflects the specifics of the application under test.
 
 ## Version 2019 R1 and Later (Standalone Application Only)
 
@@ -17,12 +15,14 @@ In certain scenarios the automatically generated find expression may be ineffect
 
 To verify what find expression for an element was automatically generated and edit it, if necessary, use the <a href="/features/elements-explorer/overview#element-context-menu" target="_blank">Element's Explorer context menu</a> or double click on the same element.
 
+![Edit Element][101]![Edit Element Double Click][102]
+
 <table id="no-table">
 <tr>
-<td>![Edit Element][101]</td>
-<td>![Edit Element Double Click][102]</td>
+    <td>![Edit Element][101]</td>
+    <td>![Edit Element Double Click][102]</td>
 </tr>
-<table>
+</table>
 
 ### Edit Element Pane
 
@@ -31,8 +31,6 @@ Each element selected for edit will be opened as a separate tab in the test pane
 ![Element's Pane][103]
 
 To open another element to edit, select any other element from the Element's Explorer.
-
-![Open second Element][104]
 
 ### Options in Element Pane without Active Recording Session
 
@@ -50,7 +48,7 @@ Using the ***plus sign*** and ***recycle bin*** icons in the find expression fie
 
 ![Add/Delete Filter][107]
 
-From the *Edit Element* pane you can start a recording session choosing between:
+From the **Edit Element** pane you can start a recording session choosing between:
 
 ![Start recording session][108]
 
@@ -60,7 +58,7 @@ From the *Edit Element* pane you can start a recording session choosing between:
 
 ![Select step to execute to][109]
 
-- ***Choose Active Recorder*** dropdown - this dropdown will list any browser with active recording session. If this is empty, there is no application started in record mode. 
+- ***Choose Active Recorder*** dropdown - this dropdown will list any browser with active recording session. If this is empty, there is no application started in record mode.
 
 ![Choose Active Recorder][110]
 
@@ -88,13 +86,74 @@ If the element cannot be found in the current page with attached recorder, there
 
 ![Element Not found][115]
 
-Use the ***Validate Expression*** button to validate the changed find expression filters.
+Use the **Validate Expression** button to validate the changed find expression filters.
 
 ![Validate Expression][116]
 
-***Advanced Mode*** button displays the current find expression and allows you to type in a custom one. Click the button once again to switch back to filters view.
+### Elements Image Settings
+
+The ***Image Settings*** button switches the view in the Elements pane and provides details for the currently recorded image corresponding to that element. Read further <a href="/features/elements-explorer/find-element-by-image" target="_blank">**details for the Elements Image Settings**</a>.
+
+![Switch to Elements Image Settings][130]
+
+### Advanced Mode
+
+**Advanced Mode** button displays the current find expression in text format and allows you to type in a custom one.
 
 ![Advanced Mode][117]
+
+Below is a list of the optional supported operators, when building custom find expressions. Keep in mind that, when used, the operator is always the first character after the equal sign (=). The operator special character can be escaped with preceding apostrophe ('), if it is meant to be interpreted as a literal character.
+
+<table class="docs">
+<tr>
+	<th>Leading character</th><th>Example</th><th>Description</th>
+</tr>
+<tr>
+	<td>~</td>
+	<td>foo=~bar</td>
+	<td>Find the element where attribute foo 'contains' bar</td>
+</tr>
+<tr>
+	<td>!</td>
+	<td>foo=!bar</td>
+	<td>Find the element where attribute foo 'does not contain' bar</td>
+</tr>
+<tr>
+	<td>^</td>
+	<td>foo=^bar</td>
+	<td>Find the element where attribute foo 'starts with' bar</td>
+</tr>
+<tr>
+	<td>?</td>
+	<td>foo=?bar</td>
+	<td>Find the element where attribute foo 'ends with' bar</td>
+</tr>
+<tr>
+	<td>#</td>
+	<td>foo=#ba*</td>
+	<td>Find the element where attribute foo 'matches the regular expression' ba* - See this link for a description of regular expressions.</td>
+</tr>
+<tr>
+	<td>|</td>
+	<td>'id=CenterDiv', '|', 'tagIndex=a:2' </td>
+	<td>Chains two expressions together. Chained expressions work by finding the element that matches the first expression, then underneath that find the element that matches the next expression. There is no technical limit to how many expressions can be chained together. The example tells <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> to find the first element whose ID = CenterDiv and then under that element find the third anchor element (tagIndex is 0 based).</td>
+</tr>
+<tr>
+	<td>'</td>
+	<td>textContent=''City</td>
+	<td>Escape special characters. Find the element whose text = 'City', including the ' characters. </td>
+</tr>
+<tr>
+	<td>+</td>
+	<td>foo=+</td>
+	<td>Find the element that has the specified attribute. Find the element that has the attribute 'foo'.</td>
+</tr>
+<tr>
+	<td>-</td>
+	<td>foo=-</td>
+	<td>Find the element that does not have the specified attribute. Find the element that does not have the attribute 'foo'.</td>
+</tr>
+</table>
 
 ### Data Driven Find Expression
 
@@ -170,7 +229,7 @@ The **Connection Options** button takes you back to the **Find Element** splash 
 
 **The Suggestions and DOM** views are on the left side.
 
-- **Suggestions** - these are the suggested items to help you find the element in the application. Click an item to add it to your **Find Settings**. 
+- **Suggestions** - these are the suggested items to help you find the element in the application. Click an item to add it to your **Find Settings**.
 
 ![Suggestions][10]
 
@@ -262,3 +321,4 @@ Once you've confirmed you are targeting the correct element and it is correctly 
 [118]: /img/features/elements-explorer/find-element/fig118.png
 [119]: /img/features/elements-explorer/find-element/fig119.png
 [120]: /img/features/elements-explorer/find-element/fig120.png
+[130]: /img/features/elements-explorer/find-element/fig130.png
