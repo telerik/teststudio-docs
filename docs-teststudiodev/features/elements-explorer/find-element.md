@@ -6,13 +6,15 @@ position: 1
 ---
 # Change How an Element Is Found
 
-When a web page element has an action recorded against it, or you explicitly add an element to the Elements pane, a **Find Expression** is generated that Test Studio uses to find that specific element on the web page. __optionally add links to highlight element and step builder__
+When an action is recorded against an element from a web page or WPF application, Test Studio Dev generates a **Find Expression**, which is then used to locate that element in the application during execution. The same process is triggered if an element is explicitly added to the Elements repository from the DOM explorer. As of Test Studio Dev release 2019 R2 (v.2019.2.619) the elements' find expression is enhanced with an image and thus, each newly recorded element gets an image along with its automatically generated find expression. The image will be used as a backup search criteria in case the element's find clauses didn't match any element on the page.
+
+> **Note:** The recording of images in a Test Studio Dev project is enabled by default. The recorded images cannot be modified or changed. You can only <a href="/features/project-settings/element-images" target="_blank">disable the usage of images</a> during execution of the tests from certain project.
 
 In some occasions the automatically generated find expression may not be suitable and may require to be modified. To change how an element is found, right click on the element in the Elements explorer __add a link__ and select either **Edit Element** or __Edit in Live__.
 
 ![Edit Element VS](images/find-element/fig2.png)
 
-Select **Edit in Live** to directly open the <a href="#find-element">Find element</a> dialog for the page currently loaded with an attached recorder to it. If there is no active recording session this option will be greyed out. 
+Select **Edit in Live** to directly open the <a href="#find-element">Find element</a> dialog for the page currently loaded with an attached recorder to it. If there is no active recording session this option will be greyed out.
 
 ![Edit in live](images/find-element/fig3.png)
 
