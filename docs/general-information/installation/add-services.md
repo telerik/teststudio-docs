@@ -1,7 +1,7 @@
 ---
 title: Add Scheduling / Storage Services
 page_title: Add Scheduling / Storage Services
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Add Scheduling / Storage Services after initial installation. I want to add scheduling to my current Test studio. How to schedule test lists on remote machines with Test Studio"
 previous_url: /user-guide/installation/trial-services.aspx, /user-guide/installation/trial-services
 position: 6
 ---

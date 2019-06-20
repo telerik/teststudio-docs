@@ -1,7 +1,7 @@
 ---
-title: VS 2017 Compatability
-page_title: VS 2017 Compatability
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: VS 2017 Compatibility
+page_title: VS 2017 Compatibility
+description: "Test Studio Compatibility with Visual Studio 2017. Prerequisites to install Test Studio plugin with Visual Studio 2017. Test Studio installed on Visual Studio 2017 but cannot start a test project. "
 position: 8
 ---
 # How to Install Visual Studio 2017 to Integrate Test Studio

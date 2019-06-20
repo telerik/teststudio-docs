@@ -1,7 +1,7 @@
 ---
 title: Visual Debugger
 page_title: Visual Debugger
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Visual Debugger tools to explore why a test is failing. What is the Visual Debugger in Test Studio. How to use the Visual Debugger in Test Studio"
 position: 1
 ---
 # Visual Debugger #

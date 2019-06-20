@@ -1,7 +1,7 @@
 ---
 title: Activating your License
 page_title: Activating your License
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio activate license. Test Studio trial license. Login to your Telerik account "
 position: 2
 ---
 # Activating your License #

@@ -1,7 +1,7 @@
 ---
 title: Step Builder
 page_title: Step Builder
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Step builder Step suggestion. Select an element from Elements repository and add a step against that. Custom steps in Test Studio - resize browser, refresh page, wait for URL, check for JS errors. Test as step. execute api test in Test Studio web test. execution delay in Test Studio test. Wait for an element to exist to be visible. Clear browser cache. Comment"
 previous_url: /user-guide/recording-tests/step-suggestions.aspx, /user-guide/recording-tests/step-suggestions
 position: 1
 ---
@@ -30,7 +30,7 @@ The Step Builder on project level can also be used to build steps against alread
 
 ![Custom steps][5]
 
-> If you work very frequently with the Step Builder you can <a href="/features/custom-layout/custom-layout" target="_blank">dock</a> it as a separate pane. 
+> If you work very frequently with the Step Builder you can <a href="/features/custom-layout/custom-layout" target="_blank">dock</a> it as a separate pane.
 
 [1]: /img/general-information/test-recording/step-suggestions/fig1.png
 [2]: /img/general-information/test-recording/step-suggestions/fig2.png
