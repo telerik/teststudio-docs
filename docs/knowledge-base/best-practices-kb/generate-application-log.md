@@ -1,7 +1,7 @@
 ---
 title: Generate Application Log
 page_title: Generate Application Log
-description: How to enable/disalbe, view, clear the Test Studio application log. The application log records all events happening in the UI and can be used when troubleshooting various errors, which appear while recording, executing tests or while maintaining the test project. Any unexpected errors can be also explored in the application log. 
+description: How to enable/disable, view, clear the Test Studio application log. The application log records all events happening in the UI and can be used when troubleshooting various errors, which appear while recording, executing tests or while maintaining the test project. Any unexpected errors can be also explored in the application log. Generate application log.
 previous_url: /user-guide/knowledge-base/best-practices/generate-application-log.aspx, /user-guide/knowledge-base/best-practices/generate-application-log
 position: 1
 ---
