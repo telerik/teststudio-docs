@@ -113,4 +113,4 @@ The below process assumes that you have not launched the Standalone or VS plugin
 	![Couldn't log](/img/getting-started/installation-and-activation/fig17.png)
 
 
-<div><a style="float:right" href="/getting-started/first-project">Go to Your First Project</a></div>
+<div><a style="float:right" href="/getting-started/first-project">Go to <strong>Your First Project</strong></a></div>

@@ -40,4 +40,4 @@ The successful recording and execution of your first test is just the beginning.
 <br/><br/>
 * [**Mobile Testing**](/test-studio-mobile/overview) is another project type in Test Studio, where you can automate different Android and iOS application.
 <br/><br/>
-<div><a href="/getting-started/analyze-the-results">Go to Analyze the Results</a></div>
+<div><a href="/getting-started/analyze-the-results">Go to <strong>Analyze the Results</strong></a></div>

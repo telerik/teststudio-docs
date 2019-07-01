@@ -37,4 +37,4 @@ The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-applicati
 
 The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">visual debugger</a> has different options for debugging a test while its execution is paused. It is used if the test does not behave as expected, especially when it is not clear at which point the issue occurred.
 
-<div><a href="/getting-started/first-project">Go to Youf First Project</a><a style="float:right" href="/getting-started/next-steps">Go to Next Steps</a></div>
+<div><a href="/getting-started/first-project">Go to <strong>Your First Project</strong></a><a style="float:right" href="/getting-started/next-steps">Go to <strong>Next Steps</strong></a></div>

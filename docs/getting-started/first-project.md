@@ -116,4 +116,4 @@ When the test execution is complete, there will be an indication for each step i
 
 The results from test list executions are available in the **Results** tab.
 
-<div><a href="/getting-started/installation-and-activation">Go to Installation and Activation</a><a style="float:right" href="/getting-started/analyze-the-results">Go to Analyze the Results</a></div>
+<div><a href="/getting-started/installation-and-activation">Go to <strong>Installation and Activation</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Analyze the Results</strong></a></div>
