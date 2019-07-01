@@ -18,7 +18,13 @@ The successful recording and execution of your first test is just the beginning.
 <br/><br/>
 * [**Dialog Handling**](/features/dialogs-and-popups/dialogs) feature covers all alert, confirm, logon, prompt, file upload and download dialogs.
 <br/><br/>
+* [**Test Lists**](/general-information//test-execution/test-list-execution) are collections of test that can be executed as scheduled jobs, both locally and on remote machines.
+<br/><br/>
 * [**Scheduling Test Runs**](/features/scheduling-test-runs/overview) on remote execution servers.
+<br/><br/>
+* The [**Results Tab**](/general-information/test-results/analyze-test-results) provides overview of the executed test lists. You can drill down and investigate the individual test steps.
+<br/><br/>
+* Test Studio supports different [**Continious Ingegradion and Deployment (CD/CI)**](/advanced-topics/build-server/continious-integration-overview.html) tools and allows you to execute tests when the build completes.
 <br/><br/>
 * [**Custom Step from Step Builder**](/features/custom-steps/overview) is for manually adding a specific step or condition to the test.
 <br/><br/>
