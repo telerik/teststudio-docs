@@ -83,11 +83,11 @@ Enter valid credentials when prompted. The below example requires username and p
 
 ![Group Membership][14]
 
-3.&nbsp; Use the correct URL to connect to your Jira Account.
+3.&nbsp; Use the correct URL to connect to your Jira Cloud server.
 
 ![Bug tracking settings][15]
 
-4.&nbsp; You should enter the same username and password as you would use to log in to your Jira Cloud account
+4.&nbsp; Enter your Jira username and for a password use a <a href="https://id.atlassian.com/manage/api-tokens" target="_blank">Jira Token</a> generated for your account - that way Test Studio integration will successfully comply with the two-factor authentication for the Jira cloud server.
 
 ![Jira Login][16]
 

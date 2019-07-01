@@ -1,10 +1,12 @@
 ---
 title: Re-activating your License
 page_title: Re-activating your License
-description: "Test Studio Re-activating your License. I want to use new machine but cannot deactivate the license on the previous one. Unable to deactivate a Test Studio license"
+description: "Test Studio Re-activating your License. I want to use new machine but cannot deactivate the license on the previous one. Unable to deactivate a Test Studio license. a machine with an activated Test Studio license cannot be accessed to deactivate the license"
 position: 7
 ---
 # Re-activating your License #
+
+There are some occasions when a machine with an activated license cannot be accessed to deactivate the license. Then, you can manually delete the old key and re-generate a new one.
 
 ## Problem ##
 

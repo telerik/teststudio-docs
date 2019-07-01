@@ -38,9 +38,13 @@ The Elements Settings view remains the same with or without an active recording 
 
 ### Image Usage Details
 
-The **Image Settings** section lists all steps, which use this element.
+The **Image Settings** section lists all steps, which use this element and image.
 
 ![Image used by][3]
+
+If the image is updated, the changes can be applied separately for the steps in use, using the **Apply** button - see [Known Scenarios Requiring Manual Adjustments](/knowledge-base/test-recording-kb/element-image-known-scenarios#one-element-with-multiple-images). The **Delete** button will remove the image without prompt warning and this will be permanent once the changes of element are saved.
+
+![Apply Image for certain steps, delete image][3a]
 
 ### Image Preview
 
@@ -159,6 +163,7 @@ While recording elements with images, you may face any of the scenarios, which r
 [1]: /img/features/elements-explorer/find-element-by-image/fig1.png
 [2]: /img/features/elements-explorer/find-element-by-image/fig2.png
 [3]: /img/features/elements-explorer/find-element-by-image/fig3.png
+[3a]: /img/features/elements-explorer/find-element-by-image/fig3a.png
 [4]: /img/features/elements-explorer/find-element-by-image/fig4.png
 [5]: /img/features/elements-explorer/find-element-by-image/fig5.png
 [6]: /img/features/elements-explorer/find-element-by-image/fig6.png
