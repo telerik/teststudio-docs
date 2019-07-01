@@ -1,7 +1,7 @@
 ---
 title: Test Lists Type (Standalone)
 page_title: Test Lists Type (Standalone)
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test Lists Type automated test list execute load test in a test list. execute performance tests in a test list "
 position: 1
 ---
 # Test Lists Type (Standalone) #

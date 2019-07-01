@@ -2,7 +2,7 @@
 title: Analytics
 page_title: Analytics
 description: "Test Studio Project settings Analytics allow/block data collection"
-position: 7
+position: 8
 ---
 # Analytics
 

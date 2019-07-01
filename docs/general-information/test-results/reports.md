@@ -1,7 +1,7 @@
 ---
-title: Reports
-page_title: Reports
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: Test List Results Reports
+page_title: Test List Results Reports
+description: "Test Studio Test List Results Reports. Generate report based on the test list results"
 previous_url: /user-guide/test-results/reports.aspx, /user-guide/test-results/reports, /getting-started/test-results/reports
 position: 1
 ---

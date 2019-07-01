@@ -1,10 +1,10 @@
 ---
 title: General
 page_title: General | Test Studio Dev Documentation
-description: Miscellaneous settings in Test Studio Dev
+description: "Miscellaneous settings in Test Studio Dev"
 position: 1
 ---
-# general Tab in Project Settings
+# General Tab in Project Settings
 
 The General section provides miscellaneous settings for other specific circumstances.
 

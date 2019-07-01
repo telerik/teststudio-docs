@@ -1,7 +1,7 @@
 ---
 title: Finding Page Elements
 page_title: Finding Page Elements
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Find methods. Testing Framework Find.By methods. Locate an element in code. Find an element in code. "
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/element-identification/finding-page-elements.aspx, /user-guide/write-tests-in-code/intermediate-topics/element-identification/finding-page-elements
 position: 1
 ---
@@ -32,12 +32,12 @@ padding: 8px;
 }
 </style>
 
-#Finding Page Elements#
+# Finding Page Elements #
 
 Telerik Testing Framework provides one of the richest markup identification infrastructures currently available on the market. It builds on top of commonly known element identification methods like 'getElementById', 'getElementByName' or 'XPath' and extends them to provide identification routines that cater more to application automation scenarios. In addition to maintaining a simple and easy to use set of APIs, Telerik Testing Framework introduces a consistent and extensible way to build identification and persist it using 'FindParam' objects.
- 
+
 All the Find.Byxxx methods now support LINQ queries.
- 
+
 It is important to understand how Telerik's identification method works because that understanding will allow you to exploit the power of these identification methods to build robust automation quicker.
 
 ##Element Identification Overview##
@@ -49,7 +49,7 @@ The following identification methods are supported:
 	<th style="width:165px;">Methods</th><th style="width:200px;">Description</th><th>Example</th>
 </tr>
 <tr>
-	<td>**Find.ById()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ById_System_String_" target="_blank">**Find.ById()**</a></td>
 	<td>Searches for an element contained in a markup document using its set 'id' attribute. When the desired 'id' matches an element's id, the element is returned - identical to getElementById</td>
 <td>
 ```	
@@ -59,7 +59,7 @@ Element e = Find.ById("input1");
 </td>
 </tr>
 <tr>
-	<td>**Find.ByName()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByName_System_String_" target="_blank">**Find.ByName()**</a></td>
 	<td>Searches for an element contained in a markup document using its set 'name' attribute. When the desired 'name' matches an element's name, the element is returned</td>
 <td>
 ```	
@@ -69,7 +69,22 @@ Element e = Find.ByName("goButton")
 </td>
 </tr>
 <tr>
-	<td>**Find.ByTagIndex()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByImage_System_Drawing_Image_System_Double_System_Int32_System_Boolean_System_Drawing_Point_System_Int32_" target="_blank">**Find.ByImage()**</a><br>
+    <a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByImage_System_Drawing_Image_System_Double_System_Boolean_System_Drawing_Point_System_Int32_" target="_blank">**Find.AllByImage()**</a></td>
+	<td>Searches for an element or 'All' elements that look like a predefined image</td>
+<td>
+```
+// Specify the predefined image on which the search will be based
+System.Drawing.Image img1 = System.Drawing.Image.FromFile(@"C:\sampleImg.png");
+// Find an element that looks like the predefind image
+var elementImg1 = Manager.ActiveBrowser.Find.ByImage(img1, 70); // the second argument is the threshold % to use, while searching for the image
+// Cast the found element to be able to use it. The type of located element needs to be specified.
+HtmlButton btn1 = elementImg1.As<HtmlButton>();
+```
+</td>
+</tr>
+<tr>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByTagIndex_System_String_System_Int32_" target="_blank">**Find.ByTagIndex()**</a></td>
 	<td>Searches for an element using its tag name occurrence index. Finds the element at the specified occurrence index and returns it. This method uses zero based indexing.</td>
 <td>
 ```	
@@ -79,8 +94,8 @@ Element table = Find.ByTagIndex("table", 2);
 </td>
 </tr>
 <tr>
-	<td>**Find.ByAttributes()**<br>
-	**Find.AllByAttributes()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByAttributes_System_String___" target="_blank">**Find.ByAttributes()**</a><br>
+	<a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByAttributes_System_String___" target="_blank">**Find.AllByAttributes()**</a></td>
 	<td>Searches for an element or 'All' elements using an 'exact' or 'partial' list of attribute values (You can specify 1-N attribute/value pairs). When all attribute values match, the element or collection of elements is returned.</td>
 <td>
 ```	
@@ -95,8 +110,8 @@ IList<Element> allbtns = Find.AllByAttributes("class=myclass", "src=~foo.gif");
 </td>
 </tr>
 <tr>
-	<td>**Find.ByContent()**<br>
-	**Find.AllByContent()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByContent_System_String_" target="_blank">**Find.ByContent()**</a><br>
+	<a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_AllByContent_System_String_" target="_blank">**Find.AllByContent()**</a></td>
 	<td>Searches for an element or 'All' elements using 'exact', 'partial' or 'regex' of the element content. The element content can be: InnerText, InnerMarkup, OuterMarkup, TextContent (default), StartTagContent.</td>
 <td>
 ```	
@@ -128,8 +143,8 @@ IList<Element> alle = Find.AllByContent("p:car")
 </td>
 </tr>
 <tr>
-	<td>**Find.ByExpression()<br>
-	Find.AllByExpression()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByExpression_ArtOfTest_WebAii_Core_HtmlFindExpression_" target="_blank">**Find.ByExpression()**</a><br>
+	<a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByExpression_ArtOfTest_WebAii_Core_HtmlFindExpression_" target="_blank">**Find.AllByExpression()**</a></td>
 	<td>Searches for an element or 'All' elements matching an HtmlFindExpression. The HtmlFindExpression cannot use any type of hierarchical expressions including tag index path expressions, HTML path expressions, and XPath expressions.</td>
 <td>
 ```	
@@ -141,8 +156,8 @@ IList<Element> allSams = Find.AllByExpression(expr);
 </td>
 </tr>
 <tr>
-	<td>**Find.ByXPath()<br>
-	Find.AllByXPath()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByXPath_System_String_" target="_blank">**Find.ByXPath()**</a><br>
+	<a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByXPath_System_String_" target="_blank">**Find.AllByXPath()**</a></td>
 	<td>Searches for an element or 'All' elements using an XPath expression. WebAii supports the .NET Framework XPath implementation.</td>
 <td>
 ```	
@@ -154,8 +169,8 @@ IList<Element> allDivs = Find.AllByXPath("/descendant::node()[starts-with(@id,'d
 </td>
 </tr>
 <tr>
-	<td>**Find.ByCssSelector()<br>
-	Find.AllByCssSelector()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByCssSelector_System_String_" target="_blank">**Find.ByCssSelector()**</a><br>
+	<a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByCssSelector_System_String_" target="_blank">**Find.AllByCssSelector()**</a></td>
 	<td>Searches for an element or 'All' elements using a css selector query.</td>
 <td>
 ```	
@@ -167,7 +182,7 @@ IList<HtmlAnchor> allLinks = Find.AllByCssSelector<HtmlAnchor>("a");
 </td>
 </tr>
 <tr>
-	<td>**Find.AllByTagName()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByTagName_System_String_" target="_blank">**Find.AllByTagName()**</a></td>
 	<td>Searches for 'All' elements with the specified tag name and returns it as a list of elements.</td>
 <td>
 ```	
@@ -177,7 +192,7 @@ IList<Element> allimg = Find.AllByTagName("img");
 </td>
 </tr>
 <tr>
-	<td>**Find.ByNodeIndexPath()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByNodeIndexPath_System_String_" target="_blank">**Find.ByNodeIndexPath()**</a></td>
 	<td>Searches for an element using dom tree node index paths. This identification is done using an xpath like approach that simply describes the hierarchy path to a specific element using the node index within the hierarchy without having to specify the tag name at each level. This identification method can be chosen in cases where a segment of the DomTree hierarchy at a specific location is consistent but element type changes. For example, if an element you are trying to target is the direct child of another element that fluctuates between a span and div, you can choose this identification method to provide a consistent way to identify that element.</td>
 <td>
 
@@ -207,15 +222,7 @@ Element target = Find.ByNodeIndexPath("0/2/0/1");
 </td>
 </tr>
 <tr>
-	<td>**Find.ByParam()<br>
-	Find.AllByParam()**</td>
-	<td>Searches for an element or 'All' elements using the FindParam object passed in. FindParam objects are described in more details below.</td>
-<td>
-Samples are provide below.
-</td>
-</tr>
-<tr>
-	<td>**Find.FromCollection()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_FromCollection_ArtOfTest_WebAii_ObjectModel_FindExpressionCollection_ArtOfTest_WebAii_Core_HtmlFindExpression__" target="_blank">**Find.FromCollection()**</a></td>
 	<td>Finds all elements with the FindParams in the passed in collection.</td>
 <td>
 ```	
@@ -225,8 +232,8 @@ return this.FromCollection(col);
 </td>
 </tr>
 <tr>
-	<td>**Find.ByCustom()<br>
-	Find.AllByCustom()**</td>
+	<td><a href="/api/artoftest.webaii.core.find.html#collapsible-ArtOfTest_WebAii_Core_Find_ByCustom_System_Predicate_ArtOfTest_WebAii_ObjectModel_Element__" target="_blank">**Find.ByCustom()**</a><br>
+	<a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByCustom_System_Predicate_ArtOfTest_WebAii_ObjectModel_Element__" target="_blank">**Find.AllByCustom()**</a></td>
 	<td>Searches for an element or 'All' elements using a custom predicate.</td>
 <td>
 ```	

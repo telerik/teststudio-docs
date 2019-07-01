@@ -3,7 +3,7 @@ title: Find Logic (Html)
 page_title: Find Logic (Html)
 description: "Test Studio project settings. Reorder the attributes used when building the Find logic for recorded elements in Test Studio recording test. Use custom attributes in the default find logic used to record new elements in Test Studio recording/test."
 previous_url: /features/project-settings/identification-logic
-position: 4
+position: 5
 ---
 # Find Logic (Html)
 

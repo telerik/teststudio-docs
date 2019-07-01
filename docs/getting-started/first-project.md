@@ -6,7 +6,7 @@ position: 2
 ---
 # Your First Project #
 
-Once you have successfully installed and activated Test Studio, you are ready to setup the machine for testing and create your first automation test. The process is devided in several steps:
+Once you have successfully installed and activated Test Studio, you are ready to setup the machine for testing and create your first automation test. The process is divided in several steps:
 
 1. [Create new project](#create-new-project)
 2. [Calibrate your browser for testing](#calibrate-your-browser)
@@ -15,23 +15,21 @@ Once you have successfully installed and activated Test Studio, you are ready to
 5. [Test Execution](#test-execution)
 6. [Execution Results](#execution-results)
 
-## Create new Project ##
+## Create New Project ##
 
-When you launch Test Studio, you will see the **Welcome Screen**. It lets you open or create projects, and see notifications about software updates and news related to the product.
+When you launch Test Studio, you will see the [**Welcome Screen**](/general-information/start-a-project/welcome-screen). It lets you open or create projects, and see notifications about software updates and news related to the product.
 
-In the **Create project** section you could choose among different type projects - **Web & Desktop**, **Mobile** or **API**. Let's select a **Web & Desktop** project, specify its name and location and click the **Create** button.
+In the [**Create project**](/general-information/start-a-project/welcome-screen#create-a-new-project) section you could choose among different type projects - **Web & Desktop**, **Mobile** or **API**. Let's create a **Web & Desktop** project for the current demonstration, specify its name and location and click the **Create** button.
 
 ![Create Project](/img/getting-started/first-project/fig00.png)
 
 >After the project is successfully created, you can open the <a href="/general-information/start-a-project/in-product-tips-tricks" target="_blank">Tips and Tricks</a> from the top right corner of Test Studio. The popup dialog has many useful references to the documentation and a short video on some of the topics.
 
-The **Open Projects** tab allows you to open an existing local project. 
-
-You can explore a sample **Web & Desktop** or **API** project, from the **Get Started** section. And you can learn more about the **Mobile** project.
+You can explore a sample **Web & Desktop** or **API** project, from the [**Get Started**](/general-information/start-a-project/welcome-screen#get-started) section. And you can learn more about the **Mobile** module in Test Studio.
 
 ![Get Started Projects](/img/getting-started/first-project/fig01.png)
 
-## Configure your Browser for Testing ##
+## Configure Your Browser for Testing ##
 
 Once the test project is created you need to configure your browser for testing, we call this "browser calibration". This is done to ensure flawless and consistent automation process. We have implemented a feature to [automatically calibrate the browser](/features/project-settings/browsers) out of the box without manual actions. In this case we will be using Internet Explorer.
 

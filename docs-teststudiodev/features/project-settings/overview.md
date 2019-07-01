@@ -1,12 +1,12 @@
 ---
 title: Overview
 page_title: Project Settings Overview | Test Studio Dev Documentation
-description: Specific settings to be applied on Test Studio Dev project level
+description: "Specific settings to be applied on Test Studio Dev project level"
 position: 0
 ---
 # Project Settings
 
-Each __Test Studio Dev__ project can be customized with different settings on project level. These could be accessed from the _Settings_ button in the project. 
+Each __Test Studio Dev__ project can be customized with different settings on project level. These could be accessed from the _Settings_ button in the project.
 
 ![Project Settings](images/overview/fig2.png)
 
@@ -18,6 +18,7 @@ The available settings are divided in few areas:
 
 - <a href="/features/project-settings/general" target="_blank">General</a>
 - <a href="/features/project-settings/recording-options" target="_blank">Recording</a>
+- <a href="/features/project-settings/element-images" target="_blank">Element Images</a>
 - <a href="/features/project-settings/browsers" target="_blank">Browsers</a>
 - <a href="/features/project-settings/find-logic" target="_blank">Find Logic (html)</a>
 - <a href="/features/project-settings/updates" target="_blank">Updates</a>

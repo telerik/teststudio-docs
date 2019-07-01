@@ -1,10 +1,12 @@
 ---
 title: Re-activating your License
 page_title: Re-activating your License
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Re-activating your License. I want to use new machine but cannot deactivate the license on the previous one. Unable to deactivate a Test Studio license. a machine with an activated Test Studio license cannot be accessed to deactivate the license"
 position: 7
 ---
 # Re-activating your License #
+
+There are some occasions when a machine with an activated license cannot be accessed to deactivate the license. Then, you can manually delete the old key and re-generate a new one.
 
 ## Problem ##
 

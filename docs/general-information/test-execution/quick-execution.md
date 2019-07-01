@@ -1,7 +1,7 @@
 ---
 title: Quick Execution
-page_title: Quick Execution.
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Quick Execution
+description: "Test Studio Quick test Execution. Test Studio test run. annotated test run. Global Timeouts in Test Studio project. Visual debugger options in Test Studio. Set preferred browser for test runs and test recording. Quick run Execution log "
 position: 0
 ---
 # Quick Execution #

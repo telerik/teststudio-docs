@@ -1,7 +1,7 @@
 ---
 title: Recording Toolbar
 page_title: Recording Toolbar
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Recording Toolbar. Test Studio recorder is attached to the browser wpf application. DOM explorer in the Test Studio recorder. Step builder in the Test Studio recorder"
 previous_url: /user-guide/recording-tests/recording-toolbar.aspx, /user-guide/recording-tests/recording-toolbar
 position: 1
 ---

@@ -2,11 +2,11 @@
 title: Updates (Visual Studio only)
 page_title: Updates (Visual Studio only)
 description: "How to Update Test Studio plugin in Visual Studio."
-position: 7
+position: 9
 ---
 # Updates (Visual Studio only)
 
-This section in Project Settings is available only in **Visual Studio Plugin**. 
+This section in Project Settings is available only in **Visual Studio Plugin**.
 
 The software update section in Test Studio standalone is under the <a href="/getting-started/start-a-project/welcome-screen#Software-Updates" target="_blank">Welcome Screen</a>.
 

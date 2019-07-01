@@ -1,8 +1,8 @@
 ---
 title: Analytics
 page_title: Analytics | Test Studio Dev Documentation
-description: Miscellaneous settings in Test Studio Dev
-position: 6
+description: "'Analytics settings in Test Studio Dev"
+position: 8
 ---
 # Analytics Tab in Project Settings
 

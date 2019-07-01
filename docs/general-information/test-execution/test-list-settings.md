@@ -1,7 +1,7 @@
 ---
 title: Test List Settings
 page_title: Test List Settings
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Test List Settings. Change the browser for a test list run. RunnerResponseTimeout. UnexpectedDialogAction. KillBrowserProcessOnClose KillBrowsersBeforeStart Test list baseURL"
 position: 1
 ---
 # Test List Settings #

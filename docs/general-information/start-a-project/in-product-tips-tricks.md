@@ -1,16 +1,16 @@
 ---
-title: In Product Tips And Tricks
-page_title: In Product Tips And Tricks
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-position: 1
+title: In-Product Tips And Tricks
+page_title: In-Product Tips And Tricks
+description: "Test Studio In-Product Tips And Tricks. Useful links to boost up the Test Studio learning curve. Find useful links in the product as you design your test project"
+position: 2
 ---
 # In-Product Tips And Tricks
 
-While automating the desired test scenarios you will receive tips and tricks to provide you useful information for features in Test Studio.
+While automating your first test scenarios, you will receive tips and tricks to provide you useful information for features in Test Studio.
 
 ## Tips And Tricks Window
 
-The Tips And Tricks Popup displays a list of hints relevant to your actions in the product. Each newly appeared tip is bolded and marked with a label *New*. Once an item in the list is clicked the *New* label disappears and at the bottom of the window an overview for the selected hint is displayed.
+The Tips And Tricks Popup displays a list of hints relevant to your actions in the product. Each newly appeared tip is bold and marked with a label *New*. Once an item in the list is clicked the *New* label disappears and at the bottom of the window an overview for the selected hint is displayed.
 
 ![Notifications Window][2]
 

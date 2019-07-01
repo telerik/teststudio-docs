@@ -1,9 +1,9 @@
 ---
 title: Browsers
 page_title: Browsers
-description: "Test Studio project settings. Browser specific settings in Test Studio. Configure browsers in Test Studio. Calibrate Browsers in Test Studio."
+description: "Test Studio project settings. Browser specific settings in Test Studio. Configure browsers in Test Studio. Calibrate Browsers in Test Studio. Set Preferred browser for recording and execution"
 previous_url: /user-guide/project-settings/browsers.aspx, /user-guide/project-settings/browsers
-position: 3
+position: 4
 ---
 # Browsers
 

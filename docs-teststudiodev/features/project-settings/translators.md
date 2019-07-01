@@ -1,8 +1,8 @@
 ---
 title: Translators
 page_title: Translators | Test Studio Dev Documentation
-description: 
-position: 5
+description: "Translators in Test Studio for the Telerik controls"
+position: 7
 ---
 # Translators Tab in Project Settings
 

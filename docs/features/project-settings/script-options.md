@@ -3,7 +3,7 @@ title: Script
 page_title: Script
 description: "Test Studio script coded code settings. Where is the Namespace in Test Studio project How to add reference/reference assembly in a Test Studio project.  Test Studio project's bin folder "
 previous_url: /user-guide/project-settings/script-options.aspx, /user-guide/project-settings/script-options
-position: 5
+position: 6
 ---
 # Script
 
