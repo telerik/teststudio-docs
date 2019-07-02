@@ -163,7 +163,7 @@ The find expression builder will display the columns of the attached data source
 
 ![Select column to attach to filter][118]
 
-A warning message appears that the element cannot be validated or troubleshooted unless the data binding is removed. To remove the data binding you can delete the data driven filter or re-record the element. 
+A warning message appears that **the find by image operation will not be performed and the element cannot be validated or troubleshoot unless the data binding is removed**. To remove the data binding you can delete the data driven filter or re-record the element.
 
 ![Warning message][119]
 

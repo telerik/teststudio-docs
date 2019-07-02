@@ -42,7 +42,9 @@ The **Image Settings** section lists all steps, which use this element and image
 
 ![Image used by][3]
 
-If the image is updated, the changes can be applied separately for the steps in use, using the **Apply** button - see [Known Scenarios Requiring Manual Adjustments](/knowledge-base/test-recording-kb/element-image-known-scenarios#one-element-with-multiple-images). The **Delete** button will remove the image without prompt warning and this will be permanent once the changes of element are saved.
+- **Apply To** - by default updating the image will apply the change only for the current selected step that uses that element. If you want to apply current changes for other steps also, use the **Apply To** button. See also: [One Element with Multiple Images](/knowledge-base/test-recording-kb/element-image-known-scenarios#one-element-with-multiple-images).
+
+- **Delete** - this button will remove the image without prompt warning. The deleted image for an element is deleted only for the current selected step. The change can be reverted with the 'Reset' button but will be permanent, once the changes for an element are saved.
 
 ![Apply Image for certain steps, delete image][3a]
 
@@ -108,7 +110,7 @@ This will terminate any current sessions and will start a new instance from the 
 
 ## Image Recorder
 
-The **Image Recorder** remains unresponsive until the **Capture** button is enabled. You can enable this with keyboard combination Ctrl+Shift+F.
+Once the **Image Recorder** gets attached to the browser, you can continue interacting with the page to prepare it for selecting the correct image - for example, change the combobox selection, or enter/remove text from a text field. When ready, click the **Capture** button to enable it and select the desired image. For the cases when the mouse is needed to show the desired image (mouse hover over, for example), you can enable capturing an image with keyboard combination Ctrl+Shift+F.
 
 ![Enable Image Recording][13]
 

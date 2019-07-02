@@ -1,7 +1,7 @@
 ---
-title: Element Images
+title: Element Images Known Scenarios
 page_title: Element Images Known Scenarios
-description: "Element Images Known Scenarios Requiring Manual Adjustment"
+description: "Element Images Known Scenarios Requiring Manual Adjustment. Combobox element image is incorrect. textBox element image is incorrect. Element Image Capturing on Scaled Monitors. Recording WaitForExist Step element image is missing. Recording Different Images in different browsers for the Same Element. Using different images for a single element depending on the step where the same element is used. "
 position: 1
 ---
 # Scenarios in Which Element Images Require Additional Adjustment
@@ -26,7 +26,7 @@ To solution will be to [record the correct image manually](/features/elements-ex
 
 ## Recording WaitForExist Step
 
-If the first recorded step against an element is *WaitForExists*, the recorded element will not contain any image. This is to avoid breaking some already existing user logic. 
+When recording a *WaitForExists* step, by default the recorded element will not contain any image. This is to avoid breaking some already existing user logic.
 
 __Solution__
 

@@ -1,5 +1,5 @@
 ---
-title: KendoUI duplicate elements
+title: KendoUI Duplicate Elements
 page_title: KendoUI duplicate elements
 description: KendoUI duplicate elements due to new find logic
 position: 1
