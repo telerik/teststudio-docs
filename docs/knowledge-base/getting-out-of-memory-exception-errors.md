@@ -1,7 +1,7 @@
 ---
 title: Getting Out of Memory Exception Errors
-page_title: Getting Out of Memory Exception Errors
-description: Getting Out of Memory Exception (OutOfMemory) Errors when scheduling tests to run on remote machine. remote test list execution is failing because of OutOfMemory exceptions. 
+page_title: System Out of Memory Exception Errors
+description: Getting Out of Memory Exception (OutOfMemory or System.OutOfMemoryException) Errors when scheduling tests to run on remote machine. Remote test list execution is failing because of OutOfMemory exceptions. Fix OutOfMemory Exception OOM exception. Open results crashes with System.OutOfMemory.
 previous_url: /user-guide/knowledge-base/oom.aspx
 position: 1
 ---
@@ -33,11 +33,11 @@ This last option is more experimental, but has been shown to work in a few cases
 
 > As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
-3.&nbsp; Enter “**editbin /LARGEADDRESSAWARE Telerik.TestStudio.Desktop.exe**”
+3.&nbsp; Turn on the "LARGEADDRESSAWARE" flag for Telerik.TestStudio.Desktop.exe and ArtOfTest.Runner.exe, by entering “**editbin /LARGEADDRESSAWARE Telerik.TestStudio.Desktop.exe**” and "**editbin /LARGEADDRESSAWARE ArtOfTest.Runner.exe**"
 
 That should be it. To double check that it worked, you can (in the same command prompt) run:
 
-**dumpbin /headers Telerik.TestStudio.Desktop.exe**
+**dumpbin /headers Telerik.TestStudio.Desktop.exe** and **dumpbin /headers ArtOfTest.Runner.exe**
 
 You are looking for something ~12 lines down that says “Application can handle large (>2GB) addresses”
 
