@@ -1,7 +1,7 @@
 ---
 title: Generate Random Text
 page_title: Generate Random Text
-description: "Generate Random Text in Test Studio coded test."
+description: "Generate Random Text in Test Studio coded test. Progress Telerik Testing Framework generate random text and enter it in search box."
 previous_url: /user-guide/code-samples/general/generate-random-text.aspx, /user-guide/code-samples/general/generate-random-text
 position: 1
 ---
@@ -48,7 +48,7 @@ Dim charSet As String = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 Dim random As New Random()
 Dim randomText As String = New [String](Enumerable.Repeat(charSet, length).[Select](Function([set]) [set](random.[Next]([set].Length))).ToArray())
  
-Find.ById(Of HtmlInputText)("sb_form_q").Text = randomText
+Find.ById(Of HtmlInputSearch)("sb_form_q").Text = randomText
 Find.ById(Of HtmlInputSubmit)("sb_form_go").Click()
 ```
 
