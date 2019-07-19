@@ -34,7 +34,7 @@ string charSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 Random random = new Random();
 string randomText = new String(Enumerable.Repeat(charSet, length).Select(set => set[random.Next(set.Length)]).ToArray());
  
-Find.ById<HtmlInputText>("sb_form_q").Text = randomText;
+Find.ById<HtmlInputSearch>("sb_form_q").Text = randomText;
 Find.ById<HtmlInputSubmit>("sb_form_go").Click();
 ```
 ```VB
