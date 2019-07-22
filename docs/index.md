@@ -1,8 +1,8 @@
 ---
-title: Overview2
+title: Overview
 page_title: Test Studio Overview
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-position: 1
+position: 0
 ---
 
 # Overview
@@ -59,7 +59,7 @@ All versions use identical repositories and file formats, facilitating seamless 
 * [Dialog Handling](/features/dialogs-and-popups/dialogs)
 * [Test Lists](/general-information//test-execution/test-list-execution)
 * [Scheduling Test Runs](/features/scheduling-test-runs/overview)
-* [Results Tab](/general-information/test-results/analyze-test-results)
+* [Results Tab](/general-information/test-results/analyze-test-list-results)
 * [Custom Step from Step Builder](/features/custom-steps/overview)
 * [Project Settings](/features/project-settings/overview)
 * [Logical Steps](/features/logical-steps/if-else)

@@ -22,7 +22,7 @@ The successful recording and execution of your first test is just the beginning.
 <br/><br/>
 * [**Scheduling Test Runs**](/features/scheduling-test-runs/overview) on remote execution servers.
 <br/><br/>
-* The [**Results Tab**](/general-information/test-results/analyze-test-results) provides overview of the executed test lists. You can drill down and investigate the individual test steps.
+* The [**Results Tab**](/general-information/test-results/analyze-test-list-results) provides overview of the executed test lists. You can drill down and investigate the individual test steps.
 <br/><br/>
 * Test Studio supports different [**Continious Ingegradion and Deployment (CD/CI)**](/advanced-topics/build-server/continious-integration-overview.html) tools and allows you to execute tests when the build completes.
 <br/><br/>
