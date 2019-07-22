@@ -14,8 +14,8 @@ The TFS integration also facilitates the work of a QA team on the same test proj
 
 - <a href="/features/source-control/tfs/connect-to-tfs" target="_blank">Connect a local project to TFS</a> 
 - <a href="/features/source-control/tfs/open-tfs-project" target="_blank">Open a TFS-controlled project</a> 
-- <a href="/features/source-control/tfs/project-item-options" target="_blank">Project Item Options</a> 
-- <a href="/features/source-control/tfs/sc-alternatives" target="_blank">Alternative, file-based source control systems</a> 
+- <a href="/features/source-control/tfs/project-item-options-tfs" target="_blank">Project Item Options</a> 
+- <a href="/features/source-control/sc-alternatives" target="_blank">Alternative, file-based source control systems</a> 
 
 # Integration Methods
 
