@@ -30,6 +30,7 @@ For any source control system, check in all files **except** the following:
 - *.tstest (or .aii) - these contain the actual test definitions.
 - *.cs / *.vb - these contain the code for your coded steps.
 - *.resx - these contain the images for the Storyboard.
+- *.imgstore - these contain the images for the elements associated with the test.
 - Settings.aiis - this contains properties specific to this Test Studio project (e.g. tool version it was created under, Recording settings, assembly references, TFS connection settings).
 - .aiilist - these contain the test list definitions.
 - .tsprofconfig files in the Profiler Configurations folder - this is where the Performance configuration settings are stored. Whether or not to check in these files into Source Control depends on whether or not you want to save/share this information.
