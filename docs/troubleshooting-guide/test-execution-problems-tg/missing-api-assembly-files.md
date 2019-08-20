@@ -14,8 +14,8 @@ If you have an embedded <a href="/features/execute-apitest/add-api-test-as-step"
 Could not load file or assembly 'Telerik.ApiTesting.Framework, Version=xxxx.x.xxx.xxxx, Culture=neutral, PublicKeyToken=xxx' or one of its dependencies. The system cannot find the file specified.
 ```
 
-This means that the API embeded project was build with the previous version of APITesting Framework and it generated the project *dll* files. You need to rebuild it with the latest version of the framework.
+This means that the API embeded project was built with the previous version of APITesting Framework and the *dll* files were generated with that version. 
 
 ## Solution
 
-To fix the project execution, you need to delete the mentioned assembly files in the **bin** folder of the embedded API project. It is located in the **ApiTests** subfolder under the project root folder, like **C:\MyTestStudioProject\ApiTests\bin**. This will ensure that the API project will be rebuilt with the new Telerik.APITesting.Framwork assembly and it should work as before the update.
+To fix this error, you need to rebuild the project with the latest installed version of the framework. To do that, delete the mentioned assembly files in the **bin** folder of the embedded API project. It is located in the **ApiTests** subfolder under the project root folder, like **C:\MyTestStudioProject\ApiTests\bin**. That way the API project will be rebuilt with the new Telerik.APITesting.Framwork assembly and resolve the error occurance.
