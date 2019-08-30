@@ -2,19 +2,17 @@
 title: Test Settings
 page_title: Load Test Settings
 description: "Load Test Settings in Test Studio - User Profile Name, Workload, Available Users, Time"
-position: 10
+position: 4
 ---
 # Test Settings
 
-## User Profile Name
-
-The name you set in the **Edit User Profile** screen appears in the User Profile column. You can edit this name by clicking ![Edit button][1].
-
-![User Profile][2]
+Each load test in Test Studio can be configured to use different amount of virtual users and different time to run. Along with that you need to adjust the workload between the different profiles (if more than one in the profile).
 
 ## Workload
 
 The <a href="/knowledge-base/load-testing-kb/virtual-users" target="_blank">Workload</a> is the percentage that each User Profile will be used compared to all the User Profiles contained in the test. Set the Workload with the Workload slider.
+
+Configure the work load distribution of your user profiles. You may not want all the HTTP traffic hitting your application under test equally. You may configure some of the user profiles to be much more frequent than the other user profiles.
 
 ![Workload][3]
 

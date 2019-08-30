@@ -3,7 +3,7 @@ title: Managing Virtual Users
 page_title: Managing Virtual Users
 description: "Manage Virtual Users used in Test Studio load test run. Set virtual users to be used in load test run in Test Studiio"
 previous_url: /user-guide/load-testing/load-managing-users.aspx
-position: 21
+position: 5
 ---
 # Managing Virtual Users
 

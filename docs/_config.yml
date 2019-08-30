@@ -153,6 +153,11 @@ navigation:
         title: "Exploratory Testing"
     "*wpf-testing":
         title: "WPF Testing"
+# === Load Testing ===
+    "*load-testing/designing-load-tests":
+        title: "Design Your Load Test"
+        position: 1
+        
 # === Advanced Topics ===
     "*coded-steps":
         title: "Coded Steps"
