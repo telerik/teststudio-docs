@@ -64,6 +64,12 @@ The recorded image keeps details for the browser and display used to be recorded
 
 ![Image Recognition Settings][6]
 
+**Scroll on image search** - whether to scroll the page when using the image to locate the element. This setting can be set separately for each step, which uses the element. Its default value is 'indeterminate', and it can be also set to 'true' or 'false'.
+
+- indeterminate - the default value will use the global setting on project or test list level;
+- true/false - explicitly enabling or disabling the option will override the global project or test list setting value;
+- read more for <a href="/features/project-settings/element-images#execution" target="_blank">element scrolling project setting</a> and <a href="/general-information/test-execution/test-list-settings#general-tab" target="_blank">element scrolling test list setting</a>.
+
 The threshold and index values in this section can be additionally adjusted depending on the scenarios to cover. The important notes to keep in mind are listed below:
 
 - **Threshold** - the default value is 90 and can be adjusted on project level in the <a href="/features/project-settings/element-images" target="_blank">Project Settings</a>. The threshold can be lowered if the tests are failing when executed against different browser or on other display. However, setting it too low can lead to locating incorrect images. Since adjusting the optimal value for the threshold depends on the tested application and execution requirements, we recommend to perform few test runs and find out which will suit best for the current project.

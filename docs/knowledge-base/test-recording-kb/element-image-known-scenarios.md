@@ -8,22 +8,6 @@ position: 1
 
 There are certain scenarios in which Test Studio will not record the correct image for an element, or not record an image at all. The known workflows are described in details below.
 
-## Combobox and Textbox Element Image
-
-Test Studio records the image for combobox and textbox incorrectly. The reason behind is that the image of the element gets recorded once the element is modified - text is entered, option is selected from the combobox. Thus, during execution the recorded image will not be available on the page before the step, which uses it, passes.
-
-### Solution
-
-To workaround this, you will need to [record the correct image manually](/features/elements-explorer/find-element-by-image#recording-new-image).
-
-## Image Capturing on Scaled Monitors
-
-Currently the automatic capturing of images on displays with scaling settings different from 100%, will not record the correct element.
-
-__Solution__
-
-To solution will be to [record the correct image manually](/features/elements-explorer/find-element-by-image#recording-new-image).
-
 ## Recording WaitForExist Step
 
 When recording a *WaitForExists* step, by default the recorded element will not contain any image. This is to avoid breaking some already existing user logic.
