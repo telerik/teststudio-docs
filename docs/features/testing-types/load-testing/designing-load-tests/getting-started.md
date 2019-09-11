@@ -64,8 +64,8 @@ A "Dynamic Target" is a unique parameter or variable used by the application to 
 
 The <a href="/features/testing-types/load-testing/designing-load-tests/test-settings" target="_blank">load testing settings</a> include the amount of virtual users to simulate, the time for which to generate the load and the type of load divided as per the user profiles. Adjust the available settings as per the load scenario requirements.
 
-### 6. Allow Sufficient Virtual Users for the Execution Machine
+### 6. Assign Sufficient Virtual Users for the Execution Machines
 
-<a href="/features/testing-types/load-testing/test-settings" target="_blank"></a>
+To be able to perform a load test run, you need to <a href="/features/testing-types/load-testing/designing-load-tests/managing-vu" target="_blank">assign virtual users</a> to the current machine - for the case of <a href="/features/testing-types/load-testing/running-load-test/running-tests" target="_blank">running a load test locally</a>; or to the machine, which is configured as a Scheduling server - in the case when <a href="/features/testing-types/load-testing/running-load-test/remote-load-test-execution" target="_blank">using multiple machines to run the load scenario</a>. The amount of users to assign can be easily considered having in mind the applied test <a href="/features/testing-types/load-testing/designing-load-tests/test-settings#available-users" target="_blank">settings for Available Users</a>.
 
 [1]: /img/features/testing-types/load-testing/getting-started/fig1.png

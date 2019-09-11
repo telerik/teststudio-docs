@@ -157,6 +157,15 @@ navigation:
     "*load-testing/designing-load-tests":
         title: "Design Your Load Test"
         position: 1
+    "*load-testing/running-load-test":
+        title: "Execute Load Test"
+        position: 2
+    "*load-testing/load-testing-results":
+        title: "Load Test Results"
+        position: 3
+    "*load-testing/advanced-topics":
+        title: "Advanced Topics for Load Test"
+        position: 4
         
 # === Advanced Topics ===
     "*coded-steps":
