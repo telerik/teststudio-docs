@@ -2,7 +2,7 @@
 title: Dynamic Targets
 page_title: Dynamic Targets
 description: "Dynamic Target in Test Studio load test is a unique parameter or variable used by the application to generate information like a unique user ID or session ID. Configure the dynamic parameters in load test user profile"
-position: 8
+position: 3
 ---
 # Dynamic Targets
 
