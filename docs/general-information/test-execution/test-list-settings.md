@@ -38,16 +38,20 @@ This opens a dialog box that shows all of the possible configuration settings fo
 	* **SimulatedMouseMoveSpeed** - the simulated mouse move speed for Desktop.Mouse.Move()/DragDrop() operations in pixel/msec. Typically between: 0.1f - 0.5f
 * ***Execution***
 	* **ClientReadyTimeout** - the timeout (in msec) to wait for a client to be ready after initial launch and after executing a command.
-	* **DisableDialogMonitoring** - whether to disable handling of dialog windows.
-	* **ElementWaitTimeout** - the global wait on elements timeout used during execution.
+	* **DisableDialogMonitoring** - enable/disable handling of dialog windows.
+	* **ElementImageSearchDelay** - the timeout (in msec) to wait before starting the backup search by image.
+	* **ElementImageSearchTimoeout** - the timeout (in msec) for searching the image on page.
+	* **ElementWaitTimeout** - the wait on elements timeout used during execution. Overrides the setting applied on project level.
+	* **EnableImageSearch** - enable/disable the usage of recorded element images as backup search during test execution.  Overrides the setting applied on project level.
 	* **ExecuteCommandTimeout** - the timeout (in msec) to wait for a command request to execute.
 	* **ExecutionDelay** - the length of execution delay (in msec) to insert between commands. Note: Some test steps represent multiple commands.
-	* **RerunFailedTests** - whether to enable automatic rerun of failed tests.
+	* **RerunFailedTests** - enable/disable automatic rerun of failed tests.
 	* **RunnerResponseTimeout** - how long to wait (in msec) for a response from ArtOfTest.Runner.exe before, we decide that the runner is unresponsive. A value of 0 turns that off. The timer is being reset for each test in the test list. </br>
 	
 	</br>
 
 	*The main purpose of this timer is to terminate the ArtOfTest.Runner.exe, if it hangs for some reason. If the timeout is reached, the current test run will be terminated despite of the actual execution state  - therefore it is recommended to set a timeout that exceeds the duration of the longest test in the test list with a couple of minutes.*
+	* **ScrollonImageSearch** - enable/disable scrolling of the page when searching an element by image. Overrides the setting applied on project level.
 	* **UnexpectedDialogAction** - specifies the action that the DialogMonitor should take when it encounters unexpected dialogs.
 	* **WaitCheckInterval** - the wait interval (in msec) to use between checks for all the *Wait.For* methods.
 	* **XMultiMgr** - whether or not to use WebAii 1.1 style connections. When set - multiple Manager objects can co-exist on the machine.

@@ -15,13 +15,11 @@ In certain scenarios the automatically generated <a href="/features/elements-exp
 
 To verify what find expression for an element was automatically generated and edit it, if necessary, use the <a href="/features/elements-explorer/overview#element-context-menu" target="_blank">Element's Explorer context menu</a> or double click on the same element.
 
-![Edit Element][101]![Edit Element Double Click][102]
-
 <table id="no-table">
-<tr>
-    <td>![Edit Element][101]</td>
-    <td>![Edit Element Double Click][102]</td>
-</tr>
+	<tr>
+		<td><img src="/img/features/elements-explorer/find-element/fig101.png" alt="Edit Element"></td>
+		<td><img src="/img/features/elements-explorer/find-element/fig102.png" alt="Edit Element Double Click"></td>
+	</tr>
 </table>
 
 ### Edit Element Pane

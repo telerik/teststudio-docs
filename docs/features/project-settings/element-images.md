@@ -12,11 +12,19 @@ Apply specific image related settings on project level.
 
 ## Recording
 
-Enable/Disable image recording for elements and set the default threshold value to match the images.
+- Enable/Disable image recording for elements and set the default threshold value to match the images.
+
+- Enable/Disable the usage of the desktop screenshot cache.
 
 ## Execution
 
-Enable/Disable the usage of recorded element images as backup search during test execution. Set the timeout for searching the image on page.
+- Enable/Disable the usage of recorded element images as backup search during test execution.
+
+- Set the timeout for searching the image on page.
+
+- Set the timeout to wait before starting the backup search by image.
+
+- Enable/Disable scrolling of the page when searching an element by image.
 
 ## Image Preview
 

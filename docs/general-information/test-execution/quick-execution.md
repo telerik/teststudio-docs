@@ -56,7 +56,7 @@ Click **Toggle Annotation** button to have the browser annotate each step with a
 
 ## Execution Timeouts ##
 
-Quick access to change the default timeouts for for **Wait on elements** and **Client ready** is also available through the test step pane.
+Quick access to change the default timeouts for **Wait on elements** and **Client ready** is also available through the test step pane.
 
 ![Timeouts][10]
 
