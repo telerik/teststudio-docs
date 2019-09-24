@@ -77,6 +77,8 @@ When the 'Reconnect to Console on Disconnect' feature is enabled, Test Studio wi
 </br>
 > __Note:__ This feature will not have effect if you keep your Remote Desktop Connection session open, but minimized. You can see <a href="/knowledge-base/test-execution-kb/minimized-rdc" target="_blank">this article</a> for information on handling this case.
 
+__See Also:__ You may find additional notes on the topic in our blog post Improve <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">__Your Remote Test Execution with Test Studio User Session Configuration__</a>.
+
 [1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png
 [2]: /img/features/scheduling-test-runs/create-execution-server/fig2.png
 [3]: /img/features/scheduling-test-runs/create-execution-server/fig3.png

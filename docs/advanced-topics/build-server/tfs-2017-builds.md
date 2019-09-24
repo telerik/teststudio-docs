@@ -44,6 +44,7 @@ Once the agent is successfully installed run it in interactive mode. It will be 
 
 ![Build succeeded][8]
 
+__See Also:__ You may find helpful our blog post <a href="https://www.telerik.com/blogs/how-to-utilize-test-studio-tests-in-your-tfs-ci-builds" target="_blank">__How to Utilize Test Studio Tests in Your TFS CI Builds__</a>.
 
 [1]: /img/advanced-topics/build-server/tfs-2017-builds/EmptyBuildDefinition.png
 [2]: /img/advanced-topics/build-server/tfs-2017-builds/fig2.png

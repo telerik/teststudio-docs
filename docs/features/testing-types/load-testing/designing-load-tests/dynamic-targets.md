@@ -1,7 +1,7 @@
 ---
 title: Dynamic Targets
 page_title: Dynamic Targets
-description: "Dynamic Target in Test Studio load test is a unique parameter or variable used by the application to generate information like a unique user ID or session ID. Configure the dynamic parameters in load test user profile"
+description: "Dynamic Target in Test Studio load test is a unique parameter or variable used by the application to generate information like a unique user ID or session ID. Configure the dynamic parameters in load test user profile. parameterize load test in test studio. dynamic values in load test. dynamic headers dynamic cookies dynamic "
 position: 3
 ---
 # Dynamic Targets
@@ -50,6 +50,8 @@ To handle such scenarios Test Studio implemented the ability to add __Custom Dyn
 Once any custom targets are added to the user profile these will be displayed under the list with all auto-detected dynamic targets. To add a custom dynamic target use the ___Add Dynamic Target___ button. 
 
 ![Add Dynamic Targets][6]
+
+__See Also:__ A sample scenario to cover with the help of custom dynamic targets is described in our blog post <a href="https://www.telerik.com/blogs/custom-dynamic-targets-in-load-tests" target="_blank">__Custom Dynamic Targets in Load Tests__</a>.
 
 ### Source Section Properties
 

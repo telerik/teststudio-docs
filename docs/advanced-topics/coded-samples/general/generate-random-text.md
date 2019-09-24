@@ -52,3 +52,4 @@ Find.ById(Of HtmlInputSearch)("sb_form_q").Text = randomText
 Find.ById(Of HtmlInputSubmit)("sb_form_go").Click()
 ```
 
+__See also:__ Check our blog post <a href="https://www.telerik.com/blogs/how-can-i-input-random-data-into-my-test-run" target="_blank">**How to input random data in your test**</a>.

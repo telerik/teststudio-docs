@@ -43,9 +43,11 @@ Once a test file is selected a warning message appears that <a href="/features/e
 
 ![External dependencies][6]
 
-Once the test is imported click on it and then the _Select_ button. If there are multiple API tests in the nested project they all will be listed in this view and available for execution as step in a web test. 
+Once the test is imported click on it and then the _Select_ button. If there are multiple API tests in the nested project they all will be listed in this view and available for execution as step in a web test.
 
 ![Select a test to add in step][7]
+
+__See Also:__ You may find a sample scenario covered in our blog post <a href="https://www.telerik.com/blogs/power-up-your-ui-tests-with-api-test-as-step-in-telerik-test-studio" target="_blank">__Power Up Your UI Tests with 'API Test as Step' in Telerik Test Studio__</a>.
 
 [1]: /img/features/execute-apitest/add-api-test-as-step/add-step.png
 [2]: /img/features/execute-apitest/add-api-test-as-step/select-apitest-window.png

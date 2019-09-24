@@ -33,5 +33,7 @@ As the mouse passes over the items in the menu the respective element on page wi
 
 Test Studio comes with translators for HTML, Silverlight, and WPF and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular. These translators have a "base" or "generic" group of intrinsic translators that are used whenever a more specific translator is not available. These translators are listed in the <a href="/features/project-settings/Translators" target="_blank">Project Settings</a> dialog.
 
+__See Also:__ You can find additional information on Kendo Translators in our blog post <a href="https://www.telerik.com/blogs/automated-testing-of-kendo-ui-made-easy" target="_blank">__Automated Testing for Kendo UI Made Easy__</a>.
+
 [1]: /img/general-information/test-recording/translators/fig1.png
 [2]: /img/general-information/test-recording/translators/fig2.png
