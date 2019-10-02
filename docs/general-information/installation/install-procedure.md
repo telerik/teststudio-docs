@@ -18,7 +18,7 @@ position: 1
 4. On this screen you can select which features to install by clicking __Customize__ button. You can also change the installation path. After making your selections, click __OK__ to continue.
 
 	* To use this machine as a Storage Server or Scheduling Server, you must install the appropriate services at this time.
-	* To add the Storage and Scheduling Services features, <a href="/getting-started/installation/add-services" target="_blank">you must complete the installation and perform a change using the installer</a>.
+	* To add the Storage, Scheduling Services and Executive Dashboard features, <a href="/getting-started/installation/add-services" target="_blank">you must complete the installation and perform a change using the installer</a>.
 	* Storage server uses <a href="https://www.mongodb.com" target="_blank">MongoDb</a> as storage database. MongoDb requires at least 4Gb hard drive space to operate normally.
 	* If you have installed Visual Studio on the machine Test Studio plugin for Visual Studio will be also installed.
 
@@ -26,15 +26,17 @@ position: 1
 
 	![Install services](/img/general-information/installation/install-procedure/fig4.png)
 
-	![Install VS plugin](/img/general-information/installation/install-procedure/fig5.png)
+	![Install services](/img/general-information/installation/install-procedure/fig5.png)
+
+	![Install VS plugin](/img/general-information/installation/install-procedure/fig6.png)
 
 5. Review all the selections and click __Install__ to start the installation process.
 
-	![Installing](/img/general-information/installation/install-procedure/fig7.png)
+	![Installing](/img/general-information/installation/install-procedure/fig8.png)
 
 6. When the install is complete, the __Installation Successful__  screen is displayed.
 
-	![Successfully Completed](/img/general-information/installation/install-procedure/fig8.png)
+	![Successfully Completed](/img/general-information/installation/install-procedure/fig9.png)
 
 7. Click __Finish__ to exit the installation.
 

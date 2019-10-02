@@ -3,7 +3,7 @@ title: Test as Step Results
 page_title: Test as Step Results
 description: "Test Studio Test as Step Results. Analyze the Test Studio test as step results. Nested tests results. "
 previous_url: /user-guide/test-results/test-as-step-results.aspx, /user-guide/test-results/test-as-step-results, /getting-started/test-results/quick-execution-test-step
-position: 1
+position: 4
 ---
 # Test as Step Results #
 

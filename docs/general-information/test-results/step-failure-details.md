@@ -3,7 +3,7 @@ title: Step Failure Details
 page_title: Step Failure Details
 description: "Test Studio Step Failure Details. Analyze test run failure. My test studio test failed. How to fix a failed test studio test. "
 previous_url: /user-guide/test-results/step-failure-details.aspx, /user-guide/test-results/step-failure-details, /getting-started/test-results/step-failure-details
-position: 1
+position: 3
 ---
 # Step Failure Details #
 

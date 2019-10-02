@@ -51,7 +51,8 @@ This opens a dialog box that shows all of the possible configuration settings fo
 	</br>
 
 	*The main purpose of this timer is to terminate the ArtOfTest.Runner.exe, if it hangs for some reason. If the timeout is reached, the current test run will be terminated despite of the actual execution state  - therefore it is recommended to set a timeout that exceeds the duration of the longest test in the test list with a couple of minutes.*
-	* **ScrollonImageSearch** - enable/disable scrolling of the page when searching an element by image. Overrides the setting applied on project level.
+	* **ScrollOnImageSearch** - enable/disable scrolling of the page when searching an element by image. Overrides the setting applied on project level.
+	* **SearchByImageFirst** - enable/disable search by image before searching by element's find expression. Overrides the settings applied on project level.
 	* **UnexpectedDialogAction** - specifies the action that the DialogMonitor should take when it encounters unexpected dialogs.
 	* **WaitCheckInterval** - the wait interval (in msec) to use between checks for all the *Wait.For* methods.
 	* **XMultiMgr** - whether or not to use WebAii 1.1 style connections. When set - multiple Manager objects can co-exist on the machine.

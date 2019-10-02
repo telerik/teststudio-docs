@@ -43,6 +43,18 @@ The code-behind file is nested under the parent test in Solution Explorer:
 
 ![Code Behind File][4]
 
+## Code Editor in Standalone Version ##
+
+The code editor in version 2019 R3 and later has a Quick Find and Quick Replace features to make it easier to navigate and maintain your code. You can open it from the Find icon in the top bar, or standard CTRL+F and CTRL+R shortcuts. 
+
+The search and replace functionality is against the file that is currently open.
+
+![Code Editor][5]
+
+The code editor has a context menu with more actions. You can comment or uncomment your code from the context menu or with CTRL+K and CTRL+U shortcuts respectively.
+
+![Context Menu][6]
+
 **See Also:**
 
 *	<a href="/features/coded-steps/coded-step" target="_blank">Coded Step</a>
@@ -51,3 +63,5 @@ The code-behind file is nested under the parent test in Solution Explorer:
 [2]: /img/advanced-topics/coded-steps/code-behind-file/fig2.png
 [3]: /img/advanced-topics/coded-steps/code-behind-file/fig3.png
 [4]: /img/features/coded-steps/code-behind-file/fig4.png
+[5]: /img/features/coded-steps/code-behind-file/fig5.png
+[6]: /img/features/coded-steps/code-behind-file/fig6.png

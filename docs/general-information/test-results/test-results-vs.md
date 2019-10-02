@@ -3,7 +3,7 @@ title: Test Results (VS Plugin)
 page_title: Test Results (VS plugin)
 description: "Test Studio Test Results (VS plugin) in Visual Studio. How to review the Test Studio test execution results in Visual Studio"
 previous_url: /user-guide/test-results/test-results-vs-plugin.aspx, /user-guide/test-results/test-results-vs-plugin, /getting-started/test-results/test-results-vs
-position: 1
+position: 8
 ---
 # Test Results (VS plugin) #
 

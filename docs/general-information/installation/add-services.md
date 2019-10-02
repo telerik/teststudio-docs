@@ -1,7 +1,7 @@
 ---
-title: Add Scheduling / Storage Services
-page_title: Add Scheduling / Storage Services
-description: "Test Studio Add Scheduling / Storage Services after initial installation. I want to add scheduling to my current Test studio. How to schedule test lists on remote machines with Test Studio"
+title: Add Test Studio Services
+page_title: Add Scheduling, Storage Services and Executive Dashboard
+description: "Test Studio Add Scheduling / Storage Services / Executive Dashboard after initial installation. I want to add scheduling to my current Test studio. How to schedule test lists on remote machines with Test Studio? Executive Dashboard is not available. How to add Executive Dashboard?"
 previous_url: /user-guide/installation/trial-services.aspx, /user-guide/installation/trial-services
 position: 6
 ---
