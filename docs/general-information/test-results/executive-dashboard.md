@@ -24,12 +24,11 @@ The **Executive Dashboard** allows you to monitor the test list results executed
 
 ## Executive Dashboard Overview
 
-You can monitor the results from remote test list executions in the brower and on all kinds of devices.
+You can monitor the results from remote test list executions in the brower and on all kinds of devices that can access the Executive Dashboard.
 
 ### Project View
 
 In the Project View you see all remotely executed test list results per project. They are sorted first by favorites ![Favorites][4] and then by the **Last Run Start Time** column. 
-
 The field selections and favorites are saved locally per browser and per selected project.
 
 ![Project View][5]
@@ -43,11 +42,11 @@ Last 10 runs are sorted by time of execution and the latest is on the right side
 
 ### Test Lists View
 
-This view shows you 10 remote test list executions at a time and they are sorted by Start Time by default. You can change the sort by clicking the column's header and use multiple rules at the same time.
+This view shows you up to 10 remote test list executions at a time and they are sorted by Start Time by default. You can change the sort by clicking the column's header and use multiple rules at the same time.
 
 ![Project View][6]
 
-* **Breadcrumb navigation** - Click on the ProjectName link to navigate back.
+* **Breadcrumb navigation** - Click on the Project name link to navigate back.
 * **View Details** - Drill down to the test list details.
 
 ### Test List Execution Details
@@ -56,13 +55,15 @@ The detailed view of the test list execution shows information about each test. 
 
 ![Project View][7]
 
-* **Breadcrumb navigation** - Click on the Project name or Test List name link to navigate back.
+* **Breadcrumb navigation** - Click on the Project name or the Test List name link to navigate back.
 * **Expand Test Details** - Expand the test and view all test steps. If there is a Test as Step, you can expand that further.
 * **View Log** - Show the test execution log with option to copy it to clipboard.
 
 ![Project View][8]
 
 The version and additional information aboute the Executive Dashboard is available in the **About** button in the header.
+
+![About Page][9]
 
 [1]: /img/general-information/test-results/executive-dashboard/fig1.png
 [2]: /img/general-information/test-results/executive-dashboard/fig2.png
@@ -72,3 +73,4 @@ The version and additional information aboute the Executive Dashboard is availab
 [6]: /img/general-information/test-results/executive-dashboard/fig6.png
 [7]: /img/general-information/test-results/executive-dashboard/fig7.png
 [8]: /img/general-information/test-results/executive-dashboard/fig8.png
+[9]: /img/general-information/test-results/executive-dashboard/fig9.png

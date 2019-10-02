@@ -23,7 +23,7 @@ After the scheduled test list runs on the Execution server(s), you can update th
 
 ![Test Results][3]
 
-4.&nbnsp; Go further by double clicking each test. For more information see the <a href="/getting-started/test-results/analyze-test-results" target="_blank">Analyze Test Results</a> page.
+4.&nbsp; Go further by double clicking each test. For more information see the <a href="/getting-started/test-results/analyze-test-results" target="_blank">Analyze Test Results</a> page.
 
 ![Test Steps][4]
 
@@ -42,6 +42,10 @@ Click **Manage Results** to view and/or delete test list results on the Scheduli
 To delete one or more test results, click the check box next to the results and click ![Delete Results Button][8].
 
 ![Delete Results][7]
+
+## Executive Dashboard
+
+With Test Studio version 2019 R3 and later you can <a href="/general-information/test-results/executive-dashboard" target="_blank">setup the Execution Dashboard</a>. It allows you to view remote test list results from the browser on any device that can access it.
 
 [1]: /img/features/scheduling-test-runs/scheduling-results/fig1.png
 [2]: /img/features/scheduling-test-runs/scheduling-results/fig2.png
