@@ -12,15 +12,15 @@ The **Executive Dashboard** allows you to monitor the test list results executed
 
 1. <a href="/general-information/installation/install-procedure" target="_blank">Install the Executive Dashboard components</a> in the **Customize Installation dialog** during Test Studio installation for the machine that will host this service. It is not selected by default in the standalone installation and you can also <a href="/general-information/installation/add-services" target="_blank">add it after that</a>.
 
-![Installation Dialog][1]
+    ![Installation Dialog][1]
 
 2. Start Test Studio and click **Configure** in the Scheduling section of the ribbon bar.
 
-![Configure][2]
+    ![Configure][2]
 
-3. Go to the **Executive Dashboard** tab and make configuration changes if necessary. The service will be started automatically. You need to hit the **Apply** button, if you make any changes, and check the details on the bottom of the window.
+3. Go to the **Executive Dashboard** tab and make configuration changes if necessary. You need to hit the **Apply** button, if you make any changes, and check the details on the bottom of the window. The service will be started automatically. 
 
-![Executive Dashboard Configuration][3]
+    ![Executive Dashboard Configuration][3]
 
 ## Executive Dashboard Overview
 
@@ -61,6 +61,8 @@ The detailed view of the test list execution shows information about each test. 
 * **View Log** - Show the test execution log with option to copy it to clipboard.
 
 ![Project View][8]
+
+The version and additional information aboute the Executive Dashboard is available in the **About** button in the header.
 
 [1]: /img/general-information/test-results/executive-dashboard/fig1.png
 [2]: /img/general-information/test-results/executive-dashboard/fig2.png
