@@ -1,15 +1,15 @@
 ---
-title: Test Lists (Standalone)
-page_title: Test Lists (Standalone)
+title: Test Lists in Test Studio
+page_title: Test Lists in Test Studio
 description: "Test Studio Test List. How to create a test list (suite) in Test Studio. Static test list dynamic test list"
-position: 1
+position: 2
 ---
 # Test Lists (Standalone) #
 
 In the Standalone version you can execute one or more tests through a Test List. There are two types of Test Lists: **Static** and **Dynamic**.
 
 * A <a href="#static-test-list">Static Test List</a> contains a fixed, predetermined list of tests.
-* A <a href="#dynamic-test-list">Dynamic Test List</a> contains a list of tests that is dynamically generated upon execution based on test properties.
+* A <a href="#dynamic-test-list">Dynamic Test List</a> contains a list of tests that is dynamically generated upon execution based on <a href="/features/test-maintenance/test-properties-standalone">test properties</a>.
 
 ## Static Test List ##
 

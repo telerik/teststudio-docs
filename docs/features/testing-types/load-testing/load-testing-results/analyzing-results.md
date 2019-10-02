@@ -2,8 +2,7 @@
 title: Analyzing Results
 page_title: Analyzing Results
 description: "Analyzing Test Studio load testing results. How to understand the load testing results in Test Studio."
-previous_url: /user-guide/load-testing/load-analyzing-results.aspx
-position: 18
+position: 0
 ---
 # Analyzing Results
 

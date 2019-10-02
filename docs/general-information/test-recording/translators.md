@@ -12,7 +12,7 @@ The party that best understands the internals of a component is the party that b
 * Translators are extensions that open up an element to work with Test Studio.
 * A translator describes the actions of an element that can be automated and verifications that can be performed.
 * Translators allow interaction with the Test Studio user interface including the <a href="/features/elements-menu/overview" target="_blank">Elements Menu</a> and <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
-* Test Studio ships with basic translators for HTML, Silverlight and WPF, and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular.
+* Test Studio ships with basic translators for HTML, Silverlight and WPF, and translators built specifically for __Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular, Blazor__.
 * Test Studio was built with extensibility in mind, so as additional controls become available, new translators can be plugged in.
 * Telerik is committed to maintaining translators in step with Telerik controls changes, so you can expect the translators to always be up-to-date.
 
@@ -31,7 +31,7 @@ As the mouse passes over the items in the menu the respective element on page wi
 
 ![Click][2]
 
-Test Studio comes with translators for HTML, Silverlight, and WPF and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular. These translators have a "base" or "generic" group of intrinsic translators that are used whenever a more specific translator is not available. These translators are listed in the <a href="/features/project-settings/Translators" target="_blank">Project Settings</a> dialog.
+Test Studio comes with translators for HTML, Silverlight, and WPF and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular, Blazor. These translators have a "base" or "generic" group of intrinsic translators that are used whenever a more specific translator is not available. These translators are listed in the <a href="/features/project-settings/Translators" target="_blank">Project Settings</a> dialog.
 
 __See Also:__ You can find additional information on Kendo Translators in our blog post <a href="https://www.telerik.com/blogs/automated-testing-of-kendo-ui-made-easy" target="_blank">__Automated Testing for Kendo UI Made Easy__</a>.
 

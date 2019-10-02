@@ -2,7 +2,7 @@
 title: Visual Debugger
 page_title: Visual Debugger
 description: "Test Studio Visual Debugger tools to explore why a test is failing. What is the Visual Debugger in Test Studio. How to use the Visual Debugger in Test Studio"
-position: 1
+position: 9
 ---
 # Visual Debugger #
 

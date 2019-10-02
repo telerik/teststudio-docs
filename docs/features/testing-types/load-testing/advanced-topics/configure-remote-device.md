@@ -2,8 +2,7 @@
 title: Mobile Device Traffic
 page_title: Mobile Device Traffic
 description: "Configure Test Studio to capture user profile http traffic from a remote machine, including a mobile device"
-previous_url: /user-guide/load-testing/designing-load-tests/adding-user-profiles/capture-remote-traffic.aspx
-position: 7
+position: 3
 ---
 # Mobile Device Traffic
 
