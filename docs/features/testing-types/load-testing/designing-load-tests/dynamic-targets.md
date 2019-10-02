@@ -41,9 +41,18 @@ The step whose number appears in the To column will include the dynamic target i
 
 ## Custom Dynamic Targets
 
-Based on the HTTP traffic there might be targets which are not detected by Test Studio as dynamic but still these will be required to accomplish meaningful scenario. Or any of the auto-detected dynamic targets is not listed for transfer to a desired request.
+Based on the HTTP traffic there might be targets which are not detected by Test Studio as dynamic but still these will be required to accomplish meaningful scenario. Or any of the auto-detected dynamic targets is not listed for transfer to a desired request. To handle such scenarios Test Studio implemented the ability to add __Custom Dynamic Targets__.
 
-To handle such scenarios Test Studio implemented the ability to add __Custom Dynamic Targets__. The Custom Dynamic Targets are available in the _Choose Dynamic Targets_ view where all auto-detected are listed as well - once a <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">user profile is captured</a> or opened <a href="/features/testing-types/load-testing/modifying-tests" target="_blank">to be modified</a> click the ___Choose Dynamic Targets___ button. 
+* [Add Custom Dynamic Target](#add-custom-dynamic-target)
+* [Source Section Properties](#source-section-properties)
+* [Search Options In Source Step Respponse](#search-options)
+* [Destination Section Properties](#destination-section-properties)
+* [Append Custom Text to Dynamic Value](#append-custom-text-to-dynamic-value)
+* [Important Notes](#important-notes)
+
+### Add Custom Dynamic Target
+
+The Custom Dynamic Targets are available in the _Choose Dynamic Targets_ view where all auto-detected are listed as well - once a <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">user profile is captured</a> or opened <a href="/features/testing-types/load-testing/modifying-tests" target="_blank">to be modified</a> click the ___Choose Dynamic Targets___ button. 
 
 ![Choose Dynamic Targets][5]
 
@@ -60,8 +69,8 @@ __See Also:__ A sample scenario to cover with the help of custom dynamic targets
 - **Content**: Displays the content of the selected response part.
 - **Search Type**: The type of search to be used in the content of the selected response - FullText, Regex, JSON, XML. Select any of the provided options to search for the necessary value from the response.
 - **Starts after/before|Regex|JSON path|XPath**: Provide the search query to locate the desired value in the response.
-- **Search Result**: Click to show the reuslt based on the search query.
-- **Current Value**: Display the current reuslt based on the search query.
+- **Search Result**: Click to show the result based on the search query.
+- **Current Value**: Display the current result based on the search query.
 
 <table id="no-table">
 	<tr>
@@ -121,17 +130,60 @@ domain=(?<val>.*?)$
 
 ### Destination Section Properties
 
-- **Step**: Step to pass the target to. Any step that follows the selected one for source and contains a HTTP request could be selected for destination step. The Think time steps are filtered out and not displayed in the dropdown.
-- **Field Type**: In what part of the HTTP request to include the custom dynamic target - Query Paramater, Header, Cookie, POST data, URL.
-- **Field Name**: The name of the dynamic target which will be used in the HTTP request.
+- **Step**: Step to pass the target to. Any step, that follows the selected one for source and contains a HTTP request, could be selected for destination step. The Think time steps are filtered out and not displayed in the dropdown.
+- **Field Type**: In which part of the HTTP request to include the dynamic value - Query Paramater, Header, Cookie, POST data, URL.
+- **Field Name**: The name of the dynamic target which will be used in the HTTP request - particular query parameter, header, or cookie.
 
 ![Destination Section Properties][10]
+
+> __Note!__ Keep in mind that **blank spaces in the *Field Name* text box will be used as valid character** and thus included in the final string. Therefore, leave intervals in the text only if these are expected.
+
+### Append Custom Text to Dynamic Value
+
+In some cases the dynamic parameter is built by a value from any previous HTTP response and a predefined static text - an example of such implementation could be an authorization header for some applications. The expected header in this occasion consists of **predefined and known text, which either precedes and/or follows** the dynamic part, and the dynamic value extracted from a previous response.
+
+In Test Studio load module you can create such dynamic target using the available append options allowed in the Destination section's **Field Name** text box. All of these use the following template
+
+```XML
+Query Parameter, Cookie, or Header
+[NameOfParameter]:[Prefix(optional)]{value}[Suffix(optional)]
+
+URL
+http://url.com/{value}/suffixparams
+```
+> __Note!__ Keep in mind that **blank spaces in the *Field Name* text box will be used as valid character** and thus included in the final string. Therefore, leave intervals in the text only if these are expected.
+
+- **Query Parameter** - list the name of the query parameter as it will be listed in the URL, the predefined text and set the value extracted from the source step in curly brackets.
+	* __Ex.:__ source:search-for-{value} - if the extracted value is _test_, the query parameter will be appended as _source=search-for-test_.
+	* __Ex.:__ source:{value}searching - if the extracted value is _test_, the query parameter will be appended as _source=testsearching_.
+- **Header** - list the name of the header to replace followed by colon (:), the predefined text and set the value extracted from the source step in curly brackets.
+	* __Ex.:__ Authorization:TOKEN-{value} - if the extracted value is _test_, the Authorization header will be appended as _TOKEN-test_.
+	* __Ex.:__ Authorization:{value} AuthToken - if the extracted value is _test_, the Authorization header will be appended as _test AuthToken_.
+- **Cookie** - list the name of the cookie to replace followed by colon (:), the predefined text and set the value extracted from the source step in curly brackets.
+	* __Ex.:__ SessionID:currSession-{value} - if the extracted value is _test_, the SessionID cookie will be appended as _currSession-test_.
+	* __Ex.:__ SessionID:currSession-{value} SID - if the extracted value is _test_, the SessionID cookie will be appended as _currSession-test SID_.
+- **URL** - list the redirect URL as it need to be sent to the server, the predefined text and set the value extracted from the source step in curly brackets.
+	* __Ex.:__ http://google.com/{value} - if the extracted value is _test_, the URL will be appended as _http://google.com/test_.
+	* __Ex.:__ http://google.com/{value}/id=1379 - if the extracted value is _test_, the URL will be appended as _http://google.com/test/id=1379_.
+
+<table id="no-table">
+	<tr>
+		<td>__Append Query Parameter__<br>![Append Query Parameter][11]</td>
+		<td>__Append Header__<br>![Append Header][12]</td>
+    </tr>
+    <tr>
+        <td>__Append Cookie__<br>![Append Cookie][13]</td>
+		<td>__Append URL__<br>![Append URL][14]</td>
+	</tr>
+<table>
+
+> __Note!__ The above examples only represent how to append some predefined text before or after the dynamic value for the different types of destination fields. These are no real example of working HTTP calls.
 
 ### Important Notes
 
 > __Note!__ The custom dynamic value will be added to the destination HTTP request even if there is no such parameter, cookie or header existing in the recorded request.
 <br>
-> __Note!__ If there are both autodetected and custom dynamic values for a single destination step, the last set target will be used in the request. Disable/Enable of a dynamic target will update the order of set targets. 
+> __Note!__ If there are both autodetected and custom dynamic values for a single destination step, the last set target will be used in the request. Disable/Enable of a dynamic target will update the order of set targets.
 <br>
 > __Note!__ As of now there is no visual representation for any custom dynamic targets within the __Edit User Profile__ view. To verify if the HTTP requests are built as you expect you could use <a href="https://www.telerik.com/fiddler" target="_blank">Fiddler</a> to capture the traffic of a sample load test execution and inspect these.
 
@@ -145,3 +197,7 @@ domain=(?<val>.*?)$
 [8]: /img/features/testing-types/load-testing/dynamic-targets/fig7a.png
 [9]: /img/features/testing-types/load-testing/dynamic-targets/fig7b.png
 [10]: /img/features/testing-types/load-testing/dynamic-targets/fig8.png
+[11]: /img/features/testing-types/load-testing/dynamic-targets/fig11.png
+[12]: /img/features/testing-types/load-testing/dynamic-targets/fig12.png
+[13]: /img/features/testing-types/load-testing/dynamic-targets/fig13.png
+[14]: /img/features/testing-types/load-testing/dynamic-targets/fig14.png

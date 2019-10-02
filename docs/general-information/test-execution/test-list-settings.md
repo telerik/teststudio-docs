@@ -2,7 +2,7 @@
 title: Test List Settings
 page_title: Test List Settings
 description: "Test Studio Test List Settings. Change the browser for a test list run. RunnerResponseTimeout. UnexpectedDialogAction. KillBrowserProcessOnClose KillBrowsersBeforeStart Test list baseURL"
-position: 1
+position: 4
 ---
 # Test List Settings #
 

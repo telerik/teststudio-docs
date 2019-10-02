@@ -1,10 +1,10 @@
 ---
-title: Test Lists (Visual Studio) 
-page_title: Test Lists (Visual Studio)
+title: Test Lists in Visual Studio 2010 
+page_title: Test Lists in Visual Studio 2010
 description: "Test Studio Test Lists in Visual Studio. test lists are deprecated in Visual Studio 2012"
-position: 1
+position: 10
 ---
-# Test Lists (Visual Studio)
+# Test Lists in Visual Studio 2010 (Deprecated)
 
 Although test lists are deprecated in Visual Studio 2012 you can still use them:
 
@@ -12,7 +12,7 @@ Although test lists are deprecated in Visual Studio 2012 you can still use them:
 
 	![Add item][1]
 
-2. Type in the text box 'TestList.vsmdi' or any other item name that ends with '.vsmdi' and click add. 
+2. Type in the text box 'TestList.vsmdi' or any other item name that ends with '.vsmdi' and click add.
 
 	![Add .vsmdi file][2]
 
@@ -26,7 +26,7 @@ Although test lists are deprecated in Visual Studio 2012 you can still use them:
 
 	![Test List Editor][4]
 
-5. Right click **Lists of Tests** and select **New Test List**. 
+5. Right click **Lists of Tests** and select **New Test List**.
 
 	![Create new test list][5]
 

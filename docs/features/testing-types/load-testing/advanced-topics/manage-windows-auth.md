@@ -2,7 +2,7 @@
 title: Manage Windows Authentication
 page_title: Manage Windows Authentication
 description: "Manage Windows Authentication in Test Studio load test. The tested application supports Windows Authentication - can use that in Test Studio load test"
-position: 16
+position: 0
 ---
 # Manage Windows Authentication
 

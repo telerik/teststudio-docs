@@ -2,7 +2,7 @@
 title: Data Driving
 page_title: Data Driving a Load Test
 description: "Data drive / parameterize the dynamic targets in Test Studio load test. The http requests in a load test need to be parameterized. "
-position: 13
+position: 2
 ---
 # Data Driving
 

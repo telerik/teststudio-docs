@@ -2,18 +2,29 @@
 title: Running Tests
 page_title: Running Load Tests
 description: "Run Load Tests in Test Studio. How to execute a load test in Test Studio"
-previous_url: /user-guide/load-testing/load-running-tests.aspx
-position: 17
+position: 0
 ---
 # Running Tests
 
-This document describes how to run a load test immediately from the Test tab. As of 2013 R1, you can also <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">add load tests to a test list</a> and schedule them for remote execution.
+This document describes how to run a load test locally. This type of run is used while designing and adjusting the test, the results, which it generates, can be easily used to troubleshoot possible issues, or missing dynamic values adjustments.
 
-When you have finished designing your load test and are ready to begin a load test run, click the **Run** button in the **Steps** ribbon. 
+## Run Load Test
 
-![Run][1]
+Once you have modified the recorded traffic, switch to the local test execution view using the **Run** button.
 
-Prior to executing the load test there are two parameters you can adjust:
+![Run view of load test][1]
+
+Click **Run Locally** button to initiate execution of the load test.
+
+![Run Test][7]
+
+When the test begins, Test Studio will automatically switch to the **Test Details** screen and show you the test progress as it is being executed. See the <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">Analyzing Results</a> page to learn how to use this screen.
+
+## Test Run Options
+
+The options which you can adjust prior to executing the load test, are listed under the **Test Options** section. These will be associated with the current test run and can be changed for each next execution of the test.
+
+![Test Run Options][1a]
 
 - **Test Run Description** - Add a description that will be saved along with the test results. Enter any meta data you want here. You might want to record something special about the environment being used or the build of the application being tested. This can serve as a reminder when looking at all the full list of accumulated test results.
 
@@ -25,7 +36,7 @@ Prior to executing the load test there are two parameters you can adjust:
 
 Choose an appropriate value for the Sampling Rate property for the load test run based on the duration of your load test. A smaller sample rate, such as the default value of 5 seconds, requires more space in the load test results database. For longer load tests, increasing the sample rate reduces the amount of data that you collect.
 
-Here are some guidelines for sample rates: 
+Here are some guidelines for sample rates:
 
 <style>
 table.docs {
@@ -74,23 +85,19 @@ padding: 8px;
 </tr>
 <table>
 
-- **Goals** – Set goals for load test metrics to define success or failure. You can choose a metric from the list and define the failure condition, add a custom goal, and choose to ignore goals for an initial period. To set a goal from the list, check the box next to the metric you want to measure and input the value for the failure condition.
+## Test Run Goals
+
+You can set goals for load test metrics to define success or failure - choose a metric from the list and define the failure condition, add a custom goal, choose to ignore goals for an initial period. To set a goal from the list, check the box next to the metric you want to measure and input the value for the failure condition.
 
 ![Goals][4]
 
- You can choose to stop the test if this goal is met.
+You can choose to stop the test if this goal is met.
 
 ![Goal Met][5]
 
 You can choose ‘Add custom goal’ and define a new failure or success condition for any metric.
 
 ![Custom Goal][6]
-
-Click **Run this test** to initiate execution of the load test. 
-
-![Run Test][7]
-
-When the test begins, Test Studio will automatically switch to the **Test Details** screen and show you the test as it is being executed. See the <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">Analyzing Results</a> page to learn how to use this screen.
 
 ## Disabled Run Button
 
@@ -101,6 +108,7 @@ The “Run Locally” button will be disabled if any of the following prerequisi
 - The <a href="/features/testing-types/load-testing/test-settings#available-users" target="_blank">virtual users set when designing a test</a> should not exceed the users allocated to the local Execution Server.
 
 [1]: /img/features/testing-types/load-testing/running-tests/fig1.png
+[1a]: /img/features/testing-types/load-testing/running-tests/fig1a.png
 [2]: /img/features/testing-types/load-testing/running-tests/fig2.png
 [3]: /img/features/testing-types/load-testing/running-tests/fig3.png
 [4]: /img/features/testing-types/load-testing/running-tests/fig4.png

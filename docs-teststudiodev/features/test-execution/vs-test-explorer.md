@@ -1,40 +1,48 @@
 ---
 title: Visual Studio Test Explorer 
 page_title: Visual Studio Test Explorer | Test Studio Dev Documentation
-description: Test Studio Dev tests are recognized by VS Test Explorer and could be executed by it. 
+description: Test Studio Dev tests are recognized by VS Test Explorer and could be executed by it. Run Test Studio Dev tests via the Test Explorer in Visual Studio
 position: 1
 ---
-# Visual Studio Test Explorer#
+# Visual Studio Test Explorer #
 
-The <a href="http://msdn.microsoft.com/en-us/library/hh270865.aspx" target="_blank">Test Explorer</a> in Visual Studio discovers and runs tests, including Test Studio Dev tests.
+The <a href="http://msdn.microsoft.com/en-us/library/hh270865.aspx" target="_blank">Test Explorer</a> in Visual Studio discovers and runs tests, including Test Studio Dev tests and <a href="/features/test-execution/test-lists-in-vs-2017-2019" target="_blank">test lists</a>.
 
-To open Test Explorer go to **Test > Windows > Test Explorer**:
+## View Tests and Test Lists in Test Explorer ##
+
+To open Test Explorer in Visual Studio, choose **Test -> Windows -> Test Explorer**
 
 ![Test tab][1]
 
-Test Explorer lists the __Test Studio Dev__ tests within the currently opened solution with their execution status in the Test Explorer. Thus a test executed with the Quick Execution Test Runner will still remain _Not Run_ in the Test Explorer until it is executed.
+Once the project is built, Test Explorer lists the __Test Studio Dev__ tests and test lists within the currently opened solution with their execution status in the Test Explorer. Thus a test, executed with the Quick Execution Test Runner, will still remain _Not Run_ in the Test Explorer, until a run is triggered from it.
 
 ![Test Explorer][2]
 
 >__Note!__ Ensure the __project is re-built before initiating a run from the VS Test Explorer__. Any recent changes will not be reflected otherwise.
 
-__Test Studio Dev__ tests can be sorted in the Test Explorer by:
+## Group Tests and Test Lists in Test Explorer ##
 
-* __Outcome__ - sorts tests in Passed, Failed, Not Run categories.
-* __Project__ - in case more than one __Test Studio Dev__ project is included in the solution the tests will be sorted by project.
-* __Duration__ - sort the executed tests by the test run duration.
+_Test Explorer_ provides few different options to group the listed files. What makes sense in the context of Test Studio Dev tests is to use custom grouping starting with either _Namespace_ or _Project_, and then use as sub-filters _Class_ and _State_ in the desired order.
 
-![VS Test Explorer Sort By](images/vs-test-explorer/vs-test-expl-group-tests.png)
+![Group Tests and Test lists][3]
 
-Run the tests with the _Run All_ button. Or choose a group of tests to run from the dropdown options of the _Run..._ button in Test Explorer.
+## Run Tests and Test Lists in Test Explorer ##
 
-![VS Test Explorer Run Tests](images/vs-test-explorer/vs-test-expl-run-tests.png)
+To execute the test files in _Test Explorer_, use the **Run...** buttons and their different options.
 
-Test Explorer allows you to run all tests previously sorted in a group (_Outcome, Project and Duration_ are the applicable categories for Test Studio Dev tests).
+>__Note!__ Ensure the __project is re-built before initiating a run from the VS Test Explorer__. Any recent changes will not be reflected otherwise.
 
-![VS Test Explorer Run Selected Tests](images/vs-test-explorer/vs-test-expl-run-selected-tests.png)
+![Run Tests and Test lists][4]
 
->__Note!__ By default VS Test Explorer __does not use__ the default <a href="/features/project-settings/overview" target="_blank">Test Studio Dev settings</a>. To be able to use the default or apply new settings a <a href="/advanced-topics/project-configuration/test-explorer-settings" target="_blank">project settings file is required.
+> __Note!__ When executing test files from Test Explorer <a href="/features/project-settings/overview" target="_blank">Test Studio Dev project settings</a> are not applied.
+<br>
+<br>
+To use the default Test Studio settings, or modify these as per the current requirements, a <a href="/advanced-topics/project-configuration/test-explorer-settings" target="_blank">project settings file need to be added</a> and applied for the test execution from Test Explorer.
+<br>
+<br>
+Test list files are using <a href="/features/test-execution/test-list-settings" target="_blank">their own settings</a> when executed from Test Explorer.
 
 [1]: images/vs-test-explorer/fig1.png
 [2]: images/vs-test-explorer/fig2.png
+[3]: images/vs-test-explorer/fig3.png
+[4]: images/vs-test-explorer/fig4.png

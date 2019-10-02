@@ -2,11 +2,11 @@
 title: Test List Execution
 page_title: Test List Execution
 description: "Test Studio Test List Execution. How to run a test list in Test Studio. Automatic re-run rerun of failed test in a test list. recording options for test list execution in Test Studio"
-position: 0
+position: 1
 ---
 # Test List Execution
 
-Once there is a set of test scripts designed and configured to run consistently and smoothly as standalone tests, these can be included in a test list. Test lists can be executed as <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduled jobs</a>, both locally and on remote machines.
+Once there is a set of test scripts designed and configured to run consistently and smoothly as standalone tests, these can be <a href="/general-information/test-execution/test-lists-standalone" target="_blank">included in a test list</a>. Test lists can be executed as <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduled jobs</a>, both locally and on remote machines.
 
 Test Studio provides a rich set of <a href="/getting-started/test-execution/test-list-settings" target="_blank">test list settings</a> to help for stable execution of the test suites and easier debugging in case of failures. Below are listed some of the most useful settings, which can be applied to enhance the implemented automation process.
 

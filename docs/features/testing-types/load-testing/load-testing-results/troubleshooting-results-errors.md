@@ -1,8 +1,8 @@
 ---
 title: Troubleshooting Results Errors
 page_title: Troubleshooting Results Errors
-description: "Troubleshooting Results Errors from Test Studio laod test run."
-position: 20
+description: "Troubleshooting Results Errors from Test Studio load test run."
+position: 1
 ---
 # Troubleshooting Results Errors
 
