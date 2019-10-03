@@ -29,7 +29,7 @@ After the scheduled test list runs on the Execution server(s), you can update th
 
 ## Publish To Server
 
-Use this button to publish the currently selected locally executed test list result to the Scheduling server.
+Use this button to publish the currently selected locally executed test list result to the Scheduling server. Those results will also appear in the <a href="/general-information/test-results/executive-dashboard" target="_blank">Executive Dashboard</a>.
 
 ![Publish to Server][5]
 

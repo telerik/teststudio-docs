@@ -28,7 +28,7 @@ You can monitor the results from remote test list executions in the brower and o
 
 ### Project View
 
-In the Project View you see all remotely executed test list results per project. They are sorted first by favorites ![Favorites][4] and then by the **Last Run Start Time** column. 
+In the Project View you see all remotely executed test list results per project. They are sorted first by **Favorites** (the star icon) and then by the **Last Run Start Time** column.
 The field selections and favorites are saved locally per browser and per selected project.
 
 ![Project View][5]
@@ -68,7 +68,7 @@ The version and additional information aboute the Executive Dashboard is availab
 [1]: /img/general-information/test-results/executive-dashboard/fig1.png
 [2]: /img/general-information/test-results/executive-dashboard/fig2.png
 [3]: /img/general-information/test-results/executive-dashboard/fig3.png
-[4]: /img/general-information/test-results/executive-dashboard/fig4.png
+
 [5]: /img/general-information/test-results/executive-dashboard/fig5.png
 [6]: /img/general-information/test-results/executive-dashboard/fig6.png
 [7]: /img/general-information/test-results/executive-dashboard/fig7.png

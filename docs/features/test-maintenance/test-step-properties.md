@@ -125,7 +125,7 @@ padding: 8px;
 	<td>**ScrollToVisibleType**</td><td>Scroll element to visible type.</td><td>To set a Scroll step to window top or bottom.</td>
 </tr>
 <tr>
-	<td>**SearchByImageFirst**</td><td>Search by image before searching by element's find expression.</td><td>Overrides project and test list settings.</td>
+	<td>**SearchByImageFirst**</td><td>Search by image before searching by element's find expression.</td><td>**ParentSetting** will inherit Project or Test List settings. **True** and **False** overrides Project and Test List settings.</td>
 </tr>
 <tr>
 	<td>**ShiftKey**</td><td>Whether to hold the Shift key while clicking.</td><td>To execute a Shift + Click.</td>
