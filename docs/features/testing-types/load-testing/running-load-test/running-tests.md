@@ -1,12 +1,12 @@
 ---
-title: Running Tests
+title: Running Load Tests
 page_title: Running Load Tests
 description: "Run Load Tests in Test Studio. How to execute a load test in Test Studio"
 position: 0
 ---
-# Running Tests
+# Running Load Tests Locally
 
-This document describes how to run a load test locally. This type of run is used while designing and adjusting the test, the results, which it generates, can be easily used to troubleshoot possible issues, or missing dynamic values adjustments.
+Below you can read how to trigger a load test run locally. This type of execution is usually used while designing and adjusting the test. The results, which it generates, can be easily used to troubleshoot possible issues, or missing dynamic values adjustments.
 
 ## Run Load Test
 

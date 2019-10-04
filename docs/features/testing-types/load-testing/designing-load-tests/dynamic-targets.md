@@ -136,22 +136,21 @@ domain=(?<val>.*?)$
 
 ![Destination Section Properties][10]
 
-> __Note!__ Keep in mind that **blank spaces in the *Field Name* text box will be used as valid character** and thus included in the final string. Therefore, leave intervals in the text only if these are expected.
-
 ### Append Custom Text to Dynamic Value
 
 In some cases the dynamic parameter is built by a value from any previous HTTP response and a predefined static text - an example of such implementation could be an authorization header for some applications. The expected header in this occasion consists of **predefined and known text, which either precedes and/or follows** the dynamic part, and the dynamic value extracted from a previous response.
 
-In Test Studio load module you can create such dynamic target using the available append options allowed in the Destination section's **Field Name** text box. All of these use the following template
+In Test Studio load module you can create such dynamic target using the available append options allowed in the Destination section's **Field Name** text box. All of these use the following template, where ___Prefix and Suffix are optional___:
 
-```XML
-Query Parameter, Cookie, or Header
-[NameOfParameter]:[Prefix(optional)]{value}[Suffix(optional)]
+```
+Query Parameter, Cookie, Header
+'ParamName:Prefix{value}Suffix'
 
 URL
-http://url.com/{value}/suffixparams
+'Prefix{value}Suffix'
 ```
-> __Note!__ Keep in mind that **blank spaces in the *Field Name* text box will be used as valid character** and thus included in the final string. Therefore, leave intervals in the text only if these are expected.
+
+> __Note!__ Keep in mind that **blank spaces in the *Field Name* text box are considered valid character** and thus are included in the final string. Therefore, leave intervals in the text only if these are expected.
 
 - **Query Parameter** - list the name of the query parameter as it will be listed in the URL, the predefined text and set the value extracted from the source step in curly brackets.
 	* __Ex.:__ source:search-for-{value} - if the extracted value is _test_, the query parameter will be appended as _source=search-for-test_.
