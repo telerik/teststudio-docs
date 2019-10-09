@@ -34,7 +34,7 @@ The field selections and favorites are saved locally per browser and per selecte
 ![Project View][5]
 
 * **Select project** - Select a Test Studio project from a drop-down list.
-* **Refresh interval** - Chose a time interval to refresh the results in the Executive Dashboard.
+* **Refresh interval** - Choose a time interval to refresh the results in the Executive Dashboard.
 * **Search field** - Filter test lists by name as you type.
 * **Favorites** - Enable/Disable favorites for a test list. Favorite test lists will always appear on top.
 
