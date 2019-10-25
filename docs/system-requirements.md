@@ -69,7 +69,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 ##Supported Databases##
 
-* MongoDB 3.0 (**Note**: MongoDB requires at least 4 Gb of free space on machine where the Storage server is installed)
+* MongoDB 3.0+, 4.0+ (**Note**: MongoDB requires at least 4 Gb of free space on machine where the Storage server is installed)
 
 ## Source Control
 

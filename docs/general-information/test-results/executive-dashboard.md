@@ -6,7 +6,9 @@ position: 7
 ---
 # Executive Dashboard
 
-The **Executive Dashboard** allows you to monitor the test list results executed remotely per project. The **Executive Dashboard** gathers the results from the **Storage Server**.
+The **Executive Dashboard** allows you to monitor the results from remotely executed test lists per project. The **Executive Dashboard** gathers the results from the **Storage Server**.
+
+> **Note:** Test lists that are executed locally will not be uploaded to the **Storage Server** automatically. You can publish them to the server, that your project is connected to, from the **Results** tab.
 
 ## Installation and Configuration
 
