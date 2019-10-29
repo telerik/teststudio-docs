@@ -123,7 +123,7 @@ Click **Advanced Settings** ![Advanced settings button][20] to set whether to at
 [12]: /img/features/integration/bug-tracking/configuration/fig12.png
 [13]: /img/features/integration/bug-tracking/configuration/fig13.jpg
 [14]: /img/features/integration/bug-tracking/configuration/fig14.jpg
-[15]: /img/features/integration/bug-tracking/configuration/fig15.jpg
+[15]: /img/features/integration/bug-tracking/configuration/fig15.png
 [16]: /img/features/integration/bug-tracking/configuration/fig16.jpg
 [30]: /img/features/integration/bug-tracking/configuration/fig3-jira.png
 [20]: /img/features/integration/bug-tracking/configuration/advanced-settings.png
