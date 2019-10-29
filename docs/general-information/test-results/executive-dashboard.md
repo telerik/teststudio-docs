@@ -44,7 +44,7 @@ Last 10 runs are sorted by time of execution and the latest is on the right side
 
 ### Test Lists View
 
-This view shows you up to 10 remote test list executions at a time and they are sorted by Start Time by default. You can change the sort by clicking the column's header and use multiple rules at the same time.
+This view shows you the remote test list executions and you can change the number of items per page to 5, 10, 20 and 50. The results are sorted by Start Time by default. You can change the sort by clicking the column's header and use multiple rules at the same time.
 
 ![Project View][6]
 
@@ -53,7 +53,7 @@ This view shows you up to 10 remote test list executions at a time and they are 
 
 ### Test List Execution Details
 
-The detailed view of the test list execution shows information about each test. You can sort the results by multiple columns.
+The detailed view of the test list execution shows information about each test. You can change the number of tests per page to 5, 10, 20 and 50 and sort the results by multiple columns.
 
 ![Project View][7]
 
