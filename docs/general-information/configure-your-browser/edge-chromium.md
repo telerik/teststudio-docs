@@ -47,7 +47,7 @@ To ensure flawless and consistent automation process there are some settings to 
 <hr/>
 <br>
 
-The Edge Chromium extension is not automatically installed with the Test Studio installation. and you need to add it manually. As of now the Beta edition of MS Edge does not support all extension from the Google store including the Test Studio one and you need to load it as a developer extension. Below you can find detailed description of the necessary steps.
+The Edge Chromium extension is not automatically installed with the Test Studio installation and you need to add it manually. As of now the Beta edition of MS Edge does not support all extension from the Google store including the Test Studio one and you need to load it as a developer extension. Below you can find detailed description of the necessary steps.<br><br>
 
 1.&nbsp; Download the Progress Telerik Test Studio extension from <a href="/downloads/Progress_TestStudio_Extension.zip" target="_blank">here</a>.<br><br>
 

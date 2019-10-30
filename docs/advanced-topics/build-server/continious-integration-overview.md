@@ -3,7 +3,7 @@ title: Continious Integration Overview
 page_title: Telerik Testing in Continuous Integration Environments
 description: "Telerik Testing in Continuous Integration Environments with Test Studio"
 previous_url: /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments.aspx, /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments
-position: 2
+position: 1
 ---
 # Telerik Testing in Continuous Integration Environments #
 
