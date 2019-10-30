@@ -62,21 +62,21 @@ To create such agent, follow the steps listed below
 
 ### Configure a Self-hosted Agent
 
-1.&nbsp; Enter server URL: i.e. https://dev.azure.com/OrganizationName
+1.&nbsp; Enter server URL: i.e. https://dev.azure.com/OrganizationName.
 
-2.&nbsp; Create Personal Access Token (PAT) as described here and save it
+2.&nbsp; Create Personal Access Token (PAT) as described <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops#permissions" target="_blank">here</a> and save it.
 
-3.&nbsp; Choose PAT for authentication type and paste yours
+3.&nbsp; Choose PAT for authentication type and paste yours.
 
-4.&nbsp; Choose the Agent pool you created from point 2.3
+4.&nbsp; Choose the Agent pool you created earlier.
 
-5.&nbsp; Choose Agent name, the default name is the machine name on which it is hosted
+5.&nbsp; Choose Agent name, the default name is the machine name on which it is hosted.
 
-6.&nbsp; Choose a work folder or press enter for the default one _work subfolder
+6.&nbsp; Choose a work folder or press enter for the default one _work sub-folder.
 
-7.&nbsp; Select N when asked to enter agent as a service
+7.&nbsp; Select N when asked to enter agent as a service.
 
-8.&nbsp; Enter configure autologon and run agent on startup Y/N is optional
+8.&nbsp; Enter configure autologon and run agent on startup Y/N is optional.
 
 ![Configure Agent][7]
 
