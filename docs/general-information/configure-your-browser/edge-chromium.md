@@ -27,8 +27,6 @@ Here are the necessary actions to install the extension.
 
 1. Enable the Progress Telerik Test Studio extension if needed.
 
-======insert link to extension=====
-
 > If you face any troubles when installing or enabling the extensions please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration
