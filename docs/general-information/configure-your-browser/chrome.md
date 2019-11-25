@@ -1,6 +1,6 @@
 ---
 title: Chrome
-page_title: Chrome
+page_title: Configure Chrome for Test Studio Automation
 description: "Configure Chrome to use for testing with Test Studio. Prerequisites for testing against Chrome with Test Studio. Chrome extension not found."
 position: 1
 ---

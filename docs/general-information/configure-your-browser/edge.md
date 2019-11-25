@@ -32,7 +32,7 @@ p.trigger{
 
 # Configuring MS Edge for Test Studio Automation#
 
-## 1. Install Microsofot WebDriver
+## 1. Install Microsoft WebDriver
 
 In order to use **Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver. 
 
