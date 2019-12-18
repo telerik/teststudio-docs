@@ -34,11 +34,11 @@ Specify the amount of users to start and end the load test run. Depending on the
 
 ### Time
 
-Specify the _Ramp Up_ time and the total load test duration. The _Ramp Up_ time is the amount of time to gradually increase or decrease the total concurrent VUs using the values set for _Start Users_ and _End Users_.
+Specify the _Ramp Up/Down_ time and the total load test duration. The _Ramp Up/Down_ time is the amount of time to gradually increase or decrease the total concurrent VUs using the values set for _Start Users_ and _End Users_.
 
 ![Ramp Time][5]
 
-> The _Ramp Up_ time cannot exceed the total time to run the test and will not be applied for the test run, if the virtual users amount is constant.
+> The _Ramp Up/Down_ time cannot exceed the total time to run the test and will not be applied for the test run, if the virtual users amount is constant.
 
 ### Users Over Time Graph
 

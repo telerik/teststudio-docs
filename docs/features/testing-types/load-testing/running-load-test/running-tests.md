@@ -26,11 +26,15 @@ The options which you can adjust prior to executing the load test, are listed un
 
 ![Test Run Options][1a]
 
-- **Test Run Description** - Add a description that will be saved along with the test results. Enter any meta data you want here. You might want to record something special about the environment being used or the build of the application being tested. This can serve as a reminder when looking at all the full list of accumulated test results.
+### Test Run Description
+
+Add a description that will be saved along with the test results. Enter any meta data you want here. You might want to record something special about the environment being used or the build of the application being tested. This can serve as a reminder when looking at all the full list of accumulated test results.
 
 ![Description][2]
 
-- **Sampling Rate** - Specify how often you want to take snapshots of the load test performance data. Each sample will be stored in the Results database. Specifying a sample rate that is too short for a long test may overly burden your Load Reporter and/or the SQL database with incoming data. Specifying a sample rate that is too long will reduce test result granularity. If the sample rate is equal to or longer than the length of the load test, there will be no results at all.
+### Sampling Rate
+
+Specify how often you want to take snapshots of the load test performance data. Each sample will be stored in the Results database. Specifying a sample rate that is too short for a long test may overly burden your Load Reporter and/or the SQL database with incoming data. Specifying a sample rate that is too long will reduce test result granularity. If the sample rate is equal to or longer than the length of the load test, there will be no results at all.
 
 ![Sampling Rate][3]
 
@@ -91,11 +95,11 @@ You can set goals for load test metrics to define success or failure - choose a 
 
 ![Goals][4]
 
-You can choose to stop the test if this goal is met.
+You can choose whether to **stop the test if this goal is met**.
 
 ![Goal Met][5]
 
-You can choose ‘Add custom goal’ and define a new failure or success condition for any metric.
+You can choose ***Add custom goal*** and define a new failure or success condition for any metric.
 
 ![Custom Goal][6]
 

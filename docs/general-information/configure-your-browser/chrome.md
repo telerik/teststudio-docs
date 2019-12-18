@@ -5,7 +5,7 @@ description: "Configure Chrome to use for testing with Test Studio. Prerequisite
 position: 1
 ---
 
-# Configuring Chrome for Test Studio Automation #
+# Configuring Chrome for Test Studio Automation 
 
 To configure Google Chrome for web automation with Test Studio following steps need to be performed:
 
@@ -46,7 +46,7 @@ To ensure flawless and consistent automation process there are some settings to 
 <br>
 
 1.&nbsp; The Chrome extension is not automatically installed with the Test Studio installation.<br><br>
-In case you haven't performed the above recommendation to install the Progress extension manually when you first start recording against Chrome the browser will load the recording start page and will try to load the extension. If that is missing the recorder will search for it for the set ClientReady Timeout (the default is 60 seconds).<br><br>
+In case you haven't performed the above recommendation to install the Progress extension manually, when you first start recording against Chrome, the browser will load the recording start page and will try to load the extension. If that is missing, the recorder will search for it for the set *ClientReady* Timeout (the default is 60 seconds).<br><br>
 
 <img src="/img/general-information/configure-your-browser/chrome/fig14.png" alt="Wait For Extension"><br><br>
 
