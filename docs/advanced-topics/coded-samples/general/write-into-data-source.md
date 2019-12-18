@@ -96,7 +96,7 @@ excelApp.Quit()
 GC.Collect()
 System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp)
 ```
-##How to find and use Office PIA's without Visual Studio installed
+## How to find and use Office PIA's without Visual Studio installed
 
 1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 
