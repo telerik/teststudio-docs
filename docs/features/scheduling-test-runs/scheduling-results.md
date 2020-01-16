@@ -2,8 +2,7 @@
 title: Scheduling Results
 page_title: Scheduling Results
 description: "Test Studio results from scheduled test runs. Scheduling Results Scheduling calendar. "
-previous_url: /user-guide/scheduling-test-runs/scheduling-results.aspx, /user-guide/scheduling-test-runs/scheduling-results
-position: 10
+position: 9
 ---
 # Scheduling Results
 

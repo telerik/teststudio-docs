@@ -2,8 +2,7 @@
 title: Run List Remotely
 page_title: Run List Remotely
 description: "Test Studio test list executed run on remote machine"
-previous_url: /user-guide/scheduling-test-runs/run-list-remotely.aspx, /user-guide/scheduling-test-runs/run-list-remotely
-position: 8
+position: 7
 ---
 # Run List Remotely
 

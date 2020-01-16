@@ -2,8 +2,7 @@
 title: Using the Scheduling Service APIs
 page_title: Using the Scheduling Service APIs
 description: "Test Studio Using the Scheduling Service APIs to create custom reporting applications"
-previous_url: /user-guide/scheduling-test-runs/service-apis.aspx, /user-guide/scheduling-test-runs/service-apis
-position: 11
+position: 3
 ---
 # Using the Scheduling Service APIs
 

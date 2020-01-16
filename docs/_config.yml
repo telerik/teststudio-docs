@@ -166,6 +166,13 @@ navigation:
     "*load-testing/advanced-topics":
         title: "Advanced Topics for Load Test"
         position: 4
+# === Scheduling Test Runs ===
+    "*scheduling-test-runs/multiple-machines-scheduling-setup":
+        title: "Remote Scheduled Execution (Multiple Machines Setup)"
+        position: 4
+    "*scheduling-test-runs/advanced-topics":
+        title: "Scheduling Setup Advanced Topics"
+        position: 11
         
 # === Advanced Topics ===
     "*coded-steps":

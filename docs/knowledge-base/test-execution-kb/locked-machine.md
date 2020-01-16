@@ -9,9 +9,19 @@ position: 1
 
 ## Problem ##
 
-When I disconnect from and/or lock the machine that acts as my <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Server</a>, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling:
+When I disconnect from and/or lock the machine that acts as my <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Server</a>, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling steps or type and click steps, which are using *'SimulateRealTyping'* or *'SimulateRealClick'* properties enabled: 
 
-*UnsupportedNonInteractiveOperationException(additional information about the exception)*
+```
+UnsupportedNonInteractiveOperationException(additional information about the exception)
+```
+
+or 
+
+```
+SendInput: Failed. Win32Error:
+InnerException:
+System.ComponentModel.Win32Exception (0x80004005): SendInput: Failed. Win32Error:
+```
 
 Is it possible for tests to execute normally without requiring my account to always be logged in on that machine?
 

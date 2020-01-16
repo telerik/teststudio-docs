@@ -2,7 +2,7 @@
 title: Schedule Execution
 page_title: Schedule Test List Execution
 description: "Test Studio test list schedule execution. How to schedule a test list on remote machine with Test Studio"
-position: 9
+position: 8
 previous_url: /user-guide/scheduling-test-runs/schedule-test-execution.aspx, /user-guide/scheduling-test-runs/schedule-test-execution
 ---
 # Schedule Test List Execution
@@ -11,7 +11,7 @@ Once you've correctly <a href="/features/scheduling-test-runs/create-scheduling-
 
 <br/>
 
-## Scheduling Test List steps
+## Scheduling Test List Steps
 
 Once you have a <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test list</a>, you can schedule it for execution. From **Test List** tab - click on **Schedule TestList** in the **Scheduling** ribbon.
 
@@ -43,13 +43,13 @@ Options available:
 
 Screenshot below shows all settings available for adjustment in the notification configuration step.
 
-Further email customization information is available <a href="/features/scheduling-test-runs/schedule-execution#Email-notification-customization">here</a>.
+Further email customization information is available <a href="/features/scheduling-test-runs/schedule-execution#email-notification-customization">here</a>.
 
 ![Step3][4]
 
 <br/>
 
-## Scheduled job information
+## Scheduled Job Information
 
 Once you close the Scheduling Wizard, the scheduled run should appear in the **Results** tab. It should be yellow, indicating it's waiting to be executed.
 
@@ -67,7 +67,7 @@ To remove a scheduled test execution:
 
 <br/>
 
-## Automatically upload changed project files to Storage
+## Automatically Upload Changed Project Files to Storage
 
 As of release **2017 R3** (v.2017.3.1010) you can choose whether to automatically upload all recent changes to the storage database. The below dialog will be triggered after saving the project and if there are any upcoming scheduled test list runs within that project.
 
@@ -79,7 +79,7 @@ If it is clear whether the automatic upload for that project is required or not 
 
 <br/>
 
-## Email notification customization
+## Email Notification Customization
 
 These steps lets you configure the e-mail notification you will receive upon test list completion.
 
