@@ -81,4 +81,4 @@ Close the dialog window and your scheduling setup is finished.
 [7]: /img/features/scheduling-test-runs/create-scheduling-server/fig3new.png
 [8]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
 [9]: /img/features/scheduling-test-runs/create-scheduling-server/fig5new.png
-[9a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5anew.png
+[9a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5a.png

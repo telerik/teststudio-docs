@@ -6,7 +6,7 @@ position: 0
 ---
 # Install Test Studio Run-time Edition
 
-As a minimum requirement to set up multiple machines to execute Test Studio tests, you need to install the <a href="/general-information/test-studio-run-time" target="_blank">Run-time client</a> on the remote machines. It allows you to execute tests and is intended to be installed on build server machines or execution machines in the <a href="/features/scheduling-test-runs/overview" target="_blank">Test Studio Scheduling setup</a>.
+As a minimum requirement to set up multiple machines to execute Test Studio tests, you need to install the <a href="/introduction/test-studio-run-time" target="_blank">Run-time client</a> on the remote machines. It allows you to execute tests and is intended to be installed on build server machines or execution machines in the <a href="/features/scheduling-test-runs/overview" target="_blank">Test Studio Scheduling setup</a>.
 
 ## Download the Test Studio Run-time
 

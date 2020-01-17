@@ -2,7 +2,6 @@
 title: Test Studio vs. Run-Time
 page_title: Test Studio vs. Run-Time
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/overview/test-studio-vs-run-time.aspx, /user-guide/overview/test-studio-vs-run-time, /general-information/test-studi-run-time
 position: 5
 ---
 <style>

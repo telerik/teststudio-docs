@@ -74,7 +74,7 @@ Ensure the *Scheduling URL* is pointing to the local machine - *localhost* will 
 
 ![Connect][4]
 
-3.&nbsp; In the **Scheduling Server Settings** dialog, click **Run Remotely**, input the location of your Scheduling Server, then click **Connect**. In the case you installed on components on a single machine, it is that local machine.
+3.&nbsp; In the **Scheduling Server Settings** dialog, click **Run Remotely**, input *localhost* (or use the name of the machine directly), then click **Connect**.
 
 ![Run Remotely][5]
 
@@ -98,9 +98,10 @@ Ensure the *Scheduling URL* is pointing to the local machine - *localhost* will 
 [2a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2a.png
 [6]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig6.png
 [3]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3.png
-[3a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3a.png
 [4]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
 [5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
+
+[3a]: /img/features/scheduling-test-runs/local-run-all-in-one/fig1.png
 
 [11]: /img/features/scheduling-test-runs/create-scheduling-server/fig2new.png
 [12]: /img/features/scheduling-test-runs/create-scheduling-server/fig3new.png

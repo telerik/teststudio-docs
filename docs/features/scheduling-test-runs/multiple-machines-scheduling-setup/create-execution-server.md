@@ -44,11 +44,7 @@ Type the address for the machine which hosts the Scheduling Service under **Sche
 
 ![Service URI][3]
 
-- **Temp Folder** - the process of executing tests on a remote machine includes deployment of the project files in a temporary folder. You can choose where this temp folder will be located on the disc - click the *'Change'* button (the three dots button) next to the listed folder and browse the desired one. 
-
-4.&nbsp; 
-
-5.&nbsp; As of release **R1 2018 (v.2018.1.301)** the temporary folder where the project is downloaded on the execution machine for a remote(either scheduled or not) run could be configured to any other folder on the remote machine. Click the Change button ![Change button][4] next to the temp folder path and browse to the desired folder. The *Reset* button will set the default temporary location on the execution machine.
+- **Temp Folder** - the process of executing tests on a remote machine includes deployment of the project files in a temporary folder. You can choose where this temp folder will be located on the disc - click the *'Change'* button (the three dots button) next to the listed folder and browse the desired one. The *Reset* button will set the default temporary location on the execution machine.
 
 ![Temporary folder][5]
 
