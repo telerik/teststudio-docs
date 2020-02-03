@@ -62,7 +62,7 @@ The **Scheduling** tab contains information about the location of the Test Studi
 
 ![Scheduling][9]
 
-Optionally, you can configure the Test Studio Scheduling service to use an Email (SMTP) server by specifying few additional details. These settings allow you to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list. Depending on the SMTP server configuration, mandatory fields are the *'SMTP server address'* and the *'Port'* to communicate with it and the *'User Email'* and *'Password'* are not explicitly required. Once these fields are populated, hit the **Apply** button to reflect the changes to the Scheduling service and check if the *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
+Optionally, you can **configure the Test Studio Scheduling service to use an Email (SMTP) server** by specifying few additional details. These settings allow you to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list. Depending on the SMTP server configuration, mandatory fields are the *'SMTP server address'* and the *'Port'* to communicate with it and the *'User Email'* and *'Password'* are not explicitly required. Once these fields are populated, hit the **Apply** button to reflect the changes to the Scheduling service and check if the *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
 
 ![Scheduling SMTP][9a]
 

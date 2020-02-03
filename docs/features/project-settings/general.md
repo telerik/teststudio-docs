@@ -1,7 +1,7 @@
 ---
-title: General
+title: General Project Settings
 page_title: General
-description: "Test Studio project settings - general settings in Test Studio. WPF application default path in Test Studio project. Highlighting border adjsutment in Test Studio recording. Https certificate errror in Test Studio - register the https connection certificate. Enable tracking of active Test Studio test file - highlight the currently opened test in the Test Studio Project pane."
+description: "Test Studio project settings - general settings in Test Studio. WPF application default path in Test Studio project. Highlighting border adjustment in Test Studio recording. Https certificate error in Test Studio - register the https connection certificate. Enable tracking of active Test Studio test file - highlight the currently opened test in the Test Studio Project pane."
 position: 1
 ---
 # General
