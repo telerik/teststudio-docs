@@ -122,7 +122,7 @@ padding: 8px;
 	<td>**Recorded Text Content**</td><td> Text to use when <em>SimulateRealTyping</em> is false.</td><td>To edit input text.</td>
 </tr>
 <tr>
-	<td>**ScrollToVisibleType**</td><td>Scroll element to visible type.</td><td>To set a Scroll step to window top or bottom.</td>
+	<td>**ScrollToVisibleType**</td><td>Scroll element to visible type.</td><td>To set a Scroll step to window top, center or bottom.</td>
 </tr>
 <tr>
 	<td>**SearchByImageFirst**</td><td>Search by image before searching by element's find expression.</td><td>**ParentSetting** will inherit Project or Test List settings. **True** and **False** overrides Project and Test List settings.</td>

@@ -13,6 +13,7 @@ The new Microsoft Edge is supported both for recording and execution in Test Stu
 
 Install the latest Edge extension from the Chrome Web Store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">**Progress Test Studio Extension**</a>.
 
+> **Note:** Currently Edge Chromium supports installing extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store.</br>
 > If you face any troubles when installing or enabling the extensions please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration

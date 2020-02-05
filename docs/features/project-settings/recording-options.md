@@ -1,22 +1,28 @@
 ---
-title: Recording
-page_title: Recording
-description: "Test Studio project settings recording settings. Use the Test Studio recording settings to configure how recording will take place. Set BaseURL for a project in Test Studio. How newly recorded pages are compared to the existing pages and their URL in Test Studio. The same element is recorded In Test Studio for each new recording session under different page node. Add custom Code Base Class in Test Studio. Silverlight Connection Timeout in Test Studio. Test Studio cannot connect to a Silverlight application. Set default Record Drop-Down Option in Test Studio - by index, by value, by text. Enable/Disable Storyboard in Test Studio. Set Simulate Real Clicks/Typing By Default in Test Studio. Test Studio allow you to choose a custom name each time a new element is manually added to the Elements repository.
-"
-previous_url: /user-guide/project-settings/recording-options.aspx, /user-guide/project-settings/recording-options
+title: Recording Settings
+page_title: Recording Settings
+description: "Test Studio project settings recording settings. Use the Test Studio recording settings to configure how recording will take place. Highlighting border adjustment in Test Studio recording. Set BaseURL for a project in Test Studio. How newly recorded pages are compared to the existing pages and their URL in Test Studio. The same element is recorded In Test Studio for each new recording session under different page node. Set default Record Drop-Down Option in Test Studio - by index, by value, by text. Enable/Disable Storyboard in Test Studio. Set Simulate Real Clicks/Typing By Default in Test Studio. Test Studio allow you to choose a custom name each time a new element is manually added to the Elements repository. Enable/Disable translator optimization during recording"
 position: 2
 ---
-# Recording
+# Recording Options
 
 Use Recording section to configure how recording will take place. Some of the options are only needed for very specialized circumstances.
 
 ![Recording Options][1]
 
-> As of version **R1 2016** **BaseUrl** and **Compare Mode** can be set directly from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+## Highlighting
+
+The "Automation Overlay Surface" defines the highlight border color, border width and the amount of time before the Elements Menu displays.<br>
+
+Click the **Border button** to display a color selector and use the sliders to adjust **Highlight Border Width** and **Menu Hold Time**. Delaying the Elements Menu display can be helpful if you're trying to hover the mouse and the Elements Menu is popping up too quickly.
+
+![Highlighting][2a]
 
 ## BaseURL
 
 Use this field if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
+
+> As of version **R1 2016** **BaseUrl** and **Compare Mode** can be set directly from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
 ## Elements Page Compare Mode
 
@@ -27,7 +33,7 @@ This setting determines the Compare Mode property to use when adding a page node
 - The Query is the portion after the "?" and before the "#".
 - The "#" marks the beginning of the Fragment portion of the URL, if present.
 
-![URL][2] 
+![URL][2]
 
 Consider the following three URLs:
 
@@ -67,25 +73,13 @@ For example:
 - http://www.google.com/translate/?hl=en#de|en|money
 - http://teststudio.net/translate/?hl=en#de|en|money
 
-
 The **Title** option only uses the page title for comparison and ignores the URL entirely.
-
-## Code Base Class
-
-This option allows you to create and use a specialized test class. For example, you could create a class that knows how to log to your corporation's database. The code-behind for a Test Studio test uses "BaseWebAiiTest" by default. BaseWebAiiTest is an object that knows how to execute test steps, find elements on a page, perform actions against all browser types (i.e. click, scroll, etc) and log test results. BaseWebAiiTest also keeps track of the active browser and the test data.
-
-## SL Connect Timeout
-
-The amount of time in milliseconds to wait for Test Studio to connect to a Silverlight application.
 
 ## Default DropDown Record Option
 
-This setting determines the SelectDropDownType property value that will be used when recording selections in a drop-down control. Possible values are ByText, ByValue and ByIndex. 
-This option concerns only the **Html Select** element and does not apply to any elements structure that looks like a dropdown in the browser.
+This setting determines the SelectDropDownType property value that will be used when recording selections in a drop-down control. Possible values are ByText, ByValue and ByIndex.
 
-## Enable Storyboard
-
-By default, screenshots are automatically added to the Storyboard Tab. When this option is unchecked, a placeholder image is used. Uncheck the option when you want to conserve memory and disk space. The Scale slider adjusts the size of the Storyboard Tab between "10%" and "100%".
+> **Note:** This option concerns only the **Html Select** element and does not apply to any elements structure that looks like a dropdown in the browser.
 
 ## Simulate Real Clicks/Typing By Default
 
@@ -97,8 +91,12 @@ If turned on, Test Studio will display a dialog for a custom name each time a ne
 
 ![Add Element][3]
 
+## Translators Optimization
+
+This option allows you to stop the optimization the usage of <a href="/getting-started/test-recording/translators" target="_blank">translators</a> during recording. By default, Test Studio <a href="/features/project-settings/translators" target="_blank">enables only the translators</a>, which are useful for the page under test, depending on what controls it is built of. If the option is enabled, all translators will be enabled in the project settings and this may slow down the recording experience.
+
 [1]: /img/features/project-settings/recording-options/fig1.png
 [2]: /img/features/project-settings/recording-options/fig2.png
 [3]: /img/features/project-settings/recording-options/fig3.png
 
-
+[2a]: /img/features/project-settings/general/fig2.png

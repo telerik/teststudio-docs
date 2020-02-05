@@ -1,22 +1,18 @@
 ---
 title: General Project Settings
-page_title: General
-description: "Test Studio project settings - general settings in Test Studio. WPF application default path in Test Studio project. Highlighting border adjustment in Test Studio recording. Https certificate error in Test Studio - register the https connection certificate. Enable tracking of active Test Studio test file - highlight the currently opened test in the Test Studio Project pane."
+page_title: General Project Settings
+description: "Test Studio project settings - general settings in Test Studio. WPF application default path in Test Studio project.  Https certificate error in Test Studio - register the https connection certificate. Enable tracking of active Test Studio test file - highlight the currently opened test in the Test Studio Project pane."
 position: 1
 ---
-# General
+# General Project Settings
 
 The General section displays miscellaneous settings for specialized circumstances.
 
 ![General][1]
 
-## Highlighting
+## Enable Storyboard
 
-The "Automation Overlay Surface" defines the highlight border color, border width and the amount of time before the Elements Menu displays.<br>
-
-Click the **Border button** to display a color selector and use the sliders to adjust **Highlight Border Width** and **Menu Hold Time**. Delaying the Elements Menu display can be helpful if you're trying to hover the mouse and the Elements Menu is popping up too quickly.
-
-![Highlighting][2]
+By default, screenshots are automatically added to the Storyboard Tab. When this option is unchecked, a placeholder image is used. Uncheck the option when you want to conserve memory and disk space. The Scale slider adjusts the size of the Storyboard Tab between "10%" and "100%".
 
 ## WPF
 
@@ -26,13 +22,25 @@ Represents the default application path for WPF tests. Once set, each test will 
 
 Use this feature to no longer receive certificate-related warnings when automating your HTTPS web application with Test Studio. See <a href="/knowledge-base/project-configuration-kb/register-certificate" target="_blank">here</a> for more information.
 
-## Http Proxy
+### Http Proxy
 
 This property allows the user to specify whether to <a href="/advanced-topics/coded-samples/general/using-the-http-proxy" target="_blank">use the HTTP proxy</a> in Quick Execution.
 
-## Track Active File
+## Other Settings
+
+Specific settings related to the use and maintenance of the Test Studio project.
+
+### Track Active File
 
 This property is useful for large projects, which contain multiple tests. If enabled, this will highlight the currently opened and active test file within the Project Explorer.
+
+### Preserve Project State
+
+This property allows you to bring up the project in the same state when it was last closed. If enabled, by next launch of the project, any tests and code files not closed, will be automatically opened.
+
+## SL Connect Timeout
+
+The amount of time in milliseconds to wait for Test Studio to connect to a Silverlight application.
 
 [1]: /img/features/project-settings/general/fig1.png
 [2]: /img/features/project-settings/general/fig2.png
