@@ -9,10 +9,7 @@ position: 0
 
 <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC.
 
-
 <a href="/getting-started/test-recording/overview" target="_blank">Test Studio functional testing</a> is a comprehensive yet cost-effective automated testing suite. Users can complete tasks quickly and easily with the product’s point-and-click interface, which is augmented by Telerik-exclusive features like a visual storyboard and 3D element selection. Test Studio also offers script-less test automation for Silverlight applications.
-
- 
 
 <a href="/features/testing-types/load-testing/overview" target="_blank">Test Studio load tests</a> allow users to capture quickly capture, multiply and replay complex web traffic. Record HTTP traffic from desktop browsers, mobile devices and web services, and replay traffic with hundreds or thousands of virtual users spread across multiple machines. Fine-tune your load scenario with data binding, user authentication, and dynamic targets. 
 
@@ -25,7 +22,7 @@ position: 0
 -  Test Studio Web & Desktop version performs **Web and WPF testing** and includes the **Visual Studio plugin**.
 -  The Ultimate version adds on top of **Web** and **WPF**, **Mobile**, **Load testing** and **Test Studio for APIs**.
 
-> Test Studio includes runtime files which support the execution of tests on the machine in which it’s licensed. Our <a href="/general-information/test-studio-run-time" target="_blank">**Runtime Edition**</a> is available and suggested for build servers and remote machines where test execution is required.
+> Test Studio includes runtime files files which support the execution of tests on the machine in which it’s licensed. Our <a href="/general-information/test-studio-run-time" target="_blank">**Runtime Edition**</a> is available and suggested for build servers and remote machines where test execution is required.
 
 All versions use identical repositories and file formats, facilitating seamless collaboration between even geographically diverse teams.
 
