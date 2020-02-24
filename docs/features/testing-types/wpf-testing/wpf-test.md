@@ -1,15 +1,14 @@
 ---
 title: Configure WPF Test
 page_title: Configure WPF Test (Standalone)
-description: "Configure WPF Test (Standalone) in Test Studio."
-previous_url: /getting-started/create-test-standalone/wpf-test
+description: "Configure WPF Test (Standalone) in Test Studio. Create a APF test in Test Studio"
 position: 1
 ---
 # Configure a WPF Test #
 
-After <a href="/getting-started/create-test-standalone/add-test" target="_blank">adding</a> a WPF test, you need to configure it for the application you intend to record tests against.
+After <a href="/general-information/create-test-standalone/add-test" target="_blank">adding</a> a WPF test, you need to configure it for the application you intend to record tests against.
 
-![Configure][3]
+![Configure][2]
 
 ## Configure WPF Test to Record the Specific Application ##
 
@@ -33,8 +32,8 @@ After <a href="/getting-started/create-test-standalone/add-test" target="_blank"
 
 Notice that steps are added to the test as actions are taken within the application.
 
-[1]: /img/getting-started/create-test-standalone/wpf-test/fig1.png
-[2]: /img/getting-started/create-test-standalone/wpf-test/fig2.png
-[3]: /img/getting-started/create-test-standalone/wpf-test/fig3.png
-[4]: /img/getting-started/create-test-standalone/wpf-test/fig4.png
-[5]: /img/getting-started/create-test-standalone/wpf-test/fig5.png
+[1]: /img/general-information/create-test-standalone/wpf-test/fig1.png
+[2]: /img/general-information/create-test-standalone/wpf-test/fig2.png
+[3]: /img/general-information/create-test-standalone/wpf-test/fig3.png
+[4]: /img/general-information/create-test-standalone/wpf-test/fig4.png
+[5]: /img/general-information/create-test-standalone/wpf-test/fig5.png
