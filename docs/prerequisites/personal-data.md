@@ -3,7 +3,7 @@ title: Personal Data Collection
 page_title: Personal Data Collection | Test Studio Documentation
 description: Personal Data Usage By Telerik Products Test Studio
 published: True
-position: 10
+position: 4
 ---
 
 # Personal Data Collection
@@ -18,8 +18,6 @@ This information is used for our own purposes and we do not sell or otherwise pr
 
 You can see the information stored for your account by sending request to us via the following form <a href="https://app.onetrust.com/app/#/webform/65e969b1-9755-4cb6-adbb-0ae5939fb132" target="_blank">GDPR Data Subject Access Rights Request</a>.
 
-
 ## How can I delete the data stored about me?
 
 You can request deletion of the information stored for your account by sending request to us via the following form <a href="https://app.onetrust.com/app/#/webform/65e969b1-9755-4cb6-adbb-0ae5939fb132" target="_blank">GDPR Data Subject Access Rights Request</a>.
-

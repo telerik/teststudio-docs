@@ -17,30 +17,49 @@ navigation:
     "introduction":
         title: "Introduction"
         position: 2
+    "prerequisites":
+        title: "Prerequisites"
+        position: 3
     "getting-started":
         title: "Getting Started" 
-        position: 3
-    "general-information":
-        title: "General Information"
         position: 4
+    "next-steps":
+        title: "Next Steps"
+        position: 5
     "features":
         title: "Features"
-        position: 5
+        position: 6
     "advanced-topics":
         title: "Advanced Topics"
-        position: 6
+        position: 7
     "knowledge-base":
         title: "Knowledge Base"
-        position: 7
+        position: 8
     "troubleshooting-guide":
         title: "Troubleshooting Guide"
-        position: 8
+        position: 9
     "testing-framework":
         title: "Testing Framework"
-        position: 9
+        position: 10
     "test-studio-mobile":
         title: "Test Studio Mobile"
-        position: 10
+        position: 11
+
+    "general-information":
+        title: "General Information"
+        position: 20
+
+# === Prerequisites ===
+    prerequisites/installation:
+        title: "Install Test Studio"
+        position: 1
+    prerequisites/license-activation:
+        title: "Activate Test Studio License"
+        position: 2
+    prerequisites/configure-your-browser:
+        title: "Configure Browsers for Test Automation"
+        position: 3
+    
 # === General Information ===
 # === Getting Started ===
     general-information/installation:
