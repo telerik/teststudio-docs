@@ -23,5 +23,5 @@ position: 2
 
 ![Manual test view][4]
 
-[3]: /img/getting-started/create-test-standalone/manual-test/fig3.png
-[4]: /img/getting-started/create-test-standalone/manual-test/fig4.png
+[3]: /img/general-information/create-test-standalone/manual-test/fig3.png
+[4]: /img/general-information/create-test-standalone/manual-test/fig4.png

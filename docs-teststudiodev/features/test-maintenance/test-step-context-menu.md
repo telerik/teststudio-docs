@@ -54,7 +54,7 @@ Each test step has a context menu with further actions that can be taken. Note t
 
 ---
 
-- Submit Bug - load the <a href="/features/integration/bug-tracking/submit-bug" target="_blank">Submit Bug</a> dialog and log a bug in your previously configured bug tracking application.
+- Submit Bug - this feature is supported in <a href="https://www.telerik.com/teststudio" target="_blank">Test Studio Ultimate product</a> only.
 
 ---
 
@@ -63,11 +63,11 @@ Each test step has a context menu with further actions that can be taken. Note t
 - Continue On Failure - whether the test will stop if that step detects a failure.
 
 ---
+
 - Delete - remove the step from the test.
 - Cut - keyboard shortcut is Ctrl+X
 - Copy - keyboard shortcut is Ctrl+C
 - Paste - keyboard shortcut is Ctrl+V
-
 
 [1]: images/test-step-context-menu/fig1.png
 [2]: images/test-step-context-menu/fig2.png
