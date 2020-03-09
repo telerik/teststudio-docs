@@ -49,19 +49,23 @@ If a browser is not yet configured the button allows you to calibrate it.
 
 ![Calibrate](images/calibrate.png)
 
-> __Note!__ During browser calibration __Test Studio Dev__ will automatically close all of currently running browser instances. Therefore before proceeding with calibration ensure there is no important information you might lose if browser gets closed.
+> __Note!__ During browser calibration __Test Studio Dev__ will automatically close all of currently running browser instances. Therefore before proceeding with calibration ensure there is no important information you might lose if browser gets closed.</br></br>
 
-## Install Extensions for Firefox and Chrome
+> __Note!__ if you need to check the settings applied from Test Studio Dev, you can scroll to the bottom of the article and check the section for <a href="#manual-settings-to-configure-a-browser", target=blank>Manual Browser Calibration</a>.
+
+## Install Extensions for Firefox, Chrome and Micorosft Edge Chromium
 
 Chrome and Firefox browsers require an extension for the purposes of automation testing with __Test Studio Dev__. 
 
-The __Chrome__ extension can be found in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
+- The __Chrome__ extension can be found in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
 
-The __Firefox__ extension can be found in the Firefox Add-ons Page - <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/", target=blank>__Progress Test Studio Extension__</a>.
+- The __Firefox__ extension can be found in the Firefox Add-ons Page - <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/", target=blank>__Progress Test Studio Extension__</a>.
 
-## Add WebDriver for Microsoft Edge
+- The __Edge Chromium__ browser can now use extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store. The extension is listed in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
 
-In order to use **Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver.
+## Add WebDriver for Microsoft Edge (if Still Using the Old Version of MS Edge)
+
+The __deprecated version of MS Edge gets replaced once you install the new Microsoft Edge Chromium__. If you still haven't upgraded to it, you can use the previous version of the browser. In order to use **the MS Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver.
 
 Determine your Windows 10 build and download the correct MS WebDriver from <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/" target="_blank">here</a>.
 

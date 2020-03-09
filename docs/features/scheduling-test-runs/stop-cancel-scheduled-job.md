@@ -2,8 +2,7 @@
 title: Stop or Cancel a Scheduled Job
 page_title: Stop or Cancel a Scheduled Job
 description: "Test Studio Stop or Cancel a Scheduled Job"
-previous_url: /user-guide/scheduling-test-runs/cancel-scheduled-job.aspx, /user-guide/scheduling-test-runs/cancel-scheduled-job
-position: 14
+position: 10
 ---
 # Stop or Cancel a Scheduled Job
 

@@ -2,8 +2,8 @@
 title: Change Scheduling Service Account
 page_title: Change Scheduling Service Account
 description: "Test Studio Scheduling Service Account. change the Scheduling Service Account if using TFS with different than the logged user account"
-position: 12
-previous_url: /user-guide/scheduling-test-runs/change-service-account.aspx, /user-guide/scheduling-test-runs/change-service-account, /user-guide/installation/change_storage_service_account.aspx
+position: 1
+
 ---
 # Scheduling service account
 

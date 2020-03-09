@@ -1,5 +1,5 @@
 ---
-title: Recording
+title: Recording Settings
 page_title: Recording Settings | Test Studio Dev Documentation
 description: "Configure how recording with Test Studio Dev will take place"
 position: 2
@@ -9,6 +9,14 @@ position: 2
 Use Recording section to configure how recording will take place. Some of the options are only needed for very specific circumstances.
 
 ![Recording Options][1]
+
+## Highlighting
+
+The "Automation Overlay Surface" defines the highlight border color, border width and the amount of time before the Elements Menu displays.
+
+Click the **Border button** to display a color selector and use the sliders to adjust **Highlight Border Width** and **Menu Hold Time**. Delaying the Elements Menu display can be helpful if you're trying to hover the mouse and the Elements Menu is popping up too quickly.
+
+![Highlighting][2a]
 
 ## BaseURL
 
@@ -64,21 +72,9 @@ For example:
 
 The **Title** option only uses the page title for comparison and ignores the URL entirely.
 
-## Code Base Class
-
-This option allows you to create and use a specialized test class which extends the default BaseWebAiiTest - this is the default class which each Test Studio Dev test's code behind uses. BaseWebAiiTest is an object that knows how to execute test steps, find elements on a page, perform actions against all browser types (i.e. click, scroll, etc) and log test results. BaseWebAiiTest also keeps track of the active browser and the test data. For example, you could create a class that knows how to log to your corporation's database but inherits the BaseWebAiiTest class.
-
-## SL Connect Timeout
-
-The amount of time in milliseconds to wait for Test Studio to connect to a Silverlight application.
-
 ## Default DropDown Record Option
 
 This setting determines the SelectDropDownType property value that will be used when recording selections in a dropdown control. Possible values are ByText, ByValue and ByIndex.
-
-## Enable Storyboard
-
-By default, screenshots are automatically added to the Storyboard Tab. When this option is unchecked, a placeholder image is used. Uncheck the option when you want to conserve memory and disk space. The Scale slider adjusts the size of the Storyboard Tab between "10%" and "100%".
 
 ## Simulate Real Clicks/Typing By Default
 
@@ -90,8 +86,12 @@ If turned on, Test Studio will display a dialog for a custom name each time a ne
 
 ![Add Element][3]
 
+## Translators Optimization
+
+This option allows you to stop the optimization the usage of <a href="/features/recorder/translators" target="_blank">translators</a> during recording. By default, Test Studio <a href="/features/project-settings/translators" target="_blank">enables only the translators</a>, which are useful for the page under test, depending on what controls it is built of. If the option is enabled, all translators will be enabled in the project settings and this may slow down the recording experience.
+
 [1]: images/recording-options/fig1.png
 [2]: images/recording-options/fig2.png
 [3]: images/recording-options/fig3.png
 
-
+[2a]: images/general/fig2.png

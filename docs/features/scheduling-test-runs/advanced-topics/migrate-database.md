@@ -2,7 +2,7 @@
 title: Migrate from SQL to MongoDB
 page_title: Migrate from SQL to MongoDB
 description: "Test Studio MongoDB storage service. Transfer old SQL results (prior 15th of October 2015) to the new Mongo database"
-position: 16
+position: 4
 ---
 # Migrate from SQL to MongoDB
 

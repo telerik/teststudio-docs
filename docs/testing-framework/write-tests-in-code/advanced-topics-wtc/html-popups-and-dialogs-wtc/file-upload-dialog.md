@@ -4,7 +4,7 @@ page_title: FileUpload Dialog
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 2
 ---
-#FileUpload Dialog#
+# FileUpload Dialog
 
 With FileUpload, you need to pass in the full path to the file to upload and how the dialog should be handled. The options for FileUpload are: DialogButton.OPEN, DialogButton.CANCEL or DialogButton.CLOSE.
 
@@ -36,7 +36,7 @@ Manager.DialogMonitor.Start()
 Pages.YourSite.YourButton.Click()
 ```
 
-##Multiple Files Upload##
+## Multiple Files Upload
 
 There are scenarios where multiple files needs to be uploaded. Below you could find a sample code how to obtain that with the Testing Framework. The code will loop through a set of files and will upload each after the previous. The sample is built against a <a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_fileupload_multiple" target="_blank">public accessible webpage</a> and to give a try to that example you have to first navigate to that page. 
 
@@ -68,8 +68,11 @@ for (int i = 0; i < fileNames.Length; i++ )
 
     // wait on handling the dialog for 10 seconds
     uploadDialog.WaitUntilHandled(10000);
-    
+
     // The dialog should be automatically handled
+
+    // Remove the current dialog from the DialogMonitoring collection, once it is handled
+    Manager.DialogMonitor.RemoveDialog(uploadDialog);
 
     // Click 'Submit' to upload the file
     submitBtn.MouseClick();
@@ -87,6 +90,4 @@ for (int i = 0; i < fileNames.Length; i++ )
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;
 
-##See Also##
-
-* <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/html-control-suite-wtc/transfer-files" target="_blank">How to Transfer Files</a>
+**See also:** <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/html-control-suite-wtc/transfer-files" target="_blank">How to Transfer Files</a>

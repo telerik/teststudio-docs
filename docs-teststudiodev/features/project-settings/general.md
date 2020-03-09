@@ -1,6 +1,6 @@
 ---
-title: General
-page_title: General | Test Studio Dev Documentation
+title: General Project Settings
+page_title: General Project Settings | Test Studio Dev Documentation
 description: "Miscellaneous settings in Test Studio Dev"
 position: 1
 ---
@@ -10,29 +10,37 @@ The General section provides miscellaneous settings for other specific circumsta
 
 ![general][1]
 
-## Highlighting
+## Enable Storyboard
 
-The "Automation Overlay Surface" defines the highlight border color, border width and the amount of time before the Elements Menu displays.
-
-Click the **Border button** to display a color selector and use the sliders to adjust **Highlight Border Width** and **Menu Hold Time**. Delaying the Elements Menu display can be helpful if you're trying to hover the mouse and the Elements Menu is popping up too quickly.
-
-![Highlighting][2]
+By default, screenshots are automatically added to the Storyboard Tab. When this option is unchecked, a placeholder image is used. Uncheck the option when you want to conserve memory and disk space. The Scale slider adjusts the size of the Storyboard Tab between "10%" and "100%".
 
 ## WPF
 
 Represents the default application path for WPF tests. Once set, each test will use this path for recording and execution, unless _Use default_ path is unchecked in the WPF test configuration dialog.
 
-## Connection settings
+## Connection Settings
 
 Use this feature to no longer receive certificate-related warnings when automating your HTTPS web application with Test Studio Dev. See <a href="/advanced-topics/project-configuration/register-certificate" target="_blank">to register the Fiddler certificate</a> for more information.
 
-## Http Proxy
+### Http Proxy
 
 This property allows the user to specify whether to use the HTTP proxy in Quick Execution.
+
+## Other Settings
+
+Specific settings related to the use and maintenance of the Test Studio project.
 
 ## Track Active File
 
 This property is useful for large projects, which contain multiple tests. If enabled, this will highlight the currently opened and active test file within the Project Explorer.
 
+### Preserve Project State
+
+This property allows you to bring up the project in the same state when it was last closed. If enabled, by next launch of the project, any tests and code files not closed, will be automatically opened.
+
+## SL Connect Timeout
+
+The amount of time in milliseconds to wait for Test Studio to connect to a Silverlight application.
+
 [1]: images/general/fig1.png
-[2]: images/general/fig2.png
+

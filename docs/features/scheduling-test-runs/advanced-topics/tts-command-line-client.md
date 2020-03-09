@@ -2,8 +2,8 @@
 title: Telerik.TestStudio.CommandLineClient
 page_title: Telerik.TestStudio.CommandLineClient
 description: "Test Studio Scheduled runs via command line"
-previous_url: /user-guide/scheduling-test-runs/telerik-teststudio-commandline-client.aspx, /user-guide/scheduling-test-runs/telerik-teststudio-commandline-client
-position: 13
+
+position: 2
 ---
 # Telerik.TestStudio.CommandLineClient
 

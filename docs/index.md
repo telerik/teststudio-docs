@@ -1,11 +1,11 @@
 ---
-title: Overview
-page_title: Test Studio Overview
+title: Welcome to Test Studio
+page_title: Welcome to Test Studio
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 0
 ---
 
-# Overview
+# Welcome to Test Studio
 
 <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC.
 
@@ -22,10 +22,10 @@ position: 0
 
 **Test Studio** offers two product versions:
 
--  Test Studio Web & Desktop version performs web and WPF testing and includes the Visual Studio plugin.
--  The Ultimate version combines **Web**, **Mobile**, **WPF**, **Load testing** and **Test Studio for APIs**.
+-  Test Studio Web & Desktop version performs **Web and WPF testing** and includes the **Visual Studio plugin**.
+-  The Ultimate version adds on top of **Web** and **WPF**, **Mobile**, **Load testing** and **Test Studio for APIs**.
 
-> Test Studio includes runtime files that allow for the execution of tests on the machine in which it’s licensed. Our <a href="/general-information/test-studio-run-time" target="_blank">**Runtime Edition**</a> is available and suggested for build servers and remote machines where test execution is required. 
+> Test Studio includes runtime files which support the execution of tests on the machine in which it’s licensed. Our <a href="/general-information/test-studio-run-time" target="_blank">**Runtime Edition**</a> is available and suggested for build servers and remote machines where test execution is required.
 
 All versions use identical repositories and file formats, facilitating seamless collaboration between even geographically diverse teams.
 
@@ -34,12 +34,14 @@ All versions use identical repositories and file formats, facilitating seamless 
 <td valign=top>
 
 ## Getting Started
+
 1. [Installation and Activation](/getting-started/installation-and-activation)
 2. [Your First Project](/getting-started/first-project)
 3. [Analyze the Results](/getting-started/analyze-the-results)
 4. [Next Steps](/getting-started/next-steps)
 
 ## Getting Help
+
 * <a href="https://www.telerik.com/videos/teststudio">Videos</a>
 * <a href="/getting-started/start-a-project/in-product-tips-tricks">Tips and tricks</a>
 * <a href="https://www.telerik.com/forums/teststudio">Forums</a>
@@ -52,6 +54,7 @@ All versions use identical repositories and file formats, facilitating seamless 
 <td valign=top>
 
 ## Features
+
 * [Recorder](/features/recorder/overview)
 * [Elements Explorer](/features/elements-explorer/overview) 
 * [Testing Types](/features/testing-types)
@@ -69,6 +72,7 @@ All versions use identical repositories and file formats, facilitating seamless 
 * [Mobile Testing](/test-studio-mobile/overview)
 
 ### Advanced Features
+
 * [Continious Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
 * [Coded Samples for Different Scenarios](/advanced-topics/coded-samples/general/send-keystrokes)
 </td>

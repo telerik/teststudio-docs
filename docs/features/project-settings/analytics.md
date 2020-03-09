@@ -1,6 +1,6 @@
 ---
-title: Analytics
-page_title: Analytics
+title: Analytics Data Collection
+page_title: Analytics Data Collection
 description: "Test Studio Project settings Analytics allow/block data collection"
 position: 8
 ---

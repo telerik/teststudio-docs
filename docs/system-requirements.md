@@ -58,7 +58,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 	
 	* You must run Visual Studio as Administrator
 	* Visual Studio projects should target .Net 4.5 or higher.
-	* Visual Studio 2017 requires additional <a href="/getting-started/installation/vs2017-compatability" target="_blank">Individual components</a> on top of its default installation. 
+	* Visual Studio 2017 requires additional <a href="/general-information/installation/vs2017-compatibility" target="_blank">Individual components</a> on top of its default installation. 
 
 ## Data Binding
 

@@ -1,12 +1,12 @@
 ---
-title: Element Images
-page_title: Element Images
+title: Element Images Settings
+page_title: Element Images Settings
 description: "Test Studio Project settings element images. Settings to apply for the images recorded with the elements. Images used as backup search in Test Studio"
 position: 3
 ---
 # Element Images
 
-Apply specific image related settings on project level.
+Apply specific <a href="/features/elements-explorer/elements-find-expression#elements-image" target="_blank">element's image</a> related settings on project level.
 
 ![Element Images][1]
 
@@ -18,7 +18,7 @@ Apply specific image related settings on project level.
 
 ## Execution
 
-- Enable/Disable the usage of recorded element images as backup search during test execution.
+- Enable/Disable the <a href="/features/elements-explorer/elements-find-expression#conditions-to-fall-back-to-find-elements-by-image" target="_blank">usage of recorded element images as backup search</a> during test execution.
 
 - Set the timeout for searching the image on page.
 

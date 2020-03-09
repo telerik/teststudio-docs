@@ -1,10 +1,10 @@
 ---
-title: Updates (Visual Studio only)
-page_title: Updates (Visual Studio only)
-description: "How to Update Test Studio plugin in Visual Studio."
+title: Updates (Visual Studio Only)
+page_title: Updates (Visual Studio Only)
+description: "How to Update Test Studio plugin in Visual Studio. Test Studio plugin version in Visual Studio. Activate/Deactivate Test Studio license in Visual Studio. Check for updates of Test Studio in Visual Studio."
 position: 9
 ---
-# Updates (Visual Studio only)
+# Updates (Visual Studio Only)
 
 This section in Project Settings is available only in **Visual Studio Plugin**.
 

@@ -118,7 +118,7 @@ padding: 8px;
 	<td>**Recorded Text Content**</td><td> Text to use when <em>SimulateRealTyping</em> is false.</td><td>To edit input text.</td>
 </tr>
 <tr>
-	<td>**ScrollToVisibleType**</td><td>Scroll element to visible type.</td><td>To set a Scroll step to window top or bottom.</td>
+	<td>**ScrollToVisibleType**</td><td>Scroll element to visible type.</td><td>To set a Scroll step to window top, center or bottom.</td>
 </tr>
 <tr>
 	<td>**ShiftKey**</td><td>Whether to hold the Shift key while clicking.</td><td>To execute a Shift + Click.</td>

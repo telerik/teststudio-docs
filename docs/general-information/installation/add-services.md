@@ -5,7 +5,7 @@ description: "Test Studio Add Scheduling / Storage Services / Executive Dashboar
 previous_url: /user-guide/installation/trial-services.aspx, /user-guide/installation/trial-services
 position: 6
 ---
-# Add Scheduling or Storage Services after initial installation #
+# Add Scheduling or Storage Services after Initial Installation #
 
 1.	Open __Control Panel > Programs and Features.__
 

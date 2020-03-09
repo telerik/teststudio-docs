@@ -14,8 +14,6 @@ exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireferen
 navigation:
 ## Test Studio Documentation Main Nodes:
     index:
-        title: "Overview"
-        position: 1
     "introduction":
         title: "Introduction"
         position: 2
@@ -43,9 +41,6 @@ navigation:
     "test-studio-mobile":
         title: "Test Studio Mobile"
         position: 10
-    "test-studio-for-apis":
-        title: "Test Studio for APIs"
-        position: 11
 # === General Information ===
 # === Getting Started ===
     general-information/installation:
@@ -166,6 +161,13 @@ navigation:
     "*load-testing/advanced-topics":
         title: "Advanced Topics for Load Test"
         position: 4
+# === Scheduling Test Runs ===
+    "*scheduling-test-runs/multiple-machines-scheduling-setup":
+        title: "Remote Scheduled Execution (Multiple Machines Setup)"
+        position: 4
+    "*scheduling-test-runs/advanced-topics":
+        title: "Scheduling Setup Advanced Topics"
+        position: 11
         
 # === Advanced Topics ===
     "*coded-steps":

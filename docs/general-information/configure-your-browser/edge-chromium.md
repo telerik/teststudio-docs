@@ -5,28 +5,15 @@ description: "Configure Edge Chromium to use for testing with Test Studio. Prere
 position: 1
 ---
 
-# Configuring Edge Chromium for Test Studio Automation #
+# Configuring Microsoft Edge for Test Studio Automation 
 
-The new Microsoft Edge based on Chromium is supported both for recording and execution in Test Studio web tests. To configure Edge Chromium for web automation with Test Studio you need to perform the following steps.
+The new Microsoft Edge is supported both for recording and execution in Test Studio web tests. To configure Microsoft  Edge for web automation with Test Studio you need to perform few steps in advance.
 
 ## 1. Install Progress Extensions
 
-Install the latest Edge Chromium extension for Test Studio. Currently the Edge browser is still in Beta state of its development phase, so the extension package can be downloaded directly from the Test Studio documentation and it can be installed in browser's *Developer mode* only.
+Install the latest Edge extension from the Chrome Web Store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">**Progress Test Studio Extension**</a>.
 
-Here are the necessary actions to install the extension.
-
-1. <a href="/downloads/Progress_TestStudio_Extension.zip" target="_blank">Download the Test Studio extension</a> for Edge Chromium.
-
-1. Unzip the downloaded archive into a folder.
-
-1. Open Edge and navigate to Settings -> Extensions.
-
-1. Enable *Developer mode*.
-
-1. Click on the *Load unpacked* button and browse to the folder with the unzipped extension package.
-
-1. Enable the Progress Telerik Test Studio extension if needed.
-
+> **Note:** Currently Edge Chromium supports installing extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store.</br>
 > If you face any troubles when installing or enabling the extensions please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration
@@ -47,28 +34,26 @@ To ensure flawless and consistent automation process there are some settings to 
 <hr/>
 <br>
 
-The Edge Chromium extension is not automatically installed with the Test Studio installation and you need to add it manually. As of now the Beta edition of MS Edge does not support all extension from the Google store including the Test Studio one and you need to load it as a developer extension. Below you can find detailed description of the necessary steps.<br><br>
+1.&nbsp; The Edge extension is not automatically installed with the Test Studio installation.<br><br>
+In case you haven't performed the above recommendation to install the Progress extension manually, when you first start recording against Edge, the browser will load the recording start page and will try to load the extension. If that is missing, the recorder will search for it for the set *ClientReady* Timeout (the default is 60 seconds).<br><br>
 
-1.&nbsp; Download the Progress Telerik Test Studio extension from <a href="/downloads/Progress_TestStudio_Extension.zip" target="_blank">here</a>.<br><br>
+<img src="/img/general-information/configure-your-browser/edge-chromium/fig11.png" alt="Wait For Extension"><br><br>
 
-2.&nbsp; Unzip the downloaded package into any local folder.<br><br>
+2.&nbsp; In case the Progress extension is not yet loaded after that timeout a link to the Web Store will be displayed to install the extension.<br><br>
 
-3.&nbsp; Open Edge and navigate to Settings -> Extensions.<br><br>
+<img src="/img/general-information/configure-your-browser/edge-chromium/fig12.png" alt="Get Extension"><br><br>
 
-<img src="/img/general-information/configure-your-browser/edge-chromium/fig11.png" alt="Open Extensions"><br><br>
+3.&nbsp; By clicking on <strong>Get It Free From Chrome Web Store</strong> you will be directly navigated to the Progress extension in the Web Store.<br><br>
 
-4.&nbsp; Enable *Developer mode*.<br><br>
+<img src="/img/general-information/configure-your-browser/edge-chromium/fig13.png" alt="Extension In Store"><br><br>
 
-<img src="/img/general-information/configure-your-browser/edge-chromium/fig12.png" alt="Enable Developer mode"><br><br>
+4.&nbsp; By clicking the <strong>Add to Chrome</strong> button the extension will be added after confirmation. <br><br>
 
-5.&nbsp; Click on the *Load unpacked* button and browse to the folder with the unzipped extension package.<br><br>
+<img src="/img/general-information/configure-your-browser/edge-chromium/fig14.png" alt="Add Extension Confirmation"><br><br>
 
-<img src="/img/general-information/configure-your-browser/edge-chromium/fig13.png" alt="Load Unpacked"><br><br>
+5.&nbsp; The version of an installed extension could be double checked by clicking on its icon located on the right of the address bar.<br><br>
 
-6.&nbsp; Ensure the Test Studio extension is enabled.<br><br>
-
-<img src="/img/general-information/configure-your-browser/edge-chromium/fig14.png" alt="Test Studio extension"><br><br>
-
+<img src="/img/general-information/configure-your-browser/edge-chromium/fig15.png" alt="Extension Version"><br><br>
 <hr/>
 
 </div>

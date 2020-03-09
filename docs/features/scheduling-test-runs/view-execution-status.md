@@ -2,26 +2,41 @@
 title: View Execution Status
 page_title: View Execution Status
 description: "Test Studio Execution Status view. View the status of the Test Studio Execution Servers connected to a Test Studio Scheduling Server. Access the execution machines details and logging from the Test Studio Project"
-previous_url: /user-guide/scheduling-test-runs/machine-status.aspx, /user-guide/scheduling-test-runs/machine-status
-position: 15
+position: 6
 ---
 # View Execution Status
 
-After you <a  href="/features/scheduling-test-runs/connect-to-scheduling-server" target="_blank">connect a project to a Scheduling Server</a>, you can view the status of the Execution Servers connected to that Scheduling Server. 
+The Execution Status view allows you to verify the state of the current project and whether it is connected to a configured Scheduling setup, or is running locally. The view provides additional details for the available Execution machines.
 
-1.&nbsp; Click the **Status** button in the Project View ribbon bar.
+## Execution Status View Window
+
+To access the Status view you can click **Status** in the **Scheduling** ribbon of the **Project** tab.
 
 ![Status][1]
 
-2.&nbsp; The **Remote Execution Status Window** provides a summary of each Execution Server connected to this Scheduling Server and an overview for the Scheduling and Storage services.
+## Locally Connected Project
+
+If the current project is connected to execute tests locally, the Status view will provide details only for the local Scheduler and the Test Runner, in case this is not pointing to another machine configured as a Scheduling server.
+
+![Status Window locally][2a]
+
+Double click on the listed Execution machine will load additional details for the machine - available browsers with the option to calibrate these, access to the logging of that machine.
+
+![Execution machine details locally][2b]
+
+## Remotely Connected Project
+
+The **Remote Execution Status Window** provides a summary of each Execution Server connected to this Scheduling Server and an overview for the Scheduling and Storage services.
 
 ![Status Window][2]
+
+### Test Studio Services Possible Statuses
 
 - **Scheduling Server** section shows if the service is running, which is the server URL and the version of Test Studio on that server machine.
 
 - **Storage Server** sections shows if the service is running, which is the server URL and the version of Test Studio on that server machine. Along with that is displayed the database version and if its service is running.
 
-- If any of the services is not running for some reason at least its status will be in red to indicate there is something wrong. If the **Scheduling Service** is down the Storage and Database will be also down. 
+- If any of the services is not running for some reason at least its status will be in red to indicate there is something wrong. If the **Scheduling Service** is down the Storage and Database will be also down.
 
 ![Status Window Scheduling Service Down][8]
 
@@ -33,23 +48,29 @@ After you <a  href="/features/scheduling-test-runs/connect-to-scheduling-server"
 
 ![Status Window MongoDB Service Down][10]
 
+### List of Execution Servers
+
 - If there are not calibrated browsers on any of the remote machines the respective browser icon will be marked with a yellow warning sign. To calibrate it you could either drill down to the particular machine details or turn on the AutoCalibrateBrowsers setting in the <a  href="/getting-started/test-execution/test-list-settings#Web-Tab" target="_blank">Web tab of Test List Settings</a>. 
 
 ![Status Window Non-calibrated Browsers][4]
 
-3.&nbsp; To view detailed information about an Execution Server, double-click the respective row in the grid or click the magnifier icon in front of the machine name. The **Execution Server Details** screen provides extended information about the specifications, system performance and test execution status of an Execution machine.
+### Execution Servers Details
+
+To view detailed information about an Execution Server, double-click the respective row in the grid or click the magnifier icon in front of the machine name. The **Execution Server Details** screen provides extended information about the specifications, system performance and test execution status of an Execution machine.
 
 ![Execution Server Details][3]
 
 - The **Machine Information** section displays system specification for the machine.
 
-- The **Browser Information** section displays all installed browsers on the execution machine along with their calibration state. All installed browsers on the remote machine could be calibrated or restored to default settings from the provided buttons - Calibrate and Restore. 
+- The **Browser Information** section displays all installed browsers on the execution machine along with their calibration state. All installed browsers on the remote machine could be calibrated or restored to default settings from the provided buttons - Calibrate and Restore.
 
 - The **Logging information** section allows you to enable or disable the Logging on the Execution machine, View and Clear the Log.
 
-4.&nbsp; The **Execution Server Details** view displays different statuses for the selected execution machine as per its state 
+### Execution Machine Possible Statuses
 
-- If there are tests running on the machine only the buttons in the Logging sections will be enabled. The installed browsers could not be calibrated while tests are being executed. 
+The **Execution Server Details** view displays different statuses for the selected execution machine as per its state
+
+- If there are tests running on the machine only the buttons in the Logging sections will be enabled. The installed browsers could not be calibrated while tests are being executed.
 
 ![Running Tests][5]
 
@@ -65,6 +86,8 @@ The Back button navigates back to the list with connected execution machines.
 
 [1]: /img/features/scheduling-test-runs/view-execution-status/fig1.png
 [2]: /img/features/scheduling-test-runs/view-execution-status/fig2.png
+[2a]: /img/features/scheduling-test-runs/view-execution-status/fig2a.png
+[2b]: /img/features/scheduling-test-runs/view-execution-status/fig2b.png
 [3]: /img/features/scheduling-test-runs/view-execution-status/fig3.png
 [4]: /img/features/scheduling-test-runs/view-execution-status/fig2_nonCalibrated.png
 [5]: /img/features/scheduling-test-runs/view-execution-status/fig3_runningTest.png
