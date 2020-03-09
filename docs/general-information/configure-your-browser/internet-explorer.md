@@ -146,7 +146,7 @@ For <strong>IE7</strong> and <strong>IE8</strong> file downloads, uncheck <stron
 	
 <img src="/img/general-information/configure-your-browser/internet-explorer/fig10.png" alt="Downloads"><br><br>
 
-For __IE9__ downloads, check __Notify me when my downloads are complete__:<br><br>
+For <strong>IE9</strong> downloads, check <strong>Notify me when my downloads are complete</strong>:<br><br>
 
 1. Click <strong>Tools > View downloads</strong>.<br><br>
 2. Click the <strong>Options</strong> link in the lower left.<br><br>
