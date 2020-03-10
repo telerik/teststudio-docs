@@ -42,7 +42,6 @@ navigation:
         title: "Test Studio Mobile"
         position: 10
 # === General Information ===
-# === Getting Started ===
     general-information/installation:
         title: "Installation"
         position: 1
@@ -66,6 +65,9 @@ navigation:
         position: 7
     general-information/test-results:
         title: "Test Results"
+        position: 8
+    general-information/test-results/executive-dashboard:
+        title: "Executive Dashboard"
         position: 8
 # === Features ===
     features/data-driven-testing:

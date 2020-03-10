@@ -1,8 +1,8 @@
 ---
-title: Executive Dashboard
+title: Executive Dashboard Overview
 page_title: Executive Dashboard shows remote test list results
-description: "Online results server. Executive Dashboard retulst. View test list results"
-position: 7
+description: "Online results server. Executive Dashboard results. View test list results"
+position: 1
 ---
 # Executive Dashboard
 
