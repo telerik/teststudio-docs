@@ -19,13 +19,17 @@ Once you have successfully installed and activated Test Studio, you are ready to
 
 When you launch Test Studio, you will see the [**Welcome Screen**](/general-information/start-a-project/welcome-screen). It lets you open or create projects, and see notifications about software updates and news related to the product.
 
-In the [**Create project**](/general-information/start-a-project/welcome-screen#create-a-new-project) section you could choose among different type projects - **Web & Desktop**, **Mobile** or **API**. Let's create a **Web & Desktop** project for the current demonstration, specify its name and location and click the **Create** button.
+In the [**Project**](/general-information/start-a-project/welcome-screen#create-a-new-project) section you can decide whether to create a new project, open a local one, choose from the recently used or open a source controlled project (Git or TFS).
+
+![Create Project](/img/getting-started/first-project/fig0.png)
+
+Let's create a new project for the current demonstration, specify its name and location and click the **Create** button.
 
 ![Create Project](/img/getting-started/first-project/fig00.png)
 
->After the project is successfully created, you can open the <a href="/general-information/start-a-project/in-product-tips-tricks" target="_blank">Tips and Tricks</a> from the top right corner of Test Studio. The popup dialog has many useful references to the documentation and a short video on some of the topics.
+> After the project is successfully created, you can open the <a href="/general-information/start-a-project/in-product-tips-tricks" target="_blank">Tips and Tricks</a> from the top right corner of Test Studio. The popup dialog has many useful references to the documentation and a short video on some of the topics.
 
-You can explore a sample **Web & Desktop** or **API** project, from the [**Get Started**](/general-information/start-a-project/welcome-screen#get-started) section. And you can learn more about the **Mobile** module in Test Studio.
+You can explore a sample **Web & Desktop** project, from the [**Get Started**](/general-information/start-a-project/welcome-screen#get-started) section.
 
 ![Get Started Projects](/img/getting-started/first-project/fig01.png)
 
@@ -37,15 +41,19 @@ Once the test project is created you need to configure your browser for testing,
 
 ## Add a Test to the Project ##
 
-The same project can have different types of tests, organized in folders. Those test can be later added to <a href="/general-information/test-execution/test-lists-standalone" target="_blank">test lists</a>. For your first test in this project add a new **Web** test.
+The same project can have different types of tests, organized in folders. Those tests can be later added to <a href="/general-information/test-execution/test-lists-standalone" target="_blank">test lists</a>. For your first test in this project add a new **Web** test.
 
-1. Go to the *Project* ribbon and click on the **Add New Test** button.
+1. Go to the *Project* ribbon and click on the **Add Web Test** button.
 
     ![Add new test Project Ribbon](/img/getting-started/first-project/fig02.png)
 
-2. In the *Create new test* dialog select **Web** and enter a meaningful name for it.
+2. This automatically adds a web test in the Project Explorer in edit mode to enter its meaningful name.
 
-    ![Add new test](/img/getting-started/first-project/fig03.png)
+    ![Choose name for the new test](/img/getting-started/first-project/fig03.png)
+
+3. Other test types can be selected from the down arrow of the **Add Web Test** button.
+
+    ![Add other test type test Project Ribbon](/img/getting-started/first-project/fig02a.png)
 
 You can find more information on all test types available in a Test Studio Web & Desktop project:
 

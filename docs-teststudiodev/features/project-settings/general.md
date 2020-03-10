@@ -26,6 +26,10 @@ Use this feature to no longer receive certificate-related warnings when automati
 
 This property allows the user to specify whether to use the HTTP proxy in Quick Execution.
 
+## Web Components
+
+Enable or disable support for <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Components</a> in Test Studio recording. It is enabled by default for newly created projects after Test Studio version 2020.1.
+
 ## Other Settings
 
 Specific settings related to the use and maintenance of the Test Studio project.
