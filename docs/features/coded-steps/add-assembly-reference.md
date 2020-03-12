@@ -2,36 +2,29 @@
 title: Add an Assembly Reference
 page_title: Add an Assembly Reference
 description: "Add an external Assembly Reference in Test Studio project."
-previous_url: /user-guide/coded_steps/add-an-assembly-reference.aspx, /user-guide/coded_steps/add-an-assembly-reference, /advanced-topics/coded-steps/add-assembly-reference
 position: 5
 ---
 # Add an Assembly Reference (Standalone version) #
 
 If you add a coded step in the Standalone version and use logic contained in an outside assembly, you will need to add a reference to that assembly. Just like Visual Studio, project references in the Standalone version are project specific. Adding an assembly reference in one project does not make it available to other projects.
 
-1. Open or create a test project in the Standalone version. Click the Project tab the Show button in the Settings ribbon.
+1. Open or create a test project in the Standalone version and open the <a href="/features/project-settings/overview" target="_blank">**Project Settings**</a>.
 
-	![Settings][1]
+2. Select the **Script** section in the Settings dialog. You can see a list of all referenced dlls.
 
-2. The **Project Settings** menu loads.
-
-3. Click **Script**.
-
-4. This lists the Project References.
-
-5. Click **Add Reference** to browse for an assembly in DLL form.
+3. Click **Add Reference** to browse your computer for an assembly in dll form.
 
 	![Add Reference][2]
 
-6. Locate the assembly and click **Open**. The new DLL should appear in your **Project References** list. execute your test. <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> will build the coded step(s) and alert you to any compilation errors.
+6. Locate the assembly and click **Open**. The new dll will appear in your **Project References** list. <a href="/features/coded-steps/code-behind-file" target="_blank">Compile the project</a> to check for any errors related to the added assembly file.
 
 	![Added assembly][3]
 
-	**Note:** You cannot use using or Imports statements directly from a coded step. You must add them to the <a href="/features/coded-steps/code-behind-file" target="_blank">code-behind file</a>.
+> **Note!** You must add *using* or *Imports* statements in the test <a href="/features/coded-steps/code-behind-file" target="_blank">code-behind file</a> in order to directly use the custom dll in the coded step.
 
-	![Code behind][5]
+![Code behind][5]
 
-* Test Studio will not find references to a DLL in the default subfolders of the project folder. These include: **bin**, **Properties**, **obj**, **Data**, **Backup**, **TestResults**, **Results**, **TestLists**, and **Profiler Configurations**. If you attempt to add a reference to a custom DLL in these locations, the following two errors patterns will appear in your application log when you run your test:
+> **Note!** Test Studio will not find references to a dll in the default sub-folders of the project folder. These include: **bin**, **Properties**, **obj**, **Data**, **Backup**, **TestResults**, **Results**, **TestLists**, and **Profiler Configurations**. If you attempt to add a reference to a custom dll in these locations, the following two errors patterns will appear in your application log when you run your test:
 
 1. [09/03 10:53:15,Telerik.TestStudio.RemoteExecutor.exe(15300:14),ProjectModel] Project.Compile() : Unable to add reference Project2012SP2\Profiler Configurations\ClassLibrary5.dll.
 Exception: System.IO.FileLoadException: The given assembly name or codebase was invalid. (Exception from HRESULT: 0x80131047)

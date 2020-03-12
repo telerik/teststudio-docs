@@ -51,7 +51,7 @@ To open the test double click on its name in the Solution Explorer.
 
 ## Record a Test
 
->__Note!__ The supported for __recording browsers__ are __Internet Explorer__, __Chrome__ and __FireFox__
+>__Note!__ The supported for __recording browsers__ are __Internet Explorer__, __Chrome__, __FireFox__ and __Edge Chromium__.
 
 Double click a test from the Solution Explorer to open it. Click on the _Record_ button to launch a new browser or an instance of the WPF application to record against.
 
@@ -114,7 +114,7 @@ Include a short summary and links to the respective articles.
 
 ## Test Results
 
-Each test run generates test results. 
+Each test run generates test results.
 
 ### View Results
 
@@ -138,7 +138,7 @@ __Test Studio Dev__ displays status for each step in the test - _Passed, Failed,
 
 ![Failed Step Tooltip](images/quickstart/failed-step.png)
 
-Double click on the red crossed circle opens the <a href="/features/failed-tests-debugging/step-failure-details" target="_blank">__Step Failure Details__</a> dialog. It provides detailed description of the failure reason and additional debugging options.
+Click on the red crossed circle opens the <a href="/features/failed-tests-debugging/step-failure-details" target="_blank">__Step Failure Details__</a> dialog. It provides detailed description of the failure reason and additional debugging options.
 
 ![Failed Step Details](images/quickstart/failed-step-details.png)
 

@@ -2,12 +2,11 @@
 title: Test Step Properties
 page_title: Test Step Properties
 description: "Test Studio Test Step Properties shown in the properties pane to the right"
-previous_url: /user-guide/modifying-tests/change-test-step-properties.aspx, /user-guide/modifying-tests/change-test-step-properties
 position: 1
 ---
 # Test Step Properties
 
-In the Standalone version, select a test step and the pane to the right will instantly show the properties for this very step. By default all test step properties are categorized with headings.
+In the Standalone version, select a test step and the pane to the right will instantly show the properties for this very step.
 
 ![Properties standalone][1]
 

@@ -7,17 +7,17 @@ position: 0
 ---
 # Elements Explorer
 
-The Elements Explorer displays a tree of elements which you have recorded step against, or manually added to the Element's repository through the DOM explorer in the recording toolbar __add a link__. The elements are arranged in a tree view and expose properties more specific to testing. 
+The Elements Explorer displays a tree of elements which you have recorded step against, or manually added to the Element's repository through the DOM explorer in the <a href="/features/recorder/recording-toolbar" target="_blank">recording toolbar</a>. The elements are arranged in a tree view and expose properties more specific to testing. 
 
-Each element is shown only once in the Elements Explorer although it may be used in several tests and test steps. __Test Studio Dev__ relies on an intelligent element identification scheme called Find Logic __add a link__ and thus reuses already recorded elements which could be identified with the same find expression. 
+Each element is shown only once in the Elements Explorer although it may be used in several tests and test steps. __Test Studio Dev__ relies on an intelligent element identification scheme called <a href="/features/project-settings/find-logic" target="_blank">Find Logic</a> and thus reuses already recorded elements which could be identified with the same find expression.
 
-To open the Elements Explorer in project click on the _Show Elements Explorer_ button. It will appear in the lower middle pane next to _Error List_ and _Output_ tabs. 
+To open the Elements Explorer in project click on the _Show Elements Explorer_ button. It will appear in the lower middle pane next to _Error List_ and _Output_ tabs.
 
 ![Show Elements Explorer](images/overview/elements-explorer.png)
 
 ## Sort Elements in Elements Explorer
 
-The Elements pane maintains a list of all Elements within the current project. It allows you to view elements and edit the way they are found during execution. 
+The Elements pane maintains a list of all Elements within the current project. It allows you to view elements and edit the way they are found during execution.
 
 The Elements menu bar ![Elements bar](images/overview/menu-bar.png) has the following buttons:
 
@@ -61,10 +61,7 @@ Each __Element node__ could be maintained with the following options from the co
 
 ![Elements](images/overview/element-context.png)
 
-- **Edit Element** - loads the Find Element menu to choose how to locate this element in your web page or application.
-- **Edit in Live** - _active in record mode only_. Locates the element in the currently loaded page with recorder attached to it and allows you to edit how the element will be found during execution.
-
-The above two options concern maintaining elements and their find expressions __add a link to find element__.
+- **Edit Element** - loads the Find Element menu to choose how to locate this element in your web page or application.This option concerns maintaining elements and <a href="/features/elements-explorer/find-element" target="_blank">their find expressions</a>.
 
 - **Used By** - loads the Test Step Selector and displays all tests and their steps that perform an action against this element.
 - **Validate** -  _active in record mode only_. Validate all elements in the page node against the currently loaded page with recorder attached to it. Results indicated with green checks and red X's.
