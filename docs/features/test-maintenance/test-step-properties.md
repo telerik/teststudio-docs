@@ -278,7 +278,7 @@ padding: 8px;
 	<td>**Pause**</td><td>Whether to pause the step during execution. Only respected when running tests from the Test Explorer.</td><td>To pause test execution at a certain point to manually debug. </td>
 </tr>
 <tr>
-	<td>**ScrollToVisibleType**</td><td>When 'SimulateRealClick' or 'SimulateRealTyping' is set to 'True', you can specify the scroll direction in order to get the target element into view.</td><td>Choose whether to scroll the element to top or to the bottom of the page.</td>
+	<td>**ScrollToVisibleType**</td><td>When 'SimulateRealClick' or 'SimulateRealTyping' is set to 'True', you can specify the scroll direction in order to get the target element into view.</td><td>Choose whether to scroll the element to top, center  or bottom of the page.</td>
 </tr>
 <tr>
 	<td>**UseStepWaitOnElementsTimeout**</td><td>Whether to use step's WaitOnElementsTimeout instead of the global setting.</td><td>To specifically increase one step's element locating timeout. </td>
