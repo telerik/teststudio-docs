@@ -25,7 +25,7 @@ You can create a _Wait step_ in the same manner as a <a href="/features/recorder
 
 ![Wait step added](images/wait-test-step.png)
 
-7.&nbsp; With the Wait step highlighted, you can see the test step properties __(add a link)__ where you can change the Check interval and the timeout.
+7.&nbsp; With the Wait step highlighted, you can see the test <a href="/features/test-maintenance/test-step-properties" target="_blank">**Step Properties** pane</a> where you can change the Check interval and the timeout.
 
 > __Note!__ Each Verification/Wait/Extract step could have it role changed between Verification, Wait, and Extraction (if based on text). Right click the step and select from the context menu __Change Role > Set As...__
 

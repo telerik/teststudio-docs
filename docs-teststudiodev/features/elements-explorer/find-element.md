@@ -26,7 +26,7 @@ The **Find Element** splash screen appears. You have three options for how to lo
 
 ![Find Element](images/find-element/fig5.png)
 
-**Find in the Cached Version** - if your test failed, you can find the element using the cached version of the application at the time of failure. Accessible only through the **Resolve Failure** tab in the Step Failure Details __add a link__.
+**Find in the Cached Version** - if your test failed, you can find the element using the cached version of the application at the time of failure. Accessible only through the **Resolve Failure** tab in the <a href="/features/failed-tests-debugging/step-failure-details" target="_blank">Step Failure Details</a>.
 
 **Find Without Connection** - choose this option to find the element without connecting to the application.
 

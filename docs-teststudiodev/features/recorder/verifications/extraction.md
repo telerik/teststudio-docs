@@ -21,7 +21,7 @@ This example is against a <a href="http://www.wordgenerator.net/random-word-gene
 
 ![Extracted Step Added](images/extraction-step.png)
 
-4.&nbsp; Resume recording and navigate to www.bing.com from the Navigation pane in the Recording toolbar __add a link__.
+4.&nbsp; Resume recording and navigate to www.bing.com from the Navigation pane in the <a href="/features/recorder/recording-toolbar" target="_blank">Recording toolbar</a.
 
 5.&nbsp; Enter any word into the search box and click **Submit**.
 
@@ -31,7 +31,7 @@ This example is against a <a href="http://www.wordgenerator.net/random-word-gene
 
 7.&nbsp; Select the step that enters a word for the search engine (step 4 in this example).
 
-8.&nbsp; Click the **Bindings** __add a link__ drop-down in the **Properties** pane.
+8.&nbsp; Click the **Bindings** drop-down in the <a href="/features/test-maintenance/test-step-properties" target="_blank">**Step Properties** pane</a>.
 
 9.&nbsp; Select the extracted variable from the value drop-down and click **Set**.
 
