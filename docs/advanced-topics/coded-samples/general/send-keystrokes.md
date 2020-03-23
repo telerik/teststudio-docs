@@ -1,11 +1,11 @@
 ---
 title: Send Keystrokes
-page_title: Send Keystorkes
+page_title: Send Keystrokes
 description: "Send keystrokes like Alt+F4 in Test Studio test run. How to automate holding down the Ctrl key + performing selection in Test Studio test run"
 previous_url: /user-guide/code-samples/general/send-keystrokes.aspx, /user-guide/code-samples/general/send-keystrokes
 position: 1
 ---
-#Send Keystorkes#
+#Send Keystrokes#
 
 *I want to send keystrokes like Alt+F4.*
 
