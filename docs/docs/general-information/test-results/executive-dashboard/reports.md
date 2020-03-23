@@ -1,12 +1,34 @@
 ---
-title: Reports
+title: Executive Dashboard
 page_title: Executive Dashboard shows remote test list results
 description: "Online results server. Executive Dashboard retulst. View test list results"
 position: 4
 ---
-# Reports
+# Executive Dashboard
 
-## Project View
+The **Executive Dashboard** allows you to monitor the results from remotely executed test lists per project. The **Executive Dashboard** gathers the results from the **Storage Server**.
+
+> **Note:** Test lists that are executed locally will not be uploaded to the **Storage Server** automatically. You can publish them to the server, that your project is connected to, from the **Results** tab.
+
+## Installation and Configuration
+
+1. <a href="/general-information/installation/install-procedure" target="_blank">Install the Executive Dashboard components</a> in the **Customize Installation dialog** during Test Studio installation for the machine that will host this service. It is not selected by default in the standalone installation and you can also <a href="/general-information/installation/add-services" target="_blank">add it after that</a>.
+
+    ![Installation Dialog][1]
+
+2. Start Test Studio and click **Configure** in the Scheduling section of the ribbon bar.
+
+    ![Configure][2]
+
+3. Go to the **Executive Dashboard** tab and make configuration changes if necessary. You need to hit the **Apply** button, if you make any changes, and check the details on the bottom of the window. The service will be started automatically. 
+
+    ![Executive Dashboard Configuration][3]
+
+## Executive Dashboard Overview
+
+You can monitor the results from remote test list executions in the brower and on all kinds of devices that can access the Executive Dashboard.
+
+### Project View
 
 In the Project View you see all remotely executed test list results per project. They are sorted first by **Favorites** (the star icon) and then by the **Last Run Start Time** column.
 The field selections and favorites are saved locally per browser and per selected project.
