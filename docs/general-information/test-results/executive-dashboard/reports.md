@@ -6,51 +6,84 @@ position: 4
 ---
 # Reports
 
-## Project View
+## Report Definitions
 
-In the Project View you see all remotely executed test list results per project. They are sorted first by **Favorites** (the star icon) and then by the **Last Run Start Time** column.
-The field selections and favorites are saved locally per browser and per selected project.
+In the Report Definitions you see a list of all predefined report definitions. They are sorted first by **Favorites** (the star icon) and then by the last saved or created definition. Each definition shows a report for one or more test lists and for the specified time frame.
 
-![Project View][5]
+The definitions, marked as favorites, are saved locally per browser.
+
+![Report Definitions][1]
 
 * **Select project** - Select a Test Studio project from a drop-down list.
-* **Refresh interval** - Choose a time interval to refresh the results in the Executive Dashboard.
-* **Search field** - Filter test lists by name as you type.
-* **Favorites** - Enable/Disable favorites for a test list. Favorite test lists will always appear on top.
+* **Create New Report Definition** - Opens the <a href="/general-information/test-results/executive-dashboard/reports#create-report-definition">Create Report Definition</a>, where you can define new report.
+* **Search field** - Filter report definitions by name as you type.
+* **Favorites** - Enable/Disable favorites for a report definition. Favorite report definitions will always appear on top.
+* **Edit Definition** - Opens the <a href="/general-information/test-results/executive-dashboard/reports#edit-report-definition">Edit Report Definition</a>, where you can modify the selected report definition.
 
-Last 10 runs are sorted by time of execution and the latest is on the right side.
+## Create Report Definition
 
-### Test Lists View
+From this view you can create new report definitions for one or more test lists. You can choose the date range for the report details, or use a sliding period to generate a dynamic report for the last days, weeks or months.
 
-This view shows you the remote test list executions and you can change the number of items per page to 5, 10, 20 and 50. The results are sorted by Start Time by default. You can change the sort by clicking the column's header and use multiple rules at the same time.
+![Date range][2]
+![Sliding period][3]
 
-![Project View][6]
+* **Name** - Type the name of the report defitinion that will be created.
+* **Selected Test Lists** - Select one or more test lists that will be included in the report.
+* **Time Frame Type** - You can chose between a fixed date range or a dynamic sliding period.
+* **Time Frame Selection** - This option depends on the Time Frame Type selection. Data range allows you to choose a start and end date. The Sliding period allows you to specify a dynamically changing report for the last days, weeks or months.
+* **Create** - Creates the new report definition. This will also generate and open the report, based on the configuration.
+* **Cancel** - Returns back to the previous page without saving the report definition.
+
+## Edit Report Definition
+
+Here you can make changes to an already existing report definition or delete it. All fields are available to be modified and will be updated, when you save the report definition.
+
+![Edit Report Definition][4]
+
+* **Name** - Type the name of the report defitinion that will be created.
+* **Selected Test Lists** - Select one or more test lists that will be included in the report.
+* **Time Frame Type** - You can chose between a fixed date range or a dynamic sliding period.
+* **Time Frame Selection** - This option depends on the Time Frame Type selection. Data range allows you to choose a start and end date. The Sliding period allows you to specify a dynamically changing report for the last days, weeks or months.
+* **Save** - Saves your changes to this report definition. This will also generate and open the  report, based on the configuration.
+* **Delete** - Deletes the report definition.
+* **Cancel** - Returns back to the previous page without saving the report definition.
+
+## Report Detail
+
+You can analyze the report details and export it to PDF format, using the Export To PDF button. The report is devided into two main sections - **Report Overview** and **Test List Details**.
+
+![Report Details][5]
 
 * **Breadcrumb navigation** - Click on the Project name link to navigate back.
-* **View Details** - Drill down to the test list details.
+* **Export To PDF** - Export the current state of the report to PDF format.
 
-### Test List Execution Details
+### Rerpot Overview
 
-The detailed view of the test list execution shows information about each test. You can change the number of tests per page to 5, 10, 20 and 50 and sort the results by multiple columns.
+The Report Overview shows you details about the current report definition and a pie chart of all executed tests. The pie chart is devided by the percentage (%) of tests that passed, failed or were not ran. You can also hover over each section to show you the exect number of tests in that section.
 
-![Project View][7]
+![Report Overview][6]
 
-* **Breadcrumb navigation** - Click on the Project name or the Test List name link to navigate back.
-* **Expand Test Details** - Expand the test and view all test steps. If there is a Test as Step, you can expand that further.
-* **View Log** - Show the test execution log with option to copy it to clipboard.
+* **Report Definition Name** - The custom name of the report definition.
+* **Generated on** - Shows the date and time, when the current report was generated. It is generated again every time you open it.
+* **Time Frame** - Indicates the time frame of the current report definition, based on the **Time Frame Type** and **Selection**.
+* **Lists Included** - A list of all test lists that are included in the current report.
 
-![Project View][8]
+### Test List Details
 
-The version and additional information aboute the Executive Dashboard is available in the **About** button in the header.
+Every test list has a graphic that shows passed, failed and not ran tests. The graphic shows the number of tests executed in the vertical (Y) axis and the time and date of each test list run on the horizontal (X) axis. You can also use the following actions against the graphic:
 
-![About Page][9]
+* Show/Hide test list run dates from the toggle button **Show Run Dates**.
+* Use the mousewheel to zoom in and out.
+* While the graphic is zoomed in, you can drag it left or right to side-scroll.
+* Pless the Shift key and drag to select a section of the graphic.
+* Open the test list results, by clicking on the test list execution in the graphic.
 
-[1]: /img/general-information/test-results/executive-dashboard/fig1.png
-[2]: /img/general-information/test-results/executive-dashboard/fig2.png
-[3]: /img/general-information/test-results/executive-dashboard/fig3.png
+![Test List Details][7]
 
-[5]: /img/general-information/test-results/executive-dashboard/fig5.png
-[6]: /img/general-information/test-results/executive-dashboard/fig6.png
-[7]: /img/general-information/test-results/executive-dashboard/fig7.png
-[8]: /img/general-information/test-results/executive-dashboard/fig8.png
-[9]: /img/general-information/test-results/executive-dashboard/fig9.png
+[1]: /img/general-information/test-results/executive-dashboard/reports/fig1.png
+[2]: /img/general-information/test-results/executive-dashboard/reports/fig2.png
+[3]: /img/general-information/test-results/executive-dashboard/reports/fig3.png
+[4]: /img/general-information/test-results/executive-dashboard/reports/fig4.png
+[5]: /img/general-information/test-results/executive-dashboard/reports/fig5.png
+[6]: /img/general-information/test-results/executive-dashboard/reports/gif1.gif
+[7]: /img/general-information/test-results/executive-dashboard/reports/gif2.gif
