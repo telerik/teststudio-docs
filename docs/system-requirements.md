@@ -36,7 +36,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
             Windows Server 2012</h4> </td> <td class="Pricing-head"> <h4>Windows 10, <br>
             Windows Server 2016</h4> </td> </tr> </tbody> </table>
 </div>
-<div class="sfContentBlock"><table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /></colgroup><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Disk Space</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td><td>500MB</td> <td>500MB</td><td>500MB</td> </tr> <tr> <td>Recommended</td> <td>2GB+</td> <td>2GB+</td><td>2GB+</td></tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /> <thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Processor</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td> <td>1.8GHz</td> <td>1.8GHz</td> <td>1.8GHz</td> </tr> <tr> <td>Recommended</td> <td>2.2GHz+</td> <td>2.2GHz+</td> <td>2.2GHz+</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Memory</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td> <td>1GB</td> <td>1GB</td> <td>1GB</td></tr> <tr> <td>Recommended</td> <td>2GB+</td> <td>2GB+</td>  <td>2GB+</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Display</strong></td> </tr> </thead> <tbody> <tr> <td>Recommended</td> <td colspan="4">1024 x 768 or higher-resolution display</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup><col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Browser Support</strong> </td> </tr> </thead> <tbody><tr> <td>Supported</td> <td colspan="4">Internet Explorer 11, MS Edge, Chrome, Firefox and Safari, MS Edge Chromium Beta latest versions</td> </tr> </tbody> </table></div>
+<div class="sfContentBlock"><table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /></colgroup><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Disk Space</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td><td>500MB</td> <td>500MB</td><td>500MB</td> </tr> <tr> <td>Recommended</td> <td>2GB+</td> <td>2GB+</td><td>2GB+</td></tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /> <thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Processor</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td> <td>1.8GHz</td> <td>1.8GHz</td> <td>1.8GHz</td> </tr> <tr> <td>Recommended</td> <td>2.2GHz+</td> <td>2.2GHz+</td> <td>2.2GHz+</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Memory</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td> <td>1GB</td> <td>1GB</td> <td>1GB</td></tr> <tr> <td>Recommended</td> <td>2GB+</td> <td>2GB+</td>  <td>2GB+</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Display</strong></td> </tr> </thead> <tbody> <tr> <td>Recommended</td> <td colspan="4">1024 x 768 or higher-resolution display</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup><col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Browser Support</strong> </td> </tr> </thead> <tbody><tr> <td>Supported</td> <td colspan="4">Internet Explorer 11, MS Edge (Chromium), Chrome, Firefox and Safari latest versions, MS Edge (Legacy) if MS Edge (Chromium) is not installed</td> </tr> </tbody> </table></div>
 <br>
 
 ## User Account Control (UAC)
@@ -47,18 +47,18 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 * Internet Explorer 11 (**Note**: IE 9 and 10 support is dropped as of R2 2016 release).
 * Chrome latest version
-* FireFox latest version
-* Edge latest version
-* Edge Chromium Beta latest version
+* Firefox latest version
+* Microsoft Edge (Chromium) latest version
+* Microsoft Edge (Legacy) latest version - installing latest Edge Chromium removes the Edge Legacy browser installation
 * Safari latest version (5.1.7)
 
 ## Test Studio VS plugin
 
-* IDE (Visual Studio plug-in only): Visual Studio 2012, 2013, 2015, 2017 and 2019 Professional or higher.
-	
+* IDE (Visual Studio plug-in only): Visual Studio 2012, 2013, 2015, 2017 and 2019 (v.16.5+) Professional or higher.
+
 	* You must run Visual Studio as Administrator
 	* Visual Studio projects should target .Net 4.5 or higher.
-	* Visual Studio 2017 requires additional <a href="/general-information/installation/vs2017-compatibility" target="_blank">Individual components</a> on top of its default installation. 
+	* Visual Studio 2017 requires additional <a href="/general-information/installation/vs2017-compatibility" target="_blank">Individual components</a> on top of its default installation.
 
 ## Data Binding
 
@@ -70,7 +70,9 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 ##Supported Databases##
 
-* MongoDB 3.0+, 4.0+ (**Note**: MongoDB requires at least 4 Gb of free space on machine where the Storage server is installed)
+* MongoDB 3.6+, 4.0+
+
+> **Note**: MongoDB requires at least 4 Gb of free space on machine where the Storage server is installed.
 
 ## Source Control
 
