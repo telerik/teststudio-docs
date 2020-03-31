@@ -14,7 +14,7 @@ position: 2
 
     ![Configure][2]
 
-3. Go to the **Executive Dashboard** tab and make configuration changes if necessary. You need to hit the **Apply** button, if you make any changes, and check the details on the bottom of the window. The service will be started automatically. 
+3. In the **Executive Dashboard** tab you can see the current configurations and change them, if necessary. You need to hit the **Apply** button, before the new configurations are set. That will restart the **Executive Dashboard** and show you details about the storage service's status and database version in the **Executive Dashboard Storage Service Location** section. You will also see a message in the lower left corner of the wizard stating *'Telerik Test Studio Executive Dashboard is started'*.
 
     ![Executive Dashboard Configuration][3]
 
