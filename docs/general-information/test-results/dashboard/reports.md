@@ -15,10 +15,10 @@ The definitions, marked as favorites, are saved locally per browser.
 ![Report Definitions][1]
 
 * **Select project** - Select a Test Studio project from a drop-down list.
-* **Create New Report Definition** - Opens the <a href="/general-information/test-results/executive-dashboard/reports#create-report-definition">Create Report Definition</a>, where you can define new report.
+* **Create New Report Definition** - Opens the <a href="/general-information/test-results/dashboard/reports#create-report-definition">Create Report Definition</a>, where you can define new report.
 * **Search field** - Filter report definitions by name as you type.
 * **Favorites** - Enable/Disable favorites for a report definition. Favorite report definitions will always appear on top.
-* **Edit Definition** - Opens the <a href="/general-information/test-results/executive-dashboard/reports#edit-report-definition">Edit Report Definition</a>, where you can modify the selected report definition.
+* **Edit Definition** - Opens the <a href="/general-information/test-results/dashboard/reports#edit-report-definition">Edit Report Definition</a>, where you can modify the selected report definition.
 
 ## Create Report Definition
 
@@ -80,10 +80,10 @@ Every test list has a graphic that shows passed, failed and not ran tests. The g
 
 ![Test List Details][7]
 
-[1]: /img/general-information/test-results/executive-dashboard/reports/fig1.png
-[2]: /img/general-information/test-results/executive-dashboard/reports/fig2.png
-[3]: /img/general-information/test-results/executive-dashboard/reports/fig3.png
-[4]: /img/general-information/test-results/executive-dashboard/reports/fig4.png
-[5]: /img/general-information/test-results/executive-dashboard/reports/fig5.png
-[6]: /img/general-information/test-results/executive-dashboard/reports/gif1.gif
-[7]: /img/general-information/test-results/executive-dashboard/reports/gif2.gif
+[1]: /img/general-information/test-results/dashboard/reports/fig1.png
+[2]: /img/general-information/test-results/dashboard/reports/fig2.png
+[3]: /img/general-information/test-results/dashboard/reports/fig3.png
+[4]: /img/general-information/test-results/dashboard/reports/fig4.png
+[5]: /img/general-information/test-results/dashboard/reports/fig5.png
+[6]: /img/general-information/test-results/dashboard/reports/gif1.gif
+[7]: /img/general-information/test-results/dashboard/reports/gif2.gif

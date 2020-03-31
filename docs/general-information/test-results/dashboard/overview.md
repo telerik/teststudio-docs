@@ -17,9 +17,9 @@ The **Executive Dashboard** allows you to monitor the results from <a href="/fea
 > **Note:** Test lists that are executed locally will not be uploaded to the **Storage Server** automatically. You can publish them to the server, that your project is connected to, from the **Results** tab and **Publish to Server** button.
 
 You can monitor the results and generate reports from remote test list executions in the brower and on all kinds of devices that can access the Executive Dashboard. Please find more details for the **Executive Dashboard** and all of its features below.
-- <a href="/general-information/test-results/executive-dashboard/installation-and-configuration" target="_blank">Installation and configuration</a>.
-- <a href="/general-information/test-results/executive-dashboard/results" target="_blank">View test list results</a> for all projects in the **Storage Server**.
-- <a href="/general-information/test-results/executive-dashboard/reports" target="_blank">Generate reports</a> for specific test lists.
-- <a href="/general-information/test-results/executive-dashboard/about-page" target="_blank">The About page</a> with version details.
+- <a href="/general-information/test-results/dashboard/installation-and-configuration" target="_blank">Installation and configuration</a>.
+- <a href="/general-information/test-results/dashboard/results" target="_blank">View test list results</a> for all projects in the **Storage Server**.
+- <a href="/general-information/test-results/dashboard/reports" target="_blank">Generate reports</a> for specific test lists.
+- <a href="/general-information/test-results/dashboard/about-page" target="_blank">The About page</a> with version details.
 
-[1]: /img/general-information/test-results/executive-dashboard/overview/fig1.png
+[1]: /img/general-information/test-results/dashboard/overview/fig1.png

@@ -10,4 +10,4 @@ The version and additional information about the Executive Dashboard is availabl
 
 ![About Page][1]
 
-[1]: /img/general-information/test-results/executive-dashboard/about-page/fig1.png
+[1]: /img/general-information/test-results/dashboard/about-page/fig1.png

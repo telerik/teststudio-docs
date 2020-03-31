@@ -18,6 +18,6 @@ position: 2
 
     ![Executive Dashboard Configuration][3]
 
-[1]: /img/general-information/test-results/executive-dashboard/installation-and-configuration/fig1.png
-[2]: /img/general-information/test-results/executive-dashboard/installation-and-configuration/fig2.png
-[3]: /img/general-information/test-results/executive-dashboard/installation-and-configuration/fig3.png
+[1]: /img/general-information/test-results/dashboard/installation-and-configuration/fig1.png
+[2]: /img/general-information/test-results/dashboard/installation-and-configuration/fig2.png
+[3]: /img/general-information/test-results/dashboard/installation-and-configuration/fig3.png

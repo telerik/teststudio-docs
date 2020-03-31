@@ -43,7 +43,7 @@ The detailed view of the test list execution shows information about each test. 
 
 
 
-[5]: /img/general-information/test-results/executive-dashboard/results/fig1.png
-[6]: /img/general-information/test-results/executive-dashboard/results/fig2.png
-[7]: /img/general-information/test-results/executive-dashboard/results/fig3.png
-[8]: /img/general-information/test-results/executive-dashboard/results/fig4.png
+[5]: /img/general-information/test-results/dashboard/results/fig1.png
+[6]: /img/general-information/test-results/dashboard/results/fig2.png
+[7]: /img/general-information/test-results/dashboard/results/fig3.png
+[8]: /img/general-information/test-results/dashboard/results/fig4.png
