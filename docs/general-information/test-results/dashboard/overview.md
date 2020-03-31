@@ -11,7 +11,7 @@ The **Executive Dashboard** allows you to monitor the results from <a href="/fea
 ![Navigation header][1]
 
 * **Results** - Shows test list results from all remotely executed test lists.
-* **Reports** - Generate, analyzed and export reports from test list executions.
+* **Reports** - Generate, analyze and export reports from test list executions.
 * **About** - Details about the version of the Executive Dashboard.
 
 > **Note:** Test lists that are executed locally will not be uploaded to the **Storage Server** automatically. You can publish them to the server, that your project is connected to, from the **Results** tab and **Publish to Server** button.
