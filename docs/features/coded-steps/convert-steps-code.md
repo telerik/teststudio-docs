@@ -2,7 +2,6 @@
 title: Convert All Steps to Code (VS plugin)
 page_title: Convert All Steps to Code (VS plugin)
 description: "Convert All Steps to Code (VS plugin) in Test Studio Plugin for Visual Studio."
-previous_url: /user-guide/coded_steps/convert-all-steps-to-code.aspx, /user-guide/coded_steps/convert-all-steps-to-code
 position: 6
 ---
 # Convert All Steps to Code (VS plugin)#

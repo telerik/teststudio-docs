@@ -30,6 +30,8 @@ $RECYCLE.BIN/
 .Spotlight-V100
 .Trashes
 /_assets/
+/_build/
+/_buildApi/
 /_common/root/
 /_data/
 /_includes/
@@ -41,6 +43,7 @@ $RECYCLE.BIN/
 /fonts/
 /styles/
 _site
+_tempconfig.yml
 =======
 bs-config.js
 build-docs.sh
@@ -54,6 +57,7 @@ Gemfile.lock
 Icon
 install-npm.sh
 knowledge-base.html
+modify-config.sh
 Network Trash Folder
 robots.txt
 search.html

@@ -2,7 +2,6 @@
 title: Coded Step
 page_title: Create Coded Step
 description: "Create Coded Step in Test Studio test."
-previous_url: /user-guide/coded_steps.aspx, /user-guide/coded_steps, /advanced-topics/coded-steps/coded-step 
 position: 0
 ---
 # Create Coded Step

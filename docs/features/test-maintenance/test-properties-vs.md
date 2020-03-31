@@ -2,7 +2,6 @@
 title: Test Properties (VS Plugin)
 page_title: Test Properties (VS Plugin)
 description: "Test Studio Test Properties in Visual Studio Plugin"
-previous_url: /user-guide/modifying-tests/test-properties-vs-plugin.aspx, /user-guide/modifying-tests/test-properties-vs-plugin
 position: 1
 ---
 # Test Properties (VS Plugin) #

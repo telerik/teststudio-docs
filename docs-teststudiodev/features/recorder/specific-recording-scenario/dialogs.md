@@ -35,4 +35,4 @@ __File Download Dialog Step__
 
 ![Handle Download Dialog Step](images/download-dialog.png)
 
-The dialog handlers can be added manually from the Step Builder __(add a link to the article)__ as well.
+The dialog handlers can be added manually from the <a href="/features/recorder/step-builder" target="_blank">Step Builder</a> as well.

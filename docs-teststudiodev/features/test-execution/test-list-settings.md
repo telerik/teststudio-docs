@@ -51,7 +51,7 @@ The Test lists in Test Studio Dev have various settings to modify and customize 
 
 ## Web Tab ##
 
-* ***APS.NET***
+* ***ASP.NET***
 	* **AspNetDevServerPort** - the ASP.NET development server port to use, if enabled. If set to -1, a random port is generated each time the manager is created.
 	* **LocalWebServer** - the local web server to use. When set to AspNetDevelopmentServer, the ASP.NET development server is started.
 	* **WebAppPhysicalPath** - the path to the application to test when running under the ASP.NET development server.
@@ -62,6 +62,7 @@ The Test lists in Test Studio Dev have various settings to modify and customize 
 	* **KillBrowserProcessOnClose** - whether to kill the browser process when closing the browser.
 	* **KillBrowsersBeforeStart** - Kill all executing browser instances before test lists starts.
 	* **RecycleBrowser** - when set to true, one instance of the browser is launched and recycled throughout all tests until *Manager.Dispose* is called.
+	* **WebComponents** - enable or disable WebComponents support. When creating a test list, the setting gets the value set on project level in the <a href="/features/project-settings/general#web-components" target="_blank">Project Settings General tab</a>. After that the setting is independent from the project level setting.
 * ***HttpProxy***
 	* **UseHttpProxy** - whether to use the built-in HTTP proxy during automation. Enabling Silverlight will automatically enable the HTTP proxy.
 * ***Log***
