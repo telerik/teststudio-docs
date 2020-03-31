@@ -2,7 +2,6 @@
 title: Reorder Test Steps
 page_title: Reorder Test Steps
 description: "Reorder the Test Steps in a Test Studio test. Change the order of existing recorded test steps in a Test Studio steps."
-previous_url: /user-guide/modifying-tests/reorder-test-steps.aspx, /user-guide/modifying-tests/reorder-test-steps
 position: 1
 ---
 # Reorder Test Steps
@@ -13,17 +12,22 @@ You can easily change the order of existing test steps.
 
 ![Down/UP][1]
 
-2.&nbsp; The next method is to drag and drop. You can Ctrl + Click multiple steps and then drag them together.
+2.&nbsp; Another option is to drag and drop the steps in the desired order. 
 
 ![Drag&drop][2]
 
-3.&nbsp; Use Cut, Copy, and Paste in the Edit ribbon. You can Ctrl + Click multiple steps and perform these actions.
+3.&nbsp; You can select multiple steps and drag them together:
+
+- select random steps using the keyboard **Ctrl** key and mouse clicks on the desired steps.
+- select consecutive steps using the keyboard **Shift** key and mouse clicks on the desired steps.
+
+4.&nbsp; You can use the **Cut**, **Copy** and **Paste** buttons from the *Edit* section of the *Test* ribbon. Along with these buttons you can use the standard keyboard shortcuts for each of these actions. These operations can be performed upon multiple selected steps.
 
 ![Edit][3]
 
-4.&nbsp; You can also choose where to insert a new steps by clicking the gray box to the left of the step number. An arrow will appear next to that step.
+5.&nbsp; You can set a **Recording Marker** to choose where to insert newly recorded steps - click the gray box to the left of the step number. An arrow will appear next to that step. An alternative for this is to use the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a>.
 
-![>][4]
+![> Recording Marker][4]
 
 [1]: /img/features/test-maintenance/reorder-test-steps/fig1.png
 [2]: /img/features/test-maintenance/reorder-test-steps/fig2.png

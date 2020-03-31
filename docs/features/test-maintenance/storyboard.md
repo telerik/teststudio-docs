@@ -2,7 +2,6 @@
 title: Storyboard
 page_title: Storyboard
 description: "Test Studio Storyboard is a three-dimensional, visual representation of test steps. Test Studio automatically takes screenshots during recording"
-previous_url: /user-guide/modifying-tests/storyboard.aspx, /user-guide/modifying-tests/storyboard
 position: 1
 ---
 # Storyboard

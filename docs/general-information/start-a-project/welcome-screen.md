@@ -12,21 +12,15 @@ It lets you access or create projects, getting started samples for the product, 
 
 ## Project Tab
 
-In this section you can choose whether to create a new project or load an existing one.
+In this section you can choose whether to create a new project or load an existing one - listed in the Recent Projects list, or browse the local disk, or connect to source control (Git or TFS) and clone a project repository.
 
 ![Project Tab][1]
 
 ### Create a New Project
 
-Click on *'Create Project'* to proceed with starting a new project. 
+Choose the location on disk where to create a new project and enter its name.
 
 ![Create Project][2]
-
-Here you can choose among different type projects - <a href="/getting-started/first-project" target="_blank">**Web & Desktop**</a>, <a href="/test-studio-mobile/getting-started/native-applications" target="_blank">**Mobile**</a> or <a href="https://docs.telerik.com/teststudio-apis/getting-started/sample-project" target="_blank">**API**</a>. Select the desired type project you want to create, specify its name and location and click on the *'Create'* button.
-
-![Choose Project Type and Name][3]
-
-The *'Back'* button returns to the Project tab.
 
 ### Open Existing Project
 
@@ -40,7 +34,7 @@ Once the test project is created you can start <a href="/getting-started/first-p
 
 ## Get Started
 
-The *Get Started* section provides access to the different types demo projects, video tutorials, and interactive in-product tutorials to guide you through the Test Studio tool.
+The *Get Started* section provides access to the demo project and the interactive in-product tutorials to guide you through the Test Studio tool.
 
 ![Get Started][5]
 

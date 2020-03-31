@@ -2,7 +2,6 @@
 title: Test Properties (Standalone)
 page_title: Test Properties (Standalone)
 description: "Test Studio Test Properties reflect the attributes of anything you select in the Project tab"
-previous_url: /user-guide/modifying-tests/test-properties.aspx, /user-guide/modifying-tests/test-properties
 position: 1
 ---
 # Test Properties (Standalone)

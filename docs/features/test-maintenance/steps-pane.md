@@ -2,7 +2,6 @@
 title: Steps Pane
 page_title: Steps Pane
 description: "Test Studio Steps pane ists the steps in order of execution for the current test and provides additional actions and options to interact with the steps"
-previous_url: /user-guide/modifying-tests/steps-pane-overview.aspx, /user-guide/modifying-tests/steps-pane-overview
 position: 1
 ---
 # Steps Pane Overview
@@ -35,9 +34,9 @@ The Steps pane lists the steps in order of execution for the current test. Many 
 
 - ![14][14] - **Description** - The default description given to the step by Test Studio.
 
-- ![15][15] - **Edit Custom Description** - Alter the default step description.
-
 - ![16][16] - **Show Inline Editor** - Edit some of the step properties.
+
+- ![15][15] - **Edit Custom Description** - Alter the default step description.
 
 - ![18][18] - **Delete** - Removes the step from the test.
 
