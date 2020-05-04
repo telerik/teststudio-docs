@@ -121,6 +121,9 @@ padding: 8px;
 	<td>**ScrollToVisibleType**</td><td>Scroll element to visible type.</td><td>To set a Scroll step to window top, center or bottom.</td>
 </tr>
 <tr>
+	<td>**SearchByImageFirst**</td><td>Search by image before searching by element's find expression.</td><td>**ParentSetting** will inherit Project or Test List settings. **True** and **False** overrides Project and Test List settings.</td>
+</tr>
+<tr>
 	<td>**ShiftKey**</td><td>Whether to hold the Shift key while clicking.</td><td>To execute a Shift + Click.</td>
 </tr>
 <tr>
@@ -267,6 +270,9 @@ padding: 8px;
 </tr>
 <tr>
 	<td>**EnsureElementsClickable**</td><td>Whether to ensure the target element of this action is visible and clickable before performing the action.</td><td></td>
+</tr>
+<tr>
+	<td>**ScrollToVisibleType**</td><td>When 'SimulateRealClick' or 'SimulateRealTyping' is set to 'True', you can specify the scroll direction in order to get the target element into view.</td><td>Choose whether to scroll the element to top, center or  bottom of the page.</td>
 </tr>
 <tr>
 	<td>**Pause**</td><td>Whether to pause the step during execution. Only respected when running tests from the Test Explorer.</td><td>To pause test execution at a certain point to manually debug. </td>

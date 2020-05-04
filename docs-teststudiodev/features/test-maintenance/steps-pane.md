@@ -7,7 +7,7 @@ position: 2
 ---
 # Steps Pane Overview
 
-The Steps pane provides useful options to reorder and edit the steps. You could also set different settings for the Test Studio Dev Quick Execution.__add a link__
+The Steps pane provides useful options to reorder and edit the steps. You could also set different settings for the Test Studio Dev <a href="/features/test-execution/quick-execution" target="_blank">Quick Execution</a>.
 
 ![Step Pane][1]
 

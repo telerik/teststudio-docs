@@ -61,7 +61,6 @@ navigation:
         position: 3
     
 # === General Information ===
-# === Getting Started ===
     general-information/installation:
         title: "Installation"
         position: 1
@@ -85,6 +84,9 @@ navigation:
         position: 7
     general-information/test-results:
         title: "Test Results"
+        position: 8
+    general-information/test-results/dashboard:
+        title: "Executive Dashboard"
         position: 8
 # === Features ===
     features/data-driven-testing:
@@ -365,6 +367,12 @@ defaults:
         path: knowledge-base
     values:
         res_type: "kb"
+- 
+    scope:
+        path: test-studio-mobile
+    values:
+        announcement: |
+            Test Studio Mobile is in а process of discontinuation. Please refer to this <a href="https://www.telerik.com/blogs/test-studio-to-focus-on-web-testing?utm_medium=product&utm_source=documentation&utm_campaign=test-studio-blog-mobile-deprecation" target="_blank">page</a> for more information.
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"

@@ -10,13 +10,9 @@ When an action is recorded against an element from a web page or WPF application
 
 > **Note:** The recording of images in a Test Studio Dev project is enabled by default. The recorded images cannot be modified or changed. You can only <a href="/features/project-settings/element-images" target="_blank">disable the usage of images</a> during execution of the tests from certain project.
 
-In some occasions the automatically generated find expression may not be suitable and may require to be modified. To change how an element is found, right click on the element in the Elements explorer __add a link__ and select either **Edit Element** or __Edit in Live__.
+In some occasions the automatically generated find expression may not be suitable and may require to be modified. To change how an element is found, right click on the element in the <a href="/features/elements-explorer/overview" target="_blank">Elements explorer</a> and select **Edit Element**.
 
-![Edit Element VS](images/find-element/fig2.png)
-
-Select **Edit in Live** to directly open the <a href="#find-element">Find element</a> dialog for the page currently loaded with an attached recorder to it. If there is no active recording session this option will be greyed out.
-
-![Edit in live](images/find-element/fig3.png)
+![Edit Element VS](images/find-element/fig1.png)
 
 The **Find Element** splash screen appears. You have three options for how to locate the element:
 
@@ -30,7 +26,7 @@ The **Find Element** splash screen appears. You have three options for how to lo
 
 ![Find Element](images/find-element/fig5.png)
 
-**Find in the Cached Version** - if your test failed, you can find the element using the cached version of the application at the time of failure. Accessible only through the **Resolve Failure** tab in the Step Failure Details __add a link__.
+**Find in the Cached Version** - if your test failed, you can find the element using the cached version of the application at the time of failure. Accessible only through the **Resolve Failure** tab in the <a href="/features/failed-tests-debugging/step-failure-details" target="_blank">Step Failure Details</a>.
 
 **Find Without Connection** - choose this option to find the element without connecting to the application.
 

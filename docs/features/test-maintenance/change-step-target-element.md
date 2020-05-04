@@ -2,7 +2,6 @@
 title: Change Step Target Element
 page_title: Change Step Target Element
 description: "Test Studio Change the Target Element for a step if a test step targets an incorrect element"
-previous_url: /user-guide/modifying-tests/change-step-target-element.aspx, /user-guide/modifying-tests/change-step-target-element
 position: 1
 ---
 # Change Step Target Element

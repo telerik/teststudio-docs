@@ -77,10 +77,11 @@ This opens a dialog box that shows all of the possible configuration settings fo
 * ***Browser***
 	* **AutoCalibrateBrowsers** - whether or not to automatically calibrate the installed browsers on the execution machine(s) that are selected for execution of the test list. 
 	* **Browser** - the default browser to launch.
-	* **EnableUILessRequestViewing** - whether to allow debugging of UILess page requests using a UI browser, like IE.
+	* **EnableUILessRequestViewing** - whether to allow debugging of UI-Less page requests using a UI browser, like IE.
 	* **KillBrowserProcessOnClose** - whether to kill the browser process when closing the browser.
-	* **KillBrowsersBeforeStart** - Kill all executing browser instances before test lists starts.
+	* **KillBrowsersBeforeStart** - kill all executing browser instances before test lists starts.
 	* **RecycleBrowser** - when set to true, one instance of the browser is launched and recycled throughout all tests until *Manager.Dispose* is called.
+	* **WebComponents** - enable or disable WebComponents support. When creating a test list, the setting gets the value set on project level in the <a href="/features/project-settings/general#web-components" target="_blank">Project Settings General tab</a>. After that the setting is independent from the project level setting.
 * ***HttpProxy***
 	* **UseHttpProxy** - whether to use the built-in HTTP proxy during automation. Enabling Silverlight will automatically enable the HTTP proxy.
 * ***Log***

@@ -2,7 +2,6 @@
 title: Code-Behind File
 page_title: Code-Behind File
 description: "Code-Behind File of a test in Test Studio."
-previous_url: /user-guide/coded_steps/code-behind-file.aspx, /user-guide/coded_steps/code-behind-file, /advanced-topics/coded-steps/code-behind-file
 position: 1
 ---
 # Code-Behind File #

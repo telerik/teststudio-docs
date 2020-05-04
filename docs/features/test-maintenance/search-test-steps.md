@@ -2,7 +2,6 @@
 title: Search Test Steps
 page_title: Search Test Steps
 description: "Search Test Steps in the Test Studio test by description, by step type."
-previous_url: /user-guide/modifying-tests/search_test_steps.aspx, /user-guide/modifying-tests/search_test_steps
 position: 1
 ---
 # Search Test Steps
@@ -11,7 +10,7 @@ To search the test steps in a test by description, use the search bar.
 
 ![search][1]
 
-Test steps filter as you type.
+Test steps are filtered as you type.
 
 ![filter][2]
 

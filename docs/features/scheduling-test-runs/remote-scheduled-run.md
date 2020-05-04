@@ -44,7 +44,7 @@ The **Storage** tab displays the Test Studio Storage service details - you can v
 
 ### Scheduling Tab
 
-The **Scheduling** tab contains information about the location of the Test Studio Storage and Scheduling services. The default populated values are pointing to the local machine - *localhost*. For this particular configuration, these can remain unchanged and you can hit the **Apply** button. An informational message appears in the lower left corner of the wizard stating *'Telerik Scheduling Service is running'*.
+The **Scheduling** tab contains information about the location of the Test Studio Storage and Scheduling services. The default populated values are pointing to the local machine - *localhost*. For this particular configuration, these can remain unchanged and you can hit the **Apply** button. That will start the scheduling service and show you details about the storage service's status and database version in the **Storage Service Location** section. You will also see a message in the lower left corner of the wizard stating *'Telerik Scheduling Service is running'*.
 
 ![Scheduling][13]
 

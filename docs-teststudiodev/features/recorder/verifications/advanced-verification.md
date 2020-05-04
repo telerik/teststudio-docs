@@ -7,7 +7,7 @@ position: 2
 ---
 # Create Advanced Test Verifications
 
-An advanced verification allows you to interactively build verification rules and validate them against a live web document or WPF application. In order to create custom verification you need to locate the target element in the DOM tree and use the Step Builder __(add a link)__ and its _Verification_ section. 
+An advanced verification allows you to interactively build verification rules and validate them against a live web document or WPF application. In order to create custom verification you need to locate the target element in the DOM tree and use the <a href="/features/recorder/step-builder" target="_blank">Step Builder</a> and its _Verification_ section.
 
 1.&nbsp; Create a Web Test and click Record.
 

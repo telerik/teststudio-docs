@@ -7,7 +7,7 @@ position: 2
 ---
 # Frames
 
-Frames are automatically detected by Test Studio. When you record an action or verification against an element within a frame, Test Studio adds an additional frame node to the Elements Explorer __add a link__.
+Frames are automatically detected by Test Studio. When you record an action or verification against an element within a frame, Test Studio adds an additional frame node to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
 
 ![Element explorer](images/frame-node.png)
 
