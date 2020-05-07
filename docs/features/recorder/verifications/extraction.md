@@ -1,7 +1,7 @@
 ---
 title: Extraction
 page_title: Create an Extraction Step
-description: "Create an Extraction Step in Test Studio. Use a dynamic generated value during the Test Studio test run. Reuse a dynamic value available in run-time only in Test Studio test. Get an atrtibute value of an element in Test Studio test. Data bind dynamic value in Test Studio test. "
+description: "Create an Extraction Step in Test Studio. Use a dynamic generated value during the Test Studio test run. Reuse a dynamic value available in run-time only in Test Studio test. Get an attribute value of an element in Test Studio test. Data bind dynamic value in Test Studio test. "
 previous_url: /user-guide/verifications/data-bind-an-extraction-step.aspx, /user-guide/verifications/data-bind-an-extraction-step, /features/verifications/Extraction, /features/verifications/Extraction.html
 position: 1
 ---
@@ -11,7 +11,7 @@ position: 1
 
 * <a href="/features/recorder/verifications/Extraction#extract-an-attribute-of-an-element">Extract an attribute of an element</a>
 
-This demonstrates how to extract a value from an element and reuse it later in your test. You can also review our Telerik TV episode on <a href="http://www.telerik.com/videos/teststudio/using-element-extraction-(variables)-" target="_blank">Using Element Extraction (Variables)</a> for a video walk-through of this process.
+This demonstrates how to extract a value from an element and reuse it later in your test. You can also review our Telerik TV episode on <a href="https://youtu.be/qT-_4oBwRpE" target="_blank">Using Element Extraction (Variables)</a> for a video walk-through of this process.
 
 1.&nbsp; Highlight the desired element, choose **Quick Steps > Extract - text contains** entry. This example is against a <a href="http://www.wordgenerator.net/random-word-generator.php" target="_blank">random word generator site</a>.
 
