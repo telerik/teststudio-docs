@@ -32,9 +32,11 @@ p.trigger{
 
 # Configuring MS Edge for Test Studio Automation#
 
+To configure Microsoft Edge Legacy for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test execution.
+
 ## 1. Install Microsoft WebDriver
 
-In order to use **Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver. 
+In order to use **Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver.
 
 Determine your Windows 10 build and download the correct MS WebDriver <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/" target="_blank">here</a>.
 

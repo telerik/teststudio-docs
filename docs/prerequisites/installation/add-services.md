@@ -5,25 +5,22 @@ description: "Test Studio Add Scheduling / Storage Services / Executive Dashboar
 previous_url: /user-guide/installation/trial-services.aspx, /user-guide/installation/trial-services
 position: 6
 ---
-# Add Scheduling or Storage Services after Initial Installation #
+# Add Test Studio Services after Initial Installation
 
-1.	Open __Control Panel > Programs and Features.__
+After you have completed the Test Studio default installation, you can add the Test Studio Services and use the <a href="/features/scheduling-test-runs/remote-scheduled-run" target="_blank">Scheduling configuration provided by Test Studio</a>.
 
-2.	Right-click __Progress Test Studio 20XX.X.__
+To add the Scheduling and Storage services and enable the machine to act as a Scheduling server, you will need to modify the existing Test Studio installation you have. You can refer to the steps described below how to change it.
 
-3.	Click __Change.__
+Open the __Windows Control Panel__ and  navigate to its __Programs and Features.__ Find the Test Studio installation - it is called __Progress Telerik Test Studio 20XX.X.__ Right click on it and select the __Change__ option. 
 
-	![Programs and Features](/img/general-information/installation/add-services/fig1.png)
+![Programs and Features](/img/general-information/installation/add-services/fig1.png)
 
-4.	Click __Next__ in the Progress Test Studio 20XX.X Setup Wizard.
-5.	Click the __Change__ button.
+Click the __'Next'__ button in the Progress Telerik Test Studio 20XX.X Setup Wizard and choose the option to __Change__ the current installation.
 
-	![Change button](/img/general-information/installation/add-services/fig2.png)
+![Change button](/img/general-information/installation/add-services/fig2.png)
 
-6.	Select the services to install.
+Enable the services to install - usually the Scheduling, Storage and Executive Dashboard.
 
-	
-	![Select services](/img/general-information/installation/add-services/fig3.png)
+![Select services](/img/general-information/installation/add-services/fig3.png)
 
-7.	<a href="install-procedure" target="_blank">Complete the installation as normal.</a>
-
+Proceed with the standard <a href="/prerequisites/installation/install-procedure" target="_blank">installation process.</a>

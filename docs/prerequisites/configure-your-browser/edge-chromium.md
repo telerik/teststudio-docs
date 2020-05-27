@@ -7,7 +7,7 @@ position: 1
 
 # Configuring Microsoft Edge for Test Studio Automation 
 
-The new Microsoft Edge is supported both for recording and execution in Test Studio web tests. To configure Microsoft  Edge for web automation with Test Studio you need to perform few steps in advance.
+To configure Microsoft Edge (based on Chromium) for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test recording and execution.
 
 ## 1. Install Progress Extensions
 

@@ -6,7 +6,9 @@ position: 8
 ---
 # How to Install Visual Studio 2017 to Integrate Test Studio
 
-As of version 2017 R2 Test Studio is compatible with the latest Visual Studio 2017. To ensure that Test Studio plugin will be visible and working in Visual Studio 2017 please install the **Testing Tools Core Features** component under Debugging and Testing section.
+Visual Studio 2017 requires additional feature in its installation to be compatible with the Test Studio plugin for Visual Studio.
+
+Before installing Test Studio, you need to modify the Visual Studio 2017 installation and add the **Testing Tools Core Features** component under Debugging and Testing section. Once you enable this component complete the Visual Studio 2017 standard installation process and then perform the <a href="/prerequisites/installation/install-procedure" target="_blank">standard Test Studio installation</a>.
 
 ![Visual Studio 2017 Installation][1]
 

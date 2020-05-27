@@ -7,7 +7,7 @@ position: 1
 
 # Configuring Chrome for Test Studio Automation 
 
-To configure Google Chrome for web automation with Test Studio following steps need to be performed:
+To configure Google Chrome for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test recording and execution.
 
 ## 1. Install Progress Extensions
 

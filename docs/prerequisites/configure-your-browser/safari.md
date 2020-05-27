@@ -33,6 +33,8 @@ p.trigger{
 
 # Configuring Safari for Test Studio Automation#
 
+To configure Safari for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test execution.
+
 ## Automatic Calibration##
 
 The <a href="/features/project-settings/browsers" target="_blank">**Calibrate Browsers**</a> feature can configure your browsers **automatically**. 

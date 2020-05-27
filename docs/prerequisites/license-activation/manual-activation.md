@@ -1,44 +1,58 @@
 ---
 title: Manual Activation
 page_title: Manual Activation
-description: "Test Studio manual activation. I am not able to login to my account and activate Test Studio. No internet on the machine and unable to activate Test Studio"
-position: 4
+description: "Test Studio manual activation. I am not able to login to my account and activate Test Studio. No internet on the machine and unable to activate Test Studio. Offline Test Studio license activation"
+position: 6
 ---
-# Manual Activation #
+# Manual Activation of Test Studio License
 
-The following steps demonstrate how to manually activate Test Studio on a machine without an internet connection. Please note that while the machine that will run Test Studio is not connected to the internet, you will need access to the internet and our website to complete this process.
+You may encounter connection errors, or attempt to activate Test Studio on a machine which is not connected to the Internet. Then, you can manually activate your purchased license.
 
-1. Select __Activate Manually__.
+Please note that while the machine that will run Test Studio may not be connected to the Internet, you will need access on another device to the Internet and our website to complete this process.
 
-	![Activate Manually](/img/general-information/installation/manual-activation/fig2.png)
+The steps to follow for manual license activation are as follows:
 
-2. Copy your machine key from the __Machine Info Key__ field for later use.
+- [Activate Manually](#activate-manually)
+- [Generate License Key Manually](#generate-license-key-manually)
+- [Finish the Offline Activation](#finish-the-offline-activation)
 
-	![Machine Key](/img/general-information/installation/manual-activation/fig3.png)
+## Activate Manually
 
-3. Navigate to the <a href="http://www.telerik.com/account/your-products/testing-tools-manage-license-keys.aspx" target="_blank">License Keys Management Form</a>. Scroll down to the bottom and click + Add a key.
+Start Test Studio on the machine, where this is installed and choose the _'Activate Manually'_ button in the Test Studio License Activation Wizard.
 
-	
-	![License Keys Management Form](/img/general-information/installation/manual-activation/fig4.png)
+![Activate Manually](/img/general-information/installation/manual-activation/fig2.png)
 
-4. Select Product from the drop down menu. Input your machine info key within the provided field, the machine name and friendly name, then click the Generate Key button. 
+The next screens provides the __Machine Key__ and __Machine Name__ information. Copy your machine key from the __Machine Key__ field for later use.
 
-	![Select Product](/img/general-information/installation/manual-activation/fig5.png)
+![Machine Key](/img/general-information/installation/manual-activation/fig3.png)
 
-	> There are reserved words that cannot be used for Machine key, Machine name and Friendley name. The words are **telerik**, **admin**, **administrator**, **sitefinity**, **icenium**, **kendo**, **kendoui** and **moderator**. 
+## Generate License Key Manually
 
-5.	A confirmation appears that the Key was successfully created. Locate the key and click __copy key__.
+On another machine, connected to the Internet, navigate to your Telerik account in the <a href="http://www.telerik.com/account/your-products/testing-tools-manage-license-keys.aspx" target="_blank">Test Studio License Keys Management Form</a>. Scroll down to the bottom and click  the _'+ Add a key'_ button.
 
-	![Copy key](/img/general-information/installation/manual-activation/fig6.png)
+![License Keys Management Form](/img/general-information/installation/manual-activation/fig4.png)
 
-6. Paste the registration key within the field in Test Studio, then click __Activate__.
+Select the purchased Test Studio version from the _'Product'_ drop down menu. Enter the machine key, copied from the machine on which is Test Studio, within the provided field, add the machine name and friendly name, then click the __'Generate Key'__ button.
 
-	![Activate](/img/general-information/installation/manual-activation/fig7.png)
+![Select Product](/img/general-information/installation/manual-activation/fig5.png)
 
-7.	If your machine was freshly imaged or replaced and you need to re-activate your license (0 seats available) on the new machine, please visit <a href="re-activating-your-license" target="_blank">Re-Activating your License</a> article.
-10.	If you run into an issue using this, please send an email to [sales@telerik.com](mailto:sales@telerik.com). Make sure your email contains:
+> __Note!__ There are reserved words that cannot be used for Machine key, Machine name and Friendley name. The words are **telerik**, **admin**, **administrator**, **sitefinity**, **icenium**, **kendo**, **kendoui** and **moderator**.
 
-	* Email address on account.
-	* Machine info key.
-	* A copy of any error message you are receiving while trying to activate your software.
-	* A screenshot of the issue (if possible, must be in .jpg/.png/.gif format).
+Once the key is generated you get a confirmation screen, from which you can copy it, and transfer the key to the machine on which is Test Studio. Use the _'copy key'_ button to copy it to the clipboard.
+
+![Copy key](/img/general-information/installation/manual-activation/fig6.png)
+
+## Finish the Offline Activation
+
+Switch to the machine, which hosts the Test Studio installation and paste the manually generated registration key from your Telerik account within the _'License Key'_ field in Test Studio License Activation Wizard, then click the __'Activate'__ button.
+
+![Activate](/img/general-information/installation/manual-activation/fig7.png)
+
+## Report Possible Troubles
+
+If you run into an issue using the manual activation wizard, please send an email to [sales@telerik.com](mailto:sales@telerik.com). Make sure your email contains:
+
+* Email address on account.
+* Machine info key.
+* A copy of any error message you are receiving while trying to activate your software.
+* A screenshot of the issue (if possible, must be in .jpg/.png/.gif format).

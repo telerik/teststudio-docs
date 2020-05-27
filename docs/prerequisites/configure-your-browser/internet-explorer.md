@@ -31,9 +31,11 @@ p.trigger{
 
 </style>
 
-# Configuring Internet Explorer for Test Studio Automation#
+# Configuring Internet Explorer for Test Studio Automation #
 
-## Automatic Calibration##
+To configure Microsoft Internet Explorer for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test recording and execution.
+
+## Automatic Calibration ##
 
 To ensure flawless and consistent automation process there are some settings to apply to the browser. We call this browser calibration and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box and no manual interaction is required.<br><br>
 

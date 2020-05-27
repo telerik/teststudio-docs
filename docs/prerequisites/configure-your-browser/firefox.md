@@ -32,7 +32,7 @@ p.trigger{
 
 # Configuring Firefox for Test Studio Automation#
 
-To configure Mozilla Firefox for web automation in Test Studio the following steps need to be performed: <br>
+To configure Firefox for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test recording and execution.
 
 ## 1. Install Progress Extension
 
@@ -40,11 +40,11 @@ To configure Mozilla Firefox for web automation in Test Studio the following ste
 
 Install the latest Firefox extension from the Mozzila Extension Page. There is a single extension combining recording and execution: <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/" target="_blank">**Progress Test Studio Extension**</a>
 
+>If you face any troubles when installing or enabling the extension please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
+
 As of product release **2017 R3** only the new Test Studio extension will be supported. Old extensions are using legacy Firefox add-on API and starting from Firefox v.57 only extensions developed using WebExtensions APIs will be supported for usage in the browser.
 
-Once Firefox is used for first time for web automation in Test Studio 2017 R3 the old Test Studio extensions will be automatically removed.
-
->If you face any troubles when installing or enabling the extension please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
+Once Firefox is used for first time for web automation in Test Studio 2017 R3 or later version, the old Test Studio extensions will be automatically removed.
 
 **Test Studio 2017 R2 SP1 (v. 2017.2.824) And Earlier**
 

@@ -1,33 +1,33 @@
 ---
 title: Manual Download
 page_title: Manual Download
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Download Test Studio installation file manually from your Telerik account. How can I download Test studio from my Telerik account."
 position: 3
 ---
-# Manual Download #
+# Manual Download
 
-As of R2 2012 SP1, Test Studio can <a href="check-for-updates" target="_blank">check for updates automatically</a>, as well as download and install them in one dialog. To download and install Test Studio or Test Studio updates manually:
+You can <a href="/prerequisites/check-for-updates" target="_blank">check for updates automatically</a> in the product, download an available newer version and install it. Though, if you need to manually download an installation file of Test Studio including any previous version available for you, you can access these in your Telerik account following the below steps.
 
-1. Navigate to <a href="http://www.telerik.com" target="_blank">Telerik.com</a> and login to your Telerik account.
+## Open Your Telerik Account
 
-	![Log In](/img/general-information/installation/manual-download/fig1.png)
+Navigate to <a href="http://www.telerik.com" target="_blank">Telerik.com</a> and login to your Telerik account.
 
-	
-	![Log In](/img/general-information/installation/manual-download/fig2.png)
+![Navigate to your Telerik account](/img/general-information/installation/manual-download/fig1.png)
 
-2. To download the latest version of Test Studio, including Service Packs and Latest Internal Builds, open the Manage products menu and select Test Studio. 
+![Log In to your Telerik account](/img/general-information/installation/manual-download/fig2.png)
 
-	![Test Studio product](/img/general-information/installation/manual-download/fig3.png)
+## Find the Available Downloads
 
+To find the latest available versions of Test Studio, including Service Packs and Latest Internal Builds, go to the __Downloads__ page.
 
-	To go straight to Latest internal builds, select that option instead.
+![Your Account downloads page](/img/general-information/installation/manual-download/fig3.png)
 
-	![Latest intenal builds](/img/general-information/installation/manual-download/fig4.png)
+Choose the Test Studio version you have purchased.
 
-3. From the Test Studio product page, click the __Download__ link.
+![Test Studio purchased product](/img/general-information/installation/manual-download/fig4.png)
 
-	![Download](/img/general-information/installation/manual-download/fig5.png)
+Choose the version you need to install (official release or internal build) and the file you want to download (*.msi or *.exe).
 
-4. Select the official release or latest internal build. Download the installer and execute the file to install that version or upgrade an existing Test Studio installation the newer version.
+![Choose the version to download](/img/general-information/installation/manual-download/fig5.png)
 
-	![Install](/img/general-information/installation/manual-download/fig6.png)
+Proceed with the standard <a href="/prerequisites/installation/install-procedure" target="_blank">installation process.</a>
