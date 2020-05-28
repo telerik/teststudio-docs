@@ -1,8 +1,8 @@
 ---
-title: Install Procedure
+title: Test Studio Install Procedure
 page_title: Installation Procedure
 description: "Test Studio Installation Procedure. How to install Test Studio "
-position: 1
+position: 2
 ---
 # Installation Procedure
 

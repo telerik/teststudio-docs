@@ -1,10 +1,10 @@
 ---
-title: Check for Updates
-page_title: Check for Updates
+title: Update Test Studio
+page_title: Update Test Studio
 description: "Test Studio Check for Updates, set automatic check for updates on Test Studio startup"
-position: 3
+position: 6
 ---
-# Check for Updates
+# Update Test Studio
 
 Test Studio updates provide new features, improved functionality against evolving controls, interoperability with new software, and bug fixes. The Check for Updates feature allows automatic detection of new versions and provides the option to download and install this new version.
 
