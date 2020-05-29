@@ -1,7 +1,7 @@
 ---
 title: Results
 page_title: Executive Dashboard Results view
-description: "Online results server. Executive Dashboard retulst. View test list results"
+description: "Online results server. Executive Dashboard results. View test list results"
 position: 3
 ---
 # Results
@@ -40,8 +40,6 @@ The detailed view of the test list execution shows information about each test. 
 * **View Log** - Show the test execution log with option to copy it to clipboard.
 
 ![Project View][4]
-
-
 
 [1]: /img/general-information/test-results/dashboard/results/fig1.png
 [2]: /img/general-information/test-results/dashboard/results/fig2.png

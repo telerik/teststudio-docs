@@ -27,7 +27,7 @@ From this view you can create new report definitions for one or more test lists.
 ![Date range][2]
 ![Sliding period][3]
 
-* **Name** - Type the name of the report defitinion that will be created.
+* **Name** - Type the name of the report definition that will be created.
 * **Selected Test Lists** - Select one or more test lists that will be included in the report.
 * **Time Frame Type** - You can chose between a fixed date range or a dynamic sliding period.
 * **Time Frame Selection** - This option depends on the Time Frame Type selection. Data range allows you to choose a start and end date. The Sliding period allows you to specify a dynamically changing report for the last days, weeks or months.
@@ -40,7 +40,7 @@ Here you can make changes to an already existing report definition or delete it.
 
 ![Edit Report Definition][4]
 
-* **Name** - Type the name of the report defitinion that will be created.
+* **Name** - Type the name of the report definition that will be created.
 * **Selected Test Lists** - Select one or more test lists that will be included in the report.
 * **Time Frame Type** - You can chose between a fixed date range or a dynamic sliding period.
 * **Time Frame Selection** - This option depends on the Time Frame Type selection. Data range allows you to choose a start and end date. The Sliding period allows you to specify a dynamically changing report for the last days, weeks or months.
@@ -59,7 +59,7 @@ You can analyze the report details and export it to PDF format, using the Export
 
 ### Rerpot Overview
 
-The Report Overview shows you details about the current report definition and a pie chart of all executed tests. The pie chart is devided by the percentage (%) of tests that passed, failed or were not ran. You can also hover over each section to show you the exect number of tests in that section.
+The Report Overview shows you details about the current report definition and a pie chart of all executed tests. The pie chart is divided by the percentage (%) of tests that passed, failed or were not ran. You can also hover over each section to show you the exact number of tests in that section.
 
 ![Report Overview][6]
 
@@ -73,9 +73,9 @@ The Report Overview shows you details about the current report definition and a 
 Every test list has a graphic that shows passed, failed and not ran tests. The graphic shows the number of tests executed in the vertical (Y) axis and the time and date of each test list run on the horizontal (X) axis. You can also use the following actions against the graphic:
 
 * Show/Hide test list run dates from the toggle button **Show Run Dates**.
-* Use the mousewheel to zoom in and out.
+* Use the mouse wheel to zoom in and out.
 * While the graphic is zoomed in, you can drag it left or right to side-scroll.
-* Pless the Shift key and drag to select a section of the graphic.
+* Press the Shift key and drag to select a section of the graphic.
 * Open the test list results, by clicking on the test list execution in the graphic.
 
 ![Test List Details][7]
