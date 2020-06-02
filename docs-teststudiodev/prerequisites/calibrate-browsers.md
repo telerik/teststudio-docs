@@ -353,23 +353,31 @@ If you need to double check manually if all settings are correct expand the <a h
 
 <h3>Disable Web Security</h3>
 
-1.&nbsp; Open the Default Chrome User data folder under the your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the **Preferences** file. 
+<p>1. Open the Default Chrome User data folder under the your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p>
 
-2.&nbsp; Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file: 
+<p>2. Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file:</p>
 
-```
-"webkit":{"webprefs":{"web_security_enabled":false}}
-```
+<style>
+.code {
+  background-color: #FFFFFF;    
+  text-align: left;
+  text-indent: 50px;
+  color: #000000;
+}
+</style>
 
-If the "webkit" preference already exists in the **Preferences** file and has any value in the "webprefs", you can add the web security as follows: 
+<div class="code">
+    <p>"webkit":{"webprefs":{"web_security_enabled":false}}</p>
+</div>
 
-```
-Existing values listed in the file: 
-"webkit":{"webprefs":{"minimum_font_size":6}}
+<p>If the "webkit" preference already exists in the **Preferences** file and has any value in the "webprefs", you can add the web security as follows:</p>
 
-The file after adding the web security: 
-"webkit":{"webprefs":{"minimum_font_size":6, "web_security_enabled":false}}
-```
+<div class="code">
+    <p>Existing values listed in the file:</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6}}</p>
+    <p>The file after adding the web security:</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6, "web_security_enabled":false}}</p>
+</div>
 
 <hr/>
 
