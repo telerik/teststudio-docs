@@ -27,7 +27,8 @@ border: 1px solid #dbdbdb;
 border-collapse: collapse;
 }
 table.docs th {
-color:#fff;
+color:#333;
+font-weight: bold;
 background-color:#00аб8е;
 border: 1px solid #dbdbdb;
 padding: 8px;
