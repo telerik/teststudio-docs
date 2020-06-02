@@ -353,9 +353,9 @@ If you need to double check manually if all settings are correct expand the <a h
 
 <h3>Disable Web Security</h3>
 
-<p>1. Open the Default Chrome User data folder under the your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p>
+<p>1. Open the Default Chrome User data folder under the your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p><br>
 
-<p>2. Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file:</p>
+<p>2. Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file:</p><br>
 
 <style>
 .code {
@@ -369,9 +369,9 @@ If you need to double check manually if all settings are correct expand the <a h
 <div class="code">
     <p>"webkit":{"webprefs":{"web_security_enabled":false}}</p>
 </div>
-
+<br>
 <p>If the "webkit" preference already exists in the **Preferences** file and has any value in the "webprefs", you can add the web security as follows:</p>
-
+<br>
 <div class="code">
     <p>Existing values listed in the file:</p>
     <p>"webkit":{"webprefs":{"minimum_font_size":6}}</p>
