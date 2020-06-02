@@ -370,11 +370,11 @@ If you need to double check manually if all settings are correct expand the <a h
     <p>"webkit":{"webprefs":{"web_security_enabled":false}}</p>
 </div>
 <br>
-<p>If the "webkit" preference already exists in the **Preferences** file and has any value in the "webprefs", you can add the web security as follows:</p>
+<p>If the "webkit" preference already exists in the <strong>Preferences</strong> file and has any value in the "webprefs", you can add the web security as follows:</p>
 <br>
 <div class="code">
     <p>Existing values listed in the file:</p>
-    <p>"webkit":{"webprefs":{"minimum_font_size":6}}</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6}}</p><br>
     <p>The file after adding the web security:</p>
     <p>"webkit":{"webprefs":{"minimum_font_size":6, "web_security_enabled":false}}</p>
 </div>

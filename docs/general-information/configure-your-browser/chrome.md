@@ -183,7 +183,7 @@ In case you haven't performed the above recommendation to install the Progress e
     <p>"webkit":{"webprefs":{"web_security_enabled":false}}</p>
 </div>
 
-<p>If the "webkit" preference already exists in the **Preferences** file and has any value in the "webprefs", you can add the web security as follows:</p>
+<p>If the "webkit" preference already exists in the <strong>Preferences</strong> file and has any value in the "webprefs", you can add the web security as follows:</p>
 
 <div class="code">
     <p>Existing values listed in the file:</p>
