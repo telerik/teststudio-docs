@@ -14,11 +14,11 @@ With Test Studio you can schedule test lists on a single machine, but using the 
 
 ![Installation Dialog][1]
 
-> **Note:** The **Storage service** uses <a href="https://www.mongodb.com/" target="_blank">**MongoDB**</a> as a storage database and the Test Studio installation wizard automatically detects if the third party tool is already installed. If not it will also be installed. </br>
+> **Note!** The **Storage service** uses <a href="https://www.mongodb.com/" target="_blank">**MongoDB**</a> as a storage database and the Test Studio installation wizard automatically detects if the third party tool is already installed. If not it will also be installed. </br>
 </br>
 </br>
 
-> **Note:** The Test Studio services are **not selected** in a default Test Studio Standalone installation and **are installed by default** when installing the Run-time Test Studio edition.
+> **Note!** The Test Studio services are **not selected** in a default Test Studio Standalone installation and **are installed by default** when installing the Run-time Test Studio edition.
 
 ## Configure the Test Studio Services
 

@@ -47,6 +47,6 @@ Telerik Testing Framework allows you to verify if there are any JavaScript error
     Assert.AreEqual(0, currentErrorsOnPage.Count());
     {{endregion}}
 
-> __Note:__ The JS error check step detects only JavaScript errors. Any errors related to not loaded resources will not be detected. An example for such console error is listed below:<br>
+> __Note!__ The JS error check step detects only JavaScript errors. Any errors related to not loaded resources will not be detected. An example for such console error is listed below:<br>
 <br>
 > _Failed to load resource: the server responded with a status of 404 (Not Found)_

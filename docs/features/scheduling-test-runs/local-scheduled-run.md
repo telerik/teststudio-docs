@@ -36,7 +36,7 @@ With Test Studio you can schedule tests and test lists on a single machine. The 
 
 <a href="/features/scheduling-test-runs/scheduling-results" target="_blank">View Scheduling Results</a> after the scheduled test execution time. As this is a local test list run, the result files are physically stored on the local disk under the Results sub-folder in the project root one.
 
-> **Note:** If the used machine has an active firewall, ensure that the following ports are unblocked: 55555, 8009.
+> **Note!** If the used machine has an active firewall, ensure that the following ports are unblocked: 55555, 8009.
 
 [1]: /img/features/scheduling-test-runs/local-run-all-in-one/fig1.png
 [2]: /img/features/scheduling-test-runs/local-run-all-in-one/fig2.png

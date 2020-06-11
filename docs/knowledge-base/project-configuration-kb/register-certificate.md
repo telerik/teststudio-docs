@@ -38,7 +38,7 @@ This is expected behavior and it's related to the way Test Studio hooks into the
 
 > Ensure that installing the certificate does not violate your company's security policies.</br>
 
-> **Note:**  If clicking "Register certificate for https connection" button does not bring the security warning above, this might be due to specific Security Policy that overrides the local administrator rights. In such cases there is a workaround by installing <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a> and using it to install the required certificate into the Machine Trusted Root Certificates folder.
+> **Note!**  If clicking "Register certificate for https connection" button does not bring the security warning above, this might be due to specific Security Policy that overrides the local administrator rights. In such cases there is a workaround by installing <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a> and using it to install the required certificate into the Machine Trusted Root Certificates folder.
 
 ## Run-Time Edition
 

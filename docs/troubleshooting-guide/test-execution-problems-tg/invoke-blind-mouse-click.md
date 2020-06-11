@@ -38,7 +38,7 @@ c. Select **Specific Point** value from **Location** dropdown.
 
 ![Test Steps][5]
 
-> __Note:__ If the requirement is to invoke a blind mouse click outside the page under test you could use the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/mouse-manager" target="_blank">Mouse Manager</a> in a coded step and click on specific coordinates. 
+> __Note!__ If the requirement is to invoke a blind mouse click outside the page under test you could use the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/mouse-manager" target="_blank">Mouse Manager</a> in a coded step and click on specific coordinates. 
 
 
 [1]: /img/troubleshooting-guide/test-execution-problems-tg/invoke-blind-mouse-click/fig1.png

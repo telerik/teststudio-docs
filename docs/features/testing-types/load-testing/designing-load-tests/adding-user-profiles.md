@@ -69,7 +69,7 @@ To explore the traffic in the imported user profiles, you can double click on ea
 
 To remove an existing user profile click the _'X'_ button on the row of the user profile you want to delete.
 
-> __Note:__ Once deleted that user profile is permanently removed - you cannot undo this deletion.
+> __Note!__ Once deleted that user profile is permanently removed - you cannot undo this deletion.
 
 ![Delete User Profile button][8]
 

@@ -42,6 +42,6 @@ The log of the test execution provides details which are the excluded errors and
 ![Exexution Log of Excluded Multiple Errors Step Passed](/img/features/custom-steps/check-js-errors/fig5.png)
 ![Exexution Log of Excluded Errors Step Failed](/img/features/custom-steps/check-js-errors/fig9.png)
 
-> __Note:__ The JS error check step detects only JavaScript errors. Any errors related to not loaded resources will not be detected. An example for such console error is listed below:<br>
+> __Note!__ The JS error check step detects only JavaScript errors. Any errors related to not loaded resources will not be detected. An example for such console error is listed below:<br>
 <br>
 > _Failed to load resource: the server responded with a status of 404 (Not Found)_

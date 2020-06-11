@@ -32,7 +32,7 @@ By default the test list, created in the project with already set BaseURL, inher
 
 ![Base URL Test List][2]
 
-> __Note:__ The test list setting overrides the project setting, and thus you can create multiple test lists and set each to run against different BaseURL.
+> __Note!__ The test list setting overrides the project setting, and thus you can create multiple test lists and set each to run against different BaseURL.
 
 ## Test Step Property ##
 
@@ -44,7 +44,7 @@ If the navigated URL differs from the project BaseURL the navigation step is rec
 
 ![Step property base URL differs from project][4]
 
-> __Note:__ The Navigate step overrides both the project and the test list BaseURL setting. Thus, if you need a single test to use different URL, adjust its Navigate step to use that desired URL.
+> __Note!__ The Navigate step overrides both the project and the test list BaseURL setting. Thus, if you need a single test to use different URL, adjust its Navigate step to use that desired URL.
 
 ## Project Property in the Visual Studio Plugin ##
 

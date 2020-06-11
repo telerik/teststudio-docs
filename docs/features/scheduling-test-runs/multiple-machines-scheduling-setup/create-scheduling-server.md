@@ -24,7 +24,7 @@ To configure a machine as a Scheduling server, you need to install **minimum the
 
 ![Installation Dialog][1]
 
-> **Note:** Configuring a Scheduling Server for remote execution requires the <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-storage-server" target="_blank">Test Studio Storage service</a> to be installed on any machine in the Scheduling environment, which is accessible from the Scheduling Server. These can be **hosted also on the same machine**.
+> **Note!** Configuring a Scheduling Server for remote execution requires the <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-storage-server" target="_blank">Test Studio Storage service</a> to be installed on any machine in the Scheduling environment, which is accessible from the Scheduling Server. These can be **hosted also on the same machine**.
 
 ## Configure the Test Studio Scheduling Service
 
@@ -42,7 +42,7 @@ In the dialog which appears, the first **MongoDB** tab contains the settings req
 
 ![MongoDB][6]
 
-> **Note:** The **MongoDB** tab will be grayed out (inactive) if you do not have MongoDB installed on the machine! This will get enabled when the correct MongoDB connection string is set in the **Storage** tab.
+> **Note!** The **MongoDB** tab will be grayed out (inactive) if you do not have MongoDB installed on the machine! This will get enabled when the correct MongoDB connection string is set in the **Storage** tab.
 
 ### Storage Tab
 
@@ -50,7 +50,7 @@ The **Storage** tab displays the Test Studio Storage service details and locatio
 
 ![Storage][7]
 
-> **Note:** If the **Test Studio Storage Service and MongoDB** are installed on any of the other machines in the Scheduling setup, the **MongoDB connection string** need to be modified to point to the particular machine.
+> **Note!** If the **Test Studio Storage Service and MongoDB** are installed on any of the other machines in the Scheduling setup, the **MongoDB connection string** need to be modified to point to the particular machine.
 
 *'localhost'* is used when the same machine hosts both the Scheduling and Storage services and MongoDB. If **MongoDB is installed on another machine** you need to specify that remote machine name.
 

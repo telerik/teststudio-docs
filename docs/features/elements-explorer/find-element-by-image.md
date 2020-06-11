@@ -100,7 +100,7 @@ Once a browser is selected, the page, which contains the element, will be loaded
 
 If there is a running browser from the same type without attached recorder, that instance will be closed and the browser will be restarted to capture new image.
 
-> **Note:** This option is recommended for the cases, when a test was partially executed using *Run->To Here* from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">Step Context Menu</a> and there is an already active recording session pointing to the correct page to select new image from.
+> **Note!** This option is recommended for the cases, when a test was partially executed using *Run->To Here* from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">Step Context Menu</a> and there is an already active recording session pointing to the correct page to select new image from.
 
 ### Run To Step
 

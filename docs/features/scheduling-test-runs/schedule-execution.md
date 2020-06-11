@@ -75,7 +75,7 @@ As of release **2017 R3** (v.2017.3.1010) you can choose whether to automaticall
 
 If it is clear whether the automatic upload for that project is required or not and you don't want to see the notification by each save operation you could check the respective checkbox. The selected option will be applied on project level and performed automatically once the project is saved. Alternatively you could leave the prompt dialog to be triggered by each save operation and choose each time whether to upload the changes or not.
 
-> **Note:**  See <a href="/knowledge-base/scheduling-kb/upload-latest-files#automatic-upload-of-recent-changes">here</a> for more details if that message doesn't appear anymore. 
+> **Note!**  See <a href="/knowledge-base/scheduling-kb/upload-latest-files#automatic-upload-of-recent-changes">here</a> for more details if that message doesn't appear anymore. 
 
 <br/>
 
@@ -102,7 +102,7 @@ Under __Subject Line__, type "//" to invoke the token field menu and include dat
 
 ![Subject Line][7]
 
-> __Note:__ Once a test list is scheduled with any email settings applied, the selected settings will persist in that dialog next time a job is scheduled within the same project.
+> __Note!__ Once a test list is scheduled with any email settings applied, the selected settings will persist in that dialog next time a job is scheduled within the same project.
 
 To view the resulting email format, see the email preview on the right.
 

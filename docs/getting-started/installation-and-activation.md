@@ -3,6 +3,7 @@ title: Installation and Activation
 page_title: Getting started with installing Test Studio
 description: "A step by step guide on how to download, install and activate Test Studio."
 position: 1
+publish: false
 ---
 # Installation and Activation #
 
@@ -25,7 +26,7 @@ You can also download Test Studio from your telerik.com account.
 	
 	![Log In](/img/getting-started/installation-and-activation/fig02.png)
 
-2. To download the latest version of Test Studio, including Service Packs and Latest Internal Builds, open the Manage products menu and select Test Studio. 
+2. To download the latest version of Test Studio, including Service Packs and Latest Internal Builds, open the Manage products menu and select Test Studio.
 
 	![Test Studio product](/img/getting-started/installation-and-activation/fig03.png)
 
@@ -114,3 +115,42 @@ The below process assumes that you have not launched the Standalone or VS plugin
 
 
 <div><a style="float:right" href="/getting-started/first-project">Go to <strong>Your First Project</strong></a></div>
+
+
+## Test Execution ##
+
+It is time to execute the recorded test or <a href="/general-information/test-execution/test-lists-standalone" target="_blank">test list</a> and observer the execution process. At the end of the execution, you will see which step passed and which failed, along with <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">the execution log</a>.
+
+> __Note!__ While a test is being executed, **do not start another instance of the same browser or any other application** until the run is finished!
+
+1. Once a test scenario is already recorded, click the **Execute** button in the Test ribbon.
+
+    ![Test Studio](/img/getting-started/first-project/fig08.png)
+
+2. Select Internet Explorer as the execution browser and click **Run**. This step will be skipped if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+
+    ![Select browser](/img/getting-started/first-project/fig09.png)
+
+3. The Test Studio Test Runner first launches a command prompt window and opens the selected browser.
+
+    ![Test Runner](/img/getting-started/first-project/fig10.png)
+
+4. By default in the lower right of your screen there is a ribbon which indicates the current step, includes play and pause ability, and shows additional Debug Options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>. This is the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">visual debugger</a> and is a feature you could turn on or off.
+
+    ![Visual Debugger Indicator](/img/getting-started/first-project/fig11.png)
+
+    Click **Debugging Options** icon in the Test ribbon or the Visual Studio toolbar to turn the debugger on/off and customize the Auto-Pause Options, if errors occur during the execution.
+
+    ![Test Studio](/img/getting-started/first-project/fig12.png)
+
+5. Enable the **Toggle Annotation** button to have the browser annotate each step with a brief message and by highlighting that step's element. This will also slow the test run by the configured amount (in milliseconds) between each step. You can set it either from the menu or by entering a custom value.
+
+    ![Toggle Annotation](/img/getting-started/first-project/fig13.png)
+
+## Execution Results ##
+
+When the test execution is complete, there will be an indication for each step if it *Passed* or *Failed*. Test results are automatically generated and details can be reviewed by clicking on **View Log**. 
+
+![View log](/img/getting-started/first-project/fig14.png)
+
+The results from test list executions are available in the **Results** tab.

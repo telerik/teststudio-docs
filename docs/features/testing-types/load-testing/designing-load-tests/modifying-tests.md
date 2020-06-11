@@ -10,7 +10,7 @@ The contents of the HTTP requests that will be sent to the application server ca
 
 ## User Profile Edit Mode
 
-> __Note:__ This should only be attempted by someone who is an expert at the HTTP protocol.
+> __Note!__ This should only be attempted by someone who is an expert at the HTTP protocol.
 
 1. To open the __Edit User Profile__ dialog click the _'pencil'_ icon on the row of the user profile you want to change. The same will be opened if you double click the same row.
 
@@ -28,7 +28,7 @@ Optionally, you can delete a particular HTTP transaction using the 'X' button on
 
 ![Delete Http request][3]
 
-> __Note:__ You cannot restore an HTTP transaction if you have accidentally deleted it.
+> __Note!__ You cannot restore an HTTP transaction if you have accidentally deleted it.
 
 ## Filter User Profile
 
@@ -82,7 +82,7 @@ Click the _'magnifier'_ icon in the __Edit User Profile__ window to expand the _
 
 ![Find and replace][11]
 
-> __Note:__ You will be prompted to confirm or decline the change. Once confirmed the user profile cannot be restored to its previous state.
+> __Note!__ You will be prompted to confirm or decline the change. Once confirmed the user profile cannot be restored to its previous state.
 
 [1]: /img/features/testing-types/load-testing/modifying-tests/fig1.png
 [2]: /img/features/testing-types/load-testing/modifying-tests/fig2.png

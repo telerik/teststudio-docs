@@ -20,7 +20,7 @@ position: 1
 
 3.Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__.<br> 
 
-> **Note:** As of version 2015.3.1202 Test Studio projects will appear only under **.NET Framework 4.5** or higher.
+> **Note!** As of version 2015.3.1202 Test Studio projects will appear only under **.NET Framework 4.5** or higher.
 
 <table id=no-table>
 	<tr>

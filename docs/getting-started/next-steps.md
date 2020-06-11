@@ -2,9 +2,9 @@
 title: Next Steps  
 page_title: Next Steps with Test Studio
 description: "Learn more about the features in Test Studio and automate your tests."
-position: 4
+position: 5
 ---
-# Next Steps #
+# Next Steps
 
 The successful recording and execution of your first test is just the beginning. There are many features that will help you get your automation project to the next level. The documentation is full of details and examples to guide you. Here are some of the most important features in Test Studio:
 
@@ -24,7 +24,7 @@ The successful recording and execution of your first test is just the beginning.
 <br/><br/>
 * The [**Results Tab**](/general-information/test-results/analyze-test-list-results) provides overview of the executed test lists. You can drill down and investigate the individual test steps.
 <br/><br/>
-* Test Studio supports different [**Continious Ingegradion and Deployment (CD/CI)**](/advanced-topics/build-server/continious-integration-overview.html) tools and allows you to execute tests when the build completes.
+* Test Studio supports different [**Continuous Integration and Deployment (CD/CI)**](/advanced-topics/build-server/continious-integration-overview.html) tools and allows you to execute tests when the build completes.
 <br/><br/>
 * [**Custom Step from Step Builder**](/features/custom-steps/overview) is for manually adding a specific step or condition to the test.
 <br/><br/>
@@ -36,8 +36,9 @@ The successful recording and execution of your first test is just the beginning.
 <br/><br/>
 * [**Coded Steps**](/features/coded-steps/coded-step) allow you to use your custom code in C# or Visual Basic.
 <br/><br/>
-* Enchancese you web tests with nested [**API Test as Step**](/features/execute-apitest/add-api-test-as-step).
+* Enchance you web tests with nested [**API Test as Step**](/features/execute-apitest/add-api-test-as-step).
 <br/><br/>
 * [**Mobile Testing**](/test-studio-mobile/overview) is another project type in Test Studio, where you can automate different Android and iOS application.
 <br/><br/>
-<div><a href="/getting-started/analyze-the-results">Go to <strong>Analyze the Results</strong></a></div>
+
+<div><a href="/getting-started/analyze-the-results">Back to <strong>Review The Results and Debug Test Failures</strong></a></div>

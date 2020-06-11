@@ -18,7 +18,7 @@ Enabling the setting to automatically rerun the failed test will be helpful in t
 
 The <a href="/getting-started/test-results/analyze-test-results#automatic-re-run-of-failed-tests-results" target="_blank">results of the second automatic execution</a> will be listed under the initial failed result of the same test. It will be marked with an exclamation mark.
 
-> __Note:__ The tests need to be written as autonomous tests - created in a way to be executed on their own, without the use of previous tests run before them in a list to make them work properly.
+> __Note!__ The tests need to be written as autonomous tests - created in a way to be executed on their own, without the use of previous tests run before them in a list to make them work properly.
 
 ## Recording of Test List Execution
 

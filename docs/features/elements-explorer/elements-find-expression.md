@@ -54,7 +54,7 @@ The *'name'* portion of a FindClause pair can be any element's property that a c
 
 - XamlPath - Uses a XAML path expression like XamlPath=/radtabcontrol[automationid=Tabs]/grid[0]/raddockpanel[0]/layouttransformcontrol[name=HeaderDockedElement]
 
-> **Note:** When <a href="/features/elements-explorer/find-element#options-in-element-pane-with-active-recording-session" target="_blank">editing an element in active recording session</a>, all available element's properties will be listed and available for direct selection in the Find Expression.
+> **Note!** When <a href="/features/elements-explorer/find-element#options-in-element-pane-with-active-recording-session" target="_blank">editing an element in active recording session</a>, all available element's properties will be listed and available for direct selection in the Find Expression.
 
 ![Element's attributes][3]
 
@@ -77,7 +77,7 @@ The test execution flow remains unchanged. The enhancement is that when an eleme
 
 The recorded <a href="/features/elements-explorer/find-element-by-image" target="_blank">image for each element can be edited</a> separately from the find expression.
 
-> **Note:** Switching the *Elements Edit pane* to modify the image settings or recording new image, requires to save any current changes in the same element's Find Expression.
+> **Note!** Switching the *Elements Edit pane* to modify the image settings or recording new image, requires to save any current changes in the same element's Find Expression.
 
 ## Basic Concept
 
