@@ -164,6 +164,35 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <img src="/img/general-information/configure-your-browser/chrome/fig9.png" alt="Automatic Download"><br><br>
 
+<h3>Disable Web Security</h3>
+
+<p>1. Open the Default Chrome User data folder under the your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p>
+
+<p>2. Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file:</p>
+
+<style>
+.code {
+  background-color: #FFFFFF;    
+  text-align: left;
+  text-indent: 50px;
+  color: #000000;
+}
+</style>
+
+<div class="code">
+    <p>"webkit":{"webprefs":{"web_security_enabled":false}}</p>
+</div>
+
+<p>If the "webkit" preference already exists in the <strong>Preferences</strong> file and has any value in the "webprefs", you can add the web security as follows:</p>
+
+<div class="code">
+    <p>Existing values listed in the file:</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6}}</p>
+    <p>The file after adding the web security:</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6, "web_security_enabled":false}}</p>
+</div>
+
+
 <hr/>
 
 </div>
