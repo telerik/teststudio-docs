@@ -7,24 +7,25 @@ position: 0
 
 # Welcome to Test Studio
 
-<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC.
+You’ve been always looking for a test automation tool that really works and you’ve never found the right one? Look no further as you’ve come to the right place!
 
-<a href="/getting-started/test-recording/overview" target="_blank">Test Studio functional testing</a> is a comprehensive yet cost-effective automated testing suite. Users can complete tasks quickly and easily with the product’s point-and-click interface, which is augmented by Telerik-exclusive features like a visual storyboard and 3D element selection. Test Studio also offers script-less test automation for Silverlight applications.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities you’ll always ensure optimal app quality and deliver outstanding results.
 
-<a href="/features/testing-types/load-testing/overview" target="_blank">Test Studio load tests</a> allow users to capture quickly capture, multiply and replay complex web traffic. Record HTTP traffic from desktop browsers, mobile devices and web services, and replay traffic with hundreds or thousands of virtual users spread across multiple machines. Fine-tune your load scenario with data binding, user authentication, and dynamic targets. 
+<a href="/getting-started/test-recording/overview" target="_blank">Test Studio functional testing</a> allows you to create, run and automate functional tests for Web and WPF applications. Some of our outstanding features are:
 
-<a href="/test-studio-mobile/overview" target="_blank">Test Studio Mobile</a> is an intuitive and easy to use test automation solution for Mobile application testing. Create tests once and test across multiple devices and OS’s. The point and click functionality allows users to capture quickly and replay complex mobile testing functionality. There is no need to write a single line of code. Test against any number of real devices as you wish or through an emulator by connecting through Wifi.
+* Intuitive recorder with cross browser support - with its intuitive click and record functionality, recording steps has never been easier. Major browsers are proactively supported via Test Studio’s own browser extensions.
 
-<a href="/test-studio-for-apis/overview" target="_blank">Test Studio for APIs</a> helps customers verify the integrity and reliability of their APIs in an easy way and incorporate their API testing effort in their continuous testing and delivery process. Test Studio for APIs is used to determine whether APIs return the correct response for a broad range of commonly accepted requests, react properly to edge cases such as failures and unexpected inputs, as well as deliver the responses in an acceptable amount of time.
+* Intelligent hybrid element detection - by creating automation elements that use both web locators and images, flaky and fragile tests are a problem of the past.
 
-**Test Studio** offers two product versions:
+* Executive Dashboard - monitor automation results and reports with an easy-to-use web feature.
 
--  Test Studio Web & Desktop version performs **Web and WPF testing** and includes the **Visual Studio plugin**.
--  The Ultimate version adds on top of **Web** and **WPF**, **Mobile**, **Load testing** and **Test Studio for APIs**.
+* Scheduling and Concurrent Runs - use out-of-the-box scheduling functionality that allows performing common tasks such as running concurrent tests on multiple remote machines.
 
-> Test Studio includes runtime files files which support the execution of tests on the machine in which it’s licensed. Our <a href="/general-information/test-studio-run-time" target="_blank">**Runtime Edition**</a> is available and suggested for build servers and remote machines where test execution is required.
+* Test Element Management - manage all automation elements from one centralized location eliminating redundancy and lowering maintenance effort.
 
-All versions use identical repositories and file formats, facilitating seamless collaboration between even geographically diverse teams.
+<a href="/test-studio-for-apis/overview" target="_blank">API Testing</a> allows you to verify the integrity and reliability of your APIs or enhance your web functional testing with API calls.
+
+<a href="/features/testing-types/load-testing/overview" target="_blank">Load Testing</a> – get better understanding of how your website performs by simulating multiple users accessing it concurrently.
 
 <table id=no-table>
 <tr>
@@ -70,8 +71,9 @@ All versions use identical repositories and file formats, facilitating seamless 
 
 ### Advanced Features
 
-* [Continious Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
+* [Contunious Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
 * [Coded Samples for Different Scenarios](/advanced-topics/coded-samples/general/send-keystrokes)
+
 </td>
 </tr>
 <table>

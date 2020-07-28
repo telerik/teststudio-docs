@@ -39,11 +39,11 @@ You can explore a sample **Web & Desktop** project, from the [**Get Started**](/
 
 Creating a new Test Studio project launches the default project layout. This consists of useful panels providing plenty of useful components. To help you speed up your flawless work with Test Studio, you can refer the below notes for each of these.
 
-- __Project Explorer__ - this is the pane, which displays the structure of the project with all tests, coded files, folders in the project root folder. Provides access to the items properties, allows you to copy, cut and paste these, add new items, etc.
-- __Elements Explorer__ - this is the pane, which shows all elements referred from the test steps in the project, structured in a tree view, which includes page node, frame, element. Provides access to the elements' find expressions and properties, allows you to edit these.
-- __Edit Project Items Pane__ - this is the pane, which shows the selected component (test, element, coded file) and allows you to edit it.
-- __Output Pane__ - this is the pane, which displays different messages related to your work in the project - syntax or compilation errors when adding code snippets, or messages in regards the Source Control related actions.
-- __Step Builder__ - this is the pane, which allows you to add different steps in the tests even if no recording session is currently active.
+- <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a> - this is the pane, which displays the structure of the project with all tests, coded files, folders in the project root folder. Provides access to the items properties, allows you to copy, cut and paste these, add new items, etc.
+- <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a> - this is the pane, which shows all elements referred from the test steps in the project, structured in a tree view, which includes page node, frame, element. Provides access to the elements' find expressions and properties, allows you to edit these.
+- <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a> - this is the pane, which shows the selected component (test, element, coded file) and allows you to edit it.
+- <a href="/features/coded-steps/output-panel" target="_blank">__Output Pane__</a> - this is the pane, which displays different messages related to your work in the project - syntax or compilation errors when adding code snippets, or messages in regards the Source Control related actions.
+- <a href="/general-information/test-recording/step-suggestions" target="_blank">__Step Builder__</a> - this is the pane, which allows you to add different steps in the tests even if no recording session is currently active.
 - __Properties Pane__ - this is the pane to list the properties of the currently selected item (test, step, element, page node, frame) and allows you to edit these.
 - __Tools Ribbon__ - the Tools Ribbon provides access to various settings in regards the active tab in the project.
 
@@ -93,7 +93,7 @@ If you browse the project root folder in the __Windows File Explorer__, you can 
 
 ## Elements in Test Studio Project
 
-The __Test Studio Elements Explorer__ provides the visual representation of all elements recorded or manually added during the Test Recording process and allows you to edit the way they are found during execution. The elements are organized under Page nodes (and also Frame nodes if there are frames used in the web page) for web applications and Application and Window Caption nodes for WPF applications.
+The <a href="/features/elements-explorer/overview" target="_blank">__Test Studio Elements Explorer__</a> provides the visual representation of all elements recorded or manually added during the Test Recording process and allows you to edit the way they are found during execution. The elements are organized under Page nodes (and also Frame nodes if there are frames used in the web page) for web applications and Application and Window Caption nodes for WPF applications.
 
 ![Elements in the Test Studio Elements Explorer](/img/getting-started/first-project/elements-and-page-nodes.png)
 

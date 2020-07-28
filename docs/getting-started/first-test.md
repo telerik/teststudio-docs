@@ -13,7 +13,7 @@ Once you have successfully <a href="/getting-started/first-project" target="_bla
 3. [Recording Toolbar](#recording-toolbar)
 
 <br><br>
-<div><a href="/getting-started/first-project">Back to <strong>Create Your First Project</strong></a><a style="float:right" href="/getting-started/first-execution">Go to <strong>Execute Your First Test</strong></a></div>
+<div><a href="/getting-started/first-project">Back to <strong>Launch Test Studio</strong></a><a style="float:right" href="/getting-started/first-execution">Go to <strong>Execute Your First Test</strong></a></div>
 <br><br>
 
 ## Add a Test to the Project
@@ -84,4 +84,4 @@ The <a href="/general-information/test-recording/recording-toolbar" target="_bla
 
 <br><br>
 <br><br>
-<div><a href="/getting-started/first-project">Back to <strong>Create Your First Project</strong></a><a style="float:right" href="/getting-started/first-execution">Go to <strong>Execute Your First Test</strong></a></div>
+<div><a href="/getting-started/first-project">Back to <strong>Launch Test Studio</strong></a><a style="float:right" href="/getting-started/first-execution">Go to <strong>Execute Your First Test</strong></a></div>

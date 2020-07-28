@@ -6,7 +6,6 @@ position: 0
 ---
 # Customize Test Studio's Layout
 
-
 Since the release of the R1 2015, Test Studio provides the ability to customize the layout. You can reorder the default layout (the Compact layout) and customize it for your own needs and personal preferences.
 
 ![default layout][1]

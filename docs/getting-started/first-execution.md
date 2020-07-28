@@ -14,7 +14,7 @@ When you have  <a href="/getting-started/first-test" target="_blank">recorded yo
 4. [Test List Results](#test-list-results)
 
 <br><br>
-<div><a href="/getting-started/first-test">Back to <strong>Create Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>
+<div><a href="/getting-started/first-test">Back to <strong>Record Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>
 <br><br>
 
 ## Quick Test Execution
@@ -69,4 +69,4 @@ The results from the test list run are available in the **Results** tab.
 
 More on test lists and their execution can be found here __add link__.
 
-<div><a href="/getting-started/first-test">Back to <strong>Create Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>
+<div><a href="/getting-started/first-test">Back to <strong>Record Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>

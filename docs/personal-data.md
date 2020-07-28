@@ -3,7 +3,7 @@ title: Personal Data Collection
 page_title: Personal Data Collection | Test Studio Documentation
 description: Personal Data Usage By Telerik Products Test Studio
 published: True
-position: 4
+position: 17
 ---
 
 # Personal Data Collection

@@ -1,10 +1,10 @@
 ---
-title: Installation Consideration
-page_title: Installation Consideration
+title: Installation Prerequisites
+page_title: Installation Prerequisites
 description: "What machine to choose for installing Test Studio on. User permissions, Visual Studio requirements for installing Test Studio. "
 position: 0
 ---
-# Installation Consideration
+# Installation Prerequisites
 
 Before you install Test Studio, make sure that the following requirements are met:
 
