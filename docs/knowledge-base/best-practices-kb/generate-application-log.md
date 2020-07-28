@@ -9,7 +9,7 @@ position: 1
 
 *I'm experiencing an issue with the Test Studio application (as opposed to an automation challenge). I need to generate an application log file for troubleshooting purposes.*
 
-Test Studio supports logging. The logs are stored in a plain text file. This feature is turned off by default and you will need to manually turn it on. Please note that this log monitors "application" events. The log will not be of much value in troubleshooting true automation problems (e.g. the test doesn't press the button in my Login page).
+Test Studio supports logging. The logs are stored in a plain text file in the **"Logs"** folder in the product's installation folder, by default in **"C:\Program Files (x86)\Progress\Test Studio\Logs"**. This feature is initially turned off and you will need to manually turn it on. Please note that this log monitors "application" events. The log will not be of much value in troubleshooting true automation problems (e.g. the test doesn't press the button in my Login page).
  
 You might be asked by the Telerik Support team to provide an application log for a particular problem. The best practice here would be to clear the log (if not empty to begin with) and enable it. After this, trigger the problematic behavior and subsequently send the log.
 

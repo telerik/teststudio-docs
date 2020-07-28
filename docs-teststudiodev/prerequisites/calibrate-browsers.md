@@ -351,10 +351,161 @@ If you need to double check manually if all settings are correct expand the <a h
 
 <img src="images/chrome/fig9.png" alt="Automatic Download"><br><br>
 
+<h3>Disable Web Security</h3>
+
+<p>1. Open the Default Chrome User data folder under the your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p><br>
+
+<p>2. Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file:</p><br>
+
+<style>
+.code {
+  background-color: #FFFFFF;    
+  text-align: left;
+  text-indent: 50px;
+  color: #000000;
+}
+</style>
+
+<div class="code">
+    <p>"webkit":{"webprefs":{"web_security_enabled":false}}</p>
+</div>
+<br>
+<p>If the "webkit" preference already exists in the <strong>Preferences</strong> file and has any value in the "webprefs", you can add the web security as follows:</p>
+<br>
+<div class="code">
+    <p>Existing values listed in the file:</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6}}</p><br>
+    <p>The file after adding the web security:</p>
+    <p>"webkit":{"webprefs":{"minimum_font_size":6, "web_security_enabled":false}}</p>
+</div>
+
 <hr/>
 
 </div>
 </div>
+<p><hr></p>
+<p></p>
+<p></p>
+### Microsoft Edge Chromium
+
+If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+
+<p></p>
+<p></p>
+<p><hr></p>
+<p></p>
+<p></p>
+
+<p class="trigger"><a name="Manual_Configuration" style="color:black; text-decoration: none;";> Manual Configuration <span id="d" style="color:#28a1e2";> + </span></a></p>
+
+<div class="toggle_container">
+<div class="block">
+<hr/>
+<br>
+
+<h3>Enable Extensions</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser <strong>Settings -> Extensions</strong>.<br><br>
+
+2.&nbsp; Ensure that the <strong>Progress Telerik Test Studio Extension</strong> is enabled.<br><br>
+
+<img src="images/edge-chromium/fig2.png" alt="Extensions"><br><br>
+
+<h3>Zoom Level Set to 100%</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Use the plus (+) and minus (-) buttons next to <strong>Zoom</strong> to set it to 100%.<br><br> 
+
+<img src="images/edge-chromium/fig3.png" alt="Zoom"><br><br>
+
+<h3>Enable File Downloads</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Downloads</strong> section.<br><br>
+
+4.&nbsp; Enable <strong>Ask where to save each file before downloading</strong>.<br><br>
+
+<img src="images/edge-chromium/fig4.png" alt="Downloads"><br><br>
+
+<h3>Disable Pop-up Blocker</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Site Permissions</strong> section.<br><br>
+
+4.&nbsp; Open the <strong>Pop-ups and redirects</strong> section.<br><br>
+
+5.&nbsp; Disable the <strong>Block</strong> option.<br><br>
+
+<img src="images/edge-chromium/fig6.png" alt="Pop up blocker"><br><br>
+
+<h3>Allow All Sites to Run JavaScript</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Site Permissions</strong> section.<br><br>
+
+4.&nbsp; Open the <strong>JavaScript</strong> section.<br><br>
+
+5.&nbsp; Enable the <strong>Allowed</strong> option.<br><br>
+
+<img src="images/edge-chromium/fig7.png" alt="Allow JavaScript"><br><br>
+
+<h3>Unblock Third-Party Cookies and Site Data</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Site Permissions</strong> section.<br><br>
+
+4.&nbsp; Open the <strong>Cookies and site data</strong> section.<br><br>
+
+5.&nbsp; Enable the <strong>Allow sites to save cookies</strong> option.<br><br>
+
+6.&nbsp; Disable the <strong>Block third-party cookies</strong> option.<br><br>
+
+<img src="images/edge-chromium/fig8.png" alt="Allow Cookies"><br><br>
+
+<h3>Allow all Sites to Download Multiple Files Automatically</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Site Permissions</strong> section.<br><br>
+
+4.&nbsp; Open the <strong>Automatic downloads</strong> section.<br><br>
+
+5.&nbsp; Enable the <strong>Ask when site tries to download multiple files</strong> option.<br><br>
+
+<img src="images/edge-chromium/fig9.png" alt="Automatic Download"><br><br>
+
+<h3>Allow Extension from Other Stores</h3>
+
+1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Extensions</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Site Permissions</strong> section.<br><br>
+
+4.&nbsp; Enable the <strong>Allow extensions from other stores</strong> option.<br><br>
+
+<img src="images/edge-chromium/fig10.png" alt="Allow Extension from Other Stores"><br><br>
+
+<hr/>
+
+</div>
+</div>
+
 <p><hr></p>
 <p></p>
 <p></p>
