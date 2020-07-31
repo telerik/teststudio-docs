@@ -50,9 +50,13 @@ The **Remote Execution Status Window** provides a summary of each Execution Serv
 
 ### List of Execution Servers
 
-- If there are not calibrated browsers on any of the remote machines the respective browser icon will be marked with a yellow warning sign. To calibrate it you could either drill down to the particular machine details or turn on the AutoCalibrateBrowsers setting in the <a  href="/getting-started/test-execution/test-list-settings#Web-Tab" target="_blank">Web tab of Test List Settings</a>. 
+- If there are browsers, which are not calibrated, on any of the remote machines, the respective browser icon will be marked with a yellow warning sign. To calibrate it, you can drill down to the particular machine details by double click on it, or turn on the AutoCalibrateBrowsers setting in the <a  href="/getting-started/test-execution/test-list-settings#web-tab" target="_blank">Web tab of Test List Settings</a>.
 
 ![Status Window Non-calibrated Browsers][4]
+
+- If there is an available <a  href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">update for the Dialog Handlers</a>, there will be a warning icon in front of the browsers' icons. To update the Dialog Handler, you can drill down to the particular machine details by double click on it or login to that machine and open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#update-dialog-handler" target="_blank">Execution client</a>.
+
+![Status Window Dialog handler Update][4a]
 
 ### Execution Servers Details
 
@@ -61,6 +65,8 @@ To view detailed information about an Execution Server, double-click the respect
 ![Execution Server Details][3]
 
 - The **Machine Information** section displays system specification for the machine.
+
+- The **Dialog Handler Update** section notifies for the current state of the Dialog Handlers on the machine. If this needs to be updated there is a warning sign that an update is available.
 
 - The **Browser Information** section displays all installed browsers on the execution machine along with their calibration state. All installed browsers on the remote machine could be calibrated or restored to default settings from the provided buttons - Calibrate and Restore.
 
@@ -78,11 +84,11 @@ The **Execution Server Details** view displays different statuses for the select
 
 ![Very Long Test Name][6]
 
-- If the execution machine could not be accessed all buttons in the Browser and Logging sections will be disabled. A warning message appears to double check what could be preventing the connection to remote execution server. 
+- If the execution machine could not be accessed all buttons in the Browser and Logging sections will be disabled. A warning message appears to double check what could be preventing the connection to remote execution server.
 
 ![Unreachable Execution Machine][7]
 
-The Back button navigates back to the list with connected execution machines. 
+The Back button navigates back to the list with connected execution machines.
 
 [1]: /img/features/scheduling-test-runs/view-execution-status/fig1.png
 [2]: /img/features/scheduling-test-runs/view-execution-status/fig2.png
@@ -90,6 +96,7 @@ The Back button navigates back to the list with connected execution machines.
 [2b]: /img/features/scheduling-test-runs/view-execution-status/fig2b.png
 [3]: /img/features/scheduling-test-runs/view-execution-status/fig3.png
 [4]: /img/features/scheduling-test-runs/view-execution-status/fig2_nonCalibrated.png
+[4a]: /img/features/scheduling-test-runs/view-execution-status/fig2_dialogHandlerUpdate.png
 [5]: /img/features/scheduling-test-runs/view-execution-status/fig3_runningTest.png
 [6]: /img/features/scheduling-test-runs/view-execution-status/fig3_VeryLongNameTest.png
 [7]: /img/features/scheduling-test-runs/view-execution-status/fig3_unreachableExecutionMachine.png

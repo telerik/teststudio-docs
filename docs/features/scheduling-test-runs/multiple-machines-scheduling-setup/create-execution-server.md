@@ -64,9 +64,15 @@ You can access the logging of the Execution Server - enable, disable or view <a 
 
 ### Browsers Information
 
-All available and supported browsers on the Execution Server are listed in this section. You can <a href="/features/project-settings/browsers" target="_blank">calibrate</a> these or restore their default settings. If using an older version of Edge, you can browse here the WebDriver folder location on disc.
+All available and supported browsers on the Execution Server are listed in this section. You can <a href="/features/project-settings/browsers" target="_blank">calibrate</a> these or restore their default settings. If using the legacy version of Edge, you can browse here the WebDriver folder location on disc.
 
 ![Browsers Information][6b]
+
+## Update Dialog Handler
+
+This section appears only if there is an __update for Dialog Handlers__ and allows you to update these with a single button click.
+
+![Dialog Handler Update][6c]
 
 ### Run on Startup
 
@@ -115,5 +121,6 @@ __See Also:__ You may find additional notes on the topic in our blog post Improv
 [6]: /img/features/scheduling-test-runs/create-execution-server/fig6.png
 [6a]: /img/features/scheduling-test-runs/create-execution-server/fig6a.png
 [6b]: /img/features/scheduling-test-runs/create-execution-server/fig6b.png
+[6c]: /img/features/scheduling-test-runs/create-execution-server/fig6c.png
 [7]: /img/features/scheduling-test-runs/create-execution-server/fig7.png
 [8]: /img/features/scheduling-test-runs/create-execution-server/fig8.png

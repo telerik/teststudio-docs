@@ -45,8 +45,16 @@ Below are listed its features related to the <a href="/features/recorder/dom-exp
 		<td>**Add To Elements Repository** - Add a single or multiple elements to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>)</td>
 	</tr>
 	<tr>
+		<td>![Manual Refresh of the DOM][12]</td>
+		<td>**Manual Refresh of the DOM** - Used when auto-refresh is paused and the DOM tree is changed</td>
+	</tr>
+	<tr>
+		<td>![Freeze DOM tree][11] / ![Unfreeze DOM tree][11a]</td>
+		<td>**Freeze/Unfreeze DOM tree** - Pause/Resume the DOM tree auto-refresh option</td>
+	</tr>
+	<tr>
 		<td>![Elements tree/tag view][10]</td>
-		<td>**Elements Tree/Tag View** Whether to display the elements as tree view or tag view</td>
+		<td>**Elements Tree/Tag View** - Whether to display the elements as tree view or tag view</td>
 	</tr>
 <table>
 
@@ -74,5 +82,6 @@ Other possible scnearios when is recommended to use the Step Builder from the **
 [8]: /img/general-information/test-recording/recording-toolbar/fig8.png
 [9]: /img/general-information/test-recording/recording-toolbar/fig9.png
 [10]: /img/general-information/test-recording/recording-toolbar/fig10.png
-
-
+[11]: /img/general-information/test-recording/recording-toolbar/fig11-lock.png
+[11a]: /img/general-information/test-recording/recording-toolbar/fig11-unlock.png
+[12]: /img/general-information/test-recording/recording-toolbar/fig12-refresh.png

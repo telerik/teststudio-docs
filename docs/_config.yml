@@ -167,14 +167,16 @@ navigation:
 # ....Testing types
     "*performance-testing":
         title: "Performance Testing"
+        position: 4
     "*load-testing":
         title: "Load Testing"
+        position: 3
     "*manual-testing":
         title: "Manual Testing"
+        position: 5
     "*exploratory-testing":
         title: "Exploratory Testing"
-    "*wpf-testing":
-        title: "WPF Testing"
+        position: 6
 # === Load Testing ===
     "*load-testing/designing-load-tests":
         title: "Design Your Load Test"

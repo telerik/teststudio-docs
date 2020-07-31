@@ -11,17 +11,17 @@ You’ve been always looking for a test automation tool that really works and yo
 
 <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities you’ll always ensure optimal app quality and deliver outstanding results.
 
-<a href="/getting-started/test-recording/overview" target="_blank">Test Studio functional testing</a> allows you to create, run and automate functional tests for Web and WPF applications. Some of our outstanding features are:
+**Test Studio functional testing** allows you to create, run and automate functional tests for Web and WPF applications. Some of our highlights features are:
 
-* Intuitive recorder with cross browser support - with its intuitive click and record functionality, recording steps has never been easier. Major browsers are proactively supported via Test Studio’s own browser extensions.
+* __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a> are proactively supported via Test Studio’s own browser extensions.
 
-* Intelligent hybrid element detection - by creating automation elements that use both web locators and images, flaky and fragile tests are a problem of the past.
+* __Intelligent hybrid element detection__ - by <a href="/features/elements-explorer/elements-find-expression" target="_blank">creating automation elements</a> that use both web locators and images, flaky and fragile tests are a problem of the past.
 
-* Executive Dashboard - monitor automation results and reports with an easy-to-use web feature.
+* __Executive Dashboard__ - monitor <a href="/general-information/test-results/dashboard/results" target="_blank">automation results and reports</a> with an easy-to-use web feature.
 
-* Scheduling and Concurrent Runs - use out-of-the-box scheduling functionality that allows performing common tasks such as running concurrent tests on multiple remote machines.
+* __Scheduling and Concurrent Runs__ - use out-of-the-box <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">scheduling functionality</a> that allows performing common tasks such as running concurrent tests on multiple remote machines.
 
-* Test Element Management - manage all automation elements from one centralized location eliminating redundancy and lowering maintenance effort.
+* __Test Element Management__ - manage all automation elements from one <a href="/features/elements-explorer/overview" target="_blank">centralized location</a> eliminating redundancy and lowering maintenance effort.
 
 <a href="/test-studio-for-apis/overview" target="_blank">API Testing</a> allows you to verify the integrity and reliability of your APIs or enhance your web functional testing with API calls.
 
@@ -33,10 +33,11 @@ You’ve been always looking for a test automation tool that really works and yo
 
 ## Getting Started
 
-1. [Installation and Activation](/getting-started/installation-and-activation)
-2. [Your First Project](/getting-started/first-project)
-3. [Analyze the Results](/getting-started/analyze-the-results)
-4. [Next Steps](/getting-started/next-steps)
+* [Install Test Studio](/prerequisites/installation/install-procedure)
+* [Activate Test Studio License](/prerequisites/license-activation/activating-your-license)
+* [Create Your First Project](/getting-started/first-project)
+* [Analyze the Test Results](/getting-started/analyze-the-results)
+* [Next Steps](/getting-started/next-steps)
 
 ## Getting Help
 
@@ -53,21 +54,16 @@ You’ve been always looking for a test automation tool that really works and yo
 
 ## Features
 
-* [Recorder](/features/recorder/overview)
-* [Elements Explorer](/features/elements-explorer/overview) 
-* [Testing Types](/features/testing-types)
+* [Recording Tests](/features/recorder/overview)
+* [Elements in Test Studio](/features/elements-explorer/overview) 
 * [Data Driven Testing](/features/data-driven-testing/overview)
 * [Dialog Handling](/features/dialogs-and-popups/dialogs)
 * [Test Lists](/general-information//test-execution/test-list-execution)
 * [Scheduling Test Runs](/features/scheduling-test-runs/overview)
 * [Results Tab](/general-information/test-results/analyze-test-list-results)
-* [Custom Step from Step Builder](/features/custom-steps/overview)
-* [Project Settings](/features/project-settings/overview)
-* [Logical Steps](/features/logical-steps/if-else)
-* [Source Control](/features/source-control/checkin-guidelines)
+* [Source Control Integration](/features/source-control/checkin-guidelines)
 * [Coded Step](/features/coded-steps/coded-step)
 * [API Test as Step](/features/execute-apitest/add-api-test-as-step)
-* [Mobile Testing](/test-studio-mobile/overview)
 
 ### Advanced Features
 

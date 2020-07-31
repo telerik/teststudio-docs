@@ -2,7 +2,7 @@
 title: Script Project Settings
 page_title: Script Project Settings
 description: "Test Studio script coded code settings. Where is the Namespace in Test Studio project How to add reference/reference assembly in a Test Studio project.  Test Studio project's bin folder "
-position: 6
+position: 7
 ---
 # Script Project Settings
 

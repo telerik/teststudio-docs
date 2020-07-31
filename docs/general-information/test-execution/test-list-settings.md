@@ -98,10 +98,16 @@ This opens a dialog box that shows all of the possible configuration settings fo
 
 ## WPF Tab ##
 
-* ***Misc***
-	* **DefaultApplicationPath** - represents the default application path for WPF tests.
+* **DefaultApplicationPath** - represents the default application path for WPF tests.
 
-If your Visual Studio Test List runs for more than 30 minutes and fails with an **Execution Timeout Exceeded** error, change the following setting:
+## Responsive Web Tab ##
+
+* **Device** - choose a device type to simulate different device display size.
+* **Height** - represents the height of display for the device to simulate.
+* **UserAgent** - represents the user agent used from the browser.
+* **Width** - represents the width of display for the device to simulate.
+
+> __Note!__ If your Visual Studio Test List runs for more than 30 minutes and fails with an **Execution Timeout Exceeded** error, change the following setting:
 
 ![Timeouts][5]
 

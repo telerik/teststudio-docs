@@ -27,6 +27,7 @@ The available settings are divided in few areas:
 - <a href="/features/project-settings/recording-options" target="_blank">Recording Settings</a>
 - <a href="/features/project-settings/element-images" target="_blank">Element Images Settings</a>
 - <a href="/features/project-settings/browsers" target="_blank">Browsers Configuration Settings</a>
+- <a href="/features/project-settings/emulated-device" target="_blank">Emulated Device Settings</a>
 - <a href="/features/project-settings/find-logic" target="_blank">Find Logic (Html) Settings</a>
 - <a href="/features/project-settings/script-options" target="_blank">Script Project Settings</a>
 - <a href="/features/project-settings/translators" target="_blank">Translators Project Settings</a>

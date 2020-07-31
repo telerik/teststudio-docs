@@ -2,7 +2,7 @@
 title: Find Logic (Html) Settings
 page_title: Find Logic (Html) for Locating Elements
 description: "Test Studio project settings. Reorder the attributes used when building the Find logic for recorded elements in Test Studio recording test. Use custom attributes in the default find logic used to record new elements in Test Studio recording/test."
-position: 5
+position: 6
 ---
 # Find Logic (Html)
 

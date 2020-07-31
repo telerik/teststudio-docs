@@ -35,7 +35,8 @@ For your first test in this project add a new **Web** test.
  Use the links below to find more information on all test types you can add in a Test Studio Web&Desktop project:
 
 *	<a href="/general-information/test-recording/overview" target="_blank">**Web Test**</a>
-*	<a href="/features/testing-types/wpf-testing/wpf-test" target="_blank">**WPF Test**</a>
+*	<a href="/features/testing-types/wpf-test" target="_blank">**WPF Test**</a>
+*	<a href="/features/testing-types/responsive-test" target="_blank">**Responsive Web Test**</a>
 *	<a href="/features/testing-types/load-testing/Overview" target="_blank">**Load Test**</a>
 *	<a href="/features/testing-types/performance-testing/overview" target="_blank">**Performance Test**</a>
 *	<a href="/features/testing-types/manual-testing/overview" target="_blank">**Manual Test**</a>
@@ -80,7 +81,8 @@ The <a href="/general-information/test-recording/recording-toolbar" target="_bla
 * __Recording State__ - there is a *Pause* button in case you need to perform any actions against the application, but don't need to record these.
 * __Page Navigation__ - the __Recording Toolbar__ has its own buttons to navigate through the browsed pages so far or to connect to a new page. Using these utilities will also add steps to the selected test.
 * __DOM Explorer__ - the DOM Explorer displays the application's DOM in a tree format and you can explore all its elements at one time.
-* __Step Builder__ - the __Recording Toolbar__ allows you to choose among different type of steps, sometimes depending on the selected element from the DOM Explorer, and directly add these to the selected test.
+* __Pause Auto-refresh for DOM Tree__ - the DOM tree gets auto-refreshed by any change in the page. For certain pages with dynamic content, it is useful to be able to pause the auto-refresh.
+* __Step Builder__ - the __Recording Toolbar__ allows you to choose among different type of steps,  depending on the selected element from the DOM Explorer, and directly add these to the selected test.
 
 <br><br>
 <br><br>

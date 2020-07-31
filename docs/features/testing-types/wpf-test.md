@@ -1,7 +1,7 @@
 ---
-title: Configure WPF Test
+title: WPF Testing
 page_title: Configure WPF Test (Standalone)
-description: "Configure WPF Test (Standalone) in Test Studio. Create a APF test in Test Studio"
+description: "Configure WPF Test (Standalone) in Test Studio. Create a WPF test in Test Studio"
 position: 1
 ---
 # Configure a WPF Test #
