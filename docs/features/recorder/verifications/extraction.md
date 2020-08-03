@@ -3,7 +3,7 @@ title: Extraction
 page_title: Create an Extraction Step
 description: "Create an Extraction Step in Test Studio. Use a dynamic generated value during the Test Studio test run. Reuse a dynamic value available in run-time only in Test Studio test. Get an attribute value of an element in Test Studio test. Data bind dynamic value in Test Studio test. "
 previous_url: /user-guide/verifications/data-bind-an-extraction-step.aspx, /user-guide/verifications/data-bind-an-extraction-step, /features/verifications/Extraction, /features/verifications/Extraction.html
-position: 1
+position: 3
 ---
 # Create an Extraction Step
 

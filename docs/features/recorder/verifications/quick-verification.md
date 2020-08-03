@@ -3,7 +3,7 @@ title: Quick Verification
 page_title: Quick Verification
 description: "Test Studio provides quick verification sugestions during recording. Add verification in Test Studio test with one click."
 previous_url: /user-guide/verifications/quick-verification.aspx, /user-guide/verifications/quick-verification, /features/verifications/quick-verification
-position: 1
+position: 2
 ---
 # Add a Quick Verification #
 
