@@ -62,7 +62,7 @@ Below are listed its features related to the <a href="/features/recorder/dom-exp
 
 On the right side of the recording toolbar you can find the ***Actions*** and ***Verifications*** steps from the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a>. Adding steps during recording is necessary in some special occasions - if you need a <a href="/features/recorder/mouse-actions/drag-and-drop" target="_blank">drag&drop step</a> or an <a href="/features/recorder/verifications/advanced-verification" target="_blank">advanced verification</a>.
 
-Other possible scnearios when is recommended to use the Step Builder from the **Recorder Toolbar** are usually related to specific applications and how these are built. If *Record&Playback* doesn't work out of the box usually the structure of application does not allow recognition of separate elements identified by unique attributes. Then the only option left is to manually select the correct element in DOM explorer and add the necessary steps.
+Other possible scenarios when is recommended to use the Step Builder from the **Recorder Toolbar** are usually related to specific applications and how these are built. If *Record&Playback* doesn't work out of the box usually the structure of application does not allow recognition of separate elements identified by unique attributes. Then the only option left is to manually select the correct element in DOM explorer and add the necessary steps.
 
 **See also:**
 

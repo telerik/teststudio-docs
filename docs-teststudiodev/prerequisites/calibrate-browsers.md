@@ -63,6 +63,26 @@ Chrome and Firefox browsers require an extension for the purposes of automation 
 
 - The __Edge Chromium__ browser can now use extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store. The extension is listed in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
 
+### Accept Extension Permission for Version 2020.2.728
+
+WIth the latest 2020 R2 Test Studio release (v.2020.2.804) a corresponding version of the extensions for Chrome, Edge Chromium and Firefox is published and their latest version is now 2020.2.728.1. As these require to allow additional permissions, the updated extension will be disabled.
+
+To re-enable it, you need to __manually accept the permissions request for each browser and machine__. When you open the browser, there is a warning sign on the _Settings_ menu.
+
+![Settings menu disabled extension][1]
+
+Open the _Settings_ menu and click on the message that the Test Studio extension is disabled.
+
+![Extension is disabled message][2]
+
+Click the notification message and a Popup appears to confirm if you accept the requested permissions and re-enable the Test Studio extension.
+
+![Accept permissions][3]
+
+[1]: /images/prerequisites/browser-config/edge-notification.jpg
+[2]: /images/prerequisites/browser-config/accept-popup.jpg
+[3]: /images/prerequisites/browser-config/accept-permissions.jpg
+
 ## Add WebDriver for Microsoft Edge (if Still Using the Old Version of MS Edge)
 
 The __deprecated version of MS Edge gets replaced once you install the new Microsoft Edge Chromium__. If you still haven't upgraded to it, you can use the previous version of the browser. In order to use **the MS Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver.
