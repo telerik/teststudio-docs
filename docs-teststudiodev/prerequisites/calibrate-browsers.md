@@ -55,7 +55,7 @@ If a browser is not yet configured the button allows you to calibrate it.
 
 ## Install Extensions for Firefox, Chrome and Micorosft Edge Chromium
 
-Chrome and Firefox browsers require an extension for the purposes of automation testing with __Test Studio Dev__. 
+Chrome and Firefox browsers require an extension for the purposes of automation testing with __Test Studio Dev__.
 
 - The __Chrome__ extension can be found in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
 
@@ -79,9 +79,9 @@ Click the notification message and a Popup appears to confirm if you accept the 
 
 ![Accept permissions][3]
 
-[1]: /images/prerequisites/browser-config/edge-notification.jpg
-[2]: /images/prerequisites/browser-config/accept-popup.jpg
-[3]: /images/prerequisites/browser-config/accept-permissions.jpg
+[1]: images/browser-config/edge-notification.jpg
+[2]: images/browser-config/accept-popup.jpg
+[3]: images/browser-config/accept-permissions.jpg
 
 ## Add WebDriver for Microsoft Edge (if Still Using the Old Version of MS Edge)
 
