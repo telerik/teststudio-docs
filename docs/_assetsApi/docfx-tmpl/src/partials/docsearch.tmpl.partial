@@ -30,7 +30,8 @@
          var gcsKey = 'AIzaSyDLQ-eVOEEH8Godvt6PZq3vSMpI5dHhX54';
          isKbPage =  false ;
          siteHasKbPortal = '';
-         hasApiReference =  true ;
+         hasApiReference =  true;
+         showSearchPopup = false;
       </script>
       <script type="text/javascript" src="/teststudio/assets/search-results.js"></script>
    </div>
