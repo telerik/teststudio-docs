@@ -9,9 +9,9 @@ position: 0
 
 You’ve been always looking for a test automation tool that really works and you’ve never found the right one? Look no further as you’ve come to the right place!
 
-<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities you’ll always ensure optimal app quality and deliver outstanding results.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities, you’ll always ensure optimal app quality and deliver outstanding results.
 
-**Test Studio functional testing** allows you to create, run and automate functional tests for Web and WPF applications. Some of our highlights features are:
+**Test Studio functional testing** allows you to create, run and automate functional tests for Web and WPF applications. Some of our most prominent features are:
 
 * __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a> are proactively supported via Test Studio’s own browser extensions.
 
@@ -23,9 +23,9 @@ You’ve been always looking for a test automation tool that really works and yo
 
 * __Test Element Management__ - manage all automation elements from one <a href="/features/elements-explorer/overview" target="_blank">centralized location</a> eliminating redundancy and lowering maintenance effort.
 
-<a href="/test-studio-for-apis/overview" target="_blank">API Testing</a> allows you to verify the integrity and reliability of your APIs or enhance your web functional testing with API calls.
+* <a href="/test-studio-for-apis/overview" target="_blank">API Testing</a> - verify the integrity and reliability of your APIs or enhance your web functional testing with API calls.
 
-<a href="/features/testing-types/load-testing/overview" target="_blank">Load Testing</a> – get better understanding of how your website performs by simulating multiple users accessing it concurrently.
+* <a href="/features/testing-types/load-testing/overview" target="_blank">Load Testing</a> – get a better understanding of how your website performs by simulating multiple users accessing it concurrently.
 
 <table id=no-table>
 <tr>
