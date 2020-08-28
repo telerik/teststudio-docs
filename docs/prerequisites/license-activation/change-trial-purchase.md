@@ -1,14 +1,14 @@
 ---
 title: Change Trial License to Purchased
 page_title: Change Trial License to Purchased
-description: How to upgrade your trial license to the purchased one. 
+description: How to upgrade your Test Studio trial license to the purchased one. 
 position: 2
 ---
-# Change from Trial License to Your Purchased
+# Change a Trial License to a Purchased License
 
-When you purchase a Test Studio license you need to switch the activated license from the current Trial to the Purchased one.
+If you used a trial version of Test Studio, and later you purchased a license, you need to switch the activated license from **Trial** to **Purchased**.
 
-The Test Studio activated license can be easily managed through the **Manage License** window. To access it, you can use the **Help** drop down in the upper right corner of a Test Studio instance.
+The Test Studio activated license can be easily managed through the **Manage License** window. To access it, you can use the **Help** drop-down in the upper right corner of a Test Studio instance.
 
 ![Open Manage License window from help menu][1]
 
