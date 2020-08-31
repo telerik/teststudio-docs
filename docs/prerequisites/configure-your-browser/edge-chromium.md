@@ -7,20 +7,20 @@ position: 1
 
 # Configuring Microsoft Edge for Test Studio Automation 
 
-To configure Microsoft Edge (based on Chromium) for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test recording and execution.
+This document describes the steps to configure Microsoft Edge (Chromium-based) for test recording and execution.
 
-## 1. Install Progress Extensions
+## 1. Install the Progress Extensions
 
 Install the latest Edge extension from the Chrome Web Store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">**Progress Test Studio Extension**</a>.
 
-> **Note!** Currently Edge Chromium supports installing extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store.</br>
+> **Note!** Currently, Edge Chromium supports installing extensions from the Chrome store and this will be used until a Test Studio extension is published in the official Edge store.</br>
 > If you face any troubles when installing or enabling the extensions please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration
 
-To ensure flawless and consistent automation process there are some settings to apply to the browser. We call this browser calibration and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box and no manual interaction is required.<br><br>
+To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
-> If you need to double check manually, if all settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+> If you need to check manually if all settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
 
 <p><hr></p>
 <p></p>
@@ -34,12 +34,13 @@ To ensure flawless and consistent automation process there are some settings to 
 <hr/>
 <br>
 
-1.&nbsp; The Edge extension is not automatically installed with the Test Studio installation.<br><br>
-In case you haven't performed the above recommendation to install the Progress extension manually, when you first start recording against Edge, the browser will load the recording start page and will try to load the extension. If that is missing, the recorder will search for it for the set *ClientReady* Timeout (the default is 60 seconds).<br><br>
+Follow the steps below if the extension for Edge is not automatically installed during the Test Studio installation.<br><br>
+
+1.&nbsp; When you start recording against Edge, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).<br><br>
 
 <img src="/img/general-information/configure-your-browser/edge-chromium/fig11.png" alt="Wait For Extension"><br><br>
 
-2.&nbsp; In case the Progress extension is not yet loaded after that timeout a link to the Web Store will be displayed to install the extension.<br><br>
+2.&nbsp; If the Progress extension doesn't load within the timeout period, a link to the Web Store will be displayed to install the extension.<br><br>
 
 <img src="/img/general-information/configure-your-browser/edge-chromium/fig12.png" alt="Get Extension"><br><br>
 
@@ -51,7 +52,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <img src="/img/general-information/configure-your-browser/edge-chromium/fig14.png" alt="Add Extension Confirmation"><br><br>
 
-5.&nbsp; The version of an installed extension could be double checked by clicking on its icon located on the right of the address bar.<br><br>
+5.&nbsp; Click on the icon located to the right of the address bar to find the extension's version.<br><br>
 
 <img src="/img/general-information/configure-your-browser/edge-chromium/fig15.png" alt="Extension Version"><br><br>
 <hr/>
@@ -70,9 +71,11 @@ In case you haven't performed the above recommendation to install the Progress e
 <hr/>
 <br>
 
+Follow the steps below to manually configure Edge for web automation with Test Studio.
+
 <h3>Enable Extensions</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser <strong>Settings -> Extensions</strong>.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser. Then navigate to <strong>Settings -> Extensions</strong>.<br><br>
 
 2.&nbsp; Ensure that the <strong>Progress Telerik Test Studio Extension</strong> is enabled.<br><br>
 
@@ -80,7 +83,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Zoom Level Set to 100%</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Use the plus (+) and minus (-) buttons next to <strong>Zoom</strong> to set it to 100%.<br><br> 
 
@@ -88,7 +91,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Enable File Downloads</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
 
@@ -100,7 +103,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Disable Pop-up Blocker</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
 
@@ -114,7 +117,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Allow All Sites to Run JavaScript</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
 
@@ -128,7 +131,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Unblock Third-Party Cookies and Site Data</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
 
@@ -144,7 +147,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Allow all Sites to Download Multiple Files Automatically</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
 
@@ -158,7 +161,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Allow Extension from Other Stores</h3>
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.<br><br>
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
 2.&nbsp; Select <strong>Extensions</strong> from the drop-down menu.<br><br>
 
