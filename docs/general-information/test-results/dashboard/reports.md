@@ -1,7 +1,7 @@
 ---
 title: Reports
 page_title: Executive Dashboard shows remote test list results
-description: "Online results server. Executive Dashboard retulst. View test list results"
+description: "Online results server. Executive Dashboard results. View test list results"
 position: 4
 ---
 # Reports
@@ -57,7 +57,7 @@ You can analyze the report details and export it to PDF format, using the Export
 * **Breadcrumb navigation** - Click on the Project name link to navigate back.
 * **Export To PDF** - Export the current state of the report to PDF format.
 
-### Rerpot Overview
+### Report Overview
 
 The Report Overview shows you details about the current report definition and a pie chart of all executed tests. The pie chart is divided by the percentage (%) of tests that passed, failed or were not ran. You can also hover over each section to show you the exact number of tests in that section.
 
