@@ -10,9 +10,9 @@ The new OCR feature in Test Studio was release in 2020 with R2. You can extract 
 
 ## Problem
 
-Lets start by saying that this issue applies only for Test Studio Release 2 and the following Service Pack 1 from 2020 and is fixed with the installation of later versions. If you have version of Test Studio 2020.3.x or higher, you should not experience this issue. You can still double check the solution section to ensure that you have the necessary assemblies.
+Lets start by saying that this issue applies only for Test Studio Release 2 and the following Service Pack 1 from 2020 and is fixed with the installation of later versions. If you have version of Test Studio 2020.3.x or higher, you should not experience this issue. You can still double check the information below to ensure that you have the necessary assemblies.
 
-When automating a 64bit WPF application with Test Studio, you might encounter some issues recording and executing OCR steps. Those are the OCR steps from the <a href="/features/recorder/verifications/text-from-image#how-to-record-a-text-from-image-step" target="_blank">Quick Steps</a> menu, or the <a href="/features/custom-steps/overview" target="_blank">Step Builder</a>. The steps will not be added to the WPF test, because of a missing assembly in the installation of Test Studio. Even if you managed to add them on another machine with higher version of Test Studio, you won't be able to execute them successfully on lower versions. 
+When automating a 64bit WPF application with Test Studio, you might encounter some issues recording and executing OCR steps. Those are the OCR steps from the <a href="/features/recorder/verifications/text-from-image#how-to-record-a-text-from-image-step" target="_blank">Quick Steps</a> menu, or the <a href="/features/custom-steps/overview" target="_blank">Step Builder</a>. The steps will **not** be added to the WPF test, because of a missing assembly in the installation of Test Studio. Even if you managed to add them on another machine with higher version of Test Studio, you won't be able to execute them successfully on lower versions. 
 
 ## Solution
 
