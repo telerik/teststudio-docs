@@ -16,8 +16,8 @@ When automating a 64bit WPF application with Test Studio, you might encounter so
 
 ## Solution
 
-Add the missing assemblies to your current installation of Test Studio. You can find them and download them from <a href="/downloads/OCR_tessaract.4.1.0x64.zip" target="_blank">**here**</a>. Paste the unzipped "x64" folder in the following two places.
+Add the missing assemblies to your current installation of Test Studio. You can find them and download them from <a href="/downloads/OCR_tesseract.4.1.0x64.zip" target="_blank">**here**</a>. Paste the unzipped "x64" folder in the following two places.
 - In the **\Bin** folder of your Test Studio installation, which is "C:\Program Files (x86)\Progress\Test Studio\Bin" by default.
 - In the **\Bin\Plugins\TFS** folder of your Test Studio installation, which is "C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\TFS" by default.
 
-Close all Test Studio processes and that should fix the recording and execution of OCR steps against 64bit WPF application.
+Close all Test Studio processes and that should fix the recording and execution of OCR steps against 64bit WPF applications.
