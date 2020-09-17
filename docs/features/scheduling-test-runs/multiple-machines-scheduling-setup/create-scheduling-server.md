@@ -32,7 +32,7 @@ Start Test Studio and under the *Project* tab in the *Scheduling* section, click
 
 ![Configure][2]
 
-Optionally, the **Configure Scheduling** wizard can be accessed through the Windows Start menu by typing *Configure Test Studio Services*.
+Optionally, the **Configure Test Studio Services** wizard can be accessed through the Windows Start menu by typing *Configure Test Studio Services*.
 
 ![Configure scheduling setup wizard][2a]
 
