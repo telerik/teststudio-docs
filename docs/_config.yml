@@ -303,7 +303,7 @@ navigation:
         title: "Advanced Topics"
         position: 2
     "*html-popups-and-dialogs-wtc":
-        title: "HTML Popups and Dialogs"
+        title: "WPF/HTML Dialogs and Popups"
     "*javascript-wtc":
         title: "Javascript"
     "*test-regions-wtc":
