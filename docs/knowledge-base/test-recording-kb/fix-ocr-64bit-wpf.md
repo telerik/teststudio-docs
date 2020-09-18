@@ -6,11 +6,11 @@ position: 3
 ---
 # Fix Optical Character Recognition (OCR) Recording and Execution for 64bit WPF Applications
 
-The <a href="/features/recorder/verifications/text-from-image" target="_blank">OCR feature</a> was introduced with Test Studio 2020 R2 (v.2020.2.804). You can extract the text from image and use it in verification, wait of extract steps.
+The <a href="/features/recorder/verifications/text-from-image" target="_blank">OCR feature</a> for WPF tests was introduced with Test Studio 2020 R2 SP1 (v.2020.2.910). You can extract the text from image and use it in verification, wait of extract steps.
 
 ## Problem
 
-Lets start by saying that this issue applies only for **Test Studio 2020 R2 (v.2020.2.804)** and the following **SP1 (v.2020.2.910)** and is fixed with the installation of later versions. If you have version of Test Studio 2020.3.x or higher, you should not experience this issue. 
+This issue applies only for **Test Studio 2020 R2 SP1 (v.2020.2.910)** and is fixed with the installation of later versions. If you have version of Test Studio 2020.3.x or higher, you should not experience this issue. 
 
 When **automating a 64bit WPF application** with Test Studio, you might encounter some issues recording and executing OCR steps. Those are the OCR steps from the <a href="/features/recorder/verifications/text-from-image#how-to-record-a-text-from-image-step" target="_blank">Quick Steps</a> menu, or the <a href="/features/custom-steps/overview" target="_blank">Step Builder</a>. The steps **will not be added to the WPF test**, because of a missing assembly in the installation of Test Studio. Even if you managed to add them on another machine with higher version of Test Studio, you won't be able to execute them successfully on lower versions. 
 
