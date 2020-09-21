@@ -14,7 +14,7 @@ When working with the execution engine in the command prompt always make sure yo
 
 ![cmd][1]
 
-## Options
+## Help Screen
 
 Here is the Help Screen for ArtOfTest.Runner.exe:
 
@@ -31,6 +31,8 @@ Several execution options use file paths as values. When using file paths in the
 
 ![Edit>Paste][3]
 
+### File to Execute Options
+
 - The **test** option takes the full path to an individual test file with the **.tstest** file extension. This file will be located in your main project directory and under any folder structure you have created to organize your tests. You can use the **test** option by itself. By default results will be stored in the **Results** folder under the project’s root directory.
 
 <table id="no-table">
@@ -42,13 +44,94 @@ Several execution options use file paths as values. When using file paths in the
 </tr>
 <table>
 
-- The **list** option is currently not supported in Test Studio Dev Edition.
+- The **list** option takes the full path to a test list file with the **.aiilist** file extension. This option  will execute a test list which has multiple tests included. All test lists for your project can be found in the test list folder under your Test Studio Dev project root folder. You can use the test option by itself. By default results will be stored in the **Results** folder under the project’s root directory. For more information about test lists, see <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test Lists</a>.
+
+- The **root** option takes full path to the project root folder.
+
+### Results Related Options
+
 - The **out** option allows choice of an alternative folder to store the results to and takes a full path value to the respective folder.
+
 - The **result** option allows change of the default result file name and takes file name (including the file extension and in double quotes).
+
 - If any of the **xml** or **html** options are used the respective alternative result file will be stored to the default location if an output folder is not specified.
+
 - If any of the **junit** or **junitstep** options is used a JUnit xml result file will be generated. The difference will be respectively whether to convert a test or a test step to a junit test.
+
 - The **PersistOnEachStep** option could be set to true in case explicitly the results are required. This option will save the results after each executed step.
+
+### Settings Option
+
 - The **settings** option takes the full path to a settings file with the **.xml** file extension.
+
+Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. These are corresponding to the available <a href="/features/test-execution/test-list-settings" target="_blank">test list settings</a>.
+
+```JSON
+{
+  "Settings": {
+    "__type": "ArtOfTest.WebAii.Core.Settings",
+    "__value": {
+      "Web": {
+        "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+        "__value": {
+          "IsProfilingExecution": false,
+          "ExecutingBrowsers": [],
+          "UseMultiBrowserExecution": false,
+          "RecycleBrowser": true,
+          "AspNetDevServerPort": -1,
+          "LocalWebServer": 0,
+          "EnableUILessRequestViewing": false,
+          "WebAppPhysicalPath": "",
+          "DefaultBrowser": 2,
+          "EnableScriptLogging": false,
+          "BaseUrl": "http://testedSite.com",
+          "KillBrowserProcessOnClose": false,
+          "AutoCalibrateBrowsers": false,
+          "UseHttpProxy": false,
+          "EnableSilverlight": false,
+          "VerboseHttpProxy": false,
+          "SilverlightConnectTimeout": 60000,
+          "SilverlightApplicationPath": null
+        }
+      },
+      "Wpf": {
+        "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+        "__value": {
+          "DefaultApplicationPath": null
+        }		
+      },
+	   "ResponsiveWeb": {
+		"__type": "ArtOfTest.WebAii.Core.Settings+ResponsiveWeb",
+		"__value": {
+		  "Width": 414,
+		  "Height": 896,
+		  "UserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1. 38 (KHTML, like Gecko) Version/11.0 Mobile/15A356 Safari/604.1"         
+	    }
+	   },
+      "CreateLogFile": true,
+      "LogLocation": "C:\\\\WebAiiLog\\\\",
+      "QueryEventLogErrorsOnExit": false,
+      "LogAnnotations": true,
+      "SimulatedMouseMoveSpeed": 0.3,
+      "ExecuteInDevelopmentTests": false,
+      "WaitCheckInterval": 500,
+      "ElementWaitTimeout": 15000,
+      "ExecuteCommandTimeout": 1000,
+      "ExecutionDelay": 0,
+      "UnexpectedDialogAction": 2,
+      "AnnotateExecution": false,
+      "AnnotationMode": 0,
+      "XMultiMgr": true,
+      "ClientReadyTimeout": 15000,
+      "DisableDialogMonitoring": false,
+      "RunnerResponseTimeout": 0.0
+    }
+  },
+  "WebSettings": null,
+  "PropertyBag": null
+}
+
+```
 
 ## Exit Codes
 

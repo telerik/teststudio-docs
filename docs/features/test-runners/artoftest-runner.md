@@ -2,7 +2,6 @@
 title: ArtOfTest.Runner
 page_title: ArtOfTest.Runner
 description: "Test Studio Command line runner client is called ArtOfTest.Runner. Test Studio execution engine in the command prompt"
-previous_url: /user-guide/test-runners/artoftestrunner.aspx, /user-guide/test-runners/artoftestrunner, /user-guide/command-line-test-execution/artoftestrunner.aspx, /user-guide/command-line-test-execution/artoftestrunner
 position: 1
 ---
 # ArtOfTest.Runner
@@ -17,7 +16,7 @@ When working with the execution engine in the command prompt always make sure yo
 
 ![cmd][1]
 
-## Options
+## Help Screen
 
 Here is the Help Screen for ArtOfTest.Runner.exe:
 
@@ -34,7 +33,9 @@ Several execution options use file paths as values. Keep in mind the following n
 
 ![Edit>Paste][3]
 
--The **test** option takes the full path to an individual test file with the **.tstest** file extension. This file will be located in your main project directory and under any folder structure you have created to organize your tests. You can use the **test** option by itself. By default results will be stored in the **Results** folder under the project’s root directory.
+### File to Execute Options
+
+- The **test** option takes the full path to an individual test file with the **.tstest** file extension. This file will be located in your main project directory and under any folder structure you have created to organize your tests. You can use the **test** option by itself. By default results will be stored in the **Results** folder under the project’s root directory.
 
 <table id="no-table">
 <tr>
@@ -45,7 +46,7 @@ Several execution options use file paths as values. Keep in mind the following n
 </tr>
 <table>
 
--The **list** option takes the full path to a test list file with the **.aiilist** file extension. This option  will execute a test list which has multiple tests included. All test lists for your project can be found in the test list folder under your project root folder. You can use the test option by itself. By default results will be stored in the **Results** folder under the project’s root directory. For more information about test lists, see <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test Lists</a>. 
+- The **list** option takes the full path to a test list file with the **.aiilist** file extension. This option  will execute a test list which has multiple tests included. All test lists for your project can be found in the test list folder under your project root folder. You can use the test option by itself. By default results will be stored in the **Results** folder under the project’s root directory. For more information about test lists, see <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test Lists</a>.
 
 <table id="no-table">
 <tr>
@@ -56,17 +57,28 @@ Several execution options use file paths as values. Keep in mind the following n
 </tr>
 <table>
 
--The **out** option allows choice of an alternative folder to store the results to and takes a full path value to the respective folder.
+- The **root** option takes full path to the project root folder.
+
+### Results Related Options
+
+- The **out** option allows choice of an alternative folder to store the results to and takes a full path value to the respective folder.
 <br>
--The **result** option allows change of the default result file name and takes file name (including the file extension and in double quotes).
+
+- The **result** option allows change of the default result file name and takes file name (including the file extension and in double quotes).
 <br>
--If any of the **xml** or **html** options are used the respective alternative result file will be stored to the default location if an output folder is not specified.
+
+- If any of the **xml** or **html** options are used the respective alternative result file will be stored to the default location if an output folder is not specified.
 <br>
--If any of the **junit** or **junitstep** options is used a JUnit xml result file will be generated. The difference will be respectively whether to convert a test or a test step to a junit test.
+
+- If any of the **junit** or **junitstep** options is used a JUnit xml result file will be generated. The difference will be respectively whether to convert a test or a test step to a junit test.
 <br>
--The **PersistOnEachStep** option could be set to true in case explicitly the results are required. This option will save the results after each executed step.
+
+- The **PersistOnEachStep** option could be set to true in case explicitly the results are required. This option will save the results after each executed step.
 <br>
--The **settings** option takes the full path to a JSON file containing custom settings for the run.
+
+### Settings Option
+
+- The **settings** option takes the full path to a JSON file containing custom settings for the run.
 
 Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. These are corresponding to the available <a href="/getting-started/test-execution/test-list-settings" target="_blank">test list settings</a>.
 
@@ -88,7 +100,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
           "WebAppPhysicalPath": "",
           "DefaultBrowser": 2,
           "EnableScriptLogging": false,
-          "BaseUrl": "http://at-hyperv01:85",
+          "BaseUrl": "http://testedSite.com",
           "KillBrowserProcessOnClose": false,
           "AutoCalibrateBrowsers": false,
           "UseHttpProxy": false,
@@ -102,8 +114,16 @@ Below is an example of a complete JSON setting file that contains all of Telerik
         "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
         "__value": {
           "DefaultApplicationPath": null
-        }
+        }		
       },
+	   "ResponsiveWeb": {
+		"__type": "ArtOfTest.WebAii.Core.Settings+ResponsiveWeb",
+		"__value": {
+		  "Width": 414,
+		  "Height": 896,
+		  "UserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1. 38 (KHTML, like Gecko) Version/11.0 Mobile/15A356 Safari/604.1"         
+	    }
+	   },
       "CreateLogFile": true,
       "LogLocation": "C:\\\\WebAiiLog\\\\",
       "QueryEventLogErrorsOnExit": false,
@@ -134,19 +154,22 @@ Below is an example of a complete JSON setting file that contains all of Telerik
 **Note:** All options listed in the help screen in relation to results publishing to TFS are mandatory. Below are some additional notes to each of the options. 
 
 - The **server** option takes the TFS server name with its full path in double quotes like this *"http://myTFS.myDomain.com:8080/tfs"*.
-- The **build** option takes the respective build which the results could be associated to. 
-- The **project** option takes the name of the current team project which the build belongs to. 
-- The **platform** option takes the respective platform which is usually Windows and thus the option takes value "win".
-- The **flavor** defines if the build is Debug or Release (defaults to "Debug"). 
 
-Below is a sample command to publish results to TFS from a test list execution. 
+- The **build** option takes the respective build which the results could be associated to.
+
+- The **project** option takes the name of the current team project which the build belongs to.
+
+- The **platform** option takes the respective platform which is usually Windows and thus the option takes value "win".
+
+- The **flavor** defines if the build is Debug or Release (defaults to "Debug").
+
+Below is a sample command to publish results to TFS from a test list execution.
 
 ![Publish Results to TFS][8]
 
 ## Exit Codes
 
 ArtOfTest.Runner returns an exit code so the Build Server can check for it on process exit in case of an exception:
-
 
 <style>
 table.docs {
