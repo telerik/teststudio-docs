@@ -44,7 +44,7 @@ Several execution options use file paths as values. When using file paths in the
 </tr>
 <table>
 
-- The **list** option takes the full path to a test list file with the **.aiilist** file extension. This option  will execute a test list which has multiple tests included. All test lists for your project can be found in the test list folder under your Test Studio Dev project root folder. You can use the test option by itself. By default results will be stored in the **Results** folder under the project’s root directory. For more information about test lists, see <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test Lists</a>.
+- The **list** option takes the full path to a test list file with the **.aiilist** file extension. This option  will execute a test list which has multiple tests included. All test lists for your project can be found in the test list folder under your Test Studio Dev project root folder. You can use the test option by itself. By default results will be stored in the **Results** folder under the project’s root directory. For more information about test lists in Test Studio Dev, see <a href="/features/test-execution/test-lists-in-vs-2017-2019" target="_blank">Test Lists</a>.
 
 - The **root** option takes full path to the project root folder.
 
