@@ -89,7 +89,7 @@ If you browse the project root folder in the __Windows File Explorer__, you can 
 - __Pages.g.cs (Pages.g.vb)__ - the file, which stores all recorded elements in the web and WPF tests in the project.
 - __Settings.aiis__ - the file, which stores the project settings.
 
-![File Types in the Project in FIle Explorer](/img/getting-started/first-project/file-types-in-file-explorer.png)
+![File Types in the Project in FIle Explorer](/img/getting-started/first-project/file-types-in-file-explorer.png.png)
 
 ## Elements in Test Studio Project
 
