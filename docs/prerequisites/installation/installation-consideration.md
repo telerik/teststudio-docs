@@ -18,7 +18,7 @@ Before you install Test Studio, make sure that the following requirements are me
 
 ## Modify the Visual Studio 2017 Installation
 
-Visual Studio 2017 requires additional an feature in its installation to be compatible with the Test Studio plugin for Visual Studio.
+Visual Studio 2017 requires an additional feature in its installation to be compatible with the Test Studio plugin for Visual Studio.
 
 Before installing Test Studio, you need to modify the Visual Studio 2017 installation and add the **Testing Tools Core Features** component under Debugging and Testing section. Once you enable this component, complete the Visual Studio 2017 standard installation process. Then perform the <a href="/prerequisites/installation/install-procedure" target="_blank">standard Test Studio installation</a>.
 

@@ -43,9 +43,9 @@ For your first test in this project add a new **Web** test.
 
 ## Start a Recording Session
 
-To open the newly created test, double click it in the __Project Explorer__.
+Test Studio allows you to easily record the steps of an automated scenario with its click-and-record functionality. The below steps describes how to trigger a recording session and start recording the steps of your test scenario.
 
-1. In the opened web test, you can click the ***Record*** button in the *Tests* ribbon or press **CTRL+R** to trigger the recording session.
+1. Open the newly created test with a double-click on it in the __Project Explorer__. In the opened web test, you can click the ***Record*** button in the *Tests* ribbon or press **CTRL+R** to trigger the recording session.
 
     ![Hit the record button](/img/getting-started/first-project/fig04.png)
 

@@ -105,7 +105,8 @@ If you need to resort to manual configuration, use the following settings:
 <script>
 $(".toggle_container").hide();
     
-    $("p.trigger").click(function(){
+    $("p.trigger").click(function(e){
+        e.preventDefault();
         $(this).toggleClass("active").next().slideToggle("normal");
 		$(this).find('#d').text(function (i, oldText) {
         return $.trim(oldText) == '+' ? '-' : '+';

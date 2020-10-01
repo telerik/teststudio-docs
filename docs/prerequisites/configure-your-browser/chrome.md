@@ -194,7 +194,6 @@ Follow the steps below to manually configure Chrome for web automation with Test
     <p>"webkit":{"webprefs":{"minimum_font_size":6, "web_security_enabled":false}}</p>
 </div>
 
-
 <hr/>
 
 </div>
@@ -204,11 +203,11 @@ Follow the steps below to manually configure Chrome for web automation with Test
 
 * <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome" target="_blank">Chrome Extensions Disabled or Missing</a>
 
-
 <script>
 $(".toggle_container").hide();
     
-    $("p.trigger").click(function(){
+    $("p.trigger").click(function(e){
+        e.preventDefault();
         $(this).toggleClass("active").next().slideToggle("normal");
 		$(this).find('#d').text(function (i, oldText) {
         return $.trim(oldText) == '+' ? '-' : '+';
@@ -216,5 +215,3 @@ $(".toggle_container").hide();
 		
     });
 </script>
-
-

@@ -23,9 +23,9 @@ You’ve been always looking for a test automation tool that really works and yo
 
 * __Test Element Management__ - manage all automation elements from one <a href="/features/elements-explorer/overview" target="_blank">centralized location</a> eliminating redundancy and lowering maintenance effort.
 
-* <a href="/test-studio-for-apis/overview" target="_blank">API Testing</a> - verify the integrity and reliability of your APIs or enhance your web functional testing with API calls.
+__<a href="/test-studio-for-apis/overview" target="_blank">API Testing</a>__ - verify the integrity and reliability of your APIs or enhance your web functional testing with API calls.
 
-* <a href="/features/testing-types/load-testing/overview" target="_blank">Load Testing</a> – get a better understanding of how your website performs by simulating multiple users accessing it concurrently.
+__<a href="/features/testing-types/load-testing/overview" target="_blank">Load Testing</a>__ – get a better understanding of how your website performs by simulating multiple users accessing it concurrently.
 
 <table id=no-table>
 <tr>

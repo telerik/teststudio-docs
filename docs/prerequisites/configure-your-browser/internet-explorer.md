@@ -195,7 +195,8 @@ The latest Internet Explorer updates should be installed. <br><br>
 <script>
 $(".toggle_container").hide();
     
-    $("p.trigger").click(function(){
+    $("p.trigger").click(function(e){
+        e.preventDefault();
         $(this).toggleClass("active").next().slideToggle("normal");
 		$(this).find('#d').text(function (i, oldText) {
         return $.trim(oldText) == '+' ? '-' : '+';
