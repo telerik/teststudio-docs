@@ -212,7 +212,7 @@ $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
         e.preventDefault();
-        $(this).toggleClass("active").next().slideToggle("normal");
+        $(this).toggleClass("normal").next().slideToggle("active");
 		$(this).find('#d').text(function (i, oldText) {
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
