@@ -13,7 +13,7 @@ I added an **If...Else** logical step to my test. When the verification attached
 
 ## SOLUTION
 
-he issue is likely with the verification attached to the IF portion. Let's say it verifies the element is visible. When the element does not exist and cannot be found, the verification cannot be performed, the ELSE portion is not executed, and the entire test fails.
+The issue is likely with the verification attached to the IF portion. Let's say it verifies the element is visible. When the element does not exist and cannot be found, the verification cannot be performed, the ELSE portion is not executed, and the entire test fails.
  
 
 The fix is to record a new verification on the element and attach it to the IF. This time, record a **Wait - element exists** step. This way, when the element does not exist, the ELSE portion will correctly execute and the test will not fail.
