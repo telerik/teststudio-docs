@@ -8,7 +8,7 @@ position: 6
 
 Test Studio updates provide new features, improved functionality against evolving controls, interoperability with new software, and bug fixes. The Check for Updates feature allows automatic detection of new versions and provides the option to download and install this new version.
 
-In this article you can find details for the following topics:
+In this article, you can find details for the following topics:
 
 - [Instant Check for Updates](#instant-check-for-updates)
 - [New Version Available](#new-version-availabele)
@@ -18,7 +18,7 @@ In this article you can find details for the following topics:
 
 #### Test Studio Standalone
 
-In the **Help** drop down in the upper right corner choose the option to **Check for Updates**.
+In the **Help** drop-down in the upper right corner, choose the option to **Check for Updates**.
 
 ![Help Menu check for updates](/img/general-information/installation/check-for-updates/CheckForUpdatesFull.gif)
 
@@ -46,7 +46,7 @@ After the download completes, click the __Install__ button to trigger the Instal
 
 ![Download and install detected new version](/img/general-information/installation/check-for-updates/fig5.png)
 
-The Test Studio Installation Wizard will prepare the installation. The previous version of Test Studio, installed on the machine, is automatically detected and the Wizard prompts with a message to confirm if you wish to upgrade to the newer version. Click __Yes__ to continue with the upgrade.
+The Test Studio Installation Wizard will prepare the installation. The previously installed Test Studio version is automatically detected, and the Wizard prompts with a message to confirm if you wish to upgrade to the newer version. Click __Yes__ to continue with the upgrade.
 
 ![Confirm upgrade of the existing installation](/img/general-information/installation/check-for-updates/fig6.png)
 

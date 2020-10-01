@@ -5,11 +5,11 @@ description: "Test Studio Add Scheduling / Storage Services / Executive Dashboar
 previous_url: /user-guide/installation/trial-services.aspx, /user-guide/installation/trial-services
 position: 4
 ---
-# Modify Test Studio Installation
+# Modify the Test Studio Installation
 
-The completed Test Studio installation can be modified or repaired if necessary. By changing the installation you can add or remove some of the Test Studio components such as Test Studio Services, Visual Studio plugin, etc.
+The completed Test Studio installation can be modified or repaired if necessary. By changing the installation, you can add or remove some of the Test Studio components such as Test Studio Services, Visual Studio plugin, etc.
 
-## Trigger Change of the Installation
+## Trigger a Change of the Installation
 
 Open the __Windows Control Panel__ and  navigate to its __Programs and Features.__ Find the Test Studio installation - it is called __Progress Telerik Test Studio 20XX.X.__ Right click on it and select the __Change__ option. 
 

@@ -7,9 +7,9 @@ position: 0
 
 # What is Browser Calibration
 
-There is certain set of settings for each of the supported browsers to make these compatible for recording and execution of tests with Test Studio. Some of the browsers also require an extension to be added.
+A specific set of settings is required to prepare a browser for the recording and execution of tests with Test Studio. Some of the browsers also require an extension to be added.
 
-To ease you in applying these settings, Test Studio provides a built-in approach to <a href="/features/project-settings/browsers" target="_blank">calibrate all supported browsers</a>. Check further details for each of the supported browsers as well as links to the respective store to download extension if necessary:
+To ease you in applying these settings, Test Studio provides a built-in approach to <a href="/features/project-settings/browsers" target="_blank">calibrate all supported browsers</a>. Follow the links below for more calibration details about each supported browser and a download link to the particular extension:
 
 - <a href="/prerequisites/configure-your-browser/chrome" target="_blank">Google Chrome</a>
 - <a href="/prerequisites/configure-your-browser/edge-chromium" target="_blank">MS Edge (Chromium based)</a>
@@ -20,7 +20,7 @@ To ease you in applying these settings, Test Studio provides a built-in approach
 
 ## Accept Extension Permission for Version 2020.2.728
 
-The latest 2020 R2 Test Studio release (v.2020.2.804) introduces the <a href="/features/testing-types/responsive-test" target="_blank">web responsive testing feature</a>. With this release Test Studio published a corresponding version of the extensions for Chrome, Edge Chromium and Firefox and their latest version is 2020.2.728.1 and since these require to allow additional permissions, the updated extension will be disabled.
+The latest 2020 R2 Test Studio release (v.2020.2.804) introduces the <a href="/features/testing-types/responsive-test" target="_blank">web responsive testing feature</a>. With this release, Test Studio published a corresponding version of the extensions for Chrome, Edge Chromium and Firefox. The latest version of the extension (v.2020.2.728.1) requires additional permissions; therefore, it gets disabled after the update. 
 
 To re-enable it, you need to __manually accept the permissions request for each browser and machine__. When you open the browser, there is a warning sign on the _Settings_ menu.
 

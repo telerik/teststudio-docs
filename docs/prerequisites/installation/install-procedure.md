@@ -6,20 +6,18 @@ position: 2
 ---
 # Installation Procedure
 
-Test Studio installation process has no difference for trial or purchased instance of the product. You can follow the below steps to get the tool available on your computer.
+Follow the steps in this document to install Test Studio. The installation procedure is identical for the trial and the purchased version of the product.
 
-In this article you can find details for the following topics:
+In this article, you can find details about the following topics:
 
-- [Download the Installation File](#download-the-installation-file)
+- [Prerequisites](#prerequisites)
 - [Start the Installation](#start-the-installation)
 - [Customize the Installation](#customize-installation)
 - [Finish Installation](#finish-installation)
 
-## Download the Installation File
+## Prerequisites
 
-If you are a new user, you can download the latest available Test Studio version from <a href="https://www.telerik.com/teststudio" target="_blank">its official page</a> on the Progress Telerik site.
-
-If you are already a Test Studio customer, you can navigate to <a href="https://www.telerik.com/account/my-downloads" target="_blank">your Telerik account download page</a> and access all available downloads for the purchased Test Studio license.
+Before you continue, make sure that you already have <a href="/prerequisites/installation/manual-download" target="_blank">the installation file</a> available
 
 ## Start the Installation
 
@@ -51,7 +49,7 @@ In the __Customize__ screen you can see each separate component, which the insta
 
 Any of these can be removed or added in the __Customize__ screen. You are also allowed to change the default installation path. After making your selections, click the __'OK'__ button to continue.
 
-Few important notes to consider, if selecting some of the below components:
+There are a few important notes to consider if you select some of the below components:
 
 - If you have __Visual Studio__ Professional or higher installation on the machine, Test Studio plugin for Visual Studio will be automatically selected for installation.
 - To use this machine as a __Storage or Scheduling Server__ in a Test Studio Scheduling setup, you must select the respective components to install the Test Studio services during initial installation or when changing the existing.

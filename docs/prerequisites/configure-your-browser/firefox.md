@@ -32,29 +32,29 @@ p.trigger{
 
 # Configuring Firefox for Test Studio Automation#
 
-To configure Firefox for web automation with Test Studio, there are certain settings required. Complete the following steps to adjust the browser for test recording and execution.
+This document describes the steps to adjust Firefox for test recording and execution.
 
-## 1. Install Progress Extension
+## 1. Install the Progress Extension
 
-**Test Studio 2017 R3 (v. 2017.3.1010) And Later**
+- **Test Studio 2017 R3 (v. 2017.3.1010) And Later**
 
 Install the latest Firefox extension from the Mozzila Extension Page. There is a single extension combining recording and execution: <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/" target="_blank">**Progress Test Studio Extension**</a>
 
->If you face any troubles when installing or enabling the extension please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
+>If you face any troubles when installing or enabling the extension, please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 As of product release **2017 R3** only the new Test Studio extension will be supported. Old extensions are using legacy Firefox add-on API and starting from Firefox v.57 only extensions developed using WebExtensions APIs will be supported for usage in the browser.
 
 Once Firefox is used for first time for web automation in Test Studio 2017 R3 or later version, the old Test Studio extensions will be automatically removed.
 
-**Test Studio 2017 R2 SP1 (v. 2017.2.824) And Earlier**
+- **Test Studio 2017 R2 SP1 (v. 2017.2.824) And Earlier**
 
-The extensions get installed directly with Test Studio installation. If you need to add or reinstall these manually please visit  <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-ff" target="_blank">this troubleshooting article</a>.
+The extensions get installed directly with Test Studio installation. If you need to add or reinstall these manually, please visit  <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-ff" target="_blank">this troubleshooting article</a>.
 
 ## 2. Browser Calibration
 
-To ensure flawless and consistent automation process there are some settings to apply to the browser. We call this browser calibration and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box and no manual interaction is required.<br><br>
+To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
->If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+>If you need to double check manually if all settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
 
 <p></p>
 <p></p>
@@ -71,12 +71,13 @@ To ensure flawless and consistent automation process there are some settings to 
 <hr/>
 <br>
 
-1.&nbsp; The latest Firefox extension is not automatically installed with the Test Studio installation.<br><br>
-In case you haven't performed the above recommendation to install the Progress extension manually when you first start recording against Firefox the browser will load the recording start page and will try to load the extension. If that is missing the recorder will search for it for the set ClientReady Timeout (the default is 60 seconds).<br><br>
+Follow the steps below if the extension for Firefox is not automatically installed during the Test Studio installation.
+
+1.&nbsp; When you start recording against Firefox, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig14.png" alt="Wait For Extension"><br><br>
 
-2.&nbsp; In case the Progress extension is not yet loaded after that timeout a link to the Mozzila Extension Page will be displayed to install the extension.<br><br>
+2.&nbsp;  If the Progress extension doesn't load within the timeout period, a link to the Mozzila Extension Page will be displayed to install the extension.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig10.png" alt="Get Extension"><br><br>
 
@@ -88,7 +89,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <img src="/img/general-information/configure-your-browser/firefox/fig12.png" alt="Add Extension Confirmation"><br><br>
 
-5.&nbsp;  The version of an installed extension could be double checked by clicking on its icon located on the right of the address bar.<br><br>
+5.&nbsp; Click on the icon located to the right of the address bar to find the extension's version.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig13.png" alt="Extension Version"><br><br>
 
@@ -105,10 +106,12 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <div class="toggle_container">
 <div class="block">
-
+	
 <h3>Enable Progress Test Studio Extension</h3>
 
-1. Click on browser settings in the right upper corner and press on <strong>Add-ons</strong>.<br><br>
+Follow the steps below to manually configure Firefox for web automation with Test Studio.
+
+1. Click on the browser settings button in the upper right corner and select <strong>Add-ons</strong>.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig1.png" alt="Extension"><br><br>
 
@@ -118,7 +121,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Zoom Level Set to 100%</h3>
 
-1. Click on browser settings.<br>
+1. Click on the browser settings button.<br>
 
 2. Use the plus (+) and minus (-) buttons to set it to 100%.<br><br>
 
@@ -126,7 +129,7 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Turn Off Pop-up Blocker & Enable JavaScript</h3>
 
-1. Click on browser settings and press on <strong>Options</strong>.<br><br>
+1. Click on the browser settings button and select <strong>Options</strong>.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig4.png" alt="Zoom"><br><br>
 
@@ -138,32 +141,32 @@ In case you haven't performed the above recommendation to install the Progress e
 
 <h3>Pop-ups Open in a New Tab</h3>
 
-1. Click on browser settings and press on <strong>Options</strong>.<br>
+1. Click on the browser settings button and select <strong>Options</strong>.<br>
 
-2. Scroll down to <strong>Tabs</strong> section and check <strong>Open new windows in a new tab instead</strong>. <br><br>
+2. Scroll down to the <strong>Tabs</strong> section and check <strong>Open new windows in a new tab instead</strong>. <br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig6.png" alt="Pop up open in new window"><br><br>
 
 <h3>Enable File Downloads</h3>
 
-1. Click on browser settings and press on <strong>Options</strong>.<br>
+1. Click on the browser settings button and select <strong>Options</strong>.<br>
 
-2. Scroll down to <strong>Downloads</strong> section and check and select <strong>Always ask you where to save files</strong>.<br><br>
+2. Scroll down to the <strong>Downloads</strong> section and check and select <strong>Always ask you where to save files</strong>.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig7.png" alt="Downloads"><br><br>
 
 <h3>Enable Cookies</h3>
 
-1. Click on browser settings and press on <strong>Options</strong>.<br>
-2. Click on the <strong>Privacy and Security</strong>.<br>
-3. Scroll down to <strong>History</strong> section to set the option to <strong>Remember history</strong>.<br><br>
+1. Click on the browser settings button and select <strong>Options</strong>.<br>
+2. Click on <strong>Privacy and Security</strong>.<br>
+3. Scroll down to the <strong>History</strong> section to set the option to <strong>Remember history</strong>.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig8.png" alt="Cookies"><br><br>
 
 <h3>Disable 'Remember passwords for sites'</h3>
 
-1. Click on browser settings and press on <strong>Options</strong>.<br>
-2. Click on the <strong>Privacy and Security</strong>.<br>
+1. Click on the browser settings button and select <strong>Options</strong>.<br>
+2. Click on <strong>Privacy and Security</strong>.<br>
 3. Make sure the <strong>Remember logins and passwords for websites</strong> option is disabled.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig9.png" alt="Passwords"><br><br>
@@ -172,9 +175,9 @@ In case you haven't performed the above recommendation to install the Progress e
 
 As of the 2012 R1 version released in April 2012, set the Connection Settings to Use system proxy settings.<br><br>
 
-1. Click on browser settings and press on <strong>Options</strong>.<br>
-2. Click on the <strong>General</strong>.<br>
-3. Scroll down to <strong>Network Proxy</strong> section and press on <strong>Settings... </strong> button.<br>
+1. Click on the browser settings button and select <strong>Options</strong>.<br>
+2. Click on <strong>General</strong>.<br>
+3. Scroll down to the <strong>Network Proxy</strong> section and press on <strong>Settings... </strong> button.<br>
 4. In the <strong>Connection Settings</strong> window select <strong>Use system proxy settings</strong>.<br><br>
 
 <img src="/img/general-information/configure-your-browser/firefox/fig15.png" alt="Proxy"><br><br>

@@ -16,11 +16,11 @@ Before you install Test Studio, make sure that the following requirements are me
 
 - If you plan on running Test Studio test automation on Windows Server OS and use IE, <a href="#configuring-windows-server-for-test-studio-test-automation" target="_blank">turn off the __Windows component Internet Explorer Enhanced Security Configuration__</a>.
 
-## Modify Visual Studio 2017 Installation
+## Modify the Visual Studio 2017 Installation
 
-Visual Studio 2017 requires additional feature in its installation to be compatible with the Test Studio plugin for Visual Studio.
+Visual Studio 2017 requires additional an feature in its installation to be compatible with the Test Studio plugin for Visual Studio.
 
-Before installing Test Studio, you need to modify the Visual Studio 2017 installation and add the **Testing Tools Core Features** component under Debugging and Testing section. Once you enable this component complete the Visual Studio 2017 standard installation process. Then perform the <a href="/prerequisites/installation/install-procedure" target="_blank">standard Test Studio installation</a>.
+Before installing Test Studio, you need to modify the Visual Studio 2017 installation and add the **Testing Tools Core Features** component under Debugging and Testing section. Once you enable this component, complete the Visual Studio 2017 standard installation process. Then perform the <a href="/prerequisites/installation/install-procedure" target="_blank">standard Test Studio installation</a>.
 
 ![Visual Studio 2017 Installation][1]
 
@@ -28,9 +28,9 @@ Before installing Test Studio, you need to modify the Visual Studio 2017 install
 
 ## Configuring Windows Server for Test Studio Test Automation
 
-If you plan on running Telerik test automation on Windows Server machine and use IE, you will need to turn off the Windows component __Internet Explorer Enhanced Security Configuration__. This component is a great feature and highly recommended for machines actually being used as production servers. However, it interferes with test automation running against the IE browser.
+If you plan on running Telerik test automation on Windows Server machine and using IE, you will need to turn off the __Internet Explorer Enhanced Security Configuration__ Windows component. This component is a great feature and highly recommended for machines actually being used as production servers. However, it interferes with test automation running against the IE browser.
 
-### Turn off Internet Explorer Enhanced Security Configuration on Windows Server Machine
+### Turn off Internet Explorer Enhanced Security Configuration on a Windows Server Machine
 
 The below steps are applicable for Windows Server versions 2012, 2016, 2019.
 
@@ -38,7 +38,7 @@ The below steps are applicable for Windows Server versions 2012, 2016, 2019.
 
 	![Server Manager](/img/general-information/installation/configure-windows-server/fig4.png)
 
-2. In the left pane, select the __Local Server__.
+2. In the left pane, select __Local Server__.
 
 	![Local Server](/img/general-information/installation/configure-windows-server/fig5.png)
 

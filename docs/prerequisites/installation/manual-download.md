@@ -4,19 +4,19 @@ page_title: Download Test Studio Installation File
 description: "Download Test Studio installation file manually from your Telerik account. How can I download Test studio from my Telerik account."
 position: 1
 ---
-# Download Test Studio Installation File
+# Download the Test Studio Installation File
 
-The Test Studio installation file can be downloaded from the Telerik official product page.
+This document describes how to download the Test Studio installation file.
 
-## Download the Trial Test Studio
+## Download a Free Trial Version
 
-<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> offers a free 30 days full featured trial with included support. The download of the installation file can be initiated after you create your Telerik account.
+<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> offers a free 30-day full-featured trial with included support. The download of the installation file can be initiated after you create <a href="https://www.telerik.com/account" target="_blank">your Telerik account.</a>
 
 Proceed with the standard <a href="/prerequisites/installation/install-procedure" target="_blank">installation process.</a>
 
-## Download Test Studio Purchased Product
+## Download a Licensed Version
 
-If you are already using Test Studio, you can <a href="/prerequisites/check-for-updates" target="_blank">check for updates</a> in the product, download an available newer version and install it. Though, if you need to manually download an installation file of Test Studio including any previous version available for you, you can access these in your Telerik account following the below steps.
+If you already purchased a Test Studio license, you can download the latest installation file from your Telerik account, where you can also find any previous versions available to you. Follow the steps below to download the file.
 
 ### Open Your Telerik Account
 

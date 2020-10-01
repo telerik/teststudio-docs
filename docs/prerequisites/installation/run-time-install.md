@@ -6,7 +6,7 @@ position: 3
 ---
 # Test Studio Runtime Install Procedure
 
-The Test Studio Runtime edition is the component dedicated for test execution and is intended to be installed on build servers (for CI/CD configurations), or scheduling and execution servers (for Test Studio Scheduling configuration).
+Test Studio Runtime edition is the component dedicated for test execution and intended for installation on build servers (for CI/CD configurations) or scheduling and execution servers (for Test Studio Scheduling configuration).
 
 ## Download the Test Studio Run-time
 
@@ -14,23 +14,23 @@ The <a href="https://www.telerik.com/teststudio/test-studio-runtime" target="_bl
 
 ## Install the Test Studio Run-time Edition
 
-Start the installation file and follow the installation wizard. First step is to **read and agree to the <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Licensing terms of Test Studio**</a>.
+Start the installation file and follow the installation wizard. The first step is to **read and agree to the <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Licensing terms of Test Studio**</a>.
 
 ![License agreement][1]
 
-### Enabled Components in Default Test Studio Run-time Installation
+### Enabled Components in the Default Installation
 
 The default installation of the Run-time edition **includes the Test Studio Services - Scheduling, Storage and Executive Dashboard**. These need to be installed on one of the machines dedicated for the Scheduling setup, which will **act as a centralized <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Scheduling server**</a> and will control the communication between all machines in the configuration. If this is the particular machine, proceed by pressing the *Install* button.
 
 ![Default installation][2]
 
-### Customize Test Studio Run-time Installation
+### Customize the Test Studio Run-time Installation
 
 Alternatively, in case the current machine will be only **used as an <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server" target="_blank">Execution server**</a>, you can modify the installation of the Run-time edition and **disable the Test Studio Services** from the installation wizard by pressing the *Customize* button.
 
 ![Customize installation][3]
 
-You can choose a single component to not be installed or disable multiple features to not be included in the installation.
+You can choose a single component not to be installed or disable multiple features not to be included in the installation.
 
 ![Remove Single component][4]
 
@@ -40,7 +40,7 @@ In the *Customize* section you **can also change the default installation folder
 
 ![Modify Installation path][6]
 
-### Finish Test Studio Run-time Installation
+### Finish the Test Studio Run-time Installation
 
 Confirm the applied changes by pressing the *OK* button and **check the list of enabled components**. Proceed with installation by pressing the *Install* button.
 
@@ -50,7 +50,7 @@ Once the wizard is ready with the installation of the selected components, you c
 
 ![Finish installation][8]
 
-## Upgrade Test Studio Run-time Edition
+## Upgrade the Test Studio Run-time Edition
 
 The Run-time has no built-in functionality to check for updates and installing a newer version should be manually performed. You can login to your Telerik account and open the *Downloads* section. Or, you can use <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">this link</a> and download the latest available version in your account. Running the installation file will upgrade the existing version, if the product is already installed on the machine.
 
