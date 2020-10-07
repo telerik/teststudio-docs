@@ -37,15 +37,20 @@ To ensure a flawless and consistent automation process, there are a few browser 
 <p></p>
 <p></p>
 
-<p class="trigger"><a name="Extension_Install" style="color:black; text-decoration: none;";> Extension Install Procedure <span id="d" style="color:#28a1e2";> + </span></a></p>
+<div id="container1">
+
+<!-- <p class="trigger"><a name="Extension_Install" style="color:black; text-decoration: none;";> Extension Install Procedure <span id="d" style="color:#28a1e2";> + </span></a></p>
 
 <div class="toggle_container">
 <div class="block">
 
 <hr/>
-<br>
+<br> -->
 
-Follow the steps below if the extension for Chrome is not automatically installed during the Test Studio installation.<br><br>
+<li class="list-group-item"><span> Extension Install Procedure </span><span id=plus1 style="color:#28a1e2">+</span>
+        <div id="Ul1" class="list-group">
+        <br />
+
 1.&nbsp; When you start recording against Chrome, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).<br><br>
 
 <img src="/img/general-information/configure-your-browser/chrome/fig14.png" alt="Wait For Extension"><br><br>
@@ -69,18 +74,46 @@ Follow the steps below if the extension for Chrome is not automatically installe
 <hr/>
 
 </div>
-</div>
+</li>
 <p></p>
 <p></p>
 <p></p>
 
-<p class="trigger"><a name="Manual_Configuration" style="color:black; text-decoration: none;";> Manual Configuration <span id="d" style="color:#28a1e2";> + </span></a></p>
+<!-- <script>
+// $(".toggle_container").hide();
+    
+    $("p.trigger").click(function(e){
+        e.preventDefault();
+        $(this).toggleClass("active").next().slideToggle("normal");
+		$(this).find('#d').text(function (i, oldText) {
+        return $.trim(oldText) == '+' ? '-' : '+';
+		});
+		
+    // });
+</script> -->
 
-<div class="toggle_container">
-<div class="block">
+<!-- <script>
+    $(function(){
+    $(".toggler").click(function(e) {
+        e.preventDefault();
+        $(this).find("span").toggle();
+        $(".togglee").slideToggle();
+    });
+});
+</script> -->
+
+<!-- <a class="toggle-link toggler" name="Manual_Configuration" style="color:black; text-decoration: none;";> <span id="d" style="color:#28a1e2";> Manual Configuration +</span><span class="hidden">Manual Configuration -</span></a>
+
+<div class="Basic togglee" class="slide"></div>
+
+<div id="Adv" class="slide hidden togglee"> -->
 
 <hr/>
 <br>
+
+<li class="list-group-item"><span> Manual Configuration </span><span id=plus2 style="color:#28a1e2"> + </span>
+        <div id="Ul2" class="list-group">
+        <br />
 
 Follow the steps below to manually configure Chrome for web automation with Test Studio.
 
@@ -197,21 +230,27 @@ Follow the steps below to manually configure Chrome for web automation with Test
 <hr/>
 
 </div>
+</li>
+
 </div>
+
+<script>
+jQuery(document).ready( function() {
+	$('#Ul1, #Ul2').hide();
+  $('#container1 > li').on('click', function() {
+		$(this).addClass('selected').siblings().removeClass('selected');
+  	$('.selected').children('div').toggle();
+    $('.selected').siblings().children('div').hide();
+    $(this).find('#plus1, #plus2').text(function (i, oldText) {
+        return $.trim(oldText) == '+' ? '-' : '+';
+        });
+
+  });
+});
+</script>
 
 <h3>See also:</h3>
 
 * <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome" target="_blank">Chrome Extensions Disabled or Missing</a>
 
-<script>
-$(".toggle_container").hide();
-    
-    $("p.trigger").click(function(e){
-        e.preventDefault();
-        $(this).toggleClass("active").next().slideToggle("normal");
-		$(this).find('#d').text(function (i, oldText) {
-        return $.trim(oldText) == '+' ? '-' : '+';
-		});
-		
-    });
-</script>
+
