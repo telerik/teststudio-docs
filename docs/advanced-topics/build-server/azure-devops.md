@@ -6,7 +6,7 @@ position: 2
 ---
 # Test Studio Tests and Azure DevOps Build Pipeline
 
-Test Studio tests can be successfully integrated for execution with the Azure DevOps Build pipelines. Below you can read details for the prerequisites and necessary configurations to apply.
+<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps Build pipelines. Below you can read details for the prerequisites and necessary configurations to apply.
 
 ## Environmental Prerequisites
 
@@ -20,7 +20,7 @@ The components to be installed on the machine:
 
 ## Configuring the Azure DevOps Build Pipeline
 
-Below are listed the steps to configure the build pipeline in Azure DevOps. 
+Below are listed the steps to configure the build pipeline in Azure DevOps.
 
 ### Create a new project in Azure DevOps
 

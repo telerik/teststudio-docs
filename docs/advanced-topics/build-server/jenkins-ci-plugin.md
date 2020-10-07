@@ -6,7 +6,7 @@ position: 2
 ---
 # Test Studio Plugin for Jenkins CI #
 
-The Test Studio Plugin allows you to build and execute Test Studio tests and test lists in Jenkins CI environment and easily explore the generated JUnit xml results in the built-in Jenkins functionality. 
+The Test Studio Plugin for Jenkins allows you to build and execute <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests and test lists in Jenkins CI environment and easily explore the generated JUnit xml results in the built-in Jenkins functionality.
 
 >The Test Studio Plugin could be used with Test Studio projects only. If you will need to **build a Visual Studio project** or a solution use the instructions listed <a href="/advanced-topics/build-server/jenkins-ci#Build-a-Visual-Studio-project-or-a-Solution" target="_blank">**here**</a>.
 

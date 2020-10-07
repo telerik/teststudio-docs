@@ -1,22 +1,20 @@
 ---
 title: Does Not Exist in the Current Context
-page_title: Does Not Exist in the Current Context
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Test Studio Scheduling Error Does Not Exist in the Current Context
+description: "Test Studio Scheduling. Executing a scheduled test list or remotely running a test list fails with error does not exist in the current context"
 position: 1
 ---
-# Does Not Exist in the Current Context
+# "Does Not Exist in the Current Context" Error in Test Studio Scheduled Test
 
 ## PROBLEM
 
-When scheduling or executing a test list remotely, a test in the test list fails with an error like this:
+When scheduling or executing a test list remotely via the <a href="/features/scheduling-test-runs/overview" target="_blank">Test Studio Scheduling setup</a>, a test in the test list fails with an error like this:
 
 *error CS0103: The name 'Utility' does not exist in the current context*.
-
 
 ## SOLUTION
 
 This behavior may occur when one or more tests in a scheduled test list rely on a static utility class in a test that is not included in the test list or used by any of the tests in that test list as a Test as Step. In this case, Test Studio will not send the excluded test to the Execution Server.
-
 
 To resolve this behavior, use one of these two solutions:
 
@@ -29,9 +27,6 @@ To resolve this behavior, use one of these two solutions:
 <br>
 **See Also**
 
-
 - <a href="/advanced-topics/coded-samples/general/utility-class-in-standalone" target="_blank">Create a Utility Class in Test Studio Standalone</a>
 
 - <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test Lists (Standalone)</a>
-
-

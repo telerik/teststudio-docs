@@ -1,26 +1,26 @@
 ---
-title: Missing Assembly References
-page_title: Missing Assembly References
+title: Missing Assembly References in Test Studio Project
+page_title: Missing Assembly References in Test Studio Project
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/troubleshooting_guide/visual-studio/missing-assembly-references.aspx, /user-guide/troubleshooting_guide/visual-studio/missing-assembly-references
 position: 1
 ---
-# Missing Assembly References in Visual Studio (Typically After Updating)
+# Missing Assembly References in Visual Studio (Typically After Updating Test Studio Plugin)
+
+The problem typically occurs after updating the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> plugin for Visual Studio.
 
 ## PROBLEM
 
- The problem typically occurs after updating the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> Visual Studio plugin. In Visual Studio, your test projects will no longer build because of missing ArtOfTest Assemblies. When you open the References folder in Solution Explorer, some of the referenced assemblies might have a yellow warning icon signifying they cannot be resolved: 
+Test Studio test projects created and maintained in Visual Studio may no longer build after upgrading the Test Studio plugin, because of missing ArtOfTest Assemblies. When you open the _References_ folder in _Solution Explorer_, some of the referenced assemblies might have a yellow warning icon signifying they cannot be resolved:
 
 ![warnings][1]
 
-# SOLUTION
+## SOLUTION
 
 When you add your first test to a new test project in Visual Studio, references to the required assemblies are automatically referenced. By default, Visual Studio references assemblies stored in the GAC (Global Assembly Cache) with their specific version number. When you update Test Studio, all of its assemblies are replaced. The replacements carry a newer version number even though they might not contain any differences.
 
-Because of the difference in version number, the GAC sees these replacement files as different assemblies. It assumes the assemblies needed to build the project are now missing (cannot be resolved) and your project does not build. 
+Because of the difference in version number, the GAC sees these replacement files as different assemblies. It assumes the assemblies needed to build the project are now missing (cannot be resolved) and your project does not build.
 
 Make the Reference version unspecific.
-
 
 1.&nbsp; Open your test project in Visual Studio.
 
@@ -38,13 +38,11 @@ Check the **Specific Version** property. Change it to False. The yellow warning 
 
 ![Specific version][3]
 
-You must select all the unresolved references at once or repeat these steps for every unresolved reference. Once you're done, there should be no warning icons and your project should build successfully. 
+You must select all the unresolved references at once or repeat these steps for every unresolved reference. Once you're done, there should be no warning icons and your project should build successfully.
 
 Also ensure you select **.NET Framework 4.5** as the target framework from the properties of the Test Project.
 
 ![Target Framework][4]
-
-
 
 [1]: /img/troubleshooting-guide/visual-studio-tg/missing-assembly-references/fig1.png
 [2]: /img/troubleshooting-guide/visual-studio-tg/missing-assembly-references/fig2.png

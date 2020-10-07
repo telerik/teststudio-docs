@@ -4,7 +4,7 @@ page_title: Microsoft Test Manager
 description: "Integrate Test Studio tests in MTM continuous integration. Execute Test Studio tests with MTM."
 position: 2
 ---
-# Run Telerik tests through МТМ
+# Run Telerik Tests Through МТМ
 
 *I want to run my Telerik tests through Microsoft Test Manager*
 
@@ -21,7 +21,7 @@ Table of Contents:
 * <a href="/advanced-topics/build-server/mtm#runnin-a-test">Running a test</a>
 * <a href="/advanced-topics/build-server/mtm#viewing-test-results">Viewing test results</a>
 
-### Create Test Studio project and TFS build
+### Create Test Studio Project and TFS Build
 
 1.&nbsp; <a name="project-settings"></a>Create a Progress Test Studio project and connect it to TFS. 
 
@@ -57,8 +57,8 @@ Table of Contents:
 ![Association][5]
 
 > You should install <a href="/general-information/test-studio-run-time" target="_blank">Telerik Test Sutudio Runtime</a> edition on the TFS Build Controler/Agent machine. This will ensure the build will succeed and recognize Telerik Test Project when pulled out from TFS.
-	
-### Run tests in MTM
+
+### Run Tests in MTM
 
 1.&nbsp; First you should configure and register the <a href="https://msdn.microsoft.com/en-us/library/hh546460.aspx" target="_blank">MTM Controller</a> and <a href="https://msdn.microsoft.com/en-us/library/dd648127.aspx" target="_blank">Agent</a>.
 

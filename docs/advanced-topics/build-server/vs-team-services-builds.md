@@ -6,21 +6,23 @@ position: 9
 ---
 # VS Team Services/ Azure DevOps Test Execution #
 
-**VS Team Services** supports integration with external command line utility where <a href="/features/test-runners/artoftest-runner" target="_blank">**ArtOfTest.Runner.exe**</a> could be plugged in.
+**VS Team Services** supports integration with external command line utility where <a href="/features/test-runners/artoftest-runner" target="_blank">**ArtOfTest.Runner.exe**</a> could be plugged in to execute the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests.
 
-1.&nbsp; Create a new plain **build definition**: 
+The below steps will guide you through the process how to implement the Test Studio tests execution in VS Team Services builds.
+
+1.&nbsp; Create a new plain **build definition**:
 
 ![Empty Build Definition][1]
 
-2.&nbsp; Choose **default agent queue** on the next step of creation: 
+2.&nbsp; Choose **default agent queue** on the next step of creation:
 
 ![Default Agent Queue][2]
 
-3.&nbsp; Add a **build step**: 
+3.&nbsp; Add a **build step**:
 
 ![Add a build step][3]
 
-4.&nbsp; Choose **Utility** from the catalog on the left and select a **Command line step**: 
+4.&nbsp; Choose **Utility** from the catalog on the left and select a **Command line step**:
 
 ![Command line build step][4]
 
@@ -30,21 +32,21 @@ position: 9
 
 > As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
-When you choose to save the step you could rename it with a meaningful to you name. 
+When you choose to save the step you could rename it with a meaningful to you name.
 
 ![Save and Rename CLI step][6]
 
-6.&nbsp; An agent should be configured and **mandatory run in interactive mode**. Further details how to download, install and configure the agent could be found <a href="https://www.visualstudio.com/en-us/docs/build/admin/agents/v2-windows" target="_blank">**here**</a>. 
+6.&nbsp; An agent should be configured and **mandatory run in interactive mode**. Further details how to download, install and configure the agent could be found <a href="https://www.visualstudio.com/en-us/docs/build/admin/agents/v2-windows" target="_blank">**here**</a>.
 
-Once the agent is successfully installed run it in interactive mode. It will be available in the **Agents Queues** view in the VS Team Services under the Default queue and will be marked green in case it is up and running or red in case the agent could not be detected.   
+Once the agent is successfully installed run it in interactive mode. It will be available in the **Agents Queues** view in the VS Team Services under the Default queue and will be marked green in case it is up and running or red in case the agent could not be detected.
 
 ![Agents Queue][9]
 
-7.&nbsp; Back in VS Team Services **queue a new build** for the newly created CLI step: 
+7.&nbsp; Back in VS Team Services **queue a new build** for the newly created CLI step:
 
 ![Queue a build for the CLI step][7]
 
-8.&nbsp; The build should now successfully **start the ArtOfTest.Runner** and execute the tests or test lists from the provided arguments. 
+8.&nbsp; The build should now successfully **start the ArtOfTest.Runner** and execute the tests or test lists from the provided arguments.
 
 ![Build succeeded][8]
 

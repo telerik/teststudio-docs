@@ -5,9 +5,9 @@ description: "Integrate Test Studio tests in Jenkins continuous integration. Exe
 previous_url: /user-guide/command-line-test-execution/continuous-integration/jenkins_ci.aspx, /user-guide/command-line-test-execution/continuous-integration/jenkins_ci
 position: 2
 ---
-#Jenkins CI#
+# Jenkins CI
 
-Build and execute Test Studio tests in Jenkins CI by following these steps:
+Build and execute <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests in Jenkins CI by following these steps:
 
 1.&nbsp; **Install the Java Web Archive (.war) for Jenkins CI**. Test Studio tests should not be run from a Windows Service account. Because the Windows native package for Jenkins CI runs as a Windows Service, Test Studio requires the Java Web Archive version to run properly.
 

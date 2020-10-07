@@ -3,7 +3,7 @@ title: Gather Performance Data
 page_title: Gather Performance Data
 description: "Gather Performance Data from performance test run in Test Studio."
 previous_url: /user-guide/performance/gather-performance-data.aspx, /user-guide/performance/gather-performance-data
-position: 2
+position: 1
 ---
 # Gather Performance Data
 

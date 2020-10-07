@@ -6,7 +6,7 @@ position: 10
 ---
 # Execute Test Studio Tests with VSTestConsole.exe #
 
-To be able to execute Test Studio tests with the Visual Studio default test runner there are few requirements to set in advance. These are described below:
+To be able to execute <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests with the Visual Studio default test runner there are few requirements to set in advance. These are described below:
 
 1.&nbsp; Start the **VS Developer Command Prompt** with Admin privilege.
 

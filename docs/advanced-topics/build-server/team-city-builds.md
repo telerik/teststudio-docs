@@ -5,13 +5,17 @@ description: "Integrate Test Studio tests in TeamCity continuous integration. Ex
 previous_url: /user-guide/command-line-test-execution/continuous-integration/teamcity.aspx, /user-guide/command-line-test-execution/continuous-integration/teamcity
 position: 2
 ---
-# TeamCity Test Execution #
+# TeamCity Test Execution
 
-## TeamCity installation ##
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> test project can be integrated in continuous integration environment using TeamCity server.
+
+The below steps will guide you through the necessary TeamCity project adjustments to execute tests or test lists from a Test Studio project.
+
+## TeamCity Installation
 
 There are no specifics in installation of the TeamCity server. To be able to execute automated tests that include Windows and Browser interactions it is necessary to run build agent from command line.
 
-## Run the build agent ##
+## Run the Build Agent
 
 The build agent **have** to be started in a **console mode**. To complete that follow these steps:
 
@@ -21,9 +25,9 @@ The build agent **have** to be started in a **console mode**. To complete that f
 
 3.&nbsp; Change to the bin folder you just located.
 
-4.&nbsp; Enter 'agent start'. 
+4.&nbsp; Enter 'agent start'.
 
-## Configure TeamCity project ##
+## Configure TeamCity Project to Execute Test Studio Tests
 
 1.&nbsp; Create new project
 

@@ -4,9 +4,11 @@ page_title: TFS 2017 Test Execution
 description: "Integrate Test Studio tests in TFS 2017 continuous integration. Execute Test Studio tests with TFS 2017 build."
 position: 9
 ---
-#TFS 2017 Builds Test Execution#
+# TFS 2017 Builds Test Execution
 
-**TFS 2017** supports integration with external command line utility where <a href="/features/test-runners/artoftest-runner" target="_blank">**ArtOfTest.Runner.exe**</a> could be plugged in.
+**TFS 2017** supports integration with external command line utility where <a href="/features/test-runners/artoftest-runner" target="_blank">**ArtOfTest.Runner.exe**</a> could be plugged in to execute the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests.
+
+The below steps will guide you through the process how to implement the Test Studio tests execution in TFS 2017 builds.
 
 1.&nbsp; Create a new **build definition**:
 

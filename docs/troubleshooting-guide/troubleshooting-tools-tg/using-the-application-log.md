@@ -1,7 +1,7 @@
 ---
 title: Using the Application Log
 page_title: Using the Test Studio Application Log
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Using the Test Studio Application Log. How helps me the Test Studio application log. What errors can be identified in the Test Studio Application Log. "
 previous_url: /user-guide/troubleshooting_guide/troubleshooting_tools/using_the_application_log.aspx, /user-guide/troubleshooting_guide/troubleshooting_tools/using_the_application_log
 position: 1
 ---
@@ -9,7 +9,7 @@ position: 1
 
 **What is the application log?**
 
-The application log is a record of log messages recorded by Test Studio throughout runtime. These errors are designed to indicate important events and help pinpoint where problems may occur. This is distinct from the execution log, which only records the attempted steps and encountered exceptions during test execution.
+The <a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> application log is a record of log messages recorded by Test Studio throughout runtime. All records in the application log, are designed to indicate important events and help pinpoint where problems may occur. This is distinct from the execution log, which only records the attempted steps and encountered exceptions during test execution.
 
 **When to turn on the application log?**
 

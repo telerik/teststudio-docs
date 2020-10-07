@@ -1,11 +1,15 @@
 ---
 title: Connect Project to TFS
-page_title: Connect Project to TFS
+page_title: Connect Test Studio Project to TFS
 description: "Connect Test Studio Project to TFS"
 previous_url: /features/source-control/connect-to-tfs
 position: 2
 ---
 # Connect Project to TFS
+
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> provides built-in integration with TFS source control.
+
+The below steps guide you through the actions to connect a project to a TFS source control repository.
 
 1.&nbsp; Open a project in Test Studio Standalone version.
 

@@ -7,6 +7,10 @@ position: 2
 ---
 # Open TFS-Controlled Project
 
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> provides built-in integration with TFS source control.
+
+The below steps guide you how to open a project, which is stored in the TFS server and create a local copy of it on your hard drive.
+
 1.&nbsp; Launch Test Studio and click the **Open** button in the **Source Control** ribbon.
 
 ![Connect][1]

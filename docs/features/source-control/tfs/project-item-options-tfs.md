@@ -7,7 +7,9 @@ position: 2
 ---
 # TFS Project Item Options
 
-There are five Source Control specific options when you right click on a project item that is connected to TFS and hover over **Source Control**.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> provides built-in integration with TFS source control.
+
+In order to maintain the source controlled project, there are 5 Source Control specific options when you right click on a project item, which is connected to TFS, and hover over **Source Control**.
 
 ![Source Control][1]
 
@@ -16,6 +18,5 @@ There are five Source Control specific options when you right click on a project
 - **Get Latest** - obtain the current copy of the selected project item from Source Control.
 - **Revert to Server Version** - undo changes made to the selected project item since check-out. If applied to Settings.aiis file the project will be reloaded. 
 - **Disconnect from Source Control** - disconnects the selected item from Source Control.
-
 
 [1]: /img/features/source-control/project-item-options/fig1.png

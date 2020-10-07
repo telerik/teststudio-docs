@@ -1,10 +1,13 @@
 ---
 title: Bamboo
-page_title: Bamboo 
+
+page_title: Bamboo Test Studio Tests Integration
 description: "Integrate Test Studio tests in bamboo continuous integration. Execute Test Studio tests with Bamboo"
 position: 8
 ---
-# Executing Test Studio tests with Bamboo
+# Executing Test Studio Tests with Bamboo
+
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> test project can be integrated in continuous integration environment using Bamboo server.
 
 **Using the ArtOfTest.Runner.exe**
 
@@ -24,7 +27,7 @@ In order to use ArtOfTestRunner.exe for executing your tests you will need to de
 
 ![Add new command task][3]
 
-First step is to add new executable, it's path should be path to the Test Studio runner (ArtOfTest.Runner.exe).  **Default location of ArtOfTest.Runner.exe is "C:\Program Files (x86)\Progress\Test Studio\Bin"**
+First step is to add new executable, it's path should be path to the Test Studio runner (ArtOfTest.Runner.exe). **Default location of ArtOfTest.Runner.exe is "C:\Program Files (x86)\Progress\Test Studio\Bin".**
 
 ![Add new executable][4]
 
@@ -48,9 +51,10 @@ test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} jun
 
 ![New script task][6]
 
->This step is needed, because Bamboo JUnit parser can't parse files encoded in UTF-8-BOM
->Reference: 
-https://confluence.atlassian.com/bamkb/junit-parser-failing-to-find-or-parse-test-results-935372076.html
+> This step is needed, because Bamboo JUnit parser can't parse files encoded in UTF-8-BOM. <br>
+><br>
+> Reference on the topic can be found <a href="https://confluence.atlassian.com/bamkb/junit-parser-failing-to-find-or-parse-test-results-935372076.html
+" target="_blank">here</a>.
 
 Source of the script:
 
@@ -65,7 +69,6 @@ Foreach-Object {
     [System.IO.File]::WriteAllLines($_.FullName, $MyFile, $Utf8NoBomEncoding)
 }
 ```
-
 
 Save the script in desired location.
 Add following Environment variable to the task:
