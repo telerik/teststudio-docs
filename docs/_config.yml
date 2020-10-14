@@ -103,7 +103,7 @@ navigation:
         title: "Analyze the Test Results"
         position: 4
     automated-tests/troubleshooting:
-        title: "Trubleshoot a Failing Test"
+        title: "Troubleshoot a Failing Test"
         position: 5
     automated-tests/elements:
         title: "Elements in Test Studio"
