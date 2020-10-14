@@ -1,7 +1,7 @@
 ---
 title: Add A Test To The Project
 page_title: Add A Test To The Project
-description: "Test Studio add a new test into a test project. How to add and record a test in Test Studio. Load test wpf test manual test web test"
+description: "Test Studio add a new test into a test project. How to add and record a test in Test Studio. Load test WPF test manual test web test"
 position: 1
 ---
 # Add A Test To The Project (Standalone)
