@@ -6,7 +6,7 @@ position: 6
 ---
 # View Execution Status
 
-The Execution Status view allows you to verify the state of the current project and whether it is connected to a configured Scheduling setup, or is running locally. The view provides additional details for the available Execution machines.
+The Execution Status view allows you to verify the state of the current project and whether it is connected to a <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured Scheduling setup</a>, or is running locally. For remotely connected projects, you can find additional details for <a href="#remotely-connected-project">the Test Studio services state</a> and the <a href="#list-of-execution-servers">currently registered Execution machines</a>.
 
 ## Execution Status View Window
 

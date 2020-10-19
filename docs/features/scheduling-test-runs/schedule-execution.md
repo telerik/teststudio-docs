@@ -7,9 +7,7 @@ previous_url: /user-guide/scheduling-test-runs/schedule-test-execution.aspx, /us
 ---
 # Schedule Test List Execution
 
-Once you've correctly <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">configured</a> a Scheduling Server and you've attached at least one <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Server</a> to it, you can proceed with scheduling a test list run.
-
-<br/>
+Once you have <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured your Scheduling setup</a> with at least one execution machine connected and your current <a href="/features/scheduling-test-runs/connect-to-scheduling-server#schedule-tests-on-remote-execution-machines" target="_blank">project is connected to the Scheduling service</a>, you can proceed with scheduling test lists remotely.
 
 ## Scheduling Test List Steps
 

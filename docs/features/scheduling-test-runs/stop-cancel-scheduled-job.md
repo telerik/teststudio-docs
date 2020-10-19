@@ -6,9 +6,13 @@ position: 10
 ---
 # Stop or Cancel a Scheduled Job
 
-There are a few ways to stop or cancel a scheduled job once it has been submitted.
+Once you have <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured your Scheduling setup</a> with at least one execution machine connected and your current <a href="/features/scheduling-test-runs/connect-to-scheduling-server#schedule-tests-on-remote-execution-machines" target="_blank">project is connected to the Scheduling service</a>, you can proceed with <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduling test lists</a>.
 
-1.&nbsp; In the Results tab when you hover over a scheduled job, a small X button appears. After clicking that Test Studio will prompt you for deleting the scheduled job.
+If a test list is scheduled to be executed any time in the future or you is set for recurring runs, you may need to cancel the upcoming execution. There are a few ways to stop or cancel a scheduled job, once it has been submitted.
+
+## Delete an Upcoming Scheduled Test List from Calendar
+
+In the Results tab when you hover over a scheduled job, a small X button appears. After clicking that Test Studio will prompt you for deleting the scheduled job.
 
 <table id="no-table">
 <tr>
@@ -17,7 +21,9 @@ There are a few ways to stop or cancel a scheduled job once it has been submitte
 </tr>
 <table>
 
-2.&nbsp; The scheduled job is actually a file on the disk on the machine which is hosting the scheduling server. Just find and delete the file.
+## Delete the Physical File That Represents the Scheduled Job
+
+The scheduled job is actually a file on the disk on the machine which is hosting the scheduling server. Just find and delete the file.
 
 - If you are running it locally, it will be located by default at **C:\Users\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** 
 
@@ -29,7 +35,9 @@ There are a few ways to stop or cancel a scheduled job once it has been submitte
 
    	**C:\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** for 64-bit machines.
 
-3.&nbsp; The service itself is a REST Web Service. If you are familiar with <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler's</a> Composer tab you can send a delete call to **http://<yourserver>:8009/Jobs/<jobId>**. In order to get the job ID, send a GET request to **http://<yourserver>:8009/Jobs/**
+## Use REST Web Service to Delete a Scheduled Job
+
+The Scheduling communication uses a REST Web Service. If you are familiar with <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler's</a> Composer tab you can send a delete call to **http://<yourserver>:8009/Jobs/<jobId>**. In order to get the job ID, send a GET request to **http://<yourserver>:8009/Jobs/**
 
 ![GET Request][3]
 

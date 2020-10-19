@@ -6,11 +6,11 @@ position: 7
 ---
 # Run List Remotely
 
-Once you've correctly configured a Scheduling Server and you've attached at least one Execution Server to it, you can proceed with executing a test run remotely.
+Once you have <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured your Scheduling setup</a> with at least one execution machine connected and your current <a href="/features/scheduling-test-runs/connect-to-scheduling-server#schedule-tests-on-remote-execution-machines" target="_blank">project is connected to the Scheduling service</a>, you can proceed with executing test lists remotely.
 
-## Schedule Test List Execution
+## Trigger Test List Execution on Remote Execution Machine
 
-1.&nbsp; Open the **Test Lists** tab. If you have not created a test list, add one by clicking the **List** button in the **Add** ribbon. Add at least one test to it.
+1.&nbsp; Open the **Test Lists** tab. If you have not created a <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test list</a>, add one by clicking the **List** button in the **Add** ribbon. Add at least one test to it.
 
 2.&nbsp; Once you have a test list, you can run it remotely. Click **Run List Remotely** in the **Execution** ribbon.
 
