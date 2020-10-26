@@ -1,12 +1,123 @@
 ---
-title: Local Data Driven Test
-page_title: Local Data Driven Test
+title: Data Driven Test with Built-in Data
+page_title: Data Driven Test with Built-in Data
 description: "Test Studio can use built-in data source for each test. Data drive/ Parameterize a test with Internal data source in Test Studio"
-previous_url: /user-guide/data-driven-testing/local-data-driven-test.aspx, /user-guide/data-driven-testing/local-data-driven-test
 position: 1
 ---
-# Local Data Driven Test
+# Get Started with Data Driven Testing
 
+This approach of testing is useful for a test scenario with certain actions and verifications, which need to be repeated multiple times.
+
+## What Test Scenario Can Be Data Driven?
+
+The easiest answer is that each scenario can be data driven. Test Studio allows you to use data source values for both input fields and verifications. For example, if you need to perform the same actions against an application, but using multiple different users, you can data drive the login input information.
+
+The test scenario described below navigates to the Telerik page and enters different product names in the _Search_ field. If using the common testing approach, you will end up with a test with a separate step to enter the product names.
+
+![common-testing-approach](/img/automated-tests/data-drive-test/local-data-driven-test/common-testing-approach.png)
+
+The same scenario can be fully covered if the three steps related to the search action are reused with the help of data driven testing approach.
+
+## How To Data Drive the Test?
+
+Let's start by adding a new web test into your project.
+
+### Record the Steps to Data Drive
+
+Choose a browser to use and navigate to the Telerik page to start the recording session. Record the actions to click on the _Search_ icon in the top navigation bar, enter 'Test Studio' in the _Search_ field and click on the _Search_ button.
+
+![record-search-actions](/img/automated-tests/data-drive-test/local-data-driven-test/record-search-actions.png)
+
+To ensure that the search was correctly performed, it is recommended to add a step, which waits until the first item of the results list contains the searched product name.
+
+> __Tip__
+><br>
+><br>
+> You can read additional details on wait steps and wait for text from image in particular, in the referred articles.
+
+__add links__ 
+
+Once all necessary steps are added to the test, you can close the browser to finish the recording session.
+
+### Prepare the Data Source
+
+At the bottom of the test steps pane in the project you will see an additional tab named _'Local Data'_. Click this one to switch to the built-in data table.
+
+![switch-to-local-data](/img/automated-tests/data-drive-test/local-data-driven-test/switch-to-local-data.png)
+
+The default view of the local data allows you to create a table specifying the number of columns and rows you need. For the current scenario we need a single column and three rows.
+
+![create-data-table](/img/automated-tests/data-drive-test/local-data-driven-test/create-data-table.png)
+
+You can rename the column name to correspond to the data, which it contains - 'productName' for this scenario.
+
+![rename-column](/img/automated-tests/data-drive-test/local-data-driven-test/rename-column.png)
+
+Enter the names of the different products in each row of the column.
+
+![add-data](/img/automated-tests/data-drive-test/local-data-driven-test/add-data.png)
+
+> __Tip__
+><br>
+><br>
+> Read <a href="/features/data-driven-testing/manage-local-data" target="_blank">here how you can modify the built-in data table</a>.
+
+### Bind the Data to the Test Steps
+
+Now that you have the data entered in the built-in table, you can bind the values to the test steps. First, switch back to the steps view by clicking the _Test steps_ tab at the bottom of the test steps pane.
+
+![switch-to-test-steps](/img/automated-tests/data-drive-test/local-data-driven-test/switch-to-test-steps.png)
+
+Click on the _Enter text_ step (number 3. for the current scenario) and open the _Properties pane_. The _Bindings_ property is the first in the list. To open the fields for this step, which can be bound to use data values, click the three dots button at the right side of the _Bindings_ property.
+
+![enter-text-properties](/img/automated-tests/data-drive-test/local-data-driven-test/enter-text-properties.png)
+
+> __Note__
+><br>
+><br>
+> Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can be on different location within your project.
+
+The _Enter text_ step allows only its _Text_ field to be data driven and, thus, it is the only one listed. Click on the dropdown next to it to expand the data source columns list. In our scenario there is a single column in the list - the _productName_, so select this one.
+
+![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
+
+To confirm the selection and close the _Properties pane_, click on the _Set_ button.
+
+![set-binding](/img/automated-tests/data-drive-test/local-data-driven-test/set-binding.png)
+
+Apply the same sequence of steps for the wait step added to verify that the search actions is completed successfully. The difference is that the field to bind in the step properties is named _TextToMatch_.
+
+![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
+
+> __Note__
+><br>
+><br>
+> All _actions_ steps in Test Studio __scrolls their target element to top of the page__ by default. This is a step property called ___ScrollToVisibleType___, which can be modified from the _Properties_ pane.
+><br>
+>For the particular case you need to __adjust the mentioned property to scroll the elements to center__, because the Telerik page has a static header and the _Search_ text field and button, otherwise, gets scrolled under it - thus the actual actions cannot be successfully performed.
+
+__add links__ 
+
+### Execute the Data Driven Test
+
+Now that the test is set up to take data from the built-in data table, you can see the two data bound steps showing the column these are connected to. And it can be executed to check what the run looks like - hit the _Execute_ button and choose a browser for the execution.
+
+![execute-data-driven-test](/img/automated-tests/data-drive-test/local-data-driven-test/execute-data-driven-test.png)
+
+Observing the test run, you will see that the 5 steps recorded in the test will be executed three times in a row. The difference for each of these iterations will be the product name entered in the _Search_ field and it corresponds to each of the products listed in the data table.
+
+Once the test run finishes, you will see the quick execution results populated in the _Test Pane_. The results for each iteration are listed separately and you can switch between these from the _Iterations_ dropdown.
+
+![iterations-dropdown](/img/automated-tests/data-drive-test/local-data-driven-test/iterations-dropdown.png)
+
+__add links to other interesting scenarios__ 
+
+add external data source
+data drive a step in code
+multi level tests
+
+
+__==============old stufff===================__
 Let's create a new, Local Data Driven test. We'll go through five iterations of the test, each with a different search text.
 
 1.Create a new Web Test and click Record.
@@ -145,3 +256,5 @@ Let's create a new, Local Data Driven test. We'll go through five iterations of 
 [21]: /img/features/data-driven-testing/local-data-driven-test/fig21.png
 [22]: /img/features/data-driven-testing/local-data-driven-test/fig22.png
 [23]: /img/features/data-driven-testing/local-data-driven-test/fig23.png
+
+[101]: /img/automated-tests/data-drive-test/local-data-driven-test/common-testing-approach.png

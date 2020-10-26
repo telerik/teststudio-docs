@@ -2,7 +2,7 @@
 title: Attach Columns to Input Values
 page_title: Attach Columns to Input Values
 description: "How to set the values from the data source to be used in the test steps in Test Studio. Set a column from the data source/excel/csv/database for a enter text step in Test Studio. Parameterize the test in Test Studio. Parameterize the values selected from a drop down/ the values entered in a form"
-
+previous_url: /user-guide/data-driven-testing/attach-columns-to-input-values.aspx, /user-guide/data-driven-testing/attach-columns-to-input-values
 position: 4
 ---
 # Attach Columns to Input Values

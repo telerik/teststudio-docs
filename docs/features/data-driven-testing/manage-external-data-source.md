@@ -7,6 +7,12 @@ position: 2
 ---
 # Manage an External Data Source
 
+> When adding an external data file to your project, a copy of that file is placed in your project's Data folder. This is from where the file is accessed and any changes should be made to the file in this location.
+
+The default path in Windows 7 is:
+
+- **C:\Users\User\Documents\Test Studio Projects\Project Name\Data**
+
 When Test Studio add a data source, it actually makes a copy of the file in the **Project\Data folder**. You can directly edit it in that folder or you can easily manage it in Test Studio.
 
 1. Click **Manage** button to open the data source manage dialog.

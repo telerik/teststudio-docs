@@ -6,41 +6,45 @@ position: 0
 ---
 # Welcome Screen
 
-The Welcome Screen is displayed immediately after launching Test Studio.
+Once you have successfully <a href="/getting-started/first-project#add-a-test-to-the-project" target="_blank">activated a license</a> for your Test Studio installation, launching the product lands to the Test Studio Welcome Screen. It lets you create or choose among recent projects, provides access to getting-started samples and tutorials, software version and available updates.
 
-It lets you access or create projects, getting started samples for the product, guided tutorials and notification about software updates.
+These resources are divided in few different tabs. Below you can find additional details for each separate tab:
+
+1. [Project Tab](#project-tab)
+2. [Get Started Tab](#get-started)
+3. [Software Update Tab](#software-update)
 
 ## Project Tab
 
-In this section you can choose whether to create a new project or load an existing one - listed in the Recent Projects list, or browse the local disk, or connect to source control (Git or TFS) and clone a project repository.
+In the _Project_ section of the Welcome screen you can choose whether to create a new project or start an existing one - choose from the _Recent Projects_ list, or browse the local disk folders, or connect to source control (Git or TFS) and clone a project repository.
 
 ![Project Tab][1]
 
 ### Create a New Project
 
-Choose the location on disk where to create a new project and enter its name.
+Choose the location on disk where to create a new project and enter its name. The default project folder is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. If you want to use another one, browse to it, confirm the folder selction and then enter name for the new project.
 
 ![Create Project][2]
 
 ### Open Existing Project
 
-To open an existing project you can choose whether to open an existing local project or connect to source control and clone a project from a remote repository, or use the *Recent projects* list, which shows the recently opened projects, displaying their name and full physical path.
+You can choose an existing project to open from the *Recent projects* list - it shows the recently opened projects, displaying their name and full physical path. You can also browse to a local folder on disc, which contains a Test Studio project, or connect to source control and clone a project from a remote repository.
 
 ![Open Existing Project][4]
 
-### Add Tests to Your Project
+### Adjust the Test Studio Layout
 
-Once the test project is created you can start <a href="/getting-started/first-project#add-a-test-to-the-project" target="_blank">adding tests</a>.
+Once the test project is opened you can <a href ="/automated-tests/customize-project/custom-layout" target="_blank">adjust the layout of Test Studio</a> to fit you best.
 
-## Get Started
+## Get Started Tab
 
 The *Get Started* section provides access to the demo project and the interactive in-product tutorials to guide you through the Test Studio tool.
 
 ![Get Started][5]
 
-## Software Update
+## Software Update Tab
 
-Under this section you can find information about the installed version of Test Studio, activation and update notifications.
+Under the _Software Update_ section you can find information about the installed version of Test Studio, activated license key and update notifications.
 
 ![Software Update][6]
 
@@ -50,15 +54,15 @@ This section displays your currently installed version number.
 
 **Activation Key**
 
-This section displays the mode of your license key (Trial or Licensed) and the option to Deactivate an active license. This is used to run one license of Test Studio across multiple machines. Please see our KB article on <a href ="/knowledge-base/activation-kb/swap-license" target="_blank">Swapping a License</a> for more information.
+This section displays the mode of your license key - Trial or Licensed, and provides the option to _Deactivate_ an active license. This option is useful if you need to <a href ="/knowledge-base/activation-kb/swap-license" target="_blank">swap the Test Studio license</a> between different machines.
 
 **Update And Update Notifications**
 
-This section displays options to <a href="/getting-started/installation/check-for-updates" target="_blank">check for updates</a>.
+This section offers different ways to check when a new version is published - you can use the _Check for Updates_ button for an instant check, or enable the check on startup. More thorough description about the <a href="/getting-started/installation/check-for-updates" target="_blank">check for updates</a> can be found in the referred article.
 
 ## Newsfeed
 
-As of release **R1 2018 (v.2018.1.301)** once Test Studio is launched you will see the *Newsfeed* section in the Welcome Screen. It will inform you for any important news related to the product, will share new blog posts in regards Test Studio features and capabilities. Its content is live updated and requires Internet connection.
+The *Newsfeed* section in the Welcome Screen informs you for any important news related to the product, links to new blog posts in regards Test Studio features and capabilities. Its content is live updated and requires Internet connection.
 
 ![Newsfeed][7]
 

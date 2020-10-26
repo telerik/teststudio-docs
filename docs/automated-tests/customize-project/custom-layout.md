@@ -2,48 +2,71 @@
 title: Customize Test Studio Layout
 page_title: Customize Test Studio Layout
 description: "Customize Test Studio Layout. Where is the Properties/ Step Builder/ Elements explorer/ Project Explorer panel in Test Studio"
-position: 0
+position: 1
 ---
 # Customize Test Studio's Layout
 
-Since the release of the R1 2015, Test Studio provides the ability to customize the layout. You can reorder the default layout (the Compact layout) and customize it for your own needs and personal preferences.
+Test Studio's layout can be customized to fit your particular needs and personal preferences. You can reorder all of the panes manually or choose from the predefined  default layouts.
+
+The default layout, in which Test Studio starts, is the _Compact_ layout.
 
 ![default layout][1]
 
-You have some preset layouts such as Compact (default), High Productivity and Advanced.
+## Predefined Layouts
+
+The available preset layouts will rearrange the panes in the Test Studio project to focus the attention on certain tools. These are the Compact (default), High Productivity and Advanced layouts.
 
 ![preset layouts][2]
 
-If you would like to create a Custom layout and rearrange some of the panes you simply click on the Undock button ![undock][3] and select preferred position for the dock where to appear (top, bottom, left or right).
+## Manual Adjustment of the Layout
 
-![choose position][4]
+Almost all the <a href="/getting-started/first-project#test-studio-project-layout" target="_blank">panels in the Test Studio project</a> can be moved and pinned on different place in the project area.
 
-> You can also use drag and drop in order to rearrange panes.
+### Dock or Undock Panel
 
-If you choose the center (see below):
+To customize the view of the panes, you can use the _Dock/Undock_ button available in the upper right corner of the panels.
 
-![choose center][5]
+![undock][3]
 
-the pane will appear as a tab:
+The _Undock_ will detach the pane from its original position and will display it as a separate window. This window can be dragged and dropped in the project area to be placed on another location. To help you choose the preferred position relative to the target panel, there is a circle with directions - top, bottom, left, right and center.
 
-![tabs][6]
+![choose panel position][4]
 
-Using the pin button ![pin][7] will auto hide the pane, and it will appear as a tab on the side, and you can call the pane when hover over with the mouse.
+There are also arrows available in the right, left and bottom of the Test Studio window.
+
+![choose window position][4a]
+
+If you choose the center of the target panel, the undocked one will appear as a tab next to the target one.
+
+<table id=no-table>
+	<tr>
+		<td>![choose center][5]</td>
+		<td>![tabs][6]</td>
+	</tr>
+<table>
+
+### Hide or Show Panel
+
+If you want to hide a panel from the project working area, you can use the _Pin_ button available in the upper right corner of the panels. This will auto hide the panel and will this will appear as a tab on the left or right side of the Test Studio window. Hover over the mouse cursor over this side tab and the pane will popup.
 
 ![auto hide][8]
 
-Once you are done with your custom layout, do not miss to click Save Custom Layout from the dropdown.
+### Save Customized Layout
+
+Use the _Save Custom Layout_ option in the Layout dropdown to save your custom changes.
 
 ![save custom][9]
 
-> In case you would like to reset to the default layout you simply need to select Compact from the layout dropdown.
-
-
+> __Tip__
+><br>
+><br>
+> If you want to __reset the default layout__, select the _Compact_ option from the Layout dropdown.
 
 [1]: /img/features/custom-layout/fig1.png
 [2]: /img/features/custom-layout/fig2.png
 [3]: /img/features/custom-layout/fig3.png
 [4]: /img/features/custom-layout/fig4.png
+[4a]: /img/features/custom-layout/fig4a.png
 [5]: /img/features/custom-layout/fig5.png
 [6]: /img/features/custom-layout/fig6.png
 [7]: /img/features/custom-layout/fig7.png

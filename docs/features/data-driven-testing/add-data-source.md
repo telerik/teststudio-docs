@@ -2,18 +2,11 @@
 title: Add a Data Source
 page_title: Add an External Data Source to your Test Project
 description: "How to add Excel/ CSV/ SQL Oracle DataBase/ external data source into a Test Studio project. How to add the data source for data driven test in Test Studio"
-previous_url: /user-guide/data-driven-testing/add-a-data-source.aspx, /user-guide/data-driven-testing/add-a-data-source
 position: 2
 ---
 # Add an External Data Source To Your Test Project
 
-> When adding an external data file to your project, a copy of that file is placed in your project's Data folder. This is from where the file is accessed and any changes should be made to the file in this location.
-
-The default path in Windows 7 is:
-
-- **C:\Users\User\Documents\Test Studio Projects\Project Name\Data**
-
-Jump to the following sections:
+Test Studio supports multiple external data types to be used as a source for data driven testing. Below in this article you can find a list of the supported data files and how to reference these in a Test Studio project.
 
 - [Excel spreadsheet](#add-an-excel-spreadsheet)
 - [XML file](#add-an-xml-file)
@@ -22,7 +15,7 @@ Jump to the following sections:
 
 ## Add an Excel Spreadsheet
 
-It is important to note that the entries in the first row of the Excel spreadsheet are used as the column names when attaching columns to the inputs.
+When preparing the Excel data sheet, consider that the first row of the Excel spreadsheet is used to define the column names when binding data to the steps.
 
 ![Excel][1]
 

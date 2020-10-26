@@ -2,7 +2,7 @@
 title: Test List Results
 page_title: Test List Results
 description: "Analyze the results of a data driven/ parameterized test in Test Studio test list/suite run."
-
+previous_url: /user-guide/data-driven-testing/data-driven-test-list-results.aspx, /user-guide/data-driven-testing/data-driven-test-list-results
 position: 5
 ---
 # Test List Results

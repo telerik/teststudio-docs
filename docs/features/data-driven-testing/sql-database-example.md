@@ -2,7 +2,7 @@
 title: SQL Database Example
 page_title: SQL Database Example
 description: "How to add SQL database as data source in Test Studio project/test."
-
+previous_url: /user-guide/data-driven-testing/add-a-data-source/databaseexample.aspx, /user-guide/data-driven-testing/add-a-data-source/databaseexample
 position: 10
 ---
 # SQL Database Example
