@@ -10,30 +10,26 @@ Data Driven Testing is a testing methodology, in which the same sequence of test
 
 Test Studio supports data driven testing with both built-in data source or an external one. There are few different types of external data sources compatible with Test Studio and among these are Excel and SQL database.
 
-## Get Started with the Data Driven Test
+## Get Started with Data Driven Testing
 
-To get familiar with the capabilities of the data driven testing approach and how Test Studio handles it, you can start with a simple test to search different products in the Telerik site. <a href="/automated-tests/data-drive-test/local-data-driven-test" target="_blank">Here is a step-by-step tutorial</a> for building such test.
+To get familiar with the capabilities of the data driven testing approach and how Test Studio handles it, you can start with this __<a href="/automated-tests/data-drive-test/local-data-driven-test" target="_blank">step-by-step tutorial</a>__ to prepare a sample test to data drive.
 
-## go on with more complex scenario 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+## Choose an External Data Source for Data Driven Testing
 
-- [Local Data Source](/features/data-driven-testing/local-data-driven-test)
+Test Studio allows you to use different type of data sources within a project. Here is a list of the supported types:
+
 - [Excel spreadsheet](/features/data-driven-testing/add-data-source#add-an-excel-spreadsheet)
 - [XML file](/features/data-driven-testing/add-data-source#add-an-xml-file)
 - [CSV file](/features/data-driven-testing/add-data-source#add-a-csv-file)
 - [SQL database](/features/data-driven-testing/add-data-source#add-a-database-source)
 
- 
+> __Tip__
+><br>
+><br>
+> You can follow the <a href="/automated-tests/data-drive-test/external-data-driven-test" target="_blank">steps in this article</a> to __data drive a test using an external source by your choice__.
 
-Create an external data driven test by following these steps:
+## Combine Tests Executed as Steps with the Data Driven Methodology
 
-1. [Add a data source to your test project](/features/data-driven-testing/add-data-source) - select from where to get the data.
-1. [Bind the data source to your test](/features/data-driven-testing/bind-test-data-source)- since you may have multiple data source definitions in your test project, you need to bind your data driven test to a specific data source.
-1. [Attach the data source columns to input values](/features/data-driven-testing/attach-columns-input-values) - connect the inputs of your test  to specific columns of the data source.
-1. [Attach the data source columns to verifications](/features/data-driven-testing/attach-columns-verifications) - connect the expected values of verifications to specific columns of the data source
+Test Studio encourages the reuse of common tests by providing the option to execute tests as steps. Any of the "parent" test, or the one used as step - "child" test, can be data driven.
+
+What possible combinations there are and what execution outcome you can expect from these? You can read an <a href="/automated-tests/data-drive-test/multi-level-tests" target="_blank">article on the topic</a>, which describes the options in details.

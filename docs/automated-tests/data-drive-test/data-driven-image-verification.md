@@ -4,7 +4,7 @@ page_title: Data Driven Image Verification
 description: "Is there a way to data drive an image verification in Test Studio test?"
 position: 12
 ---
-# Data Driven Image Verification #
+# Data Driven Image Verification 
 
 To data bind an <a href="/features/recorder/verifications/image-verification" target="_blank">image verification</a> step certain actions have to be performed. An approach to this scenario is to have previously stored histograms of the image element to which verification should be bonded. Then in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> the verification has to be managed as it is given in the sample below:
 
