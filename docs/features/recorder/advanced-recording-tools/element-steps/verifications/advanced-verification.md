@@ -1,10 +1,10 @@
 ---
 title: Advanced Verification
-page_title: Create Advanced Test Verifications
-description: "Create Advanced Test Verifications in Test Studio test. Verify an element's attribute in Test Studio test"
+page_title: Create Advanced Verifications
+description: "Create Advanced Verifications in Test Studio test. Verify an element's attribute in Test Studio test"
 position: 6
 ---
-# Create Advanced Test Verifications
+# Create Advanced Verifications
 
 An advanced verification allows you to interactively build verification rules and validate them against a live web document or WPF application.
 

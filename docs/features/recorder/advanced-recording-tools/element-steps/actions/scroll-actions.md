@@ -8,7 +8,7 @@ position: 1
 
 Scroll action steps will help you get the target element visible on the screen. This can help improve the stability of test execution in certain scenario, which require the element to be visible. There are three different steps that will automatically scroll the application under test and leave the target element in different position on the screen.
 
-1.&nbsp;Select an element from the <a href="/getting-started/test-recording/overview" target="_blank">DOM Explorer</a>.
+1.&nbsp;Select an element from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a>.
 
 2.&nbsp;Choose the scroll action you want to add.
 

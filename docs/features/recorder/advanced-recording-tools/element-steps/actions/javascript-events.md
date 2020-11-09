@@ -8,7 +8,7 @@ position: 2
 
 Test Studio allows you to invoke JavaScript events directly against the selected element. There are many built in events to choose from and add to your test.
 
-1.&nbsp;Select an element from the <a href="/getting-started/test-recording/overview" target="_blank">DOM Explorer</a>.
+1.&nbsp;Select an element from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a>.
 
 2.&nbsp;Choose the JavaScript event you want to add.
 

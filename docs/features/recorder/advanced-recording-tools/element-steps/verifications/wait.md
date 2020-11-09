@@ -30,8 +30,8 @@ You can create a Wait step in the same manner as a <a href="/features/recorder/a
 
 __See Also...__
 
-* <a href="/features/recorder/verifications/quick-verification" target="_blank">Quick verification</a>
-* <a href="/features/recorder/verifications/advanced-verification" target="_blank">Advanced verification</a>
+* <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">Quick verification</a>
+* <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">Advanced verification</a>
 
 [1]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/wait/fig1.png
 [2]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/wait/fig2.png

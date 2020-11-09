@@ -7,8 +7,6 @@ position: 0
 
 # Add a Custom Step from Step Builder #
 
-## Test Studio 2015 R1 (v.2015.1.319) and Later ##
-
 The Recording Surface can help build a wide range of automation and verification quickly and without having to resort to manual configuration. However, there are some steps that need to be added manually.
 
 The Step Builder on project level can also be used to build steps against already recorded elements in the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.

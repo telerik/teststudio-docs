@@ -13,7 +13,11 @@ In this section you will learn in details about all features of the Test Studio 
 
 ## Start Recording ##
 
-There are two ways to initiate recording. You can either launch a new browser or WPF app instance with the compact recording toolbar attached, or you can attach the compact recording toolbar to an existing instance (applicable for IE only or WPF application). To stop the recording session, close the browser or WPF application.
+There are two ways to initiate recording. You can either launch a new browser or WPF app instance with the compact recording toolbar attached, or you can attach the compact recording toolbar to an existing instance (applicable for IE only or WPF application). 
+
+> **Note**
+>
+> To stop the recording session, close the browser or WPF application.
 
 ### Launch New Recording ###
 
@@ -30,7 +34,7 @@ There are two ways to initiate recording. You can either launch a new browser or
 
 ![Choose browser][3]
 
-If you enable **Save my choice for the future** or set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a> the **Record** button will display the icon for the selected browser.
+If you enable **Save my choice for the future** or set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a> the **Record** button will display the icon for the selected browser.
 
 ![Choose preferred browser][4]
 

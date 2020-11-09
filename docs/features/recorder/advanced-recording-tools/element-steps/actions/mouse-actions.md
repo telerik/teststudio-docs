@@ -14,7 +14,7 @@ Each step comes with a **Description** and **Location** sections to help you add
 >
 > The only exception is the <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">Drag&Drop</a> step, which need a target element instead of location. 
 
-1.&nbsp;Select an element from the <a href="/getting-started/test-recording/overview" target="_blank">DOM Explorer</a>.
+1.&nbsp;Select an element from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a>.
 
 2.&nbsp;Choose the mouse action you want to add.
 

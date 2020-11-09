@@ -6,7 +6,7 @@ position: 3
 ---
 # Drag and Drop
 
-1.&nbsp;Select the element you want to drag from the <a href="/getting-started/test-recording/overview" target="_blank">DOM Explorer</a>.
+1.&nbsp;Select the element you want to drag from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a>.
 
 2.&nbsp;Select **DragDrop** from the available mouse actions and click the **Pick** button.
 
