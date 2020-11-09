@@ -11,7 +11,20 @@ position: 0
 
 The Recording Surface can help build a wide range of automation and verification quickly and without having to resort to manual configuration. However, there are some steps that need to be added manually.
 
-As of version 2015 R1 you can find the custom steps in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> under General section.
+The Step Builder on project level can also be used to build steps against already recorded elements in the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
+
+1.&nbsp; Click the **Step Builder** tab in the lower right corner.
+
+2.&nbsp; The **Step Builder** pane appears. Now select an element from the Elements Explorer to see the suggested action and verification steps for it.
+
+3.&nbsp; Select the action, verification or general step you want to create and click **Add Step** button.
+
+<table id="no-table">
+	<tr>
+		<td>![TS][3] <br><br>**Standalone version**</td>
+		<td>![VS][4] <br><br>**Visual Studio plugin**</td>
+	</tr>
+<table>
 
 ## Web ##
 
@@ -29,28 +42,6 @@ As of version 2015 R1 you can find the custom steps in the <a href="/getting-sta
 		<td>![TS][7] <br><br>**Standalone version**</td>
 		<td>![VS][6] <br><br>**VS plugin**</td>
 	</tr>
-<table>
-
-## Test Studio 2014 R4 (v.2014.4.1211) and Earlier ##
-
-The Recording Surface can help build a wide range of automation and verification quickly and without having to resort to manual configuration. However, there are some steps that need to be added manually. For these, use the "**Add**" ribbon in the Standalone version and the "**Add**" button in Visual Studio.
-
-### Web ###
-
-<table id="no-table">
-<tr>
-	<td>![Web Standalone Version][1] <br> Standalone Version</td>
-	<td>![VS Plugin][2] <br> VS Plugin</td>
-</tr>
-<table>
-
-### WPF ###
-
-<table id="no-table">
-<tr>
-	<td>![Web Standalone Version][3] <br> Standalone Version</td>
-	<td>![VS Plugin][4] <br> VS Plugin</td>
-</tr>
 <table>
 
 1. [Test as Step](/features/custom-steps/test-as-step) - run an existing test as a single step.
@@ -71,8 +62,6 @@ entire desktop.
 1. [Manual Step](/features/custom-steps/manual-step) - display a dialog box to enter directions for a manual step.
 1. [Change Window State](/features/custom-steps/change-window-state) - alter the state of the **WPF** application window. 
 
-[1]: /img/features/custom-steps/overview/fig1.png
-[2]: /img/features/custom-steps/overview/fig2.png
 [3]: /img/features/custom-steps/overview/fig3.png
 [4]: /img/features/custom-steps/overview/fig4.png
 [5]: /img/features/custom-steps/overview/fig5.png

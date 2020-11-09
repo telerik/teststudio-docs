@@ -2,7 +2,7 @@
 title: Predefined Elements
 page_title: Predefined Elements
 description: "Create your automated tests in Test Studio, while the application you will be testing, is still in development and does not yet have its UI elements."
-position: 4
+position: 5
 ---
 # Predefined Elements
 

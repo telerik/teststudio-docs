@@ -1,59 +1,19 @@
 ---
-title: Overview
-page_title: Recording Overview
-description: "Test Studio test Recording. Record a test in Test Studio. Launch new browser to record a test. Can I start recording from certain point in my application. Can I attach Test Studio to a running browser or application"
+title: Test Recording Overview
+page_title: Test Recording Overview
+description: "Test Studio test Recording codeless. Record a test in Test Studio without writing code. Launch new browser to record a test. Can I start recording from certain point in my application. Can I attach Test Studio to a running browser or application. Codeless test automation with Test Studio."
 position: 0
 ---
 # Test Recording #
 
-> Once a recording session is started **do not start another instance of the same browser** until the session is finished! 
+The **Test Recording** is one of the main features of Test Studio. It allows you to capture your actions automatically without writing any code. You can also add the necessary verification steps to help you automate the test scenario. 
 
-There are two ways to initiate recording. You can either launch a new browser instance with the recording toolbar attached, or you can attach the recording toolbar to an existing browser instance (applicable for IE only or WPF application).
+## Start Recording ##
 
-## **2016 R3 Version and Later** ##
+You can start recording your tests, by clicking the Record button. This will open a new instance of the browser or WPF application with the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> attached to it. When you want to stop the recording session, simply close the browser or WPF application.
 
-## Launch New Recording Browser ##
+1.&nbsp;  Double click the test to open it. Click the **Record** button in the **Tests** tab or press **CTRL+R**.
 
-1.&nbsp;  Double click the newly created test to open it. Click the ***Record*** button in the *Tests* ribbon or press **CTRL+R**.
-
-<table id=no-table>
-	<tr>
-		<td>![Test Studio][10] <br><br>**Standalone version**</td>
-		<td>![VS][11] <br><br>**VS plugin**</td>
-	</tr>
-<table>
-
-2.&nbsp; In the next dialog type the URL you want to navigate to, select the recording browser and press Enter or the *Record* button. You can choose a URL from your recent URLs.
-
-> **Note**: Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
-
-![Choose browser][12]
-
-If you enable **Save my choice for the future** or you have set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a> the ***Record*** button in the Test Studio project will display the icon for the selected default browser.
-
-![Choose preferred browser][13]
-
-3.&nbsp; Once the selected browser navigates to the desired page, the recorder gets attached to it, a navigate step gets recorded in the Steps pane and you can continue recording the next actions as per the required scenario.
-
-![Attached recorder][14]
-
-## Attach to Existing Instance (Applicable for IE Only or WPF Application) ##
-
-Click the drop-down arrow on the ***Record*** button to see a list of available IE browser instances or WPF applications. Select one to attach the recorder to that instance.
-
-<table id=no-table>
-	<tr>
-		<td>![Attach to running browser][15] <br><br>**Web Test - Internet Explorer only**</td>
-		<td>![Attach to running WPF instance][16] <br><br>**WPF Test - connect to running WPF application instance**</td>
-	</tr>
-<table>
-
-## **2016 R2 Version and Earlier** ##
-
-## Launch New Recording Browser ##
-
-1.&nbsp; Click the __Record__ button or press __CTRL+R__.
-	
 <table id=no-table>
 	<tr>
 		<td>![Test Studio][1] <br><br>**Standalone version**</td>
@@ -61,48 +21,41 @@ Click the drop-down arrow on the ***Record*** button to see a list of available 
 	</tr>
 <table>
 
-2.&nbsp; Choose the recording browser.
+2.&nbsp; In the next dialog type the URL you want to navigate to, select the recording browser and press Enter or the *Record* button in that window. You can choose a URL from your recent URLs.
+
+> **Note**
+> <br>
+> Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
 ![Choose browser][3]
 
-Note: As of the 2014.4.1211 version Safari cannot be used for test recording.
+If you enable **Save my choice for the future** or you have set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a> the **Record** button in the Test Studio project will display the icon for the selected default browser.
 
-If you enable __Save my choice for the future__, the Record button in <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> Standalone will display the icon for the default browser.
+![Choose preferred browser][4]
 
-![Choose browser][4]
+3.&nbsp; Once the selected browser navigates to the desired page or the WPF application is started, the recorder gets attached to it. A navigate step is recorded in the Steps pane and you can continue recording the next actions as per the required scenario.
 
-You can select a different recording browser later from the __Record__ button drop-down.
+![Attached recorder][5]
 
-<table id="no-table">
-	<tr>
-		<td>![Test Studio][5] <br><br>**Standalone version**</td>
-		<td>![VS][6] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+> **Note**
+> <br>
+> Once a recording session is started **do not start another instance of the same browser** until the session is finished!
 
-3.&nbsp; Enter a URL and press Enter/Start Recording button. A recording step is added to the Steps pane and the recorder is attached to the browser.
+## Compact Recorder ##
 
-![Start recording][7]
+Once you have started a recording session, you will see the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> attached to the browser or WPF application. You can move it on the screen freely  You can use the **Compact Recording Toolbar** to explore the application under test's structure, add actions, verifications and common steps for your test scenario.
 
-![Attaching the recorder][8]
+![Compact recording toolbar][6]
 
-## Attach to Existing Instance ##
-
-Click the drop-down arrow on the __Record__ button to see a list of available browser instances or WPF applications. Select one to attach the recorder to that instance.
-
-![Attaching the recorder][9]
-
-> You cannot connect to an existing Silverlight Out-of-Browser application for Out-of-Browser tests.
-
-To end recording, simply close the IE window or WPF application that has the recording toolbar attached
-
-4.&nbsp; **Compare Mode** determines which mode to use when adding a page node to the Elements Explorer. Compare Mode can be checked against the page's Title or one of multiple settings that look at various parts of a URL. Please see <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">this article</a> for more information.
-
-![CompareMode][13]
+* Enable/Disable hover over highlighting to annotate the elements that you hover over. You will see the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Elements Menu</a> pop-up with multiple options.
+* Pause/Resume recording button allows you to pause or resume the recording. When it is paused, your actions against the application under test will not be added to the test.
+* Show/Hide the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">Advanced Recording Tools</a>, where you can explore the DOM tree and add more types of steps against a specific element.
+* Switch the orientation of the **Compact Recording Toolbar** between vertical and horizontal.
 
 ## See also ##
 
 * <a href="/features/project-settings/browsers" target="_blank">Calibrate Browsers</a>
+* <a href="/features/recorder/test-recording" target="_blank">Recording Features</a>
 
 [1]: /img/general-information/test-recording/overview/fig1.png
 [2]: /img/general-information/test-recording/overview/fig2.png
@@ -110,14 +63,3 @@ To end recording, simply close the IE window or WPF application that has the rec
 [4]: /img/general-information/test-recording/overview/fig4.png
 [5]: /img/general-information/test-recording/overview/fig5.png
 [6]: /img/general-information/test-recording/overview/fig6.png
-[7]: /img/general-information/test-recording/overview/fig7.png
-[8]: /img/general-information/test-recording/overview/fig8.png
-[9]: /img/general-information/test-recording/overview/fig9.png
-[13]: /img/general-information/test-execution/quick-execution/fig13.png
-[10]: /img/general-information/test-recording/overview/fig10.png
-[11]: /img/general-information/test-recording/overview/fig11.png
-[12]: /img/general-information/test-recording/overview/fig12.png
-[13]: /img/general-information/test-recording/overview/fig13.png
-[14]: /img/general-information/test-recording/overview/fig14.png
-[15]: /img/general-information/test-recording/overview/fig15.png
-[16]: /img/general-information/test-recording/overview/fig15a.png

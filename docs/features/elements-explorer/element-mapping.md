@@ -2,7 +2,7 @@
 title: Elements Mapping (IntelliMap)
 page_title: Elements Mapping (IntelliMap)
 description: "Elements Mappting in Test Studio. I have predefined elements in a mockup application - how to map these to the actual application in Test Studio"
-position: 5
+position: 6
 ---
 # Elements Mapping (IntelliMap)
 
