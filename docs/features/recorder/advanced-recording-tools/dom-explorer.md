@@ -6,7 +6,7 @@ position: 1
 ---
 # DOM Explorer
 
-The DOM (Document Object Model) is a language neutral and platform independent abstraction that allows the content, structure and style of HTML pages to be updated dynamically. The DOM Explorer displays the DOM in a tree or tag format where you see all elements of a page at one time. The DOM Explorer is helpful with a complex page when simply using the mouse and <a hre="/teststudio/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">hover over highlighting</a> may not be enough to find the element you are looking for. The DOM Explorer typically shows the HTML page as the parent element, with *HEAD* and *BODY* elements forming the next level. The elements we are testing are usually within the *BODY* element.
+The DOM (Document Object Model) is a language neutral and platform independent abstraction that allows the content, structure and style of HTML pages to be updated dynamically. The DOM Explorer displays the DOM in a tree or tag format where you see all elements of a page at one time. The DOM Explorer is helpful with a complex page when simply using the mouse and <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">hover over highlighting</a> may not be enough to find the element you are looking for. The DOM Explorer typically shows the HTML page as the parent element, with *HEAD* and *BODY* elements forming the next level. The elements we are testing are usually within the *BODY* element.
 
 ![DOM][1]
 

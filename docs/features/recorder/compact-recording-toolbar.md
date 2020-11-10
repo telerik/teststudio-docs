@@ -30,7 +30,7 @@ Enable/Disable Hover Over Highlighting from the **Compact Recording Toolbar**. W
 
 ![Add to Elements][5]
 
-- **Locate in DOM** - opens the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a> in the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">Advanced Recording Tools</a> and selects the highlighted element.
+- **Locate in DOM** - opens the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer in the __Advanced Recording Tools__</a> and selects the highlighted element.
 
 ![Locate in DOM][6]
 
@@ -54,7 +54,7 @@ When in paused mode, you will see the **Record** button to activate the recordin
 
 ## Advanced Recording Tools ##
 
-Show or hide the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">**Advanced Recording Tools**</a>. You can explore the DOM tree, create element or common steps and control the browser. Please find more details in the section **Advanced Recording Tools** of the documentation.
+Show or hide the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">**Advanced Recording Tools**</a> window - it allows you to explore the DOM tree, create element or common steps and control the browser. Check the section **Advanced Recording Tools** of the documentation for more details.
 
 ![Show Advanced Recording Tools][10]
 ![Advanced Recording Tools][11]

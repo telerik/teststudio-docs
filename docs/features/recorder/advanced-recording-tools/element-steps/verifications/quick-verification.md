@@ -6,8 +6,6 @@ position: 2
 ---
 # Add a Quick Verification #
 
-Add a Quick Verification
-
 The easiest and fastest way to add a verification to your test is through the Quick Tasks menu.
 
 1.&nbsp; Create a Web Test and click Record.

@@ -34,7 +34,7 @@ There are two ways to initiate recording. You can either launch a new browser or
 
 ![Choose browser][3]
 
-If you enable **Save my choice for the future** or set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a> the **Record** button will display the icon for the selected browser.
+If you enable **Save my choice for the future** or set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a> the **Record** button will display the icon for the selected browser.
 
 ![Choose preferred browser][4]
 
@@ -46,7 +46,7 @@ If you enable **Save my choice for the future** or set a preferred browser from 
 > <br>
 > Once a recording session is started **do not start another instance of the same browser or WPF application** until the session is finished!
 
-### Attach to Existing Instance (Applicable for IR or WPF Application) ###
+### Attach to Existing Instance (Applicable for IE or WPF Application) ###
 
 Click the drop-down arrow on the **Record** button to see a list of available IE browser instances or WPF applications. Select one to attach the recorder to that instance.
 
