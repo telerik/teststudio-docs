@@ -31,7 +31,8 @@ The available settings are divided in few areas:
 - <a href="/features/project-settings/find-logic" target="_blank">Find Logic (Html) Settings</a>
 - <a href="/features/project-settings/script-options" target="_blank">Script Project Settings</a>
 - <a href="/features/project-settings/translators" target="_blank">Translators Project Settings</a>
-- <a href="/features/project-settings/analytics" target="_blank">Analytics Product SettingsProduct Settings</a>
+- <a href="/features/project-settings/analytics" target="_blank">Analytics Product Settings</a>
+- <a href="/features/project-settings/theme" target="_blank">Theme Settings</a>
 - <a href="/features/project-settings/updates" target="_blank">Updates (Visual Studio only)</a>
 
 [1]: /img/features/project-settings/overview/fig1.png
