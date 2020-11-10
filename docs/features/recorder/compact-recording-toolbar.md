@@ -14,7 +14,7 @@ The **Compact Recording Toolbar** is designed to maximize functionality and mini
 
 ![Enable Highlighting Button][2]
 
-Enable/Disable Hover Over Highlighting from the **Compact Recording Toolbar**. When the mouse pauses over a highlighted element in the recording surface, you will see the context menu with multiple options. This rich menu makes it easy to work with the recording surface and its elements. It provides quick access to relevant functions right in the page or application you are testing.
+Enable/Disable Hover Over Highlighting from the **Compact Recording Toolbar**. When the mouse pauses over a highlighted element in the recording surface, you will see the elements menu with multiple options. This rich menu makes it easy to work with the recording surface and its elements. It provides quick access to relevant functions right in the page or application you are testing.
 
 ![Context Menu][3]
 

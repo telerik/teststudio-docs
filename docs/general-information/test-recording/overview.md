@@ -25,11 +25,11 @@ You can start recording your tests, by clicking the Record button. This will ope
 
 > **Note**
 > <br>
-> Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+> Selecting the recording browser will be skipped if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a>.
 
 ![Choose browser][3]
 
-If you enable **Save my choice for the future** or you have set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a> the **Record** button in the Test Studio project will display the icon for the selected default browser.
+If you enable **Save my choice for the future** or you have set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a> the **Record** button in the Test Studio project will display the icon for the selected default browser.
 
 ![Choose preferred browser][4]
 

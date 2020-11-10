@@ -4,13 +4,13 @@ page_title: Translators
 description: "Test Studio translators for the Telerik controls. "
 position: 7
 ---
-#Translators#
+# Translators #
 
 The party that best understands the internals of a component is the party that built it. The Telerik extensibility model allows third party web component vendors to encapsulate deep knowledge of component internals to share with their customers.
 
 * Translators are extensions that open up an element to work with Test Studio.
 * A translator describes the actions of an element that can be automated and verifications that can be performed.
-* Translators allow interaction with the Test Studio user interface including the <a href="/features/elements-menu/overview" target="_blank">Elements Menu</a> and <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
+* Translators allow interaction with the Test Studio user interface including the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Elements Menu</a> and <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
 * Test Studio ships with basic translators for HTML, Silverlight and WPF, and translators built specifically for __Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular, Blazor__.
 * Test Studio was built with extensibility in mind, so as additional controls become available, new translators can be plugged in.
 * Telerik is committed to maintaining translators in step with Telerik controls changes, so you can expect the translators to always be up-to-date.

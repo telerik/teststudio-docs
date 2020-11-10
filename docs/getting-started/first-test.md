@@ -53,7 +53,7 @@ Test Studio allows you to easily record the steps of an automated scenario with 
 
     ![Choose browser](/img/getting-started/first-project/fig05.png)
 
-    > **Note!** Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+    > **Note!** Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a>.
 
 3. Once the selected browser navigates to the desired page, the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> gets attached to it. A navigate step is recorded in the *Steps* pane and you can continue recording the next actions as per the required scenario.
 
