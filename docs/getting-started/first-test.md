@@ -61,9 +61,9 @@ Test Studio allows you to easily record the steps of an automated scenario with 
     > **Note**
     ><br>
     ><br>
-    > Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+    > Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a>.
 
-3. Once the selected browser navigates to the desired page, the recorder gets attached to it. A navigate step is recorded in the *Steps* pane and you can continue recording the next actions as per the required scenario.
+3. Once the selected browser navigates to the desired page, the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> gets attached to it. A navigate step is recorded in the *Steps* pane and you can continue recording the next actions as per the required scenario.
 
     ![Attached recorder](/img/getting-started/first-project/fig06.png)
 
@@ -78,22 +78,21 @@ Test Studio allows you to easily record the steps of an automated scenario with 
 
 5. To exit the recording session, close the browser with the attached Recording toolbar.
 
-## Recording Toolbar
+## Compact Recording Toolbar
 
-Following the above steps, you noticed that starting the recording session attached the __Test Studio Recording Toolbar__ to the browser selected for test recording. Let's check what options provides the __Recording Toolbar__.
+Following the above steps, you noticed that starting the recording session attached the __Test Studio Compact Recording Toolbar__ to the browser selected for test recording. Let's check what options provides the __Compact Recording Toolbar__.
 
-![Recorder attached to the browser](/img/general-information/test-recording/recording-toolbar/fig1.png)
+![Recorder attached to the browser](/img/general-information/test-recording/overview/fig5.png)
 
-The <a href="/general-information/test-recording/recording-toolbar" target="_blank">__Recording Toolbar__</a> is a useful tool, which allows you to extend the recording experience and add specific steps in between recording actions against the application.
+The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Compact Recording Toolbar__</a> is a useful tool, which allows you to extend the recording experience and add specific steps in between recording actions against the application.
 
-![Recording Toolbar](/img/getting-started/first-project/recording-toolbar.png)
+![Recording Toolbar](/img/getting-started/first-project/compact-recording-toolbar.png)
 
-* __Highlight Element__ - one of the most useful features is the <a href="/features/recorder/overview" target="_blank">Element Highlighting and the menu</a> with Quick steps to add.
-* __Recording State__ - there is a *Pause* button in case you need to perform any actions against the application, but don't need to record these.
-* __Page Navigation__ - the __Recording Toolbar__ has its own buttons to navigate through the browsed pages so far or to connect to a new page. Using these utilities will also add steps to the selected test.
-* __DOM Explorer__ - the DOM Explorer displays the application's DOM in a tree format and you can explore all its elements at one time.
-* __Pause Auto-refresh for DOM Tree__ - the DOM tree gets auto-refreshed by any change in the page. For certain pages with dynamic content, it is useful to be able to pause the auto-refresh.
-* __Step Builder__ - the __Recording Toolbar__ allows you to choose among different type of steps,  depending on the selected element from the DOM Explorer, and directly add these to the selected test.
+1. __Highlight Element__ - one of the most useful features is the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Hover Over Highlighting and the menu</a> with Quick steps to add.
+2. __Recording State__ - there is a *Pause* button in case you need to perform any actions against the application, but don't need to record these.
+3. __Advanced Recording Tools__ - open the Advanced Recording Tools window to explore the DOM tree of the application and add more steps and verifications.
+4. __Rotate Compact Recording Toolbar__ - change the orientation of the Compact Recording Toolbar between vertical and horizontal. You can move it anywhere in the browser/WPF application.
+5. __Link to Documentation__ - follow the link to our documentation specifically for the recording process.
 
 <br><br>
 <br><br>

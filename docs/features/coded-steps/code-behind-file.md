@@ -44,7 +44,7 @@ The code-behind file is nested under the parent test in Solution Explorer:
 
 ## Code Editor in Standalone Version ##
 
-The code editor in version 2019 R3 and later has a Quick Find and Quick Replace features to make it easier to navigate and maintain your code. You can open it from the Find icon in the top bar, or standard CTRL+F and CTRL+R shortcuts. 
+The code editor in version 2019 R3 and later has a Quick Find and Quick Replace features to make it easier to navigate and maintain your code. You can open it from the Find icon in the top bar, or standard CTRL+F shortcut. 
 
 The search and replace functionality is against the file that is currently open.
 

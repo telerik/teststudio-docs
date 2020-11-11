@@ -1,11 +1,11 @@
 ---
 title: Execution on Locked Machine
 page_title: Execution on Locked Machine
-description: Test Script Execution on Locked Machine. If disconnect from and/or lock the machine that acts as Execution Server, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling - UnsupportedNonInteractiveOperationException
+description: "Test Script Execution on Locked Machine. If disconnect from and/or lock the machine that acts as Execution Server, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling - UnsupportedNonInteractiveOperationException. Test Studio test run with error SendInput: Failed. Win32Error" 
 previous_url: /user-guide/knowledge-base/test-execution/no-tests-execute-on-locked-machine.aspx, /user-guide/knowledge-base/test-execution/no-tests-execute-on-locked-machine
 position: 1
 ---
-#No Tests Execute on Locked Machine#
+# No Tests Execute on Locked Machine #
 
 ## Problem ##
 

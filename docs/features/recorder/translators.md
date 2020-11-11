@@ -2,16 +2,15 @@
 title: Translators
 page_title: Translators
 description: "Test Studio translators for the Telerik controls. "
-previous_url: /user-guide/recording-tests/translators.aspx, /user-guide/recording-tests/translators
-position: 1
+position: 7
 ---
-#Translators#
+# Translators #
 
 The party that best understands the internals of a component is the party that built it. The Telerik extensibility model allows third party web component vendors to encapsulate deep knowledge of component internals to share with their customers.
 
 * Translators are extensions that open up an element to work with Test Studio.
 * A translator describes the actions of an element that can be automated and verifications that can be performed.
-* Translators allow interaction with the Test Studio user interface including the <a href="/features/elements-menu/overview" target="_blank">Elements Menu</a> and <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
+* Translators allow interaction with the Test Studio user interface including the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Elements Menu</a> and <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
 * Test Studio ships with basic translators for HTML, Silverlight and WPF, and translators built specifically for __Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular, Blazor__.
 * Test Studio was built with extensibility in mind, so as additional controls become available, new translators can be plugged in.
 * Telerik is committed to maintaining translators in step with Telerik controls changes, so you can expect the translators to always be up-to-date.
@@ -35,5 +34,5 @@ Test Studio comes with translators for HTML, Silverlight, and WPF and translator
 
 __See Also:__ You can find additional information on Kendo Translators in our blog post <a href="https://www.telerik.com/blogs/automated-testing-of-kendo-ui-made-easy" target="_blank">__Automated Testing for Kendo UI Made Easy__</a>.
 
-[1]: /img/general-information/test-recording/translators/fig1.png
-[2]: /img/general-information/test-recording/translators/fig2.png
+[1]: /img/features/recorder/translators/fig1.png
+[2]: /img/features/recorder/translators/fig2.png

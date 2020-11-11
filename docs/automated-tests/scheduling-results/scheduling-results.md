@@ -1,14 +1,16 @@
 ---
 title: Scheduling Results
 page_title: Scheduling Results
-description: "Test Studio results from scheduled test runs. Scheduling Results Scheduling calendar. "
+description: "Test Studio results from scheduled test runs. Scheduling Results. Scheduling calendar. "
 position: 9
 ---
 # Scheduling Results
 
+Now that there is a configured Scheduling setup and a test list is executed <a href="/features/scheduling-test-runs/run-list-remotely" target="_blank">remotely</a>, or <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduled</a>, the generated results will be displayed in the <a href="/general-information/test-results/calendar" target="_blank">Results tab</a> in Test Studio.
+
 ## Reload From Server
 
-After the scheduled test list runs on the Execution server(s), you can update the Calendar in Test Studio and view the results.
+After the scheduled test list runs on the Execution server(s), the results will be automatically populated in the Calendar. Alternatively, you can update the results view with the help of the **Reload** button.
 
 1.&nbsp; On the **Results** tab, click the **Reload** button in the **Scheduling Server** ribbon.
 
