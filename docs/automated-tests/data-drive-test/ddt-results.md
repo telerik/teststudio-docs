@@ -109,4 +109,3 @@ Double-click the failing step to open the <a href="/automated-tests/test-results
 Use the _Execution Log_ icon to __open the execution log for the current selected test/iteration__.
 
 ![failed-iteration-execution-log](/img/automated-tests/data-drive-test/ddt-results/failed-iteration-execution-log.png)
-

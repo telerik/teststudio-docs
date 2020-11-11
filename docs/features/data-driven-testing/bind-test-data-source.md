@@ -18,7 +18,7 @@ Choose a test from the _Project Explorer_ and click the __Bind Test__ button fro
 
 ![choose-test-to-bind](/img/automated-tests/data-drive-test/bind-test-data-source/choose-test-to-bind.png)
 
-The **Bind test to data source** dialog opens. Click the **Select Data Source** drop-down and choose the data source you just defined in the previous section. If your source is an Excel spreadsheet, choose which sheet from the spreadsheet to use. Once you select a sheet, the data from that sheet will be read and displayed in the dialog. Check out that the __first row of the spreadsheet is used to define the column names__.
+The **Bind test to data source** dialog opens with the option to choose a data source. Click the **Select Data Source** drop-down and select the one you have  defined. If your source is an Excel spreadsheet, choose which sheet from the spreadsheet to use. Once you select a sheet, the data from that sheet will be read and displayed in the dialog. Check out that the __first row of the spreadsheet is used to define the column names__.
 
 <table id="no-table">
 <tr>
@@ -38,7 +38,7 @@ The **Bind test to data source** dialog opens. Click the **Select Data Source** 
 
 ## External Data Source Options
 
-Some of the supported type of files to add as external data source allow you to limit the rows of it to use. This is applicable for Excel file or SQL database.
+Some of the supported type of files to add as external data source allow you __to limit the rows__ of it to use. This option is applicable for Excel file or SQL database.
 
 ### Limit the Rows to Use from Excel File
 
@@ -69,7 +69,7 @@ When the external data source is set as desired, click the __OK__ button to bind
 > __Tip__
 ><br>
 ><br>
-> Refer to <a href="/automated-tests/data-drive-test/external-data-driven-test" target="_blank">the end-to-end scenario</a> how to continue with binding the steps to the added data.
+> Check <a href="/features/data-driven-testing/manage-external-data-source" target="_blank">how to modify the external data source</a> after it is referenced in the Test Studio project.
 
 ## Remove Data Binding
 

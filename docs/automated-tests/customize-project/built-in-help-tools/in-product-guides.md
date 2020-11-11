@@ -26,8 +26,8 @@ You can navigate forwards and backwards through the buttons in the popup message
 
 ![Navigate Forwards and Backwards][5]
 
-[1]: /img/general-information/start-a-project/in-product-guides/fig1.png
-[2]: /img/general-information/start-a-project/in-product-guides/fig2.png
-[3]: /img/general-information/start-a-project/in-product-guides/fig3.png
-[4]: /img/general-information/start-a-project/in-product-guides/fig4.png
-[5]: /img/general-information/start-a-project/in-product-guides/fig5.png
+[1]: /img/automated-tests/customize-project/in-product-guides/fig1.png
+[2]: /img/automated-tests/customize-project/in-product-guides/fig2.png
+[3]: /img/automated-tests/customize-project/in-product-guides/fig3.png
+[4]: /img/automated-tests/customize-project/in-product-guides/fig4.png
+[5]: /img/automated-tests/customize-project/in-product-guides/fig5.png

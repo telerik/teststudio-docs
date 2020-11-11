@@ -10,7 +10,7 @@ Have a smooth getting started experience with the guided interactive tutorials b
 
 ## Start a Guided Tutorial
 
-The tutorials to help you get familiar with Test Studio can be started from the Test Studio [**Welcome Screen**](/general-information/start-a-project/welcome-screen#get-started) or from within the product.
+The tutorials to help you get familiar with Test Studio can be started from the Test Studio [**Welcome Screen**](/automated-tests/customize-project/welcome-screen#get-started) or from within the product.
 
 <table id="no-table">
 <tr>
@@ -35,7 +35,7 @@ The message popup keeps information for the upcoming step sequence and allows yo
 
 ![Tutorial Message][4]
 
-[1]: /img/general-information/start-a-project/guided-tutorials/fig1.png
-[2]: /img/general-information/start-a-project/guided-tutorials/fig2.png
-[3]: /img/general-information/start-a-project/guided-tutorials/fig3.png
-[4]: /img/general-information/start-a-project/guided-tutorials/fig4.png
+[1]: /img/automated-tests/customize-project/guided-tutorials/fig1.png
+[2]: /img/automated-tests/customize-project/guided-tutorials/fig2.png
+[3]: /img/automated-tests/customize-project/guided-tutorials/fig3.png
+[4]: /img/automated-tests/customize-project/guided-tutorials/fig4.png

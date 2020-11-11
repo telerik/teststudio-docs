@@ -8,7 +8,7 @@ position: 1
 
 Test Studio provides internal data table, which can be used to data drive a test. A built-in data table is available in each web test and can only be used from this particular test.
 
-This article describes what options there are in Test Studio to maintain the content of the built-in table in order to drive test steps as desired. Follow <a href="/automated-tests/data-drive-test/local-data-driven-test" target="_blank">this link for a complete end-to-end scenario how to data drive a test using the built-in table</a>.
+This article describes what options there are in Test Studio to __maintain the content of the built-in table__ in order to drive test steps as desired. Follow <a href="/automated-tests/data-drive-test/local-data-driven-test" target="_blank">this link for a complete end-to-end scenario how to data drive a test using the built-in table</a>.
 
 ## Open the Local Data in Web Test
 
@@ -45,21 +45,8 @@ Test Studio provides few options to easily modify a data table.
 </tr>
 <table>
 
-[1]: /img/features/data-driven-testing/local-data-driven-test/fig1.png
 [2]: /img/features/data-driven-testing/local-data-driven-test/fig2.png
-[3]: /img/features/data-driven-testing/local-data-driven-test/fig3.png
 [4]: /img/features/data-driven-testing/local-data-driven-test/fig4.png
-[5]: /img/features/data-driven-testing/local-data-driven-test/fig5.png
-[6]: /img/features/data-driven-testing/local-data-driven-test/fig6.png
-[7]: /img/features/data-driven-testing/local-data-driven-test/fig7.png
-[8]: /img/features/data-driven-testing/local-data-driven-test/fig8.png
-[9]: /img/features/data-driven-testing/local-data-driven-test/fig9.png
-[10]: /img/features/data-driven-testing/local-data-driven-test/fig10.png
-[11]: /img/features/data-driven-testing/local-data-driven-test/fig11.png
-[12]: /img/features/data-driven-testing/local-data-driven-test/fig12.png
-[13]: /img/features/data-driven-testing/local-data-driven-test/fig13.png
-[14]: /img/features/data-driven-testing/local-data-driven-test/fig14.png
-[15]: /img/features/data-driven-testing/local-data-driven-test/fig15.png
 [20]: /img/features/data-driven-testing/local-data-driven-test/fig20.png
 [21]: /img/features/data-driven-testing/local-data-driven-test/fig21.png
 [22]: /img/features/data-driven-testing/local-data-driven-test/fig22.png

@@ -10,7 +10,7 @@ This approach of testing is useful for a test scenario with certain actions and 
 
 ## What Test Scenario Can Be Data Driven?
 
-The easiest answer is that each scenario can be data driven. Test Studio allows you to use data source values for both input fields and verifications. For example, if you need to perform the same actions against an application, but using multiple different users, you can data drive the login input information.
+The easiest answer is that each scenario can be data driven. __Test Studio allows you to use data source values for both input fields and verifications__. For example, if you need to perform the same actions against an application, but using multiple different users, you can __data drive the login input information__.
 
 To demonstrate the capabilities of data driven testing, we will use a test scenario, which navigates to the Telerik page and enters different product names in the _Search_ field and checks the outcome of the results. If using the common testing approach, you will end up with a test, which has a separate step to enter the product names and verify the results for each different product.
 
@@ -45,11 +45,11 @@ At the bottom of the test steps pane in the project you will see an additional t
 
 ![switch-to-local-data](/img/automated-tests/data-drive-test/local-data-driven-test/switch-to-local-data.png)
 
-The default view of the local data allows you to create a table specifying the number of columns and rows you need. For the current scenario we need a single column and three rows.
+The default view of the local data allows you to __create a table specifying the number of columns and rows__ you need. For the current scenario we need a single column and three rows.
 
 ![create-data-table](/img/automated-tests/data-drive-test/local-data-driven-test/create-data-table.png)
 
-You can rename the column name to correspond to the data, which it contains - 'productName' for this scenario.
+You can rename the column name to correspond to the data, which it contains - _'productName'_ for this scenario.
 
 ![rename-column](/img/automated-tests/data-drive-test/local-data-driven-test/rename-column.png)
 
@@ -68,7 +68,7 @@ Now that you have the data entered in the built-in table, you can bind the value
 
 ![switch-to-test-steps](/img/automated-tests/data-drive-test/local-data-driven-test/switch-to-test-steps.png)
 
-Click on the _Enter text_ step (number 3. for the current scenario) and open the <a href="/features/test-maintenance/test-step-properties" target="_blank">_Step Properties pane_</a>. The _Bindings_ property is the first in the list. Click the three dots button at its right side to open the fields for this step, which can be bound to use data values.
+Click on the _Enter text_ step (number 3. for the current scenario) and open the <a href="/features/test-maintenance/test-step-properties" target="_blank">_Step Properties pane_</a>. The ___Bindings___ property is the first in the list. Click the three dots button at its right side to open the fields for this step, which can be bound to use data values.
 
 ![enter-text-properties](/img/automated-tests/data-drive-test/local-data-driven-test/enter-text-properties.png)
 
@@ -77,22 +77,20 @@ Click on the _Enter text_ step (number 3. for the current scenario) and open the
 ><br>
 > Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can be on different location within your project.
 
-The _Enter text_ step allows only its _Text_ field to be data driven and, thus, it is the only one listed. Click on the dropdown next to it to expand the data source columns list. In our scenario there is a single column in the list - the _productName_, so select this one.
+The _Enter text_ step allows only its ___Text___ field to be data driven and, thus, it is the only one listed. __Click on the drop-down next to it to expand the data source columns list__. In this scenario there is a single column in the list - the _productName_, so select this one.
 
 ![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
 
-To confirm the selection and close the _Properties pane_, click on the _Set_ button.
+To __confirm the selection__ and close the _Properties pane_, click on the _Set_ button.
 
 ![set-binding](/img/automated-tests/data-drive-test/local-data-driven-test/set-binding.png)
 
 > __Tip__
 ><br>
 ><br>
-> Read <a href="/features/data-driven-testing/manage-local-data" target="_blank">here additional details about how to bind a step to a data source column</a>.
+> Read <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">here additional details about how to bind a step to a data source column</a>.
 
-__add links__ 
-
-Apply the same sequence of steps for the wait step added to verify that the search actions is completed successfully. The difference is that the field to bind in the step properties is named _TextToMatch_.
+__Apply the same sequence of steps for the wait step__ added to verify that the search actions is completed successfully. The difference is that the field to bind in the step properties is named ___TextToMatch___.
 
 ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
 
@@ -111,9 +109,9 @@ Now that the test is set up to take data from the built-in data table, you can s
 
 ![execute-data-driven-test](/img/automated-tests/data-drive-test/local-data-driven-test/execute-data-driven-test.png)
 
-Observing the test run, you will see that the 5 steps recorded in the test will be executed three times in a row. The difference for each of these iterations will be the product name entered in the _Search_ field and it corresponds to each of the products listed in the data table.
+Observing the test run, you will see that the 5 steps recorded in the test will be __executed three times in a row__. The __difference for each of these iterations will be the product name entered in the _Search_ field__ and it corresponds to each of the products listed in the data table.
 
-Once the test run finishes, you will see the quick execution results populated in the _Test Pane_. The results for each iteration are listed separately and you can switch between these from the _Iterations_ dropdown.
+Once the test run finishes, you will see the quick execution results populated in the _Test Pane_. The __results for each iteration are listed separately__ and you can switch between these from the _Iterations_ drop-down.
 
 ![iterations-dropdown](/img/automated-tests/data-drive-test/local-data-driven-test/iterations-dropdown.png)
 
@@ -122,31 +120,9 @@ Once the test run finishes, you will see the quick execution results populated i
 ><br>
 > Find <a href="/automated-tests/data-drive-test/ddt-results#summary-results" target="_blank">here additional details about how to read the results of a data driven test</a>.
 
-__add links to other interesting scenarios__ 
+__Follow the links below for other data driven scenarios:__
 
-add external data source
-data drive a step in code
-multi level tests
-data driven find expression
-
-[1]: /img/features/data-driven-testing/local-data-driven-test/fig1.png
-[2]: /img/features/data-driven-testing/local-data-driven-test/fig2.png
-[3]: /img/features/data-driven-testing/local-data-driven-test/fig3.png
-[4]: /img/features/data-driven-testing/local-data-driven-test/fig4.png
-[5]: /img/features/data-driven-testing/local-data-driven-test/fig5.png
-[6]: /img/features/data-driven-testing/local-data-driven-test/fig6.png
-[7]: /img/features/data-driven-testing/local-data-driven-test/fig7.png
-[8]: /img/features/data-driven-testing/local-data-driven-test/fig8.png
-[9]: /img/features/data-driven-testing/local-data-driven-test/fig9.png
-[10]: /img/features/data-driven-testing/local-data-driven-test/fig10.png
-[11]: /img/features/data-driven-testing/local-data-driven-test/fig11.png
-[12]: /img/features/data-driven-testing/local-data-driven-test/fig12.png
-[13]: /img/features/data-driven-testing/local-data-driven-test/fig13.png
-[14]: /img/features/data-driven-testing/local-data-driven-test/fig14.png
-[15]: /img/features/data-driven-testing/local-data-driven-test/fig15.png
-[20]: /img/features/data-driven-testing/local-data-driven-test/fig20.png
-[21]: /img/features/data-driven-testing/local-data-driven-test/fig21.png
-[22]: /img/features/data-driven-testing/local-data-driven-test/fig22.png
-[23]: /img/features/data-driven-testing/local-data-driven-test/fig23.png
-
-[101]: /img/automated-tests/data-drive-test/local-data-driven-test/common-testing-approach.png
+- <a href="/automated-tests/data-drive-test/external-data-driven-test" target="_blank">Data drive a test using external data source</a>
+- <a href="/automated-tests/data-drive-test/multi-level-tests" target="_blank">Test as steps used with data driven testing</a>
+- <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data drive the find expression of an element in Test Studio</a>
+- <a href="/automated-tests/data-drive-test/data-binding-in-code" target="_blank">Usde data source columns in coded steps</a>

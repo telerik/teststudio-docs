@@ -70,7 +70,7 @@ When the external data source is set as desired, click the __OK__ button to bind
 
 ## Bind the Data to the Test Steps
 
-Once the data source is referenced to the test, you can bind the values to the test steps.Click on the _Enter text_ step (number 3. for the current scenario) and open the <a href="/features/test-maintenance/test-step-properties" target="_blank">_Step Properties pane_</a>. The _Bindings_ property is the first in the list. Click the three dots button at its right side to open the fields for this step, which can be bound to use data values.
+Once the data source is referenced to the test, you can bind the values to the test steps.Click on the _Enter text_ step (number 3. for the current scenario) and open the <a href="/features/test-maintenance/test-step-properties" target="_blank">_Step Properties pane_</a>. The ___Bindings___ property is the first in the list. Click the three dots button at its right side to open the fields for this step, which can be bound to use data values.
 
 ![enter-text-properties](/img/automated-tests/data-drive-test/local-data-driven-test/enter-text-properties.png)
 
@@ -79,7 +79,7 @@ Once the data source is referenced to the test, you can bind the values to the t
 ><br>
 > Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can be on different location within your project.
 
-The _Enter text_ step allows only its _Text_ field to be data driven and, thus, it is the only one listed. Click on the dropdown next to it to expand the data source columns list. In our scenario there is a single column in the list - the _productName_, so select this one.
+The _Enter text_ step allows only its _Text_ field to be data driven and, thus, it is the only one listed. __Click on the dropdown next to it to expand the data source columns list__. In this scenario there is a single column in the list - the _productName_, so select this one.
 
 ![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
 
@@ -92,7 +92,7 @@ To confirm the selection and close the _Properties pane_, click on the _Set_ but
 ><br>
 > Read <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">here additional details about how to bind a step to a data source column</a>.
 
-Apply the same sequence of steps for the wait step added to verify that the search actions is completed successfully. The difference is that the field to bind in the step properties is named _TextToMatch_.
+__Apply the same sequence of steps for the wait step__ added to verify that the search actions is completed successfully. The difference is that the field to bind in the step properties is named _TextToMatch_.
 
 ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
 
@@ -111,9 +111,9 @@ Now that the test is set up to take data from the built-in data table, you can s
 
 ![execute-data-driven-test](/img/automated-tests/data-drive-test/local-data-driven-test/execute-data-driven-test.png)
 
-Observing the test run, you will see that the 5 steps recorded in the test will be executed three times in a row. The difference for each of these iterations will be the product name entered in the _Search_ field and it corresponds to each of the products listed in the data table.
+Observing the test run, you will see that the 5 steps recorded in the test will be __executed three times in a row__. The __difference for each of these iterations will be the product name entered in the _Search_ field__ and it corresponds to each of the products listed in the data table.
 
-Once the test run finishes, you will see the quick execution results populated in the _Test Pane_. The results for each iteration are listed separately and you can switch between these from the _Iterations_ dropdown.
+Once the test run finishes, you will see the quick execution results populated in the _Test Pane_. __The results for each iteration are listed separately__ and you can switch between these from the _Iterations_ drop-down.
 
 ![iterations-dropdown](/img/automated-tests/data-drive-test/local-data-driven-test/iterations-dropdown.png)
 
@@ -122,17 +122,8 @@ Once the test run finishes, you will see the quick execution results populated i
 ><br>
 > Find <a href="/automated-tests/data-drive-test/ddt-results#summary-results" target="_blank">here additional details about how to read the results of a data driven test</a>.
 
-__add links to other interesting scenarios__ 
+__Follow the links below for other data driven scenarios:__
 
-data drive a step in code
-multi level tests
-data driven find expression
-
-[1]: /img/features/data-driven-testing/bind-test-data-source/fig1.png
-[2]: /img/features/data-driven-testing/bind-test-data-source/fig2.png
-[3]: /img/features/data-driven-testing/bind-test-data-source/fig3.png
-[4]: /img/features/data-driven-testing/bind-test-data-source/fig4.png
-[5]: /img/features/data-driven-testing/bind-test-data-source/fig5.png
-[6]: /img/features/data-driven-testing/bind-test-data-source/fig6.png
-[7]: /img/features/data-driven-testing/bind-test-data-source/fig7.png
-[8]: /img/features/data-driven-testing/bind-test-data-source/fig8.png
+- <a href="/automated-tests/data-drive-test/multi-level-tests" target="_blank">Test as steps used with data driven testing</a>
+- <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data drive the find expression of an element in Test Studio</a>
+- <a href="/automated-tests/data-drive-test/data-binding-in-code" target="_blank">Usde data source columns in coded steps</a>

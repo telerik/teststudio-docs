@@ -45,6 +45,11 @@ Ensure the selected type of file is the Excel. Then enter the path to the prepar
 
 ![Create new data source][4]
 
+> __Tip__
+><br>
+><br>
+> Check what options there are to <a href="/features/data-driven-testing/bind-test-data-source#limit-the-rows-to-use-from-excel-file" target="_blank">limit the rows used from the Excel sheet</a> to data drive a test.
+
 ## Add an XML File
 
 In the below section you can read how to prepare the XML file and add it to the Test Studio project.
