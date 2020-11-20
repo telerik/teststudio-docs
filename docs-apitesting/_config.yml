@@ -6,6 +6,10 @@ baseurl: "/teststudio-apis"
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,run.cmd]
 navigation:
+
+# CTA Panels
+has_cta_panels: true
+
 # === Test Studio for APIs ===
     getting-started:
         title: "Getting Started"

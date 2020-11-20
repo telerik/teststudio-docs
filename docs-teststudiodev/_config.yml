@@ -4,6 +4,10 @@ url: "https://docs.telerik.com/devtools/teststudiodev"
 # Exclude files which should not be in the output
 exclude: [README.md, Gemfile, Gemfile.lock, docs-watcher/*]
 navigation:
+
+# CTA Panels
+has_cta_panels: true
+
 ## List your directory names and order here, like this:
     
     prerequisites:
