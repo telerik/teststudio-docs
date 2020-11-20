@@ -10,6 +10,9 @@ productName: "Test Studio Documentation"
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*, docs-watcher/*]
 
+# CTA Panels
+has_cta_panels: true
+
 ## Ignore API directory
 navigation:
 ## Test Studio Documentation Main Nodes:
