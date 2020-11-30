@@ -11,6 +11,10 @@ position: 1
 
 One article with step-by-step quick start guide – what are the first and most important steps in order to have your first viable test from functional point of view (no installation and licensing). The steps will give summarized information about each step. For detailed information there will be links for the respective article from the Features section.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## Create a Test Studio Dev Project
 
 Create a new project using the Test Studio Dev template - select _Create New Test Project_ under the _Telerik->Test Studio_ menu.
