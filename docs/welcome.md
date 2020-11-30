@@ -15,6 +15,7 @@ You’ve been always looking for a test automation tool that really works and yo
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
 
+</br>
 **Test Studio functional testing** allows you to create, run and automate functional tests for Web and WPF applications. Some of our most prominent features are:
 
 * __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a> are proactively supported via Test Studio’s own browser extensions.
