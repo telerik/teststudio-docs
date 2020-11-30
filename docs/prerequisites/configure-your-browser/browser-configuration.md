@@ -9,6 +9,10 @@ position: 0
 
 A specific set of settings is required to prepare a browser for the recording and execution of tests with Test Studio. Some of the browsers also require an extension to be added.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
+
 To ease you in applying these settings, Test Studio provides a built-in approach to <a href="/features/project-settings/browsers" target="_blank">calibrate all supported browsers</a>. Follow the links below for more calibration details about each supported browser and a download link to the particular extension:
 
 - <a href="/prerequisites/configure-your-browser/chrome" target="_blank">Google Chrome</a>

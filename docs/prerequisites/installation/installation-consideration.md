@@ -16,6 +16,10 @@ Before you install Test Studio, make sure that the following requirements are me
 
 - If you plan on running Test Studio test automation on Windows Server OS and use IE, <a href="#configuring-windows-server-for-test-studio-test-automation" target="_blank">turn off the __Windows component Internet Explorer Enhanced Security Configuration__</a>.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
+
 ## Modify the Visual Studio 2017 Installation
 
 Visual Studio 2017 requires an additional feature in its installation to be compatible with the Test Studio plugin for Visual Studio.

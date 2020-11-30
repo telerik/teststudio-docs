@@ -11,6 +11,10 @@ You’ve been always looking for a test automation tool that really works and yo
 
 <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities, you’ll always ensure optimal app quality and deliver outstanding results.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 **Test Studio functional testing** allows you to create, run and automate functional tests for Web and WPF applications. Some of our most prominent features are:
 
 * __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a> are proactively supported via Test Studio’s own browser extensions.
