@@ -36,7 +36,6 @@ Select Recording browser and click **Record**.
 
 Test Studio will navigate to the URL, attach the recorder and enable Highlighting so you can directly highlight the desired element and click on **Select Element** as shown below:
 
-
 ![Select Element][10]
 
 You select the predefined element you would like to map (1) from the Elements section, confirm the find logic (2) and click on Map Element button (3).
