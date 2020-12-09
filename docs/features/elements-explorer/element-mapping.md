@@ -10,11 +10,10 @@ Once your application is ready for testing you can map your <a href="/features/e
 
 <table id="no-table">
 	<tr>
-		<td>!![Element Mapping TS][6] <br><br>**Standalone version**</td>
+		<td>![Element Mapping TS][6] <br><br>**Standalone version**</td>
 		<td>![Element Mapping TS][15] <br><br>**VS plugin**</td>
 	</tr>
 <table>
-
 
 The mapping dialog window appears allowing you to select between a Web or WPF test.
 

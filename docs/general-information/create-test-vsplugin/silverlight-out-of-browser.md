@@ -11,7 +11,7 @@ Test Studio supports Silverlight Out-of-Browser applications and below you can r
 > __Important!__
 ><br>
 ><br>
-> Silverlight Out-of-Browser testing in Test Studio is __hidden starting release R3 SP 2020 (v.2020.3.1209)__. You still can use this in the product until the feature is completely deprecated in the next official R1 2021 release. See <a href="#enable-silverlight-out-of-browser-in-test-studio-2020-r3-sp-release">here</a> how to enable it.
+> As of Test Studio release __R3 2020 SP1 (v.2020.3.1209)__ Silverlight Out-of-Browser testing in Test Studio is no longer visible in the main Test Studio user interface. If you want to continue using it, see <a href="#enable-silverlight-out-of-browser-in-test-studio-2020-r3-sp-release">here</a> how to enable it.
 
 __Important Notes:__
 
