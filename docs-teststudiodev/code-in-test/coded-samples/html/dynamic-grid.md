@@ -85,10 +85,10 @@ In this example we want to check a checkbox but this could be any kind of contro
     checkbox.MouseClick();
     {{endregion}}
 
-[1]: images/html/dynamic-grid/fig1.png
-[2]: images/html/dynamic-grid/fig2.png
-[3]: images/html/dynamic-grid/fig3.png
-[4]: images/html/dynamic-grid/fig4.png
-[5]: images/html/dynamic-grid/fig5.png
+[1]: images/dynamic-grid/fig1.png
+[2]: images/dynamic-grid/fig2.png
+[3]: images/dynamic-grid/fig3.png
+[4]: images/dynamic-grid/fig4.png
+[5]: images/dynamic-grid/fig5.png
 
 
