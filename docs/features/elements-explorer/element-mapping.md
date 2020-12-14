@@ -29,7 +29,7 @@ The mapping dialog window appears allowing you to select between a Web or WPF te
 
 > The example shown here is for a Web test, but for a WPF test the actions are exactly the same.
 
-Select Recording browser and click **Record**. 
+Select Recording browser and click **Record**.
 
 ![Choose Recording Browser][9]
 
