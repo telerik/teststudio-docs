@@ -11,7 +11,11 @@ publish: true
 
 Continuous Integration regularly integrates the individual developer's changes into the main source code control system or repository, performing a new build, verifying the build, and running automated tests against those builds. Continuous integration has many advantages. These include the constant availability of a current build for testing purposes, immediate testing of all changes, and the opportunity for developers to revert the codebase back to a bug-free state when a test fails or a bug is discovered, without wasting time debugging. Learn more about continuous integration at <a href="http://msdn.microsoft.com/en-us/library/ee308011(v=vs.100).aspx">MSDN</a> and Martin Fowler's <a href="http://www.martinfowler.com/articles/continuousIntegration.html">Continuous Integration</a>.
 
-Thanks to its command line interface, Test Studio for APIs can easily be integrated in most famous CI Servers. 
+Thanks to its command line interface, Test Studio for APIs can easily be integrated in most famous CI Servers.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
 
 ## Jenkins Integration
  

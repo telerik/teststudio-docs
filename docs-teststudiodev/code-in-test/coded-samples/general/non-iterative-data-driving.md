@@ -159,4 +159,4 @@ The solution is to save the number of the row into an XML file. Each time you ex
 	End Function
 	{{endregion}}
 
-[1]: images/coded-samples/general/non-iterative-data-driving/fig1.png
+[1]: images/non-iterative-data-driving/fig1.png

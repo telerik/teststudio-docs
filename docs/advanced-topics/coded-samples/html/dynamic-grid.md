@@ -2,7 +2,7 @@
 title: Dynamic Grid
 page_title: Dynamic Grid
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/code-samples/html/dynamic-grid.aspx
+
 position: 1
 ---
 #Automating a Dynamically Generated Grid#
@@ -27,7 +27,7 @@ Now bring up the pop up menu and click on "Add to Elements":
 
 ![Add to project][2]
 
- (Note: adding a generic Grid into Project Elements will be slightly different because highlighting the actual Grid element might not be so easy. You might need to bring up the <a href="/features/recorder/dom-explorer" target="_blank">DOM Explorer</a> and locate and add the Grid from there). 
+ (Note: adding a generic Grid into Project Elements will be slightly different because highlighting the actual Grid element might not be so easy. You might need to bring up the <a href="/features/recorder/dom-explorer" target="_blank">DOM Explorer</a> and locate and add the Grid from there).
 
 Going back to Test Studio, you will notice a new element has appeared in Project Elements and it will be highlighted by a yellow arrow:
 
@@ -87,5 +87,3 @@ checkbox.MouseClick();
 [3]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig3.png
 [4]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig4.png
 [5]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig5.png
-
-

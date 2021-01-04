@@ -6,6 +6,9 @@ baseurl: "/teststudio-apis"
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,run.cmd]
 navigation:
+
+
+
 # === Test Studio for APIs ===
     getting-started:
         title: "Getting Started"
@@ -40,6 +43,9 @@ navigation:
 
 ## The product name
 productName: "Progress Telerik Test Studio for APIs"
+
+# CTA Panels
+has_cta_panels: true
 
 ## Assign layout and category per different paths
 defaults:

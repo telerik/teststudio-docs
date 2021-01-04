@@ -115,4 +115,4 @@ Here is the full code-behind file, excluding the standard *using/Imports* statem
     End Namespace
     {{endregion}}
 
-[1]: images/coded-samples/general/log-error-dialogs/fig1.png
+[1]: images/log-error-dialogs/fig1.png

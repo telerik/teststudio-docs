@@ -5,7 +5,7 @@ description: Personal Data Usage By Telerik Products
 slug: prerequisites/personal-data
 tags: personal, data, usage,
 published: True
-position: 3
+position: 4
 ---
 
 # Personal Data Collection

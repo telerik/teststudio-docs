@@ -10,11 +10,10 @@ Once your application is ready for testing you can map your <a href="/features/e
 
 <table id="no-table">
 	<tr>
-		<td>!![Element Mapping TS][6] <br><br>**Standalone version**</td>
+		<td>![Element Mapping TS][6] <br><br>**Standalone version**</td>
 		<td>![Element Mapping TS][15] <br><br>**VS plugin**</td>
 	</tr>
 <table>
-
 
 The mapping dialog window appears allowing you to select between a Web or WPF test.
 
@@ -30,12 +29,11 @@ The mapping dialog window appears allowing you to select between a Web or WPF te
 
 > The example shown here is for a Web test, but for a WPF test the actions are exactly the same.
 
-Select Recording browser and click **Record**. 
+Select Recording browser and click **Record**.
 
 ![Choose Recording Browser][9]
 
 Test Studio will navigate to the URL, attach the recorder and enable Highlighting so you can directly highlight the desired element and click on **Select Element** as shown below:
-
 
 ![Select Element][10]
 

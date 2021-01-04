@@ -5,11 +5,15 @@ description: "Progress® Test Studio® for APIs - Command Line Interface - Overv
 position: 0
 publish: true
 ---
-
 # Command Line Interface - Overview
 
-Test Studio for APIs provides a Command Line Interface application (Telerik.ApiTesting.Runner.exe) that you can use to directly execute an existing test project without using the application's user interface. 
+Test Studio for APIs provides a Command Line Interface application (Telerik.ApiTesting.Runner.exe) that you can use to directly execute an existing test project without using the application's user interface.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
+
+<br>
 The Telerik.ApiTesting.Runner.exe is installed in your <a href="http://www.telerik.com/teststudio">Test Studio</a> installation directory. 
 According to the Test Studio edition that you have, the default location is:
 
