@@ -10,6 +10,10 @@ After installing <a href="http://www.telerik.com/teststudio" target="_blank">Tes
 
 If you face any troubles during License activation, you can check the most [common errors and how to solve them](#possible-troubles) at the bottom of the article.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
+
 ## Launch Test Studio
 
 You can use the Desktop or Windows Start menu shortcuts to start Test Studio. Once this is launched, the Activation Wizard will pop up asking for login credentials. Enter the email address and password for the <a href="https://www.telerik.com/account/" target="_blank">Telerik.com</a> account, which has the Test Studio license assigned. Click the _'Login'_ button.

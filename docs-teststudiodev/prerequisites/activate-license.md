@@ -11,8 +11,13 @@ position: 2
 
 After installing Test Studio Dev, you will be asked to activate your license. During this process, your machine creates its own unique key and provides it to our server. We use this key to generate a unique license key for the installation of the product.
 
->All users, both trial and purchased, will need to activate their product after installation before they can begin using the tool.
+> All users, both trial and purchased, will need to activate their product after installation before they can begin using the tool.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
+
+<br>
 Start your Visual Studio and you will be prompted to login to activate the installation. Input the email address and password that correspond to your <a href="https://www.telerik.com/account" target="_blank">Telerik.com account</a>.
 
 ![Login to activate](images/installation/activate-ts-dev.png)

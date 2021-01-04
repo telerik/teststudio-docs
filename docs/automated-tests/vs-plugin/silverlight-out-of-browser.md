@@ -6,8 +6,14 @@ position: 3
 ---
 # Create a Silverlight Out-of-Browser Test (VS plugin) #
 
-__Important Notes:__
+Test Studio supports Silverlight Out-of-Browser applications and below you can read how to create a test for that type of app.
 
+> __Important!__
+><br>
+><br>
+> As of Test Studio release __R3 2020 SP1 (v.2020.3.1209)__ Silverlight Out-of-Browser testing in Test Studio is no longer visible in the main Test Studio user interface. If you want to continue using it, see <a href="#enable-silverlight-out-of-browser-in-test-studio-2020-r3-sp-release">here</a> how to enable it.
+
+__Important Notes:__
 
 * If you are testing a Silverlight In-Browser web application, we recommend treating it as a standard <a href="web-test" target="_blank">Web Test</a> with no additional configuration.
 
@@ -44,6 +50,12 @@ __Important Notes:__
 ![Recording test][5]
 
 Notice that steps are added to the test as actions are taken within the application.
+
+## Enable Silverlight Out-Of-Browser in Test Studio 2020 R3 SP Release
+
+The icon to configure a test for __Silverlight-Out-Of-Browser__ application testing is __removed in Test Studio release R3 SP 2020 (v.2020.3.1209)__. You still can bring up the icon back in the product.
+
+Open the Windows Registry Editor and navigate to key _HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Telerik\TestStudio_. Add a new string type key named _ShowSilverlightOutOfBrowser_ and set its value to _true_. Restart Test Studio and the Silverlight-Out-Of-Browser icon will appear back in the _test options_.
 
 [1]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig1.png
 [2]: /img/general-information/create-test-vsplugin/silverlight-out-of-browser/fig2.png

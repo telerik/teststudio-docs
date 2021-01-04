@@ -22,3 +22,7 @@ position: 1
 * Disk Space: 500MB
 * RAM: 1GB
 * CPU: 2.4GHz
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}

@@ -13,6 +13,10 @@ The **Test Studio** tool consists of a few different modules, which are packed i
 >
 > Licensing is managed on a per machine basis. Each VM is considered a machine and must be licensed.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## Test Studio Standalone Application
 
 <a href="https://www.telerik.com/teststudio" target="_blank">**Test Studio**</a> is a standalone application and is delivered in two different formats depending on the purchased license:
