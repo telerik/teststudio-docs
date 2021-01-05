@@ -178,6 +178,7 @@ Follow the steps below to manually configure Edge for web automation with Test S
 
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -187,6 +188,7 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>
 

@@ -208,6 +208,7 @@ The following Add-ons are known to conflict with the Progress Test Studio Extens
 </div>
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -217,5 +218,6 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>

@@ -204,6 +204,7 @@ Follow the steps below to manually configure Chrome for web automation with Test
 * <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome" target="_blank">Chrome Extensions Disabled or Missing</a>
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -213,5 +214,6 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>
