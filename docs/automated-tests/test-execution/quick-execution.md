@@ -1,100 +1,60 @@
 ---
-title: Quick Execution
-page_title: Quick Execution
-description: "Test Studio Quick test Execution. Test Studio test run. annotated test run. Global Timeouts in Test Studio project. Visual debugger options in Test Studio. Set preferred browser for test runs and test recording. Quick run Execution log "
+title: How to Execute Test
+page_title: Execute Your First Test in Test Studio
+description: "Test Studio Quick test Execution. Run a Test Studio test. Choose browser to execute the test against."
 position: 0
 ---
-# Quick Execution #
+# How to Execute Test
 
-> While a test is being executed **do not start another instance of the same browser** until the run is finished!
+Once you have recorded a test in Test Studio, you can proceed with its execution. The Quick Execution mode provides different mechanisms for adjusting the test runs and helps you identify if additional test adjustment is required.
 
-## Execute a Test ##
+## Execute a Test
 
-1.&nbsp; Once a test scenario is already recorded, click the **Execute** button in the Test ribbon.
+Once you have recorded your first test scenario, you can review the steps into it and execute these against any of the supported browsers. To trigger the test run, lick the **Execute** button in the Test ribbon.
 
-<table id="no-table">
-	<tr>
-		<td>![Test Studio][1] <br><br>**Standalone version**</td>
-	</tr>
-	<tr>
-		<td>![VS][2] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+![Test Studio][1]
 
-1.1 &nbsp; Select the execution browser. This step will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+The next dialog allows you to select the browser to run the test against. Select any of the listed for execution browsers and click the __Run__ button.
 
-![Select browser][3]
+![Select browser][2]
 
-2.&nbsp; The Test Studio Test Runner launches first in a command prompt window. This calls the set browser or application.
+> __Tip__
+> <br>
+> <br>
+> This step will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
 
-![Test Runner][4]
+The selected browser is launched from Test Studio on top of any other running apps and the recorded steps are being executed accordingly.
 
-## Visual Debugger ##
+> __Important__
+> <br>
+> <br>
+> While a test is being executed **do not start another instance of the same browser or any other application** until the run is finished!
 
-By default in the lower right of your screen there is a ribbon which indicates the current step, includes play and pause ability, and shows additional Debug Options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>. This is the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">visual debugger</a> and is a feature you could turn on or off.
+## Quick Run Results
 
-![Visual Debugger Indicator][5]
+The quick run execution mode results are dedicated mainly for debugging any inconsistencies in the recorded test steps. Therefore, these are only temporary results for the last initiated run. These will be overridden when the test is executed again using the __Execute__ button, or deleted - if the test/project is closed and reopened.
 
-## Debugger Options ##
+> __Tip__
+> <br>
+> <br>
+> Once the test is adjusted and demonstrates consistent execution behavior, you can include it in a test list and trigger the test run through it, where the generated results are being stored. !!!! link to be added !!!! modify !!!  <a href="/getting-started/test-execution/quick-execution" target="_blank">link to the test list page</a>.
 
-Click **Debugging Options** icon in the Test ribbon or the Visual Studio toolbar to turn the debugger on/off and customize the Auto-Pause Options, if errors occur during the execution.
+Once the test run is finished, you can check its overall status - whether this is passed or failed, check the complete execution log and the failure details for the failing step, if applicable.
 
-<table id="no-table">
-	<tr>
-		<td>![Test Studio][8] <br><br>**Standalone version**</td>
-	</tr>
-	<tr>
-		<td>![VS][9] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+![Quick run results][3]
 
-## Execute with Annotations ##
+## Options to Modify for the Quick Test Run
 
-Click **Toggle Annotation** button to have the browser annotate each step with a brief message and by highlighting that step's element. This will also slow the test run down by inserting a delay between steps (in milliseconds) you set from either from the drop-down menu or by entering a custom value.
+Test Studio provides multiple options to ease you in executing the tests and debug any encountered failures. You can access some of these directly through the **Test** ribbon. Below you can find a list of these quick access tools with a link redirecting to further details for the available options. 
 
-![Toggle Annotation][7]
+- Set Preferred Browser
+- Calibrate the Browsers
+- Set a BaseURL and Compare mode
+- Change the Execution Timeouts on project level
+- Enable the Test Studio Visual Debugger tool
+- Enable Annotations during test run
 
-## Execution Timeouts ##
 
-Quick access to change the default timeouts for **Wait on elements** and **Client ready** is also available through the test step pane.
-
-![Timeouts][10]
-
-## BaseURL ##
-
-Set a **Base Url**, if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
-
-![BaseUrl][12]
-
-## Compare Mode ##
-
-When a **BaseURL** is set for the project, you can change the **Compare Mode** for future recorded elements. Detailed description of the different options can be found <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">here</a>.
-
-![Compare Mode][13]
-
-## Preferred Browser ##
-
-Under **Preferred browser** you can set your preferred browser for recording and execution and quick access the calibrate browsers view.
-
-![Preferred browser][14]
-
-## Execution Results ##
-
-Afterwards, when the test execution is complete, test results are automatically generated and can be reviewed. Click **View Log** for test results details.
-
-![View log][6]
-
-[1]: /img/general-information/test-execution/quick-execution/fig1.png
-[2]: /img/general-information/test-execution/quick-execution/fig2.png
-[3]: /img/general-information/test-execution/quick-execution/fig3.png
-[4]: /img/general-information/test-execution/quick-execution/fig4.png
-[5]: /img/general-information/test-execution/quick-execution/fig5.png
-[6]: /img/general-information/test-execution/quick-execution/fig6.png
-[7]: /img/general-information/test-execution/quick-execution/fig7.png
-[8]: /img/general-information/test-execution/quick-execution/fig8.png
-[9]: /img/general-information/test-execution/quick-execution/fig9.png
-[10]: /img/general-information/test-execution/quick-execution/fig10.png
-[11]: /img/general-information/test-execution/quick-execution/fig11.png
-[12]: /img/general-information/test-execution/quick-execution/fig12.png
-[13]: /img/general-information/test-execution/quick-execution/fig13.png
-[14]: /img/general-information/test-execution/quick-execution/fig14.png
+[1]: /img/automated-tests/test-execution/quick-execution/fig1.png
+[2]: /img/automated-tests/test-execution/quick-execution/fig2.png
+[3]: /img/automated-tests/test-execution/quick-execution/fig3.png
