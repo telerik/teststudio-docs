@@ -6,40 +6,46 @@ position: 1
 ---
 # Customize Test Studio's Layout
 
-Test Studio's layout can be customized to fit your particular needs and personal preferences. You can reorder all of the panels manually or choose from the predefined  default layouts. You can choose between _Light_ and _Dark_ themes.
+You can customize Test Studio's layout to fit your needs and personal preferences. You can reorder all panels manually or choose from the predefined default layouts. You can choose between _Light_ and _Dark_ themes.
 
-The default layout, in which Test Studio starts, is the _Compact_ layout. The default theme is the _Light_ theme.
+The default layout that loads when you start Test Studio is the _Compact_ layout. The default theme is the _Light_ theme.
 
 ![default layout][1]
 
 ## Predefined Layouts
 
-The available preset layouts will rearrange the panes in the Test Studio project to focus the attention on certain tools. These are the Compact (default), High Productivity and Advanced layouts.
+The preset layouts rearrange the panes in the Test Studio project to focus your attention on certain tools. These are three available layouts:
+
+* Compact (default)
+
+* High Productivity
+
+* Advanced
 
 ![preset layouts][2]
 
-## Switch Light/Dark Theme
+## Switch between Light and Dark Theme
 
-Test Studio comes with two themes for the layout - _Light_ and _Dark_. You can choose which suits your needs better and <a href="/features/project-settings/theme" target="_blank">switch to it through the Project Settings</a>.
+Test Studio comes with a _Light_ and _Dark_ theme. Choose the one that suits your needs better and <a href="/features/project-settings/theme" target="_blank">apply it through the Project Settings</a>.
 
 ![Dark theme](/img/features/project-settings/theme/fig6.png)
 
 > __Note__
 ><br>
 ><br>
-> You will need __to restart Test Studio to apply switching between the two themes__.
+> You need to restart Test Studio to apply a new theme.
 
-## Manual Adjustment of the Project Panels Layout
+## Manual Adjustment of the Layout
 
-Almost all the <a href="/getting-started/first-project#test-studio-project-layout" target="_blank">panels in the Test Studio project</a> can be moved and pinned on different place in the project area.
+You can move almost all <a href="/getting-started/first-project#test-studio-project-layout" target="_blank">panels in a Test Studio project</a> to another project area.
 
-### Dock or Undock Panel
+### Dock or Undock a Panel
 
-To customize the view of the panes, you can use the _Dock/Undock_ button available in the upper right corner of the panels.
+To customize the view of the panes, you can use the _Dock/Undock_ button in the upper right corner of the panels.
 
 ![undock][3]
 
-The _Undock_ will detach the pane from its original position and will display it as a separate window. This window can be dragged and dropped in the project area to be placed on another location. To help you choose the preferred position relative to the target panel, there is a circle with directions - top, bottom, left, right and center.
+The _Undock_ detaches the pane from its original position and displays it as a separate window. You can drag and drop this window anywhere in the project area. To help you choose the preferred position relative to the target panel, there is a circle with directions - top, bottom, left, right and center.
 
 ![choose panel position][4]
 
@@ -47,7 +53,7 @@ There are also arrows available in the right, left and bottom of the Test Studio
 
 ![choose window position][4a]
 
-If you choose the center of the target panel, the undocked one will appear as a tab next to the target one.
+If you select the center of the target panel, the undocked panel will appear as a tab next to the target panel.
 
 <table id=no-table>
 	<tr>
@@ -56,13 +62,13 @@ If you choose the center of the target panel, the undocked one will appear as a 
 	</tr>
 <table>
 
-### Hide or Show Panel
+### Hide or Show a Panel
 
-If you want to hide a panel from the project working area, you can use the _Pin_ button available in the upper right corner of the panels. This will auto hide the panel and will this will appear as a tab on the left or right side of the Test Studio window. Hover over the mouse cursor over this side tab and the pane will popup.
+To hide a panel from the project's working area, select the _Pin_ button in the upper right corner of the panels. This will auto-hide the panel, and it will appear as a tab on the left or right side of the Test Studio window. Hover over this side tab, and the pane will pop up.
 
 ![auto hide][8]
 
-### Save Customized Layout
+### Save a Customized Layout
 
 Use the _Save Custom Layout_ option in the Layout dropdown to save your custom changes.
 

@@ -6,9 +6,9 @@ position: 0
 ---
 # Welcome Screen
 
-Once you have successfully <a href="/getting-started/first-project#add-a-test-to-the-project" target="_blank">activated a license</a> for your Test Studio installation, launching the product lands to the Test Studio Welcome Screen. It lets you create or choose among recent projects, provides access to getting-started samples and tutorials, software version and available updates.
+Once you have successfully <a href="/prerequisites/license-activation/activating-your-license" target="_blank">activated a Test Studio license</a>, launching the app takes you to the **Welcome Screen**. Here, you can create or open a project, access the getting-started samples and tutorials, find the product version and check for updates.
 
-These resources are divided in few different tabs. Below you can find additional details for each separate tab:
+The **Welcome Screen** is organized in the following tabs:
 
 1. [Project Tab](#project-tab)
 2. [Get Started Tab](#get-started)
@@ -16,53 +16,71 @@ These resources are divided in few different tabs. Below you can find additional
 
 ## Project Tab
 
-In the _Project_ section of the Welcome screen you can choose whether to create a new project or start an existing one - choose from the _Recent Projects_ list, or browse the local disk folders, or connect to source control (Git or TFS) and clone a project repository.
+In the _Project_ section of the **Welcome screen**, you can choose whether to create a new project or open an existing one. You can find existing projects in the _Recent Projects_ list, browse the local disk folders, or connect to source control (Git or TFS) and clone a project repository.
 
 ![Project Tab][1]
 
 ### Create a New Project
 
-Choose the location on disk where to create a new project and enter its name. The default project folder is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. If you want to use another one, browse to it, confirm the folder selction and then enter name for the new project.
+To create a new project:
+
+* Choose the storage path and enter a name for the new project.
+
+* Select **Create**.
+
+The default project folder is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. To save the project to another folder:
+
+* Use the browse button to locate the desired folder.
+
+* Confirm the folder selection.
+
+* Enter a name for the new project.
 
 ![Create Project][2]
 
-### Open Existing Project
+### Open an Existing Project
 
-You can choose an existing project to open from the *Recent projects* list - it shows the recently opened projects, displaying their name and full physical path. You can also browse to a local folder on disc, which contains a Test Studio project, or connect to source control and clone a project from a remote repository.
+You can opan an existing project from the *Recent projects* list - it shows the recently opened projects, displaying their name and storage path. You can also browse to a local folder that contains a Test Studio project, or connect to source control and clone a project from a remote repository.
 
 ![Open Existing Project][4]
 
 ### Adjust the Test Studio Layout
 
-Once the test project is opened you can <a href ="/automated-tests/customize-project/custom-layout" target="_blank">adjust the layout of Test Studio</a> to fit you best.
+Once you open the test project, you can <a href ="/automated-tests/customize-project/custom-layout" target="_blank">adjust the Test Studio layout</a> and make it fit your requirements.
 
 ## Get Started Tab
 
-The *Get Started* section provides access to the demo project and the interactive in-product tutorials to guide you through the Test Studio tool.
+The *Get Started* section provides access to а demo project and to interactive in-product tutorials that guide you through the Test Studio tool.
 
 ![Get Started][5]
 
 ## Software Update Tab
 
-Under the _Software Update_ section you can find information about the installed version of Test Studio, activated license key and update notifications.
+Under the _Software Update_ section, you can find information about the installed version of Test Studio, activated license key and update notifications.
 
 ![Software Update][6]
 
-**Product Version**
+### Product Version
 
 This section displays your currently installed version number.
 
-**Activation Key**
+### Activation Key
 
-This section displays the mode of your license key - Trial or Licensed, and provides the option to _Deactivate_ an active license. This option is useful if you need to <a href ="/knowledge-base/activation-kb/swap-license" target="_blank">swap the Test Studio license</a> between different machines.
+This section displays the type of your license key - Trial or Licensed, and provides the option to _Deactivate_ an active license. This option is useful if you need to <a href ="/knowledge-base/activation-kb/swap-license" target="_blank">move the Test Studio license</a> between different machines.
 
-**Update And Update Notifications**
+### Update And Update Notifications
 
-This section offers different ways to check when a new version is published - you can use the _Check for Updates_ button for an instant check, or enable the check on startup. More thorough description about the <a href="/getting-started/installation/check-for-updates" target="_blank">check for updates</a> can be found in the referred article.
+This section offers different ways to check when a new version is published:
+
+* You can use the _Check for Updates_ button for an instant check.
+
+* You can enable the check for updates on startup.
+
+For more information, see the <a href="/getting-started/installation/check-for-updates" target="_blank">check for updates</a> article.
 
 ## Newsfeed
 
-The *Newsfeed* section in the Welcome Screen informs you for any important news related to the product, links to new blog posts in regards Test Studio features and capabilities. Its content is live updated and requires Internet connection.
+The *Newsfeed* section in the Welcome Screen informs you about any important news related to the product, links to new blog posts about Test Studio features and capabilities. The content is updated live and requires Internet connection.
 
 ![Newsfeed][7]
 

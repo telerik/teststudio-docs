@@ -6,11 +6,11 @@ position: 3
 ---
 # In-Product Guides
 
-Test Studio introduces the in-product guides for some areas in the project window. The icon to look for is a rocket to speed you up in getting familiar with Test Studio.
+Test Studio introduces the in-product guides for some areas in the project window. Click on the rocket icon to launch a guide that will help you get up to speed with Test Studio.
 
 ![In-product guides Rocket Icon][1]
 
-The Rocket icon can be found in the Element ribbon, which is active, when modifying an element's find expression or image.
+The Rocket icon appears in the Element ribbon, which is active when you modify an element's find expression or image.
 
 ![Element Ribbon][2]
 
@@ -18,11 +18,11 @@ The Rocket icon is also available in the [Project Explorer](/features/project-ex
 
 ![Element and Project Explorer][3]
 
-Starting any of the guides will gray out the selected area in Test Studio window and will go through all available buttons providing additional information for its purpose.
+Starting any of the guides will gray out the selected area in Test Studio and will go through all available buttons providing additional information for their purpose.
 
 ![Guide through the Available Buttons][4]
 
-You can navigate forwards and backwards through the buttons in the popup message, or stop the help guide at any time.
+You can navigate forwards and backwards through the buttons in the popup message or stop the help guide at any time.
 
 ![Navigate Forwards and Backwards][5]
 
