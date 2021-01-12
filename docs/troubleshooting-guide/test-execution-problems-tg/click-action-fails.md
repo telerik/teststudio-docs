@@ -8,7 +8,7 @@ position: 1
 
 ##Problem
 
-When executing a test with real user actions, like **SimulateRealClick**, **SimulateRealTyping** or <a href="/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank"><strong>desktop click</strong></a>, the click action is offset. As a result the expected button is not triggered, or text is not entered, and the test fails. 
+When executing a test with real user actions, like **SimulateRealClick**, **SimulateRealTyping** or <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank"><strong>desktop click</strong></a>, the click action is offset. As a result the expected button is not triggered, or text is not entered in the input field, and the test fails. 
 
 ![Click Offset][1]
 
