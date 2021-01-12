@@ -6,19 +6,19 @@ position: 1
 ---
 # Click Action is Offset
 
-##Problem
+## Problem
 
 When executing a test with real user actions, like **SimulateRealClick**, **SimulateRealTyping** or <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank"><strong>desktop click</strong></a>, the click action is offset. As a result the expected button is not triggered, or text is not entered in the input field, and the test fails. 
 
 ![Click Offset][1]
 
-##Solution
+## Solution
 
 1. <a href="/features/project-settings/browsers" target="_blank">Calibrate</a> your browser. Test Studio tests are meant to always be run with the browser zoom level at 100%.
 
 2. Set the monitor's **DPI** setting at **Smaller** or **100%** as well.
 
-##Windows 10
+### Windows 10
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -28,7 +28,7 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 
 ![win 10][4]
 
-##Windows 8
+### Windows 8
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -38,8 +38,7 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 
 ![win 8][2]
 
-
-##Windows 7
+### Windows 7
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
