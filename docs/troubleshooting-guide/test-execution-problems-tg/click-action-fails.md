@@ -1,5 +1,5 @@
 ---
-title: Click Action Fails
+title: Click Action is Offset
 page_title: Click is offset during test execution and causes failure
 description: "Real click fails. Enter text step fails. Enter text is offset. Offset click during execution. Desktop click fails. Simulate real click not working as expected. Click is offset from button."
 position: 1
