@@ -1,7 +1,7 @@
 ---
 title: Highlighting Misaligned
 page_title: Highlighting Misaligned
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "recording problem. Highlighting is not aligned correctly. Highlight element problem. Highlight element is misaligned."
 previous_url: /user-guide/troubleshooting_guide/recording-problems/hover-over-highlighting-is-misaligned.aspx
 position: 1
 ---

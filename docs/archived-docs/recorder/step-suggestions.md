@@ -8,7 +8,7 @@ position: 1
 
 > **Note**
 > <br>
-> Information about the Step Builder during recording in the latest release of Test Studio can be found <a href="/features/recorder/advanced-recording-tools/steps-overview" target="_blank">here</a>.
+> Information about the Step Builder during recording in the latest release of Test Studio can be found <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">here</a>.
 
 The Step Builder provides options for adding steps based on the selected element in the DOM tree during a recording session.
 
