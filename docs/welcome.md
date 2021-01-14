@@ -46,14 +46,14 @@ __<a href="/features/testing-types/load-testing/overview" target="_blank">Load T
 
 ## Getting Help
 
-* <a href="https://www.telerik.com/videos/teststudio">Videos</a>
-* <a href="/getting-started/start-a-project/in-product-tips-tricks">Tips and tricks</a>
-* <a href="https://www.telerik.com/forums/teststudio">Forums</a>
-* <a href="https://www.telerik.com/account/support-tickets">Contact support</a>
-* <a href="https://www.telerik.com/account/support-tickets/customer-service">Submit a general feedback</a>
-* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry">Send a presale inquiry</a>
-* <a href="https://www.telerik.com/support/whats-new/teststudio">What's new</a>
-* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history">Release notes</a>
+* <a href="https://www.telerik.com/videos/teststudio" target="_blank">Videos</a>
+* <a href="https://learn.telerik.com/learn/course/external/view/elearning/31/telerik-test-studio" target="_blank">Virtual Classroom</a>
+* <a href="https://www.telerik.com/forums/teststudio" target="_blank">Forums</a>
+* <a href="https://www.telerik.com/account/support-tickets" target="_blank">Contact support</a>
+* <a href="https://www.telerik.com/account/support-tickets/customer-service" target="_blank">Submit a general feedback</a>
+* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry" target="_blank">Send a presale inquiry</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio" target="_blank">What's new</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history" target="_blank">Release notes</a>
 </td>
 <td valign=top>
 
@@ -72,7 +72,7 @@ __<a href="/features/testing-types/load-testing/overview" target="_blank">Load T
 
 ### Advanced Features
 
-* [Contunious Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
+* [Continuous Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
 * [Coded Samples for Different Scenarios](/advanced-topics/coded-samples/general/send-keystrokes)
 
 </td>
