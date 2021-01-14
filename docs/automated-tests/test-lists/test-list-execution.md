@@ -4,9 +4,31 @@ page_title: Test List Execution
 description: "Test Studio Test List Execution. How to run a test list in Test Studio. Automatic re-run rerun of failed test in a test list. recording options for test list execution in Test Studio"
 position: 1
 ---
-# Test List Execution
+# How to Execute a Test List?
 
-Once there is a set of test scripts designed and configured to run consistently and smoothly as standalone tests, these can be <a href="/general-information/test-execution/test-lists-standalone" target="_blank">included in a test list</a>. Test lists can be executed as <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduled jobs</a>, both locally and on remote machines.
+Once there is a set of test scripts designed and configured to run consistently and smoothly as standalone tests, and <a href="/general-information/test-execution/test-lists-standalone" target="_blank">included in a test list</a>, the next step is to execute the test list. Test lists can be also executed as <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduled jobs</a>, both locally and on remote machines.
+
+The **Test Lists** tab in the Test Studio project is where you can maintain the content of test lists and the runtime settings these will use. You can also trigger a single or multiple test lists execution.
+
+## Execute Test List Locally
+
+Switch to the **Test Lists** tab in the Test Studio project and select any of the existing test lists. If there is no test list yet, <a href="/automated-tests/test-lists/test-lists-standalone" target="_blank">create one</a>. Then click the **Run List** button in the *Execution* section of the ribbon.
+
+![Run List Locally][3a]
+
+> __Tip__
+><br>
+><br>
+> You can select multiple test lists using the *Shift* key or *Ctrl* key + click. When you click the **Run List** button, the selected test lists will be executed in their order of selection.
+
+The Test Studio Test Runner launches a command prompt window, which indicates the progress of tests and test list execution.
+
+![Runner][4a]
+
+The set browser for the execution, or WPF app, opens and each test executes in sequence. Upon completion, the browser or WPF instance is closed, and the view in Test Studio project is switched to the **Results** tab. The results for each test list run are listed chronologically in the *Results Calendar* view.
+
+![Results][5a]
+
 
 Test Studio provides a rich set of <a href="/getting-started/test-execution/test-list-settings" target="_blank">test list settings</a> to help for stable execution of the test suites and easier debugging in case of failures. Below are listed some of the most useful settings, which can be applied to enhance the implemented automation process.
 
@@ -22,7 +44,7 @@ The <a href="/getting-started/test-results/analyze-test-results#automatic-re-run
 
 ## Recording of Test List Execution
 
-Observing the test list execution usually turns out to be helpful to understand what caused the faulure. Of course, there is no way to always keep an eye on the execution. The test list execution recording feature of Test Studio, though, allows you to capture the desktop. You can choose between disabled screeen recording and enabled always or on failure only.
+Observing the test list execution usually turns out to be helpful to understand what caused the failure. Of course, there is no way to always keep an eye on the execution. The test list execution recording feature of Test Studio, though, allows you to capture the desktop. You can choose between disabled screen recording and enabled always or on failure only.
 
 ![Screen recording Settings][4]
 
@@ -75,3 +97,6 @@ Click _"Other Options.."_ -> Uncheck _"Display encoder status"_
 [2]: /img/general-information/test-execution/test-list-execution/fig2.png
 [3]: /img/general-information/test-execution/test-list-execution/fig3.png
 [4]: /img/general-information/test-execution/test-list-execution/fig4.png
+[3a]: /img/automated-tests/test-lists/create-test-lists/fig3.png
+[4a]: /img/automated-tests/test-lists/create-test-lists/fig4.png
+[5a]: /img/automated-tests/test-lists/create-test-lists/fig5.png

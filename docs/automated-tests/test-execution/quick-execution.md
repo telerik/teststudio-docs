@@ -45,7 +45,7 @@ Once the test run is finished, you can check its overall status - whether this i
 
 ## Options to Modify for the Quick Test Run
 
-Test Studio provides multiple options to ease you in executing the tests and debug any encountered failures. You can access some of these directly through the **Test** ribbon. Below you can find a list of these quick access tools with a link redirecting to further details for the available options. 
+Test Studio provides multiple options to ease you in executing the tests and debug any encountered failures. You can access some of these directly through the **Test** ribbon. Below you can find a list of these quick access tools with a link redirecting to further details for the available options.
 
 - Set Preferred Browser
 - Calibrate the Browsers
