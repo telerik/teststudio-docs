@@ -249,6 +249,9 @@ navigation:
     features/test-runners:
         title: "Test Runners"
         position: 14
+    features/test-lists:
+        title: "Test Lists"
+        position: 10
 
 
     features/custom-layout:

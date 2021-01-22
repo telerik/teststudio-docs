@@ -1,110 +1,77 @@
 ---
-title: Test Lists in Test Studio
+title: Test Lists
 page_title: Test Lists in Test Studio
 description: "Test Studio Test List. How to create a test list (suite) in Test Studio. Static test list dynamic test list"
 position: 0
 ---
 # Test Lists in Test Studio
 
-Once you have a set of tests with different scenarios to test the application you work on, you can combine these into test lists and execute them together in certain sequence.
+The test lists in Test Studio are a set of tests to be executed in a sequence. You can combine autonomous tests in dynamically generated list and each will be executed in a new browser instance. Or you can pack tests to run in predefined sequence - self-reliant or dependent on the previous tests in the list.
 
-Test Studio allows you to create static and dynamic test lists. The difference between these is in the tests included in the list. The __Static Test List__ contains a fixed, predetermined list of tests, whereas the __Dynamic Test List__ contains a list of tests that is dynamically generated upon execution, based on the properties set for the tests in project.
+Test Studio provides two options for a test list - a static one, which contains a fixed, predetermined list of tests; and dynamic, which contains a list of tests that is dynamically generated upon execution, based on the properties set for the tests in project. This article describes in details the usage of the two kinds of test lists:
 
-======plan to remove these
-* A <a href="#static-test-list">Static Test List</a> contains a fixed, predetermined list of tests.
-* A <a href="#dynamic-test-list">Dynamic Test List</a> contains a list of tests that is dynamically generated upon execution based on <a href="/features/test-maintenance/test-properties-standalone">test properties</a>.
-======plan to remove these
+- <a href="#static-test-lists">Static Test List</a>
+* <a href="#dynamic-test-list">Dynamic Test List</a> 
+
+## <strong>Static Test Lists</strong>
+
+In a static test list you can add **web, responsive web, WPF, load tests or combination of these**, **manual** and **performance** tests. There are three types of test lists to cover the different types of tests - automated, manual and performance. The type of test list is defined when <a href="/features/test-lists/create-test-lists#choose-name-and-type-of-the-test-list" target="_blank">creating the test list</a>.
+
+![Choose Test List Type][1]
 
 > __Note__
 ><br>
 ><br>
-> Both _Static_ and _Dynamic_ test lists can execute web, WPF and load tests. If you need to run performance or manual tests in a list, you need to create the respective type of test list. Find <a href="/automated-tests/test-lists/test-lists-type-standalone">here details for manual and performance test list types</a>.
+> The tests in a static test list will be **executed in the order displayed, when adding them**. You can rearrange the order of the tests by editing the test list.
 
-<br>
-<br>
+### Automated Type of Test List
 
-## How to Create a Static Test List?
+The **Automated** test list type is the standard to execute one or more **web**, **responsive web**, **load** or **WPF** tests. When creating this type of list, you can only choose the listed kind of tests to include (the manual tests are greyed out).
 
-Choose the **Test Lists** tab in the Test Studio project and hit the **List** button in the *Add* section of the ribbon.
+### Performance Type of Test List
 
-![Create List Button][1]
+The **Performance** test list type allows you to execute **performance runs for one or more web tests**. This type of list can include only web tests (the rest of the tests are greyed out). Next to each test added in the list, you have a __Configure...__ button to apply the <a href="/features/testing-types/performance-testing/gather-perfomance-data" target="_blank">settings</a> for the performance run.
 
-The __'Create a New Test List'__ dialog pops up and lets you choose the _name_ of the list and _tests_ to include. To add a test in the test list, select it on the left side of the dialog, and move it to the right pane by _using the arrow buttons_, or by _double clicking_ on the test name. Once all tests are added, you can click the **OK** button to save the new test list.
+![Configure][4]
 
-![Name the test list and Add tests][2]
+### Manual Type of Test List
 
-> __Tip__
-><br>
-><br>
-> Select multiple tests using the _Shift_ key or _Ctrl_+ Mouse click.
+The **Manual** type of list allows you to add only **manual** tests and execute them together (the rest of the tests are greyed out). Run the manual tests sequentially or toggle back and forth between them using the **Previous** and **Next** buttons at the bottom.
 
-<br>
-<br>
+<table id="no-table">
+	<tr>
+		<td>![Previous][2]</td>
+		<td>![Next][3]</td>
+	</tr>
+<table>
 
-### Options to Filter the Listed Tests from Project
+## <strong>Dynamic Test Lists</strong>
 
-- __Filter Tests by Type__
-
-    ![Filter][9]
-
-- __Filter Tests by Name__
-
-    ![Search][10]
-
-- __Use the *Collapse* Button__ to collapse any expanded folders in the listed tests from project. By default when the *'Create a New Test List'* dialog appears, all folders are expanded to see the tests these include.
-
-    ![Collapse][11]
-
-<br>
-<br>
-
-## How to Create a Dynamic Test List?
-
-There are __few criteria you can define to filter tests__ upon execution, when creating a dynamic test lists - __test name__, __test path__ and the rest are the __user defined <a href="/features/test-maintenance/test-properties-standalone">test properties__</a> (_Owner, Priority, Custom Property 1, 2, 3_). For the purpose of this example, I have modified two of the user-defined properties - _Owner_ to Telerik and _Priority_ to 1.
+The dynamic test list is an automated type of test list and as such, it can execute one or more **web**, **responsive web**, **load** or **WPF** tests, or a combination of these. There are a bunch of criteria, which you can use for filtering the tests from project, in order to execute these as part of a dynamic list - __test name__, __test path__ and the, so called, __user defined <a href="/features/test-maintenance/test-properties-standalone">test properties__</a> (_Owner, Priority, Custom Property 1, 2, 3_).
 
 ![Test properties][6]
 
-To be able to use these properties, you need to choose the **Dynamic List** button in the *Add* section under the **Test Lists** Tab
-
-![Add Dynamic test list][7]
-
-The __'Add Dynamic Test List'__ dialog pops up and lets you choose the _name_ of the list and _create rules_ which tests to include upon execution. __Craft one or more _Rules___ to filter on specific criteria, clicking plus button after each one. The current results are displayed real-time. Once done, click the **OK** button to save the new test list.
+These criteria can be used when defining the __Rules__, which tests to be included in the dynamic test list.
 
 ![Define Rules which tests to be included in the dynamic list][8]
 
 > __Note__
 ><br>
 ><br>
-> Each time you click the _Run List_ button, Test Studio dynamically queries the project and executes the tests that meet the criteria of the __Rules__. So, if there are new tests added, which meet the criteria of the rules, these will be included in the test list upon execution.
-
-<br>
-<br>
-
-> __Tip__
-><br>
-><br>
-> Follow the link <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">for an in-depth look at Dynamic Test Lists.</a>
-
-<br>
-<br>
-
-## How to Execute a Test List?
-
-Once you have created a test list, you can execute it immediately using the __Run List__ button from the _Execution_ section of the ribbon. If you need to schedule the test list run for a future time, or execute it on another machine, you will need to configure the Test Studio Scheduling configuration and then use the __Run List Remotely__ or __Schedule Test List__ buttons.
+> Each time you trigger a dynamic list execution, Test Studio queries the project and executes the tests, that __meet the criteria of the _Rules___. Thus, if there are new tests added after the test list creation, and these meet the criteria of the rules, they will be included in the test list upon execution.
 
 ## See also ##
-* <a href="test-lists-type-standalone" target="_blank">Test Lists Type</a>
 
-* <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">A blog for an in-depth look at Dynamic Test Lists</a>
+* <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">An in-depth look at Dynamic Test Lists</a>
 
-[1]: /img/automated-tests/test-lists/create-test-lists/fig1.png
-[2]: /img/automated-tests/test-lists/create-test-lists/fig2.png
-[3]: /img/automated-tests/test-lists/create-test-lists/fig3.png
-[4]: /img/automated-tests/test-lists/create-test-lists/fig4.png
-[5]: /img/automated-tests/test-lists/create-test-lists/fig5.png
-[6]: /img/automated-tests/test-lists/create-test-lists/fig6.png
-[7]: /img/automated-tests/test-lists/create-test-lists/fig7.png
-[8]: /img/automated-tests/test-lists/create-test-lists/fig8.png
-[9]: /img/automated-tests/test-lists/create-test-lists/fig2_FilterTestsByType.png
-[10]: /img/automated-tests/test-lists/create-test-lists/fig2_searchField.png
-[11]: /img/automated-tests/test-lists/create-test-lists/fig2_collapse.png
+[1]: /img/automated-tests/test-lists/test-lists-types/fig1.png
+[2]: /img/automated-tests/test-lists/test-lists-types/fig2.png
+[3]: /img/automated-tests/test-lists/test-lists-types/fig3.png
+[4]: /img/automated-tests/test-lists/test-lists-types/fig4.png
+[5]: /img/automated-tests/test-lists/test-lists-types/fig5.png
+[6]: /img/automated-tests/test-lists/test-lists-types/fig6.png
+[7]: /img/automated-tests/test-lists/test-lists-types/fig7.png
+[8]: /img/automated-tests/test-lists/test-lists-types/fig8.png
+[9]: /img/automated-tests/test-lists/test-lists-types/fig2_FilterTestsByType.png
+[10]: /img/automated-tests/test-lists/test-lists-types/fig2_searchField.png
+[11]: /img/automated-tests/test-lists/test-lists-types/fig2_collapse.png

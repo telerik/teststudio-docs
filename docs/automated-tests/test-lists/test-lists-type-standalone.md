@@ -3,6 +3,7 @@ title: Test Lists Type (Standalone)
 page_title: Test Lists Type (Standalone)
 description: "Test Studio Test Lists Type automated test list execute load test in a test list. execute performance tests in a test list "
 position: 2
+publish: false
 ---
 # Test Lists Type (Standalone) #
 

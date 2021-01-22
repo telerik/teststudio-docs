@@ -8,7 +8,7 @@ position: 1
 
 This approach of testing is useful for a test scenario with certain actions and verifications, which need to be repeated multiple times.
 
-## What Test Scenario Can Be Data Driven?
+## <strong>What Test Scenario Can Be Data Driven?</strong>
 
 The easiest answer is that each scenario can be data driven. __Test Studio allows you to use data source values for both input fields and verifications__. For example, if you need to perform the same actions against an application, but using multiple different users, you can __data drive the login input information__.
 
@@ -18,7 +18,7 @@ To demonstrate the capabilities of data driven testing, we will use a test scena
 
 This same scenario can be fully covered, if the three steps related to the search action are reused with the help of data driven testing approach.
 
-## How To Data Drive the Test?
+## <strong>How To Data Drive the Test?</strong>
 
 Let's start by adding a new web test into your project.
 

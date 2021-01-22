@@ -2,33 +2,31 @@
 title: Test List Settings
 page_title: Test List Settings
 description: "Test Studio Test List Settings. Change the browser for a test list run. RunnerResponseTimeout. UnexpectedDialogAction. KillBrowserProcessOnClose KillBrowsersBeforeStart Test list baseURL"
-position: 3
+position: 1
 ---
-# Test List Settings #
+# Test List Settings
 
-**Standalone version**: On the Test **List tab**, highlight a test list and click the **Edit Settings** button in the Edit ribbon.
+Test Studio provides a rich set of settings to modify the test list execution, or to help for stable execution of the test suites and easier debugging in case of failures.
 
-**VS plugin**: Double click **Local.testsettings** under **Solution Items** in the Solution Explorer.
+The settings to use for a test list can be different for each separate test list and can be accessed on the **Test List** tab in the Test Studio project. Select a test list to modify its settings and click the **Edit Settings** button in the _Edit_ ribbon.
 
-<table id="no-table">
-	<tr>
-		<td>![Test Studio][1] <br><br>**Standalone version**</td>
-		<td>![VS][2] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+![Test list settings][1]
 
-> To create a **Test Settings file** in Visual Studio, right click **Solution Items and select Add > New Item**. Click Test Settings under **Installed Templates**, customize the name if desired, then click Add. Further directions on how to add a settings file are available <a href="/knowledge-base/visual-studio-kb/test-explorer-settings" target="_blank">here</a>.
+A dialog window pops up showing the configuration settings for this test list. The settings are listed in few tabs divided by the area of modification - <a href="#general-tab">General</a>, <a href="#web-tab">Web</a>, <a href="#wpf-tab">WPF</a>, <a href="#responsive-web-tab">Responsive Web</a>.
 
-This opens a dialog box that shows all of the possible configuration settings for that test list. Change the settings as needed for your test list.
+![Test list settings view][3]
 
-<table id="no-table">
-	<tr>
-		<td>![Test Studio][3] <br><br>**Standalone version**</td>
-		<td>![VS][4] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+## See also
 
-## General Tab ##
+* <a href="/automated-tests/test-lists/rerun-failed-tests" target="_blank">Enable Automatic Re-Run of Failed Tests</a>
+
+* <a href="/automated-tests/test-lists/test-list-video-recording" target="_blank">Enable Video Recording for Test List Run</a>
+
+## <strong>Settings Details</strong>
+
+All settings are listed below with additional details on their usage.
+
+## General Tab
 
 * ***Annotation***
 	* **AnnotateExecution** - whether to highlight and annotate the target element that the current action is being executed against.
@@ -68,7 +66,7 @@ This opens a dialog box that shows all of the possible configuration settings fo
 	* **RecordingScale** - sets downscaling of the recorded video in percents. From 10 to 100.
 	* **RecordingSizeLimit** - sets file size limit in megabytes, 0 is unlimited size. If the limit is reached, video recording will be stopped before the test execution ends.
 
-## Web Tab ##
+## Web Tab
 
 * ***APS.NET***
 	* **AspNetDevServerPort** - the ASP.NET development server port to use, if enabled. If set to -1, a random port is generated each time the manager is created.
@@ -96,23 +94,16 @@ This opens a dialog box that shows all of the possible configuration settings fo
 	* **SilverlightApplicationPath** - the web address or local directory from which to load a Silverlight application.
 	* **SilverlightConnectTimeout** - the amount of time to wait for a Silverlight application to load before timing out.
 
-## WPF Tab ##
+## WPF Tab
 
 * **DefaultApplicationPath** - represents the default application path for WPF tests.
 
-## Responsive Web Tab ##
+## Responsive Web Tab
 
 * **Device** - choose a device type to simulate different device display size.
 * **Height** - represents the height of display for the device to simulate.
 * **UserAgent** - represents the user agent used from the browser.
 * **Width** - represents the width of display for the device to simulate.
 
-> __Note!__ If your Visual Studio Test List runs for more than 30 minutes and fails with an **Execution Timeout Exceeded** error, change the following setting:
-
-![Timeouts][5]
-
-[1]: /img/general-information/test-execution/test-list-settings/fig1.png
-[2]: /img/general-information/test-execution/test-list-settings/fig2.png
-[3]: /img/general-information/test-execution/test-list-settings/fig3.png
-[4]: /img/general-information/test-execution/test-list-settings/fig4.png
-[5]: /img/general-information/test-execution/test-list-settings/fig5.png
+[1]: /img/features/test-lists/test-list-settings/fig1.png
+[3]: /img/features/test-lists/test-list-settings/fig3.png
