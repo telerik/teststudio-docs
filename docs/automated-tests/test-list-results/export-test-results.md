@@ -1,63 +1,101 @@
 ---
-title: Export Test Results
-page_title: Export Test Results
+title: Maintain Test List Results
+page_title: Maintain Test List Results
 description: "Test Studio test list results export. Can I export the test list results of a test list execution in Test Studio. "
 previous_url: /user-guide/test-results/export-test-results.aspx, /user-guide/test-results/export-test-results, /getting-started/test-results/export-test-results
 position: 2
 ---
-# Export Test Results
+# Maintain Test List Results
 
-The **Export** ribbon allows you to create HTML, Xml, Word, Excel, VS Result File and TFS Build Server versions of a test list results. If you have access to Team Foundation Server (TFS), you can  reload results from and publish to the server using the buttons in the **Scheduling Server** ribbon. For more details see the <a href="/features/scheduling-test-runs/Overview" target="_blank">Test Scheduling</a> article series.
+The results generated from a test list execution are stored on project level and populated in the __Results__ tab in the Test Studio project.
 
-![Results tab][1]
+The tools ribbon in the __Results__ tab allows you to manage these results - delete all of them, or only the selected, export the results in different file formats, including send these as an email attachment, submit a bug, manage the scheduled test lists results (for the occasion when scheduling the tests in the Test Studio Scheduling configuraion).
 
-* **HTML**: Export run result to an HTML document.
+In this article you can find details for the following topics:
 
-* **Xml**: Export run result to an Xml document.
+- __Delete Results__
+- __Options Specific for Scheduled Results__
+- __Export Results__
+- __Send Results as Email Attachment__
+- __Submit Bug from Failed Test Result__
 
-* **Word**: Export run result to a Microsoft Word document.
+> __Note__
+><br>
+><br>
+> The results from __local test list runs are stored in the project root folder__ under the sub-folder named _Results_. All these can be maintained in a File Explorer - however, __any changes applied outside of Test Studio, may affect the file structure and corrupt__ it. That way a result file may no longer be displayed in the project's calendar view.
 
-* **Excel**: Export run result to a Microsoft Excel document.
+## Delete Results
 
-* **VS Result File**: Export run result to Visual Studio test result .trx file.
+Select a results entry from the calendar in the Test Studio _Results_ tab. To delete it, you can use the __X_ button__, which appears for each result entry when hovered with the mouse, or the __Delete Selected__ button in the tools ribbon. This button can be used for deleting multiple selected results. __Delete All___ button will delete all results generated in the project so far.
 
-* **TFS Build Server**: Publish the currently selected run result to the build server to be associated with a specific product build.
+Each _Delete_ action will prompt a message to confirm the delete action for the selected result.
 
-* **Submit Bug**: Load the <a href="/features/integration/bug-tracking/submit-bug" target="_blank">Submit Bug</a> dialog and log a bug about the failed result in your previously configured bug tracking application.
+![Delete Results][10]
+
+> __Tip__
+><br>
+><br>
+> You can select multiple results using the *Shift* key or *Ctrl* key + click.
+
+## Options Specific for Scheduled Results
+
+The _Reload_, _Publish to Server_ and _Manage Results_ buttons are specific for scheduled test list results and are active in a configured Scheduling setup.
+
+## Export Results
+
+The format of the Test Studio results file is specific and is only readable in Test Studio. The file extension for the results files is __*.aiiresult__ and can be only opened on a machine with Test Studio installed. To overcome this limitation Test Studio provides the built-in option to export the results in different formats.
+
+* **HTML**: Export Test Studio run result to an HTML document.
+
+* **Xml**: Export Test Studio run result to an Xml document.
+
+* **Word**: Export Test Studio run result to a Microsoft Word document.
+
+* **Excel**: Export Test Studio run result to a Microsoft Excel document.
+
+* **VS Result File**: Export Test Studio run result to Visual Studio test result (*.trx file).
 
 ## Export Automated Test List Results
 
-1.&nbsp; Execute a standard automated test list.
+Select a results entry and double click it to display its details on the right side of the _Calendar_ view. All options for exporting the results file into a different format are now active to use.
 
-2.&nbsp; Double click the result in the <a href="calendar" target="_blank">Calendar</a> to drill down into it to be able to export to Word and Excel format. HTML and Xml export is  available from any level of the Calendar view. 
+![Export Options][11]
 
-3.&nbsp; Perform the export.
-
-![Export table][2]
+Choose the most appropriate file format and click the corresponding button. A _Save As_ dialog appears and lets you choose the file name and folder location to store the exported results file.
 
 ## Multiple Results Export
 
-HTML and Xml export supports multiple run results export. Please note that HTML and Xml export requires there is a default program set since the exported file is automatically opened. 
-
-1.&nbsp; Execute a standard automated test list few times. 
-
-2.&nbsp;  Select multiple test list results from the Calendar view using Shift and/or Ctrl keys. 
-
-3.&nbsp;  Perform the export.
+_HTML_ and _Xml_ export supports multiple results selection. Multiple results can be selected by using the *Shift* key or *Ctrl* key + click.
 
 ![Export HTML][6]
 
+> __Note__
+><br>
+><br>
+> Exporting results to ___HTML_ and _Xml_ requires a default program to be set for these type of files__ as the exported file is automatically opened.
+
 ## Email Test List Results
 
-Additionally any results within the calendar view could be emailed using the default email client configured on the host machine. **To email Word and Excel exports the test results should be drilled down.** 
+All of the supported export file types can be directly sent via email. Select a test list result entry and use the __Email__ button dropdown to generate an email with the exported file attached.
 
-![Email Word/Excel][7]
+> **Note**
+><br>
+><br>
+> Once the email is generated the _From_ field in Outlook email shows a default and not valid Telerik email address - __change this to the configured email client__ by selecting it in the email's _From_ button dropdown.
 
-**HTML and Xml emailing supports multiple test results emailing.**
+![Email Single results][7]
 
-![Email HTML/Xml][8]
+> __Tip__
+><br>
+><br>
+> Emailing _HTML_ and _Xml_ run results supports __multiple test results selection__.
 
->**Note:** Once the email is generated the From field in Outlook email shows a default Telerik email address which needs to be changed to the configured one on the host machine.  
+![Email multiple HTML/Xml][8]
+
+> **Note**
+><br>
+><br>
+> To generate an email with _Word_ or _Excel_ file attached, the selected test list result details need to be opened. To drill down the details, __double click the results entry__.
 
 ## Export Performance Test List Results
 
@@ -81,6 +119,11 @@ When Test Studio exports data to Excel format it actually exports it as an HTML 
 
 Click **Yes** to proceed safely.
 
+* **TFS Build Server**: Publish the currently selected run result to the build server to be associated with a specific product build.
+
+* **Submit Bug**: Load the <a href="/features/integration/bug-tracking/submit-bug" target="_blank">Submit Bug</a> dialog and log a bug about the failed result in your previously configured bug tracking application.
+
+
 [1]: /img/general-information/test-results/export-test-results/fig1.png
 [2]: /img/general-information/test-results/export-test-results/fig2.png
 [3]: /img/general-information/test-results/export-test-results/fig3.png
@@ -89,3 +132,5 @@ Click **Yes** to proceed safely.
 [6]: /img/general-information/test-results/export-test-results/fig6.png
 [7]: /img/general-information/test-results/export-test-results/fig7.png
 [8]: /img/general-information/test-results/export-test-results/fig8.png
+[10]: /img/automated-tests/test-list-results/maintain-results/fig10.png
+[11]: /img/automated-tests/test-list-results/maintain-results/fig11.png

@@ -7,6 +7,8 @@ position: 1
 ---
 # Analyze Test List Results
 
+describe the breadcrumb, drilling ddown to steps of each test, getting the execution log of the test list run, getting the step faulure details, switch to specific test's steps. :) 
+
 The **Test Results** panel allows you to traverse test execution results, drilling down to the individual test step and back up again to the test list level.
 
 1.&nbsp; To see the results for a test list, double-click the result in the calendar.
