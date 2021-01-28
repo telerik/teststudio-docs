@@ -41,9 +41,7 @@ Load tests help answer some of the most critical questions organizations have ab
 > __Test Studio Training__
 ><br>
 ><br>
-> Having troubles with your test automation? 
-><br>
-><br>
+> Having troubles with your test automation?
 > You’ve got the challenges – we have the resources and expertise to help you make testing effective and worthwhile across your organization. Make use of our <a href="https://www.telerik.com/teststudio/training" target="_blank">__free training course or explore the other training options__</a>.
 
 [1]: /img/features/testing-types/load-testing/overview/fig1.png
