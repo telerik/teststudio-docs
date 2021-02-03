@@ -10,10 +10,14 @@ The **Test Ribbon** in Test Studio allows you to trigger a quick test execution.
 
 ## Enable Annotations
 
-The annotations highlight the target element of each executed step along with a brief message for the step action. These are helpful in any occasions when the sequence of actions cannot be followed easily and is difficult to identify which causes the unexpected application behavior. Toggle on or off the **Toggle Annotations** button.
+The annotations highlight the target element of each executed step along with a brief message for the step action. These are helpful in any occasions when the sequence of actions cannot be followed easily and is difficult to identify, which of these causes the unexpected application behavior during the test execution. Toggle on or off the **Toggle Annotations** button.
 
 ![Toggle Annotation][7]
 
-Enabling the annotations will also slow down the test run by inserting a delay between steps (in milliseconds). The timeout can be adjusted as per the current case either from the drop-down menu or by entering a custom value.
+Enabling the annotations will also slow down the test run by inserting a delay between steps (in milliseconds). The annotations timeout can be changed either from the drop-down menu or by entering a custom value.
+
+## See Also
+
+* Enable Annotations in Test List Run __add lInk here__
 
 [7]: /img/automated-tests/test-execution/quick-run-annotations/fig7.png

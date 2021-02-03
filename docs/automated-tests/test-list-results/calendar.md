@@ -9,7 +9,7 @@ position: 0
 
 The results generated from a test list execution are stored on project level and populated in the __Results__ tab in the Test Studio project. All results are listed in a handy graphic calendar or timeline display and you can track the outcome of your test lists.
 
-Below you can find details how to handle the Calendar view.
+This article describes the Results calendar options and how you can benefit from these.
 
 ## View Overall Results Status
 
@@ -36,10 +36,13 @@ In the upper right corner you can find _navigation arrow buttons_, which allow y
 
 ## Explore Results Details
 
-Double click a test list result entry to view its details displayed on the right side of the Calendar view.
+Double click a test list result entry to view its details displayed on the right side of the Calendar view. Find out <a href="/automated-tests/test-list-results/analyze-test-list-results" target="_blank">how to read the test list results</a>.
+
+![drill down test list result][6]
 
 [1]: /img/automated-tests/test-list-results/calendar/fig1.png
 [2]: /img/automated-tests/test-list-results/calendar/fig2.png
 [3]: /img/automated-tests/test-list-results/calendar/fig3.png
 [4]: /img/automated-tests/test-list-results/calendar/fig4.png
 [5]: /img/automated-tests/test-list-results/calendar/fig5.png
+[6]: /img/automated-tests/test-list-results/calendar/fig6.png

@@ -6,24 +6,26 @@ position: 0
 ---
 # How to Execute Test
 
-Once you have recorded a test in Test Studio, you can proceed with its execution. The Quick Execution mode provides different mechanisms for adjusting the test runs and helps you identify if additional test adjustment is required.
+Quick Test Execution in Test Studio is a key feature, which helps in fine tuning the recorded actions, adjust test and step settings, to introduce stable and consistent behavior of the test runs in test list mode, executed on different environments.
 
 ## Execute a Test
 
-Once you have recorded your first test scenario, you can review the steps into it and execute these against any of the supported browsers. To trigger the test run, lick the **Execute** button in the Test ribbon.
+Once you have recorded a complete test scenario, the steps, which represents the recorded actions, are listed in the Test Steps pane. These can be executed against any of the supported browsers, no matter in which browser they were recorded. To trigger the test run, lick the **Execute** button in the Test ribbon.
 
 ![Test Studio][1]
 
-The next dialog allows you to select the browser to run the test against. Select any of the listed for execution browsers and click the __Run__ button.
+In the next dialog, which appears on the screen, choose the browser to run the test against. Select any of the listed for execution browsers and click the __Run__ button.
 
 ![Select browser][2]
 
 > __Tip__
 > <br>
 > <br>
-> This step will be skipped if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+> This dialog will not appear, if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
 
-The selected browser is launched from Test Studio on top of any other running apps and the recorded steps are being executed accordingly.
+The selected browser is launched from Test Studio on top of any other running apps, and the recorded steps are being executed accordingly.
+
+![Test Studio][4]
 
 > __Important__
 > <br>
@@ -32,16 +34,16 @@ The selected browser is launched from Test Studio on top of any other running ap
 
 ## Quick Run Results
 
-The quick run execution mode results are dedicated mainly for debugging any inconsistencies in the recorded test steps. Therefore, these are only temporary results for the last initiated run. These will be overridden when the test is executed again using the __Execute__ button, or deleted - if the test/project is closed and reopened.
+The results from the quick execution mode are dedicated mainly for debugging any inconsistencies in the recorded test steps. Therefore, these are only temporary results for the last initiated run. These will be overridden when the test is executed again using the __Execute__ button, or deleted - if the test/project is closed and reopened.
+
+Once the test run is finished, the Test Steps pane displays the overall result - whether the test is passed or failed, which step failed, if any. You can also access a complete execution log and the failure details for the failing step, if applicable.
+
+![Quick run results][3]
 
 > __Tip__
 > <br>
 > <br>
 > Once the test is adjusted and demonstrates consistent execution behavior, you can include it in a test list and trigger the test run through it, where the generated results are being stored. !!!! link to be added !!!! modify !!!  <a href="/getting-started/test-execution/quick-execution" target="_blank">link to the test list page</a>.
-
-Once the test run is finished, you can check its overall status - whether this is passed or failed, check the complete execution log and the failure details for the failing step, if applicable.
-
-![Quick run results][3]
 
 ## Options to Modify for the Quick Test Run
 
@@ -58,3 +60,4 @@ Test Studio provides multiple options to ease you in executing the tests and deb
 [1]: /img/automated-tests/test-execution/quick-execution/fig1.png
 [2]: /img/automated-tests/test-execution/quick-execution/fig2.png
 [3]: /img/automated-tests/test-execution/quick-execution/fig3.png
+[4]: /img/automated-tests/test-execution/quick-execution/execute-test.gif
