@@ -9,7 +9,7 @@ position: 0
 
 You’ve been always looking for a test automation tool that really works and you’ve never found the right one? Look no further as you’ve come to the right place!
 
-<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities, you’ll always ensure optimal app quality and deliver outstanding results.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities, you’ll always ensure optimal app quality and deliver outstanding results. Test Studio provides <a href="https://www.telerik.com/teststudio/test-automation-solutions-for-the-entire-team" target="_blank">test automation solutions for the entire team</a>, empowering everyone — from junior testers to senior developers, product managers and QA leads — to achieve maximum productivity in agile software delivery environments.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
