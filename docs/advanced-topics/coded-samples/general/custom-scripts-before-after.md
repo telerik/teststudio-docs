@@ -10,7 +10,7 @@ position: 1
 
 * *I would like to invoke a custom script just before the test starts executing.*
 
-## Soluiton ##
+## Solution ##
 
 Override the **OnAfterTestCompleted(TestResult result)** method for the "after" script and the **OnBeforeTestStarted()** method for the "before" script. They are both members of the BaseTest class that are invoked once the test finishes or before it starts. 
  
