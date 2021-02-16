@@ -6,7 +6,7 @@ position: 2
 ---
 # Configure a Responsive Web Test
 
-To help you address the needs of your mobile users, Test Studio now offers <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">comprehensive features to enable the responsive web UI testing</a>.
+To help you address the needs of your mobile users, Test Studio offers <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">comprehensive features to enable the responsive web UI testing</a>.
 
 Using the **Device Mode** of <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode" target="_blank">Chrome</a> and <a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/" target="_blank">Edge Chromium</a> browsers you can simulate different mobile devices and check how a web page behaves on these. With its __Responsive Web test__ Test Studio provides the capability to record and execute tests against such emulated device mode.
 
