@@ -6,7 +6,7 @@ position: 0
 ---
 # Explore the Results from Quick Test Execution
 
-The Quick Run results are generated after a <a href="/automated-tests/test-execution/quick-execution#execution-timeouts" target="_blank">Quick test execution</a>. This result is a temporary stored result and its usage is recommended while designing the automated tests and when troubleshooting failures. The current Quick Run result is deleted when a new Quick execution is triggered or project is reloaded.
+The __Quick Run__ results are generated after a <a href="/automated-tests/test-execution/quick-execution#execution-timeouts" target="_blank">Quick test execution</a>. This __result is a temporary stored result__ and its usage is recommended while designing the automated tests and when troubleshooting failures. The current Quick Run result is deleted when a new Quick execution is triggered or project is reloaded.
 
 ## Generate the Quick Execution Log
 

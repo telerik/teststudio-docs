@@ -24,6 +24,5 @@ The **Test Ribbon** in Test Studio provides you quick access to this built-in to
 
 ![Calibrate browser quick access][2]
 
-
 [1]: /img/automated-tests/test-execution/quick-run-browsers/fig1.png
 [2]: /img/automated-tests/test-execution/quick-run-browsers/fig2.png

@@ -6,22 +6,22 @@ position: 0
 ---
 # How to Execute Test
 
-Quick Test Execution in Test Studio is a key feature, which helps in fine tuning the recorded actions, adjust test and step settings, to introduce stable and consistent behavior of the test runs in test list mode, executed on different environments.
+Quick Test Execution in Test Studio is a key feature, which helps in fine tuning the recorded actions, adjust test and step settings, to eventually introduce stable and consistent behavior of the test runs in test list mode, executed on different environments.
 
 ## Execute a Test
 
-Once you have recorded a complete test scenario, the steps, which represents the recorded actions, are listed in the Test Steps pane. These can be executed against any of the supported browsers, no matter in which browser they were recorded. To trigger the test run, lick the **Execute** button in the Test ribbon.
+Once you have recorded a complete test scenario, the steps, which represents the recorded actions, are listed in the Test Steps pane. These can be executed against any of the supported browsers, regardless of the browser they were recorded against. To trigger the test run, click the **Execute** button in the _Test_ ribbon.
 
 ![Test Studio][1]
 
-In the next dialog, which appears on the screen, choose the browser to run the test against. Select any of the listed for execution browsers and click the __Run__ button.
+In the next dialog, which appears on the screen, choose the browser to run the test against. Select any of the browsers listed for execution and click the __Run__ button.
 
 ![Select browser][2]
 
 > __Tip__
 > <br>
 > <br>
-> This dialog will not appear, if you have already set a preferred browser from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+> This dialog will not appear, if you have already set a preferred browser from the <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">Web ribbon</a>.
 
 The selected browser is launched from Test Studio on top of any other running apps, and the recorded steps are being executed accordingly.
 
@@ -43,19 +43,18 @@ Once the test run is finished, the Test Steps pane displays the overall result -
 > __Tip__
 > <br>
 > <br>
-> Once the test is adjusted and demonstrates consistent execution behavior, you can include it in a test list and trigger the test run through it, where the generated results are being stored. !!!! link to be added !!!! modify !!!  <a href="/getting-started/test-execution/quick-execution" target="_blank">link to the test list page</a>.
+> Once the test is adjusted and demonstrates consistent execution behavior, you can include it in a test list and trigger the test run through it, where the generated results are being stored. !!!! link to be added !!!! modify !!!  <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">link to the test list page</a>.
 
 ## Options to Modify for the Quick Test Run
 
-Test Studio provides multiple options to ease you in executing the tests and debug any encountered failures. You can access some of these directly through the **Test** ribbon. Below you can find a list of these quick access tools with a link redirecting to further details for the available options.
+Test Studio provides multiple options to ease you in executing the tests and debugging any encountered failures. The mostly used settings are added in the ___Quick Test Execution___ ribbon for quick access. These quick access options can be found in the list below
 
-- Set Preferred Browser
-- Calibrate the Browsers
-- Set a BaseURL and Compare mode
-- Change the Execution Timeouts on project level
-- Enable the Test Studio Visual Debugger tool
-- Enable Annotations during test run
-
+- <a href="/automated-tests/test-execution/quick-run-browsers" target="_blank">Set Preferred Browser</a>
+- <a href="/automated-tests/test-execution/quick-run-browsers#calibrate-browsers" target="_blank">Calibrate the Browsers</a>
+- <a href="/automated-tests/test-execution/quick-run-baseurl" target="_blank">Set a BaseURL and Compare mode</a>
+- <a href="/automated-tests/test-execution/quick-run-timeouts" target="_blank">Change the Execution Timeouts on project level</a>
+- <a href="/automated-tests/test-execution/quick-run-visual-debugger" target="_blank">Enable the Test Studio Visual Debugger tool</a>
+- <a href="/automated-tests/test-execution/quick-run-annotations" target="_blank">Enable Annotations during test run</a>
 
 [1]: /img/automated-tests/test-execution/quick-execution/fig1.png
 [2]: /img/automated-tests/test-execution/quick-execution/fig2.png
