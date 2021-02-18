@@ -1,9 +1,14 @@
 ---
-title: How to Execute Test
-page_title: Execute Your First Test in Test Studio
-description: "Test Studio Quick test Execution. Run a Test Studio test. Choose browser to execute the test against."
-position: 0
+title: How to Execute Part of a Test
+page_title: Execute Part of a Test
+description: "Test Studio partial test Execution. Run part of a Test Studio test. Execute certain steps of the test."
+position: 1
 ---
+
+
+Write this article - below its a copy of the quick execution article. 
+
+
 # How to Execute Test
 
 Quick Test Execution in Test Studio is a key feature, which helps in fine tuning the recorded actions, adjust test and step settings, to eventually introduce stable and consistent behavior of the test runs in test list mode, executed on different environments.

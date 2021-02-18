@@ -7,17 +7,17 @@ position: 2
 ---
 # Maintain Test List Results
 
-The results generated from a test list execution are stored on project level and populated in the __Results__ tab in the Test Studio project.
+The results generated from test list executions are stored on project level and populated in the __Results__ tab in the Test Studio project.
 
-The tools ribbon in the __Results__ tab allows you to manage these results - delete all of them, or only the selected, export the results in different file formats, including send these as an email attachment, submit a bug, manage the scheduled test lists results (for the occasion when scheduling the tests in the Test Studio Scheduling configuraion).
+The tools ribbon in the __Results__ tab allows you to manage these results - delete all of them, or only the selected, export the results in different file formats, including send these as an email attachment, submit a bug, manage the scheduled test lists results (for test list runs initiated through the <a href="/automated-tests/scheduling/remote-scheduled-run" target="_blank">Test Studio Scheduling configuration</a>).
 
 In this article you can find details for the following topics:
 
-- __Delete Results__
-- __Options Specific for Scheduled Results__
-- __Export Results__
-- __Send Results as Email Attachment__
-- __Submit Bug from Failed Test Result__
+- [__Delete Results__](#delete-results)
+- [__Options Specific for Scheduled Results__](#options-specific-for-scheduled-results)
+- [__Export Results__](#export-results)
+- [__Send Results as Email Attachment__](#email-test-list-results)
+- [__Submit Bug from Failed Test Result__](#submit-bug-from-failed-test-result)
 
 > __Note__
 ><br>
@@ -26,7 +26,7 @@ In this article you can find details for the following topics:
 
 ## Delete Results
 
-Select a results entry from the calendar in the Test Studio _Results_ tab. To delete it, you can use the __X_ button__, which appears for each result entry when hovered with the mouse, or the __Delete Selected__ button in the tools ribbon. This button can be used for deleting multiple selected results. __Delete All___ button will delete all results generated in the project so far.
+Select a results entry from the calendar in the Test Studio _Results_ tab. To delete it, you can use the ___X_ button__, which appears for each result entry when hovered with the mouse, or the __Delete Selected__ button in the tools ribbon. This button can be used for deleting multiple selected results. __Delete All__ button will delete all results generated in the project so far.
 
 Each _Delete_ action will prompt a message to confirm the delete action for the selected result.
 
@@ -37,11 +37,22 @@ Each _Delete_ action will prompt a message to confirm the delete action for the 
 ><br>
 > You can select multiple results using the *Shift* key or *Ctrl* key + click.
 
+## Reload the Results View
+
+The __Reload__ button allows you to reload the listed results in the calendar. The _Results_ tab view gets refreshed each time when the focus is switched to it. But in the cases when a test list run was initiated and you need to check the result once this is finished, you can use the __Reload__ button for this. You can have in mind that although the test runs seem to be finished, there is always a short delay until the result can be populated in the _calendar_ view.
+
+![Reload Results][12]
+
 ## Options Specific for Scheduled Results
 
-The _Reload_, _Publish to Server_ and _Manage Results_ buttons are specific for scheduled test list results and are active in a configured Scheduling setup.
+The __Publish to Server__ and __Manage Results__ buttons are specific for scheduled test list results and are active in a <a href="/automated-tests/scheduling/remote-scheduled-run" target="_blank">configured Scheduling setup</a> and test lists executed through this configuration.
 
-## Export Results
+- __Publish to Server__ - use this button, if you need to upload the result of a local test list run to the Storage database.
+- __Manage Results__ - this button displays a dialog with list of all test list runs initiated through the Scheduling service (including _Run remotely_ and _Scheduled test lists_). You can review these runs with details for start and end time and containing project. Deleting an entry from this list will result in deleting the result file for the selected run. 
+
+![Publish/Manage Results to Storage][13]
+
+## __Export Results__
 
 The format of the Test Studio results file is specific and is only readable in Test Studio. The file extension for the results files is __*.aiiresult__ and can be only opened on a machine with Test Studio installed. To overcome this limitation Test Studio provides the built-in option to export the results in different formats.
 
@@ -74,14 +85,35 @@ _HTML_ and _Xml_ export supports multiple results selection. Multiple results ca
 ><br>
 > Exporting results to ___HTML_ and _Xml_ requires a default program to be set for these type of files__ as the exported file is automatically opened.
 
-## Email Test List Results
+### Export Performance Test List Results
 
-All of the supported export file types can be directly sent via email. Select a test list result entry and use the __Email__ button dropdown to generate an email with the exported file attached.
+When you drill down the results of a <a href="/getting-started/test-execution/test-lists-type-standalone" target="_blank">Performance Test List</a> execution, there is an additional icon listed in the **Test Results** panel - this is the **Stopwatch**.
+
+![Stopwatch icon][3]
+
+Hitting the **Stopwatch** button will switch the result to present the overview of the performance test execution (similar to what details can be explored in the <a href="/automated-tests/performance/overview-button" target="_blank">Overview view</a> in the __Performance tab__). These performance results can be exported to Word and Excel trough the corresponding buttons.
 
 > **Note**
 ><br>
 ><br>
-> Once the email is generated the _From_ field in Outlook email shows a default and not valid Telerik email address - __change this to the configured email client__ by selecting it in the email's _From_ button dropdown.
+> When opening an exported Excel result you receive the following warning:
+> ``` The file you are trying to open, 'fileName.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now? ```
+><br>
+><br>
+> This is because of the mechanism, which Test Studio uses to export the data, and some security features of Excel.
+><br>
+>You can click on __Yes__ to confirm the message and proceed safely.
+
+## Email Test List Results
+
+All of the supported export file types can be directly __sent via email__. Select a test list result entry and use the ___Email_ button dropdown__ to generate an email with the exported file attached.
+
+> **Note**
+><br>
+><br>
+> Once the email is generated the _From_ field in Outlook email shows a default and not valid Telerik email address - __change this to the configured email client on the machine__ by selecting it in the email's _From_ button dropdown.
+><br>
+> If you send the email without changing the default set Telerik email, you will get an email message from __System Administrator__ with title __Undelivarable__. Generate the email again and ensure to set your email address, from which to send the message. 
 
 ![Email Single results][7]
 
@@ -97,40 +129,22 @@ All of the supported export file types can be directly sent via email. Select a 
 ><br>
 > To generate an email with _Word_ or _Excel_ file attached, the selected test list result details need to be opened. To drill down the details, __double click the results entry__.
 
-## Export Performance Test List Results
-
-1.&nbsp; Execute a <a href="/getting-started/test-execution/test-lists-type-standalone" target="_blank">Performance Test List</a>.
-
-2.&nbsp; Click the **stopwatch** icon in the **Test Results** panel:
-
-![Stopwatch icon][3]
-
-3.&nbsp; Click an export format from the **Export** ribbon to export the results.
-
-![Performance export table][4]
-
->**Note:** When opening an exported Excel result you receive the following warning:
-
-*The file you are trying to open, 'fileName.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*
-
-![Excel warning][5]
-
-When Test Studio exports data to Excel format it actually exports it as an HTML structure (which Excel can successfully parse). The alert is a new security feature in Excel 2007 called Extension Hardening, which ensures that the file content being opened matches the extension type specified in the shell command that is attempting to open the file. The file must be in XLS (BIFF8) or XLSX (Open XML) file format to open without this warning prompt. If the file type is a different format (such as HTML, XML, CSV, etc.) the prompt is expected since the file content is different that the extension or MIME type.
-
-Click **Yes** to proceed safely.
+## Submit Bug from Failed Test Result
 
 * **TFS Build Server**: Publish the currently selected run result to the build server to be associated with a specific product build.
 
 * **Submit Bug**: Load the <a href="/features/integration/bug-tracking/submit-bug" target="_blank">Submit Bug</a> dialog and log a bug about the failed result in your previously configured bug tracking application.
 
 
-[1]: /img/general-information/test-results/export-test-results/fig1.png
-[2]: /img/general-information/test-results/export-test-results/fig2.png
-[3]: /img/general-information/test-results/export-test-results/fig3.png
-[4]: /img/general-information/test-results/export-test-results/fig4.png
-[5]: /img/general-information/test-results/export-test-results/fig5.png
-[6]: /img/general-information/test-results/export-test-results/fig6.png
-[7]: /img/general-information/test-results/export-test-results/fig7.png
-[8]: /img/general-information/test-results/export-test-results/fig8.png
-[10]: /img/automated-tests/test-list-results/maintain-results/fig10.png
-[11]: /img/automated-tests/test-list-results/maintain-results/fig11.png
+[1]: /img/automated-tests/test-list-results/export-test-results/fig1.png
+[2]: /img/automated-tests/test-list-results/export-test-results/fig2.png
+[3]: /img/automated-tests/test-list-results/export-test-results/fig3.png
+[4]: /img/automated-tests/test-list-results/export-test-results/fig4.png
+[5]: /img/automated-tests/test-list-results/export-test-results/fig5.png
+[6]: /img/automated-tests/test-list-results/export-test-results/fig6.png
+[7]: /img/automated-tests/test-list-results/export-test-results/fig7.png
+[8]: /img/automated-tests/test-list-results/export-test-results/fig8.png
+[10]: /img/automated-tests/test-list-results/export-test-results/fig10.png
+[11]: /img/automated-tests/test-list-results/export-test-results/fig11.png
+[12]: /img/automated-tests/test-list-results/export-test-results/fig12.png
+[13]: /img/automated-tests/test-list-results/export-test-results/fig13.png

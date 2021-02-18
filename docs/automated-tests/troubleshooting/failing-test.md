@@ -1,0 +1,97 @@
+---
+title: How to Troubleshoot a Failing Test
+page_title: How to Troubleshoot My Failing Test?
+description: "Test Studio - debug a failing test. How to understand what causes the test to fail. What options I have to debug or troubleshoot a failing test. My test fails with Element not found exception. My test fails to locate an element on page. My test fails on random step on each run." 
+position: 0
+---
+# Troubleshoot My Failing Test
+
+bla - bla - I don't have the words right now: In the process of recording tests in the Test Studio project, there are fine tuning settings, which will ensure stable and consistent execution behavior of the tests. While adjusting these, there might be test failures. 
+Test Studio has built-in mechanisms to help you identify the weak spots in your tests. During the debugging process, Test Studio provides useful suggestions to apply a resolution, and tools to ...
+
+The Quick Test Execution mode in Test Studio gives different options for troubleshooting a failing test. This article will guide you through the available workflows, when these are helpful or applicable and how to get the most of each.
+
+- __[Execution Log](#execution-log-on-failure)__
+- __[Step Failure Details](#step-failure-details)__
+- __[Visual Debugger](#visual-debugger)__
+- __[Application Log](#test-studio-application-log)__
+
+## Execution Log on Failure
+
+Although the execution log, generated in the quick run mode, is a temporary available resource, it contains a bunch of useful details to help you analyze why a test may be failing. It represents a list of the steps in the executed test including test as steps, noting which of these were run, and if they passed or failed. And in case of failure, there is detailed information for the error, which led to it.
+
+![execution Log](/img/automated-tests/troubleshooting/failing-test/fig1.png)
+
+The execution log also keeps information for the browser used for the run, the test, which was executed, the current version of Test Studio, etc.
+
+### What to Look for in the Execution Log on Failure?
+
+When a test failed, check the failure information listed under the faulty step. In most cases the information listed there is quite descriptive and helps you find the root cause of the failure. If we focus on the above example, it says the element in  step 5. cannot be found on page. On top of this the element's find expression is listed, if the image search was used, and at the bottom you can even find a link to the documentation about the topic how elements are located in Test Studio.
+
+![failure in execution log](/img/automated-tests/troubleshooting/failing-test/fig2.png)
+
+> __Tip__
+><br>
+><br>
+> Before you try to change the find expression for the missing element, check the images on failure from the Step Failure details and ensure the test has reached the page you expect to find the missing element on.
+
+## Step Failure Details
+
+The Step Failure Details dialog is only available in the case of a failing test. It provides a full stack of information to help analyzing and resolving a failing step.
+
+### Failure Details Tab
+
+The first tab of these details lists the exact error, which caused the failure, and provides access to the full execution log.
+
+![failure tab in step failure details](/img/automated-tests/troubleshooting/failing-test/fig3.png)
+
+> __Tip__
+><br>
+><br>
+> From this tab you can also __export a zipped folder with all failure details__, if you need to provide this to a colleague or the Test Studio Support team.
+
+### Expected Vs. Actual Images Tab
+
+The __Images__ tab provides a visual representation of the tested page at the time of failure. This is how you can easily sort out if the page is the one you expected - it could have changed due to an application update, or the previous steps in the test did not manage to perform correctly and navigate the page to the desired state.
+
+![images tab in step failure details](/img/automated-tests/troubleshooting/failing-test/fig4.png)
+
+> __Tip__
+><br>
+><br>
+> If the page is not the expected one, but there were no recent changes in the application, probably you need to slow down the test steps execution, so that these can be executed when the page is ready to respond. The mechanisms in Test Studio to sync the speed of execution and application responsiveness are the wait steps and/or execution delays.
+
+### DOM Tree On Failure
+
+The __Page DOM__ tab provides a snippet of how Test Studio sees the DOM of the page at the time of failure. You can inspect the overall structure of the page in the DOM, or search for particular element. It can be useful in all cases, when the failure is related to an element state - among these can be either if the element cannot be found, or is reported that does not exist, or a test times out waiting for an element, or the test targets incorrect element.
+
+![DOM Tree tab in step failure details](/img/automated-tests/troubleshooting/failing-test/fig5.png)
+
+> __Tip__
+><br>
+><br>
+> If you need to explore the DOM tree in actual test runtime, you can use the Visual Debugger. If you need to explore the DOM tree in a recording session, you can use the DOM Explorer in the Advanced Recording Tools window.
+
+### Resolve Failure
+
+This tab from the failure details includes a particular suggestion tailored based on the actual error. Therefore it will present different information for the various failures, you may encounter and you can follow the suggested steps to apply the resolution.
+
+![Resolve Failure tab in step failure details](/img/automated-tests/troubleshooting/failing-test/fig6.png)
+
+## Visual Debugger
+
+The Visual Debugger is a useful tool, which allows you to debug a test during its execution. It appears for each quick test execution at the bottom right corner of the active display (right above the Windows system tray) and shows the progress of the executed steps. From the Visual Debugger toolbar you can manually pause the test run, or adjust its settings to automatically pause on specific errors. You can also set a breakpoint on particular step and force the test execution to pause on that step.
+
+![Visual Debugger](/img/automated-tests/troubleshooting/failing-test/fig7.png)
+
+Once the test is paused in run-time, you can inspect the current DOM of the page, take a snippet of the DOM and screenshot of the page, access the execution log of the steps executed so far, diagnose the current failed step, if applicable, and even report a bug in case there is a bug tracker configured for the project. Once you explore the necessary details for the failure, you can continue the test execution until the end, or with a single step run at a time. You can also choose to rerun the current step.
+
+![Visual Debugger in Paused mode](/img/automated-tests/troubleshooting/failing-test/fig8.png)
+
+## Test Studio Application Log
+
+The application log is a record of log messages recorded by Test Studio throughout your interaction in the product. All records in the application log, are designed to indicate important events and help pinpoint where problems may occur. This log is distinct from the execution log, which only records the attempted steps and encountered exceptions during test execution. The application log is useful for unexpected occurrences such as a product crash, unexpected termination of a test run, which prevents generating the execution log, inconsistent behavior while working with the project components.
+
+To be able to easily find the useful records in the application log it is recommended to first clear the logging, ensure it is enabled and reproduce the misbehavior to be investigated. Once the inconsistency is reproduced, open the application log in a text editor tool (usually the default is Notepad). If you need to send the logging you can save the file and provide it zipped.
+
+![Test Studio Application Log](/img/automated-tests/troubleshooting/failing-test/fig9.png)

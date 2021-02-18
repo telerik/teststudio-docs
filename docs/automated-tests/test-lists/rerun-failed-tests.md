@@ -18,7 +18,10 @@ For similar occasions Test Studio allows you to __automatically re-run the faili
 
 The <a href="/automated-tests/test-list-results/analyze-test-list-results#automatic-re-run-of-failed-tests-results" target="_blank">results of the second automatic execution</a> will be listed under the initial failed result of the same test. It will be marked with an exclamation mark.
 
-> __Note!__ The tests need to be designed as autonomous tests - if these are dependent on the previous tests in the list, this setting will not be applicable.
+> __Note__ 
+><br>
+><br>
+> The tests need to be designed as autonomous tests - if these are dependent on the previous tests in the list, this setting will not be applicable.
 
 [1]: /img/automated-tests/test-lists/test-list-runs-specifics/fig1.png
 [2]: /img/automated-tests/test-lists/test-list-runs-specifics/fig2.png

@@ -8,7 +8,7 @@ position: 4
 
 The **Test Ribbon** in Test Studio allows you to trigger a quick test execution. Along with that it provides quick access to some useful project settings.
 
-The __Visual Debugger__ is a useful tool to help you explore the application, while a test is being executed. It provides different options when to pause the test run and allows you to explore the current DOM tree, so far generated results, etc. The **Test Ribbon** in Test Studio provides quick access to easily maintain the debugging options for your next test run.
+The __Visual Debugger__ is a useful tool to help you explore the application, while a test is being executed. It provides different options when to pause the test run and allows you to explore the current DOM tree, so far generated results, etc. The debugging options for your next test run can be controlled from the **Test** ribbon in Test Studio.
 
 ## Visual Debugger
 
