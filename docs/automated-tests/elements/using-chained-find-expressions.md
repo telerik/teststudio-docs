@@ -1,9 +1,9 @@
 ---
-title: Using Chained Find Expressions
+title: Chained Find Expressions
 page_title: Using Chained Find Expressions
 description: Using Chained Find Expressions. Building find expressions for Hierarchical controls such as tree views, grid views, etc. In these and other situations, the user is less concerned with the sequence of the items in the control, and more with their position relative to one another. Test Studio will usually record find logic based on the element’s sequential position within the control. A chained find expression will locate the first or parent element, and limit the search for the target element in the DOM under that parent element.
 previous_url: /user-guide/knowledge-base/project-configuration/usingchainedfindexpressions.aspx
-position: 1
+position: 2
 ---
 # Using Chained Find Expressions
 

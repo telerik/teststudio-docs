@@ -2,7 +2,7 @@
 title: Browser Control in Quick Execution
 page_title: Browser Control in Quick Execution
 description: "Test Studio Quick test Execution. How to Set preferred browser for test runs and test recording. Wuick Access the browser calibration tool"
-position: 1
+position: 2
 ---
 # Browser Control in Quick Execution
 

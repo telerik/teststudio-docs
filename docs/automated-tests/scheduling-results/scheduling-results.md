@@ -2,57 +2,50 @@
 title: Scheduling Results
 page_title: Scheduling Results
 description: "Test Studio results from scheduled test runs. Scheduling Results. Scheduling calendar. "
-position: 9
+position: 0
 ---
 # Scheduling Results
 
-Now that there is a configured Scheduling setup and a test list is executed <a href="/features/scheduling-test-runs/run-list-remotely" target="_blank">remotely</a>, or <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduled</a>, the generated results will be displayed in the <a href="/general-information/test-results/calendar" target="_blank">Results tab</a> in Test Studio.
+The results generated from a scheduled or remote test list execution, similar to local test list execution, are stored on project level and displayed in the <a href="/automated-tests/test-list-results/calendar" target="_blank">__Results__</a> tab in Test Studio. The difference is that __these are stored in the database__ maintained from the Test Studio Storage Service.
 
-## Reload From Server
-
-After the scheduled test list runs on the Execution server(s), the results will be automatically populated in the Calendar. Alternatively, you can update the results view with the help of the **Reload** button.
-
-1.&nbsp; On the **Results** tab, click the **Reload** button in the **Scheduling Server** ribbon.
-
-![Reload][1]
-
-2.&nbsp; The pending run should change from yellow to either green or red, indicating whether the test list passed or failed.
-
-![Timeline][2]
-
-3.&nbsp; Double click the result to drill down into the test list. You'll see a summary of each test's result in the test list.
-
-![Test Results][3]
-
-4.&nbsp; Go further by double clicking each test. For more information see the <a href="/getting-started/test-results/analyze-test-results" target="_blank">Analyze Test Results</a> page.
-
-![Test Steps][4]
+Due to this specific there are few options in the __Results__ tab available, only if the <a href="/automated-tests/scheduling/remote-scheduled-run" target="_blank">Scheduling setup is configured for a project</a>.
 
 ## Publish To Server
 
-Use this button to publish the currently selected locally executed test list result to the Scheduling server. Those results will also appear in the <a href="/general-information/test-results/executive-dashboard" target="_blank">Executive Dashboard</a>.
+This options allows you to populate any result from a <a href="/automated-tests/test-lists/test-list-execution" target="_blank">local test list run</a> to the Storage Service database. That way you will be able to see this result also in the <a href="/general-information/test-results/executive-dashboard" target="_blank">Executive Dashboard</a>. Choose any local test list run result and click the __Publish To Server__ button.
 
-![Publish to Server][5]
+![Publish to Server][1]
+
+If the run result is already populated in the storage database, there is a prompt message to confirm whether you need to republish this.
+
+![Confirm re-Publish to Server][2]
+
+> __Tip__
+><br>
+><br>
+> You can select multiple consecutive results using __clicks + the *Shift* key__, or any multiple results using the __*Ctrl* key + clicks__, and publish these to the Storage Server.
 
 ## Manage Results
 
-Click **Manage Results** to view and/or delete test list results on the Scheduling server.
+The **Manage Results** view provides a list of all scheduled and remote test list runs executed through the Scheduling server, for all different projects connected to the Scheduler. The details listed for each entry are the _test list name_, the _end_ and _start_ date and time and the _project name_. The local results uploaded to the database are also in this list.
 
-![Manage Results][6]
+![Manage Results][3]
 
-To delete one or more test results, click the check box next to the results and click ![Delete Results Button][8].
+From this list you can delete any test list run and this will delete the result file from the storage database. If this is a local run, which result was published to the storage, the local stored result remains in the _Results_ project sub-folder and, thus, in the __Results__ tab in Test Studio project.
 
-![Delete Results][7]
+![Delete Results][4]
+
+> __Tip__
+><br>
+><br>
+> In this list you can select multiple consecutive results using __clicks + the *Shift* key__, or any multiple results using the __*Ctrl* key + clicks__, and delete these from the Storage Server.
 
 ## Executive Dashboard
 
-With Test Studio version 2019 R3 and later you can <a href="/general-information/test-results/executive-dashboard" target="_blank">setup the Execution Dashboard</a>. It allows you to view remote test list results from the browser on any device that can access it.
+The <a href="/general-information/test-results/executive-dashboard" target="_blank">Executive Dashboard</a> is a tool, which allows __anyone in the team to explore the results from the scheduled test list execution__, even if they are not a real Test Studio user. The Dashboard is connected to the storage database and visualizes the results stored into it in the browser and on any device, which has access to it.
 
-[1]: /img/features/scheduling-test-runs/scheduling-results/fig1.png
-[2]: /img/features/scheduling-test-runs/scheduling-results/fig2.png
-[3]: /img/features/scheduling-test-runs/scheduling-results/fig3.png
-[4]: /img/features/scheduling-test-runs/scheduling-results/fig4.png
-[5]: /img/features/scheduling-test-runs/scheduling-results/fig5.png
-[6]: /img/features/scheduling-test-runs/scheduling-results/fig6.png
-[7]: /img/features/scheduling-test-runs/scheduling-results/fig7.png
-[8]: /img/features/scheduling-test-runs/scheduling-results/fig8.png
+[1]: /img/automated-tests/scheduling-results/scheduling-results/fig1.png
+[2]: /img/automated-tests/scheduling-results/scheduling-results/fig2.png
+[3]: /img/automated-tests/scheduling-results/scheduling-results/fig3.png
+[4]: /img/automated-tests/scheduling-results/scheduling-results/fig4.png
+[5]: /img/automated-tests/scheduling-results/scheduling-results/fig5.png

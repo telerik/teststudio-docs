@@ -167,6 +167,12 @@ navigation:
         title: "Scheduling Setup Advanced Topics"
         position: 11
 
+# === Scheduling Results Dashboard===
+    "*scheduling-results/dashboard":
+        title: "Executive Dashboard"
+        position: 2
+    
+
 # === Load Testing ===
     "*load/designing-load-tests":
         title: "Design Your Load Test"

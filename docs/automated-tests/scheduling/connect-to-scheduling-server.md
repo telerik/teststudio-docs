@@ -18,12 +18,6 @@ In the following **Scheduling Server Settings** dialog, click **Run remotely** t
 
 ![Run Remotely][3]
 
-## Schedule Tests on Single Machine
-
-If you haven't configured the Test Studio service, you still can schedule test lists on the local machine, choose the **Run locally** option in the **Scheduling Server Settings** dialog and click **Connect**.
-
-![Run Locally][2]
-
 [1]: /img/features/scheduling-test-runs/connect-to-scheduling-server/fig1.png
 [2]: /img/features/scheduling-test-runs/connect-to-scheduling-server/fig2.png
 [3]: /img/features/scheduling-test-runs/connect-to-scheduling-server/fig3.png

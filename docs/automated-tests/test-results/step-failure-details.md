@@ -70,6 +70,12 @@ If the element was located on the page using the backup search recorded for it, 
 
 ![Resolve Failure tab missing element troubleshoot][8]
 
+## How to Export the Step Failure Details?
+
+When a test is failing and you need to share the identified faulty behavior with a team mate, developer, or the Test Studio Support team, you can easily __export the complete set of failure details into a single zipped file__. The archive contains the failed step log, the complete test execution log, a screenshot of the web page and a snapshot of the DOM tree at the time of failure. To get the zipped file, click on the __Export__ button on the _Failure_ tab and choose a folder where to store it.
+
+![Export the step failure details][9]
+
 [1]: /img/automated-tests/test-results/step-failure-details/fig1.png
 [2]: /img/automated-tests/test-results/step-failure-details/fig2.png
 [2a]: /img/automated-tests/test-results/step-failure-details/fig2a.png
@@ -79,3 +85,4 @@ If the element was located on the page using the backup search recorded for it, 
 [6]: /img/automated-tests/test-results/step-failure-details/fig6.png
 [7]: /img/automated-tests/test-results/step-failure-details/fig7.png
 [8]: /img/automated-tests/test-results/step-failure-details/fig8.png
+[9]: /img/automated-tests/test-results/step-failure-details/fig9.png

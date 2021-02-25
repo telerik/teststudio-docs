@@ -2,7 +2,7 @@
 title: BaseURL Quick Access
 page_title: BaseURL Quick Access
 description: "Test Studio Quick test Execution. Test Studio test run. Quick access the BaseURL. Quick Set BaseURL on project level. "
-position: 2
+position: 3
 ---
 # Quick Set BaseURL for a Project
 

@@ -2,13 +2,30 @@
 title: Elements Find Expression
 page_title: Elements Find Expression
 description: "How elements get recorded in a test Studio test. Find Expressions in Test Studio. How an element is being located during test execution. What is find expression, how is find expression build for elements in Test Studio tests"
-position: 1
+position: 0
 ---
 # Elements Find Expression
 
-When an action is recorded against an element from a web page or WPF application, Test Studio generates a **Find Expression**, which is then used to locate that element in the application during execution. The same process is triggered if an element is explicitly added to the Elements repository from the DOM explorer.
+The Element Find Expression in Test Studio is a set of unique identifiers for an element from the tested application, which are used to locate the element in test run-time.
 
-## FindClauses
+When recording any action against a control from a web page or WPF application, Test Studio adds an element related to the step and generates a **Find Expression** for that element. The same process is triggered, if an <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">element is explicitly added</a> to the Elements repository from the DOM explorer.
+
+## How is Elements Find Expression Generated?
+
+#### Test Studio records steps and adds elements out-of-the-box, but what criteria it uses to generate unique find expressions for the elements?
+
+Test Studio uses a predefined set of criteria to look for in the attributes of an element - based on the <a href="/features/project-settings/find-logic" target="_blank">order for the attributes to use</a>, Test Studio detects the most appropriate combination of find clauses to identify the elements in the application and generates a find expression.
+
+> __Tip__
+> <br>
+> <br>
+> The __order of attributes to be used, when recording HTML elements, can be reordered and customized__. If the application under test uses custom tags, which are unique for the elements, you can add it and set it on the first position.
+
+#### Test Studio adds image for each recorded element. Can I use only the images to locate elements when running my tests?
+
+The recorded images for each element in Test Studio can be used as a default identification mechanism for a project. The <a href="/features/project-settings/find-logic" target="_blank">find logic settings</a> allow you to enable the usage of images before searching for the element with its find expression.
+
+## Predefined Attributes Used in Find Clauses in Find Expressions
 
 The basic component of elements' **Find Expressions** in Test Studio is the FindClause - this is a name-value pair connected with a comparison operator. The Find Expression consists of at least one FindClause and this can be verified when <a href="/features/elements-explorer/find-element" target="_blank">editing the element</a>.
 
@@ -54,9 +71,11 @@ The *'name'* portion of a FindClause pair can be any element's property that a c
 
 - XamlPath - Uses a XAML path expression like XamlPath=/radtabcontrol[automationid=Tabs]/grid[0]/raddockpanel[0]/layouttransformcontrol[name=HeaderDockedElement]
 
-> **Note!** When <a href="/features/elements-explorer/find-element#options-in-element-pane-with-active-recording-session" target="_blank">editing an element in active recording session</a>, all available element's properties will be listed and available for direct selection in the Find Expression.
-
-![Element's attributes][3]
+> **Note**
+> <br>
+> <br>
+> When <a href="/features/elements-explorer/find-element#options-in-element-pane-with-active-recording-session" target="_blank">editing an element in active recording session</a>, all available element's properties will be listed and available for direct selection in the Find Expression.
+> ![Element's attributes][3]
 
 ### Comparison Operators
 

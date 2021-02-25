@@ -21,7 +21,7 @@ In the next dialog, which appears on the screen, choose the browser to run the t
 > __Tip__
 > <br>
 > <br>
-> This dialog will not appear, if you have already set a preferred browser from the <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browsern" target="_blank">Web ribbon</a>.
+> This dialog will not appear, if you have already set a preferred browser from the <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">Web ribbon</a>.
 
 The selected browser is launched from Test Studio on top of any other running apps, and the recorded steps are being executed accordingly.
 

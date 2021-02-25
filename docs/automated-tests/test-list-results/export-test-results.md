@@ -35,7 +35,7 @@ Each _Delete_ action will prompt a message to confirm the delete action for the 
 > __Tip__
 ><br>
 ><br>
-> You can select multiple results using the *Shift* key or *Ctrl* key + click.
+> You can select multiple consecutive results using clicks + the *Shift* key, or any multiple results using the *Ctrl* key + clicks.
 
 ## Reload the Results View
 
@@ -76,7 +76,7 @@ Choose the most appropriate file format and click the corresponding button. A _S
 
 ## Multiple Results Export
 
-_HTML_ and _Xml_ export supports multiple results selection. Multiple results can be selected by using the *Shift* key or *Ctrl* key + click.
+_HTML_ and _Xml_ export supports multiple results selection. __Multiple results can be selected by using the *Shift* key or *Ctrl* key + click__.
 
 ![Export HTML][6]
 

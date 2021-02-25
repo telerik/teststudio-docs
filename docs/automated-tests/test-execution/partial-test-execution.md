@@ -1,67 +1,73 @@
 ---
 title: How to Execute Part of a Test
 page_title: Execute Part of a Test
-description: "Test Studio partial test Execution. Run part of a Test Studio test. Execute certain steps of the test."
+description: "Test Studio partial test Execution. Run part of a Test Studio test. Execute certain steps of the test. Run test to here. Run test from here. Run selected steps"
 position: 1
 ---
+# Partial Test Execution
 
+Quick Test Execution in Test Studio is a key feature to help in identifying any weak spots in the recorded tests and finding the most suitable adjustment for the occasion. While working on improving the tests, you may often find useful to __execute only part of a test__. For these cases Test Studio provides the ability to combine test recording and partial test execution and boost your productivity to a next level.
 
-Write this article - below its a copy of the quick execution article. 
+The options for partial execution are a bit different from the quick test run, as __these are triggered in the context of a recording session__. And although the partial test execution can be really advantageous when debugging a failing step, it could be also very useful, in the case when you need to add new steps in the middle of a test. Let's have a look on the possible options for running a test partially:
 
+- [__To Here__](#run-to-here)
+- [__From Here__](#run-from-here)
+- [__Selected Step(s)__](#run-selected-steps)
 
-# How to Execute Test
+## Run To Here
 
-Quick Test Execution in Test Studio is a key feature, which helps in fine tuning the recorded actions, adjust test and step settings, to eventually introduce stable and consistent behavior of the test runs in test list mode, executed on different environments.
+The partial test run can be triggered from the context menu based on a selected step. All options are listed in the _Run..._ sub-menu. __Run->To Here__ is only active when a single step from the test is selected. This option always __launches a new instance of the selected browser__ - even if there is an already active recording session.
 
-## Execute a Test
+> __Note__
+> <br>
+> <br>
+> If the project uses a <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">preferred browser</a>, this will be started automatically. Otherwise, the dialog to select recording browser appears and the run will continue after the browser is selected.
 
-Once you have recorded a complete test scenario, the steps, which represents the recorded actions, are listed in the Test Steps pane. These can be executed against any of the supported browsers, regardless of the browser they were recorded against. To trigger the test run, click the **Execute** button in the _Test_ ribbon.
+![Run To here][1]
 
-![Test Studio][1]
+The triggered partial run executes the preceding (including the selected) test step(s). Once the step execution finishes, the __executing browser remains opened, presenting the current state of the application under test, and a recorder gets attached to it__.
 
-In the next dialog, which appears on the screen, choose the browser to run the test against. Select any of the browsers listed for execution and click the __Run__ button.
-
-![Select browser][2]
+![Run To here finished][2]
 
 > __Tip__
 > <br>
 > <br>
-> This dialog will not appear, if you have already set a preferred browser from the <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browsern" target="_blank">Web ribbon</a>.
+> The __attached recorder to the browser is enabled for recording__. Thus any actions against the page will be captured and recorded in the active test.
+> <br>
+> Ensure to __pause the recorder__, if you need to debug your test.
 
-The selected browser is launched from Test Studio on top of any other running apps, and the recorded steps are being executed accordingly.
+Although the run is only partial, it generates a complete execution log for the executed steps. And in case any of the executed steps failed, before the selected one was reached, the failure details are listed in the execution log and the recorder still gets attached to the browser.
 
-![Test Studio][4]
+## Run From Here
 
-> __Important__
+The __Run From Here__ option is only available in the __context of an active recording session__ and a single step selected from a test. It is also listed in the _Run..._ sub-menu. It executes the subsequent steps starting from the selected one in an existing browser instance with attached recorder.
+
+![Run From here][3]
+
+It generates complete execution log, so in case any of the executed steps fails, the failure details are listed in the execution log and the recorder remains attached to the browser.
+
+![Run From here finished][4]
+
+## Run Selected Steps
+
+The option to execute few steps selected from a test, __Run Selected Steps__, is the last listed in the _Run..._ sub-menu. It is only applicable if there is an __active recording session and one or more, but subsequent, steps are selected__. These steps gets executed in the order they are listed in the test.
+
+![Run Selected Steps][5]
+
+This partial run also generates complete execution log, so if any of the selected steps fails to be executed, the complete failing details will be listed in the logging.
+
+![Run Selected Steps finished][6]
+
+> __Note__
 > <br>
 > <br>
-> While a test is being executed **do not start another instance of the same browser or any other application** until the run is finished!
-
-## Quick Run Results
-
-The results from the quick execution mode are dedicated mainly for debugging any inconsistencies in the recorded test steps. Therefore, these are only temporary results for the last initiated run. These will be overridden when the test is executed again using the __Execute__ button, or deleted - if the test/project is closed and reopened.
-
-Once the test run is finished, the Test Steps pane displays the overall result - whether the test is passed or failed, which step failed, if any. You can also access a complete execution log and the failure details for the failing step, if applicable.
-
-![Quick run results][3]
-
-> __Tip__
+> In the case of _Run Form Here_ and _Run Selected Steps_, the attached __recorder to the browser remains in the same state__ as before the partial run was triggered - enabled or paused for recording.
 > <br>
-> <br>
-> Once the test is adjusted and demonstrates consistent execution behavior, you can include it in a test list and trigger the test run through it, where the generated results are being stored. !!!! link to be added !!!! modify !!!  <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">link to the test list page</a>.
+> Ensure to __pause the recorder__, if you need to debug your test, or to __enable the recording__, if you need to continue recording.
 
-## Options to Modify for the Quick Test Run
-
-Test Studio provides multiple options to ease you in executing the tests and debugging any encountered failures. The mostly used settings are added in the ___Quick Test Execution___ ribbon for quick access. These quick access options can be found in the list below
-
-- <a href="/automated-tests/test-execution/quick-run-browsers" target="_blank">Set Preferred Browser</a>
-- <a href="/automated-tests/test-execution/quick-run-browsers#calibrate-browsers" target="_blank">Calibrate the Browsers</a>
-- <a href="/automated-tests/test-execution/quick-run-baseurl" target="_blank">Set a BaseURL and Compare mode</a>
-- <a href="/automated-tests/test-execution/quick-run-timeouts" target="_blank">Change the Execution Timeouts on project level</a>
-- <a href="/automated-tests/test-execution/quick-run-visual-debugger" target="_blank">Enable the Test Studio Visual Debugger tool</a>
-- <a href="/automated-tests/test-execution/quick-run-annotations" target="_blank">Enable Annotations during test run</a>
-
-[1]: /img/automated-tests/test-execution/quick-execution/fig1.png
-[2]: /img/automated-tests/test-execution/quick-execution/fig2.png
-[3]: /img/automated-tests/test-execution/quick-execution/fig3.png
-[4]: /img/automated-tests/test-execution/quick-execution/execute-test.gif
+[1]: /img/automated-tests/test-execution/partial-test-execution/fig1.png
+[2]: /img/automated-tests/test-execution/partial-test-execution/fig2.png
+[3]: /img/automated-tests/test-execution/partial-test-execution/fig3.png
+[4]: /img/automated-tests/test-execution/partial-test-execution/fig4.png
+[5]: /img/automated-tests/test-execution/partial-test-execution/fig5.png
+[6]: /img/automated-tests/test-execution/partial-test-execution/fig6.png

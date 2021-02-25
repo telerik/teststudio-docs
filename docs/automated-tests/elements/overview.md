@@ -3,13 +3,16 @@ title: Elements Explorer
 page_title: Elements Explorer Overview
 description: "Elements Explorer in Test Studio. Elements in the Elements Explorer in Test Studio. Edit an element in Test Studio. Unable to find element failure in Test Studio test"
 previous_url: /user-guide/elements-pane-overview.aspx, /user-guide/elements-pane-overview
-position: 0
+position: 1
 ---
 # Elements Explorer #
 
-The Elements Explorer in a Test Studio project is the visual representation of all elements recorded or manually added during the <a href="/general-information/test-recording/overview" target="_blank">Test Recording process</a>. 
+The Elements Explorer in a Test Studio project is the visual representation of all elements recorded or manually added during the <a href="/general-information/test-recording/overview" target="_blank">Test Recording process</a>.
 
-> **Note!** Although elements may be used in several tests and test steps, each element with unique find expression is shown only once in the Elements Explorer.
+> __Tip__
+> <br>
+> <br>
+> Although elements may be used in several tests and test steps, each element with unique find expression is shown only once in the Elements Explorer.
 
 The Elements Explorer pane provides a one-stop shop to view all elements used in the project and edit the way they are found during execution. You can find the Elements Explorer under/next to the Project's Explorer on the left bottom pane.
 
