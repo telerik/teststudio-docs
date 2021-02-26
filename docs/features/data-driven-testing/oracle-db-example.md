@@ -6,7 +6,7 @@ position: 11
 ---
 # Oracle Database Example
 
-This example is completed using an **Oracle Database Express** (Oracle Database XE) installed and configured instance. 
+This example is completed using an **Oracle Database Express** (Oracle Database XE) installed and configured instance.
 
 > To be able to connect and work with the database from Test Studio it is necessary to install <a href="http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html" target="_blank">**Oracle Data Access Components**</a>.
 
@@ -16,7 +16,7 @@ Next step is to create a database in order to use it for data binding. One way t
 
 Once the table is created it is possible to connect to it and use it for data-driven testing:
 
-1.&nbsp; Click on **Add** from **Data Sources** menu: 
+1.&nbsp; Click on **Add** from **Data Sources** menu:
 
 ![Create Table][4]
 
@@ -33,14 +33,14 @@ Data Source=XE;User Id=SYSTEM;Password=pass;
 ```
 
 It is possible to create many different connection strings. See <a href="https://www.connectionstrings.com/oracle/" target="_blank">here</a> for more examples.
- 
+
 5.&nbsp; Customize the **Friendly Name** as desired.
- 
+
 6.&nbsp; Click **Create** and the new data source should appear in the Data Sources list.
 
 <br/>
 
-When a <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">test is binded</a> to this data base the table to be used will be specified:
+When a <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">test is bound</a> to this data base the table to be used will be specified:
 
 ![Bind To Table][3]
 

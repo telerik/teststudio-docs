@@ -27,9 +27,9 @@ navigation:
     "getting-started":
         title: "Getting Started" 
         position: 4
-#    "next-steps":
-#        title: "Next Steps"
-#        position: 5 
+    "automated-tests":
+        title: "Automated Tests with Test Studio"
+        position: 5 
     "features":
         title: "Features"
         position: 6
@@ -96,10 +96,104 @@ navigation:
         title: "Executive Dashboard"
         position: 8
 
-# === Next Steps ===
-#    next-steps/customize-project:
-#        title: "Customize Your Project"
-#        position: 1
+# === Automated Tests with Test Studio ===
+    automated-tests/customize-project:
+        title: "Customize Your Project"
+        position: 1
+    automated-tests/recording:
+        title: "Record Tests in Test Studio"
+        position: 2
+    automated-tests/test-execution:
+        title: "Execute Tests in Test Studio"
+        position: 3
+    automated-tests/test-results:
+        title: "Explore Test Results"
+        position: 4
+    automated-tests/troubleshooting:
+        title: "Troubleshoot a Failing Test"
+        position: 5
+    automated-tests/elements:
+        title: "Elements in Test Studio"
+        position: 6
+    automated-tests/data-drive-test:
+        title: "Data Driven Automated Tests"
+        position: 7
+    automated-tests/test-lists:
+        title: "Test Lists in Test Studio"
+        position: 8
+    automated-tests/test-list-results:
+        title: "Results from Test List Runs"
+        position: 9
+    automated-tests/scheduling:
+        title: "Schedule Tests in Test Studio"
+        position: 10
+    automated-tests/scheduling-results:
+        title: "Results from Scheduled Test Executions"
+        position: 11
+    automated-tests/responsive:
+        title: "Web Responsive Tests in Test Studio"
+        position: 12
+    automated-tests/wpf:
+        title: "WPF Tests in Test Studio"
+        position: 13
+    automated-tests/load:
+        title: "Load Tests in Test Studio"
+        position: 14
+    automated-tests/performance:
+        title: "Performance Tests in Test Studio"
+        position: 15
+    automated-tests/vs-plugin:
+        title: "Test Studio Plugin for Visual Studio"
+        position: 16
+    automated-tests/coded-tests:
+        title: "Implement Code in a Test"
+        position: 17
+    automated-tests/source-control:
+        title: "Share a Test Studio Project in the Team"
+        position: 18
+    automated-tests/continuous-integration:
+        title: "Implement Test Studio Tests in CI Builds"
+        position: 19
+
+# ....Customize Your Project
+    "*built-in-help-tools":
+        title: "Help Tools in Test Studio"
+        position: 7
+
+# === Scheduling Test Runs ===
+    "*scheduling/multiple-machines-scheduling-setup":
+        title: "Remote Scheduled Execution (Multiple Machines Setup)"
+        position: 4
+    "*scheduling/advanced-topics":
+        title: "Scheduling Setup Advanced Topics"
+        position: 11
+
+# === Scheduling Results Dashboard===
+    "*scheduling-results/dashboard":
+        title: "Executive Dashboard"
+        position: 2
+    
+
+# === Load Testing ===
+    "*load/designing-load-tests":
+        title: "Design Your Load Test"
+        position: 1
+    "*load/running-load-test":
+        title: "Execute Load Test"
+        position: 2
+    "*load/load-testing-results":
+        title: "Load Test Results"
+        position: 3
+    "*load/advanced-topics":
+        title: "Advanced Topics for Load Test"
+        position: 4
+        
+    "*source-control/git":
+        title: "Git"
+        position: 1
+    "*source-control/tfs":
+        title: "TFS"
+        position: 2
 
 # === Features ===
     features/data-driven-testing:
@@ -162,15 +256,11 @@ navigation:
     features/test-runners:
         title: "Test Runners"
         position: 14
-    features/source-control:
-        title: "Source Control"
-        position: 13
-    features/source-control/git:
-        title: "Git"
-        position: 1
-    features/source-control/tfs:
-        title: "TFS"
-        position: 2
+    features/test-lists:
+        title: "Test Lists"
+        position: 10
+
+
     features/custom-layout:
         title: "Custom Layout"
         position: 15
@@ -196,19 +286,7 @@ navigation:
     "*exploratory-testing":
         title: "Exploratory Testing"
         position: 6
-# === Load Testing ===
-    "*load-testing/designing-load-tests":
-        title: "Design Your Load Test"
-        position: 1
-    "*load-testing/running-load-test":
-        title: "Execute Load Test"
-        position: 2
-    "*load-testing/load-testing-results":
-        title: "Load Test Results"
-        position: 3
-    "*load-testing/advanced-topics":
-        title: "Advanced Topics for Load Test"
-        position: 4
+
 # === Scheduling Test Runs ===
     "*scheduling-test-runs/multiple-machines-scheduling-setup":
         title: "Remote Scheduled Execution (Multiple Machines Setup)"
@@ -384,6 +462,9 @@ navigation:
 # === Archived Documentation ===
     archived-docs/recorder:
         title: "Test Recorder"
+        position: 1
+    archived-docs/elements:
+        title: "Elements"
         position: 1
 
 ## Assign layout and category per different paths
