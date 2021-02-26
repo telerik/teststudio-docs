@@ -58,12 +58,12 @@ There are few steps to follow in order to setup the Scheduling configuration:
     The Scheduling config wizard allows you to setup each of the Services.
 4. __Connect the Execution Machines to the Scheduler__
 
-    The Execution machines are also called __Execution Servers__ in Test Studio - these are all machines, which are dedicated to execute the tests. The minimum installation for these is the Run-time edition of Test Studio - you can even <a href="/prerequisites/installation/run-time-install#customize-the-test-studio-run-time-installation" target="_blank">disable the Test Studio services from the installed components</a>, if there is already a machine, which hosts these.
+    The Execution machines are also called __Execution Servers__ in Test Studio - these are all machines, which are dedicated to execute the tests. The __minimum installation for these is the Run-time edition__ of Test Studio - you can even <a href="/prerequisites/installation/run-time-install#customize-the-test-studio-run-time-installation" target="_blank">disable the Test Studio services from the installed components</a>, if there is already a machine, which hosts these.
 5. __Configure Any Project for Remote Execution__
 
     Once the machines and components are set up, you need to <a href="/automated-tests/scheduling/connect-to-scheduling-server" target="_blank">connect a project to the Scheduler</a> - that way the __scheduled test list runs will go through the configured Services__.
 
-Once these prerequisites are complete - even if each of these is on one machine, the scheduled test list executions will use the Test Studio Services with all their benefits - recurring runs, test distribution on selected machines, automatic email notification, results in the Executive Dashboard, etc.
+Once these prerequisites are complete - even if each of these is hosted on a single machine, the __scheduled test list executions will use the Test Studio Services with all their benefits__ - recurring runs, test distribution on selected machines, automatic email notification, results in the Executive Dashboard, etc.
 
 [10]: /img/features/scheduling-test-runs/overview/fig1.png
 [1]: /img/automated-tests/scheduling/overview/scheduling-iconography-bright.png

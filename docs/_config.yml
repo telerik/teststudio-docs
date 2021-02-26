@@ -462,6 +462,9 @@ navigation:
     archived-docs/recorder:
         title: "Test Recorder"
         position: 1
+    archived-docs/elements:
+        title: "Elements"
+        position: 1
 
 ## Assign layout and category per different paths
 defaults:
