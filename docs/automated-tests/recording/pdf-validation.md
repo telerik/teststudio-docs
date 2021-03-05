@@ -69,6 +69,7 @@ Comparing two PDF files is not a straight forward scenario, but combining the Te
 
 ## See also ##
 
+* 
 
 [1]: /img/automated-tests/recording/validate-pdf/fig1.png
 [2]: /img/automated-tests/recording/validate-pdf/fig2.png
