@@ -2,7 +2,6 @@
 title: Details View
 page_title: Performance Testing Details View
 description: "Details View of performance test results in Test Studio."
-previous_url: /user-guide/performance/details-view.aspx, /user-guide/performance/details-view
 position: 4
 ---
 # Details View

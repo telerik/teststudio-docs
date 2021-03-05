@@ -6,7 +6,9 @@ position: 3
 ---
 # Test Lists in Visual Studio 2017 and 2019 #
 
-As of **Test Studio 2019 R3 (v.2019.3) release** test lists can be also created and executed in a Visual Studio project. There are two types of Test Lists - **Static** and **Dynamic**.
+Visual Studio 2017 and 2019 allow the implementation and usage of the Test Studio test lists in the plugin. This article describes the specifics of how to create and maintain the test lists in the project in Visual Studio.
+
+There test lists can be two types as well - **Static** and **Dynamic**.
 
 * A <a href="#add-test-files-to-static-test-list">Static Test List</a> contains a fixed, predetermined list of tests.
 * A <a href="#add-test-files-to-dynamic-test-list">Dynamic Test List</a> contains a list of tests that is dynamically generated upon execution based on <a href="/features/test-maintenance/test-properties-vs">test properties</a>.

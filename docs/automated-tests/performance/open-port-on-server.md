@@ -2,7 +2,6 @@
 title: How to Open Port on Server
 page_title: Performance Testing - Open Port on Server
 description: "Open Port on Server for a performance test in Test Studio project."
-previous_url: /user-guide/performance/open-port-on-server.aspx, /user-guide/performance/open-port-on-server
 position: 8
 ---
 # Open Port on Server for Test Studio Performance Testing

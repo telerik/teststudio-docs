@@ -23,9 +23,7 @@ To ensure that the search was correctly performed, it is __recommended to add a 
 > __Tip__
 ><br>
 ><br>
-> You can read additional details on wait steps and wait for text from image in particular, in the referred articles.
-
-__add links__ 
+> Find additional details on <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image" target="_blank">wait for text from image</a> in the referred articles.
 
 Once all necessary steps are added to the test, you can close the browser to finish the recording session.
 
@@ -95,15 +93,6 @@ To confirm the selection and close the _Properties pane_, click on the _Set_ but
 __Apply the same sequence of steps for the wait step__ added to verify that the search actions is completed successfully. The difference is that the field to bind in the step properties is named _TextToMatch_.
 
 ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
-
-> __Note__
-><br>
-><br>
-> All _actions_ steps in Test Studio __scrolls their target element to top of the page__ by default. This is a step property called ___ScrollToVisibleType___, which can be modified from the _Properties_ pane.
-><br>
->For the particular case you need to __adjust the mentioned property to scroll the elements to center__, because the Telerik page has a static header and the _Search_ text field and button, otherwise, gets scrolled under it - thus the actual actions cannot be successfully performed.
-
-__add links__ 
 
 ## Execute the Data Driven Test and Review the Results
 

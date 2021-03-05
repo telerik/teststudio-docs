@@ -17,13 +17,9 @@ With the expanded reporting functionality, spotting test pass/failure trends and
 
 * Leave comments within reports.
 
-## 2017 R1 Version and Later
-
-As of version 2017 R1 all panes in the Reports view are re-designed and significantly improved.  
-
 ![Reports view][3]
 
-### Test List Runs View
+## Test List Runs View
 
 The Test List Runs view allows you to select a set of test list and runs for the given time frame as per your requirements - a single test list execution(s), specific time range executions for a single or a set of test lists. 
 
@@ -33,7 +29,7 @@ Additionally the runs could be filtered by their consequence for the selected ti
 
 ![Test List Runs Filter][5]
 
-### Results Charts
+## Results Charts
 
 There are three different views to present the Test List Run Status: 
 
@@ -49,19 +45,19 @@ Additionally Data Labels could be shown or hidden.
 
 The displayed chart could be zoomed in and out either with the magnifier on the right or from the percentage drop down, or scrolling the mouse wheel on the chart itself. 
 
-### Results Overview
+## Results Overview
 
 The Results Overview provides a pie chart which could be filtered to show all selected tests or all test lists pass/fail rate. 
 
 ![Results Overview][7]
 
-### Results Details
+## Results Details
 
 The Results Details view provides pass/fail details for the selected test lists and the included tests. Test could be filtered per pass/fail/not run status. 
 
 ![Results Details][8]
 
-### Single Test List Pie Chart
+## Single Test List Pie Chart
 
 From the Results tab could be generated single test list results displayed in easy-to-read pie charts. 
 
@@ -71,28 +67,6 @@ From the Results tab could be generated single test list results displayed in ea
 
 ![Single Test List Pie Chart][9]
 
-## 2016 R3 Version and Earlier
-
-Select a test list from the first drop-down menu, specify a date range, and enable or disable the pass/fail lines. A bar graph is populated with Run Results on the X-axis by date/time and number of Tests in List on the Y-axis.
-
-![Cherts][1]
-
-You can generate more meaningful graphs that support drill-downs, as well as having single test list results displayed in easy-to-read pie charts.
-
-To do so, click on the bar for which you want more information, and you are taken to the **Results** tab.
-
-* Switch between the pie chart report and the calendar view.
-
-* View previous and next results for the selected test list.
-
-* Add comments.
-
-* Drill down further into each test and its steps in the **Test Results** pane.
-
-![Pie][2]
-
-[1]: /img/general-information/test-results/reports/fig1.png
-[2]: /img/general-information/test-results/reports/fig2.png
 [3]: /img/general-information/test-results/reports/fig1-new.png
 [4]: /img/general-information/test-results/reports/fig2-new.png
 [5]: /img/general-information/test-results/reports/fig3.png

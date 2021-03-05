@@ -3,7 +3,7 @@ title: Elements Explorer
 page_title: Elements Explorer Overview
 description: "Elements Explorer in Test Studio. Elements in the Elements Explorer in Test Studio. Edit an element in Test Studio. Unable to find element failure in Test Studio test"
 previous_url: /user-guide/elements-pane-overview.aspx, /user-guide/elements-pane-overview
-position: 1
+position: 0
 ---
 # Elements Explorer #
 

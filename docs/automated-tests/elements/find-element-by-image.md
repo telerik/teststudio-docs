@@ -2,7 +2,7 @@
 title: Modifying Elements Image
 page_title: Modifying Elements Image
 description: "Test Studio test finds elements by imageUnable to find Element - Test Studio test failure. How to change how an element is located in Test studio test run/ execution. Update the elements find expression in Test Studio. How to adjust the proeprties used to locate an element in Test Studio."
-position: 3
+position: 5
 ---
 # Modifying Element's Image
 

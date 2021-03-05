@@ -6,7 +6,7 @@ position: 2
 ---
 # Compact Recording Toolbar
 
-The **Compact Recording Toolbar** is designed to maximize functionality and minimize the space on your screen. You can position it freely anywhere in the browser or WPF application, so it does not cover any elements from the application under test. In the following article you will learn more about all features of the **Compact Recording Toolbar**.
+The **Compact Recording Toolbar** is designed to maximize the functionality of the recording process and minimize the space used from Test Studio on your screen. You can position it freely anywhere in the browser or WPF application, so it does not cover any elements from the application under test. In the following article you will learn more about all features of the **Compact Recording Toolbar**.
 
 ![Move Compact Recording Toolbar][1]
 
@@ -21,22 +21,6 @@ Enable/Disable Hover Over Highlighting from the **Compact Recording Toolbar**. W
 > **Tip**
 >
 > Use the *Pause/Break* key on your keyboard to toggle the Hover Over Highlighting.
-
-- **Quick Steps** - presents a context sensitive list of tasks that can be performed against the highlighted element, such as <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">build a verification</a>, create a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/Wait" target="_blank">wait step</a>, etc.
-
-![Quick Steps][4]
-
-- **Add to Elements** -  adds the highlighted element to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
-
-![Add to Elements][5]
-
-- **Locate in DOM** - opens the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer in the __Advanced Recording Tools__</a> and selects the highlighted element.
-
-![Locate in DOM][6]
-
-- **Build Step...** - selects the highlighted element from the DOM tree and opens the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Element Steps</a> tab in the Advanced Recording Tools. There are additional actions and verifications you can add against the selected element. For example, you can add mouse actions and <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">advanced verification steps</a> for attribute, image or text from image.
-
-![Build Step][7]
 
 ## Recording Mode ##
 

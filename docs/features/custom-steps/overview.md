@@ -43,7 +43,9 @@ The Step Builder on project level can also be used to build steps against alread
 <table>
 
 1. [Test as Step](/features/custom-steps/test-as-step) - run an existing test as a single step.
-1. [Navigate To](/features/custom-steps/navigate-to) - navigate to an url step.
+1. [API Test as Step](/features/execute-apitest/add-api-test-as-step) - run an existing test as a single step.
+1. [Navigate To](/features/custom-steps/navigate-to) - navigate to an IRL step.
+1. [Open PDF](/features/custom-steps/navigate-to) - navigate to an IRL step.
 1. [Coded Step](/features/custom-steps/script-step) - add a coded step and open the code editor.
 1. [Execution Delay](/features/custom-steps/execution-delay) - pause the test for a specified amount of time.
 1. [Maximize Browser](/features/custom-steps/maximize-browser) - maximize, minimize or restore the active browser (Change Window State for WPF).

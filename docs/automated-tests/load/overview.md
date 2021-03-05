@@ -2,7 +2,6 @@
 title: Load Testing Overview
 page_title: Load Testing
 description: "Load Testing in Test Studio. The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction"
-previous_url: /user-guide/load-testing.aspx, /user-guide/load-testing
 position: 0
 ---
 # Load Testing
@@ -10,8 +9,6 @@ position: 0
 The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction. We make it easy for you to get started and find the data you need to help make your decisions, but we also give you the flexibility and power to create elaborate, complex load scenarios to meet your most demanding needs.
 
 ![Load Test][1]
-
-
 
 ## When Load Testing Can Help?
 

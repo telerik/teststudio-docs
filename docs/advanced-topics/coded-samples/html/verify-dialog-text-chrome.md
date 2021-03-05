@@ -4,25 +4,25 @@ page_title: Verify Dialog Text In Chrome
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
 ---
-#How to Verify Dialog Text (Chrome)#
+# How to Verify Dialog Text in Chrome
 
 *I would like to verify the text of a <a href="/features/dialogs-and-popups/Dialogs" target="_blank">Dialog</a> that is fired from the browser during test execution.*
 
-##Solution##
+## Solution
 
-This could be achieved in a coded solution. The code will both handle the dialog and verify the text within it. What is used to handle this in Chrome is **<a href="https://msdn.microsoft.com/en-us/library/system.windows.automation.automationelement(v=vs.110).aspx" target="_blank">AutomationElement Class</a>**.  A new AutomationElement object is retrieved for the dialog window referenced by the specified window handle and its node is located. The location of the text may vary depending on the machine used for execution though this is handled in the if..else statement. 
+This could be achieved in a coded solution. The code will both handle the dialog and verify the text within it. What is used to handle this in Chrome is **<a href="https://msdn.microsoft.com/en-us/library/system.windows.automation.automationelement(v=vs.110).aspx" target="_blank">AutomationElement Class</a>**.  A new AutomationElement object is retrieved for the dialog window referenced by the specified window handle and its node is located. The location of the text may vary depending on the machine used for execution though this is handled in the if..else statement.
 
-
-**Note:** This code requires an assembly reference to  
-
-- Telerik.TestStudio.Core.dll 
-- UIAutomationClieant.dll 
-- UIAutomationTypes.dll 
-- System.Windows.Forms.dll
-
-The last three could be usually found in *'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\'*. 
-
-<a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Here</a> is an article on how to add an assembly reference in the Standalone version.
+> **Note:**
+> <br>
+> This code requires an <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">assembly reference to be added in the project</a> for the following libraries:
+> <br>
+>   - Telerik.TestStudio.Core.dll 
+>   - UIAutomationClient.dll 
+>   - UIAutomationTypes.dll 
+>   - System.Windows.Forms.dll
+> <br>
+> <br>
+> The last three could be usually found in *'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\'*.
 
 ```C# 
 [CodedStep(@"New Coded Step")]
@@ -83,9 +83,7 @@ Public Sub WebTest_CodedStep()
 End Sub
 ```
 
-
-Ensure you add the following *using or Imports* statements to the top of the code-behind file.Scroll to the top of the code file and add these lines:
-
+Ensure you __add the following *using or Imports* statements__ to the top of the code-behind file.Scroll to the top of the code file and add these lines:
 
 ```C#
 using System.Windows.Automation;

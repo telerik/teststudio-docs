@@ -2,7 +2,7 @@
 title: Compare View
 page_title: Performance Testing Compare View
 description: "Compare View of multiple performance test results in Test Studio."
-previous_url: /user-guide/performance/compare-view.aspx, /user-guide/performance/compare-view
+
 position: 5
 ---
 # Compare View

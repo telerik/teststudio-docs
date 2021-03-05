@@ -3,7 +3,7 @@ title: Modifying Elements Find Expression
 page_title: Modifying Elements Find Expression
 description: "Unable to find Element - Test Studio test failure. How to change how an element is located in Test studio test run/ execution. Update the elements find expression in Test Studio. How to adjust the proeprties used to locate an element in Test Studio."
 previous_url: /user-guide/elements-pane-overview/find-element.aspx, /user-guide/elements-pane-overview/find-element
-position: 2
+position: 4
 ---
 # Modifying Element's Find Expression
 

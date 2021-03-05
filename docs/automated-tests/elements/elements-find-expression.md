@@ -2,7 +2,7 @@
 title: Elements Find Expression
 page_title: Elements Find Expression
 description: "How elements get recorded in a test Studio test. Find Expressions in Test Studio. How an element is being located during test execution. What is find expression, how is find expression build for elements in Test Studio tests"
-position: 0
+position: 1
 ---
 # Elements Find Expression
 

@@ -1,10 +1,22 @@
 ---
-title: Convert All Steps to Code (VS plugin)
-page_title: Convert All Steps to Code (VS plugin)
-description: "Convert All Steps to Code (VS plugin) in Test Studio Plugin for Visual Studio."
+title: Coding Options in VS Plugin
+page_title: Coding Options in VS Plugin
+description: "Convert All Steps to Code (VS plugin) in Test Studio Plugin for Visual Studio. Preview Code (VS plugin) in Test Studio Plugin for Visual Studio."
 position: 6
 ---
-# Convert All Steps to Code (VS plugin)#
+# Coding Options in VS Plugin
+
+The Visual Studio project interface allows some additional coding options in the Test Studio project like previewing the code of a step, or converting the whole test into code.
+
+## Preview Code
+
+Use the **Preview Code** button to see the corresponding code for your Test Studio test.
+
+![Preview Code][10]
+
+[10]: /img/advanced-topics/coded-steps/preview-code/fig1.png
+
+## Convert All Steps to Code
 
 The **Generate unit test** button converts your Test Studio test into a unit test. While the original Test Studio test remains intact, changes made to it are not synced to the unit test. Likewise, changes made to the unit test are not synced back to the Test Studio test. A unit test cannot be converted back to a Test Studio test. Since fully coded tests are harder to maintain, we recommend using this feature sparingly and only when absolutely necessary.
 
@@ -26,11 +38,13 @@ A unit test file and XML file containing your data are created in your Test Proj
 Manager.Settings.Web.EnableSilverlight = true;
 Manager.LaunchNewBrowser();
 ```
-
 ```VB
 Manager.Settings.Web.EnableSilverlight = True
 Manager.LaunchNewBrowser()
 ```
+
+
+
 
 [1]: /img/advanced-topics/coded-steps/convert-steps-code/fig1.png
 [2]: /img/advanced-topics/coded-steps/convert-steps-code/fig2.png

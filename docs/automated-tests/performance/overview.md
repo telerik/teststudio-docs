@@ -2,7 +2,6 @@
 title: Performance Testing Overview
 page_title: Performance Testing Overview
 description: "Performance Testing in Test Studio."
-previous_url: /user-guide/performance.aspx, /user-guide/performance
 position: 0
 ---
 # Performance Testing

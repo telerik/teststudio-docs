@@ -3,7 +3,7 @@ title: Check-in Guidelines
 page_title: Check-in Guidelines
 description: "Test Studio specific remote repository Check-in Guidelines tips and tricks. Files to exclude from source control check in"
 previous_url: /user-guide/source-control/check-in-guidelines.aspx, /user-guide/source-control/check-in-guidelines
-position: 3
+position: 0
 ---
 # Check-in Guidelines
 

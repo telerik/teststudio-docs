@@ -130,30 +130,33 @@ navigation:
     automated-tests/scheduling-results:
         title: "Results from Scheduled Test Executions"
         position: 11
+    automated-tests/headless:
+        title: "Headless Test Executions"
+        position: 12
     automated-tests/responsive:
         title: "Web Responsive Tests in Test Studio"
-        position: 12
+        position: 13
     automated-tests/wpf:
         title: "WPF Tests in Test Studio"
-        position: 13
+        position: 14
     automated-tests/load:
         title: "Load Tests in Test Studio"
-        position: 14
+        position: 15
     automated-tests/performance:
         title: "Performance Tests in Test Studio"
-        position: 15
+        position: 16
     automated-tests/vs-plugin:
         title: "Test Studio Plugin for Visual Studio"
-        position: 16
+        position: 17
     automated-tests/coded-tests:
         title: "Implement Code in a Test"
-        position: 17
+        position: 18
     automated-tests/source-control:
         title: "Share a Test Studio Project in the Team"
-        position: 18
+        position: 19
     automated-tests/continuous-integration:
         title: "Implement Test Studio Tests in CI Builds"
-        position: 19
+        position: 20
 
 # ....Customize Your Project
     "*built-in-help-tools":
@@ -188,6 +191,7 @@ navigation:
         title: "Advanced Topics for Load Test"
         position: 4
         
+# === Source Control ===        
     "*source-control/git":
         title: "Git"
         position: 1
@@ -268,7 +272,7 @@ navigation:
         title: "Project Explorer"
         position: 17
     features/execute-apitest:
-        title: "Execute API test as Step"
+        title: "Implement API test as Step"
         position: 16
     features/coded-steps:
         title: "Coded Steps"
@@ -465,7 +469,10 @@ navigation:
         position: 1
     archived-docs/elements:
         title: "Elements"
-        position: 1
+        position: 2
+    archived-docs/results:
+        title: "Results"
+        position: 3
 
 ## Assign layout and category per different paths
 defaults:

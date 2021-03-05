@@ -2,7 +2,7 @@
 title: Merge Page Nodes
 page_title: Merge Page Nodes
 description: Merge Page Nodes in Test Studio elements repository. Each time I start a recording session I get a new element recorded for the same control under different page node in the elements explorer. The element uses the same find expression, but the page URL differs as it has dynamically generated part. How can I reuse the same recorded element
-position: 1
+position: 7
 ---
 #Merge Page Nodes#
 

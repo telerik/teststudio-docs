@@ -2,7 +2,6 @@
 title: History View
 page_title: Performance Testing History View
 description: "History View of performance test results in Test Studio."
-previous_url: /user-guide/performance/history-view.aspx, /user-guide/performance/history-view
 position: 2
 ---
 # History View

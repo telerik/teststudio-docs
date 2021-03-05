@@ -2,7 +2,7 @@
 title: Frames
 page_title: Frames
 description: "Test Studio Frames support. How are frames supported and recognized in Test Studio. A frame is dynamic and Test Studio test run fails by each execution. Test Studio cannot find a frame"
-position: 4
+position: 6
 ---
 # Frames #
 
@@ -34,9 +34,9 @@ This is often due to a dynamic frame Id or Name. This is remedied by using the t
 
 ![Dynamic frame][3]
 
-[1]: /img/features/elements-explorer/frames/fig1.png
-[2]: /img/features/elements-explorer/frames/fig2.png
-[3]: /img/features/elements-explorer/frames/fig3.png
+[1]: /img/general-information/test-recording/frames/fig1.png
+[2]: /img/general-information/test-recording/frames/fig2.png
+[3]: /img/general-information/test-recording/frames/fig3.png
 
 
 

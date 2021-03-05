@@ -56,6 +56,19 @@ The **'Page DOM'** tab displays a snapshot of the <a href="/troubleshooting-guid
 
 ![Page DOM tab][5]
 
+**When to use the DOM on Failure?**
+
+The DOM on Failure is most helpful in situations where a test does not properly locate and act on a particular element. This includes any of the following, when unexpected:
+
+- 'Element does not exist' exceptions;
+- 'Element not found' exceptions;
+- 'Timed out waiting for element' exceptions;
+- Test execution targets incorrect element.
+
+**What to look for in the DOM on Failure?**
+
+The DOM on Failure provides a record of the elements that Test Studio could see in the browser at the time the test failed. Compare with <a href="/features/elements-explorer/find-element" target="_blank">the find logic</a> of the element that Test Studio expects to be in the browser during the failed step. This helps to identify which element should have been targeted, why the incorrect element may have been targeted, or what state the browser may have been in instead of the correct state.
+
 ### Resolve Failure Tab
 
 The **'Resolve Failure'** tab provides the opportunity to identify and correct the issue that caused the failure. For validation steps, the Sentence Verification Builder allows you to reload the page, make changes to the verification sentence, and re-run the verification until the verification passes.
