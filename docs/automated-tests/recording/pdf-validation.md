@@ -18,22 +18,30 @@ Usually when working with PDF exports, you need to generate and download the PDF
 
 ## Open Local PDF File
 
-Another scenario to validate PDF file is to open an existing locally stored file and validate its content. To accomplish this in a Test Studio test, you can use the <a href="/features/custom-steps/open-pdf" target="_blank">__Open PDF File__ step</a> from the Step Builder. Insert a valid path to an existing PDF file to open it during the test.
+Another scenario to validate PDF file is to __open an existing locally stored file__ and validate its content. To accomplish this in a Test Studio test, you can use the <a href="/features/custom-steps/open-pdf" target="_blank">__Open PDF File__ step</a> from the Step Builder. Insert a valid path to an existing PDF file to open it during the test execution.
 
 ![Add Open pdf step in test from step builder][2]
+
+To open the listed PDF file in the browser and __continue recording__, choose the step context menu option __'Open PDF'__. Choose the browser to use and continue the recording session.
+
+![Open pdf from step context menu in test from step builder][2a]
+
+Once the PDF file is opened in the selected browser recording session, Test Studio recorder captures a __Connect to popup window__ step with the localhost address for the PDF file in the test and you can continue recording.
+
+![Open pdf from step context menu in test from step builder][2b]
 
 > **Tip**
 > <br>
 > <br>
-> If you have added the __Open PDF__ step without active recording session and you need to __record the verification step for its content__, you can <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">execute the test partially</a> to the step, which opens the PDF. This will open the PDF file in the browser with attached recorder to it and you can continue recording the scenario.
+> If you have added the __Open PDF__ step without active recording session you can also __record the next steps__ using the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank"> partial execution options for the test</a>.
 
 ## Control What Is Visible from the PDF File
 
-When a PDF file is opened in active recording session, the toolbar to control the PDF visible part is rendered in the page and Test Studio recorder has free access to it.
+When a PDF file is opened in active recording session, the __toolbar to control the PDF visible part is rendered in the page__ and Test Studio recorder has free access to it.
 
 ![pdf control toolbar][3]
 
-This means you can add steps to zoom in/out, change the displayed page of the document, set the zoom level from the dropdown, verify the value of the current set zoom level, etc.
+This means you can __add steps to zoom in/out, change the displayed page of the document, set the zoom level from the dropdown, verify the value of the current set zoom level__, etc.
 
 ![steps recorded against the pdf control toolbar][4]
 
@@ -73,12 +81,8 @@ Comparing two PDF files is not a straight forward scenario, but combining the Te
 
 [1]: /img/automated-tests/recording/validate-pdf/fig1.png
 [2]: /img/automated-tests/recording/validate-pdf/fig2.png
+[2a]: /img/automated-tests/recording/validate-pdf/fig2a.png
+[2b]: /img/automated-tests/recording/validate-pdf/fig2b.png
 [3]: /img/automated-tests/recording/validate-pdf/fig3.png
 [4]: /img/automated-tests/recording/validate-pdf/fig4.png
 [5]: /img/automated-tests/recording/validate-pdf/fig5.png
-[5a]: /img/automated-tests/recording/validate-pdf/fig5a.png
-[6]: /img/automated-tests/recording/validate-pdf/fig6.png
-[10]: /img/automated-tests/recording/validate-pdf/fig10.png
-[11]: /img/automated-tests/recording/validate-pdf/fig11.png
-[12]: /img/automated-tests/recording/validate-pdf/fig12.png
-
