@@ -1,7 +1,7 @@
 ---
 title: Validate PDF File
 page_title: How to Validate PDF File
-description: "Test Studio test Recording supports codeless PDF validation codeless. validate the content of a PDF file in Test Studio test. Add codeless verifications for the text or images in PDF file in Test Studio tests. Compare two PDF files in Test Studio test. "
+description: "Test Studio test Recording supports codeless PDF validation codeless. validate the content of a PDF file in Test Studio test. Add codeless verifications for the text or images in PDF file in Test Studio tests. Compare two PDF files in Test Studio test. Open a PDF file in Test Studio test and read its content. During the test run there is a PDF file created and stored locally on the hard disc. I would like to open that one and read its content."
 position: 3
 ---
 # Validate PDF File

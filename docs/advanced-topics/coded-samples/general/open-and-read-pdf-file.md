@@ -3,6 +3,7 @@ title: Validate a Locally Stored PDF File
 page_title: Validate a Locally Stored PDF File
 description: "Open a PDF file in Test Studio test and read its content. During the test run there is a PDF file created and stored locally on the hard disc. I would like to open that one and read its content."
 position: 1
+publish: false
 ---
 # Validate a Locally Stored PDF File
 
