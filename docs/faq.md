@@ -236,6 +236,24 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
+##Administrative Level Access##
+
+<p class="trigger"><a href="#why-test-studio-requires-administrative-level-access.">Why Test Studio Requires Administrative Level Access?</a></p>
+<div class="toggle_container">
+   <div class="block">
+        <p>In the case where a user with no administrative level access tries to run the product, an error message preventing Test Studio Run-time from launching would be displayed. To resolve this, Test Studio requires to run with administrative level access.</p>
+        <p>Various Test Studio features require administrative rights in order to function properly. Here is a list of these features and a summary why such level of access is required by them:</p>
+        <ul>
+        <li><strong>1. Internet Explorer test recording and execution</strong> – Test Studio’s recorder and test execution are being injected into IE process.</li>
+        <li><strong>2. <a href="/automated-tests/scheduling/overview" target="_blank">Scheduling/Remote test list runs</a> and the <a href="/automated-tests/scheduling-results/dashboard/overview" target="_blank">Executive Dashboard</a></strong> – Test Studio creates a self-hosted web server that requires certain ports open. It also needs to be able to command and configure local services in order to orchestrate and auto-recover in case of a failure the Scheduling, Storage and Dashboard services.</li>
+        <li>3. <strong><a href="/automated-tests/load/overview" target="_blank">Load</a> and <a href="/automated-tests/performance/overview" target="_blank">Performance</a> testing</strong> – Test Studio gathers system and network traffic related data. </li>
+        <li>4. <strong><a href="/automated-tests/source-control/tfs/overview-tfs" target="_blank">TFS Source Control</a> and <a href="/features/integration/bug-tracking/configuration" target="_blank">Bug Tracking</a></strong> - TFS prompts for an admin user to download the repo locally, this is a TFS requirement. </li>
+        <li>5. <strong>Feedback Utility</strong> – This feature is installed as a service and needs admin level access to get started.</li>
+        </ul>
+    </div>
+</div>
+
+
 ##Installation##
 
 <p class="trigger"><a href="#">I want to just copy the Test Studio DLL's to a new machine instead of running the installer.</a></p>
