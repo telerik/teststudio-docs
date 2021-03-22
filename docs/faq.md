@@ -104,7 +104,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Test Studio Licensing##
+## Test Studio Licensing
 
 <p class="trigger"><a href="#">What license do I get with Test Studio?</a></p>
 <div class="toggle_container">
