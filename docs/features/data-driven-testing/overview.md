@@ -4,18 +4,19 @@ page_title: Data Driven Testing Overview
 description: "Data Driven Testing in Test Studio. Parameterize the test in Test Studio. Use iterated data in a Test Studio test"
 previous_url: /user-guide/data-driven-testing.aspx, /user-guide/data-driven-testing
 position: 0
+publish: false 
 ---
 # Data Driven Testing
 
-Data Driven Testing is a testing methodology in which the same sequence of test steps are performed repeatedly using a data source to drive the input values of those steps and/or the values to expect when performing verification steps. Test Studio can be used for data driven testing. It supports five different data sources:
+Data Driven Testing is a testing methodology in which the same sequence of test steps are performed repeatedly, using a data source to drive the input values of those steps and/or the values to expect, when performing verification steps. 
+
+Test Studio supports can be used for data driven testing. It supports five different external data sources:
 
 - [Local Data Source](/features/data-driven-testing/local-data-driven-test)
 - [Excel spreadsheet](/features/data-driven-testing/add-data-source#add-an-excel-spreadsheet)
 - [XML file](/features/data-driven-testing/add-data-source#add-an-xml-file)
 - [CSV file](/features/data-driven-testing/add-data-source#add-a-csv-file)
 - [SQL database](/features/data-driven-testing/add-data-source#add-a-database-source)
-
- 
 
 Create an external data driven test by following these steps:
 

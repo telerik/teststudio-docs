@@ -4,6 +4,7 @@ page_title: Build Server Test Execution
 description: "Build Server Test Studio Test Execution."
 previous_url: /user-guide/command-line-test-execution.aspx, /user-guide/command-line-test-execution
 position: 0
+publish: false 
 ---
 #Build Server Test Execution#
 

@@ -19,9 +19,12 @@ When you have  <a href="/getting-started/first-test" target="_blank">recorded yo
 
 ## Quick Test Execution
 
-It is time to execute the recorded test and observe the execution process.
+It is time to <a href="/automated-tests/test-execution/quick-execution" target="_blank">execute the recorded test</a> and observe the execution process.
 
-> __Note!__ While a test is being executed **do not start another instance of the same browser or any other application** until the run is finished!
+> __Note!__
+> <br>
+> <br>
+> While a test is being executed **do not start another instance of the same browser or any other application** until the run is finished!
 
 1. Once a test scenario is already recorded, click the **Execute** button in the _Test_ ribbon.
 
@@ -31,23 +34,29 @@ It is time to execute the recorded test and observe the execution process.
 
     ![Select browser](/img/getting-started/first-project/fig09.png)
 
-    > __Note!__ This step will be skipped if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Web ribbon</a>.
+    > __Note!__
+    > <br>
+    > <br>
+    > This step will be skipped if you have already <a href="/general-information/test-execution/quick-execution" target="_blank">set a preferred browser from the Test ribbon</a>.
 
 3. Test Studio launches the selected browser and executes the steps recorded in the test. The **Execute** button in the _Test_ ribbon is changed to __Abort__ and allows you to stop the test run before it is finished.
 
     ![Abort Run](/img/getting-started/first-project/fig10.png)
 
-    > __Note!__ If you abort the test execution before it is finished, there will be no results stored.
+    > __Note!__
+    > <br>
+    > <br>
+    > If you __abort the test execution__ before it is finished, there will be __no results stored__.
 
 ## Results from Quick Execution
 
-When the test execution is complete, there will be a summary how many steps were executed and what is the overall result of the run. Each step is indicated as *Passed* or *Failed* with a green or red circle in front of it. Test results are automatically generated and details can be reviewed by clicking on **View Log**.
+When the test execution is complete, there will be a summary how many steps were executed and what is the overall result of the run. Each step is indicated as *Passed* or *Failed* with a green or red circle in front of it. <a href="/automated-tests/test-results/analyze-quick-run-results">Test results are automatically generated</a> and details can be reviewed by clicking on **View Log**.
 
 ![View log](/img/getting-started/first-project/fig14.png)
 
 ## Test List Execution
 
-Now that you recorded your first test and ensured it is executed successfully, you can create your first __Test List__ and add the existing test in it.
+Now that you recorded your first test and ensured it is executed successfully, you can <a href="/features/test-lists/create-test-lists">create your first __Test List__</a> and add the existing test in it.
 
 1. Go to the _Test List_ ribbon in Test Studio and click on the __List__ button in the _Add_ section.
 
@@ -63,10 +72,10 @@ Now that you recorded your first test and ensured it is executed successfully, y
 
 ## Test List Results
 
-The results from the test list run are available in the **Results** tab.
+The <a href="/automated-tests/test-list-results/calendar">results from the test list runs</a> are available in the **Results** tab.
 
 ![test list results](/img/getting-started/first-project/test-list-results.png)
 
-More on test lists and their execution can be found here __add link__.
+Find out more about <a href="/automated-tests/test-lists/test-lists-standalone">test lists</a> and the <a href="/automated-tests/test-lists/test-list-execution">execution of test lists</a>.
 
 <div><a href="/getting-started/first-test">Back to <strong>Record Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>

@@ -41,6 +41,11 @@ For your first test in this project add a new **Web** test.
 *	<a href="/features/testing-types/performance-testing/overview" target="_blank">**Performance Test**</a>
 *	<a href="/features/testing-types/manual-testing/overview" target="_blank">**Manual Test**</a>
 
+> __Tip__
+><br>
+><br>
+> When you start working in the project, you will receive tips and tricks with useful information and links to the documentation. These are based on your actions and you can access the list of <a href="/general-information/start-a-project/in-product-tips-tricks" target="_blank">__Tips and Tricks__</a> at any time from the top right corner of Test Studio.
+
 ## Start a Recording Session
 
 Test Studio allows you to easily record the steps of an automated scenario with its click-and-record functionality. The below steps describes how to trigger a recording session and start recording the steps of your test scenario.
@@ -53,13 +58,19 @@ Test Studio allows you to easily record the steps of an automated scenario with 
 
     ![Choose browser](/img/getting-started/first-project/fig05.png)
 
-    > **Note!** Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a>.
+    > **Note**
+    ><br>
+    ><br>
+    > Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution#preferred-browser" target="_blank">Test ribbon</a>.
 
 3. Once the selected browser navigates to the desired page, the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> gets attached to it. A navigate step is recorded in the *Steps* pane and you can continue recording the next actions as per the required scenario.
 
     ![Attached recorder](/img/getting-started/first-project/fig06.png)
 
-    > __Note!__ While recording a test, **do not start another instance of the same browser** until the recording is finished!
+    > __Important__ 
+    ><br>
+    ><br>
+    > While recording a test, **do not start another instance of the same browser** until the recording is finished!
 
 4. Lets navigate to the [Test Studio documentation](https://docs.telerik.com/teststudio/) from the Telerik page. Click on **DOCS & SUPPORT** button, click on **Test Studio** link and on the next page click on the **Documentation** link. All of those actions are added as steps in the test.
 

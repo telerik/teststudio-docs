@@ -41,7 +41,7 @@ You can explore a sample **Web & Desktop** project, from the [**Get Started**](/
 
 ## Test Studio Project Layout
 
-Creating a new Test Studio project launches the default project layout. This consists of useful panels providing plenty of useful components. To help you speed up your flawless work with Test Studio, you can refer the below notes for each of these.
+Creating your first Test Studio project launches the default _Compact_ layout. This consists of useful panels providing a bunch of useful components. To speed up your flawless work with Test Studio, you can refer the below notes for each of these.
 
 - <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a> - this is the pane, which displays the structure of the project with all tests, coded files, folders in the project root folder. Provides access to the items properties, allows you to copy, cut and paste these, add new items, etc.
 - <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a> - this is the pane, which shows all elements referred from the test steps in the project, structured in a tree view, which includes page node, frame, element. Provides access to the elements' find expressions and properties, allows you to edit these.
@@ -53,7 +53,10 @@ Creating a new Test Studio project launches the default project layout. This con
 
 ![Project Layout](/img/getting-started/first-project/project-components.png)
 
-> After the project is successfully created, you can open the <a href="/general-information/start-a-project/in-product-tips-tricks" target="_blank">Tips and Tricks</a> from the top right corner of Test Studio. The popup dialog has many useful references to the documentation and a short video on some of the topics.
+> __Tip__
+><br>
+><br>
+> The __layout in Test Studio project can be fully customized__. You can choose between the predefined layouts or tailor up the panels as per your preference - <a href="/automated-tests/customize-project/custom-layout" target="_blank">find out more here.</a> 
 
 ## Types of Tests in Test Studio Project
 
