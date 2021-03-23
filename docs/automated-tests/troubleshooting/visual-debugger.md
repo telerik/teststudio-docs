@@ -85,15 +85,5 @@ Once finished with debugging process for the current step, you have few options 
 
 	![Visual Debugger Resume normal execution](/img/automated-tests/troubleshooting/visual-debugger/fig12.png)
 
-
-
-
-
-__Dont know yet if I need this. 
-
-## See also ##
-
-* <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">Using the Visual Debugger</a>
-
 [1]: /img/general-information/test-execution/visual-debugger/fig1.png
 [2]: /img/general-information/test-execution/visual-debugger/fig2.png
