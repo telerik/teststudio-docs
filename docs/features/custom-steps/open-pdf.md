@@ -6,7 +6,7 @@ position: 2
 ---
 # Open PDF File Step
 
-The __Open PDF File__ step allows you to open an existing PDF file stored locally on your disk, load it in the browser and validate its content.
+The __Open PDF File__ step allows you to <a href="/automated-tests/recording/pdf-validation#open-local-pdf-file" target="_blank">open an existing PDF file</a> stored locally on your disk, load it in the browser and validate its content.
 
 ![Open PDF][1]
 

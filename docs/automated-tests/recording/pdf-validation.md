@@ -1,28 +1,34 @@
 ---
-title: Validate PDF File
-page_title: How to Validate PDF File
-description: "Test Studio test Recording supports codeless PDF validation codeless. validate the content of a PDF file in Test Studio test. Add codeless verifications for the text or images in PDF file in Test Studio tests. Compare two PDF files in Test Studio test. Open a PDF file in Test Studio test and read its content. During the test run there is a PDF file created and stored locally on the hard disc. I would like to open that one and read its content."
+title: Automate PDF Validation
+page_title: How to Validate PDF File in Test Studio
+description: "Test Studio test Recording supports codeless PDF validation codeless. Test automation pdf with Test Studio. validate the content of a PDF file in Test Studio test. Test Studio is among the pdf automation tools. Validate PDF content through codeless verifications for the text or images in PDF file in Test Studio tests. Compare two PDF files in Test Studio test. Open a PDF file in Test Studio test and read its content. During the test run there is a PDF file created and stored locally on the hard disc. I would like to open that one and read its content."
 position: 3
 ---
 # Validate PDF File
 
-PDF files are commonly used for generating reports and documents across different business areas and companies. Test Studio provides the functionality to validate the content of PDF file out-of-the-box and completely codeless.
+PDF files are commonly used for generating reports and documents across different business areas and companies. Test Studio, as being among the PDF automation tools, provides the functionality for __PDF validation automation__ out-of-the-box and completely codeless.
 
 Find out how to open a PDF file in the browser and record the scenario actions in a Test Studio test.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## Download and Open PDF File
 
-Usually when working with PDF exports, you need to generate and download the PDF file, then open it and validate its content. And this is a complete end-to-end scenario in a Test Studio recording session. Whenever a __PDF file is downloaded__, the recording process detects it and __opens it in a new tab of the recording browser__. As a result there is a sequence of steps recorded - click the download button, handle the download dialog, open the downloaded PDF, connect to the tab with PDF file opened.
+Usually when working with data exported to PDF file, you need to generate the specific content and download the PDF file, then open it and validate if the expected information is listed in the generated file.
 
-![Steps recorded automatically when pdf is downloaded][1]
+And this is a complete end-to-end scenario for test automation of a PDF file in a Test Studio recording session. Whenever a __PDF file is downloaded__, the recording process detects it and __opens it in a new tab of the recording browser__. As a result, there is a sequence of steps recorded - click the download button, handle the download dialog, open the downloaded PDF, connect to the tab with PDF file opened, record different type of steps to check the content and automate the PDF validation.
+
+![Steps recorded automatically for test automation pdf][1]
 
 ## Open Local PDF File
 
-Another scenario to validate PDF file is to __open an existing locally stored file__ and validate its content. To accomplish this in a Test Studio test, you can use the <a href="/features/custom-steps/open-pdf" target="_blank">__Open PDF File__ step</a> from the Step Builder. Insert a valid path to an existing PDF file to open it during the test execution.
+Another scenario for PDF test automation is to __open an existing locally stored file__ and validate its content. To accomplish this in a Test Studio test, you can use the <a href="/features/custom-steps/open-pdf" target="_blank">__Open PDF File__ step</a> from the Step Builder. Insert a valid path to an existing PDF file to open it during the test execution.
 
 ![Add Open pdf step in test from step builder][2]
 
-To open the listed PDF file in the browser and __continue recording__, choose the step context menu option __'Open PDF'__. Choose the browser to use and continue the recording session.
+To open the listed PDF file in the browser and __continue recording__, choose the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> option __'Open PDF'__. Choose the browser to use and continue the recording session.
 
 ![Open pdf from step context menu in test from step builder][2a]
 
@@ -52,7 +58,7 @@ This means you can __add steps to zoom in/out, change the displayed page of the 
 
 ## Record Steps Against the PDF File
 
-When the PDF is opened in the browser, you can __add any verification steps__, which Test Studio provides:
+As a PDF validation automation tool Test Studio allows you to add different __verification steps__, which will help in validating the content of the file and, optionally, reuse it later in the test automation actions.
 
 * <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">Quick Verification</a>/ <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">Wait Steps</a>
 * <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">Advanced Verification</a>
@@ -62,7 +68,7 @@ When the PDF is opened in the browser, you can __add any verification steps__, w
 
 ## Compare PDF Files
 
-Comparing two PDF files is not a straight forward scenario, but combining the Test Studio features allows you to accomplish even such difficult task. Here are the steps for example scenario:
+Comparing the content of two PDF files is not a straight-forward scenario, but combining the Test Studio features allows you to automate even such difficult task. Here are the steps for example scenario:
 
 1. Navigate to the tested page.
 1. Generate and download the PDF file.
