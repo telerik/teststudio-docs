@@ -10,7 +10,15 @@ The **Test Recording** is one of the leading Test Studio features, which automat
 
 The below article will guide you trough the recoding process for web and WPF tests and how to get the most out of it.
 
-## Start a Recording Session
+1. [How to Start a Recording Session](#start-a-recording-session)
+1. [How to Add Steps in the Test](#how-to-add-steps-in-the-test)
+1. [Example of a Web Test Recording](#web-test-recording)
+1. [Example of a WPF Test Recording](#wpf-test-recording)
+1. [Stop the Recording Session](#stop-the-recording-session)
+1. [Attach the Recorder to a Running Application](#attach-the-recorder-to-a-running-application-applicable-for-ie-or-wpf-only)
+1. [What is the Compact Recorder](#what-is-the-compact-recorder)
+
+## __Start a Recording Session__
 
 When a web or WPF test is opened and active in the Test Studio project, the toolbar ribbon is switched to the ___Test___ tab. It provides useful options to control the recording and execution process of a test in Test Studio.
 
@@ -25,7 +33,15 @@ Among all available buttons you can see the __Record__ one at the first position
 > <br>
 > The recording session can be started with a keyboard shortcut **Ctrl+R**, or by using the Project Explorer context menu option __Record__.
 
-#### Web Test Recording
+## How to Add Steps in the Test
+
+* The Test Studio <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> __detects any actions performed against the application under test__ - click on any element, enter text, trigger a dialog and handle it, navigate to a page, open a pop-up window and perform actions in it, etc.
+
+* Apart from all direct interaction, which can be sent towards the tested application, you can __add different type of steps__ from the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Quick Highlighting Menu__</a>, or __build more complex steps__ in the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">__Advanced Recording Tools__</a>.
+
+* And, finally, when it comes to steps, which are not related to a specific application or element from it, you can also __add Common Steps from the__ <a href="/features/custom-steps/overview" target="_blank">__Step Builder pane__</a> - like adding a <a href="/features/coded-steps/coded-step" target="_blank">coded step</a>, or a <a href="/features/custom-steps/test-as-step" target="_blank">test as step</a>, comment, or <a href="/features/custom-steps/capture" target="_blank">refreshing the browser</a>, <a href="/features/logical-steps/if-else" target="_blank">if...else statement</a>, etc.
+
+### Web Test Recording
 
 When starting a recording session in the context of a web test you need to __enter the URL__ of the page to automate and __choose a browser__ to load the application in. The _Recording_ dialog, which appears allows you to define these parameters.
 
@@ -49,7 +65,7 @@ The Test Studio UI remains in the background of the browser, but once the page i
 > <br>
 > Once a recording session is started, **do not start another instance of the same browser** until the session is finished!
 
-#### WPF Test Recording
+### WPF Test Recording
 
 The WPF application is a desktop app and thus the automation process slightly differs when it comes to recording a test in Test Studio - you need to __define which is the application to test and where is its executable file__ - this is called <a href="/automated-tests/wpf/wpf-test" target="_blank">configuration of the WPF test</a>.
 
