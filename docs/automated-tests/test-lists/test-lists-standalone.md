@@ -47,11 +47,11 @@ The **Manual** type of list allows you to add only **manual** tests and execute 
 
 ## <strong>Dynamic Test Lists</strong>
 
-The dynamic test list can be only automated type and as such, it can execute one or more **web**, **responsive web**, **load** or **WPF** tests, or a combination of these. When <a href="/features/test-lists/create-test-lists#how-to-create-a-dynamic-test-list" target="_blank">creating the dynamic test list</a> there are a bunch of <a href="/features/test-maintenance/test-properties-standalone">__test properties__</a>, which you can use as criteria for filtering the tests from project - __test name__, __test path__ and the, so called, __user defined properties__ - __Owner, Priority, Custom Property 1, 2, 3__.
+The dynamic test list can be only automated type and as such, it can execute one or more **web**, **responsive web**, **load** or **WPF** tests, or a combination of these. When <a href="/features/test-lists/create-test-lists#how-to-create-a-dynamic-test-list" target="_blank">creating the dynamic test list</a> there are a bunch of <a href="/features/test-maintenance/test-properties-standalone" target="_blank">__test properties__</a>, which you can use as criteria for filtering the tests from project - __test name__, __test path__ and the, so called, __user defined properties__ - __Owner, Priority, Custom Property 1, 2, 3__.
 
 ![Test properties][6]
 
-These criteria can be used when <a href="/features/test-lists/create-test-lists#define-rules-to-filter-the-tests" target="_blank">defining the __Rules__</a>, which tests to be included in the dynamic test list.
+These criteria can be used when <a href="/features/test-lists/create-test-lists#create-dynamic-test-list" target="_blank">defining the __Rules__</a>, which tests to be included in the dynamic test list.
 
 ![Define Rules which tests to be included in the dynamic list][8]
 
