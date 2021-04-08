@@ -72,9 +72,14 @@ There are few test properties you can use to create rules for tests to include i
 
 ### Test Properties to Filter Tests in Dynamic List
 
-There are __few criteria you can define to filter tests__ upon execution, when creating a dynamic test lists - __test name__, __test path__ and the rest are the __user defined <a href="/features/test-maintenance/test-properties-standalone" target="blank">test properties__</a> (_Owner, Priority, Custom Property 1, 2, 3_). For the purpose of this example, I have modified two of the user-defined properties - _Owner_ to Telerik and _Priority_ to 1.
+There are __few criteria you can define to filter tests__ upon execution, when creating a dynamic test lists - __test name__, __test path__ and the rest are the __user defined <a href="/features/test-maintenance/test-properties-standalone" target="blank">test properties__</a> (_Owner, Priority, Custom Property 1, 2, 3_). For the purpose of this example, two of the user-defined properties were modified - _Owner_ was set to Telerik and _Priority_ to 1.
 
 ![Test properties][6]
+
+> __Note__
+><br>
+><br>
+> The test's ___Priority_ property does not affect the order__ of tests to be executed in a test list. It is a property to be used for filtering rules in the dynamic test lists.
 
 ### Create Dynamic Test List
 
