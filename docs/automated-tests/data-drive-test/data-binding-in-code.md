@@ -8,7 +8,7 @@ position: 7
 
 Test Studio allows you to insert any custom code in the tests - that includes the option to convert an already recorded step to code and use it that way.
 
-Given that, you may need to use the values from the data source in a coded steps and this article describes how to access the data columns through code.
+Given that, you may need to use the values from the data source in coded steps and this article describes how to access the data columns through code.
 
 
 #### __[C#]__

@@ -10,7 +10,7 @@ Have a smooth getting started experience with the guided interactive tutorials b
 
 ## Start a Guided Tutorial
 
-The tutorials to help you get familiar with Test Studio can be started from the Test Studio [**Welcome Screen**](/automated-tests/customize-project/welcome-screen#get-started) or from within the product.
+You can start a tutorial from the Test Studio [**Welcome Screen**](/automated-tests/customize-project/welcome-screen#get-started) or from within the product.
 
 <table id="no-table">
 <tr>
@@ -21,17 +21,17 @@ The tutorials to help you get familiar with Test Studio can be started from the 
 
 ## Scenarios to Guide You Through
 
-Each of the interactive scenarios will guide you through the minimum required steps to start automating tests with Test Studio 
+Each of the interactive scenarios will guide you through the minimum required steps to start automating tests with Test Studio:
 
 - record a test
 - execute a successful test
 - explore the [step failure details]() after executing a failing test
 
-When any of the tutorials is started, the Test Studio window gets grayed out, the element on focus is left active along with a message what is the expected next action.
+When you start a tutorial, the Test Studio window gets grayed out, while the element on focus stays active, and you see a hint with the required action.
 
 ![Start Tutorial][3]
 
-The message popup keeps information for the upcoming step sequence and allows you to stop the tutorial at any time. You can use the *'Escape'* button on your keyboard as well to end the tutorial.
+The hints popup contains information about the upcoming steps and allows you to stop the tutorial at any time. You can also use the *'Escape'* button on your keyboard to end the tutorial.
 
 ![Tutorial Message][4]
 
