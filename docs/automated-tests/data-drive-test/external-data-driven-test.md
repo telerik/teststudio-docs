@@ -29,10 +29,10 @@ To ensure that the search was performed correctly, it is recommended to add a st
 > __Tip__
 ><br>
 ><br>
-
-> For more details on wait steps, see article 1.
-> For more details on wait for text from image, see article 2.
-> Find additional details on <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image" target="_blank">wait for text from image</a> in the referred articles.
+> For more details on __wait steps__, see <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">here how to record one</a>
+><br>
+><br>
+> For more details on steps using the __text from an image__, see <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image" target="_blank">here how to record such step</a>.
 
 Once you add all necessary steps to the test, __close the browser to finish the recording session__.
 

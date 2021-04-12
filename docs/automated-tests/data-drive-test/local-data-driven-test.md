@@ -39,9 +39,10 @@ To ensure that the search is performed correctly, we recommend to add a step tha
 > __Tip__
 ><br>
 ><br>
-> For more details on wait steps, see article 1.
-> For more details on wait for text from image, see article 2.
-> Find additional details on <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image" target="_blank">wait for text from image</a> in the referred articles.
+> For more details on __wait steps__, see <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">here how to record one</a>
+><br>
+><br>
+> For more details on steps using the __text from an image__, see <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image" target="_blank">here how to record such step</a>.
 
 Once all necessary steps are added to the test, __close the browser to finish the recording session__.
 
@@ -66,7 +67,7 @@ Once all necessary steps are added to the test, __close the browser to finish th
 > __Tip__
 ><br>
 ><br>
-> For more information, see <a href="/features/data-driven-testing/manage-local-data" target="_blank">How to modify the built-in data table</a>.
+> For more information, see <a href="/features/data-driven-testing/manage-local-data" target="_blank">how to modify the built-in data table</a>.
 
 ## Bind the Data to the Test Steps
 
