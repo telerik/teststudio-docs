@@ -6,7 +6,13 @@ position: 12
 ---
 # Data Driven Image Verification 
 
-To data bind an <a href="/features/recorder/verifications/image-verification" target="_blank">image verification</a> step certain actions have to be performed. An approach to this scenario is to have previously stored histograms of the image element to which verification should be bonded. Then in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> the verification has to be managed as it is given in the sample below:
+To data bind an <a href="/features/recorder/verifications/image-verification" target="_blank">image verification</a> step, certain actions have to be performed. One possible approach to this scenario involves the following steps:
+
+1. Create a histogram of the image element.
+
+1. Bind the verification step to the histogram.
+
+1. Perform the verification in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> as demonstrated below:
 
 ```C#
 // get an image of MyImage element        
@@ -57,6 +63,6 @@ ArtOfTest.Common.UnitTesting.Assert.IsTrue(tolerance >= compareValue)
 
 To complete this scenario using the provided sample:
 
-- *System.Drawings* .NET assembly has to be <a href="/features/coded-steps/add-assembly-reference" target="_blank">referred</a> to the project
-- test script has to be data-binded to a data source with *Histogram* column 
-- image histogram data has to be placed as a single line string in the data storage cell. For a hystogram example - one is created if an image verification step is recorded in the test script .tstest file
+- *System.Drawings* .NET assembly must have a <a href="/features/coded-steps/add-assembly-reference" target="_blank">reference</a> in the project.
+- The test script must be bound to a data source with a *Histogram* column.
+- The image histogram data must be formatted as a single line string in the data storage cell. For a histogram example - one is created if an image verification step is recorded in the test script .tstest file
