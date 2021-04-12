@@ -9,8 +9,13 @@ position: 0
 
 You’ve been always looking for a test automation tool that really works and you’ve never found the right one? Look no further as you’ve come to the right place!
 
-<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities, you’ll always ensure optimal app quality and deliver outstanding results.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy to use tool for Web, API, load and WPF desktop testing. Whether you decide to go codeless or you choose to use Test Studio’s code-based automation capabilities, you’ll always ensure optimal app quality and deliver outstanding results. Test Studio provides <a href="https://www.telerik.com/teststudio/test-automation-solutions-for-the-entire-team" target="_blank">test automation solutions for the entire team</a>, empowering everyone—from junior testers to senior developers, product managers and QA leads—to achieve maximum productivity in agile software delivery environments.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
+<br>
 **Test Studio functional testing** allows you to create, run and automate functional tests for Web and WPF applications. Some of our most prominent features are:
 
 * __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a> are proactively supported via Test Studio’s own browser extensions.
@@ -41,14 +46,14 @@ __<a href="/features/testing-types/load-testing/overview" target="_blank">Load T
 
 ## Getting Help
 
-* <a href="https://www.telerik.com/videos/teststudio">Videos</a>
-* <a href="/getting-started/start-a-project/in-product-tips-tricks">Tips and tricks</a>
-* <a href="https://www.telerik.com/forums/teststudio">Forums</a>
-* <a href="https://www.telerik.com/account/support-tickets">Contact support</a>
-* <a href="https://www.telerik.com/account/support-tickets/customer-service">Submit a general feedback</a>
-* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry">Send a presale inquiry</a>
-* <a href="https://www.telerik.com/support/whats-new/teststudio">What's new</a>
-* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history">Release notes</a>
+* <a href="https://www.telerik.com/videos/teststudio" target="_blank">Videos</a>
+* <a href="https://learn.telerik.com/learn/course/external/view/elearning/31/telerik-test-studio" target="_blank">Virtual Classroom</a>
+* <a href="https://www.telerik.com/forums/teststudio" target="_blank">Forums</a>
+* <a href="https://www.telerik.com/account/support-tickets" target="_blank">Contact support</a>
+* <a href="https://www.telerik.com/account/support-tickets/customer-service" target="_blank">Submit a general feedback</a>
+* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry" target="_blank">Send a presale inquiry</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio" target="_blank">What's new</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history" target="_blank">Release notes</a>
 </td>
 <td valign=top>
 
@@ -67,7 +72,7 @@ __<a href="/features/testing-types/load-testing/overview" target="_blank">Load T
 
 ### Advanced Features
 
-* [Contunious Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
+* [Continuous Integration and Deployment (CI/CD)](/advanced-topics/build-server/continious-integration-overview)
 * [Coded Samples for Different Scenarios](/advanced-topics/coded-samples/general/send-keystrokes)
 
 </td>

@@ -2,7 +2,6 @@
 title: Load Testing Overview
 page_title: Load Testing
 description: "Load Testing in Test Studio. The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction"
-previous_url: /user-guide/load-testing.aspx, /user-guide/load-testing
 position: 0
 ---
 # Load Testing
@@ -30,5 +29,16 @@ Load tests help answer some of the most critical questions organizations have ab
 1. <a href="/features/testing-types/load-testing/designing-tests" target="_blank">Design your load test</a>. This includes selecting agents and virtual users, capturing or importing web traffic, selecting dynamic targets, and data-driving your tests.
 1. <a href="/features/testing-types/load-testing/running-tests" target="_blank">Run your load test</a>.
 1. <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">Analyze your load test results</a>.
+
+<br>
+<br>
+<br>
+<br>
+
+> __Test Studio Training__
+><br>
+><br>
+> Having troubles with your test automation?
+> You’ve got the challenges – we have the resources and expertise to help you make testing effective and worthwhile across your organization. Make use of our <a href="https://www.telerik.com/teststudio/training" target="_blank">__free training course or explore the other training options__</a>.
 
 [1]: /img/features/testing-types/load-testing/overview/fig1.png

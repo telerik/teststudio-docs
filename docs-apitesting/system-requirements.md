@@ -15,10 +15,14 @@ position: 1
 ##Supported Operating Systems##
 
 * Windows 10, 8, 7	
-* Windows Server 2008 R2, 2012, 2012 R2, 2016
+* Windows Server 2008 R2, 2012, 2012 R2, 2016, 2019
 
 ##Minimum Hardware Requirements##
 
 * Disk Space: 500MB
 * RAM: 1GB
 * CPU: 2.4GHz
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}

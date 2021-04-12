@@ -103,6 +103,7 @@ If you need to resort to manual configuration, use the following settings:
 </div>
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -112,5 +113,6 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>

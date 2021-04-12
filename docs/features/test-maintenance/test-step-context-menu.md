@@ -20,6 +20,7 @@ Each test step provides further actions that can be taken in the right mouse but
 &nbsp;=====================
 
 - **Load Page** - launches the selected browser in record mode and loads the listed page; available for "Navigate to" steps only.
+- **Open PDF** - launches the selected browser in record mode and loads the PDF file listed in the step; available for "Open PDF" steps only.
 - **Rename** - alter the default step description.
 - **Reset Name** - revert to the default step description.
 

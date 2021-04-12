@@ -27,9 +27,10 @@ p.trigger{
 }
 </style>
 
-#Test Studio Users Frequently Asked Questions#
+# Test Studio Users Frequently Asked Questions 
 
-##Contacting a support officer##
+## Contacting Technical Support Officer
+
 
 <p class="trigger"><a href="#">Overview of the ticketing system</a></p>
 <div class="toggle_container">
@@ -104,7 +105,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Test Studio Licensing##
+## Test Studio Licensing
 
 <p class="trigger"><a href="#">What license do I get with Test Studio?</a></p>
 <div class="toggle_container">
@@ -197,7 +198,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Support Plans##
+## Support Plans
 
 <p class="trigger"><a href="#">What does my support package include?</a></p>
 <div class="toggle_container">
@@ -213,7 +214,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##License keys##
+## License Keys
 
 <p class="trigger"><a href="#">Do I need a license key to run RadControls?</a></p>
 <div class="toggle_container">
@@ -236,7 +237,25 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Installation##
+## Administrative Level Access
+
+<p class="trigger"><a href="#why-test-studio-requires-administrative-level-access.">Why Test Studio Requires Administrative Level Access?</a></p>
+<div class="toggle_container">
+   <div class="block">
+        <p>In the case where a user with no administrative level access tries to run the product, an error message preventing Test Studio from launching would be displayed. To resolve this, Test Studio requires to run with administrative level access.</p>
+        <p>Various Test Studio features require administrative rights in order to function properly. Here is a list of these features and a summary why such level of access is required by them:</p>
+        <ul>
+        <li><strong>1. Internet Explorer test recording and execution</strong> – Test Studio’s recorder and test execution are being injected into the IE process.</li>
+        <li><strong>2. <a href="/automated-tests/scheduling/overview" target="_blank">Scheduling/Remote test list runs</a> and the <a href="/automated-tests/scheduling-results/dashboard/overview" target="_blank">Executive Dashboard</a></strong> – Test Studio creates a self-hosted web server that requires certain ports open. It also needs to be able to command and configure local services in order to orchestrate and auto-recover in case of a failure the Scheduling, Storage and Dashboard services.</li>
+        <li>3. <strong><a href="/automated-tests/load/overview" target="_blank">Load</a> and <a href="/automated-tests/performance/overview" target="_blank">Performance</a> testing</strong> – Test Studio gathers system and network traffic related data. </li>
+        <li>4. <strong><a href="/automated-tests/source-control/tfs/overview-tfs" target="_blank">TFS Source Control</a> and <a href="/features/integration/bug-tracking/configuration" target="_blank">Bug Tracking</a></strong> - TFS prompts for an admin user to download the repo locally, this is a TFS requirement. </li>
+        <li>5. <strong>Feedback Utility</strong> – This feature is installed as a service and needs admin level access to get started.</li>
+        </ul>
+    </div>
+</div>
+
+
+## Installation 
 
 <p class="trigger"><a href="#">I want to just copy the Test Studio DLL's to a new machine instead of running the installer.</a></p>
 <div class="toggle_container">
@@ -266,7 +285,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Activation##
+## Activation
 
 <p class="trigger"><a href="#">How do I activate Test Studio?</a></p>
 <div class="toggle_container">
@@ -308,7 +327,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Test Recording##
+## Test Recording
 
 <p class="trigger"><a href="#">Why can't I record my Silverlight application in Chrome/Firefox/Safari?</a></p>
 <div class="toggle_container">
@@ -332,7 +351,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Source Control##
+## Source Control
 
 <p class="trigger"><a href="#">What source control systems does Test Studio support?</a></p>
 <div class="toggle_container">
@@ -348,7 +367,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Test Execution##
+## Test Execution
 
 <p class="trigger"><a href="#">Does Test Studio require administrator level access?</a></p>
 <div class="toggle_container">
@@ -450,7 +469,7 @@ As with any other system, there are some guidelines to follow in order for you t
     </div>
 </div>
 
-##Test List Scheduling##
+## Test List Scheduling
 
 <p class="trigger"><a href="#">I get the message "A test list is waiting to be executed..." but nothing shows scheduled in Results.</a></p>
 <div class="toggle_container">
@@ -488,6 +507,9 @@ As with any other system, there are some guidelines to follow in order for you t
 
 
 <script>
+
+window.addEventListener('DOMContentLoaded', function () {
+
 window.animateScrollTo = function(e) {
     e.preventDefault();
 };
@@ -499,4 +521,5 @@ $(".toggle_container").hide();
     $("p.trigger").click(function(){
         $(this).toggleClass("active").next().slideToggle("normal");
     });
+});
 </script>

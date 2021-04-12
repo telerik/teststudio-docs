@@ -3,11 +3,10 @@ title: Test Results (VS Plugin)
 page_title: Test Results (VS plugin)
 description: "Test Studio Test Results (VS plugin) in Visual Studio. How to review the Test Studio test execution results in Visual Studio"
 previous_url: /user-guide/test-results/test-results-vs-plugin.aspx, /user-guide/test-results/test-results-vs-plugin, /getting-started/test-results/test-results-vs
-position: 8
+position: 5
 ---
 # Test Results (VS plugin) #
 
-## Visual Studio 2012 and later ##
 
 Once you execute your test using the <a href="/getting-started/test-execution/vs-2012-test-explorer" target="_blank">Visual Studio Test Explorer</a> you can see the results right under Test Explorer.
 

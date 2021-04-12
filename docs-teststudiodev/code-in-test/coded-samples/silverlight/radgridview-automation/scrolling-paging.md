@@ -141,4 +141,4 @@ The following code demonstrates how to accomplish this on a <a href="http://demo
     
 Place this in the code-behind and then call this method from a coded step.
 
-[1]: images/radgridview-automation/scrolling-paging/fig1.png
+[1]: images/scrolling-paging/fig1.png

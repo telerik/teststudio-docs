@@ -29,3 +29,11 @@ Do not run Telerik tests in parallel. Telerik tests are not thread safe. Also, i
 4. Install Test Studio or the Telerik Testing Framework. Enter your license.
 
 5. Leave the machine running and logged into the account. If your tests perform direct desktop interaction (such as Desktop.Mouse.Click or Window.GetBitmap), do not lock the machine. Instead, leave your machine logged on and displaying the desktop at all times. Disable the screensaver and **never lock** the machine.
+
+## Examples of Implementing Test Studio tests in Different CI Tools
+
+* <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps</a>
+* <a href="/advanced-topics/build-server/jenkins-ci" target="_blank">Jenkins CI</a>
+* <a href="/advanced-topics/build-server/team-city-builds" target="_blank">TeamCity</a>
+* <a href="/advanced-topics/build-server/bamboo" target="_blank">Bamboo</a>
+* <a href="/advanced-topics/build-server/cruise-control.net-builds" target="_blank">CruiseControl .Net</a>

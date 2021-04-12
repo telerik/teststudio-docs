@@ -7,8 +7,55 @@ position: 1
 ---
 #Send Keystrokes#
 
-*I want to send keystrokes like Alt+F4.*
+##Problem##
 
+*I want to press Enter key.*
+
+##Solution##
+
+This is possible with a coded solution:
+
+1. <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *System.Windows.Forms*.
+2. Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the test.
+
+Here is the full code-behind file, excluding the standard *using/Imports* statements and the *Dynamic Pages Reference* region:
+
+```C#
+using System.Windows.Forms;
+ 
+namespace TestProject8
+{     
+    public class SendKeystrokes : BaseWebAiiTest    {  
+        
+     
+        [CodedStep(@"New Coded Step")]
+         public void Keystrokes()
+        {                
+            Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
+        }
+    }
+}
+```
+```VB
+Imports System.Windows.Forms
+ 
+Namespace TestProject8
+    Public Class SendKeystrokes
+        Inherits BaseWebAiiTest
+         
+        <CodedStep("New Coded Step")> _
+        Public Sub KeyStrokes()
+
+            Manager.Desktop.KeyBoard.KeyPress(Keys.Enter)
+         
+        End Sub
+    End Class
+End Namespace
+```
+
+##Problem##
+
+*I want to type text with keystrokes.*
 
 ##Solution##
 
@@ -30,7 +77,7 @@ namespace TestProject8
         [CodedStep(@"New Coded Step")]
          public void Keystrokes()
         {
-            Manager.Desktop.KeyBoard.SendString("%{F4}");
+            Manager.Desktop.KeyBoard.TypeText("InputValue");
         }
     }
 }
@@ -45,7 +92,7 @@ Namespace TestProject8
         <CodedStep("New Coded Step")> _
         Public Sub KeyStrokes()
  
-        Manager.Desktop.KeyBoard.SendString("%{F4}")
+        Manager.Desktop.KeyBoard.TypeText("InputValue")
         
         End Sub
     End Class
@@ -54,6 +101,8 @@ End Namespace
 
 
 > <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys(v=vs.110).aspx" target="_blank">Here</a> you can find the list with key codes.
+
+##Problem##
 
 *I want to perform multi-select while holding down the Ctrl key.*
 

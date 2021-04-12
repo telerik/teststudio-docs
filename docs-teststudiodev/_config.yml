@@ -4,6 +4,8 @@ url: "https://docs.telerik.com/devtools/teststudiodev"
 # Exclude files which should not be in the output
 exclude: [README.md, Gemfile, Gemfile.lock, docs-watcher/*]
 navigation:
+
+
 ## List your directory names and order here, like this:
     
     prerequisites:
@@ -180,6 +182,10 @@ navigation:
 
 ## The application virtual path
 baseurl: /devtools/teststudiodev
+
+
+# CTA Panels
+has_cta_panels: true
 
 
 ## Assign layout and category per different paths

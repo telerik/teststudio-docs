@@ -171,6 +171,15 @@ Follow the steps below to manually configure Firefox for web automation with Tes
 
 <img src="/img/general-information/configure-your-browser/firefox/fig9.png" alt="Passwords"><br><br>
 
+<h3>Set PDF Files to Be Always Saved</h3>
+
+1. Click on the browser settings button and select <strong>Options</strong>.<br>
+2. Locate the <strong>Applications</strong> section on the <strong>General Settings tab</strong>.<br>
+3. Set the PDF format file action to <strong>Save File</strong>.<br><br>
+
+<img src="/img/general-information/configure-your-browser/firefox/fig20.png" alt="Save PDF file"><br><br>
+
+
 <h3>Use System Proxy Settings</h3>
 
 As of the 2012 R1 version released in April 2012, set the Connection Settings to Use system proxy settings.<br><br>
@@ -208,6 +217,7 @@ The following Add-ons are known to conflict with the Progress Test Studio Extens
 </div>
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -217,5 +227,6 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>

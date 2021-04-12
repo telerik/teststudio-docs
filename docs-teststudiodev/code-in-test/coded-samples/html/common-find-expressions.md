@@ -124,5 +124,5 @@ You can also data drive the find expression:
     Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("tagname=a", "textcontent=" + Data("Col1").ToString())
     {{endregion}}
 
-[1]: images/html/common-find-expressions/fig1.png
-[2]: images/html/common-find-expressions/fig2.png
+[1]: images/common-find-expressions/fig1.png
+[2]: images/common-find-expressions/fig2.png

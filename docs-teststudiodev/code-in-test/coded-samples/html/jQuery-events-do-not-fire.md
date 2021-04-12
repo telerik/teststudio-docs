@@ -38,6 +38,6 @@ Invoke the script that changes the background color with the following coded ste
 
 * If you have a choice between using id and name of an element, we recommend using id. It is usually a unique value which will make your tests run more reliably. Name is sometimes duplicated, which can cause your test to find and act against the wrong element, since the selector will act on the first element it finds matching the selector criteria.
 
-[1]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig1.png
-[2]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig2.png
-[3]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig3.png
+[1]: images/jQuery-events-do-not-fire/fig1.png
+[2]: images/jQuery-events-do-not-fire/fig2.png
+[3]: images/jQuery-events-do-not-fire/fig3.png

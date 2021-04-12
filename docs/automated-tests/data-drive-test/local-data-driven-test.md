@@ -8,7 +8,7 @@ position: 1
 
 This testing approach is useful for scenarios with certain actions and verifications, which need to be repeated multiple times.
 
-## What Test Scenarios Can Be Data Driven?
+## <strong>What Test Scenario Can Be Data Driven?</strong>
 
 The easiest answer is that each scenario can be data driven. Test Studio allows you to use data source values for both input fields and verifications. For example, if you need to perform the same actions against an application, but by using multiple different users, you can data drive the login input information.
 
@@ -18,7 +18,7 @@ To demonstrate the capabilities of data driven testing, we will use a test scena
 
 With data driven testing, the three steps related to the search action are reused and you save time and efforts.
 
-## How To Data Drive the Test?
+## <strong>How To Data Drive the Test?</strong>
 
 Let's start by adding a new web test to your project.
 
@@ -41,10 +41,9 @@ To ensure that the search is performed correctly, we recommend to add a step tha
 ><br>
 > For more details on wait steps, see article 1.
 > For more details on wait for text from image, see article 2.
+> Find additional details on <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image" target="_blank">wait for text from image</a> in the referred articles.
 
-__add links__ 
-
-Once you add all necessary steps to the test, close the browser to finish the recording session.
+Once all necessary steps are added to the test, __close the browser to finish the recording session__.
 
 ## Prepare the Data Source
 
@@ -106,15 +105,6 @@ Now that the data is in the built-in table, you can bind the values to the test 
 1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___TextToMatch___.
 
     ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
-
-> __Note__
-><br>
-><br>
-> All _action_ steps in Test Studio scroll their target element to top of the page by default. This is a step property called ___ScrollToVisibleType___, which can be modified from the _Properties_ pane.
-><br>
->For the current example, you need to adjust the ___ScrollToVisibleType___ property to scroll the elements to the center because the Telerik page has a static header and the _Search_ text field and button, otherwise, gets scrolled under it - thus the actual actions cannot be successfully performed.
-
-__add links__ 
 
 ## Execute the Data Driven Test and Review the Results
 

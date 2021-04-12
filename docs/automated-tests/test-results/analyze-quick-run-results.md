@@ -1,12 +1,12 @@
 ---
-title: Analyze Quick Run Results
-page_title: Analyze Quick Run Results
+title: Explore Quick Run Results
+page_title: Explore Quick Run Results
 description: "Test Studio Quick Run Results. Analyze the results from test run. Failing Test Studio test. Unable to find element. Warning in the execution log. Test Studio Execution log."
 position: 0
 ---
-# Analyze Quick Run Results
+# Explore the Results from Quick Test Execution
 
-The Quick Run results are generated after a <a href="/general-information/test-execution/quick-execution#execution-timeouts" target="_blank">Quick test execution</a>. This result is a temporary stored result and its usage is recommended while designing the automated tests and when troubleshooting failures. The current Quick Run result is deleted when a new Quick execution is triggered or project is reloaded.
+The __Quick Run__ results are generated after a <a href="/automated-tests/test-execution/quick-execution#execution-timeouts" target="_blank">Quick test execution</a>. This __result is a temporary stored result__ and its usage is recommended while designing the automated tests and when troubleshooting failures. The current Quick Run result is deleted when a new Quick execution is triggered or project is reloaded.
 
 ## Generate the Quick Execution Log
 
@@ -16,7 +16,7 @@ The Quick Run results are generated after a <a href="/general-information/test-e
 
 ## Open and Review the Execution Log
 
-Click the *'View Log'* button to review the quick run log in details. A separate window gets opened with listed details for the current run - executed test, executing browser, steps description, data source details, warnings, exceptions in case of failure.
+Click the ***'View Log'*** button to review the quick run log in details. A separate window gets opened with listed details for the current run - executed test, executing browser, steps description, data source details, warnings, exceptions in case of failure.
 
 ![View Quick Run result][2]
 
@@ -28,7 +28,7 @@ The automatic fall back to image based search of elements will log a warning in 
 
 ## Failed Test Run
 
-A failed test run generates an execution log with additional details what caused the failure.
+A failed test run generates an execution log with additional details what caused the failure. Complete details and resolution suggestions are listed in the <a href="/automated-tests/test-results/step-failure-details" target="_blank">__Step Failure Details__</a>.
 
 ![Failed Test Run][4]
 
@@ -36,8 +36,12 @@ An element, which failed to be located by its backup image search, will fail the
 
 ![Image based search failure][5]
 
-[1]: /img/general-information/test-results/analyze-quick-run-results/fig1.png
-[2]: /img/general-information/test-results/analyze-quick-run-results/fig2.png
-[3]: /img/general-information/test-results/analyze-quick-run-results/fig3.png
-[4]: /img/general-information/test-results/analyze-quick-run-results/fig4.png
-[5]: /img/general-information/test-results/analyze-quick-run-results/fig5.png
+## Collect the Generated Quick Run Result
+
+If you need to provide the quick run results to a colleague of yours or within a support ticket, you can easily copy the overall result using the ___Copy To Clipboard___ button and paste the data in a text document - you can use Notepad, for example. Save the newly added content and distribute it zipped.
+
+[1]: /img/automated-tests/test-results/analyze-quick-run-results/fig1.png
+[2]: /img/automated-tests/test-results/analyze-quick-run-results/fig2.png
+[3]: /img/automated-tests/test-results/analyze-quick-run-results/fig3.png
+[4]: /img/automated-tests/test-results/analyze-quick-run-results/fig4.png
+[5]: /img/automated-tests/test-results/analyze-quick-run-results/fig5.png

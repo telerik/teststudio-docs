@@ -166,6 +166,14 @@ Follow the steps below to manually configure Chrome for web automation with Test
 
 <img src="/img/general-information/configure-your-browser/chrome/fig9.png" alt="Automatic Download"><br><br>
 
+<h3>Allow All Sites to Open PDF Files Externally</h3>
+
+1.&nbsp; Click on <img src="/img/general-information/configure-your-browser/chrome/fig1.png" alt="chrome settings button"> in the upper right corner <strong>> Settings > Privacy and security > Content Settings > Additional content settings</strong>.<br> <br>
+
+2.&nbsp; Under <strong>PDF documents</strong> section enable <strong>Download PDF files instead of automatically opening them in Chrome</strong> .<br><br>
+
+<img src="/img/general-information/configure-your-browser/chrome/fig20.png" alt="Download PDF enabled"><br><br>
+
 <h3>Disable Web Security</h3>
 
 <p>1. Open the default Chrome user data folder under your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p>
@@ -204,6 +212,7 @@ Follow the steps below to manually configure Chrome for web automation with Test
 * <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome" target="_blank">Chrome Extensions Disabled or Missing</a>
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -213,5 +222,6 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>

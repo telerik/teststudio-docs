@@ -7,9 +7,7 @@ position: 0
 ---
 # Elements Explorer #
 
-The Elements Explorer in a Test Studio project is the visual representation of all elements recorded or manually added during the <a href="/general-information/test-recording/overview" target="_blank">Test Recording process</a>. 
-
-> **Note!** Although elements may be used in several tests and test steps, each element with unique find expression is shown only once in the Elements Explorer.
+The Elements Explorer in a Test Studio project is the visual representation of all elements recorded or manually added during the <a href="/general-information/test-recording/overview" target="_blank">Test Recording process</a>.
 
 The Elements Explorer pane provides a one-stop shop to view all elements used in the project and edit the way they are found during execution. You can find the Elements Explorer under/next to the Project's Explorer on the left bottom pane.
 
@@ -19,6 +17,11 @@ The Elements Explorer pane provides a one-stop shop to view all elements used in
 		<td>![VS Plugin][2] <br><br>**VS plugin**</td>
 	</tr>
 <table>
+
+> __Tip__
+> <br>
+> <br>
+> Although elements may be used in several tests and test steps, each element with unique find expression is shown only once in the Elements Explorer.
 
 ## Hierarchy of Recorded Elements ##
 
@@ -37,6 +40,15 @@ The elements are organized under Page nodes (and also <a href="/general-informat
 - The WPF tree view is organized by **Application > Window > Element**.
 
 The hierarchy is maintained according to where the element is located on the page. For example, if there are no frames or regions, then elements for that particular page will be listed under the Page node.
+
+## How to Know Which Step Uses an Element?
+
+Each element in the Elements Explorer is tied to a step from the project. The larger the project gets, the harder it is to sort out which element is used by which step and test. Therefore the Test Studio Elements Explorer provides useful tools to help in maintaining the elements.
+
+- __Which steps use certain element?__ - you can easily check a list of all steps, which uses an element, by accessing the __Used By__ option from the <a href="#element-context-menu" target="_blank">context menu</a>.
+- __Can I filter the elements for certain test?__ - with the buttons in the  <a href="#elements-explorer-menu-bar" target="_blank">Elements Explorer menu bar</a>, you can choose what elements to see in the pane.
+- __If I select a step in the test, how do I know which element it uses?__ - when a step is selected in the test, its target element gets marked with a red arrow sign in front of its name. The target element is also listed in the <a href="/features/test-maintenance/test-step-properties#elements" target="_blank">step properties</a> under _Primary Target_ property.
+- __Can I change the element, which a step uses?__ - the element can be <a href="/features/test-maintenance/change-step-target-element" target="_blank">changed with another existing element by editing the _Primary Target_ step property</a>. Alternatively, you can <a href="/automated-tests/elements/find-element" target="_blank">change the find expression</a> of the element in Test Studio and that way change the element. which will be located on the page.
 
 ## Element's Explorer Context Menu ##
 

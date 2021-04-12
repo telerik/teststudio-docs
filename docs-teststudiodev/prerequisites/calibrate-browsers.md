@@ -5,7 +5,7 @@ description: How to Configure Browsers to Use These to Record and Execute Tests 
 slug: prerequisites/calibrate-browsers
 tags: configure. browsers, calibrate
 published: True
-position: 4
+position: 3
 ---
 <style>
 p.trigger{
@@ -34,6 +34,10 @@ p.trigger{
 # Calibrate Browsers
 
 To be able to run tests using __Test Studio Dev__ against any browser it needs to be configured accordingly. In this article you can find the required settings for each of the supported browsers which will ensure flawless and consistent automation process.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
 
 ## Built-in Calibration
 

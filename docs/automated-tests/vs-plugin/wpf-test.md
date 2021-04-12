@@ -4,40 +4,44 @@ page_title: Create and Record a Wpf Test (VS plugin)
 description: "Test Studio Create and Record a Wpf Test (VS plugin)"
 position: 2
 ---
-# Create and Record a WPF Test (VS plugin) #
+# Create and Record a WPF Test (VS plugin) 
 
-1. Launch Test Studio.
+The Test Studio project in Visual Studio uses the Visual Studio context and therefore some of the main actions have different look.
+
+In this article you can find how to add and record a new web test in the Visual Studio plugin project for Test Studio.
+
+## Create a WPF Test
+
+1. Launch Visual Studio and create a Test Studio project from the _Start Page_.
 2. Click __Telerik > Test Studio > Create New Test Project__.
 
-<table id=no-table>
-	<tr>
-		<td>![Create project][1] <br><br>**Visual Studio 2017**</td>
-		<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019**</td>
-	</tr>
-<table>
+	<table id=no-table>
+		<tr>
+			<td>![Create project][1] <br><br>**Visual Studio 2017**</td>
+			<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019**</td>
+		</tr>
+	<table>
 
 3. Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__.
 
-**Note:** As of version 2015.3.1202 Test Studio projects will appear only under **.NET Framework 4.5** or higher.
-
-<table id=no-table>
-	<tr>
-		<td>![Choose C#/VB project][2]<br><br>**Visual Studio 2017**</td>
-		<td>![Choose C#/VB project VS 2019][12]<br><br>**Visual Studio 2019**</td>
-	</tr>
-<table>
+	<table id=no-table>
+		<tr>
+			<td>![Choose C#/VB project][2]<br><br>**Visual Studio 2017**</td>
+			<td>![Choose C#/VB project VS 2019][12]<br><br>**Visual Studio 2019**</td>
+		</tr>
+	<table>
 
 4. Right click on the project node in the solution explorer and select __Add > New WPF Test__.
 
-![New WPF test][3]
+	![New WPF test][3]
 
 5. Click __Add__.
 
-![Add][4]
+	![Add][4]
 
 6. Open the new test and click the __Configure WPF Application Path__ icon in the toolbar.
 
-![Configure path][5]
+	![Configure path][5]
 
 7. The __Configure WPF Application Path__ window appears. There are two options to determine the default application to launch when recording and executing this test.
 	
@@ -50,9 +54,9 @@ position: 2
 8. Hit __Record__ to launch the app with the recording toolbar docked at the top.
 9. Notice that steps are added to the test as actions are taken within the application.
 
-![Record][6]
+	![Record][6]
 
-10.Close the application to stop recording.
+10. Close the application to __stop recording__.
 
 
 [1]: /img/general-information/create-test-vsplugin/wpf-test/fig1.png

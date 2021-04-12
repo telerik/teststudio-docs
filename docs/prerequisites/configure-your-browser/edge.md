@@ -148,18 +148,17 @@ This bar conflicts with highlighting coordinates.<br><br>
 
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
         e.preventDefault();
         $(this).toggleClass("active").next().slideToggle("normal");
-		$('#page-article').animate({
-    		scrollTop: $('#page-article').get(0).scrollHeight
-		}, 1500);
-		 $(this).find('#d').text(function (i, oldText) {
+		$(this).find('#d').text(function (i, oldText) {
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>
 

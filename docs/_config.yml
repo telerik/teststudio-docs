@@ -9,6 +9,10 @@ productName: "Test Studio Documentation"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*, docs-watcher/*]
+exclude_navigation: ["archived-docs/*"]
+
+# CTA Panels
+has_cta_panels: true
 
 ## Ignore API directory
 navigation:
@@ -103,7 +107,7 @@ navigation:
         title: "Execute Tests in Test Studio"
         position: 3
     automated-tests/test-results:
-        title: "Analyze the Test Results"
+        title: "Explore Test Results"
         position: 4
     automated-tests/troubleshooting:
         title: "Troubleshoot a Failing Test"
@@ -126,30 +130,33 @@ navigation:
     automated-tests/scheduling-results:
         title: "Results from Scheduled Test Executions"
         position: 11
+    automated-tests/headless:
+        title: "Headless Test Executions"
+        position: 12
     automated-tests/responsive:
         title: "Web Responsive Tests in Test Studio"
-        position: 12
+        position: 13
     automated-tests/wpf:
         title: "WPF Tests in Test Studio"
-        position: 13
+        position: 14
     automated-tests/load:
         title: "Load Tests in Test Studio"
-        position: 14
+        position: 15
     automated-tests/performance:
         title: "Performance Tests in Test Studio"
-        position: 15
+        position: 16
     automated-tests/vs-plugin:
         title: "Test Studio Plugin for Visual Studio"
-        position: 16
+        position: 17
     automated-tests/coded-tests:
         title: "Implement Code in a Test"
-        position: 17
+        position: 18
     automated-tests/source-control:
         title: "Share a Test Studio Project in the Team"
-        position: 18
+        position: 19
     automated-tests/continuous-integration:
         title: "Implement Test Studio Tests in CI Builds"
-        position: 19
+        position: 20
 
 # ....Customize Your Project
     "*built-in-help-tools":
@@ -163,6 +170,12 @@ navigation:
     "*scheduling/advanced-topics":
         title: "Scheduling Setup Advanced Topics"
         position: 11
+
+# === Scheduling Results Dashboard===
+    "*scheduling-results/dashboard":
+        title: "Executive Dashboard"
+        position: 2
+    
 
 # === Load Testing ===
     "*load/designing-load-tests":
@@ -178,6 +191,7 @@ navigation:
         title: "Advanced Topics for Load Test"
         position: 4
         
+# === Source Control ===        
     "*source-control/git":
         title: "Git"
         position: 1
@@ -246,6 +260,9 @@ navigation:
     features/test-runners:
         title: "Test Runners"
         position: 14
+    features/test-lists:
+        title: "Test Lists"
+        position: 10
 
 
     features/custom-layout:
@@ -255,7 +272,7 @@ navigation:
         title: "Project Explorer"
         position: 17
     features/execute-apitest:
-        title: "Execute API test as Step"
+        title: "Implement API test as Step"
         position: 16
     features/coded-steps:
         title: "Coded Steps"
@@ -450,6 +467,12 @@ navigation:
     archived-docs/recorder:
         title: "Test Recorder"
         position: 1
+    archived-docs/elements:
+        title: "Elements"
+        position: 2
+    archived-docs/results:
+        title: "Results"
+        position: 3
 
 ## Assign layout and category per different paths
 defaults:
@@ -494,6 +517,7 @@ footer:
   links:
     "Getting Started": https://www.youtube.com/playlist?list=PLvmaC-XMqeBadBenwSoANlrc57y4bGBVY
     "Videos": https://www.youtube.com/playlist?list=PLPd3ce5hn3ozSoFDKG4XElnE5nOQ6AyHd
+    "Virtual Trainings": https://www.telerik.com/teststudio/training 
     "Whats New": "https://www.telerik.com/support/whats-new/teststudio"
     "Roadmap": https://www.telerik.com/support/whats-new/teststudio/roadmap
 -

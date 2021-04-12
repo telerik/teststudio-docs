@@ -145,7 +145,7 @@ Follow the steps below to manually configure Edge for web automation with Test S
 
 <img src="/img/general-information/configure-your-browser/edge-chromium/fig8.png" alt="Allow Cookies"><br><br>
 
-<h3>Allow all Sites to Download Multiple Files Automatically</h3>
+<h3>Allow All Sites to Download Multiple Files Automatically</h3>
 
 1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
 
@@ -158,6 +158,20 @@ Follow the steps below to manually configure Edge for web automation with Test S
 5.&nbsp; Enable the <strong>Ask when site tries to download multiple files</strong> option.<br><br>
 
 <img src="/img/general-information/configure-your-browser/edge-chromium/fig9.png" alt="Automatic Download"><br><br>
+
+<h3>Allow All Sites to Open PDF Files Externally</h3>
+
+1.&nbsp; Click on the *Settings* button in Edge - the three dots located in the upper right corner of the browser.<br><br>
+
+2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.<br><br>
+
+3.&nbsp; Locate the <strong>Cookies and site permissions->Site Permissions</strong> section.<br><br>
+
+4.&nbsp; Under <strong>All permissions</strong> select <strong>PDF documents</strong>.<br><br>
+
+5.&nbsp; Enable the <strong>Always open PDF files externally</strong> option.<br><br>
+
+<img src="/img/general-information/configure-your-browser/edge-chromium/fig11.png" alt="Always open PDF externally"><br><br>
 
 <h3>Allow Extension from Other Stores</h3>
 
@@ -178,6 +192,7 @@ Follow the steps below to manually configure Edge for web automation with Test S
 
 
 <script>
+window.addEventListener('DOMContentLoaded', function () {
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(e){
@@ -187,6 +202,7 @@ $(".toggle_container").hide();
         return $.trim(oldText) == '+' ? '-' : '+';
 		});
 		
+    });
     });
 </script>
 

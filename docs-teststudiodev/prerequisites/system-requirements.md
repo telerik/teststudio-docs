@@ -10,6 +10,10 @@ position: 0
 
 __Test Studio Dev__ is a Visual Studio extension and inherits all the system requirements that  Visual Studio versions have. You can check the system requirements for supported versions <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2017-system-requirements-vs" target="_blank">Visual Studio 2017</a>, <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2015-sysrequirements-vs" target="_blank">Visual Studio 2015</a>, <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2013-sysrequirements-vs" target="_blank">Visual Studio 2013</a> or <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2013-sysrequirements-vs#vs2012" target="_blank">Visual Studio 2012</a>.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## User Account Control (UAC)
 
 * If you are using Internet Explorer for test recording, the UAC needs to be set to 'Never Notify' in corresponding Settings page.

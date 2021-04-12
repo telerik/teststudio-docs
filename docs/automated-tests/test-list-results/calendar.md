@@ -1,27 +1,48 @@
 ---
-title: Test List Results Calendar
-page_title: Test List Results Calendar
+title: Results Calendar
+page_title: Results Calendar
 description: "Test Studio Test Results Calendar. Test List results backlog in Test Studio. Review Test Studio test list results. Scheduled test list results"
 previous_url: /user-guide/test-results/calendar.aspx, /user-guide/test-results/calendar, /getting-started/test-results/calendar
-position: 5
+position: 0
 ---
-# Test Results Calendar #
+# Test List Results Calendar
 
-Execute your tests via a <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test List</a> to populate the Results tab. This tab tracks the outcome of your test lists and shows pass, fail, or scheduled results in a handy graphic calendar or timeline display.
+The results generated from a test list execution are stored on project level and populated in the __Results__ tab in the Test Studio project. All results are listed in a handy graphic calendar or timeline display and you can track the outcome of your test lists.
 
-* View the test lists that passed or failed in a month, week, or day.
+This article describes the Results calendar options and how you can benefit from these.
 
-* Buttons along the top let you jump between Day, Week, Month, and Timeline views.
+## View Overall Results Status
 
-* Navigation buttons in the upper right allow you to move back and forward through a period of time, based on that view.
+In the __Results__ tab you can view the test lists executions in a month, week, or day. Buttons along the top, let you jump between _Day_, _Week_, _Month_, and _Timeline_ views.
 
-* Click ![Calendar button][1] to display a pop-up calendar to jump to a particular day.
+![Switch between day, week, month view][3]
 
-* Test list results are shown as colored blocks, indicated by the key at the bottom of the view.
+Each test list result is shown as colored block - green for _Passed_ run, red for _Failed_ run, and yellow for an _upcoming scheduled test list execution_.
 
-* Results cannot be moved, but can be deleted by clicking the X button that appears during mouseover.
+![Passed, Failed, Scheduled jobs][4]
 
-![Results][2]
+## Navigate through Calendar Dates
 
-[1]: /img/general-information/test-results/calendar/fig1.png
-[2]: /img/general-information/test-results/calendar/fig2.png
+In the upper right corner you can find _navigation arrow buttons_, which allow you to move back and forward through a period of time (one week), based on the current view. Between these arrows, there is a _calendar button_, which can be used to jump to a specific date selected from the pop-up calendar.
+
+![navigate calendar][5]
+
+> __Tip__
+><br>
+><br>
+> Results are displayed in the order of their exact execution time. Thus these cannot be moved around in the calendar.
+><br>
+> __Test list results can be deleted__ using the _X_ button, which appears for each result entry when hovered with the mouse.
+
+## Explore Results Details
+
+Double click a test list result entry to view its details displayed on the right side of the Calendar view. Find out <a href="/automated-tests/test-list-results/analyze-test-list-results" target="_blank">how to read the test list results</a>.
+
+![drill down test list result][6]
+
+[1]: /img/automated-tests/test-list-results/calendar/fig1.png
+[2]: /img/automated-tests/test-list-results/calendar/fig2.png
+[3]: /img/automated-tests/test-list-results/calendar/fig3.png
+[4]: /img/automated-tests/test-list-results/calendar/fig4.png
+[5]: /img/automated-tests/test-list-results/calendar/fig5.png
+[6]: /img/automated-tests/test-list-results/calendar/fig6.png
