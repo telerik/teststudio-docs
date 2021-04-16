@@ -32,6 +32,10 @@ To open the listed PDF file in the browser and __continue recording__, choose th
 
 ![Open pdf from step context menu in test from step builder][2a]
 
+> **Note**
+>
+> Open PDF step is not supported in Internet Explorer.
+
 Once the PDF file is opened in the selected browser recording session, Test Studio recorder captures a __Connect to popup window__ step with the localhost address for the PDF file in the test and you can continue recording.
 
 ![Open pdf from step context menu in test from step builder][2b]

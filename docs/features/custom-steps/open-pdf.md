@@ -14,5 +14,9 @@ To specify the file to open, enter a full path to it in the __PdfFilePath__ prop
 
 ![Path to PDF][2]
 
+> **Note**
+>
+> Open PDF step is not supported in Internet Explorer.
+
 [1]: /img/features/custom-steps/open-pdf/fig1.png
 [2]: /img/features/custom-steps/open-pdf/fig2.png
