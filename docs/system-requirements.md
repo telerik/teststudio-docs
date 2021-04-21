@@ -31,14 +31,101 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 </style>
 
-<div class="sfContentBlock"><table class="Pricing-head Pricing-features--grid Pricing-features--grid-4" style="margin-left: 12%; width: 88%;"> <tbody> <tr><td class="Pricing-head"> <h4>Windows 7, <br>
-            Windows Server 2008</h4> </td> <td class="Pricing-head"> <h4>Windows 8, <br>
-            Windows Server 2012</h4> </td> <td class="Pricing-head"> <h4>Windows 10, <br>
-            Windows Server 2016, <br>
-            Windows Server 2019</h4> </td> </tr> </tbody> </table>
-</div>
-<div class="sfContentBlock"><table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /></colgroup><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Disk Space</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td><td>500MB</td> <td>500MB</td><td>500MB</td> </tr> <tr> <td>Recommended</td> <td>2GB+</td> <td>2GB+</td><td>2GB+</td></tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /> <thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Processor</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td> <td>1.8GHz</td> <td>1.8GHz</td> <td>1.8GHz</td> </tr> <tr> <td>Recommended</td> <td>2.2GHz+</td> <td>2.2GHz+</td> <td>2.2GHz+</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Memory</strong></td> </tr> </thead> <tbody> <tr> <td>Minimum</td> <td>1GB</td> <td>1GB</td> <td>1GB</td></tr> <tr> <td>Recommended</td> <td>2GB+</td> <td>2GB+</td>  <td>2GB+</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup> <col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Display</strong></td> </tr> </thead> <tbody> <tr> <td>Recommended</td> <td colspan="4">1024 x 768 or higher-resolution display</td> </tr> </tbody> </table> <table class="Table Table--style1 Table--comparison"> <colgroup><col width="18%" /> <col width="20%" /> <col width="28%" /> <col width="20%" /> <col width="10%" /><thead> <tr class="Table-RowDivision"> <td colspan="5"><strong>Browser Support</strong> </td> </tr> </thead> <tbody><tr> <td>Supported</td> <td colspan="4">Internet Explorer 11, Edge (Chromium), Chrome, Firefox and Safari latest versions, MS Edge (Legacy) if MS Edge (Chromium) is not installed</td> </tr> </tbody> </table></div>
-<br>
+<table class="Tbl k-table">
+    <colgroup>
+        <col width="13%" />
+        <col width="30%" />
+        <col width="28%" />
+        <col width="28%" />
+    </colgroup>
+    <tbody>
+        <tr>
+            <td style="background-color:#5f6977;">&nbsp;</td>
+            <td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;">Disk Space</td>
+            <td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;">CPU</td>
+            <td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;">RAM</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td style="text-align:center;" align="center">500MB</td>
+            <td style="text-align:center;">1.8GHz</td>
+            <td style="text-align:center;">2GB</td>
+        </tr>
+        <tr>
+            <td>Recommended</td>
+            <td style="text-align:center;">2GB+</td>
+            <td style="text-align:center;">2.2GHz+</td>
+            <td style="text-align:center;">4GB+</td>
+        </tr>
+    </tbody>
+
+</table>
+<table class="Tbl k-table">
+    <colgroup>
+        <col width="15%" />
+        <col width="80%" />
+    </colgroup>
+    <thead>
+        <tr>
+			<td colspan="6" style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">Display<td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Minimum</td>
+            <td colspan="6" style="text-align:center;">1280 x 720</td>
+        </tr>
+        <tr>
+            <td>Recommended</td>
+            <td colspan="6" style="text-align:center;">1920 x 1080</td>
+        </tr>
+    </tbody>
+</table>
+<table class="Tbl k-table">
+    <colgroup>
+        <col width="100%" />
+    </colgroup>
+    <thead>
+        <tr>
+			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">Supported Operating Systems<td>
+		</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="4">Windows 8.1, Windows 10, Windows Server 2012,&nbsp;Windows Server 2016, Windows Server 2019</td>
+        </tr>
+    </tbody>
+</table>
+<table class="Tbl k-table">
+    <colgroup>
+        <col width="100%" />
+    </colgroup>
+    <thead>
+        <tr>
+			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">Supported Browsers<td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="4">Internet Explorer 11; Latest Edge Chromium, Latest Chrome, Latest Firefox</td>
+        </tr>
+    </tbody>
+</table>
+<table class="Tbl k-table">
+    <colgroup>
+        <col width="100%" />
+        </colgroup>
+    <thead>
+        <tr>
+			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">WPF Support<td>
+		</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="4">WPF for .NET 4.5+</td>
+        </tr>
+    </tbody>
+</table>
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
@@ -46,65 +133,42 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 ## User Account Control (UAC)
 
-* User Account Control Settings set to 'Never Notify'
+* User Account Control Settings set to __'Never Notify'__.
 
-## Recommended Browsers
+## Visual Studio Plug-in Support
 
-* Internet Explorer 11 (**Note**: IE 9 and 10 support is dropped as of R2 2016 release).
-* Chrome latest version
-* Firefox latest version
-* Microsoft Edge (Chromium) latest version
-* Microsoft Edge (Legacy) latest version - installing latest Edge Chromium removes the Edge Legacy browser installation
-* Safari latest version (5.1.7)
-
-## Test Studio VS plugin
-
-* IDE (Visual Studio plug-in only): Visual Studio 2012, 2013, 2015, 2017 and 2019 (v.16.5+) Professional or higher.
+* IDE (Visual Studio plug-in only): Visual Studio __2015__, __2017__ and __2019__ (v.16.5+) __Professional or higher__.
 
 	* You must run Visual Studio as Administrator
-	* Visual Studio projects should target .Net 4.5 or higher.
+	* Visual Studio projects should target .Net 4.5.2 or higher.
 	* Visual Studio 2017 requires additional <a href="/general-information/installation/vs2017-compatibility" target="_blank">Individual components</a> on top of its default installation.
 
-## Data Binding
+## .Net Framework Requirement
 
-*	Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components</a> (x86 redistributable).
+* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">__.NET 4.5.2</a> or higher__
 
-## Framework
-
-* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.NET 4.5</a> or higher
-
-##Supported Databases##
+## Required Database for Scheduling Configuration
 
 * MongoDB 3.6+, 4.0+
 
-> **Note**: MongoDB requires at least 4 Gb of free space on machine where the Storage server is installed.
+> **Note** MongoDB requires at least __2 GB additional disk space__ on the machine where the Storage service is installed.
+
+## Data Binding
+
+* If using Excel for data driven testing:
+
+	*	Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components</a> (x86 redistributable).
 
 ## Source Control
 
-* Git
+* Git remote repositories
 
-* TFS
-
-	* Visual Studio has built-in TFS integration 
-
-	OR
-
-	* Test Studio Standalone version on a machine with installed: Team Explorer 2013 (Visual Studio plugin - available from a MSDN account) or supported Visual Studio version. If using product version **R2 2017 SP1** or later - no additional tools have to be installed on the machine.
+* TFS Source Control solution
 
 ## Build Server / Continuous Integration
 
-If executing via <a href="/features/test-runners/mstest" target="_blank">MSTest</a>
-
-* Visual Studio (see above requirements) with VS plugin, __or__
-
-* MSTest.exe installed on agent and controller
-
-* Test Studio Runtime or above installed on agent
-
-If executing via <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner</a>
-
-* <a href="http://www.telerik.com/purchase/teststudio" target="_blank">Run-Time edition</a>
+* Integrating <a href="/features/test-runners/artoftest-runner" target="_blank">CLI Runner</a> test execution __requires minimum installation of the Test Studio <a href="https://www.telerik.com/teststudio/test-studio-runtime" target="_blank">Run-Time Edition</a>__.
 
 ## Beta Software
 
-* Operating systems and web browsers in the beta stage are not supported.
+* Operating systems and web browsers in the beta stage are __not supported__.
