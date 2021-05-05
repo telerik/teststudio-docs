@@ -34,6 +34,12 @@ When a native or hybrid app is to be tested, test agent is the Mobile Testing Ag
 
 ##Test Agent for Web Applications
 
+> Although the Mobile testing module is in а process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> to help meeting the demand of mobile users.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 When a web app is to be tested, test agent is the browser itself (mobile or desktop). The browser must support WebSockets. Below is a short list of browsers that support WebSockets:
 
 *	iOS Safari 6.0+

@@ -10,6 +10,10 @@ The Load Testing feature in Test Studio Standalone enables you to assess how you
 
 ![Load Test][1]
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## When Load Testing Can Help?
 
 Load tests help answer some of the most critical questions organizations have about how their systems behave under load:

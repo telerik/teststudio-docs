@@ -7,6 +7,12 @@ position: 2
 slug: ms-record-test-web
 ---
 
+> Although the Mobile testing module is in а process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> to help meeting the demand of mobile users.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 #Record a Web Test
 
 Once the web agent (browser) is [connected]({% slug ms-connect-webagent%}) to Test Studio Mobile the agents (browsers) are listed in the **Conencted Devices** pane.

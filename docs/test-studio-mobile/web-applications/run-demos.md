@@ -6,6 +6,12 @@ position: 1
 slug: ms-run-demos-web
 ---
 
+> Although the Mobile testing module is in а process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> to help meeting the demand of mobile users.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 # Run Demo Web Tests
 
 1. [Configure]({% slug ms-configure-tsm%}) the web agent.

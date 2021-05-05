@@ -9,7 +9,13 @@ publish: true
 position: 1
 ---
 
-#Getting Started with Web Applications in Test Studio Mobile
+> Although the Mobile testing module is in а process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> to help meeting the demand of mobile users.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
+# Getting Started with Web Applications in Test Studio Mobile
 
 This section walks you through the process of recording your first Test Studio Mobile web test and execute it in a browser (Mobile or Desktop). Before you start, please ensure the following:
 

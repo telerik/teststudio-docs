@@ -6,6 +6,8 @@ position: 5
 slug: ms-connect-webagent
 ---
 
+> Although the Mobile testing module is in а process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> to help meeting the demand of mobile users.
+
 # Connect Web Agent
 
 1. After successful [proxy configuration]({% slug ms-webproxy%}) and [certificate installation]({% slug ms-certificate%}) tap the **Connect** button to connect to Test Studio execution agent configuration page.
