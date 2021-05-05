@@ -8,7 +8,10 @@ publish: true
 position: 6
 previous_url: /test-studio-mobile/getting-started-mb/output-pane
 ---
-#Output Pane
+
+> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+
+# Output Pane in Test Studio Mobile
 
 The **Output** window displays a record of log messages recorded by Test Studio Mobile throughout runtime. These include build errors that occur when a project is compiled.
 

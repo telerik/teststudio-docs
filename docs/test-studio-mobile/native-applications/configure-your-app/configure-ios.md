@@ -9,6 +9,8 @@ previous_url: /test-studio-mobile/configure-your-app/configure-ios
 position: 2
 ---
 
+> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+
 #Configure your iOS app to be testable
 
 > The application configured following the steps below, should be used for testing purposes only and will not be accepted in Apple App Store. 

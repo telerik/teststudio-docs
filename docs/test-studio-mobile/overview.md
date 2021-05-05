@@ -7,6 +7,8 @@ position: 0
 slug: ms-overview
 ---
 
+> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+
 # Overview
 
 Test Studio Mobile is an intuitive and easy to use test automation solution for Mobile application testing. Create tests once and test across multiple devices and OS.

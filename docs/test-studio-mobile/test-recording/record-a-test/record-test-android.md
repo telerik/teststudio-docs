@@ -9,6 +9,8 @@ position: 0
 slug: ms-record-test-android
 ---
 
+> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+
 #Record an Android Test
 
 Once the native Mobile Testing Agent app is [connected]({% slug ms-getting-started-native%}#Connect-Agent) to Test Studio Mobile the devices are listed in the **Conencted Devices** pane.

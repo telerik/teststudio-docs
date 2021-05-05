@@ -8,6 +8,9 @@ publish: true
 position: 0
 previous_url: /test-studio-mobile/troubleshooting-mb/configure-android-settings
 ---
+
+> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+
 #Android Configuration Settings
 
 Configuring an Android app to be testable is a complicated process that unzips the app (.apk) file, changes it and then rebuilds it. Several **Android** and **Java** tools are taking part into the process and that is why it is important to have all configurations correctly set. The configuration mechanism saves and loads these settings from a file that is created the first time Android application configuration is initiated. The file contents is in pure text format and can be edited manually using any text editor. However, it is not recommended to manually edit it except in the cases listed in this topic.

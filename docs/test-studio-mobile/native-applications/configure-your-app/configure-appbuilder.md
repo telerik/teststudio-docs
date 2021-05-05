@@ -8,6 +8,8 @@ publish: true
 position: 4
 ---
 
+> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+
 #Configure your AppBuilder app to be testable.
 
 > Setting up your app for testing with Telerik Mobile Testing plugin requires that you disable the Analytics plugin which is enabled by default in some of the AppBuilder app templates.
