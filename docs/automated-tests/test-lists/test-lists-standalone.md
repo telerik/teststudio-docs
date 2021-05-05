@@ -13,6 +13,10 @@ Test Studio provides two options for a test list - a static one, which contains 
 - <a href="#static-test-lists">Static Test List</a>
 * <a href="#dynamic-test-lists">Dynamic Test List</a> 
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## <strong>Static Test Lists</strong>
 
 In a static test list you can add **web, responsive web, WPF, load tests or combination of these**, **manual** and **performance** tests. There are three types of test lists to cover the different types of tests - automated, manual and performance. The type of test list is defined when <a href="/features/test-lists/create-test-lists#choose-name-and-type-of-the-test-list" target="_blank">creating the test list</a>.

@@ -8,6 +8,10 @@ position: 0
 
 The **Test Recording** is one of the leading Test Studio features, which automatically captures your actions against the application under test. While recording, you can also add various verification steps to ensure the page state. A key benefit to mention are the built-in translators for all Telerik components, which allow you to automate specific actions and verifications for the controls. And all these are part of the recording flow without the need of a single line of code.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 The below article will guide you trough the recoding process for web and WPF tests and how to get the most out of it.
 
 1. [How to Start a Recording Session](#start-a-recording-session)
