@@ -10,6 +10,10 @@ The DOM (Document Object Model) is a language neutral and platform independent a
 
 ![DOM][1]
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 ## Context Menu
 
 Right click an element to see the context menu and perform several operations against the element.

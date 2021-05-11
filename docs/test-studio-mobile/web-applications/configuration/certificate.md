@@ -6,7 +6,7 @@ position: 1
 slug: ms-certificate
 ---
 
-> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> to help meeting the demand of mobile users.
+> To help you meet the demands of mobile users, Test Studio offers <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive testing of web applications</a> enabling you to test your web application's layout, functionality and behavior on mobile and desktop browsers.
 
 # Install Certificate #
 

@@ -9,7 +9,7 @@ position: 6
 previous_url: /test-studio-mobile/getting-started-mb/output-pane
 ---
 
-> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+> To help you meet the demands of mobile users, Test Studio offers <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">automated responsive testing</a> enabling you to test your web application's layout, functionality and behavior on mobile and desktop browsers.
 
 # Output Pane in Test Studio Mobile
 

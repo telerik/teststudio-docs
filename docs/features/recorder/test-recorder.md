@@ -10,6 +10,10 @@ publish: false
 
 The **Test Recorder** is a powerful feature in Test Studio. You can use it to built codeless tests with common actions and verifications or more advanced steps against a specific element in the DOM tree. All that functionality comes in a compact and customizable recorder, which is attached to the browser or WPF application. The recorded steps have a lot of configurations to help you automate your application without writing code.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
+
 In this section you will learn in details about all features of the Test Studio Recorder. How to start it and how it can help you automate your application with stable and reliable tests. 
 
 ## Start Recording ##

@@ -7,7 +7,14 @@ position: 0
 slug: ms-overview
 ---
 
-> Although the Mobile testing module is in the process of discontinuation, Test Studio main product continues supporting <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">responsive mobile testing for web applications</a> to help meeting the demand of mobile users.
+> To help you meet the demands of mobile users, Test Studio offers <a href="https://www.telerik.com/teststudio/automated-website-responsive-testing" target="_blank">automated responsive testing</a> enabling you to test your web application's layout, functionality and behavior on mobile and desktop browsers.
+><br>
+><br>
+> As of March 1, 2020, native mobile testing is __no longer supported__.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-introduction.html %}
+{% endif %}
 
 # Overview
 
