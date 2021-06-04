@@ -6,9 +6,9 @@ position: 2
 ---
 # Highlighting Elements in Recording Mode
 
-The __Highlighting menu__ is a powerful set of options related to the targeted element. It brings additional options to interact with an element in the terms of test recording, apart from clicking or entering text.
+The __Highlighting menu__ provides a set of options that enable you to interact with the targeted element.
 
-In this article you will find useful details and hints about the highlighting feature in Test Studio recorder and how to get most benefits of this.
+This article explains how to use the Highlighting feature in the Test Studio recorder.
 
 1. [How to Enable or Disable the Highlighting](#enable-or-disable-highlighting-of-elements)
 1. [Quick Steps in Highlighting Menu](#quick-steps)
@@ -20,37 +20,37 @@ In this article you will find useful details and hints about the highlighting fe
 
 ## Enable or Disable Highlighting of Elements
 
-Once in an active recording session you can enable or disable the _highlighting_ from the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a>.
+When a recording session is active, you can enable or disable the Highlighting from the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a>.
 
 ![Enable\disable highlighting](/img/automated-tests/recording/highlighting/fig1.png)
 
 > **Note**
 > <br>
 > <br>
-> The highlighting feature __can be enabled (or disabled) even when the recording is paused__.
+> You can enable or disable the Highlighting feature even when the recording is paused.
 
-When enabled and the mouse pointer pauses over an element in the recording surface of the tested application, you will see the __Elements menu__ with multiple options. This rich menu makes it easy to work with the recording surface and its elements. It provides quick access to relevant functions right in the application you are testing.
+When Highlighting is enabled and the mouse pointer pauses over an element in the recording surface of the tested application, you will see the __Elements menu__. This menu provides quick access to functions related to the tested application.
 
 ![Elements Menu](/img/automated-tests/recording/highlighting/fig2.png)
 
 > **Tip**
 > <br>
 > <br>
-> Use the *Pause/Break* key on your keyboard to toggle on or off the Highlighting feature.
+> Use the `Pause` or `Break` key on your keyboard to toggle the Highlighting feature on or off.
 
-## __Options in the Highlighting Menu__
+## Options in the Highlighting Menu
 
-The __Elements Menu__ provides access to various actions and functions apart from the straightforward _click_ or _type_ actions. These are divided in few sections to speed up their usage. Read below what options there are in the different sub-menus.
+The __Elements Menu__ provides access to various actions and functions beyond the straightforward _click_ or _type_ actions. These are divided into sub-menus that are described in the following document sections.
 
-## Quick Steps
+### Quick Steps
 
-__Quick Steps__ sub-menu provides a list of tasks, which can be performed against the highlighted element - these are context sensitive and will be different depending on the target element. There are few options listed to add a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">__quick verification__</a>, a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">__wait step__</a> or <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/extraction" target="_blank">__to extract any of the element's attributes__</a>, based on its specifics.
+The __Quick Steps__ sub-menu provides a list of tasks that can be performed against the highlighted element - these are context sensitive and will be different depending on the target element. A few options are listed: to add a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">__quick verification__</a>, a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">__wait step__</a> or <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/extraction" target="_blank">__to extract any of the element's attributes__</a> based on its specifics.
 
 ![Quick Steps Sub-menu](/img/automated-tests/recording/highlighting/fig4.png)
 
-## Mouse Actions
+### Mouse Actions
 
-__Mouse Actions__ sub-menu provides quick access to different type of click steps like double-click, right mouse click, mouse key up or down, mouse hover over action, etc. The mouse click steps are getting __recorded with specific coordinates__ relevant to the target element, where the click will be sent. The default set is the element's absolute center, but you can choose to <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions#specific-location" target="_blank">change this in the Advanced Recording Tools actions section</a>.
+The __Mouse Actions__ sub-menu provides quick access to different types of click steps like double-click, right-click, mouse key up or down, hover action, etc. The mouse click steps are __recorded with specific coordinates__ relevant to the target element where the click will be sent. The default setting is the element's absolute center, but you can choose to <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions#specific-location" target="_blank">change this in the Advanced Recording Tools actions section</a>.
 
 ![Mouse Actions Sub-menu](/img/automated-tests/recording/highlighting/fig5.png)
 
@@ -59,32 +59,32 @@ __Mouse Actions__ sub-menu provides quick access to different type of click step
 > <br>
 > The __Drag and Drop action__ requires the selection of the element to drag and the element to drop it to. Therefore, this can only be <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">added through the Advanced Recording Tools</a>.
 
-## Scroll Actions
+### Scroll Actions
 
-In certain occasions you may need to scroll the page and change the visible part of it. The __Scroll Actions__ sub-menu gives the options to choose an element on application screen and scroll it to the top, bottom or center of the page.
+The __Scroll Actions__ sub-menu enables you to scroll the page and change its visible area. The available options allow you to choose an application element and scroll it to the top, bottom or center of the page.
 
 ![Scroll Actions Sub-menu](/img/automated-tests/recording/highlighting/fig6.png)
 
 > **Note**
 > <br>
 > <br>
-> The __Quick Steps__, __Mouse Actions__ and __Scroll Actions__ options can be all accessed in the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Advanced Recording Tools</a>. There you can find also additional type of steps to add against a selected element.
+> You can access the __Quick Steps__, __Mouse Actions__ and __Scroll Actions__ options in the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Advanced Recording Tools</a>, where you can also find additional step types that you can add against a selected element.
 
-## Add to Elements
+### Add to Elements
 
-**Add to Elements** option allows you to add the highlighted element to the selected test in project as an _'external reference'_ - that means the element is not related to any step from the test, but is still listed in it and can be referred from a coded step, for example.
+The **Add to Elements** option allows you to add the highlighted element to the selected test in the project as an _external reference_ - an element that isn't related to any step from the test but is still listed can be referred from a coded step, for example.
 
 ![Add to Elements][5]
 
-## Locate in DOM
+### Locate in DOM
 
-**Locate in DOM** is an option, which directly opens the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer in the __Advanced Recording Tools__</a> and selects the highlighted element in the DOM structure of the page. You can further explore the surrounding elements of the selected one, or use the options for building a step using this element.
+**Locate in DOM** is an option that directly opens the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer in the __Advanced Recording Tools__</a> and selects the highlighted element in the DOM structure of the page. You can further explore the surrounding elements of the selected one, or use the options for building a step using this element.
 
 ![Locate in DOM][6]
 
-## Build Step
+### Build Step
 
-**Build Step...** is an option very similar to the __Locate In DOM__ one - it selects the highlighted element in the DOM tree and directly switches to the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Element Steps</a> tab in the __Advanced Recording Tools__.
+**Build Step...** is similar to the __Locate In DOM__ option - it selects the highlighted element in the DOM tree and directly switches to the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Element Steps</a> tab in the __Advanced Recording Tools__.
 
 ![Build Step][7]
 
