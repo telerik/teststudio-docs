@@ -1,14 +1,16 @@
 ---
 title: How to Record Test
 page_title: How to Record Test
-description: "Test Studio test Recording codeless. Record a test in Test Studio without writing code. Launch new browser to record a test. Can I start recording from certain point in my application. Can I attach Test Studio to a running browser or application. Codeless test automation with Test Studio."
-position: 0
+description: "Test Studio allows you to record tests against an application without writing code. You can attach Test Studio to a running browser or application."
+position: 0"
 ---
 # How to Record Test
 
-**Test Recording** is one of the leading Test Studio features, which automatically captures your actions against the application under test. While recording, you can also add various verification steps to ensure the page's state. A key benefit to mention are the built-in translators for all Telerik components, which allow you to automate specific actions and verifications for the controls. And all these are part of the recording flow without the need for a single line of code.
+The **Test Recording** feature in Test Studio automatically captures your actions against the tested application. While recording, you can add various verification steps that test the page.
 
-This article will guide you through the recording process for web and WPF tests and how to get the most out of them.
+**Test Recording** provides built-in translators for all Telerik components. These translators allow you to automate a variety of actions and verifications for the controls. None of **Test Recording** features requires you to write code.
+
+This article guides you through the recording process for web and WPF tests and how to get the most out of them.
 
 1. [How to Start a Recording Session](#start-a-recording-session)
 1. [How to Add Steps in the Test](#how-to-add-steps-in-the-test)
@@ -20,7 +22,7 @@ This article will guide you through the recording process for web and WPF tests 
 
 ## Start a Recording Session
 
-When a web or WPF test is opened and active in the Test Studio project, the toolbar ribbon is switched to the __Tests__ tab. It provides options to control the recording and execution process of a test in Test Studio.
+When you open a web or WPF test is and it becomes active in the current Test Studio project, the toolbar ribbon switches to the __Tests__ tab. This tab provides options that control the recording and execution of a test in Test Studio.
 
 ![Test Ribbon Toolbar][2]
 
@@ -33,68 +35,68 @@ You can start a recording session by clicking __Record__.
 > <br>
 > You can start the recording session with the **Ctrl+R** keyboard shortcut or by using the __Record__ context menu option in the __Project Explorer__.
 
-## Add Steps in the Test
+## Add Steps to a Test
 
-* You can use the **Compact Recording Toolbar** to add steps. The Test Studio <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> __detects any actions performed against the application under test__ - click on any element, enter text, trigger a dialog and handle it, navigate to a page, open a pop-up window and perform actions in it, etc.
+You can use the following approaches to add steps to a test:
 
-* Apart from all direct interaction, which can be sent towards the tested application, you can __add different types of steps__ from the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Quick Highlighting Menu__</a>, or __build more complex steps__ in the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">__Advanced Recording Tools__</a>.
+* The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Compact Recording Toolbar__</a> &mdash;detects any actions performed against the tested application and adds them as steps. Some of these actions are: clicking on page elements, entering text, triggering of dialogs, handling of dialogs, navigating to a page, opening a pop-up window and performing actions in it, etc.
 
-* To add steps, which are not related to a specific application or element from it, you can also __add Common Steps from the__ <a href="/features/custom-steps/overview" target="_blank">__Step Builder pane__</a> - like adding a <a href="/features/coded-steps/coded-step" target="_blank">coded step</a>, or a <a href="/features/custom-steps/test-as-step" target="_blank">test as step</a>, comment, or <a href="/features/custom-steps/capture" target="_blank">refreshing the browser</a>, <a href="/features/logical-steps/if-else" target="_blank">if...else statement</a>, etc.
+* The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Quick Highlighting Menu__</a>&mdash;allows you to add predefined steps.
+
+* The <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">__Advanced Recording Tools__</a>&mdash;allow you to build complex steps.
+
+* The <a href="/features/custom-steps/overview" target="_blank">__Step Builder pane__</a> allows you to add steps that are not related to a specific application or application element, for example, adding a <a href="/features/coded-steps/coded-step" target="_blank">coded step</a>, <a href="/features/custom-steps/test-as-step" target="_blank">a test as a step</a>, a comment, <a href="/features/logical-steps/if-else" target="_blank">an `if...else` statement</a>, <a href="/features/custom-steps/capture" target="_blank">refreshing the browser</a>, etc.
 
 ### Record Web Tests
 
-When starting a recording session in the context of a web test, you need to __enter the URL__ of the page to automate and __choose a browser__ to load the application in. The __Recording__ dialog, which appears, allows you to define these parameters.
+To start a recording session for a web test, enter the URL of the target page and the desired browser in the __Recording__ dialog.
 
 ![Enter URL, Choose browser][3]
 
 > **Tip**
 > <br>
 > <br>
-> If you plan to use a specific browser for the automation project, you can select that browser, and then select the checkbox __Save my choice for the future__  - this will <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">set the browser as preferred</a> for this project and you won't be prompted to select a browser for recording.
+> If you plan to use a specific browser for the test automation project, select the browser, and then select __Save my choice for the future__. This will <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">set the browser as preferred</a> for the current project and the **Select Browser** prompt won't appear again.
 
-To launch the selected browser and navigate to the listed URL, click the __Record__ button in the __Recording__ dialog. This will start a new instance of the browser and launch the Test Studio extension, if available. Then the target page will be loaded and the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> will appear on top of the browser.
+To launch the selected browser and navigate to the desired URL, click __Record__ in the __Recording__ dialog. This will start a new instance of the browser and launch the Test Studio extension, if available. Next, the target page loads and the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> appears on top of the browser.
 
 ![Attached recorder][5]
 
-The Test Studio UI remains in the background of the browser, but once the page is loaded and the __Compact Recorder__ is attached, you can switch back to the project and check that a _Navigate_ step is recorded using the same URL as defined when starting the recording session.
+To verify that a **Navigate to** step was recorded, switch back to the project. The first step in the list points to the URL that you used to start the web test.
 
 ![Recorded navigate step][5a]
 
 > **Note**
 > <br>
 > <br>
-> Once a recording session is started, **do not start another instance of the same browser** until the session is finished!
+> Once a recording session starts, do not start another instance of the same browser until the session finishes!
 
 ### Record WPF Tests
 
-The WPF application is a desktop app and requires a different test recording automation process - you need to __define which is the application to test and where is its executable file__ - this is called <a href="/automated-tests/wpf/wpf-test" target="_blank">configuration of the WPF test</a>.
-
-When you open a WPF test in the automation project, you see a __Configure__ button instead of the browser and web application control options in the toolbar ribbon. The __Configure__ button opens the __WPF Test Config__ dialog.
+To start the test automation for a WPF application, click __Configure__ and then point to the application's executable file. This is called <a href="/automated-tests/wpf/wpf-test" target="_blank">WPF test configuration</a>.
 
 ![Configure WPF Test button][10]
 
-When the application details are configured, you can start recording the automation scenario against the WPF application. To start a recording session, use the __Record__ button. This launches the executable file listed in the _configuration_ process and attaches the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> on top of the app.
+After configuring the WPF test, you can begin recording the automation scenario against the WPF application. To start a recording session, use the __Record__ button. This launches the defined executable file and attaches the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> on top of the app.
 
 ![Record WPF Test][11]
 
 > **Tip**
 > <br>
 > <br>
-> You can start the recording session for WPF tests also with the **Ctrl+R** keyboard shortcut or by using the __Record__ context menu option in the __Project Explorer__.
+> To start the recording session for WPF tests, you can also use the **Ctrl+R** keyboard shortcut or the __Record__ context menu option in the __Project Explorer__.
 
-The Test Studio UI remains in the background of the application, but once you initiate any action against the application, this gets recorded in the test.
+The Test Studio UI remains in the background and records all your actions against the tested application.
 
 ![Recorded steps in WPF Test][12]
 
 ## Stop the Recording Session
 
-To completely terminate an active recording session, __close the automated browser or WPF application__ - this is how all processes and communication channels between the app and Test Studio get dismissed.
+To terminate an active recording session, close the automated browser or WPF application - this is how all processes and communication channels between the app and Test Studio get dismissed.
 
 ## Attach the Recorder to a Running Application (Applicable for IE or WPF Only)
 
-You can attach a recorder to an already running application when it is in certain state, and then continue the recording process.
-
-To trigger a recording session against an already started application, you use the dropdown under the __Record__ button. In the list, you can see all compatible processes, to which the Test Studio recorder can be attached. Select one and wait for the __Compact Recorder__ to attach to the application.
+You can attach a recorder to an already running application. To start the recording session, use the dropdown under the __Record__ button. In the list, you can see all compatible processes where you can attach the Test Studio recorder. Select one and wait for the __Compact Recorder__ to attach to the application.
 
 <table id=no-table>
 	<tr>
@@ -106,22 +108,26 @@ To trigger a recording session against an already started application, you use t
 > **Note**
 > <br>
 > <br>
-> Attaching a recording session to an existing process is __only applicable for Internet Explorer or WPF applications__. If you need to cover a similar recording scenario for the other browsers (Chrome, Edge Chromium, Firefox), you can use the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">__options for partial test execution__</a>.
+> Attaching a recording session to an existing process is applicable only to Internet Explorer or WPF applications. If you need to cover a similar recording scenario for other browsers (Chrome, Edge Chromium, Firefox), use the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">options for partial test execution</a>.
 
 ## What is the Compact Recorder
 
-The  <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> gets attached to the automated application for every recording session, and it can be considered as __the connection between the application under test and Test Studio__.
+The <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> gets attached to the automated application during every recording session. It is the connection between the application under test and Test Studio.
 
-To ease you in recording the test scenarios, the __toolbar's size is minimal on top of the application window, and you can change its position__ at any time. Through the __Recording Toolbar__, you have access to helpful resources for the recording process - highlight and add elements to the test project, explore the application under the test's structure and its elements, add actions, verifications, and common steps for your test scenario.
+The toolbar's size is minimal and you can change its position at any time. Through the __Compact Recording Toolbar__, you get access to various recording actions, for example:
+
+* Highlight and add elements to the test project.
+* Explore the application under the test's structure and its elements.
+* Add actions, verifications, and common steps for your test scenario.
 
 ![Compact recording toolbar][6]
 
-Below you can find a short description of each toolbar button:
+The __Compact Recording Toolbar__ provides quick access to the following buttons:
 
-* __Enable/Disable hover over highlighting__ - used to highlight the elements that you hover over in order to access the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Elements Menu</a> pop-up with multiple options for the specific element.
-* __Pause/Resume recording button__ - allows you to pause or resume the recording. When paused, your actions against the application under test will not be added to the test.
-* __Show/Hide the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">Advanced Recording Tools</a>__ - in the __Advanced Tools__ you have access to the application's DOM tree and various types of steps for the selected element.
-* __Switch the orientation of the **Compact Recording Toolbar** between vertical and horizontal__ - this is an additional feature to increase your productivity and allow you to place the toolbar anywhere outside of the working area.
+* __Enable/Disable hover over highlighting__&mdash;used to highlight the elements that you hover over in order to access the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Elements Menu</a> pop-up that provides multiple options for the specific element.
+* __Pause/Resume recording__&mdash;allows you to pause or resume the recording. When paused, your actions against the application under test will not be added to the test.
+* __Show/Hide the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">Advanced Recording Tools</a>__&mdash;in the __Advanced Tools__ you have access to the application's DOM tree and various types of steps for the selected element.
+* __Switch the orientation of the **Compact Recording Toolbar** between vertical and horizontal__&mdash;this is an additional feature to increase your productivity and allow you to place the toolbar anywhere outside of the working area.
 
 ## See also ##
 

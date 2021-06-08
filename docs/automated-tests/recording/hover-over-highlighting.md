@@ -1,7 +1,7 @@
 ---
 title: Highlighting an Element
 page_title: Highlighting an Element While Recording
-description: "The Compact Toolbar allows you to highlight the elements on page. Highlight elements in WPF app. Use the options from Elements menu for the specific element. How to add an element in project without recording a step for it. How to check where in the DOM is certain element on page"
+description: "The Compact Toolbar in Test Studio allows you to highlight different elements on a page and to use various functions in the highlighting menu."
 position: 2
 ---
 # Highlighting Elements in Recording Mode
