@@ -33,11 +33,11 @@ The __*FrameInfo*__ property contains the frame specific info, which is used fro
 
 ## Frames Identification Priority
 
-The __Id__, __Name__ and __BaseUrl__ properties of the frame element in Test Studio should match a frame on the page with the same properties. If this logic cannot find any frame on the page, the __Index__ will be used as a back-up search logic.
+The __Id__, __Name__ and __Url__ properties of the frame element in Test Studio should match a frame on the page with the same properties. If this logic cannot find any frame on the page, the __Index__ will be used as a back-up search logic.
 
 * __Id__ and __Name__ accept partial string match, if the used value starts with tilde character (~);
-* __BaseUrl__ is the frame's effective source value and takes into consideration the __UseQuery__ flag; This property also accepts partial match, if the tilde character (~) is used, and can be configured for <a href="/knowledge-base/test-execution-kb/base-url#using-the-baseurl-with-frames" target="_blank">BaseURL set on project level</a>;
-* __Index__ - Test Studio sees all frames on the page in a flat list in the order they were loaded and this is how the index for each frame is generated. It is zero based and is recommended to use it as last resort;
+* __BaseUrl__ is the frame's effective source value. When __UseQuery__ flag is set to true, _Query_ value is internally appended before comparison. This property also accepts partial match, if the tilde character (~) is used, and can be configured for <a href="/knowledge-base/test-execution-kb/base-url#using-the-baseurl-with-frames" target="_blank">BaseURL set on project level</a>;
+* __Index__ - Test Studio sees all frames on the page in a flat list in the order they were loaded and this is how the index for each frame is generated. It is zero based and is recommended to be used as last resort;
 
 ## How to Handle Dynamic Frames
 

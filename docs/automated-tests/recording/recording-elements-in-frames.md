@@ -39,6 +39,6 @@ The steps recorded against elements in frames look the same way as any other ste
 
 ## Disable Auto-Refresh for the DOM Explorer
 
-If the application under test __presents dynamic content__, this might be constantly changing (countdown watch, for example) and thus, causing refresh of the Elements Tree in the DOM Explorer. In such cases you can use the _Freeze/Unfreeze_ button to stop the auto-refresh action, and the _Refresh_ button to fetch the current state of DOM tree.
+If the application under test has dynamically changing content, for example a countdown watch, this causes the Element Tree in the DOM Explorer to constantly refresh. In such cases you can use the _Freeze/Unfreeze_ button to stop the auto-refresh action, and the _Refresh_ button to fetch the current state of DOM tree.
 
 ![Freeze/Unfreeze/Refresh DOM tree state](/img/automated-tests/recording/recording-frames/fig4.png)
