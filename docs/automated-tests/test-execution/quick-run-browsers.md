@@ -1,26 +1,33 @@
 ---
 title: Browser Control in Quick Execution
 page_title: Browser Control in Quick Execution
-description: "Test Studio Quick test Execution. How to Set preferred browser for test runs and test recording. Wuick Access the browser calibration tool"
+description: "Learn how to set a preferred browser for Test Studio's quick test execution and how to calibrate a browser."
 position: 2
 ---
 # Browser Control in Quick Execution
 
-The **Test Ribbon** in Test Studio allows you to trigger a quick test execution. Along with that it provides quick access to some useful project settings.
+The **Test** ribbon in Test Studio allows you to trigger a quick test execution and provides access to project settings like preferred browser and browser calibration.
 
 ## Preferred Browser
 
-If the application under test is mainly used in one browser, or there is a requirement to test in specific browser, it would be waste of time to choose the executing browser for each test run. Therefore Test Studio allows you to set one of the supported browser as a preferred one for the current project - that way this browser will be triggered for each recording session and quick run of the test. This setting is global for the current project and can be modified in the Project Settings.
+Test Studio allows you to set a preferred browser for the current project so that you can use this browser in each test run. This is helpful in the following scenarios:
 
-The **Test Ribbon** provides you quick access to choose a default browser. Under the **Preferred browser** section you can access a dropdown to set your preferred browser for this project. The list contains all installed browsers or the option to select the OS default set browser. Leaving the dropdown option _'Ask me every time' will allow you to choose the browser by each recording session or quick execution.
+* The application under test is used mainly in one browser.
+* There is a requirement to test the application in a specific browser.
+
+The **Preferred browser** setting applies to all tests in the current project. You can modify it in the project's **Settings**. Additionally, you can choose the preferred browser in the **Test** ribbon's **Preferred browser** dropdown. The dropdown list allows you to select from the following options:
+
+* One of the installed browsers.
+* The OS default browser.
+* The **Ask me every time** option.
 
 ![Preferred browser dropdown][1]
 
 ## Calibrate Browsers
 
-The browser calibration is a required set of settings, which makes the browser compatible for recording and executing automated tests with Test Studio. Test Studio provides the option to automatically apply the necessary settings for the installed browsers in the Project Settings. 
+The browser calibration is a collection of settings that makes the browser compatible for recording and executing automated tests with Test Studio. Test Studio can automatically apply these settings to the installed browsers.
 
-The **Test Ribbon** in Test Studio provides you quick access to this built-in tool for automatic browser calibration.
+To access the built-in browser calibration, go to the **Test** ribbon and click **Calibrate browsers**. This will open the project **Settings** dialog with the **Calibrate** buttons.
 
 ![Calibrate browser quick access][2]
 
