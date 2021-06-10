@@ -1,20 +1,20 @@
 ---
 title: Quick Execution with Annotations
 page_title: Quick Execution with Annotations
-description: "Test Studio Quick test Execution. Test Studio test run. annotated test run. Enable Annotations during quick test execution."
+description: "Learn how to enable annotations during quick test execution in Test Studio."
 position: 6
 ---
 # Annotations in Quick Execution
 
-The **Test Ribbon** in Test Studio allows you to trigger a quick test execution. Along with that it provides quick access to some useful project settings.
+The **Test** ribbon in Test Studio allows you to trigger a quick test execution and enable annotations for the target elements in each test step.
 
-## Enable Annotations
+The annotations highlight the target element in each executed step and provide a brief message for the action in the step. The annotations are helpful when the sequence of actions is hard to follow, and it's hard to identify which action causes the unexpected application behavior during the test execution.
 
-The __annotations highlight the target element of each executed step__ along with a brief message for the step action. These are helpful in any occasions when the __sequence of actions cannot be followed__ easily and is difficult to identify, which of these causes the unexpected application behavior during the test execution. Toggle on or off the **Toggle Annotations** button.
+To enable or disable annotations, go to the **Test** ribbon and click the annotations button.
 
 ![Toggle Annotation][7]
 
-__Enabling the annotations will also slow down the test run__ by inserting a delay between steps (in milliseconds). The annotations timeout can be changed either from the drop-down menu or by entering a custom value.
+When you enable annotations, Test Studio slows down the test run by inserting a delay (in milliseconds) between steps. You can change the delay either from the drop-down menu or by entering a custom value.
 
 ## See Also
 

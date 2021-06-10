@@ -1,24 +1,26 @@
 ---
 title: Enable Visual Debugger in Quick Execution
 page_title: Enable Visual Debugger in Quick Execution
-description: "Test Studio Quick test Execution. Test Studio test run. Visual debugger options in Test Studio for quick run. Debug the test during its execution."
+description: "Learn how to enable the Visual Debugger during quick test execution and how to debug a test during its execution."
 position: 5
 ---
 # Enable Visual Debugger
 
-The **Test Ribbon** in Test Studio allows you to trigger a quick test execution. Along with that it provides quick access to some useful project settings.
+The **Test** ribbon in Test Studio allows you to trigger a quick test execution and to adjust the debugging options for your next test run.
 
-The __Visual Debugger__ is a useful tool to help you explore the application, while a test is being executed. It provides different options when to pause the test run and allows you to explore the current DOM tree, so far generated results, etc. The debugging options for your next test run can be controlled from the **Test** ribbon in Test Studio.
+The __Visual Debugger__ helps you to explore the application while a test is executing. It allows you to:
+
+* Pause the test run.
+* Explore the current DOM tree.
+* Review the generated results up to the current moment.
 
 ## Visual Debugger
 
-The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">__Visual Debugger__</a> is enabled by default and it appears in the lower right corner of your screen. It indicates the current step, includes play and pause ability, and shows additional Debug Options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>. This is a feature you could turn on or off.
+The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">__Visual Debugger__</a> is enabled by default and appears in the lower right corner of your screen. If desired, you can turn it off. The __Visual Debugger__ indicates the current step, allows you to pause the test, and shows additional debug options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>.
 
 ![Visual Debugger Indicator][1]
 
-## Debugger Options
-
-Click **Debugging Options** icon in the __Test ribbon__ to turn the debugger on or off, and customize the Auto-Pause Options, if errors occur during the execution.
+To enable or disable the __Visual Debugger__, click **Debugger** options on the __Test__ ribbon. You can also customize the auto-pause options that pause the test if errors occur during the execution.
 
 ![Test Studio][2]
 
