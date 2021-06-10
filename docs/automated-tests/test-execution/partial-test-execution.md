@@ -13,6 +13,7 @@ You can access the options for partial test execution only during a test recordi
 To run a partial test:
 
 1. Right-click a test step to open the context menu.
+
 1. Hover over __Run__ to reveal the following partial test options:
 
    - [__To Here__](#run-to-here)

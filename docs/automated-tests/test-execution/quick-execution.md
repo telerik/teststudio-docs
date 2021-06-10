@@ -12,7 +12,7 @@ This article guides you through the quick test execution process in details.
 
 ## Execute a Test
 
-Once you have <a href="/automated-tests/recording/overview" target="_blank">recorded a complete test scenario</a>, the steps, which represents the recorded actions, are listed in the __Test Steps__ pane. You can execute these steps against any of the supported browsers, regardless of the browser that you used to record them. 
+Once you have <a href="/automated-tests/recording/overview" target="_blank">recorded a complete test scenario</a>, the steps, which represents the recorded actions, are listed in the __Test steps__ pane. You can execute these steps against any of the supported browsers, regardless of the browser that you used to record them. 
 
 To trigger the test run, click the **Execute** button in the __Test__ ribbon.
 
@@ -40,7 +40,7 @@ Test Studio launches the selected browser on top of any other running apps and e
 
 The <a href="/automated-tests/test-results/analyze-quick-run-results" target="_blank">results from the quick execution</a> mode are dedicated mainly to <a href="/automated-tests/troubleshooting/failing-test" target="_blank">debugging inconsistencies</a> in the recorded test steps. Therefore, these are only temporary results for the last test run. These results will be overwritten when you execute the test again or deleted if you close and reopen the test/project.
 
-Once the test completes, the __Test Steps__ pane displays the overall result - passed or failed and any failed steps. You can also access a complete execution log and the <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> for the failing step.
+Once the test completes, the __Test steps__ pane displays the overall result - passed or failed and any failed steps. You can also access a complete execution log and the <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> for the failing step.
 
 ![Quick run results][3]
 
@@ -51,7 +51,7 @@ Once the test completes, the __Test Steps__ pane displays the overall result - p
 
 ## Options to Modify for the Quick Test Run
 
-Test Studio provides multiple options that ease you in executing the tests and debugging any encountered failures. The most used settings are added in the ___Quick Test Execution___ ribbon for quick access. For more details on the quick access options, see the articles below:
+Test Studio provides multiple options that ease you in executing the tests and debugging any encountered failures. The most used settings are added in the __Tests__ ribbon for quick access. For more details on the quick access options, see the articles below:
 
 - <a href="/automated-tests/test-execution/quick-run-browsers" target="_blank">Set Preferred Browser</a>
 - <a href="/automated-tests/test-execution/quick-run-browsers#calibrate-browsers" target="_blank">Calibrate the Browsers</a>

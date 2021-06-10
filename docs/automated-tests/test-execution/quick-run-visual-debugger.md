@@ -11,16 +11,18 @@ The **Test** ribbon in Test Studio allows you to trigger a quick test execution 
 The __Visual Debugger__ helps you to explore the application while a test is executing. It allows you to:
 
 * Pause the test run.
+
 * Explore the current DOM tree.
+
 * Review the generated results up to the current moment.
 
 ## Visual Debugger
 
-The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">__Visual Debugger__</a> is enabled by default and appears in the lower right corner of your screen. If desired, you can turn it off. The __Visual Debugger__ indicates the current step, allows you to pause the test, and shows additional debug options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>.
+The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">__Visual Debugger__</a> is enabled by default and appears in the lower right corner of your screen. The __Visual Debugger__ indicates the current step, allows you to pause the test, and shows additional debug options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>.
 
 ![Visual Debugger Indicator][1]
 
-To enable or disable the __Visual Debugger__, click **Debugger** options on the __Test__ ribbon. You can also customize the auto-pause options that pause the test if errors occur during the execution.
+To enable or disable the __Visual Debugger__, click __Debugger__ on the __Test__ ribbon. You can also customize the auto-pause options that pause the test if errors occur during the execution.
 
 ![Test Studio][2]
 

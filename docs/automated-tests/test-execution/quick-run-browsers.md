@@ -13,12 +13,15 @@ The **Test** ribbon in Test Studio allows you to trigger a quick test execution 
 Test Studio allows you to set a preferred browser for the current project so that you can use this browser in each test run. This is helpful in the following scenarios:
 
 * The application under test is used mainly in one browser.
+
 * There is a requirement to test the application in a specific browser.
 
 The **Preferred browser** setting applies to all tests in the current project. You can modify it in the project's **Settings**. Additionally, you can choose the preferred browser in the **Test** ribbon's **Preferred browser** dropdown. The dropdown list allows you to select from the following options:
 
 * One of the installed browsers.
+
 * The OS default browser.
+
 * The **Ask me every time** option.
 
 ![Preferred browser dropdown][1]
