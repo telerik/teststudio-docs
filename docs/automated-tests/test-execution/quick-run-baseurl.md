@@ -1,29 +1,32 @@
 ---
-title: BaseURL Quick Access
-page_title: BaseURL Quick Access
-description: "Test Studio Quick test Execution. Test Studio test run. Quick access the BaseURL. Quick Set BaseURL on project level. "
+title: BaseUrl Quick Access
+page_title: BaseUrl Quick Access
+description: "Test Studio Quick test Execution. Test Studio test run. Quick access the BaseUrl. Quick Set BaseUrl on project level. "
 position: 3
 ---
-# Quick Set BaseURL for a Project
+# Quick Access to BaseUrl
 
-The **Test Ribbon** in Test Studio allows you to trigger a quick test execution. Along with that it provides quick access to some useful project settings.
+The **Test** ribbon in Test Studio allows you to trigger a quick test execution and provides access to the **BaseUrl** project setting.
 
-## Using BaseURL in Test Studio Projects
+## Using BaseUrl in Test Studio Projects
 
-Test Studio allows you to reuse already recorded tests against multiple environments, e.g. stage, test or prod. Usually these environments only differ by their URLs, so setting a BaseURL on project level will help you execute the same tests. The **Test Ribbon** provides quick access to easily change the BaseURL and trigger a test execution against any of the available environments.
+Test Studio allows you to reuse already recorded tests against multiple environments, for example, stage, test, or production. Usually, these environments differ only in their URLs, so changing the **BaseUrl** on the project level will help you execute the same tests against multiple environments.
 
-## Set BaseURL for a Project
+To change the **BaseUrl**, go to the **Test** ribbon and enter the desired URL in the designated field.
 
-Set a **Base Url**, if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
+> __Tip__
+> <br>
+> <br>
+>For more information on how to run tests against multiple environments by using the **BaseUrl**, see the <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseUrl KB article</a>.
 
 ![BaseUrl][12]
 
 ## Adjust the Compare Mode for URLs
 
-When a **BaseURL** is set for the project, you can change the **Compare Mode** for future recorded elements. Detailed description of the different options can be found <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">here</a>.
+When a **BaseUrl** is set for the project, you can change the **Compare Mode** for future recorded elements. For more information about the various options, see the <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">Compare Mode section</a> in the Recording Options article.
 
 ![Compare Mode][13]
 
-[12]: /img/automated-tests/test-execution/quick-run-baseurl/fig12.png
-[13]: /img/automated-tests/test-execution/quick-run-baseurl/fig13.png
+[12]: /img/automated-tests/test-execution/quick-run-BaseUrl/fig12.png
+[13]: /img/automated-tests/test-execution/quick-run-BaseUrl/fig13.png
 
