@@ -1,34 +1,31 @@
 ---
 title: Chrome
 page_title: Configure Chrome for Test Studio Automation
-description: "Configure Chrome to use for testing with Test Studio. Prerequisites for testing against Chrome with Test Studio. Chrome extension not found."
+description: "Configure Chrome to use for testing with Test Studio. Prerequisites for testing against Chrome with Test Studio. Install Chrome extension for Test Studio testing."
 position: 1
 ---
 
 # Configuring Chrome for Test Studio Automation 
 
-This document describes the steps to adjust Chrome for test recording and execution.
+This document describes the steps to enable Chrome browser for test recording and execution.
 
 ## 1. Install the Progress Extensions
 
-Install the latest Chrome extension from the Chrome Web Store:
+Install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store.
 
-- **Test Studio 2017 R3 (v. 2017.3.1010) And Later**
-
-There is a single extension combining recording and execution: <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">**Progress Test Studio Extension**</a>.
-<br>
-
-- **Test Studio 2017 R2 SP1(v. 2017.2.824) And Earlier**
-
-There are two seaprate extensions available - one for recording and one for execution - <a href="https://chrome.google.com/webstore/detail/telerik-test-studio-chrom/fiahpmmidlchdfcdpckaclkancbnbgnl" target="_blank">**Progress Test Studio Chrome Recorder**</a> and <a href="https://chrome.google.com/webstore/detail/telerik-test-studio-chrom/pncoonbpgmlbbjnnmaindchmjckkjcdb" target="_blank">**Progress Test Studio Chrome Execution**</a>
-
->If you face any troubles when installing or enabling the extensions please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
+> __Important__
+> <br>
+> <br>
+> If you face any troubles when installing or enabling the extensions, expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration
 
 To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
->If you need to double-check manually if all settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+> __Important__
+> <br>
+> <br>
+> If you need to manually double-check all calibration settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below to see a list of these.<br><br>
 
 > <p>If your Chrome browser has an active <strong>Google Apps session</strong> (for example, you are logged into GMail), automatic calibration will not work as expected. To use automatic configuration, log out of your Google account first.</p><p></p>
 <p></p>
@@ -45,7 +42,7 @@ To ensure a flawless and consistent automation process, there are a few browser 
 <hr/>
 <br>
 
-Follow the steps below if the extension for Chrome is not automatically installed during the Test Studio installation.<br><br>
+
 1.&nbsp; When you start recording against Chrome, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).<br><br>
 
 <img src="/img/general-information/configure-your-browser/chrome/fig14.png" alt="Wait For Extension"><br><br>
@@ -182,7 +179,7 @@ Follow the steps below to manually configure Chrome for web automation with Test
 
 <style>
 .code {
-  background-color: #FFFFFF;    
+  background-color: #FFFFFF;
   text-align: left;
   text-indent: 50px;
   color: #000000;

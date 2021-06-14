@@ -7,20 +7,25 @@ position: 1
 
 # Configuring Microsoft Edge for Test Studio Automation 
 
-This document describes the steps to configure Microsoft Edge (Chromium-based) for test recording and execution.
+This document describes the steps to enable Edge Chromium browser for test recording and execution.
 
 ## 1. Install the Progress Extensions
 
-Install the latest Edge extension from the Chrome Web Store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">**Progress Test Studio Extension**</a>.
+Install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge Chromium supports adding extensions from the Chrome web store).
 
-> **Note!** Currently, Edge Chromium supports installing extensions from the Chrome store and this will be used until a Test Studio extension is published in the official Edge store.</br>
-> If you face any troubles when installing or enabling the extensions please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
+> __Important__
+> <br>
+> <br>
+> If you face any troubles when installing or enabling the extensions, expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration
 
 To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
-> If you need to check manually if all settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+> __Important__
+> <br>
+> <br>
+> If you need to manually double-check all calibration settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below to see a list of these.
 
 <p><hr></p>
 <p></p>
@@ -34,7 +39,6 @@ To ensure a flawless and consistent automation process, there are a few browser 
 <hr/>
 <br>
 
-Follow the steps below if the extension for Edge is not automatically installed during the Test Studio installation.<br><br>
 
 1.&nbsp; When you start recording against Edge, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).<br><br>
 

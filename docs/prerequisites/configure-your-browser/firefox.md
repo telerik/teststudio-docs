@@ -7,54 +7,36 @@ position: 1
 
 
 <style>
-p.trigger{
-	margin-bottom:7px;
-	margin-top:-5px;
-	font-size:1.6rem;
-
+.code {
+  background-color: #FFFFFF;
+  text-align: left;
+  text-indent: 50px;
+  color: #000000;
 }
-
-	.toggle_container{
-	margin-bottom:10px;
-}
-
-	.toggle_container p{
-	margin:0px;
-}
-
-	.toggle_container{
-    
-	clear: both;
-	font-size:100%;
-}
-
 </style>
 
 # Configuring Firefox for Test Studio Automation#
 
-This document describes the steps to adjust Firefox for test recording and execution.
+This document describes the steps to enable Firefox browser for test recording and execution.
 
 ## 1. Install the Progress Extension
 
-- **Test Studio 2017 R3 (v. 2017.3.1010) And Later**
+Install the latest <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/" target="_blank">**Progress Test Studio Extension**</a></a> from the Firefox Add-Ons store.
 
-Install the latest Firefox extension from the Mozzila Extension Page. There is a single extension combining recording and execution: <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/" target="_blank">**Progress Test Studio Extension**</a>
-
->If you face any troubles when installing or enabling the extension, please expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
-
-As of product release **2017 R3** only the new Test Studio extension will be supported. Old extensions are using legacy Firefox add-on API and starting from Firefox v.57 only extensions developed using WebExtensions APIs will be supported for usage in the browser.
-
-Once Firefox is used for first time for web automation in Test Studio 2017 R3 or later version, the old Test Studio extensions will be automatically removed.
-
-- **Test Studio 2017 R2 SP1 (v. 2017.2.824) And Earlier**
-
-The extensions get installed directly with Test Studio installation. If you need to add or reinstall these manually, please visit  <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-ff" target="_blank">this troubleshooting article</a>.
+> __Important__
+> <br>
+> <br>
+> If you face any troubles when installing or enabling the extensions, expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
 
 ## 2. Browser Calibration
 
 To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
->If you need to double check manually if all settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+> __Important__
+> <br>
+> <br>
+> If you need to manually double-check all calibration settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below to see a list of these.<br><br>
+
 
 <p></p>
 <p></p>
@@ -70,8 +52,6 @@ To ensure a flawless and consistent automation process, there are a few browser 
 
 <hr/>
 <br>
-
-Follow the steps below if the extension for Firefox is not automatically installed during the Test Studio installation.
 
 1.&nbsp; When you start recording against Firefox, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).<br><br>
 

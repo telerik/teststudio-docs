@@ -7,7 +7,7 @@ position: 0
 
 # What is Browser Calibration
 
-A specific set of settings is required to prepare a browser for the recording and execution of tests with Test Studio. Some of the browsers also require an extension to be added.
+A specific set of settings is required to enable each of the supported browsers for test recording and execution with Test Studio and this is called __Browser Calibration__. Some of the browsers also require the installation of an extension.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-overview.html %}
@@ -15,7 +15,7 @@ A specific set of settings is required to prepare a browser for the recording an
 
 <br>
 
-To ease you in applying these settings, Test Studio provides a built-in approach to <a href="/features/project-settings/browsers" target="_blank">calibrate all supported browsers</a>. Follow the links below for more calibration details about each supported browser and a download link to the particular extension:
+To ease you in applying these settings, Test Studio provides a built-in mechanism to apply all necessary settings and <a href="/features/project-settings/browsers" target="_blank">calibrate the supported browsers</a>. Follow the links below to find out details about each browser and a direct link to install the extension from browser store:
 
 - <a href="/prerequisites/configure-your-browser/chrome" target="_blank">Google Chrome</a>
 - <a href="/prerequisites/configure-your-browser/edge-chromium" target="_blank">MS Edge (Chromium based)</a>

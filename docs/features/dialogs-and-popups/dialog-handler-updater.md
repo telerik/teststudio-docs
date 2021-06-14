@@ -1,22 +1,22 @@
 ---
-title: Dialog Handler Updater
-page_title: Dialog Handler Updater
-description: "Test Studio provides separate update of the dialog handlers definitions. Latest browser versions support."
+title: Browser Support Updater
+page_title: Browser Support Updater
+description: "Test Studio supports instant updates for latest browser versions. Update Test Studio compatibility with latest browsers structure, dialogs, behavior, etc."
 position: 0
 ---
-# Dialog Handler Updater
+# Browser Support Updater
 
-Browsers are constantly evolving. They come with a couple of official releases per year and few more updates. Some of these updates are changing the UI structure of the whole browser. This, on other hand, is impacting how Test Studio handles the dialog and notification windows.
+The __Browser support update__  is the mechanism of Test Studio to keep its compatibility with the latest browsers versions. Whenever any of the supported browsers introduces any changes in its functionalities, Test Studio needs to be updated accordingly.
 
-Hence, after such breaking changes introduced by the browsers, Test Studio should be updated accordingly. This is managed with the __Dialog handler update__ functionality. If you are using the latest official release of Test Studio, and there is a browser update which somehow is affecting the tool normal operation, a notification for __Dialog handler update__ will  be shown next to the _Calibrate browsers_ button.
+When available, the __Browser support update__ notification appears next to the _Calibrate browsers_ button in the _Tests_ ribbon.
 
-![Handler Update Notification][1]
+![Browser support Update Notification][1]
 
-For an immediate update of the Dialog handler click button _Calibrate browsers_. The <a href="/features/project-settings/overview" target="_blank">_Project Settings_</a> window will popup pointing to its _Browsers_ section. Click _Update_ button next to ___Dialog Handler update available___ notification.
+Click the _Calibrate browsers_ button to access the <a href="/features/project-settings/overview" target="_blank">_Project Settings_</a> window pointing to its _Browsers_ section. Click the __Update__ button next to _New update available_ notification.
 
-![Handler Update Button][2]
+![Browser support Update Button][2]
 
-Once the update is successfully installed you need to restart Test Studio in order the changes to take effect.
+Once the update is successfully applied, you need to restart Test Studio for the changes to take effect.
 
 ![Restart Required][3]
 
