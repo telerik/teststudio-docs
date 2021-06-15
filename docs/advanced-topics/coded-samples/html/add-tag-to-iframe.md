@@ -9,10 +9,6 @@ position: 1
 
 To help Test Studio locate your iframes, you can add a custom tag to the iframe. You can then add this tag to the <a href="/getting-started/test-recording/Frames" target="_blank">frame properties</a> in your test. There are two ways to add a tag to an iframe:
 
-[frame properties colon](/getting-started/test-recording/Frames){:target="_blank"}
-
-[frame properties no colon](/getting-started/test-recording/Frames){target="_blank"}
-
 * Add the tag in the HTML for the target page
 
 * Add the tag dynamically in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a>.
