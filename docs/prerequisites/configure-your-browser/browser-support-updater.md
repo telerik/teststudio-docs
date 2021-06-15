@@ -2,7 +2,7 @@
 title: Browser Support Updater
 page_title: Browser Support Updater
 description: "Test Studio supports instant updates for latest browser versions. Update Test Studio compatibility with latest browsers structure, dialogs, behavior, etc."
-position: 0
+position: 1
 ---
 # Browser Support Updater
 
