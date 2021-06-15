@@ -7,12 +7,7 @@ position: 1
 ---
 #Add Tag to iFrame#
 
-To help Test Studio locate your iframes, you can add a custom tag to the iframe. You can then add this tag to the [frame properties](/getting-started/test-recording/Frames){:target="_blank"}
-
-
-[frame properties](/getting-started/test-recording/Frames){target="_blank"}
-
- in your test. There are two ways to add a tag to an iframe:
+To help Test Studio locate your iframes, you can add a custom tag to the iframe. You can then add this tag to the <a href="/getting-started/test-recording/Frames" target="_blank">frame properties</a> in your test. There are two ways to add a tag to an iframe:
 
 * Add the tag in the HTML for the target page
 
