@@ -1,22 +1,24 @@
 ---
-title: Browser Support Updater
-page_title: Browser Support Updater
+title: Browser Support Update
+page_title: Browser Support Update
 description: "Test Studio supports instant updates for latest browser versions. Update Test Studio compatibility with latest browsers structure, dialogs, behavior, etc."
 position: 1
 ---
-# Browser Support Updater
+# Browser Support Update
 
-The __Browser support update__  is the mechanism of Test Studio to keep its compatibility with the latest browsers versions. Whenever any of the supported browsers introduces any changes in its functionalities, Test Studio needs to be updated accordingly.
+The __Browser support update__ allows Test Studio to stay compatible with the latest browser versions. Whenever a supported browser introduces any breaking changes in its functionalities, Test Studio needs to be updated.
 
-When available, the __Browser support update__ notification appears next to the _Calibrate browsers_ button in the _Tests_ ribbon.
+When available, the __Browser support update__ notification appears next to the __Calibrate browsers__ button in the __Tests__ ribbon and indicates that you must update Test Studio.
 
 ![Browser support Update Notification][1]
 
-Click the _Calibrate browsers_ button to access the <a href="/features/project-settings/overview" target="_blank">_Project Settings_</a> window pointing to its _Browsers_ section. Click the __Update__ button next to _New update available_ notification.
+1. Click the __Calibrate browsers__ button to access the __Project Settings__ > __Browsers__.
+
+1. Click the __Update__ button next to the __New update available__ notification.
 
 ![Browser support Update Button][2]
 
-Once the update is successfully applied, you need to restart Test Studio for the changes to take effect.
+After the update, restart Test Studio for the changes to take effect.
 
 ![Restart Required][3]
 
