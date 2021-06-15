@@ -8,27 +8,12 @@ position: 1
 
 
 <style>
-p.trigger{
-	margin-bottom:7px;
-	margin-top:-5px;
-	font-size:1.8rem;
-
+.code {
+  background-color: #FFFFFF;
+  text-align: left;
+  text-indent: 50px;
+  color: #000000;
 }
-
-	.toggle_container{
-	margin-bottom:10px;
-}
-
-	.toggle_container p{
-	margin:0px;
-}
-
-	.toggle_container{
-    
-	clear: both;
-	font-size:100%;
-}
-
 </style>
 
 # Configuring Internet Explorer for Test Studio Automation #

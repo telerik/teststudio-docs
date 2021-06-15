@@ -68,9 +68,9 @@ All available and supported browsers on the Execution Server are listed in this 
 
 ![Browsers Information][6b]
 
-## Update Dialog Handler
+## Browser Support Update
 
-This section appears only if there is an __update for Dialog Handlers__ and allows you to update these with a single button click.
+This section appears only if there is an <a href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">__update for latest browser versions__</a> and allows you to update these with a single button click.
 
 ![Dialog Handler Update][6c]
 

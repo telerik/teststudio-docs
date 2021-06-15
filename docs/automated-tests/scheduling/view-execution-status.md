@@ -54,9 +54,11 @@ The **Remote Execution Status Window** provides a summary of each Execution Serv
 
 ![Status Window Non-calibrated Browsers][4]
 
-- If there is an available <a  href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">update for the Dialog Handlers</a>, there will be a warning icon in front of the browsers' icons. To update the Dialog Handler, you can drill down to the particular machine details by double click on it or login to that machine and open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#update-dialog-handler" target="_blank">Execution client</a>.
+- When an <a  href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">update for the latest browser versions</a> is available, a warning icon appears in front of the browsers' icons. To update Test Studio for the latest browsers on this execution server, you can drill down to the <a  href="/automated-tests/scheduling/view-execution-status#execution-servers-details" target="_blank">machine details in the Execution status view</a> and use the __Update__ button.
 
-![Status Window Dialog handler Update][4a]
+![Status Window browser support Update][4a]
+
+Optionally, you can logon on the machine, open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#browser-support-update" target="_blank">Execution client and update the the installation for latest browser support</a>.
 
 ### Execution Servers Details
 
@@ -66,7 +68,7 @@ To view detailed information about an Execution Server, double-click the respect
 
 - The **Machine Information** section displays system specification for the machine.
 
-- The **Dialog Handler Update** section notifies for the current state of the Dialog Handlers on the machine. If this needs to be updated there is a warning sign that an update is available.
+- The **Browser Support Update** section notifies for the current state for browser support on the machine. If this needs to be updated, a warning sign notifies an update is available.
 
 - The **Browser Information** section displays all installed browsers on the execution machine along with their calibration state. All installed browsers on the remote machine could be calibrated or restored to default settings from the provided buttons - Calibrate and Restore.
 

@@ -3,6 +3,7 @@ title: Wait for Condition Timed Out
 page_title: Wait for Condition Timed Out
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
+publish: false
 ---
 # Wait for Condition Timed Out
 
@@ -10,20 +11,20 @@ position: 1
 
 You may encounter the *Wait for condition* has timed out error after your test performs a click action.
 
-<pre>
-Failure Information:
- ~~~~~~~~~~~~~~~
+__Failure Information:__
+
+```
 Wait for condition has timed out
 InnerException:
 System.TimeoutException: Wait for condition has timed out
 at ArtOfTest.WebAii.Core.Browser.WaitUntilReady()
-</pre>
+```
 
 This indicates the test timed out waiting for the browser to return to a "ready" state after the click command was sent to it.
 
 ## SOLUTION
 
-This can often be overcome by setting the applicable step's **SimulateRealClick** property to True. Find it under the Behavior heading in the Properties pane.
+This can be often overcome by setting the applicable step's **SimulateRealClick** property to True. Find it under the Behavior heading in the Properties pane.
 
 ![SimulaterRealClick][1]
 
