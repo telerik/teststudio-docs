@@ -12,7 +12,7 @@ This article describes how frames are identified during test run-time and how yo
 
 ## Frame Node
 
-When there is an action against a frame, the elements get recorded under an additional node in the Elements Explorer. This node represents the frame and, in Test Studio, we call it a __Frame Node__.
+<a href="/automated-tests/recording/recording-elements-in-frames" target="_blank">Adding a step for element, which is in a frame on the page</a>, Test Studio records the element in Elements Explorer under an additional node. It represents the frame and, in Test Studio, we call it a __Frame Node__.
 
 ![Frame nodes](/img/features/elements-explorer/frames/fig0.png)
 
@@ -29,7 +29,7 @@ The __*FrameInfo*__ property contains the frame specific info, which is used fro
 > __Note__
 ><br>
 ><br>
-> If a recorded element is listed under a frame node, during test run-time __Test Studio first locates the frame on the page__, next the test searches the element and then is the step action executed.
+> If a recorded element is listed under a frame node, during test run-time __Test Studio first locates the frame on the page__, then the element in the frame and finally executes the step.
 
 ## Frames Identification Priority
 

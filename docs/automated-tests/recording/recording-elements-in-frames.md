@@ -26,9 +26,9 @@ If there are any frames on the page, these will be listed in a dropdown in the T
 
 ## Recording Actions against IFrames
 
-In the general case, there is nothing specific in the recording experience against the elements of a frame - you can directly perform the actions against the page to add steps in the test, or choose an option from the <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">Highlighting menu</a>. 
+In the general case, there is nothing specific in the recording experience against the elements of a frame - you can directly perform the actions against the page to add steps in the test, or choose an option from the <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">Highlighting menu</a>.
 
-The steps recorded against elements in frames look the same way as any other step. What makes the difference is how the target element is listed in the <a href="/automated-tests/elements/overview" target="_blank">Elements Explorer</a> - there is an additional node, which represents the frame element for Test Studio.
+The steps recorded against elements in frames look the same way as any other step. What makes the difference is how the target element is listed in the Elements Explorer - there is an additional <a href="/automated-tests/elements/frames" target="_blank">node, which represents the frame element</a> for Test Studio.
 
 ![Steps Recorded in Test](/img/automated-tests/recording/recording-frames/fig0.png)
 
