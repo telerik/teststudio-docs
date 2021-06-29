@@ -4,19 +4,28 @@ page_title: Execute Test Studio Test and Test lists with VSTestConsole.exe
 description: "Integrate Test Studio tests in TFS continuous integration builds. Execute Test Studio tests and test lists with VSTestConsole.exe"
 position: 10
 ---
-# Execute Test Studio Tests with VSTestConsole.exe #
+# Execute Test Studio Tests with VSTest.Console.exe #
 
-To be able to execute <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests with the Visual Studio default test runner there are few requirements to set in advance. These are described below:
+The <a href="https://msdn.microsoft.com/en-us/library/jj155796.aspx" target="_blank">VSTest.Console.exe</a> in Visual Studio discovers and runs tests, including Test Studio tests and <a href="/automated-tests/vs-plugin/test-lists-in-vs-2017-2019" target="_blank">test lists</a>.
 
-1.&nbsp; Start the **VS Developer Command Prompt** with Admin privilege.
+There are few requirements in order to execute Test Studio tests and test lists with the Visual Studio test runner VSTest.Console.exe. Follow the steps below to be able to trigger test runs with VSTest.Console.exe.
 
-2.&nbsp; Change the working folder to be the one which contains the vstest.console.exe. This depends on the Visual Studio installation:
+1.&nbsp; __Install Autofac.dll and Newtownsoft.Json.dll in the GAC__ (Global Assembly Cache). The dll files are stored in the Test Studio installation folder in the _bin_ subfolder - the default location is _C:\Program Files (x86)\Progress\Test Studio\Bin_.
+
+> __Tip__
+><br>
+><br>
+> Check the <a href="https://docs.microsoft.com/en-us/dotnet/framework/app-domains/how-to-install-an-assembly-into-the-gac" target="_blank">Microsoft documentation on how to install a dll file in the GAC (Global Assembly Cache)</a>.
+
+2.&nbsp; __Start the VS Developer Command Prompt with Admin privilege__.
+
+3.&nbsp; Change the __working folder__ to this, which __contains the vstest.console.exe__. Depending on the Visual Studio installation this can be:
 
 * for **Visual Studio 2015** it is C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow
 * for **Visual Studio 2017 Enterprise** it is C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow
 * for **Visual Studio 2019 Professional** it is C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow
 
-3.&nbsp; There are two variables you have to set before executing Test Studio tests - ***TS_PROJECT_PATH*** and ***TS_DLL_PATH***. Project path is the folder which contains the Settings.aiis file. Dll path is the folder which contains the built project dll. 
+4.&nbsp; __Set these two variables__ - ***TS_PROJECT_PATH*** (the folder, which contains the Test Studio project _Settings.aiis_) and ***TS_DLL_PATH*** (the folder, which contains the built project dll - by default it is in the project root under _\bin\Debug_).
 
 ```
 set TS_PROJECT_PATH=C:\Projects\TestStudioProject11\TestStudioProject11
@@ -24,32 +33,32 @@ set TS_PROJECT_PATH=C:\Projects\TestStudioProject11\TestStudioProject11
 set TS_DLL_PATH=C:\Projects\TestStudioProject11\TestStudioProject11\bin\Debug\TestStudioProject11.dll
 ```
 
-> __Note!__ The variables are set for this instance of the Developer Command Prompt. By each next start of the command prompt the variables need to be set again. Therefore these need to be set in the build tasks in __CI environment__ prior the task to execute the test.
+> __Important__
+><br>
+><br>
+> These variables are __set for the current instance of the Developer Command Prompt__. By each next start of the command prompt the variables need to be set again.
+><br>
+><br>
+> Therefore, if the tests are executed as part of CI setup, the two variables need to be set in the build tasks prior the task to run the test scripts.
 
-4.&nbsp; To be able to execute a Test Studio test, you need to include the /TestAdapterPath:[path] argument, except the full path to the *.tstest file - this is the __Telerik.TestStudio.TestAdapter-VS2015.dll__. The location of this dll depends on the Visual Studio installation:
+5.&nbsp; The execution of Test Studio tests with VSTest.Console.exe requires the usage of the argument /TestAdapterPath:[path] - this is the __Telerik.TestStudio.TestAdapter-VS20XX.dll__ and can be found in the folder corresponding to the Visual Studio version in use:
 
 * for **Visual Studio 2015** the TestAdapter.dll is in any of the sub-folders in the *Visual Studio Extensions* directory, which is C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\
 * for **Visual Studio 2017 Enterprise** the TestAdapter.dll is deployed in a sub folder of the Test Studio installation folder C:\Program Files (x86)\Progress\Test Studio\VS2017
 * for **Visual Studio 2019 Professional** the TestAdapter.dll is deployed in a sub folder of the Test Studio installation folder C:\Program Files (x86)\Progress\Test Studio\VS2019
 
-Below is listed a sample command to execute a Test Studio test with the **VSTestConsole.exe in Visual Studio 2019**, after the **TS\_PROJECT\_PATH** and **TS\_DLL\_PATH** variables are set for the current instance of the *VS Developer Command Prompt*:
+5.&nbsp; __Visual Studio 2019 requires the argument /Settings:[_file name_]__, which accepts a Visual Studio <a href="/knowledge-base/visual-studio-kb/test-explorer-settings" target="_blank">Test Explorer project settings file</a>.
+
+## Examples
+
+Below is listed sample commands to execute a Test Studio test and test list with the **VSTestConsole.exe in Visual Studio 2019**, after the **TS\_PROJECT\_PATH** and **TS\_DLL\_PATH** variables are set for the current instance of the VS Developer Command Prompt:
 
 ```
 trigger Parent.tstest run
 
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow>vstest.console.exe "C:\Projects\TestStudioProject11\TestStudioProject11\Parent.tstest" /TestAdapterPath:"C:\Program Files (x86)\Progress\Test Studio\VS2019"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow>vstest.console.exe "C:\Projects\TestStudioProject11\TestStudioProject11\Parent.tstest" /TestAdapterPath:"C:\Program Files (x86)\Progress\Test Studio\VS2019" /Settings:"C:\Projects\TestStudioProject11\TestStudioProject11\TestSettings1.testsettings
 
 trigger sampleList.aiilist run
 
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow>vstest.console.exe  "C:\Projects\TestStudioProject11\TestStudioProject11\TestLists\sampleList.aiilist" /TestAdapterPath:"C:\Program Files (x86)\Progress\Test Studio\VS2019"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow>vstest.console.exe  "C:\Projects\TestStudioProject11\TestStudioProject11\TestLists\sampleList.aiilist" /TestAdapterPath:"C:\Program Files (x86)\Progress\Test Studio\VS2019" /Settings:"C:\Projects\TestStudioProject11\TestStudioProject11\TestSettings1.testsettings
 ```
-
->__Note!__ In addition to all of the above, for vstest.console.exe 15+ (distributed with VS2017 and later) the libraries listed below should be <a href="https://docs.microsoft.com/en-us/dotnet/framework/app-domains/how-to-install-an-assembly-into-the-gac" target="_blank">installed in the GAC</a> or copied and referred in the project from the folder, where the TestAdapter dll is - _C:\Program Files (x86)\Progress\Test Studio\VS2017_ for VS 2017 and _C:\Program Files (x86)\Progress\Test Studio\VS2019_ for VS 2019. Libraries to be included:
-<br>
-* __Autofac__
-* __Newtownsoft.json__
-* __Telerik.TestStudio.Shared__ 
-* __Telerik.TestStudio.SourceControl__ 
-<br>
-<br>
-You can find the libraries in the Test Studio install folder: _C:\Program Files (x86)\Progress\Test Studio\Bin_.
