@@ -11,9 +11,14 @@ The completed Test Studio installation can be modified or repaired if necessary.
 
 ## Trigger a Change of the Installation
 
-Open the __Windows Control Panel__ and  navigate to its __Programs and Features.__ Find the Test Studio installation - it is called __Progress Telerik Test Studio 20XX.X.__ Right click on it and select the __Change__ option. 
+Open the __Windows Control Panel__ and  navigate to its __Programs and Features.__ Find the Test Studio installation - it is called __Progress Telerik Test Studio 20XX.X.__ Right click on it and select the __Change__ option.
 
 ![Programs and Features](/img/general-information/installation/add-services/fig1.png)
+
+> __Important__
+> <br>
+> <br>
+> Test Studio installation must be re-configured from a Windows Administrator account.
 
 Click the __'Next'__ button in the Progress Telerik Test Studio 20XX.X Setup Wizard and choose the option to __Change__ the current installation.
 

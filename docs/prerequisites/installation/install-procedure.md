@@ -17,11 +17,16 @@ In this article, you can find details about the following topics:
 
 ## Prerequisites
 
-Before you continue, make sure that you already have <a href="/prerequisites/installation/manual-download" target="_blank">the installation file</a> available
+Before you continue, make sure that you already have <a href="/prerequisites/installation/manual-download" target="_blank">the installation file</a> available.
 
 ## Start the Installation
 
 Once you have downloaded the Test Studio *.exe (or *.msi file), double click it to start the Installation wizard.
+
+> __Important__
+> <br>
+> <br>
+> Test Studio installation must be configured from a Windows Administrator account.
 
 Click the __'Read License Agreement'__ button to get familiar with it and confirm you read it with the __'OK'__ button. If you need to read it again after the installation process is finished, you can find it available on the <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Progress Telerik site here</a>.
 

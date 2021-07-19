@@ -3,6 +3,7 @@ title: Configure a Test Studio Storage Server
 page_title: Configure a Test Studio Storage Server
 description: "Create a Test Studio Storage Server. The Telerik storage service is responsible for handling tests and test results for scheduled test runs in remote machine execution setup. Storage server uses MongoDb as storage database"
 position: 2
+publish: false
 ---
 # Configure a Machine to Act as a Storage Server
 

@@ -122,7 +122,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">WPF for .NET 4.5+</td>
+            <td colspan="4">WPF for .NET 4.5+ and .NET Core 3.1 and above</td>
         </tr>
     </tbody>
 </table>
@@ -130,6 +130,13 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
+
+## Admin Rights
+
+Admin permissions are required for:
+
+- Test Studio installation process - initial install, modification of existing installation, uninstall;
+- Test Studio Services installation and configuration - to enable the Scheduling setup for remote test execution.
 
 ## User Account Control (UAC)
 

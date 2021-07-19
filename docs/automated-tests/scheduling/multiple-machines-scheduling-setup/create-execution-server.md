@@ -6,31 +6,23 @@ position: 3
 ---
 # Configure a Machine to Act as an Execution Server
 
-The Test Studio Execution Server is the **Test Runner** instance of Test Studio Standalone installation or the Test Studio Run-Time Edition installation. An Execution Server is ready for use when configured and registered with your Scheduling Server. Because of this, the first requirement to cover is to successfully <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">configure a Scheduling Server</a>.
+Test Studio Execution Server can be any machine with installed Test Studio (<a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Run-time edition</a> is the minimum required). Configure the machine's Execution client to point to a running Scheduling service and it is registered as an Execution server for this Scheduler.
 
-An Execution Server (ES) could be any physical or virtual machine. Multiple Execution Servers could be connected to a single Scheduling Server (SS) to allow you to execute multiple test lists simultaneously. Differences in operating systems and browsers between the machines running the SS and the ES are allowed. Though, **each ES must be running the same version of Test Studio as the SS**.
+The below article describes the configuration steps.
 
-## Specific Requirements for an Execution Server Machine
+## Start the Execution Client
 
-Few things to consider when choosing an ES machine:
-
-- An active and unlocked desktop session is required - you must be logged on with an Administrator account at all times, you can disconnect from the ES but not log off.  <a href="/knowledge-base/test-execution-kb/locked-machine" target="_blank">This article</a> explains further details on the topic.
-- Ensure that the Execution Server machine has sufficient space on disk to store a copy of any project you schedule for execution on that Execution Server.
-- If you plan to use 'Get Latest from TFS' on scheduled test runs, make sure the Test Studio Execution Server is running under an account with access to log on to the TFS repository.
-
-## Install Test Studio Test Runner
-
-The **Test Studio Test Runner** gets installed with a standard Test Studio Standalone product installation or Test Studio Run-Time Edition installation. To start the Test Runner, type in the Windows Start Menu > **Start Execution Server**.
+The **Test Studio Execution Client** is installed with any standard Test Studio installation. To start the Execution Client, called also Test Runner, type in the __Windows Start Menu__ > **Start Execution Server**.
 
 ![Start Execution Server][1a]
 
-If you get prompted that **the Test Runner is already running**, you can right click the Test Studio icon in the Windows Task Bar and click **Show**.
+If there is a Test Studio project opened on this machine, the Execution client is already running and you might get prompted that **the Test Runner is already running**. As this is running in the background, you can access it from the Windows Task Bar on the lower right corner. Locate the the Test Studio icon, right click on it and choose the **Show** option.
 
 ![Show][1]
 
 ## Configure Test Studio Test Runner
 
-Once the **Test Studio Test Runner** window appears, there are multiple options you can customize as per the specifics of the particular environment. 
+Once the **Test Studio Test Runner** window appears, there are multiple options you can customize as per the specifics of the particular environment.
 
 ### Execution Server Configuration
 
@@ -103,14 +95,14 @@ When running tests on a remote virtual or physical machine, users would usually 
 When the *'Reconnect to Console on Disconnect'* feature is enabled, Test Studio will try to reconnect your disconnected session to the local console session, regaining access to the GUI.
 
 > __Note!__ When your session gets connected to the local console session, if there is a physical monitor, attached to the Windows machine, your session will be displayed on it. If there is another user, that has physical access to the machine, they will be able to view your screen or interact with it. This could be a security issue, so please consider carefully if that is acceptable for your organization before using the feature.</br>
-
+></br>
 > __Note!__ This feature will not have effect if you keep your Remote Desktop Connection session open, but minimized. You can see <a href="/knowledge-base/test-execution-kb/minimized-rdc" target="_blank">this article</a> for information on handling this case.
 
 ### Change Console Resolution
 
 When the *'Reconnect to Console on Disconnect'* feature is enabled, you have the option to change the Console session resolution - you can choose the desired resolution from the dropdown menu. This option is useful when tests are executed on remote machine and successful test run depends on particular screen resolution. When set through the Test Studio Runner, you can ensure the automated tests will be executed on the specified resolution.
 
-__See Also:__ You may find additional notes on the topic in our blog post Improve <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">__Your Remote Test Execution with Test Studio User Session Configuration__</a>.
+__See Also:__ You may find additional notes on the topic in our blog post <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">__Improve Your Remote Test Execution with Test Studio User Session Configuration__</a>.
 
 [1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png
 [1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png

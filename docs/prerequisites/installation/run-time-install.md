@@ -14,7 +14,14 @@ The <a href="https://www.telerik.com/teststudio/test-studio-runtime" target="_bl
 
 ## Install the Test Studio Run-time Edition
 
-Start the installation file and follow the installation wizard. The first step is to **read and agree to the <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Licensing terms of Test Studio**</a>.
+Start the installation file and follow the installation wizard.
+
+> __Important__
+> <br>
+> <br>
+> Test Studio Run-time installation must be configured from a Windows Administrator account.
+
+The first step is to **read and agree to the <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Licensing terms of Test Studio**</a>.
 
 ![License agreement][1]
 

@@ -43,9 +43,14 @@ Ensure all the following conditions are met for the server on which the tests wi
 
 * Browser is not minimized during test execution.
 
-### User Session Configuration ###
+### Test Studio Built-in Options to Control the User Session ###
 
-To ease our customers in ensuring the active desktop session on the execution machines, we implemented some <a href="/features/scheduling-test-runs/create-execution-server#user-session-configuration" target="_blank">user session configuration options in the Execution client</a>. Enabling both of these - Keep Machine Awake and Reconnect to Console on Disconnect, will keep the machine active and unlocked when an unattended run is triggered.
+The Test Studio Execution client provides <a href="/features/scheduling-test-runs/create-execution-server#user-session-configuration" target="_blank">built-in options to control the User session</a> on the remote execution machines. Enabling both <a href="/features/scheduling-test-runs/create-execution-server#keep-machine-awake" target="_blank">__Keep Machine Awake__</a> and <a href="/features/scheduling-test-runs/create-execution-server#reconnect-to-console-on-disconnect" target="_blank">__Reconnect to Console on Disconnect__</a> will keep the machine active and unlocked when an unattended scheduled run is triggered.
+
+> __Tip__
+> <br>
+> <br>
+> <a href="/automated-tests/headless/headless-test-execution" target="_blank">Execution of tests against Chrome Headless mode</a> does not require active and unlocked session. Though, it __requires a user to be logged on__ the machine.
 
 ### Possible Workarounds ###
 

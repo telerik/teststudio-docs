@@ -9,7 +9,7 @@ position: 2
 
 The **Test Studio** tool consists of a few different modules, which are packed in a few different editions of the product. There are a few license options you can purchase, which will activate all or some of the Test Studio modules.
 
-> **Note** 
+> **Note**
 >
 > Licensing is managed on a per machine basis. Each VM is considered a machine and must be licensed.
 
@@ -24,11 +24,11 @@ The **Test Studio** tool consists of a few different modules, which are packed i
 -  The **Test Studio Web & Desktop** license includes **Web and WPF test recording and execution**, built-in **scheduling solution**, centralized web-based **results dashboard**. This license provides the main functionality of Test Studio.
 -  The **Test Studio Ultimate** license adds the <a href="https://www.telerik.com/teststudio/load-testing" target="_blank">**Load Testing**</a> and <a href="https://www.telerik.com/teststudio-apis" target="_blank">**Rest API Testing**</a> modules on top of the main functionality.
 
-> **Tip** 
+> **Tip**
 >
-> <a href="https://www.telerik.com/teststudio/functional-testing" target="_blank">Click here for the full of features in Test Studio</a>.
+> <a href="https://www.telerik.com/teststudio/functional-testing" target="_blank">Click here to see the full set of features in Test Studio</a>.
 
-Both Test Studio Web & Desktop and Ultimate installations include the **Test Studio plug-in for Visual Studio**. The Visual Studio plug-in allows you to use the functional automation testing features (Web and WPF test recording and execution) directly in Visual Studio.
+Both Test Studio Web & Desktop and Ultimate installations include the **Test Studio plug-in for Visual Studio**. The Visual Studio plug-in allows you to <a href="https://docs.telerik.com/devtools/teststudiodev/quickstart" target="_blank">use the functional automation testing features (Web and WPF test recording and execution) directly in Visual Studio</a>.
 
 ## Test Studio Run-Time Add-On
 

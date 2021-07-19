@@ -51,7 +51,7 @@ __6.__&nbsp; __Visual Studio 2019 requires the argument /Settings:[_file name_]_
 
 ## Examples
 
-Below is listed sample commands to execute a Test Studio test and test list with the **VSTestConsole.exe in Visual Studio 2019**, after the **TS\_PROJECT\_PATH** and **TS\_DLL\_PATH** variables are set for the current instance of the VS Developer Command Prompt:
+Below are listed sample commands to execute a Test Studio test and test list with the **VSTestConsole.exe in Visual Studio 2019**, after the **TS\_PROJECT\_PATH** and **TS\_DLL\_PATH** variables are set for the current instance of the VS Developer Command Prompt:
 
 ```
 trigger Parent.tstest run
