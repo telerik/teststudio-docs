@@ -2,13 +2,13 @@
 title: How to Troubleshoot Element Not Found 
 page_title: How to Troubleshoot Element Not Found?
 description: "Test Studio - debug element not found error. How to understand what causes the test to fail. What options I have to debug or troubleshoot the element not found failing test. My test fails with Element not found exception. My test fails to locate an element on page." 
-position: 0
+position: 1
 ---
 # Troubleshoot 'Element Not Found' Error
 
-A common failure in Test Studio tests is that a particular element is not found by Test Studio, even though it is present on the live page.
+A common failure when executing Test Studio tests is that a particular element is not found on the page during the test run.
 
-This example will guide you through the troubleshooting workflow for this type of a failure.
+In some cases the element is visibly available on the page, but is still reported as not found by Test Studio. This tutorial  will guide you through the troubleshooting workflow for this type of a failure and what can be causing it.
 
 ## Record the Test Scenario
 

@@ -2,7 +2,7 @@
 title: How to Troubleshoot Failing Verification Step 
 page_title: How to Troubleshoot Failing Verification Step?
 description: "Test Studio - debug failing verification step. How to understand what causes the test to fail. What options I have to debug or troubleshoot a failing verification. My test fails to  verify a value." 
-position: 0
+position: 2
 ---
 # Troubleshoot Failing Verification
 

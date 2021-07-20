@@ -27,7 +27,7 @@ The execution log also keeps information for the browser used for the run, the t
 
 ### What to Look for in the Execution Log on Failure?
 
-When a test failed, __check the failure information listed under the faulty step__. In most cases the information listed there is quite descriptive and helps you find the root cause of the failure. If we focus on the above example, it says the element in  step 5. cannot be found on page. On top of this the element's find expression is listed, if the image search was used, and at the bottom you can even find a link to the documentation about the topic how elements are located in Test Studio.
+When a test failed, __check the failure information listed under the faulty step__. In most cases the information listed there is quite descriptive and helps you find the root cause of the failure. If we focus on the above example, it says the element in  step 5. <a href="/automated-tests/troubleshooting/element-not-found" target="_blank">cannot be found on page</a>. On top of this the element's find expression is listed, if the image search was used, and at the bottom you can even find a link to the documentation about the topic how elements are located in Test Studio.
 
 ![failure in execution log](/img/automated-tests/troubleshooting/failing-test/fig2.png)
 
