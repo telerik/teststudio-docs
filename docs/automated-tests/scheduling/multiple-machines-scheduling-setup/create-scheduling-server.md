@@ -98,6 +98,11 @@ Hit the **Apply** button and check the *'Telerik Scheduling Service is running'*
 
 The __Non Admin Port Setup__ tab allows registering the ports, used from the Test Studio Scheduling configuration, to be available for users with no admin permissions in the _'URL Access Control List'_ for the preselected user or group. The default listed group __'NT Authority\Authenticated Users'__ represents all of the users in your Active Directory. It can be changed to whatever is applicable for your organization.
 
+> **Note**
+> <br>
+> <br>
+> The default ports for the Test Studio services are reserved during installation for the _'NT Authority\Authenticated Users'_ user group.
+
 Hit the __Grant Access__ button to create reservation for the listed ports and an informational message appears to report the status of the action.
 
 ![Register ports for non admin users][7]

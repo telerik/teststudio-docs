@@ -1,10 +1,10 @@
 ---
-title: Visual Debugger
+title: How to Use the Visual Debugger
 page_title: Visual Debugger
 description: "Test Studio Visual Debugger tools to explore why a test is failing. What is the Visual Debugger in Test Studio. How to use the Visual Debugger in Test Studio"
 position: 9
 ---
-# Visual Debugger
+# How to Use the Visual Debugger
 
 The Visual Debugger is a useful tool, which allows you to debug a test while it is being executed. By default it is enabled for each quick test execution. It appears at the bottom right corner of the active display (right above the Windows system tray) and shows the progress of the executed steps.
 

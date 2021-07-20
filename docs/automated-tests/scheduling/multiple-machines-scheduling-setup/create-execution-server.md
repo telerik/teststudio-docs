@@ -1,7 +1,7 @@
 ---
-title: Configure a Test Studio Execution Server
-page_title: Configure a Test Studio Execution Server
-description: "Create a Test Studio Execution Server on a dedicated execution machine in a scheduling setup. Execute Test Studio tests on remote machines. The Execution Server is the Test Studio Test Runner instance of Test Studio Standalone installation or the Test Studio Run-Time Edition installation. An Execution Server is ready for use when configured and registered with your Scheduling Server."
+title: Configure Test Studio Execution Server
+page_title: Configure Test Studio Execution Server
+description: "Create Test Studio Execution Server on a dedicated execution machine in a scheduling setup. Execute Test Studio tests on remote machines. The Execution Server is the Test Studio Test Runner instance of Test Studio Standalone installation or the Test Studio Run-Time Edition installation. An Execution Server is ready for use when configured and registered with your Scheduling Server."
 position: 3
 ---
 # Configure a Machine to Act as an Execution Server
