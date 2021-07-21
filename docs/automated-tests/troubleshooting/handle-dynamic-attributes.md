@@ -2,7 +2,7 @@
 title: How to Handle Elements with Dynamic Attributes
 page_title: How to Handle Elements with Dynamic Attributes?
 description: "How to improve elements recording if all elements have dynamic ids. My tests are constantly failing with element not found errors. How can I choose more robust find expressions for the elements. " 
-position: 4
+position: 5
 ---
 # How to Handle Elements with Dynamic Attributes
 
@@ -45,9 +45,9 @@ When the specific page structure allows you to change the order of attributes us
 
 But what if you need to handle only a single element on the page, which cannot be located properly. Test Studio provides few possible options:
 
-* [Edit element’s find expression]()
-* [Locate element by image]()
-* [Use chained find expression]()
+* [Edit element’s find expression](#edit-elements-find-expression)
+* [Locate element by image](#locate-element-by-image)
+* [Use chained find expression](#locate-element-by-image)
 
 ### Edit Element’s Find Expression
 
@@ -63,7 +63,7 @@ Test Studio’s approach to record elements is quite enhanced and <a href="/auto
 
 ![Search by image](/img/automated-tests/troubleshooting/handle-dynamic-attributes/5ImageSearch.png)
 
-The image is by default used as a __backup search criteria__ if the element find logic fails. In such case the test will be marked as passed and the only evidence that the element was found by using its image, is a <a href="/automated-tests/test-results/analyze-quick-run-results#successful-test-run-with-warnings" target="_blank">warning in the execution log</a>.
+The image is, by default, used as a __backup search criteria__, if the element find logic fails. In such case the test will be marked as passed and the only evidence that the element was found by using its image, is <a href="/automated-tests/test-results/analyze-quick-run-results#successful-test-run-with-warnings" target="_blank">a warning in the execution log</a>.
 
 > __Note__
 ><br>
@@ -85,7 +85,7 @@ Under that _div_ element there is only one _button_ and it can be uniquely locat
 > __Note__
 ><br>
 ><br>
-> You can use any of the attributes to locate the parent element, and then the child under that parent element.
+> You can __use any of the attributes__ to locate the parent element, and then the child under that parent element.
 
 
 > __Tip__

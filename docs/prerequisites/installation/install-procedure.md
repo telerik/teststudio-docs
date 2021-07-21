@@ -75,7 +75,7 @@ You can review all the selections and click the __'Install'__ button to start th
 
 ## Finish Installation
 
-When the installation process is complete, the __Installation Successful__  screen is displayed and you can choose whether you want the wizard to launch the Test Studio tool and/or the Test Studio Services config wizard. 
+When the installation process is complete, the __Installation Successful__  screen is displayed and you can choose whether you want the wizard to launch the Test Studio tool and/or the Test Studio Services config wizard.
 
 ![Successfully Completed](/img/general-information/installation/install-procedure/fig9.png)
 
