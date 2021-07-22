@@ -2,7 +2,6 @@
 title: Overview
 page_title: Data Driven Testing Overview
 description: "Data Driven Testing in Test Studio. Parameterize the test in Test Studio. Use iterated data in a Test Studio test"
-previous_url: /user-guide/data-driven-testing.aspx, /user-guide/data-driven-testing
 position: 0
 publish: false 
 ---

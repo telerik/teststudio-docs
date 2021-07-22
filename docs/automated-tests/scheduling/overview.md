@@ -16,9 +16,9 @@ Test Studio Scheduling setup consists of few services on top of the default prod
 
 The Test Studio services, which needs to be added are as follows:
 
-- __Scheduling Service__(#scheduling-service)
-- __Storage Service__(#storage-service)
-- __Executive Dashboard Service__(#executive-dashboard-service)
+- [__Scheduling Service__](#scheduling-service)
+- [__Storage Service__](#storage-service)
+- [__Executive Dashboard Service__](#executive-dashboard-service)
 
 > __Tip__
 > <br>
@@ -111,4 +111,4 @@ There are few steps to follow in order to setup the Scheduling configuration:
 When these prerequisites are complete - including the case when all these components are hosted on the same machine, the __scheduled test list executions will use the Test Studio Services with all their benefits__ - <a href="/automated-tests/scheduling/schedule-execution#step-1" target="_blank">recurring runs</a>, <a href="/automated-tests/scheduling/schedule-execution#step-2" target="_blank">test distribution</a> on selected machines, <a href="/automated-tests/scheduling/schedule-execution#step-3" target="_blank">automatic email notification</a>, results in the <a href="/automated-tests/scheduling-results/dashboard/results" target="_blank">Executive Dashboard</a>, etc.
 
 [10]: /img/features/scheduling-test-runs/overview/fig1.png
-[1]: /img/automated-tests/scheduling/overview/scheduling-iconography-bright.png
+[1]: /img/automated-tests/scheduling/overview/scheduling-setup-revamp.png
