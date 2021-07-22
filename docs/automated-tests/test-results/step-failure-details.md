@@ -117,11 +117,11 @@ When a test is failing and you need to share the identified faulty behavior with
 
 ![Export the step failure details][9]
 
-[10]: /img/automated-tests/test-results/step-failure-details/new1.png
-[11]: /img/automated-tests/test-results/step-failure-details/new2.png
-[12]: /img/automated-tests/test-results/step-failure-details/new3.png
-[13]: /img/automated-tests/test-results/step-failure-details/new4.png
-[14]: /img/automated-tests/test-results/step-failure-details/new5.png
+[10]: /img/automated-tests/test-results/new-step-failure-details/new1.png
+[11]: /img/automated-tests/test-results/new-step-failure-details/new2.png
+[12]: /img/automated-tests/test-results/new-step-failure-details/new3.png
+[13]: /img/automated-tests/test-results/new-step-failure-details/new4.png
+[14]: /img/automated-tests/test-results/new-step-failure-details/new5.png
 
 [1]: /img/automated-tests/test-results/step-failure-details/fig1.png
 [2]: /img/automated-tests/test-results/new-step-failure-details/fig2.png
