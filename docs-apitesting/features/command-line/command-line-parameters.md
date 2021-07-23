@@ -37,7 +37,7 @@ Options:
 
   - `-s|--suite       Test suite (folder) to run`
 
-  - `-f|--format      The format of the test results. Can be: 'xml', 'junit', 'junitstep'. Default is 'xml'`
+  - `-f|--format      The format of the test results. Can be: 'xml', 'junit', 'junitsteps'. Default is 'xml'`
 
   - `-o|--output      The path of the generated test results file`
 

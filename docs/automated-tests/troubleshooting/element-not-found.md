@@ -34,7 +34,7 @@ Upon <a href="/automated-tests/test-execution/quick-execution" target="_blank">e
 
 ![Failing test](/img/automated-tests/troubleshooting/element-not-found/3FailingTest.png)
 
-Looking at the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a> and the <a href="/automated-tests/test-results/step-failure-details#images-tab" target="_blank">images</a>, we can clearly see the correct page is loaded, the element is there, but the test failed with the following failure reason:
+Looking at the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a> and the <a href="/automated-tests/test-results/step-failure-details#images-section" target="_blank">images</a>, we can clearly see the correct page is loaded, the element is there, but the test failed with the following failure reason:
 
 ```
 Attempting to find [Html] element using Find logic  (Html): 

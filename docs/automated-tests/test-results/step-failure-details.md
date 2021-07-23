@@ -12,25 +12,36 @@ Let's use a simple test as a baseline, which navigates to bing.com and verifies 
 
 ## Step Failure Details Section
 
-Execute the sample test and wait until it fails. The overall result of the test run is marked as failed and the failing step is marked in the test. The __Step Failure Details__ section displayed under provides a quick look at the reason for the failure, the images, and suggestions what options you have to troubleshoot the error.
+<a href="/automated-tests/test-execution/quick-execution" target="_blank">Execute the sample test</a> and wait for the run to finish. The overall result of the test run is reported failed and the failing step is marked in the test. The __Step Failure Details__ section, displayed under, provides an overview of the __reason for the failure__, the __images__, and __suggestions__ what options you have to troubleshoot the error.
 
 ![Step Failure Details Section][10]
 
 ### Failure Reason Section
 
-The __Failure Reason__ section shows a summary of the error, which caused the failure. In it you have quick access to the [DOM tree on failure](#page-dom-tab), [Resolve failure suggestions](#resolve-failure-tab), copy the error log, [export the overall step failure details](#how-to-export-the-step-failure-details), or submit a bug, if you have [configured a bug tracking tool](/features/integration/bug-tracking/configuration) for the project.
+The __Failure Reason__ section shows a summary of the error, which caused the failure. In it you have quick access to the following details:
+
+- [DOM tree on failure](#page-dom-tab),
+- [Resolve failure suggestions](#resolve-failure-tab),
+- __Copy__ button to get the error log in clipboard,
+- [export the overall step failure details](#how-to-export-the-step-failure-details),
+- trigger the form to submit a bug, if you have <a href="/features/integration/bug-tracking/configuration" target="_blank">configured a bug tracking tool</a> for the project.
 
 ![Failure Reason Section][11]
 
 ### Suggestions Section
 
-The __Suggestion__ section hints you with handy features in Test Studio for troubleshooting a failing test and these are based on the specific error. Among these are <a href="/automated-tests/troubleshooting/use-partial-run" target="_blank">how to use the partial test execution</a>, or <a href="/automated-tests/troubleshooting/use-annotated-run" target="_blank">trigger an annotated test execution</a>, <a href="/automated-tests/troubleshooting/update-verification" target="_blank">how to update the verification definition</a>, or <a href="/automated-tests/troubleshooting/element-not-found" target="_blank">how to resolve an error for not found element</a>.
+The __Suggestion__ section hints you with handy features in Test Studio for __troubleshooting a failing test__ and these are based on the specific error. Among these are
+
+- <a href="/automated-tests/troubleshooting/update-verification" target="_blank">How to update the verification definition</a>
+- <a href="/automated-tests/troubleshooting/element-not-found" target="_blank">how to resolve an error for not found element</a>
+- <a href="/automated-tests/troubleshooting/use-partial-run" target="_blank">How to use the partial test execution</a>
+- <a href="/automated-tests/troubleshooting/use-annotated-run" target="_blank">How to trigger an annotated test execution</a>
 
 ![Suggestion Section][12]
 
 ### Images Section
 
-The __Images__ section lists the state of the application at the time of failure compared to what was captured when the test steps were recorded. The images are often useful to identify that certain step gets executed before the application is in the correct state to accept the action. Such timing issues are usually resolved by adding <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> or <a href="/features/custom-steps/execution-delay" target="_blank">execution delays</a> before the action is sent towards the page.
+The __Images__ section lists the __state of the application at the time of failure__ compared to what was captured when the test steps were recorded. The images are often useful to identify that certain step gets executed before the application is in the correct state to accept the action. Such timing issues are usually resolved by adding <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> or <a href="/features/custom-steps/execution-delay" target="_blank">execution delays</a> before the action is sent towards the page.
 
 ![Suggestion Section][13]
 
