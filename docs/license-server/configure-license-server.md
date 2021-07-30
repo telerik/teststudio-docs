@@ -18,11 +18,11 @@ The Licensing Server application __requires a valid Telerik account to be logged
 
 The machine, on which you activate Test Studio, __requires connection to the configured Licensing Server machine only__ (may not be connected to the Internet). Start the installed Test Studio, choose the option to __activate a license through the Licensing Server__ and enter the Licensing server address. The license gets activated, if there are free slots.
 
-Once you exit Test Studio on your local machine, the license remains reserved for the next 5 minutes. After that it gets available to be activated on another machine, which access to the Licensing Server. Next time when you start Test Studio on a machine, which is already connected to the Licensing server, it takes a free license, if available, automatically.
+Once you exit Test Studio on your local machine, the license remains reserved for the next 5 minutes. After that it is released and can be activated on another machine, which has access to the Licensing Server. Next time when you start Test Studio on a machine, which is already connected to the Licensing server, it takes a license automatically, if available.
 
 ## Install and Configure the Licensing Server Application
 
-The License server is a separate application and has its own installer file, which can be downloaded from your Telerik account.
+The Licensing server is a separate application and has its own installer file, which can be downloaded from your Telerik account.
 
 ### Installation
 
@@ -33,7 +33,7 @@ Once you have downloaded the Test Studio Licensing Sever *.msi file, double clic
 > <br>
 > Test Studio Licensing Server installation and setup must be configured from a Windows Administrator account.
 
-Click the __'Read License Agreement'__ button to get familiar with it and confirm you read it with the __'OK'__ button. If you need to read it again after the installation process is finished, you can find it available online on the <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Progress Telerik site here</a>.
+Click the __'Read License Agreement'__ button to get familiar with it and confirm you read it with the __'OK'__ button. If you need to read it again after the installation process is finished, you can find it available online on the Progress Telerik site <a href="https://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">here</a>.
 
 By clicking the __'I Agree and Continue'__ button you confirm you agree to the terms and conditions listed in the Test Studio EULA.
 
@@ -47,17 +47,18 @@ The installation wizard displays progress of the process.
 
 ![Installation](/img/license-server/fig3.png)
 
-When the installation process is complete, the __Installation Successful__  screen is displayed and you can choose whether you want the wizard to launch the Test Studio Licensing Server tool. Click the __Finish__ button to exit the installer wizard.
+When the installation process is complete, the Telerik Test Studio Licensing Server service is automatically started. 
+The __Installation Successful__  screen is displayed and you can choose whether you want the wizard to launch the Test Studio Licensing Server Configuration. Click the __Finish__ button to exit the installer wizard.
 
 ![Finish Installation](/img/license-server/fig4.png)
 
 ### Configure Licensing Server
 
-If you haven't started the Licensing Server Configure wizard right after the installation, you can find it in the Windows Start menu by typing _'Licensing Server'_. Ensure to start the tool from a Windows Administrator account.
+If you haven't started the Licensing Server Configuration wizard right after the installation, you can find it in the Windows Start menu by typing _'Licensing Server'_. Ensure to start the tool from a Windows Administrator account.
 
 ![win start menu](/img/license-server/fig5.png)
 
-In the __Telerik Account__ section enter the credentials for a Telerik account under which are assigned the purchased licenses.
+In the __Telerik Account__ section enter the credentials for a Telerik account, under which are assigned the purchased licenses.
 
 ![Login Telerik account](/img/license-server/fig6.png)
 
@@ -72,6 +73,12 @@ The last section __Licensing Server Web Manager__ provides access to a locally h
 The Licensing Server Web Manager page allows you to view the number of activated and free licenses, and deactivate any of the activated licenses.
 
 ![web manager page](/img/license-server/fig9.png)
+
+Activated licenses are sorted by Machine Name in ascending order. You can change the order by clicking on the title, or use the filtering options to find the machine.
+
+![sorting and filtering](/img/license-server/fig9a.png)
+
+Licensing Server Web Manager shows all activated licenses for the Telerik account that is used in the Licensing Server Configuration. This includes normal, manual and Licensing Server activations.
 
 ## Use the Licensing Server to Activate Test Studio License
 
@@ -96,18 +103,24 @@ Launch Test Studio and the Activation wizard appears. Next to the Telerik Accoun
 
 ![use licensing server](/img/license-server/fig11.png)
 
-On the next screen you can enter the name of the Licensing Server machine and click the __Connect__ button to proceed. The format of address to enter is _machineName:9098_.
+On the next screen you can enter the name of the Licensing Server machine and click the __Connect__ button to proceed. The format of address to enter is _ipaddress:port_ or _machineName:port_.
 
 ![connect to licensing server](/img/license-server/fig12.png)
 
-Once the Activation wizard connects to the Licensing Server, it will display the available for activation licenses and you can choose which to activate. If you have purchased only one type of license, only one option is available in this view.
+Once the Activation wizard connects to the Licensing Server, it will display the available for activation licenses and you can choose which to activate. If you have purchased only one type of license, it will be activated automatically, otherwise you can choose the license type.
 
 ![choose Test Studio version](/img/license-server/fig13.png)
 
 Test Studio starts and your machine is registered with the Licensing server. Each next time you start Test Studio it automatically contacts the server and takes a free license of the selected type.
 
+### Disconnect from Licensing Server
+
+In order to disconnect Test Studio from the Licensing Server and stop the automatic license distribution on this machine, you need to <a href="/prerequisites/license-activation/manage-license#deactivate-license" target="_blank">deactivate the current activated license</a>. You will see the Licensing Server that was used to activate this license.
+
+![license deactivation](/img/license-server/fig14.png)
+
 ## Possible Errors
 
 If you try to connect to a Licensing server in which there is no Telerik account logged in, you get a message to inform you that there is no active account. You will need to contact the administrator of the machine, which acts as a Licensing server.
 
-![no active account](/img/license-server/fig14.png)
+![no active account](/img/license-server/fig15.png)

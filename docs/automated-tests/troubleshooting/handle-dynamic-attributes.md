@@ -87,8 +87,4 @@ Under that _div_ element there is only one _button_ and it can be uniquely locat
 ><br>
 > You can __use any of the attributes__ to locate the parent element, and then the child under that parent element.
 
-
-> __Tip__
-><br>
-><br>
-> You can find a real user scenario how to automate SPA (Single Page Applications) with Test Studio and its ability to build chained find expressions in this blog post.
+You can find a real user scenario how to automate SPA (Single Page Applications) with Test Studio and its ability to build chained find expressions in <a href="https://www.telerik.com/blogs/purposeful-find-logic-enhancement-chained-find-expressions" target="_blank">this blog post</a>.
