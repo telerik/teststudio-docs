@@ -124,3 +124,7 @@ In order to disconnect Test Studio from the Licensing Server and stop the automa
 If you try to connect to a Licensing server in which there is no Telerik account logged in, you get a message to inform you that there is no active account. You will need to contact the administrator of the machine, which acts as a Licensing server.
 
 ![no active account](/img/license-server/fig15.png)
+
+If you do not have access to the Licensing server, when Test Studio is started and tries to get a license key, you get the message below. You will need to contact the administartor of your machine and the machine, which acts as a Licensing server.
+
+![no connection to licensing server](/img/license-server/fig16.png)
