@@ -1,18 +1,18 @@
 ---
 title: Execution Timeouts in Quick Execution
 page_title: Execution Timeouts in Quick Execution
-description: "Test Studio Quick test Execution. Test Studio test run. annotated test run. Global Timeouts in Test Studio project. Visual debugger options in Test Studio. Set preferred browser for test runs and test recording. Quick run Execution log "
+description: "Learn how to adjust the execution timeouts for a quick test execution in Test Studio."
 position: 4
 ---
 # Adjust the Execution Timeouts
 
-The **Test Ribbon** in Test Studio allows you to trigger a quick test execution. Along with that it provides quick access to some useful project settings.
+The **Test** ribbon gives you quick access to the following timeout settings:
 
-The **Wait on elements** timeout sets the amount of time, which will be waited for an element to exist on a page. When the set time passes and the element cannot be located on the page, the test will fail with _'Element not found'_ error. The default value is 15 seconds and depending on the application overall performance, you may need to increase/decrease it.
+* **Wait On Elements**&mdash;Sets the amount of time to wait for an element to appear on the page. When the set time expires and the test can't locate the element on the page, the test will fail with an __Element not found__ error. The default value is 15 seconds. Depending on the application's overall performance, you may need to increase or decrease it.
 
-The **Client ready** timeout sets the time to wait for a page to return _ReadyState_, or to stop loading any content after loading a new page from the application under test. In the terms of WPF testing, the **Client ready** timeout defines the time to wait for the desktop app to be initiated.
+* **Client Ready**&mdash;Sets the amount of time to wait for a page to return __ReadyState__, or to stop loading any content after loading a new page from the application under test. In WPF testing, the **Client Ready** timeout defines the time to wait for the initialization of the desktop app.
 
-These two timeouts are set on project level and you can modify these in the Project settings. The **Test Ribbon** allows you quick access to change their default values for the current project.
+These two timeouts are set on a project level, and you can modify these in the project's settings. The **Test** ribbon allows you to quickly change their default values for the current project.
 
 ![Timeouts][10]
 
