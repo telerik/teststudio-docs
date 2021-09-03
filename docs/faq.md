@@ -248,7 +248,7 @@ As with any other system, there are some guidelines to follow in order for you t
         <li><strong>1. <a href="/prerequisites/installation/install-procedure" target="_blank">Test Studio installation</a></strong> – initial install, modification of existing installation, uninstall.</li>
         <li><strong>2. <a href="/automated-tests/scheduling/overview" target="_blank">Configuration of the Test Studio Services</a></strong> – Test Studio starts Windows services and registers certain ports to be available for non-admin users.</li>
         <li><strong>3. Collect Performance counters data during <a href="/automated-tests/load/overview" target="_blank">Load</a> and <a href="/automated-tests/performance/overview" target="_blank">Performance</a> testing</strong> – Test Studio gathers system and network traffic related data. </li>
-        <li>4. <strong><a href="/automated-tests/source-control/tfs/overview-tfs" target="_blank">TFS Source Control</a> and <a href="/features/integration/bug-tracking/configuration" target="_blank">Bug Tracking</a></strong> - TFS prompts for admin user to download the repo locally, this is a TFS requirement. </li>
+        <li><strong>4. <a href="/automated-tests/source-control/tfs/overview-tfs" target="_blank">TFS Source Control</a> and <a href="/features/integration/bug-tracking/configuration" target="_blank">Bug Tracking</a></strong> - TFS prompts for admin user to download the repo locally, this is a TFS requirement. </li>
         </ul>
     </div>
 </div>
