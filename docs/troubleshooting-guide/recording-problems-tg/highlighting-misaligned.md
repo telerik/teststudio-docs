@@ -25,7 +25,9 @@ When I highlight an element the highlighting and the context menu are misaligned
 
 2. Click on **set a custom scaling level** (refer to the highlighted)
 
-3. Select 100% from the dropdown  
+3. Select 100% from the dropdown
+
+4. Restart/Sign out might be required for the changes to take effect
 
 ![win 10][4]
 

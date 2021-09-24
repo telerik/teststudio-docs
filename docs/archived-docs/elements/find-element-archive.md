@@ -1,10 +1,10 @@
 ---
 title: Modifying Elements Find Expression
-page_title: Modifying Elements Find Expression
-description: "Unable to find Element - Test Studio test failure. How to change how an element is located in Test studio test run/ execution. Update the elements find expression in Test Studio. How to adjust the proeprties used to locate an element in Test Studio."
+page_title: Modifying Elements Find Expression (Archive)
+description: "Archived element find expressions and how to change this"
 position: 0
 ---
-# Modifying Element's Find Expression
+# (Archive) Element's Find Expressions
 
 In certain scenarios the automatically generated <a href="/features/elements-explorer/elements-find-expression" target="_blank">find expression</a> may be ineffective, because locates multiple elements on the active window, or may use dynamically generated attributes, which are unreliable by the next test execution. In such cases you may require adjusting the find expression manually, so that it reflects the specifics of the application under test.
 
