@@ -15,7 +15,7 @@ Test Studio supports Silverlight Out-of-Browser applications and below you can r
 
 __Important Notes:__
 
-* If you are testing a Silverlight In-Browser web application, we recommend treating it as a standard <a href="web-test" target="_blank">Web Test</a> with no additional configuration.
+* If you are testing a Silverlight In-Browser web application, we recommend treating it as a standard <a href="/automated-tests/recording/overview" target="_blank">Web Test</a> with no additional configuration.
 
 * See <a href="http://msdn.microsoft.com/en-us/library/dd550721(v=vs.95).aspx" target="_blank">here</a> for what constitutes Out-of-Browser.
 

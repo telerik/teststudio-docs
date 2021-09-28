@@ -45,7 +45,7 @@ If the test scenario requires some dynamically generated data to be used in the 
 
 ## Use Data Columns Not Directly Bound to the Test
 
-Test Studio allows you to use data, which is not directly referenced in the test. This could be <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">an extracted variable generated in a coded step</a>, or this test is used as step in another test and is <a href="/advanced-topics/coded-samples/general/extracted-variables-in-cod" target="_blank">set to use the data source of the "parent" test</a>.
+Test Studio allows you to use data, which is not directly referenced in the test. This could be <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">an extracted variable generated in a coded step</a>, or this test is used as step in another test and is <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">set to use the data source of the "parent" test</a>.
 
 For these cases you will need to manually enter the name of the extracted variable, or the parent data source column, which the step property need to access. Open the dropdown of the property to bind and type the necessary value in the _Add coded data variable_ text field. Then, click the curly brackets in front of the text field.
 

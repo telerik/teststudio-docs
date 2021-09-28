@@ -279,7 +279,7 @@ The Byxxx functions that take a content string parameter recognizes the followin
 
 * Prefix the string parameter with 'p:' for partial strings matching. e.g. 'p:Arizona' will match any content containing the string 'Arizona'.
 
-* Prefix the string parameter with 'x:' for regular expression matching. e.g. 'x:[*foo*]' will match any content containing the string 'foo' in the middle of it. For more information about  regular expressions see: http://msdn.microsoft.com/en-us/library/2k3te2cs.aspx.
+* Prefix the string parameter with 'x:' for regular expression matching. e.g. 'x:[*foo*]' will match any content containing the string 'foo' in the middle of it. For more information about regular expressions see <a href="http://msdn.microsoft.com/en-us/library/2k3te2cs.aspx" target="_blank">this MSDN article</a>.
 
 ##Identification Sample##
 

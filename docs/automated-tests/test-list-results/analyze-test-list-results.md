@@ -83,7 +83,7 @@ Test Studio provides direct access through the button in the _More_ column to op
 
 ### Failed Test List Run
 
-An element, which failed to be located by its backup search, will fail the test and the overall test list result will be reported as _Failed_. The particular test's result provides details for the failure in the <a href="/automated-tests/test-list-results/step-failure-details" target="_blank">step failure details</a>, including if the backup search was used.
+An element, which failed to be located by its backup search, will fail the test and the overall test list result will be reported as _Failed_. The particular test's result provides details for the failure in the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a>, including if the backup search was used.
 
 ![Image based search failure in step failure details][13]
 

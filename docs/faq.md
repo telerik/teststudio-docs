@@ -339,8 +339,7 @@ As with any other system, there are some guidelines to follow in order for you t
 <div class="toggle_container">
    <div class="block">
         <p>Recording requires Test Studio (including the Visual Studio plug-in) to run at Administrator level access. Anything less than this and Windows blocks our connection attempt to Internet Explorer as a "security threat". You must run Visual Studio as Administrator.<br><br>
-		<a href="http://windows.microsoft.com/en-us/windows7/how-do-i-run-an-application-once-with-a-full-administrator-access-token" target="_blank">This</a> article explains how to run a program as an administrator.<br><br>
-		<a href="http://technet.microsoft.com/en-us/magazine/ff431742.aspx" target="_blank">This</a> article explains how to configure an application to always run as an administrator.ff431742.aspx</p>
+		<a href="http://technet.microsoft.com/en-us/magazine/ff431742.aspx" target="_blank">This</a> article explains how to configure an application to always run as an administrator.</p>
     </div>
 </div>
 <p class="trigger"><a href="#">Can I automate CAPTCHA?</a></p>
@@ -386,11 +385,8 @@ As with any other system, there are some guidelines to follow in order for you t
 		<li><a href="/troubleshooting-guide/test-execution-problems-tg/firefox-tg/extension-not-installed" target="_blank">Test doesn't execute in Firefox</a></li>
 		<li><a href="/troubleshooting-guide/test-execution-problems-tg/safari-tg/extension-not-installed" target="_blank">Test doesn't execute in Safari</a></li>
 		</ul>
-		If you're using the Visual Studio plug-in and trying to run your test in Internet Explorer, make sure that Visual Studio was started as administrator. Our plug-in requires administrator level access in order to take control of Internet Explorer. Anything less than this and Windows will block our connection attempt believing it to be a security threat. See these two articles for additional information:<br><br>
-
-		<a href="http://windows.microsoft.com/en-us/windows7/how-do-i-run-an-application-once-with-a-full-administrator-access-token" target="_blank">How do I run an application once with a full administrator access token?</a><br><br>
-
-		<a href="http://technet.microsoft.com/en-us/magazine/ff431742.aspx" target="_blank">Configure Applications to Always Run as an Administrator</a>
+		If you're using the Visual Studio plug-in and trying to run your test in Internet Explorer, make sure that Visual Studio was started as administrator. Our plug-in requires administrator level access in order to take control of Internet Explorer. Anything less than this and Windows will block our connection attempt believing it to be a security threat. See this article for additional information: <a href="http://technet.microsoft.com/en-us/magazine/ff431742.aspx" target="_blank">Configure Applications to Always Run as an Administrator</a>
+        <br><br>
 		</p>
     </div>
 </div>

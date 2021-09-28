@@ -26,7 +26,7 @@ Follow the standard flow for creating hybrid Cordova app described [here][1].
 
 ## Add Extension
 
-1. [Download](/samples/MobileTestingExtension_Hybrid.rar) the Test Studio Mobile extension for Hybrid apps and unpack it.
+1. [Download](/samples/MobileTestingExtension_Hybrid.zip) the Test Studio Mobile extension for Hybrid apps and unpack it.
 2. After a hybrid app is created navigate to app's containing folder and add the extension:
 
 		cordova plugin add "Path to `com.telerik.mobiletesting` folder"

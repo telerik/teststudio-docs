@@ -53,8 +53,7 @@ test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} jun
 
 > This step is needed, because Bamboo JUnit parser can't parse files encoded in UTF-8-BOM. <br>
 ><br>
-> Reference on the topic can be found <a href="https://confluence.atlassian.com/bamkb/junit-parser-failing-to-find-or-parse-test-results-935372076.html
-" target="_blank">here</a>.
+> Reference on the topic can be found <a href="https://confluence.atlassian.com/bamkb/junit-parser-failing-to-find-or-parse-test-results-935372076.html" target="_blank">here</a>.
 
 Source of the script:
 

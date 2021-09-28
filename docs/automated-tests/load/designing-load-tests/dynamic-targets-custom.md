@@ -86,7 +86,7 @@ domain=(?<val>.*?)$
 
 - ___JSON___ - use <a href="http://goessner.net/articles/JsonPath/index.html#e3" target="_blank">JSONPath</a> to locate the desired value in response.
 
-- __\__XML___ - use <a href="https://msdn.microsoft.com/en-us/library/ms256122(v=vs.110).aspx" target="_blank">XPath</a> to locate the desired value in response.
+- ___XML___ - use <a href="https://msdn.microsoft.com/en-us/library/ms256122(v=vs.110).aspx" target="_blank">XPath</a> to locate the desired value in response.
 
 ## Destination Section Properties
 

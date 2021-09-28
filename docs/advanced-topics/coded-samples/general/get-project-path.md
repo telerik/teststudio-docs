@@ -25,7 +25,7 @@ This will store the current project path inside the string variable *currentProj
 
 * **C:\Users\smith\Documents\Test Studio Projects\TestProject1**
 
-However, when running tests from the Visual Studio <a href="/getting-started/test-execution/vs-2010-test-view" target="_blank">Test View</a> or <a href="/getting-started/test-execution/vs-2012-test-explorer" target="_blank">Test Explorer</a>, the above code will return a complex Out folder and not the Project's containing folder. For instance:
+However, when running tests from the Visual Studio <a href="/getting-started/test-execution/vs-2012-test-explorer" target="_blank">Test Explorer</a>, the above code will return a complex Out folder and not the Project's containing folder. For instance:
 
 * **C:\MySampleProject\TestResults\smith_Smith 2011-11-21 12_56_51\Out**
 

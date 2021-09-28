@@ -24,7 +24,7 @@ In order for the build agent machine to run unit tests it needs to have the foll
 
 Your unit tests need access to the Visual Studio and ArtOfTest testing frameworks on the build agent machine.
 
-In order for Telerik tests to successfully run they need to be able to interact with the desktop. In order for them to do that the build agent needs to be run in interactive (i.e. console) mode. Unfortunately the install of the build agent automatically installs the agent as a windows service and starts it. This is easily changed by following the procedure at <a href="http://msdn.microsoft.com/en-us/library/vstudio/ms181712(v=vs.110).aspx#interactive" target="_blank">http://msdn.microsoft.com/en-us/library/vstudio/ms181712(v=vs.110).aspx#interactive</a>.
+In order for Telerik tests to successfully run they need to be able to interact with the desktop. In order for them to do that the build agent needs to be run in interactive (i.e. console) mode. Unfortunately the install of the build agent automatically installs the agent as a windows service and starts it. This is easily changed by following the procedure described at <a href="http://msdn.microsoft.com/en-us/library/vstudio/ms181712(v=vs.110).aspx#interactive" target="_blank">this MSDN article</a>.
 
 This prevents the agent from automatically running as a service and runs it from the command line instead. Be sure to leave the computer logged on and the TFSBuildService window open. Your build agent is running in that window. If you close that window or logoff the computer, the build agent will stop and you won't get any builds or unit tests run.
 
@@ -83,6 +83,6 @@ As part of your project development and testing you may find the need to add a n
 ```
 ## How to Run Tests in a Build Without Test Metadata Files and Test Lists (.vsmdi Files)
 
-Normally when you create a new test project, a metadata file is automatically created and added to the project. If you don't want to use this metadata file to create test lists there's a good blog post on how to do that here: <a href="http://blogs.msdn.com/buckh/archive/2006/11/04/how-to-run-tests-without-test-metadata-files-and-test-lists-vsmdi-files.aspx" target="_blank">http://blogs.msdn.com/buckh/archive/2006/11/04/how-to-run-tests-without-test-metadata-files-and-test-lists-vsmdi-files.aspx</a>.
+Normally when you create a new test project, a metadata file is automatically created and added to the project. If you don't want to use this metadata file to create test lists there's a good <a href="http://blogs.msdn.com/buckh/archive/2006/11/04/how-to-run-tests-without-test-metadata-files-and-test-lists-vsmdi-files.aspx" target="_blank">blog post on how to do that here</a>.
 
 [1]: /img/advanced-topics/build-server/tfs-builds/fig1.png
