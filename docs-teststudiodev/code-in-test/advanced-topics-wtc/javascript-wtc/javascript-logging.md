@@ -6,7 +6,7 @@ position: 3
 ---
 #Logging from JavaScript#
 
-Telerik Testing Framework also supports logging directly from JavaScript into the unified test log that your tests are using. Logging from JavaScript is not enabled by default and needs to be explicitly enabled globally by setting the **Settings.EnableScriptLogging = true** via the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc/settings-class" target="_blank">Settings Class</a> or setting **enableScriptLogging="true"** in the application <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc/app-config-file" target="_blank">.config</a> file. In addition each page that wants to perform logging needs to include the WebAii_Logging.js file. You will find this file installed in the %InstallDir%\Bin folder.
+Telerik Testing Framework also supports logging directly from JavaScript into the unified test log that your tests are using. Logging from JavaScript is not enabled by default and needs to be explicitly enabled globally by setting the **Settings.EnableScriptLogging = true** via the <a href="/code-in-test/settings-and-configuration-wtc/settings-class" target="_blank">Settings Class</a> or setting **enableScriptLogging="true"** in the application <a href="/code-in-test/settings-and-configuration-wtc/app-config-file" target="_blank">.config</a> file. In addition each page that wants to perform logging needs to include the WebAii_Logging.js file. You will find this file installed in the %InstallDir%\Bin folder.
  
 Below is a sample to demonstrate how to perform logging from your JavaScript routines:
 

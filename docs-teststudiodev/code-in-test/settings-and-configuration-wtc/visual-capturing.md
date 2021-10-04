@@ -95,5 +95,5 @@ The divimage bitmap captured object is:
 
 **Note:** If the image is not scrolled properly, the capture won't work. Make sure you use the Browser.Actions.ScrollToVisible() method to ensure the element is visible before capturing it.
 
-[1]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing/fig1.png
-[2]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing/fig2.png
+[1]: images/visual-capturing/fig1.png
+[2]: images/visual-capturing/fig2.png

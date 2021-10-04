@@ -63,6 +63,6 @@ To data bind an <a href="/features/recorder/verifications/image-verification" ta
 
 To complete this scenario using the provided sample:
 
-- *System.Drawings* .NET assembly has to be <a href="/features/coded-steps/add-assembly-reference" target="_blank">referred</a> to the project
-- test script has to be data-binded to a data source with *Histogram* column
+- *System.Drawings* .NET assembly has to be referenced in the project
+- test script has to be data-bound to a data source with *Histogram* column
 - image histogram data has to be placed as a single line string in the data storage cell. For a histogram example - one is created if an image verification step is recorded in the test script .tstest file

@@ -12,7 +12,7 @@ position: 1
 
 Use the Data object in conjunction with the column name or index.
 
-In this example on Bing.com, I added the *SbFormQText* element to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a> via the Add To Project Elements feature from the <a href="/features/recorder/highlight-element" target="_blank">Elements Menu</a>. Now I can reference that element in code and data drive its input text:
+In this example on Bing.com, I added the *SbFormQText* element to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a> via the Add To Project Elements feature from the <a href="/features/recorder/highlighting-elements" target="_blank">Elements Menu</a>. Now I can reference that element in code and data drive its input text:
 
 #### __[C#]__
 

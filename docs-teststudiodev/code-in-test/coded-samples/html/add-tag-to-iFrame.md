@@ -6,11 +6,11 @@ position: 1
 ---
 # Add Tag to iFrame #
 
-To help Test Studio Dev locate your _iframes_, you can add a custom tag to the iframe. You can then add this tag to the <a href="/features/specific-recording-scenario/frames" target="_blank">frame properties</a> in your test. There are two ways to add a tag to an iframe:
+To help Test Studio Dev locate your _iframes_, you can add a custom tag to the iframe. You can then add this tag to the <a href="/features/recorder/specific-recording-scenario/frames" target="_blank">frame properties</a> in your test. There are two ways to add a tag to an iframe:
 
 * Add the tag in the HTML for the target page
 
-* Add the tag dynamically in a <a href="code-in-test/features-in-code#Coded-Step" target="_blank">coded step</a>.
+* Add the tag dynamically in a <a href="/code-in-test/features-in-code#Coded-Step" target="_blank">coded step</a>.
 
 ## Add a Tag to a iframe in HTML ##
 
@@ -71,4 +71,4 @@ To tag a nested iframe, ensure the entire DOM is built, so that Test Studio Dev 
 
 __See also:__
 
-* <a href="/features/specific-recording-scenario/frames" target="_blank">Recording Frames</a>
+* <a href="/features/recorder/specific-recording-scenario/frames" target="_blank">Recording Frames</a>

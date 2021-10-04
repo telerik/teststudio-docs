@@ -9,19 +9,19 @@ position: 1
 Telerik Testing Framework includes native support for HTML pop-ups for all supported browsers in addition to a dialog handling framework (under the Win32.Dialogs) namespace with built-in support to handle some of the common browser dialogs like JavaScript Alert, Upload dialog and Logon dialog. The framework also enables you to extend this support to handle any custom dialog you need handled in any manner.
 
 
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/html-popups" target="_blank">HTML Pop-ups</a> -  Browser instances that are invoked by some action on an element of the page.
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/html-popups" target="_blank">HTML Pop-ups</a> -  Browser instances that are invoked by some action on an element of the page.
  
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/modal-dialogs" target="_blank">Modal Dialogs</a> - Don't act like standard HTML pop-up windows and require special handling
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/modal-dialogs" target="_blank">Modal Dialogs</a> - Don't act like standard HTML pop-up windows and require special handling
  
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/JavaScript-dialogs" target="_blank">Alert Dialogs</a> -  You only need to define how the dialog should be handled.
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/JavaScript-dialogs" target="_blank">Alert Dialogs</a> -  You only need to define how the dialog should be handled.
  
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/win32-dialogs" target="_blank">Logon Dialogs</a> - It is not a browser window, but a dialog displayed by the Windows operating system.
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/win32-dialogs" target="_blank">Logon Dialogs</a> - It is not a browser window, but a dialog displayed by the Windows operating system.
  
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/file-upload-dialog" target="_blank">FileUpload Dialog</a> - You need to pass in the full path to the file to upload and how the dialog should be handled.
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/file-upload-dialog" target="_blank">FileUpload Dialog</a> - You need to pass in the full path to the file to upload and how the dialog should be handled.
  
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/file-download-dialog" target="_blank">Handling File Downloads</a> - You have a number of classes included that make handling of the file download dialogs very easy.
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/file-download-dialog" target="_blank">Handling File Downloads</a> - You have a number of classes included that make handling of the file download dialogs very easy.
  
-<a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/custom-dialogs" target="_blank">Custom Dialog Handler</a> - You can craft your own dialog handling code and then ask the dialog to call your code instead of its dialog handling code.
+<a href="/code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc/custom-dialogs" target="_blank">Custom Dialog Handler</a> - You can craft your own dialog handling code and then ask the dialog to call your code instead of its dialog handling code.
 
 There are a few things to note about dialog handing:
 

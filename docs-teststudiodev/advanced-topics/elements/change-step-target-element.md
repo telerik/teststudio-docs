@@ -6,7 +6,7 @@ position: 1
 ---
 # Change Step Target Element
 
-If a test step targets an incorrect element, or if you <a href="/features/recorder/highlight-element">add a new element to the Elements Repository</a> and wish for a step to target this new element, you can change the target element of a test step.
+If a test step targets an incorrect element, or if you <a href="/features/recorder/highlighting-elements">add a new element to the Elements Repository</a> and wish for a step to target this new element, you can change the target element of a test step.
 
 To choose a different target element for a specific test step from the Elements Repository:
 

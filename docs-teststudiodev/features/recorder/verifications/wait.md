@@ -19,7 +19,7 @@ You can create a _Wait step_ in the same manner as a <a href="/features/recorder
 
 5.&nbsp; Highlight the desired element. From the menu that appears choose **Quick Steps > Wait - element exists**.
 
-![Wait element exists](images/wait-quick-step.png)
+![Wait element exists](images/wait-quick-steps.png)
 
 6.&nbsp; The Wait step is added to the test.
 

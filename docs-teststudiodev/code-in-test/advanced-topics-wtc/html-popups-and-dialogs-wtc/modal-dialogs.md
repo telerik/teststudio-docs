@@ -91,6 +91,6 @@ Public Sub IEModalDialogsSupport()
 End Sub
 ```
 
-[1]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/modal-dialogs/fig1.png
+[1]: images/modal-dialogs/fig1.png
 
 

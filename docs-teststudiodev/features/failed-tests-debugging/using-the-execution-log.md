@@ -25,7 +25,7 @@ It says what errors arose in the case of a failure, giving detailed information 
 
 The content of the Execution log can be directly copied to clipboard and pasted to any text editor for analyzing purposes.
 
-![Quick Execute Test Execution Log Copy](images/quickstart/quick-execution-log-copy.png)
+![Quick Execute Test Execution Log Copy](images/using-the-execution-log/quick-execution-log-copy.png)
 
 The execution log is an excellent resource for forming a clear story of what led to a failure for the below described scenarios.
 

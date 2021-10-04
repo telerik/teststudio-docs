@@ -10,25 +10,25 @@ Ajax is one of the latest and fastest growing web development technologies that 
 
 Telerik Testing Framework has been built from the ground up with features like Ajax in mind. It supports the following features that help ease the testing and automation authoring for Ajax applications. These features also lay the ground work for a rich, consistent and comprehensive infrastructure that developers and quality assurance professionals can rely on to test rich web content.
 
-* **Direct DOM interaction** with web pages allowing you to perform automation actions from within the browser to automate and exercise your Ajax scripts. This topic is covered in detail under <a href="/testing-framework/automate-browser-actions" target="_blank">Automating Browser Actions</a>.
+* **Direct DOM interaction** with web pages allowing you to perform automation actions from within the browser to automate and exercise your Ajax scripts. This topic is covered in detail under <a href="https://docs.telerik.com/teststudio/testing-framework/automate-browser-actions" target="_blank">Automating Browser Actions</a>.
 
-* **Perform complex UI actions** like DragAndDrop and pure UI actions on web pages (i.e. Hover, Right-click, etc). You have both worlds of automation (DOM + UI) accessible to you using Telerik Framework. This topic is covered in detail under <a href="/testing-framework/automate-browser-actions" target="_blank">Automating Browser Actions</a>.
+* **Perform complex UI actions** like DragAndDrop and pure UI actions on web pages (i.e. Hover, Right-click, etc). You have both worlds of automation (DOM + UI) accessible to you using Telerik Framework. This topic is covered in detail under <a href="https://docs.telerik.com/teststudio/testing-framework/automate-browser-actions" target="_blank">Automating Browser Actions</a>.
 
 * **Waiting on DOM changes**. With Ajax, you can no longer rely on the load complete of pages or the browsers ready flag to know when a specific page or scenario has finished. Telerik Framework supports a WaitForElement(s) method exposed off of the Actions object. The WaitForElement(s) allows you to wait for 1-N elements using the rich identification support available. For example, you can wait for an element to show up at a specific DOM location or wait for some of its attributes to be set to certain values, etc. This is covered in more detail below.
 
 * **Retrieve dynamic property values directly from the DOM** of any element hosted by the browser. This is also covered in more detail below.
 
-* **Visual capturing of browser states and elements** to more easily diagnose test failures and application behaviors and do visual comparison of specific elements. This topic is covered in detail under <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing" target="_blank">Visual Capturing</a>.
+* **Visual capturing of browser states and elements** to more easily diagnose test failures and application behaviors and do visual comparison of specific elements. This topic is covered in detail under <a href="/code-in-test/settings-and-configuration-wtc/visual-capturing" target="_blank">Visual Capturing</a>.
 
-* **Invoke JavaScript functions** from your test code and perform logging directly from JavaScript. This topic is covered in detail under <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc/invoking-javascript" target="_blank">JavaScript Invocation</a> and <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc/javascript-logging" target="_blank">JavaScript Logging</a>.
+* **Invoke JavaScript functions** from your test code and perform logging directly from JavaScript. This topic is covered in detail under <a href="/code-in-test/advanced-topics-wtc/javascript-wtc/invoking-javascript" target="_blank">JavaScript Invocation</a> and <a href="/code-in-test/advanced-topics-wtc/javascript-wtc/javascript-logging" target="_blank">JavaScript Logging</a>.
 
-* **Invoke JavaScript events** directly from your test code. For example, invoke the OnBlur() event on an element or the OnMouseOut(), etc. This topic is covered in detail under <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc/javascript-events" target="_blank">JavaScript Events</a>.
+* **Invoke JavaScript events** directly from your test code. For example, invoke the OnBlur() event on an element or the OnMouseOut(), etc. This topic is covered in detail under <a href="/code-in-test/advanced-topics-wtc/javascript-wtc/javascript-events" target="_blank">JavaScript Events</a>.
 
-* **Attach event handlers** directly to JavaScript events. This topic is covered in detail under <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc/javascript-events" target="_blank">JavaScript Events</a>.
+* **Attach event handlers** directly to JavaScript events. This topic is covered in detail under <a href="/code-in-test/advanced-topics-wtc/javascript-wtc/javascript-events" target="_blank">JavaScript Events</a>.
 
 ##Waiting on DOM Changes: WaitForElement(s)##
 
-**WaitForElement**(s) is a great method to use when trying to suspend test execution until a certain element is present or has changed or a specific value of a certain attribute for an element has been set (or even a combination of values). This is a common scenario when automating Ajax applications. WaitForElement(s) requires a basic understanding of <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/find-param-objects" target="_blank">FindParams and how to define them</a>. Once you know how to craft FindParam's, you will be able to write custom and rich wait routines using a consistent pattern.
+**WaitForElement**(s) is a great method to use when trying to suspend test execution until a certain element is present or has changed or a specific value of a certain attribute for an element has been set (or even a combination of values). This is a common scenario when automating Ajax applications. WaitForElement(s) requires a basic understanding of <a href="/code-in-test/element-identification/find-param-objects" target="_blank">FindParams and how to define them</a>. Once you know how to craft FindParam's, you will be able to write custom and rich wait routines using a consistent pattern.
  
 Let's examine a couple of examples to illustrate how WaitForElement(s) is used. Assume that you are waiting for a table to be inserted in your DOM tree at a certain location and you want to wait until the whole table is built including the sixth row. The following is the DOM segment before the Ajax call is made:
 
@@ -96,7 +96,7 @@ Dim sixth_row As FindParam = New FindParam("tr", 6)
 ActiveBrowser.Actions.WaitForElements(500, ajaxupdate, False, table, sixth_row)
 ```
 
-In the above code sample, we used <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/introduction" target="_blank">TestRegions</a> to make our automation simpler and targeted at the DOM region we are interested in. If you choose to not use TestRegions, you can simply use the WaitForElement(s) overload that takes in only the FindParam and the Timeout. In that case, all identification will be performed with reference to the root element of the DomTree.
+In the above code sample, we used <a href="/code-in-test/advanced-topics-wtc/test-regions-wtc/Introduction" target="_blank">TestRegions</a> to make our automation simpler and targeted at the DOM region we are interested in. If you choose to not use TestRegions, you can simply use the WaitForElement(s) overload that takes in only the FindParam and the Timeout. In that case, all identification will be performed with reference to the root element of the DomTree.
  
 You can also use "Chained Identification" to wait for an element. For example if we have a DOM segment that looks like the sample below: 
 

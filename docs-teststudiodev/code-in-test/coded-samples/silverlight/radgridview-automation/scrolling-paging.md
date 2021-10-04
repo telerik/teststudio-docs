@@ -14,7 +14,7 @@ position: 1
 
 This is possible with a coded solution. To accomplish the main goal, we need to combine the solutions of the two sub-problems. We need to take the following steps to implement the solution:
 
-1.Change the default <a href="/acode-in-test/coded-samples/silverlight/change-find-strategy" target="_blank">Find Strategy</a> of the Grid to *WhenNotVisibleReturnNull*, otherwise the Find method will return a *FindElementException* if the element is not found.
+1.Change the default <a href="/code-in-test/coded-samples/silverlight/change-find-strategy" target="_blank">Find Strategy</a> of the Grid to *WhenNotVisibleReturnNull*, otherwise the Find method will return a *FindElementException* if the element is not found.
 
 2.Scroll down to the bottom of the Grid.
 

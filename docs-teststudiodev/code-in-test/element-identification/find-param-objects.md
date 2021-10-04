@@ -103,4 +103,4 @@ Below is the chained identification code to accomplish that.
 
 ##Defining FindParam Objects Outside Test Code (i.e. FindParam Serialization)##
 
-FindParam objects support serialization including the FindParamCollection. This support allows you to define your FindParam's outside your test code and consume them as data sources. This enables you to be more agile when changes are made to your application by simply updating the xml that defines your FindParam objects. This topic is covered in more detail under <a href="/test-in-code/element-identification-wtc/find-param-as-xml-data" target="_blank">FindParams as External Xml DataSources</a>.
+FindParam objects support serialization including the FindParamCollection. This support allows you to define your FindParam's outside your test code and consume them as data sources. This enables you to be more agile when changes are made to your application by simply updating the xml that defines your FindParam objects. This topic is covered in more detail under <a href="/code-in-test/element-identification-wtc/find-param-as-xml-data" target="_blank">FindParams as External Xml DataSources</a>.

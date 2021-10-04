@@ -12,7 +12,7 @@ Let's create a new, Local Data Driven test. We'll go through five iterations of 
 
 2.Navigate to www.google.com, enter *Telerik* in the Google search box, and hit the Search button.
 
-3.Click the **Pause recording** button in the <a href="/features/recorder/recorder-toolbar" target="_blank">Recording toolbar</a>.
+3.Click the **Pause recording** button in the <a href="/features/recorder/recording-toolbar" target="_blank">Recording toolbar</a>.
 
 ![Pause recording][1]
 

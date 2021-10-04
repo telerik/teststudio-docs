@@ -28,7 +28,7 @@ If you wish to access the data source of a parent test or the extracted variable
 
 ![Variable extracted in code][4]
 
-Review how to attach a column to <a href="/features/data-driving-test/attach-columns-input-values" target=blank>Input value step</a>. 
+Review how to attach a column to <a href="/features/data-driven-test/attach-columns-input-values" target=blank>Input value step</a>. 
 
 [1]: images/attach-columns-verifications/fig1.png
 [2]: images/attach-columns-verifications/fig2.png

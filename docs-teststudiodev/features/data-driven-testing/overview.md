@@ -20,5 +20,5 @@ Create an external data driven test by following these steps:
 
 1. <a href="/features/data-driven-testing/add-data-source" target="_blank">Add a data source to your test project</a> - select from where to get the data.
 1. <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">Bind the data source to your test</a> - since you may have multiple data source definitions in your test project, you need to bind your data driven test to a specific data source.
-1. <a href="/features/data-driven-testing/attach-columns-input-value" target="_blank">Attach the data source columns to input values</a> - connect the inputs of your test  to specific columns of the data source.
+1. <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">Attach the data source columns to input values</a> - connect the inputs of your test  to specific columns of the data source.
 1. <a href="/features/data-driven-testing/attach-columns-verifications" target="_blank">Attach the data source columns to verifications</a> - connect the expected values of verifications to specific columns of the data source

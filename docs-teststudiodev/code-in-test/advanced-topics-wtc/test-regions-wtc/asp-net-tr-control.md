@@ -46,10 +46,10 @@ To be able to use this control as shown above, you simply need to add it first t
 	![TestRegion][5]
 
 
-[1]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig1.png
-[2]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig2.png
-[3]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig3.png
-[4]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig4.png
-[5]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig5.png
+[1]: images/test-regions-wtc/asp-net-tr-control/fig1.png
+[2]: images/test-regions-wtc/asp-net-tr-control/fig2.png
+[3]: images/test-regions-wtc/asp-net-tr-control/fig3.png
+[4]: images/test-regions-wtc/asp-net-tr-control/fig4.png
+[5]: images/test-regions-wtc/asp-net-tr-control/fig5.png
 
 

@@ -7,7 +7,7 @@ position: 1
 ---
 # Specific location
 
-1.&nbsp; Start <a href="/getting-started/test-recording/overview" target="_blank">recording a test</a>.
+1.&nbsp; Start <a href="/features/recorder/record-test" target="_blank">recording a test</a>.
 
 2.&nbsp; Enable Hover Over Highlighting from the Recording Toolbar. When the mouse pauses over a highlighted element in the recording surface the context menu with multiple options.
 

@@ -118,4 +118,4 @@ EnableHtmlAccess needs to be set to 'True' on your application.
 
 7. When using localhost as your server name, it must end with a trailing '.' character e.g. http://localhost./.
 
-[1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/silverlight-ui-automation/fig1.png
+[1]: images/silverlight-ui-automation/fig1.png

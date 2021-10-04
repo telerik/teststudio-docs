@@ -99,6 +99,6 @@ Let's take a closer look at the code above line by line:
 
 
 
-[1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png
+[1]: images/wpf-ui-automation/fig1.png
 
 

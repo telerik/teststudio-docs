@@ -14,7 +14,7 @@ position: 1
 
 This can be achieved through a coded solution. As you can see the page listed above contains a Grid. Fist we need to add this Grid to our project. In the Test Studio Dev project open a web test, start recording and navigate to the page.
 
-Using the <a href="/features/recorder/highlighting-element" target="_blank">highlighting</a> feature in the recorder hover the mouse over the grid. Since this is a Telerik-manufactured ASP .Net grid, the <a href="/features/recorder//translators" target="_blank">Translators</a> will kick-in and you will see multiple options depending on which specific part of the grid you've hovered over:
+Using the <a href="/features/recorder/highlighting-elements" target="_blank">highlighting</a> feature in the recorder hover the mouse over the grid. Since this is a Telerik-manufactured ASP .Net grid, the <a href="/features/recorder/translators" target="_blank">Translators</a> will kick-in and you will see multiple options depending on which specific part of the grid you've hovered over:
 
 ![Highlight][1]
 

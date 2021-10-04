@@ -10,7 +10,7 @@ There are two ways to accomplish this: *Assert* and *Throw New Exception* statem
 
 ## Assert Statements
 
-This is most easily achieved with standard (and non-coded) <a href="/features/verifications/advanced-verification" target="_blank">Verification</a> and <a href="/features/verifications/Wait" target="_blank">Wait</a> steps. You can resort to code, however, for more in-depth scenarios. See <a href="/code-in-test/html-control-suite/html-asserts" target="_blank">here</a> for more information.
+This is most easily achieved with standard (and non-coded) <a href="/features/recorder/verifications/advanced-verification" target="_blank">Verification</a> and <a href="/features/recorder/verifications/Wait" target="_blank">Wait</a> steps. You can resort to code, however, for more in-depth scenarios. See <a href="/code-in-test/html-control-suite/html-asserts" target="_blank">here</a> for more information.
 
 The following code contains basic examples for demonstration purposes:
 

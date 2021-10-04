@@ -55,7 +55,7 @@ An element directly under a page node is located entirely by its Find Settings. 
 
 	![Two frame nodes][7]
 
-2. To merge duplicate frame nodes caused by dynamic frame IDs, strip the dynamic portion from each ID and use a tilde (~) to indicate a partial match. See <a href="/getting-started/test-recording/Frames" target="_blank">this page</a> for more information on frames.
+2. To merge duplicate frame nodes caused by dynamic frame IDs, strip the dynamic portion from each ID and use a tilde (~) to indicate a partial match. See <a href="/features/recorder/specific-recording-scenario/frames" target="_blank">this page</a> for more information on frames.
 
 	![New ID][8]
 

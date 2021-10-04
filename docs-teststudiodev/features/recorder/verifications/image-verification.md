@@ -53,10 +53,6 @@ You can configure the threshold and scrolling options that will be used during t
 
 ![Configure Test Step Options][8]
 
-After the image verification step is recorded, you can make changes to the captured image and even recapture it. To do that, you need to select the image verification step and click on the image. This image will be associated with the test step, but all features and options for <a href="/features/elements-explorer/find-element-by-image#image-usage-details" target="_blank">modifying element image</a> are available. Only the **Image Recognition Settings** are not available, because the threshold is a test step option.
-
-![Recapture Image][9]
-
 [1]: /features/recorder/verifications/images/image-verification/fig1.png
 [2]: /features/recorder/verifications/images/image-verification/fig2.png
 [3]: /features/recorder/verifications/images/image-verification/fig3.png

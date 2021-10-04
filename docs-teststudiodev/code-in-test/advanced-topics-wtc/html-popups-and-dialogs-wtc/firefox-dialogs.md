@@ -423,5 +423,5 @@ End Class
 
 The only thing really happening in this code is to wait on the semaphore to be set. If the semaphore is not set within the timeout period it throws a System.TimeoutException exception. Optionally it will also reset the HandleCount property prior to waiting for the semaphore.
 
-[1]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/firefox-dialogs/fig1.png
-[2]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/firefox-dialogs/fig2.png
+[1]: images/firefox-dialogs/fig1.png
+[2]: images/firefox-dialogs/fig2.png

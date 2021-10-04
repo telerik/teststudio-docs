@@ -241,4 +241,4 @@ These are all of the FrameworkElement methods available for use by your automati
 </tr>
 <table>
 
-[1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png
+[1]: images/wpf-ui-automation/fig1.png

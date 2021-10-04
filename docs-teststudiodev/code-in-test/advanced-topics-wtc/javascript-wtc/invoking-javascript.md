@@ -94,4 +94,4 @@ End Sub
 
 ###See also
 
-* <a href="/advanced-topics/coded-samples/html/jQuery-events-do-not-fire" target="_blank">jQuery events do not fire</a>
+* <a href="/code-in-test/coded-samples/html/jQuery-events-do-not-fire" target="_blank">jQuery events do not fire</a>

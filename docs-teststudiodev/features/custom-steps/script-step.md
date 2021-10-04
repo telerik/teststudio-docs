@@ -24,8 +24,6 @@ Each next coded step allows you to choose whether to reuse any of the existing m
 
 ![Coded Step](images/script-step.png)
 
-__Note!__ If you face a Deployment error upon build/rebuild read further <a href="/troubleshooting-guide/visual-studio-tg/enable-deployment" target="_blank">how to enable the deployment for a project</a>.
+## See Also
 
-**See Also:**
-
-* <a href="/code-in-test/features-in-code#Coded-Step" target="_blank">How to use coded step</a>
+<a href="/code-in-test/features-in-code#Coded-Step" target="_blank">How to use coded step</a>

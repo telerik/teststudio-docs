@@ -21,7 +21,7 @@ This example is against a <a href="http://www.wordgenerator.net/random-word-gene
 
 ![Extracted Step Added](images/extraction-step.png)
 
-4.&nbsp; Resume recording and navigate to www.bing.com from the Navigation pane in the <a href="/features/recorder/recording-toolbar" target="_blank">Recording toolbar</a.
+4.&nbsp; Resume recording and navigate to www.bing.com from the Navigation pane in the <a href="/features/recorder/recording-toolbar" target="_blank">Recording toolbar</a>.
 
 5.&nbsp; Enter any word into the search box and click **Submit**.
 
@@ -41,7 +41,7 @@ This example is against a <a href="http://www.wordgenerator.net/random-word-gene
 
 11.&nbsp; A random word is extracted from the first site and used as the query in a Bing search.
 
-> __Double Check that in the plugin__ If you've <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then Set:
+> If you have <a href="/code-in-test/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then Set:
 
 ![Extracted variable in code](images/extracted-in-code.png)
 

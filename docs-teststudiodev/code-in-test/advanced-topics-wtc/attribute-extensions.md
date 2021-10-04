@@ -6,8 +6,6 @@ position: 3
 ---
 #Unit Testing Attribute Extensions#
 
-> <span class="redcolor">IMPORTANT:</span> If you want to use the Attribute Extensions with NUnit, please make sure to setup NUnit extensions as described in the <a href="/testing-framework/using-nunit" target="_blank">Using NUnit</a> topic. Visual Studio Team Test does not require any additional steps.
-
 ##What Are These Extensions?##
 
 Unit testing attribute extensions is one of the coolest features of the framework. They came about as we were reviewing automated unit test code for some of our customers and our own unit testing code for the framework. The things that became apparent after reviewing these automated tests were:

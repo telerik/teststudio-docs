@@ -48,17 +48,7 @@ __Test Studio Dev__ is a Visual Studio extension and inherits all the system req
 
 ## Build Server / Continuous Integration
 
-If executing via <a href="/features/test-runners/mstest" target="_blank">MSTest</a> you will need
-
-* Visual Studio (see above requirements) with VS plugin, __or__
-
-* MSTest.exe installed on agent and controller
-
-* Test Studio Dev Runtime or above installed on agent
-
-If executing via <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner</a>
-
-* <a href="http://www.telerik.com/purchase/teststudio" target="_blank">Run-Time edition</a> is needed
+* Test Studio Dev <a href="http://www.telerik.com/purchase/teststudio" target="_blank">Run-Time edition</a> or above installed on agent is required for executing tests via <a href="/features/cli-runner" target="_blank">ArtOfTest.Runner</a>
 
 ## Beta Software
 

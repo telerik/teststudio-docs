@@ -258,7 +258,7 @@ Telerik Testing Framework identification methods are accessible using the **Find
 
 The difference between the Find object off of the Browser class (Root Base Identification - Identification Sample) and the Find object off of the TestRegion class (ReGion Base Identification - **RGBI**), is that the one off of the Browser performs all searches starting from the root document element whereas the Find object off of the TestRegion's searches only the elements contained in that specific test region and uses the TestRegion's open tag (i.e. <!--testregion...->) as the root element for reference based identification like tag name occurrence index and XPath identification.
 
-With TestRegions, depending on the areas of the application that each automated test is targeting, you can use different Find objects to give each test a greater level of independence and shield it from product changes outside its target area. This topic is discussed in greater details in <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/introduction" target="_blank">Introduction to TestRegions</a>.
+With TestRegions, depending on the areas of the application that each automated test is targeting, you can use different Find objects to give each test a greater level of independence and shield it from product changes outside its target area. This topic is discussed in greater details in <a href="/code-in-test/advanced-topics-wtc/test-regions-wtc/Introduction" target="_blank">Introduction to TestRegions</a>.
 
 ##Matching Syntax Used in Parameters##
 

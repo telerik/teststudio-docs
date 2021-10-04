@@ -100,5 +100,5 @@ The test needs to navigate to checkdomain.com, enter the domain for the respecti
 
 **Note:** Add an Assembly Reference to Microsoft.Office.Interop.Excel.
 
-[1]: /img/advanced-topics/coded-samples/general/write-into-data-source/fig1.png
-[2]: /img/advanced-topics/coded-samples/general/write-into-data-source/fig2.png
+[1]: images/write-into-data-source/fig1.png
+[2]: images/write-into-data-source/fig2.png

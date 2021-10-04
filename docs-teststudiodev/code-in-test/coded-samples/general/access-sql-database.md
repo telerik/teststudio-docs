@@ -138,4 +138,4 @@ Here is a SQL database named **myFirstDB** with a table named **Table_1** and co
 
 **Note**: The example requires to be modified as per the databse which will be used as data source. 
 
-[1]: /img/advanced-topics/coded-samples/general/access-sql-database/fig1.png
+[1]: images/access-sql-database/fig1.png

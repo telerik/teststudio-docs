@@ -70,7 +70,7 @@ Other possible scnearios when is recommended to use the Step Builder from the **
 
 __See Also:__
 
-* <a href="/features/elements-menu/overview" target="_blank">Elements Menu</a>
+* <a href="/features/recorder/highlighting-elements" target="_blank">Elements Menu</a>
 
 * <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>
 

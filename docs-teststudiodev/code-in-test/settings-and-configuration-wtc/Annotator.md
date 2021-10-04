@@ -62,6 +62,6 @@ myAnnotator.Annotate(New Point(100, 300), "This annotation message appears under
 myAnnotator.Annotate(Find.ById("btn1").GetRectangle(), "This annotation highlights the Color On button")
 ```
 
-[1]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/annotator/fig1.png
+[1]: images/annotator/fig1.png
 
 

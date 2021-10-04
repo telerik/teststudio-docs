@@ -18,7 +18,7 @@ __Example:__
 - Data is attached to Test A.
 - Test B is bound to columns from Test A's data for text entry and/or verification purposes.
 
-> Test B references the data from Test A without having its own data source. The **InheritParentDataSource** [Test Property](/features/test-maintenance/test-properties-standalone) for Test B is set to True.
+> Test B references the data from Test A without having its own data source. The **InheritParentDataSource** [Test Property](/features/test-maintenance/test-properties-vs) for Test B is set to True.
 
 ## Test A calls data bound Test B
 
