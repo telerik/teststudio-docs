@@ -6,6 +6,14 @@ position: 0
 ---
 # (Archive) Element's Find Expressions
 
+> __Note__
+> <br>
+> <br>
+> The workflow described below is valid, if editing elements in __Test Studio Dev Edition__ (Visual Studio Plugin).
+> <br>
+> <br>
+> <a href="/automated-tests/elements/find-element" target="_blank">Read here for editing elements in __Test Studio IDE__</a>.
+
 In certain scenarios the automatically generated <a href="/features/elements-explorer/elements-find-expression" target="_blank">find expression</a> may be ineffective, because locates multiple elements on the active window, or may use dynamically generated attributes, which are unreliable by the next test execution. In such cases you may require adjusting the find expression manually, so that it reflects the specifics of the application under test.
 
 ## Version 2018 R3 and Earlier (Both Standalone Application and Visual Studio Plugin)

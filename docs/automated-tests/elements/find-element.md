@@ -22,7 +22,7 @@ To verify what find expression for an element was automatically generated and ed
 
 ## Edit Element Pane
 
-Each element selected for edit will be opened as a separate tab in the test pane. That way you can open multiple elements to edit and compare their attributes and find expressions. 
+Each element selected for edit will be opened as a separate tab in the test pane. That way you can open multiple elements to edit and compare their attributes and find expressions.
 
 ![Element's Pane][103]
 
@@ -62,15 +62,15 @@ From the **Edit Element** pane you can start a recording session choosing betwee
 
 If the test was executed to a step, where the element exists on the page, it will be highlighted once the recorder is attached to the browser (the recorder is automatically paused to avoid recording any unnecessary steps).
 
-In the *Edit Element* pane are displayed the suggested properties of the element and the DOM tree of the current page.
+In the *Edit Element* pane are listed all properties of the element as suggestions to be added in the find expression and the DOM tree of the currently loaded page.
 
-![Edit in Live][111]
+![Element Find expression, suggestions and DOM tree][111]
 
 The DOM explorer in the *Edit Element* pane provides its standard options from the <a href="/features/recorder/dom-explorer#context-menu" target="_blank">context menu</a>.
 
 ![DOM explorer][112]
 
-If the elements find expression is not correct, but the element can be found by its backup search, an informational message appears to allow you to update the filters to use that backup search criteria to locate the element and list the recommended filters to use.
+If the elements properties used in the find expression are not pointing to specific element, there will be no suggestions listed. If the element can be found by its backup search, an informational message appears and allow you to update the filters by using that backup search criteria to locate the element and list the filters suggestions based on the element in DOM. Then the filters can be updated from the list.
 
 ![Update Filter][113]
 
@@ -78,7 +78,7 @@ Hover over the info icon next to the button to see what is the backup search for
 
 ![Backup Search][114]
 
-If the element cannot be found in the current page with attached recorder, there will be an informational message stating the same. 
+If the element cannot be found in the current page with attached recorder, there will be an informational message stating the same. There is no list with suggestions until an actual element from the DOM is selected.
 
 ![Element Not found][115]
 
