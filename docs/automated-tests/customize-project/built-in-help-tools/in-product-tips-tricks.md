@@ -8,6 +8,11 @@ position: 2
 
 While automating your first test scenarios, you will see tips and tricks with useful information about features in Test Studio.
 
+> __Tip__
+><br>
+><br>
+> <a href="https://www.telerik.com/videos/teststudio/that-s-neat!-test-studio-notifications">Check this video</a> on Test Studio's YouTube playlist to see the notifications in action.
+
 ## Tips And Tricks Window
 
 The Tips And Tricks popup displays a list of hints relevant to your activities. Each new tip appears bold and with a label *New*. Once you click on a new tip, the label *New* disappears and a popup with an overview for the selected hint appears.
@@ -29,6 +34,10 @@ If you close the tips window, you can bring it up again by clicking that toggle 
 >The tips and tricks are user-based. Every individual user who launches Test Studio can take advantage of them.
 
 By default, the **Always show this pop-up** option is selected and the *Tips And Tricks* window will instantly pop up. To disable the *Tips and Tricks* window, clear the checkbox.
+
+## See Also
+
+- <a href="https://www.telerik.com/videos/teststudio/that-s-neat!-test-studio-notifications">That’s neat! Test Studio notifications</q>
 
 [1]: /img/automated-tests/customize-project/in-product-tips-tricks/fig1.png
 [2]: /img/automated-tests/customize-project/in-product-tips-tricks/fig2.png

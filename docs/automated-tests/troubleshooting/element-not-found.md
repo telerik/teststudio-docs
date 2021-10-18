@@ -30,7 +30,7 @@ The scenario is:
 
 ## Execute the Test and Explore the Results
 
-Upon <a href="/automated-tests/test-execution/quick-execution" target="_blank">execution of this sample test</a>, we expect it to pass successfully. However, step 4., which enters the username, is failing for some reason:
+Upon <a href="/automated-tests/test-execution/quick-execution" target="_blank">execution</a>  of this sample test, we expect it to pass successfully. However, step 4., which enters the username, is failing for some reason:
 
 ![Failing test](/img/automated-tests/troubleshooting/element-not-found/3FailingTest.png)
 

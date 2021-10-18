@@ -43,6 +43,11 @@ You can move almost all <a href="/getting-started/first-project#test-studio-proj
 
 To customize the view of the panes, you can use the _Dock/Undock_ button in the upper right corner of the panels.
 
+> __Tip__
+><br>
+><br>
+> <a href="https://www.telerik.com/videos/teststudio/that-s-neat!-dockable-windows-in-test-studio">Check this video</a> on Test Studio's YouTube playlist to see how panels in Test Studio can be undocked and docked back.
+
 ![undock][3]
 
 The _Undock_ detaches the pane from its original position and displays it as a separate window. You can drag and drop this window anywhere in the project area. To help you choose the preferred position relative to the target panel, there is a circle with directions - top, bottom, left, right and center.
@@ -77,7 +82,11 @@ Use the _Save Custom Layout_ option in the Layout dropdown to save your custom c
 > __Tip__
 ><br>
 ><br>
-> If you want to __reset the default layout__, select the _Compact_ option from the Layout dropdown.
+> Select the _Compact_ option from the _Layout_ dropdown to __reset the default layout__.
+
+## See Also
+
+- <a href="https://www.telerik.com/videos/teststudio/that-s-neat!-dockable-windows-in-test-studio">That’s neat! Dockable windows in Test Studio</q>
 
 [1]: /img/automated-tests/customize-project/custom-layout/fig1.png
 [2]: /img/automated-tests/customize-project/custom-layout/fig2.png
