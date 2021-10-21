@@ -488,12 +488,6 @@ defaults:
         res_type: "kb"
 -
     scope:
-        path: ""
-    values:
-        announcement: |
-            Join us for a live testing session and find out what’s the best way to automate Telerik and Kendo UI apps. <a href="https://www.telerik.com/campaigns/teststudio/testing-telerik-and-kendo-ui-apps-an-automation-strategy-that-delivers?utm_medium=product&utm_source=teststudio&utm_campaign=test-studio-webinar-r3-2021&utm_content=ribbon" target="_blank">Grab a seat</a!
--
-    scope:
         path: test-studio-mobile
     values:
         announcement: |

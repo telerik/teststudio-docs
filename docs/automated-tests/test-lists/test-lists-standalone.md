@@ -51,6 +51,11 @@ The **Manual** type of list allows you to add only **manual** tests and execute 
 
 ## <strong>Dynamic Test Lists</strong>
 
+> __Note__
+><br>
+><br>
+> Check <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">this blog</a> on __Telerik Blogs__ about Test Studio dynamic test lists.
+
 The dynamic test list can be only automated type and as such, it can execute one or more **web**, **responsive web**, **load** or **WPF** tests, or a combination of these. When <a href="/features/test-lists/create-test-lists#how-to-create-a-dynamic-test-list" target="_blank">creating the dynamic test list</a> there are a bunch of <a href="/features/test-maintenance/test-properties-standalone" target="_blank">__test properties__</a>, which you can use as criteria for filtering the tests from project - __test name__, __test path__ and the, so called, __user defined properties__ - __Owner, Priority, Custom Property 1, 2, 3__.
 
 ![Test properties][6]
@@ -66,7 +71,7 @@ These criteria can be used when <a href="/features/test-lists/create-test-lists#
 
 ## See also ##
 
-* <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">An in-depth look at Dynamic Test Lists</a>
+* <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">Power of Dynamic Test Lists</a>
 
 [1]: /img/automated-tests/test-lists/test-lists-types/fig1.png
 [2]: /img/automated-tests/test-lists/test-lists-types/fig2.png
