@@ -1,10 +1,10 @@
 ---
-title: Re-Activating License
-page_title: Re-Activating License
-description: "Test Studio Re-activating your License. I want to use new machine but cannot deactivate the license on the previous one. Unable to deactivate a Test Studio license. a machine with an activated Test Studio license cannot be accessed to deactivate the license"
+title: Manual License Deactivation
+page_title: Manual License Deactivation
+description: "Re-activate your Test Studio License. I want to use new machine but cannot deactivate the license on the previous one. Unable to deactivate a Test Studio license automatically. A machine with an activated Test Studio license cannot be accessed to deactivate the license. How to manually deactivate Test Studio license. 0 seats available when trying to activate my Test Studio license. "
 position: 5
 ---
-# Re-Activating Test Studio License
+# Manual License Deactivation
 
 The Test Studio license is associated with the machine on which it is activated and it cannot be activated on another machine in the same time. However, there are certain occasions when a machine with an activated license cannot be accessed anymore - thus the used license cannot be deactivated.
 

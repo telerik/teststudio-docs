@@ -3,6 +3,7 @@ title: VS Team Services Builds
 page_title: VS Team Services Azure DevOps Test Execution
 description: "Integrate Test Studio tests in VS Team Services, Azure DevOps, online TFS continuous integration. Execute Test Studio tests with VS Team Services. Azure DevOps, online TFS build."
 position: 9
+publish: false
 ---
 # VS Team Services/ Azure DevOps Test Execution #
 

@@ -1,7 +1,7 @@
 ---
 title: Connect Project To Git
 page_title: Connect Project To Git
-description: "Connect Test Studio Project To Git Source control repository"
+description: "Connect Test Studio Project To Git Source control repository. Use Personal Access token to connect to Git repo accessed with 2FA (two factor authentication). Unable to connect to Git. Error connecting to Git, too many redirects or authentication replays"
 publish: true
 position: 2
 ---
@@ -17,15 +17,18 @@ position: 2
 
 ![Connect][1]
 
-3.&nbsp; The **Connect to Source Control** dialog appears. Select **Git**, fill in the appropriate information click **Connect** and **OK**.
-
-**Two-step authentication** flow for GitHub is supported using <a href="/features/source-control/git/overview-git#Personal-Access-Token" target="_blank">a personal token</a> instead of the account password.
+3.&nbsp; The **Connect to Source Control** dialog appears. Select **Git**, fill in the appropriate information click **Connect** and **OK**. **Two-factor authentication** is supported using <a href="/features/source-control/git/overview-git#support-for-git-two-factor-authentication" target="_blank">a personal access token</a> instead of the account password.
 
 You can choose between local and remote repository. For the local repository the local project path is set by default.
 
 > An empty remote repository should have already been created as described in the <a href="/features/source-control/git/overview-git" target="_blank">Overview</a> page. A Test Studio project is mapped to a single remote repository.
 
 ![Connect to Git][2]
+
+> **Note**
+> <br>
+> <br>
+> If you are not able to connect to the Git system and get a message _Error connecting to Git, too many redirects or authentication replays_, check if the remote repository requires 2FA to be accessed. Generate a personal access token in your Git account for this repository and use that token instead of the account password.
 
 4.&nbsp; The project and project files are now marked with a ![PLus][4] icon. This indicates it is bound to Source Control.
 

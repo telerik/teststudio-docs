@@ -2,7 +2,9 @@
 title: Microsoft Test Manager
 page_title: Microsoft Test Manager
 description: "Integrate Test Studio tests in MTM continuous integration. Execute Test Studio tests with MTM."
-position: 2
+position: 12
+publish: false
+
 ---
 # Run Telerik Tests Through МТМ
 

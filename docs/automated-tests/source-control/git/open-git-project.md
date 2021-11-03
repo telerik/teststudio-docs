@@ -1,7 +1,7 @@
 ---
 title: Open Git Project
 page_title: Open Git Project
-description: "Open Test Studio Project To Git Source control repository"
+description: "Open Test Studio Project To Git Source control repository. Use Personal Access token to connect to Git repo accessed with 2FA (two factor authentication). Unable to connect to Git. Error connecting to Git, too many redirects or authentication replays"
 publish: true
 position: 1
 ---
@@ -19,11 +19,14 @@ Follow the steps to open a Test Studio project from remote Git repository.
 
 ![Connect][1]
 
-2.&nbsp; The **Source Control Type** dialog appears. Select **Git**, fill in the appropriate information, click **Connect** and **OK**.
-
-**Two-step authentication** flow for GitHub is supported using <a href="/features/source-control/git/overview-git#Personal-Access-Token" target="_blank">a personal token</a> instead of the account password.
+2.&nbsp; The **Source Control Type** dialog appears. Select **Git**, fill in the appropriate information, click **Connect** and **OK**. **Two-factor authentication** is supported using <a href="/features/source-control/git/overview-git#support-for-git-two-factor-authentication" target="_blank">a personal access token</a> instead of the account password.
 
 ![Connect to TFS][2]
+
+> **Note**
+> <br>
+> <br>
+> If you are not able to connect to the Git system and get a message _Error connecting to Git, too many redirects or authentication replays_, check if the remote repository requires 2FA to be accessed. Generate a personal access token in your Git account for this repository and use that token instead of the account password.
 
 3.&nbsp; Select a folder where the project will be cloned.
 
