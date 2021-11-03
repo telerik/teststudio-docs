@@ -41,18 +41,18 @@ Below are listed the steps to setup a Docker container for testing.
 
 2.&nbsp; Pull the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">official Microsoft Windows Docker image</a> from the Docker Hub. Use the command that is provided in the Docker Hub and make sure to specify the exact build to be pulled.
 
-> __Note__
-> <br>
-> <br>
-> The build version of the Windows image to install in the Docker container must match the Windows build on the current host machine.
-> <br>
-> <br>
-> The Microsoft Windows Docker image does not support _"latest"_ tag. Please check the documentation on the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">DockerHub's page for this image</a>.
-
 ```
 //For Windows build 1909, use the following command
 docker pull mcr.microsoft.com/windows:1909
 ```
+
+> __Note__
+> <br>
+> <br>
+> The build version of the Windows image to install in the Docker container __must match__ the Windows build on the current host machine.
+> <br>
+> <br>
+> The Microsoft Windows Docker image does not support _"latest"_ tag. For further information check the documentation on the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">DockerHub's page for this image</a>.
 
 3.&nbsp; Create a container from the official Microsoft Windows image. To do that, go to **Images** in the Docker desktop application and click on the **Run** button.
 
@@ -62,11 +62,11 @@ Then, expand the _Optional Settings_ and specify **Host Path** and **Container P
 
 ![Optional settings][3]
 
-4.&nbsp; Copy the .msi installers of <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">Test Studio Run-Time</a> and <a href="https://chromeenterprise.google/browser/download/#windows-tab" target="_blank">Chrome Enterprise</a> in the **Host Path** folder. They will become available in the **Container Path** in the Docker container and are ready to be installed. Open the Command Line Interface (CLI) of the container and navigate to the **Container Path** folder.
+4.&nbsp; Copy the .msi installers of <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">Test Studio Run-Time</a> and <a href="https://chromeenterprise.google/browser/download/#windows-tab" target="_blank">Chrome Enterprise</a> in the **Host Path** folder. They become available in the **Container Path** in the Docker container and are ready to be installed. Open the Command Line Interface (CLI) of the container and navigate to the **Container Path** folder.
 
 ![Open CLI][4]
 
-__Install both Test Studio Run-Time and Chrome browser enterprise edition in passive mode__, because there is no UI in the container and active installation can not complete. You can use the following command, but make sure that each installer is finished without errors before you proceed with the next.
+__Install both Test Studio Run-Time and Chrome browser enterprise edition in passive mode__, because there is no UI in the container and active installation can not complete. You can use the following command, but make sure that each installer is finished without errors before you proceed with the next one.
 
 ```
 msiexec.exe /i msiInstallerFileName.msi /passive /le c:\tools\errorLogForThisInstaller.txt
@@ -75,7 +75,7 @@ msiexec.exe /i msiInstallerFileName.msi /passive /le c:\tools\errorLogForThisIns
 > __Note__
 > <br>
 > <br>
-> Additional information about the msiexec installers can be found on the <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec" target="_blank">Microsoft documentation</a>.
+> Additional information about the msi installers can be found on the <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec" target="_blank">Microsoft documentation</a>.
 
 ## Execute Tests
 
@@ -84,9 +84,9 @@ msiexec.exe /i msiInstallerFileName.msi /passive /le c:\tools\errorLogForThisIns
 > <br>
 > Tests and test lists execution in the Docker container is __only supported for <a href="/automated-tests/headless/headless-test-execution" target="_blank">Chrome Headless mode</a>__.
 
-After completing the above steps in this article, you need to copy the project, from which you want to execute tests and test lists, to be available in the Docker container. Place them in the **Host Path** folder on your local machine and they also show up in the **Container Path** folder.
+After completing the above steps in this article, you need to copy the project, from which you want to execute tests and test lists, to be available in the Docker container. Place the project folder in the **Host Path** folder on your local machine and they also show up in the **Container Path** folder.
 
-Open the container's Command Line Interface (CLI) and use the <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> to start the execution. This test runner provide multiple options for execution and output, which are all exaplained in the linked documentation. For example, you can use the commands below to start test list execution.
+Open the container's Command Line Interface (CLI) and use the <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> to start the execution. This test runner provide multiple options for execution and output, which are all explained in the linked documentation. The below example command triggers a test list execution.
 
 ```
 //navigate to the Test Studio installation bin sub-folder
