@@ -47,13 +47,14 @@ On specific occasions, the activation process may not complete successfully. The
 When trying to activate a Test Studio license, you may discover that there are no seats available, although you have a purchased license.
 
 This can happen if the machine on which a Test Studio license was activated:
+
 - has been recently re-imaged
 - has been recently replaced
 - is not accessible anymore for whatever reason
 
 If the license was not deactivated while the machine was still active, you will notice that a seat from the purchased license is occupied for that computer.
 
-To be able to use that license seat again, you need to re-activate this license on the new machine - visit the <a href="/getting-started/installation/re-activating-your-license" target="_blank">Re-Activating License</a> article for a step-by-step guide.
+To be able to use that license seat again, you need to deactivate this license manually from your Telerik account - visit the <a href="/getting-started/installation/re-activating-your-license" target="_blank">Manual License Deactivation</a> article for a step-by-step guide.
 
 ### Connection Error
 
