@@ -9,7 +9,7 @@ productName: "Test Studio Documentation"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*, docs-watcher/*]
-exclude_navigation: ["archived-docs/*", "license-server/*"]
+exclude_navigation: ["archived-docs/*", "license-server/*", "test-studio-mobile/*"]
 
 # CTA Panels
 has_cta_panels: true
