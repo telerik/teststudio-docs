@@ -12,7 +12,12 @@ One of the great features of Test Studio is that you can reuse common <a href="/
 
 And to make this even more exciting, a nested test in Test Studio can use the data source bound to its parent test without having its own data source.
 
-In this article you can find the possible combinations for data driven and nested tests and what to expect from their execution flow.
+>__Tip__
+><br>
+><br>
+> You can see in <a href="/knowledge-base/data-driven-testing-kb/multiple-users-with-login">here</a> how a real user case is covered with the help of data driving multilevel tests.
+
+Below in this article you can find the possible combinations for data driven and nested tests and what to expect from their execution flow.
 
 > __Note__
 ><br>
