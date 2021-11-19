@@ -11,7 +11,7 @@ position: 1
 
 ##Add Assembly Reference##
 
-Use the *System.Data.OracleClient* API. You'll need to add an assembly reference to it, as seen <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">here</a>. This API is part of the *System.Data* assembly. This assembly is located, by default, in the following location (on a 64-bit Windows 7 machine with .NET 4.0):
+Use the *System.Data.SqlClient* API. You'll need to add an assembly reference to it, as seen <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">here</a>. This API is part of the *System.Data* assembly. This assembly is located, by default, in the following location (on a 64-bit Windows 7 machine with .NET 4.0):
 
 **C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.dll**
 
