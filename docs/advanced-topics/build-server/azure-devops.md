@@ -1,8 +1,8 @@
 ---
 title: Azure DevOps 
-page_title: Azure DevOps Build Pipeline
-description: "Integrate Test Studio tests in Azure DevOps Build Pipeline continuous integration. Execute Test Studio tests with Azure DevOps Build Pipeline."
-position: 2
+page_title: Test Studio Tests in Azure DevOps Build Pipelines
+description: "Integrate Test Studio tests in Azure DevOps continuous integration. Execute Test Studio tests with Azure DevOps Build Pipeline configured with self-hosted agent."
+position: 1
 ---
 # Test Studio Tests and Azure DevOps Build Pipeline
 

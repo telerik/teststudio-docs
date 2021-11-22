@@ -1,12 +1,12 @@
 ---
 title: Docker Container Testing
-page_title: Use Docker Container for Test Execution
-description: "Docker container testing is with Test Studio. Execute tests in a Docker container. Headless test execution in Docker container."
-position: 7
+page_title: Use Docker Container for Test Studio Test Execution
+description: "Docker container testing is compatible with Test Studio. Execute Test Studio tests in a Docker container. Headless test execution of Test Studio tests in Docker container."
+position: 9
 ---
 # Docker Container Testing with Test Studio
 
-Test Studio test lists can be executed in  Chrome Headless mode within a Docker container. Read below how to prepare the environment and how to start testing in a Docker container.
+Test Studio test lists can be executed in Chrome Headless mode within a Docker container. Read below how to prepare the environment and how to start testing in a Docker container.
 
 ## Environmental Prerequisites
 
