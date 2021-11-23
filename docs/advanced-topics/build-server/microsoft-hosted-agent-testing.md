@@ -30,25 +30,25 @@ The Azure pipelines can be configured to run their tasks with different type of 
 > __Note__
 > <br>
 > <br>
-> Microsoft-hosted agent VMs use no UI, or desktop, or GUI session at all. Therefore it can be used only for headless browser testing supported from Test Studio for the Chrome browser.
+> Microsoft-hosted agent VMs use no GUI session or UI. Therefore it can be __used only for headless browser testing__ supported from Test Studio for the Chrome browser.
 
 ## Setup Azure Pipeline to Execute Headless Tests on Microsoft-hosted Agent
 
-Running Test Studio tests requires installation of the <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Test Studio Run-time package</a>. It is a separate product package dedicated for test execution only. One license is distributed with the Test Studio Ultimate bundle, or it can be separately <a href="https://www.telerik.com/purchase/teststudio" target="_blank">purchased</a>.
+Running Test Studio tests requires installation of the <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Test Studio Run-time edition</a> - this is a __separate product package dedicated for test execution__ only. One license for the Run-time edition is distributed with the Test Studio Ultimate bundle and, alternatively, it can be <a href="https://www.telerik.com/purchase/teststudio" target="_blank">purchased</a> separately.
 
-Once you have an active Test Studio Run-time license, you can download its *.msi installer from your <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">Telerik account here</a> and add it in the Azure Pipeline as an _Artifact_ related to the Azure project. That way it will be available for deployment on the Microsoft-hosted agent, when this is created.
+Once you have an active Test Studio Run-time license, you can __download its *.msi installer__ from your <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">Telerik account here</a> and add it in the Azure Pipeline as an _Artifact_ related to the Azure project. That way it will be available for deployment on the Microsoft-hosted agent, when this is created.
 
 ### Add Run-time Installer as Artifact
 
-Open the __Artifacts__ view in the Azure platform and choose the feed in which you want to add the Test Studio Run-time installer. Then select the __Connect to feed__ option to add an artifact in the feed. If you need further information about _Feeds in Azure DevOps_, you can visit the <a href="https://docs.microsoft.com/en-us/azure/devops/artifacts/concepts/feeds?view=azure-devops" target="_blank">Microsoft docs page on the topic here</a>.
+Open the __Artifacts__ view in the Azure platform and choose the feed in which you want to add the Test Studio Run-time installer. Then select the __Connect to feed__ option to add an artifact in the feed. If you need further information about _Feeds in Azure DevOps_, you can visit the <a href="https://docs.microsoft.com/en-us/azure/devops/artifacts/concepts/feeds?view=azure-devops" target="_blank">Microsoft docs page on the topic</a>.
 
 ![Artifacts and Feed in Azure](/img/advanced-topics/build-server/mha-testing/fig1.png)
 
-From the list of artifacts you can add, choose the __Universal Packages__ option. The instructions how to publish a package are listed on the right side of the list. It is necessary to use the Azure CLI to login and publish the installer file and there are examples listed, which need to be adjusted for your project specifics. If you need further information about _Publishing Universal Packages_, you can visit the <a href="https://docs.microsoft.com/en-us/azure/devops/artifacts/quickstarts/universal-packages?view=azure-devops" target="_blank">Microsoft docs page on the topic here</a>.
+Choose the __Universal Packages__ option from the list of artifacts. The instructions how to publish a package are listed on the right side of the list. It is necessary to use the Azure CLI to login and publish the installer file - you can find example commands, which need to be adjusted for your project specifics. If you need further information about _Publishing Universal Packages_, you can visit the <a href="https://docs.microsoft.com/en-us/azure/devops/artifacts/quickstarts/universal-packages?view=azure-devops" target="_blank">Microsoft docs page on the topic</a>.
 
 ![Publish Universal package in Azure feed](/img/advanced-topics/build-server/mha-testing/fig2.png)
 
-After the package is successfully uploaded, it is listed as an artifact and can be used in the Azure pipelines for that project.
+After the package is successfully uploaded, it is __listed as an artifact__ and can be used in the Azure pipelines for that project.
 
 ![Artifacts in Azure feed](/img/advanced-topics/build-server/mha-testing/fig3.png)
 
@@ -62,7 +62,7 @@ Choose the repository from which the Test Studio project will be deployed to the
 
 ![Choose Test Studio project repository](/img/advanced-topics/build-server/mha-testing/fig5.png)
 
-When the source location is define, choose the __Empty pipeline__ template and __Apply__ to the pipeline.
+When the source location is defined, choose the __Empty pipeline__ template and __Apply__ to the pipeline.
 
 ![Empty pipeline](/img/advanced-topics/build-server/mha-testing/fig6.png)
 
@@ -94,7 +94,9 @@ msiexec.exe /i c:\TestStudio_Runtime_2021_3_1103_1.msi /passive /le c:\errorlog.
 
 ### Execute the Tests on Microsoft-hosted Agent
 
-The next task in the pipeline can be set to execute the tests. To trigger the test list run, you can again use a __Command Line__ task. In it you can list a command using the <a href="/features/test-runners/artoftest-runner" target="_blank">options of the Test Studio CLI runner called ArtOfTest.Runner.exe</a>. The example in the screenshot uses the options to set custom name for the result file and to generate _junit_ formatted result for the run. In this command I use the $(Build.Repository.LocalPath) variable provided from Azure. It is recommended to use such environmental variables as hard-coded paths may cause some false failures.
+The next task in the pipeline can be set to execute the tests. To trigger the test list run, you can again use a __Command Line__ task. In it you can list a command using the <a href="/features/test-runners/artoftest-runner" target="_blank">options of the Test Studio CLI runner</a> called __ArtOfTest.Runner.exe__.
+
+The example in the screenshot uses the options to set custom name for the result file and to generate _junit_ formatted result for the run. In this command I use the __$(Build.Repository.LocalPath) variable provided from Azure__. It is recommended to use such environmental variables as hard-coded paths may cause some false failures.
 
 ![Test list run command](/img/advanced-topics/build-server/mha-testing/fig11.png)
 
@@ -102,7 +104,9 @@ Another important setting for this task is to change its __Control Options__ to 
 
 ### Publish Results Generated on Microsoft-hosted Agent
 
-It is useful to publish both the Test Studio results file and the junit formatted file. These require setup of separate tasks. Create a __Publish Pipeline Artifact__ task to upload the Test Studio results file as an artifact in the pipeline.
+It is useful to publish both the Test Studio results file and the _junit_ formatted file. These require setup of separate tasks. 
+
+Create a __Publish Pipeline Artifact__ task to upload the Test Studio results file as an artifact in the pipeline.
 
 ![Publish Pipeline Artifact task](/img/advanced-topics/build-server/mha-testing/fig12.png)
 
@@ -110,11 +114,11 @@ The _junit_ formatted results can be published to the pipeline build summary wit
 
 ![Publish Test results task](/img/advanced-topics/build-server/mha-testing/fig13.png)
 
-For both these tasks you again use the variable $(Build.Repository.LocalPath).
+For both these tasks you can use the variable __$(Build.Repository.LocalPath)__.
 
 ## Run the Azure Pipeline
 
-With the pipeline set in this way you can trigger the Test Studio test execution on a Microsoft-hosted agent VM.
+With the pipeline set in this way, you can trigger the Test Studio headless test execution on a Microsoft-hosted agent VM.
 
 ![Run the pipeline](/img/advanced-topics/build-server/mha-testing/fig14.png)
 
