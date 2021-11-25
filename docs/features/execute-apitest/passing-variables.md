@@ -8,6 +8,11 @@ position: 2
 
 When an API test is executed as a step in a Web&Desktop test, we often need to get a value that is acquired from a http response in the API test and use it in the Web&Desktop test or vice versa. To do that, all you need to do is to extract it into a variable. Any variable extracted in the API test by a Set Variable Step becomes available in the context of the Web&Desktop test and any variable extracted in the Web&Desktop test can be set as project level variable for an API test.
 
+> __Tip__
+> <br>
+> <br>
+> You can follow an end-to-end scenario in our blog post <a href="https://www.telerik.com/blogs/power-up-your-ui-tests-with-api-test-as-step-in-telerik-test-studio" target="_blank">Power Up Your UI Tests with 'API Test as Step' in Telerik Test Studio</a>
+
 ## Passing a Variable Generated from an API Test
 
 >The variables generated from the API test execution which could be passed back to the web test are only these set in a <a href="https://docs.telerik.com/teststudio-apis/features/steps/set-variable" target="_blank">Set Varaible Step</a>.
@@ -34,6 +39,10 @@ Define the variable with a name and value.
 ![Add Varianle][4]
 
 > The variable defined and set from a web test will be set as a __project level__ variable in the API project.
+
+## See Also
+
+* <a href="https://www.telerik.com/blogs/power-up-your-ui-tests-with-api-test-as-step-in-telerik-test-studio" target="_blank">Power Up Your UI Tests with 'API Test as Step' in Telerik Test Studio</a>.
 
 [1]: /img/features/execute-apitest/passing-variables/use-variable-in-web-test.png
 [2]: /img/features/execute-apitest/passing-variables/variables-property.png

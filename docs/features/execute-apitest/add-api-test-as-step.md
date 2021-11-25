@@ -47,7 +47,9 @@ Once the test is imported click on it and then the _Select_ button. If there are
 
 ![Select a test to add in step][7]
 
-__See Also:__ You may find a sample scenario covered in our blog post <a href="https://www.telerik.com/blogs/power-up-your-ui-tests-with-api-test-as-step-in-telerik-test-studio" target="_blank">__Power Up Your UI Tests with 'API Test as Step' in Telerik Test Studio__</a>.
+## See Also
+
+* <a href="https://www.telerik.com/blogs/power-up-your-ui-tests-with-api-test-as-step-in-telerik-test-studio" target="_blank">Power Up Your UI Tests with 'API Test as Step' in Telerik Test Studio</a>.
 
 [1]: /img/features/execute-apitest/add-api-test-as-step/add-step.png
 [2]: /img/features/execute-apitest/add-api-test-as-step/select-apitest-window.png
