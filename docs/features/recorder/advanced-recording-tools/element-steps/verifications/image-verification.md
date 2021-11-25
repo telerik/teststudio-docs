@@ -38,11 +38,21 @@ There are few things that could ensure more stable and reliable test execution:
 
 ![Image][5]
 
+* __Web test__
+
 By default, **Verify Entire Image** is checked and the **Threshold** is set to 90%.
 
 > **Tip**
 >
-> We recommend keeping the Threshold around 90%. A setting of 100% equals an exact match and the verification will fail, if it is off by a single pixel.
+> We recommend keeping the __Threshold__ around 90%. A setting of 100% equals an exact match and the verification will fail, if it is off by a single pixel.
+
+* __WPF test__
+
+By default, **Verify Entire Image** is checked and the **Tolerance** is set to 1%.
+
+> **Tip**
+>
+> We recommend keeping the __Tolerance__ around 1% to 9%. A setting of 0% equals an exact match and increasing the tolerance means the verification is more forgiving.
 
 6.&nbsp; Uncheck **Verify Entire Image** to refine the comparison area. Either enter coordinates or drag the desired selection area within the image.
 
