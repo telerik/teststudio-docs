@@ -9,6 +9,11 @@ position: 9
 
 Test Studio test lists can be executed in Chrome Headless mode within a Microsoft-hosted agent. This article guide you trough the process of setting up the Azure pipeline to run in a Microsoft-hosted agent.
 
+> __Tip__
+> <br>
+> <br>
+> Check out our blog post about <a href="https://www.telerik.com/blogs/using-microsoft-hosted-agents-azure-pipelines-automated-test-execution" target="_blank">Tesitng in Microsoft-hosted agents</a>.
+
 ## Environmental Prerequisites
 
 The prerequisites from Test Studio and Azure DevOps side are listed below. Make sure that you comply with them, before proceeding with the next steps.
@@ -129,3 +134,7 @@ In the __Run Summary__ you can find useful details for the run and access the Te
 In the __Tests__ section you can see a summary of the test results based on the _junit_ formatted results.
 
 ![Tests results of the run](/img/advanced-topics/build-server/mha-testing/fig16.png)
+
+## See Also
+
+* <a href="https://www.telerik.com/blogs/using-microsoft-hosted-agents-azure-pipelines-automated-test-execution" target="_blank">Using Microsoft Hosted Agents in Azure Pipelines for Automated Test Execution</a>.
