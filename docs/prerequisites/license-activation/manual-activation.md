@@ -28,23 +28,23 @@ The next screens provides the __Machine Key__ and __Machine Name__ information. 
 
 ## Generate License Key Manually
 
-On another machine, connected to the Internet, navigate to your Telerik account in the <a href="http://www.telerik.com/account/your-products/testing-tools-manage-license-keys.aspx" target="_blank">Test Studio License Keys Management Form</a>. Scroll down to the bottom and click  the _'+ Add a key'_ button.
+On another machine, connected to the Internet, navigate to your Telerik account in the <a href="http://www.telerik.com/account/your-products/testing-tools-manage-license-keys.aspx" target="_blank">Test Studio License Keys Management Form</a>. Scroll to the purchased license you need to activate and click the _'Add new key'_ button.
 
 ![License Keys Management Form](/img/general-information/installation/manual-activation/fig4.png)
 
-Select the purchased Test Studio version from the _'Product'_ drop down menu. Enter the machine key, copied from the machine on which is Test Studio, within the provided field, add the machine name and friendly name, then click the __'Generate Key'__ button.
+Enter the machine key, copied from the machine on which is Test Studio, type the machine name and friendly name for it, then click the __'Generate Key'__ button.
 
 ![Select Product](/img/general-information/installation/manual-activation/fig5.png)
 
-> __Note!__ There are reserved words that cannot be used for Machine key, Machine name and Friendley name. The words are **telerik**, **admin**, **administrator**, **sitefinity**, **icenium**, **kendo**, **kendoui** and **moderator**.
+> __Note!__ There are reserved words that cannot be used for Machine key, Machine name and Friendly name. The words are **telerik**, **admin**, **administrator**, **sitefinity**, **icenium**, **kendo**, **kendoui** and **moderator**.
 
-Once the key is generated you get a confirmation screen, from which you can copy it, and transfer the key to the machine on which is Test Studio. Use the _'copy key'_ button to copy it to the clipboard.
+Once the key is generated you get a confirmation notification. To copy the generated key click on the _View key_ button and use the _Copy and close_ button. Paste the key onto a text document to transfer it to the machine on which is Test Studio.
 
 ![Copy key](/img/general-information/installation/manual-activation/fig6.png)
 
 ## Finish the Offline Activation
 
-Switch to the machine, which hosts the Test Studio installation and paste the manually generated registration key from your Telerik account within the _'License Key'_ field in Test Studio License Activation Wizard, then click the __'Activate'__ button.
+Switch to the machine with the Test Studio installation and paste the registration key within the _'License Key'_ field in Test Studio License Activation Wizard, then click the __'Activate'__ button.
 
 ![Activate](/img/general-information/installation/manual-activation/fig7.png)
 

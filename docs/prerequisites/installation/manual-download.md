@@ -36,7 +36,7 @@ Choose the Test Studio version you have purchased.
 
 ![Test Studio purchased product](/img/general-information/installation/manual-download/fig4.png)
 
-Choose the version you need to install (official release or internal build) and the file you want to download (*.msi or *.exe).
+Use the _Download_ link to get the *.exe file for the latest available version of Test Studio. Use the *.msi file link to download this type of installer. Use the _Version_ dropdown to choose a previous version of the product.
 
 ![Choose the version to download](/img/general-information/installation/manual-download/fig5.png)
 
