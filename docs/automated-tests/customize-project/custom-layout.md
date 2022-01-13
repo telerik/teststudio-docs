@@ -26,19 +26,19 @@ The preset layouts rearrange the panes in the Test Studio project to focus your 
 
 ### Compact Layout
 
-In the __Compact__ layout you can see <a href="#dock-or-undock-a-panel">docked</a> and visible the <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a>, the <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a> and the <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a>. The <a href="/general-information/test-recording/step-suggestions" target="_blank">Step Builder</a>, the Properties pane and <a href="/features/coded-steps/output-panel" target="_blank">Output Panel</a> are <a href="#hide-or-show-a-panel">hidden and pinned</a> on the right side of the project area.
+In the __Compact__ layout you can see <a href="#dock-or-undock-a-panel">docked</a> and visible the <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a>, the <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a> and the <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a>. The <a href="/features/custom-steps/overview" target="_blank">Step Builder</a>, the Properties pane and <a href="/features/coded-steps/output-panel" target="_blank">Output Panel</a> are <a href="#hide-or-show-a-panel">hidden and pinned</a> on the right side of the project area.
 
 ![Compact layout][2a]
 
 ### High Productivity Layout
 
-In the __High Productivity__ layout you can see all panels <a href="#dock-or-undock-a-panel">docked</a> and visible in the project area - the <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a>, the <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a>, the <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a>, the <a href="/general-information/test-recording/step-suggestions" target="_blank">__Step Builder__</a>, the __Properties__ pane and <a href="/features/coded-steps/output-panel" target="_blank">__Output Panel__</a>.
+In the __High Productivity__ layout you can see all panels <a href="#dock-or-undock-a-panel">docked</a> and visible in the project area - the <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a>, the <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a>, the <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a>, the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a>, the __Properties__ pane and <a href="/features/coded-steps/output-panel" target="_blank">__Output Panel__</a>.
 
 ![High Productivity layout][2b]
 
 ### Advanced Layout
 
-In the __Advanced__ layout you can see <a href="#dock-or-undock-a-panel">docked</a> and visible the <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a>, the <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a> and the <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a>. The <a href="/general-information/test-recording/step-suggestions" target="_blank">__Step Builder__</a>, the __Properties__ pane and <a href="/features/coded-steps/output-panel" target="_blank">__Output Panel__</a> are docked and tabbed to switch between these.
+In the __Advanced__ layout you can see <a href="#dock-or-undock-a-panel">docked</a> and visible the <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a>, the <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a> and the <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a>. The <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a>, the __Properties__ pane and <a href="/features/coded-steps/output-panel" target="_blank">__Output Panel__</a> are docked and tabbed to switch between these.
 
 ![Advanced layout][2c]
 

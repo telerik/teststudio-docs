@@ -1,26 +1,21 @@
 ---
 title: Compile Project
-page_title: Compile Project
-description: "Compile Project with coded steps files in Test Studio."
+page_title: Compile Project with Coded Files
+description: "Compile Project with coded steps or files in Test Studio. Verify if inserted custom code can be compiled. Resolve compilation errors"
 position: 3
 ---
-# Compile Project
+# Compile Project with Coded Files
 
-Each Test Studio project which contains coded steps and/or class files, can be compiled before any test run. By compiling the test project you can identify compile-time errors, such as incorrect syntax, misspelled keywords, type mismatches, and incorrect method binding. When you compile the test project, Test Studio builds and replaces the project dll in the **bin** sub-folder of the project root one.
+Adding custom code into the test project requires its compilation before test execution. That way you can identify any compile-time errors such as incorrect syntax, misspelled keywords, type mismatches, and incorrect method binding. Test Studio allows you to compile the project while setting up the code functions.
 
-## Version 2017 R3 and Later
-
-As of version 2017 R3 you can mark tests and standalone code files with <a href="/features/test-maintenance/tests-in-development" target="_blank">**'In development'**</a> flag to exclude these from compilation. Thus the **Compile button** is extended and you can choose whether to **'Compile All'** files or **'Compile'** only these **not marked** as 'In development'.
+The __Compile__ button is listed under the _Project_ ribbon, or in the _Project Explorer_ <a href="/features/project-explorer/overview#project-items-context-menu" target="_blank">context menu</a> on project level.
 
 ![New Compile button][1]
 
-> **Note!** The default action set in the <a href="/features/project-explorer/overview" target="_blank">Project Context Menu</a> and for the *Compile* button is **'Compile All'**.
+The options __Compile__ and __Compile All__ are related to the feature to mark a test or code file with <a href="/features/test-maintenance/tests-in-development" target="_blank">*'In development'*</a> flag. That way you can keep some _work in progress_ coded files, which are not yet set up completely, and continue running tests from the project.
 
-## Version 2017 R2 and Earlier
-
-Press the **Compile** button in the ribbon to compile the entire test project.
-
-![Compile button][3]
+* __Compile__ - exclude the 'InDevelopment' files from compilation.
+* __Compile All__ - compiles all files in the project.
 
 ## Compilation Output
 

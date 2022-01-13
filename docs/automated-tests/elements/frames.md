@@ -41,20 +41,25 @@ The __Id__, __Name__ and __Url__ properties of the frame element in Test Studio 
 
 ## How to Handle Dynamic Frames
 
-___What are dynamic frames?___ These are frames, which have different __FrameInfo__ properties each time when the page under test loads the frame. Any of the __Id__, __Name__ or __BaseUrl__, including a combination of these, can be dynamic, depending on how the application is built.
+* ___What are dynamic frames?___
 
-___What happens in the next test execution, if a frame is not located on the page?___ This usually happens when any of the frame properties are dynamic and don't match next time when the page and frame are loaded. There is an error message listed in the <a href="/automated-tests/test-results/analyze-quick-run-results#generate-the-quick-execution-log" target="_blank">test execution log</a>:
+These are frames, which have different __FrameInfo__ properties each time when the page under test loads the frame. Any of the __Id__, __Name__ or __BaseUrl__, including a combination of these, can be dynamic, depending on how the application is built.
 
-``` XML
-Unable to find the target host (Browser/SilverlightApp) to locate an element. Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out. Error: Wait for condition has timed out
-InnerException:
-System.Exception: Unable to find the target host (Browser/SilverlightApp) to locate an element. Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out. Error: Wait for condition has timed out
-   at ArtOfTest.WebAii.Design.Execution.ExecutionUtils.WaitForAllElements(IAutomationHost host, AutomationDescriptor descriptor, Int32 timeout, Int32 imageSearchTimeout, Int32 imageSearchDelay, Boolean searchByImageFirst)
-   at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.ExecuteStep(Int32 order)
+* ___What happens in the next test execution, if a frame is not located on the page?___
 
-```
+This usually happens when any of the frame properties are dynamic and don't match next time when the page and frame are loaded. There is an error message listed in the <a href="/automated-tests/test-results/analyze-quick-run-results#generate-the-quick-execution-log" target="_blank">test execution log</a>:
 
-___How can the dynamic frame be identified for each test run?___ Each of the properties __Id__, __Name__ and __BaseUrl__ accepts the tilde (~) character to indicate partial match for the string. __BaseUrl__ property for the frame accepts also caret character (^), if <a href="/knowledge-base/test-execution-kb/base-url#using-the-baseurl-with-frames" target="_blank">BaseURL is set on project level</a>. If there is a dynamic query in the URL, ensure __UseQuery__ property is set to false.
+   ```
+   Unable to find the target host (Browser/SilverlightApp) to locate an element. Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out.
+   Error: Wait for condition has timed out
+      InnerException:
+   System.Exception: Unable to find the target host (Browser/SilverlightApp) to locate an element.
+   Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out. Error: Wait for condition has timed out
+   ```
+
+* ___How can the dynamic frame be identified for each test run?___
+
+Each of the properties __Id__, __Name__ and __BaseUrl__ accepts the tilde (~) character to indicate partial match for the string. __BaseUrl__ property for the frame accepts also caret character (^), if <a href="/knowledge-base/test-execution-kb/base-url#using-the-baseurl-with-frames" target="_blank">BaseURL is set on project level</a>. If there is a dynamic query in the URL, ensure __UseQuery__ property is set to false.
 
 ![Dynamic frame](/img/features/elements-explorer/frames/fig3.png)
 

@@ -148,13 +148,13 @@ navigation:
         title: "Test Studio Plugin for Visual Studio"
         position: 17
     automated-tests/coded-tests:
-        title: "Implement Code in a Test"
+        title: "Coded Tests in Test Studio"
         position: 18
     automated-tests/source-control:
-        title: "Share a Test Studio Project in the Team"
+        title: "Source Control Options in Test Studio"
         position: 19
     automated-tests/continuous-integration:
-        title: "Implement Test Studio Tests in CI Builds"
+        title: "Test Studio Tests in CI Builds"
         position: 20
 
 # ....Customize Your Project

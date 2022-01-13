@@ -57,8 +57,8 @@ The String comparison operations first convert the value of the Source Variable 
 - `Does Not End With` - passes when the Source Value does not end with the Expectation.
 - `Matches Regex` - passes when the Source Value matches the regex pattern in Expectation.
 - `Does Not Match Regex` - passes when the Source Value does not match the regex pattern in Expectation.
-- 'Is Null' - passes when the Source Value is null
-- 'Is Not Null' - passes when the Source Value is not null
+- `Is Null` - passes when the Source Value is null
+- `Is Not Null` - passes when the Source Value is not null
 
 > You could choose to ignore tha case in the String operations. 
 
