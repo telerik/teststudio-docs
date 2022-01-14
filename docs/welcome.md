@@ -35,7 +35,7 @@ Test Studio also supports load and performance testing by allowing you to conver
 
 **Test Studio functional testing** allows you to create, run and automate functional with a variety of productivity features that will save you tons of time. Some of our most prominent features are:
 
-* __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a>, including Headless Chrome for <a href="/automated-tests/headless/headless-test-execution" target="_blank">headless test execution</a>, are proactively supported in Test Studio.
+* __Intuitive recorder with cross browser support__ - with its intuitive <a href="/getting-started/test-recording/overview" target="_blank">click and record functionality</a>, recording steps has never been easier. <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">Major browsers</a>, including Chrome, Edge, Firefox, Headless Chrome for <a href="/automated-tests/headless/headless-test-execution" target="_blank">headless test execution</a>, are proactively supported in Test Studio.
 
 * __Intelligent hybrid element detection__ - by <a href="/features/elements-explorer/elements-find-expression" target="_blank">creating automation elements</a> that use both web locators and images, flaky and fragile tests are a thing of the past.
 
@@ -45,7 +45,7 @@ Test Studio also supports load and performance testing by allowing you to conver
 
 * __Executive dashboard__ - monitor <a href="/general-information/test-results/dashboard/results" target="_blank">automation results and reports</a> with an easy-to-use web feature. Everyone on your team can access it in the web without the need of having a dedicated Test Studio license
 
-* __Data-driven testing__ – <a href="/automated-tests/data-drive-test/what-is-ddt" target="_blank">bind data</a> to test commands without the need to write and maintain code.
+* __Data-driven testing__ – <a href="/automated-tests/data-drive-test/what-is-ddt" target="_blank">bind data source</a> to test commands without the need to write and maintain code.
 
 * __Step failure details__ – use failure reports and intelligent suggestions to easily identify and fix <a href="/automated-tests/troubleshooting/failing-test" target="_blank">failing tests</a>.
 
@@ -61,7 +61,14 @@ Test Studio also supports load and performance testing by allowing you to conver
 * [Activate Test Studio License](/prerequisites/license-activation/activating-your-license)
 * [Record Your First Test](/getting-started/first-project)
 * [Analyze the Execution Results](/getting-started/analyze-the-results)
-* [Next Steps](/getting-started/next-steps)
+* [Getting Started Videos](https://www.youtube.com/watch?v=oTGExEVfdsk&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h)
+
+### Latest Version
+
+* <a href="https://www.telerik.com/support/whats-new/teststudio" target="_blank">What's new</a>
+* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history" target="_blank">Release notes</a>
+* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry" target="_blank">Send a presale inquiry</a>
+
 </td>
 <td valign=top>
 
@@ -84,16 +91,14 @@ Test Studio also supports load and performance testing by allowing you to conver
 
 <td valign=top>
 
-### Getting Help
+### Learn and Help Resources
 
 * <a href="https://www.telerik.com/videos/teststudio" target="_blank">Videos</a>
 * <a href="https://learn.telerik.com/learn/course/external/view/elearning/31/telerik-test-studio" target="_blank">Virtual Classroom</a>
-* <a href="https://www.telerik.com/forums/teststudio" target="_blank">Forums</a>
-* <a href="https://www.telerik.com/account/support-tickets" target="_blank">Contact support</a>
+* <a href="https://www.telerik.com/forums/teststudio" target="_blank">Community</a>
 * <a href="https://www.telerik.com/account/support-tickets/customer-service" target="_blank">Submit a general feedback</a>
-* <a href="https://www.telerik.com/account/support-tickets/presales-inquiry" target="_blank">Send a presale inquiry</a>
-* <a href="https://www.telerik.com/support/whats-new/teststudio" target="_blank">What's new</a>
-* <a href="https://www.telerik.com/support/whats-new/teststudio/release-history" target="_blank">Release notes</a>
+* <a href="https://www.telerik.com/account/support-tickets" target="_blank">Contact support</a>
+
 </td>
 <td valign=top>
 
