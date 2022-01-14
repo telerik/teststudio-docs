@@ -1,10 +1,10 @@
 ---
-title: Load Testing Overview
-page_title: Load Testing
+title: Introduction
+page_title: Introduction to Load Testing
 description: "Load Testing in Test Studio. The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction"
 position: 0
 ---
-# Load Testing
+# Introduction to Load Testing
 
 The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction. We make it easy for you to get started and find the data you need to help make your decisions, but we also give you the flexibility and power to create elaborate, complex load scenarios to meet your most demanding needs.
 
@@ -13,6 +13,10 @@ The Load Testing feature in Test Studio Standalone enables you to assess how you
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
+
+## What is Load Testing in Test Studio?
+
+<a href="http://www.telerik.com/automated-testing-tools/load-testing.aspx" target="_blank">Telerik’s Test Studio Load Testing feature</a> is a set of services and tests that, when used together, will put your website under a set user load. The user load sent to the application server is defined by the specific load test being run. Using Test Studio you can measure how your website performs when put under load. Test Studio Load Testing can measure <a href="/knowledge-base/load-testing-kb/analyze-results" target="_blank">a range of useful properties</a>, including HTTP timers and <a href="/features/testing-types/load-testing/monitor-perf-metrics" target="_blank">machine performance metrics</a>.
 
 ## When Load Testing Can Help?
 
@@ -24,9 +28,9 @@ Load tests help answer some of the most critical questions organizations have ab
 
 > **<font color="red">CAUTION:</font>** To perform any sort of load testing you must be in control of the website/webserver you plan to test and be prepared for the consequences that may occur as a result of running a load test. It is easy to take down a website using load testing. In fact, that's one of the purposes of load testing: to discover the breaking point of your website. Progress Test Studio's Load Testing feature has deliberately blocked Telerik.com from being used in a load test for this very reason.
 
-## What is Load Testing in Test Studio?
+https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps
 
-<a href="http://www.telerik.com/automated-testing-tools/load-testing.aspx" target="_blank">Telerik’s Test Studio Load Testing feature</a> is a set of services and tests that, when used together, will put your website under a set user load. The user load sent to the application server is defined by the specific load test being run. Using Test Studio you can measure how your website performs when put under load. Test Studio Load Testing can measure <a href="/knowledge-base/load-testing-kb/analyze-results" target="_blank">a range of useful properties</a>, including HTTP timers and <a href="/features/testing-types/load-testing/monitor-perf-metrics" target="_blank">machine performance metrics</a>.
+
 
 ## First Steps with Load Testing in Test Studio
 

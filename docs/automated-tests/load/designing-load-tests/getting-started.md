@@ -8,11 +8,11 @@ position: 0
 
 Getting started with Test Studio Load Testing is a snap. Do you have existing functional tests in Test Studio? Have you been capturing Fiddler traces of site activity during troubleshooting or monitoring?
 
-You can set up powerful profiles by using already created web tests without having to modify them. You can also quickly tailor “think time” delays to simulate the pauses real users make as they navigate your site. Or use the invaluable data from a Fiddler capture directly, by importing it into Test Studio as a user profile!
+You can set up powerful profiles by using already created web tests without having to modify them. You can also quickly tailor "think time" delays to simulate the pauses real users make as they navigate your site. Or use the invaluable data from a Fiddler capture directly, by importing it into Test Studio as a user profile!
 
 ## Basic Guidelines
 
-To get the most out of your Load Test, it is best if you follow a few simple guidelines:
+To get the most out of your Load Test, it is best to follow these simple guidelines:
 
 1. Make sure the user profile is parameterized with the necessary dynamic targets - these allow you to simulate multiple different users are using the application under test.
 
@@ -20,9 +20,9 @@ To get the most out of your Load Test, it is best if you follow a few simple gui
 
 1. Use ramp up times to build up your users from a small number to larger numbers. Again, if you start with a large consistent load, without any ramping, you will likely clog the I/O. By ramping up from lower numbers you give your think times better chances to get involved.
 
-Follow the below steps to create and fully define a load test as per the mentioned guidelines.
-
 ## Create and Define a Load Test
+
+The below steps walk you trough the scenario to create and fully define a load test according the above guidelines.
 
 ### 1. Add a New Load Test to Your Project
 
@@ -67,5 +67,10 @@ The <a href="/features/testing-types/load-testing/designing-load-tests/test-sett
 ### 6. Assign Sufficient Virtual Users for the Execution Machines
 
 To be able to perform a load test run, you need to <a href="/features/testing-types/load-testing/designing-load-tests/managing-vu" target="_blank">assign virtual users</a> to the current machine - for the case of <a href="/features/testing-types/load-testing/running-load-test/running-tests" target="_blank">running a load test locally</a>; or to the machine, which is configured as a Scheduling server - in the case when <a href="/features/testing-types/load-testing/running-load-test/remote-load-test-execution" target="_blank">using multiple machines to run the load scenario</a>. The amount of users to assign can be easily considered having in mind the applied test <a href="/features/testing-types/load-testing/designing-load-tests/test-settings#available-users" target="_blank">settings for Available Users</a>.
+
+> __Tip__
+><br>
+><br>
+> In <a href="https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps" target="_blank">this blog post</a> you can find a tutorial for creating a load test in Test Studio using the traffic captured in Fiddler Everywhere.
 
 [1]: /img/features/testing-types/load-testing/getting-started/fig1.png
