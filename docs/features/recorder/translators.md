@@ -15,6 +15,11 @@ The party that best understands the internals of a component is the party that b
 * Test Studio was built with extensibility in mind, so as additional controls become available, new translators can be plugged in.
 * Telerik is committed to maintaining translators in step with Telerik controls changes, so you can expect the translators to always be up-to-date.
 
+> __Tip__
+><br>
+><br>
+> Check out this <a href="https://www.youtube.com/watch?v=hCEoohdp00M&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h&index=2">video tutorial</a> which demonstrates how to use the Blazor translators in Test Studio.
+
 As your mouse hovers over elements during the recording, the recording toolbar will fan out to indicate progressively more specific translators.
 
 ![Hover][1]

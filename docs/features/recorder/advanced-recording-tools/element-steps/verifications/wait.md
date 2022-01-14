@@ -6,7 +6,12 @@ position: 1
 ---
 # Create a Wait Step
 
-You can create a Wait step in the same manner as a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">quick verification</a> step. Instead of passing or failing based on a comparison, this step will wait for the comparison to be true before proceeding. The verification is performed after the server has responded. 
+You can create a Wait step in the same manner as a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">quick verification</a> step. Instead of passing or failing based on a comparison, this step will wait for the comparison to be true before proceeding. The verification is performed after the server has responded.
+
+> **Tip**
+> <br>
+> <br>
+> Check out this <a href="https://www.youtube.com/watch?v=Klt3fRglAeU&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h&index=3">video tutorial</a> about wait and verification steps in Test Studio.
 
 1.&nbsp; Highlight the desired element. From the menu that appears choose **Quick Steps > Wait - element exists**.
 

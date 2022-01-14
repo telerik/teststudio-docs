@@ -18,6 +18,11 @@ In this article you will find useful details and hints about the highlighting fe
 1. [_Locate in DOM_ Option in Highlighting Menu](#locate-in-dom)
 1. [_Build Step_ Option in Highlighting Menu](#build-step)
 
+> **Tip**
+> <br>
+> <br>
+> Check out this <a href="https://www.youtube.com/watch?v=dIiXjwsPUtA&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h&index=4">neat video tutorial</a> which will help in analyzing the elements in the tested application.
+
 ## Enable or Disable Highlighting of Elements
 
 Once in an active recording session you can enable or disable the _highlighting_ from the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a>.

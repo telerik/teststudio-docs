@@ -7,9 +7,20 @@ position: 1
 ---
 # If...Else
 
-Walk-through the IF...Else conditional statement process - <a href="/features/logical-steps/if-else#Build-a-new-IfElse-Statement">how to build a meaningful if...else statement</a>, <a href="/features/logical-steps/if-else#Execution-status-and-Results">what the execution status looks like</a> and a sample on <a href="/features/logical-steps/if-else#Check-if-an-element-exists-in-the-DOM">how to check if an element exists in the DOM</a>.
+Test Studio provides built-in conditions for the test scenarios which cannot be covered by a simple sequence of actions. One of the available conditions is the if..else block to determine how to proceed the test based on a specific condition.
 
-## Build a new If...Else Statement
+In this article you can find the following topics:
+
+* [Add the if..else condition and setup the test steps](#build-an-ifelse-statement)
+* [Explore the outcome of running the test](#execution-status-and-results)
+* [An example how to verify if an element exists on the page](#check-if-an-element-exists-in-the-dom)
+
+> __Tip__
+><br>
+><br>
+> Check this <a href="https://www.telerik.com/blogs/test-studio-step-by-step-testing-execution-paths-conditional-tests">step-by-step tutorial blog post</a> on how to enhance your test scenarios with conditional steps.
+
+## Build an If...Else Statement
 
 1.&nbsp; Create a Web Test and click Record.
 
@@ -60,7 +71,7 @@ Walk-through the IF...Else conditional statement process - <a href="/features/lo
 
 ![Drag in ELSE Step][9]
 
-## Execution status and Results
+## Execution Status and Results
 
 15.&nbsp; Save and Execute the test.
 
@@ -73,7 +84,7 @@ Walk-through the IF...Else conditional statement process - <a href="/features/lo
 
 ![Navigate to Bing][11]
 
-## Check if an element exists in the DOM
+## Check if an Element Exists in the DOM
 
 To check if an element is present in the application DOM - a "<a href="/features/recorder/verifications/Wait" target="_blank">wait on element</a>" verification has to be used. It returns *true/false* output and **if condition** could be completed not braking the test execution. On the following image - if step 4 does not execute - the *SecondLink* element would not be added to the DOM and steps would continue in the **else branch**.
 

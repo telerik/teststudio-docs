@@ -23,6 +23,11 @@ Once you have successfully <a href="/prerequisites/installation/install-procedur
 {% include cta-panel-teststudio-overview.html %}
 {% endif %}
 
+> __Tip__
+><br>
+><br>
+> Check out the <a href="https://www.youtube.com/watch?v=oTGExEVfdsk&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h" target="_blank">Test Studio Getting started video playlist</a> on YouTube.
+
 ## Starting Welcome Screen
 
 Launching Test Studio will get you to the [**Welcome Screen**](/general-information/start-a-project/welcome-screen). It lets you create new or open existing projects, access demo resources, see notifications about software updates and news related to the product.

@@ -45,6 +45,11 @@ Among all available buttons you can see the __Record__ one at the first position
 
 * And, finally, when it comes to steps, which are not related to a specific application or element from it, you can also __add Common Steps from the__ <a href="/features/custom-steps/overview" target="_blank">__Step Builder pane__</a> - like adding a <a href="/features/coded-steps/coded-step" target="_blank">coded step</a>, or a <a href="/features/custom-steps/test-as-step" target="_blank">test as step</a>, comment, or <a href="/features/custom-steps/capture" target="_blank">refreshing the browser</a>, <a href="/features/logical-steps/if-else" target="_blank">if...else statement</a>, etc.
 
+> **Tip**
+> <br>
+> <br>
+> Check out this <a href="https://www.youtube.com/watch?v=Klt3fRglAeU&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h&index=3">video tutorial</a> about wait and verification steps in Test Studio.
+
 ### Web Test Recording
 
 When starting a recording session in the context of a web test you need to __enter the URL__ of the page to automate and __choose a browser__ to load the application in. The _Recording_ dialog, which appears allows you to define these parameters.
@@ -90,11 +95,11 @@ The Test Studio UI remains in the background of the application, but once you in
 
 ![Recorded steps in WPF Test][12]
 
-## Stop the Recording Session
+## __Stop the Recording Session__
 
 The mechanism to terminate an active recording session is to completely __close the automated browser or WPF application__ - this is how all processes and communication channels between the app and Test Studio gets dismissed.
 
-## Attach the Recorder to a Running Application (Applicable for IE or WPF Only)
+## __Attach the Recorder to a Running Application (Applicable for IE or WPF Only)__
 
 In some occasions it is very useful to attach a recorder to the application, when it is in certain state, and then continue the recording process. The specifics of the recording process allow to __attach a recorder and trigger a recording session to an already running application__.
 

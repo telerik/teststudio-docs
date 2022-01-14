@@ -11,8 +11,8 @@ Test Studio allows you to combine the recorded actions in a test with coded solu
 In this article you can find the important topics about coding in Test Studio project:
 
 - [What language can I use to write code in Test Studio tests?](#what-coding-language-can-be-used-in-test-studio-project)
-- [How to create a coded file in the test?](#how-to-implement-a-coded-function-in-the-test)
 - [Can I use the recorded steps in code?](#convert-a-recorded-step-to-coded-function)
+- [How to create an empty coded function in the test?](#insert-empty-coded-step)
 - [How to create a code item accessible for all tests in the project?](#which-is-the-standalone-code-file)
 - [Can I search in the code file?](#code-editor-options)
 
@@ -28,6 +28,25 @@ Test Studio supports two types of coding languages - __C#__ and __VisualBasic__.
 > Once the scripting language is set on project level, it __cannot be changed__ to the other option. If you need to transform the coded solution to the other language, you need to __manually convert the code___ to the other scripting language.
 
 ## How to Implement a Coded Function in the Test?
+
+In Test Studio tests you can take advantage of reusing the recorded steps as coded functions as well as adding your own custom coded logic.
+
+### Convert a Recorded Step to Coded Function
+
+Most of the recorded steps can be converted to their corresponding coded function and allows to further customize the tests and actions. Select a recorded step, right click on it to trigger the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose the option __Edit in Code__.
+
+![Convert to code][4]
+
+This automatically converts the step into a coded one and creates a new test method in the coded file associated with the test. The method represents the code required for this step depending on its type and different settings and properties set.
+
+![Recorded step in code][5]
+
+> __Tip__
+><br>
+><br>
+> Check out <a href="https://www.telerik.com/blogs/writing-coded-steps-test-studio" target="_blank">this neat tutorial</a> on converting steps to coded functions in Test Studio.
+
+### Insert Empty Coded Step
 
 To insert an empty coded step in the test choose the 'Coded Step' option from the <a href="/features/custom-steps/overview" target="_blank">Step Builder</a> - it is listed under the __Common__ section.
 
@@ -73,16 +92,6 @@ Each coded step in the test needs to be mapped to a method from the coded file. 
 ><br>
 ><br>
 > Multiple coded steps in the same test can be mapped to a single method in the test coded file.
-
-## Convert a Recorded Step to Coded Function
-
-Most of the recorded steps can be converted to their corresponding coded function and allows to further customize the tests and actions. Select a recorded step, right click on it to trigger the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose the option __Edit in Code__.
-
-![Convert to code][4]
-
-This automatically converts the step into a coded one and creates a new test method in the coded file associated with the test. The method represents the code required for this step depending on its type and different settings and properties set.
-
-![Recorded step in code][5]
 
 ## Which is the Code-Behind File?
 

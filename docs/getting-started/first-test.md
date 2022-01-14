@@ -14,7 +14,13 @@ Once you have successfully <a href="/getting-started/first-project" target="_bla
 
 <br><br>
 <div><a href="/getting-started/first-project">Back to <strong>Launch Test Studio</strong></a><a style="float:right" href="/getting-started/first-execution">Go to <strong>Execute Your First Test</strong></a></div>
-<br><br>
+
+<br>
+
+> __Tip__
+><br>
+><br>
+> Check this <a href="https://www.telerik.com/blogs/test-studio-step-by-step-creating-tests">step-by-step tutorial blog post</a> on how to create your first test.
 
 ## Add a Test to the Project
 
