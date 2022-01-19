@@ -62,6 +62,7 @@ Test Studio also supports load and performance testing by allowing you to conver
 * [Record Your First Test](/getting-started/first-project)
 * [Analyze the Execution Results](/getting-started/analyze-the-results)
 * [Getting Started Videos](https://www.youtube.com/watch?v=oTGExEVfdsk&list=PLvmaC-XMqeBa7evdakaPkd_kctAJRm85h)
+* [Getting Started Blogs](https://www.telerik.com/blogs/tag/test-studio-step-by-step)
 
 ### Latest Version
 
