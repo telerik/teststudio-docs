@@ -74,7 +74,7 @@ Hit the **Apply** button and check the *'Telerik Scheduling Service is running'*
 > <br>
 > If the Test Studio services are hosted on different machines, you can enter the respective machine name or IP to configure these.
 
-#### Automatic Email Notification for Scheduled Executions
+### Automatic Email Notification for Scheduled Executions
 
 Optionally, the **Test Studio Scheduling service can be configured to use an Email (SMTP) server** by specifying the email server connection details. By adding these settings you will be able to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list.
 

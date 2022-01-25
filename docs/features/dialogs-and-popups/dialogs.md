@@ -1,133 +1,59 @@
 ---
-title: Dialogs
-page_title: Dialogs
-description: "How to handle download upload confirm alert logon prompt generic FileUpload dialog in Test Studio test. "
-previous_url: /user-guide/dialogs-and-popups/dialogs.aspx, /user-guide/dialogs-and-popups/dialogs
-position: 1
+title: Properties for Dialog Handling Steps
+page_title: Dialog Handling Steps in Test Studio
+description: "Can I set the time to wait for a dialog to be handled. Dialog handling Timeouts and properties. Add a handle dialog step manually."
+position: 0
 ---
-# Dialogs
+# Dialog Handling Steps
 
-- Not all test steps play out directly inside the browser. Web pages can display popup dialog windows in the form of alerts, confirmations, and other browser instances. 
-- Test Studio allows you to track and respond to dialog windows and can handle HTML popups and Win32 dialogs.
-- An HTML popup is a new browser window that is detected automatically. Test Studio will prompt you to automate the popup.
-- A Win32 dialog is not a browser window, but a dialog displayed by the Windows operating system.
-- Test Studio typically inserts the appropriate handler into your test automatically when recording against a dialog. You can also insert a dialog handler manually, however.
+<a href="/automated-tests/recording/recording-dialogs" target="_blank">Recording dialogs</a> is an out-of-the-box feature in Test Studio. The steps recorded for the dialogs provide various properties to fine tune the execution. The steps to handle dialogs can be added also manually in the test.
 
-### Version 2015 R1 and later
+In this article you can find useful information about:
 
-As of version 2015 R1 you can find the dialog steps in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> under Dialogs section.
+- [Add manually a step to handle dialog](#add-a-handle-dialog-step-manually)
+- [Dialog steps timeouts](#timeouts)
+- [Choose button to handle the dialog box](#handle-button)
+- [File location for download and upload dialogs](#download-and-upload-file-locations)
 
-<table id="no-table">
-<tr>
-<td>![Standalone][23]<br>**Standalone Version**</td>
-<td>![VS Plugin][24]<br>**VS Plugin**</td>
-</tr>
-<table>
+## Add a Handle Dialog Step Manually
 
-### Version 2014 R4 and earlier
+Even if you work on the tests in the project and have no active recording session, you can still add the specific steps to handle a dialog from the <a href="/features/custom-steps/overview#add-a-general-step-from-the-step-builder" target="_blank">Step Builder</a>. All dialog steps are listed under the General section of the Step Builder, under __Dialogs__. Select the type of dialog to handle and add hit the __Add Step__ button.
 
-<table id="no-table">
-<tr>
-<td>![Standalone][1]<br>**Standalone Version**</td>
-<td>![VS Plugin][2]<br>**VS Plugin**</td>
-</tr>
-<table>
+![Step Builder Dialogs section](/img/features/dialogs-and-popups/dialogs/step-builder-dialogs.png)
 
-## Alert
+## Properties for Handle Dialog Steps
 
-Displays a message and a single "OK" button.
+The various properties allows you to fine tune the steps to handle dialogs across the automated page.
 
-<table id="no-table">
-<tr>
-<td>![Alert][3]</td><td>![Alert][4]</td>
-</tr>
-<tr>
-<td>![Alert][5]</td><td>![Alert][6]</td>
-</tr>
-<table>
+## Timeouts
 
-## Confirm
+The properties common for all dialogs are the __HandleTimeout__ - controls the time, which the test waits for the dialog to be handled, and the __InitializationTime__ - controls the time, which the test waits before it starts searching for such dialog. It is useful to increase these when it takes longer time for the dialog to appear, or to be finished (usually for the handle download dialogs, when the file to download is too large).
 
-Displays a message and asks a question.
+![Dialog steps timeouts](/img/features/dialogs-and-popups/dialogs/timeouts.png)
 
-<table id="no-table">
-<tr>
-<td>![Confirm][7]</td><td>![Confirm][8]</td>
-</tr>
-<tr>
-<td>![Confirm][9]</td><td>![Confirm][10]</td>
-</tr>
-<table>
+## Handle Button
 
-## Logon
+Each dialog step gives the option to change the button used to handle it during recording, or to adjust it if added manually.
 
-Enters username, password, and click "OK".
+![Dialog handle button](/img/features/dialogs-and-popups/dialogs/handle-button.png)
 
+The dropdown list provides all possible options for a button to handle a dialog. If you choose wrong type of button for the specific step, there is a prompt message to inform you which are the possible dismiss options for this dialog.
 
-<table id="no-table">
-<tr>
-<td>![Logon][11]</td><td>![Logon][12]</td>
-</tr>
-<tr>
-<td>![Logon][13]</td><td>![Logon][14]</td>
-</tr>
-<table>
+![Choosing wrong handle button](/img/features/dialogs-and-popups/dialogs/handle-button-error.png)
 
-## Prompt
+## Download and Upload File Locations
 
-Asks to provide some additional information.
+The __DownloadPath__ and __FileUploadPath__ properties are mandatory for the respective type dialog. They require a valid full path to the file to interact with.
 
-<table id="no-table">
-<tr>
-<td>![Prompt][15]</td><td>![Prompt][16]</td>
-</tr>
-<tr>
-<td>![Prompt][17]</td><td>![Prompt][18]</td>
-</tr>
-<table>
+![File Locations](/img/features/dialogs-and-popups/dialogs/file-locations.png)
 
-## FileUpload
+> __Note__
+><br>
+><br>
+> You __cannot directly use the Windows shortcut locations on the disc like _Desktop_ or _Documents___. If you record the test using any of these locations, the path is fetched as _Downloads/fileName.*_, but this is not a valid file path to use and the test fails upon execution.
+><br>
+> To use any of these reserved folders, you need to use their complete paths like _C:\Users\<userName>\Desktop__ or _C:\Users\<userName>\Documents_.
 
-Inputs the path of a file to be uploaded to the server. 
+The __FileUploadPath__ accepts multiple files listed quoted and space separated. These will be uploaded if the server accepts multiple files upload.
 
-![Upload][19]
-
-
-Indicate multiple files for upload using space-separated quoted file paths.
-
-![Upload][20]
-
-## Download
-
-Saves a file locally to disk.
-
-![Download][21]
-
-The DownloadPath property is mandatory and needs to provide a full valid path where to save the file along with its name.
-
-![Download Step][22]
-
-[1]: /img/features/dialogs-and-popups/dialogs/fig1.png
-[2]: /img/features/dialogs-and-popups/dialogs/fig2.png
-[3]: /img/features/dialogs-and-popups/dialogs/fig3.png
-[4]: /img/features/dialogs-and-popups/dialogs/fig4.png
-[5]: /img/features/dialogs-and-popups/dialogs/fig5.png
-[6]: /img/features/dialogs-and-popups/dialogs/fig6.png
-[7]: /img/features/dialogs-and-popups/dialogs/fig7.png
-[8]: /img/features/dialogs-and-popups/dialogs/fig8.png
-[9]: /img/features/dialogs-and-popups/dialogs/fig9.png
-[10]: /img/features/dialogs-and-popups/dialogs/fig10.png
-[11]: /img/features/dialogs-and-popups/dialogs/fig11.png
-[12]: /img/features/dialogs-and-popups/dialogs/fig12.png
-[13]: /img/features/dialogs-and-popups/dialogs/fig13.png
-[14]: /img/features/dialogs-and-popups/dialogs/fig14.png
-[15]: /img/features/dialogs-and-popups/dialogs/fig15.png
-[16]: /img/features/dialogs-and-popups/dialogs/fig16.png
-[17]: /img/features/dialogs-and-popups/dialogs/fig17.png
-[18]: /img/features/dialogs-and-popups/dialogs/fig18.png
-[19]: /img/features/dialogs-and-popups/dialogs/fig19.png
-[20]: /img/features/dialogs-and-popups/dialogs/fig20.png
-[21]: /img/features/dialogs-and-popups/dialogs/fig21.png
-[22]: /img/features/dialogs-and-popups/dialogs/fig21a.png
-[23]: /img/features/dialogs-and-popups/dialogs/fig22.png
-[24]: /img/features/dialogs-and-popups/dialogs/fig23.png
+![Multiple files upload](/img/features/dialogs-and-popups/dialogs/fig20.png)

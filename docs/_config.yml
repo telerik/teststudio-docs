@@ -236,7 +236,7 @@ navigation:
         title: "Project Settings"
         position: 9
     features/dialogs-and-popups:
-        title: "Dialogs & Popups"
+        title: "Steps to Handle Dialogs & Popups"
         position: 4
     features/custom-steps:
         title: "Custom Steps from Step Builder"

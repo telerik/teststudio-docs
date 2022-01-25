@@ -2,7 +2,7 @@
 title: Automate PDF Validation
 page_title: How to Validate PDF File in Test Studio
 description: "Test Studio test Recording supports codeless PDF validation codeless. Test automation pdf with Test Studio. validate the content of a PDF file in Test Studio test. Test Studio is among the pdf automation tools. Validate PDF content through codeless verifications for the text or images in PDF file in Test Studio tests. Compare two PDF files in Test Studio test. Open a PDF file in Test Studio test and read its content. During the test run there is a PDF file created and stored locally on the hard disc. I would like to open that one and read its content."
-position: 3
+position: 5
 ---
 # Validate PDF File
 
