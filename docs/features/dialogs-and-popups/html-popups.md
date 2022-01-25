@@ -8,7 +8,7 @@ position: 1
 ---
 # Connect and Close Popup Steps
 
-<a href="#how-to-handle-a-popup-page-opened-in-new-tab" target="_blank">Detecting popups opened in new window</a> is an out-of-the-box feature in Test Studio. The steps recorded for connecting to and closing the popups provide various properties to fine tune the execution. The steps to connect to a popup and then close it, can be added also manually in the test.
+<a href="/automated-tests/recording/recording-dialogs#how-to-handle-a-popup-page-opened-in-new-tab" target="_blank">Detecting popups opened in new window</a> is an out-of-the-box feature in Test Studio. The steps recorded for connecting to and closing the popups provide various properties to fine tune the execution. The steps to connect to a popup and then close it, can be added also manually in the test.
 
 In this article you can find useful information about:
 
