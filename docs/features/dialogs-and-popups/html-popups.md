@@ -30,7 +30,7 @@ The various properties allows you to fine tune the steps to connect and close po
 
 ## Timeouts
 
-The properties related to timing are the __PopupWaitTimeout__ - this controls the time, which the tests waits for the popup to appear, and the __InitializationTime__ - it controls the time, which the test waits before it starts searching for such dialog (applicable for IE browser only). It is useful to increase this, if the popup window/tab requires longer time to popup.
+The properties related to timing are the __PopupWaitTimeout__ - this controls the time, which the test retries to connect to the popup until successful, and the __InitializationTime__ - it controls the time, which the test waits before it starts searching for such dialog (applicable for IE browser only). It is useful to increase this, if the popup window/tab requires longer time to popup.
 
 ![Timoeouts for Connect/Close popup steps](/img/features/dialogs-and-popups/html-popups/popup-steps-timeouts.png)
 
@@ -43,7 +43,7 @@ Test Studio recognizes the new popup windows by their URLs and records the curre
 > __Note__
 ><br>
 ><br>
-> There's a limitation in Test Studio in that it cannot tell the difference between the parent window and the popup window when the URL is the same. Test Studio will randomly connect to the right or wrong one and you cannot control it.
+> If the parent and popup window share the same URL, Test Studio cannot tell the difference between them. Thus, during execution Test Studio will randomly connect to one of them and this cannot be controlled.
 
 ## Popups with Dynamic URL
 
@@ -63,7 +63,7 @@ A Modal popup window is a __child window that requires users to interact with it
 
 ![Modal Window](/img/features/dialogs-and-popups/html-popups/fig1.png)
 
-Test Studio __detects automatically also this type of popups__, but due to their specific behavior, there is no additional recorder loaded for these modal windows. They are recognized in Test Studio by their modal caption and for them the _Connect to/Close pop-up window_ steps can be modified to use the properties __IsModalPopup__, which transforms the step to search for modal window, and the __ModalPopupPartialCaption__, which holds the modal window caption name (can use partial caption).
+Test Studio __detects automatically also this type of popups__, but due to their specific behavior, there is no additional recorder loaded for these modal windows. They are recognized in Test Studio by their modal caption. For them the _Connect to/Close pop-up window_ steps can be modified to use the properties __IsModalPopup__, which transforms the step to search for modal window, and the __ModalPopupPartialCaption__, which holds the modal window caption name (can use partial caption).
 
 ![Connect to Modal Popup](/img/features/dialogs-and-popups/html-popups/modal-popup.png)
 

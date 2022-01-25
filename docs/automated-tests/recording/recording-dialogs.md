@@ -8,7 +8,7 @@ position: 3
 ---
 # How to Handle Dialogs and Popups Generated from the Tested Page
 
-Test Studio recording process recognizes the different dialogs generated from the automated page and fetches what actions was taken to handle the dialog. The corresponding actions are listed as a step in the test.
+Test Studio recording process recognizes the different dialogs generated from the automated page and detects what actions are taken to handle the dialog. These actions are represented as a single step in the test.
 
 In this article you can find out more about dialog handling in Test Studio tests divided in few sections:
 
@@ -64,7 +64,7 @@ To try out these types of dialogs you can use the _'Try It Yourself'_ buttons on
 
 ### Logon Dialog
 
-This is an authorization dialog, which requires the user to enter username and password in order to access the requested page. If the logon dialog is canceled or the entered credentials are incorrect, the page returns some sort of an error that the request is not unauthorized.
+This is an authorization dialog, which requires the user to enter username and password in order to access the requested page. If the logon dialog is canceled or the entered credentials are incorrect, the page returns some sort of an error that the request is not authorized.
 
 Due to the specifics of this dialog and the Test Studio recording process flow, this dialog requires some additional actions to be recorded. These are listed step by step in the below list:
 
