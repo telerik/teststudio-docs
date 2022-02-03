@@ -8,7 +8,7 @@ position: 10
 
 Once you have <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured your Scheduling setup</a> with at least one execution machine connected and your current <a href="/features/scheduling-test-runs/connect-to-scheduling-server#schedule-tests-on-remote-execution-machines" target="_blank">project is connected to the Scheduling service</a>, you can proceed with <a href="/features/scheduling-test-runs/schedule-execution" target="_blank">scheduling test lists</a>.
 
-If a test list is scheduled to be executed any time in the future or you is set for recurring runs, you may need to cancel the upcoming execution. There are a few ways to stop or cancel a scheduled job, once it has been submitted.
+If a test list is scheduled to be executed any time in the future or is set for recurring runs, you may need to cancel the upcoming execution. There are a few ways to stop or cancel a scheduled job, once it has been submitted.
 
 ## Delete an Upcoming Scheduled Test List from Calendar
 
