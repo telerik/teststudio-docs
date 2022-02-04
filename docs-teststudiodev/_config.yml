@@ -1,9 +1,16 @@
 # The public documentation URL, used for sitemap.xml
 url: "https://docs.telerik.com/devtools/teststudiodev"
 
+## The application virtual path
+baseurl: "/devtools/teststudiodev"
+
+## The product name
+productName: "Test Studio Dev Documentation"
+
 # Exclude files which should not be in the output
 exclude: [README.md, Gemfile, Gemfile.lock, docs-watcher/*]
-navigation:
+#navigation:
+exclude_navigation: ["copyright.html"]
 
 
 ## List your directory names and order here, like this:

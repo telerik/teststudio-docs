@@ -5,7 +5,8 @@ baseurl: "/teststudio-apis"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,run.cmd]
-navigation:
+#navigation:
+exclude_navigation: ["copyright.html"]
 
 
 
