@@ -9,12 +9,11 @@ productName: "Test Studio Dev Documentation"
 
 # Exclude files which should not be in the output
 exclude: [README.md, Gemfile, Gemfile.lock, docs-watcher/*]
-#navigation:
 exclude_navigation: ["copyright.html"]
 
 
 ## List your directory names and order here, like this:
-    
+navigation:
     prerequisites:
         title: Prerequisites
         position: 1

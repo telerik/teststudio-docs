@@ -5,11 +5,10 @@ baseurl: "/teststudio-apis"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,run.cmd]
-#navigation:
 exclude_navigation: ["copyright.html"]
 
 
-
+navigation:
 # === Test Studio for APIs ===
     getting-started:
         title: "Getting Started"
