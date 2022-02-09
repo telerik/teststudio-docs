@@ -137,7 +137,6 @@ Below you can find a short description of each button in the toolbar (in the ord
 * <a href="/features/project-settings/browsers" target="_blank">Calibrate Browsers</a>
 * <a href="/automated-tests/wpf/wpf-test" target="_blank">Configure WPF Application</a>
 
-
 [1]: /img/automated-tests/recording/overview/fig1.png
 [2]: /img/automated-tests/recording/overview/fig2.png
 [3]: /img/automated-tests/recording/overview/fig3.png

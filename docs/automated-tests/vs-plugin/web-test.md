@@ -1,71 +1,52 @@
 ---
-title: Web Test
-page_title: Create and Record a Web Test (VS plugin)
-description: "Test Studio Create and Record a Web Test (VS plugin) in Visual Studio Plugin"
+title: Create and Record Web Test
+page_title: Create and Record a Web Test in Visual Studio Plugin
+description: "Create and Record a Test Studio Web Test in the Visual Studio plugin."
 position: 1
 ---
-# Create and Record a Web Test (VS plugin) #
+# Create and Record a Web Test (VS plugin)
 
-The Test Studio project in Visual Studio uses the Visual Studio context and therefore some of the main actions have different look.
+The feature of Test Studio to record tests by capturing your actions against the tested application is also available in the context of the Visual Studio project.
 
 In this article you can find how to add and record a new web test in the Visual Studio plugin project for Test Studio.
 
 ## Create a Web Test
 
-1. Launch Visual Studio and create a Test Studio project from the _Start Page_.
+Each newly created Test Studio project in Visual Studio contains one empty web test. Double click the test file (WebTest1.tstest) in the __Solution Explorer__ to open it. Right click on it to choose the option to rename it.
 
-2. Click __Telerik > Test Studio > Create New Test Project__.
+![Open web test](/img/general-information/create-test-vsplugin/web-test/open-test.png)
 
- 	<table id=no-table>
-		<tr>
-			<td>![Create project][1] <br><br>**Visual Studio 2017**</td>
-			<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019**</td>
-		</tr>
-	<table>
+When you need to add new tests in the project, click with the right mouse button on the project name in __Solution Explorer__, select the __Add...__ option and choose between __Test Studio Web Test...__ or __Test Studio WPF Test...__.
 
-3. Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__.
-<br> 
+![Add new test](/img/general-information/create-test-vsplugin/web-test/add-new-test.png)
 
- 	<table id=no-table>
-		<tr>
-			<td>![Choose C#/VB project][2]<br><br>**Visual Studio 2017**</td>
-			<td>![Choose C#/VB project VS 2019][12]<br><br>**Visual Studio 2019**</td>
-		</tr>
-	<table>
+The chosen item is selected in the list of items and you can enter name for the test. Then click the __Add__ button to insert it in the project. To open the test, double click on its name in the Solution Explorer.
 
-4. By default the newly created project contains a Web test.
+![Open new test](/img/general-information/create-test-vsplugin/web-test/open-new-test.png)
 
-	![Web Test by deafault](/img/general-information/create-test-vsplugin/web-test/web-test-by-default.png)
+## Record Steps in a Web Test
 
-5. To add new tests in the project, click with the right mouse button on the project name in _Solution Explorer_, select _Add_ and choose between _Test Studio Web Test..._ or _Test Studio WPF Test..._.
+The __Record__ button is in the test toolbar when a test is opened in the project. Click the button to initiate a recording session.
 
-	![Add new test](/img/general-information/create-test-vsplugin/web-test/add-new-test.png)
+![Record button in the test toolbar](/img/general-information/create-test-vsplugin/web-test/record-button.png)
 
-The respective item is selected in the list of items, type a name and click _Add_. To open the test, double click on its name in the Solution Explorer.
+The __Recording__ dialog pops up and you can enter the URL of the page you test and select which browser to use for this recording session. In the __Recent URLs__ section you can find and  select the URls used in the latest recording sessions.
 
-	![Open new test](/img/general-information/create-test-vsplugin/web-test/open-new-test.png)
+![Select url and browser](/img/general-information/create-test-vsplugin/web-test/enter-url.png)
 
-## Record a Web Test
+Click the __Record__ button to launch the browser in recording mode. The selected browser starts and navigates to the listed URL. Once the page is completely loaded, the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Recorder Toolbar__</a> gets attached to the browser instance and you can <a href="/automated-tests/recording/overview#how-to-add-steps-in-the-test" target="_blank">add the steps</a> for the automation scenario.
 
-1. Click the ___Record___ button to start the recording process.
+![Browser with attached recorder][6]
 
-	![Record][3]
+To __stop the recording session__ close the browser.
 
-	Enter the automated page URL in the popped up dialog and select the recording browser. Then click the __Record__ button to launch the recording browser session.
+## Execute the Recorded Steps
 
-	![Select url and browser](/img/general-information/create-test-vsplugin/web-test/enter-url.png)
+The <a href="/automated-tests/test-execution/quick-execution" target="_blank">__Quick Execution__ options</a> from Test Studio project are also available in the context of the Visual Studio project. The __Execute__ button is in the test toolbar when a test is opened in the project and is enabled when the test has at least one step to execute.
 
-	The latest URLs used for recording will be listed in the ___Recent URLs___ section and you can select directly any of them.
+![Execute test](/img/general-information/create-test-vsplugin/web-test/execute-test.png)
 
-2. The recording browser will start and navigate to the selected URL. Once the URL is fully loaded the __Test Studio Recorder Toolbar__ will be attached to the browser and you can continue performing the steps of the auomation scenario.
-
-	![Browser with attached recorder][6]
-
-3. Each action against the page will be automatically recorded and presented by a single step in the test.
-
-	![Perform actions](/img/general-information/create-test-vsplugin/web-test/recorded-steps.png)
-
-	To __stop the recording__ session close the browser.
+If you want to use the Visual Studio Test Explorer to execute the Test Studio tests, check <a href="/automated-tests/vs-plugin/vs-test-explorer" target="_blank">this topic</a>.
 
 [1]: /img/general-information/create-test-vsplugin/web-test/fig1.png
 [2]: /img/general-information/create-test-vsplugin/web-test/fig2.png

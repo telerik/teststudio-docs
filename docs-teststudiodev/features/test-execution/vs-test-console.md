@@ -10,6 +10,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/jj155796.aspx" target="_bl
 
 There are few requirements in order to execute Test Studio tests and test lists with the Visual Studio test runner VSTest.Console.exe. Follow the steps below to be able to trigger test runs with VSTest.Console.exe.
 
+
 __1.__&nbsp; __Install Autofac.dll and Newtownsoft.Json.dll in the GAC__ (Global Assembly Cache). The dll files are stored in the Test Studio installation folder in the _bin_ subfolder - the default location is _C:\Program Files (x86)\Progress\Test Studio\Bin_.
 
 > __Tip__

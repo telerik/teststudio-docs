@@ -1,35 +1,42 @@
 ---
-title: Test Lists in Visual Studio 2017 and 2019
-page_title: Test Lists in Visual Studio 2017 and 2019
-description: "Test Lists in Visual Studio. How to create a test list (suite) in Visual Studio. Static test list dynamic test list"
+title: Test Lists in Visual Studio 2017 and Later
+page_title: Test Lists in Visual Studio 2017 and Later
+description: "Test Studio Test Lists in Visual Studio - supported for Visual Studio 2017, 2019 and 2022. How to create a list (suite) of Test Studio tests in Visual Studio project. Can I execute static or dynamic Test Studio test list from Visual Studio project."
 position: 3
 ---
-# Test Lists in Visual Studio 2017 and 2019 #
+# Test Lists in Visual Studio 2017 and Later
 
-Visual Studio 2017 and 2019 allow the implementation and usage of the Test Studio test lists in the plugin. This article describes the specifics of how to create and maintain the test lists in the project in Visual Studio.
+Visual Studio 2017 and later allows you to add and run the <a href="/automated-tests/test-lists/test-lists-standalone">Test Studio test lists</a> in the context of the Visual Studio project. Depending on the requirements there are two options of test lists, which you can add in the Visual Studio project - **Static** and **Dynamic**.
 
-There test lists can be two types as well - **Static** and **Dynamic**.
+In this article you can find useful information on the below topics:
 
-* A <a href="#add-test-files-to-static-test-list">Static Test List</a> contains a fixed, predetermined list of tests.
-* A <a href="#add-test-files-to-dynamic-test-list">Dynamic Test List</a> contains a list of tests that is dynamically generated upon execution based on <a href="/features/test-maintenance/test-properties-vs">test properties</a>.
+* [How to create a test list in Visual Studio project](#create-a-test-list-in-visual-studio-project)
+* [How to add a test list in an existing project prior Test Studio R3 2019 (v.2019.3.xx)](#add-a-test-list-in-an-existing-project)
+* [Setup a static test list](#add-test-files-to-static-test-list)
+* [Setup a dynamic test list](#add-test-files-to-dynamic-test-list)
+* [Customize settings for the test list in Visual Studio](#test-list-settings-in-visual-studio)
+* [Execute test lists in Visual Studio](#execute-test-list-files-in-visual-studio)
 
-> __Note!__ Test lists in Visual Studio can only execute web or WPF functional tests.
+> __Note!__
+><br>
+><br>
+> Test lists in Visual Studio can __only execute web or WPF__ functional tests.
 
-## Create a Test List File in Visual Studio ##
+## Create a Test List in Visual Studio Project
 
-A test list file has the extension ___*.aiilist___ and can be added in a Visual Studio project under a predefined folder named ___TestLists___ - this folder exists in each new project.
+A Test Studio test list file has the extension __*.aiilist__ and can be added in a Visual Studio project under a predefined folder named __TestLists__ - this folder exists by default in each new project.
 
 ![TestLists folder in Solution explorer][1]
 
-Right click on the ___TestLists___ folder and choose __Test Studio Test List__ or __Test Studio Dynamic Test List__ from the _Add_ section sub-menu.
+Right click on the __TestLists__ folder and choose from the _Add_ section sub-menu any of the options __Test Studio Test List__ or __Test Studio Dynamic Test List__ .
 
 ![Add a test list file][2]
 
-Choose a meaningful name for the test list and ensure the correct item from the item list is selected. Confirm the test list creation with the _Add_ button.
+Set a name for the test list and double check if the correct test list item from the list is selected. Confirm the test list creation by clicking the _Add_ button.
 
 ![Name and create the test list file][3]
 
-The test list file will be listed under the ___TestLists___ folder.
+The newly created test list is listed under the __TestLists__ folder.
 
 ![Test list file listed under TestLists folder][4]
 
@@ -37,57 +44,64 @@ Build the solution (press F6) and all test list files will appear in the Test Ex
 
 ![Test list files listed in Test Explorer][5]
 
-### Add a Test List in Newly Created Project ###
+## Add a Test List in an Existing Project
 
-Ensure you are using Test Studio with minimum version 2019.3 and create a new Test Studio project in Visual Studio 2017 or 2019. In the Solution Explorer you can add test list files under the folder named ___TestLists___.
+The Test Studio test lists in Visual Studio are implemented with Test Studio version 2019.3.xx. Thus, any project created with Test Studio prior this version requires some adjustment to enable the usage of test lists - the __TestLists__ folder is not included in the solution for older projects and needs to be added manually.
 
-### Add a Test List in an Existing Project ###
-
-Once you upgrade Test Studio to minimum version 2019.3 and open an existing project, you will be prompted with a message, that the project needs to be upgraded as well. Once the upgrade is done and the project is loaded, you will need to include the ___TestLists___ folder in the solution.
-
-<br>
-
-To do that select the Test Studio project in the __Solution Explorer__ and click the ___Show All Files___ button.
+Open the Test Studio project and choose the option __Show All Files__ in the __Solution Explorer__.
 
 ![Show All Files for the TS project][6]
 
-Now all files from the project root folder will be listed in the __Solution Explorer__. Right click the ___TestLists___ folder and select ___Include In Project___.
+With this all items from the project root folder will be listed in the __Solution Explorer__. Select the __TestLists__ folder and choose the  __Include In Project__ option from the right click context menu.
 
 ![Include TestLists folder in TS project][7]
 
-Again click the ___Show All Files___ button to hide the other files. Save and reopen the solution to apply the changes. Now the ___TestLists___ folder can be used to add test list files in it.
+Click the __Show All Files__ button again to toggle the view and __hide the other files__ and folders. Save and reopen the solution to apply the changes. Now the __TestLists__ folder can be used to add test list files in it as described [above](#create-a-test-list-in-visual-studio-project).
 
-## Add Test Files to Static Test List ##
+## Add Test Files to Static Test List
 
-Once a test list file is added into the ___TestLists___ folder, double click it to choose the test files to add in it.
+Once a static test list file is added into the __TestLists__ folder, double click this to open it. In this view you can choose the test files to include in the test list. All tests in the project are listed on the left side of the pane - you can use the arrows to move a file on the right side to include it in the test list.
 
 ![Add test to static list][8]
 
-Save the test list file to apply the changes and execute the test list from the ___Test Explorer___ in Visual Studio.
+Save the test list file to keep the changes. The test list can be [executed](#execute-test-list-files-in-visual-studio) from the __Test Explorer__ in Visual Studio.
 
-## Add Test Files to Dynamic Test List ##
+## Add Test Files to Dynamic Test List
 
-Once a test list file is added into the ___TestLists___ folder, double click it to craft the rules to filter, upon specific criteria, the test files to add.
+Once a dynamic test list file is added into the __TestLists__ folder, double click this to open it and craft the rules to filter the test files to add in the list.
 
 ![Add test to dynamic list][9]
 
-The rules can be built upon the specific <a href="/features/test-maintenance/test-properties-vs" target="_blank">test properties</a>..
+This type of test list lets you choose the tests to include dynamically based on some of the <a href="/features/test-maintenance/test-properties-vs" target="_blank">test properties</a>. These, which you can rely upon, are the user-defined properties - Name, Owner, Path, Priority and the custom properties.
 
 ![Available properties to create rules][10]
 
-> __Note!__ Each time you run a dynamic test list, the project is being queried and only the tests, which meet the criteria of the rules, are executed.
+Save the test list file to keep the changes. The test list can be [executed](#execute-test-list-files-in-visual-studio) from the __Test Explorer__ in Visual Studio.
 
-__See also:__ You can find further interesting details in the following <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">in-depth look at Dynamic Test Lists</a>.
+> __Note!__
+><br>
+><br>
+> Each time a dynamic test list run is initiated, all tests in the project get queried and only these, which meet the criteria of the rules, are included in the test list and executed.
+><br>
+><br>
+> __Tip__
+><br>
+><br>
+> You can find further interesting details in the following <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">in-depth look at Dynamic Test Lists</a>.
 
-## Test List Settings in Visual Studio ##
+## See Also
 
-To change any of the <a href="/general-information/test-execution/test-list-settings" target="_blank">Test List settings</a> in Visual Studio, use the gear icon in the upper right corner in each test list.
+* <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">In-depth look at Dynamic Test Lists</a>.
+
+## Test List Settings in Visual Studio
+
+<a href="/general-information/test-execution/test-list-settings" target="_blank">Test list settings</a> can be customized to fit the specific environment and customer requirements. In Visual Studio you can access these through the _gear_ icon in the upper right corner when a test list file is opened.
 
 ![Test List Settings][11]
 
-## Execute Test List Files in Visual Studio ##
+## Execute Test List Files in Visual Studio
 
-To execute the designed test lists in Visual Studio, you can use the different <a href="/general-information/test-execution/vs-test-explorer#run-tests-and-test-lists-in-test-explorer" target="_blank">Run options in Visual Studio Test Explorer</a>.
+To execute the test lists in Visual Studio, you can use the different <a href="/general-information/test-execution/vs-test-explorer#run-tests-and-test-lists-in-test-explorer" target="_blank">Run options in Visual Studio Test Explorer</a>.
 
 [1]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig1.png
 [2]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig2.png

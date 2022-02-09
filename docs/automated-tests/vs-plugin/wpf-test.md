@@ -1,63 +1,56 @@
 ---
-title: WPF Test
-page_title: Create and Record a Wpf Test (VS plugin)
-description: "Test Studio Create and Record a Wpf Test (VS plugin)"
+title:  Create and Record WPF Test
+page_title: Create and Record a WPF Test in Visual Studio Plugin
+description: "Create and Record a Test Studio WPF Test in the Visual Studio plugin."
 position: 2
 ---
 # Create and Record a WPF Test (VS plugin) 
 
-The Test Studio project in Visual Studio uses the Visual Studio context and therefore some of the main actions have different look.
+The feature of Test Studio to record tests by capturing your actions against the tested application is also available in the context of the Visual Studio project.
 
-In this article you can find how to add and record a new web test in the Visual Studio plugin project for Test Studio.
+In this article you can find how to add and record a new WPF test in the Visual Studio plugin project for Test Studio.
 
 ## Create a WPF Test
 
-1. Launch Visual Studio and create a Test Studio project from the _Start Page_.
-2. Click __Telerik > Test Studio > Create New Test Project__.
+Click with the right mouse button on the project name in __Solution Explorer__, select the __Add...__ option and choose the __Test Studio WPF Test...__ option.
 
-	<table id=no-table>
-		<tr>
-			<td>![Create project][1] <br><br>**Visual Studio 2017**</td>
-			<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019**</td>
-		</tr>
-	<table>
+![New WPF test][3]
 
-3. Choose __Telerik > Test > VB or C# Test Studio Project__, name the project, and click __OK__.
+The chosen item is selected in the list of items and you can enter name for the test. Then click the __Add__ button to insert it in the project.
 
-	<table id=no-table>
-		<tr>
-			<td>![Choose C#/VB project][2]<br><br>**Visual Studio 2017**</td>
-			<td>![Choose C#/VB project VS 2019][12]<br><br>**Visual Studio 2019**</td>
-		</tr>
-	<table>
+![Add][4]
 
-4. Right click on the project node in the solution explorer and select __Add > New WPF Test__.
+To open the test, double click on its name in the Solution Explorer. The WPF test requires the path to the tested application to be configured before you can start recording. Click the __Configure WPF Application__ button in the toolbar to open the window with the WPF test settings.
 
-	![New WPF test][3]
+![Configure WPF app button][5]
 
-5. Click __Add__.
+The __Configure WPF Application Path__ window appears and you can insert the necessary information:
 
-	![Add][4]
+* <a href="/automated-tests/wpf/wpf-test#choose-the-application-to-automate" target="_blank">Choose the WPF application to automate</a>
+* <a href="/automated-tests/wpf/wpf-test#set-default-wpf-application-path" target="_blank">Set default WPF Application path</a>
+* <a href="/automated-tests/wpf/wpf-test#record-application-window-state" target="_blank">Record application Window State</a>
 
-6. Open the new test and click the __Configure WPF Application Path__ icon in the toolbar.
+Confirm the applied changes with __OK__ button.
 
-	![Configure path][5]
+![Confirm configuration][6]
 
-7. The __Configure WPF Application Path__ window appears. There are two options to determine the default application to launch when recording and executing this test.
-	
-	*	__WPF Application Path__ - drag and drop the shortcut icon into this text box, or click __Browse__ and locate it manually.
-	*	__Current Path Expanded__ - read-only display of full path if environment variables are used.
-	*	__Use default path__ - whether to use the path set here or the default path set in __Project Settings > General__.
-	*	__Active WPF Applications__ - Progress Test Studio detects all WPF apps currently running and lists them. Highlight the desired app and press __Select Application__.
-	*	__Recording Options__ - whether to record window state changes.
+## Record Steps in a Web Test
 
-8. Hit __Record__ to launch the app with the recording toolbar docked at the top.
-9. Notice that steps are added to the test as actions are taken within the application.
+The __Record__ button is in the test toolbar when a test is opened in the project. Click the button to initiate a recording session.
 
-	![Record][6]
+![Record button in the test toolbar](/img/general-information/create-test-vsplugin/web-test/record-button.png)
 
-10. Close the application to __stop recording__.
+Click the __Record__ button to launch the application in recording mode. Once the app is completely loaded, the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Recorder Toolbar__</a> gets attached to this instance and you can <a href="/automated-tests/recording/overview#wpf-test-recording" target="_blank">add the steps</a> for the automation scenario.
 
+To __stop the recording session__ close the application
+
+## Execute the Recorded Steps
+
+The <a href="/automated-tests/test-execution/quick-execution" target="_blank">__Quick Execution__ options</a> from Test Studio project are also available in the context of the Visual Studio project. The __Execute__ button is in the test toolbar when a test is opened in the project and is enabled when the test has at least one step to execute.
+
+![Execute test](/img/general-information/create-test-vsplugin/web-test/execute-test.png)
+
+If you want to use the Visual Studio Test Explorer to execute the Test Studio tests, check <a href="/automated-tests/vs-plugin/vs-test-explorer" target="_blank">this topic</a>.
 
 [1]: /img/general-information/create-test-vsplugin/wpf-test/fig1.png
 [2]: /img/general-information/create-test-vsplugin/wpf-test/fig2.png
