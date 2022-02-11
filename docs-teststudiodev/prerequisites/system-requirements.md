@@ -8,7 +8,12 @@ position: 0
 ---
 # System Requirements
 
-__Test Studio Dev__ is a Visual Studio extension and inherits all the system requirements that  Visual Studio versions have. You can check the system requirements for supported versions <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2017-system-requirements-vs" target="_blank">Visual Studio 2017</a>, <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2015-sysrequirements-vs" target="_blank">Visual Studio 2015</a>, <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2013-sysrequirements-vs" target="_blank">Visual Studio 2013</a> or <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2013-sysrequirements-vs#vs2012" target="_blank">Visual Studio 2012</a>.
+__Test Studio Dev__ is an extension for Visual Studio tool and as such it inherits the requirements for the Visual Studio product family. Check the specific system requirements for each supported version of Visual Studio from the links below.
+
+- <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/system-requirements" target="_blank">Visual Studio 2022</a>
+- <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio 2019</a>
+- <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2017-system-requirements-vs" target="_blank">Visual Studio 2017</a>, 
+- <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2015-sysrequirements-vs" target="_blank">Visual Studio 2015</a>.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
@@ -23,24 +28,23 @@ __Test Studio Dev__ is a Visual Studio extension and inherits all the system req
 * Internet Explorer 11
 * Chrome latest version
 * Firefox latest version
-* Microsoft Edge (Chromium) latest version
-* Microsoft Edge (Legacy) latest version - installing latest Edge Chromium removes the Edge Legacy instance
+* MS Edge Chromium latest version
 * Safari latest version (5.1.7)
 
 ## Visual Studio requirements
 
-* The **Test Studio Dev** extension can be installed on Visual Studio 2012, 2013, 2015, 2017 and 2019 (v.16.5+) **Professional or higher** edition.
+* The **Test Studio Dev** extension can be installed on Visual Studio 2015, 2017, 2019 and 2022 **Professional or higher** edition.
 * You must run Visual Studio as Administrator
-* Visual Studio projects should target .Net 4.5 or higher
+* Visual Studio projects should target .Net 4.5.2 or higher
 * Visual Studio 2017 requires additional <a href="/advanced-topics/installation/vs-2017-compatibility" target="_blank">Individual components</a> on top of its default installation
 
 ## Data Binding
 
-* Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components</a> (x86 redistributable).
+* Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components (x86 redistributable)</a>.
 
 ## Framework
 
-* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.NET 4.5</a> or higher
+* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.5.2</a> or higher
 
 ## Source Control
 
