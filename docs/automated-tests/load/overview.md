@@ -26,13 +26,21 @@ Load tests help answer some of the most critical questions organizations have ab
 - How stable is our site when lots of users have been hitting it for days? (<a href="/knowledge-base/load-testing-kb/load-strategies#soak-testing" target="_blank">Soak testing</a>)
 - How many users can our site support before it crashes? (<a href="/knowledge-base/load-testing-kb/load-strategies#stress-testing" target="_blank">Stress</a> or tipping testing)
 
-> **<font color="red">CAUTION:</font>** To perform any sort of load testing you must be in control of the website/webserver you plan to test and be prepared for the consequences that may occur as a result of running a load test. It is easy to take down a website using load testing. In fact, that's one of the purposes of load testing: to discover the breaking point of your website. Progress Test Studio's Load Testing feature has deliberately blocked Telerik.com from being used in a load test for this very reason.
+> **<font color="red">CAUTION:</font>** 
+><br>
+><br>
+> To perform any sort of load testing you must be in control of the website/webserver you plan to test and be prepared for the consequences that may occur as a result of running a load test. It is easy to take down a website using load testing. In fact, that's one of the purposes of load testing: to discover the breaking point of your website. Progress Test Studio's Load Testing feature has deliberately blocked Telerik.com from being used in a load test for this very reason.
 
-https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps
+## See Also
 
-
+* <a href="https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps" target="_blank">Designing Load Tests with Test Studio and Fiddler Everywhere in 6 Easy Steps</a>
 
 ## First Steps with Load Testing in Test Studio
+
+> __Tip__
+><br>
+><br>
+> You can checkout  <a href="https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps" target="_blank">this blog post</a>, which guides you through the steps of setting up a load test.
 
 1. <a href="/features/testing-types/load-testing/designing-tests" target="_blank">Design your load test</a>. This includes selecting agents and virtual users, capturing or importing web traffic, selecting dynamic targets, and data-driving your tests.
 1. <a href="/features/testing-types/load-testing/running-tests" target="_blank">Run your load test</a>.

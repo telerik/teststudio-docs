@@ -9,7 +9,7 @@ position: 1
 
 This document describes the steps to enable Edge Chromium browser for test recording and execution.
 
-## 1. Install the Progress Extensions
+## 1. Install the Progress Extension
 
 Install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge Chromium supports adding extensions from the Chrome web store).
 
