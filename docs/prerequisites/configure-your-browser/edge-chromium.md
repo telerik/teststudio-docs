@@ -13,19 +13,14 @@ This document describes the steps to enable Edge Chromium browser for test recor
 
 Install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge Chromium supports adding extensions from the Chrome web store).
 
-> __Important__
-> <br>
-> <br>
-> If you face any troubles when installing or enabling the extensions, expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
-
 ## 2. Browser Calibration
 
 To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
-> __Important__
+> __Tip__
 > <br>
 > <br>
-> If you need to manually double-check all calibration settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below to see a list of these.
+> You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 
 <p><hr></p>
 <p></p>

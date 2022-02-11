@@ -24,9 +24,12 @@ To configure Microsoft Internet Explorer for web automation with Test Studio, th
 
 To ensure flawless and consistent automation process there are some settings to apply to the browser. We call this browser calibration and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box and no manual interaction is required.<br><br>
 
-**Note:** If you receive a certificate-related warning when the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> recorder is attached to the browser, or when executing a Performance run, follow the instructions <a href="/knowledge-base/project-configuration-kb/register-certificate" target="_blank">here</a>. 
+**Note:** If you receive a certificate-related warning when the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> recorder is attached to the browser, or when executing a Performance run, follow the instructions <a href="/knowledge-base/project-configuration-kb/register-certificate" target="_blank">here</a>.
 
->If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.
+> __Tip__
+> <br>
+> <br>
+> You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).
 <p></p>
 <p></p>
 

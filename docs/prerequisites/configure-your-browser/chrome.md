@@ -9,19 +9,19 @@ position: 1
 
 This document describes the steps to enable Chrome browser for test recording and execution.
 
-## 1. Install the Progress Extension
+## 1. Enable Chrome for Automation
 
-> __Tip__
-> <br>
-> <br>
-> Starting from Test Studio 2022 R1 (v.2022.1.xx) __Chrome browser is supported for test recording and execution without extension__. Check [here](#extensionless-recording-and-execution-in-chrome) if you want to skip installing the extension.
+In __Test Studio release 2022 R1__ (v.2022.1.xx) you can choose how to record and execute tests with Chrome browser. In this version it can be enabled for automation with or without the Progress Test Studio Extension. The setting how Chrome will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
 
-Install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store.
+### Enable Chrome for Automation with Extension
 
-> __Important__
-> <br>
-> <br>
-> If you face any troubles when installing or enabling the extensions, expand the <a href="#Extension_Install">Extension Install Procedure</a> section below.
+By default each Test Studio project is set to use Chrome with the extension. So, if this is the option you want to use, you need to install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store.
+
+### Enable Chrome for Automation without Extension
+
+If you choose to use Chrome for recording and execution without additional extension, you need to __change a setting in the Test Studio project__. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). __Uncheck the checkbox__ and Test Studio will __start the Chrome browser for this project without using the extensions__ even if this is installed.
+
+![Disable UseBrowserExtension](/img/prerequisites/browser-config/disable-extension.png)
 
 ## 2. Browser Calibration
 
@@ -30,19 +30,13 @@ To ensure a flawless and consistent automation process, there are a few browser 
 > __Important__
 > <br>
 > <br>
-> If you need to manually double-check all calibration settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below to see a list of these.<br><br>
-
 > <p>If your Chrome browser has an active <strong>Google Apps session</strong> (for example, you are logged into GMail), automatic calibration will not work as expected. To use automatic configuration, log out of your Google account first.</p><p></p>
 <p></p>
 
-## Extensionless Recording and Execution in Chrome
-
-The default enabled option in Test Studio projects is to use the Chrome browser with the extension. From Test Studio 2022 R1 (v.2022.1.xx) you can try __running the Chrome browser without using any extension__. The setting is used on project level and can be accessed through the <a href="/features/project-settings/overview" target="_blank">__Project Settings__</a> under the __Browsers__ tab.
-
-Uncheck the checkbox to use Chrome without installing extension.
-
-![Disable UseBrowserExtension](/img/prerequisites/chrome/disable-extension.png)
-
+> __Tip__
+> <br>
+> <br>
+> You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 
 <p><hr></p>
 <p></p>

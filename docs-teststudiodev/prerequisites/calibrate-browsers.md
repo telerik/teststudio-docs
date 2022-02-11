@@ -33,7 +33,7 @@ p.trigger{
 
 # Calibrate Browsers
 
-To be able to run tests using __Test Studio Dev__ against any browser it needs to be configured accordingly. In this article you can find the required settings for each of the supported browsers which will ensure flawless and consistent automation process.
+A specific set of settings is required to enable each of the supported browsers for test recording and execution with Test Studio Dev and this is called __Browser Calibration__. Some of the browsers also require the installation of an extension.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-overview.html %}
@@ -41,85 +41,56 @@ To be able to run tests using __Test Studio Dev__ against any browser it needs t
 
 ## Built-in Calibration
 
-We call that browser is __calibrated__ if the required settings are applied. __Test Studio Dev__ provides a built-in configuration approach which will set all necessary settings for the supported browsers out of the box and no manual interaction is required. To use our built-in feature open the _Test Studio Dev Settings_ window and switch to its _Browser_ tab.
+We call that the browser is __calibrated__ when the required settings are applied. __Test Studio Dev__ provides a built-in configuration approach which will set all necessary settings for the supported browsers out of the box and no manual interaction is required. To use our built-in feature open the __Test Studio Dev Settings__ window and switch to its __Browser__ tab.
 
 ![Open Settings->Browser Tab](images/open-settings-browser.png)
 
-In the _Browser_ tab there is a list with the installed browsers on the current machine with a _Calibrate/Restore_ button next to each. If a browser is successfully calibrated the button allows you to restore its previous settings.
+In the __Browser__ tab are listed the installed browsers on the current machine with a _Calibrate/Restore_ button next to each. If a browser is successfully calibrated the button allows you to restore its previous settings.
 
 ![Restore](images/restore.png)
 
-If a browser is not yet configured the button allows you to calibrate it. 
+If a browser is not yet configured the button allows you to calibrate it.
 
 ![Calibrate](images/calibrate.png)
 
-> __Note!__ During browser calibration __Test Studio Dev__ will automatically close all of currently running browser instances. Therefore before proceeding with calibration ensure there is no important information you might lose if browser gets closed.</br></br>
+> __Note!__
+> <br>
+> <br>
+> During browser calibration __Test Studio Dev automatically closes__ all currently running browser instances. Ensure there is no important information you might lose if browser gets closed before proceeding with calibration</br></br>
 
-> __Note!__ if you need to check the settings applied from Test Studio Dev, you can scroll to the bottom of the article and check the section for <a href="#manual-settings-to-configure-a-browser", target=blank>Manual Browser Calibration</a>.
+> __Tip__
+> <br>
+> <br>
+> You can check all settings applied from the calibration in the <a href="#manual-settings-to-configure-a-browser">Manual Configuration</a> section below (click the + sign to expand it).
 
-## Install Extensions for Firefox, Chrome and Micorosft Edge Chromium
+## Enable Chrome for Automation
+
+In __Test Studio Dev release 2022 R1__ (v.2022.1.xx) you can choose how to record and execute tests with Chrome browser. In this version it can be enabled for automation with or without the Progress Test Studio Extension. The setting how Chrome will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
+
+### Enable Chrome for Automation with Extension
+
+By default each Test Studio Dev project is set to use Chrome with the extension. So, if this is the option you want to use, you need to install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store.
+
+### Enable Chrome for Automation without Extension
+
+If you choose to use Chrome for recording and execution without additional extension, you need to __change a setting__ in the Test Studio project. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). Uncheck the checkbox and Test Studio Dev will __start the Chrome browser for this project without using the extensions__ even if this is installed.
+
+![Disable UseBrowserExtension](images/browser-config/disable-extension.png)
+
+## Install Extensions for Firefox and Micorosft Edge Chromium
 
 Chrome and Firefox browsers require an extension for the purposes of automation testing with __Test Studio Dev__.
-
-- The __Chrome__ extension can be found in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
 
 - The __Firefox__ extension can be found in the Firefox Add-ons Page - <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/", target=blank>__Progress Test Studio Extension__</a>.
 
 - The __Edge Chromium__ browser can now use extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store. The extension is listed in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
 
-### Accept Extension Permission for Version 2020.2.728
-
-WIth the latest 2020 R2 Test Studio release (v.2020.2.804) a corresponding version of the extensions for Chrome, Edge Chromium and Firefox is published and their latest version is now 2020.2.728.1. As these require to allow additional permissions, the updated extension will be disabled.
-
-To re-enable it, you need to __manually accept the permissions request for each browser and machine__. When you open the browser, there is a warning sign on the _Settings_ menu.
-
-![Settings menu disabled extension][1]
-
-Open the _Settings_ menu and click on the message that the Test Studio extension is disabled.
-
-![Extension is disabled message][2]
-
-Click the notification message and a Popup appears to confirm if you accept the requested permissions and re-enable the Test Studio extension.
-
-![Accept permissions][3]
-
-[1]: images/browser-config/edge-notification.jpg
-[2]: images/browser-config/accept-popup.jpg
-[3]: images/browser-config/accept-permissions.jpg
-
-## Add WebDriver for Microsoft Edge (if Still Using the Old Version of MS Edge)
-
-The __deprecated version of MS Edge gets replaced once you install the new Microsoft Edge Chromium__. If you still haven't upgraded to it, you can use the previous version of the browser. In order to use **the MS Edge** browser for Test Studio automation you need to install **Microsoft WebDriver**. Depending on your Windows 10 build you should choose the correct WebDriver.
-
-Determine your Windows 10 build and download the correct MS WebDriver from <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/" target="_blank">here</a>.
-
-### Windows 10 Anniversary Update (build 14393) And Later
-
->**Note!** The following steps apply for Windows 10 **Anniversary Update (build 14393)** and later. If you don't use it skip to the Automatic Calibration</a> step.
-
-Microsoft WebDriver for that particular build doesn't include installer (\*.msi) but only \*.exe file. You should manually locate the WebDriver exe file in the Test Studio project settings.
-
-### Windows versions prior Windows 10 Anniversary Update
-
-1.1 &nbsp; Download Microsoft WebDriver for release 14393 from <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/" target="_blank">here</a> and save it on your computer.
-
-1.2 &nbsp; Locate WebDriver from the **Project Settings -> Browsers**
-
-![Locate WebDriver](images/edge/fig6.png)
-
-1.3 &nbsp; Navigate to the download location and select WebDriver exe file.
-
-![Locate WebDriver Folder](images/edge/fig7.png)
-
-1.4 &nbsp; The location of WebDriver is now successfully set
-
-![Locate WebDriver successful](images/edge/fig8.png)
-
-## Manual Settings to Configure a Browser
+## Settings Applied from the Calibration
 
 ### Internet Explorer
 
-If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.
+You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
+
 <p></p>
 <p></p>
 
@@ -275,10 +246,10 @@ The latest Internet Explorer updates should be installed. <br><br>
 
 ### Chrome
 
-If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
-
 > <p>If your Chrome browser has an active <strong>Google Apps session</strong> (for example, you are logged into GMail), automatic calibration will not work as expected. To use automatic configuration, log out of your Google account first.</p><p></p>
 <p></p>
+
+You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 
 <p><hr></p>
 <p></p>
@@ -412,7 +383,7 @@ If you need to double check manually if all settings are correct expand the <a h
 <p></p>
 ### Microsoft Edge Chromium
 
-If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 
 <p></p>
 <p></p>
@@ -535,7 +506,7 @@ If you need to double check manually if all settings are correct expand the <a h
 <p></p>
 ### FireFox
 
-If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.<br><br>
+You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 
 <p></p>
 <p></p>
@@ -645,81 +616,6 @@ The following Add-ons are known to conflict with the Progress Test Studio Extens
 
 </div>
 </div>
-<p><hr></p>
-<p></p>
-<p></p>
-
-### Microsoft Edge
-
-If you need to double check manually if all settings are correct expand the <a href="#Manual_Configuration">Manual Configuration</a> section below.
-
-<p></p>
-<p></p>
-
-<p><hr></p>
-<p></p>
-<p></p>
-
-<p class="trigger"><a name="Manual_Configuration" style="color:black; text-decoration: none;";>Manual Configuration <span id="d" style="color:#28a1e2";>+</span></a></p>
-
-<div class="toggle_container">
-<div class="block">
-
-<h3>Zoom Level Set to 100%</h3>
-
-1.&nbsp; Go to the higher right of the browser and click on the <strong>3 dots button</strong>.<br><br>
-
-2.&nbsp; Select 100% zoom (or use the keyboard shortcut: Ctrl + 0).<br><br>
-
-<img src="images/edge/fig1.png" alt="favourites bar"><br><br>
-
-<h3>Hide The Favorites Bar</h3>
-
-This bar conflicts with highlighting coordinates.<br><br>
-
-1.&nbsp; Go to the higher right of the browser and click on the <strong>3 dots button</strong>.<br><br>
-
-2.&nbsp; Click <strong>Settings</strong> and then <strong>View favorite settings</strong>.<br><br>
-
-3.&nbsp; Set <strong>Show the favorites bar</strong> to <strong>Off</strong>.<br><br>
-
-<img src="images/edge/fig2.png" alt="zoom">
-
-<h3>Open New Tabs With A Blank Page</h3>
-
-1.&nbsp; Go to the higher right of the browser and click on the <strong>3 dots button</strong>.<br><br>
-
-2.&nbsp; Click <strong>Settings</strong>.<br></br>
-
-3.&nbsp; Set <strong>Open new tabs with</strong> to <strong>A blank page</strong>.<br><br>
-
-<img src="images/edge/fig3.png" alt="new tab">
-
-<h3>Disable Password Save Offering</h3>
-
-1.&nbsp; Go to the higher right of the browser and click on the <strong>3 dots button</strong>.<br><br>
-
-2.&nbsp; Click <strong>Settings</strong> and then <strong>View advanced settings</strong>.<br><br>
-
-3.&nbsp; Set <strong>Offer to save passwords</strong> and <strong>Save for entries</strong> to <strong>Off</strong>.<br><br>
-
-<img src="images/edge/fig4.png" alt="disable password offering">
-
-<h3>Allow Cookies</h3>
-
-1.&nbsp; Go to the higher right of the browser and click on the <strong>3 dots button</strong>.<br><br>
-
-2.&nbsp; Click <strong>Settings</strong> and then <strong>View advance settings</strong>.<br><br>
-
-3.&nbsp; Set <strong>Cookies</strong> to <strong>Don't block cookies</strong>.<br><br>
-
-<img src="images/edge/fig5.png" alt="allow cookies">
-
-</div>
-</div>
-<p></p>
-<p></p>
-
 <p><hr></p>
 <p></p>
 <p></p>

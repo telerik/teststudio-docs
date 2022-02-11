@@ -144,7 +144,7 @@ Admin permissions are required for:
 
 ## Visual Studio Plug-in Support
 
-* IDE (Visual Studio plug-in only): Visual Studio __2015__, __2017__ and __2019__ (v.16.5+) __Professional or higher__.
+* IDE (Visual Studio plug-in only): Visual Studio __2015__, __2017__, __2019__ (v.16.5+) and __2022__  __Professional or higher__.
 
 	* You must run Visual Studio as Administrator
 	* Visual Studio projects should target .Net 4.5.2 or higher.

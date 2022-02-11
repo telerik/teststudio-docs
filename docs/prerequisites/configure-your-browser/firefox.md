@@ -32,10 +32,10 @@ Install the latest <a href="https://addons.mozilla.org/en-US/firefox/addon/progr
 
 To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
 
-> __Important__
+> __Tip__
 > <br>
 > <br>
-> If you need to manually double-check all calibration settings are correct, expand the <a href="#Manual_Configuration">Manual Configuration</a> section below to see a list of these.<br><br>
+> You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 
 
 <p></p>
