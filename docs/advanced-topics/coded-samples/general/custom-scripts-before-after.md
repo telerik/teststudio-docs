@@ -59,13 +59,13 @@ End Sub
 The **OnBeforeTestStarted** method allows you to perform actions required for the initialization of your test (starting scripts, etc.):
 
 ```C#
-public override void OnBeforeTestStarted()
+public override void OnBeforeTestStarted(BeforeTestStartedArgs args)
 {
     this.ExecuteTest("Folder1\\WebTest2.tstest");
 }
 ```
 ```VB
-Public Overrides Sub OnBeforeTestStarted()
+Public Overrides Sub OnBeforeTestStarted(BeforeTestStartedArgs args)
 	Me.ExecuteTest("Folder1\WebTest2.tstest")
 End Sub
 ```
