@@ -6,12 +6,12 @@ position: 1
 ---
 #Get/Set Cookies in Code#
 
-Here is a working code sample. Notice the URL must be different for SetCookie versus GetCookies:
+Here is a working code sample:
 
 ```C#
 Manager.LaunchNewBrowser();
  
-const string url = "www.google.com";
+const string url = "http://www.google.com";
 {
     var cookie = new Cookie("foo", "bar", "/", url);
     cookie.Expires = DateTime.MaxValue;
@@ -30,7 +30,7 @@ foreach (Cookie cookie in ActiveBrowser.Cookies.GetCookies("http://www.google.co
 ```VB
 Manager.LaunchNewBrowser()
  
-Const  url As String = "www.google.com"
+Const  url As String = "http://www.google.com"
 If True Then
     Dim cookie = New Cookie("foo", "bar", "/", url)
     cookie.Expires = DateTime.MaxValue
