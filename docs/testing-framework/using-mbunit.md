@@ -7,7 +7,7 @@ position: 1
 
 #Using MbUnit#
 
-Telerik Testing Framework comes with built-in support for MbUnit 3.2.3 and higher. The latest release of MbUnit can be downloaded <a href="https://code.google.com/p/mb-unit/" target="_blank">here</a>.
+<a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Telerik Testing Framework</a> comes with built-in support for MbUnit 3.2.3 and higher. The latest release of MbUnit can be downloaded <a href="https://code.google.com/p/mb-unit/" target="_blank">here</a>.
 
 Telerik Automation Infrastructure comes with the following features to facilitate integration with MbUnit.net:
 
@@ -19,7 +19,7 @@ Telerik Automation Infrastructure comes with the following features to facilitat
 
 ##Getting Started Using MbUnit##
 
-In this section we will walk you through the steps to get you started using Telerik Testing Framework with MbUnit.net.
+In this section we will walk you through the steps to get you started using <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Testing Framework</a> with MbUnit.net.
 
 * Once you have completed installing Telerik Testing Framework on the target machine, start your Visual Studio environment and open your MbUnit.net test library in Visual Studio or create a new one if you are starting from scratch.
 
@@ -39,7 +39,7 @@ In this section we will walk you through the steps to get you started using Tele
 
 * If you haven't already done so, you'll need to manually add a reference to the MbUnitFramework.dll.
 
-* Start writing your automated Telerik Testing Framework unit tests.
+* Start writing your automated <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Testing Framework</a> unit tests.
 
 ##Telerik's MbUnit Template##
 
@@ -90,7 +90,7 @@ Initialize(false);
 Initialize(False)
 ```
 
-The above initialization initializes the Telerik Testing Framework but does not enable the RecycleBrowser feature. Because MbUnit.net does not have the concept of a test fixture setup/teardown the RecycleBrowser feature cannot be used. If that initialization does not work for you, you can choose to pass in different parameters or choose to do your own custom setup of the framework. For example, if you want to override some of the settings from the .config file in one or two of your test cases, you can simply do the following:
+The above initializes the Telerik Testing Framework but does not enable the RecycleBrowser feature. Because MbUnit.net does not have the concept of a test fixture setup/teardown the RecycleBrowser feature cannot be used. If that initialization does not work for you, you can choose to pass in different parameters or choose to do your own custom setup of the framework. For example, if you want to override some of the settings from the .config file in one or two of your test cases, you can simply do the following:
 
 ```C#
 // This will get a new Settings object. If a configuration
