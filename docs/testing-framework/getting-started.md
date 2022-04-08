@@ -38,7 +38,7 @@ Thanks for using Telerik Testing Automation infrastructure. To get started using
 
 ##Installing and Setting Up the Infrastructure##
 
-To get started, first download the Telerik Testing Framework installer package directly from the <a href="http://www.telerik.com/teststudio/testing-framework" target="_blank">Products page</a>. Once the installation is complete, you will have all of the following placed in the Telerik Testing Framework %InstallDir% folder:
+To get started, first download the <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Telerik Testing Framework</a> installer package and run the installation. Once it is complete, you will have all of the following placed in the Telerik Testing Framework %InstallDir% folder:
 
 * The Telerik Automation Infrastructure library. **ArtOfTest.WebAii.dll** (for version 2010 and older, **ArtOfTest.Common.dll** is also included).
 
@@ -82,7 +82,7 @@ To get started, first download the Telerik Testing Framework installer package d
 
 	**Note:** For Visual Studio 2010, change the solution's "Target Framework" property to **.NET Framework 3.5** or **.NET Framework 4.0**. The Client Profile Frameworks will not work.
 
-Once Telerik Testing Framework is installed on the target machine, you can easily start using it from your .NET project by simply referencing the ArtOfTest.WebAii.dll (and ArtOfTest.Common.dll for version 2010 and older) file placed in your %InstallDir%. Those are the only dll's you need to reference to get the full functionality. To reference the Telerik library:
+Once <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Testing Framework</a> is installed on the target machine, you can easily start using it from your .NET project by simply referencing the ArtOfTest.WebAii.dll (and ArtOfTest.Common.dll for version 2010 and older) file placed in your %InstallDir%. Those are the only dll's you need to reference to get the full functionality. To reference the Telerik library:
 
 1. Select your project in the Solution Explorer in Visual Studio, or start a new project.
 
