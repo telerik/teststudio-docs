@@ -8,13 +8,7 @@ position: 3
 
 Test Studio recorder toolbar recognizes the Telerik and Kendo UI controls and exposes specific actions and verifications for these while you record the test scenario.
 
-In this article you can find out more about dialog handling in Test Studio tests divided in few sections:
-
-- [Alert, Confirm, Prompt Dialog Boxes](#alert-confirm-prompt-dialog-boxes)
-- [Logon Dialog](#logon-dialog)
-- [Download and Upload File Dialogs](#download-and-upload-file-dialogs)
-- [Record in a Popup Window](#how-to-handle-a-popup-page-opened-in-new-tab)
-- [Maintain the Handle Dialog and Connect to Popup Steps](#maintain-the-handle-dialog-and-popup-steps)
+Read further how to record test scenarios with the built-in translators.
 
 ## Record a Test Scenario in Application Built with Telerik and Kendo UI
 
@@ -38,12 +32,12 @@ As you move the mouse over the items in the menu, the respective element on page
 
 The recording experience for other Telerik and Kendo UI components is the same for the different controls. It is only the colour of the highlighting borders which differs for the various type of components.
 
-![Hover mouse over Blazor DropdownList][3]
+![Hover mouse over Blazor DropdownList][2]
 
 > __Tip__
 ><br>
 ><br>
-> Speed up your scenario recording knowledge with this neat <a href="https://www.telerik.com/videos/teststudio/getting-started-with-using-the-test-studio-translators-for-telerik-ui-for-blazor ">video tutorial</a> that demonstrates how to benefit from the Blazor translators in Test Studio.
+> Speed up your scenario recording knowledge with this neat <a href="https://www.telerik.com/videos/teststudio/getting-started-with-using-the-test-studio-translators-for-telerik-ui-for-blazor" target="_blank">video tutorial</a> that demonstrates how to benefit from the Blazor translators in Test Studio.
 
 [0]: /img/automated-tests/recording/recording-translators/highlight-components.gif
 [1]: /img/automated-tests/recording/recording-translators/fig1.png

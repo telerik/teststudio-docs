@@ -114,6 +114,9 @@ In the below grid you can find the versions of the supported UI components match
 <script type="text/javascript">
         function showHideRow(row) {
             $("#" + row).toggle();
+            $('#expand'+row[row.length-1]).text(function (i, oldText) {
+        return $.trim(oldText) == 'Click to expand the list of translators' ? 'Collapse' : 'Click to expand the list of translators';
+		});
         }
 </script>
 
@@ -136,7 +139,7 @@ In the below grid you can find the versions of the supported UI components match
     <tbody>
         <tr onclick="showHideRow('hidden_row1');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;">Click to expand the list of translators</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
         </tr>
         <tr id="hidden_row1" class="hidden_row">
             <td colspan=4>
@@ -148,8 +151,8 @@ In the below grid you can find the versions of the supported UI components match
                     </colgroup>
                     <thead>
                         <tr>
-                            <td style="font-weight:bold;text-align:center;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Name</td>
+                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
+                            <td style="font-weight:bold;text-align:left;">Component Name</td>
                             <td style="font-weight:bold;text-align:center;">Component Version</td>
                         </tr>
                     </thead>
@@ -220,7 +223,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideRow('hidden_row2');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;">Click to expand the list of translators</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
         </tr>
         <tr id="hidden_row2" class="hidden_row">
                 <td colspan=4>
@@ -232,8 +235,8 @@ In the below grid you can find the versions of the supported UI components match
                         </colgroup>
                         <thead>
                             <tr>
-                                <td style="font-weight:bold;text-align:center;">Translator Name</td>
-                                <td style="font-weight:bold;text-align:center;">Component Name</td>
+                                <td style="font-weight:bold;text-align:left;">Translator Name</td>
+                                <td style="font-weight:bold;text-align:left;">Component Name</td>
                                 <td style="font-weight:font-weight:bold;text-align:center;">Component Version</td>
                             </tr>
                         </thead>
@@ -298,7 +301,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideRow('hidden_row3');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;">Click to expand the list of translators</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of translators</span</td>
         </tr>
         <tr id="hidden_row3" class="hidden_row">
                 <td colspan=4>
@@ -310,8 +313,8 @@ In the below grid you can find the versions of the supported UI components match
                         </colgroup>
                         <thead>
                             <tr>
-                                <td style="font-weight:bold;text-align:center;">Translator Name</td>
-                                <td style="font-weight:bold;text-align:center;">Component Name</td>
+                                <td style="font-weight:bold;text-align:left;">Translator Name</td>
+                                <td style="font-weight:bold;text-align:left;">Component Name</td>
                                 <td style="font-weight:bold;text-align:center;">Component Version</td>
                             </tr>
                         </thead>
