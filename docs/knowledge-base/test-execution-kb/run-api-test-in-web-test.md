@@ -8,6 +8,11 @@ position: 1
 
 In some cases you may need to combine a Test Studio web test with an API test. For example, if your application under test interacts with a service (e.g. creates a user in a web interface that gets stored in a database) and you want to verify directly against that interface that your new user is correctly created.
 
+> __Tip__
+><br>
+><br>
+> Test Studio gives the option for <a href="/features/execute-apitest/add-api-test-as-step" target="_blank">running API tests as steps</a> from a web test out-of-the-box.
+
 To achieve that with Test Studio you will need to create a Test Studio for APIs project and create a test that performs the necessary requests and verifications.
 
 The next step is to create a coded step in the web test that will start a system process. The following code will run the Telerik.ApiTesting.Runner.exe with the `test` command and the following arguments:
@@ -20,9 +25,7 @@ The next step is to create a coded step in the web test that will start a system
 The code will wait for the end of the API test execution. After the process ends - the exit code is placed in assert statement to check if this step passed or failed depending on the API test status.
 
 Hint: in a default installation, the path to the executable Telerik.ApiTesting.Runner.exe is: 
-"C:\Program Files (x86)\Telerik\Test Studio\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe"
-
-> Please note that as of version 2017 R3 the default installation path for new installation is C:\Program Files (x86)\Progress\Test Studio.
+"C:\Program Files (x86)\Progress\Test Studio\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe"
 
 ```C#
 	
@@ -55,7 +58,6 @@ Hint: in a default installation, the path to the executable Telerik.ApiTesting.R
 	}
 	
 ```
-
 ```VB
 	
 	Imports System.Diagnostics
@@ -81,19 +83,18 @@ Hint: in a default installation, the path to the executable Telerik.ApiTesting.R
 	
 ```
 
-
-
 ## Advanced: Passing a Variable from an API Test to a Web Test
 
 Sometimes you may need to get a variable that is acquired by your API test and use it into your web test. (For example if you want to create a user first via a REST service and than use his user ID to perform an action in your web test.)
 
-Currently there is no out-of-the-box way to transfer a variable from an API test into a web test in Test Studio. However there is a workaround that you may consider in case you need such a setup.
+> __Tip__
+><br>
+><br>
+> Test Studio gives the option for <a href="/features/execute-apitest/passing-variables" target="_blank">passing variables from the web test to the embedded API test and vice versa</a> out-of-the-box.
 
 Test Studio for APIs stores [runtime variables](http://docs.telerik.com/teststudio-apis/features/variables#Runtime-Variables) in a ".variables" directory inside the root of the test project being executed. The files in that folder are usually consumed only by the user interface of Test Studio for APIs. This is why by default, if you run your tests via command line, the ".variables" folder will not be generated. In order to generate it when running tests, you need to add an additional parameter to your execution command: `--save-contexts`. For example, to run a single test in a test project and generate .variables, you can use a command like:
 
-`C:\>"C:\Program Files (x86)\Telerik\Test Studio for APIs\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe" test -p "C:\ApiTests\DemoTests" -t ".\CRUD Tests\Get All Users" --save-contexts`
-
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+`C:\>"C:\Program Files (x86)\Progress\Test Studio for APIs\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe" test -p "C:\ApiTests\DemoTests" -t ".\CRUD Tests\Get All Users" --save-contexts`
 
 Inside the ".variables" folder, Test Studio for APIs generates a separate file for each executed test (with a file name like: `my-test-name.variables`) and an additional "root" file for project-level variables, called ".global.variables".
 

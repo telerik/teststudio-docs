@@ -14,7 +14,7 @@ This section of the <a href="/features/project-settings/overview" target="_blank
 
 ## Select the Version of the Telerik Components under Test
 
-The __Telerik Components Under Test__ section lets you instruct the translators' version to match the version of the UI components in the tested page for this project. This setting applies to both the recording and execution flows and allows you to smoothly create tests and run these for various applications.
+The __Telerik Components Under Test__ section lets you instruct the translators' version to match the version of the UI components in the tested page for this project. This setting applies to both the <a href="/automated-tests/recording/recording-telerik-kendo-ui-components" target="_blank">recording</a> and quick execution flows and allows you to smoothly create tests and run these for various applications. The same setting is exposed in the <a href="/features/test-lists/test-list-settings" target="_blank">test list settings</a> and can be set individually per test list.
 
 ![Telerik Components Under Test Version][2]
 

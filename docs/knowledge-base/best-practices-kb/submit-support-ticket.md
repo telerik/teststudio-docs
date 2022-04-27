@@ -1,16 +1,16 @@
 ---
 title: Submit Support Ticket
 page_title: Submit Support Ticket
-description: Best practices to submit a ticket for Test Studio which includes the necessary details and resources for faster resolution. 
+description: How to submit a support ticket to contact the Test Studio Support Team. What details to provide to get help for a Test Studio query as soon as possible. 
 position: 1
 ---
 # Submit Support Ticket #
 
-You can submit your support ticket after you login in <a href="https://www.telerik.com/account/support-tickets" target="_blank">your Telerik.com account</a>.
+You can submit your support query in your your Telerik account <a href="https://www.telerik.com/account/support-tickets" target="_blank">here</a>.
 
-For timely issue resolution, provide as much information as possible in your initial query.
+For timely issue resolution, provide as much information as possible in your initial message. The below guidelines will help you determine what details may be required.
 
-## Reproduction Steps ##
+## Steps to Reproduce Any Misbehavior in the Tool ##
 
 Provide precise steps to reproduce the issue. Please include:
 
@@ -18,7 +18,7 @@ Provide precise steps to reproduce the issue. Please include:
 
 * Screen shots and explanations of the expected and actual state of the application.
 
-* A screen recording of the issue. Download <a href="http://www.techsmith.com/jing.html" target="_blank">Jing</a> for free, upload the recording to their server, and provide the link.
+* A short screen recording of the issue.
 
 ## Error Message ##
 
@@ -28,15 +28,17 @@ Copy and paste the entire message and/or provide a screen shot of it.
 
 	 *Example: The test failed on an action or verification step.*
 
-* For Test Studio application errors, <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">Generate an Application Log</a>.
-	
-	*Example: The Test Studio program itself, or Internet Explorer with the recording toolbar attached, displays an error.*
+* For test list failures, use the <a href="/automated-tests/test-list-results/analyze-test-list-results#failed-test-list-result" target="_blank">Step Failure Details</a> to get an export to send with your message.
 
-* For Scheduling errors, export the log from the <a href="/features/scheduling-test-runs/view-execution-status" target="_blank">remote machine</a>.
+* For Test Studio application errors, <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">Generate an Application Log</a> while reproducing the misbehavior.
+	
+	*Example: The Test Studio program itself, or the automated application with the recording toolbar attached, displays an error.*
+
+* For Scheduling errors, export the log from the <a href="/features/scheduling-test-runs/view-execution-status" target="_blank">remote and Scheduling machines</a>. Logging can be accessed in the separate <a href="/automated-tests/scheduling/view-execution-status#execution-servers-details" target="_blank">machine details section</a>
 
 	*Example: The scheduled test run does not execute at the specified time on the Execution Server.*
 
-* For installation errors, Create an <a href="/troubleshooting-guide/installation-problems-tg/create-installer-log-file" target="_blank">Installer Log File</a>.
+* For installation errors, create an <a href="/troubleshooting-guide/installation-problems-tg/create-installer-log-file" target="_blank">Installer Log File</a>.
 
 	*Example: An error displays while installing Test Studio and prevents a successful installation.*
 
@@ -52,7 +54,7 @@ Is your application publicly accessible?
 
 * If the issue is specific to your web application and it's private, send a Fiddler trace of the behavior. To generate a <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler trace</a>, download <a href="http://www.telerik.com/fiddler/fiddlercap" target="_blank">FiddlerCap</a>, a simplified Fiddler trace capturing tool.
 
-* If the issue is specific to your Silverlight Out-of-Browser or WPF application, send the entire app. If this is not possible, create a small sample app that demonstrates the issue.
+* If the issue is specific to your WPF application, send the entire app. If this is not possible, create a small sample app that demonstrates the issue.
 
 ## New Tickets ##
 
@@ -60,9 +62,12 @@ Is your application publicly accessible?
 
 * After you open a ticket, please update that ticket with related questions, or create new tickets for unrelated questions.
 
->**Note:** Support tickets allow the following extensions: zip, rar, ace, jpg, gif, css, png. Typically you'll need to place files within a .zip file before attaching.
-<br>
->**Note:** There is a 40 MB size limit for file attachments. If your project exceeds this, make a copy of it and remove tests not related to the issue. Also remove one or more of the following potentially unnecessary components:
+>**Note**
+><br>
+><br> Support tickets allow the following extensions: zip, rar, ace, jpg, gif, css, png. Typically you'll need to place files within a .zip file before attaching.
+><br>
+><br>
+>There is a 20 MB size limit for file attachments. If your project exceeds this, make a copy of it and remove tests not related to the issue. Also remove one or more of the following potentially unnecessary components:
 
 <table class="docs">
 <tr>

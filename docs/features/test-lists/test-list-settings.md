@@ -65,6 +65,8 @@ All settings are listed below with additional details on their usage.
 	* **RecordingOutputLocation** - sets path to output location for all video files.
 	* **RecordingScale** - sets downscaling of the recorded video in percents. From 10 to 100.
 	* **RecordingSizeLimit** - sets file size limit in megabytes, 0 is unlimited size. If the limit is reached, video recording will be stopped before the test execution ends.
+* ***Translators***
+	* __TelerikComponentsVersion__ - the version of the Telerik Components in the application under test. Its default value is inherited from the <a href="/features/project-settings/translators#select-the-version-of-the-telerik-components-under-test" target="_blank">same setting on project level</a>.
 
 ## Web Tab
 
