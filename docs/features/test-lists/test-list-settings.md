@@ -70,7 +70,7 @@ All settings are listed below with additional details on their usage.
 
 ## Web Tab
 
-* ***APS.NET***
+* ***ASP.NET***
 	* **AspNetDevServerPort** - the ASP.NET development server port to use, if enabled. If set to -1, a random port is generated each time the manager is created.
 	* **LocalWebServer** - the local web server to use. When set to AspNetDevelopmentServer, the ASP.NET development server is started.
 	* **WebAppPhysicalPath** - the path to the application to test when running under the ASP.NET development server.

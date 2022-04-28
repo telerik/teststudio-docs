@@ -51,7 +51,7 @@ Test Studio is committed to support the latest released UI components as well as
 
 * The _Translators Version_ setting is __set on project level__ through the <a href="/features/project-settings/translators" target="_blank">Project Settings -> Translators</a>. This setting is __used for recording and quick test execution__.
 * Mapping of the matching versions of the releases and components is listed <a href="/features/project-settings/translators#test-studio-mapping-to-ui-components-versions" target="_blank">here</a>. 
-* __Test lists created in the project inherits the current value of the  _Translators Version_ setting on project level__. From that point on the setting is __maintained separately__ per each test list in the dedicated test list settings.
+* __Test lists created in the project inherits the current value of the  _Translators Version_ setting on project level__. From that point on the setting is __maintained separately__ per each test list in the dedicated <a href="/features/test-lists/test-list-settings#general-tab" target="_blank">test list settings</a>.
 * All existing test lists scheduled for remote runs automatically upload the changes in their settings to the Storage. Thus no downtime of test list runs is expected.
 * When you open any existing project in Test Studio v.2022.1.412, it gets upgraded - this process __adds the _Translators Version_ setting for the project and for the existing test lists__ following the below version mapping logic:
 
