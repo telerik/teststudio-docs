@@ -50,14 +50,14 @@ Test Studio is committed to support the latest released UI components as well as
 ### The Important Topics to Note about the Translators Versioning
 
 * The _Translators Version_ setting is __set on project level__ through the <a href="/features/project-settings/translators" target="_blank">Project Settings -> Translators</a>. This setting is __used for recording and quick test execution__.
-* Mapping of the matching versions of the releases and components is listed <a href="/features/project-settings/translators#test-studio-mapping-to-ui-components-versions" target="_blank">here</a>. 
+* Mapping of the matching versions of the releases and components is listed <a href="/features/project-settings/translators#test-studio-mapping-to-ui-components-versions" target="_blank">here</a>.
 * __Test lists created in the project inherits the current value of the  _Translators Version_ setting on project level__. From that point on the setting is __maintained separately__ per each test list in the dedicated <a href="/features/test-lists/test-list-settings#general-tab" target="_blank">test list settings</a>.
 * All existing test lists scheduled for remote runs automatically upload the changes in their settings to the Storage. Thus no downtime of test list runs is expected.
 * When you open any existing project in Test Studio v.2022.1.412, it gets upgraded - this process __adds the _Translators Version_ setting for the project and for the existing test lists__ following the below version mapping logic:
 
-    * A project __created and last used in Test Studio v.2021.1.215 or any previous version__ gets upgraded in v.2022.1.412 and the _Translators Version_ setting for the project and for all test lists is set to R32021.
-    * A new __project created in Test Studio v.2022.1.412 uses the _Translators Version_ setting with value _'Latest'___. That way it indicates the translators support the latest available version of the Telerik and Kendo components. If you leave the setting that way, it will be converted to the specific version (R12022SP1) when the project is upgraded in a new version of Test Studio.
-
+    * A project __created and last used in Test Studio v.2021.1.215 or any previous version__ gets upgraded in v.2022.1.412 and the ___Translators Version_ setting for the project and for all test lists is set to R32021__.
+    * A new __project created in Test Studio v.2022.1.412 and later uses the _Translators Version_ setting with value _'Latest'___. It indicates that the translators version in current Test Studio project support the latest available (at the time of the Test Studio release) version of the Telerik and Kendo UI components. The detailed mapping of the matching versions for translators and components can be found <a href="/features/project-settings/translators#test-studio-mapping-to-ui-components-versions" target="_blank">here</a>.
+    * For __each next Test Studio version new project and project upgrade, the _Translators Version_ setting remains with value _'Latest'___. If you need to set a fixed version to use for the translators, you need to change the _Translators Version_ setting to the corresponding Telerik and Kendo UI components as per the mapping listed <a href="/features/project-settings/translators#test-studio-mapping-to-ui-components-versions" target="_blank">here</a>.
 
 
 [0]: /img/automated-tests/recording/recording-translators/highlight-components.gif
