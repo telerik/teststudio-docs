@@ -34,7 +34,7 @@ Confirm the applied changes with __OK__ button.
 
 ![Confirm configuration][6]
 
-## Record Steps in a Web Test
+## Record Steps in a WPF Test
 
 The __Record__ button is in the test toolbar when a test is opened in the project. Click the button to initiate a recording session.
 
