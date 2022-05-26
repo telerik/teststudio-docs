@@ -92,7 +92,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Windows 8.1, Windows 10, Windows Server 2012,&nbsp;Windows Server 2016, Windows Server 2019</td>
+            <td colspan="4">Windows 11, Windows 10, Windows 8.1, &nbsp; <br> Windows Server 2019, Windows Server 2016, Windows Server 2012</td>
         </tr>
     </tbody>
 </table>
