@@ -15,9 +15,11 @@ When I highlight an element the highlighting and the context menu are misaligned
 
 ## Solution
 
-1. <a href="/features/project-settings/browsers" target="_blank">Calibrate</a> your browser. Test Studio tests are meant to always be run with the browser zoom level at 100%.
+1. Ensure <a href="/features/project-settings/browsers" target="_blank">the browser is calibrated</a>. Test Studio tests are meant to always be run with the browser zoom level at 100%.
 
-2. Set the monitor's **DPI** setting at **Smaller** or **100%** as well.
+2. Set the Windows options to <a href="https://support.microsoft.com/en-us/windows/make-text-and-apps-bigger-c3095a80-6edd-4779-9282-623c4d721d64" target="_blank">enlarge __text and apps size__</a> to 100%.
+
+3. Set the monitor's **DPI** setting at **Smaller** or **100%** as well.
 
 ### Windows 10
 
