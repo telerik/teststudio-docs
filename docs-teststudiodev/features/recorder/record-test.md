@@ -21,7 +21,7 @@ The respective item is selected in the list of items, type a name and click _Add
 
 >__Note!__ The supported for __recording browsers__ are __Internet Explorer__, __Chrome__ and __FireFox__
 
-Double click a web test from the Solution Explorer to open it. Click on the _Record_ button to start the recording process.
+Double click a web test from the Solution Explorer to open it. Click on any of the _Record_ buttons to start the recording process.
 
 ![Click Record Button](images/quickstart/record-button.png)
 
@@ -31,7 +31,7 @@ In the dialog that pops up enter the URL to record a test against and select the
 
 The URLs recently used for recording will be listed in the _Recent URLs_ section where you can select directly any of them.
 
-The recording browser will start and navigate to the selected URL. Once the URL is fully loaded the <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev Recorder Toolbar</a> will be attached to the browser and you can start performing the desired scenario. Each action against the page will be automatically recorded and presented by a single step in the test. 
+The recording browser will start and navigate to the selected URL. Once the URL is fully loaded the <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev Recorder Toolbar</a> gets attached to the browser and you can start performing the desired scenario. Each action against the page is automatically recorded and presented by a single step in the test.
 
 ![Recorded Steps](images/quickstart/recorded-steps.png)
 
@@ -53,15 +53,15 @@ The _Configure WPF Application Path_ wizard appears. There are two options to de
 * __Active WPF Applications__ - Progress Test Studio detects all WPF apps currently running and lists them. Highlight the desired app and press Select Application.
 * __Recording Options__ - whether to record window state changes.
 
-Click on _OK_ button to confirm the configuration. 
+Click on _OK_ button to confirm the configuration.
 
-Once you have configured the test click on the _Record_ button to launch a new instance of the application to record against.
+Once you have configured the test click on any of the _Record_ buttons to launch a new instance of the application to record against.
 
 ![Click Record Button](images/quickstart/record-button.png)
 
-The <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev Recorder Toolbar</a> will be attached to the application instance and you can start performing the desired scenario. Each action against the application will be automatically recorded and presented by a single step in the test. 
+The <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev Recorder Toolbar</a> gets attached to the application instance and you can start performing the desired scenario. Each action against the application is automatically recorded and presented by a single step in the test.
 
-To stop the recording session close the WPF application. 
+To stop the recording session close the WPF application.
 
 ## Attach the Recorder to a Running Instance
 

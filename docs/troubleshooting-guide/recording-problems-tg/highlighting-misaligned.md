@@ -21,7 +21,7 @@ When I highlight an element the highlighting and the context menu are misaligned
 
 3. Set the monitor's **DPI** setting at **Smaller** or **100%** as well.
 
-### Windows 10
+### Change DPI on Windows 10
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -33,7 +33,7 @@ When I highlight an element the highlighting and the context menu are misaligned
 
 ![win 10][4]
 
-### Windows 8
+### Change DPI on Windows 8
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -43,15 +43,13 @@ When I highlight an element the highlighting and the context menu are misaligned
 
 ![win 8][2]
 
-### Windows 7
+### Change DPI on Windows 7
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
 2. Select **Smaller - 100%** and click Apply
 
 ![win 7][3]
-
-
 
 [1]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig1.png
 [2]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig2.png

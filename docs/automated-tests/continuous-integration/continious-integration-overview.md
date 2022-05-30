@@ -1,11 +1,11 @@
 ---
-title: Continious Integration Overview
+title: Continuous Integration Testing 
 page_title: Telerik Testing in Continuous Integration Environments
 description: "Telerik Testing in Continuous Integration Environments with Test Studio"
 previous_url: /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments.aspx, /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments
 position: 1
 ---
-# Telerik Testing in Continuous Integration Environments #
+# Test Studio Tests in Continuous Integration Environments
 
 Continuous Integration almost continuously integrates the individual developer's changes into the main source code control system or repository, performing a new build, verifying the build, and running automated tests against those builds. Continuous integration has many advantages. These include the constant availability of a current build for testing purposes, immediate testing of all changes, and the opportunity for developers to revert the codebase back to a bug-free state when a test fails or a bug is discovered, without wasting time debugging. Learn more about continuous integration at <a href="http://msdn.microsoft.com/en-us/library/ee308011(v=vs.100).aspx" target="_blank">MSDN</a> and Martin Fowler's <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous Integration</a>.
 

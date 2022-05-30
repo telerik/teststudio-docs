@@ -10,6 +10,6 @@ position: 5
 
 ![Emulated Device settings][1]
 
-To find out further details for <a href="https://docs.telerik.com/teststudio/features/testing-types/responsive-test" target="_blank">Responsive web testing</a> you can visit its page in the Test Studio docs site.
+Find out further details about <a href="https://docs.telerik.com/teststudio/features/testing-types/responsive-test" target="_blank">Responsive web testing</a> in the Test Studio Standalone docs site.
 
 [1]: images/emulated-device/fig1.png

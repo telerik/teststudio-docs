@@ -26,6 +26,8 @@ Apply specific <a href="/features/elements-explorer/elements-find-expression#ele
 
 - Enable/Disable scrolling of the page when searching an element by image.
 
+- Enable/Disable searching the elements by using their image first. The setting is used on project level and applies for every test step, unless it is otherwise specified in the <a href="/general-information/test-execution/test-list-settings" target="_blank">Test List Settings</a> or <a href="/features/test-maintenance/test-step-properties" target="_blank">Test Step Properties</a>.
+
 ## Image Preview
 
 Enable/Disable displaying the image preview in the Elements Explorer.

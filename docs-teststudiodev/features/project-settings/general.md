@@ -22,10 +22,6 @@ Represents the default application path for WPF tests. Once set, each test will 
 
 Use this feature to no longer receive certificate-related warnings when automating your HTTPS web application with Test Studio Dev. See <a href="/advanced-topics/project-configuration/register-certificate" target="_blank">to register the Fiddler certificate</a> for more information.
 
-### Http Proxy
-
-This property allows the user to specify whether to use the HTTP proxy in Quick Execution.
-
 ## Web Components
 
 Enable or disable support for <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Components</a> in Test Studio recording. It is enabled by default for newly created projects after Test Studio version 2020.1.

@@ -1,18 +1,18 @@
 ---
 title: WPF Tests
 page_title: Configure WPF Test
-description: "Configure WPF Test (Standalone) in Test Studio for specific APF application. Create a WPF test in Test Studio and record"
+description: "Configure WPF Test (Standalone) in Test Studio for specific WPF application. Create a WPF test in Test Studio and record an automated scenario"
 position: 1
 ---
 # WPF Tests in Test Studio
 
-With Test Studio you can record and execute tests against any WPF desktop application. In order to specify the application, which will be tested, you need to configure the WPF test and point to the executable file of the WPF app.
+Test Studio recording feature supports WPF applications built with .Net 4.5+ or .Net Core 3.1 and above, and .Net 5. To be able to initiate recording session against specific application, you need to list its executable in the WPF test.
 
-This article will guide you through the WPF test configuration process.
+This article guides you through the WPF test configuration process.
 
-## Configure WPF Test to Record the Specific Application
+## Configure WPF Test to Record Specific Application
 
-The __configuration of the WPF test requires an executable file of a valid WPF app to be specified__ and, thus,  used for recording and execution. When you open a WPF test in Test Studio, you will notice that some of the options in the __Test__ ribbon are different than these for a web test. The __Configure__ button replaces the browser control and timeouts options.
+The __configuration of the WPF test requires an executable file of a valid WPF app to be specified__ and, thus, used for recording and execution. When you open a WPF test in Test Studio, you can see the __Configure__ button in the __Test__ tools ribbon.
 
 ![Configure button](/img/automated-tests/recording/overview/fig10.png)
 

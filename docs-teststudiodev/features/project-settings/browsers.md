@@ -18,6 +18,14 @@ Select an installed browser from the Preferred Browser dropdown to set that brow
 
 __Preferred Browser for Responsive Web Test__ option is not applicable for a Visual Studio project. This feature is __only supported in Test Studio Standalone__ application. To find out further details for <a href="https://docs.telerik.com/teststudio/features/testing-types/responsive-test" target="_blank">Responsive web testing</a> you can visit its page in the Test Studio docs site.
 
+## Browser Support Updater
+
+Striving to be up-to-date with the latest browser versions, Test Studio regularly <a href="https://docs.telerik.com/teststudio/prerequisites/configure-your-browser/browser-support-updater" target="_blank">updates the support</a> of any recent changes in browsers' new releases. A notification that there is an update appears, when one is available.
+
+## Extension
+
+Enable/Disable using extension for <a href="/prerequisites/calibrate-browsers#enable-chrome-for-automation" target="_blank">Chrome browser automation</a>.
+
 ## Calibrate Browser
 
 The Calibrate Browser section automates the configuration of supported browsers for use with Test Studio. Click **Calibrate** next to a browser to update that browser's settings.

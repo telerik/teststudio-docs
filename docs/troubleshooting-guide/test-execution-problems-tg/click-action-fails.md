@@ -20,7 +20,7 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 
 3. Set the monitor's **DPI** setting at **Smaller** or **100%** as well.
 
-### Windows 10
+### Change DPI on Windows 10
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -30,7 +30,7 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 
 ![win 10][4]
 
-### Windows 8
+### Change DPI on Windows 8
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -40,7 +40,7 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 
 ![win 8][2]
 
-### Windows 7
+### Change DPI on Windows 7
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 

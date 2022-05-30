@@ -24,6 +24,10 @@ Striving to be up-to-date with the latest browser versions, Test Studio regularl
 
 ![Dialog Handler Update][3]
 
+## Extension
+
+Enable/Disable using extension for <a href="/prerequisites/configure-your-browser/chrome" target="_blank">Chrome browser automation</a>.
+
 ## Calibration
 
 The _Calibrate Browser_ section allows the <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">configuration of supported browsers for use with Test Studio</a>. Click **Calibrate** next to a browser to update its settings to be compatible for test recording and execution.

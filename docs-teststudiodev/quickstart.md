@@ -49,7 +49,7 @@ The respective item is selected in the list of items, type a name and click _Add
 
 ![Name New Test](images/quickstart/add-new-test-wizard.png)
 
-To open the test double click on its name in the Solution Explorer. 
+To open the test double click on its name in the Solution Explorer.
 
 ![Open new test](images/quickstart/open-new-test.png)
 
@@ -57,11 +57,11 @@ To open the test double click on its name in the Solution Explorer.
 
 >__Note!__ The supported for __recording browsers__ are __Internet Explorer__, __Chrome__, __FireFox__ and __Edge Chromium__.
 
-Double click a test from the Solution Explorer to open it. Click on the _Record_ button to launch a new browser or an instance of the WPF application to record against.
+Double click a test from the Solution Explorer to open it. Click on any of the _Record_ buttons to launch a new browser or an instance of the WPF application to record against.
 
 ![Click Record Button](images/quickstart/record-button.png)
 
-Once the browser/application is launched the <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev recorder toolbar</a> will be attached to the that instance and will record steps in the test for each action against the application under test. 
+Once the browser/application is launched the <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev recorder toolbar</a> gets attached to the that instance and records steps in the test for each action against the application under test.
 
 __See also:__
 

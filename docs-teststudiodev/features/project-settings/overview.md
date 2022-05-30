@@ -21,8 +21,9 @@ The available settings are divided in few areas:
 - <a href="/features/project-settings/element-images" target="_blank">Element Images Settings</a>
 - <a href="/features/project-settings/browsers" target="_blank">Browsers Configuration Settings</a>
 - <a href="/features/project-settings/emulated-device" target="_blank">Emulated Device Settings</a>
-- <a href="/features/project-settings/find-logic" target="_blank">Find Logic (Html) Settings</a>
+- <a href="/features/project-settings/find-logic" target="_blank">Smart Find Logic Settings</a>
 - <a href="/features/project-settings/updates" target="_blank">Updates Product Settings</a>
 - <a href="/features/project-settings/translators" target="_blank">Translators Project Settings</a>
 - <a href="/features/project-settings/analytics" target="_blank">Analytics Product Settings</a>
+- <a href="/features/project-settings/theme" target="_blank">Theme Project Settings</a>
 - <a href="/features/project-settings/logging" target="_blank">Logging Product Settings</a>

@@ -6,13 +6,18 @@ position: 3
 ---
 # Element Images
 
-Apply specific <a href="https://docs.telerik.com/teststudio/features/elements-explorer/elements-find-expression#elements-image" target="_blank">elements' image</a> settings related to locating elements on page on project level. The image recording is enabled by default, but you can choose whether to use these images during execution. To edit the images recorded for elements, you need to open the project in the <a href="https://www.telerik.com/teststudio" target="_blank">Standalone Test Studio product</a>.
+Apply specific settings for <a href="https://docs.telerik.com/teststudio/features/elements-explorer/elements-find-expression#elements-image" target="_blank">elements' images</a> used for locating elements.
 
 ![Element Images][1]
 
 ## Recording
 
-Image recording for elements is enabled by default and the default threshold value set, to match the images, is 90. The usage of the desktop screenshot cache is also enabled by default. 
+Image recording for elements in Test Studio Dev is enabled by default. The default image match threshold is 90 percent. Using the desktop screenshot cache is enabled by default.
+
+> __Note__
+> <br>
+> <br>
+> Changing the image recording settings and <a href="https://docs.telerik.com/teststudio/automated-tests/elements/find-element-by-image" target="_blank">editing the images</a> is only supported in Test Studio Standalone version.
 
 ## Execution
 
@@ -24,12 +29,14 @@ Image recording for elements is enabled by default and the default threshold val
 
 - Enable/Disable scrolling of the page when searching an element by image.
 
+- Enable/Disable searching the elements by using their image first. The setting is used on project level and applies for every test step, unless it is otherwise specified in the <a href="/features/test-execution/test-list-settings" target="_blank">Test List Settings</a> or <a href="/features/test-maintenance/test-step-properties" target="_blank">Test Step Properties</a>.
+
 ## Image Preview
 
-Displaying the image preview in the Elements Explorer is not available in the Test Studio Dev plugin for Visual Studio. If you need to <a href="https://docs.telerik.com/teststudio/features/elements-explorer/find-element-by-image" target="_blank">see and edit the images recorded for elements</a>, you need to open the project in the Standalone Test Studio product.
+Displaying the image preview in Elements Explorer is not supported in Test Studio Dev. You can <a href="https://docs.telerik.com/teststudio/features/elements-explorer/find-element-by-image" target="_blank">see and edit the images recorded for elements</a> in the Standalone Test Studio product.
 
 ## Clear All Element Images
 
-Deleting the elements' images is not available in the Test Studio Dev plugin for Visual Studio.
+Deleting the elements' images is not not supported in Test Studio Dev.
 
 [1]: images/element-images/fig1.png
