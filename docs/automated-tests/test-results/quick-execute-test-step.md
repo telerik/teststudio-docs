@@ -1,18 +1,18 @@
 ---
 title: Test as Step Results
 page_title: Test as Step Results
-description: "Test Studio Test as Step Results. Analyze the Test Studio test as step results. Nested tests results. "
+description: "Learn how to use a Test Studio test as step results, also know as nesting test results."
 position: 2
 ---
 # Test as Step Results 
 
-Test Studio allows you to reuse the commonly used steps combined in a test and execute this as a <a href="/features/custom-steps/test-as-step" target="_blank">test as step</a>. The test as step is presented as a single step in the parent test and its overall status after quick execution is marked passed or failed as it is for any other step.
+Test Studio allows you to combine commonly used steps in a test and reuse them by executing this <a href="/features/custom-steps/test-as-step" target="_blank">test as a step</a>. The test as step is presented as a single step in the parent test and its overall status after quick execution is marked passed or failed as for any other step.
 
-The details of the test as step execution and what is the outcome of each of its steps, can be reviewed in the Quick execution log.
+You can find the details about the test as step execution and the outcome from each of its steps in the Quick execution log.
 
 ## Quick Execution Log for Test as Step
 
-If the test as step is executed without errors, and the rest of the test is successful, the overall test result will be marked as passed.
+If the test as step is executed without errors and the rest of the test is successful, the overall test result will be marked as passed.
 
 ![Successful web test with test as step][1]
 
@@ -26,7 +26,7 @@ If any of the steps in a test as step fails, the parent test is marked as failed
 
 ![Failed web test with a test as step][3]
 
-Clicking the **View Log** link displays both the overall test results and the results for the Test as Step.
+Clicking the **View Log** link displays both the overall test results and the results for the test as step.
 
 ![Execution log for failed test as step][4]
 
