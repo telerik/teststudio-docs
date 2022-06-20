@@ -91,13 +91,21 @@ Once the test is <a href="/automated-tests/troubleshooting/visual-debugger#make-
 
 ## Test Studio Application Log
 
-The application log is a record of log messages recorded by Test Studio throughout your interaction in the product. All records in the application log, are designed to indicate important events and help pinpoint where problems may occur. This log is distinct from the execution log, which only records the attempted steps and encountered exceptions during test execution. The application log is useful for unexpected occurrences such as a product crash, unexpected termination of a test run, which prevents generating the execution log, inconsistent behavior while working with the project components.
+The application log is a record of log messages recorded by Test Studio throughout your interactions in the product. All records in the application log are added to indicate important events and help pinpoint where problems may occur. This log is distinct from the execution log, which only records the attempted steps and encountered exceptions during test execution. The application log is useful for unexpected occurrences such as a product crash, unexpected termination of a test run, which might prevent generating the execution log, inconsistent behavior while working with the project components.
 
-To be able to easily find the useful records in the application log it is recommended to first clear the logging, ensure it is enabled and reproduce the misbehavior to be investigated. Once the inconsistency is reproduced, open the application log in a text editor tool (usually the default is Notepad). If you need to send the logging you can save the file and provide it zipped.
+Follow the below steps to <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">generate the logging</a> and find the error message indicating the encountered issue:
 
-![Test Studio Application Log](/img/automated-tests/troubleshooting/failing-test/fig9.png)
+* Clear the log file;
+* Ensure logging is enabled;
+* Reproduce the misbehavior to be investigated;
+* Once the observed inconsistency is present, open the application log from the _'View Log'_ option;
+* The logging records are opened in a text editor file (usually Notepad);
+* You can revise the logged messages yourself and try to find a solution based on the error message.
+* Or you can contact the Test Studio Support Team and send the zipped log file via a support thread describing the experienced issue.
 
-**When to turn on the application log?**
+![Test Studio Standalone Application Log](/img/automated-tests/troubleshooting/failing-test/fig9.png)
+
+### When to turn on the application log?
 
 Whenever Test Studio behaves differently than expected, an application log can give more information about why. This is especially true for situations other than test failure or code compilation. For example:
 
@@ -108,9 +116,9 @@ Whenever Test Studio behaves differently than expected, an application log can g
 - A Test Studio execution browser closes unexpectedly or stops responding during execution;
 - Test Studio cannot connect to a browser.
 
-**Generating the application log.**
+### Generating the application log
 
-You can <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">generate an application log</a> from the help tab.
+Test Studio logging options can be accessed from different components of the product. Find out how to <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">generate the application log</a> for the different installations of Test Studio.
 
 **What to look for in the application log.**
 

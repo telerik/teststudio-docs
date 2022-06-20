@@ -11,8 +11,11 @@ productName: "Test Studio Documentation"
 exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*, docs-watcher/*]
 exclude_navigation: ["archived-docs/*", "license-server/*", "test-studio-mobile/*", "copyright.html"]
 
+
 # CTA Panels
 has_cta_panels: true
+# KB portal
+has_kb_portal: true
 
 ## Ignore API directory
 navigation:
@@ -486,12 +489,6 @@ defaults:
         path: knowledge-base
     values:
         res_type: "kb"
--
-    scope:
-        path: test-studio-mobile
-    values:
-        announcement: |
-            Test Studio Mobile is in а process of discontinuation. Please refer to this <a href="https://www.telerik.com/blogs/test-studio-to-focus-on-web-testing?utm_medium=product&utm_source=documentation&utm_campaign=test-studio-blog-mobile-deprecation" target="_blank">page</a> for more information.
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
