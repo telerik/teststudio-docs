@@ -144,7 +144,7 @@ Admin permissions are required for:
 
 ## Visual Studio Plug-in Support
 
-* IDE (Visual Studio plug-in only): Visual Studio __2015__, __2017__, __2019__ (v.16.5+) and __2022__  __Professional or higher__.
+* IDE (Visual Studio plug-in only): Visual Studio __Professional or Enterprise 2015, 2017, 2019__ and __2022__.
 
 	* You must run Visual Studio as Administrator
 	* Visual Studio projects should target .Net 4.5.2 or higher.
@@ -156,7 +156,7 @@ Admin permissions are required for:
 
 ## Required Database for Scheduling Configuration
 
-* MongoDB 3.6+, 4.0+
+* MongoDB 4.0+
 
 > **Note** MongoDB requires at least __2 GB additional disk space__ on the machine where the Storage service is installed.
 
@@ -164,13 +164,13 @@ Admin permissions are required for:
 
 * If using Excel for data driven testing:
 
-	*	Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components</a> (x86 redistributable).
+	*	Microsoft Office installation or the **32-bit version** of <a href="https://www.microsoft.com/en-us/download/details.aspx?id=13255" target="_blank">Microsoft Access Database Engine 2010</a>.
 
 ## Source Control
 
-* Git remote repositories
+* Git based repositories.
 
-* TFS Source Control solution
+* Azure DevOps TFVC and Git based repositories.
 
 ## Build Server / Continuous Integration
 
