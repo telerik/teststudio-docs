@@ -43,6 +43,14 @@ Optionally, the **Configure Scheduling** wizard can be accessed through the Wind
 
 ![Configure scheduling setup wizard][2a]
 
+Go through each tab to setup the Test Studio services:
+
+- [MongoDB Tab](#mongodb-tab)
+- [Storage Tab](#storage-tab)
+- [Scheduling Tab](#scheduling-tab)
+- [Setup Automatic Emails for Scheduled Jobs](#automatic-email-for-scheduled-test-lists)
+- [Executive Dashboard Tab](#executive-dashboard-tab)
+
 ### MongoDB Tab
 
 In the dialog which appears, the first **MongoDB** tab contains the settings required for the Mongo database. The **MongoDB data path** and **mongod.exe path** fields are populated with the values for a default MongoDB installation. Hit the **Apply** button and confirm the *MongoDB is started* status appears in the lower left corner of the wizard.
