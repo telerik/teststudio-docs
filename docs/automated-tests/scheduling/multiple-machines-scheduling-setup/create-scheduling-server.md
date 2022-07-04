@@ -10,6 +10,10 @@ The Test Studio Scheduling services work together to ensure the seamless communi
 
 The below article describes the configuration steps.
 
+- [Start the Test Studio Scheduling Config Wizard]()#start-the-test-studio-scheduling-config-wizard
+- [Configure the Test Studio Services](#configure-the-test-studio-services)
+- [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
+
 > __Important__
 > <br>
 > <br>
@@ -17,21 +21,30 @@ The below article describes the configuration steps.
 
 ## Start the Test Studio Scheduling Config Wizard
 
-When the Test Studio services are installed (no matter in which edition of the product), the installation wizard suggests to start the Scheduling config wizard automatically.
+You can start the Scheduling config wizard in any of the following ways:
 
-![Start scheduling setup wizard after installation of services][1]
+* Once Test Studio services get installed (no matter in which edition of the product), the installation wizard suggests to start the **Configure Test Studio Services** automatically.
 
-The **Configure Test Studio Services** wizard can be accessed through the Windows Start menu by typing *Configure Test Studio Services*.
+    ![Start scheduling setup wizard after installation of services][1]
 
-![Configure scheduling setup wizard][12a]
+* The  wizard can be accessed through the Windows Start menu by typing *Configure Test Studio Services*.
 
-When configuring the Test Studio services on the machine with Test Studio standalone application, the __Scheduling configuration wizard__ can be accessed through the opened project - click **Configure** button under the *Project* tab in the *Scheduling* section.
+    ![Configure scheduling setup wizard][12a]
 
-![Configure][12]
+* The **Configure Test Studio Services** can be accessed through the opened in Test Studio project - click **Configure** button under the *Project* tab in the *Scheduling* section.
+
+    ![Configure][12]
 
 ## Configure the Test Studio Services
 
-There are few tabs in the __Scheduling configuration wizard__, which provide the configuration details for the each of the components of the Scheduling setup.
+There are few tabs in the __Scheduling configuration wizard__, which provide the configuration details for each of the components of the Scheduling setup.
+
+- [MongoDB Tab](#mongodb-tab)
+- [Storage Tab](#storage-tab)
+- [Scheduling Tab](#scheduling-tab)
+- [Setup Automatic Emails for Scheduled Jobs](#automatic-email-notification-for-scheduled-executions)
+- [Executive Dashboard Tab](#executive-dashboard-tab)
+- [Non Admin Port Setup Tab](#non-admin-port-setup-tab)
 
 ### MongoDB Tab
 
@@ -48,6 +61,10 @@ Hit the **Apply** button and confirm the *'MongoDB is running'* status appears i
 > <br>
 > The **MongoDB** tab will be grayed out (inactive) if you do not have MongoDB installed on the machine! This will get enabled when the correct __Storage Service Location__ is set in the **Scheduling** tab.
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ### Storage Tab
 
 The **Storage** tab displays the connection details used from Test Studio Storage Service to access the MongoDB. The listed **MongoDB connection string** is the default connection string to be used for MongoDB database and is the only valid connection option for the Storage service.
@@ -60,6 +77,10 @@ Hit the **Apply** button and check the *'Telerik Storage Service is started'* st
 > <br>
 > <br>
 > The **Test Studio Storage Service and MongoDB** require to be installed on the same machine.
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
 
 ### Scheduling Tab
 
@@ -74,6 +95,10 @@ Hit the **Apply** button and check the *'Telerik Scheduling Service is running'*
 > <br>
 > If the Test Studio services are hosted on different machines, you can enter the respective machine name or IP to configure these.
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ### Automatic Email Notification for Scheduled Executions
 
 Optionally, the **Test Studio Scheduling service can be configured to use an Email (SMTP) server** by specifying the email server connection details. By adding these settings you will be able to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list.
@@ -84,6 +109,10 @@ Once the necessary data is entered, hit the **Apply** button to reflect the chan
 
 ![Scheduling SMTP][5a]
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ### Executive Dashboard Tab
 
 The __Executive Dashboard__ tab provides information about the __Storage Service Location__ from which the <a href="/general-information/test-results/executive-dashboard" target="_blank">Dashboard</a> takes results. The default populated value points to the local machine - *'localhost'*. If the Test Studio services are hosted on different machines, you can enter the respective machine name or IP where the Storage service is running.
@@ -93,6 +122,10 @@ The __Executive Dashboard__ section of the tab allows changing the port on which
 Hit the **Apply** button and check the *'Telerik Scheduling Service is running'* status appears in the lower left corner of the wizard.
 
 ![Executive dashboard][6]
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
 
 ### Non Admin Port Setup Tab
 
@@ -114,15 +147,29 @@ In the sample screenshot two of the ports are already reserved for the users in 
 > <br>
 > The __Ports in Use__ section displays the ports configured in the previous tabs of the Scheduling setup wizard. If you need to change any of these, get back to the respective tab and apply the necessary changes.
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ## Finish the Test Studio Services Configuration
 
 When all necessary settings are applied and all services are reported running, close the wizard window to finish the Scheduling Services setup.
 
-[1]: /img/features/scheduling-test-runs/create-scheduling-server/fig1.png
+> __Important__
+> <br>
+> <br>
+> If the machines have active firewall, ensure that the following ports are opened in both the inbound and outbound directions:
+> - Scheduling Service: 8009
+> - Storage Service: 8492
+> - Execution Machine(s): 55555
 
+## See Also
+
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-running-tests-remotely" target="_blank">Test Studio Step-by-Step: Running Tests Remotely</a>
+
+[1]: /img/features/scheduling-test-runs/create-scheduling-server/fig1.png
 [12]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2.png
 [12a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2a.png
-
 [2]: /img/features/scheduling-test-runs/create-scheduling-server/fig2new.png
 [3]: /img/features/scheduling-test-runs/create-scheduling-server/fig3new.png
 [4]: /img/features/scheduling-test-runs/create-scheduling-server/fig5new.png

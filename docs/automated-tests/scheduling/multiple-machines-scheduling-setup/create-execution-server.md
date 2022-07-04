@@ -10,19 +10,30 @@ Test Studio Execution Server can be any machine with installed Test Studio (<a h
 
 The below article describes the configuration steps.
 
+* [Start the Execution Client](#start-the-execution-client)
+* [Configure Test Studio Execution Client](#configure-test-studio-execution-client)
+* [Browser Support Update](#browser-support-update)
+* [User Session Configuration](#user-session-configuration)
+
 ## Start the Execution Client
 
-The **Test Studio Execution Client** is installed with any standard Test Studio installation. To start the Execution Client, called also Test Runner, type in the __Windows Start Menu__ > **Start Execution Server**.
+The **Test Studio Execution Client** is the Run-time component of Test Studio. It gets installed with Test Studio Standalone and Run-time editions. To start the Execution Client, called also Test Runner, type in the __Windows Start Menu__ > **Start Execution Server**.
 
 ![Start Execution Server][1a]
 
-If there is a Test Studio project opened on this machine, the Execution client is already running and you might get prompted that **the Test Runner is already running**. As this is running in the background, you can access it from the Windows Task Bar on the lower right corner. Locate the the Test Studio icon, right click on it and choose the **Show** option.
+The Execution client is running in the background, so if this is __already started__ (automatically on machine startup or automatically with a test project), you might get prompted that **The Test Runner is already running**. In this case you can access it from the __Windows Task Bar__ on the lower right corner - locate the Test Studio icon, right click on it and choose the **Show** option.
 
 ![Show][1]
 
-## Configure Test Studio Test Runner
+## Configure Test Studio Execution Client
 
 Once the **Test Studio Test Runner** window appears, there are multiple options you can customize as per the specifics of the particular environment.
+
+* [Execution Server Configuration](#execution-server-configuration)
+* [Machine Information](#machine-information)
+* [Logging Information](#logging-information)
+* [Run on Startup](#run-on-startup)
+* [Browsers Information](#browsers-information)
 
 ### Execution Server Configuration
 
@@ -30,17 +41,23 @@ Once the **Test Studio Test Runner** window appears, there are multiple options 
 
 - **Scheduling URL** - shows the URL of the current configured Scheduling server, to which the Execution server is connected. To change this address, click the *'Change'* button (the three dots button) next to the listed Scheduling service address.
 
-![Change Location][2]
+    ![Change Location][2]
 
-Type the address for the machine which hosts the Scheduling Service under **Scheduling Service URI** with the correct port it is configured on and click on *'Change'* to connect to that Scheduling Server.
+    Type the address for the machine which hosts the Scheduling Service under **Scheduling Service URI** with the correct port it is configured on and click on *'Change'* to connect to that Scheduling Server.
 
-![Service URI][3]
+    ![Service URI][3]
 
 - **Temp Folder** - the process of executing tests on a remote machine includes deployment of the project files in a temporary folder. You can choose where this temp folder will be located on the disc - click the *'Change'* button (the three dots button) next to the listed folder and browse the desired one. The *Reset* button will set the default temporary location on the execution machine.
 
-![Temporary folder][5]
+    ![Temporary folder][5]
 
-> **Note!** It is important to allow access to the newly set location for all users.
+> **Note!**
+><br> 
+><br> You need to allow access to the newly set location for all users.
+
+<br>
+<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
+<br>
 
 ### Machine Information
 
@@ -48,11 +65,29 @@ The section contains details for the Execution Server machine - status, Test Stu
 
 ![Machine Information][6]
 
+<br>
+<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
+<br>
+
 ### Logging Information
 
 You can access the logging of the Execution Server - enable, disable or view <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">the generated log</a>.
 
 ![Logging Information][6a]
+
+<br>
+<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
+<br>
+
+### Run on Startup
+
+The **Run on start up** option allows you to decide whether the Test Runner should be started automatically on machine startup.
+
+![Run on start up][7]
+
+<br>
+<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
+<br>
 
 ### Browsers Information
 
@@ -60,17 +95,15 @@ All available and supported browsers on the Execution Server are listed in this 
 
 ![Browsers Information][6b]
 
+<br>
+<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
+<br>
+
 ## Browser Support Update
 
 This section appears only if there is an <a href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">__update for latest browser versions__</a> and allows you to update these with a single button click.
 
 ![Dialog Handler Update][6c]
-
-### Run on Startup
-
-The **Run on start up** option allows you to decide whether the Test Runner should be started automatically on machine startup.
-
-![Run on start up][7]
 
 ## User Session Configuration
 
@@ -84,9 +117,14 @@ If this option is enabled, as long as the Test Studio Scheduling Client process 
 
 Once the option is disabled or the Test Studio Scheduling Client process is stopped, the operating system will be able to get to sleep/lock normally.
 
-> __Note!__ This functionality will not prevent the user to manually lock the machine or put it to sleep.</br>
-
-> __Note!__ Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Please consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
+> __Note!__ 
+><br> 
+><br> This functionality will not prevent the user to manually lock the machine or put it to sleep.
+><br> 
+><br>
+> __Note!__ 
+><br> 
+><br> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Please consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
 
 ### Reconnect to Console on Disconnect
 

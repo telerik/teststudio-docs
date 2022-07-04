@@ -8,7 +8,14 @@ position: 3
 
 With Test Studio you can schedule test lists on a single machine, but using the Test Studio services and simulating remote test list execution. The Scheduling service setup allows you to keep the generated results in a storage database.
 
-The below article describes the necessary steps to enable remote scheduling for a Standalone Test Studio installation on a single machine. You can watch a <a href="http://www.telerik.com/automated-testing-tools/support/videos/best-practices/how-to-setup-test-studio-remote-execution.aspx" target="_blank">video tutorial</a> for the same.
+The below article describes how to enable scheduling tests for a Standalone Test Studio installation on a single machine. You can also __read this Step-By-Step series <a href="https://www.telerik.com/blogs/test-studio-step-by-step-scheduling-tests" target="_blank">blog post about setting up Test Studio Scheduling</a>__.
+
+* [Installing Test Studio for Remote Scheduled Execution](#installing-test-studio-for-remote-scheduled-execution)
+* [Configure the Test Studio Services](#configure-the-test-studio-services)
+* [Configure the Execution Client](#configure-the-execution-client)
+* [Setting Up a Project for Remote Scheduled Runs](#setting-up-a-project-for-remote-scheduled-runs)
+* [Schedule a Test List](#schedule-a-test-list)
+* [View Results of Remote Scheduled Run](#view-results-of-remote-scheduled-run)
 
 ## Installing Test Studio for Remote Scheduled Execution
 
@@ -47,11 +54,19 @@ In the dialog which appears, the first **MongoDB** tab contains the settings req
 > <br>
 > The Scheduling config wizard uses the default MongoDB parameters to connect to it. Thus, you may need to change these, **only if the MongoDB installation was modified**.
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ### Storage Tab
 
 The **Storage** tab displays the Test Studio Storage service details - you can verify the **MongoDB connection string**, which is the default way to connect to the Mongo database. Hit the **Apply** button and check the *Telerik Storage Service is started* status appears in the lower left corner of the wizard.
 
 ![Storage][12]
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
 
 ### Scheduling Tab
 
@@ -59,17 +74,29 @@ The **Scheduling** tab contains information about the location of the Test Studi
 
 ![Scheduling][13]
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ### Automatic Email for Scheduled Test Lists
 
 Optionally, you can configure the Test Studio Scheduling service to use an Email (SMTP) server by specifying few additional details. These settings allow you to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list. Depending on the SMTP server configuration, mandatory fields are the *'SMTP server address'* and the *'Port'* to communicate with it and the *'User Email'* and *'Password'* are not explicitly required. Once these fields are populated, hit the **Apply** button to reflect the changes to the Scheduling service and check if the *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
 
 ![Scheduling SMTP][13a]
 
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ### Executive Dashboard Tab
 
 The <a href="/general-information/test-results/executive-dashboard" target="_blank">**Executive Dashboard** tab</a> contains information about the Storage service location used to get scheduled results from, and links the URL on which the Dashboard is hosted. The default populated values are pointing to the local machine - *localhost*. For this particular configuration, these can remain unchanged and you can hit the **Apply** button. This will start the Executive Dashboard service - you will see a in the lower left corner of the wizard stating *'Telerik Test Studio Executive Dashboard Service is running'*.
 
 ![Executive Dashboard][14]
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
 
 ## Configure the Execution Client
 
@@ -102,10 +129,14 @@ In the **Scheduling Server Settings** dialog, click **Run Remotely**, input *loc
 > __Important__
 > <br>
 > <br>
-> If the machine has active firewall, ensure that the following ports are opened in both in- and outbound directions:
+> If the machine has active firewall, ensure that the following ports are opened in both the inbound and outbound directions:
 > - Scheduling Service: 8009
 > - Storage Service: 8492
 > - Execution Machine(s): 55555
+
+## See Also
+
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-scheduling-tests" target="_blank">Test Studio Step-by-Step: Scheduling Tests</a>
 
 [1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig1.png
 [2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2.png

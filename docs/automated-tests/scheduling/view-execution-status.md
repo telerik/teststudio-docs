@@ -6,7 +6,11 @@ position: 6
 ---
 # View Execution Status
 
-The Execution Status view allows you to verify the state of the current project and whether it is connected to a <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured Scheduling setup</a>, or is running locally. For remotely connected projects, you can find additional details for <a href="#remotely-connected-project">the Test Studio services state</a> and the <a href="#list-of-execution-servers">currently registered Execution machines</a>.
+The Execution Status View is a useful source of information for the current status of a Scheduling setup. You can find out if a project is connected to a <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured Scheduling service</a>, or it is set to run only locally. For projects, which are connected to a Scheduling service, you can find additional details for <a href="#remotely-connected-project">the Test Studio services state</a> and the <a href="#list-of-execution-servers">currently registered Execution machines</a>.
+
+* [Open Execution Status View Window](#execution-status-view-window)
+* [Locally Connected Project](#locally-connected-project)
+* [Remotely Connected Project](#remotely-connected-project)
 
 ## Execution Status View Window
 
@@ -16,7 +20,7 @@ To access the Status view you can click **Status** in the **Scheduling** ribbon 
 
 ## Locally Connected Project
 
-If the current project is connected to execute tests locally, the Status view will provide details only for the local Scheduler and the Test Runner, in case this is not pointing to another machine configured as a Scheduling server.
+If the current project is connected to execute tests locally, the Status view will provide details only for the local service and the local Test Runner.
 
 ![Status Window locally][2a]
 
@@ -29,6 +33,11 @@ Double click on the listed Execution machine will load additional details for th
 The **Remote Execution Status Window** provides a summary of each Execution Server connected to this Scheduling Server and an overview for the Scheduling and Storage services.
 
 ![Status Window][2]
+
+* [Test Studio Services Possible Statuses](#test-studio-services-possible-statuses)
+* [List of Execution Servers](#list-of-execution-servers)
+* [Execution Servers Details](#execution-servers-details)
+* [Execution Machine Possible Statuses](#execution-machine-possible-statuses)
 
 ### Test Studio Services Possible Statuses
 
@@ -48,6 +57,10 @@ The **Remote Execution Status Window** provides a summary of each Execution Serv
 
 ![Status Window MongoDB Service Down][10]
 
+<br>
+<div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
+<br>
+
 ### List of Execution Servers
 
 - If there are browsers, which are not calibrated, on any of the remote machines, the respective browser icon will be marked with a yellow warning sign. To calibrate it, you can drill down to the particular machine details by double click on it, or turn on the AutoCalibrateBrowsers setting in the <a  href="/getting-started/test-execution/test-list-settings#web-tab" target="_blank">Web tab of Test List Settings</a>.
@@ -59,6 +72,10 @@ The **Remote Execution Status Window** provides a summary of each Execution Serv
 ![Status Window browser support Update][4a]
 
 Optionally, you can logon on the machine, open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#browser-support-update" target="_blank">Execution client and update the the installation for latest browser support</a>.
+
+<br>
+<div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
+<br>
 
 ### Execution Servers Details
 
@@ -73,6 +90,10 @@ To view detailed information about an Execution Server, double-click the respect
 - The **Browser Information** section displays all installed browsers on the execution machine along with their calibration state. All installed browsers on the remote machine could be calibrated or restored to default settings from the provided buttons - Calibrate and Restore.
 
 - The **Logging information** section allows you to enable or disable the Logging on the Execution machine, View and Clear the Log.
+
+<br>
+<div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
+<br>
 
 ### Execution Machine Possible Statuses
 
@@ -91,6 +112,10 @@ The **Execution Server Details** view displays different statuses for the select
 ![Unreachable Execution Machine][7]
 
 The Back button navigates back to the list with connected execution machines.
+
+<br>
+<div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
+<br>
 
 [1]: /img/features/scheduling-test-runs/view-execution-status/fig1.png
 [2]: /img/features/scheduling-test-runs/view-execution-status/fig2.png
