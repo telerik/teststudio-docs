@@ -8,7 +8,7 @@ position: 1
 
 ## PROBLEM
 
-All steps are successfully executed, but the might be errors in the scenario or in the application. Consider adding a verification step to ensure the state of the application is correct. In case there is no such verification available, you can apply the proposed solution.
+All steps are successfully executed, but you might need to still fail the test due to internal errors in the application. Consider adding a verification step to ensure the state of the application is correct. In case there is no such verification available, you can apply the proposed solution.
 
 ## SOLUTION
 
