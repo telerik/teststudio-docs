@@ -50,13 +50,13 @@ It is time to <a href="/automated-tests/test-execution/quick-execution" target="
 
 ## Results from Quick Execution
 
-When the test execution is complete, there will be a summary how many steps were executed and what is the overall result of the run. Each step is indicated as *Passed* or *Failed* with a green or red circle in front of it. <a href="/automated-tests/test-results/analyze-quick-run-results">Test results are automatically generated</a> and details can be reviewed by clicking on **View Log**.
+When the test execution is complete, there will be a summary how many steps were executed and what is the overall result of the run. Each step is indicated as *Passed* or *Failed* with a green or red circle in front of it. <a href="/automated-tests/test-results/analyze-quick-run-results" target="_blank">Test results are automatically generated</a> and details can be reviewed by clicking on **View Log**.
 
 ![View log](/img/getting-started/first-project/fig14.png)
 
 ## Test List Execution
 
-Now that you recorded your first test and ensured it is executed successfully, you can <a href="/features/test-lists/create-test-lists">create your first __Test List__</a> and add the existing test in it.
+Now that you recorded your first test and ensured it is executed successfully, you can <a href="/features/test-lists/create-test-lists" target="_blank">create your first __Test List__</a> and add the existing test in it.
 
 1. Go to the _Test List_ ribbon in Test Studio and click on the __List__ button in the _Add_ section.
 
@@ -72,10 +72,10 @@ Now that you recorded your first test and ensured it is executed successfully, y
 
 ## Test List Results
 
-The <a href="/automated-tests/test-list-results/calendar">results from the test list runs</a> are available in the **Results** tab.
+The <a href="/automated-tests/test-list-results/calendar" target="_blank">results from the test list runs</a> are available in the **Results** tab.
 
 ![test list results](/img/getting-started/first-project/test-list-results.png)
 
-Find out more about <a href="/automated-tests/test-lists/test-lists-standalone">test lists</a> and the <a href="/automated-tests/test-lists/test-list-execution">execution of test lists</a>.
+Find out more about <a href="/automated-tests/test-lists/test-lists-standalone" target="_blank">test lists</a> and the <a href="/automated-tests/test-lists/test-list-execution" target="_blank">execution of test lists</a>.
 
 <div><a href="/getting-started/first-test">Back to <strong>Record Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>

@@ -14,6 +14,11 @@ The __Compact Recording Toolbar__ in Test Studio is the key element in recording
 
 This article guides you trough the __recoding workflow for web and WPF tests__ and how you can get the most out of it.
 
+> **Tip**
+> <br>
+> <br>
+> Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end web test scenario</a>.
+
 1. [How to Start a Recording Session](#start-a-recording-session)
 1. [Example of a Web Test Recording](#web-test-recording)
 1. [Example of a WPF Test Recording](#wpf-test-recording)
@@ -59,14 +64,14 @@ The Test Studio UI remains in the background of the browser and logs the actions
 
 ### WPF Test Recording
 
-To start a a recording session in the context of a WPF test you need to define the WPF application to automate. The first time you click the __Record__ button in the WPF test, it triggers the __Configure WPF Application Path__ dialog where you can browse to the executable file of the WPF app to test.
-
-![Configure WPF Test button][10]
-
 > **Tip**
 > <br>
 > <br>
-> You can <a href="/automated-tests/wpf/wpf-test" target="_blank">configure the application to test</a> in a WPF test before you start recording. That way the recording session starts right after clicking the __Record__ button.
+> Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end WPF test scenario</a>.
+
+To start a a recording session in the context of a WPF test you need to define the WPF application to automate. The first time you click the __Record__ button in the WPF test, it triggers the <a href="/automated-tests/wpf/wpf-test" target="_blank">__Configure WPF Application Path__ dialog</a> where you can browse to the executable file of the WPF app to test.
+
+![Configure WPF Test button][10]
 
 Hit the __OK__ button in the __Configure WPF Application Path__ dialog to start the recording session - a new instance of the application starts and loads as it is expected to. Once the application is completely loaded the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> appears on top of the app.
 
@@ -124,10 +129,12 @@ Below you can find a short description of each button in the toolbar (in the ord
 * __Show/Hide the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">Advanced Recording Tools</a>__  in the _Advanced Tools_ you have access to the application's DOM tree and various types of steps for the selected element.
 * __Switch the orientation of the **Compact Recording Toolbar** between vertical and horizontal__ - this is additional feature to increase your productivity and allow you place the toolbar anywhere outside of the working area.
 
-## See also ##
+## See Also:
 
 * <a href="/features/project-settings/browsers" target="_blank">Calibrate Browsers</a>
-* <a href="/automated-tests/wpf/wpf-test" target="_blank">Configure WPF Application</a>
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-creating-tests" target="_blank">Step-by-Step: Creating Tests</a>
+* <a href="https://www.telerik.com/videos/teststudio/test-recorder-video-tutorial-test-studio" target="_blank">Web Test Recorder Video Tutorial</a>
+* <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
 
 [1]: /img/automated-tests/recording/overview/fig1.png
 [2]: /img/automated-tests/recording/overview/fig2.png

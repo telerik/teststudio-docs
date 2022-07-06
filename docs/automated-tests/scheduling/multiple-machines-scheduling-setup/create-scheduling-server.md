@@ -10,7 +10,7 @@ The Test Studio Scheduling services work together to ensure the seamless communi
 
 The below article describes the configuration steps.
 
-- [Start the Test Studio Scheduling Config Wizard]()#start-the-test-studio-scheduling-config-wizard
+- [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
 - [Configure the Test Studio Services](#configure-the-test-studio-services)
 - [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
 

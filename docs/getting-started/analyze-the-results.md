@@ -31,10 +31,20 @@ The <a href="/general-information/test-results/analyze-quick-run-results" target
 The results generated from a <a href="/general-information/test-execution/quick-execution" target="_blank">quick execution run</a> will be displayed in the test pane - the successfully executed steps are marked with a green circle and the failed steps are marked with a red circle in front of it.
 
 <table id=no-table>
+<colgroup>
+        <col width="30%" />
+        <col width="30%" />
+    </colgroup>
+	<tbody>
 	<tr>
-		<td>![passed step icon](/img/getting-started/analyze-the-results/fig01.png) <td>
-		<td>![step failure icon](/img/getting-started/analyze-the-results/fig02.png)</td>
+		<td style="text-align:center; height:10px;">![passed step icon](/img/getting-started/analyze-the-results/fig01.png) </td>
+		<td style="text-align:center; height:10px;">![step failure icon](/img/getting-started/analyze-the-results/fig02.png)</td>
 	</tr>
+	<tr>
+		<td style="text-align:center;">__Step Passed__</td>
+		<td style="text-align:center;">__Step Failed__</td>
+	</tr>
+	</tbody>
 <table>
 
 Each failed step provides additional details for the failure, if you hover over the red circle in front of it. By clicking on that red crossed circle, you open the <a href="/general-information/test-results/step-failure-details" target="_blank">**Step Failure Details**</a> dialog. You can see detailed message for the failure, screenshots for the expected image and image at the time of failure, the DOM tree at the time of failure and suggestion how to solve the error.
@@ -57,7 +67,7 @@ You can also set a <a href="/features/test-maintenance/steps-pane" target="_blan
 
 ## Partial Test Execution
 
-A useful approach to examine a failing test is to execute it partially to a step (or few steps) before the failing one. Test Studio allows you to execute a test partially with the ***Run...*** options from the <a href="/features/test-maintenance/test-step-context-menu">Step Context Menu</a>.
+A useful approach to examine a failing test is to execute it partially to a step (or few steps) before the failing one. Test Studio allows you to <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">execute a test partially with the ***Run...*** options from the Step Context Menu</a>.
 
 ![Partial test run](/img/getting-started/analyze-the-results/fig04.png)
 
@@ -67,11 +77,16 @@ A useful approach to examine a failing test is to execute it partially to a step
 
 ## Annotated Test Run
 
-There are occasions when a test is reported passed, but the actions, which it is expected to perform do not actually happen. In such cases it can be helpful to enable the annotations during the quick test run. Click the **Toggle Annotation** button to have the browser annotate each step with a brief message and by highlighting that step's target element.
+There are occasions when a test is reported passed, but the actions, which it is expected to perform do not actually happen. In such cases it can be helpful to <a href="/automated-tests/test-execution/quick-run-annotations" target="_blank">enable the annotations</a> during the quick test run. Click the **Toggle Annotation** button to have the browser annotate each step with a brief message and by highlighting that step's target element.
 
 ![Toggle Annotation](/img/getting-started/first-project/fig13.png)
 
 This will also slow down the test run by the configured amount (in milliseconds) between each step. You can set it either from the menu or by entering a custom value.
+
+> __Tip__
+><br>
+><br>
+> Check <a href="/automated-tests/troubleshooting/use-annotated-run" target="_blank">here how you can use the annotations</a> for troubleshooting a failing test.
 
 ## Application Log
 

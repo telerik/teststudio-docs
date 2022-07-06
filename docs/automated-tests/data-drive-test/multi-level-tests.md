@@ -85,3 +85,7 @@ Same as the second example above, except that Test A is also data-bound to allow
 __Execution Outcome:__
 
 Test A will be executed three times. For each iteration of Test A, Test B will be executed as a step with the number of iterations defined in its own data source - twice, for this example. Then, Test A will proceed to its next step followed by the next iteration. That said, Test B will be executed twice for each of the three alternate logins in Test A - altogether six times for the overall Test A run.
+
+## See Also:
+
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-testing-execution-paths-conditional-tests" target="_blank">Step-by-Step: Testing Execution Paths With Conditional Tests</a>

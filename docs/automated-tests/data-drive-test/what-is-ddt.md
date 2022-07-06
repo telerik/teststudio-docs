@@ -28,3 +28,8 @@ To take the most of data driven testing you can start with the topics below:
 Test Studio encourages the reuse of common tests by providing the option to <a href="/features/custom-steps/test-as-step" target="_blank">execute tests as steps</a>. Any *parent* test and any test executed as a step - *child* test, can be data driven.
 
 To learn more about the __possible test combinations and expected execution outcome__, check <a href="/automated-tests/data-drive-test/multi-level-tests" target="_blank">this article</a>.
+
+## See Also:
+
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-data-driven-tests" target="_blank">Step-by-Step: Data-Driven Tests</a>
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-testing-execution-paths-conditional-tests" target="_blank">Step-by-Step: Testing Execution Paths With Conditional Tests</a>

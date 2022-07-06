@@ -112,3 +112,10 @@ The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Com
 <br><br>
 <br><br>
 <div><a href="/getting-started/first-project">Back to <strong>Launch Test Studio</strong></a><a style="float:right" href="/getting-started/first-execution">Go to <strong>Execute Your First Test</strong></a></div>
+
+## See Also:
+
+* <a href="/features/project-settings/browsers" target="_blank">Calibrate Browsers</a>
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-creating-tests" target="_blank">Step-by-Step: Creating Tests</a>
+* <a href="https://www.telerik.com/videos/teststudio/test-recorder-video-tutorial-test-studio" target="_blank">Web Test Recorder Video Tutorial</a>
+* <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.

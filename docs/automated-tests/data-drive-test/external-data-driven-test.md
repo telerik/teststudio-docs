@@ -130,4 +130,9 @@ Once the test run finishes, you will see the quick execution results populated i
 
 - <a href="/automated-tests/data-drive-test/multi-level-tests" target="_blank">Test as steps used with data driven testing</a>
 - <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data drive the find expression of an element in Test Studio</a>
-- <a href="/automated-tests/data-drive-test/data-binding-in-code" target="_blank">Usde data source columns in coded steps</a>
+- <a href="/automated-tests/data-drive-test/data-binding-in-code" target="_blank">Use data source columns in coded steps</a>
+
+## See Also:
+
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-data-driven-tests" target="_blank">Step-by-Step: Data-Driven Tests</a>
+* <a href="https://www.telerik.com/blogs/test-studio-step-by-step-testing-execution-paths-conditional-tests" target="_blank">Step-by-Step: Testing Execution Paths With Conditional Tests</a>
