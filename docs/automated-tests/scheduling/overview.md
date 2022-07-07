@@ -10,15 +10,21 @@ The Test Studio Scheduling setup allows you to configure a set of machines, conn
 
 Test Studio test lists can be executed from your local project on any machine in the network, including virtual machines, configured in the Test Studio Scheduling setup. The test list runs can be fully configured - when to be executed, on which machines, in case there are multiple available, whether to generate an automatic email report, etc. If you have to run a number of tests, you can spread the workload between different machines and reduce the total execution time. All the results will be stored in one centralized location for you to examine later.
 
+You can find the following topics in this article:
+
+- [Which Are the Scheduling Setup Components?](#which-are-the-scheduling-setup-components)
+- [How Many Machines Do I Need?](#how-many-machines-do-i-need)
+- [How to Configure the Scheduling Setup?](#how-to-configure-the-scheduling-setup)
+
 ## Which Are the Scheduling Setup Components?
 
 Test Studio Scheduling setup consists of few services on top of the default product installation, which needs to be configured properly to allow the communication between them.
 
 The Test Studio services, which needs to be added are as follows:
 
-- [__Scheduling Service__](#scheduling-service)
-- [__Storage Service__](#storage-service)
-- [__Executive Dashboard Service__](#executive-dashboard-service)
+- [Scheduling Service](#scheduling-service)
+- [Storage Service](#storage-service)
+- [Executive Dashboard Service](#executive-dashboard-service)
 
 > __Tip__
 > <br>
@@ -35,9 +41,13 @@ The Scheduling Service is the central component of the overall setup - it is in 
 - __By default the Scheduling service uses port 8009__. It can be changed with any other free port for the specific environment in the _Scheduling config wizard_.
 - Apart from the default set _localhost_, __the _Scheduling config wizard_ accepts IP address or machine name__ for pointing the computer, which hosts the Scheduling service.
 
+<br>
+<div><a style="float:right" href="#which-are-the-scheduling-setup-components">Back to top of section</a></div>
+<br>
+
 ### Storage Service
 
-The Storage Service, which keeps the project files and results, is the help tool for the Scheduling service. The Storage service maintains a database to store the files and the database provider, which Test Studio uses is <a href="https://www.mongodb.com" target="_blank">**MongoDb**</a>. 
+The Storage Service, which keeps the project files and results, is the help tool for the Scheduling service. The Storage service maintains a database to store the files and the database provider, which Test Studio uses is <a href="https://www.mongodb.com" target="_blank">**MongoDb**</a>.
 
 > __Note__
 > <br>
@@ -52,6 +62,10 @@ The Storage Service, which keeps the project files and results, is the help tool
 - The Storage Service uses the default connection string to connect to MongoDB. If you reconfigure MongoDB, you need to apply the changes in the _Scheduling config wizard_ as well.
 - The Scheduling server contacts the Storage Service for every scheduled job or results review. The Storage Service communicates internally to the MongoDB database to provide the queried info.
 
+<br>
+<div><a style="float:right" href="#which-are-the-scheduling-setup-components">Back to top of section</a></div>
+<br>
+
 ### Executive Dashboard Service
 
 The Executive Dashboard is the tool, which provides access to all results generated from scheduled test list runs for all team members - including these, who do not have Test Studio installed. The Executive Dashboard service hosts a _localhost_ page on the machine, where the service is installed. The local web page visualizes the results stored in the storage database.
@@ -65,9 +79,13 @@ The Executive Dashboard is the tool, which provides access to all results genera
 > <br>
 > Initial configuration or any follow-up changes in the __Test Studio Scheduling configuration must be applied from a Windows Administrator account__.
 
+<br>
+<div><a style="float:right" href="#which-are-the-scheduling-setup-components">Back to top of section</a></div>
+<br>
+
 ## How Many Machines Do I Need?
 
-The Scheduling configuration can be enabled on a single machine, as well as it supports multiple execution machines.
+The Scheduling configuration can be enabled on a [single machine](#single-machine-scheduling-configuration), as well as it supports [multiple execution machines](#multiple-machines--scheduling-configuration).
 
 > __Note__
 > <br>
@@ -87,6 +105,11 @@ If there are __multiple machines dedicated for test execution__, you need:
 - and at least __one machine to execute test lists - this one needs minimum the Run-time installation__.
 
 ![Scheduling Scheme][1]
+
+> __Tip__
+> <br>
+> <br>
+> Find out more about the __Test Studio Scheduling architecture__ in <a href="https://www.telerik.com/blogs/architecture-remote-execution-test-studio" target="_blank">this blog post</a>.
 
 ## How to Configure the Scheduling Setup?
 
@@ -109,6 +132,10 @@ There are few steps to follow in order to setup the Scheduling configuration:
     Once the machines and components are set up, you need to <a href="/automated-tests/scheduling/connect-to-scheduling-server" target="_blank">connect a project to the Scheduler</a> - that way the __scheduled test list runs will go through the configured Services__.
 
 When these prerequisites are complete - including the case when all these components are hosted on the same machine, the __scheduled test list executions will use the Test Studio Services with all their benefits__ - <a href="/automated-tests/scheduling/schedule-execution#step-1" target="_blank">recurring runs</a>, <a href="/automated-tests/scheduling/schedule-execution#step-2" target="_blank">test distribution</a> on selected machines, <a href="/automated-tests/scheduling/schedule-execution#step-3" target="_blank">automatic email notification</a>, results in the <a href="/automated-tests/scheduling-results/dashboard/results" target="_blank">Executive Dashboard</a>, etc.
+
+## See Also
+
+* <a href="https://www.telerik.com/blogs/architecture-remote-execution-test-studio" target="_blank">The Architecture of Remote Execution With Test Studio</a>
 
 [10]: /img/features/scheduling-test-runs/overview/fig1.png
 [1]: /img/automated-tests/scheduling/overview/scheduling-setup-revamp.png

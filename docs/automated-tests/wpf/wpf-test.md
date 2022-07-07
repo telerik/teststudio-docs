@@ -10,6 +10,11 @@ Test Studio recording feature supports WPF applications built with .Net 4.5+ or 
 
 This article guides you through the WPF test configuration process.
 
+> **Tip**
+> <br>
+> <br>
+> Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end WPF test scenario</a>.
+
 ## Configure WPF Test to Record Specific Application
 
 The __configuration of the WPF test requires an executable file of a valid WPF app to be specified__ and, thus, used for recording and execution. When you open a WPF test in Test Studio, you can see the __Configure__ button in the __Test__ tools ribbon.
@@ -68,6 +73,10 @@ Once you applied all necessary settings, you can __confirm the configuration__ b
 > <br>
 > <br>
 > In any case, when you need to change the applied settings, hit the __Configure__ button to access the wizard again.
+
+## See Also:
+
+* <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
 
 [1]: /img/general-information/create-test-standalone/wpf-test/fig1.png
 [2]: /img/general-information/create-test-standalone/wpf-test/fig2.png

@@ -4,11 +4,11 @@ page_title: ClosesBrowser Property
 description: When to use the ClosesBrowser Property for popups which invokes an event that closes the pop-up.
 position: 1
 ---
-#Using the ClosesBrowser Property for Pop-ups#
+# Using the ClosesBrowser Property for Pop-ups
 
 Pop-ups can have a control (usually a button) which invokes an event that closes the pop-up. This can cause problems when performing UI Automation with Test Studio.
 
-##Solution##
+## Solution
 
 "Click"-type of steps have a property called "ClosesBrowser":
 
@@ -31,9 +31,7 @@ Depending on the implementation of the pop-up, Test Studio may or may not detect
 
 * Setting the Click step's **SimulateRealClick** property to True resolves the issue.
 	
-##See also##
-
-* 	<a href="http://www.quirksmode.org/js/popup.html" target="_blank">This page</a> for an example of this kind of pop-up implementation.
+<!-- See also <a href="http://www.quirksmode.org/js/popup.html" target="_blank">This page</a> for an example of this kind of pop-up implementation. -->
 
 
 [1]: /img/knowledge-base/dialogs-and-popups-kb/closesbrowser-property/fig1.png
