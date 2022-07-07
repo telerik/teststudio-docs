@@ -7,11 +7,11 @@ position: 1
 ---
 #Send Keystrokes#
 
-##Problem##
+##Problem 1##
 
 *I want to press Enter key.*
 
-##Solution##
+##Solution 1##
 
 This is possible with a coded solution:
 
@@ -53,11 +53,11 @@ Namespace TestProject8
 End Namespace
 ```
 
-##Problem##
+##Problem 2##
 
 *I want to type text with keystrokes.*
 
-##Solution##
+##Solution 2##
 
 This is possible with a coded solution:
 
@@ -102,11 +102,11 @@ End Namespace
 
 > <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys(v=vs.110).aspx" target="_blank">Here</a> you can find the list with key codes.
 
-##Problem##
+##Problem 3##
 
 *I want to perform multi-select while holding down the Ctrl key.*
 
-##Solution##
+##Solution 3##
 
 This is possible with a coded solution:
 
@@ -126,8 +126,6 @@ namespace TestProject8
         [CodedStep(@"New Coded Step")]
          public void Keystrokes()
         {
-            
-                
                 Manager.Desktop.KeyBoard.KeyDown(Keys.Control);
  
                 //You can put the click steps HERE
