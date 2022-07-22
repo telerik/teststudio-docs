@@ -6,21 +6,21 @@ into your continuous testing and delivery process. Telerik API Testing by Progre
 enables even non-technical testers to get up-to-speed with testing APIs."
 position: 1
 ---
-#System Requirements#
+# System Requirements#
 
-##Supported Environments##
+##S upported Environments##
 
 * .NET Framework - 4.5.2
 
-##Supported Operating Systems##
+## Supported Operating Systems##
 
-* Windows 10, 8, 7	
-* Windows Server 2008 R2, 2012, 2012 R2, 2016, 2019
+* Windows 11. 10, 8.1
+* Windows Server 2012, 2016, 2019
 
-##Minimum Hardware Requirements##
+## Minimum Hardware Requirements##
 
 * Disk Space: 500MB
-* RAM: 1GB
+* RAM: 2GB
 * CPU: 2.4GHz
 
 {% if site.has_cta_panels == true %}

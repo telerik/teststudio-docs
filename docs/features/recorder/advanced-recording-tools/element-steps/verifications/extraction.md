@@ -39,11 +39,12 @@ This demonstrates how to extract a value from an element and reuse it later in y
 ![Set][4]
 
 10.&nbsp; Save and execute the test.
+
 11.&nbsp; A random word is extracted from the first site and used as the query in a Bing search
 
-> If you've <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then Set: 
+> If you've <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then _Set_:
 
-![var1][5]
+    ![var1][5]
 
 ## Extract an attribute of an element
 

@@ -28,8 +28,7 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 * Internet Explorer 11
 * Chrome latest version
 * Firefox latest version
-* MS Edge Chromium latest version
-* Safari latest version (5.1.7)
+* Edge Chromium latest version
 
 ## Visual Studio requirements
 
@@ -42,17 +41,16 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 * Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components (x86 redistributable)</a>.
 
-## Framework
+## .NET Framework
 
-* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.5.2</a> or higher
-
+* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.5.2 - .Net 4.8</a> 
 ## Source Control
 
 * __Test Studio Dev__ uses the built-in TFS integration in Visual Studio  
 
 ## Build Server / Continuous Integration
 
-* Test Studio Dev <a href="http://www.telerik.com/purchase/teststudio" target="_blank">Run-Time edition</a> or above installed on agent is required for executing tests via <a href="/features/cli-runner" target="_blank">ArtOfTest.Runner</a>
+* The minimum installation on agent machine for running Test Studio Dev tests is the <a href="http://www.telerik.com/purchase/teststudio" target="_blank">Run-Time edition</a>. It enables you to execute tests with the CLI runner called <a href="/features/cli-runner" target="_blank">ArtOfTest.Runner</a>
 
 ## Beta Software
 

@@ -122,7 +122,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">WPF for .NET 4.5+ and .NET Core 3.1 and above, .Net 5, .Net 6 and higher versions</td>
+            <td colspan="4">WPF for .NET 4.5+, .NET Core 3.1, .Net 5, .Net 6 and higher versions</td>
         </tr>
     </tbody>
 </table>
@@ -147,18 +147,20 @@ Admin permissions are required for:
 * IDE (Visual Studio plug-in only): Visual Studio __Professional or Enterprise 2015, 2017, 2019__ and __2022__.
 
 	* You must run Visual Studio as Administrator
-	* Visual Studio projects should target .Net 4.5.2 or higher.
+	* Visual Studio projects should target a version between .Net 4.5.2 to - Net 4.8.
 	* Visual Studio 2017 requires additional <a href="/general-information/installation/vs2017-compatibility" target="_blank">Individual components</a> on top of its default installation.
 
 ## .Net Framework Requirement
 
-* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">__.NET 4.5.2</a> or higher__
+* Any version between <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">__.NET 4.5.2 - .Net 4.8__</a>
 
 ## Required Database for Scheduling Configuration
 
-* MongoDB 4.0+
+* MongoDB 4.0 or MongoDB 5
 
-> **Note** MongoDB requires at least __2 GB additional disk space__ on the machine where the Storage service is installed.
+> **Note** 
+><br>
+> MongoDB requires at least __2 GB additional disk space__ on the machine where the Storage service is installed.
 
 ## Data Binding
 
