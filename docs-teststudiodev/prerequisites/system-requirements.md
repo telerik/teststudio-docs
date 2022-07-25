@@ -32,7 +32,7 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 ## Visual Studio requirements
 
-* The **Test Studio Dev** extension can be installed on Visual Studio 2015, 2017, 2019 and 2022 **Professional or higher** edition.
+* The **Test Studio Dev** extension can be installed on Visual Studio 2015, 2017, 2019 and 2022 **Professional or Enterprise** edition.
 * You must run Visual Studio as Administrator
 * Visual Studio projects should target .Net 4.5.2 or higher
 * Visual Studio 2017 requires additional <a href="/advanced-topics/installation/vs-2017-compatibility" target="_blank">Individual components</a> on top of its default installation

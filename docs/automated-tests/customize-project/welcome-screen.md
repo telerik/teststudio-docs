@@ -6,81 +6,64 @@ position: 0
 ---
 # Welcome Screen
 
-Once you have successfully <a href="/prerequisites/license-activation/activating-your-license" target="_blank">activated a Test Studio license</a>, launching the app takes you to the **Welcome Screen**. Here, you can create or open a project, access the getting-started samples and tutorials, find the product version and check for updates.
+Once you successfully <a href="/prerequisites/license-activation/activating-your-license" target="_blank">activate a Test Studio license</a> and launch the app, it takes you to the **Welcome Screen**. In this view you can create or open an existing project and access useful samples and tutorials resources.
 
 The **Welcome Screen** is organized in the following tabs:
 
-1. [Project Tab](#project-tab)
-2. [Get Started Tab](#get-started)
-3. [Software Update Tab](#software-update)
+1. [Project Section](#project-section)
+2. [Get Started Section](#get-started-section)
+3. [News Feed Section](#news-feed-section)
 
-## Project Tab
+## Project Section
 
-In the _Project_ section of the **Welcome screen**, you can choose whether to create a new project or open an existing one. You can find existing projects in the _Recent Projects_ list, browse the local disk folders, or connect to source control (Git or TFS) and clone a project repository.
+In the __Project__ section of the __Welcome screen__, you can choose between creating a [new project](#create-a-new-project) or [opening an existing one](#open-an-existing-project). You can pick from a list of recently used projects on the left, or browse your local folders through the _Open Local_ button. You can also open a remote project from a source control repository (Git or TFS).
 
-![Project Tab][1]
+![Project Section](/img/getting-started/first-project/fig0a.png)
 
 ### Create a New Project
 
+To create a new project you can choose from several types of testing - __Web Testing__, __Desktop Testing__, __WPF Testing__ or __Load Testing__ projects (Load testing is only available in Test Studio Ultimate). Test Studio projects maintain  all type of tests, but depending on your choice a test of the selected type gets created with the new project.
+
+![Project Type](/img/automated-tests/customize-project/welcome-screen/fig01.png)
+
 To create a new project:
 
-* Choose the storage path and enter a name for the new project.
+1. Choose the type of testing to start with.
 
-* Select **Create**.
+1. Set the project name and, optionally, change the location folder where Test Studio projects are stored.
 
-The default project folder is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. To save the project to another folder:
+1. Confirm the creation with pressing the __OK__ button. The __Cancel__ button returns you to the previous screen.
 
-* Use the browse button to locate the desired folder.
+![Create new Project](/img/getting-started/first-project/fig00.png)
 
-* Confirm the folder selection.
-
-* Enter a name for the new project.
-
-![Create Project][2]
+The default location where Test Studio creates projects is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. The __Browse Folder__ button allows you to change this by choosing another folder.
 
 ### Open an Existing Project
 
-You can opan an existing project from the *Recent projects* list - it shows the recently opened projects, displaying their name and storage path. You can also browse to a local folder that contains a Test Studio project, or connect to source control and clone a project from a remote repository.
+The **Recent projects** section on the left shows a list of the projects you worked on lately - these are listed with their name and folder location. The _Delete_ icon removes the project from the list and does not remove the actual files from disc. 
+
+The __Open Local Project__ option let's you browse to a local folder which contains a Test Studio project to load.
 
 ![Open Existing Project][4]
 
-### Adjust the Test Studio Layout
+### Open Source Control
 
-Once you open the test project, you can <a href ="/automated-tests/customize-project/custom-layout" target="_blank">adjust the Test Studio layout</a> and make it fit your requirements.
+Test Studio provides built-in integration for TFVC and Git based repositories. The __Open Source Control__ option let's you specify a remote repository to clone locally - you can choose from <a href ="/automated-tests/source-control/git/open-git-project" target="_blank">Git</a> or <a href ="/automated-tests/source-control/tfs/open-tfs-project" target="_blank">TFS</a>.
 
-## Get Started Tab
+> __Tip__
+><br>
+><br>
+> Once you open the test project, you can <a href ="/automated-tests/customize-project/custom-layout" target="_blank">adjust the Test Studio layout</a> and make it fit your environment and needs.
 
-The *Get Started* section provides access to а demo project and to interactive in-product tutorials that guide you through the Test Studio tool.
+## Get Started Section
+
+The __Get Started__ section lets you create the demo project, open the online help documentation and public Telerik forums and submit your feedback or tickets to the Support team.
 
 ![Get Started][5]
 
-## Software Update Tab
+## News Feed Section
 
-Under the _Software Update_ section, you can find information about the installed version of Test Studio, activated license key and update notifications.
-
-![Software Update][6]
-
-### Product Version
-
-This section displays your currently installed version number.
-
-### Activation Key
-
-This section displays the type of your license key - Trial or Licensed, and provides the option to _Deactivate_ an active license. This option is useful if you need to <a href ="/knowledge-base/activation-kb/swap-license" target="_blank">move the Test Studio license</a> between different machines.
-
-### Update And Update Notifications
-
-This section offers different ways to check when a new version is published:
-
-* You can use the _Check for Updates_ button for an instant check.
-
-* You can enable the check for updates on startup.
-
-For more information, see the <a href="/getting-started/installation/check-for-updates" target="_blank">check for updates</a> article.
-
-## Newsfeed
-
-The *Newsfeed* section in the Welcome Screen informs you about any important news related to the product, links to new blog posts about Test Studio features and capabilities. The content is updated live and requires Internet connection.
+The __News Feed__ section lists important news related to the product, links to new Test Studio blog posts on the Telerik site. The content is updated live and requires Internet connection.
 
 ![Newsfeed][7]
 

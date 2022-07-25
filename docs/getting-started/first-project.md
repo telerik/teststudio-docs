@@ -30,17 +30,25 @@ Once you have successfully <a href="/prerequisites/installation/install-procedur
 
 ## Starting Welcome Screen
 
-Launching Test Studio will get you to the [**Welcome Screen**](/general-information/start-a-project/welcome-screen). It lets you create new or open existing projects, access demo resources, see notifications about software updates and news related to the product.
+Launching Test Studio gets you to the <a href="/general-information/start-a-project/welcome-screen" target="_blank">**Welcome Screen**</a>. It lets you create new or open existing projects, access demo resources, see notifications about software updates and news related to the product.
 
-![Launch Test Studio Welcome Screen](/img/getting-started/first-project/fig0a.png)
+![Launch Test Studio Welcome Screen](/img/getting-started/first-project/fig0b.png)
 
 ## Create Your First Project
 
-In the [**Project**](/general-information/start-a-project/welcome-screen#create-a-new-project) section you can decide whether to create a new project, open a local one, choose from the recently used or open a source controlled project (Git or TFS).Let's create a new project for the current demonstration, specify its name and location and click the **Create** button.
+In the <a href="/general-information/start-a-project/welcome-screen#create-a-new-project" target="_blank">**Project**</a> section you can choose whether to create a new project, open an existing local one, choose to start one of the recently used projects or open a remote project from a source control repository (Git or TFS).
+
+![Test Studio Welcome Screen Project](/img/getting-started/first-project/fig0a.png)
+
+Let's create a new project for the current demonstration - depending on the type of application and testing you perform, can choose between __Web Testing__, __Desktop Testing__, __WPF Testing__ or __Load Testing__ projects (Load testing is only available in Test Studio Ultimate). Let's choose __Web Testing__ - on the next screen specify the project name and its location and click the **OK** button.
 
 ![Create new Project](/img/getting-started/first-project/fig00.png)
 
-You can explore a sample **Web & Desktop** project, from the [**Get Started**](/general-information/start-a-project/welcome-screen#get-started) section.
+The __Cancel__ button returns you in the initial screen with listed the different types of project.
+
+### Demo Web & Desktop Project
+
+The <a href="/general-information/start-a-project/welcome-screen#get-started" target="_blank">**Get Started**</a>] section let's you create the demo __Web & Desktop__ project to speed up your journey in getting familiar with Test Studio.
 
 ![Get Started Projects](/img/getting-started/first-project/fig01.png)
 

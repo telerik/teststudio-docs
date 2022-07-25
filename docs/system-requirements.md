@@ -150,7 +150,7 @@ Admin permissions are required for:
 	* Visual Studio projects should target a version between .Net 4.5.2 to - Net 4.8.
 	* Visual Studio 2017 requires additional <a href="/general-information/installation/vs2017-compatibility" target="_blank">Individual components</a> on top of its default installation.
 
-## .Net Framework Requirement
+## .Net Framework
 
 * Any version between <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">__.NET 4.5.2 - .Net 4.8__</a>
 
