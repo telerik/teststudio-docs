@@ -9,9 +9,19 @@ position: 1
 
 This document describes the steps to enable Edge Chromium browser for test recording and execution.
 
-## 1. Install the Progress Extension
+## 1. Enable Edge Chromium for Automation
 
-Install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge Chromium supports adding extensions from the Chrome web store).
+In __Test Studio release 2022 R2__ (v.2022.2.xx) you can choose how to record and execute tests with Edge Chromium browser. In this version it can be enabled for automation with or without the Progress Test Studio Extension. The setting how Edge  will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
+
+### Enable Edge Chromium for Automation with Extension
+
+By default each Test Studio project is set to use Edge Chromium with the extension. So, if this is the option you want to use, you need to install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge Chromium supports adding extensions from the Chrome web store).
+
+### Enable Edge Chromium for Automation without Extension
+
+If you choose to use Edge Chromium for recording and execution without additional extension, you need to __change a setting in the Test Studio project__. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). __Uncheck the checkbox__ and Test Studio will __start the Edge Chromium browser for this project without using the extensions__ even if this is installed.
+
+![Disable UseBrowserExtension](/img/prerequisites/browser-config/disable-extension.png)
 
 ## 2. Browser Calibration
 

@@ -42,6 +42,7 @@ You can use the links below to find out more detailed information on all test ty
 
 * <a href="/general-information/test-recording/overview" target="_blank">__Web Test__</a>
 * <a href="/features/testing-types/wpf-test" target="_blank">__WPF Test__</a>
+* <a href="/automated-tests/desktop-testing/desktop-test" target="_blank">__Desktop Test__</a>
 * <a href="/features/testing-types/responsive-test" target="_blank">__Responsive Web Test__</a>
 * <a href="/features/testing-types/load-testing/Overview" target="_blank">__Load Test__</a>
 * <a href="/features/testing-types/performance-testing/overview" target="_blank">__Performance Test__</a>
@@ -87,11 +88,20 @@ The click-and-record functionality in Test Studio is designed to record the user
 
     ![Configure WPF](/img/getting-started/first-project/fig05a.png)
 
-5. The configured application starts and once it is loaded entirely the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Compact Recording Toolbar__</a> gets attached to it.
+5. Starting the __recording session from a desktop test__ for first time triggers the *Configure Desktop Application Path* dialog. You need to <a href="/automated-tests/desktop-testing/desktop-test#choose-the-desktop-application-to-automate" target="_blank">specify the application to be used</a> for creating the tests, then click the __OK__ button to trigger the recording. Once the test is configured with an application, the __Record__ button starts that one automatically in recording mode.
 
-    ![Attached recorder WPF app](/img/getting-started/first-project/fig06a.png)
+    ![Configure desktop app](/img/getting-started/first-project/fig05b.png)
 
-6. To __stop the recording session__, close the browser or WPF application with the attached Recording Toolbar.
+6. The configured application - WPF or Desktop - starts and once it is loaded entirely the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Compact Recording Toolbar__</a> gets attached to it.
+
+    <table id="no-table">
+    <tr>
+    <td> ![Attached recorder WPF app][1] <br><br>Recording WPF Application</td>
+    <td> ![Attached recorder desktop app][2] <br><br>Recording Desktop Application</td>
+    <tr>
+    <table>
+
+7. To __stop the recording session__, close the application instance (browser, desktop or WPF) with the attached Recording Toolbar.
 
 ## Compact Recording Toolbar
 
@@ -119,3 +129,6 @@ The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Com
 * <a href="https://www.telerik.com/blogs/test-studio-step-by-step-creating-tests" target="_blank">Step-by-Step: Creating Tests</a>
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-video-tutorial-test-studio" target="_blank">Web Test Recorder Video Tutorial</a>
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
+
+[1]: /img/getting-started/first-project/fig06a.png
+[2]: /img/getting-started/first-project/fig06b.png

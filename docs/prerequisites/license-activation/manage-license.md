@@ -31,11 +31,11 @@ The __Change License...__ button will proceed to a list of all available purchas
 
 The Test Studio license is associated with the machine on which it is activated and it cannot be activated on another machine in the same time. If you need to switch the machine you work on or activate another license on the current machine, you first need to deactivate the used license.
 
-One option to deactivate the license is to access the Test Studio <a href="/general-information/start-a-project/welcome-screen#software-update" target="_blank">Welcome Screen under the Software Update tab</a>. Under the _'Activation Key'_ section you can check if the activated version is trial or not and deactivate it with the corresponding button.
+One option to deactivate the license is to access the Test Studio <a href="/features/project-settings/updates" target="_blank">Software Update tab</a> in the project settings. Under the _'Activation Key'_ section you can check if the activated version is trial or not and deactivate it with the corresponding button.
 
-![Deactivate License from welcome screen][13]
+![Deactivate License from welcome screen](/img/prerequisites/license-activation/welcome-screen-deactivate-license.png)
 
-Another option to deactivate the license is in the __Change License...__ screen in the __Manage License__ window.
+Another option to deactivate the license is in the __Change License...__ screen in the [__Manage License__ window](#check-the-activated-license).
 
 ![Deactivate License from Manage window][14]
 

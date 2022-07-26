@@ -40,7 +40,7 @@ In the <a href="/general-information/start-a-project/welcome-screen#create-a-new
 
 ![Test Studio Welcome Screen Project](/img/getting-started/first-project/fig0a.png)
 
-Let's create a new project for the current demonstration - depending on the type of application and testing you perform, can choose between __Web Testing__, __Desktop Testing__, __WPF Testing__ or __Load Testing__ projects (Load testing is only available in Test Studio Ultimate). Let's choose __Web Testing__ - on the next screen specify the project name and its location and click the **OK** button.
+Let's create a new project for the current demonstration - depending on the type of application and testing you perform, you can choose between __Web Testing__, __Desktop Testing__, __WPF Testing__ or __Load Testing__ projects (Load testing is only available in Test Studio Ultimate). Let's choose __Web Testing__ - on the next screen specify the project name and its location and click the **OK** button.
 
 ![Create new Project](/img/getting-started/first-project/fig00.png)
 
@@ -48,7 +48,7 @@ The __Cancel__ button returns you in the initial screen with listed the differen
 
 ### Demo Web & Desktop Project
 
-The <a href="/general-information/start-a-project/welcome-screen#get-started" target="_blank">**Get Started**</a>] section let's you create the demo __Web & Desktop__ project to speed up your journey in getting familiar with Test Studio.
+The <a href="/general-information/start-a-project/welcome-screen#get-started" target="_blank">**Get Started**</a> section let's you create the demo __Web & Desktop__ project - with this you can speed up your journey in getting familiar with Test Studio.
 
 ![Get Started Projects](/img/getting-started/first-project/fig01.png)
 

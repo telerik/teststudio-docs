@@ -138,27 +138,30 @@ navigation:
     automated-tests/responsive:
         title: "Web Responsive Tests in Test Studio"
         position: 13
+    automated-tests/desktop-testing:
+        title: "Desktop Tests in Test Studio"
+        position: 14
     automated-tests/wpf:
         title: "WPF Tests in Test Studio"
-        position: 14
+        position: 15
     automated-tests/load:
         title: "Load Tests in Test Studio"
-        position: 15
+        position: 16
     automated-tests/performance:
         title: "Performance Tests in Test Studio"
-        position: 16
+        position: 17
     automated-tests/vs-plugin:
         title: "Test Studio Plugin for Visual Studio"
-        position: 17
+        position: 18
     automated-tests/coded-tests:
         title: "Coded Tests in Test Studio"
-        position: 18
+        position: 19
     automated-tests/source-control:
         title: "Source Control Options in Test Studio"
-        position: 19
+        position: 20
     automated-tests/continuous-integration:
         title: "Test Studio Tests in CI Builds"
-        position: 20
+        position: 21
 
 # ....Customize Your Project
     "*built-in-help-tools":

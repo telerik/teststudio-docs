@@ -8,15 +8,15 @@ position: 0
 
 Once you successfully <a href="/prerequisites/license-activation/activating-your-license" target="_blank">activate a Test Studio license</a> and launch the app, it takes you to the **Welcome Screen**. In this view you can create or open an existing project and access useful samples and tutorials resources.
 
-The **Welcome Screen** is organized in the following tabs:
+This article guieds you throught the different tabs of the **Welcome Screen**:
 
-1. [Project Section](#project-section)
-2. [Get Started Section](#get-started-section)
-3. [News Feed Section](#news-feed-section)
+* [Project Section](#project-section)
+* [Get Started Section](#get-started-section)
+* [News Feed Section](#news-feed-section)
 
 ## Project Section
 
-In the __Project__ section of the __Welcome screen__, you can choose between creating a [new project](#create-a-new-project) or [opening an existing one](#open-an-existing-project). You can pick from a list of recently used projects on the left, or browse your local folders through the _Open Local_ button. You can also open a remote project from a source control repository (Git or TFS).
+In the __Project__ section of the __Welcome screen__, you can choose between creating a [new project](#create-a-new-project) or [opening an existing one](#open-an-existing-project). You can pick from a list of recently used projects on the left, or browse your local folders through the _Open Local_ button. You can also [open a remote project from a source control repository](#open-source-control) (Git or TFS).
 
 ![Project Section](/img/getting-started/first-project/fig0a.png)
 
@@ -36,7 +36,7 @@ To create a new project:
 
 ![Create new Project](/img/getting-started/first-project/fig00.png)
 
-The default location where Test Studio creates projects is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. The __Browse Folder__ button allows you to change this by choosing another folder.
+The default location where Test Studio creates projects is *C:\Users\<yourUsername>\Documents\Test Studio Projects*. The __Browse Folder__ button allows you to change this by choosing another folder.
 
 ### Open an Existing Project
 

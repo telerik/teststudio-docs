@@ -19,17 +19,18 @@ This article guides you trough the __recoding workflow for web and WPF tests__ a
 > <br>
 > Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end web test scenario</a>.
 
-1. [How to Start a Recording Session](#start-a-recording-session)
-1. [Example of a Web Test Recording](#web-test-recording)
-1. [Example of a WPF Test Recording](#wpf-test-recording)
-1. [How to Add Steps in the Test](#how-to-add-steps-in-the-test)
-1. [Stop the Recording Session](#stop-the-recording-session)
-1. [Attach the Recorder to a Running Application](#attach-the-recorder-to-a-running-application-applicable-for-ie-or-wpf-only)
-1. [What is the Compact Recorder](#what-is-the-compact-recorder)
+* [How to Start a Recording Session](#start-a-recording-session)
+* [Example of a Web Test Recording](#web-test-recording)
+* [Example of a WPF Test Recording](#wpf-test-recording)
+* [Example of a Desktop Test Recording](#desktop-test-recording)
+* [How to Add Steps in the Test](#how-to-add-steps-in-the-test)
+* [Stop the Recording Session](#stop-the-recording-session)
+* [Attach the Recorder to a Running Application](#attach-the-recorder-to-a-running-application-applicable-for-ie-or-wpf-only)
+* [What is the Compact Recorder](#what-is-the-compact-recorder)
 
 ## Start a Recording Session
 
-Create a web or WPF test in the Test Studio project and open it. This changes the tools ribbon to __Tests__ and lets you start a recording session. You can use the __Record__ button from the ribbon, or the _camera icon_ in the opened test pane.
+Create a web, desktop or WPF test in the Test Studio project and open it. This changes the tools ribbon to __Tests__ and lets you start a recording session. You can use the __Record__ button from the ribbon, or the _camera icon_ in the opened test pane.
 
 ![Test Studio][1]
 
@@ -77,9 +78,28 @@ Hit the __OK__ button in the __Configure WPF Application Path__ dialog to start 
 
 ![Record WPF Test][11]
 
-The Test Studio UI remains in the background of the application and logs the actions as steps in the test.
+The Test Studio UI remains in the background of the application and logs the actions as steps in the test. You can switch to the Test Studio project at any time and delete or modify the already recorded actions.
 
 ![Recorded steps in WPF Test][12]
+
+### Desktop Test Recording
+
+> **Tip**
+> <br>
+> <br>
+> Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end WPF test scenario</a>.
+
+To start a recording session in the context of a desktop test you need to define the application to automate. The first time you click the __Record__ button in the desktop test, it triggers the <a href="/automated-tests/desktop-testing/desktop-test#configure-desktop-test-to-record-specific-application" target="_blank">__Configure Desktop Application Path__ dialog</a> where you can browse to the executable file of the app to test.
+
+![Configure desktop app for testing](/img/automated-tests/desktop-testing/desktop-test/fig1.png)
+
+Hit the __OK__ button in the __Configure Desktop Application Path__ dialog to start the recording session - a new instance of the application starts and loads as it is expected to. Once the application is completely loaded the <a href="/features/recorder/compact-recording-toolbar" target="_blank">**Compact Recording Toolbar**</a> appears on top of the app and you can continue <a href="/automated-tests/desktop-testing/recording-specifics-desktop-test" target="_blank">recording the scenario for the desktop app</a>.
+
+![Ready to record desktop app](/img/automated-tests/desktop-testing/recording-specifics/fig2.png)
+
+The Test Studio UI remains in the background of the application and logs the actions as steps in the test.
+
+![Recorded](/img/automated-tests/desktop-testing/recording-specifics/recorded-steps.png)
 
 ## How to Add Steps in the Test
 

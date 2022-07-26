@@ -10,6 +10,11 @@ Test Studio recording feature supports WPF applications built with .Net 4.5+ or 
 
 This article guides you through the WPF test configuration process.
 
+- [Configure WPF Test to Automate Specific App](#configure-wpf-test-to-record-specific-application)
+- [Set Default Project Path to WPF App](#set-default-wpf-application-path)
+- [Record Application Window State](#record-application-window-state)
+- [Finish WPF Test Configuration](#finish-wpf-test-configuration)
+
 > **Tip**
 > <br>
 > <br>
@@ -17,18 +22,14 @@ This article guides you through the WPF test configuration process.
 
 ## Configure WPF Test to Record Specific Application
 
-The __configuration of the WPF test requires an executable file of a valid WPF app to be specified__ and, thus, used for recording and execution. When you open a WPF test in Test Studio, you can see the __Configure__ button in the __Test__ tools ribbon.
-
-![Configure button](/img/automated-tests/recording/overview/fig10.png)
-
-Click the __Configure__ button to open the __WPF Config Wizard__.
+The __configuration of the WPF test requires an executable file of a valid WPF app to be specified__ and, thus, used for recording and execution. When you open a WPF test in Test Studio, you can see the __Configure__ button in the __Test__ tools ribbon. Click the __Configure__ button to open the __WPF Config Wizard__.
 
 ![WPF Config Wizard][1]
 
 > **Tip**
 > <br>
 > <br>
-> If you attempt to initiate a recording session in WPF test, before it is configured, the __WPF Config Wizard__ will popup and let you provide the necessary details.
+> If you attempt to initiate a recording session in WPF test, before it is configured, the __WPF Config Wizard__ pops up and lets you provide the necessary details.
 
 ## Choose the Application to Automate
 
@@ -76,7 +77,7 @@ Once you applied all necessary settings, you can __confirm the configuration__ b
 
 ## See Also:
 
-* <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
+* <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recording Video Tutorial</a>.
 
 [1]: /img/general-information/create-test-standalone/wpf-test/fig1.png
 [2]: /img/general-information/create-test-standalone/wpf-test/fig2.png

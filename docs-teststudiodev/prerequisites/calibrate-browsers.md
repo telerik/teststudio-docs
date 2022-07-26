@@ -63,27 +63,25 @@ If a browser is not yet configured the button allows you to calibrate it.
 > <br>
 > You can check all settings applied from the calibration in the <a href="#manual-settings-to-configure-a-browser">Manual Configuration</a> section below (click the + sign to expand it).
 
-## Enable Chrome for Automation
+## Enable Chrome and Edge Chromium for Automation
 
-In __Test Studio Dev release 2022 R1__ (v.2022.1.xx) you can choose how to record and execute tests with Chrome browser. In this version it can be enabled for automation with or without the Progress Test Studio Extension. The setting how Chrome will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
+In __Test Studio Dev release 2022 R2__ (v.2022.2.xx) you can choose how to record and execute tests with Chrome and Edge Chromium browsers. In this version both can be enabled for automation with or without the Progress Test Studio Extension. The setting how these browsers will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
 
-### Enable Chrome for Automation with Extension
+### Enable Chrome amd Edge Chromium for Automation with Extension
 
-By default each Test Studio Dev project is set to use Chrome with the extension. So, if this is the option you want to use, you need to install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store.
+By default each Test Studio Dev project is set to use Chrome with the extension. So, if this is the option you want to use, you need to install in each browser the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge suppports adding extensions from the Chrome store).
 
-### Enable Chrome for Automation without Extension
+### Enable Chrome and Edge Chromium for Automation without Extension
 
-If you choose to use Chrome for recording and execution without additional extension, you need to __change a setting__ in the Test Studio project. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). Uncheck the checkbox and Test Studio Dev will __start the Chrome browser for this project without using the extensions__ even if this is installed.
+If you choose to use Chrome and Edge Chromium for recording and execution without additional extension, you need to __change a setting__ in the Test Studio project. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). Uncheck the checkbox and Test Studio Dev will __start the Chrome browser for this project without using the extensions__ even if this is installed.
 
 ![Disable UseBrowserExtension](images/browser-config/disable-extension.png)
 
-## Install Extensions for Firefox and Micorosft Edge Chromium
+## Enable Firefox for Automation
 
-Chrome and Firefox browsers require an extension for the purposes of automation testing with __Test Studio Dev__.
+Firefox browser requires an extension for the purposes of automation testing with __Test Studio Dev__.
 
-- The __Firefox__ extension can be found in the Firefox Add-ons Page - <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/", target=blank>__Progress Test Studio Extension__</a>.
-
-- The __Edge Chromium__ browser can now use extensions from the Chrome store and this will be used until Test Studio extension is published in the official Edge store. The extension is listed in the Chrome web store - <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan", target=blank>__Progress Test Studio Extension__</a>.
+The __Firefox__ extension can be found in the Firefox Add-ons Page - <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/", target=blank>__Progress Test Studio Extension__</a>.
 
 ## Settings Applied from the Calibration
 
@@ -688,13 +686,9 @@ If you need to double check manually if all settings are correct expand the <a h
 <img src="images/safari/fig6.png" alt="Pop up"><br><br>
 </div>
 </div>
-<p></p>
-<p></p>
 
-<p><hr></p>
-<p></p>
-<p></p>
 <script>
+window.addEventListener('DOMContentLoaded', function () {	
 $(".toggle_container").hide();
     
     $("p.trigger").click(function(){
@@ -704,4 +698,5 @@ $(".toggle_container").hide();
 	});
 		
     });
+	});
 </script>

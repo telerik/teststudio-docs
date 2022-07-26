@@ -22,9 +22,9 @@ In the **Help** drop-down in the upper right corner, choose the option to **Chec
 
 ![Help Menu check for updates](/img/general-information/installation/check-for-updates/CheckForUpdatesFull.gif)
 
-Alternatively, you can use the **Check for Updates** button in the **Software Update** section in the <a href="/getting-started/start-a-project/welcome-screen" target="_blank">Welcome Screen</a>.
+Alternatively, you can use the **Check for Updates** button in the **Software Update** section in the <a href="/features/project-settings/overview" target="_blank">Project settings</a>.
 
-![Welcome screen check for updates](/img/general-information/installation/check-for-updates/fig2.png)
+![Check for updates settings](/img/prerequisites/installation/check-for-update-now.png)
 
 #### Test Studio Plugin in Visual Studio
 
@@ -50,8 +50,12 @@ The Test Studio Installation Wizard will prepare the installation. The previousl
 
 ![Confirm upgrade of the existing installation](/img/general-information/installation/check-for-updates/fig6.png)
 
-> __Note!__ Any running instances of Test Studio, including the Execution Client and Visual Studio loaded with the Test Studio plugin, must be closed during the installation process.
-
+> __Note!__
+> <br>
+> <br>
+> Any running instances of Test Studio, including the Execution Client and Visual Studio loaded with the Test Studio plugin, must be closed during the installation process.
+> <br>
+> <br>
 > The upgrade procedure of Test Studio is not affecting the automation projects you work on.
 
 ## Enable Check for Updates on Test Studio Startup
@@ -60,9 +64,9 @@ Test Studio provides the option to enable automatic check for newer product vers
 
 #### Test Studio Standalone
 
-Start Test Studio and choose the __Software Update__ section in the <a href="/getting-started/start-a-project/welcome-screen" target="_blank">Welcome Screen</a>. Enable the checkbox for automatic check for updates and choose whether to be notified for official releases only, or include also internal builds.
+Start a Test Studio project and choose the __Software Update__ section in the <a href="/features/project-settings/overview" target="_blank">Project Settings</a>. Enable the checkbox for automatic check for updates and choose whether to be notified for official releases only, or include also internal builds.
 
-![Enable automatic check for updates in Welcome screen](/img/general-information/installation/check-for-updates/fig8.png)
+![Enable automatic check for updates in Welcome screen](/img/prerequisites/installation/check-for-updates-settings.png)
 
 #### Test Studio Plugin in Visual Studio
 

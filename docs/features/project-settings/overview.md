@@ -33,7 +33,7 @@ The available settings are divided in few areas:
 - <a href="/features/project-settings/translators" target="_blank">Translators Project Settings</a>
 - <a href="/features/project-settings/analytics" target="_blank">Analytics Product Settings</a>
 - <a href="/features/project-settings/theme" target="_blank">Theme Settings</a>
-- <a href="/features/project-settings/updates" target="_blank">Updates (Visual Studio only)</a>
+- <a href="/features/project-settings/updates" target="_blank">Software Update</a>
 
 [1]: /img/features/project-settings/overview/fig1.png
 [2]: /img/features/project-settings/overview/fig2.png

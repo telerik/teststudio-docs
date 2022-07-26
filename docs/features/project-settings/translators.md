@@ -145,7 +145,7 @@ In the below grid you can find the versions of the supported UI components match
 </script>
 
 <style>
-    #table_detail .hidden_row {
+    #Angular .hidden_row {
             display: none;
         }
 </style>
@@ -581,7 +581,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
     </tbody>
 </table>
-</p>
+
 
 ## Available Translators
 

@@ -107,5 +107,10 @@ All settings are listed below with additional details on their usage.
 * **UserAgent** - represents the user agent used from the browser.
 * **Width** - represents the width of display for the device to simulate.
 
+## Desktop Tab
+
+* **DefaultApplicationPath** - represents the default application path for desktop tests.
+
+
 [1]: /img/features/test-lists/test-list-settings/fig1.png
 [3]: /img/features/test-lists/test-list-settings/fig3.png
