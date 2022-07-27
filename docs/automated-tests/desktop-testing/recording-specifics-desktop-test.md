@@ -22,7 +22,7 @@ This article guides you through the specifics of recording steps in a desktop te
 > **Tip**
 > <br>
 > <br>
-> Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end Desktop test scenario</a>.
+> Check <a href="https://www.telerik.com/videos/teststudio/desktop-testing-video-tutorial" target="_blank">this video tutorial for recording an end-to-end Desktop test scenario</a>.
 
 ## Recording Ready State
 
@@ -60,4 +60,4 @@ Elements are added with automatically generated find expression based on their a
 
 ## See Also:
 
-* <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">Desktop Test Recording Video Tutorial</a>.
+* <a href="https://www.telerik.com/videos/teststudio/desktop-testing-video-tutorial" target="_blank">Desktop Test Recording Video Tutorial</a>.

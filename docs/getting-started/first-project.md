@@ -69,16 +69,18 @@ Creating your first Test Studio project launches the default _Compact_ layout. T
 > __Tip__
 ><br>
 ><br>
-> The __layout in Test Studio project can be fully customized__. You can choose between the predefined layouts or tailor up the panels as per your preference - <a href="/automated-tests/customize-project/custom-layout" target="_blank">find out more here.</a> 
+> The __layout in Test Studio project can be fully customized__. You can choose between the predefined layouts or tailor up the panels as per your preference - <a href="/automated-tests/customize-project/custom-layout" target="_blank">find out more here.</a>
 
 ## Types of Tests in Test Studio Project
 
 One Test Studio project allows you to include different types of tests:
 
-- __Web Test__ - a test in which you can record actions against a web page started in any of the supported browsers (Chrome, Firefox, Edge, IE).
-- __WPF Test__ - a test in which you can record actions against a WPF desktop application.
-- __Load Test__ - a test in which you can add different scenarios with web requests to load a web application server.
-- __Manual Test__ - a test in which you can add steps to manually execute against any application. This can be converted to a web test if automating a web page.
+- <a href="/automated-tests/recording/overview#start-a-recording-session" target="_blank">__Web Test__</a> - a test in which you can record actions against a web page started in any of the supported browsers (Chrome, Firefox, Edge, IE).
+-  <a href="/automated-tests/responsive/responsive-test" target="_blank">__Web Responsive Test__</a> - a test in which you can record actions against a web page rendered in an emulated device mode (Chrome and Edge).
+- <a href="/automated-tests/desktop-testing/desktop-test" target="_blank">__Desktop Test__</a> - a test in which you can record actions agaisnt a desktop application (not limited to a specific technology).
+- <a href="/automated-tests/wpf/wpf-test" target="_blank">__WPF Test__</a> - a test in which you can record actions against a WPF application.
+- <a href="/automated-tests/load/overview" target="_blank">__Load Test__</a> - a test in which you can add different scenarios with web requests to load a web application server.
+- <a href="/automated-tests/performance/overview" target="_blank">__Manual Test__</a> - a test in which you can add steps to manually execute against any application. This can be converted to a web test if automating a web page.
 - __Performance Test__ - a Performance test is always related to a valid web test and is being executed on top of this.
 
 <table id=no-table>

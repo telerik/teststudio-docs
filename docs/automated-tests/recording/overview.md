@@ -87,7 +87,7 @@ The Test Studio UI remains in the background of the application and logs the act
 > **Tip**
 > <br>
 > <br>
-> Check <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">this video tutorial for recording an end-to-end WPF test scenario</a>.
+> Check <a href="https://www.telerik.com/videos/teststudio/desktop-testing-video-tutorial" target="_blank">this video tutorial for recording an end-to-end desktop test scenario</a>.
 
 To start a recording session in the context of a desktop test you need to define the application to automate. The first time you click the __Record__ button in the desktop test, it triggers the <a href="/automated-tests/desktop-testing/desktop-test#configure-desktop-test-to-record-specific-application" target="_blank">__Configure Desktop Application Path__ dialog</a> where you can browse to the executable file of the app to test.
 
@@ -116,7 +116,7 @@ The Test Studio UI remains in the background of the application and logs the act
 
 ## Stop the Recording Session
 
-To stop the current recording session __close the automated browser or WPF application__ - this is how all processes and communication channels between the app and Test Studio gets dismissed.
+To stop the current recording session __close the automated browser or WPF/desktop application__ - this is how all processes and communication channels between the app and Test Studio gets dismissed.
 
 ## Attach the Recorder to a Running Application (Applicable for IE and WPF Only)
 
