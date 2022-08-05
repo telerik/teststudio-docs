@@ -4,3 +4,6 @@ Telerik.TestingFramework.Controls.KendoUI.dll
 Telerik.WebAii.Controls.Html.dll	
 Telerik.WebAii.Controls.Xaml.dll	
 Telerik.WebAii.Controls.Xaml.Wpf.dll
+Telerik.TestingFramework.Controls.KendoUI.Angular.dll
+Telerik.TestingFramework.Controls.TelerikUI.Blazor.dll
+
