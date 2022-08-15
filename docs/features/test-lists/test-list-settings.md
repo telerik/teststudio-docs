@@ -81,6 +81,7 @@ All settings are listed below with additional details on their usage.
 	* **KillBrowserProcessOnClose** - whether to kill the browser process when closing the browser.
 	* **KillBrowsersBeforeStart** - kill all executing browser instances before test lists starts.
 	* **RecycleBrowser** - when set to true, one instance of the browser is launched and recycled throughout all tests until *Manager.Dispose* is called.
+	* **UseBrowserExtension** - enable or disable using browser extension (for Chrome and Edge browsers).
 	* **WebComponents** - enable or disable WebComponents support. When creating a test list, the setting gets the value set on project level in the <a href="/features/project-settings/general#web-components" target="_blank">Project Settings General tab</a>. After that the setting is independent from the project level setting.
 * ***HttpProxy***
 	* **UseHttpProxy** - whether to use the built-in HTTP proxy during automation. Enabling Silverlight will automatically enable the HTTP proxy.
