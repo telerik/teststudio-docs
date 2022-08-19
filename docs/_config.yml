@@ -217,24 +217,6 @@ navigation:
     features/recorder:
         title: "Recorder"
         position: 1
-    features/recorder/advanced-recording-tools:
-        title: "Advanced Recording Tools"
-        position: 3
-    features/recorder/advanced-recording-tools/element-steps:
-        title: "Element Steps"
-        position: 2
-    features/recorder/advanced-recording-tools/element-steps/actions:
-        title: "Actions"
-        position: 2
-    features/recorder/advanced-recording-tools/element-steps/verifications:
-        title: "Verifications"
-        position: 3
-    features/recorder/mouse-actions:
-        title: "Actions"
-        position: 4
-    features/recorder/verifications:
-        title: "Verifications"
-        position: 5
     features/elements-explorer:
         title: "Elements"
         position: 2
@@ -282,6 +264,39 @@ navigation:
     features/coded-steps:
         title: "Coded Steps"
         position: 10
+
+# ....Recorder section
+    features/recorder/highlighting-menu:
+        title: "Highlighting Menu Options"
+        position: 2
+    features/recorder/highlighting-menu/quick-steps:
+        title: "Quick Steps"
+        position: 1
+    features/recorder/highlighting-menu/actions:
+        title: "Action Steps"
+        position: 2
+    
+    
+    features/recorder/advanced-recording-tools:
+        title: "Advanced Recording Tools"
+        position: 3
+    features/recorder/advanced-recording-tools/element-steps:
+        title: "Element Steps Tab"
+        position: 2
+    features/recorder/advanced-recording-tools/element-steps/actions:
+        title: "Advanced Actions"
+        position: 2
+    features/recorder/advanced-recording-tools/element-steps/verifications:
+        title: " Advanced Verifications"
+        position: 3
+
+    features/recorder/mouse-actions:
+        title: "Actions"
+        position: 4
+    features/recorder/verifications:
+        title: "Verifications"
+        position: 5
+
 # ....Testing types
     "*performance-testing":
         title: "Performance Testing"

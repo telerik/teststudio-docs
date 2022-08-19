@@ -1,6 +1,6 @@
 ---
-title: Common Steps
-page_title: Common Steps
+title: Common Steps Tab
+page_title: Common Steps Tab
 description: "Add common steps to your test scenario during recording. Add execution delay, clear browser cache or other common steps."
 position: 3
 ---

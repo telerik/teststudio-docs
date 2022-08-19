@@ -17,7 +17,7 @@ Depending on the <a href="/automated-tests/customize-project/custom-layout" targ
 
 The Step Builder can also be used to build steps against already recorded elements in the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>.
 
-1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer.
+1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
 
 2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 

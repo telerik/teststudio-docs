@@ -1,10 +1,46 @@
 ---
-title: Extraction
-page_title: Create an Extraction Step
-description: "Create an Extraction Step in Test Studio. Use a dynamic generated value during the Test Studio test run. Reuse a dynamic value available in run-time only in Test Studio test. Get an attribute value of an element in Test Studio test. Data bind dynamic value in Test Studio test. "
+title: Add an Extraction Step
+page_title: Add an Extraction Step
+description: "Test Studio provides interactive suggestions for adding extraction steps during recording based on the highlighted element. Extarction steps are useful for scenarios, which use data generated during the test run-time. Extraction steps store the value into variables and allow you reuse these later in the test steps."
 position: 3
 ---
 # Create an Extraction Step
+
+Extraction steps in Test Studio allow you to design the automated test scenarios to use data generated dynamically during the test execution. The extraction steps can take any text based value and store into a variable. The variable can be used to data drive a value in the upcoming steps in test.
+
+Find out more about extraction steps in the and how you can use these in the below article.
+
+## General Notes
+
+The Test Studio extraction steps are using the implementation for verification steps. But instead of passing or failing based on a comparison, the extraction step gets the value (text based) of an attribute for the element and stores it into a variable. The variable can be used in any of the next steps to data drive a property of the step.
+
+The variable can be as well referenced in a sub-test used as step in the main test. In such case you need to manually type the name of the variable in the data driven propert.
+
+> **Note**
+>
+> The engine for creating the verification sentences allows you to __convert any Verification step to Wait or Extracttion step (converting to extraction step is available for text based verifications)__. Use the _Change Role_ option from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose from the options in the sub-menu.
+> ![Change Role Option](/img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig0.png)
+
+## Create an Extraction Step in Recording Mode
+
+The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">Highlighting menu</a> gives quick access to a set of predefined extractions, which can be added with a single click while recording. You can follow the below steps to insert a wait step in your test.
+
+1.&nbsp; Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
+
+2.&nbsp; Enable the highlighting once the recorder is attached to the browser. Hold the mouse over the __Demos__ option in the navigation menu and add a step to extract its text content.
+
+![Add extract step][1]
+
+3.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the extraction step and allow you to change the variable name interval of checking the expected state and the overall timeout to wait for.
+
+![Step Properties][3]
+
+
+
+
+
+
+
 
 > After following the steps below, go further and <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">Get/Set Extracted Variables in Code</a>.
 

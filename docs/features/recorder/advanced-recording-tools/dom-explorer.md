@@ -1,6 +1,6 @@
 ---
-title: DOM Explorer
-page_title: DOM Explorer
+title: DOM Explorer Tab
+page_title: DOM Explorer Tab
 description: "The Test Studio DOM Explorer displays the DOM in a tree or tag format where you see all elements of a page at one time. The Test Studio DOM Explorer is helpful with a complex page when simply using the mouse and hover over highlighting may not be enough to find the element you're looking for"
 position: 1
 ---
