@@ -55,16 +55,19 @@ The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank"
 
 ![Add quick verification][1]
 
+3.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the verification step and allow you to change the compare type or expected string value.
+
+![Step Properties][3]
+
 ## Create a Verification Step without Recording Session
 
 The automated test execution is much faster than a real user and often you find out it is suitable to __add an additional wait in the already recorded test__ to ensure its stability when running on different environments. For such cases Test Studio provides the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">options for partial test execution</a>, which allow you to get to a certain point of the test and record the additional waits.
 
-For the cases when the project and scenarios are quite complex, you can __add wait steps for an already recorded element__ and without starting a recording session.
+For the cases when the project and scenarios are quite complex, you can __add verification steps for an already recorded element__ and without starting a recording session. The below list guide you through the steps for this:
 
 1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
-</br>
-</br>
-__Note:__  Usually, the wait step to insert is related to an action step and its element. Thus, if you click on that action step, its target element gets highlighted in the Elements Explorer with a red arrow. Select the element and proceed to the Step Builder.
+<br>
+__Note:__  Usually, the verification step to insert is related to an action step and its element. Thus, if you click on that action step, its target element gets highlighted in the Elements Explorer with a red arrow. Select the element and proceed to the Step Builder.
 
 2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 
@@ -83,3 +86,4 @@ __Note:__  Usually, the wait step to insert is related to an action step and its
 
 [1]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/add-quick-verification.gif
 [2]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig2.png
+[3]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig3.png

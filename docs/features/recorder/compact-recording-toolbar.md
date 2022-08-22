@@ -28,7 +28,7 @@ Place the mouse cursor over the dots in the left or top of the __Recording Toolb
 
 ![Enable Highlighting Button][2]
 
-Hover Over Highlighting is one of the powerful features in the **Test Studio recording** flow. Once the highlighting is enabled, pause the mouse over an element in the recording application surface and wait for the elements menu to appear. This rich menu provides quick access to a set of relevant functions for the selected element right in the page or application you are testing.
+<a href="/automated-tests/recording/hover-over-highlighting" target="_blank">Hover Over Highlighting</a> is one of the powerful features in the **Test Studio recording** flow. Once the highlighting is enabled, pause the mouse over an element in the recording application surface and wait for the elements menu to appear. This rich menu provides quick access to a set of relevant for the selected element functions right in the page or application you are testing - the <a href="/features/recorder/highlighting-menu/quick-steps/quick-verification" target="_blank">quick wait and verify steps</a>, the <a href="/features/recorder/highlighting-menu/actions/mouse-actions" target="_blank">mouse actions</a> and <a href="/features/recorder/highlighting-menu/actions/scroll-actions" target="_blank">scroll actions</a>.
 
 ![Elements Quick steps Menu][3]
 
@@ -54,7 +54,8 @@ When in paused mode, you see the **Record** button which allows you to return to
 
 ![Show Advanced Recording Tools][10]
 
-Directly from the **Compact Recording Toolbar** you can access the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">**Advanced Recording Tools**</a> window where you have access to the complete set of recording options.
+From the **Compact Recording Toolbar** you can also access the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">**Advanced Recording Tools**</a> window where you have access to the complete set of recording options.
+
 ![Advanced Recording Tools][11]
 
 ## Toolbar Orientation ##

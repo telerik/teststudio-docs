@@ -10,11 +10,17 @@ Extraction steps in Test Studio allow you to design the automated test scenarios
 
 Find out more about extraction steps in the and how you can use these in the below article.
 
+- [General notes about wait steps](#general-notes)
+- [Add an extraction step](#create-an-extraction-step-in-recording-mode)
+- [Use the extracted variable in the next test steps](#use-the-extracted-value-in-the-next-steps)
+- [Add an extraction step without recording session](#create-an-extraction-step-without-recording-session)
+- [Extract the value of element attribute](#extract-the-value-of-element-attribute)
+
 ## General Notes
 
 The Test Studio extraction steps are using the implementation for verification steps. But instead of passing or failing based on a comparison, the extraction step gets the value (text based) of an attribute for the element and stores it into a variable. The variable can be used in any of the next steps to data drive a property of the step.
 
-The variable can be as well referenced in a sub-test used as step in the main test. In such case you need to manually type the name of the variable in the data driven propert.
+The variable can be as well referenced in a sub-test used as step in the main test. In such case you need to manually type the name of the variable in the data driven property.
 
 > **Note**
 >
@@ -31,82 +37,77 @@ The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank"
 
 ![Add extract step][1]
 
-3.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the extraction step and allow you to change the variable name interval of checking the expected state and the overall timeout to wait for.
+3.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the extraction step and allow you to change the variable name.
 
-![Step Properties][3]
+![Step Properties][2]
 
+## Use the Extracted Value in the Next Steps
 
+Once an extraction step is added in a test, it generates a variable which holds the extracted value. __This variable is listed as available for data driving__ the properties of the test steps.
 
+Let's continue the described test scenario and __use the extracted variable__ to type some text into the search engine on the Telerik page and check if the displayed results list that word. So, the steps added in the test are to click on the _Search_ icon, type some text in the _Search_ field, click the _Search_ button. Then verify the results count contains the typed text.
 
+![Test Scenario][3]
 
+1.&nbsp; Open the <a href="/features/test-maintenance/test-step-properties" target="_blank">properties</a> of the 'Enter text' step and expand the _Bindings_ option. The only property to data drive is the text to type and the extracted variable _DemosLink_ is listed in the dropdown as an option for data binding.
 
+![Data binding properties][4]
 
+2.&nbsp; In the same manner use the extracted variable to data drive the two verification steps.
 
-> After following the steps below, go further and <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">Get/Set Extracted Variables in Code</a>.
+![Data binding properties][4a]
 
-* <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/extraction#extract-an-attribute-of-an-element">Extract an attribute of an element</a>
+> __Note__
+><br>
+> If you need to use the extracted variable into another <a href="/features/custom-steps/test-as-step" target="_blank">test used as a step</a>, the variable name is not directly listed in the sub-test's step properties. However, you still can use it by __typing the variable name in the text box__ (without the $ notation), click on the _brackets_ icon and then _Set_ button:
+>
+> ![Bind external extracted variable][5]
+><br>
+> __Tip__
+><br>
+> Extracted variables can be also used in coded steps - you can either <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">get or set their values</a>. This can help in the scenarios when you need to modify the initially extracted string before using it in the next steps.
 
-This demonstrates how to extract a value from an element and reuse it later in your test. You can also review our Telerik TV episode on <a href="https://youtu.be/qT-_4oBwRpE" target="_blank">Using Element Extraction (Variables)</a> for a video walk-through of this process.
+## Create an Extraction Step without Recording Session
 
-1.&nbsp; Highlight the desired element, choose **Quick Steps > Extract - text contains** entry. This example is against a <a href="http://www.wordgenerator.net/random-word-generator.php" target="_blank">random word generator site</a>.
+The automated test scenarios often need to be enriched with additional actons to complete the tested feature. In such cases you might need to __add a new extraction step in the already recorded test__. For such cases Test Studio provides the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">options for partial test execution</a>, which allow you to get to a certain point of the test and record the additional steps.
 
-![Word Generator][1]
+For the cases when the project and scenarios are quite complex, you can __add extarction steps for an already recorded element__ and without starting a recording session. The below list guide you through the steps for this:
 
-2.&nbsp; The Extract step is added to the test.
+1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
+<br>
+__Note:__  Usually, the extraction to insert is related to an action step and its element. Thus, if you click on that action step, its target element gets highlighted in the Elements Explorer with a red arrow. Select the element and proceed to the Step Builder.
 
-3.&nbsp; Pause recording, double click that step, and change the DataBindVariableName. In this example I renamed it to *randomWord*.
+2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 
-![Extracted step added][2]
+3.&nbsp; Choose the verification type you need for the extraction and click the **Add Step** button to insert the step in the test.
 
-4.&nbsp; Resume recording and navigate to www.bing.com.
+![Step Builder Verification][6]
 
-5.&nbsp; Enter any word into the search box and click **Submit**.
+4.&nbsp; The generated step is either wait or verification step and you need to convert it to an extraction from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step properties</a> option _Change Role..._.
 
-6.&nbsp; Close the browser to stop recording.
+![Change Role][7]
 
-![submit][3]
+> __Tip__
+><br>
+><br>
+> Check <a href="https://www.telerik.com/videos/teststudio/how-to-add-test-steps-from-the-test-builder" target="_blank">this short video</a> demonstrating how to add a step for an existing element in Test Studio.
 
-7.&nbsp; Highlight the step that sets the search word for the second search engine (step 4 in this example).
+## Extract the Value of Element Attribute
 
-8.&nbsp; Click the (**Bindings**) drop-down in the **Properties** pane.
+The implementation of verification steps allows you to convert any text based check to an extraction. Thus you can use the value of each element attribute into an extracted variable.
 
-9.&nbsp; Select the extracted variable from the value drop-down and click **Set**.
+1.&nbsp; Create an <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">advanced verification</a> for an attribute of an element.
 
-![Set][4]
+![Advanced verification for attribute][8]
 
-10.&nbsp; Save and execute the test.
-
-11.&nbsp; A random word is extracted from the first site and used as the query in a Bing search
-
-> If you've <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then _Set_:
-
-    ![var1][5]
-
-## Extract an attribute of an element
-
-1.&nbsp; Create an <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">advanced verification</a> for an attribute of an element (e.g. Title). Find and select the element from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a>.
-
-![Advanced verification][6]
-
-2.&nbsp; Go to the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Element Steps tab</a>
-
-3.&nbsp; Select **Verifications** tab and choose **Attributes**. Specify the attribute that you need and click **Add Step**.
-
-![Add Step][9]
-
-4.&nbsp; The step is changed to an extraction one.
-
-![Change the role][7]
-
-5.&nbsp; The step is changed to an extraction one.
-
-![Extraction][8]
+2.&nbsp; Switch the verification step role to an extraction step through the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step properties</a> option _Change Role..._.
 
 [1]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig1.png
 [2]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig2.png
 [3]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig3.png
 [4]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig4.png
-[5]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig5.png
+[4a]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig4a.png
+[5]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/extracted-var-binding.gif
 [6]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig6.png
 [7]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig7.png
 [8]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig8.png

@@ -39,18 +39,18 @@ The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank"
 
 ## Create a Wait Step without Recording Session
 
-The automated test execution is much faster than a real user and often you find out it is suitable to __add an additional verification in the already recorded test__ to ensure its stability. For such cases Test Studio provides the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">options for partial test execution</a>, which allow you to get to a certain point of the test and record the additional verifications.
+The automated test execution is much faster than a real user and often you find out it is suitable to __add an additional wait in the already recorded test__ to ensure its stability. For such cases Test Studio provides the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">options for partial test execution</a>, which allow you to get to a certain point of the test and record the additional wait steps.
 
-For the cases when the project and scenarios are quite complex, you can __add verifications for an already recorded element__ and without starting a recording session.
+For the cases when the project and scenarios are quite complex, you can __add waits for an already recorded element__ and without starting a recording session. The below list guide you through the steps for this:
 
 1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
 </br>
 </br>
-__Note:__  Usually, the verification to insert is related to an action step and its element. Thus, if you click on that action step, its target element gets highlighted in the Elements Explorer with a red arrow. Select the element and proceed to the Step Builder.
+__Note:__  Usually, the wait step to insert is related to an action step and its element. Thus, if you click on that action step, its target element gets highlighted in the Elements Explorer with a red arrow. Select the element and proceed to the Step Builder.
 
 2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 
-3.&nbsp; Choose the verification you need and click the **Add Step** button to insert the step in the test.
+3.&nbsp; Choose the wait type you need and click the **Add Step** button to insert the step in the test.
 
 ![Step Builder Verification][4]
 

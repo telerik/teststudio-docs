@@ -25,7 +25,7 @@ The new Test Studio for APIs helps customers verify the integrity and reliabilit
 
 * Execution flow management - Handle complex scenarios with [Goto](/features/steps/goto) and [Wait](/features/steps/wait) steps. All test steps support [conditions](/features/condition) that allow you to control when the steps should be executed or skipped.
 
-## ecording and Import
+## Recording and Import
 
 * [Record HTTP(S) Traffic](/features/record/http-traffic) - capture HTTP(S) traffic from within Test Studio for APIs. Import http(s) sessions directly as tests. You can make modifications to imported test requests to cover various alternative scenarios. Built-in shortcuts make it easy to make quick verifications for response headers, status or response time.
 
