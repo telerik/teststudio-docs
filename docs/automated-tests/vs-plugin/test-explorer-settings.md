@@ -63,7 +63,7 @@ In __Visual Studio 2019 and 2022__ the test settings file can be selected under 
 
 <table id="no-table">
 <tr>
-<td>![Set test settings for Test Explorer 2015 and 2017][4]<br>__Visual Studio 2015 and 2017__<__/td>
+<td>![Set test settings for Test Explorer 2015 and 2017][4]<br>__Visual Studio 2015 and 2017__</td>
 <td>![Set run settings for Test Explorer 2019 and 2022](/img/knowledge-base/visual-studio-kb/test-explorer-settings/run-settings-vs22.png)<br>__Visual Studio 2019 and 2022__</td>
 <tr>
 <table>

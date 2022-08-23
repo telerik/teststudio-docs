@@ -1,20 +1,12 @@
 ---
-title: Quick Mouse Actions
-page_title: Quick Mouse Actions
-description: "Add mouse action steps from the Highlighting menu while recording Test Studio tests. Choose among left single or double mouse click, right mouse click. Add a mouse step to hover over an element."
+title: Mouse Actions
+page_title: Mouse Actions
+description: "Record real user mouse actions. Left click mouse action. Double click action. Right click real user mouse action."
 position: 0
 ---
-# Quick Mouse Actions
+# Advanced Mouse Actions
 
-The __Quick Mouse Actions__ section in the Highlighting menu allows you to add different type of desktop mouse actions like right or double clicks and hover over an element.
-
-![Add Quick Mouse Action Step][1]
-
-## General Notes
-
-
-
-re are different types of mouse actions that you can record against specific element in the application under test. Some are basic, like Left or Right click, and some are more complex like HoverOver and Drag&Drop. All of them behave as if the real user performs those actions by sending desktop mouse commands. 
+There are different types of mouse actions that you can record against specific element in the application under test. Some are basic, like Left or Right click, and some are more complex like HoverOver and Drag&Drop. All of them behave as if the real user performs those actions by sending desktop mouse commands. 
 
 Each step comes with a **Description** and **Location** sections to help you add the right step and with the right configurations. That said, you can adjust the location and other properties from the <a href="/features/test-maintenance/test-step-properties" target="_blank">Step Properties</a> pane in Test Studio later. 
 
@@ -50,7 +42,7 @@ Configure where exactly you want the mouse action to be executed.
 
 4.&nbsp;Click **Add Step**. New "Desktop command" step with the specified coordinates is created in your test.
 
-[1]: /img/features/recorder/highlighting-menu/mouse-actions/fig1.png
+[1]: /img/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions/fig1.png
 [2]: /img/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions/fig2.png
 [3]: /img/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions/fig3.png
 [4]: /img/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions/fig4.png
