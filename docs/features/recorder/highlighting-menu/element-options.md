@@ -2,19 +2,19 @@
 title: Element Options
 page_title: Element Options in the Hihglighting Menu
 description: "Test Studio Highlighting menu in recording mode provides quick selection of the highlighted element in the DOM or quick addition to the Elements Repository."
-position: 3
+position: 4
 ---
 # Element Options in the Hihglighting Menu
 
 The __Highlighting menu__ provides a powerful set of options related to the targeted element. It brings additional options to interact with an element in the terms of test recording, apart from clicking or entering text.
+
+![Element Options in Highlighting menu][1]
 
 You can read further about the Element options:
 
 * [Add to Elements](#add-to-elements)
 * [Locate in DOM](#locate-in-dom)
 * [Build Step](#build-step)
-
-![Element Options in Highlighting menu][1]
 
 > **Tip**
 > <br>
@@ -43,9 +43,3 @@ You can read further about the Element options:
 [5]: /img/features/recorder/compact-recording-toolbar/fig5.png
 [6]: /img/features/recorder/compact-recording-toolbar/fig6.png
 [7]: /img/features/recorder/compact-recording-toolbar/fig7.png
-[8]: /img/features/recorder/compact-recording-toolbar/fig8.png
-[9]: /img/features/recorder/compact-recording-toolbar/fig9.png
-[10]: /img/features/recorder/compact-recording-toolbar/fig10.png
-[11]: /img/features/recorder/compact-recording-toolbar/fig11.png
-[12]: /img/features/recorder/compact-recording-toolbar/fig12.png
-[13]: /img/features/recorder/compact-recording-toolbar/fig13.png
