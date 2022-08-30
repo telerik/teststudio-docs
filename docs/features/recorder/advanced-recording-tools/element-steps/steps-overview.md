@@ -1,34 +1,40 @@
 ---
-title: Overview
-page_title: Overview
-description: "Add steps against element during recording. Step Builder allows you to add new action and verification steps. Select an element from Elements repository and add a step against that. Wait for an element to exist to be visible. Codeless steps against element from the DOM tree."
+title: Element Steps
+page_title: Element Steps Overview
+description: "Test Studio Advanced Recording Tools lets you add steps against a selected element during recording. Select an element from the DOM tree and switch to Element Steps tab to choose what step to add. Elements steps can be action or verification type."
 position: 0
 ---
-# Add Element Steps #
+# Element Steps Tab
 
-You can <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">explore the DOM tree</a> during a recording session and build element steps. To do that, you need to select the target element in the DOM Explorer tab first.
+The __Advanced Recording Tools__ window allows you to build various steps specific for a given element. You can manually select an element from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer tab</a> or use the <a href="/features/recorder/highlighting-menu/element-options" target="_blank">highlighting menu to bring up the step options for an element</a>.
+
+Find out more about adding element steps below.
+ 
+- []()
+
+## Choose an Element to Build Step
+
+If there is no element selected in the __DOM Explorer__, the __Element Steps__ remains empty.
 
 ![Select Element from DOM][1]
 
-When you select an element from the DOM Explorer, you will see the **Actions** and **Verifications** tabs with available steps for that element. Each of those tabs has different types of steps that you can configure and add to your test. Simply choose the required step and click the **Add Step** button. You can make additional configurations to the newly added step in the <a href="/features/test-maintenance/test-step-properties" target="_blank">Step Properties</a> pane in Test Studio.
+Choose an element from the DOM Explorer, or use the highlighting menu to locate an element in the DOM. The __Elements Steps__ tab shows the __Actions__ and __Verifications__ options relative for the selected element. Choose a step and click the **Add Step** button to add it into the test.
 
 ![Add Step][2]
 
-You can also build steps from the <a href="/features/custom-steps/overview" target="_blank">Step Builder</a> in Test Studio, after the recording session is closed.
-
-## Actions ##
+## Actions
 
 ![Actions][3]
 
-In order to automate your test scenario, you need to record different actions against the application under test. Test Studio will capture your mouse and keyboard actions automatically, but you can also add more actions. Check out the 3 categories below:
+The __Actions__ section gives you the option to add different type of actions for an element - mouse clicks and actions, scrolling and JavaScript events. The default click steps and scrolling options can be added also through the highlighting menu. 
 
-- <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank">Mouse Actions</a> are invoked as if the real user was directly using the mouse. They range from different Left and Right mouse button actions to hover over and drag & drop actions to cover all scenarios.
+- __<a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank">Mouse Actions</a>__ are invoked as if the real user was directly using the mouse. They range from different Left and Right mouse button actions with <a href="/features/recorder/advanced-recording-tools/element-steps/actions/adv-mouse-actions" target="_blank">specifying where to send the click</a>, to <a href="/features/recorder/highlighting-menu/mouse-actions" target="_blank">hover over</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">drag&drop actions</a> to cover all scenarios.
 
-- <a href="/features/recorder/advanced-recording-tools/element-steps/actions/scroll-actions" target="_blank">Scroll Actions</a> are used to ensure that the element is visible on the screen. You can scroll the application in three different ways - top, bottom and center.
+- <a href="/features/recorder/highlighting-menu/scroll-actions" target="_blank">__Scroll Actions__</a> are used to ensure that the element is visible on the screen. You can scroll the element to three different positions - top, bottom and center of the page.
 
-- <a href="/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events" target="_blank">JavaScript Events</a> can be invoked against the highlighted element.
+- <a href="/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events" target="_blank">__JavaScript Events__</a> can be invoked against the highlighted element.
 
-## Verifications ##
+## Verifications
 
 ![Verifications][4]
 

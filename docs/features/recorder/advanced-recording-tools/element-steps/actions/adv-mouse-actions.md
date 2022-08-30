@@ -1,14 +1,26 @@
 ---
-title: Mouse Actions
-page_title: Mouse Actions
-description: "Record real user mouse actions. Left click mouse action. Double click action. Right click real user mouse action."
+title: Mouse Click on Specified Location
+page_title: Mouse Click on Specified Location
+description: "Test Studio allows you to specify the coordinates of the mouse click correalted to the target element. Add mouse click actions into the test to handle any type of automation test scenarios as if a real user would handle these. "
 position: 0
 ---
-# Advanced Mouse Actions
+# Mouse Click on Specified Location
 
-There are different types of mouse actions that you can record against specific element in the application under test. Some are basic, like Left or Right click, and some are more complex like HoverOver and Drag&Drop. All of them behave as if the real user performs those actions by sending desktop mouse commands. 
+The __Advanced Mouse Actions__ section allows you to modify the coordinates of the click step and specify where to send the click. 
 
-Each step comes with a **Description** and **Location** sections to help you add the right step and with the right configurations. That said, you can adjust the location and other properties from the <a href="/features/test-maintenance/test-step-properties" target="_blank">Step Properties</a> pane in Test Studio later. 
+Check the advanced options for the different click steps. 
+
+## Advanced Mouse Click Options
+
+When building a mouse click step from the __Advanced Recording Tools__ window you have the option to choose the **Location** of the click. You can choose between _Element Center_ or _Specific Location_. The __Element Center is the default value__ and alls steps added through the highlighting menu are set to click in the absolute center of the target element.
+
+![Add Mouse Action Step][1]
+
+> __Tip__
+>
+> The <a href="/features/test-maintenance/test-step-properties" target="_blank">Step Properties</a> for the mouse click steps 
+
+ sections to help you add the right step and with the right configurations. That said, you can adjust the location and other properties from the <a href="/features/test-maintenance/test-step-properties" target="_blank">Step Properties</a> pane in Test Studio later. 
 
 > **Note**
 >
