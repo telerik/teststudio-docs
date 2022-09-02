@@ -56,4 +56,6 @@ For the cases when the project and scenarios are quite complex, you can __add ac
 [1]: /img/features/recorder/highlighting-menu/mouse-actions/fig1.png
 [2]: /img/features/recorder/highlighting-menu/mouse-actions/fig2.png
 [3]: /img/features/recorder/highlighting-menu/mouse-actions/fig3.png
-[4]: /img/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions/fig4.png
+[4]: /img/features/recorder/highlighting-menu/mouse-actions/fig4.png
+[5]: /img/features/recorder/highlighting-menu/mouse-actions/fig5.png
+

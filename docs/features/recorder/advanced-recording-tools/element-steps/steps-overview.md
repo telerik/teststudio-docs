@@ -26,13 +26,17 @@ Choose an element from the DOM Explorer, or use the highlighting menu to locate 
 
 ![Actions][3]
 
-The __Actions__ section gives you the option to add different type of actions for an element - mouse clicks and actions, scrolling and JavaScript events. The default click steps and scrolling options can be added also through the highlighting menu. 
+The __Actions__ section gives you the option to add different type of actions for an element - mouse clicks and actions, scrolling and JavaScript events. 
 
-- __<a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank">Mouse Actions</a>__ are invoked as if the real user was directly using the mouse. They range from different Left and Right mouse button actions with <a href="/features/recorder/advanced-recording-tools/element-steps/actions/adv-mouse-actions" target="_blank">specifying where to send the click</a>, to <a href="/features/recorder/highlighting-menu/mouse-actions" target="_blank">hover over</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">drag&drop actions</a> to cover all scenarios.
+> __Tip__
+> 
+> The default mouse click steps and scrolling options can be added directly through the <a href="/automated-tests/recording/hover-over-highlighting#options-in-the-highlighting-menu" target="_blank">highlighting menu</a>. 
+
+- __Mouse Actions__ are invoked as if the real user was directly using the mouse. They range from different Left and Right mouse button actions, for which you could <a href="/features/recorder/advanced-recording-tools/element-steps/actions/adv-mouse-actions" target="_blank">specifying where to send the click</a>, to <a href="/features/recorder/highlighting-menu/mouse-actions" target="_blank">hover over</a> and <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">drag&drop actions</a> to help covering all scenarios.
 
 - <a href="/features/recorder/highlighting-menu/scroll-actions" target="_blank">__Scroll Actions__</a> are used to ensure that the element is visible on the screen. You can scroll the element to three different positions - top, bottom and center of the page.
 
-- <a href="/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events" target="_blank">__JavaScript Events__</a> can be invoked against the highlighted element.
+- <a href="/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events" target="_blank">__JavaScript Events__</a> are used to manually invoke an event against the highlighted element.
 
 ## Verifications
 

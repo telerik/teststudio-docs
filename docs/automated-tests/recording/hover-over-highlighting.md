@@ -49,13 +49,13 @@ The __Elements Menu__ provides access to various actions and functions apart fro
 
 ## Quick Steps
 
-__Quick Steps__ sub-menu provides a list of tasks, which can be performed against the highlighted element - these are context sensitive and will be different depending on the target element. There are few options listed to add a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">__quick verification__</a>, a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">__wait step__</a> or <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/extraction" target="_blank">__to extract any of the element's attributes__</a>, based on its specifics.
+__Quick Steps__ sub-menu provides a list of tasks, which can be performed against the highlighted element - these are context sensitive and are different depending on the target element. There are few options listed to add a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">__quick verification__</a>, a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">__wait step__</a> or <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/extraction" target="_blank">__to extract any of the element's attributes__</a>, based on its specifics.
 
 ![Quick Steps Sub-menu](/img/automated-tests/recording/highlighting/fig4.png)
 
 ## Mouse Actions
 
-__Mouse Actions__ sub-menu provides quick access to different type of click steps like double-click, right mouse click, mouse key up or down, mouse hover over action, etc. The mouse click steps are getting __recorded with specific coordinates__ relevant to the target element, where the click will be sent. The default set is the element's absolute center, but you can choose to <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions#specific-location" target="_blank">change this in the Advanced Recording Tools actions section</a>.
+__Mouse Actions__ sub-menu provides <a href="/features/recorder/highlighting-menu/mouse-actions" target="_blank">quick access to different type of click steps</a> like double-click, right mouse click, mouse key up or down, mouse hover over action, etc. Mouse click steps get __recorded with default coordinates__ to target the absolute center of element. If you need to specify the coordinates for a click action you can use the <a href="/features/recorder/advanced-recording-tools/element-steps/actions/adv-mouse-actions#specify-the-click-location" target="_blank">advanced mouse click actions</a> and modify these.  
 
 ![Mouse Actions Sub-menu](/img/automated-tests/recording/highlighting/fig5.png)
 
@@ -66,14 +66,14 @@ __Mouse Actions__ sub-menu provides quick access to different type of click step
 
 ## Scroll Actions
 
-In certain occasions you may need to scroll the page and change the visible part of it. The __Scroll Actions__ sub-menu gives the options to choose an element on application screen and scroll it to the top, bottom or center of the page.
+In certain occasions you may need to scroll the page and change the visible part of it. The <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">__Scroll Actions__ sub-menu</a> gives the options to choose an element on application screen and scroll it to the top, bottom or center of the page.
 
 ![Scroll Actions Sub-menu](/img/automated-tests/recording/highlighting/fig6.png)
 
 > **Note**
 > <br>
 > <br>
-> The __Quick Steps__, __Mouse Actions__ and __Scroll Actions__ options can be all accessed in the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Advanced Recording Tools</a>. There you can find also additional type of steps to add against a selected element.
+> The __Quick Steps__, __Mouse Actions__ and __Scroll Actions__ options can be all accessed in the <a href="/features/recorder/highlighting-menu/scroll-actions" target="_blank">Advanced Recording Tools</a>. There you can find also additional type of steps to add against a selected element.
 
 ## Add to Elements
 
