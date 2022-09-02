@@ -14,7 +14,7 @@ Find out more about the available verifications in Test Studio.
 
 1.&nbsp; Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/teststudio" target="_blank">Telerik Test Studio official page</a>.
 
-2.&nbsp; This sample scenario clicks on the __Download Free Trial__ button and enables highlighting on the next page. Hold the mouse over the title to highlight the element and choose the option to <a href="/automated-tests/recording/hover-over-highlighting#build-step" target="_blank">Build Step...</a>. Open the **Verifications** section under the Elements Steps tab
+2.&nbsp; This sample scenario clicks on the __Download Free Trial__ button and enables highlighting on the next page. Hold the mouse over the title to highlight the element and choose the option to <a href="/features/recorder/highlighting-menu/element-options#build-step" target="_blank">Build Step...</a>. Open the **Verifications** section under the Elements Steps tab
 
 ![Verifications section in Elements Steps][2]
 

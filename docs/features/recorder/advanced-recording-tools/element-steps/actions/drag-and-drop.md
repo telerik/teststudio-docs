@@ -22,7 +22,7 @@ For the purposes of this demonstration we use the <a href="/features/recorder/ad
 
 1.&nbsp; Create a test and start a recording session. Navigate to the mentioned demo page with the TreeView component. 
 
-2.&nbsp; Enable the highlighting and choose an element to drag. Highlight that element and choose the elements menu option to <a href="/automated-tests/recording/hover-over-highlighting#build-step" target="_blank">Build Step...</a>.
+2.&nbsp; Enable the highlighting and choose an element to drag. Highlight that element and choose the elements menu option to <a href="/features/recorder/highlighting-menu/element-options#build-step" target="_blank">Build Step...</a>.
 
 3.&nbsp; The __Advanced Recording Tools__ window gets opened directly on its __Element Steps__ tab with that element selected in the DOM. Switch to the _Actions_ section and choose the __DragDrop__ action.
 

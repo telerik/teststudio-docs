@@ -66,14 +66,14 @@ __Mouse Actions__ sub-menu provides <a href="/features/recorder/highlighting-men
 
 ## Scroll Actions
 
-In certain occasions you may need to scroll the page and change the visible part of it. The <a href="/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop" target="_blank">__Scroll Actions__ sub-menu</a> gives the options to choose an element on application screen and scroll it to the top, bottom or center of the page.
+In certain occasions you may need to scroll the page and change the visible part of it. The <a href="/features/recorder/highlighting-menu/scroll-actions" target="_blank">__Scroll Actions__ sub-menu</a> gives the options to choose an element on application screen and scroll it to the top, bottom or center of the page.
 
 ![Scroll Actions Sub-menu](/img/automated-tests/recording/highlighting/fig6.png)
 
 > **Note**
 > <br>
 > <br>
-> The __Quick Steps__, __Mouse Actions__ and __Scroll Actions__ options can be all accessed in the <a href="/features/recorder/highlighting-menu/scroll-actions" target="_blank">Advanced Recording Tools</a>. There you can find also additional type of steps to add against a selected element.
+> The __<a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Element Steps</a> tab in the Advanced Recording Tools__ provides the full set of steps available for the selected element. 
 
 ## Add to Elements
 

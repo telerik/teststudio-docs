@@ -9,8 +9,6 @@ position: 0
 The __Advanced Recording Tools__ window allows you to build various steps specific for a given element. You can manually select an element from the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer tab</a> or use the <a href="/features/recorder/highlighting-menu/element-options" target="_blank">highlighting menu to bring up the step options for an element</a>.
 
 Find out more about adding element steps below.
- 
-- []()
 
 ## Choose an Element to Build Step
 

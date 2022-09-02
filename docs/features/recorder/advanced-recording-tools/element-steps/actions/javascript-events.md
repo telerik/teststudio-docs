@@ -20,7 +20,7 @@ JavaScript events are often used instead of simulating real user behavior.Find o
 > 
 > The recommended approach to automate opening the __All Products__ list is to use the _Mouse HoverOver Step_. But you can also use the __JS events__ related to that element and trigger the action through the JavaScript. 
 
-3.&nbsp; Highlight the element and choose the option to <a href="/automated-tests/recording/hover-over-highlighting#build-step" target="_blank">Build Step...</a>.
+3.&nbsp; Highlight the element and choose the option to <a href="/features/recorder/highlighting-menu/element-options#build-step" target="_blank">Build Step...</a>.
 
 4.&nbsp; The __Advanced Recording Tools__ window gets opened directly on its __Element Steps__ tab with that element selected in the DOM. Switch to the _Actions_ section and choose the __JavaScript Events__ dropdown. Choose the JavaScript event and click the **Add Step** button to inser the step into test. 
 
