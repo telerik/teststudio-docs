@@ -8,21 +8,12 @@ position: 1
 
 Test Studio recording feature supports various desktop applications. Once a desktop test is configured for specific application you can start recording the automation scenarios.
 
-> **Disclaimer**
-> <br>
-> <br>
-> The Desktop test feature is officially __released with Test Studio R2 2022 (v.2022.2.727) in Beta__ stage. It supports basic recording features including highlighting and partial test execution, elements repository represented in the Elements Explorer and editing the recorded elements.
-
 This article guides you through the specifics of recording steps in a desktop test.
 
 - [Ready State for Desktop Recording](#recording-ready-state)
 - [Highlighting Menu](#highlighting-menu)
 - [Elements in Desktop Tests](#elements-in-desktop-tests)
 
-> **Tip**
-> <br>
-> <br>
-> Check <a href="https://www.telerik.com/videos/teststudio/desktop-testing-video-tutorial" target="_blank">this video tutorial for recording an end-to-end Desktop test scenario</a>.
 
 ## Recording Ready State
 
@@ -34,13 +25,24 @@ If you hold the mouse on an element for a while there is another gray label stat
 
 ![Ready to record](/img/automated-tests/desktop-testing/recording-specifics/fig2.png)
 
-## Highlighting Menu
+> **Tip**
+> <br>
+> <br>
+> Check <a href="https://www.telerik.com/videos/teststudio/desktop-testing-video-tutorial" target="_blank">this video tutorial for recording an end-to-end Desktop test scenario</a>.
 
-<a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Highlighting</a> can be enabled from the Compact Recording Toolbar. The highlighting menu appears after you hold the mouse shortly over an element and allows you to add basic verification and action steps, as well as adding the hovered element into the Elements repository.
+## Highlighting Menu in Desktop Recording
+
+Highlighting is enabled from the <a href="/features/recorder/compact-recording-toolbar#enable-hover-over-highlighting" target="_blank">Compact Recording Toolbar</a>. The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">highlighting menu</a> appears after you hold the mouse shortly over an element and allows you to add basic <a href="/features/recorder/highlighting-menu/quick-steps/quick-verification" target="_blank">verification</a> and <a href="/features/recorder/highlighting-menu/mouse-actions" target="_blank">action steps</a>.
 
 ![Highlighting menu options](/img/automated-tests/desktop-testing/recording-specifics/fig3.png)
 
-Some of the options in the menu remain grayed out until the desktop testing feature is in Beta state.
+The highlighting menu lists <a href="/features/recorder/highlighting-menu/element-options" target="_blank">dditional options related to the highlighted element</a.> 
+
+- To add the target element to the Elements Explorer;
+- Select the target element in the DOM Explorer in the Advanced Recording tools; 
+- Select the target element in the DOM Explorer and expose the options for adding steps for it. 
+
+![Highlighting menu options](/img/automated-tests/desktop-testing/recording-specifics/fig3a.png)
 
 ### Close the Highlighting Menu
 
@@ -48,15 +50,31 @@ There is an additional option in the highlighting menu for desktop applications 
 
 ![Close Highlighting menu](/img/automated-tests/desktop-testing/recording-specifics/fig4.png)
 
-## Elements in Desktop Tests
+## Advanced Recording Tools in Desktop Recording
+
+The __Advanced Recording Tools__ window provides all its functionalities in a recording session for desktop application - the <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">DOM Explorer</a> tab, the <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">Elements Steps</a> and <a href="/features/recorder/advanced-recording-tools/common-steps" target="_blank">Common Steps</a> tabs. 
+
+![Advanced Recording Tools in Desktop app](/img/automated-tests/desktop-testing/recording-specifics/fig40.png)
+
+## Elements in Desktop Recording
 
 The elements recorded in desktop applications have their own _TechnologyType_, which is called __Desktop__.
 
 ![Elements technology type](/img/automated-tests/desktop-testing/recording-specifics/fig5.png)
 
-Elements are added with automatically generated find expression based on their attributes in the application elements tree. If you open an element in <a href="/automated-tests/elements/find-element#options-in-element-pane-with-active-recording-session" target="_blank">_Edit mode_ in a live recording session</a> you can see the list of its attributes, which can be used in the find expression.
+Test Studio automatically generates find expressions for the elements from the tested desktop application. It uses the <a href="/features/project-settings/find-logic#find-logic-for-desktop-elements" target="_blank">__Smart Find Logic setting for desktop elements__</a> to choose which attribute to use in generating the elements expressions. 
+
+> __Tip__
+></br>
+> The default set attribute for generating find expressions is 'ControlTypeName'. Depending on the tested desktop app specifics, you can choose to create elements using xPath or ClassName by <a href="/features/project-settings/find-logic#find-logic-for-desktop-elements" target="_blank">__changing the Smart Find Logic settings on project level__</a>.
+
+Open an element in <a href="/automated-tests/elements/find-element#options-in-element-pane-with-active-recording-session" target="_blank">_Edit mode_ in a live recording session</a> to see the list of its attributes, which can be used in the find expression.
 
 ![Elements edit mode](/img/automated-tests/desktop-testing/recording-specifics/fig6.png)
+
+> __Tip__
+></br>
+> You can maintain the desktop elements also without active recording session although there will be no list of element properties. All <a href="/features/custom-steps/overview" target="_blank">options for adding steps offline through the __Step Builder__</a> are applicable. 
 
 ## See Also:
 

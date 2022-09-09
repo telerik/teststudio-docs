@@ -6,12 +6,7 @@ position: 1
 ---
 # Dekstop Tests in Test Studio (Beta)
 
-Test Studio recording feature supports various desktop applications. To be able to initiate recording session against specific application, you need to list its executable in the desktop test.
-
-> **Disclaimer**
-> <br>
-> <br>
-> The Desktop test feature is officially __released with Test Studio R2 2022 (v.2022.2.727) in Beta__ stage. It supports basic recording features including highlighting and partial test execution, elements repository represented in the Elements Explorer and editing the recorded elements.
+Test Studio recording feature supports various desktop applications. To be able to initiate recording session against specific application, you need to define which is this in the desktop test.
 
 This article guides you through the desktop test configuration process.
 
@@ -26,7 +21,7 @@ This article guides you through the desktop test configuration process.
 
 ## Configure Desktop Test to Record Specific Application
 
-The __configuration of the desktop test requires an executable file of a valid desktop app to be specified__ and, thus, used for recording and execution. Open a Desktop test in Test Studio and find the __Configure__ button in the __Test__ tools ribbon. Click the __Configure__ button to open the __Desktop App Config Wizard__.
+The __configuration of the desktop test requires a desktop app to be specified__ and, thus, used for recording and execution. Open a Desktop test in Test Studio and find the __Configure__ button in the __Test__ tools ribbon. Click the __Configure__ button to open the __Desktop App Config Wizard__.
 
 ![Configure button](/img/automated-tests/desktop-testing/desktop-test/fig1.png)
 
@@ -37,11 +32,11 @@ The __configuration of the desktop test requires an executable file of a valid d
 
 ## Choose the Desktop Application to Automate
 
-Test Studio provides two options to define the application to automate - you can specify an executable file for this test, or use a default path set on project level.
+Test Studio provides few options to define the application to automate - you can [specify an executable file](#configure-specific-app-in-desktop-test) for this test, [use a default path](#use-default-desktop-application-path) to the executable file set on project level, or [specify an Application User Model ID](). 
 
 ![Config Desktop app wizard](/img/automated-tests/desktop-testing/desktop-test/fig2.png)
 
-### Configure Specific App in Desktop Test
+### Configure Application Path in Desktop Test
 
 Choose the __Browse__ button to open File Explorer and browse to the folder where the executable file is and select it.
 
@@ -56,6 +51,16 @@ The __Desktop Application Path__ field also allows you to use environment tokens
 The automation process requires multiple tests to be created for a single application. In such case configuring each created test will be a tedious task. Therefore Test Studio allows you to __set a default desktop app path on project level__ and use this for all desktop tests. The option is available in <a href="/features/project-settings/general" target="_blank">Project Settings -> General</a> and once a __Default Desktop App is set__ each new Desktop test in the project is created directly configured to use it.
 
 ![Use default path](/img/automated-tests/desktop-testing/desktop-test/fig5.png)
+
+### Configure Application User Model ID 
+
+Modern desktop applications are not always started with an executable file. Example of such apps are all applications from the Windows store, UWP or Maui-based apps. To enable this type of automation Test Studio Desktop tests support configuring a test using the <a href="https://docs.microsoft.com/en-us/windows/win32/shell/appids" target="_blank">Application User Model ID</a>. 
+
+![Configure Application user model ID](/img/automated-tests/desktop-testing/desktop-test/fig6.png)
+
+>__Tip__
+></br>
+> Not sure what is the Applications ID for the tested app? Follow few simple steps to find the User Model Id and use it in the Test Studio desktop test configuration. 
 
 ## Finish Desktop Test Configuration
 

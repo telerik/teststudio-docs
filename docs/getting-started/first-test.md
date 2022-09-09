@@ -42,8 +42,8 @@ You can use the links below to find out more detailed information on all test ty
 
 * <a href="/general-information/test-recording/overview" target="_blank">__Web Test__</a>
 * <a href="/features/testing-types/wpf-test" target="_blank">__WPF Test__</a>
-* <a href="/automated-tests/desktop-testing/desktop-test" target="_blank">__Desktop Test__</a>
 * <a href="/features/testing-types/responsive-test" target="_blank">__Responsive Web Test__</a>
+* <a href="/automated-tests/desktop-testing/desktop-test" target="_blank">__Desktop Test__</a>
 * <a href="/features/testing-types/load-testing/Overview" target="_blank">__Load Test__</a>
 * <a href="/features/testing-types/performance-testing/overview" target="_blank">__Performance Test__</a>
 * <a href="/features/testing-types/manual-testing/overview" target="_blank">__Manual Test__</a>
