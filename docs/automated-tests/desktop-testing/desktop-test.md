@@ -1,10 +1,10 @@
 ---
 title: Desktop Tests
 page_title: Configure Desktop Test
-description: "Testing a desktop app with Test Studio. Configure Dekstop Test (Standalone) in Test Studio for automating dekstop application. Create a Dekstop test in Test Studio and record an automated scenario for desktop app. "
+description: "Testing a desktop app with Test Studio. Configure Desktop Test (Standalone) in Test Studio for automating desktop application. Create a Desktop test in Test Studio and record an automated scenario for desktop app. "
 position: 1
 ---
-# Dekstop Tests in Test Studio (Beta)
+# Desktop Tests in Test Studio
 
 Test Studio recording feature supports various desktop applications. To be able to initiate recording session against specific application, you need to define which is this in the desktop test.
 
@@ -32,7 +32,7 @@ The __configuration of the desktop test requires a desktop app to be specified__
 
 ## Choose the Desktop Application to Automate
 
-Test Studio provides few options to define the application to automate - you can [specify an executable file](#configure-specific-app-in-desktop-test) for this test, [use a default path](#use-default-desktop-application-path) to the executable file set on project level, or [specify an Application User Model ID](). 
+Test Studio provides few options to define the application to automate - you can [specify an executable file](#configure-application-path-in-desktop-test) for this test, [use a default path](#use-default-desktop-application-path) to the executable file set on project level, or [specify an Application User Model ID](#configure-application-user-model-id). 
 
 ![Config Desktop app wizard](/img/automated-tests/desktop-testing/desktop-test/fig2.png)
 
@@ -59,8 +59,9 @@ Modern desktop applications are not always started with an executable file. Exam
 ![Configure Application user model ID](/img/automated-tests/desktop-testing/desktop-test/fig6.png)
 
 >__Tip__
-></br>
-> Not sure what is the Applications ID for the tested app? Follow few simple steps to find the User Model Id and use it in the Test Studio desktop test configuration. 
+><br>
+><br>
+> __Not sure what is the Applications ID for the tested app?__ Follow <a href="/automated-tests/desktop-testing/desktop-app-user-model-id" target="_blank">few simple steps to find the User Model Id</a> and use it in the Test Studio desktop test configuration. 
 
 ## Finish Desktop Test Configuration
 

@@ -4,14 +4,15 @@ page_title: Recording Desktop Test
 description: "Testing a desktop app with Test Studio. Specifics in recording desktop application scenarios in Test Studio. Record an automated scenario for desktop app in Test Studio. "
 position: 1
 ---
-# Recording Specifics for Dekstop Tests in Test Studio
+# Recording Specifics for Desktop Tests in Test Studio
 
 Test Studio recording feature supports various desktop applications. Once a desktop test is configured for specific application you can start recording the automation scenarios.
 
 This article guides you through the specifics of recording steps in a desktop test.
 
 - [Ready State for Desktop Recording](#recording-ready-state)
-- [Highlighting Menu](#highlighting-menu)
+- [Highlighting Menu](#highlighting-menu-in-desktop-recording)
+- [Advanced Recording Tools](#advanced-recording-tools-in-desktop-recording)
 - [Elements in Desktop Tests](#elements-in-desktop-tests)
 
 
@@ -36,7 +37,7 @@ Highlighting is enabled from the <a href="/features/recorder/compact-recording-t
 
 ![Highlighting menu options](/img/automated-tests/desktop-testing/recording-specifics/fig3.png)
 
-The highlighting menu lists <a href="/features/recorder/highlighting-menu/element-options" target="_blank">dditional options related to the highlighted element</a.> 
+The highlighting menu lists <a href="/features/recorder/highlighting-menu/element-options" target="_blank">additional options related to the highlighted element</a.> 
 
 - To add the target element to the Elements Explorer;
 - Select the target element in the DOM Explorer in the Advanced Recording tools; 
@@ -56,7 +57,7 @@ The __Advanced Recording Tools__ window provides all its functionalities in a re
 
 ![Advanced Recording Tools in Desktop app](/img/automated-tests/desktop-testing/recording-specifics/fig40.png)
 
-## Elements in Desktop Recording
+## Elements in Desktop Tests
 
 The elements recorded in desktop applications have their own _TechnologyType_, which is called __Desktop__.
 
@@ -65,7 +66,8 @@ The elements recorded in desktop applications have their own _TechnologyType_, w
 Test Studio automatically generates find expressions for the elements from the tested desktop application. It uses the <a href="/features/project-settings/find-logic#find-logic-for-desktop-elements" target="_blank">__Smart Find Logic setting for desktop elements__</a> to choose which attribute to use in generating the elements expressions. 
 
 > __Tip__
-></br>
+><br>
+><br>
 > The default set attribute for generating find expressions is 'ControlTypeName'. Depending on the tested desktop app specifics, you can choose to create elements using xPath or ClassName by <a href="/features/project-settings/find-logic#find-logic-for-desktop-elements" target="_blank">__changing the Smart Find Logic settings on project level__</a>.
 
 Open an element in <a href="/automated-tests/elements/find-element#options-in-element-pane-with-active-recording-session" target="_blank">_Edit mode_ in a live recording session</a> to see the list of its attributes, which can be used in the find expression.
@@ -73,7 +75,8 @@ Open an element in <a href="/automated-tests/elements/find-element#options-in-el
 ![Elements edit mode](/img/automated-tests/desktop-testing/recording-specifics/fig6.png)
 
 > __Tip__
-></br>
+><br>
+><br>
 > You can maintain the desktop elements also without active recording session although there will be no list of element properties. All <a href="/features/custom-steps/overview" target="_blank">options for adding steps offline through the __Step Builder__</a> are applicable. 
 
 ## See Also:
