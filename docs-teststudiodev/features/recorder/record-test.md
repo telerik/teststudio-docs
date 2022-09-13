@@ -35,6 +35,10 @@ In the dialog that pops up enter the URL to record against and select the record
 
 The _Recent URLs_ section lists the recently used URLs and you can choose a page directly from the list.
 
+> __Note__ 
+> <br>
+> Once a recording session is started __do not start another instance of the same browser__ until the session is finished!
+
 When you hit the __Record__ button, the selected browser starts and navigates to the URL. Once the page loads the <a href="/features/recorder/recording-toolbar" target="_blank">Test Studio Dev Recorder Toolbar</a> gets attached to the browser and you can start performing the steps of the automation scenario. Each action against the page is automatically recorded and presented by a single step in the test.
 
 ![Recorded Steps](images/quickstart/recorded-steps.png)
@@ -42,8 +46,6 @@ When you hit the __Record__ button, the selected browser starts and navigates to
 > __Tip__ 
 > <br>
 > To stop the recording session close the browser.
-
-> Once a recording session is started __do not start another instance of the same browser__ until the session is finished!
 
 ## Record a WPF Test
 
