@@ -65,8 +65,10 @@ Once the browser/application is launched the <a href="/features/recorder/recordi
 
 __See also:__
 
-* <a href="/features/recorder/record-test#Record-a-Web-Test" target="_blank">How to record a web test step by step</a>
+* <a href="/features/recorder/record-test#Record-a-Web-Test" target="_blank">How to record a Web test step by step</a>
 * <a href="/features/recorder/record-test#Record-a-WPF-Test" target="_blank">How to record a WPF test step by step</a>
+* <a href="/features/recorder/record-test#Record-a-desktop-Test" target="_blank">How to record a Desktop test step by step</a>
+
 
 ## Elements Explorer
 

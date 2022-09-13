@@ -19,4 +19,16 @@ You can **add** your custom tags to the find logic list and **reorder** the attr
 > <br>
 > The list of attributes is applicable for __Html elements__ only.
 
+## Find Logic for Desktop Elements 
+
+Test Studio generates find expressions automatically for desktop elements based on the property set in the __Smart Find Logic__. 
+
+![Desktop smart find Logic][2]
+
+The default set value is __ControlTypeName__. You can choose to change it to __xPath__ or __ClassName__. 
+
+![Desktop smart find Logic options][3]
+
 [1]: images/find-logic/fig1.png
+[2]: images/find-logic/fig2.png
+[3]: images/find-logic/fig3.png

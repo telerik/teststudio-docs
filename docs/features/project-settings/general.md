@@ -16,7 +16,11 @@ By default, screenshots are automatically added to the Storyboard Tab. When this
 
 ## WPF
 
-Represents the default application path for WPF tests. Once set, each test will use this path for recording and execution, unless Use default path is unchecked in the <a href="/getting-started/create-test-standalone/wpf-test" target="_blank">WPF test configuration dialog</a>.
+Represents the default application path for WPF tests. Once set, each WPF test will use this path for recording and execution, unless Use default path is unchecked in the <a href="/getting-started/create-test-standalone/wpf-test" target="_blank">WPF test configuration dialog</a>.
+
+## Desktop
+
+Represents the default application path for Desktop tests. Once set, each desktop test will use this path for recording and execution in the <a href="/automated-tests/desktop-testing/desktop-test#use-default-desktop-application-path" target="_blank">Desktop test configuration dialog</a>.
 
 ## Connection settings
 

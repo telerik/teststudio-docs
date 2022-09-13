@@ -18,7 +18,7 @@ This article guides you through the specifics of recording steps in a desktop te
 
 ## Recording Ready State
 
-The recording in Test Studio desktop test is relatively slower than recording web or WPF tests. This is because of the underlaying technology and its capabilities. To help in improving the user experience Test Studio recorder indicates if an action is sent too early and it cannot be fetched correctly with a red label stating __'Not ready to record'__.
+The recording of desktop tests can sometimes be relatively slower than recording web or WPF tests. To make sure that all actions are recorded properly and help you build robust tests Test Studio's recorder encompass a mechanism for element state detection. When an action is sent too early before the element is ready for automation, the recorder indicates this with a red label stating __'Not ready to record'__.
 
 ![Not ready to record](/img/automated-tests/desktop-testing/recording-specifics/fig1.png)
 
@@ -45,9 +45,7 @@ The highlighting menu lists <a href="/features/recorder/highlighting-menu/elemen
 
 ![Highlighting menu options](/img/automated-tests/desktop-testing/recording-specifics/fig3a.png)
 
-### Close the Highlighting Menu
-
-There is an additional option in the highlighting menu for desktop applications - __Close Menu__. This is introduced as the menu remains opened if no step is added through this.
+The highlighting menu in desktop applications may remain opened over part of the application you want to interact with. In such cases you can use the __Close Menu__ option to hide it. 
 
 ![Close Highlighting menu](/img/automated-tests/desktop-testing/recording-specifics/fig4.png)
 
