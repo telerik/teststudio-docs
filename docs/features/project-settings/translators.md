@@ -593,7 +593,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideRow('hidden_row6');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
         </tr>
         <tr id="hidden_row6" class="hidden_row">
             <td colspan=4>
