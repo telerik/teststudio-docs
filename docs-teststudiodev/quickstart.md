@@ -123,10 +123,6 @@ An instance of the selected browser will start and all recorded actions in test 
 
 Find further details for the <a href="/features/test-execution/vs-test-explorer" target="_blank">Test Explorer execution</a>.
 
-### Executing Tests in CI Environment
-
-Include a short summary and links to the respective articles.
-
 ## Test Results
 
 Each test run generates test results.
