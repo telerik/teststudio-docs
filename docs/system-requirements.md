@@ -132,12 +132,12 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
         </colgroup>
     <thead>
         <tr>
-			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">Windows Desktop Application Support<td>
+			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">Windows Desktop Applications Support<td>
 		</tr>
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">All types Windows desktop applications which support Microsoft UI Automation framework, including application which contain custom controls that provide the required automation peers.</td>
+            <td colspan="4">All Windows desktop applications supporting the Microsoft UI Automation framework, including applications containing custom controls that provide the required automation peers.</td>
         </tr>
     </tbody>
 </table>
