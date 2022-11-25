@@ -17,18 +17,41 @@ After installing Test Studio Dev, you will be asked to activate your license. Du
 {% include cta-panel-teststudio-overview.html %}
 {% endif %}
 
-<br>
-Start your Visual Studio and you will be prompted to login to activate the installation. Input the email address and password that correspond to your <a href="https://www.telerik.com/account" target="_blank">Telerik.com account</a>.
+## Activate Test Studio Dev License 
+
+Start your Visual Studio and you get prompted from the __Test Studio Activation wizard__. Once you login with your Telerik.com account you can activate your license. 
+
+![Login to activate](images/installation/activation-wizard.png)
+
+### Login with Your Telerik Account
+
+You can enter the Telerik account credentials directly in the __Activation wizard__ and use the __Login__ button to login. 
 
 ![Login to activate](images/installation/activate-ts-dev.png)
 
-Select the Test Studio Dev license and click __'Activate Selected License'__. 
+Choose the __SSO Login__ button to authenticate in a browser.
+
+![SSO Login button](/img/prerequisites/license-activation/activating/sso-button.png)
+
+The default set browser opens up and redirects you to the Telerik account login page - follow the on-screen instructions to enter your Telerik username and password and login. 
+
+![Browser Login](/img/prerequisites/license-activation/activating/browser-login.png)
+
+If you are already logged in to the Telerik.com page in the same browser, the authentication gets checked and you can proceed with choosing the version to activate.
+
+### Choose License
+
+Select the DevCraft license and click __'Activate Selected License'__. 
 
 ![Activate Licence](images/installation/choose-license.png)
 
 ## Manual Activation
 
-The following steps demonstrate how to manually activate Test Studio on a machine without an internet connection. Please note that while the machine that will run Test Studio is not connected to the internet, you will need access to the internet and our website to complete this process.
+The following steps demonstrate how to manually activate Test Studio on a machine without Internet connection. 
+
+> __Note__ 
+> 
+> While the machine that runs Test Studio may not be connected to the Internet, you need access on another device to the Internet and our website to complete the activation process.
 
 1.Select __Activate Manually__.
 
