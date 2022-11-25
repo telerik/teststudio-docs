@@ -80,6 +80,6 @@ To be able to use that license seat again, you need to deactivate this license m
 
 ### Connection Error
 
-If you perform the activation process as described, but you receive an error related to the connection, you will need to activate the Test Studio license manually. You can proceed to the _'Activate Manually'_ button and follow the <a href="manual-activation" target="_blank">Manual Activation</a> help article.
+If you perform the activation process as described, but get an error related to the connection, you can try to activate the Test Studio license manually. You can proceed to the __Activate Manually__ button and follow the steps in the <a href="manual-activation" target="_blank">Manual Activation</a> help article.
 
-![Couldn't log](/img/general-information/installation/activating-your-license/fig5.png)
+

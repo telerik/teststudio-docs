@@ -31,11 +31,11 @@ You can enter the Telerik account credentials directly in the __Activation wizar
 
 Choose the __SSO Login__ button to authenticate in a browser.
 
-![SSO Login button](/img/prerequisites/license-activation/activating/sso-button.png)
+![SSO Login button](images/installation/sso-button.png)
 
 The default set browser opens up and redirects you to the Telerik account login page - follow the on-screen instructions to enter your Telerik username and password and login. 
 
-![Browser Login](/img/prerequisites/license-activation/activating/browser-login.png)
+![Browser Login](images/installation/browser-login.png)
 
 If you are already logged in to the Telerik.com page in the same browser, the authentication gets checked and you can proceed with choosing the version to activate.
 
