@@ -69,7 +69,7 @@ The following steps demonstrate how to manually activate Test Studio on a machin
 
 ![Select Product](images/installation/fig5.png)
 
-> There are reserved words that cannot be used for Machine key, Machine name and Friendley name. The words are **telerik**, **admin**, **administrator**, **sitefinity**, **icenium**, **kendo**, **kendoui** and **moderator**. 
+> There are reserved words that cannot be used for Machine key, Machine name and Friendly name. The words are **telerik**, **admin**, **administrator**, **sitefinity**, **icenium**, **kendo**, **kendoui** and **moderator**. 
 
 5.A confirmation appears that the Key was successfully created. Locate the key and click __View key__.
 
