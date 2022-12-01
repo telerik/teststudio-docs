@@ -65,17 +65,15 @@ If a browser is not yet configured the button allows you to calibrate it.
 
 ## Enable Chrome and Edge Chromium for Automation
 
-In __Test Studio Dev release 2022 R2__ (v.2022.2.xx) you can choose how to record and execute tests with Chrome and Edge Chromium browsers. In this version both can be enabled for automation with or without the Progress Test Studio Extension. The setting how these browsers will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
+Once Chrome and Edge Chromium browsers are calibrated you can continue with recording and executing the automated tests. 
 
 ### Enable Chrome amd Edge Chromium for Automation with Extension
 
-By default each Test Studio Dev project is set to use Chrome with the extension. So, if this is the option you want to use, you need to install in each browser the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store (Edge suppports adding extensions from the Chrome store).
+By default Test Studio Dev projects are set to use Chrome and Edge Chromium without extension. Along with that, there is the option to run these two browsers automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome store).
 
-### Enable Chrome and Edge Chromium for Automation without Extension
+If you choose to use Chrome for recording and execution with the extension, you need to __change a setting in the Test Studio Dev project__. The <a href="/features/project-settings/overview" target="_blank">project setting is listed under the __Browsers__ tab</a> and is named __Use browser extension(Chrome/Edge Chromium)__. This option is disabled by default, but you can __check the checkbox__ to set Test Studio Dev to __start the Chrome/Edge Chromium browser for this project with the extensions__.
 
-If you choose to use Chrome and Edge Chromium for recording and execution without additional extension, you need to __change a setting__ in the Test Studio project. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). Uncheck the checkbox and Test Studio Dev will __start the Chrome browser for this project without using the extensions__ even if this is installed.
-
-![Disable UseBrowserExtension](images/browser-config/disable-extension.png)
+![Enable UseBrowserExtension](images/browser-config/disable-extension.png)
 
 ## Enable Firefox for Automation
 
