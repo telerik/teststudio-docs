@@ -63,11 +63,11 @@ If a browser is not yet configured the button allows you to calibrate it.
 > <br>
 > You can check all settings applied from the calibration in the <a href="#manual-settings-to-configure-a-browser">Manual Configuration</a> section below (click the + sign to expand it).
 
-## Enable Chrome and Edge Chromium for Automation
+## Enable Chrome and Edge Chromium for Automation 
 
 Once Chrome and Edge Chromium browsers are __calibrated you can continue with recording and executing__ the automated tests. 
 
-### Enable Chrome amd Edge Chromium for Automation with Extension
+### Enable Chrome and Edge Chromium for Automation with Extension (Optional)
 
 By default Test Studio Dev projects are __set to use Chrome and Edge Chromium without extension__. Along with that, there is the option to run these two browsers automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome store).
 
