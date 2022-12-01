@@ -65,11 +65,11 @@ If a browser is not yet configured the button allows you to calibrate it.
 
 ## Enable Chrome and Edge Chromium for Automation
 
-Once Chrome and Edge Chromium browsers are calibrated you can continue with recording and executing the automated tests. 
+Once Chrome and Edge Chromium browsers are __calibrated you can continue with recording and executing__ the automated tests. 
 
 ### Enable Chrome amd Edge Chromium for Automation with Extension
 
-By default Test Studio Dev projects are set to use Chrome and Edge Chromium without extension. Along with that, there is the option to run these two browsers automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome store).
+By default Test Studio Dev projects are __set to use Chrome and Edge Chromium without extension__. Along with that, there is the option to run these two browsers automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome store).
 
 If you choose to use Chrome for recording and execution with the extension, you need to __change a setting in the Test Studio Dev project__. The <a href="/features/project-settings/overview" target="_blank">project setting is listed under the __Browsers__ tab</a> and is named __Use browser extension(Chrome/Edge Chromium)__. This option is disabled by default, but you can __check the checkbox__ to set Test Studio Dev to __start the Chrome/Edge Chromium browser for this project with the extensions__.
 

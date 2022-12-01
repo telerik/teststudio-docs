@@ -17,9 +17,9 @@ To ensure a flawless and consistent automation process, there is a list of brows
 
 ![Calibrate browser quick access](/img/automated-tests/test-execution/quick-run-browsers/fig2.png)
 
-## Using Extension for Edge Chromium Automation
+## Using Extension for Edge Chromium Automation (Optional)
 
-By default Test Studio projects are set to use Edge Chromium without extension. Along with that, there is the option to run Edge Chromium automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome web store). 
+By default Test Studio projects are __set to use Edge Chromium without extension__. Along with that, there is the option to run Edge Chromium automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome web store). 
 
 ### Enable Project for Edge Chromium Automation with Extension
 
