@@ -6,33 +6,62 @@ position: 2
 ---
 #Handling Alert Dialogs#
 
-With Alerts, you only need to define how the alert should be handled. Your options for alert handling are: DialogButton.OK or DialogButton.CLOSE.
+With Alerts, you only need to define how the alert should be handled. Your options for alert handling are: DialogButton.OK or DialogButton.CLOSE. Confirm and Prompt dialogs have the same structure and the Testing Framework uses the same built-in handler. 
 
 ```C#
-// Add an alert dialog to monitor
-Manager.DialogMonitor.AddDialog(new AlertDialog(ActiveBrowser, DialogButton.OK));
+// Define the Alert dialog
 
-// Given that there were not dialog attribute set, the manager will not start the monitoring.
-// You need to invoke the monitoring
+ArtOfTest.WebAii.Win32.Dialogs.AlertDialog alertDlg = new ArtOfTest.WebAii.Win32.Dialogs.AlertDialog(Activebrowser, DialogButton.OK); 
+
+// Add the defined alert dialog to the DialogMonitor 
+Manager.DialogMonitor.AddDialog(alertDlg));
+
+// Start the DialogMonitor
 Manager.DialogMonitor.Start();
 
-// Invoke an alert dialog
+// At this point when the dialog definition is added to the DialogMonitor 
+// and it is started you can insert the action, 
+// which triggers the alert/confirm/prompt dialog 
+
+// The current example uses JavaScript call to invoke an alert dialog. 
+// But you can use any sort of action which triggers the dialog in the tested page -
+// including click on element or type some text.
 Actions.InvokeScript("InvokeAlert()");
 
-// The dialog will now be automatically handled transparently in the background without any help from the test code.
+// The dialog gets automatically handled once it appears. 
+
+// Then you need to remove the handled dialog from the DialogMonitor and stop the monitoring 
+Manager.DialogMonitor.RemoveDialog(alertDlg);
+Manager.DialogMonitor.Stop();
+
+
 ```
 ```VB
-' Add an alert dialog to monitor
-Manager.DialogMonitor.AddDialog(New AlertDialog(ActiveBrowser, DialogButton.OK))
+' Define the Alert dialog
 
-' Given that there were not dialog attribute set, the manager will not start the monitoring.
-' You need to invoke the monitoring
+ArtOfTest.WebAii.Win32.Dialogs.AlertDialog alertDlg = New ArtOfTest.WebAii.Win32.Dialogs.AlertDialog(Activebrowser, DialogButton.OK)
+
+' Add the defined alert dialog to the DialogMonitor 
+Manager.DialogMonitor.AddDialog(alertDlg)
+
+' Start the DialogMonitor
 Manager.DialogMonitor.Start()
 
-' Invoke an alert dialog
+' At this point when the dialog definition is added to the DialogMonitor 
+' and it is started you can insert the action, 
+' which triggers the alert/confirm/prompt dialog 
+
+' The current example uses JavaScript call to invoke an alert dialog. 
+' But you can use any sort of action which triggers the dialog in the tested page -
+' including click on element or type some text.
 Actions.InvokeScript("InvokeAlert()")
 
-' The dialog will now be automatically handled transparently in the background without any help from the test code.
+' The dialog gets automatically handled once it appears. 
+
+' Then you need to remove the handled dialog from the DialogMonitor and stop the monitoring 
+Manager.DialogMonitor.RemoveDialog(alertDlg)
+Manager.DialogMonitor.Stop()
+
 ```
 
 
