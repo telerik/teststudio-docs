@@ -1,6 +1,6 @@
 ---
 title: Dialogs
-page_title: Dialogs | Test Studio Dev Documentation
+page_title: Dialogs - Test Studio Dev Documentation
 description: How Test Studio Dev handles browser or win32 dialogs.
 slug: features/dialogs
 position: 0

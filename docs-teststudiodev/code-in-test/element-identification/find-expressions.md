@@ -1,6 +1,6 @@
 ---
 title: Find Expressions
-page_title: Find Expressions | Test Studio Dev Documentation
+page_title: Find Expressions - Test Studio Dev Documentation
 description: Find Expressions
 position: 1
 ---

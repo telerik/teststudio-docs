@@ -1,6 +1,6 @@
 ---
 title: Custom Steps Related to Browser State
-page_title: Custom Steps Related to Browser State | Test Studio Dev Documentation
+page_title: Custom Steps Related to Browser State - Test Studio Dev Documentation
 description: Custom steps which can change or affect the browser status. 
 slug: features/custom-steps/browser-related-custom-steps
 position: 4

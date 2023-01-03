@@ -1,6 +1,6 @@
 ---
 title: Activate License
-page_title: Activate License | Test Studio Dev Documentation
+page_title: Activate License - Test Studio Dev Documentation
 description: How to activate Test Studio Dev license
 slug: prerequisites/activate-license
 tags: isntallation

@@ -1,6 +1,6 @@
 ---
 title: Reorder Test Steps
-page_title: Reorder Test Steps | Test Studio Dev Documentation
+page_title: Reorder Test Steps - Test Studio Dev Documentation
 description: How to reorder steps in Test Studio Dev test
 position: 3
 ---

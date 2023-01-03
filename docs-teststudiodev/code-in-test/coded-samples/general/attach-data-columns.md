@@ -1,6 +1,6 @@
 ---
 title: Attach Data Columns
-page_title: Attach Data Columns | Test Studio Dev Documentation
+page_title: Attach Data Columns - Test Studio Dev Documentation
 description: Attach Data Columns
 position: 1
 ---

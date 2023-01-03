@@ -1,6 +1,6 @@
 ---
 title: Check for JS Errors
-page_title: Check for JS Errors | Test Studio Dev Documentation
+page_title: Check for JS Errors - Test Studio Dev Documentation
 description: Check if there are any JavaScript errors in the browser console. 
 slug: features/custom-steps/check-js-errors
 position: 6

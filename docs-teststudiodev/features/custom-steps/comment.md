@@ -1,6 +1,6 @@
 ---
 title: Comment Step
-page_title: Comment Step | Test Studio Dev Documentation
+page_title: Comment Step - Test Studio Dev Documentation
 description: Adds comment as a single step in a test. 
 slug: features/custom-steps/comment
 position: 6

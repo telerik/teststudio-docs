@@ -1,6 +1,6 @@
 ---
 title: HTML Actions
-page_title: HTML Actions | Test Studio Dev Documentation
+page_title: HTML Actions - Test Studio Dev Documentation
 description: HTML Actions 
 position: 2
 ---

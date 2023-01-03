@@ -1,6 +1,6 @@
 ---
 title: Advanced Verification
-page_title: Create Advanced Test Verifications | Test Studio Dev Documentation
+page_title: Create Advanced Test Verifications - Test Studio Dev Documentation
 description: How to create an advanced verification in Test Studio Dev
 slug: recorder/advanced-verification
 position: 2

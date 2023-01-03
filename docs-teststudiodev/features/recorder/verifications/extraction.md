@@ -1,6 +1,6 @@
 ---
 title: Create an Extraction Step
-page_title: Create an Extraction Step | Test Studio Dev Documentation
+page_title: Create an Extraction Step - Test Studio Dev Documentation
 description: Extraction steps allows you to use an element's value or attributes and reuse these in the test. 
 slug: recorder/extract-step
 position: 4

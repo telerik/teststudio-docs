@@ -1,6 +1,6 @@
 ---
 title: Search Test Steps
-page_title: Search Test Steps | Test Studio Dev Documentation
+page_title: Search Test Steps - Test Studio Dev Documentation
 description: How to search certain step in Test Studio Dev test
 position: 4
 ---

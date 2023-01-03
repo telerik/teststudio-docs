@@ -1,6 +1,6 @@
 ---
 title: Element Images
-page_title: Element Images | Test Studio Dev Documentation
+page_title: Element Images - Test Studio Dev Documentation
 description: "Settings to apply for the images recorded with the elements. Images used as backup search in Test Studio Dev." 
 position: 3
 ---

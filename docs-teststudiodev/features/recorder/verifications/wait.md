@@ -1,6 +1,6 @@
 ---
 title: Create a Wait Step
-page_title: Create a Wait Step | Test Studio Dev Documentation
+page_title: Create a Wait Step - Test Studio Dev Documentation
 description: How to create a wait step to pause the Test Studio Dev test execution until a certain condition is met. 
 slug: recorder/wait-step
 position: 3

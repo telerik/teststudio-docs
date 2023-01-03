@@ -1,6 +1,6 @@
 ---
 title: Loop
-page_title: Loop | Test Studio Dev Documentation
+page_title: Loop - Test Studio Dev Documentation
 description: How to build a loop with Test Studio Dev 
 slug: features/logical-steps/loop
 tags: loop, verification

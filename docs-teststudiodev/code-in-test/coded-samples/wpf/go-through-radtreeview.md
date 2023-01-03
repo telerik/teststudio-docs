@@ -1,6 +1,6 @@
 ---
 title: Go Through RadTreeView
-page_title: Go Through RadTreeView | Test Studio Dev Documentation
+page_title: Go Through RadTreeView - Test Studio Dev Documentation
 description: Go Through RadTreeView
 position: 3
 ---

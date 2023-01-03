@@ -1,6 +1,6 @@
 ---
 title: Quick Execute Results
-page_title: Quick Execute Results | Test Studio Dev Documentation
+page_title: Quick Execute Results - Test Studio Dev Documentation
 description: How do results of a data driven test look like and how to analyze them in Test Studio Dev
 position: 6
 ---

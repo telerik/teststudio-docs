@@ -1,6 +1,6 @@
 ---
 title: Merge Page Nodes
-page_title: Merge Page Nodes | Test Studio Dev Documentation
+page_title: Merge Page Nodes - Test Studio Dev Documentation
 description: How to merge page nodes in Test Studio Dev project
 position: 1
 ---

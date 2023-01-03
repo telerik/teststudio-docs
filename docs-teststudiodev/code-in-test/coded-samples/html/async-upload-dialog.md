@@ -1,6 +1,6 @@
 ---
 title: AsyncUpload Dialog
-page_title: AsyncUpload Dialog | Test Studio Dev Documentation
+page_title: AsyncUpload Dialog - Test Studio Dev Documentation
 description: AsyncUpload Dialog
 position: 1
 ---

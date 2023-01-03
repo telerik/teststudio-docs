@@ -1,6 +1,6 @@
 ---
 title: Fail the Test
-page_title: Fail the Test | Test Studio Dev Documentation
+page_title: Fail the Test - Test Studio Dev Documentation
 description: Fail the Test
 position: 1
 ---

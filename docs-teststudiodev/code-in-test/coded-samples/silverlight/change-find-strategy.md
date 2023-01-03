@@ -1,6 +1,6 @@
 ---
 title: Change Find Strategy
-page_title:  Change Find Strategy | Test Studio Dev Documentation
+page_title:  Change Find Strategy - Test Studio Dev Documentation
 description: Change Find Strategy
 position: 1
 ---

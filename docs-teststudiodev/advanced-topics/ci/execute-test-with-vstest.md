@@ -1,6 +1,6 @@
 ---
 title: Execute Test Studio Tests with VSTestConsole.exe
-page_title: Execute Test Studio Test with VSTestConsole.exe | Test Studio Dev Documentation
+page_title: Execute Test Studio Test with VSTestConsole.exe - Test Studio Dev Documentation
 description: Execute Test Studio Test with VSTestConsole.exe 
 position: 10
 ---

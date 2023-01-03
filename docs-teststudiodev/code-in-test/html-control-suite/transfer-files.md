@@ -1,6 +1,6 @@
 ---
 title: Transfer Files
-page_title: Transfer Files | Test Studio Dev Documentation
+page_title: Transfer Files - Test Studio Dev Documentation
 description: Transfer Files
 position: 2
 ---

@@ -1,6 +1,6 @@
 ---
 title: Execution Extensions
-page_title: Execution Extension | Test Studio Dev Documentation
+page_title: Execution Extension - Test Studio Dev Documentation
 description: Execution Extension
 position: 1
 ---

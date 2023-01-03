@@ -1,6 +1,6 @@
 ---
 title: Add a Data Source
-page_title: Add an External Data Source to your Test Project | Test Studio Dev Documentation
+page_title: Add an External Data Source to your Test Project - Test Studio Dev Documentation
 description: How to add an external file to be used for data driven testing with Test Studio Dev 
 position: 2
 ---

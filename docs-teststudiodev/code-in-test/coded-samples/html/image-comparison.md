@@ -1,6 +1,6 @@
 ---
 title: Image Comparison
-page_title: Image Comparison | Test Studio Dev Documentation
+page_title: Image Comparison - Test Studio Dev Documentation
 description: Image Comparison
 position: 1
 ---

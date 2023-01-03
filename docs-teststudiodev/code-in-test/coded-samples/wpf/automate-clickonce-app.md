@@ -1,6 +1,6 @@
 ---
 title: Automate ClickOnce App
-page_title: Automate ClickOnce App | Test Studio Dev Documentation
+page_title: Automate ClickOnce App - Test Studio Dev Documentation
 description: Automate ClickOnce App
 position: 5
 ---

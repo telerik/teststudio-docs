@@ -1,6 +1,6 @@
 ---
 title: Dialog Handler Updater
-page_title: Dialog Handler Updater | Test Studio Dev Documentation
+page_title: Dialog Handler Updater - Test Studio Dev Documentation
 description: How to update the Dialog Handlers.
 slug: features/dialogs
 position: 0

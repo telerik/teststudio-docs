@@ -1,6 +1,6 @@
 ---
 title: Elements Mapping (IntelliMap)
-page_title: Elements Mapping (IntelliMap) | Test Studio Dev Documentation
+page_title: Elements Mapping (IntelliMap) - Test Studio Dev Documentation
 description: Test Studio Dev IntelliMap allows you to easily map the predefined elements to the actual one once the application UI is ready for test. 
 position: 3
 ---

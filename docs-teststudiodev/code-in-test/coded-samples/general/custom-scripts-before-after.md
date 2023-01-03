@@ -1,6 +1,6 @@
 ---
 title: Custom Scripts Before/After Test
-page_title: Custom Scripts Before/After Test | Test Studio Dev Documentation
+page_title: Custom Scripts Before/After Test - Test Studio Dev Documentation
 description: Custom Scripts Before/After Test
 position: 1
 ---

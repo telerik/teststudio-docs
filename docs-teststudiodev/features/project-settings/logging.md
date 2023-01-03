@@ -1,6 +1,6 @@
 ---
 title: Logging Options
-page_title: Logging Options | Test Studio Dev Documentation
+page_title: Logging Options - Test Studio Dev Documentation
 description: "Logging settings in Test Studio Dev. Enable Logging in Test Studio dev edition. Enable logging for Test Studio in Visual Studio"
 position: 10
 ---

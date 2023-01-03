@@ -1,6 +1,6 @@
 ---
 title: Wait For URL
-page_title: Wait For URL | Test Studio Dev Documentation
+page_title: Wait For URL - Test Studio Dev Documentation
 description: Pause the Test Studio Dev execution until a particular url is loaded - for specific pages with multiple redirects. 
 slug: features/custom-steps/wait-for-url
 position: 5

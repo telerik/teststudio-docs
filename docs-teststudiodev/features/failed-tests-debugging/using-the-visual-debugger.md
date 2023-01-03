@@ -1,6 +1,6 @@
 ---
 title: Using the Visual Debugger
-page_title: Using the Visual Debugger | Test Studio Dev Documentation
+page_title: Using the Visual Debugger - Test Studio Dev Documentation
 description: The Test Studio Dev Visual Debugger helps you in resolving failures. 
 position: 3
 ---

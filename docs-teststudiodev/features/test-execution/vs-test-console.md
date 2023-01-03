@@ -1,6 +1,6 @@
 ---
 title: Execute Test Studio Dev Tests with VSTest.Console.exe 
-page_title: Execute Test Studio Dev Tests with VSTest.Console.exe | Test Studio Dev Documentation
+page_title: Execute Test Studio Dev Tests with VSTest.Console.exe - Test Studio Dev Documentation
 description: "Execute Test Studio Dev tests and test lists via command line with the Visual Studio vstest.console.exe"
 position: 3
 ---

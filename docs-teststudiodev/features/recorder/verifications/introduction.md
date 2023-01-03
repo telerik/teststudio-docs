@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Verifications Overview | Test Studio Dev Documentation
+page_title: Verifications Overview - Test Studio Dev Documentation
 description: Verifications in Test Studio Dev allow to test if an occurrence happened or did not happen as expected.
 slug: recorder/verification-overview
 position: 0

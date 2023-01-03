@@ -1,6 +1,6 @@
 ---
 title: Verify Style
-page_title: Verify Style | Test Studio Dev Documentation
+page_title: Verify Style - Test Studio Dev Documentation
 description: Verify Style
 position: 1
 ---

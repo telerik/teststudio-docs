@@ -1,6 +1,6 @@
 ---
 title: Step Builder
-page_title: Step Builder | Test Studio Dev Documentation
+page_title: Step Builder - Test Studio Dev Documentation
 description: The Step Builder in Test Studio Dev allows you to extend the recorded tests with more complex verifications and custom steps.
 slug: features/recorder/step-builder
 position: 4

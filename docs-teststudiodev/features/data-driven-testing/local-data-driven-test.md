@@ -1,6 +1,6 @@
 ---
 title: Local Data Driven Test
-page_title: Local Data Driven Test | Test Studio Dev Documentation
+page_title: Local Data Driven Test - Test Studio Dev Documentation
 description: How to use local data table to data drive a test with Test Studio Dev
 position: 1
 ---

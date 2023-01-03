@@ -1,6 +1,6 @@
 ---
 title: Recording Settings
-page_title: Recording Settings | Test Studio Dev Documentation
+page_title: Recording Settings - Test Studio Dev Documentation
 description: "Configure how recording with Test Studio Dev will take place"
 position: 2
 ---

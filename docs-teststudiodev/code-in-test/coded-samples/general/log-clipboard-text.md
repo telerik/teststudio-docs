@@ -1,6 +1,6 @@
 ---
 title: Log Clipboard Text
-page_title: Log Clipboard Text | Test Studio Dev Documentation
+page_title: Log Clipboard Text - Test Studio Dev Documentation
 description: Log Clipboard Text
 position: 1
 ---

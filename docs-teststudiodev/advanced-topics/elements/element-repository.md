@@ -1,6 +1,6 @@
 ---
 title: Element Repository
-page_title: Element Repository | Test Studio Dev Documentation
+page_title: Element Repository - Test Studio Dev Documentation
 description: Element Repository in Test Studio Dev project
 position: 1
 ---

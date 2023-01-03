@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Test Explorer 
-page_title: Visual Studio Test Explorer | Test Studio Dev Documentation
+page_title: Visual Studio Test Explorer - Test Studio Dev Documentation
 description: Test Studio Dev tests are recognized by VS Test Explorer and can be executed from its context. Run Test Studio Dev tests via the Test Explorer in Visual Studio
 position: 1
 ---

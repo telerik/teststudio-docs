@@ -1,6 +1,6 @@
 ---
 title: Find and Navigate Elements
-page_title: Find and Navigate Elements | Test Studio Dev Documentation
+page_title: Find and Navigate Elements - Test Studio Dev Documentation
 description: Find and Navigate Elements 
 position: 2
 ---

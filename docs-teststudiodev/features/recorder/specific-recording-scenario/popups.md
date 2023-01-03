@@ -1,6 +1,6 @@
 ---
 title: HTML Popups
-page_title: HTML Popups | Test Studio Dev Documentation
+page_title: HTML Popups - Test Studio Dev Documentation
 description: How Test Studio Dev handles html popup windows.
 slug: features/html-popups
 position: 1

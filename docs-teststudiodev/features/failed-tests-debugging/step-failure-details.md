@@ -1,6 +1,6 @@
 ---
 title: Step Failure Details
-page_title: Step Failure Details | Test Studio Dev Documentation
+page_title: Step Failure Details - Test Studio Dev Documentation
 description: The Step Failure Details dialog collects all the information related to a single failed test step during Test Studio Dev Execution.
 position: 0
 ---

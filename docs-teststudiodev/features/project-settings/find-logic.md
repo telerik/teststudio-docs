@@ -1,6 +1,6 @@
 ---
 title: Smart Find Logic Settings
-page_title: Smart Find Logic for Locating Elements | Test Studio Dev Documentation
+page_title: Smart Find Logic for Locating Elements - Test Studio Dev Documentation
 description: "Set the attributes to be used from Test Studio Dev when generating find expressions while recording tests."
 position: 5
 ---

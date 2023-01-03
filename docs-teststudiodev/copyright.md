@@ -1,6 +1,6 @@
 ---
 title: Product Documentation Copyright Notice
-page_title: Product Documentation Copyright Notice | Test Studio Dev Documentation
+page_title: Product Documentation Copyright Notice - Test Studio Dev Documentation
 description: Product Documentation Copyright Notice/Trademark Legend
 published: true
 position: 17

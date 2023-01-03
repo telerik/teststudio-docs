@@ -1,6 +1,6 @@
 ---
 title: Write into Data Source
-page_title: Write into Data Source | Test Studio Dev Documentation
+page_title: Write into Data Source - Test Studio Dev Documentation
 description: Write into Data Source
 position: 1
 ---

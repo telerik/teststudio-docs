@@ -1,6 +1,6 @@
 ---
 title: Click on a Specific location
-page_title: Click on a Specific location | Test Studio Dev Documentation
+page_title: Click on a Specific location - Test Studio Dev Documentation
 description: Test Studio Dev allows you to add a click step with specific coordinates as of the target element
 slug: mouse-actions/click-specific-location
 position: 1

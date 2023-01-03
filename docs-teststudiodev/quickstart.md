@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-page_title: Quickstart | Test Studio Dev Documentation
+page_title: Quickstart - Test Studio Dev Documentation
 description: How to get started with Test Studio Dev test recording and execution
 slug: quickstart
 tags: introduction

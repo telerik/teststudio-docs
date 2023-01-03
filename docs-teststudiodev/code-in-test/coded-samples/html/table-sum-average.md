@@ -1,6 +1,6 @@
 ---
 title: Table Sum & Average
-page_title: Table Sum & Average | Test Studio Dev Documentation
+page_title: Table Sum & Average - Test Studio Dev Documentation
 description: Table Sum & Average
 position: 1
 ---

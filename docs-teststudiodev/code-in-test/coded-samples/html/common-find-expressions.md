@@ -1,6 +1,6 @@
 ---
 title: Common HTML Find Expressions
-page_title: Common HTML Find Expressions | Test Studio Dev Documentation
+page_title: Common HTML Find Expressions - Test Studio Dev Documentation
 description: Common HTML Find Expressions
 position: 1
 ---

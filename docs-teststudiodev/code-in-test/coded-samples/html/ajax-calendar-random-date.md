@@ -1,6 +1,6 @@
 ---
 title: AJAX Calendar Random Date
-page_title: AJAX Calendar Random Date | Test Studio Dev Documentation
+page_title: AJAX Calendar Random Date - Test Studio Dev Documentation
 description: AJAX Calendar Random Date
 position: 1
 ---

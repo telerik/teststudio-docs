@@ -1,6 +1,6 @@
 ---
 title: How to Open Project Settings
-page_title: Test Studio Project Settings Overview | Test Studio Dev Documentation
+page_title: Test Studio Project Settings Overview - Test Studio Dev Documentation
 description: "Specific settings to be applied on Test Studio Dev project level"
 position: 0
 ---

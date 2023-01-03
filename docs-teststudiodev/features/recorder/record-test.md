@@ -1,6 +1,6 @@
 ---
 title: Record a Test 
-page_title: Recording a Test | Test Studio Dev Documentation
+page_title: Recording a Test - Test Studio Dev Documentation
 description: How to record a test with Test Studio Dev
 slug: features/record-test
 position: 0

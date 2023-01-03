@@ -1,6 +1,6 @@
 ---
 title: jQuery Events Do Not Fire
-page_title: jQuery Events Do Not Fire | Test Studio Dev Documentation
+page_title: jQuery Events Do Not Fire - Test Studio Dev Documentation
 description: jQuery Events Do Not Fire
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: General Project Settings
-page_title: General Project Settings | Test Studio Dev Documentation
+page_title: General Project Settings - Test Studio Dev Documentation
 description: "Miscellaneous settings in Test Studio Dev"
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: Element Styles
-page_title: Element Styles | Test Studio Dev Documentation
+page_title: Element Styles - Test Studio Dev Documentation
 description: Element Styles
 position: 2
 ---

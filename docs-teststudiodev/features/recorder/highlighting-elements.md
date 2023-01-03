@@ -1,6 +1,6 @@
 ---
 title: Highlighting Elements
-page_title: Highlighting Elements | Test Studio Dev Documentation
+page_title: Highlighting Elements - Test Studio Dev Documentation
 description: Highlighting an element provides quick access to relevant functions right in the page or application you are testing. 
 slug: recorder/highlight
 position: 2

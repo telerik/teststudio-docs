@@ -1,6 +1,6 @@
 ---
 title: Override app.config
-page_title: Override app.config | Test Studio Dev Documentation
+page_title: Override app.config - Test Studio Dev Documentation
 description: Override app.config
 position: 1
 ---

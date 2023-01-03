@@ -1,6 +1,6 @@
 ---
 title: Swap License
-page_title: Swap License | Test Studio Dev Documentation
+page_title: Swap License - Test Studio Dev Documentation
 description: How to swap your Test Studio Dev license to use it on another machine
 position: 0
 ---

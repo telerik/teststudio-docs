@@ -1,6 +1,6 @@
 ---
 title: Verify Specific Column
-page_title: Verify Specific Column | Test Studio Dev Documentation
+page_title: Verify Specific Column - Test Studio Dev Documentation
 description: Verify Specific Column
 position: 1
 ---

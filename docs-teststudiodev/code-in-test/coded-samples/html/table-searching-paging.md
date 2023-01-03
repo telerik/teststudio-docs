@@ -1,6 +1,6 @@
 ---
 title: Table Searching & Paging
-page_title: Table Searching & Paging | Test Studio Dev Documentation
+page_title: Table Searching & Paging - Test Studio Dev Documentation
 description: Table Searching & Paging
 position: 1
 ---

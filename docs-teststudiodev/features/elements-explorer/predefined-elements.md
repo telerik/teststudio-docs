@@ -1,6 +1,6 @@
 ---
 title: Predefined Elements
-page_title: Predefined Elements | Test Studio Dev Documentation
+page_title: Predefined Elements - Test Studio Dev Documentation
 description: Test Studio Dev Predefined Elements feature allows you to create tests without having an application UI ready for test. 
 position: 2
 ---

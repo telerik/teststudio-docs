@@ -1,6 +1,6 @@
 ---
 title: Drag&Drop
-page_title: Drag&Drop | Test Studio Dev Documentation
+page_title: Drag&Drop - Test Studio Dev Documentation
 description: Drag&Drop could be simulated by Test Studio Dev
 slug: mouse-actions/drag-drop
 position: 0

@@ -1,6 +1,6 @@
 ---
 title: Execution Delay
-page_title: Execution Delay | Test Studio Dev Documentation
+page_title: Execution Delay - Test Studio Dev Documentation
 description: Pauses the execution of steps for the set amount of time. 
 slug: features/custom-steps/execution-delay
 position: 3

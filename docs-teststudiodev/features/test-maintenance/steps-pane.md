@@ -1,6 +1,6 @@
 ---
 title: Steps Pane
-page_title: Steps Pane | Test Studio Dev Documentation
+page_title: Steps Pane - Test Studio Dev Documentation
 description: Steps pane allows you to maintain the steps in a single test - reorder, edit, etc. It allows you to modify some of the settings for Test Studio Dev Quick Execution. 
 slug: features/steps-pane
 position: 2

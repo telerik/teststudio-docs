@@ -1,6 +1,6 @@
 ---
 title: Using the DOM on Failure
-page_title: Using the DOM on Failure | Test Studio Dev Documentation
+page_title: Using the DOM on Failure - Test Studio Dev Documentation
 description: The DOM on failure is a copy of the state of the DOM of the application at the time of failure.
 position: 2
 ---

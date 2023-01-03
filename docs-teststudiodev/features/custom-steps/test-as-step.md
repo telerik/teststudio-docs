@@ -1,6 +1,6 @@
 ---
 title: Test as Step
-page_title: Test as Step | Test Studio Dev Documentation
+page_title: Test as Step - Test Studio Dev Documentation
 description: Simple tests can be reused in more complex scenarios.
 slug: features/custom-steps/test-as-step
 position: 0

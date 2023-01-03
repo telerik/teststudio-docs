@@ -1,6 +1,6 @@
 ---
 title: Extracted Variables in Code
-page_title: Get/Set Extracted Variables in Code | Test Studio Dev Documentation
+page_title: Get/Set Extracted Variables in Code - Test Studio Dev Documentation
 description: Get/Set Extracted Variables in Code
 position: 1
 ---

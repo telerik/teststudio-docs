@@ -1,6 +1,6 @@
 ---
 title: Parameterize WPF App
-page_title: Parameterize WPF App | Test Studio Dev Documentation
+page_title: Parameterize WPF App - Test Studio Dev Documentation
 description: Parameterize WPF App
 position: 2
 ---

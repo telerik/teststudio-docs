@@ -1,6 +1,6 @@
 ---
 title: Configure Browsers
-page_title: Configure Browsers | Test Studio Dev Documentation
+page_title: Configure Browsers - Test Studio Dev Documentation
 description: How to Configure Browsers to Use These to Record and Execute Tests with Test Studio Dev
 slug: prerequisites/calibrate-browsers
 tags: configure. browsers, calibrate

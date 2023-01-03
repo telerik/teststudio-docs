@@ -1,6 +1,6 @@
 ---
 title: Attach Columns to Input Values
-page_title: Attach Columns to Input Values | Test Studio Dev Documentation
+page_title: Attach Columns to Input Values - Test Studio Dev Documentation
 description: How to bind the data source to an input value with Test Studio Dev
 position: 4
 ---

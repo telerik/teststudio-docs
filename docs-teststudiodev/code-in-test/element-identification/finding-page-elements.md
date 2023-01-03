@@ -1,6 +1,6 @@
 ---
 title: Finding Page Elements
-page_title: Finding Page Elements | Test Studio Dev Documentation
+page_title: Finding Page Elements - Test Studio Dev Documentation
 description: "Test Studio Find methods. Progress Testing Framework Find.By methods. Locate an element in code. Find an element in code. "
 position: 1
 ---

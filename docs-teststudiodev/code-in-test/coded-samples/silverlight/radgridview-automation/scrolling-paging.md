@@ -1,6 +1,6 @@
 ---
 title: Scrolling & Paging
-page_title: Scrolling & Paging | Test Studio Dev Documentation
+page_title: Scrolling & Paging - Test Studio Dev Documentation
 description: Scrolling & Paging
 position: 1
 ---

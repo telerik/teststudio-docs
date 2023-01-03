@@ -1,6 +1,6 @@
 ---
 title: Re-activating Your License
-page_title: Re-activating Your License | Test Studio Dev Documentation
+page_title: Re-activating Your License - Test Studio Dev Documentation
 description: How to re-activate your Test Studio Dev license 
 position: 2
 ---

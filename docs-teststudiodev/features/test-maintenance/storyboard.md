@@ -1,6 +1,6 @@
 ---
 title: Storyboard
-page_title: Storyboard | Test Studio Dev Documentation
+page_title: Storyboard - Test Studio Dev Documentation
 description: Test Studio Dev Storyboard is a three-dimensional, visual representation of the recorded test steps.
 slug: features/storyboard
 position: 6

@@ -1,6 +1,6 @@
 ---
 title: HtmlWait Class
-page_title: HtmlWait Class | Test Studio Dev Documentation
+page_title: HtmlWait Class - Test Studio Dev Documentation
 description: HtmlWait Class
 position: 2
 ---

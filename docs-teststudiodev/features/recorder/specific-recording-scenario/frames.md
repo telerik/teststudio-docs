@@ -1,6 +1,6 @@
 ---
 title: Frames
-page_title: Frames | Test Studio Dev Documentation
+page_title: Frames - Test Studio Dev Documentation
 description: Frames get automatically detected by Test Studio Dev. 
 slug: features/recorder/frames
 position: 2

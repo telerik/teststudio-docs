@@ -1,6 +1,6 @@
 ---
 title: DOM Explorer
-page_title: DOM Explorer | Test Studio Dev Documentation
+page_title: DOM Explorer - Test Studio Dev Documentation
 description: The DOM explorer in Test Studio Dev displays the DOM in a tree format where you see all elements of a pageat one time. 
 slug: recorder/dom
 position: 3

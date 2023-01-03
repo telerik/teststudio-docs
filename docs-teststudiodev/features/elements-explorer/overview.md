@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Elements Explorer Overview | Test Studio Dev Documentation
+page_title: Elements Explorer Overview - Test Studio Dev Documentation
 description: Test Studio Dev Elements explorer lists all elements used in the automation tests. 
 slug: features/elements-explorer
 position: 0

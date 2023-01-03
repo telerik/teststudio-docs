@@ -1,6 +1,6 @@
 ---
 title: Connect to Running App
-page_title: Connect to Running App | Test Studio Dev Documentation
+page_title: Connect to Running App - Test Studio Dev Documentation
 description: Connect to Running App
 position: 1
 ---

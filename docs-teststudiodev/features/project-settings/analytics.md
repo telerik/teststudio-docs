@@ -1,6 +1,6 @@
 ---
 title: Analytics
-page_title: Analytics | Test Studio Dev Documentation
+page_title: Analytics - Test Studio Dev Documentation
 description: "'Analytics settings in Test Studio Dev"
 position: 8
 ---

@@ -1,6 +1,6 @@
 ---
 title: Conditional Dialog Handling
-page_title: Conditional Dialog Handling | Test Studio Dev Documentation
+page_title: Conditional Dialog Handling - Test Studio Dev Documentation
 description: Conditional Dialog Handling
 position: 1
 ---

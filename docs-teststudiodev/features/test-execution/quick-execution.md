@@ -1,6 +1,6 @@
 ---
 title: Quick Execution
-page_title: Quick Execution | Test Studio Dev Documentation
+page_title: Quick Execution - Test Studio Dev Documentation
 description: Test Studio Dev Test Runner executes the recorded tests and displays results accordingly. 
 position: 0
 ---

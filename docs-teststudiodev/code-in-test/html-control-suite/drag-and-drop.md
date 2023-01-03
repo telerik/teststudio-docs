@@ -1,6 +1,6 @@
 ---
 title: Drag & Drop
-page_title: Drag & Drop | Test Studio Dev Documentation
+page_title: Drag & Drop - Test Studio Dev Documentation
 description: Drag & Drop
 position: 2
 ---

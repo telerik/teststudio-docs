@@ -1,6 +1,6 @@
 ---
 title: Theme Settings
-page_title: Theme Settings | Test Studio Dev Documentation
+page_title: Theme Settings - Test Studio Dev Documentation
 description: "Test Studio Project settings Theme allows you to switch between dark and light theme. Dark theme for Test Studio Dev."
 position: 9
 ---

@@ -1,6 +1,6 @@
 ---
 title: Data Driven Image Verification
-page_title: Data Driven Image Verification | Test Studio Dev Documentation
+page_title: Data Driven Image Verification - Test Studio Dev Documentation
 description: How to data drive image verification in Test Studio Dev
 position: 3
 ---

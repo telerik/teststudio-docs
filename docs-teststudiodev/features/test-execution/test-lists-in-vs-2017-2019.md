@@ -1,6 +1,6 @@
 ---
 title: Test Lists in Visual Studio 2017 and Later
-page_title: Test Lists in Visual Studio 2017 and Later | Test Studio Dev Documentation
+page_title: Test Lists in Visual Studio 2017 and Later - Test Studio Dev Documentation
 description: "Test Lists in Visual Studio. How to create a Test Studio Dev test list (suite) in Visual Studio. Static test list dynamic test list"
 position: 3
 ---

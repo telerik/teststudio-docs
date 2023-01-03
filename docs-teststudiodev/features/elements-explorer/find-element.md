@@ -1,6 +1,6 @@
 ---
 title: Find Element
-page_title: Find Element | Test Studio Dev Documentation
+page_title: Find Element - Test Studio Dev Documentation
 description: Modify how an element is located on a page by Test Studio Dev. 
 position: 1
 ---

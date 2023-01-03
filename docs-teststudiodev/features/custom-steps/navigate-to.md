@@ -1,6 +1,6 @@
 ---
 title: Navigate To
-page_title: Navigate To | Test Studio Dev Documentation
+page_title: Navigate To - Test Studio Dev Documentation
 description: How to insert in Test Studio Dev's test a "Navigate to" step to load a url
 slug: features/custom-steps/navigate-to
 position: 1

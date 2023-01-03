@@ -1,6 +1,6 @@
 ---
 title: Mouse Wheel Scroll
-page_title: Mouse Wheel Scroll | Test Studio Dev Documentation
+page_title: Mouse Wheel Scroll - Test Studio Dev Documentation
 description: Mouse Wheel Scroll
 position: 1
 ---

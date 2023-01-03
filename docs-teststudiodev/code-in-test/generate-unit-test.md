@@ -1,6 +1,6 @@
 ---
 title: Generate Unit Test 
-page_title: Generate Unit Test | Test Studio Dev Documentation
+page_title: Generate Unit Test - Test Studio Dev Documentation
 description: Test Studio Dev allows you to automatically generate a unit test from a recorded test
 position: 1
 ---

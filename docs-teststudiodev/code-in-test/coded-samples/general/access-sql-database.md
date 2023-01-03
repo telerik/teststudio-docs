@@ -1,6 +1,6 @@
 ---
 title: Access SQL Database
-page_title: Access SQL Database | Test Studio Dev Documentation
+page_title: Access SQL Database - Test Studio Dev Documentation
 description: Access SQL Database
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: Check Javascript Errors
-page_title: Check Javascript Errors | Test Studio Dev Documentation
+page_title: Check Javascript Errors - Test Studio Dev Documentation
 description: Check Javascript Errors
 position: 4
 ---
