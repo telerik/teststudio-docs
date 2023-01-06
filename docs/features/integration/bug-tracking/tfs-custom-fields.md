@@ -24,10 +24,10 @@ Where *BugTrackingName* is the name of the required field and *NULL* is its curr
 
 3.&nbsp; To denote your required fields and what to fill them with, create a file called TFSMappings.xml in the following directory:
 
-- For version 2012.2.920 and later: **C:\Program Files (x86)\Telerik\Test Studio\Bin\Plugins**
-- For versions before 2012.2.920: **C:\Program Files (x86)\Telerik\Test Studio\Bin\Plugins\BugTrackers**
+- For version 2012.2.920 and later: **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins**
+- For versions before 2012.2.920: **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\BugTrackers**
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 ![Bug Trackers][3]
 

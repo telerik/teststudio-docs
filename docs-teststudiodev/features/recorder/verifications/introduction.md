@@ -34,4 +34,4 @@ __Test Studio Dev__ implements verification through "sentences" that compare a p
 - image path contains 'http://www.telerik.com'
 - wait for element to exist
 
-> Test Studio cannot read and verify against the contents of a PDF file loaded in the browser, as it does not have a DOM structure like a traditional web page. If you can store that information in a file type such as XLS, XML, CSV, or a SQL database, then you can use the <a href="/features/data-driven-testing/Overview" target="blank">Data Driving</a> feature. 
+

@@ -37,8 +37,8 @@ Put your data into a SQL data base and <a href="/features/data-driven-testing/bi
 
 You can <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">Create Your Own Test Extension DLL</a> and implement the OnInitializeDataSource in which you can do pretty much anything in code. Place the DLL into the following directory:
 
-* **C:\Program Files (x86)\Telerik\Test Studio\Bin\Plugins\**
+* **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 It will be called for every test you execute. Whatever OnInitializeDataSource creates and returns will be used as the data source, overriding any file to which the test may have been previously bound.

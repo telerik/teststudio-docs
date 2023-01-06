@@ -39,11 +39,11 @@ In order to access the Telerik Testing Framework API, add the necessary assembly
 
 These assemblies can be found in Telerik's installation folder. These assemblies can be found in the following two locations on a 64-bit Windows 7 machine:
 
-* **C:\Program Files (x86)\Telerik\Test Studio\Bin\**
+* **C:\Program Files (x86)\Progress\Test Studio\Bin\**
 
-* **C:\Program Files (x86)\Telerik\Test Studio\Bin\Translators\**
+* **C:\Program Files (x86)\Progress\Test Studio\Bin\Translators\**
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 If you're not sure where to look for the assemblies, perform a Windows search inside the Telerik folder.
 

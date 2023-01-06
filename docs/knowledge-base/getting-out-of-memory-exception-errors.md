@@ -29,9 +29,9 @@ This last option is more experimental, but has been shown to work in a few cases
 
 1.&nbsp; Open a Visual Studio command prompt (the standard command prompt won’t have the path set properly), with admin privileges
 
-2.&nbsp; Enter “**cd C:\Program Files (x86)\Telerik\Test Studio\Bin**”
+2.&nbsp; Enter “**cd C:\Program Files (x86)\Progress\Test Studio\Bin**”
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 3.&nbsp; Turn on the "LARGEADDRESSAWARE" flag for Telerik.TestStudio.Desktop.exe and ArtOfTest.Runner.exe, by entering “**editbin /LARGEADDRESSAWARE Telerik.TestStudio.Desktop.exe**” and "**editbin /LARGEADDRESSAWARE ArtOfTest.Runner.exe**"
 

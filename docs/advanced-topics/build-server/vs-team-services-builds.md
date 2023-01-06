@@ -27,11 +27,11 @@ The below steps will guide you through the process how to implement the Test Stu
 
 ![Command line build step][4]
 
-5.&nbsp; Once the step is added you need to close the catalog and provide the **ArtOfTest.Runner.exe location and arguments to pass** to it. The default location of the tool is C:\Program Files (x86)\Telerik\Test Studio\Bin. Further details about the required arguments could be found <a href="/features/test-runners/artoftest-runner" target="_blank">**here**</a>.
+5.&nbsp; Once the step is added you need to close the catalog and provide the **ArtOfTest.Runner.exe location and arguments to pass** to it. The default location of the tool is C:\Program Files (x86)\Progress\Test Studio\Bin. Further details about the required arguments could be found <a href="/features/test-runners/artoftest-runner" target="_blank">**here**</a>.
 
 ![Configure CLI step][5]
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 When you choose to save the step you could rename it with a meaningful to you name.
 

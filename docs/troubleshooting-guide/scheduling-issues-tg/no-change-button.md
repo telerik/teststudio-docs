@@ -15,9 +15,9 @@ position: 1
 
 **Update Client Config File**
 
-1.&nbsp; Open the Test Studio Scheduling Client configuration file at: C:\Program Files (x86)\Telerik\Test Studio\Bin\Telerik.TestStudio.Scheduling.Client.exe.Config.xml
+1.&nbsp; Open the Test Studio Scheduling Client configuration file at: C:\Program Files (x86)\Progress\Test Studio\Bin\Telerik.TestStudio.Scheduling.Client.exe.Config.xml
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 2.&nbsp; Change the EmbedExecutionManager value to false.
 

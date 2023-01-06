@@ -18,9 +18,9 @@ System.BadImageFormatException: This assembly is built by a runtime newer than t
 
 It is not permissible to make a copy of ArtOfTest.Runner.exe and execute it from a different location. There is a dependency that requires it to be run from its original location. This is true even if a system environment variable points to that location. By default the location is:
 
-- **C:\Program Files (x86)\Telerik\Test Studio 20XX.X\Bin**
+- **C:\Program Files (x86)\Progress\Test Studio\Bin**
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 For more information please see our user's guide article on <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner</a>. 
 

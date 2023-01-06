@@ -76,9 +76,9 @@ End Sub
 
 Finally you'll need to <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> for *ArtOfTest.Common.Design*. If it is already present, remove it and add it again. Add it from the \**Test Studio\Bin** directory:
 
-*	**C:\Program Files (x86)\Telerik\Test Studio\Bin**
+*	**C:\Program Files (x86)\Progress\Test Studio\Bin**
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 ##Excel File##
 

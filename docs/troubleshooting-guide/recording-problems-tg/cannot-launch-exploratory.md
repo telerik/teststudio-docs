@@ -22,10 +22,10 @@ I receive one of the following errors when attempting to launch the <a href="/fe
 
 Start the Feedback Listener process manually from the following location, then launch the tool again through the browser.
 
-- **C:\Program Files (x86)\Telerik\Test Studio\Bin\Feedback\Telerik.TestStudio.Feedback.Listener.exe**
+- **C:\Program Files (x86)\Progress\Test Studio\Bin\Feedback\Telerik.TestStudio.Feedback.Listener.exe**
 
  The Exploratory Testing tool is currently unable to launch for users with non-administrator rights.
 
 - You may need to right click *Telerik.TestStudio.Feedback.Listener.exe* and select <a href="http://www.sevenforums.com/tutorials/11841-run-administrator.html" target="_blank">Run as Administrator</a>. Then launch the browser in the same fashion.
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 

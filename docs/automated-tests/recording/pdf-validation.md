@@ -22,6 +22,11 @@ And this is a complete end-to-end scenario for test automation of a PDF file in 
 
 ![Steps recorded automatically for test automation pdf][1]
 
+> __Important!__
+> <br>
+> <br>
+> __Windows 11__ OS uses Edge browser as default PDF viewer and as a result Test Studio automation logic fails to save the downloaded PDF file and open it in new tab. To be able to __use the PDF validation on Windows 11 with Edge__ browser, you need to __change the OS default PDF viewer__ and set this to another viewer.  
+
 ## Open Local PDF File
 
 Another scenario for PDF test automation is to __open an existing locally stored file__ and validate its content. To accomplish this in a Test Studio test, you can use the <a href="/features/custom-steps/open-pdf" target="_blank">__Open PDF File__ step</a> from the Step Builder. Insert a valid path to an existing PDF file to open it during the test execution.
