@@ -504,6 +504,14 @@ defaults:
         layout: "documentation"
         category: "default"
 
+-
+    scope:
+        path: "api"
+    values:
+        kind: "api"
+        res_type: "api"
+        title_suffix: "Telerik Test Studio - API Reference"
+
 ##-
 ##    scope:
 ##        path: knowledge-base
