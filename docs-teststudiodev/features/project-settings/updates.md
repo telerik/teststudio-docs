@@ -1,6 +1,6 @@
 ---
 title: Updates Product Settings
-page_title: Updates Product Settings | Test Studio Dev Documentation
+page_title: Updates Product Settings - Test Studio Dev Documentation
 description: "Double check your Test Studio Dev version, activate/deactivate your license key, check for updates." 
 position: 6
 ---

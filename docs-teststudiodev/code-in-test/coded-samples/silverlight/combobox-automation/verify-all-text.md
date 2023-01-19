@@ -1,6 +1,6 @@
 ---
 title: Verify All Text
-page_title: Verify All Text | Test Studio Dev Documentation
+page_title: Verify All Text - Test Studio Dev Documentation
 description: Verify All Text
 position: 1
 ---

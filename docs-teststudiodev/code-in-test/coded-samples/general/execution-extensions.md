@@ -1,6 +1,6 @@
 ---
 title: Execution Extensions
-page_title: Execution Extension | Test Studio Dev Documentation
+page_title: Execution Extension - Test Studio Dev Documentation
 description: Execution Extension
 position: 1
 ---
@@ -12,7 +12,7 @@ To demonstrate the execution extensibility model, let's build a simple Execution
 
 1.&nbsp; Create a Class Library project in Visual Studio. This example uses C#.
 
-2.&nbsp; Add references to three DLLs from **%ProgramFiles%\Telerik\Test Studio\Bin\**
+2.&nbsp; Add references to three DLLs from **C:\Program Files (x86)\Progress\Test Studio\Bin\**
 
  - ArtOfTest.WebAii.dll
 
@@ -20,7 +20,7 @@ To demonstrate the execution extensibility model, let's build a simple Execution
 
  - Telerik.TestStudio.Interfaces.dll
 
-	Also add the following **.NET** references:
+Also add the following **.NET** references:
 
  - System.Runtime.Serialization
 
@@ -78,9 +78,9 @@ To demonstrate the execution extensibility model, let's build a simple Execution
 
 5.&nbsp; Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
 
- - The functions you're not using should be left empty (remove *throw new NotImplementedException*).
+ - The **OnInitializeDataSource()** function __cannot__ be left empty and should return **null** if not being used. Test Studio takes into consideration only the first non null data table (if you are using more than one plugin, the first one to return non null data table is used).
 
- - **OnInitializeDataSource** should **not** be left empty and should return **null** if not being used.
+ - The rest of the functions, which you're not using, should be left empty (remove *throw new NotImplementedException*).
 
 #### __[C#]__
 

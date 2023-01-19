@@ -1,6 +1,6 @@
 ---
 title: Change Step Target Element
-page_title: Change Step Target Element | Test Studio Dev Documentation
+page_title: Change Step Target Element - Test Studio Dev Documentation
 description: How to change the target element for a step in Test Studio dev step
 position: 1
 ---

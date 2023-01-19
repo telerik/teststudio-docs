@@ -1,6 +1,6 @@
 ---
 title: Send Keystrokes
-page_title: Send Keystorkes | Test Studio Dev Documentation
+page_title: Send Keystorkes - Test Studio Dev Documentation
 description: Send Keystorkes
 position: 1
 ---

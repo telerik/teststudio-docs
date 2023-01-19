@@ -1,6 +1,6 @@
 ---
 title: Invoke Application
-page_title: How to Invoke an Application | Test Studio Dev Documentation
+page_title: How to Invoke an Application - Test Studio Dev Documentation
 description: How to Invoke an Application
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: General Project Settings
-page_title: General Project Settings | Test Studio Dev Documentation
+page_title: General Project Settings - Test Studio Dev Documentation
 description: "Miscellaneous settings in Test Studio Dev"
 position: 1
 ---
@@ -16,7 +16,11 @@ By default, screenshots are automatically added to the Storyboard Tab. When this
 
 ## WPF
 
-Represents the default application path for WPF tests. Once set, each test will use this path for recording and execution, unless _Use default_ path is unchecked in the WPF test configuration dialog.
+Represents the default application path for WPF tests. Once set, each test will use this path for recording and execution, unless _Use default_ path is unchecked in the <a href="/features/recorder/record-test#record-a-wpf-test" target="_blank">WPF test configuration dialog</a>.
+
+## Desktop
+
+Represents the default application path for Desktop tests. Once set, each desktop test will use this path for recording and execution in the <a href="/features/recorder/record-test#record-a-desktop-test" target="_blank">Desktop test configuration dialog</a>.
 
 ## Connection Settings
 

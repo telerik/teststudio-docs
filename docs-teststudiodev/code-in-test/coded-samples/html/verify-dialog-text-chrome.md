@@ -1,6 +1,6 @@
 ---
 title: Verify Dialog Text In Chrome
-page_title: Verify Dialog Text In Chrome | Test Studio Dev Documentation
+page_title: Verify Dialog Text In Chrome - Test Studio Dev Documentation
 description: Verify Dialog Text In Chrome
 position: 1
 ---

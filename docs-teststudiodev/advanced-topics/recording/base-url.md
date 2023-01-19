@@ -1,6 +1,6 @@
 ---
 title: Using BaseURL
-page_title: Using BaseURL  | Test Studio Dev Documentation
+page_title: Using BaseURL  - Test Studio Dev Documentation
 description: Test Studio Dev allows you to reuse the recorded tests against different environments following the same URL pattern - production, testing, live, etc. 
 position: 0
 ---

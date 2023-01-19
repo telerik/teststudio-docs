@@ -1,6 +1,6 @@
 ---
 title: Extend BaseWebAiiTest Class
-page_title: Extend BaseWebAiiTest Class | Test Studio Dev Documentation
+page_title: Extend BaseWebAiiTest Class - Test Studio Dev Documentation
 description: Extend BaseWebAiiTest Class
 position: 1
 ---

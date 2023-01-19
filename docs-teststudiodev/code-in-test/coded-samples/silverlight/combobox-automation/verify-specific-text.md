@@ -1,6 +1,6 @@
 ---
 title: Verify Specific Text
-page_title: Verify Specific Text | Test Studio Dev Documentation
+page_title: Verify Specific Text - Test Studio Dev Documentation
 description: Verify Specific Text
 position: 1
 ---

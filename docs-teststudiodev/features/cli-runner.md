@@ -1,6 +1,6 @@
 ---
 title: Command Line Runner 
-page_title: Command Line Runner | Test Studio Dev Documentation
+page_title: Command Line Runner - Test Studio Dev Documentation
 description: Command Line Runner for Test Studio Dev tests
 position: 10
 ---

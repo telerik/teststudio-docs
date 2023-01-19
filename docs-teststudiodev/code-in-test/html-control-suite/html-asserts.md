@@ -1,6 +1,6 @@
 ---
 title: HTML Asserts
-page_title: HTML Asserts | Test Studio Dev Documentation
+page_title: HTML Asserts - Test Studio Dev Documentation
 description: 
 position: 2
 ---

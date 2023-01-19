@@ -1,6 +1,6 @@
 ---
 title: Add Tag to iFrame
-page_title: Add Tag to iFrame | Test Studio Dev Documentation
+page_title: Add Tag to iFrame - Test Studio Dev Documentation
 description: Add Tag to iFrame
 position: 1
 ---

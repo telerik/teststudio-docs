@@ -1,6 +1,6 @@
 ---
 title: SQL Database Example
-page_title: SQL Database Example | Test Studio Dev Documentation
+page_title: SQL Database Example - Test Studio Dev Documentation
 description: How to use SQL DB for data driven testing with Test Studio Dev 
 position: 2
 ---

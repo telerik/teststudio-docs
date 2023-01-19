@@ -1,6 +1,6 @@
 ---
 title: Jenkins CI Plugin
-page_title: Jenkins CI Plugin | Test Studio Dev Documentation
+page_title: Jenkins CI Plugin - Test Studio Dev Documentation
 description: Test Studio Dev Plugin for Jenkins CI
 position: 2
 ---

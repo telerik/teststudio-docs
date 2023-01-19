@@ -1,6 +1,6 @@
 ---
 title: Test List Settings
-page_title: Test List Settings  | Test Studio Dev Documentation
+page_title: Test List Settings  - Test Studio Dev Documentation
 description: "Test Studio Test List Settings. Change the browser for a test list run. RunnerResponseTimeout. UnexpectedDialogAction. KillBrowserProcessOnClose KillBrowsersBeforeStart Test list baseURL"
 position: 4
 ---

@@ -1,6 +1,6 @@
 ---
 title: DOM Navigation
-page_title: DOM Navigation | Test Studio Dev Documentation
+page_title: DOM Navigation - Test Studio Dev Documentation
 description: DOM Navigation
 position: 1
 ---

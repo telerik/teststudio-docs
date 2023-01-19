@@ -46,7 +46,7 @@ There is a single extension combining the recording and execution which could be
 
 4.&nbsp; As a last resort you can perform manual installation of the extensions by following these steps:
 
-- Verify that in the *C:\Program Files (x86)\Telerik\Test Studio\Browser Extensions\Firefox4+* folder you can see the following files:
+- Verify that in the *C:\Program Files (x86)\Progress\Test Studio\Browser Extensions\Firefox4+* folder you can see the following files:
 
 ![FF4][2]
 

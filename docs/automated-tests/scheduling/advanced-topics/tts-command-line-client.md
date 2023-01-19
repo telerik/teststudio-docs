@@ -11,9 +11,9 @@ Telerik.TestStudio.CommandLineClient is a command line execution engine for remo
 
 Telerik.TestStudio.CommandLineClient.exe is installed in your Test Studio installation directory. The default location is:
 
-- **C:\Program Files (x86)\Telerik\Test Studio\Bin**
+- **C:\Program Files (x86)\Progress\Test Studio\Bin**
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 When working with the Telerik.TestStudio.CommandLineClient in the command prompt, make sure you always are running as Administrator and have the root directory in context as shown below so that you can call the runner directly.
 

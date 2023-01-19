@@ -1,6 +1,6 @@
 ---
 title: Custom HtmlControl
-page_title: Custom HtmlControl | Test Studio Dev Documentation
+page_title: Custom HtmlControl - Test Studio Dev Documentation
 description: Custom HtmlControl
 position: 2
 ---

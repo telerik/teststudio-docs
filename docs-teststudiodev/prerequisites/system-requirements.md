@@ -1,6 +1,6 @@
 ---
 title: System Requirements
-page_title: System Requirements | Test Studio Dev Documentation
+page_title: System Requirements - Test Studio Dev Documentation
 description: The minimum system requirements to automate tests with Test Studio Dev. 
 slug: prerequisites/system-requirements
 tags: requirements, system, minimum

@@ -15,7 +15,7 @@ Test Studio uses its plugins model to run the Bug Trackers. The type of Bug Trac
 
 1.&nbsp; Create a Class Library project in Visual Studio. This example uses C#.
 
-2.&nbsp; Reference the following DLLs in **%ProgramFiles%\Telerik\Test Studio\Bin\**: 
+2.&nbsp; Reference the following DLLs in **C:\Program Files (x86)\Progress\Test Studio\Bin\**: 
 
 - **ArtOfTest.WebAii.dll**
 - **ArtOfTest.WebAii.Design.dll**
@@ -137,8 +137,8 @@ namespace ClassLibrary1
 
 9.&nbsp; Deploy the plugin by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to one of the following directories:
 
-- For Test Studio versions 2012.2.920 and later:  **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\**
-- For Test Studio versions before 2012.2.920: **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\BugTrackers\**
+- For Test Studio versions 2012.2.920 and later:  **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
+- For Test Studio versions before 2012.2.920: **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\BugTrackers\**
 
 > To implement the auto-submit option (specifically for Visual Studio execution), the signed assembly must be installed into the GAC.
 </br>

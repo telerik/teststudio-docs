@@ -1,6 +1,6 @@
 ---
 title: Log Error Dialogs
-page_title: Log Error Dialogs | Test Studio Dev Documentation
+page_title: Log Error Dialogs - Test Studio Dev Documentation
 description: Log Error Dialogs
 position: 1
 ---

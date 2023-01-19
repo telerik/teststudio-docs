@@ -1,6 +1,6 @@
 ---
 title: TFS 2017 Builds
-page_title: TFS 2017 Test Execution | Test Studio Dev Documentation
+page_title: TFS 2017 Test Execution - Test Studio Dev Documentation
 description: TFS 2017 Test Execution of Test Studio Dev tests
 position: 3
 ---

@@ -1,6 +1,6 @@
 ---
 title: Verify Text in Rich TextBox
-page_title: Verify Text in Rich TextBox | Test Studio Dev Documentation
+page_title: Verify Text in Rich TextBox - Test Studio Dev Documentation
 description: Verify Text in Rich TextBox
 position: 1
 ---

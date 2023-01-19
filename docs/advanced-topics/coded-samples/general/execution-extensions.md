@@ -5,7 +5,7 @@ description: "Test Studio has enhanced extensibility support for test execution.
 previous_url: /user-guide/code-samples/general/execution-extensions.aspx, /user-guide/code-samples/general/execution-extensions
 position: 1
 ---
-#Execution Extension#
+# Execution Extension 
 
 Test Studio has enhanced extensibility support for test execution. This model helps integrate Test Studio better into your environment that contains custom results reporting and code defect tracking.
 
@@ -13,7 +13,7 @@ To demonstrate the execution extensibility model, let's build a simple Execution
 
 1.&nbsp; Create a Class Library project in Visual Studio. This example uses C#.
 
-2.&nbsp; Add references to three DLLs from **%ProgramFiles%\Telerik\Test Studio\Bin\**
+2.&nbsp; Add references to three DLLs from **C:\Program Files (x86)\Progress\Test Studio\Bin\**
 
  - ArtOfTest.WebAii.dll
 
@@ -21,13 +21,11 @@ To demonstrate the execution extensibility model, let's build a simple Execution
 
  - Telerik.TestStudio.Interfaces.dll
 
-	Also add the following **.NET** references:
+Also add the following **.NET** references (these are required for the demonstrated code):
 
  - System.Runtime.Serialization
 
  - System.Windows.Forms
-
- > As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 3.&nbsp; Add the following using statements to the class file:
 
@@ -47,7 +45,7 @@ Imports System.Windows.Forms
 Imports ArtOfTest.WebAii.Design.Execution
 ```
 
-4.&nbsp; The *ArtOfTest.WebAii.Design.Execution* namespace contains an IExecutionExtension that our class needs to implement:
+4.&nbsp; The *ArtOfTest.WebAii.Design.Execution* namespace contains an IExecutionExtension that the class library needs to inherit and implement:
 
 ```C#
 namespace ClassLibrary1
@@ -66,10 +64,11 @@ End Namespace
 ```
 
 5.&nbsp; Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
-
+ 
  - The functions you're not using should be left empty (remove *throw new NotImplementedException*).
-
+ 
  - **OnInitializeDataSource** should **not** be left empty and should return **null** if not being used.
+
 
 ```C#
 namespace ClassLibrary1
@@ -214,13 +213,11 @@ End Sub
 
 8.&nbsp; Deploy the extension by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to the following directory:
 
- - **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\**
-
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ - **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
 
 9.&nbsp; Now execute a test list. The result string is written to the defined text file.
 
-##Example of OnInitializeDataSource Method##
+## Example of OnInitializeDataSource Method
 
 Let's see another example using the **OnInitializeDataSource** method. This assumes that your test is already <a href="/features/data-driven-testing/add-data-source" target="_blank">binded</a> to an Excel file, and each Excel file has matching column names.
 
@@ -364,7 +361,7 @@ End Function
 
 ##Remote Execution Behavior##
 
-It was mentioned above in terms of the scope for variables, that some methods are executed only on the machine, where the scheduling server for the current remote setup is located. It is important to know how will the execution extension behave in case of different execution scenarios. For all of the listed configurations the built custom dll file needs to be copied in the **%ProgramFiles%\Telerik\Test Studio\Bin\Plugins\** folder on each remote machine.
+It was mentioned above in terms of the scope for variables, that some methods are executed only on the machine, where the scheduling server for the current remote setup is located. It is important to know how will the execution extension behave in case of different execution scenarios. For all of the listed configurations the built custom dll file needs to be copied in the **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\** folder on each remote machine.
 
 ###Scheduling Server Setup###
 

@@ -1,6 +1,6 @@
 ---
 title: Test Explorer Settings
-page_title: Test Explorer Settings | Test Studio Dev Documentation
+page_title: Test Explorer Settings - Test Studio Dev Documentation
 description: Settings to apply to Test Studio Dev tests when executing from Test Explorer
 position: 1
 ---

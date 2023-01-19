@@ -5,36 +5,34 @@ description: "Configure Chrome to use for testing with Test Studio. Prerequisite
 position: 1
 ---
 
-# Configuring Chrome for Test Studio Automation 
+# Configure Chrome for Test Studio Automation 
 
-This document describes the steps to enable Chrome browser for test recording and execution.
+The document describes the steps to enable Chrome browser for test recording and execution.
 
-## 1. Enable Chrome for Automation
+Chrome is one of the browsers supported from Test Studio for web apps automation. To start using the browser for test recording and execution you only need to apply the specific set of settings called calibration.  
 
-In __Test Studio release 2022 R1__ (v.2022.1.xx) you can choose how to record and execute tests with Chrome browser. In this version it can be enabled for automation with or without the Progress Test Studio Extension. The setting how Chrome will be used is set on project level, which means that you can use both options at the same time depending on the project you work from.
+## Browser Calibration
 
-### Enable Chrome for Automation with Extension
+To ensure a flawless and consistent automation process, there is a list of browser settings which Test Studio requires. We call this **browser calibration** and you can easily apply the specific configuration through the __Project settings__ in the dedicated <a href="/features/project-settings/browsers" target="_blank">__Browsers tab__</a>. You can open it in a web test through the <a href="/automated-tests/test-execution/quick-run-browsers#calibrate-browsers" target="_blank">Test ribbon quick access options</a>. 
 
-By default each Test Studio project is set to use Chrome with the extension. So, if this is the option you want to use, you need to install the latest <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> from the Chrome Web Store.
+![Calibrate browser quick access](/img/automated-tests/test-execution/quick-run-browsers/fig2.png)
 
-### Enable Chrome for Automation without Extension
+## Using Extension for Chrome Automation (Optional)
 
-If you choose to use Chrome for recording and execution without additional extension, you need to __change a setting in the Test Studio project__. The <a href="/features/project-settings/overview" target="_blank">project setting</a> is listed under the __Browsers__ tab and is named __Use browser extension__ (it is enabled by default). __Uncheck the checkbox__ and Test Studio will __start the Chrome browser for this project without using the extensions__ even if this is installed.
+By default Test Studio projects are __set to use Chrome without extension__. Along with that, there is the option to run Chrome automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation. 
 
-![Disable UseBrowserExtension](/img/prerequisites/browser-config/disable-extension.png)
+### Enable Project for Chrome Automation with Extension
 
-## 2. Browser Calibration
+If you choose to use Chrome for recording and execution with the extension, you need to __change a setting in the Test Studio project__. The <a href="/features/project-settings/browsers" target="_blank">project setting is listed under the __Browsers__ tab</a> and is named __Use browser extension(Chrome/Edge Chromium)__. This option is disabled by default, but you can __check the checkbox__ to set Test Studio to __start the Chrome browser for this project with the extensions__.
 
-To ensure a flawless and consistent automation process, there are a few browser settings that we need to apply. We call this **browser calibration** and have implemented a feature to <a href="/features/project-settings/browsers" target="_blank">**automatically calibrate the browser**</a> out of the box. No manual interaction is required.<br><br>
+![Enable UseBrowserExtension](/img/prerequisites/browser-config/disable-extension.png)
 
 > __Important__
 > <br>
+> If your Chrome browser has an active <strong>Google Apps session</strong> (for example, you are logged into GMail), automatic calibration may not work as expected. To use automatic configuration, log out of your Google account first.
 > <br>
-> <p>If your Chrome browser has an active <strong>Google Apps session</strong> (for example, you are logged into GMail), automatic calibration will not work as expected. To use automatic configuration, log out of your Google account first.</p><p></p>
-<p></p>
-
+> <br>
 > __Tip__
-> <br>
 > <br>
 > You can check all settings applied from the calibration in the <a href="#Manual_Configuration">Manual Configuration</a> section below (click the + sign to expand it).<br><br>
 

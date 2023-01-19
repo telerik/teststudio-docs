@@ -1,6 +1,6 @@
 ---
 title: Dynamic Grid
-page_title: Dynamic Grid | Test Studio Dev Documentation
+page_title: Dynamic Grid - Test Studio Dev Documentation
 description: Dynamic Grid
 position: 1
 ---

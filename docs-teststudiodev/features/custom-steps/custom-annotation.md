@@ -1,6 +1,6 @@
 ---
 title: Custom Annotation
-page_title: Custom Annotation | Test Studio Dev Documentation
+page_title: Custom Annotation - Test Studio Dev Documentation
 description: Displays a note on screen during quick execution of a test.
 slug: features/custom-steps/custom-annotation
 position: 7

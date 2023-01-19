@@ -1,6 +1,6 @@
 ---
 title: FindParam Objects
-page_title: FindParam Objects | Test Studio Dev Documentation
+page_title: FindParam Objects - Test Studio Dev Documentation
 description: FindParam Objects
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: Access Oracle Database
-page_title: Access Oracle Database | Test Studio Dev Documentation
+page_title: Access Oracle Database - Test Studio Dev Documentation
 description: Access Oracle Database
 position: 1
 ---

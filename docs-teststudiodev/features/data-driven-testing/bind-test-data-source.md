@@ -1,6 +1,6 @@
 ---
 title: Bind Test to a Data Source
-page_title: Bind Test to a Data Source | Test Studio Dev Documentation
+page_title: Bind Test to a Data Source - Test Studio Dev Documentation
 description: How ot bind a test to an existing data source in Test Studio Dev
 position: 3
 ---

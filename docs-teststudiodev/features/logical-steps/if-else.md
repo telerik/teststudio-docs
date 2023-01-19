@@ -1,6 +1,6 @@
 ---
 title: If...Else
-page_title: If...Else | Test Studio Dev Documentation
+page_title: If...Else - Test Studio Dev Documentation
 description: How to build a if...else with Test Studio Dev 
 slug: features/logical-steps/if-else
 position: 1

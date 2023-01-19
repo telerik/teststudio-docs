@@ -1,6 +1,6 @@
 ---
 title: Using Chained Find Expressions
-page_title: Using Chained Find Expressions | Test Studio Dev Documentation
+page_title: Using Chained Find Expressions - Test Studio Dev Documentation
 description: How to locate n element using its parent node attributes along with its own.
 position: 1
 ---

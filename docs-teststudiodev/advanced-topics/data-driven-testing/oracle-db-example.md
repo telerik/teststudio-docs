@@ -1,6 +1,6 @@
 ---
 title: Oracle Database Example
-page_title: Oracle Database Example | Test Studio Dev Documentation
+page_title: Oracle Database Example - Test Studio Dev Documentation
 description: How to use Oracle DB for data driven testing with Test Studio Dev 
 position: 1
 ---

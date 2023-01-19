@@ -17,7 +17,7 @@ Such a problem could be caused by an unstable test. If a test is created and ran
 
 ## An Execution Extension is Implemented ##
 
-The <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">execution extension</a> library has to be available on each execution machine's *%ProgramFiles%\Telerik\Test Studio\Bin\Plugins* folder. Using such library when executing remotely has some limitations by design though. The methods related to test lists will be executed only on the machine which hosts the scheduling server responsible for the test execution in the current setup. Those methods are *OnBeforeTestListStarted()* and *OnAfterTestListCompleted()*. The rest of the methods will be executed as expected on each execution machine.
+The <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">execution extension</a> library has to be available on each execution machine's *C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins* folder. Using such library when executing remotely has some limitations by design though. The methods related to test lists will be executed only on the machine which hosts the scheduling server responsible for the test execution in the current setup. Those methods are *OnBeforeTestListStarted()* and *OnAfterTestListCompleted()*. The rest of the methods will be executed as expected on each execution machine.
 
 
 ## The Project is in TFS Source Control and a Test List is Scheduled with "Get latest version of tests automatically from TFS" Enabled ##

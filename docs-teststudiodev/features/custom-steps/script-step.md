@@ -1,6 +1,6 @@
 ---
 title: Coded Step
-page_title: Coded Step | Test Studio Dev Documentation
+page_title: Coded Step - Test Studio Dev Documentation
 description: Provides the ability to insert any custom code in a test to perform specific actions or anything beyond the test. 
 slug: features/custom-steps/script-step
 position: 2

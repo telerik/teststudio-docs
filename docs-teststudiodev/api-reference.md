@@ -1,6 +1,6 @@
 ---
 title: API Reference
-page_title: API Reference | Test Studio Dev Documentation
+page_title: API Reference - Test Studio Dev Documentation
 description: API Reference
 slug: teststudiodev/api-reference
 tags: api-reference

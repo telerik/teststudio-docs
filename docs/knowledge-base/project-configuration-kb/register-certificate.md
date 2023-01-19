@@ -44,13 +44,13 @@ This is expected behavior and it's related to the way Test Studio hooks into the
 
 Without a full version of Test Studio installed, there is no GUI to register the certificate as outlined above. This can be done from the command line, however.
 
-Open a command prompt and change the working directory to the Test Studio installation folder `C:\Program Files (x86)\Telerik\Test Studio\Bin`. Then enter the following command:
+Open a command prompt and change the working directory to the Test Studio installation folder `C:\Program Files (x86)\Progress\Test Studio\Bin`. Then enter the following command:
 
 ```
 ArtOfTest.WebAii.HttpProxy.exe InstallCertificate
 ```
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 **See Also:**
 

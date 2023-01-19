@@ -1,6 +1,6 @@
 ---
 title: RadWindow Width & Height
-page_title: RadWindow Width & Height | Test Studio Dev Documentation
+page_title: RadWindow Width & Height - Test Studio Dev Documentation
 description: RadWindow Width & Height
 position: 1
 ---

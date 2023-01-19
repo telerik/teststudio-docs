@@ -1,6 +1,6 @@
 ---
 title: Personal Data Collection
-page_title: Personal Data Collection | Test Studio Dev Documentation
+page_title: Personal Data Collection - Test Studio Dev Documentation
 description: Personal Data Usage By Telerik Products
 slug: prerequisites/personal-data
 tags: personal, data, usage,

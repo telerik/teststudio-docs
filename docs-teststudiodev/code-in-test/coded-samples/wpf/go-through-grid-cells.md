@@ -1,6 +1,6 @@
 ---
 title: Go Through Grid Cells
-page_title: Go Through Grid Cells | Test Studio Dev Documentation
+page_title: Go Through Grid Cells - Test Studio Dev Documentation
 description: Connect to Running App
 position: 4
 ---

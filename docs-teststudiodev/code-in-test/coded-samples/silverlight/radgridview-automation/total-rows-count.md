@@ -1,6 +1,6 @@
 ---
 title: Total Rows Count
-page_title: Total Rows Count | Test Studio Dev Documentation
+page_title: Total Rows Count - Test Studio Dev Documentation
 description: Total Rows Count
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: Attach Columns to Verifications
-page_title: Attach Columns to Verifications | Test Studio Dev Documentation
+page_title: Attach Columns to Verifications - Test Studio Dev Documentation
 description: How to bind the data source to a verification step with Test Studio Dev
 position: 5
 ---

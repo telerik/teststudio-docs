@@ -1,6 +1,6 @@
 ---
 title: Test Properties
-page_title: Test Properties | Test Studio Dev Documentation
+page_title: Test Properties - Test Studio Dev Documentation
 description: Test properties - Test Studio Dev
 slug: features/test-properties
 position: 0

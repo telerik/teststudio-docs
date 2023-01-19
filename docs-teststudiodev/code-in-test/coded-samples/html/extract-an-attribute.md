@@ -1,6 +1,6 @@
 ---
 title: Extract an Attribute
-page_title: Extract an Attribute | Test Studio Dev Documentation
+page_title: Extract an Attribute - Test Studio Dev Documentation
 description: Extract an Attribute
 position: 1
 ---

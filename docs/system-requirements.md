@@ -126,6 +126,21 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
         </tr>
     </tbody>
 </table>
+<table class="Tbl k-table">
+    <colgroup>
+        <col width="100%" />
+        </colgroup>
+    <thead>
+        <tr>
+			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">Windows Desktop Applications Support<td>
+		</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="4">All Windows desktop applications supporting the Microsoft UI Automation framework, including applications containing custom controls that provide the required automation peers.</td>
+        </tr>
+    </tbody>
+</table>
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}

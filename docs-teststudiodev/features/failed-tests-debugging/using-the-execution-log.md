@@ -1,6 +1,6 @@
 ---
 title: Using the Execution Log
-page_title: Using the Execution Log | Test Studio Dev Documentation
+page_title: Using the Execution Log - Test Studio Dev Documentation
 description: The Test Studio Dev Execution log is generated after a test execution. It contains details for the execution. 
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: VS Team Services Builds
-page_title: VS Team Services Test Execution | Test Studio Dev Documentation
+page_title: VS Team Services Test Execution - Test Studio Dev Documentation
 description: VS Team Services Test Execution of Test Studio Dev tests
 position: 4
 ---

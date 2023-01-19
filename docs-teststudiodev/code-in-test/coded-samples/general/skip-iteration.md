@@ -1,6 +1,6 @@
 ---
 title: Skip Iteration
-page_title: Skip Iteration | Test Studio Dev Documentation
+page_title: Skip Iteration - Test Studio Dev Documentation
 description: Skip Iteration
 position: 1
 ---

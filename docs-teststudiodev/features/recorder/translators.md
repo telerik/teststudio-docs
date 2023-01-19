@@ -1,6 +1,6 @@
 ---
 title: Translators
-page_title: Translators | Test Studio Dev Documentation
+page_title: Translators - Test Studio Dev Documentation
 description: Extended support for Telerik controls with Test Studio Dev 
 slug: recorder/translators
 position: 8

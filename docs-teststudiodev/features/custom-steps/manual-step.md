@@ -1,6 +1,6 @@
 ---
 title: Manual Step
-page_title: Manual Step | Test Studio Dev Documentation
+page_title: Manual Step - Test Studio Dev Documentation
 description: Insert a manual step in-between the test execution. 
 slug: features/custom-steps/manual-step
 position: 8

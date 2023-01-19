@@ -111,18 +111,18 @@ Below are several examples of running Telerik.MobileTesting.Runner.exe via the c
 
 The following command will connect to a running message server and execute a single test on the first valid device connected to the message server.
 
-	"C:\Program Files (x86)\Telerik\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /test=androidTest.tmtest
+	"C:\Program Files (x86)\Progress\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /test=androidTest.tmtest
 
 The following command will run a test list against a specific device (its device id provided as argument) and output the result at a specified location.
 
-	"C:\Program Files (x86)\Telerik\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /deviceId= 6968cda2-83e6-4e39-9fcf-30b614656229 /list=AllAndroidTests.mtlist /output="c:\mobileTestingResults\androidRun.mtresult"
+	"C:\Program Files (x86)\Progress\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /deviceId= 6968cda2-83e6-4e39-9fcf-30b614656229 /list=AllAndroidTests.mtlist /output="c:\mobileTestingResults\androidRun.mtresult"
 
 The following command will run a test list on the first valid device connected to the message server, create a result file from the run and put a custom test run name in the result file.
 
-	"C:\Program Files (x86)\Telerik\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /list=AllAndroidTests.mtlist  /runName=AndroidListIteration1   /ouput="c:\mobileTestingResults\androidSingleTestRun.mtresult"
+	"C:\Program Files (x86)\Progress\Test Studio\Bin\MobileStudio\Telerik.MobileTesting.Runner.exe" /msgServer=ws://localhost:8084 /project="c:\testproject\MobileDemoProject" /list=AllAndroidTests.mtlist  /runName=AndroidListIteration1   /ouput="c:\mobileTestingResults\androidSingleTestRun.mtresult"
 
 
-> As of release **2017 R3** (v. 2017.3.1010) the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+ 
 
 [1]: http://www.mono-project.com/download/
 

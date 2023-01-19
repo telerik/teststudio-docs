@@ -1,6 +1,6 @@
 ---
 title: VS 2017 Compatibility
-page_title: VS 2017 Compatibility | Test Studio Dev Documentation
+page_title: VS 2017 Compatibility - Test Studio Dev Documentation
 description: "Test Studio Dev Edition Compatibility with Visual Studio 2017. Prerequisites to install Test Studio Dev Edition plugin with Visual Studio 2017. Test Studio Dev Edition installed on Visual Studio 2017 but cannot start a test project."
 position: 3
 ---

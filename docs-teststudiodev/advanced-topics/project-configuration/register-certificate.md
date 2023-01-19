@@ -1,6 +1,6 @@
 ---
 title: Register Certificate
-page_title: Register Certificate | Test Studio Dev Documentation
+page_title: Register Certificate - Test Studio Dev Documentation
 description: "Register https certificate, I encounter certificate-related warnings when the Test Studio recorder or runner is attached to the browser. Load Test cannot navigate to the desired page due to security warning certificate error"
 position: 0
 ---

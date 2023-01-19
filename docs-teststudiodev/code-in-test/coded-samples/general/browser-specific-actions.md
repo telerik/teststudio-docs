@@ -1,6 +1,6 @@
 ---
 title: Browser Specific Actions
-page_title: Browser Specific Actions | Test Studio Dev Documentation
+page_title: Browser Specific Actions - Test Studio Dev Documentation
 description: Browser Specific Actions
 position: 1
 ---

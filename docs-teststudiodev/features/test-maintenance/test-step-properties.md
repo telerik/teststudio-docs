@@ -1,6 +1,6 @@
 ---
 title: Test Step Properties
-page_title: Test Step Properties | Test Studio Dev Documentation
+page_title: Test Step Properties - Test Studio Dev Documentation
 description: Test step properties in Test Studio Dev 
 slug: features/test-step-properties
 position: 1

@@ -1,6 +1,6 @@
 ---
 title: Jenkins CI
-page_title: Jenkins CI | Test Studio Dev Documentation
+page_title: Jenkins CI - Test Studio Dev Documentation
 description: How tu run Test Studio Dev tests in Jenkins CI
 position: 1
 ---

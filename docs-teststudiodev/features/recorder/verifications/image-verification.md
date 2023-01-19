@@ -1,6 +1,6 @@
 ---
 title: Image Verification
-page_title: Image Verification | Test Studio Dev Documentation
+page_title: Image Verification - Test Studio Dev Documentation
 description: Image verification compares specific elements for pixel-by-pixel visual verifications in Test Studio Dev tests.
 slug: recorder/image-verification
 position: 5

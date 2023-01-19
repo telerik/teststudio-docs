@@ -1,6 +1,6 @@
 ---
 title: Installation
-page_title: Installation | Test Studio Dev Documentation
+page_title: Installation - Test Studio Dev Documentation
 description: How to Install Test Studio Dev
 slug: prerequisites/installation
 tags: installation

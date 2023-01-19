@@ -1,6 +1,6 @@
 ---
 title: Quick Verification
-page_title: Quick Verification | Test Studio Dev Documentation
+page_title: Quick Verification - Test Studio Dev Documentation
 description: How to create a quick verification in Test Studio Dev
 slug: recorder/quick-execution
 position: 1

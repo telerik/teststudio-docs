@@ -1,6 +1,6 @@
 ---
 title: FindParam as XML Data
-page_title: FindParam as XML Data | Test Studio Dev Documentation
+page_title: FindParam as XML Data - Test Studio Dev Documentation
 description: FindParam as XML Data
 position: 1
 ---

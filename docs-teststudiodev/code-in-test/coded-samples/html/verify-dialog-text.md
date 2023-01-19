@@ -1,6 +1,6 @@
 ---
 title: Verify Dialog Text
-page_title: Verify Dialog Text | Test Studio Dev Documentation
+page_title: Verify Dialog Text - Test Studio Dev Documentation
 description: Verify Dialog Text
 position: 1
 ---

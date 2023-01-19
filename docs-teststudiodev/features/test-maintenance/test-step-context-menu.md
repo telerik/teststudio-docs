@@ -1,6 +1,6 @@
 ---
 title: Test Step Context Menu
-page_title: Test Step Context Menu | Test Studio Dev Documentation
+page_title: Test Step Context Menu - Test Studio Dev Documentation
 description: Test step context menu provides further options to edit and maintain steps in a Test Studio Dev test.
 slug: features/step-context-menu
 position: 5

@@ -1,6 +1,6 @@
 ---
 title: Random Row
-page_title: Random Row | Test Studio Dev Documentation
+page_title: Random Row - Test Studio Dev Documentation
 description: Random Row
 position: 1
 ---

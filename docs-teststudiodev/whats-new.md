@@ -1,6 +1,6 @@
 ---
 title: What's New in This Version 
-page_title: What's New in This Version | Test Studio Dev Documentation
+page_title: What's New in This Version - Test Studio Dev Documentation
 description: What's New in This Version 
 slug: teststudiodev/whatsnew
 tags: whatsnew

@@ -1,6 +1,6 @@
 ---
 title: Features in Code
-page_title: Features in Code | Test Studio Dev Documentation
+page_title: Features in Code - Test Studio Dev Documentation
 description: Test Studio Dev allows you to implement coded solutions to extend the functionalities of automation testing
 position: 0
 ---

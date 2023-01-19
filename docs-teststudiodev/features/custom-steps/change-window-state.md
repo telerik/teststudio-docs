@@ -1,6 +1,6 @@
 ---
 title: Change Window State
-page_title: Change Window State | Test Studio Dev Documentation
+page_title: Change Window State - Test Studio Dev Documentation
 description: Change window state is specific for WPF test only and changes the active window state. 
 slug: features/custom-steps/change-window-state
 position: 9

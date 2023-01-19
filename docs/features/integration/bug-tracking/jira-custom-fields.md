@@ -10,11 +10,11 @@ The current Test Studio implementation for JIRA bug tracking does not support sp
 
 ![Jira Error][1]
 
-In order to denote your required fields and what to fill them with, create a file called **JiraMappings.json** in the following directory: **C:\Program Files (x86)\Telerik\Test Studio\Bin\Plugins**
+In order to denote your required fields and what to fill them with, create a file called **JiraMappings.json** in the following directory: **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins**
 
 ![Plugins Folder][2]
 
-> Note that as of version **2017 R3 2017.3.1010** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+
 
 Open it with a text editor, like Notepad, and insert the following content:
 

@@ -6,47 +6,69 @@ position: 1
 ---
 # Activate Your Test Studio License
 
-After installing <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a>, you must authenticate as a licensed user to activate the license. All users, both trial and purchased, will need to perform the license activation and then they can begin using the tool.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> uses a per machine license and it can be activated from a licensed Telerik user. All users, both trial and purchased, need to perform the license activation before using the tool.
 
-If you face any troubles during License activation, you can check the most [common errors and how to solve them](#possible-troubles) at the bottom of the article.
+You can find the following topics in the article: 
+
+- [Launch Test Studio and Login](#launch-test-studio-and-login)
+- [Choose Test Studio Edition](#choose-test-studio-edition)
+- [Choose Test Studio License](#choose-test-studio-license)
+- [Possible troubles when activating the license](#possible-troubles)
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-overview.html %}
 {% endif %}
 
-## Launch Test Studio
+## Launch Test Studio and Login
 
-You can use the Desktop or Windows Start menu shortcuts to start Test Studio. Once this is launched, the Activation Wizard will pop up asking for login credentials. Enter the email address and password for the <a href="https://www.telerik.com/account/" target="_blank">Telerik.com</a> account, which has the Test Studio license assigned. Click the _'Login'_ button.
+Start Test Studio product to launch the __Activation Wizard__ asking for login credentials. You need to login with the email address and password for the <a href="https://www.telerik.com/account/" target="_blank">Telerik.com</a> account, which has the Test Studio license assigned. You can choose the activation method by direct login, login through a browser or <a href="/prerequisites/license-activation/manual-activation" target="_blank">activate manually</a>, which is applicable for activating Test Studio on machines without access to the internet. 
 
-![Log In screen](/img/general-information/installation/activating-your-license/fig1.png)
+![Activation Login screen](/img/prerequisites/license-activation/activating/fig1.png)
 
-## Choose a Test Studio Version
+### Direct Login
 
-You can choose between __Ultimate__ and __Web & Desktop__ versions of Test Studio. Chose your purchased one and click _'Activate Selected Version'_. If you need to change your license later on, you can also change the selected version.
+You can enter the Telerik account credentials directly in the activation wizard and use the __Login__ button to login. 
 
-![Choose version](/img/general-information/installation/activating-your-license/fig2.png)
+![Login button](/img/prerequisites/license-activation/activating/fig2.png)
 
-## Choose a Test Studio License
+### SSO Login
 
-If you are activating purchased Test Studio license and/or you have more than one purchases, you will have to choose which license to activate. In this screen you can see how many _'Available Seats'_ there are - since Test Studio license is machine based, you will be able to activate only these of the purchased licenses, which are not already activated on another machine.
+Choose the __SSO Login__ button to authenticate in a browser.
 
-> __Note!__
+![SSO Login button](/img/prerequisites/license-activation/activating/fig3.png)
+
+The default set browser opens up and redirects you to the Telerik account login page - follow the on-screen instructions to enter your Telerik username and password and login. 
+
+![Browser Login](/img/prerequisites/license-activation/activating/fig4.png)
+
+If you are already logged in to the Telerik.com page in the same browser, the authentication gets checked and you can proceed with choosing the version to activate.
+
+## Choose Test Studio Edition
+
+After successful login the __Activation Wizard__ lets you choose the version of Test Studio, which you want to activate on the machine. On this screen you can see the logged Telerik user and all licenses assigned to it. 
+If the user has a single type of Test Studio license, there is a single listing for it. Select the license to activate and hit the __Activate Selected Version__ button to proceed.
+
+![Choose Test Studio version](/img/prerequisites/license-activation/activating/fig6.png)
+
+## Choose Test Studio License
+
+The following screen appears if the logged user has more than one purchase orders or more than one license in the order - all orders are listed as separate items with their amount of available seats.  
+
+> __Tip__
 > 
-> The following screen does NOT appear if you are activating a trial version or have only one purchase.
+> The __'Available Seats'__ number is the amount of the not activated licenses. Test Studio licenses are associated with the specific machine, so once a license is activated there is a seat used. Check [here](#0-seats-available) if you get '0 available seats'. 
 
-![Choose license](/img/general-information/installation/activating-your-license/fig3.png)
+Choose a license with available seats and click the __Activate Selected License__ button. Once the license is activated for this machine, the __Test Studio Welcome Screen__ pops up and let's you <a href="/getting-started/first-project#starting-welcome-screen" target="_blank">start your journey</a>. 
 
-Click _'Activate Selected License'_ button. After the successful activation you will be directed to the Test Studio Welcome screen and you can start with creating your first project.
+![Choose Test Studio license](/img/prerequisites/license-activation/activating/fig7.png)
 
 ## Possible Troubles
 
-On specific occasions, the activation process may not complete successfully. The most common issues you may encounter are listed below.
+On specific occasions the activation process may not complete successfully. The most common issues you may encounter are listed below.
 
 ### 0 Seats Available
 
-When trying to activate a Test Studio license, you may discover that there are no seats available, although you have a purchased license.
-
-This can happen if the machine on which a Test Studio license was activated:
+When trying to activate a Test Studio license, you may see that there are no seats available, although you have a purchased license. This can happen if the machine on which a Test Studio license was activated:
 
 - has been recently re-imaged
 - has been recently replaced
@@ -58,6 +80,6 @@ To be able to use that license seat again, you need to deactivate this license m
 
 ### Connection Error
 
-If you perform the activation process as described, but you receive an error related to the connection, you will need to activate the Test Studio license manually. You can proceed to the _'Activate Manually'_ button and follow the <a href="manual-activation" target="_blank">Manual Activation</a> help article.
+If you perform the activation process as described, but get an error related to the connection, you can try to activate the Test Studio license manually. You can proceed to the __Activate Manually__ button and follow the steps in the <a href="manual-activation" target="_blank">Manual Activation</a> help article.
 
-![Couldn't log](/img/general-information/installation/activating-your-license/fig5.png)
+

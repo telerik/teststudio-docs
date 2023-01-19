@@ -1,6 +1,6 @@
 ---
 title: LINQ Queries
-page_title: LINQ Queries | Test Studio Dev Documentation
+page_title: LINQ Queries - Test Studio Dev Documentation
 description: LINQ Queries
 position: 1
 ---

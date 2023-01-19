@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-page_title: Quickstart | Test Studio Dev Documentation
+page_title: Quickstart - Test Studio Dev Documentation
 description: How to get started with Test Studio Dev test recording and execution
 slug: quickstart
 tags: introduction
@@ -9,11 +9,20 @@ position: 1
 ---
 # Getting Started: Automation Testing with Test Studio Dev
 
-One article with step-by-step quick start guide – what are the first and most important steps in order to have your first viable test from functional point of view (no installation and licensing). The steps will give summarized information about each step. For detailed information there will be links for the respective article from the Features section.
+__Test Studio Dev Edition__ is the Test Studio plugin for Visual Studio.With this plugin you can create UI functional tests for web, WPF and desktop applications and execute these, get detailed results from the test runs and maintain the test scenarios. 
+
+Follow the steps lised below to get familiar with the Test Studio Dev Edition capabilities. 
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
+
+- [Create a project](#create-a-test-studio-dev-project)
+- [Record a test](#record-a-test)
+- [Elements Explorer](#elements-explorer)
+- [Execute a test](#execute-a-test)
+- [Test results](#test-results)
+- [Coded steps](#coded-steps)
 
 ## Create a Test Studio Dev Project
 
@@ -65,8 +74,10 @@ Once the browser/application is launched the <a href="/features/recorder/recordi
 
 __See also:__
 
-* <a href="/features/recorder/record-test#Record-a-Web-Test" target="_blank">How to record a web test step by step</a>
-* <a href="/features/recorder/record-test#Record-a-WPF-Test" target="_blank">How to record a WPF test step by step</a>
+* <a href="/features/recorder/record-test#record-a-web-test" target="_blank">How to record a Web test step by step</a>
+* <a href="/features/recorder/record-test#record-a-wpf-test" target="_blank">How to record a WPF test step by step</a>
+* <a href="/features/recorder/record-test#record-a-desktop-test" target="_blank">How to record a Desktop test step by step</a>
+
 
 ## Elements Explorer
 
@@ -111,10 +122,6 @@ Run the tests with the _Run All_ button. Or choose a group of tests to run from 
 An instance of the selected browser will start and all recorded actions in test will be executed.
 
 Find further details for the <a href="/features/test-execution/vs-test-explorer" target="_blank">Test Explorer execution</a>.
-
-### Executing Tests in CI Environment
-
-Include a short summary and links to the respective articles.
 
 ## Test Results
 

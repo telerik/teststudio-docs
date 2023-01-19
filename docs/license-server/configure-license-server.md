@@ -125,6 +125,11 @@ If you try to connect to a Licensing server in which there is no Telerik account
 
 ![no active account](/img/license-server/fig15.png)
 
+If you try to connect to a machine where no licensing server is running, or the network access to it is restricted, you get a message for connection problem. Ensure that you try to connect to the correct machine and that the access to it is not blocked. 
+
+![no server installed](/img/license-server/fig15a.png)
+
+
 If you do not have access to the Licensing server, when Test Studio is started and tries to get a license key, you get the message below. You will need to contact the administartor of your machine and the machine, which acts as a Licensing server.
 
 ![no connection to licensing server](/img/license-server/fig16.png)

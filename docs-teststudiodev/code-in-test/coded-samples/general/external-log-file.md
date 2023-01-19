@@ -1,6 +1,6 @@
 ---
 title: External Log File
-page_title: External Log File | Test Studio Dev Documentation
+page_title: External Log File - Test Studio Dev Documentation
 description: External Log File
 position: 1
 ---

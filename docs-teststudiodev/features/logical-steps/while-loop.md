@@ -1,6 +1,6 @@
 ---
 title: While...Loop
-page_title: While...Loop | Test Studio Dev Documentation
+page_title: While...Loop - Test Studio Dev Documentation
 description: How to build a while... loop block with Test Studio Dev 
 slug: features/logical-steps/while-loop
 tags: loop, while, verification

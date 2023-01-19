@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction | Test Studio Dev Documentation
+page_title: Introduction - Test Studio Dev Documentation
 description: Introduction
 position: 1
 ---

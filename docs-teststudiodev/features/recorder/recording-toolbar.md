@@ -1,6 +1,6 @@
 ---
 title: Recording Toolbar
-page_title: Recording Toolbar | Test Studio Dev Documentation
+page_title: Recording Toolbar - Test Studio Dev Documentation
 description: The recording toolbar in Test Studio Dev and what features it provides during a recording session.
 slug: features/recorder/recording-toolbar
 position: 1

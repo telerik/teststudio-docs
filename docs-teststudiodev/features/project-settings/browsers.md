@@ -1,6 +1,6 @@
 ---
 title: Browsers Configuration Settings
-page_title: Browsers Configuration Settings | Test Studio Dev Documentation
+page_title: Browsers Configuration Settings - Test Studio Dev Documentation
 description: "Configure browsers to be used for recording and execution with Test Studio Dev."
 position: 4
 ---

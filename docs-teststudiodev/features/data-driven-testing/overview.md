@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Data Driven Testing Overview | Test Studio Dev Documentation
+page_title: Data Driven Testing Overview - Test Studio Dev Documentation
 description: Data Driven Testing is a testing methodology in which the same sequence of test steps are performed repeatedly using a data source
 position: 0
 ---

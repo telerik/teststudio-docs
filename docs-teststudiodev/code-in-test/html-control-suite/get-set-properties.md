@@ -1,6 +1,6 @@
 ---
 title: Get & Set Properties
-page_title: Get & Set Properties | Test Studio Dev Documentation
+page_title: Get & Set Properties - Test Studio Dev Documentation
 description: Get & Set Properties
 position: 2
 ---
