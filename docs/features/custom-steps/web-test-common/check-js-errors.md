@@ -2,7 +2,7 @@
 title: Check for JS Errors
 page_title: Check for JS Errors
 description: "How to validate if there are any JS/JavaScript errors on the tested page with Test Studio. Verify if a page generates JS/JavaScript errors during a Test Studio test run/execution."
-position: 10
+position: 8
 ---
 # Check for JavaScript Errors
 

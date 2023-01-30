@@ -2,8 +2,7 @@
 title: Custom Annotation
 page_title: Custom Annotation
 description: "How can I add custom notes during the test run/execution in Test Studio."
-previous_url: /user-guide/add-custom-step/custom-annotation.aspx, /user-guide/add-custom-step/custom-annotation
-position: 11
+position: 6
 ---
 # Custom Annotation
 

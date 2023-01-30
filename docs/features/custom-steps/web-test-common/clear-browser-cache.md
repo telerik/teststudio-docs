@@ -2,7 +2,7 @@
 title: Clear Browser Cache
 page_title: Clear Browser Cache
 description: "How to clear the browser cache during a test run in Test Studio. Clear the browser cache in a Test Studio test execution."
-position: 6
+position: 4
 ---
 # Clear Browser Cache
 

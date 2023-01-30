@@ -2,7 +2,7 @@
 title: Navigate To
 page_title: Navigate To
 description: "How to navigate to a page in Test Studio? Can I add a step to navigate to a page in the middle of the test in Test Studio"
-position: 2
+position: 1
 ---
 
 #Navigate To Step#

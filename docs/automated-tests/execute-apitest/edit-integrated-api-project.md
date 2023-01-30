@@ -12,9 +12,9 @@ The _Create Test/ Edit API Project_ button opens the nested API project under th
 
 If this is an empty project proceed with <a href="https://docs.telerik.com/teststudio-apis/features/steps/overview" target="_blank">creating new API tests</a>.
 
-If an existing test is added ensure all external dependencies are manually included. 
-
 ## Add Manually the Necessary External References in Nested API project
+
+If an existing test is added ensure all external dependencies are manually included.
 
 ### Project Level Variables
 

@@ -2,7 +2,7 @@
 title: Maximize Browser
 page_title: Maximize Browser
 description: "How to Maximize the Browser during a test run in Test Studio. Maximize the Browser in a Test Studio test execution."
-position: 5
+position: 3
 ---
 # Maximize Browser
 

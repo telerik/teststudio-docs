@@ -1,8 +1,8 @@
 ---
 title: Browser and Desktop Capture
 page_title: Browser and Desktop Capture
-description: "How to capture the window state/dekstop state during a test run with Test Studio. Test Studio capture a screenshot of the desktop during a test run."
-position: 8
+description: "How to capture the browser window state/desktop state during a web test run with Test Studio. Test Studio captures a screenshot of the desktop during a web test run."
+position: 6
 ---
 # Browser and Desktop Capture
 

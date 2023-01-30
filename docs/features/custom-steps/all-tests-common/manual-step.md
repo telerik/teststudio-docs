@@ -1,8 +1,8 @@
 ---
 title: Manual Step
 page_title: Manual Step
-description: "How to make the test run in Test Studio to stop at certain point of the execution and allow me to do something manually against the application under test. Can I insert a manual step in Test Studio test? Can I perfomr some manual actions during a test run in Test Studio"
-position: 13
+description: "How to make the test run in Test Studio to stop at certain point of the execution and allow me to do something manually against the application under test. Can I insert a manual step in Test Studio test? Can I perform some manual actions during a test run in Test Studio"
+position: 8
 ---
 # Manual Step
 

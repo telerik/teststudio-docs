@@ -2,7 +2,7 @@
 title: Refresh Browser
 page_title: Refresh Browser
 description: "How to refresh the browser during a test run in Test Studio. Refresh Browser Test Studio execution."
-position: 7
+position: 5
 ---
 # Refresh Browser
 

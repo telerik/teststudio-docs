@@ -2,7 +2,7 @@
 title: Inspection Point
 page_title: Inspection Point
 description: "How can I pause the test execution in Test Studio to inspect the DOM tree at certain moment of the run. Is there a way to verify/check/inspect the DOM tree/the page state at certain step of the test run in Test Studio."
-position: 12
+position: 7
 ---
 # Inspection Point
 

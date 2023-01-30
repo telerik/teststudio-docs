@@ -6,8 +6,6 @@ position: 0
 ---
 # Add API Test as Step
 
-> The feature is available as of __Test Studio Ultimate R2 2018__ (v.2018.2.530).
-
 The implemented integration between __Test Studio Web&Desktop__ and __Test Studio for APIs__ projects allows you to insert an API test and execute it as a step in a web test.
 
 ## Add an API Test as Step
@@ -16,7 +14,7 @@ To add a new API test as step first create a web test. Then the option is availa
 
 ![Api Test as step][1]
 
-Double click it to trigger the ___'Select API test'___ dialog. 
+Double click it to trigger the ___'Select API test'___ dialog.
 
 ![Select API test window][2]
 

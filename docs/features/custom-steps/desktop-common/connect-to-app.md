@@ -1,11 +1,12 @@
 ---
-title: Change Window State
-page_title: Change Window State
-description: "How to change the Window state of the WPF application in Test Studio test run. Maximize/Minimize/Set application Window to normal during a test run in Test Studio"
-previous_url: /user-guide/add-custom-step/change-window-state.aspx, /user-guide/add-custom-step/change-window-state
-position: 14
+title: Connect to Application
+page_title: Connect to Application
+description: "How to connect to a running process of a desktop application in Test Studio Desktop test? Can use an already started application to connect to and continue recording steps in the desktop test>"
+position: 2
 ---
-# Change Window State
+# Connect to Application
+
+__====to be updated====__
 
 This feature is WPF-specific and is only available in a WPF Test. **Capture Window** is also available - it is used just like <a href="/features/custom-steps/capture" target="_blank">Capture Browser</a>.
 
