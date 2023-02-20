@@ -6,23 +6,19 @@ position: 2
 ---
 # Press Key
 
-__====to be updated====__
+The __Press Key__ feature allows you to send any specific key press towards the automated application in test run-time.
 
-This feature is WPF-specific and is only available in a WPF Test. **Capture Window** is also available - it is used just like <a href="/features/custom-steps/capture" target="_blank">Capture Browser</a>.
+The article demonstrates how to add this type of step into the test.
 
-As of version 2015 R1 you can find the custom steps in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> under General section.
+Choose the __Press Key__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Step Builder][3]
+![Add Press Key step](/img/features/custom-steps/press-key/fig1.png)
 
-Be sure to enter the applicable WindowCaption so Test Studio acts on the correct window. The WindowState options are:
+There are few notable properties of the step:
 
-- Normal
-- Minimized
-- Maximized
-- Closed
+- __Key__ - defines the key to press, choose an option from the dropdown.
+- __Shift__ - defines if _Shift_ key is pressed when sending the key press.
+- __Alt__ - defines if _Alt_ key is pressed when sending the key press.
+- __Control__ - defines if _Control_ key is pressed when sending the key press.
 
-![Step Properties][2]
-
-[1]: /img/features/custom-steps/change-window-state/fig1.png
-[2]: /img/features/custom-steps/change-window-state/fig2.png
-[3]: /img/features/custom-steps/change-window-state/fig3.png
+![Press Key step properties](/img/features/custom-steps/press-key/fig2.png)

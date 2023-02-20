@@ -38,7 +38,7 @@ The __General__ section in the __Step Builder__ is divided in three sub-sections
 
 - The __Dialogs__ section allows you to manually add steps for <a href="/features/dialogs-and-popups/dialogs" target="_blank">handling different dialogs</a>.
 
-- The __Common__ section consists of different steps suggestions based on the type of test - web or WPF. 
+- The __Common__ section consists of different steps suggestions based on the type of test - web, desktop or WPF.
 
 <table id="no-table">
 	<tr>
@@ -57,7 +57,6 @@ The __General__ section in the __Step Builder__ is divided in three sub-sections
 1. [Clear Browser Cache](/features/custom-steps/clear-browser-cache) - clears all cookies, temp files or history from the active browser depending on the user's choice.
 1. [Refresh Browser](/features/custom-steps/browser-refresh) - refresh the active browser.
 1. [Capture Browser](/features/custom-steps/capture) - take a screenshot of only the browser or the entire desktop.
-1. [Comment](/features/custom-steps/comment) - display a text comment as a single test step and in the test log.
 1. [Wait For URL](/features/custom-steps/wait-for-url) - pause the test until the specified URL is loaded into the browser address bar.
 1. [Check for JS Errors](/features/custom-steps/check-js-errors) - verify if there are any JS errors on the page.
 1. [Comment](/features/custom-steps/comment) - a comment as a step in the test

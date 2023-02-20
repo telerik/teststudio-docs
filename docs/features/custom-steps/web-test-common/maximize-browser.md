@@ -6,9 +6,10 @@ position: 3
 ---
 # Maximize Browser
 
-This step will maximize, minimize or restore the browser window. The user can choose one of the tree options.
-<br>
-<br>
-![Maximize Browser Step](/img/features/custom-steps/maximize-browser/fig1.png)
+The __Maximize Browser__ feature allows you to maximize the executing browser during the test run-time.
 
- 
+This article demonstrates how to add this type of step into the test.
+
+Choose the __Maximize Browser__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
+
+![Maximize Browser Step](/img/features/custom-steps/maximize-browser/fig1.png)

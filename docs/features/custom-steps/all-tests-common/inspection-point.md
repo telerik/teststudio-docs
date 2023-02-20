@@ -6,12 +6,14 @@ position: 7
 ---
 # Inspection Point
 
-This step will pause the test and display the DOM Explorer. This is useful for viewing and inspecting the DOM at a specific point in the test. You can check that a specific element remains as you originally recorded it or if you need to change its <a href="/features/elements-explorer/find-element" target="_blank">Find Expression</a>.
+The __Inspection Point__ step pauses the test and displays the DOM Explorer with the current state of the DOM. This is useful for viewing and inspecting the DOM at a specific point in the test.
+
+This article demonstrates how to add this type of step into the test.
+
+Choose the __Inspection Point__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
+
+![Add Inspection Point Step](/img/features/custom-steps/inspection-point/fig0.png)
+
+The DOM Explorer gets opened in separate window where you can search through it. The test execution remains paused until you close the DOM Explorer window.
 
 ![Inspect Browser DOM Step](/img/features/custom-steps/inspection-point/fig1.png)
-
-<br>
-The test will remain paused until you close the DOM Explorer window.
-<br>
-<br>
-![DOM Window](/img/features/custom-steps/inspection-point/fig2.png)

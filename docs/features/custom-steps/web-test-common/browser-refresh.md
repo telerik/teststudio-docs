@@ -6,11 +6,10 @@ position: 5
 ---
 # Refresh Browser
 
-Add this step to refresh the active browser.
+The __Refresh Browser__ feature allows you to refresh the executing browser during the test run-time.
 
-![Add step][1]
+This article demonstrates how to add this type of step into the test.
 
-![Browser refresh step][2]
+Choose the __Refresh Browser__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-[1]: /img/features/custom-steps/refresh-browser/fig1.png
-[2]: /img/features/custom-steps/refresh-browser/fig2.png
+![Add Refresh Browser step](/img/features/custom-steps/refresh-browser/fig1.png)

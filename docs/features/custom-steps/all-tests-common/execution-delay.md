@@ -6,13 +6,19 @@ position: 4
 ---
 # Execution Delay
 
-Insert an Execution Delay to pause the test for a set amount of time. Set the "WaitTime" property of the step to any number of milliseconds.
+The __Execution Delay__ step allows you to pause the test execution for the set amount of time in milliseconds.
 
-While <a href="/features/verifications/overview" target="_blank">Verify and Wait steps</a> are ideal to ensure elements exist and are correct before continuing, an execution delay can help in observing test execution.
+This article describes how to add this type of step in the test.
 
-![Execution Delay Step 2015](/img/features/custom-steps/execution-delay/fig3.png)
+Choose the __Execution Delay__ step from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-If you want the test to pause for a set amount of time between each step during quick execution, use the Annotation feature.
+![Execution Delay Step](/img/features/custom-steps/execution-delay/fig1.png)
 
+Change the amount of time to wait in the step's property _WaitTime_:
 
-![Enable Annotation](/img/features/custom-steps/execution-delay/fig2.png)
+![Execution Delay properties](/img/features/custom-steps/execution-delay/fig2.png)
+
+> __Tip__
+> <br>
+> <br>
+> It is recommended to try synchronizing the test run with the help of a <a href="/features/recorder/highlighting-menu/quick-steps/quick-verification" target="_blank">verify</a> or <a href="/features/recorder/highlighting-menu/quick-steps/wait" target="_blank">wait</a> step which are related to elements from the page. The so called _'hard-coded'_ wait is to be used when there is no specific verification to handle need of wait.

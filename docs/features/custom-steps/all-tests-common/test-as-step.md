@@ -7,7 +7,7 @@ position: 1
 
 # Test as Step
 
-The feature allows you to run an existing test as a single step within another test. Using tests as step can help to reuse common automated steps across the project. This approach is also known as test modularization and includes breaking up the testing tasks into modules that do specific small functions on their own, but do not perform the complete end-to-end testing scenario.
+The __Test as step__ feature allows you to run an existing test as a single step within another test. Using tests as step can help to reuse common automated steps across the project. This approach is also known as test modularization and includes breaking up the testing tasks into modules that do specific small functions on their own, but do not perform the complete end-to-end testing scenario.
 
 This article describes how to add this type of step and demonstrates an example scenario.
 
@@ -17,7 +17,7 @@ This article describes how to add this type of step and demonstrates an example 
 
 ## Add Test as Step
 
-Choose the _Test as Step_ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
+Choose the __Test as Step__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
 ![Step Builder Test as step](/img/features/custom-steps/test-as-step/fig7.png)
 

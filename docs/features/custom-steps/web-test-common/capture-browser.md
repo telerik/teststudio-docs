@@ -6,24 +6,38 @@ position: 6
 ---
 # Browser and Desktop Capture
 
-Capture full resolution images of the browser and desktop at designated steps in your test. These two steps allow you to visually capture states at any point in a test and export them as PNG files to a specified folder. These images will be larger and higher quality than what is presented in the <a href="/features/test-maintenance/storyboard" target="_blank">Storyboard</a> Test View. 
+The __Capture Browser__ feature allows you to visually capture states at any point in a test and export them as PNG files to a specified folder. These images are larger and with higher quality than what is presented in the <a href="/features/test-maintenance/storyboard" target="_blank">Storyboard</a>.
 
-Highlight the Capture step and go the **Properties** area to change the file name for the images and toggle the Capture type between Browser and Desktop.
+This article demonstrates how to add this type of step into the test and use its properties.
+
+- [Add Capture Browser Step](#add-capture-browser-step)
+- [Capture Browser Step Properties](#capture-browser-step-properties)
+- [Find the Images from Capture Browser Step](#find-the-images-from-capture-browser-step)
+
+## Add Capture Browser Step
+
+Choose the __Capture Browser__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
+
+![Add Capture Browser step](/img/features/custom-steps/capture/fig0.png)
+
+## Capture Browser Step Properties
+
+Expand the __Capture__ step and toggle the __CaptureType__ to _Desktop_ or _Browser_ depending on what you need to capture. The __FileNamePrefix__ property lets you choose the file name for the images.
 
 ![Step Properties](/img/features/custom-steps/capture/fig1.png)
 
-Once you add a Browser or Desktop Capture step to your test, and that test is part of a Test List, you can edit its settings.
+## Find the Images from Capture Browser Step
 
-> Images are not captured to disk when the Browser and Desktop steps are in a test that is ran with Quick Execution. The following message will show in the log:
+The images from __Capture Browser__ step are generated and stored when the test is <a href="/automated-tests/test-lists/test-list-execution" target="_blank">executed as part of a test list</a>.
 
-> * *Image not captured to disk. CreateLogFile is set to 'false'.*
+> __Important!__
+> <br>
+> <br>
+> Images from __Capture Browser__ step are not stored to disk when the test is executed through the <a href="/automated-tests/test-execution/quick-execution" target="_blank">Quick Execution mode</a>. The following message appears in the log:
+> ` Image not captured to disk. CreateLogFile is set to 'false'.`
 
-To capture the Browser and Desktop Capture images to disk, see the articles on creating and executing a Test List in the <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Standalone version</a> or using the Test View in the <a href="/getting-started/test-execution/visual-studio-2012-and-later-test-list" target="_blank">Visual Studio plugin</a>.
+To store the Browser and Desktop Capture images to disk include the test in a test list and edit <a href="/features/test-lists/test-list-settings" target="_blank">its settings</a>. Ensure **CreateLogFile** is enabled and, optionally, specify the output directory for the image captures in the __LogLocation__ setting.
 
-![Step Properties](/img/features/custom-steps/capture/fig2.png)
-
-Ensure **CreateLogFile** is checked. You can also specify the output directory for the image captures.
-
-![Step Properties](/img/features/custom-steps/capture/fig3.png)
+![Test List settings](/img/features/custom-steps/capture/fig3.png)
 
 > In the VS plugin, the images are output to **ProjectsFolder\ProjectName\TestResults\User_MachineName_Date_Time\Out**

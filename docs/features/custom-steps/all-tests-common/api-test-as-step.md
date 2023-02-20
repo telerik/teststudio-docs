@@ -6,19 +6,16 @@ position: 2
 ---
 # API Test as Step
 
-Test Studio supports the execution of API calls managed in an API test from the context of other test types.
+The __API test as step__ feature allows you to execute an <a href="https://docs.telerik.com/teststudio-apis/" target="_blank">API test</a> from the context of the other test types in Test Studio.
 
-This article demonstrates how to add the API test as step.
+This article demonstrates how to add this type of step into the test.
 
-## Insert API Test as a Step
-
-Choose the _API Test as Step_ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
+Choose the __API Test as Step__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
 ![Step Builder API Test as step](/img/features/custom-steps/api-test-as-step/fig1.png)
 
-The available options to add an API test are either to <a href="/automated-tests/execute-apitest/add-api-test-as-step#create-test" target="_blank">create a new test</a> or <a href="/automated-tests/execute-apitest/add-api-test-as-step#import-existing-test" target="_blank">import an existing</a> one. If you choose to add a test from existing project, you need to <a href="/automated-tests/execute-apitest/edit-integrated-api-project" target="_blank">manually re-add all external dependencies</a>.
+The API test as step requires additional adjustments. The details for these can be found in the following articles:
 
-> __Tip__
-> <br>
-> <br>
-> Find out more about <a href="/automated-tests/execute-apitest/passing-variables" target="_blank">passing variables between the web and API test</a>.
+- <a href="/automated-tests/execute-apitest/add-api-test-as-step" target="_blank">Add API Test as Step</a>
+- <a href="/automated-tests/execute-apitest/edit-integrated-api-project" target="_blank">Edit Tests in Integrated API Project</a>
+- <a href="/automated-tests/execute-apitest/passing-variables" target="_blank">Passing Variables Between API and Web&Desktop Projects</a>

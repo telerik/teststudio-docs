@@ -6,21 +6,19 @@ position: 1
 ---
 # Change Window State
 
-This feature is WPF-specific and is only available in a WPF Test. **Capture Window** is also available - it is used just like <a href="/features/custom-steps/capture" target="_blank">Capture Browser</a>.
+The __Change Window State__ feature allows you to change the state of the WPF application window in test run-time. This article demonstrates how to add this type of step into the test.
 
-As of version 2015 R1 you can find the custom steps in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> under General section.
+Choose the __Change Window State__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Step Builder][3]
+![Add Change Window State Step](/img/features/custom-steps/change-window-state/fig1.png)
 
-Be sure to enter the applicable WindowCaption so Test Studio acts on the correct window. The WindowState options are:
+The __WindowState__ property of the step allows to change this to one of the following options:
 
 - Normal
 - Minimized
 - Maximized
 - Closed
 
-![Step Properties][2]
+The __WindowCaption__ property defines the window which state gets changed and is a mandatory field.
 
-[1]: /img/features/custom-steps/change-window-state/fig1.png
-[2]: /img/features/custom-steps/change-window-state/fig2.png
-[3]: /img/features/custom-steps/change-window-state/fig3.png
+![Step Properties](/img/features/custom-steps/change-window-state/fig2.png)

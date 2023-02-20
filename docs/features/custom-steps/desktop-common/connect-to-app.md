@@ -6,23 +6,19 @@ position: 2
 ---
 # Connect to Application
 
-__====to be updated====__
+The __Connect to Application__ feature allows you to connect the test recording and execution process to an already started desktop application.
 
-This feature is WPF-specific and is only available in a WPF Test. **Capture Window** is also available - it is used just like <a href="/features/custom-steps/capture" target="_blank">Capture Browser</a>.
+This article demonstrates how to add this type of step into the test.
 
-As of version 2015 R1 you can find the custom steps in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> under General section.
+Choose the __Connect to Application__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Step Builder][3]
+![Add Connect to Application step](/img/features/custom-steps/connect-to-app/fig1.png)
 
-Be sure to enter the applicable WindowCaption so Test Studio acts on the correct window. The WindowState options are:
+There are few notable properties of the step:
 
-- Normal
-- Minimized
-- Maximized
-- Closed
+- __Process Name__ - defines the process to connect to; mandatory property.
+- __Process Index__ - defines the index of the application process, if needed.
+- __Set Focus__ - sets focus on the application one it is launched.
+- __Auto Close__ - closes the application process when test completes.
 
-![Step Properties][2]
-
-[1]: /img/features/custom-steps/change-window-state/fig1.png
-[2]: /img/features/custom-steps/change-window-state/fig2.png
-[3]: /img/features/custom-steps/change-window-state/fig3.png
+![Connect to Application step properties](/img/features/custom-steps/connect-to-app/fig2.png)

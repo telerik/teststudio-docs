@@ -6,16 +6,17 @@ position: 3
 ---
 # Coded Step
 
-This function adds a coded step, opens the code editor, and allows you to input custom code. This is for more complicated steps that cannot be recorded through the user interface. Visit the <a href="/features/coded-steps/coded-step" target="_blank">Coded Steps section</a> for more details.
+The __Coded Step__ feature allows you to insert a coded function in the automation test. It directly opens the code editor and lets you input custom coded solution.
 
-Write your code within the method defined in the coded file. Note that the coded step is named after the test and step and you can input a custom description.
+This article demonstrates how to add this type of step into the test.
 
-![Add coded step][2]
+Choose the __API Test as Step__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-If you receive an Assembly Reference error upon execution, please see our article on how to <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> in the standalone version.
+![Coded step](/img/features/custom-steps/script-step/fig2.png)
 
-In the VS plugin, you are taken to the code behind file where you can insert your custom code. If you receive a Deployment error upon build/rebuild, please read this <a href="/troubleshooting-guide/visual-studio-tg/enable-deployment" target="_blank">KB article</a> for a solution.
+The coded step requires additional adjustments. The details for these can be found in the following articles:
 
-![In VS](/img/features/custom-steps/script-step/fig2.png)
-
-[2]: /img/features/coded-steps/coded-steps/fig2.png
+- <a href="/automated-tests/coded-tests/coded-step" target="_blank">Introduction to Coded Tests</a>
+- <a href="/automated-tests/coded-tests/add-assembly-reference" target="_blank">Reference External Code Library File</a>
+- <a href="/automated-tests/coded-tests/compile-project" target="_blank">Compile Project with Coded Files</a>
+- <a href="/automated-tests/coded-tests/output-panel" target="_blank">Output Panel</a>
