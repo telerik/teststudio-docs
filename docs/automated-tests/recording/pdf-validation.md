@@ -20,7 +20,7 @@ Windows OS default settings use Edge browser as a PDF viewer. As long as this is
 
 To be able to __use the PDF validation with Edge browser__, you need to __change the Windows OS default PDF viewer__ and choose another app to open PDF documents.
 
-![Set default pdf viewer](/img/automated-tests/recording/validate-pdfset-default-pdf-viewer.png)
+![Set default pdf viewer](/img/automated-tests/recording/validate-pdf/set-default-pdf-viewer.png)
 
 ## Download and Open PDF File
 
