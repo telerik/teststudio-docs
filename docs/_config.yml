@@ -226,7 +226,7 @@ navigation:
         title: "Step Builder Pane"
         position: 5
     features/dialogs-and-popups:
-        title: "Steps to Handle Dialogs & Popups"
+        title: "Handle Dialogs & Popups Steps"
         position: 6
     features/logical-steps:
         title: "Logical/Conditional Steps"

@@ -44,7 +44,13 @@ If the navigated URL differs from the project BaseURL the navigation step is rec
 
 ![Step property base URL differs from project][4]
 
-> __Note!__ The Navigate step overrides both the project and the test list BaseURL setting. Thus, if you need a single test to use different URL, adjust its Navigate step to use that desired URL.
+> __Note!__
+><br>
+><br>
+> If the __BaseUrl__ property of the __Navigate To__ step is set, it overwrites both the project and the test list set _BaseUrl_ setting. Ensure to __keep the step's property _BaseUrl_ empty__ if you need to run the tests against different environments.
+><br>
+><br>
+> If you need a single test to use different URL, other than the BaseURL, use the __Navigate To__ step property _BaseUrl_.
 
 ## Project Property in the Visual Studio Plugin ##
 
