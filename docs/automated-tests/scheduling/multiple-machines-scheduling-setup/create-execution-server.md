@@ -113,34 +113,45 @@ Test Studio allows you to apply different configurations for the user session on
 
 ### Keep Machine Awake
 
-If this option is enabled, as long as the Test Studio Scheduling Client process is running, it will prevent your machine from falling to sleep, locking or showing screen saver. This will prevent them from breaking your UI tests.
-
-Once the option is disabled or the Test Studio Scheduling Client process is stopped, the operating system will be able to get to sleep/lock normally.
+With this option enabled and as long as the Test Studio Scheduling Client process is running, it __prevents the machine from falling to sleep, locking or showing screen saver__.
 
 > __Note!__ 
 ><br> 
-><br> This functionality will not prevent the user to manually lock the machine or put it to sleep.
+><br> This functionality __does not prevent__ the user to manually lock the machine or put it to sleep.
 ><br> 
 ><br>
 > __Note!__ 
 ><br> 
-><br> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Please consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
+><br> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
+
+Once the __option is disabled or the Test Studio Scheduling Client process is stopped__, the operating system is able to get to sleep/lock normally.
 
 ### Reconnect to Console on Disconnect
 
-When running tests on a remote virtual or physical machine, users would usually connect to that machine via Remote Desktop Connection (RDC) to start and configure the Test Studio Scheduling Client. If after that the user closes their RDC window, their user session on the virtual machine will be switched to 'disconnected' state and will lose access to the graphical user interface (GUI). This will prevent UI tests to be executed normally, whenever an interaction to the GUI is needed (e.g. performing real mouse click or keyboard actions, dialog interaction, etc.).
+When running tests on a remote virtual or physical machine, users would usually connect to that machine via Remote Desktop Connection (RDC) to start and configure the Test Studio Scheduling Client. If after that the user closes their RDC window, their user session on the virtual machine is switched to 'disconnected' state and lose access to the graphical user interface (GUI). This prevents UI tests to be executed normally, whenever an interaction to the GUI is needed (e.g. performing real mouse click or keyboard actions, dialog interaction, etc.).
 
-When the *'Reconnect to Console on Disconnect'* feature is enabled, Test Studio will try to reconnect your disconnected session to the local console session, regaining access to the GUI.
+When the __'Reconnect to Console on Disconnect'__ feature is enabled, Test Studio tries __to reconnect your disconnected session to the local console session__, regaining access to the GUI.
 
-> __Note!__ When your session gets connected to the local console session, if there is a physical monitor, attached to the Windows machine, your session will be displayed on it. If there is another user, that has physical access to the machine, they will be able to view your screen or interact with it. This could be a security issue, so please consider carefully if that is acceptable for your organization before using the feature.</br>
-></br>
-> __Note!__ This feature will not have effect if you keep your Remote Desktop Connection session open, but minimized. You can see <a href="/knowledge-base/test-execution-kb/minimized-rdc" target="_blank">this article</a> for information on handling this case.
+> __Note!__ 
+><br>
+> In the case when there is a __physical monitor attached to the Execution machine__, the reconnected __console session gets displayed__ on it.
+><br>
+> That means if there is another user who has physical access to the machine, they will be able to view the screen or interact with it. Therefore consider carefully if that is acceptable for your organization before using the feature.
+><br>
+><br>
+> __Note!__ 
+><br>
+> If you keep the __Remote Desktop Connection session open__ but minimized, the local console session isn't reconnected.
+><br>
+> If you need to run tests in <a href="/knowledge-base/test-execution-kb/minimized-rdc" target="_blank">minimized RDP window you can try modifying the Terminal Server Client registry keys as suggested</a>.
 
 ### Change Console Resolution
 
-When the *'Reconnect to Console on Disconnect'* feature is enabled, you have the option to change the Console session resolution - you can choose the desired resolution from the dropdown menu. This option is useful when tests are executed on remote machine and successful test run depends on particular screen resolution. When set through the Test Studio Runner, you can ensure the automated tests will be executed on the specified resolution.
+When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have the option to change the __Console session resolution__ - you can choose the desired resolution from the dropdown menu. This option is useful when tests are executed on remote machine and successful test run depends on particular screen resolution. When set through the Test Studio Runner, you can ensure the automated tests are executed on the specified resolution.
 
-__See Also:__ You may find additional notes on the topic in our blog post <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">__Improve Your Remote Test Execution with Test Studio User Session Configuration__</a>.
+## See Also
+
+* <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">Improve Your Remote Test Execution with Test Studio User Session Configuration</a>.
 
 [1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png
 [1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png

@@ -40,7 +40,7 @@ Test Studio allows <a href="/knowledge-base/test-execution-kb/base-url" target="
     ><br>
     >  When the __BaseUrl__ property of the __Navigate To__ step is set, it is always used upon execution, or in other words it overwrite the project and test list settings for the multiple environments setup of the project.
 
-2. If the <a href="/features/project-settings/recording-options" target="_blank">project setting __BaseUrl__ is set</a>, it is used in the following manner: Upon execution the __Navigate To__ step property _NavigateUrl_ is appended to the project set _BaserUrl_ (assuming the step's _BaseUrl_ property is empty).
+2. If the <a href="/features/project-settings/recording-options" target="_blank">project setting</a> __BaseUrl__ is set, it is used in the following manner: Upon execution the __Navigate To__ step property _NavigateUrl_ is appended to the project set _BaserUrl_ (assuming the step's _BaseUrl_ property is empty).
 
 3. If the <a href="/features/test-lists/test-list-settings#web-tab" target="_blank">test list setting</a> __BaseUrl__ is set, it is used in the following manner: Upon execution the __Navigate To__ step property _NavigateUrl_ is appended to the test list set _BaserUrl_ (assuming the step's _BaseUrl_ property is empty).
 
