@@ -50,7 +50,6 @@ Manager.DialogMonitor.Stop();
 //Manager.ActiveBrowser.RefreshDomTree();
 
 ```
-
 ```VB
 ' Define the Prompt dialog
 IDialog promptDlg = New ArtOfTest.WebAii.Win32.Dialogs.PromptDialog(Manager.ActiveBrowser, DialogButton.OK, "stringMsg")

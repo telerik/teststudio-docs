@@ -51,7 +51,6 @@ Manager.DialogMonitor.Stop();
 //Manager.ActiveBrowser.RefreshDomTree();
 
 ```
-
 ```VB
 ' Define the Alert dialog
 IDialog alertDlg = New ArtOfTest.WebAii.Win32.Dialogs.AlertDialog(Manager.ActiveBrowser, DialogButton.OK)

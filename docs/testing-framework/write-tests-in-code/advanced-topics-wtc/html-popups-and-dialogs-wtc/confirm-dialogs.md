@@ -50,7 +50,6 @@ Manager.DialogMonitor.Stop();
 //Manager.ActiveBrowser.RefreshDomTree();
 
 ```
-
 ```VB
 ' Define the Confirm dialog
 IDialog confirmDlg = New ArtOfTest.WebAii.Win32.Dialogs.ConfirmDialog(Manager.ActiveBrowser, DialogButton.OK)
