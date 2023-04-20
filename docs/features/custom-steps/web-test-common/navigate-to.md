@@ -31,9 +31,9 @@ Other useful properties of the step are:
 
 Test Studio allows <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">setting up a project for running tests against multiple environments</a>. If using such setup there are few important notes about the __Navigate To__ steps across the tests.
 
-1. The __Navigate To__ step has two properties related to the URL to be used - the __NavigateUr__, which defines the part of the URL which is different from the BaseUrl,  and the __BaseUrl__, which defines the BaseUrl itself.
+1. The __Navigate To__ step has two properties related to the URL to be used - the __NavigateUrl__, which defines the part of the URL which is different from the BaseUrl,  and the __BaseUrl__, which defines the BaseUrl itself.
 
-    __Example__: If using the `https://docs.telerik.com/teststudio/system-requirements` for testing, it can be split to _BaseUrl_: `https://docs.telerik.com/teststudio` and _NavigateUrl_: `/system-requirements`.
+    __Example__: If using the `https://docs.telerik.com/teststudio/system-requirements` for testing, it can be split to __BaseUrl__: `https://docs.telerik.com/teststudio` and __NavigateUrl__: `/system-requirements`.
 
     > __Note!__
     ><br>

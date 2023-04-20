@@ -1,7 +1,7 @@
 ---
 title: HtmlWait Class
 page_title: HtmlWait Class
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework HtmlWait Class used to wait for visibility state of an HTML element identified in the DOM in coded tests. Wait for an element's custom condition in coded tests."
 position: 2
 ---
 #How to Use the HtmlWait Class#

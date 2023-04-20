@@ -1,20 +1,21 @@
 ---
 title: Desktop Application
 page_title: Desktop Application Will Not Record
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio supports both WPF applications and any other Desktop applications. The two type of testing use different type of tests - WPF test and Desktop test."
 position: 1
 ---
 # Desktop Application Will Not Record
 
 ## PROBLEM
 
-
 I created a WPF Test and configured my application. When I press **Record**, the application launches but no steps are recorded in Test Studio.
 
 
 ## SOLUTION
 
-Test Studio supports WPF desktop application automation. Test Studio does not support testing against WinForms applications. Ensure the application under test is 100% WPF and contains no non-WPF components.
+Test Studio supports WPF applications automation under the <a href="/automated-tests/wpf/wpf-test" target="_blank">WPF test type</a>. Test Studio also supports testing against any other desktop applications under the <a href="/automated-tests/desktop-testing/desktop-test" target="_blank">Desktop test type</a>.
+
+For WPF testing ensure the application under test is 100% WPF and contains no non-WPF components. If it uses mixed technologies use the Desktop test.
 
 If you are unsure whether your desktop application is WPF, follow these steps:
 

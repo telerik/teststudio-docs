@@ -1,7 +1,7 @@
 ---
 title: WPF Dialogs
 page_title: WPF Dialogs
-description: "Test Studio WPF dialog handlers in code. SaveFile SaveAs dialog handler in WPF. OpenFile dialog handler in WPF. "
+description: "Test Studio WPF dialog handlers in code. SaveFile SaveAs dialog handler in WPF coded test. OpenFile dialog handler in WPF coded test."
 position: 8
 ---
 # WPF Dialog Handlers in Code

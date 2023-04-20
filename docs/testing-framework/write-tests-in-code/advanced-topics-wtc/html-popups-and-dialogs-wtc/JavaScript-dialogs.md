@@ -1,7 +1,7 @@
 ---
 title: Alert Dialogs
 page_title: Alert Dialogs
-description: "Test Studio Testing Framework Dialog handling. Handle Alert dialog in coded step in Test Studio. Coded test to handle alert dialogs in Test Studio."
+description: "Handle Alert dialog in coded step in Test Studio. Coded test to handle alert dialogs in Test Studio. Test Studio Testing Framework Alert Dialog handling. "
 position: 2
 ---
 # Handling Alert Dialogs

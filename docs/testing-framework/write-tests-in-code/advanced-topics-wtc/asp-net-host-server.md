@@ -1,7 +1,7 @@
 ---
 title: Asp.NET Host Server
 page_title: Asp.NET Host Server
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework support for Asp.NET Host Server"
 position: 1
 ---
 #Using Asp.Net In-Process Host Server#

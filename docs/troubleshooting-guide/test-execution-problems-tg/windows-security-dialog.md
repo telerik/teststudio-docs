@@ -1,7 +1,7 @@
 ---
 title: Windows Security Dialog
 page_title: Windows Security Dialog
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Handle Windows Security Dialog in Test Studio if the standard Logon dialog handler is not working."
 position: 1
 ---
 # Custom Windows Security Dialog Could Not Be Automated 

@@ -1,7 +1,7 @@
 ---
 title: Confirm Dialogs
 page_title: Confirm Dialogs
-description: "Test Studio Testing Framework Dialog handling. Handle Confirm dialog in coded step in Test Studio. Coded test to handle confirm dialogs in Test Studio."
+description: "Handle Confirm dialog in coded step in Test Studio. Coded test to handle confirm dialogs in Test Studio. Test Studio Testing Framework Confirm Dialog handling. "
 position: 3
 ---
 # Handling Confirm Dialogs

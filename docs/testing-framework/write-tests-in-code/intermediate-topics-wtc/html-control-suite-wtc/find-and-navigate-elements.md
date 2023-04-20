@@ -1,7 +1,7 @@
 ---
 title: Find and Navigate Elements
 page_title: Find and Navigate Elements
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework finding elements in code and navigating through the DOM."
 position: 2
 ---
 #Finding and Navigating HTML Elements#

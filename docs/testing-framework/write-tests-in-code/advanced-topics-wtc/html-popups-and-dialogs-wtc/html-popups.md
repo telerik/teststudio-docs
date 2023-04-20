@@ -1,7 +1,7 @@
 ---
 title: HTML Popups
 page_title: HTML Popups
-description: "Test Studio and its underlaying Testing Framework lets you interact with a new browser or tab opened from an action on the current page. Switch the focus on the newly opened browser and continue interacting with it. Switch the focus back to the initial window."
+description: "Handle HTML popups in a coded step in Test Studio. Coded test to handle HTML popups in Test Studio. Test Studio Testing Framework HTML popups handling."
 position: 1
 ---
 # Handling HTML Pop-ups

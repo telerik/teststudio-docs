@@ -1,7 +1,7 @@
 ---
 title: Using the HTTP Proxy
 page_title: Using the HTTP Proxy
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework support for using HTTP proxy. "
 position: 1
 ---
 #Using the HTTP Proxy#

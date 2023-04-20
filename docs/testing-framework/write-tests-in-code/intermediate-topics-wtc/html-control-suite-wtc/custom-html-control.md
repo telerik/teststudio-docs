@@ -1,7 +1,7 @@
 ---
 title: Custom HtmlControl
 page_title: Custom HtmlControl
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework Custom HtmlControl - design CustomControl class in coded test to interact with custom components on the tested application."
 position: 2
 ---
 #Creating Your Own Custom HtmlControls#

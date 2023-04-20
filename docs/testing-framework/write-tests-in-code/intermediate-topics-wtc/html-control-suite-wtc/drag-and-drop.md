@@ -1,7 +1,7 @@
 ---
 title: Drag & Drop
 page_title: Drag & Drop
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework Drag&Drop  actions in coded tests. Use the DragTo() methods to define the desired action to drag an element and drop it on specific point."
 position: 2
 ---
 #How to Drag and Drop#

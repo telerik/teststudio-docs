@@ -1,7 +1,7 @@
 ---
 title: Prompt Dialogs
 page_title: Prompt Dialogs
-description: "Test Studio Testing Framework Dialog handling. Handle Prompt dialog in coded step in Test Studio. Coded test to handle prompt dialogs in Test Studio."
+description: "Handle Prompt dialog in coded step in Test Studio. Coded test to handle prompt dialogs in Test Studio. Test Studio Testing Framework Prompt Dialog handling. "
 position: 4
 ---
 # Handling Prompt Dialogs
