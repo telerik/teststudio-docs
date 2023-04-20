@@ -1,8 +1,7 @@
 ---
 title: Highlighting Misaligned
 page_title: Highlighting Misaligned
-description: "recording problem. Highlighting is not aligned correctly. Highlight element problem. Highlight element is misaligned."
-previous_url: /user-guide/troubleshooting_guide/recording-problems/hover-over-highlighting-is-misaligned.aspx
+description: "While recording a Test Studio test the highlighting does not hover the correct elements. Highlighting is not aligned correctly. Highlight element issues. Highlight element is misaligned."
 position: 1
 ---
 # Highlighting Misaligned

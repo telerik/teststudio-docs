@@ -1,8 +1,8 @@
 ---
 title: Custom Handlers
 page_title: Custom Handlers
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-position: 3
+description: "Test Studio Testing Framework Custom Dialog handling. Handle a custom dialog in a coded step in Test Studio. Coded test to handle custom (non-common) dialogs in Test Studio."
+position: 11
 ---
 #Creating Custom Dialog Handlers#
 

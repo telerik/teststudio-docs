@@ -1,7 +1,7 @@
 ---
-title: Asp.NET TR Control
+title: Asp.NET Test Region Control
 page_title: Asp.NET TR Control
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Using TestRegions in Test Studio Testing Framework tests. Example of using TestRegions in coded tests. "
 position: 2
 ---
 #Using Asp.Net TestRegion Control#

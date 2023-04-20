@@ -14,6 +14,14 @@ Find out how to open a PDF file in the browser and record the scenario actions i
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
 
+## Enable Edge Browser for PDF Validation
+
+Windows OS default settings use Edge browser as a PDF viewer. As long as this is set that way, Test Studio automation logic fails to save the downloaded PDF file and open it in new tab.
+
+To be able to __use the PDF validation with Edge browser__, you need to __change the Windows OS default PDF viewer__ and choose another app to open PDF documents.
+
+![Set default pdf viewer](/img/automated-tests/recording/validate-pdf/set-default-pdf-viewer.png)
+
 ## Download and Open PDF File
 
 Usually when working with data exported to PDF file, you need to generate the specific content and download the PDF file, then open it and validate if the expected information is listed in the generated file.
@@ -21,11 +29,6 @@ Usually when working with data exported to PDF file, you need to generate the sp
 And this is a complete end-to-end scenario for test automation of a PDF file in a Test Studio recording session. Whenever a __PDF file is downloaded__, the recording process detects it and __opens it in a new tab of the recording browser__. As a result, there is a sequence of steps recorded - click the download button, handle the download dialog, open the downloaded PDF, connect to the tab with PDF file opened, record different type of steps to check the content and automate the PDF validation.
 
 ![Steps recorded automatically for test automation pdf][1]
-
-> __Important!__
-> <br>
-> <br>
-> __Windows 11__ OS uses Edge browser as default PDF viewer and as a result Test Studio automation logic fails to save the downloaded PDF file and open it in new tab. To be able to __use the PDF validation on Windows 11 with Edge__ browser, you need to __change the OS default PDF viewer__ and set this to another viewer.  
 
 ## Open Local PDF File
 

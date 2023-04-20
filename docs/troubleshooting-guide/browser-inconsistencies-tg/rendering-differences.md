@@ -1,26 +1,28 @@
 ---
-title: Rendering Differences
-page_title: My Verification Works in IE but not in Firefox
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: Set Step to Run for Specific Browser
+page_title: A Recorded Step Behaves Differently in the Different Browsers
+description: "Test Studio tests tend to be isolated from the browser differences and each type of step works for all supported browsers. Still is available the option to set specific step to run for one browser only. "
 position: 1
 ---
-# My Verification Works in IE but not in Firefox
 
+# A Recorded Step Behaves Differently in the Different Browsers
 
 ## PROBLEM
 
-My recorded verification step works in IE but fails in Firefox.
+* My recorded step behaves differently in the different browsers.
+* There is a specific action, which needs to be performed only in one type browser.
 
+__How can I set a step to run against specific browser only?__
 
 ## SOLUTION
 
-Test Studio tries very hard to isolate you from browser differences, but cannot do so 100% in all cases. For example, IE will translate **&nbsp**; into a single space character before passing it to IE. But Firefox does not do this. As a result if you're trying to do a string comparison of some text, it will pass when you record it in IE, but fail when you try to execute the test in Firefox.
+Test Studio strives to isolate you from browser differences, but in the cases when specific action or verification needs to be performed only for specific browsers, you can do so.
 
-One quick solution is to include two separate verification steps and specify which browser each step will run against. All test steps include a **RunsAgainst** property setting:
+One quick solution is to include two separate steps and specify which browser each step will run against. All test steps include a **RunsAgainst** property setting:
 
 ![RunAgainst][1]
 
-The default is **AllBrowsers**. Copy your verification step, set one to **InternetExplorerOnly**, and the other to **FirefoxOnly**. Adjust the verification for Firefox to work and your test will pass no matter which browser you target for execution.
+The default is **AllBrowsers**. Copy your step and set one to **InternetExplorerOnly**, for example, and the other to **FirefoxOnly**. That way the specific step will execute only against the specified browser.
 
 If you need to do a similar action in code, you can use code like this:
 

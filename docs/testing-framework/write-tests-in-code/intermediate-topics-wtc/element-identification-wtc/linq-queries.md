@@ -1,7 +1,7 @@
 ---
 title: LINQ Queries
 page_title: LINQ Queries
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework LINQ Queries"
 position: 1
 ---
 
@@ -22,7 +22,7 @@ The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Som
 </tr>
 <tr>
 	<td>**AllControls**</td>
-	<td>Gets an IEnmerable for TControl to be used for LINQ queries. This will return only elements that are convertable to TControl.</td>
+	<td>Gets an IEnumerable for TControl to be used for LINQ queries. This will return only elements that are convertible to TControl.</td>
 	<td>var images = Find.AllControls<HtmlImage>();</td>
 </tr>
 <table>

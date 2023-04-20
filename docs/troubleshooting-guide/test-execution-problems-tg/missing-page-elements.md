@@ -1,8 +1,8 @@
 ---
 title: Missing Page Elements
 page_title: Resolve a Missing Page Elements Error
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/troubleshooting_guide/test-execution-problems/missing-page-elements.aspx
+description: "Resolve a Missing Page Elements Error when trying to run Test Studio test"
+
 position: 1
 ---
 # Resolve a Missing Page Elements Error

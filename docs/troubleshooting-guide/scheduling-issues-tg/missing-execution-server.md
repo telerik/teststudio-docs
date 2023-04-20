@@ -1,7 +1,7 @@
 ---
 title: Missing Execution Server
 page_title: Missing Execution Machine
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Missing Execution Machine in Test Studio Scheduling setup. A machine configured as Execution server is not listed in the Execution status view "
 position: 1
 ---
 # Missing Execution Machine
@@ -11,7 +11,6 @@ position: 1
 After clicking the Manage button in the Project view to open the Machines Viewer dialog, an Execution Machine is missing from the list.
 
 ## SOLUTION
-
 
 - The Execution Server may not be running. On the execution machine, open the Start Execution Server dialog.
 - The Execution Server may not be registered to the Scheduling Server.

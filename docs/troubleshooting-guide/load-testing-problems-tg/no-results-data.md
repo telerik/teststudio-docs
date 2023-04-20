@@ -7,9 +7,11 @@ position: 1
 # No Results Data
 
 ## PROBLEM
+
 Running a load test does not generate results data.
 
 ## SOLUTION
+
 This behavior may occur if the sampling period for the load test is equal to or greater than the duration of the load test. To resolve this issue:
 
 1.&nbsp; In the **Run** screen of the load test, decrease the sampling period.

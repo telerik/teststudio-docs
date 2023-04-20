@@ -151,6 +151,9 @@ navigation:
     automated-tests/performance:
         title: "Performance Tests in Test Studio"
         position: 17
+    automated-tests/execute-apitest:
+        title: "Implement API test as Step"
+        position: 18
     automated-tests/vs-plugin:
         title: "Test Studio Plugin for Visual Studio"
         position: 18
@@ -206,65 +209,57 @@ navigation:
         position: 2
 
 # === Features ===
-    features/data-driven-testing:
-        title: "Data Driven Testing"
-        position: 5
-    features/scheduling-test-runs:
-        title: "Scheduling Test Runs"
-        position: 7
-    features/test-maintenance:
-        title: "Test Maintenance"
-        position: 6
+
     features/recorder:
         title: "Recorder"
         position: 1
     features/elements-explorer:
         title: "Elements"
         position: 2
-    features/project-settings:
-        title: "Project Settings"
-        position: 9
-    features/dialogs-and-popups:
-        title: "Steps to Handle Dialogs & Popups"
+    features/test-lists:
+        title: "Test Lists"
+        position: 3
+    features/data-driven-testing:
+        title: "Data Driven Testing"
         position: 4
     features/custom-steps:
-        title: "Custom Steps from Step Builder"
-        position: 8
+        title: "Step Builder Pane"
+        position: 5
+    features/dialogs-and-popups:
+        title: "Handle Dialogs & Popups Steps"
+        position: 6
     features/logical-steps:
-        title: "Logical Steps"
+        title: "Logical/Conditional Steps"
+        position: 7
+    features/random-gens-steps:
+        title: "Random Generators Steps"
+        position: 8
+    features/test-maintenance:
+        title: "Test Maintenance"
+        position: 9
+    features/project-settings:
+        title: "Project Settings"
+        position: 10
+    features/project-explorer:
+        title: "Project Explorer"
         position: 11
-    features/testing-types:
-        title: "Testing Types"
-        position: 3
     features/integration:
         title: "Integration"
         position: 12
+# ....Integration section
     features/integration/bug-tracking:
         title: "Bug Tracking"
         position: 1
     features/integration/quality-center:
         title: "Quality Center"
         position: 2
+ # ....End Integration section    
     features/test-runners:
         title: "Test Runners"
+        position: 13
+    features/testing-types:
+        title: "Testing Types"
         position: 14
-    features/test-lists:
-        title: "Test Lists"
-        position: 10
-
-
-    features/custom-layout:
-        title: "Custom Layout"
-        position: 15
-    features/project-explorer:
-        title: "Project Explorer"
-        position: 17
-    features/execute-apitest:
-        title: "Implement API test as Step"
-        position: 16
-    features/coded-steps:
-        title: "Coded Steps"
-        position: 10
 
 # ....Recorder section
     features/recorder/highlighting-menu:
@@ -276,7 +271,6 @@ navigation:
     features/recorder/highlighting-menu/actions:
         title: "Action Steps"
         position: 2
-    
     
     features/recorder/advanced-recording-tools:
         title: "Advanced Recording Tools"
@@ -299,18 +293,26 @@ navigation:
         position: 5
 
 # ....Testing types
-    "*performance-testing":
-        title: "Performance Testing"
-        position: 4
-    "*load-testing":
-        title: "Load Testing"
-        position: 3
     "*manual-testing":
         title: "Manual Testing"
-        position: 5
+        position: 1
     "*exploratory-testing":
         title: "Exploratory Testing"
-        position: 6
+        position: 2
+
+# === Step Builder ===
+    features/custom-steps/all-tests-common:
+        title: "All Tests Common Steps"
+        position: 1
+    features/custom-steps/web-test-common:
+        title: "Web Test Specific Steps"
+        position: 2
+    features/custom-steps/wpf-common:
+        title: "WPF Test Specific Steps"
+        position: 3
+    features/custom-steps/desktop-common:
+        title: "Desktop Test Specific Steps"
+        position: 4
 
 # === Scheduling Test Runs ===
     "*scheduling-test-runs/multiple-machines-scheduling-setup":

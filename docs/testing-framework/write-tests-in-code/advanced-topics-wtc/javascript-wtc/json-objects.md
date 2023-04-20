@@ -1,7 +1,7 @@
 ---
 title: JSON Objects
 page_title: JSON Objects
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Using JSON objects in a coded step in Test Studio. Coded test to handle JSON objects in Test Studio. Test Studio Testing Framework handle JSON objects in tests."
 position: 5
 ---
 #Handling JSON Objects#

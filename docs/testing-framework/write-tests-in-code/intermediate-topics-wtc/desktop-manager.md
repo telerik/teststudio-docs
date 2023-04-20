@@ -1,7 +1,7 @@
 ---
 title: Desktop Manager
 page_title: Desktop Manager
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework support in coded tests for interactions between the execution machine and browser through the DesktopManager class. "
 position: 1
 ---
 
@@ -39,6 +39,6 @@ It also has the following methods:
 </tr>
 <tr>
 	<td>EnableAutoDomRefresh</td>
-	<td>Enables the Desktop Mouse/Keyboard objects to perform auto dom refreshes after Click/DragDrop/SendKey actions.</td>
+	<td>Enables the Desktop Mouse/Keyboard objects to perform auto DOM refreshes after Click/DragDrop/SendKey actions.</td>
 </tr>
 </table>

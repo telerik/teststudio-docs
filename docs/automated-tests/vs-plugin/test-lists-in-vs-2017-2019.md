@@ -20,7 +20,7 @@ In this article you can find useful information on the below topics:
 > __Note!__
 ><br>
 ><br>
-> Test lists in Visual Studio can __only execute web or WPF__ functional tests.
+> Test lists in Visual Studio __only execute functional tests__ e.g. WPF, Desktop and web tests.
 
 ## Create a Test List in Visual Studio Project
 

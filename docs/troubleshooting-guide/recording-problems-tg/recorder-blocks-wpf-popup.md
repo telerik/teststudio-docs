@@ -8,7 +8,6 @@ position: 1
 
 ## PROBLEM
 
-
 When recording against a WPF application, an expected pop-up modal dialog never appears.
 
 ## SOLUTION

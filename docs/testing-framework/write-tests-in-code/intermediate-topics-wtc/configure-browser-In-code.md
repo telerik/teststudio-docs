@@ -1,7 +1,7 @@
 ---
 title: Configure Browser In Code
 page_title: Configure Browser In Code
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework supports browser calibration in coded tests. Configure execution browser in code. "
 position: 1
 ---
 #Configure Browser In Code#

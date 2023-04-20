@@ -62,6 +62,14 @@ In the below grid you can find the versions of the supported UI components match
             <td>R32022</td>
             <td colspan="6" style="text-align:center;">3.6.0</td>
         </tr>
+        <tr>
+            <td>R12023</td>
+            <td colspan="6" style="text-align:center;">4.0.0</td>
+        </tr>
+        <tr>
+            <td>R12023SP1</td>
+            <td colspan="6" style="text-align:center;">4.1.0</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -102,6 +110,14 @@ In the below grid you can find the versions of the supported UI components match
             <td>R32022</td>
             <td colspan="6" style="text-align:center;">2022.3.913</td>
         </tr>
+        <tr>
+            <td>R12023</td>
+            <td colspan="6" style="text-align:center;">2023.1.117</td>
+        </tr>
+        <tr>
+            <td>R12023SP1</td>
+            <td colspan="6" style="text-align:center;">2023.1.314</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -141,6 +157,14 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R32022</td>
             <td colspan="6" style="text-align:center;">2022.3.913</td>
+        </tr>
+        <tr>
+            <td>R12023</td>
+            <td colspan="6" style="text-align:center;">2023.1.117</td>
+        </tr>
+        <tr>
+            <td>R12023SP1</td>
+            <td colspan="6" style="text-align:center;">2023.1.314</td>
         </tr>
     </tbody>
 </table>
@@ -673,6 +697,14 @@ In the below grid you can find the versions of the supported UI components match
                     </tbody>
                 </table>
             </td>
+        </tr>
+        <tr>
+            <td>R12023</td>
+            <td colspan="6" style="text-align:center;">11.0.0</td>
+        </tr>
+        <tr>
+            <td>R12023SP1</td>
+            <td colspan="6" style="text-align:center;">11.4.0</td>
         </tr>
     </tbody>
 </table>
