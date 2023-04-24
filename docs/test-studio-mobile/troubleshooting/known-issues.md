@@ -37,7 +37,7 @@ I am getting *TestProject.TestName does not contain a definition for "Context" a
 
 and 
 
-*"Context is not a member of TestProject.TestName error in file C:\Users\[userName]\AppData\Local\Temp\tempFileName.tmp"* compilation error in my VB project.
+*"Context is not a member of TestProject.TestName error in file C:\Users\\[userName]\AppData\Local\Temp\tempFileName.tmp"* compilation error in my VB project.
 
 ![VB error](/img/test-studio-mobile/knowledge-base-tm/known-issues/fig2.png)
 

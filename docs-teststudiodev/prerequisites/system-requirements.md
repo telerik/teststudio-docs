@@ -43,7 +43,8 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 ## .NET Framework
 
-* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.5.2 - .Net 4.8</a> 
+* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.7.2 - .Net 4.8</a> 
+
 ## Source Control
 
 * __Test Studio Dev__ uses the built-in TFS integration in Visual Studio  

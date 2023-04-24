@@ -1,7 +1,7 @@
 ---
 title: Data Driven Test with Built-in Data
 page_title: Data Driven Test with Built-in Data
-description: "Test Studio can use built-in data source for each test. Data drive/ Parameterize a test with Internal data source in Test Studio"
+description: "How to use local data table to data drive a Test Studio test? Test Studio can use built-in data source for each test. Data drive/ Parameterize a test with Internal data source in Test Studio"
 position: 1
 ---
 # Get Started with Data Driven Testing

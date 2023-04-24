@@ -79,6 +79,10 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
             <td>Recommended</td>
             <td colspan="6" style="text-align:center;">1920 x 1080</td>
         </tr>
+        <tr>
+            <td>Display Scale</td>
+            <td colspan="6" style="text-align:center;">100%</td>
+        </tr>
     </tbody>
 </table>
 <table class="Tbl k-table">
@@ -92,7 +96,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Windows 11, Windows 10, Windows 8.1, &nbsp; <br> Windows Server 2019, Windows Server 2016, Windows Server 2012</td>
+            <td colspan="4">Windows 11, Windows 10, Windows 8.1, &nbsp; <br>Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012</td>
         </tr>
     </tbody>
 </table>
@@ -107,7 +111,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Internet Explorer 11; Latest Edge Chromium, Latest Chrome, Latest Firefox</td>
+            <td colspan="4">Internet Explorer 11, Latest Edge Chromium, Latest Chrome, Latest Firefox</td>
         </tr>
     </tbody>
 </table>
@@ -122,7 +126,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">WPF for .NET Framework 4.5+, .NET Core 3.1, .NET 5, .NET 6 and higher versions</td>
+            <td colspan="4">WPF for .NET Framework 4.5+, .NET Core 3.1, .NET 5, .NET 6</td>
         </tr>
     </tbody>
 </table>
@@ -172,7 +176,7 @@ Admin permissions are required for:
 
 ## Required Database for Scheduling Configuration
 
-* MongoDB 4.0 or MongoDB 5
+* MongoDB 4 or MongoDB 5
 
 > **Note** 
 ><br>
@@ -180,7 +184,7 @@ Admin permissions are required for:
 
 ## Data Binding
 
-* If using Excel for data driven testing:
+* If using Excel or CSV for data driven testing:
 
 	*	Microsoft Office installation or the **32-bit version** of <a href="https://www.microsoft.com/en-us/download/details.aspx?id=13255" target="_blank">Microsoft Access Database Engine 2010</a>.
 
