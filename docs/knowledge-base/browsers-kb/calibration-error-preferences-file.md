@@ -26,7 +26,7 @@ Test Studio calibration settings use this same Preferences file, but there is a 
 
 ## Solution 1
 
-Ensure to use <a href="/prerequisites/configure-your-browser/edge-chromium#using-extension-for-edge-chromium-automation-optional" target="_blank">Edge browser in the mode without extension</a> and skip the calibration step.
+Ensure to use <a href="/prerequisites/configure-your-browser/edge-chromium#using-extension-for-edge-chromium-automation-optional" target="_blank">Edge browser in the mode without extension</a> and skip the calibration step from Project Settings. The calibration for the extension-less mode of the browsers is automatically applied before test run.
 
 ## Solution 2
 
