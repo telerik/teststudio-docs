@@ -20,9 +20,9 @@ Click the **Border button** to display a color selector and use the sliders to a
 
 ## BaseURL
 
-Use this field if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
+Use this field if you run tests against multiple environments. Check out our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
 
-> As of version **R1 2016** **BaseUrl** and **Compare Mode** can be set directly from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+> **BaseUrl** and **Compare Mode** can be set directly from the <a href="/getting-started/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
 ## Elements Page Compare Mode
 

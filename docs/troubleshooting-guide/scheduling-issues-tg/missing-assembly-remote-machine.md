@@ -1,7 +1,7 @@
 ---
 title: Missing assembly reference on the remote machine
 page_title: Missing assembly reference on the remote machine
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Missing assembly reference on the remote machine when running tests remotely via the Test Studio Scheduling setup."
 position: 1
 ---
 # Missing assembly reference on the remote machine

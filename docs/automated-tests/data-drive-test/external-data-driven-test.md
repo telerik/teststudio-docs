@@ -1,7 +1,7 @@
 ---
 title: Data Driven Test with External Data
 page_title: Data Driven Test with External Data
-description: "Bind a test to external data source. Data drive test using an excel sheet. Data drive test using XML file. Data drive test using database. Data drive test using SCV file. "
+description: "How to use external data table to data drive a Test Studio test? Bind a test to external data source. Data drive test using an excel sheet. Data drive test using XML file. Data drive test using database. Data drive test using SCV file. "
 position: 3
 ---
 # Data Driven Test with External Data

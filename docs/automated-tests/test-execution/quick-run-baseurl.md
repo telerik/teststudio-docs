@@ -14,7 +14,7 @@ Test Studio allows you to reuse already recorded tests against multiple environm
 
 ## Set BaseURL for a Project
 
-Set a **Base Url**, if you run tests against multiple environments. Please see our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
+Set a **Base Url**, if you run tests against multiple environments. Check out our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
 
 ![BaseUrl][12]
 

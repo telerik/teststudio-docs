@@ -13,7 +13,6 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 - <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/system-requirements" target="_blank">Visual Studio 2022</a>
 - <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio 2019</a>
 - <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2017-system-requirements-vs" target="_blank">Visual Studio 2017</a>
-- <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2015-sysrequirements-vs" target="_blank">Visual Studio 2015</a>
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
@@ -32,10 +31,11 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 ## Visual Studio requirements
 
-* The **Test Studio Dev** extension can be installed on Visual Studio 2015, 2017, 2019 and 2022 **Professional or Enterprise** edition.
-* You must run Visual Studio as Administrator
-* Visual Studio projects should target .Net 4.5.2 or higher
-* Visual Studio 2017 requires additional <a href="/advanced-topics/installation/vs-2017-compatibility" target="_blank">Individual components</a> on top of its default installation
+* The **Test Studio Dev** extension can be installed on Visual Studio 2017, 2019 and 2022 **Professional or Enterprise** edition.
+* You must run Visual Studio as Administrator.
+* Visual Studio projects should target .NET Framework 4.7.2 to .NET Framework 4.8.
+* Visual Studio 2017 requires additional <a href="/advanced-topics/installation/vs-2017-compatibility" target="_blank">Individual components</a> on top of its default installation.
+* Visual Studio 2022 requires minimum <a href="/advanced-topics/installation/vs-2022-compatibility" target="_blank">workload components selection</a>.
 
 ## Data Binding
 
@@ -43,7 +43,8 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 ## .NET Framework
 
-* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.5.2 - .Net 4.8</a> 
+* <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642" target="_blank">.Net 4.7.2 - .Net 4.8</a> 
+
 ## Source Control
 
 * __Test Studio Dev__ uses the built-in TFS integration in Visual Studio  

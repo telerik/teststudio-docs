@@ -1,7 +1,7 @@
 ---
 title: Annotator
 page_title: Annotator
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework annotated coded tests runs. Use the Annotator to highlight the target element for each action from the coded test."
 position: 1
 ---
 #Annotator#

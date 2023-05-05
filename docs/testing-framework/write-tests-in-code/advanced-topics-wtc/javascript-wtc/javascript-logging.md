@@ -1,7 +1,7 @@
 ---
-title: Javascript Logging
+title: JavaScript Logging
 page_title: Logging from JavaScript
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Logging from JavaScript in a coded step in Test Studio. Coded test to include Logs from JavaScript in the Test Studio test logging. Test Studio Testing Framework logging from JavaScript into the test log."
 position: 3
 ---
 #Logging from JavaScript#

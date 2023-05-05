@@ -1,7 +1,7 @@
 ---
 title: Invoke Blind Mouse Click
 page_title: Invoke Blind Mouse Click
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Invoke Blind (Element Independent) Mouse Click in Test Studio test"
 position: 1
 ---
 # Invoke Blind Mouse Click

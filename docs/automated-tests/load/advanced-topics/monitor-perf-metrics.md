@@ -6,9 +6,19 @@ position: 1
 ---
 # Monitor Performance Metrics
 
-You can add different performance counters for each machine to be monitored during a load test run. 
+You can add different performance counters for each machine to be monitored during a load test run.
 
-> __Note!__ The target machine, which will be monitored, must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution server or Test Runner</a> needs to be running so that Test Studio can connect to it for performance monitoring.
+> __Important!__
+><br>
+><br>
+> The requirements for collecting performance counter data from a machine are as follows:
+><br>
+><br>
+> 1. The target machine, which will be monitored, must have minimum the <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">**Run Time edition**</a> installed.
+><br>
+> 2. The <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution server, e.g. the Test Runner</a> needs to be started and running so that Test Studio can connect to it for performance monitoring.
+><br>
+> 3. The machine needs to be used for load test execution.
 
 In the ___Monitor Performance___ section in the ___Design___ view, click the ___Add Computer___ button to select performance counters for monitoring on one or more machines during your load test
 

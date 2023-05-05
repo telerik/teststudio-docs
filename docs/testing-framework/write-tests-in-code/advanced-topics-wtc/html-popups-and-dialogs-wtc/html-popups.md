@@ -1,10 +1,10 @@
 ---
 title: HTML Popups
 page_title: HTML Popups
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-position: 2
+description: "Handle HTML popups in a coded step in Test Studio. Coded test to handle HTML popups in Test Studio. Test Studio Testing Framework HTML popups handling."
+position: 1
 ---
-#Handling HTML Pop-ups#
+# Handling HTML Pop-ups
 
 HTML Pop-up are simply browser instances that are invoked by some action on an element of the page. These pop-ups are mostly invoked by calling window.open() from JavaScript. Customers use this method to prompt the user for information without interrupting the current browser instance the user is working in or to simply open new web pages in new browser instances to show side or detailed information.
  

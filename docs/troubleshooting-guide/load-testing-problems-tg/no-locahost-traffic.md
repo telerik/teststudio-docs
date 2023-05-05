@@ -1,18 +1,18 @@
 ---
-title: No Locahost Traffic
-page_title: No Locahost Traffic
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: No Locahost Traffic Captured
+page_title: No Locahost Traffic Captured in Load Test
+description: "Test Studio Load test doesn't capture traffic for localhost. How to workaround not capturing localhost in load user profile."
 position: 1
 ---
 # No Locahost Traffic
 
 ## PROBLEM
 
-When recording a load test against localhost, no traffic is recorded.
+When recording a load test against _localhost_, no traffic is recorded.
 
 ## SOLUTION
 
-Replace localhost with the machine name or IP address of the local machine.
+Replace _localhost_ with the machine name or IP address of the local machine.
 
 **See Also**
 

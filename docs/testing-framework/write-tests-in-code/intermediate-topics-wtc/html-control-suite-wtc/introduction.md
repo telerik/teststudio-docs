@@ -1,7 +1,7 @@
 ---
 title: Introduction
-page_title: Introduction
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+page_title: Introduction to Testing Framework's HTML Control Suite
+description: "Test Studio Testing Framework introducing the HTML Control Suite - what actions and verifications can be performed on the elements in coded tests. "
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/html-control-suite/introduction.aspx, /user-guide/write-tests-in-code/intermediate-topics/html-control-suite/introduction
 position: 1
 ---

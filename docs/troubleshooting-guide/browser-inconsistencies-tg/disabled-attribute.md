@@ -1,7 +1,7 @@
 ---
 title: Disabled Attribute
 page_title: Disabled Attribute
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio tests allow you to verify if an HTML element is disabled. Add verification to check if an element is disabled. "
 position: 1
 ---
 # Disabled Attribute
@@ -30,5 +30,9 @@ Based on "**Content**", verify that the "**OuterMarkup**" "**Contains**" the wor
 
 For more information, please read our KB article on <a href="/knowledge-base/verification-kb/disabled-attribute-html" target="_blank">How to Verify the Disabled Attribute (HTML)</a>.
 
+## See Also
+
+* <a href="/knowledge-base/verification-kb/disabled-attribute-html" target="_blank">How to Verify the Disabled Attribute (HTML)</a>
+ 
 [1]: /img/troubleshooting-guide/browser-inconsistencies-tg/disabled-attribute/fig1.png
 [2]: /img/troubleshooting-guide/browser-inconsistencies-tg/disabled-attribute/fig2.png

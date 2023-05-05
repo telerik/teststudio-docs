@@ -1,7 +1,7 @@
 ---
 title: HTML Actions
 page_title: HTML Actions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework interact with an HTML element identified in the DOM in coded tests. HTML actions to perform on an element in coded tests."
 position: 2
 ---
 #Common HTML Control Actions#

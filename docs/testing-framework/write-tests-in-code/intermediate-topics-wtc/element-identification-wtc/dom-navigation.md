@@ -1,7 +1,7 @@
 ---
 title: DOM Navigation
 page_title: DOM Navigation
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework DOM Navigation. Use an element from the DOM to navigate to other elements on the page in the coded steps and tests. Get Element parent in code. Get Element sibling in code. Get Element child or children nodes in code"
 position: 1
 ---
 #DOM Navigation#

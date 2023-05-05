@@ -1,7 +1,7 @@
 ---
 title: Settings Class
 page_title: Settings Class
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework Settings class. Use the Setting Class object to control the coded test execution"
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/settings-class.aspx, /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/settings-class
 position: 1
 ---

@@ -64,10 +64,10 @@ End Namespace
 ```
 
 5.&nbsp; Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
- 
- - The functions you're not using should be left empty (remove *throw new NotImplementedException*).
- 
- - **OnInitializeDataSource** should **not** be left empty and should return **null** if not being used.
+
+ - The **OnInitializeDataSource()** function __cannot__ be left empty and should return **null** if not being used. Test Studio takes into consideration only the first non null data table (if you are using more than one plugin, the first one to return non null data table is used).
+
+ - The rest of the functions, which you're not using, should be left empty (remove *throw new NotImplementedException*).
 
 
 ```C#

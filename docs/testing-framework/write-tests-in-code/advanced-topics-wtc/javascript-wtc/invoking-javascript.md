@@ -1,7 +1,7 @@
 ---
-title: Invoking Javascript
-page_title: Invoking Javascript
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: Invoking JavaScript
+page_title: Invoking JavaScript
+description: "Invoke JavaScript in a coded step in Test Studio. Coded test to invoke JavaScript in Test Studio. Test Studio Testing Framework Invoking JavaScript."
 previous_url: /user-guide/write-tests-in-code/advanced-topics/javascript/invoking-javascript.aspx, /user-guide/write-tests-in-code/advanced-topics/javascript/invoking-javascript
 position: 1
 ---

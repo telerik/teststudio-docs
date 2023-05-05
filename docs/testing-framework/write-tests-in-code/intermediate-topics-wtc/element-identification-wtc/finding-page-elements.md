@@ -1,7 +1,7 @@
 ---
 title: Finding Page Elements
 page_title: Finding Page Elements
-description: "Test Studio Find methods. Testing Framework Find.By methods. Locate an element in code. Find an element in code. "
+description: "Test Studio Testing Framework Find methods. Testing Framework Find.By methods. Locate an element in code. Find an element in code. "
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/element-identification/finding-page-elements.aspx, /user-guide/write-tests-in-code/intermediate-topics/element-identification/finding-page-elements
 position: 1
 ---

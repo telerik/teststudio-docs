@@ -1,9 +1,8 @@
 ---
 title: Pages Not Defined
 page_title: Pages Not Defined
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Executing a Test Studio coded test is not possible due to errors 'Type Pages is not defined' or 'The type or namespace name Pages could not be found'. How to resolve this type of errors"
 position: 1
-previous_url: /user-guide/troubleshooting_guide/test-execution-problems/pages-not-defined.aspx 
 ---
 # Pages Not Defined
 
@@ -25,9 +24,8 @@ namespace TestProject2
     using ArtOfTest.WebAii.TestTemplates;
     using ArtOfTest.WebAii.Controls.HtmlControls;
     public class Pages
-{
+}
 ```
-
 ```VB
 	Imports ArtOfTest.WebAii.Core
 	Imports ArtOfTest.WebAii.ObjectModel

@@ -179,7 +179,7 @@ Follow the steps below to manually configure Chrome for web automation with Test
 
 <h3>Disable Web Security</h3>
 
-<p>1. Open the default Chrome user data folder under your Windows account - "C:\Users\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p>
+<p>1. Open the default Chrome user data folder under your Windows account - "C:\Users\\[WindowsUser]\AppData\Local\Google\Chrome\User Data\Default" and locate the <strong>Preferences</strong> file.</p>
 
 <p>2. Open it with a text editor and search for "webkit". If there is no such preference in the file, add the following at the bottom of the file:</p>
 

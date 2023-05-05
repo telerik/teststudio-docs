@@ -47,7 +47,7 @@ The Scheduling Service is the central component of the overall setup - it is in 
 
 ### Storage Service
 
-The Storage Service, which keeps the project files and results, is the help tool for the Scheduling service. The Storage service maintains a database to store the files and the database provider, which Test Studio uses is <a href="https://www.mongodb.com" target="_blank">**MongoDb**</a>.
+The Storage Service, which keeps the project files and results, is the help tool for the Scheduling service. The Storage service maintains a database to store the files and the database provider, which Test Studio uses is <a href="https://www.mongodb.com" target="_blank">**MongoDb**</a>. The files from the Storage database gets deployed to the execution machines upon scheduled or remote test list run.
 
 > __Note__
 > <br>

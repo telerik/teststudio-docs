@@ -1,8 +1,8 @@
 ---
 title: WPF Dialogs
 page_title: WPF Dialogs
-description: "Test Studio WPF dialog handlers in code. SaveFile SaveAs dialog handler in WPF. OpenFile dialog handler in WPF. "
-position: 2
+description: "Test Studio WPF dialog handlers in code. SaveFile SaveAs dialog handler in WPF coded test. OpenFile dialog handler in WPF coded test."
+position: 8
 ---
 # WPF Dialog Handlers in Code
 
@@ -64,4 +64,3 @@ Manager.DialogMonitor.RemoveDialog(wpfSaveAsDialog);
 > **Note!** To compile the above code include the following using:
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;
-

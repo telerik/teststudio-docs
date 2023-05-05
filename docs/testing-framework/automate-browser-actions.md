@@ -1,7 +1,7 @@
 ---
 title: Automate Browser Actions
 page_title:  Automate Browser Actions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework support in coded test for automating browser actions like navigate to a page, clear cache and cookies, navigate through visited pages, etc."
 previous_url: /user-guide/getting-started/automating-browser-actions.aspx, /user-guide/getting-started/automating-browser-actions
 position: 1
 ---

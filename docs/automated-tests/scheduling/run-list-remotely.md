@@ -2,7 +2,7 @@
 title: Run List Remotely
 page_title: Run List Remotely
 description: "Test Studio test list executed run on remote machine"
-position: 7
+position: 8
 ---
 # Run List Remotely
 

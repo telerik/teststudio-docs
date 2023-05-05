@@ -8,7 +8,7 @@ position: 1
 
 ## PROBLEM
 
-A test list runs repeatedly, but does not appear in the Results view. 
+A test list runs repeatedly, but does not appear in the Results view.
 
 ## PROBLEM
 

@@ -20,6 +20,14 @@ Before you install Test Studio, make sure that the following requirements are me
 {% include cta-panel-teststudio-overview.html %}
 {% endif %}
 
+## Visual Studio 2022 Installation Specifics
+
+Visual Studio 2022 requires minimum _Workload_ added in its installation to be compatible with the Test Studio plugin for Visual Studio.
+
+Before installing Test Studio, you need to modify the Visual Studio 2022 installation and add the **.Net desktop development** workload's components. Once this is added, complete the Visual Studio 2022 standard installation process. Then perform the <a href="/prerequisites/installation/install-procedure" target="_blank">standard Test Studio installation</a>.
+
+![Visual Studio 2022 Installation](/img/general-information/installation/vs2022/fig1.png)
+
 ## Modify the Visual Studio 2017 Installation
 
 Visual Studio 2017 requires an additional feature in its installation to be compatible with the Test Studio plugin for Visual Studio.

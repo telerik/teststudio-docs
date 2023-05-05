@@ -1,7 +1,7 @@
 ---
 title: Multi-Browser Support
 page_title: Multi-Browser Support
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing framework support for multiple browser instances."
 previous_url: /user-guide/write-tests-in-code/advanced-topics/multi-browser-instance-support.aspx, /user-guide/write-tests-in-code/advanced-topics/multi-browser-instance-support
 position: 1
 ---

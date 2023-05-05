@@ -1,7 +1,7 @@
 ---
 title: Find Expressions
 page_title: Find Expressions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework Find Expressions in coded tests. Use Find Expressions in coded tests to locate elements in the tested application."
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/element-identification/find-expressions.aspx, /user-guide/write-tests-in-code/intermediate-topics/element-identification/find-expressions
 position: 1
 ---
