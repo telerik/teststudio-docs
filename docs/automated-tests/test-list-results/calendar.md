@@ -9,7 +9,7 @@ position: 0
 
 The results generated from a test list execution are stored on project level and populated in the __Results__ tab in the Test Studio project. All results are listed in a handy graphic calendar or timeline display and you can track the outcome of your test lists.
 
-This article describes the Results calendar options and how you can benefit from these.
+This article describes the Results calendar options and how these can help you.
 
 ## View Overall Results Status
 
@@ -17,7 +17,7 @@ In the __Results__ tab you can view the test lists executions in a month, week, 
 
 ![Switch between day, week, month view][3]
 
-Each test list result is shown as colored block - green for _Passed_ run, red for _Failed_ run, and yellow for an _upcoming scheduled test list execution_.
+Each test list result is displayed as colored block - green for _Passed_ run, red for _Failed_ run, and yellow for an _upcoming scheduled test list execution_.
 
 ![Passed, Failed, Scheduled jobs][4]
 
