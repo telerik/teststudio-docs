@@ -6,7 +6,7 @@ position: 1
 ---
 # Desktop Tests in Test Studio
 
-Test Studio recording feature supports various desktop applications. To be able to initiate recording session against specific application, you need to define which is this in the desktop test.
+Test Studio recording feature supports various desktop applications. To initiate recording session against specific application, you need to define which in the desktop test.
 
 This article guides you through the desktop test configuration process.
 
@@ -28,7 +28,7 @@ The __configuration of the desktop test requires a desktop app to be specified__
 > **Tip**
 > <br>
 > <br>
-> If you attempt to initiate a recording session in a desktop test, before it is configured, the __Desktop Config Wizard__ pops up and lets you choose the application to automate.
+> If you try to initiate a recording session in a desktop test, before this is configured, the __Desktop Config Wizard__ pops up and lets you choose the application to automate.
 
 ## Choose the Desktop Application to Automate
 
@@ -42,13 +42,13 @@ Choose the __Browse__ button to open File Explorer and browse to the folder wher
 
 ![Specify path to Desktop app](/img/automated-tests/desktop-testing/desktop-test/fig3.png)
 
-The __Desktop Application Path__ field also allows you to use environment tokens (i.e. _%Program Files%\MyApp\App.exe_). In any case the __Full Path__ field displays the full path to the executable file.
+The __Desktop Application Path__ field also allows you to use environment tokens (such as `%Program Files%\MyApp\App.exe`). In any case the __Full Path__ field displays the full path to the executable file.
 
 ![Full application path](/img/automated-tests/desktop-testing/desktop-test/fig4.png)
 
 ### Use Default Desktop Application Path
 
-The automation process requires multiple tests to be created for a single application. In such case configuring each created test will be a tedious task. Therefore Test Studio allows you to __set a default desktop app path on project level__ and use this for all desktop tests. The option is available in <a href="/features/project-settings/general" target="_blank">Project Settings -> General</a> and once a __Default Desktop App is set__ each new Desktop test in the project is created directly configured to use it.
+The automation process requires multiple tests to be created for a single application. In such case configuring each created test will be a tedious task. Thus Test Studio allows you to __set a default desktop app path on project level__ and use this for all desktop tests. The option is available in <a href="/features/project-settings/general" target="_blank">Project Settings -> General</a> and once a __Default Desktop App is configured__ each new Desktop test in the project is created directly configured to use it.
 
 ![Use default path](/img/automated-tests/desktop-testing/desktop-test/fig5.png)
 

@@ -8,7 +8,7 @@ position: 3
 
 Modern desktop applications often use alternative methods for starting and maintaining their processes. Desktop apps such as Windows store, UWP or Maui-based apps cannot be started from an executable file. For these Test Studio provides the option for automation using the Application User Model ID. 
 
-Read below how you can identify what is the User Model ID of the application you want to test. 
+Read below how you can find what is the User Model ID of the application you want to test. 
 
 ## List the Application User Model IDs
 
@@ -16,7 +16,7 @@ The <a href="https://docs.microsoft.com/en-us/windows/win32/shell/appids" target
 
 1.&nbsp; __Start PowerShell console using Admin rights__. Type _'PowerShell'_ in the Windows Start menu and choose the option _'Run as Administrator'_.
 
-![Open admin powershell console](/img/automated-tests/desktop-testing/user-model-id/fig1.png)
+![Open admin PowerShell console](/img/automated-tests/desktop-testing/user-model-id/fig1.png)
 
 2.&nbsp; __Copy the below script and paste__ it in the PowerShell console. Press __Enter__ to execute it.
 
@@ -40,11 +40,11 @@ foreach ($app in get-AppxPackage)
 
 $listOfAppUserModelIds
 ```
-![Paste script in powershell console](/img/automated-tests/desktop-testing/user-model-id/fig2.png)
+![Paste script in PowerShell console](/img/automated-tests/desktop-testing/user-model-id/fig2.png)
 
 3.&nbsp; The script iterates through the installed applications and __outputs a list with their User Model ID__ - every app ID is on a new line. 
 
-![Execute script in powershell console](/img/automated-tests/desktop-testing/user-model-id/fig3.png)
+![Execute script in PowerShell console](/img/automated-tests/desktop-testing/user-model-id/fig3.png)
 
 >__Note__
 ><br>
@@ -77,7 +77,7 @@ foreach ($app in get-AppxPackage)
 
 $listOfAppUserModelIds | Select-String -Pattern 'Calculator'
 ```
-![Filtered list of app ids in powershell console](/img/automated-tests/desktop-testing/user-model-id/fig4.png)
+![Filtered list of app ids in PowerShell console](/img/automated-tests/desktop-testing/user-model-id/fig4.png)
 
 >__Note__
 ><br>
