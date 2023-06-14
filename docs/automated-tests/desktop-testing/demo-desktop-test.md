@@ -122,195 +122,121 @@ Here are few of the commonly used automation properties:
 
 __Full list of supported properties:__
 
-<p>`AutomationId`</p>
-<p>`ClassName`</p>
-<p>
-`ControlType`
-</p>
-<p>
-`ControlTypeName`
-</p>
-<p>
-`Enabled` 
-</p>
-<p>
-`ExpandCollapse.ExpandCollapseState`
-</p>
-<p>
-`IsExpandCollapsePatternAvailable`
-</p>
-<p>
-`FrameworkId`
-</p>
-<p>
-`Grid.ColumnCount`
-</p>
-<p>
-`Grid.RowCount`
-</p>
-<p>
-`IsGridPatternAvailable` 
-</p>
-<p>
-`HasKeyboardFocus`
-</p>
-<p>
-`HelpText` 
-</p>
-<p>
-`IsInvokePatternAvailable`
-</p>
-<p>
-`IsKeyboardFocusable` 
-</p>
-<p>
-`IsLegacyIAccessiblePatternAvailable` 
-</p>
-<p>
-`LegacyIAccessible.ChildId` 
-</p>
-<p>
-`LegacyIAccessible.DefaultAction`
-</p>
-<p>
-`LegacyIAccessible.Description` 
-</p>
-<p>
-`LegacyIAccessible.Help` 
-</p>
-<p>
-`LegacyIAccessible.KeyboardShortcut`
-</p>
-<p>
-`LegacyIAccessible.Name` 
-</p>
-<p>
-`LegacyIAccessible.Role`
-</p>
-<p>
-`LegacyIAccessible.State` 
-</p>
-<p>
-`LegacyIAccessible.Value` 
-</p>
-<p>
-`LocalizedControlType`
-</p>
-<p>
-`Name` 
-</p>
-<p>
-`ProcessId`
-</p>
-<p>
-`IsRangeValuePatternAvailable`
-</p>
-<p>
-`RangeValue.IsReadOnly`
-</p>
-<p>
-`RangeValue.LargeChange` 
-</p>
-<p>
-`RangeValue.Minimum`
-</p>
-<p>
-`RangeValue.Maximum` 
-</p>
-<p>
-`RangeValue.SmallChange` 
-</p>
-<p>
-`RangeValue.Value` 
-</p>
-<p>
-`RuntimeId`
-</p>
-<p>
-`IsSelectionPatternAvailable`
-</p>
-<p>
-`Selection.CanSelectMultiple`
-</p>
-<p>
-`Selection.IsSelectionRequired` 
-</p>
-<p>
-`Selection.Selection` 
-</p>
-<p>
-`IsSelectionItemPatternAvailable`
-</p>
-<p>
-`SelectionItem.IsSelected` 
-</p>
-<p>
-`SelectionItem.SelectionContainer` 
-</p>
-<p>
-`IsTablePatternAvailable`
-</p>
-<p>
-`Table.ColumnHeaders`
-</p>
-<p>
-`Table.RowHeaders`
-</p>
-<p>
-`Table.RowOrColumnMajor`
-</p>
-<p>
-`IsTogglePatternAvailable`
-</p>
-<p>
-`Toggle.ToggleState` 
-</p>
-<p>
-`IsTransformPatternAvailable` 
-</p>
-<p>
-`Transform.CanMove`
-</p>
-<p>
-`Transform.CanResize`
-</p>
-<p>
-`Transform.CanRotate`
-</p>
-<p>
-`IsValuePatternAvailable`
-</p>
-<p>
-`Value.IsReadOnly`
-</p>
-<p>
-`Value.Value`
-</p>
-<p>
-`IsWindowPatternAvailable`
-</p>
-<p>
-`Window.CanMaximize`
-</p>
-<p>
-`Window.CanMinimize`
-</p>
-<p>
-`Window.WindowInteractionState`
-</p>
-<p>
-`Window.IsModal`
-</p>
-<p>
-`Window.IsTopmost` 
-</p>
-<p>
-`Window.WindowVisualState`
-</p>
-<p>
-`XPath`
-</p>
+<table class="Tbl k-table">
+    <tbody>
+        <tr>
+            <td style="text-align:left;">AutomationId</td>
+            <td style="text-align:left;">ClassName</td>
+            <td style="text-align:left;">ControlType</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">ControlTypeName</td>
+            <td style="text-align:left;">Enabled</td>
+            <td style="text-align:left;">ExpandCollapse.ExpandCollapseState</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">IsExpandCollapsePatternAvailable</td>
+            <td style="text-align:left;">FrameworkId</td>
+            <td style="text-align:left;">Grid.ColumnCount</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Grid.RowCount</td>
+            <td style="text-align:left;">IsGridPatternAvailable</td>
+            <td style="text-align:left;">HasKeyboardFocus</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">HelpText</td>
+            <td style="text-align:left;">IsInvokePatternAvailable</td>
+            <td style="text-align:left;">IsKeyboardFocusable</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">IsLegacyIAccessiblePatternAvailable</td>
+            <td style="text-align:left;">LegacyIAccessible.ChildId</td>
+            <td style="text-align:left;">LegacyIAccessible.DefaultAction</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">LegacyIAccessible.Description</td>
+            <td style="text-align:left;">LegacyIAccessible.Help</td>
+            <td style="text-align:left;">LegacyIAccessible.KeyboardShortcut</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">LegacyIAccessible.Name</td>
+            <td style="text-align:left;">LegacyIAccessible.Role</td>
+            <td style="text-align:left;">LegacyIAccessible.State</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">LegacyIAccessible.Value</td>
+            <td style="text-align:left;">LocalizedControlType</td>
+            <td style="text-align:left;">Name</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">ProcessId</td>
+            <td style="text-align:left;">IsRangeValuePatternAvailable</td>
+            <td style="text-align:left;">RangeValue.IsReadOnly</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">RangeValue.LargeChange</td>
+            <td style="text-align:left;">RangeValue.Minimum</td>
+            <td style="text-align:left;">RangeValue.Maximum</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">RangeValue.SmallChange</td>
+            <td style="text-align:left;">RangeValue.Value</td>
+            <td style="text-align:left;">RuntimeId</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">IsSelectionPatternAvailable</td>
+            <td style="text-align:left;">Selection.CanSelectMultiple</td>
+            <td style="text-align:left;">Selection.IsSelectionRequired</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Selection.Selection</td>
+            <td style="text-align:left;">IsSelectionItemPatternAvailable</td>
+            <td style="text-align:left;">SelectionItem.IsSelected</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">SelectionItem.SelectionContainer</td>
+            <td style="text-align:left;">IsTablePatternAvailable</td>
+            <td style="text-align:left;">Table.ColumnHeaders</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Table.RowHeaders</td>
+            <td style="text-align:left;">Table.RowOrColumnMajor</td>
+            <td style="text-align:left;">IsTogglePatternAvailable</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Toggle.ToggleState</td>
+            <td style="text-align:left;">IsTransformPatternAvailable</td>
+            <td style="text-align:left;">Transform.CanMove</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Transform.CanResize</td>
+            <td style="text-align:left;">Transform.CanRotate</td>
+            <td style="text-align:left;">IsValuePatternAvailable</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Value.IsReadOnly</td>
+            <td style="text-align:left;">Value.Value</td>
+            <td style="text-align:left;">IsWindowPatternAvailable</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Window.CanMaximize</td>
+            <td style="text-align:left;">Window.CanMinimize</td>
+            <td style="text-align:left;">Window.WindowInteractionState</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">Window.IsModal</td>
+            <td style="text-align:left;">Window.IsTopmost</td>
+            <td style="text-align:left;">Window.WindowVisualState</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">XPath</td>
+            <td style="text-align:left;"></td>
+            <td style="text-align:left;"></td>
+        </tr>
+    </tbody>
 
+</table>
 
 ## Automation Controls 
  
@@ -328,54 +254,41 @@ Here are few of the commonly used UI automation control types:
 
 __Full list of supported controls:__
 
-<p>
-`DesktopButton`
-</p>
-<p>
-`DesktopCheckBox` 
-</p>
-<p>
-`DesktopComboBox`
-</p>
-<p>
-`DesktopDataItem`
-</p>
-<p>
-`DesktopEdit`
-</p>
-<p>
-`DesktopGrid`
-</p>
-<p>
-`DesktopListView`
-</p>
-<p>
-`DesktopListViewItem`
-</p>
-<p>
-`DesktopProgressBar`
-</p>
-<p>
-`DesktopRadioButton`
-</p>
-<p>
-`DesktopTab`
-</p>
-<p>
-`DesktopTabItem`
-</p>
-<p>
-`DesktopText`
-</p>
-<p>
-`DesktopTreeView`
-</p>
-<p>
-`DesktopTreeViewItem`
-</p>
-<p>
-`DesktopWindow`
-</p>
+<table class="Tbl k-table">
+    <tbody>
+        <tr>
+            <td style="text-align:left;">DesktopButton</td>
+            <td style="text-align:left;">DesktopCheckBox</td>
+            <td style="text-align:left;">DesktopComboBox</td>
+        </tr>
+        <tr>
+        <td style="text-align:left;">DesktopDataItem</td>
+            <td style="text-align:left;">DesktopEdit</td>
+            <td style="text-align:left;">DesktopGrid</td>            
+        </tr>
+        <tr>
+            <td style="text-align:left;">DesktopListView</td>
+            <td style="text-align:left;">DesktopListViewItem</td>
+            <td style="text-align:left;">DesktopProgressBar</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">DesktopRadioButton</td>
+            <td style="text-align:left;">DesktopTab</td>
+            <td style="text-align:left;">DesktopTabItem</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">DesktopText</td>
+            <td style="text-align:left;">DesktopTreeView</td>
+            <td style="text-align:left;">DesktopTreeViewItem</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">DesktopWindow</td>
+            <td style="text-align:left;"></td>
+            <td style="text-align:left;"></td>
+        </tr>
+    </tbody>
+
+</table>
 
 ## Control Patterns
  
@@ -393,39 +306,27 @@ Some commonly used control patterns in UI automation include:
 
 __Full list of supported control patterns:__
 
-<p>
-`DesktopExpandCollapsePattern`
-</p>
-<p>
-`DesktopGridPattern`
-</p>
-<p>
-`DesktopInvokePattern` 
-</p>
-<p>
-`DesktopLegacyIAccessiblePattern`
-</p>
-<p>
-`DesktopRangeValuePattern`
-</p>
-<p>
-`DesktopSelectionItemPattern`
-</p>
-<p>
-`DesktopSelectionPattern`
-</p>
-<p>
-`DesktopTablePattern`
-</p>
-<p>
-`DesktopTogglePattern`
-</p>
-<p>
-`DesktopTransformPattern`
-</p>
-<p>
-`DesktopValuePattern`
-</p>
-<p>
-`DesktopWindowPattern`
-</p>
+<table class="Tbl k-table">
+    <tbody>
+        <tr>
+            <td style="text-align:left;">DesktopExpandCollapsePattern</td>
+            <td style="text-align:left;">DesktopGridPattern</td>
+            <td style="text-align:left;">DesktopInvokePattern</td>
+        </tr>
+        <tr>
+        <td style="text-align:left;">DesktopLegacyIAccessiblePattern</td>
+            <td style="text-align:left;">DesktopRangeValuePattern</td>
+            <td style="text-align:left;">DesktopSelectionItemPattern</td>            
+        </tr>
+        <tr>
+            <td style="text-align:left;">DesktopSelectionPattern</td>
+            <td style="text-align:left;">DesktopTablePattern</td>
+            <td style="text-align:left;">DesktopTogglePattern</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">DesktopTransformPattern</td>
+            <td style="text-align:left;">DesktopValuePattern</td>
+            <td style="text-align:left;">DesktopWindowPattern</td>
+        </tr>
+    </tbody>
+</table>
