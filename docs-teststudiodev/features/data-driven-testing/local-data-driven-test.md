@@ -30,7 +30,7 @@ Let's create a new, Local Data Driven test. We'll go through five iterations of 
 
 ![Set number of rows and columns][20]
 
-- Create new data table or remove current data table (both will prompt you the current data will be lost if you proceed)
+- Create new data table or remove current data table - both options inform that the current data is deleted if you go ahead
 
 ![Create new or remove data table][21]
 

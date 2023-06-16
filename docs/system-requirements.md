@@ -166,7 +166,7 @@ Admin permissions are required for:
 * IDE (Visual Studio plug-in only): Visual Studio __Professional or Enterprise 2017, 2019__ and __2022__.
 
 	* You must run Visual Studio as Administrator.
-	* Visual Studio projects should target a version between .NET Framework 4.7.2 to - NET Framework 4.8.
+	* Visual Studio projects target a version between .NET Framework 4.7.2 to - NET Framework 4.8.
     * Visual Studio 2022 requires <a href="/prerequisites/installation/installation-consideration#visual-studio-2022-installation-specifics" target="_blank">minimum selection of components</a> to add in its installation.
 	* Visual Studio 2017 requires additional <a href="/prerequisites/installation/installation-consideration#modify-the-visual-studio-2017-installation" target="_blank">individual components</a> on top of its default installation.
 

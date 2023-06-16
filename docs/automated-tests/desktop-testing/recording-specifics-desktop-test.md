@@ -2,7 +2,7 @@
 title: Recording Desktop Tests
 page_title: Recording Desktop Test
 description: "Testing a desktop app with Test Studio. Specifics in recording desktop application scenarios in Test Studio. Record an automated scenario for desktop app in Test Studio. "
-position: 1
+position: 2
 ---
 # Recording Specifics for Desktop Tests in Test Studio
 
@@ -18,11 +18,11 @@ This article guides you through the specifics of recording steps in a desktop te
 
 ## Recording Ready State
 
-The recording of desktop tests can sometimes be relatively slower than recording web or WPF tests. To make sure that all actions are recorded properly and help you build robust tests Test Studio's recorder encompass a mechanism for element state detection. When an action is sent too early before the element is ready for automation, the recorder indicates this with a red label stating __'Not ready to record'__.
+The recording of desktop tests can sometimes be relatively slower than recording web or WPF tests. To make sure that all actions are recorded properly and help you build robust tests Test Studio's recorder encompass a mechanism for element state detection. When an action is performed too early, before the element is ready for automation, the recorder indicates this with a _red label_ stating __'Not ready to record'__.
 
 ![Not ready to record](/img/automated-tests/desktop-testing/recording-specifics/fig1.png)
 
-If you hold the mouse on an element for a while there is another gray label stating __'Ready to record'__.
+If you hold the mouse on an element for a while pops up another _gray label_ stating __'Ready to record'__.
 
 ![Ready to record](/img/automated-tests/desktop-testing/recording-specifics/fig2.png)
 
@@ -57,7 +57,7 @@ The __Advanced Recording Tools__ window provides all its functionalities in a re
 
 ## Elements in Desktop Tests
 
-The elements recorded in desktop applications have their own _TechnologyType_, which is called __Desktop__.
+The elements recorded in desktop applications have their own `TechnologyType`, which is called __Desktop__.
 
 ![Elements technology type](/img/automated-tests/desktop-testing/recording-specifics/fig5.png)
 
@@ -66,9 +66,9 @@ Test Studio automatically generates find expressions for the elements from the t
 > __Tip__
 ><br>
 ><br>
-> The default set attribute for generating find expressions is 'ControlTypeName'. Depending on the tested desktop app specifics, you can choose to create elements using xPath or ClassName by <a href="/features/project-settings/find-logic#find-logic-for-desktop-elements" target="_blank">__changing the Smart Find Logic settings on project level__</a>.
+> The default set attribute for generating find expressions is 'ControlTypeName'. Depending on the tested desktop app specifics, you can choose to create elements using 'xPath' or 'ClassName' by <a href="/features/project-settings/find-logic#find-logic-for-desktop-elements" target="_blank">__changing the Smart Find Logic settings on project level__</a>.
 
-Open an element in <a href="/automated-tests/elements/find-element#options-in-element-pane-with-active-recording-session" target="_blank">_Edit mode_ in a live recording session</a> to see the list of its attributes, which can be used in the find expression.
+Open an element in <a href="/automated-tests/elements/find-element#options-in-element-pane-with-active-recording-session" target="_blank">__Edit mode__ during a live recording session</a> to see the list of its attributes, which can be used in the find expression.
 
 ![Elements edit mode](/img/automated-tests/desktop-testing/recording-specifics/fig6.png)
 

@@ -88,9 +88,9 @@ Now that the data is in the built-in table, you can bind the values to the test 
     ><br>
     > Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can have a different location within your project.
 
-    The _Enter text_ step allows only its ___Text___ field to be data driven and, thus, it is the only one listed.
+    The _Enter text_ step allows only its ___Text___ field to be data driven and, thus, this is the only one listed.
 
-1. Click on the drop-down next to the  ___Text___ field to expand the data source columns list. In this scenario, there is a single column in the list - the _productName_, so select this one.
+1. Click on the drop-down next to the  ___Text___ field to expand the data source columns list. In this scenario a single column is in the list - the _`productName`_, so select this one.
 
     ![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
 
@@ -103,13 +103,13 @@ Now that the data is in the built-in table, you can bind the values to the test 
     ><br>
     > See <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">How to bind a step to a data source column</a> for more information.
 
-1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___TextToMatch___.
+1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___`TextToMatch`___.
 
     ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
 
 ## Execute the Data Driven Test and Review the Results
 
-Now that the test is set up to take data from the built-in data table, you can see the two data-bound steps and the column they are connected to. To run the test, hit the _Execute_ button and choose a browser for the execution.
+Now that the test is configured to take data from the built-in data table, you can see the two data-bound steps and the column they are connected to. To run the test, hit the _Execute_ button and choose a browser for the execution.
 
 ![execute-data-driven-test](/img/automated-tests/data-drive-test/local-data-driven-test/execute-data-driven-test.png)
 

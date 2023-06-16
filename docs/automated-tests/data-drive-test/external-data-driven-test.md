@@ -10,7 +10,7 @@ Test Studio allows you to use external data files for data driven testing. This 
 
 ## How To Data Drive the Test
 
-Let's start by adding a  new test in the project and proceed with recording the steps to data drive. We can use the <a href="/automated-tests/data-drive-test/local-data-driven-test" target="_blank">same test sample, described for the data driven test with built-in data</a>.
+Let's start by adding a new test in the project and recording the steps to data drive. We can use the <a href="/automated-tests/data-drive-test/local-data-driven-test" target="_blank">same test sample, described for the data driven test with built-in data</a>.
 
 ## Record the Steps to Data Drive
 
@@ -24,7 +24,7 @@ Open a browser and navigate to the Telerik page to start the recording session. 
 
 ![record-search-actions](/img/automated-tests/data-drive-test/local-data-driven-test/record-search-actions.png)
 
-To ensure that the search was performed correctly, it is recommended to add a step that waits until the first item of the results list contains the searched product name.
+To ensure that the search was performed correctly, add a step that waits until the first item of the results list contains the searched product name.
 
 > __Tip__
 ><br>
@@ -68,7 +68,7 @@ Choose a test from the _Project Explorer_ and click the __Bind Test__ button fro
 
 ## Confirm Data Binding
 
-When the external data source is set as desired, click the __OK__ button to bind it to the selected test. Now the external file is associated with the test, and you can access the data values in the file and bind them to the steps.
+When the external data source is configured as desired, click the __OK__ button to bind it to the selected test. Now the external file is associated with the test, and you can access the data values in the file and bind them to the steps.
 
 > __Tip__
 ><br>
@@ -90,9 +90,9 @@ Once the test has a reference to the data source, you can bind the values to the
     ><br>
     > Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can have a different location within your project.
 
-    The _Enter text_ step allows only its _Text_ field to be data driven and, thus, it is the only one listed.
+    The _Enter text_ step allows only its _Text_ field to be data driven and this is the only one listed.
 
-1. Click on the drop-down next to the  ___Text___ field to expand the data source columns list. In this scenario, there is a single column in the list - the _productName_, so select this one.
+1. Click on the drop-down next to the  ___Text___ field to expand the data source columns list. In this scenario a single column is in the list - the _`productName`_, so select this one.
 
     ![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
 
@@ -105,7 +105,7 @@ Once the test has a reference to the data source, you can bind the values to the
     ><br>
     > See <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">How to bind a step to a data source column</a> for more information.
 
-1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___TextToMatch___.
+1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___`TextToMatch`___.
 
     ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
 

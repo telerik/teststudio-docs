@@ -1,0 +1,12 @@
+codec
+Codec
+Codecs
+codecs
+Xvid
+X264
+MJPEG
+downscaling
+downscale
+uncheck
+Uncheck
+
