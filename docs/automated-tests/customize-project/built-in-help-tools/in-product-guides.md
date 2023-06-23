@@ -6,17 +6,36 @@ position: 3
 ---
 # In-Product Guides
 
-Test Studio introduces the in-product guides for some areas in the project window. Click on the rocket icon to launch a guide that will help you get up to speed with Test Studio.
+Test Studio comes with in-product guides for some areas in the project window to help in getting familiar with the product capabilities. 
+
+The areas for which a guide is available have the __Rocket__ icon in the ribbon. You only need to click the icon to launch the provided in-product guide.
 
 ![In-product guides Rocket Icon][1]
 
-The Rocket icon appears in the Element ribbon, which is active when you modify an element's find expression or image.
+## Where to Find the Rocket Icon
 
-![Element Ribbon][2]
+Guides are available for __Elements__ and __Tests__ panes. The __Rocket__ icon appears in the upper ribbon, which is active for an opened test or when you modify an element's find expression or image. 
 
-The Rocket icon is also available in the [Project Explorer](/features/project-explorer/overview) and [Element Explorer](/features/elements-explorer/overview).
+<table id=web-test>
+	<tr>![Tests Ribbon Web test][2]</tr>
+	<tr>Tests Ribbon Guide</tr>
+<table>
+
+<table id=elements>
+	<tr>![Element Ribbon][2a]</tr>
+    <tr>Elements Ribbon Guide</tr>
+<table>
+
+<table id=load-test>
+	<tr>![Tests Ribbon Load Test][2b]</tr>
+	<tr>Tests Ribbon Guide for Load Test</tr>
+<table>
+
+The Rocket icon is also available in the __[Project Explorer](/features/project-explorer/overview)__ and __[Element Explorer](/features/elements-explorer/overview)__.
 
 ![Element and Project Explorer][3]
+
+## Using the Guides
 
 Starting any of the guides will gray out the selected area in Test Studio and will go through all available buttons providing additional information for their purpose.
 
@@ -28,6 +47,8 @@ You can navigate forwards and backwards through the buttons in the popup message
 
 [1]: /img/automated-tests/customize-project/in-product-guides/fig1.png
 [2]: /img/automated-tests/customize-project/in-product-guides/fig2.png
+[2a]: /img/automated-tests/customize-project/in-product-guides/fig2a.png
+[2b]: /img/automated-tests/customize-project/in-product-guides/fig2b.png
 [3]: /img/automated-tests/customize-project/in-product-guides/fig3.png
 [4]: /img/automated-tests/customize-project/in-product-guides/fig4.png
 [5]: /img/automated-tests/customize-project/in-product-guides/fig5.png
