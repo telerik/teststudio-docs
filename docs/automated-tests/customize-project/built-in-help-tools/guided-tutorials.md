@@ -3,6 +3,7 @@ title: Guided Tutorials
 page_title: Guided Tutorials
 description: "Test Studio guided tutorials. Get started with Test Studio with interactive guided tutorials. "
 position: 1
+publish: false
 ---
 # Guided Tutorials
 
