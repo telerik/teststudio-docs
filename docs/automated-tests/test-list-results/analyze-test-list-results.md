@@ -21,7 +21,7 @@ The **Test Results** panel shows results for the entire test list, the machine o
 
 ![Test results][1]
 
-By selecting a test from the test list, you can see and copy __the execution log for the test run__ or switch to its steps in the __Test__ ribbon.
+By selecting a test from the test list, you can see and copy __the execution log for the test run__ (1) or switch to its steps in the __Test__ (2) ribbon.
 
 ![Test results][1a]
 
