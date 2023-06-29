@@ -123,13 +123,12 @@ The Test Studio UI remains in the background of the application and logs the act
 
 To stop the current recording session __close the automated browser or WPF/desktop application__ - this is how all processes and communication channels between the app and Test Studio gets dismissed.
 
-## Attach the Recorder to a Running Application (Applicable for IE and WPF Only)
+## Attach the Recorder to a Running Application
 
-The specifics of the recording process allow to __attach a recorder and trigger a recording session to an already running IE browser or WPF application__. To start such recording session you need to use the dropdown under the __Record__ button - in the list you can see all compatible processes, to which Test Studio recorder can be attached. Select one and wait for the __Compact Recorder__ to attach to the application.
+The specifics of the recording process allow to __attach a recorder and trigger a recording session to an already running WPF application__. To start such recording session you need to use the dropdown under the __Record__ button - in the list you can see all compatible processes, to which Test Studio recorder can be attached. Select one and wait for the __Compact Recorder__ to attach to the application.
 
 <table id=no-table>
 	<tr>
-		<td>![Attach to running browser][8] <br><br>**Web Test - Internet Explorer only**</td>
 		<td>![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
 	</tr>
 <table>
@@ -137,7 +136,7 @@ The specifics of the recording process allow to __attach a recorder and trigger 
 > **Note**
 > <br>
 > <br>
-> Attaching a recording session to an existing process is __only applicable for Internet Explorer or WPF application__. If you need to cover similar recording scenario for the other browsers (Chrome, Edge Chromium, Firefox), you can use the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">__options for partial test execution__</a>.
+> Attaching a recording session to an existing process is __only applicable for WPF application__. If you need to cover similar recording scenario for the web browsers (Chrome, Edge Chromium, Firefox), you can use the <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">__options for partial test execution__</a>.
 
 ## What is the Compact Recorder
 
