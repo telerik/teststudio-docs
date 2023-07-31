@@ -23,10 +23,6 @@ The below article describes the configuration steps.
 
 You can start the Scheduling config wizard in any of the following ways:
 
-* Once Test Studio services get installed (no matter in which edition of the product), the installation wizard suggests to start the **Configure Test Studio Services** automatically.
-
-    ![Start scheduling setup wizard after installation of services][1]
-
 * The  wizard can be accessed through the Windows Start menu by typing *Configure Test Studio Services*.
 
     ![Configure scheduling setup wizard][12a]
@@ -34,6 +30,10 @@ You can start the Scheduling config wizard in any of the following ways:
 * The **Configure Test Studio Services** can be accessed through the opened in Test Studio project - click **Configure** button under the *Project* tab in the *Scheduling* section.
 
     ![Configure][12]
+
+* Once Test Studio services get installed (no matter in which edition of the product), the installation wizard suggests to start the **Configure Test Studio Services** automatically.
+
+    ![Start scheduling setup wizard after installation of services][1]
 
 ## Configure the Test Studio Services
 

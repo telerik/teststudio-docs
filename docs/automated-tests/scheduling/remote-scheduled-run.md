@@ -157,6 +157,6 @@ In the **Scheduling Server Settings** dialog, click **Run Remotely**, input *loc
 [12]: /img/features/scheduling-test-runs/create-scheduling-server/fig3new.png
 [13]: /img/features/scheduling-test-runs/create-scheduling-server/fig5new.png
 [13a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5a.png
-[14]: /img/features/scheduling-test-runs/create-scheduling-server/fig14.png
+[14]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
 
 [3a]: /img/features/scheduling-test-runs/local-run-all-in-one/fig1.png

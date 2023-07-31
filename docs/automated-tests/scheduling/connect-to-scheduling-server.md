@@ -16,8 +16,8 @@ Open a Test Studio project in the tool's standalone version, create at least one
 
 In the following **Scheduling Server Settings** dialog, click **Run remotely** to schedule a test to run on the connected remote machine(s). Enter the address for the remote scheduling server and click **Connect**.
 
-![Run Remotely][3]
+![Run Remotely][2]
 
-[1]: /img/features/scheduling-test-runs/connect-to-scheduling-server/fig1.png
-[2]: /img/features/scheduling-test-runs/connect-to-scheduling-server/fig2.png
-[3]: /img/features/scheduling-test-runs/connect-to-scheduling-server/fig3.png
+[1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
+[2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
+

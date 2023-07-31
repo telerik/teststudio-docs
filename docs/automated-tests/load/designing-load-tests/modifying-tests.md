@@ -26,7 +26,7 @@ The contents of the HTTP requests that will be sent to the application server ca
 
 Optionally, you can delete a particular HTTP transaction using the 'X' button on the row with the HTTP request you want to delete.
 
-![Delete Http request][3]
+    ![Delete Http request][3]
 
 > __Note!__ You cannot restore an HTTP transaction if you have accidentally deleted it.
 
@@ -84,7 +84,7 @@ Click the _'magnifier'_ icon in the __Edit User Profile__ window to expand the _
 
 > __Note!__ You will be prompted to confirm or decline the change. Once confirmed the user profile cannot be restored to its previous state.
 
-[1]: /img/features/testing-types/load-testing/modifying-tests/fig1.png
+[1]: /img/features/testing-types/load-testing/adding-user-profiles/fig9.png
 [2]: /img/features/testing-types/load-testing/modifying-tests/fig2.png
 [3]: /img/features/testing-types/load-testing/modifying-tests/fig3.png
 [4]: /img/features/testing-types/load-testing/modifying-tests/fig4.png
