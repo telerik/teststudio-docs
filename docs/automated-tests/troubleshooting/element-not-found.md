@@ -38,7 +38,7 @@ Looking at the <a href="/automated-tests/test-results/step-failure-details" targ
 
 ```
 Attempting to find [Html] element using Find logic  (Html): 
-[id 'Exact' e83f05e5-13b9-629d-edb3-99719f8515ce] AND [tagname 'Exact' input]
+[id 'Exact' 1fe4125d-59c9-51c3-ba05-59d1e602d1dc] AND [tagname 'Exact' input]
 Unable to locate element. Search failed!
 ```
 
@@ -65,7 +65,7 @@ Click on __Update Filters__ button to replace the id in the find expression with
 The Test Studio find expression builder lists all attributes of the opened element and any of these can be added in the find expression. If we look closely at the _input_ element, we see its __name__ attribute is unique and, if it is used in the find expression instead of the __id__, finding the element in test runtime gets more robust.
 
 ```HTML
-<input class="form-control" type="text" placeholder="User Name" name="UserName" id="2208d540-2a45-1e2b-6b8c-a00958f16e85">
+<input class="form-control" type="text" placeholder="User Name" name="UserName" id="041a3438-f784-c57c-1805-72a73d88ff1d">
 ```
 
 Remove the __id__ filter from the current find expression and add the __name__ filter instead.

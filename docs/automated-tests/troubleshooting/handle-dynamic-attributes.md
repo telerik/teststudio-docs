@@ -22,7 +22,7 @@ We’ve already launched <a href="/automated-tests/recording/overview#start-a-re
 
 ## Execute the Test and Explore the Results
 
-Upon <a href="/automated-tests/test-execution/quick-execution" target="_blank">execution of this sample test</a>, we expect it to pass successfully. However, it fails to locate the element for step 2., which should click the button on the page. The failure listed in the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a> is 'Element Not Found'.
+Upon <a href="/automated-tests/test-execution/quick-execution" target="_blank">execution of this sample test</a>, we expect it to pass successfully. However, it fails to locate the element for step 3., which should click the button on the page. The failure listed in the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a> is 'Element Not Found'.
 
 Following the <a href="/automated-tests/troubleshooting/element-not-found" target="_blank">troubleshooting steps how to handle an error 'Element Not Found'</a>, you find out that the button has dynamic value for its _id_ attribute and it is different each time the page is reloaded.
 

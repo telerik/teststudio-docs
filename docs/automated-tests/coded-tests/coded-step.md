@@ -68,7 +68,7 @@ The automatically generated coded file contains some predefined values like the 
 ><br>
 > Any <a href="/automated-tests/coded-tests/add-assembly-reference" target="_blank">external dll referenced</a> in the Test Studio project should be included as `using` (or `Import`) statement in the code file where it will be used.
 
-For this example I will add a simple statement to refresh the page DOM tree - the test method in which the code is added is _public void demoTest_CodedStep()_.
+For this example I will add a simple statement to refresh the page DOM tree - the test method in which the code is added is _public void WebTest_CodedStep()_.
 
 ![Custom code added][11]
 
