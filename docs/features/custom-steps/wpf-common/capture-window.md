@@ -40,6 +40,6 @@ To store the Window and Desktop Capture images to disk include the test in a tes
 
 ![Test List settings][3]
 
-[1]: /img/features/custom-steps/capture/step-builder-browser-capture.png
-[2]: /img/features/custom-steps/capture/extended-menu-browser-capture.png
-[3]: /img/features/custom-steps/capture/fig3.png
+[1]: /img/features/custom-steps/capture-window/step-builder-capture-window.png
+[2]: /img/features/custom-steps/capture-window/extended-menu-capture-window.png
+[3]: /img/features/custom-steps/capture-window/fig3.png
