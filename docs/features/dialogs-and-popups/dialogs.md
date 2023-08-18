@@ -19,7 +19,7 @@ In this article you can find useful information about:
 
 Even if you work on the tests in the project and have no active recording session, you can still add the specific steps to handle a dialog from the <a href="/features/custom-steps/overview#add-a-general-step-from-the-step-builder" target="_blank">Step Builder</a>. All dialog steps are listed under the General section of the Step Builder, under __Dialogs__. Select the type of dialog to handle and add hit the __Add Step__ button.
 
-![Step Builder Dialogs section](/img/features/dialogs-and-popups/dialogs/step-builder-dialogs.png)
+![Step Builder Dialogs section][1]
 
 ## Properties for Handle Dialog Steps
 
@@ -29,23 +29,23 @@ The various properties allows you to fine tune the steps to handle dialogs acros
 
 The properties common for all dialogs are the __HandleTimeout__ - controls the time, which the test waits for the dialog to be handled, and the __InitializationTime__ - controls the time, which the test waits before it starts searching for such dialog. It is useful to increase these when it takes longer time for the dialog to appear, or to be finished (usually for the handle download dialogs, when the file to download is too large).
 
-![Dialog steps timeouts](/img/features/dialogs-and-popups/dialogs/timeouts.png)
+![Dialog steps timeouts][2]
 
 ## Handle Button
 
 Each dialog step gives the option to change the button used to handle it during recording, or to adjust it if added manually.
 
-![Dialog handle button](/img/features/dialogs-and-popups/dialogs/handle-button.png)
+![Dialog handle button][3]
 
 The dropdown list provides all possible options for a button to handle a dialog. If you choose wrong type of button for the specific step, there is a prompt message to inform you which are the possible dismiss options for this dialog.
 
-![Choosing wrong handle button](/img/features/dialogs-and-popups/dialogs/handle-button-error.png)
+![Choosing wrong handle button][4]
 
 ## Download and Upload File Locations
 
 The __DownloadPath__ and __FileUploadPath__ properties are mandatory for the respective type dialog. They require a valid full path to the file to interact with.
 
-![File Locations](/img/features/dialogs-and-popups/dialogs/file-locations.png)
+![File Locations][5]
 
 > __Note__
 ><br>
@@ -56,4 +56,11 @@ The __DownloadPath__ and __FileUploadPath__ properties are mandatory for the res
 
 The __FileUploadPath__ accepts multiple files listed quoted and space separated. These will be uploaded if the server accepts multiple files upload.
 
-![Multiple files upload](/img/features/dialogs-and-popups/dialogs/fig20.png)
+![Multiple files upload][6]
+
+[1]: /img/features/dialogs-and-popups/dialogs/DialogsStepBuilder.png
+[2]: /img/features/dialogs-and-popups/dialogs/TimeoutsDropDown.png
+[3]: /img/features/dialogs-and-popups/dialogs/HandleButton.png
+[4]: /img/features/dialogs-and-popups/dialogs/ButtonsWarning.png
+[5]: /img/features/dialogs-and-popups/dialogs/TimeoutsDropDown.png
+[6]: /img/features/dialogs-and-popups/dialogs/FileUploadDialog.png

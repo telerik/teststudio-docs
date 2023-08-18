@@ -42,22 +42,20 @@ The Steps pane lists the steps in order of execution for the current test. Many 
 
 - ![19][19] - Step Type Filter - <a href="/features/test-maintenance/search-test-steps" target="_blank">Filter test steps</a> by type.
 
-[1]: /img/features/test-maintenance/steps-pane/fig1.png
-[2]: /img/features/test-maintenance/steps-pane/fig2.png
-[3]: /img/features/test-maintenance/steps-pane/fig3.png
-[4]: /img/features/test-maintenance/steps-pane/fig4.png
-[5]: /img/features/test-maintenance/steps-pane/fig5.png
-[6]: /img/features/test-maintenance/steps-pane/fig6.png
-[7]: /img/features/test-maintenance/steps-pane/fig7.png
-[8]: /img/features/test-maintenance/steps-pane/fig8.png
-[9]: /img/features/test-maintenance/steps-pane/fig9.png
-[10]: /img/features/test-maintenance/steps-pane/fig10.png
-[11]: /img/features/test-maintenance/steps-pane/fig11.png
-[12]: /img/features/test-maintenance/steps-pane/fig12.png
-[13]: /img/features/test-maintenance/steps-pane/fig13.png
-[14]: /img/features/test-maintenance/steps-pane/fig14.png
-[15]: /img/features/test-maintenance/steps-pane/fig15.png
-[16]: /img/features/test-maintenance/steps-pane/fig16.png
-[17]: /img/features/test-maintenance/steps-pane/fig17.png
-[18]: /img/features/test-maintenance/steps-pane/fig18.png
-[19]: /img/features/test-maintenance/steps-pane/fig19.png
+[1]: /img/features/test-maintenance/steps-pane/steps-pane-overview.png
+[3]: /img/features/test-maintenance/steps-pane/step-down.png
+[4]: /img/features/test-maintenance/steps-pane/step-up.png
+[5]: /img/features/test-maintenance/steps-pane/undo-icon.png
+[6]: /img/features/test-maintenance/steps-pane/redo-icon.png
+[7]: /img/features/test-maintenance/steps-pane/code-behind-icon.png
+[8]: /img/features/test-maintenance/steps-pane/step-marker.png
+[9]: /img/features/test-maintenance/steps-pane/step-order.png
+[10]: /img/features/test-maintenance/steps-pane/step-checkbox.png
+[11]: /img/features/test-maintenance/steps-pane/breakpoint-dot.png
+[12]: /img/features/test-maintenance/steps-pane/continue-on-failure.png
+[13]: /img/features/test-maintenance/steps-pane/action-icon.png
+[14]: /img/features/test-maintenance/steps-pane/description-example.png
+[15]: /img/features/test-maintenance/steps-pane/edit-icon.png
+[16]: /img/features/test-maintenance/steps-pane/shown-inloine-editor.png
+[18]: /img/features/test-maintenance/steps-pane/delete-icon.png
+[19]: /img/features/test-maintenance/steps-pane/steps-filter-drob-down.png

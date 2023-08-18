@@ -12,4 +12,6 @@ This article demonstrates how to add this type of step into the test.
 
 Choose the __Wait for URL__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Wait for URL](/img/features/custom-steps/wait-for-url/fig1.png)
+![Wait for URL][1]
+
+[1]: /img/features/custom-steps/wait-for-url/step-builder-wait-url.png

@@ -19,11 +19,11 @@ This article describes how to add this type of step and demonstrates an example 
 
 Choose the __Test as Step__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Step Builder Test as step](/img/features/custom-steps/test-as-step/fig7.png)
+![Step Builder Test as step][1]
 
 On the next screen you can choose a test to add among all tests of the same type (web, WPF, desktop) in the project. Pick a test from the list and confirm the selection with pressing the __Select__ button.
 
-![Choose a Test to add as step](/img/features/custom-steps/test-as-step/fig8.png)
+![Choose a Test to add as step][2]
 
 > __Important!__
 > <br>
@@ -36,31 +36,40 @@ To ease the process of separating the test steps into smaller modules, Test Stud
 
 Let's use the following example - loading a URL in clear browser session forces the popup to accept the cookies. Record the steps to confirm the selection in the current test and insert these into a if..else condition. As these are repetitive actions to include in any other scenario, you can separate them into a new test - select the steps and choose the _Create Test as Step_ option from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">__Step Context Menu__</a>.
 
-![Select steps to create test as step](/img/features/custom-steps/test-as-step/fig9.png)
+![Select steps to create test as step][3]
 
 The next screen lists the selected steps and lets you set a meaningful name for the new test. Confirm the new test by pressing the __Create__ button.
 
-![Name and create the Test as step](/img/features/custom-steps/test-as-step/fig10.png)
+![Name and create the Test as step][4]
 
 It is directly inserted as a step in the original test. 
 
-![New test added as step](/img/features/custom-steps/test-as-step/fig11.png)
+![New test added as step][5]
 
 ## Example of Using Tests as Step
 
 Below is a sample project automating Amazon.com:
 
-![Project](/img/features/custom-steps/test-as-step/fig1.png)
+![Project][6]
 
 The sample _Login_ test contains the following steps:
 
-![Login Test](/img/features/custom-steps/test-as-step/fig2.png)
+![Login Test][7]
 
 Open the _AddToCart_ test and insert the _Login_ test to its beginning using the __Test as Step__ option from the Step Builder. The Login test is added as a single step and all its steps gets executed before moving on to step 3 in this example.
 
-![Test](/img/features/custom-steps/test-as-step/fig6.png)
+![Test][8]
 
 > __Important!__
 > <br>
 > <br>
 > Tests set <a href="/features/test-maintenance/tests-in-development" target="_blank">**'In development'**</a> and used as a step are always executed regardless their current state.
+
+[1]: /img/features/custom-steps/test-as-step/add-test-step.png
+[2]: /img/features/custom-steps/test-as-step/fig8.png
+[3]: /img/features/custom-steps/test-as-step/gr-recorded-steps-as-test.png
+[4]: /img/features/custom-steps/test-as-step/fig10.png
+[5]: /img/features/custom-steps/test-as-step/gr-recorded-steps-as-test-direct-insert.png
+[6]: /img/features/custom-steps/test-as-step/example-test-as-step.png
+[7]: /img/features/custom-steps/test-as-step/login-test-sample.png
+[8]: /img/features/custom-steps/test-as-step/login-test-sample-2.png

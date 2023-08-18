@@ -35,8 +35,8 @@ To remove the 'In Development' flag select the 'Remove' option from a test's con
 
 ![Remove In Development State][5]
 
-[1]: /img/features/test-maintenance/tests-in-development/fig1.png
-[2]: /img/features/test-maintenance/tests-in-development/fig2.png
-[3]: /img/features/test-maintenance/tests-in-development/fig3.png
-[4]: /img/features/test-maintenance/tests-in-development/fig4.png
-[5]: /img/features/test-maintenance/tests-in-development/fig5.png
+[1]: /img/features/test-maintenance/tests-in-development/right-click-test.png
+[2]: /img/features/test-maintenance/tests-in-development/test-in-dev-mark.png
+[3]: /img/features/test-maintenance/tests-in-development/test-in-dev-test-list.png
+[4]: /img/features/test-maintenance/tests-in-development/test-in-dev-list-settings.png
+[5]: /img/features/test-maintenance/tests-in-development/right-click-remove-dev.png

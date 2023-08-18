@@ -46,8 +46,8 @@ In this article you can find the following topics:
 
 <table id="no-table">
 <tr>
-<td>![Standalone][12]<br>**Standalone version**</td>
-<td>![VS Plugin][13]<br>**VS Plugin**</td>
+<td>![Standalone][4]<br>**Standalone version**</td>
+<td>![VS Plugin][5]<br>**VS Plugin**</td>
 <tr>
 <table>
 
@@ -88,25 +88,24 @@ In this article you can find the following topics:
 
 To check if an element is present in the application DOM - a "<a href="/features/recorder/verifications/Wait" target="_blank">wait on element</a>" verification has to be used. It returns *true/false* output and **if condition** could be completed not braking the test execution. On the following image - if step 4 does not execute - the *SecondLink* element would not be added to the DOM and steps would continue in the **else branch**.
 
-![If Element Exists][14]
+![If Element Exists][12]
 
 If step 4 is executed the *SecondLink* element would be added to the DOM and **if condition** passes normally as shown below.
 
-![Else Element Exists][15]
-
-[1]: /img/features/logical-steps/if-else/fig1.png
-[2]: /img/features/logical-steps/if-else/fig2.png
-[3]: /img/features/logical-steps/if-else/fig3.png
-[4]: /img/features/logical-steps/if-else/fig4.png
-[5]: /img/features/logical-steps/if-else/fig5.png
-[6]: /img/features/logical-steps/if-else/fig6.png
-[7]: /img/features/logical-steps/if-else/fig7.png
-[8]: /img/features/logical-steps/if-else/fig8.png
-[9]: /img/features/logical-steps/if-else/fig9.png
-[10]: /img/features/logical-steps/if-else/fig10.png
-[11]: /img/features/logical-steps/if-else/fig11.png
-[12]: /img/features/logical-steps/if-else/fig12.png
-[13]: /img/features/logical-steps/if-else/fig13.png
-[14]: /img/features/logical-steps/if-else/fig14.png
 [15]: /img/features/logical-steps/if-else/fig15.png
+![Else Element Exists][13]
+
+[1]: /img/features/logical-steps/if-else/rnd-num-gen-page.png
+[2]: /img/features/logical-steps/if-else/quick-step-drop-down.png
+[3]: /img/features/logical-steps/if-else/verify-step-choose.png
+[4]: /img/features/logical-steps/if-else/step-builder-if-else.png
+[5]: /img/features/logical-steps/if-else/vs-step-builder.png
+[6]: /img/features/logical-steps/if-else/select-condition-in-if.png
+[7]: /img/features/logical-steps/if-else/uncheck-verify-step.png
+[8]: /img/features/logical-steps/if-else/drop-inside-if.png
+[9]: /img/features/logical-steps/if-else/drop-inside-else.png
+[10]: /img/features/logical-steps/if-else/if-executed.png
+[11]: /img/features/logical-steps/if-else/else-executed.png
+[12]: /img/features/logical-steps/if-else/elem-in-DOM-exist-1.png
+[13]: /img/features/logical-steps/if-else/elem-in-DOM-exist-if.png
 

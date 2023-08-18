@@ -24,5 +24,5 @@ To choose a different target element for a specific test step from the Elements 
 
 ![Select][2]
 
-[1]: /img/features/test-maintenance/change-step-target-element/fig1.png
-[2]: /img/features/test-maintenance/change-step-target-element/fig2.png
+[1]: /img/features/test-maintenance/change-step-target-element/step-properties.png
+[2]: /img/features/test-maintenance/change-step-target-element/select-element.png

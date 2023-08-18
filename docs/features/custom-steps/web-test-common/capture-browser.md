@@ -21,10 +21,11 @@ Choose the __Capture Browser__ option from the <a href="/features/custom-steps/o
 ![Add Capture Browser step](/img/features/custom-steps/capture/fig0.png)
 
 ## Capture Browser Step Properties
+![Add Capture Browser step][1]
 
 Expand the __Capture__ step and toggle the __CaptureType__ to _Desktop_ or _Browser_ depending on what you need to capture. The __FileNamePrefix__ property lets you choose the file name for the images.
 
-![Step Properties](/img/features/custom-steps/capture/fig1.png)
+![Step Properties][2]
 
 ## Find the Images from Capture Browser Step
 
@@ -38,6 +39,10 @@ The images from __Capture Browser__ step are generated and stored when the test 
 
 To store the Browser and Desktop Capture images to disk include the test in a test list and edit <a href="/features/test-lists/test-list-settings" target="_blank">its settings</a>. Ensure **CreateLogFile** is enabled and, optionally, specify the output directory for the image captures in the __LogLocation__ setting.
 
-![Test List settings](/img/features/custom-steps/capture/fig3.png)
+![Test List settings][3]
 
 > In the VS plugin, the images are output to **ProjectsFolder\ProjectName\TestResults\User_MachineName_Date_Time\Out**
+
+[1]: /img/features/custom-steps/capture/step-builder-browser-capture.png
+[2]: /img/features/custom-steps/capture/extended-menu-browser-capture.png
+[3]: /img/features/custom-steps/capture/fig3.png

@@ -12,7 +12,7 @@ The article demonstrates how to add this type of step into the test.
 
 Choose the __Generate Random Number__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Add Generate Random Number step](/img/features/random-data/random-number/fig1.png)
+![Add Generate Random Number step][1]
 
 There are few notable properties of the step:
 
@@ -20,4 +20,7 @@ There are few notable properties of the step:
 - __Max Value__ - the largest number which can be assigned to the data bind variable.
 - __DataBindVariableName__ - the name of <a href="/features/recorder/highlighting-menu/quick-steps/extraction#use-the-extracted-value-in-the-next-steps" target="_blank">extracted variable to use</a> to output the generated data.
 
-![Generate Random Number step properties](/img/features/random-data/random-number/fig2.png)
+![Generate Random Number step properties][2]
+
+[1]: /img/features/random-data/random-number/step-builder-rnd-num.png
+[2]: /img/features/random-data/random-number/extended-menu-rnd-num.png

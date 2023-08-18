@@ -41,28 +41,28 @@ Walk--through of <a href="/features/logical-steps/while-loop#Build-a-While-loop"
 
 <table id="no-table">
 <tr>
-<td>![Standalone][11]<br>**Standalone version**</td>
-<td>![VS Plugin][12]<br>**VS Plugin**</td>
+<td>![Standalone][4]<br>**Standalone version**</td>
+<td>![VS Plugin][5]<br>**VS Plugin**</td>
 <tr>
 <table>
 
 10.&nbsp; Choose the verification we've already added from the dropdown of the While step.
 
-![Choose Verification][7]
+![Choose Verification][6]
 
 11.&nbsp; Uncheck/Delete the verification step so it will not be executed (We have this verification already added in the while step)
 
-![Uncheck Verification][8]
+![Uncheck Verification][7]
 
 12.&nbsp; Drag the Click Generate Button step into the WHILE step.
 
-![Drag into While Step][9]
+![Drag into While Step][8]
 
 13.&nbsp; Add an <a href="/features/custom-steps/execution-delay" target="_blank">Execution Delay</a> step from the More drop-down in the Add ribbon. Set it to 20 milliseconds.
 
 14.&nbsp; Drag the *Execution Delay* step into the *WHILE* step.
 
-![Drag Execution Step][10]
+![Drag Execution Step][9]
 
 ## Execution Status
 
@@ -72,21 +72,20 @@ The **While step** will be always marked as 'Passed' since it is always executed
 
 An execution status example when the while loop is executed few times and the steps in the while loop are executed at least once. 
 
-![While condition is evaluated at least once as true][13]
+![While condition is evaluated at least once as true][10]
 
 An execution status example when the while condition is false and the steps in the while loop are not run at all. 
 
-![While condition is evaluated at least once as false][14]
+![While condition is evaluated at least once as false][11]
 
-[1]: /img/features/logical-steps/while-loop/fig1.png
-[2]: /img/features/logical-steps/while-loop/fig2.png
-[3]: /img/features/logical-steps/while-loop/fig3.png
-[4]: /img/features/logical-steps/while-loop/fig4.png
-[7]: /img/features/logical-steps/while-loop/fig7.png
-[8]: /img/features/logical-steps/while-loop/fig8.png
-[9]: /img/features/logical-steps/while-loop/fig9.png
-[10]: /img/features/logical-steps/while-loop/fig10.png
-[11]: /img/features/logical-steps/while-loop/fig11.png
-[12]: /img/features/logical-steps/while-loop/fig12.png
-[13]: /img/features/logical-steps/while-loop/fig13.jpg
-[14]: /img/features/logical-steps/while-loop/fig14.jpg
+[1]: /img/features/logical-steps/while-loop/rnd-gen-page.png
+[2]: /img/features/logical-steps/while-loop/rnd-gen-element-drop-down.png
+[3]: /img/features/logical-steps/while-loop/advanced-rec-tool.png
+[4]: /img/features/logical-steps/while-loop/step-builder-while-loop.png
+[5]: /img/features/logical-steps/while-loop/vs-step-builder-while-loop.png
+[6]: /img/features/logical-steps/while-loop/extended-menu-while-loop.png
+[7]: /img/features/logical-steps/while-loop/checkbox-unchecked.png
+[8]: /img/features/logical-steps/while-loop/drag-drop-step-in-loop.png
+[9]: /img/features/logical-steps/while-loop/fig10.png
+[10]: /img/features/logical-steps/while-loop/fig13.png
+[11]: /img/features/logical-steps/while-loop/fig14.jpg

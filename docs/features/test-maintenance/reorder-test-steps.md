@@ -29,7 +29,7 @@ You can easily change the order of existing test steps.
 
 ![> Recording Marker][4]
 
-[1]: /img/features/test-maintenance/reorder-test-steps/fig1.png
-[2]: /img/features/test-maintenance/reorder-test-steps/fig2.png
-[3]: /img/features/test-maintenance/reorder-test-steps/fig3.png
-[4]: /img/features/test-maintenance/reorder-test-steps/fig4.png
+[1]: /img/features/test-maintenance/reorder-test-steps/arrows-steps.png
+[2]: /img/features/test-maintenance/reorder-test-steps/drag-drop-step.png
+[3]: /img/features/test-maintenance/reorder-test-steps/clear-icon.png
+[4]: /img/features/test-maintenance/reorder-test-steps/mark-step.png

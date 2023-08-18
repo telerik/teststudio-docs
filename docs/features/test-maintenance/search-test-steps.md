@@ -26,8 +26,8 @@ Both search filters can apply at one time.
 
 ![both][5]
 
-[1]: /img/features/test-maintenance/search-test-steps/fig1.png
-[2]: /img/features/test-maintenance/search-test-steps/fig2.png
-[3]: /img/features/test-maintenance/search-test-steps/fig3.png
-[4]: /img/features/test-maintenance/search-test-steps/fig4.png
-[5]: /img/features/test-maintenance/search-test-steps/fig5.png
+[1]: /img/features/test-maintenance/search-test-steps/search-bar.png
+[2]: /img/features/test-maintenance/search-test-steps/type-search-bar-filter.png
+[3]: /img/features/test-maintenance/search-test-steps/drop-down-filter.png
+[4]: /img/features/test-maintenance/search-test-steps/filter-checked.png
+[5]: /img/features/test-maintenance/search-test-steps/both-filters-and-search.png

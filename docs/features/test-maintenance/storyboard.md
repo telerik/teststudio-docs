@@ -56,26 +56,25 @@ While working on the tests in the automation project, you may need to __refresh 
 
 Once a browser is selected, there is a prompt message to confirm the __Recapture__ attempt.
 
-![warning][10]
+![warning][8]
 
 ## Export Storyboard as HTML
 
 If you need to share the Storyboard images with anyone in your team, you can __export these to a HTML file__. Hit the **Export as HTML Documentation** button and choose a folder in which the exported file will be stored.
 
-![Export][8]
+![Export][9]
 
 Once the export is complete, you are prompted to choose whether you need to open the file. The HTML file gets opened in the default set browser on your machine and provides a report-like representation of the test, with test summary, step descriptions, and expandable images.
 
-![Exported HTML][9]
+![Exported HTML][10]
 
-[1]: /img/features/test-maintenance/storyboard/fig1.png
-[2]: /img/features/test-maintenance/storyboard/fig2.png
-[3]: /img/features/test-maintenance/storyboard/fig3.png
-[4]: /img/features/test-maintenance/storyboard/fig4.png
-[5]: /img/features/test-maintenance/storyboard/fig5.png
-[6]: /img/features/test-maintenance/storyboard/fig6.png
-[7]: /img/features/test-maintenance/storyboard/fig7.png
-[8]: /img/features/test-maintenance/storyboard/fig8.png
-[9]: /img/features/test-maintenance/storyboard/fig9.png
-[10]: /img/features/test-maintenance/storyboard/fig10.png
-[11]: /img/features/test-maintenance/storyboard/fig11.png
+[1]: /img/features/test-maintenance/storyboard/storyboard-tab-location.png
+[2]: /img/features/test-maintenance/storyboard/storyboard-panel.png
+[3]: /img/features/test-maintenance/storyboard/scale-window.png
+[4]: /img/features/test-maintenance/storyboard/switch-to-steps-in-test.png
+[5]: /img/features/test-maintenance/storyboard/change-storyboard-orientaiton.png
+[6]: /img/features/test-maintenance/storyboard/specific-img-storyboard.png
+[7]: /img/features/test-maintenance/storyboard/recapture-storyboard.png
+[8]: /img/features/test-maintenance/storyboard/fig10.png
+[9]: /img/features/test-maintenance/storyboard/storyboard-to-HTML.png
+[10]: /img/features/test-maintenance/storyboard/fig9.png
