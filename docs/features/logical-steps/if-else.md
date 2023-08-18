@@ -92,7 +92,6 @@ To check if an element is present in the application DOM - a "<a href="/features
 
 If step 4 is executed the *SecondLink* element would be added to the DOM and **if condition** passes normally as shown below.
 
-[15]: /img/features/logical-steps/if-else/fig15.png
 ![Else Element Exists][13]
 
 [1]: /img/features/logical-steps/if-else/rnd-num-gen-page.png
