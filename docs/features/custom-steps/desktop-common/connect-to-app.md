@@ -13,6 +13,7 @@ This article demonstrates how to add this type of step into the test.
 Choose the __Connect to Application__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
 ![Add Connect to Application step][1]
+
 There are few notable properties of the step:
 
 - __Process Name__ - defines the process to connect to; mandatory property.

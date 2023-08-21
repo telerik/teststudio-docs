@@ -31,7 +31,7 @@ For example:
 
 ##Solution 2##
 
-Put your data into a SQL data base and <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">Use T-SQL to Pull the Data</a>you want from the database. Optionally, you can <a href="/knowledge-base/data-driven-testing-kb/sql-random-row" target="_blank">Generate a Random Number</a> in your T-SQL to point to the row of data to pull.
+Put your data into a SQL data base and <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">Use T-SQL to Pull the Data</a> you want from the database. Optionally, you can <a href="/knowledge-base/data-driven-testing-kb/sql-random-row" target="_blank">Generate a Random Number</a> in your T-SQL to point to the row of data to pull.
 
 ##Solution 3##
 

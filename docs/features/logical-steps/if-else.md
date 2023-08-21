@@ -24,7 +24,7 @@ In this article you can find the following topics:
 
 1.&nbsp; Create a Web Test and click Record.
 
-2.&nbsp; Navigate to <a href="https://www.random.org/" target="_blank">www.random.org</a>.
+2.&nbsp; Navigate to <a href="https://www.calculator.net/random-number-generator.html" target="_blank">www.random.org</a>.
 
 3.&nbsp; Set the Min field to 1 and the Max field to 2.
 

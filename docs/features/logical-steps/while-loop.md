@@ -87,5 +87,5 @@ An execution status example when the while condition is false and the steps in t
 [7]: /img/features/logical-steps/while-loop/checkbox-unchecked.png
 [8]: /img/features/logical-steps/while-loop/drag-drop-step-in-loop.png
 [9]: /img/features/logical-steps/while-loop/fig10.png
-[10]: /img/features/logical-steps/while-loop/fig13.png
+[10]: /img/features/logical-steps/while-loop/fig13.jpg
 [11]: /img/features/logical-steps/while-loop/fig14.jpg

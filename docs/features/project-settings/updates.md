@@ -2,7 +2,7 @@
 title: Software Update
 page_title: Software Update
 description: "Test Studio update settings. Check Test Studio version. Activate/Deactivate Test Studio license. Check for updates of Test Studio."
-position: 10
+position: 11
 ---
 # Software Update
 

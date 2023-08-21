@@ -62,5 +62,5 @@ The __FileUploadPath__ accepts multiple files listed quoted and space separated.
 [2]: /img/features/dialogs-and-popups/dialogs/TimeoutsDropDown.png
 [3]: /img/features/dialogs-and-popups/dialogs/HandleButton.png
 [4]: /img/features/dialogs-and-popups/dialogs/ButtonsWarning.png
-[5]: /img/features/dialogs-and-popups/dialogs/TimeoutsDropDown.png
+[5]: /img/features/dialogs-and-popups/dialogs/DownloadPath.png
 [6]: /img/features/dialogs-and-popups/dialogs/FileUploadDialog.png
