@@ -76,5 +76,5 @@ Once the export is complete, you are prompted to choose whether you need to open
 [6]: /img/features/test-maintenance/storyboard/specific-img-storyboard.png
 [7]: /img/features/test-maintenance/storyboard/recapture-storyboard.png
 [8]: /img/features/test-maintenance/storyboard/fig10.png
-[9]: /img/features/test-maintenance/storyboard/storyboard-to-HTML.png
+[9]: /img/features/test-maintenance/storyboard/storyboard-to-html.png
 [10]: /img/features/test-maintenance/storyboard/fig9.png

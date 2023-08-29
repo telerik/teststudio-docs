@@ -31,8 +31,8 @@ You can export your test project from the Standalone version to Visual Studio fo
 
 ![Project folder][5]
 
-[1]: /img/features/test-maintenance/export-visual-studio/export-VS.png
-[2]: /img/features/test-maintenance/export-visual-studio/select-VS-version-propt.png
+[1]: /img/features/test-maintenance/export-visual-studio/export-vs.png
+[2]: /img/features/test-maintenance/export-visual-studio/select-vs-version-propt.png
 [3]: /img/features/test-maintenance/export-visual-studio/fig3.png
 [4]: /img/features/test-maintenance/export-visual-studio/fig4.png
 [5]: /img/features/test-maintenance/export-visual-studio/fig5.png

@@ -25,5 +25,5 @@ There are few notable properties of the step:
 
 ![Generate Random Date and Time step properties][2]
 
-[1]: /img/features/random-data/random-date/step-cuilder-DnT.png
-[2]: /img/features/random-data/random-date/extended-menu-rnd-DnT.png
+[1]: /img/features/random-data/random-date/step-cuilder-dnt.png
+[2]: /img/features/random-data/random-date/extended-menu-rnd-dnt.png

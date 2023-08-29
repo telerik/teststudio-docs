@@ -105,6 +105,6 @@ If step 4 is executed the *SecondLink* element would be added to the DOM and **i
 [9]: /img/features/logical-steps/if-else/drop-inside-else.png
 [10]: /img/features/logical-steps/if-else/if-executed.png
 [11]: /img/features/logical-steps/if-else/else-executed.png
-[12]: /img/features/logical-steps/if-else/elem-in-DOM-exist-1.png
-[13]: /img/features/logical-steps/if-else/elem-in-DOM-exist-if.png
+[12]: /img/features/logical-steps/if-else/elem-in-dom-exist-1.png
+[13]: /img/features/logical-steps/if-else/elem-in-dom-exist-if.png
 

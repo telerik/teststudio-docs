@@ -72,9 +72,9 @@ Test Studio __detects automatically also this type of popups__, but due to their
 ><br>
 > Test Studio cannot connect to modal popup windows which do not have a title in Firefox, Safari, and Chrome. To avoid any troubles in automating the tested page in browsers other than Internet Explorer, ensure any modal popups are titled.
 
-[1]: /img/features/dialogs-and-popups/html-popups/Add-Connect_Close.png
-[2]: /img/features/dialogs-and-popups/html-popups/Timeouts.png
-[3]: /img/features/dialogs-and-popups/html-popups/PopUpUrl.png
-[4]: /img/features/dialogs-and-popups/html-popups/PopUpsDynamicUrl.png
+[1]: /img/features/dialogs-and-popups/html-popups/add-connect-close-step-builder.png
+[2]: /img/features/dialogs-and-popups/html-popups/timeouts.png
+[3]: /img/features/dialogs-and-popups/html-popups/popup-url.png
+[4]: /img/features/dialogs-and-popups/html-popups/popup-dynamic-url.png
 [5]: /img/features/dialogs-and-popups/html-popups/fig1.png
-[6]: /img/features/dialogs-and-popups/html-popups/ModalPopUps.png
+[6]: /img/features/dialogs-and-popups/html-popups/modal-popup.png

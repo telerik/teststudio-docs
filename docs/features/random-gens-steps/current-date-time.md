@@ -23,5 +23,5 @@ There are few notable properties of the step:
 
 ![Generate Current Date and Time step properties][2]
 
-[1]: /img/features/random-data/current-date/step-builder-current-DnT.png
-[2]: /img/features/random-data/current-date/extended-menu-current-DnT.png
+[1]: /img/features/random-data/current-date/step-builder-current-dnt.png
+[2]: /img/features/random-data/current-date/extended-menu-current-dnt.png
