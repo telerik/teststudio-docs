@@ -2,7 +2,7 @@
 title: Fail Search or Verify Step in Visual Studio
 page_title: Fail Search or Verify Step in Visual Studio
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-position: 7
+position: 1
 ---
 # Fail Search or Verify Step in Visual Studio
 
