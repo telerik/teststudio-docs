@@ -8,7 +8,7 @@ position: 1
 
 ## PROBLEM
 
-An element search or verification related tasks that pass in “Quick Execution” or inside Test Studio, fail in Visual Studio Test Explorer plug-in.
+Еlement searches or verification related tasks that pass in “Quick Execution” or inside Test Studio, fail in Visual Studio Test Explorer plug-in.
 
 *Reason: Visual Studio’s runners – testhost.exe have different built-in DPI scaling option.*
 
