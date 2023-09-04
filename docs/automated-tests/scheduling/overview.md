@@ -136,7 +136,7 @@ When these prerequisites are complete - including the case when all these compon
 > __Important!__
 > <br>
 > <br>
-> The Test Studio services responsible for test storage, scheduled execution, and web results display - the Storage Service, the Scheduling Service, and the Executive Dashboard Service communicate through web communication protocols. We strongly advise installing these services in a __secured test environment__ without access to business or environment-critical assets.
+> The Test Studio services providing test storage, scheduled execution, and web results display - the Storage Service, the Scheduling Service, and the Executive Dashboard Service, communicate via web protocols. Considering this, we strongly __advise installing these services in a secured test environment__ without access to business or environment-critical assets.
 
 ## See Also
 
