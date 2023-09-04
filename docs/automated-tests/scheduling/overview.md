@@ -133,6 +133,11 @@ There are few steps to follow in order to setup the Scheduling configuration:
 
 When these prerequisites are complete - including the case when all these components are hosted on the same machine, the __scheduled test list executions will use the Test Studio Services with all their benefits__ - <a href="/automated-tests/scheduling/schedule-execution#step-1" target="_blank">recurring runs</a>, <a href="/automated-tests/scheduling/schedule-execution#step-2" target="_blank">test distribution</a> on selected machines, <a href="/automated-tests/scheduling/schedule-execution#step-3" target="_blank">automatic email notification</a>, results in the <a href="/automated-tests/scheduling-results/dashboard/results" target="_blank">Executive Dashboard</a>, etc.
 
+> __Important!__
+> <br>
+> <br>
+> The Test Studio services responsible for test storage, scheduled execution, and web results display - the Storage Service, the Scheduling Service, and the Executive Dashboard Service communicate through web communication protocols. We strongly advise installing these services in a __secured test environment__ without access to business or environment-critical assets.
+
 ## See Also
 
 * <a href="https://www.telerik.com/blogs/architecture-remote-execution-test-studio" target="_blank">The Architecture of Remote Execution With Test Studio</a>
