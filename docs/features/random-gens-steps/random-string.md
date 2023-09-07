@@ -12,7 +12,7 @@ The article demonstrates how to add this type of step into the test.
 
 Choose the __Generate Random String__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Add Generate Random String step](/img/features/random-data/random-string/fig1.png)
+![Add Generate Random String step][1]
 
 There are few notable properties of the step:
 
@@ -22,4 +22,7 @@ There are few notable properties of the step:
 - __String Length__ - the length of the generated string excluding the prefix and suffix. The valid range is between 1 and 1000.
 - __DataBindVariableName__ - the name of <a href="/features/recorder/highlighting-menu/quick-steps/extraction#use-the-extracted-value-in-the-next-steps" target="_blank">extracted variable to use</a> to output the generated data.
 
-![Generate Random String step properties](/img/features/random-data/random-string/fig2.png)
+![Generate Random String step properties][2]
+
+[1]: /img/features/random-data/random-string/step-builder-rnd-string.png
+[2]: /img/features/random-data/random-string/extended-menu-rnd-str.png

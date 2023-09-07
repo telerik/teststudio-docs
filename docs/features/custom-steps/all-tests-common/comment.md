@@ -12,8 +12,11 @@ This article demonstrates how to add this type of step into the test.
 
 Choose the __Comment__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Comment step in step builder](/img/features/custom-steps/comment/fig2.png)
+![Comment step in step builder][1]
 
 This step allows you to enter a text comment which is represented as a single test step, and is shown in the test log.
 
-![Comment](/img/features/custom-steps/comment/fig1.png)
+![Comment][2]
+
+[1]: /img/features/custom-steps/comment/step-builder-comment.png
+[2]: /img/features/custom-steps/comment/comment-log.png

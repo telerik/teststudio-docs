@@ -65,4 +65,4 @@ Go the **Project Tab**, click on a test and the pane to the right will instantly
 
 > Name, Path, Owner, Priority, and CustomProperty can be used as filtering criteria for Rules in <a href="/automated-tests/test-lists/test-lists-standalone#dynamic-test-lists" target="_blank">Dynamic Test Lists</a>.
 
-[1]: /img/features/test-maintenance/test-properties-standalone/fig1.png
+[1]: /img/features/test-maintenance/test-properties-standalone/test-properties-navigate.png

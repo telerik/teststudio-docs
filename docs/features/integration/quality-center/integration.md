@@ -66,7 +66,7 @@ Open a File Explorer and navigate to the Test Studio installation _Bin_ sub-fold
 
 1. Restart Test Studio and the QC button will be back in the _Project Ribbon_.
 
-[1]: /img/features/integration/quality-center/integration/fig1.png
+[1]: /img/features/integration/quality-center/integration/qc-button.png
 [2]: /img/features/integration/quality-center/integration/fig2.png
 [3]: /img/features/integration/quality-center/integration/fig3.png
 [4]: /img/features/integration/quality-center/integration/fig4.png

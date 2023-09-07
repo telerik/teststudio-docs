@@ -48,9 +48,9 @@ Execute a test list and drill down into the failed result.
 <table>
 
 [1]: /img/features/integration/bug-tracking/launch-bug-dialog/fig1.png
-[2]: /img/features/integration/bug-tracking/launch-bug-dialog/fig2.png
+[2]: /img/features/integration/bug-tracking/launch-bug-dialog/step-righ-click-menu-bug.png
 [3]: /img/features/integration/bug-tracking/launch-bug-dialog/fig3.png
-[4]: /img/features/integration/bug-tracking/launch-bug-dialog/fig4.png
+[4]: /img/features/integration/bug-tracking/launch-bug-dialog/test-list-icon.png
 [5]: /img/features/integration/bug-tracking/launch-bug-dialog/fig5.png
 
 

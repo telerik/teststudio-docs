@@ -22,5 +22,5 @@ The __PdfFilePath__ property of the step specifies the file to open and accepts 
 >
 > Open PDF step is __not supported__ in Internet Explorer.
 
-[1]: /img/features/custom-steps/open-pdf/fig1.png
-[2]: /img/features/custom-steps/open-pdf/fig2.png
+[1]: /img/features/custom-steps/open-pdf/step-builder-open-pdf.png
+[2]: /img/features/custom-steps/open-pdf/pdf-dropdown.png

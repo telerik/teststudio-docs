@@ -86,5 +86,5 @@ The options in this section are only available for Verification steps!
 - **Edit in Code** - converts the recorded step to a new method in the coded file related to the test - <a href="/features/coded-steps/code-behind-file" target="_blank">the code-behind file</a>. Notice that the description and icon change to indicate the step is now a coded one. Once converted, it cannot be switched back to the initially recorded step.
 - **View Code** - switches to the code-behind file and shows the test method for the selected coded step.
 
-[1]: /img/features/test-maintenance/test-step-context-menu/fig1.png
-[2]: /img/features/test-maintenance/test-step-context-menu/fig2.png
+[1]: /img/features/test-maintenance/test-step-context-menu/right-click-1.png
+[2]: /img/features/test-maintenance/test-step-context-menu/right-click-2.png

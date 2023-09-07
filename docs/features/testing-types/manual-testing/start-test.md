@@ -38,9 +38,9 @@ position: 2
 - **Save & Close** - close the dialog and return to the Record tab.
 - **Reset Results** - reset all current test results and save the result file to the **Project\Results** folder (optional).
 
-[1]: /img/features/testing-types/manual-testing/start-test/fig1.png
-[2]: /img/features/testing-types/manual-testing/start-test/fig2.png
-[3]: /img/features/testing-types/manual-testing/start-test/fig3.png
-[4]: /img/features/testing-types/manual-testing/start-test/fig4.png
-[5]: /img/features/testing-types/manual-testing/start-test/fig5.png
-[6]: /img/features/testing-types/manual-testing/start-test/fig6.png
+[1]: /img/features/testing-types/manual-testing/start-test/start-manual-test-button.png
+[2]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-1.png
+[3]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2.png
+[4]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-capture-img.png
+[5]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-comment.png
+[6]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-pass-fail.png

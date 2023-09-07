@@ -19,6 +19,6 @@ To export your manual test steps to an Excel workbook, click the ‘Export to Ex
 
 ![Excel Export][3]
 
-[1]: /img/features/testing-types/manual-testing/import-export/fig1.png
-[2]: /img/features/testing-types/manual-testing/import-export/fig2.png
-[3]: /img/features/testing-types/manual-testing/import-export/fig3.png
+[1]: /img/features/testing-types/manual-testing/import-export/inport-tab-button.png
+[2]: /img/features/testing-types/manual-testing/import-export/import-excel-propmt.png
+[3]: /img/features/testing-types/manual-testing/import-export/export-tab-button.png
