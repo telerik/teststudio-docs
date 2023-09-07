@@ -35,5 +35,5 @@ The available settings are divided in few areas:
 - <a href="/features/project-settings/theme" target="_blank">Theme Settings</a>
 - <a href="/features/project-settings/updates" target="_blank">Software Update</a>
 
-[1]: /img/features/project-settings/overview/fig1.png
-[2]: /img/features/project-settings/overview/fig2.png
+[1]: /img/features/project-settings/overview/proj-settings-icon.png
+[2]: /img/features/project-settings/overview/vs-proj-setting-icons.png

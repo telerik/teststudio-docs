@@ -12,7 +12,7 @@ This article demonstrates how to add this type of step into the test.
 
 Choose the __Custom Annotation__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Custom Annotation Step](/img/features/custom-steps/custom-annotation/fig0.png)
+![Custom Annotation Step][1]
 
 > __Note__
 > <br>
@@ -24,4 +24,7 @@ Other useful properties of the step are:
 - **DisplayLocation** - choose where the annotation displays relative to the browser/app window.
 - **DisplayTime** - the amount of time (in milliseconds) for which the annotation is on screen.
 
-![Properties for Custom Annotation ](/img/features/custom-steps/custom-annotation/fig1.png)
+![Properties for Custom Annotation ][2]
+
+[1]: /img/features/custom-steps/custom-annotation/step-builder-custom-anotation.png
+[2]: /img/features/custom-steps/custom-annotation/props-custom-anotations.png

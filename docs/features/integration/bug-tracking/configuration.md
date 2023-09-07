@@ -109,9 +109,9 @@ Click **Advanced Settings** ![Advanced settings button][20] to set whether to at
 
 ![Bug Tracking Settings][21]
 
-[1]: /img/features/integration/bug-tracking/configuration/fig1.png
+[1]: /img/features/integration/bug-tracking/configuration/bug-report-icon-navigate.png
 [2]: /img/features/integration/bug-tracking/configuration/fig2.png
-[3]: /img/features/integration/bug-tracking/configuration/fig3.png
+[3]: /img/features/integration/bug-tracking/configuration/bug-report-propt.png
 [4]: /img/features/integration/bug-tracking/configuration/fig4.png
 [5]: /img/features/integration/bug-tracking/configuration/fig5.png
 [6]: /img/features/integration/bug-tracking/configuration/fig6.png
@@ -125,7 +125,7 @@ Click **Advanced Settings** ![Advanced settings button][20] to set whether to at
 [14]: /img/features/integration/bug-tracking/configuration/fig14.jpg
 [15]: /img/features/integration/bug-tracking/configuration/fig15.png
 [16]: /img/features/integration/bug-tracking/configuration/fig16.jpg
-[30]: /img/features/integration/bug-tracking/configuration/fig3-jira.png
+[30]: /img/features/integration/bug-tracking/configuration/bug-report-icon-navigate-JIRA.png
 [20]: /img/features/integration/bug-tracking/configuration/advanced-settings.png
 [21]: /img/features/integration/bug-tracking/configuration/choose-advanced-settings.png
 [22]: /img/features/integration/bug-tracking/configuration/import-from-exploratory.png

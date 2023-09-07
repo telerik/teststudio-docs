@@ -59,14 +59,14 @@ b. For a WPF Test: Click the **Browse** button to enter where the app is located
 
 ![Results][11]
 
-[1]: /img/features/testing-types/manual-testing/fast-forward/fig1.png
-[2]: /img/features/testing-types/manual-testing/fast-forward/fig2.png
-[3]: /img/features/testing-types/manual-testing/fast-forward/fig3.png
-[4]: /img/features/testing-types/manual-testing/fast-forward/fig4.png
-[5]: /img/features/testing-types/manual-testing/fast-forward/fig5.png
-[6]: /img/features/testing-types/manual-testing/fast-forward/fig6.png
+[1]: /img/features/testing-types/manual-testing/fast-forward/fast-forward-button.png
+[2]: /img/features/testing-types/manual-testing/fast-forward/fast-forward-promt.png
+[3]: /img/features/testing-types/manual-testing/fast-forward/manual-test-in-web.png
+[4]: /img/features/testing-types/manual-testing/fast-forward/manual-step-record.png
+[5]: /img/features/testing-types/manual-testing/fast-forward/tab-icons.png
+[6]: /img/features/testing-types/manual-testing/fast-forward/execute-prompt-1-select-browser.png
 [7]: /img/features/testing-types/manual-testing/fast-forward/fig7.png
-[8]: /img/features/testing-types/manual-testing/fast-forward/fig8.png
-[9]: /img/features/testing-types/manual-testing/fast-forward/fig9.png
+[8]: /img/features/testing-types/manual-testing/fast-forward/execute-prompt-1-selected.png
+[9]: /img/features/testing-types/manual-testing/fast-forward/execute-prompt-1-fail-test.png
 [10]: /img/features/testing-types/manual-testing/fast-forward/fig10.png
-[11]: /img/features/testing-types/manual-testing/fast-forward/fig11.png
+[11]: /img/features/testing-types/manual-testing/fast-forward/test-list-result.png

@@ -25,8 +25,8 @@ Walk--through of creating a loop process.
 
 <table id="no-table">
 <tr>
-<td>![Standalone][6]<br>**Standalone version**</td>
-<td>![VS Plugin][7]<br>**VS Plugin**</td>
+<td>![Standalone][2]<br>**Standalone version**</td>
+<td>![VS Plugin][3]<br>**VS Plugin**</td>
 <tr>
 <table>
 
@@ -41,7 +41,7 @@ Walk--through of creating a loop process.
 9.&nbsp; Save and Execute. After the initial set of integers is generated, the process is repeated 5 times.
 
 [1]: /img/features/logical-steps/loop/fig1.png
-[4]: /img/features/logical-steps/loop/fig4.png
-[5]: /img/features/logical-steps/loop/fig5.png
-[6]: /img/features/logical-steps/loop/fig6.png
-[7]: /img/features/logical-steps/loop/fig7.png
+[2]: /img/features/logical-steps/loop/step-builder-loop.png
+[3]: /img/features/logical-steps/loop/vs-step-builder.png
+[4]: /img/features/logical-steps/loop/extended-menu-loop.png
+[5]: /img/features/logical-steps/loop/drag-drop-loop.png

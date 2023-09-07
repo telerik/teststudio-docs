@@ -18,7 +18,7 @@ This article demonstrates how to add this type of step into the test and the spe
 
 Choose the __Navigate To__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Navigate To](/img/features/custom-steps/navigate-to/fig1.png)
+![Navigate To][1]
 
 The __Navigate To__ accepts a valid URL. The step gets automatically recorded when you begin recording a test. You can insert such step at any point of the test from the __Step Builder__ or record one from the <a href="/features/recorder/advanced-recording-tools/browser-control" target="_blank">__Browsers tab__</a> in the __Advanced Recording Tools__.
 
@@ -52,3 +52,6 @@ Test Studio allows <a href="/knowledge-base/test-execution-kb/base-url" target="
     * Step property _NavigateUrl_ is set to `/first-test`
     * Step property _BaseUrl_ is set to `~/getting-started`
     * The final URL to navigate to is `https://docs.telerik.com/teststudio/getting-started/first-test`
+
+[1]: /img/features/custom-steps/navigate-to/step-builder-navigate-to.png
+

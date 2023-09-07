@@ -479,5 +479,5 @@ padding: 8px;
 <table>
 
 
-[1]: /img/features/test-maintenance/test-step-properties/fig1.png
+[1]: /img/features/test-maintenance/test-step-properties/step-properties.png
 [2]: /img/features/test-maintenance/test-step-properties/fig2.png

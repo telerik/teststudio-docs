@@ -127,7 +127,7 @@ Below is a list of the optional supported operators, when building custom find e
 <tr>
 	<td>#</td>
 	<td>foo=#ba*</td>
-	<td>Find the element where attribute foo 'matches the regular expression' ba* - See this link for a description of regular expressions.</td>
+	<td>Find the element where attribute foo 'matches the regular expression' ba* - See this <a href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference" targer="_blank">link</a> for a description of regular expressions.</td>
 </tr>
 <tr>
 	<td>|</td>

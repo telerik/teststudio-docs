@@ -31,6 +31,6 @@ Once most or all of the steps of your manual test are automated, you can convert
 
 ![Unchecked][2]
 
-[1]: /img/features/testing-types/manual-testing/convert-automated/fig1.png
-[2]: /img/features/testing-types/manual-testing/convert-automated/fig2.png
+[1]: /img/features/testing-types/manual-testing/convert-automated/navigate-to-props.png
+[2]: /img/features/testing-types/manual-testing/convert-automated/ismanual-unchecked.png
 

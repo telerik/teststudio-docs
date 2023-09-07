@@ -12,8 +12,12 @@ This article demonstrates how to add this type of step into the test.
 
 Choose the __Inspection Point__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Add Inspection Point Step](/img/features/custom-steps/inspection-point/fig0.png)
+![Add Inspection Point Step][1]
 
 The DOM Explorer gets opened in separate window where you can search through it. The test execution remains paused until you close the DOM Explorer window.
 
-![Inspect Browser DOM Step](/img/features/custom-steps/inspection-point/fig1.png)
+![Inspect Browser DOM Step][2]
+
+[1]: /img/features/custom-steps/inspection-point/step-builder-inspc-point.png
+[2]: /img/features/custom-steps/inspection-point/inspect-dom.png
+

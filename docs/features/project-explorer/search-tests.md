@@ -60,15 +60,15 @@ The above two filters could also be applied in the same time. On top of these th
 
 ![Both_filters][12]
 
-[1]: /img/features/project-explorer/search-and-filter-tests/fig1.png
-[2]: /img/features/project-explorer/search-and-filter-tests/fig2.png
-[3]: /img/features/project-explorer/search-and-filter-tests/fig3.png
-[4]: /img/features/project-explorer/search-and-filter-tests/fig4.png
-[5]: /img/features/project-explorer/search-and-filter-tests/fig5.png
-[6]: /img/features/project-explorer/search-and-filter-tests/fig6.png
-[7]: /img/features/project-explorer/search-and-filter-tests/fig7.png
-[8]: /img/features/project-explorer/search-and-filter-tests/fig8.jpg
-[9]: /img/features/project-explorer/search-and-filter-tests/fig9.png
-[10]: /img/features/project-explorer/search-and-filter-tests/fig10.png
-[11]: /img/features/project-explorer/search-and-filter-tests/fig11.png
-[12]: /img/features/project-explorer/search-and-filter-tests/fig12.png
+[1]: /img/features/project-explorer/search-and-filter-tests/searchbar-projects.png
+[2]: /img/features/project-explorer/search-and-filter-tests/type-search-filter.png
+[3]: /img/features/project-explorer/search-and-filter-tests/allsteps-filter.png
+[4]: /img/features/project-explorer/search-and-filter-tests/allsteps-filter-checkbox.png
+[5]: /img/features/project-explorer/search-and-filter-tests/both-search-allsteps-filter.png
+[6]: /img/features/project-explorer/search-and-filter-tests/filter-by-usage-from-other-tests-button.png
+[7]: /img/features/project-explorer/search-and-filter-tests/used-by-right-click-menu.png
+[8]: /img/features/project-explorer/search-and-filter-tests/test-step-selector.jpg
+[9]: /img/features/project-explorer/search-and-filter-tests/both-usage-search-filters.png
+[10]: /img/features/project-explorer/search-and-filter-tests/test-in-dev-filter-button.png
+[11]: /img/features/project-explorer/search-and-filter-tests/both-in-dev-search-filters.png
+[12]: /img/features/project-explorer/search-and-filter-tests/both-in-dev-usage-filters.png

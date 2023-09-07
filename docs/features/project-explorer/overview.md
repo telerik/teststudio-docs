@@ -8,7 +8,7 @@ position: 1
 
 The **Project Explorer** pane shows a tree-like structure of your tests and folders in the project.
 
-![Project Explorer][0]
+![Project Explorer][1]
 
 Tests can be added directly to the project, or logically grouped in folders. Double click any test file to open it for editing. Folders in turn, can be nested forming hierarchical representation of your testing solution.
 
@@ -16,7 +16,7 @@ Tests can be added directly to the project, or logically grouped in folders. Dou
 
 If there are multiple folders expanded you can collapse these using the **Collapse** button.
 
-![Collapse Button][4]
+![Collapse Button][2]
 
 ## Filtering Options in Project Explorer
 
@@ -28,7 +28,7 @@ Each project file has a context menu with further actions that can be taken. Not
 
 ### Project Context Menu Options
 
-![Project Context Menu][1]
+![Project Context Menu][3]
 
 - **Add New Test** - create a new test within the project or folder. A *'Create New Test dialog'* appears and allows you to choose the type of test and set its specific name.
 
@@ -60,7 +60,7 @@ Each project file has a context menu with further actions that can be taken. Not
 
 ### Test File Context Menu Options
 
-![Test File Context Menu][2]
+![Test File Context Menu][4]
 
 - **Open** - Open the selected test. You can also open a test by **double clicking** it.
 
@@ -82,7 +82,7 @@ Each project file has a context menu with further actions that can be taken. Not
 
 ### Folder File Context Menu Options
 
-![Folder Context Menu][3]
+![Folder Context Menu][5]
 
 The folder context menu options are a mix of the Project and Test context menus options.
 
@@ -100,8 +100,8 @@ The folder context menu options are a mix of the Project and Test context menus 
 
 - **Rename** - edit the name of the test or folder.
 
-[0]: /img/features/project-explorer/overview/fig0.png
-[1]: /img/features/project-explorer/overview/fig1.png
-[2]: /img/features/project-explorer/overview/fig2.png
-[3]: /img/features/project-explorer/overview/fig3.png
-[4]: /img/features/project-explorer/overview/collapse_button.png
+[1]: /img/features/project-explorer/overview/project-explorer-navigate.png
+[2]: /img/features/project-explorer/overview/colapse-button.png
+[3]: /img/features/project-explorer/overview/projects-right-click-menu.png
+[4]: /img/features/project-explorer/overview/test-right-click-menu.png
+[5]: /img/features/project-explorer/overview/folder-right-click-menu.png
