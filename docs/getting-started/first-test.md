@@ -28,15 +28,15 @@ Let's go ahead and add a new __Web__ test in the test project.
 
 1. Go to the *Project* ribbon in the project and click on the __New__ button. This button consists of two areas - the upper one adds a web test by default, the lower one opens a dropdown and lets you choose the type of test to add (skip to step 3. in this tutorial). Use the upper area of the button to add your first web test for this project.
 
-    ![Add new web test button in Project Ribbon](/img/getting-started/first-project/fig02.png)
+    ![Add new web test button in Project Ribbon][1]
 
 2. This brings up a popup window and allows you to enter a name for the test. Or, you can leave it with the default suggested name and rename it later from the <a href="/features/project-explorer/overview#test-file-context-menu-options">*Project Explorer Context Menu*</a>. Press the __Ok__ button to confirm adding the new test - it appears in the  __Project Explorer__ and is opened on focus in the test area.
 
-    ![Choose name for the new test](/img/getting-started/first-project/add-web-test.gif)
+    ![Choose name for the new test][2]
 
 3. To add a test from any of the other test types, click the down arrow area of the __New__ button in the *Project* ribbon and select the desired one from the dropdown list. You can change the default test name in a similar popup window and confirm the selection by pressing the __Ok__ button. The test appears in the __Project Explorer__ and is opened on focus in the test area.
 
-    ![Add other test type test Project Ribbon](/img/getting-started/first-project/fig02a.png)
+    ![Add other test type test Project Ribbon][3]
 
 You can use the links below to find out more detailed information on all test types you can add in a Test Studio Web&Desktop project:
 
@@ -59,7 +59,7 @@ The click-and-record functionality in Test Studio is designed to record the user
 
 1. You can continue in the sample project you just created. Select the test you added in the __Project Explorer__ and double click on it - the focus is set in the empty test area and the tools ribbon is switched to *Tests*. You can trigger the recording session either by clicking on the __Record__ button in the ribbon, or the *camera icon* in the test area.
 
-    ![Click the record button](/img/getting-started/first-project/fig04.png)
+    ![Click the record button][4]
 
     > __Tip__
     ><br>
@@ -68,7 +68,7 @@ The click-and-record functionality in Test Studio is designed to record the user
 
 2. Starting the __recording session from a web test__ triggers the *Recording* dialog. You need to type the URL to navigate to (you can pick a URL from the list of recently used URLs) and select any of the supported for recording browsers. Click the *__Record__* button or press the *Enter* key to start the recording.
 
-    ![Choose browser](/img/getting-started/first-project/fig05.png)
+    ![Choose browser][5]
 
     > __Tip__
     ><br>
@@ -77,7 +77,7 @@ The click-and-record functionality in Test Studio is designed to record the user
 
 3. The selected browser starts and navigates to the selected page and once the page is entirely loaded the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Compact Recording Toolbar__</a> gets attached to the browser instance. A _Navigate_ step is recorded in the test for this initial action and you can continue acting upon the page as usually. Test Studio records all user actions towards the page and represents these as steps in the test.
 
-    ![Attached recorder web app](/img/getting-started/first-project/fig06.png)
+    ![Attached recorder web app][6]
 
     > __Important__
     ><br>
@@ -86,18 +86,18 @@ The click-and-record functionality in Test Studio is designed to record the user
 
 4. Starting the __recording session from a WPF test__ for first time triggers the *Configure WPF Application Path* dialog. You need to <a href="/automated-tests/wpf/wpf-test#choose-the-application-to-automate" target="_blank">specify the application to be used</a> for creating the tests, then click the __OK__ button to trigger the recording. Once the test is configured with an application, the __Record__ button starts that one automatically in recording mode.
 
-    ![Configure WPF](/img/getting-started/first-project/fig05a.png)
+    ![Configure WPF][7]
 
 5. Starting the __recording session from a desktop test__ for first time triggers the *Configure Desktop Application Path* dialog. You need to <a href="/automated-tests/desktop-testing/desktop-test#choose-the-desktop-application-to-automate" target="_blank">specify the application to be used</a> for creating the tests, then click the __OK__ button to trigger the recording. Once the test is configured with an application, the __Record__ button starts that one automatically in recording mode.
 
-    ![Configure desktop app](/img/getting-started/first-project/fig05b.png)
+    ![Configure desktop app][8]
 
 6. The configured application - WPF or Desktop - starts and once it is loaded entirely the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Compact Recording Toolbar__</a> gets attached to it.
 
     <table id="no-table">
     <tr>
-    <td> ![Attached recorder WPF app][1] <br><br>Recording WPF Application</td>
-    <td> ![Attached recorder desktop app][2] <br><br>Recording Desktop Application</td>
+    <td> ![Attached recorder WPF app][9] <br><br>Recording WPF Application</td>
+    <td> ![Attached recorder desktop app][10] <br><br>Recording Desktop Application</td>
     <tr>
     <table>
 
@@ -107,12 +107,11 @@ The click-and-record functionality in Test Studio is designed to record the user
 
 Following the above steps, you noticed that starting the recording session attached the __Test Studio Compact Recording Toolbar__ to the browser selected for test recording. Let's check what options provides the __Compact Recording Toolbar__.
 
-![Recorder attached to the browser](/img/general-information/test-recording/overview/fig5.png)
+![Recorder attached to the browser][11]
 
 The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Compact Recording Toolbar__</a> is a powerful tool, which enables additional useful features to  enhance the recording experience. You can pause or continue the recording of actions, enable or disable the elements highlighting to use the Quick Step menu, open the Advanced Recording Tools to explore the DOM in further details, etc. Check the list below for details of the options in the toolbar.
 
-![Recording Toolbar](/img/getting-started/first-project/compact-recording-toolbar.png)
-
+![Recording Toolbar][12]
 1. __Highlight Element__ - enables or disables the <a href="/features/recorder/compact-recording-toolbar#hover-over-highlighting" target="_blank">Element Highlighting</a> and the Quick Steps menu.
 2. __Recording State__ - there is a *Pause* button in case you need to perform any actions against the application, but don't need to record these. When the recording is paused, the button is switched to a *Resume* mode to trigger the recording again.
 3. __Advanced Recording Tools__ - open the Advanced Recording Tools window to explore <a href="/features/recorder/advanced-recording-tools/dom-explorer" target="_blank">the DOM tree of the application, add <a href="/features/recorder/advanced-recording-tools/element-steps/steps-overview" target="_blank">element specific steps</a> or include <a href="/features/recorder/advanced-recording-tools/browser-control" target="_blank">browser specific actions</a> or <a href="/features/recorder/advanced-recording-tools/common-steps" target="_blank">common steps</a> between the recorded steps.
@@ -130,5 +129,15 @@ The <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Com
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-video-tutorial-test-studio" target="_blank">Web Test Recorder Video Tutorial</a>
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
 
-[1]: /img/getting-started/first-project/fig06a.png
-[2]: /img/getting-started/first-project/fig06b.png
+[1]: /img/getting-started/first-project/fig02.png
+[2]: /img/getting-started/first-project/add-web-test.png
+[3]: /img/getting-started/first-project/fig02a.png
+[4]: /img/getting-started/first-project/fig04.png
+[5]: /img/getting-started/first-project/fig05.png
+[6]: /img/getting-started/first-project/fig06.png
+[7]: /img/getting-started/first-project/fig05a.png
+[8]: /img/getting-started/first-project/fig05b.png
+[9]: /img/getting-started/first-project/fig06a.png
+[10]: /img/getting-started/first-project/fig06b.png
+[11]: /img/general-information/test-recording/overview/fig5.png
+[12]: /img/getting-started/first-project/compact-recording-toolbar.png

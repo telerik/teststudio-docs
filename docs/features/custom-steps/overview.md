@@ -66,6 +66,6 @@ The __General__ section in the __Step Builder__ is divided in three sub-sections
 1. [Change Window State](/features/custom-steps/change-window-state) - alter the state of the WPF application window.
 
 [1]: /img/features/custom-steps/overview/use-the-step-builder-panel.png
-[3]: /img/features/custom-steps/overview/AddSteps.png
+[3]: /img/features/custom-steps/overview/add-step.png
 [5]: /img/features/custom-steps/overview/web-gen-step.png
 [7]: /img/features/custom-steps/overview/wpf-gen-step.png
