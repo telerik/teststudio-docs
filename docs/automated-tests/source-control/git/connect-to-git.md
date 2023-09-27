@@ -17,7 +17,7 @@ position: 2
 
 ![Connect][1]
 
-3.&nbsp; The **Connect to Source Control** dialog appears. Select **Git**, fill in the appropriate information click **Connect** and **OK**. **Two-factor authentication** is supported using <a href="/features/source-control/git/overview-git#support-for-git-two-factor-authentication" target="_blank">a personal access token</a> instead of the account password.
+3.&nbsp; The **Connect to Source Control** dialog appears. Select **Git**, fill in the appropriate information click **Connect** and **OK**. **Two-factor authentication** is supported using only <a href="/features/source-control/git/overview-git#support-for-git-two-factor-authentication" target="_blank">a personal access token</a>. Account password will not work.
 
 You can choose between local and remote repository. For the local repository the local project path is set by default.
 
