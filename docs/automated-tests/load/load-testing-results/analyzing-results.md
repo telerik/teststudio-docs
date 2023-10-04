@@ -180,5 +180,5 @@ padding: 8px;
 [12]: /img/features/testing-types/load-testing/analyzing-results/fig12.png
 [13]: /img/features/testing-types/load-testing/analyzing-results/fig13.png
 [14]: /img/features/testing-types/load-testing/analyzing-results/fig14.png
-[15]: /img/features/testing-types/load-testing/analyzing-results/fig15.gif
+[15]: /img/features/testing-types/load-testing/analyzing-results/fig15.png
 [16]: /img/features/testing-types/load-testing/analyzing-results/fig16.png

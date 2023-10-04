@@ -28,11 +28,11 @@ It is time to <a href="/automated-tests/test-execution/quick-execution" target="
 
 1. Once a test scenario is already recorded, click the **Execute** button in the _Test_ ribbon.
 
-    ![Test Studio](/img/getting-started/first-project/fig08.png)
+    ![Test Studio][1]
 
 2. In the _Executing_ dialog select Internet Explorer (or any of the other browsers supported for execution) to run the test against and press Enter or click the ***Run*** button.
 
-    ![Select browser](/img/getting-started/first-project/fig09.png)
+    ![Select browser][2]
 
     > __Note!__
     > <br>
@@ -41,7 +41,7 @@ It is time to <a href="/automated-tests/test-execution/quick-execution" target="
 
 3. Test Studio launches the selected browser and executes the steps recorded in the test. The **Execute** button in the _Test_ ribbon is changed to __Abort__ and allows you to stop the test run before it is finished.
 
-    ![Abort Run](/img/getting-started/first-project/fig10.png)
+    ![Abort Run][3]
 
     > __Note!__
     > <br>
@@ -52,7 +52,7 @@ It is time to <a href="/automated-tests/test-execution/quick-execution" target="
 
 When the test execution is complete, there will be a summary how many steps were executed and what is the overall result of the run. Each step is indicated as *Passed* or *Failed* with a green or red circle in front of it. <a href="/automated-tests/test-results/analyze-quick-run-results" target="_blank">Test results are automatically generated</a> and details can be reviewed by clicking on **View Log**.
 
-![View log](/img/getting-started/first-project/fig14.png)
+![View log][4]
 
 ## Test List Execution
 
@@ -60,22 +60,31 @@ Now that you recorded your first test and ensured it is executed successfully, y
 
 1. Go to the _Test List_ ribbon in Test Studio and click on the __List__ button in the _Add_ section.
 
-    ![Add test list](/img/getting-started/first-project/add-test-list.png)
+    ![Add test list][5]
 
 2. In the _Create a New Test List_ dialog enter a name for the list and add the test in the box on the right side of the window. You can either double click the test to include, or select it and use the _Arrow_ buttons. Confirm the selection with a click on the __Ok__ button.
 
-    ![Create test list](/img/getting-started/first-project/create-test-list.png)
+    ![Create test list][6]
 
 3. The newly created test list appears in the _Test List_ view and you can trigger its execution from the __Run List__ button.
 
-    ![Run test list](/img/getting-started/first-project/run-test-list.png)
+    ![Run test list][7]
 
 ## Test List Results
 
 The <a href="/automated-tests/test-list-results/calendar" target="_blank">results from the test list runs</a> are available in the **Results** tab.
 
-![test list results](/img/getting-started/first-project/test-list-results.png)
+![test list results][8]
 
 Find out more about <a href="/automated-tests/test-lists/test-lists-standalone" target="_blank">test lists</a> and the <a href="/automated-tests/test-lists/test-list-execution" target="_blank">execution of test lists</a>.
 
 <div><a href="/getting-started/first-test">Back to <strong>Record Your First Test</strong></a><a style="float:right" href="/getting-started/analyze-the-results">Go to <strong>Review The Results and Debug Test Failures</strong></a></div>
+
+[1]: /img/getting-started/first-project/fig08.png
+[2]: /img/getting-started/first-project/fig09.png
+[3]: /img/getting-started/first-project/fig10.png
+[4]: /img/getting-started/first-project/fig14.png
+[5]: /img/getting-started/first-project/add-test-list.png
+[6]: /img/getting-started/first-project/create-test-list.png
+[7]: /img/getting-started/first-project/run-test-list.png
+[8]: /img/getting-started/first-project/test-list-results.png
