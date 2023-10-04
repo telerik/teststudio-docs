@@ -10,7 +10,7 @@ position: 1
 
 *Telerik Test Studio cannot start Microsoft Edge browser without browser extension. While Test Studio tests work fine with Chrome.*
 
-    **System.TimeoutException:** This request operation sent to **net.pipe://localhost/Telerik/TestingFramework.Hosts.Manager** did not receive a reply within the configured timeout (00:01:00). The time allotted to this operation may have been a portion of a longer timeout. This may be because the service is still processing the operation or because the service was unable to send a reply message. Please consider increasing the operation timeout (by casting the channel/proxy to IContextChannel and setting the OperationTimeout property) and ensure that the service is able to connect to the client.
+    System.TimeoutException: This request operation sent to net.pipe://localhost/Telerik/TestingFramework.Hosts.Manager did not receive a reply within the configured timeout (00:01:00). The time allotted to this operation may have been a portion of a longer timeout. This may be because the service is still processing the operation or because the service was unable to send a reply message. Please consider increasing the operation timeout (by casting the channel/proxy to IContextChannel and setting the OperationTimeout property) and ensure that the service is able to connect to the client.
 
 ## SOLUTION
 
