@@ -36,7 +36,7 @@ To create a new project:
 
 ![Create new Project](/img/getting-started/first-project/fig00.png)
 
-The default location where Test Studio creates projects is _C:\Users\<yourUsername>\Documents\Test Studio Projects_. The __Browse Folder__ button allows you to change this by choosing another folder.
+The default location where Test Studio creates projects is _C:\Users\\\<yourUsername>\Documents\Test Studio Projects_. The __Browse Folder__ button allows you to change this by choosing another folder.
 
 ### Open an Existing Project
 

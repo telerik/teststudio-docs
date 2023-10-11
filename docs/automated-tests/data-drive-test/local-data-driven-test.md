@@ -26,11 +26,11 @@ Let's start by adding a new web test to your project.
 
 Open a browser and navigate to the Telerik page to start the recording session. Record the following actions:
 
-1. Click the _Search_ icon in the top navigation bar.
+1. Click the __Search__ icon in the top navigation bar.
 
-1. Enter 'Test Studio' in the _Search_ field.
+1. Enter 'Test Studio' in the __Search__ field.
 
-1. Click the _Search_ button.
+1. Click the __Search__ button.
 
 ![record-search-actions](/img/automated-tests/data-drive-test/local-data-driven-test/record-search-actions.png)
 
@@ -48,15 +48,15 @@ Once all necessary steps are added to the test, __close the browser to finish th
 
 ## Prepare the Data Source
 
-1. Click the _'Local Data'_ tab located at the bottom of the test steps pane to switch to the built-in data table.
+1. Click the `Local Data` tab located at the bottom of the test pane to switch to the built-in data table.
 
     ![switch-to-local-data](/img/automated-tests/data-drive-test/local-data-driven-test/switch-to-local-data.png)
 
-1. In the local data tab, specify the number of columns and rows and create a table. For the current scenario we need a single column and three rows.
+1. In the `Local Data` tab, specify the number of columns and rows and create a table. For the current scenario we need a single column and three rows.
 
     ![create-data-table](/img/automated-tests/data-drive-test/local-data-driven-test/create-data-table.png)
 
-1. Rename the column to correspond to the data that it contains - _'productName'_ for this scenario.
+1. Rename the column to correspond to the data that it contains - `productName` for this scenario.
 
     ![rename-column](/img/automated-tests/data-drive-test/local-data-driven-test/rename-column.png)
 
@@ -73,49 +73,48 @@ Once all necessary steps are added to the test, __close the browser to finish th
 
 Now that the data is in the built-in table, you can bind the values to the test steps:
 
-1. Switch back to the *steps view* by clicking the _Test steps_ tab at the bottom of the test steps pane.
+1. Switch back to the steps view by clicking the `Test steps` tab at the bottom of the test pane.
 
     ![switch-to-test-steps](/img/automated-tests/data-drive-test/local-data-driven-test/switch-to-test-steps.png)
 
-1. Click on the _Enter text_ step (number 3. for the current scenario) and open the <a href="/features/test-maintenance/test-step-properties" target="_blank">_Step Properties pane_</a>. 
+1. Select the __Enter text__ step (number 8. for the current scenario) and expand it with double-click. 
 
-1. The ___Bindings___ property is the first in the list. Click the three dots button on the right to open the step fields that you can bind to data.
+    ![expand-step](/img/automated-tests/data-drive-test/local-data-driven-test/expand-step.png)
 
-    ![enter-text-properties](/img/automated-tests/data-drive-test/local-data-driven-test/enter-text-properties.png)
+1. Use the `Data Bind` button to open the `Data binding` dialog. It lists all step's fields which you can use for binding. 
 
-    > __Note__
-    ><br>
-    ><br>
-    > Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can have a different location within your project.
+    ![data-bind-dialog](/img/automated-tests/data-drive-test/local-data-driven-test/data-bind-dialog.png)
 
-    The _Enter text_ step allows only its ___Text___ field to be data driven and, thus, this is the only one listed.
+1. The __Enter text__ step allows only its `Text` field to be data driven so this is the only one listed in the `Binding dialog`. Click on the drop-down next to the  `Text` field and expand the data source columns list. In this scenario the data consists of a single column - the `productName`, so select this one.
 
-1. Click on the drop-down next to the  ___Text___ field to expand the data source columns list. In this scenario a single column is in the list - the _`productName`_, so select this one.
-
-    ![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
-
-1. Click the _Set_ button to confirm the selection and close the _Properties pane_.
-
-    ![set-binding](/img/automated-tests/data-drive-test/local-data-driven-test/set-binding.png)
+    ![choose-binding-column](/img/automated-tests/data-drive-test/local-data-driven-test/choose-binding-column.png)
 
     > __Tip__
     ><br>
     ><br>
-    > See <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">How to bind a step to a data source column</a> for more information.
+    > See <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">How to bind a step to a data source column</a> for more details.
 
-1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___`TextToMatch`___.
+1. Confirm the binding with the `OK` button. 
 
-    ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
+    ![confirm-binding](/img/automated-tests/data-drive-test/local-data-driven-test/confirm-binding.png)
+
+1. The step gets updated and hints that is bound to some data. 
+
+    ![bound-step](/img/automated-tests/data-drive-test/local-data-driven-test/bound-step.png)
+
+1. Repeat the same sequence of actions for the __Wait__ step. This step verifies that the search action is completed successfully. The field to bind in the __Wait__ step properties is `ExpectedString`.
+
+    ![wait-step-bound](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-bound.png)
 
 ## Execute the Data Driven Test and Review the Results
 
-Now that the test is configured to take data from the built-in data table, you can see the two data-bound steps and the column they are connected to. To run the test, hit the _Execute_ button and choose a browser for the execution.
+Now that the test is configured to take data from the built-in data table, you can see the two data-bound steps and the column they are connected to. To run the test, hit the `Execute` button and choose a browser for the execution.
 
 ![execute-data-driven-test](/img/automated-tests/data-drive-test/local-data-driven-test/execute-data-driven-test.png)
 
-Observing the test run, you will see that the 5 steps recorded in the test will be executed three times in a row. The difference in each of these iterations will be the product name entered in the _Search_ field. This name corresponds to the products listed in the data table.
+Observing the test run, you will see that the 5 steps recorded in the test will be executed three times in a row. The difference in each of these iterations will be the product name entered in the __Search__ field. This name corresponds to the products listed in the data table.
 
-Once the test run finishes, you will see the quick execution results populated in the _Test Pane_. The results for each iteration are listed separately, and you can switch between them from the _Iterations_ drop-down.
+Once the test run finishes, you will see the quick execution results populated in the `Test Pane`. The results for each iteration are listed separately, and you can switch between them from the `Iterations` drop-down.
 
 ![iterations-dropdown](/img/automated-tests/data-drive-test/local-data-driven-test/iterations-dropdown.png)
 

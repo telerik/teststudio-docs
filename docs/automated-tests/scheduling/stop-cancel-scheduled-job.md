@@ -25,7 +25,7 @@ In the Results tab when you hover over a scheduled job, a small X button appears
 
 The scheduled job is actually a file on the disk on the machine which is hosting the scheduling server. Just find and delete the file.
 
-- If you are running it locally, it will be located by default at **C:\Users\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** 
+- If you are running it locally, it will be located by default at **C:\Users\\\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** 
 
 - If you are running it remotely, you have to look at the service account at
 

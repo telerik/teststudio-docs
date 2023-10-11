@@ -30,7 +30,7 @@ To troubleshoot the error further, follow the steps from the MSDN blog post <a h
 
 4.&nbsp; Let VS load and get the error, close the error dialog, and close VS. A log should have been created, but you may have to do a little hunting for it because it's created in your AppData folder. Typically this is:
 
-  **C:\Users\<username>\AppData\Roaming\Microsoft\VisualStudio\11.0**
+  **C:\Users\\\<username>\AppData\Roaming\Microsoft\VisualStudio\11.0**
 
 5.&nbsp; The file is called **ActivityLog.xml**. Please send us that file to study. Open a support ticket to attach files.
 

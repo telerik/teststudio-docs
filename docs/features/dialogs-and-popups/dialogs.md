@@ -52,7 +52,7 @@ The __DownloadPath__ and __FileUploadPath__ properties are mandatory for the res
 ><br>
 > You __cannot directly use the Windows shortcut locations on the disc like _Desktop_ or _Documents___. If you record the test using any of these locations, the path is fetched as _Downloads/fileName.*_, but this is not a valid file path to use and the test fails upon execution.
 ><br>
-> To use any of these reserved folders, you need to use their complete paths like _C:\Users\<userName>\Desktop__ or _C:\Users\<userName>\Documents_.
+> To use any of these reserved folders, you need to use their complete paths like _C:\Users\\\<userName>\Desktop__ or _C:\Users\\\<userName>\Documents_.
 
 The __FileUploadPath__ accepts multiple files listed quoted and space separated. These will be uploaded if the server accepts multiple files upload.
 

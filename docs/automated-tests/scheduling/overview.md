@@ -8,13 +8,18 @@ position: 1
 
 The Test Studio Scheduling setup allows you to configure a set of machines, connected together to execute the automated tests unattended. The results generated from the scheduled test runs are stored in a way to allow anyone in the team to review these.
 
-Test Studio test lists can be executed from your local project on any machine in the network, including virtual machines, configured in the Test Studio Scheduling setup. The test list runs can be fully configured - when to be executed, on which machines, in case there are multiple available, whether to generate an automatic email report, etc. If you have to run a number of tests, you can spread the workload between different machines and reduce the total execution time. All the results will be stored in one centralized location for you to examine later.
+Test Studio test lists can be executed from your local project on any machine in the network, including virtual machines, configured in the Test Studio Scheduling setup. The test list runs allow different configurations - when to be executed, on which machines (for multiple machines setup), whether to generate an automatic email report, etc. If you have to run large amount of tests, you can spread the workload between different machines and reduce the total execution time. All the results will be stored in one centralized location for you to examine later.
 
 You can find the following topics in this article:
 
 - [Which Are the Scheduling Setup Components?](#which-are-the-scheduling-setup-components)
 - [How Many Machines Do I Need?](#how-many-machines-do-i-need)
 - [How to Configure the Scheduling Setup?](#how-to-configure-the-scheduling-setup)
+
+> __Important!__
+> <br>
+> <br>
+> The Test Studio services providing test storage, scheduled execution, and web results display - the Storage Service, the Scheduling Service, and the Executive Dashboard Service, communicate via web protocols. Considering this, we strongly __advise installing these services in a secured test environment__ without access to business or environment-critical assets.
 
 ## Which Are the Scheduling Setup Components?
 
@@ -132,11 +137,6 @@ There are few steps to follow in order to setup the Scheduling configuration:
     Once the machines and components are set up, you need to <a href="/automated-tests/scheduling/connect-to-scheduling-server" target="_blank">connect a project to the Scheduler</a> - that way the __scheduled test list runs will go through the configured Services__.
 
 When these prerequisites are complete - including the case when all these components are hosted on the same machine, the __scheduled test list executions will use the Test Studio Services with all their benefits__ - <a href="/automated-tests/scheduling/schedule-execution#step-1" target="_blank">recurring runs</a>, <a href="/automated-tests/scheduling/schedule-execution#step-2" target="_blank">test distribution</a> on selected machines, <a href="/automated-tests/scheduling/schedule-execution#step-3" target="_blank">automatic email notification</a>, results in the <a href="/automated-tests/scheduling-results/dashboard/results" target="_blank">Executive Dashboard</a>, etc.
-
-> __Important!__
-> <br>
-> <br>
-> The Test Studio services providing test storage, scheduled execution, and web results display - the Storage Service, the Scheduling Service, and the Executive Dashboard Service, communicate via web protocols. Considering this, we strongly __advise installing these services in a secured test environment__ without access to business or environment-critical assets.
 
 ## See Also
 
