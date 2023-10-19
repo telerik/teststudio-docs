@@ -18,7 +18,7 @@ Complete a clean reinstall of Chrome browser to ensure left over user data inter
 
 2. In a File Explorer browse to Chrome user data folder - default is *C:\Users\\\<YourUsername>\AppData\Local\Google\Chrome*. Delete any leftover data in this folder or remove the complete folder.
 
-3. In a File Explorer browse to Test Studio user data folder for Chrome - *C:\Users\\\<YourUsername>\AppData\Local\ArtOfTest\TSChromeUserData*
+3. In a File Explorer browse to Test Studio user data folder for Chrome - *C:\Users\\\<YourUsername>\AppData\Local\ArtOfTest\TSChromeUserData* and delete its content. 
 
 3. Perform a fresh install of the latest official version of the Chrome browser.
 
