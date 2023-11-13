@@ -200,4 +200,4 @@ Admin permissions are required for:
 
 ## Beta Software
 
-* Operating systems and web browsers in the beta stage are __not supported__.
+* Operating systems and web browsers in beta stage are __not supported__.
