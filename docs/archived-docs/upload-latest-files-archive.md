@@ -14,7 +14,7 @@ Once you choose an option and select to not be prompted in the future, the selec
 
 1. Open the project's root folder and open the *Settings.aiis* file with a text editor (Notepad++ for example). 
 2. Find the Project ID value and note it somewhere.
-3. Go to *C:\Users\<yourUserName>\AppData\Roaming\ArtOfTest* folder and locate a file named *PerUserSettings.json*.
+3. Go to *C:\Users\\\<yourUserName>\AppData\Roaming\ArtOfTest* folder and locate a file named *PerUserSettings.json*.
 4. Open that file with a text editor again and locate the Project ID under "SkipUploadScheduledJobToStoragePromptPerProject" setting. Delete the project's id and save the file.
 
 Then when you start the project again, make any change and select Save All, the dialog will prompt you again and you could choose the desired option to automatically update the files. That way all changes will be reflected in the database whenever you *Save All*.

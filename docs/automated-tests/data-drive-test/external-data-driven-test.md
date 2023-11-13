@@ -16,11 +16,11 @@ Let's start by adding a new test in the project and recording the steps to data 
 
 Open a browser and navigate to the Telerik page to start the recording session. Record the following actions:
 
-1. Click on the _Search_ icon in the top navigation bar.
+1. Click on the __Search__ icon in the top navigation bar.
 
-1. Enter 'Test Studio' in the _Search_ field.
+1. Enter 'Test Studio' in the __Search__ field.
 
-1. Click on the _Search_ button.
+1. Click on the __Search__ button.
 
 ![record-search-actions](/img/automated-tests/data-drive-test/local-data-driven-test/record-search-actions.png)
 
@@ -43,13 +43,13 @@ To demonstrate the usage of external data source, let's prepare a sample Excel f
 > __Note__
 ><br>
 ><br>
-The first row will be used to refer the column when binding it to the test steps. This is _'ProductName'_ in the described scenario.
+The first row will be used to refer the column when binding it to the test steps. This is 'productName' in the described scenario.
 
 ![external-data](/img/automated-tests/data-drive-test/external-data-driven-test/external-data.png)
 
 ## Add the External Data to the Project
 
-To use the external file in a Test Studio project, you need to add a reference to this file in the project. Select the _Project_ tab in the Test Studio window and hit the __Add__ button from the _Data Source_ section in the ribbon.
+To use the external file in a Test Studio project, you need to add a reference to this file in the project. Select the `Project` tab in the Test Studio window and hit the `Add` button from the `Data Source` section in the ribbon.
 
 ![add-data-source](/img/automated-tests/data-drive-test/bind-test-data-source/add-data-source.png)
 
@@ -62,13 +62,13 @@ To use the external file in a Test Studio project, you need to add a reference t
 
 Now that you have added a data source definition to your test project, you are ready to bind your test to that data source.
 
-Choose a test from the _Project Explorer_ and click the __Bind Test__ button from the _Data Source_ section in the _Project_ ribbon.
+Choose a test from the `Project Explorer` and click the `Bind Test` button from the `Data Source` section in the `Project` ribbon.
 
 ![choose-test-to-bind](/img/automated-tests/data-drive-test/bind-test-data-source/choose-test-to-bind.png)
 
 ## Confirm Data Binding
 
-When the external data source is configured as desired, click the __OK__ button to bind it to the selected test. Now the external file is associated with the test, and you can access the data values in the file and bind them to the steps.
+When the external data source is configured as desired, click the `OK` button to bind it to the selected test. Now the external file is associated with the test, and you can access the data values in the file and bind them to the steps.
 
 > __Tip__
 ><br>
@@ -79,35 +79,34 @@ When the external data source is configured as desired, click the __OK__ button 
 
 Once the test has a reference to the data source, you can bind the values to the test steps:
 
-1. Click on the _Enter text_ step (number 3. for the current scenario) and open the <a href="/features/test-maintenance/test-step-properties" target="_blank">_Step Properties pane_</a>.
+1. Select the __Enter text__ step (number 8. for the current scenario) and expand it with double-click. 
 
-1. The ___Bindings___ property is the first in the list. Click the three dots button on the right to open the step fields that you can bind to data.
+    ![expand-step](/img/automated-tests/data-drive-test/local-data-driven-test/expand-step.png)
 
-    ![enter-text-properties](/img/automated-tests/data-drive-test/local-data-driven-test/enter-text-properties.png)
+1. Use the `Data Bind` button to open the `Data binding` dialog. It lists all step's fields which you can use for binding. 
 
-    > __Note__
-    ><br>
-    ><br>
-    > Depending on the <a href="/automated-tests/customize-project/custom-layout" target="_blank">project layout</a> you are using, the _Properties pane_ can have a different location within your project.
+    ![data-bind-dialog](/img/automated-tests/data-drive-test/local-data-driven-test/data-bind-dialog.png)
 
-    The _Enter text_ step allows only its _Text_ field to be data driven and this is the only one listed.
+1. The __Enter text__ step allows only its `Text` field to be data driven so this is the only one listed in the `Binding dialog`. Click on the drop-down next to the  `Text` field and expand the data source columns list. In this scenario the data consists of a single column - the `productName`, so select this one.
 
-1. Click on the drop-down next to the  ___Text___ field to expand the data source columns list. In this scenario a single column is in the list - the _`productName`_, so select this one.
-
-    ![select-column](/img/automated-tests/data-drive-test/local-data-driven-test/select-column.png)
-
-1. Click on the _Set_ button to confirm the selection and close the _Properties pane_.
-
-    ![set-binding](/img/automated-tests/data-drive-test/local-data-driven-test/set-binding.png)
+    ![choose-binding-column](/img/automated-tests/data-drive-test/local-data-driven-test/choose-binding-column.png)
 
     > __Tip__
     ><br>
     ><br>
-    > See <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">How to bind a step to a data source column</a> for more information.
+    > See <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">How to bind a step to a data source column</a> for more details.
 
-1. Apply the same sequence of steps for the wait step. We add a wait step to verify that the search action is completed successfully. Note that the field that you need to bind in the wait step properties is ___`TextToMatch`___.
+1. Confirm the binding with the `OK` button. 
 
-    ![wait-step-binding](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-binding.png)
+    ![confirm-binding](/img/automated-tests/data-drive-test/local-data-driven-test/confirm-binding.png)
+
+1. The step gets updated and hints that is bound to some data. 
+
+    ![bound-step](/img/automated-tests/data-drive-test/local-data-driven-test/bound-step.png)
+
+1. Repeat the same sequence of actions for the __Wait__ step. This step verifies that the search action is completed successfully. The field to bind in the __Wait__ step properties is `ExpectedString`.
+
+    ![wait-step-bound](/img/automated-tests/data-drive-test/local-data-driven-test/wait-step-bound.png)
 
 ## Execute the Data Driven Test and Review the Results
 
