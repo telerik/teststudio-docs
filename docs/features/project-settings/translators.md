@@ -70,6 +70,14 @@ In the below grid you can find the versions of the supported UI components match
             <td>R12023SP1</td>
             <td colspan="6" style="text-align:center;">4.1.0</td>
         </tr>
+        <tr>
+            <td>R22023</td>
+            <td colspan="6" style="text-align:center;">4.3.0</td>
+        </tr>
+        <tr>
+            <td>R32023</td>
+            <td colspan="6" style="text-align:center;">4.6.0</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -117,6 +125,14 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R12023SP1</td>
             <td colspan="6" style="text-align:center;">2023.1.314</td>
+        </tr>
+        <tr>
+            <td>R22023</td>
+            <td colspan="6" style="text-align:center;">2023.2.606</td>
+        </tr>
+        <tr>
+            <td>R32023</td>
+            <td colspan="6" style="text-align:center;">2023.3.1010</td>
         </tr>
     </tbody>
 </table>
@@ -166,13 +182,21 @@ In the below grid you can find the versions of the supported UI components match
             <td>R12023SP1</td>
             <td colspan="6" style="text-align:center;">2023.1.314</td>
         </tr>
+        <tr>
+            <td>R22023</td>
+            <td colspan="6" style="text-align:center;">2023.2.606</td>
+        </tr>
+        <tr>
+            <td>R32023</td>
+            <td colspan="6" style="text-align:center;">2023.3.1010</td>
+        </tr>
     </tbody>
 </table>
 </p>
 <p>
 
 <script type="text/javascript">
-        function showHideRow(row) {
+        function showHideRowAngList(row) {
             $("#" + row).toggle();
             $('#expand'+row[row.length-1]).text(function (i, oldText) {
         return $.trim(oldText) == 'Click to expand the list of translators' ? 'Collapse' : 'Click to expand the list of translators';
@@ -186,6 +210,7 @@ In the below grid you can find the versions of the supported UI components match
         }
 </style>
 
+<p id="Angular">
 <table class="Tbl k-table" id="Angular">
     <colgroup>
         <col width="30%" />
@@ -197,7 +222,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
     </thead>
     <tbody>
-        <tr onclick="showHideRow('hidden_row1');">
+        <tr onclick="showHideRowAngList('hidden_row1');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
         </tr>
@@ -206,8 +231,8 @@ In the below grid you can find the versions of the supported UI components match
                 <table>
                     <colgroup>
                         <col width="33%" />
-                            <col width="34%" />
-                            <col width="33%" />
+                        <col width="34%" />
+                        <col width="33%" />
                     </colgroup>
                     <thead>
                         <tr>
@@ -281,7 +306,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRow('hidden_row2');">
+        <tr onclick="showHideRowAngList('hidden_row2');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
         </tr>
@@ -365,7 +390,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRow('hidden_row3');">
+        <tr onclick="showHideRowAngList('hidden_row3');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of translators</span></td>
         </tr>
@@ -449,7 +474,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRow('hidden_row4');">
+        <tr onclick="showHideRowAngList('hidden_row4');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of translators</span></td>
         </tr>
@@ -532,7 +557,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRow('hidden_row5');">
+        <tr onclick="showHideRowAngList('hidden_row5');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
         </tr>
@@ -615,7 +640,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRow('hidden_row6');">
+        <tr onclick="showHideRowAngList('hidden_row6');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
         </tr>
@@ -706,9 +731,17 @@ In the below grid you can find the versions of the supported UI components match
             <td>R12023SP1</td>
             <td colspan="6" style="text-align:center;">11.4.0</td>
         </tr>
+        <tr>
+            <td>R22023</td>
+            <td colspan="6" style="text-align:center;">13.0.0</td>
+        </tr>
+        <tr>
+            <td>R32023</td>
+            <td colspan="6" style="text-align:center;">14.0.0</td>
+        </tr>
     </tbody>
 </table>
-
+</p>
 
 ## Available Translators
 
