@@ -90,7 +90,7 @@ To create such agent, follow the steps listed below
 
 ![Create Pipeline][9]
 
-2.&nbsp; It is important to select **Use the classic editor** in order to create a pipeline without YAML.
+2.&nbsp; For this setup choose the option to **Use the classic editor**.
 
 ![Create Pipeline][10]
 
@@ -110,11 +110,15 @@ To create such agent, follow the steps listed below
 
 ![Command line new task][14]
 
-7.&nbsp; Modify the Command line script, so that it executes tests using the CLI Test Studio Runner and make sure you add the junit option to the CLI test runner in order to output the results in junit format (junit is supported by the publish results task). The script points to the location of the ArtOfTest.Runner.exe combined with the desired test or test list (see the <a href="/features/test-runners/artoftest-runner" target="_blank">syntax options here</a>). In the example below, we are executing a test list.
+7.&nbsp; Insert a command which triggers the test execution via the Test Studio CLI Runner called ArtOfTest.Runner.exe - see the <a href="/features/test-runners/artoftest-runner" target="_blank">CLI runner syntax options here</a>. 
+
+> __Note!__ The __Publish results__ task in the Azure pipeline supports reading results in _junit_ format. Test Studio CLI runner provides the option to automatically output the results in that format, so if you intend to use that task __make sure you add the _junit_ option in the command__.
+
+The below example executes a test list.
 
 ![Command line script][15]
 
-8.&nbsp; Select **Continue on error** from the Command line script **Control Options**, if you’d like to complete a results' upload task (see next list point) even if the test execution task fails.
+8.&nbsp; Select **Continue on error** from the Command line script **Control Options**, if you’d like to complete a results' upload task (see next point) even if the test execution task fails.
 
 ![Control Options][16]
 
