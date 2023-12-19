@@ -745,7 +745,7 @@ In the below grid you can find the versions of the supported UI components match
 
 ## Available Translators
 
-The __Available Translators__ section lists __all built-in translators__ that are currently available in Test Studio. All translators are enabled by default, which is the __recommended setup__. Each of the built-in translators can be disabled and not used while recording and executing tests, but we strongly advise you to contact the Test Studio Support Team prior to applying changes to the enabled translators.
+The __Available Translators__ section lists __all built-in translators__ that are currently available in Test Studio. All translators are enabled by default, which is the __recommended setup__. Each of the built-in translators can be disabled and not used while recording and executing tests, but we strongly recommend contacting the Test Studio Support Team before  applying changes to the enabled translators.
 
 ![Available Translators][3]
 
