@@ -8,6 +8,8 @@ position: 8
 
 The <a href="/getting-started/test-recording/translators" target="_blank">built-in translators</a> are __extensions that open up an element to work with Test Studio__ and thus allow interaction with the Elements Menu exposing a rich set of verification tasks.
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 This section of the <a href="/features/project-settings/overview" target="_blank">Project Settings</a> allows you to __adjust the version of the Telerik and Kendo UI components__ used to build the application under test and lets Test Studio apply the matching translators. From this menu you can review and __disable/enable the components__ for which a translator is available.
 
 ![Translators Project Settings][1]

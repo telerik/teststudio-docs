@@ -10,6 +10,8 @@ Apply specific <a href="/features/elements-explorer/elements-find-expression#ele
 
 ![Element Images][1]
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 ## Recording
 
 - Enable/Disable image recording for elements and set the default threshold value to match the images.

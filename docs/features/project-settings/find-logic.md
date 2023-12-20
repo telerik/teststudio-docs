@@ -8,6 +8,8 @@ position: 6
 
 Test Studio uses an intelligent element identification algorithm to auto-generate find expressions for Web and Desktop elements. It is based on the unique element attributes as ordered in the __Smart Find Logic__ list. 
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 Find out more about the Smart Find Logic setting for web and Dekstop elements. 
 
 ## Find Logic for Web Elements 
