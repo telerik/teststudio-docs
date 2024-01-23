@@ -10,6 +10,8 @@ Script Options dictate how Test Studio treats the <a href="/advanced-topics/code
 
 ![Script Options][1]
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 ## Assembly Name
 
 Defaults to the name of the project.

@@ -10,6 +10,8 @@ This section in Project Settings lists details for the product version and allow
 
 ![Updates][1]
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 ## Product Version
 
 This section displays your currently installed version number.

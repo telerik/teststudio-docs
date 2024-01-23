@@ -10,6 +10,8 @@ Use Recording section to configure how recording will take place. Some of the op
 
 ![Recording Options][1]
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 ## Highlighting
 
 The "Automation Overlay Surface" defines the highlight border color, border width and the amount of time before the Elements Menu displays.<br>

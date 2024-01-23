@@ -10,6 +10,8 @@ Under the __Browsers__ tab in _Project Settings_, you can set your preferred bro
 
 ![Browsers][1]
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 ## Preferred Browser
 
 Select an installed and supported browser from the __Preferred Browser__ section to set it as the default test recording and quick execution browser for web tests and <a href="/automated-tests/responsive/responsive-test" target="_blank">responsive web tests</a> (responsive web tests support only Chrome and Edge Chromium).

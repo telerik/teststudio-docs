@@ -10,6 +10,8 @@ Under the Emulated Device Tab, you can set your preferred emulated device displa
 
 ![Emulated Device][1]
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 ## Device
 
 Choose a device type to simulate different device display size. You can choose to manually enter the _Width_ and _Height_ values or select any of the predefined device types.

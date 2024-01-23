@@ -6,13 +6,13 @@ position: 0
 ---
 # Test Studio Project Settings
 
-On the *Project* ribbon in Test Studio Standalone version, there is a **Settings** button which displays the Project Settings dialog. In the Visual Studio plugin, the gear icon in the toolbar loads Project Settings.
-
-Use this dialog to configure how tests are recorded, fine tune how web page elements are located, extend Test Studio with new translators, and get information about the current installation. Many of these settings can be quite specialized, so expect to use the defaults as you get started with Test Studio and change the settings as you find need for them.
+Use the **Project Settings** to configure how tests are recorded, fine tune how web page elements are located, extend Test Studio with new translators, and get information about the current installation. We recommend using the default settings as you get started with Test Studio and apply changes when you are sure you need any.
 
 > These settings only apply to tests in the current project. </br>
 > </br>
-> As of release **R3 2019 SP2 (v.2019.3.1405)** Test Studio project settings can be imported to a new project.
+> As of release **R3 2019 SP2 (v.2019.3.1405)** Test Studio project settings can be imported to a new project through the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">project context menu options</a>.
+
+On the **Project** ribbon in Test Studio Standalone version find the **Settings** button which opens the Project Settings window. In the Visual Studio plugin, the gear icon in the toolbar loads the same Project Settings window.
 
 <table id="no-table">
 <tr>

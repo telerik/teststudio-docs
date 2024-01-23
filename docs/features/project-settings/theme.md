@@ -8,6 +8,8 @@ position: 10
 
 The default theme of Test Studio is **Light**. You can change it to **Dark** and back to **Light** at any time. The theme settings are applied after you restart Test Studio.
 
+> Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
+
 The screenshots below show different views from Test Studio in both themes.
 
 Project theme settings
