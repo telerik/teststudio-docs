@@ -96,7 +96,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Windows 11, Windows 10, Windows 8.1, &nbsp; <br>Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012</td>
+            <td colspan="4">Windows 11, Windows 10, &nbsp; <br>Windows Server 2022, Windows Server 2019, Windows Server 2016</td>
         </tr>
     </tbody>
 </table>
@@ -166,9 +166,14 @@ Admin permissions are required for:
 * IDE (Visual Studio plug-in only): Visual Studio __Professional or Enterprise 2017, 2019__ and __2022__.
 
 	* You must run Visual Studio as Administrator.
-	* Visual Studio projects target a version between .NET Framework 4.7.2 to - NET Framework 4.8.1.
+	* Visual Studio projects target a version between .NET Framework 4.7.2 to 4.8.1.
     * Visual Studio 2022 requires <a href="/prerequisites/installation/installation-consideration#visual-studio-2022-installation-specifics" target="_blank">minimum selection of components</a> to add in its installation.
 	* Visual Studio 2017 requires additional <a href="/prerequisites/installation/installation-consideration#modify-the-visual-studio-2017-installation" target="_blank">individual components</a> on top of its default installation.
+
+> **Note** 
+><br>
+> Test Studio ends support for Visual Studio 2017 with release 2024 Q1 expected in the second half of February 2024.
+
 
 ## .NET Framework
 
