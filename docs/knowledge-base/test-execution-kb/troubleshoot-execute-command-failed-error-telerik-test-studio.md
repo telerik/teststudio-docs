@@ -7,7 +7,7 @@ slug: troubleshoot-execute-command-failed-error-telerik-test-studio
 tags: troubleshooting, executecommand error, client error, protocol error, runtime.evaluate error, Telerik Test Studio
 
 ---
-### Description
+## Description
 I encounter the following error when executing an automation script in Telerik Test Studio:
 
 ```
@@ -16,10 +16,10 @@ I encounter the following error when executing an automation script in Telerik T
 
 This error occurs on a click step which clicks on a button that opens a new screen. While the button is clicked and the new screen is displayed, the step fails.
 
-### Cause
+## Cause
 The cause of this error is currently unknown and difficult to reproduce. It has been reported by multiple customers but has not been replicated on our end.
 
-### Solution
+## Solution
 To troubleshoot this issue, please try the following steps:
 
 1. Ensure that you are using the latest version of Telerik Test Studio. If not, upgrade to the latest version and rerun the test to check if the error persists.
