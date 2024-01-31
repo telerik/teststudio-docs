@@ -376,6 +376,8 @@ navigation:
         title: "Visual Studio"
     "*browsers-kb":
         title: "Browsers"
+    "*product-notices-kb":
+        title: "Product Notices"
 # === Troubleshooting Guide ===
     "*browser-inconsistencies-tg":
         title: "Browser Inconsistencies"
