@@ -1,0 +1,58 @@
+---
+title: Connect a Project via Reverse Proxy Server
+page_title: Configure a Test Studio Project for Remote Execution via Reverse Proxy Server
+description: "Connect the Test Studio project to the configured Scheduling Server via a preconfigured Reverse Proxy server."
+position: 5
+---
+# Connect a Project via Reverse Proxy Server
+
+The setup allows you to connect a project to a Scheduling server hosted in a network behind a Reverse Proxy server. 
+
+## Prerequisites
+
+To configure this specific setup you need to have the following in advance: 
+
+- A ready to use <a href="/automated-tests/scheduling/overview" target="_blank">Scheduling setup</a>. It can be configured for a single machine, or for a multi machine configuration. 
+
+- Dedicated certificates created for the communication between the Test Studio components. Follow the steps listed <a href="/knowledge-base/scheduling-kb/configure-reverse-proxy#create-certificates" target="_blank">here to create the Root CA, Server and Client certificates</a>.
+
+- A reverse proxy server configured. You can find <a href="/knowledge-base/scheduling-kb/configure-reverse-proxy#reverse-proxy-configuration" target="_blank">here an example on configuring a nginx server for Windows</a>. 
+
+## Connect the Project to Schedule Test Lists on Remote Execution Machines via Reverse Proxy
+
+Open the Test Studio project and click the **Connect** button from the `Scheduling` ribbon in the **Project** tab.
+
+![Connect][1]
+
+In the **Scheduling Server Settings** dialog, choose **Reverse Proxy (Advanced)** radio button to connect the project to the configured Scheduling server hosted behind the proxy. 
+
+### Communication Key 
+
+The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded.** status is present.
+
+> **Tip!**
+><br> 
+><br> In case the communication key is not matching, you need to import the current key in use. Check <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here how to generate a new key and import it for all Scheduling components</a>. 
+
+### Client Certificate 
+
+The __Client Certificate__ field lets you add the certificate created for this setup. Use the <a href="https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate" target="_blank">certificate thumbprint</a> to import it. 
+
+### Reverse Proxy Server Name
+
+Enter the machine name for the machine which hosts the reverse proxy server and the port on which it is configured, then click **Connect**.
+
+![Run Remotely][2]
+
+There's a confirmation message when the connection is successful. 
+
+![Connection successful message][3]
+
+## Confirm Connection 
+
+Once the connection is successfully established, click the **Confirm** button to apply the changes in the project. 
+
+
+[1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
+[2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
+

@@ -3,13 +3,13 @@ title: Execution on Locked Machine
 page_title: Execution on Locked Machine
 description: "Test Script Execution on Locked Machine. Test Studio test run with error SendInput: Failed. Win32Error. If disconnect from and/or lock the machine that acts as Execution Server, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling - UnsupportedNonInteractiveOperationException. Test Studio test run with error SendInput: Failed. Win32Error" 
 previous_url: /user-guide/knowledge-base/test-execution/no-tests-execute-on-locked-machine.aspx, /user-guide/knowledge-base/test-execution/no-tests-execute-on-locked-machine
-position: 1
+position: 3
 ---
-# No Tests Execute on Locked Machine #
+# No Tests Execute on Locked Machine
 
-## Problem ##
+## Problem 
 
-When I disconnect from and/or lock the machine that acts as my <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Server</a>, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling steps or type and click steps, which are using *'SimulateRealTyping'* or *'SimulateRealClick'* properties enabled: 
+When I disconnect from and/or lock the machine that acts as my <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Server</a>, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling steps or type and click steps, which are using `SimulateRealTyping` or `SimulateRealClick` properties enabled: 
 
 ```
 UnsupportedNonInteractiveOperationException(additional information about the exception)
@@ -25,13 +25,11 @@ System.ComponentModel.Win32Exception (0x80004005): SendInput: Failed. Win32Error
 
 Is it possible for tests to execute normally without requiring my account to always be logged in on that machine?
 
-## Solution ##
+## Cause 
 
-Any test that requires **moving the mouse** or sending **key strokes** requires an unlocked desktop - also dialog handling uses both. Telerik tests are not the only types affected by this Windows limitation, you will find this is a general problem with any tool that performs UI testing.
+Any test that requires **moving the mouse** or sending **key strokes** requires access to the GUI session - e.g dialog handling uses both the mouse and keyboard typing. Telerik tests are not the only affected by this Windows limitation, you will find this is a general problem with any tool that performs UI testing.
 
-Our tests against HTML-based web applications frequently can work on a locked machine because most test steps don't use the mouse or keyboard. Instead they are able to inject Click or Select events against the element in question (e.g. a button or drop-down select). Unfortunately Silverlight and WPF applications do not allow us to inject these events. We have to simulate system wide mouse moves, clicks, and key presses instead.
-
-### Minimum Requirements for a Test Studio Execution Machine ###
+## Minimum Requirements for a Test Studio Execution Machine ###
 
 Ensure all the following conditions are met for the server on which the tests will be executed:
 
@@ -43,16 +41,26 @@ Ensure all the following conditions are met for the server on which the tests wi
 
 * Browser is not minimized during test execution.
 
-### Test Studio Built-in Options to Control the User Session ###
+## Solution
+
+As this is a common scenario we have worked out few possible ways to address the limitation. 
+
+### Test Studio Built-in Options to Control the User Session 
+
+**Recommended**
 
 The Test Studio Execution client provides <a href="/features/scheduling-test-runs/create-execution-server#user-session-configuration" target="_blank">built-in options to control the User session</a> on the remote execution machines. Enabling both <a href="/features/scheduling-test-runs/create-execution-server#keep-machine-awake" target="_blank">__Keep Machine Awake__</a> and <a href="/features/scheduling-test-runs/create-execution-server#reconnect-to-console-on-disconnect" target="_blank">__Reconnect to Console on Disconnect__</a> will keep the machine active and unlocked when an unattended scheduled run is triggered.
+
+![User session configuration][8]
+
+[8]: /img/features/scheduling-test-runs/create-execution-server/fig8.png
 
 > __Tip__
 > <br>
 > <br>
 > <a href="/automated-tests/headless/headless-test-execution" target="_blank">Execution of tests against Chrome Headless mode</a> does not require active and unlocked session. Though, it __requires a user to be logged on__ the machine.
 
-### Possible Workarounds ###
+### Possible Workarounds
 
 Some of our customers report success using the following workarounds:
 

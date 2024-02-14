@@ -2,7 +2,7 @@
 title: Results Through Gmail
 page_title: Results Through Gmail
 description: Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution
-position: 1
+position: 9
 ---
 #Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution#
 
