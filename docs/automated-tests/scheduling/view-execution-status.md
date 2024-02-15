@@ -67,7 +67,7 @@ The **Remote Execution Status Window** provides an overview for the Scheduling a
 
 ![Status Window Non-calibrated Browsers][4]
 
-> **Tip!**
+> **Tip**
 ><br> 
 ><br> To ensure executing browser is always calibrated you can use the `AutoCalibrateBrowsers` test list setting which is under the <a  href="/getting-started/test-execution/test-list-settings#web-tab" target="_blank">Web tab</a>.
 
@@ -75,7 +75,7 @@ The **Remote Execution Status Window** provides an overview for the Scheduling a
 
 ![Status Window browser support Update][4a]
 
-> **Tip!**
+> **Tip**
 ><br> 
 ><br> The same __Update__ button is also available in the Test Runner application on the remote machine. So, you can logon on the machine and open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#browser-support-update" target="_blank">Execution client and update the installation for latest browser support</a>.
 

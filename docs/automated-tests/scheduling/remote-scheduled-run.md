@@ -142,7 +142,7 @@ Ensure the **Scheduling URL** points to the local machine - *localhost* will be 
 
 The communication **Key** is required to establish the connection and to enable the communication to the Scheduling server. A <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-services" target="_blank">key is generated in the Scheduling Config wizard</a> and if it's not matching on both the Scheduler and Execution machines, the connection between these is not possible. 
 
-> **Note!**
+> **Note**
 ><br> 
 ><br> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
 
@@ -158,7 +158,7 @@ In the **Scheduling Server Settings** dialog, choose **Remote** radio button to 
 
 The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded.** status is present.
 
-> **Tip!**
+> **Tip**
 ><br> 
 ><br> In case the communication key is not matching, you need to import the current key in use. Check <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here how to generate a new key and import it for all Scheduling components</a>. 
 

@@ -34,4 +34,4 @@ This is a common issue with all UI automation tools. To run tests on a remote ma
 
 2.&nbsp; Create a DWORD value with the name *RemoteDesktop_SuppressWhenMinimized* and set its value to 2.
 
-> **Note!** In specific configurations, a policy or a setting which force HKEY_CURRENT_USER to override the HKEY_LOCAL_MACHINE, you might have to modify the above registry keys under **HKEY_CURRENT_USER** instead.
+> **Note** In specific configurations, a policy or a setting which force HKEY_CURRENT_USER to override the HKEY_LOCAL_MACHINE, you might have to modify the above registry keys under **HKEY_CURRENT_USER** instead.

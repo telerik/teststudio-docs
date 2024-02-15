@@ -45,7 +45,7 @@ For your ease, we have prepared a list of predefined devices, from which you can
 
 	![Choose browser][6]
 
-	> **Note!** Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a>.
+	> **Note** Selecting the recording browser will be skipped, if you have already set a preferred browser from the <a href="/general-information/test-execution/quick-execution" target="_blank">Test ribbon</a>.
 
 2. Once the selected browser navigates to the desired page, it is shrunk to the predefined width and height of the preselected device and the recorder gets attached to the browser instance. A navigate step is recorded in the _Steps_ pane and you can continue recording the next actions as per the required scenario.
 

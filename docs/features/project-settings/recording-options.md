@@ -81,7 +81,7 @@ The **Title** option only uses the page title for comparison and ignores the URL
 
 This setting determines the SelectDropDownType property value that will be used when recording selections in a drop-down control. Possible values are ByText, ByValue and ByIndex.
 
-> **Note!** This option concerns only the **Html Select** element and does not apply to any elements structure that looks like a dropdown in the browser.
+> **Note** This option concerns only the **Html Select** element and does not apply to any elements structure that looks like a dropdown in the browser.
 
 ## Simulate Real Clicks/Typing By Default
 

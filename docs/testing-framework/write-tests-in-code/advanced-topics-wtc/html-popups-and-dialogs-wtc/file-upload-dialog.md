@@ -86,7 +86,7 @@ for (int i = 0; i < fileNames.Length; i++ )
 
 ```
 
-> **Note!** To compile the above code include the following using:
+> **Note** To compile the above code include the following using:
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;
 

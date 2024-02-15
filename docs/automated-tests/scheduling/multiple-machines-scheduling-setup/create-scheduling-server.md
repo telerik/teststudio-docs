@@ -58,7 +58,7 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 > **Note**
 > <br>
 > <br>
-> > Importing a new key in the Scheduling Config wizard **restarts the Scheduling service and Execution Server on that same machine to apply the new value**. 
+> Importing a new key in the Scheduling Config wizard **restarts the Scheduling service and Execution Server on that same machine to apply the new value**. 
 > <br>
 > <br>
 > If Test Studio application is also running on the same machine at the time of renewing the communication key, it is not automatically restarted. To apply the recent changes you __need to restart the standalone Test Studio app manually__. 

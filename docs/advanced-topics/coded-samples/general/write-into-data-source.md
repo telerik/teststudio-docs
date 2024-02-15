@@ -25,7 +25,7 @@ Here's a sample test that automates this case:
 
 ![Test][3]
 
-> **Note!** Ensure you <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to Microsoft.Office.Interop.Excel. You can download a version of that file on Microsoft's website that matches your version of MS Office.
+> **Note** Ensure you <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to Microsoft.Office.Interop.Excel. You can download a version of that file on Microsoft's website that matches your version of MS Office.
 
 Here's the code from that sample:
 

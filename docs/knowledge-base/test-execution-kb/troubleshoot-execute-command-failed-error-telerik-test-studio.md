@@ -29,7 +29,7 @@ To troubleshoot this issue try the following steps:
 
 3. If the test continues failing, revise the complete scenario and insert enough <a href="/features/recorder/highlighting-menu/quick-steps/wait" target="_blank">wait</a> and <a href="/features/recorder/highlighting-menu/quick-steps/quick-verification" target="_blank">verify</a> steps to ensure the state of the application before sending next actions. Optionally, you may also need to <a href="/teststudio/features/custom-steps/all-tests-common/execution-delay" target="_blank">add execution delays</a>. 
 
-> **Tip!**
+> **Tip**
 ><br> 
 ><br> Find out <a href="https://www.telerik.com/blogs/make-your-automated-tests-see-better-than-yourself" target="_blank">further useful examples for synchronizing the speed of executing the test steps to match the page responsiveness</a>. 
 

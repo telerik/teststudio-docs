@@ -20,7 +20,7 @@ In the **Scheduling Server Settings** dialog, choose **Remote** radio button to 
 
 The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded.** status is present.
 
-> **Tip!**
+> **Tip**
 ><br> 
 ><br> In case the communication key is not matching, you need to import the current key in use. Check <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here how to generate a new key and import it for all Scheduling components</a>. 
 

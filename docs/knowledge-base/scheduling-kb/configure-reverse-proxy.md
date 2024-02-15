@@ -15,7 +15,9 @@ This article guides you through creating the custom certificates and certificate
 
 ## Create Certificates 
 
-Use openssl to create Root CA, Server and Client certificates. You can use openssl from within Git Bash if you have Git for Windows installed. 
+For this example we use openssl to create self-signed Root CA, Server and Client certificates. You can use openssl from within Git Bash if you have Git for Windows installed. 
+
+An alternative is to use your own thrusted certificates. 
 
 ### Create CA Certificate
 
@@ -106,7 +108,7 @@ where you need to replace _1234_ with a suitable password.
 
 ## Reverse Proxy Configuration
 
-For this example we use nginx for Windows. 
+For this example we use nginx for Windows. As an alternative you can use any type of reverse proxy configuration 
 
 1. Install <a href="https://nginx.org/en/docs/windows.html" target="_blank">nginx for Windows</a>
 

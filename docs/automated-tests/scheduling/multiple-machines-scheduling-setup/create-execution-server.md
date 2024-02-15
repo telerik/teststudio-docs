@@ -51,13 +51,13 @@ Once the **Test Studio Test Runner** window appears, there are multiple options 
 
 ![Temporary folder][5]
 
-> **Note!**
+> **Note**
 ><br> 
 ><br> You need to allow access to the newly set location for all users.
 
 - **Key** - the communication key is required to establish the connection and to enable the communication to the Scheduling server machine. A <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-services" target="_blank">key is generated in the Scheduling Config wizard</a> and if it's not matching on both the Scheduler and Execution machines, the connection between these is not possible. 
 
-> **Note!**
+> **Note**
 ><br> 
 ><br> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
 

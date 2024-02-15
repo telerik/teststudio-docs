@@ -34,7 +34,7 @@ A key-value pair appears for each dynamic target - these that you selected from 
 
 7.&nbsp; Click Save.
 
-**Note!** When the load test runs, each virtual user will take a different row from the data source. After using each row, the load test will start over again with the first row and repeat for the duration of the load test.
+**Note** When the load test runs, each virtual user will take a different row from the data source. After using each row, the load test will start over again with the first row and repeat for the duration of the load test.
 
 [1]: /img/features/testing-types/load-testing/data-driving/fig1.png
 [2]: /img/features/testing-types/load-testing/data-driving/fig2.png

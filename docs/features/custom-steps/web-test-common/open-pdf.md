@@ -18,7 +18,7 @@ The __PdfFilePath__ property of the step specifies the file to open and accepts 
 
 ![Path to PDF][2]
 
-> **Note!**
+> **Note**
 >
 > Open PDF step is __not supported__ in Internet Explorer.
 
