@@ -15,13 +15,15 @@ This article guides you through creating the custom certificates and certificate
 
 ## Create Certificates 
 
-For this example we use openssl to create self-signed Root CA, Server and Client certificates. You can use openssl from within Git Bash if you have Git for Windows installed. 
+For this example we use _openssl_ to create self-signed Trusted Root CA, Server and Client certificates. You can use _openssl_ from within Git Bash if you have Git for Windows installed. 
 
-An alternative is to use your own thrusted certificates. 
+> Using self-signed certificates needs to comply with company policies in place. 
+
+An alternative is to use your own trusted certificates. 
 
 ### Create CA Certificate
 
-Enter the following commands: 
+Use the following commands to issue the Custom Authority certificate: 
 
 1. Enter the following command in the console: 
 ```openssl genrsa -aes256 -out ts-CA-key.pem -passout pass:"1234" 2048```
@@ -45,7 +47,7 @@ where you need to replace _1234_ with a suitable password.
 2. Enter the following command in the console: 
 ```openssl req -passin pass:"1234" -new -key ts-server.key -out ts-server.csr```
 
-where you need add the information for which you get prompted. This includes `Common Name` and we recommend using the machine domain name. For the purpose of this example we use __localhost__ as Common Name.
+where you need add the information for which you get prompted. This includes `Common Name` and we recommend using the proxy machine domain name. For the purpose of this example we use __ProxyMachineName__ as Common Name.
 
 3. Create a _ts-server.ext_ file with the following content:
 
@@ -56,14 +58,17 @@ where you need add the information for which you get prompted. This includes `Co
 	subjectAltName = @alt_names
 
 	[alt_names]
-	DNS.0 = localhost
-	IP.0 = 127.0.0.1
+	DNS.0 = ProxyMachineName
+	DNS.1 = ProxyMachineName.companyDomain.com
+	IP.0 = xxx.xxx.xx.x
 	```
+
+where DNS.0 and DNS.1 hold the machine host name and the full qualified domain name for the machine which hosts the proxy server. IP.0 is the IP address of the proxy server machine in the network from which it will be accessed remotely. 
 
 4. Enter the following command in the console:
 ```openssl x509 -passin pass:"1234" -req -in ts-server.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-server.crt -days 1825 -sha256 -extfile ts-server.ext```
 
-5. Create a _ts-server.pass_ file which contains the pass phrase for _ts-server.key_.
+5. Create a _ts-server.pass_ file which contains the pass phrase for _ts-server.key_. This is _1234_ for this example. 
 
 ### Create Client Certificate
 
@@ -75,7 +80,7 @@ where you need to replace _1234_ with a suitable password.
 2. Enter the following command in the console: 
 ```openssl req -passin pass:"1234" -new -key ts-client.key -out ts-client.csr```
 
-where you need add the information for which you get prompted. This includes `Common Name` and we recommend using the machine domain name. For the purpose of this example we use __localhost__ as Common Name.
+where you need add the information for which you get prompted. This includes `Common Name` and we recommend using the machine domain name. For the purpose of this example we use __ProxyMachineName__ as Common Name.
 
 3. Create a _ts-client.ext_ file with the following content: 
 
@@ -90,10 +95,11 @@ where you need add the information for which you get prompted. This includes `Co
 	subjectAltName = @alt_names
 
 	[alt_names]
-	DNS.0 = localhost
-	IP.0 = 127.0.0.1
+	DNS.0 = ProxyMachineName
+	DNS.1 = ProxyMachineName.companyDomain.com
+	IP.0 = xxx.xxx.xx.x
 	```
-where you need to replace _localhost_ and _127.0.0.1_ with the machine domain name and IP you used in the configuration. 
+where DNS.0 and DNS.1 hold the machine host name and the full qualified domain name for the machine which hosts the proxy server. IP.0 is the IP address of the proxy server machine in the network from which it will be accessed remotely. 
 
 4. Enter the following command in the console: 
 ```openssl x509 -passin pass:"1234" -req -in ts-client.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-client.crt -days 1825 -sha256 -extfile ts-client.ext```
@@ -134,15 +140,18 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 		keepalive_timeout  65;
 
 		# Add server certificate to enable TLS
+		# Replace the folder location with the one where you store the certificates
 		ssl_certificate      c:/ts-certs/Server/ts-server.crt;
 		ssl_certificate_key  c:/ts-certs/Server/ts-server.key;
 		ssl_password_file	c:/ts-certs/Server/ts-server.pass;
 
 		# Enable client certificate verification and specify the CA certificate used to issue the client certificate 
+		# Replace the folder location with the one where you store the certificates
 		ssl_verify_client on;	
 		ssl_client_certificate c:/ts-certs/CA/ts-CA-cert.pem;
 
 		# HTTPS server
+		# Ensure to keep the headers as listed in the example below
 		server {
 			listen       9009 ssl default_server;
 			server_name  localhost;
@@ -154,6 +163,9 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 			ssl_prefer_server_ciphers  on;
 			
 			# Proxy calls to Test Studio Scheduling service
+			# This configuration is meant for the setup when Scheduling service and Proxy server are on the same machine
+			# If the proxy server is separate machine, replace localhost with the Scheduling machine host name
+
 			location / {
 				proxy_pass http://localhost:8009;
 				proxy_pass_request_headers      on;
@@ -161,6 +173,9 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 			}
 			
 			# Proxy calls to Test Studio Storage service
+			# This configuration is meant for the setup when Scheduling service and Proxy server are on the same machine
+			# If the proxy server is separate machine, replace localhost with the Scheduling machine host name
+
 			location /v1 {
 				proxy_pass http://localhost:8492;
 				proxy_pass_request_headers      on;
@@ -168,6 +183,10 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 			}
 			
 			# Proxy calls to Test Studio Executive Dashboard service
+			# This configuration is meant for the setup when Scheduling service and Proxy server are on the same machine
+			# If the proxy server is separate machine, replace localhost with the Scheduling machine host name
+			# Executive Dashboard can be then accessed on address https://proxyMachineName:9009/ed
+
 			location /ed/ {
 				proxy_pass http://localhost:8085/;
 				proxy_pass_request_headers      on;
@@ -181,7 +200,9 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 			}
 			
 			# Proxy call to test studio runner. Important this endpoint should use this convention /runner/{machineName}
-			# Substitute machineName with the name of the machine where the runner is located
+			# Substitute {machineName} with the name of the machine where the runner is located
+			#  All Execution machines need to be listed as below with their host names
+
 			location /runner/{machineName}/ {
 				proxy_pass http://localhost:55555/;
 				proxy_pass_request_headers      on;
@@ -191,4 +212,4 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 	}
 	```
 
-3. Start nginx by navigating to its folder and starting nginx.exe. You can reload the server via "nginx -s reload" or stop it with "nginx -s quit".
+3. Start nginx by navigating to its folder in cmd window and run "start nginx". You can "reload the server via "nginx -s reload" or stop it with "nginx -s quit".
