@@ -63,7 +63,7 @@ where you need add the information for which you get prompted. This includes `Co
 	IP.0 = xxx.xxx.xx.x
 	```
 
-where DNS.0 and DNS.1 hold the machine host name and the full qualified domain name for the machine which hosts the proxy server. IP.0 is the IP address of the proxy server machine in the network from which it will be accessed remotely. 
+	where DNS.0 and DNS.1 hold the machine host name and the full qualified domain name for the machine which hosts the proxy server. IP.0 is the IP address of the proxy server machine in the network from which it will be accessed remotely. 
 
 4. Enter the following command in the console:
 ```openssl x509 -passin pass:"1234" -req -in ts-server.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-server.crt -days 1825 -sha256 -extfile ts-server.ext```

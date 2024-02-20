@@ -9,8 +9,8 @@ position: 6
 The Execution Status View is a useful source of information for the current status of a Scheduling setup. You can find out if a project is connected to a <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured Scheduling service</a>, or it is set to run only locally. For projects, which are connected to a Scheduling service, you can find additional details for <a href="#remotely-connected-project">the Test Studio services state</a> and the <a href="#list-of-execution-servers">currently registered Execution machines</a>.
 
 * [Open Machines Status View Window](#machines-status-view-window)
-* [Locally Connected Project](#locally-connected-project)
-* [Remotely Connected Project](#remotely-connected-project)
+* [Connect Project Locally](#connect-project-locally)
+* [Connect Project Remotely](#connect-project-remotely)
 * [Connect Project via Proxy Server](#connect-project-via-reverse-proxy-advanced)
 
 ## Machines Status View Window
