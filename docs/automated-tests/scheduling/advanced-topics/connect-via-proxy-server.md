@@ -26,6 +26,8 @@ Open the Test Studio project and click the **Connect** button from the `Scheduli
 
 In the **Scheduling Server Settings** dialog, choose **Reverse Proxy (Advanced)** radio button to connect the project to the configured Scheduling server hosted behind the proxy. 
 
+![Reverse proxy connect][2]
+
 ### Communication Key 
 
 The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded.** status is present.
@@ -52,7 +54,10 @@ There's a confirmation message when the connection is successful.
 
 Once the connection is successfully established, click the **Confirm** button to apply the changes in the project. 
 
+![Confirm Reverse proxy connection][3]
+
 
 [1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
-[2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
+[2]: /img/features/scheduling-test-runs/connect-via-proxy/fig2.png
+[3]: /img/features/scheduling-test-runs/connect-via-proxy/fig3.png
 

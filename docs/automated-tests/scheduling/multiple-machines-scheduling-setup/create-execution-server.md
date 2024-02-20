@@ -49,17 +49,19 @@ Once the **Test Studio Test Runner** window appears, there are multiple options 
 
 - **Temp Folder** - executing tests on a remote machine includes deployment of the project files in a temporary folder on the remote machine. You can choose where this temp folder will be located on the disc - click the three dots button next to the listed folder and browse to the desired one. The **Reset** button will set the default temporary location on the execution machine.
 
-![Temporary folder][5]
+    ![Temporary folder][4]
 
-> **Note**
-><br> 
-><br> You need to allow access to the newly set location for all users.
+    > **Note**
+    ><br> 
+    ><br> You need to allow access to the newly set location for all users.
 
 - **Key** - the communication key is required to establish the connection and to enable the communication to the Scheduling server machine. A <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-services" target="_blank">key is generated in the Scheduling Config wizard</a> and if it's not matching on both the Scheduler and Execution machines, the connection between these is not possible. 
 
-> **Note**
-><br> 
-><br> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
+    ![Communication key][5]
+
+    > **Note**
+    ><br> 
+    ><br> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -163,8 +165,8 @@ When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have t
 [1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png
 [2]: /img/features/scheduling-test-runs/create-execution-server/fig2.png
 [3]: /img/features/scheduling-test-runs/create-execution-server/fig3.png
-[4]: /img/features/scheduling-test-runs/create-execution-server/change-button.png
-[5]: /img/features/scheduling-test-runs/create-execution-server/fig4.png
+[4]: /img/features/scheduling-test-runs/create-execution-server/fig4.png
+[5]: /img/features/scheduling-test-runs/create-execution-server/fig5.png
 [6]: /img/features/scheduling-test-runs/create-execution-server/fig6.png
 [6a]: /img/features/scheduling-test-runs/create-execution-server/fig6a.png
 [6b]: /img/features/scheduling-test-runs/create-execution-server/fig6b.png

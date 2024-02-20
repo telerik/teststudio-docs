@@ -12,6 +12,8 @@ The **Communication Key** is required by all Test Studio Scheduling components -
 
 The **Communication** tab in the Scheduling Config wizard lets you manage the current key in use or generate and import a new one. 
 
+![Current Key](/img/knowledge-base/scheduling-kb/communication-key/copy-current-key.png)
+
 The **Current Key** section allows you to **Copy to Clipboard** the current key in use or **Show** its value (for the cases when copying is not an option). The copied key can be imported for the other components of the setup - the **Test Studio Test Runner** application on the Execution machines, and the project connect wizard.
 
 > **Note**
@@ -22,6 +24,8 @@ The **Current Key** section allows you to **Copy to Clipboard** the current key 
 ## Generate New Key
 
 The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. 
+
+![Generate Key](/img/knowledge-base/scheduling-kb/communication-key/replace-key.png)
 
 ### Importing New Key in Single Machine Scheduling Setup 
 

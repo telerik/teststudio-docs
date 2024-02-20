@@ -11,6 +11,7 @@ The Execution Status View is a useful source of information for the current stat
 * [Open Machines Status View Window](#machines-status-view-window)
 * [Locally Connected Project](#locally-connected-project)
 * [Remotely Connected Project](#remotely-connected-project)
+* [Connect Project via Proxy Server](#connect-project-via-reverse-proxy-advanced)
 
 ## Machines Status View Window
 
@@ -20,7 +21,7 @@ To access the Status view you can click **Machines** in the **Scheduling** ribbo
 
 ## Connect Project Locally 
 
-If current project is connected to schedule test lists locally, the **Machines Status** view provides details only for the local service status under the **Scheduling server** section.
+When current project is connected to schedule test lists locally, the **Machines Status** view provides details only for the local service status under the **Scheduling server** section.
 
 ![Machines Status for Locally connected project][2a]
 
@@ -30,7 +31,7 @@ The local Test Runner running in the system tray is listed under the **Execution
 
 ## Connect Project Remotely
 
-The **Remote Execution Status Window** provides an overview for the Scheduling and Storage services and a list of all Execution Servers connected to this Scheduling Server.
+When current project is connected to schedule test lists remotely, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services and a list of all Execution Servers connected to this Scheduling Server.
 
 ![Status Window][2]
 
@@ -122,6 +123,12 @@ The Back button navigates back to the list with connected execution machines.
 <br>
 <div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
 <br>
+
+## Connect Project via Reverse Proxy (Advanced)
+
+When current project is connected to schedule test lists remotely via Proxy Server, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services configured behind the proxy and a list of all Execution Servers connected to this Scheduling Server also hosted behind the proxy.
+
+![Remote status via proxy server connection](/img/features/scheduling-test-runs/view-execution-status/fig4.png)
 
 [1]: /img/features/scheduling-test-runs/view-execution-status/fig1.png
 [2]: /img/features/scheduling-test-runs/view-execution-status/fig2.png

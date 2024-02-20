@@ -16,6 +16,8 @@ Open the Test Studio project and click the **Connect** button from the `Scheduli
 
 In the **Scheduling Server Settings** dialog, choose **Remote** radio button to connect the project to the configured Scheduling server. 
 
+![Run Remotely][5a]
+
 ### Communication Key 
 
 The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded.** status is present.
@@ -28,11 +30,9 @@ The __Communication Key__ lets you import the key generated in the Scheduling Co
 
 Enter the machine name for the machine which hosts the Scheduling service, then click **Connect**.
 
-![Run Remotely][2]
+![Connect to Scheduling machine][5]
 
-There's a confirmation message when the connection is successful. 
-
-![Connection successful message][3]
+A confirmation message appears when the connection is successful. 
 
 ## Confirm Connection 
 
@@ -40,4 +40,5 @@ Once the connection is successfully established, click the **Confirm** button to
 
 [1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
 [2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
-
+[5a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5a.png
+[5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png

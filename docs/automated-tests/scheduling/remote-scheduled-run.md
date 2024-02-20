@@ -35,6 +35,14 @@ Install Test Studio product and ensure to <a href="/getting-started/installation
 
 ## Configure the Test Studio Services
 
+> __Important__
+> <br>
+> <br>
+> If the machine has active firewall, ensure that the following ports are opened in both the inbound and outbound directions:
+> - Scheduling Service: 8009
+> - Storage Service: 8492
+> - Execution Machine(s): 55555
+
 Open Test Studio and under the *Project* tab in the *Scheduling* section, click **Configure** button in order to access the Test Studio Scheduling Config wizard.
 
 ![Configure][2]
@@ -55,6 +63,8 @@ Go through each tab to setup the Test Studio services:
 ### Communication Tab 
 
 The **Communication Key** is required by all Test Studio Scheduling components - services and clients, to establish the connection and communicate between each other. The **Communication** tab lets you manage the current key in use or generate and import a new one. 
+
+![Communication tab][10]
 
 The **Current Key** section allows you to **Copy to Clipboard** the current key in use or **Show** its value (for the cases when copying is not an option). 
 
@@ -134,29 +144,35 @@ The <a href="/general-information/test-results/executive-dashboard" target="_bla
 
 Open the **Test Studio Test Runner** from the System Tray (it is started with Test Studio, or automatically on startup of the system, if the respective option is set).
 
-![Test Runner System tray][3a]
+![Test Runner System tray][30]
 
 Ensure the **Scheduling URL** points to the local machine - *localhost* will be resolved to the absolute name of the machine. 
 
-![Test Runner][3]
+![Test Runner Scheduling URL][3]
 
 The communication **Key** is required to establish the connection and to enable the communication to the Scheduling server. A <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-services" target="_blank">key is generated in the Scheduling Config wizard</a> and if it's not matching on both the Scheduler and Execution machines, the connection between these is not possible. 
+
+![Test Runner Communication key][3a]
 
 > **Note**
 ><br> 
 ><br> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
 
+
+
 ## Setting Up a Project for Remote Scheduled Runs
 
 Open the Test Studio project, which contains the test list to schedule for unattended execution, and click the **Connect** button from the `Scheduling` ribbon in the **Project** tab.
 
-
+![Connect Project][4]
 
 In the **Scheduling Server Settings** dialog, choose **Remote** radio button to connect the project to the configured Scheduling server. 
 
+![Run Remotely][5a]
+
 ### Communication Key 
 
-The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded.** status is present.
+The __Communication Key__ lets you import the key generated in the Scheduling Config wizard. The text field remains empty to keep safe the value of the key in use. To indicate a key is in use ensure the **Loaded** status is present.
 
 > **Tip**
 ><br> 
@@ -164,13 +180,11 @@ The __Communication Key__ lets you import the key generated in the Scheduling Co
 
 ### Server Name
 
-Enter the machine name or use *localhost*, then click **Connect**.
+Enter the Scheduling machine name or use *localhost* when the same machine is the Scheduling server, then click **Connect**.
 
-![Run Remotely][5]
+![Connect to Scheduling machine][5]
 
-There's a confirmation message when the connection is successful. 
-
-
+A confirmation message appears when the connection is successful. Confirm the connection by pressing the __Confirm__ button in the dialog. 
 
 ## Schedule a Test List
 
@@ -180,13 +194,7 @@ There's a confirmation message when the connection is successful.
 
 <a href="/features/scheduling-test-runs/scheduling-results" target="_blank">View Scheduling Results</a> after the scheduled test list run is finished.
 
-> __Important__
-> <br>
-> <br>
-> If the machine has active firewall, ensure that the following ports are opened in both the inbound and outbound directions:
-> - Scheduling Service: 8009
-> - Storage Service: 8492
-> - Execution Machine(s): 55555
+
 
 ## See Also
 
@@ -196,13 +204,16 @@ There's a confirmation message when the connection is successful.
 [2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2.png
 [2a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2a.png
 [3]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3.png
+[3a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3a.png
 [4]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
 [5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
+[5a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5a.png
 [6]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig6.png
+[10]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png
 [11]: /img/features/scheduling-test-runs/create-scheduling-server/fig2new.png
 [12]: /img/features/scheduling-test-runs/create-scheduling-server/fig3new.png
 [13]: /img/features/scheduling-test-runs/create-scheduling-server/fig5new.png
 [13a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5a.png
 [14]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
 
-[3a]: /img/features/scheduling-test-runs/local-run-all-in-one/fig1.png
+[30]: /img/features/scheduling-test-runs/local-run-all-in-one/fig1.png
