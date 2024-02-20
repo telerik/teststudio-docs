@@ -112,6 +112,14 @@ where DNS.0 and DNS.1 hold the machine host name and the full qualified domain n
 
 where you need to replace _1234_ with a suitable password.
 
+7. Copy the issued *.PFX file to the client machine where Test Studio uses the proxy server to connect to the Scheduling setup - following the steps of this example outputs a file named _ts-client.PFX_. The install option is in the right mouse button context menu. Once triggered choose to import the certificate for  __Current User__ store and follow the wizard steps. 
+
+>**Note**
+><br> 
+><br>Installing the client certificate adds the issued CA certificate in the __Trusted Root CA__ store and the client certificate in the __Personal__ Store both under __Current User__ certificates. 
+
+
+
 ## Reverse Proxy Configuration
 
 For this example we use nginx for Windows. As an alternative you can use any type of reverse proxy configuration 
@@ -151,7 +159,7 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 		ssl_client_certificate c:/ts-certs/CA/ts-CA-cert.pem;
 
 		# HTTPS server
-		# Ensure to keep the headers as listed in the example below
+		# Ensure to keep the headers exactly as listed in the example below
 		server {
 			listen       9009 ssl default_server;
 			server_name  localhost;
@@ -212,4 +220,4 @@ For this example we use nginx for Windows. As an alternative you can use any typ
 	}
 	```
 
-3. Start nginx by navigating to its folder in cmd window and run "start nginx". You can "reload the server via "nginx -s reload" or stop it with "nginx -s quit".
+3. Start nginx by navigating to its folder in cmd window and run __"start nginx"__. You can reload the server via __"nginx -s reload"__ or stop it with __"nginx -s quit"__.

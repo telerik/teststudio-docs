@@ -31,7 +31,7 @@ The local Test Runner running in the system tray is listed under the **Execution
 
 ## Connect Project Remotely
 
-When current project is connected to schedule test lists remotely, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services and a list of all Execution Servers connected to this Scheduling Server.
+When current project is <a href="/automated-tests/scheduling/connect-to-scheduling-server#connect-the-project-to-schedule-test-lists-on-remote-execution-machines" target="_blank">connected to schedule test lists remotely</a>, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services and a list of all Execution Servers connected to this Scheduling Server.
 
 ![Status Window][2]
 
@@ -126,7 +126,7 @@ The Back button navigates back to the list with connected execution machines.
 
 ## Connect Project via Reverse Proxy (Advanced)
 
-When current project is connected to schedule test lists remotely via Proxy Server, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services configured behind the proxy and a list of all Execution Servers connected to this Scheduling Server also hosted behind the proxy.
+When current project is <a href="/automated-tests/scheduling/advanced-topics/connect-via-proxy-server" target="_blank">connected to schedule test lists remotely via Proxy Server</a>, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services configured behind the proxy and a list of all Execution Servers connected to this Scheduling Server also hosted behind the proxy.
 
 ![Remote status via proxy server connection](/img/features/scheduling-test-runs/view-execution-status/fig4.png)
 

@@ -3,6 +3,7 @@ title: Testing Framework with Silverlight OOB and Elevated Trust
 page_title: Testing Framework with Silverlight OOB and Elevated Trust
 description: Using Telerik Testing Framework with Silverlight Out-of-Browser and Elevated Trust. Your Silverlight runs correctly out-of-browser with elevated trust when running without Telerik Testing Framework. When running with Telerik Testing Framework, as part of automatic test execution, an error occurs similar to this - An error has occurred in the script on this page. 
 position: 1
+publish: false
 ---
 # Using Telerik Testing Framework with Silverlight Out-of-Browser and Elevated Trust
 
