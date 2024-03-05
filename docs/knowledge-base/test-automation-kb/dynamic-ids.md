@@ -11,7 +11,7 @@ position: 1
 
 We recommend that you consider changing your application in order to make it use non-dynamically generated IDs. It will pay off in time saved on automation tasks. However, we realize this will not be an option for everyone. In this case you need to bypass the ID attributes. There are two ways to do this:
 
-## Edit the Identification Logic Configuration for the Project
+## Edit the Find Logic Configuration for the Project
 
 1. Open the Project Settings menu:
 
@@ -22,7 +22,7 @@ We recommend that you consider changing your application in order to make it use
 	<tr>
 	<table>
 
-2. Go to **Identification Logic** from the navigation bar on the left:
+2. Go to **Find Logic** from the navigation bar on the left:
 
 	![Identificaiton logic][3]
 
@@ -40,7 +40,7 @@ A recorder step is failing due to a changed ID. If you click on the recorder ste
 
 The highlighted element is the one used in the step. Right-click on it and choose "Edit Element". This will bring up the Find Expression Builder. From here you can edit your Find Expression in order to make it better-suited to your specific automation task. See our article on how to <a href="/features/elements-explorer/find-element" target="_blank">Change How an Element is Found</a>.
  
-The specific solution will depend on your application. In some instances, only parts of the ID will change (e.g. only the prefix or suffix will be different). In this case you can change the condition from "**Exact**" to "**Contains**" and exclude all the non-constant parts of the ID from the Find Expression. Ensure the Find Expression is still unique.
+The specific solution will depend on your application. In some cases, only parts of the ID will change (e.g. only the prefix or suffix will be different). In this case you can change the condition from "**Exact**" to "**Contains**" and exclude all the non-constant parts of the ID from the Find Expression. Ensure the Find Expression is still unique.
 
 [1]: /img/knowledge-base/test-automation-kb/dynamic-ids/fig1.png
 [2]: /img/knowledge-base/test-automation-kb/dynamic-ids/fig2.png
