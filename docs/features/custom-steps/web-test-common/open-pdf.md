@@ -1,6 +1,6 @@
 ---
 title: Open PDF
-page_title: Open DPF File
+page_title: Open PDF File
 description: "How to open a locally stored PDF in Test Studio web test and validate its content" 
 position: 2
 ---
