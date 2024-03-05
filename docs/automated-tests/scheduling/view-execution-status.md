@@ -1,36 +1,37 @@
 ---
-title: View Execution Status
-page_title: View Execution Status
-description: "Test Studio Execution Status view. View the status of the Test Studio Execution Servers connected to a Test Studio Scheduling Server. Access the execution machines details and logging from the Test Studio Project"
+title: Machines Status View 
+page_title: Scheduling Machines Status View
+description: "Test Studio Scheduling Machines Status view. View the status of the Test Studio Execution Servers connected to a Test Studio Scheduling Server. Access the execution machines details and logging from the Test Studio Project"
 position: 6
 ---
-# View Execution Status
+# Machines Status View
 
 The Execution Status View is a useful source of information for the current status of a Scheduling setup. You can find out if a project is connected to a <a href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-scheduling-service" target="_blank">configured Scheduling service</a>, or it is set to run only locally. For projects, which are connected to a Scheduling service, you can find additional details for <a href="#remotely-connected-project">the Test Studio services state</a> and the <a href="#list-of-execution-servers">currently registered Execution machines</a>.
 
-* [Open Execution Status View Window](#execution-status-view-window)
-* [Locally Connected Project](#locally-connected-project)
-* [Remotely Connected Project](#remotely-connected-project)
+* [Open Machines Status View Window](#machines-status-view-window)
+* [Connect Project Locally](#connect-project-locally)
+* [Connect Project Remotely](#connect-project-remotely)
+* [Connect Project via Proxy Server](#connect-project-via-reverse-proxy-advanced)
 
-## Execution Status View Window
+## Machines Status View Window
 
-To access the Status view you can click **Status** in the **Scheduling** ribbon of the **Project** tab.
+To access the Status view you can click **Machines** in the **Scheduling** ribbon of the **Project** tab.
 
 ![Status][1]
 
-## Locally Connected Project
+## Connect Project Locally 
 
-If the current project is connected to execute tests locally, the Status view will provide details only for the local service and the local Test Runner.
+When current project is connected to schedule test lists locally, the **Machines Status** view provides details only for the local service status under the **Scheduling server** section.
 
-![Status Window locally][2a]
+![Machines Status for Locally connected project][2a]
 
-Double click on the listed Execution machine will load additional details for the machine - available browsers with the option to calibrate these, access to the logging of that machine.
+The local Test Runner running in the system tray is listed under the **Execution Servers** section. Use the **Magnifier** icon or **double click the machine name** to open the view with additional details for the execution client - available browsers with the option to calibrate these, access to the logging of that machine.
 
 ![Execution machine details locally][2b]
 
-## Remotely Connected Project
+## Connect Project Remotely
 
-The **Remote Execution Status Window** provides a summary of each Execution Server connected to this Scheduling Server and an overview for the Scheduling and Storage services.
+When current project is <a href="/automated-tests/scheduling/connect-to-scheduling-server#connect-the-project-to-schedule-test-lists-on-remote-execution-machines" target="_blank">connected to schedule test lists remotely</a>, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services and a list of all Execution Servers connected to this Scheduling Server.
 
 ![Status Window][2]
 
@@ -45,15 +46,15 @@ The **Remote Execution Status Window** provides a summary of each Execution Serv
 
 - **Storage Server** sections shows if the service is running, which is the server URL and the version of Test Studio on that server machine. Along with that is displayed the database version and if its service is running.
 
-- If any of the services is not running for some reason at least its status will be in red to indicate there is something wrong. If the **Scheduling Service** is down the Storage and Database will be also down.
+- If any of the services is not running for some reason its status is highlighted in red to indicate that there is something wrong. If the **Scheduling Service** is down the Storage and Database are also down.
 
 ![Status Window Scheduling Service Down][8]
 
-- If the **Storage Service** is down the Scheduling service will still be alive but the Database will not be usable.
+- If the **Storage Service** is down, the Scheduling service remains alive but the Database is not usable.
 
 ![Status Window Storage Service Down][9]
 
-- If the **MongoDB service or the databse** is down only its status will be in red. 
+- If the **MongoDB service or the database** is down only its status is highlighted in red. 
 
 ![Status Window MongoDB Service Down][10]
 
@@ -63,15 +64,21 @@ The **Remote Execution Status Window** provides a summary of each Execution Serv
 
 ### List of Execution Servers
 
-- If there are browsers, which are not calibrated, on any of the remote machines, the respective browser icon will be marked with a yellow warning sign. To calibrate it, you can drill down to the particular machine details by double click on it, or turn on the AutoCalibrateBrowsers setting in the <a  href="/getting-started/test-execution/test-list-settings#web-tab" target="_blank">Web tab of Test List Settings</a>.
+- If any of the available browsers on the remote machines are not calibrated, the respective browser icon will be marked with a yellow warning sign. Double click that machine to open its details and calibrate the browser.
 
 ![Status Window Non-calibrated Browsers][4]
 
-- When an <a  href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">update for the latest browser versions</a> is available, a warning icon appears in front of the browsers' icons. To update Test Studio for the latest browsers on this execution server, you can drill down to the <a  href="/automated-tests/scheduling/view-execution-status#execution-servers-details" target="_blank">machine details in the Execution status view</a> and use the __Update__ button.
+> **Tip**
+><br> 
+><br> To ensure executing browser is always calibrated you can use the `AutoCalibrateBrowsers` test list setting which is under the <a  href="/getting-started/test-execution/test-list-settings#web-tab" target="_blank">Web tab</a>.
+
+- When an <a  href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">update for the latest browser versions</a> is available, a warning icon appears in front of the browsers' icons. To update Test Studio for the latest browsers on this execution server, open the <a  href="/automated-tests/scheduling/view-execution-status#execution-servers-details" target="_blank">machine details in the Execution status view</a> and use the __Update__ button.
 
 ![Status Window browser support Update][4a]
 
-Optionally, you can logon on the machine, open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#browser-support-update" target="_blank">Execution client and update the the installation for latest browser support</a>.
+> **Tip**
+><br> 
+><br> The same __Update__ button is also available in the Test Runner application on the remote machine. So, you can logon on the machine and open its <a  href="/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server#browser-support-update" target="_blank">Execution client and update the installation for latest browser support</a>.
 
 <br>
 <div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
@@ -116,6 +123,12 @@ The Back button navigates back to the list with connected execution machines.
 <br>
 <div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
 <br>
+
+## Connect Project via Reverse Proxy (Advanced)
+
+When current project is <a href="/automated-tests/scheduling/advanced-topics/connect-via-proxy-server" target="_blank">connected to schedule test lists remotely via Proxy Server</a>, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services configured behind the proxy and a list of all Execution Servers connected to this Scheduling Server also hosted behind the proxy.
+
+![Remote status via proxy server connection](/img/features/scheduling-test-runs/view-execution-status/fig4.png)
 
 [1]: /img/features/scheduling-test-runs/view-execution-status/fig1.png
 [2]: /img/features/scheduling-test-runs/view-execution-status/fig2.png

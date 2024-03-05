@@ -187,12 +187,6 @@ Admin permissions are required for:
 ><br>
 > MongoDB requires at least __2 GB additional disk space__ on the machine where the Storage service is installed.
 
-## Data Binding
-
-* If using Excel or CSV for data driven testing:
-
-	*	Microsoft Office installation or the **32-bit version** of <a href="https://www.microsoft.com/en-us/download/details.aspx?id=13255" target="_blank">Microsoft Access Database Engine 2010</a>.
-
 ## Source Control
 
 * Git based repositories.

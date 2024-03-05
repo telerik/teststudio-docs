@@ -15,7 +15,7 @@ If you decide to host the Storage service on a separate machine, you need to ins
 
 ![Installation Dialog][1]
 
-> **Note!** The Test Studio services are **not selected** in a default Test Studio Standalone installation and **are installed by default** when installing the Run-time Test Studio edition.
+> **Note** The Test Studio services are **not selected** in a default Test Studio Standalone installation and **are installed by default** when installing the Run-time Test Studio edition.
 
 ### MongoDB Installation
 
@@ -27,7 +27,7 @@ Test Studio will install and configure automatically the MongoDB database on the
 
 ![Install MongoDB][9]
 
-> **Note!** Please, note that MongoDb requires at least 4Gb hard drive space to operate normally.
+> **Note** Please, note that MongoDb requires at least 4Gb hard drive space to operate normally.
 
 ## Configure the Test Studio Storage Service
 

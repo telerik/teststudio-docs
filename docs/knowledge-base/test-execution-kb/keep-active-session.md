@@ -24,7 +24,7 @@ Here is one possible solution to this challenge:
 
 A **Remote Desktop Connection** remains open between **A** and **B**. This causes **B** to keep an active session. This allows you to use the machine as an Execution Server without human intervention.
 
-![Aktive session][1]
+![Active session][1]
 
 * This is a stable solution based on how Windows treats remote sessions, and works on Windows Server 2003.
 

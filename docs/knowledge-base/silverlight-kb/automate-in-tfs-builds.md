@@ -3,6 +3,7 @@ title: Automate in TFS Builds
 page_title: Automate in TFS Builds
 description: How to Automate Silverlight Tests in TFS Builds
 position: 1
+publish: false
 ---
 #How to Automate Silverlight Tests in TFS Builds#
 

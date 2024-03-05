@@ -3,6 +3,7 @@ title: Test Studio Fails to Start Microsoft Edge Browser
 page_title: Test Studio Fails to Start Microsoft Edge Browser
 description: "Telerik Test Studio cannot start Microsoft Edge browser without browser extension."
 position: 1
+publish: false
 ---
 # Test Studio Fails to Start Microsoft Edge Browser
 

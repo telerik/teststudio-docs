@@ -2,7 +2,7 @@
 title: Connect to Application
 page_title: Connect to Application
 description: "How to connect to a running process of a desktop application in Test Studio Desktop test? Can use an already started application to connect to and continue recording steps in the desktop test>"
-position: 2
+position: 3
 ---
 # Connect to Application
 

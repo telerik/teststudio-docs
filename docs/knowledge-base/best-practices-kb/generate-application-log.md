@@ -46,39 +46,47 @@ The steps below describe the recommended approach for generating the application
 
 The logging options for the Standalone Test Studio version are listed under the _Help_ menu in the upper right corner of the project window.
 
-1.&nbsp; Click on the **Help** drop down and choose the  **Enable Logging** option to allow Test Studio to start capturing the tool's events in the background.
+1. Click on the **Help** drop down and choose the  **Enable Logging** option to allow Test Studio to start capturing the tool's events in the background.
 
-![Enable log][7]
+    ![Enable log][7]
 
-2.&nbsp; Once you enable the logging the button turns to **Disable Logging** and you can stop it at any time.
+2. Once you enable the logging the button turns to **Disable Logging** and you can stop it at any time.
 
-![Disable log][7a]
+    ![Disable log][7a]
 
-3.&nbsp; While logging is enabled you can access it any time by choosing the **View Log** option. The log file gets opened in Notepad and you can save or, if requested, send it for analysis.
+3. While logging is enabled you can access it any time by choosing the **View Log** option. The log file gets opened in Notepad and you can save or, if requested, send it for analysis.
 
-![View log][8]
+    ![View log][8]
 
-4.&nbsp; If the logging is enabled for some time the text file may become very large. Use the __Clear Log__ option to remove the records generated so far.
+4. If the logging is enabled for some time the text file may become very large. Use the __Clear Log__ option to remove the records generated so far.
 
-![Clear log][8a]
+    ![Clear log][8a]
 
 ## Operate with Logging in Scheduling Configuration
 
-<a href="/automated-tests/scheduling/overview" target="_blank">Test Studio Scheduling setup</a> allows you to connect multiple machines for test execution remotely. When such setup is configured you can find a list of all included machines in the <a href="/automated-tests/scheduling/view-execution-status" target="_blank">Execution status view</a> accessible from your local computer. From this list you can access the logging for each of the execution machines.
+<a href="/automated-tests/scheduling/overview" target="_blank">Test Studio Scheduling setup</a> allows you to connect multiple machines for test execution remotely. When such setup is configured you can find a list of all included machines in the <a href="/automated-tests/scheduling/view-execution-status" target="_blank">Machine status view</a> accessible from your local computer. From this list you can access the logging options (enable, view, clear, disable) for the Scheduling server machine and for each of the execution machines.
 
-1.&nbsp; Open the __Execution status view__ and choose an execution machine from the list.
+1. Open the __Machine status view__ and select the __Magnifier__ icon in the Scheduling server section. 
 
-![Execution status view][3]
+    ![Machine status view - Scheduling machine][2]
 
-2.&nbsp; Double click on the remote machine from which you need the logging. The __Execution server details__ view provides access to the remote machine logs.
+1. The __Scheduling Server Details__ view provides access to the logging for this machine.
 
-![Execution server details][4]
+    ![Scheduling server details][2a]
 
-3.&nbsp; You have the options to enable/disable the logging, view the generated records, or clear the logging.
+1. To access the logging options for an execution machine choose one from the list and select the __Magnifier__ icon in front of it. 
+
+    ![Machine status view - Execution machines][3]
+
+1. The __Execution Server Details__ view provides access to the selected machine logs.
+
+    ![Execution server details][4]
+
+1. Use the __<<Back__ button to return to previous view and __Close__ button to exit the __Machine Status View__
 
 ## Operate with Logging in Run-Time Edition
 
-The logging options can be accessed from the Test Studio Test Runner. This is hidden in the system tray when started and gets opened from the __Show__ option from the right mouse context menu.
+The logging options can be accessed also from the Test Studio Test Runner. This is hidden in the system tray when started and gets opened from the __Show__ option from the right mouse context menu.
 
 ![Open Test Studio Test Runner](/img/features/scheduling-test-runs/create-execution-server/fig1.png)
 
@@ -94,20 +102,19 @@ The logging options in Visual Studio can be accessed through the <a href="https:
 
 ## Enable Logging through the Registry Editor
 
-Enabling the logging is actually setting a key in the registry. If you don't have access to any of the above sources, or you use the Testing Framework, you can enable the logging directly in the Windows Registry Editor.
+Enabling the logging creates a key in the registry with specific value. If you don't have access to any of the above sources, or you use the __Telerik Testing Framework__, you can enable the logging directly in the Windows Registry Editor.
 
-1.&nbsp;Start <a href="http://support2.microsoft.com/kb/136393" target="_blank">Regedit</a> and browse to the Test Studio folder. The path for default installation is:
+Start <a href="http://support2.microsoft.com/kb/136393" target="_blank">Regedit</a> and browse to the Test Studio folder. The path for default installation is:
 
 * **Computer\HKEY_CURRENT_USER\Software\Wow6432Node\Telerik\Test Studio**
 
 ![Registyry][6]
 
-Find (or create) the _TraceLogEnabled_ key in this folder. Double click it and change the Value data to 1. You should also see the _TraceLogPath_ value. This is where the log will be stored. Ensure you include the file name and type:
-
-* **C:\Temp\TraceLog\log.txt**
+Find (or create) the __TraceLogEnabled__ key in this folder. Double click it and change the Value data to 1. The __TraceLogPath__ value is where the log gets stored. Ensure to isnert the file full path with name and file extension like this **C:\Temp\TraceLog\log.txt**.
 
 [1]: /img/knowledge-base/best-practices-kb/generate-application-log/fig1.png
 [2]: /img/knowledge-base/best-practices-kb/generate-application-log/fig2.png
+[2a]: /img/knowledge-base/best-practices-kb/generate-application-log/fig2a.png
 [3]: /img/knowledge-base/best-practices-kb/generate-application-log/fig3.png
 [4]: /img/knowledge-base/best-practices-kb/generate-application-log/fig4.png
 [5]: /img/knowledge-base/best-practices-kb/generate-application-log/fig5.png

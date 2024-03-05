@@ -6,7 +6,7 @@ position: 1
 ---
 # Unable to Show Data Tables in Excel Data Source
 
-> This could happen on machines with no Microsoft Office or Data Connectivity Component installed or if the Microsoft Office package is 64-bit version.
+> The scenario is applicable for Test Studio versions before release 2024 Q1 (2024.1.220).
 
 If running a data driven test on remote machine you get your test failed and the following exception could be found in the log:
 
@@ -14,8 +14,7 @@ If running a data driven test on remote machine you get your test failed and the
 The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine
 ```
 
-<br>
-<br>
+> This could happen on machines with no Microsoft Office or Data Connectivity Component installed or if the Microsoft Office package is 64-bit version.
 
 Another option to face the same error in the application log is to bind an Excel file to a test, and try to select a sheet - the list is empty. 
 

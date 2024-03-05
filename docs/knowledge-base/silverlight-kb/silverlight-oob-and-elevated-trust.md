@@ -3,6 +3,7 @@ title: Silverlight OOB and Elevated Trust
 page_title: Silverlight OOB and Elevated Trust
 description: Silverlight OOB and Elevated Trust
 position: 1
+publish: false
 ---
 # Silverlight OOB and Elevated Trust
 

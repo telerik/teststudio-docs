@@ -2,7 +2,7 @@
 title: Press Key
 page_title: Press Key
 description: "Insert a step to send specific key press action in Test Studio test. Insert a step to send key press combination during the test execution - e.g. Ctrl+A."
-position: 2
+position: 1
 ---
 # Press Key
 

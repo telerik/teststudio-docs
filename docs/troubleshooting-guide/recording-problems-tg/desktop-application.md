@@ -31,19 +31,19 @@ If you are unsure whether your desktop application is WPF, follow these steps:
 
 ![Configure][1]
 
-6.&nbsp; Keep in mind that if you manual select the application using the **Browse** button, it will accept any application with an .exe extension. This can lead to a false positive indicated by the green and white check mark. The app will load when you click the Record button, however no steps will record if the application is not WPF. (A recording toolbar may or may not be attached.)
+6.&nbsp; Keep in mind that if you manually select the application using the **Browse** button, it will accept any application with an .exe extension. This can lead to a false positive indicated by the green and white check mark. The app will load when you click the Record button, however no steps will record if the application is not WPF. (A recording toolbar may or may not be attached.)
 
 Below is an example of a false positive with the Windows Calculator program. This type of application is not supported by Test Studio.
 
 ![Browse][2]
 
-Test Studio will alert you if the selected application is not valid:
+Test Studio warns if the selected application is not valid:
 
 ![Alert][3]
 
-7.&nbsp; If recording is functioning correctly in most sections of your WPF application but not all, the non-working sections may be designed with non-WPF components. These sections are not supported by Test Studio. An example is a browser control within a WPF app.
+7.&nbsp; If recording is functioning correctly in most sections of your WPF application but not all, the non-working sections may be designed with non-WPF components. These sections are not supported by Test Studio WPF test type. An example is a browser control within a WPF app. Try to record this test with the <a href="/automated-tests/desktop-testing/desktop-test" target="_blank">Desktop test type</a>.
 
-> It is not on our road map to implement WinForms support any time soon.
+
 
 [1]: /img/troubleshooting-guide/recording-problems-tg/desktop-application/fig1.png
 [2]: /img/troubleshooting-guide/recording-problems-tg/desktop-application/fig2.png

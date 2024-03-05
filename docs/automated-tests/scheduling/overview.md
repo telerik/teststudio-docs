@@ -41,7 +41,7 @@ The Test Studio services, which needs to be added are as follows:
 
 ### Scheduling Service
 
-The Scheduling Service is the central component of the overall setup - it is in the middle of all operations and can be considered that it controls the process of running a test list on any remote machine. All execution clients, the Storage Service and the projects, from which tests are executed, are all connected to the same Scheduling service.
+The Scheduling Service is the central component of the overall setup - it is in the middle of all operations and can be considered it controls the process of running a test list on any remote machine. All execution clients, the Storage Service and the projects, from which tests are executed, are all connected to the same Scheduling service.
 
 - __By default the Scheduling service uses port 8009__. It can be changed with any other free port for the specific environment in the _Scheduling config wizard_.
 - Apart from the default set _localhost_, __the _Scheduling config wizard_ accepts IP address or machine name__ for pointing the computer, which hosts the Scheduling service.

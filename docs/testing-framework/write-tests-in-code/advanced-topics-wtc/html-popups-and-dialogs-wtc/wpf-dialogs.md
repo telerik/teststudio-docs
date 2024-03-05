@@ -61,6 +61,6 @@ Manager.DialogMonitor.RemoveDialog(wpfSaveAsDialog);
 
 ```
 
-> **Note!** To compile the above code include the following using:
+> **Note** To compile the above code include the following using:
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;

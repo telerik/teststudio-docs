@@ -58,7 +58,7 @@ To create such agent, follow the steps listed below
 
 ![Start Agent][6]
 
-> **Note!** In order to avoid any permissions issues, please make sure that the user configuring the Agent is part of the following Permission Groups: Build Administrators, Release Administrators, Project Administrators, **ProjectName** Team.
+> **Note** In order to avoid any permissions issues, please make sure that the user configuring the Agent is part of the following Permission Groups: Build Administrators, Release Administrators, Project Administrators, **ProjectName** Team.
 
 ### Configure a Self-hosted Agent
 

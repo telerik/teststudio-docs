@@ -37,14 +37,48 @@ You can start the Scheduling config wizard in any of the following ways:
 
 ## Configure the Test Studio Services
 
+> __Important__
+> <br>
+> <br>
+> If the machines have active firewall, ensure that the following ports are opened in both the inbound and outbound directions for all machines used in the configuration:
+> - Scheduling Service: 8009
+> - Storage Service: 8492
+> - Execution Machine(s): 55555
+
 There are few tabs in the __Scheduling configuration wizard__, which provide the configuration details for each of the components of the Scheduling setup.
 
+- [Communication Tab](#communication-tab)
 - [MongoDB Tab](#mongodb-tab)
 - [Storage Tab](#storage-tab)
 - [Scheduling Tab](#scheduling-tab)
 - [Setup Automatic Emails for Scheduled Jobs](#automatic-email-notification-for-scheduled-executions)
 - [Executive Dashboard Tab](#executive-dashboard-tab)
 - [Non Admin Port Setup Tab](#non-admin-port-setup-tab)
+
+### Communication Tab 
+
+The **Communication Key** is required by all Test Studio Scheduling components - services and clients, to establish the connection and communicate between each other. The **Communication** tab lets you manage the current key in use or generate and import a new one. 
+
+![Communication tab][10]
+
+The **Current Key** section allows you to **Copy to Clipboard** the current key in use or **Show** its value (for the cases when copying is not an option). 
+
+The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. Hit the **Import** button to replace the current key with the new one. 
+
+> **Note**
+> <br>
+> <br>
+> Importing a new key in the Scheduling Config wizard **restarts the Scheduling service and Execution Server on that same machine to apply the new value**. 
+> <br>
+> <br>
+> If Test Studio application is also running on the same machine at the time of renewing the communication key, it is not automatically restarted. To apply the recent changes you __need to restart the standalone Test Studio app manually__. 
+><br> 
+><br>
+> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
 
 ### MongoDB Tab
 
@@ -155,13 +189,6 @@ In the sample screenshot two of the ports are already reserved for the users in 
 
 When all necessary settings are applied and all services are reported running, close the wizard window to finish the Scheduling Services setup.
 
-> __Important__
-> <br>
-> <br>
-> If the machines have active firewall, ensure that the following ports are opened in both the inbound and outbound directions:
-> - Scheduling Service: 8009
-> - Storage Service: 8492
-> - Execution Machine(s): 55555
 
 ## See Also
 
@@ -176,3 +203,4 @@ When all necessary settings are applied and all services are reported running, c
 [5a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5a.png
 [6]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
 [7]: /img/features/scheduling-test-runs/create-scheduling-server/fig7.png
+[10]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png

@@ -8,22 +8,31 @@ tags: troubleshooting, executecommand error, client error, protocol error, runti
 
 ---
 ## Description
-I encounter the following error when executing an automation script in Telerik Test Studio:
+
+I get the following error when executing an automation script in Telerik Test Studio:
 
 ```
 'ExecuteCommand failed! InError set by the client. Client Error: Protocol error (Runtime.evaluate): Promise was collected BrowserCommand'
 ```
 
-This error occurs on a click step which clicks on a button that opens a new screen. While the button is clicked and the new screen is displayed, the step fails.
+The error occurs on a click step. Although the button is clicked and the action is performed as expected, the step fails.
 
 ## Cause
-The cause of this error is currently unknown and difficult to reproduce. It has been reported by multiple customers but has not been replicated on our end.
+The cause of the error is related to some mis-synchronization between the speed of executing the steps and the page responsiveness. 
 
 ## Solution
-To troubleshoot this issue, please try the following steps:
+To troubleshoot this issue try the following steps:
 
 1. Ensure that you are using the latest version of Telerik Test Studio. If not, upgrade to the latest version and rerun the test to check if the error persists.
 
-2. If the error still occurs, open the properties of the failing click step and uncheck the checkbox for the 'SimulateRealClick' property. Run the test again and observe the outcome.
+2. If the error still occurs, open the <a href="/features/test-maintenance/test-step-properties" target="_blank">properties</a> of the failing click step and enable the `SimulateRealClick` property. Run the test again and observe the outcome.
 
-If the issue persists after trying these steps, further troubleshooting may be required so consider <a href="/features/test-runners/artoftest-runner" target="_blank">submitting a support thread</a> with sending the complete failure logs for the specific failing test you work on. You can use the __Export__ button from the <a href="/automated-tests/test-results/step-failure-details#failure-reason-section" target="_blank">Step Failure Details section</a>. 
+3. If the test continues failing, revise the complete scenario and insert enough <a href="/features/recorder/highlighting-menu/quick-steps/wait" target="_blank">wait</a> and <a href="/features/recorder/highlighting-menu/quick-steps/quick-verification" target="_blank">verify</a> steps to ensure the state of the application before sending next actions. Optionally, you may also need to <a href="/teststudio/features/custom-steps/all-tests-common/execution-delay" target="_blank">add execution delays</a>. 
+
+> **Tip**
+><br> 
+><br> Find out <a href="https://www.telerik.com/blogs/make-your-automated-tests-see-better-than-yourself" target="_blank">further useful examples for synchronizing the speed of executing the test steps to match the page responsiveness</a>. 
+
+## See Also 
+
+* <a href="https://www.telerik.com/blogs/make-your-automated-tests-see-better-than-yourself" target="_blank">How to make stable and always reliable tests</a>
