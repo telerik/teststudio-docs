@@ -66,6 +66,8 @@ has_api_reference: false
 tabbed_code_marker_length: 3
 edit_repo_url: https://github.com/telerik/teststudio/edit/master/docs-apitesting
 
+productCode: TESTSTUDIOAPI
+
 # The google services configuration
 google_tag_manager: GTM-6X92
 gcs_engine: '001595215763381649090:lxlmtcw2g-u'
