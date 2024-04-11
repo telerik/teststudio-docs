@@ -561,8 +561,8 @@ footer_social:
     linkedin: https://www.linkedin.com/showcase/telerik/ 
     twitter: https://twitter.com/Telerik/ 
 
-# Feedback Form Google Sheet ID		
-ff-sheet-id: 33b86fb1-d8b0-c7b0-84c0-aaff59d0d84a 
+# Feedback Form Porduct code
+productCode: TESTSTUDIO
 
 # The google services configuration
 google_tag_manager: GTM-6X92
