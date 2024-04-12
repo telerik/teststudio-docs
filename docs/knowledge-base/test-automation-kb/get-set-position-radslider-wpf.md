@@ -20,7 +20,7 @@ Let's say that in the application under test there is a slider defined like this
 <telerik:RadSlider Name="MySlider" Minimum="0" Maximum="100" Value="50"/>
 ```
 
-Use following Test Studio code to get/set the possition of the slider in the application under test.
+Use following Test Studio code to get/set the position of the slider in the application under test.
 
 ```C#
 // Read value
