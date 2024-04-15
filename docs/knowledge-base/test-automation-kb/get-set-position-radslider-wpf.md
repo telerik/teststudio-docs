@@ -1,8 +1,8 @@
 ---
-title: Get or set the position of WPF RadSlider for WPF programatically.
-description: Learn how to get or set the position of WPF RadSlider for WPF programatically.
+title: Get or set the position of WPF RadSlider for WPF programatically
+description: Learn how to get or set the position of WPF RadSlider for WPF programatically
 type: how-to
-page_title: Get or set the position of WPF RadSlider for WPF programatically.
+page_title: Get or set the position of WPF RadSlider for WPF programatically
 slug: get-set-position-radslider-wpf
 tags: automation, WPF, RadSlider, Test Studio
 res_type: kb
