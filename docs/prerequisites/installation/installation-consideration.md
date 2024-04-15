@@ -28,16 +28,6 @@ Before installing Test Studio, you need to modify the Visual Studio 2022 install
 
 ![Visual Studio 2022 Installation](/img/general-information/installation/vs2022/fig1.png)
 
-## Modify the Visual Studio 2017 Installation
-
-Visual Studio 2017 requires an additional feature in its installation to be compatible with the Test Studio plugin for Visual Studio.
-
-Before installing Test Studio, you need to modify the Visual Studio 2017 installation and add the **Testing Tools Core Features** component under Debugging and Testing section. Once you enable this component, complete the Visual Studio 2017 standard installation process. Then perform the <a href="/prerequisites/installation/install-procedure" target="_blank">standard Test Studio installation</a>.
-
-![Visual Studio 2017 Installation][1]
-
-[1]: /img/general-information/installation/vs2017/vs2017installation.png
-
 ## Configuring Windows Server for Test Studio Test Automation
 
 If you plan on running Telerik test automation on Windows Server machine and using IE, you will need to turn off the __Internet Explorer Enhanced Security Configuration__ Windows component. This component is a great feature and highly recommended for machines actually being used as production servers. However, it interferes with test automation running against the IE browser.
