@@ -218,7 +218,7 @@ skip_tabbed_code: true
 has_api_reference: false
 edit_repo_url: https://github.com/telerik/teststudio/edit/master/docs-teststudiodev
 
-ff-sheet-id: 89e6a295-7125-473f-a472-88ffa9bb60fa
+productCode: TSDEVED
 
 # The google services configuration
 google_tag_manager: GTM-6X92
