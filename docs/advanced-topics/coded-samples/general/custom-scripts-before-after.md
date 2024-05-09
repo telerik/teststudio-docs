@@ -13,6 +13,11 @@ position: 1
 ## Solution ##
 
 Override the **OnAfterTestCompleted(TestResult result)** method for the "after" script and the **OnBeforeTestStarted()** method for the "before" script. They are both members of the BaseTest class that are invoked once the test finishes or before it starts. 
+
+> __Note__
+><br>
+><br>
+> If exist, the **OnAfterTestCompleted** and the **OnBeforeTestStarted()** methods gets executed also for <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">partial test runs</a>.
  
 First, create a coded step in order to generate a code-behind file. Then open the code-behind class and add the override definition inside the BaseTest class.
 

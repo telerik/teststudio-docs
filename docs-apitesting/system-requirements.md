@@ -8,9 +8,9 @@ position: 1
 ---
 # System Requirements#
 
-##S upported Environments##
+## Supported Environments
 
-* .NET Framework - 4.5.2
+* .NET Framework - 4.7.2
 
 ## Supported Operating Systems##
 
