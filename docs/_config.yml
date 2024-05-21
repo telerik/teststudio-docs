@@ -261,9 +261,9 @@ navigation:
         title: "Testing Types"
         position: 14
 
- # ....AzureDevOps mapper    
+ # ....Azure DevOps mapper    
     features/azure-dev-ops-mapper:
-        title: "AzureDevOps Mapper"
+        title: "Azure DevOps Mapper"
         position: 15
 
 # ....Recorder section
