@@ -18,11 +18,11 @@ To use the tool you will need a AzureDevOps personal access token (PAT) with ful
 
 ![fig.1](/img/features/azure-dev-ops-mapper/fig1.png)
 
-1. Enter the folder where your Test Studio project is located. Press the 'Next' button.
+2. Enter the folder where your Test Studio project is located. Press the 'Next' button.
 
 ![fig.2](/img/features/azure-dev-ops-mapper/fig2.png)
 
-1. Specify the url of your AzureDevOps location (e.g. https://dev.azure.com/my-org) and a valid token. Press 'Connect' and wait for the tool to establish connection with AzureDevOps.
+3. Specify the url of your AzureDevOps location (e.g. https://dev.azure.com/my-org) and a valid token. Press 'Connect' and wait for the tool to establish connection with AzureDevOps.
 
 ![fig.3](/img/features/azure-dev-ops-mapper/fig3.png)
 
@@ -30,7 +30,7 @@ Once the connection is established, select the project where your test plan is l
 
 ![fig.4](/img/features/azure-dev-ops-mapper/fig4.png)
 
-1. A mapping table is displayed. In the first column you can see all tests from current Test Studio project. In the second column you can see the corresponding AzureDevOps test case. To create a new mapping press the 'Map' button in the third column.
+4. A mapping table is displayed. In the first column you can see all tests from current Test Studio project. In the second column you can see the corresponding AzureDevOps test case. To create a new mapping press the 'Map' button in the third column.
 
 ![fig.5](/img/features/azure-dev-ops-mapper/fig5.png)
 

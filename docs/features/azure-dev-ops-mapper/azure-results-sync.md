@@ -47,3 +47,6 @@ jobs:
             "c:\Program Files (x86)\Progress\Test Studio\Bin\AzureResultsMapper\Telerik.TestStudio.AzureResultsSync.exe" url=https://dev.azure.com/prgs-devtools map=$(System.DefaultWorkingDirectory)\TestingProjects\HTMLProject\MapperPipeline\AzDoMap.tsazdo aiiresult=$(System.DefaultWorkingDirectory)\TestingProjects\HTMLProject\MapperPipeline\Results\myResult.aiiresult
 
 ```
+
+The 'Run Test Studio tests' task executes a test list with ArtOfTest.Runner.exe and stores the results in myResult.aiiresult file.
+The 'Upload results' task coverts the Test Studio results from myResult.aiiresult file and uploads them as new AzureDevOps run. The task is configured to be executed always (condition: always()). This way, even if the test execution from the previous step fails, the results will be uploaded
