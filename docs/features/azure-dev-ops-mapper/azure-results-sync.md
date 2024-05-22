@@ -38,7 +38,7 @@ In the scenario of building a CI pipeline the test list run needs to be set thro
 
 Below is an example pipeline with only these two jobs:
 
-```yaml
+```yml
 jobs:
   - job: Run and Upload Results
     steps:
