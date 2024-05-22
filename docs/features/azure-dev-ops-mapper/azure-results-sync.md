@@ -9,7 +9,7 @@ position: 3
 
 **Telerik.TestStudio.AzureResultsSync.exe** is a CLI tool that converts Test Studio test results to Azure DevOps test results and uploads these as a new Azure DevOps run.
 
-# How to use the tool
+# How to Use the Tool
 
 1. Run a Test Studio test list and specify where to output the results. 
 
@@ -29,7 +29,7 @@ position: 3
 # Local Machine Example
 
 ```cmd 
-Telerik.TestStudio.AzureResultsMapper.exe url=https://dev.azure.com/my-org token=<MY-TOKEN> map="\\<PATH-MAPPING-FILE>" aiiresult="\\<PATH-MAPPING-FILE>"
+"c:\Program Files (x86)\Progress\Test Studio\Bin\AzureResultsMapper\Telerik.TestStudio.AzureResultsSync.exe" url=https://dev.azure.com/my-org token=<MY-TOKEN> map="<PATH-MAPPING-FILE>" aiiresult="<PATH-MAPPING-FILE>"
 ```
 
 # Azure DevOps Example
@@ -38,7 +38,7 @@ In the scenario of building a CI pipeline the test list run needs to be set thro
 
 Below is an example pipeline with only these two jobs:
 
-```
+```yaml
 jobs:
   - job: Run and Upload Results
     steps:
@@ -62,4 +62,4 @@ jobs:
 
 - The __'Run Test Studio tests'__ task executes a test list with the ArtOfTest.Runner.exe and stores the results in file named myResult.aiiresult.
 - The __'Upload results'__ task converts the Test Studio results from myResult.aiiresult file and uploads them as new Azure DevOps run. 
-- The task is configured to be executed always (condition: always()). This way, even if the test execution from the previous step fails, the results will be uploaded.
+- The __'Upload results'__ task is configured to be executed always - "condition: always()". This way, even if the test execution from the previous step fails, the results get uploaded.
