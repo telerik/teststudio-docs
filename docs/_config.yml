@@ -261,6 +261,11 @@ navigation:
         title: "Testing Types"
         position: 14
 
+ # ....Azure DevOps mapper    
+    features/azure-dev-ops-mapper:
+        title: "Azure DevOps Mapper"
+        position: 15
+
 # ....Recorder section
     features/recorder/highlighting-menu:
         title: "Highlighting Menu Options"
