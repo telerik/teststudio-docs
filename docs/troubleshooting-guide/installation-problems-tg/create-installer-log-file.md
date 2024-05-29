@@ -7,32 +7,38 @@ position: 1
 # Create an Installer Log File
 
 
-## PROBLEM
+## Problem
 
-For most users, installing the application is a breeze. The process goes through without a hiccup. For some, however, an issue is experienced at the time of install. In case the installer does not complete and provides no real error message, there is a process you can do to still generate a log of the install. This document discusses the process of generating this logfile.
+For most users, installing the application is a breeze. The process goes through without a hiccup. For some, however, an issue is experienced at the time of install. In case the installer does not complete and provides no real error message, there is a process you can do to still generate a log of the install. This document discusses the process of generating this log file.
 
-## EXAMPLES
+## Possible Causes
 
 You will most likely see this issue:
 
 - When your downloaded installer file had some form of corruption caused during download.
 
-- If you have an incompitiblity present that is causing conflict with the installer.
+- If you have an incompatibility present that is causing conflict with the installer.
 
 
 Regardless of the reason for the failed install, the best feedback to get is an installer log. The below process goes over how to generate an install log file using our provided installer .msi file.
 
-## SOLUTION
+## Troubleshoot
 
-If you used the Telerik Control Panel to install Test Studio, the log was automatically generated for you. Simply open the folder %ProgramData%\Telerik\Installer\Logs and locate the appropriate log file. It will be named something like:
+The most convenient approach to investigate such kind of issues is to check the installer log and analyze the specific case.
 
-- msi_log_2015-11-18_TestStudio_WebDesktop_2015_3_1015_Purchase.log
+## Generate Installer Log for Telerik Control Panel Installation
 
-Place this file into a .zip or .rar file and attach it as a file attachment to a support ticket. Once we receive the logfile, we can more easily assist with determining the root cause of the install not completing.
+If you used the __Telerik Control Panel__ to install Test Studio, the log was automatically generated for you. Simply open the folder %ProgramData%\Telerik\Installer\Logs and locate the appropriate log file. It will be named something like:
 
-If you're installing using a .MSI file you will need to follow these steps to generate a MSI logfile:
+- `msi_log_2015-11-18_TestStudio_WebDesktop_xxxx_x_xxx_Purchase.log`
 
-1.&nbsp; Bring up a command prompt window.
+Place this file into a .zip file and attach it to a support ticket. Once we receive the log file, we can assist with determining the root cause of the install not completing.
+
+## Generate Installer Log for Test Studio MSI Installer 
+
+If you're installing using the .MSI file follow these steps to generate a MSI logfile:
+
+1.&nbsp; Bring up a command prompt window with admin privilege.
 
   a. Click **Start > Run**.
   
@@ -50,21 +56,17 @@ In the example below, the installer is contained in D:\TestStudio\ but your loca
 
 ![Installers][2]
 
-3.&nbsp; Input the following command: *msiexec /i installer.msi /limev D:\TestStudio\installer.log* 
+3.&nbsp; Input the following command:
 
-> In the above example, replace *installer.msi* with the exact name for the installer you downloaded from telerik.
+- `msiexec /i installer.msi /limev D:\TestStudio\installer.log` 
 
-<br>
+where **installer.msi** is the exact name for the installer you downloaded from your Telerik account and __D:\TestStudio\installer.log__ is the full file name for the log to be saved.
 
-> In the above example, replace *D:\TestStudio\installer.log* with the directory path and filename you want the log saved to/as.
-
-4.&nbsp; Once you have the above personalized as we do in the example, press the '**enter**' key on your keyboard to begin the install and generate a log. 
+4.&nbsp; Once you have the above personalized as we do in the example, press the **Enter** key on your keyboard to begin the install and generate a log. 
 
 ![Log generated][3]
 
-5.&nbsp; After you generate the file, please compress it to either .zip or .rar format and attach it to your new or existing support ticket.   
-
-Once we receive the logfile, we can more easily assist with determining the root cause of the install not completing.
+5.&nbsp; After you generate the file, please compress it to a .zip file and send it in your new or existing support ticket.
 
 [1]: /img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig1.png
 [2]: /img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig2.png
