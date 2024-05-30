@@ -19,7 +19,9 @@ To ensure a flawless and consistent automation process, there is a list of brows
 
 ## Using Extension for Chrome Automation (Optional)
 
-By default Test Studio projects are __set to use Chrome without extension__. Along with that, there is the option to run Chrome automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation. 
+By default Test Studio projects are __configured to automate the Chrome browser without extension__. 
+
+Along with that, you have the option to run Chrome automation with a browser extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation. 
 
 ### Enable Project for Chrome Automation with Extension
 
