@@ -126,6 +126,11 @@ Optionally, you can configure the Test Studio Scheduling service to use an Email
 
 ![Scheduling SMTP][13a]
 
+> **Note**
+> <br>
+> <br>
+> If you are using an Outlook account with two-factor authentication enabled, you need to use an __Application password__ created for the SMTP configuration. See the response in <a href="https://learn.microsoft.com/en-us/answers/questions/602284/sending-email-with-smtp-while-two-factor-enable" target="_blank">this Microsoft forum post</a> for further details. 
+
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
 <br>

@@ -16,13 +16,13 @@ public virtual void DragTo(System.Drawing.Point absolutePoint)
 public virtual void DragTo(int offsetX, int offsetY)
 
 public virtual void DragTo(ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl control, 
-ArtOfTest.WebAii.Core.OffsetReference destinationOffsetReference, System.Drawing.Point destinationOffset)
+ArtOfTest.Common.OffsetReference destinationOffsetReference, System.Drawing.Point destinationOffset)
 
-public virtual void DragTo(ArtOfTest.WebAii.Core.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination)
+public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination)
 
-public virtual void DragTo(ArtOfTest.WebAii.Core.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, int destinationOffsetX, int destinationOffsetY)
+public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, int destinationOffsetX, int destinationOffsetY)
 
-public virtual void DragTo(ArtOfTest.WebAii.Core.OffsetReference sourceOffsetReference, int sourceOffsetX, int sourceOffsetY, bool sourcePixelDrag, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination, ArtOfTest.WebAii.Core.OffsetReference destinationOffsetReference, int destinationOffsetX, int destinationOffsetY, bool destinationPixelDrop)
+public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, int sourceOffsetX, int sourceOffsetY, bool sourcePixelDrag, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination, ArtOfTest.Common.OffsetReference destinationOffsetReference, int destinationOffsetX, int destinationOffsetY, bool destinationPixelDrop)
 ```
 
 Suppose we have a sales by area table that supports drag & drop between cells. We can easily drag & drop the contents of one cell to another cell like this:
