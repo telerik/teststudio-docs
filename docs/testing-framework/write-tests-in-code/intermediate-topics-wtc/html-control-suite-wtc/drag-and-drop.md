@@ -8,20 +8,22 @@ position: 2
 
 The HTML element wrapper classes make mouse drag & drop operations significantly easier. There are 7 different drag methods defined:
 
-* public virtual void DragTo(_ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl_ control)
+```C#
+public virtual void DragTo(ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl control)
 
-* public virtual void DragTo(_System.Drawing.Point_ absolutePoint)
+public virtual void DragTo(System.Drawing.Point absolutePoint)
 
-* public virtual void DragTo(_int_ offsetX, _int_ offsetY)
+public virtual void DragTo(int offsetX, int offsetY)
 
-* public virtual void DragTo(_ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl_ control, 
-_ArtOfTest.WebAii.Core.OffsetReference destinationOffsetReference_, _System.Drawing.Point_ destinationOffset)
+public virtual void DragTo(ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl control, 
+ArtOfTest.Common.OffsetReference destinationOffsetReference, System.Drawing.Point destinationOffset)
 
-* public virtual void DragTo(_ArtOfTest.WebAii.Core.OffsetReference_ sourceOffsetReference, _System.Drawing.Point_ sourceOffset, _ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl_ destination)
+public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination)
 
-* public virtual void DragTo(_ArtOfTest.WebAii.Core.OffsetReference_ sourceOffsetReference, _System.Drawing.Point_ sourceOffset, _int_ destinationOffsetX, _int_ destinationOffsetY)
+public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, int destinationOffsetX, int destinationOffsetY)
 
-* public virtual void DragTo(_ArtOfTest.WebAii.Core.OffsetReference_ sourceOffsetReference, _int_ sourceOffsetX, _int_ sourceOffsetY, _bool_ sourcePixelDrag, _ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl_ destination, _ArtOfTest.WebAii.Core.OffsetReference_ destinationOffsetReference, _int_ destinationOffsetX, _int_ destinationOffsetY, _bool_ destinationPixelDrop)
+public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, int sourceOffsetX, int sourceOffsetY, bool sourcePixelDrag, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination, ArtOfTest.Common.OffsetReference destinationOffsetReference, int destinationOffsetX, int destinationOffsetY, bool destinationPixelDrop)
+```
 
 Suppose we have a sales by area table that supports drag & drop between cells. We can easily drag & drop the contents of one cell to another cell like this:
 

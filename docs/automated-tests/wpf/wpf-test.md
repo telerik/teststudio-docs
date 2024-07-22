@@ -6,12 +6,12 @@ position: 1
 ---
 # WPF Tests in Test Studio
 
-Test Studio recording feature supports WPF applications built with .Net 4.5+ or .Net Core 3.1 and above, and .Net 5. To be able to initiate recording session against specific application, you need to list its executable in the WPF test.
+Test Studio recording feature supports WPF applications built with .Net 4.5+ or .Net Core 3.1, and .Net 5 and above. To initiate recording session against specific application, you need to list its executable file in the WPF test.
 
 This article guides you through the WPF test configuration process.
 
 - [Configure WPF Test to Automate Specific App](#configure-wpf-test-to-record-specific-application)
-- [Set Default Project Path to WPF App](#set-default-wpf-application-path)
+- [Choose the Application to Automate](#choose-the-application-to-automate)
 - [Record Application Window State](#record-application-window-state)
 - [Finish WPF Test Configuration](#finish-wpf-test-configuration)
 
@@ -33,42 +33,59 @@ The __configuration of the WPF test requires an executable file of a valid WPF a
 
 ## Choose the Application to Automate
 
-Test Studio provides few options to define the application to automate - you can __browse to the folder__, where the executable file is located; or if the application is started, you can directly __select it from the list of active apps__.
+Test Studio provides different options to define the application to automate: 
+
+- [Specify an executable file](#configure-application-path-in-wpf-test); 
+- [Use a default path](#set-default-wpf-application-path);
+- [Select application from the list of active apps](#select-running-wpf-application);
+- [Define startup arguments and working directory](#startup-arguments-and-working-folder-for-wpf-application)
 
 ![Specify path to WPF app][2]
 
-The __WPF Application Path__ field allows you to drag and drop the application's shortcut icon into it, or click _Browse_ and locate it manually in File Explorer. 
+## Configure Application Path in WPF Test
+
+The __WPF Application Path__ field accepts drag and drop of the application's shortcut icon; Or use the __Browse__ button to locate the executable file manually in a File Explorer. 
 
 ![Browse path to WPF app][3]
 
-The __Active WPF Applications__ list displays all WPF apps currently running and detected by Test Studio. Click on the desired one and hit the  __Select Application__ button and this will populate automatically the path to the executable file in the __WPF Application Path__ field.
-
-![Select running WPF app][4]
-
-Once an executable file is selected, the __WPF Application Path__ and __Current Path Expanded__ fields get populated accordingly. __WPF Application Path__ supports environment tokens (i.e. _%Program Files%\MyApp\App.exe_) and when using such, the __Current Path Expanded__ field displays the full path to the executable file. 
+__WPF Application Path__ field supports using environment tokens (such as `%Program Files%\MyApp\App.exe`). When using environment tokens, the __Current Path Expanded__ field displays the full path to the executable file. 
 
 ![Selected app and expanded path][5]
 
 ## Set Default WPF Application Path
 
-The automation process requires multiple tests to be created for a single application. In such case configuring each created test will be a tedious task. Therefore Test Studio allows you to __set a default WPF app path on project level__ and use this for all WPF tests. The option is available in <a href="/features/project-settings/general" target="_blank">Project Settings -> General</a> and once a __Default Path is set__ each new WPF test in the project will be configured to use it.
+The automation process requires multiple tests to be created for a single application. In such case configuring each created test will be a tedious task. The solution offered by Test Studio is to __set a default WPF app path on project level__ and use this for all WPF tests. 
+
+The option is available in <a href="/features/project-settings/general" target="_blank">Project Settings -> General</a> and once a __Default Path is set__ each new WPF test in the project is configured to use it.
 
 ![Use default path][6]
 
+## Select Running WPF Application
+
+The __Active WPF Applications__ list displays all currently running WPF apps detected by Test Studio. Click on the desired one and hit the  __Select Application__ button and the path to the executable file in the __WPF Application Path__ field gets automatically populated.
+
+![Select running WPF app][4]
+
+## Startup Arguments and Working Folder for WPF Application
+
+The configuration of a WPF application lets you set startup __Arguments__ and a __Working folder__ if these are required for the proper functioning of the tested WPF app. 
+
+![Arguments and Working folder][5a]
+
 ## Record Application Window State
 
-For WPF tests you can choose whether to record the changes in the application window state - __Minimize, Maximize, Restore__ and __Close__ actions can be captured automatically in the recording process. If the recording scenarios require to interact with the window state, you can enable the checkbox under the __Recording Options__ section in the __Config Wizard__.
+Test Studio lets you record the changes in the application window state - __Minimize, Maximize, Restore__ and __Close__ actions can be captured automatically while in the recording process. If the automation scenarios require to interact with the window state, enable the checkbox under the __Recording Options__ section in the __Config Wizard__.
 
 ![record the changes in the application window state][7]
 
 > **Note**
 > <br>
 > <br>
-> Recording the changes in the application window state is a __setting on project level__. So, if it is enabled for one test in the project, it will be also applied for all existing and newly created WPF tests in the project.
+> __Recording the changes in the application window state is a setting on project level__. So, once you enable it for one WPF test in the project, it is applied for all existing and newly created WPF tests in the current project.
 
 ## Finish WPF Test Configuration
 
-Once you applied all necessary settings, you can __confirm the configuration__ by pressing the __OK__ button. Then, when you hit the <a href="/automated-tests/recording/overview#start-a-recording-session" target="_blank">__Record__ button</a>, the configured WPF application will be launched and the recorder will be attached to it, so you can proceed with recording the test scenario.
+Once you applied all necessary settings, __confirm the configuration__ by pressing the __OK__ button. Then, when you hit the <a href="/automated-tests/recording/overview#start-a-recording-session" target="_blank">__Record__ button</a>, the configured WPF application is launched and the Test Studio recorder gets attached to it, so you can proceed with recording the test scenario.
 
 > **Tip**
 > <br>
@@ -84,5 +101,6 @@ Once you applied all necessary settings, you can __confirm the configuration__ b
 [3]: /img/general-information/create-test-standalone/wpf-test/fig3.png
 [4]: /img/general-information/create-test-standalone/wpf-test/fig4.png
 [5]: /img/general-information/create-test-standalone/wpf-test/fig5.png
+[5a]: /img/general-information/create-test-standalone/wpf-test/fig5a.png
 [6]: /img/general-information/create-test-standalone/wpf-test/fig6.png
 [7]: /img/general-information/create-test-standalone/wpf-test/fig7.png

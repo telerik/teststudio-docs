@@ -10,7 +10,7 @@ When multiple projects use the same or similar resources, you may wish to share 
 
 ##Sharing Helper Methods Between Projects##
 
-If your projcts use common methods, you may wish to place them in a custom DLL. You can then add references to this utility class in your different projects in <a href="/advanced-topics/coded-samples/general/utility-class-in-standalone" target="_blank">Standalone Test Studio</a> or the <a href="/advanced-topics/coded-samples/general/use-external-dll-in-vs" target="_blank">Visual Studio Plugin</a>.
+If your projects use common methods, you may wish to place them in a custom DLL. You can then add references to this utility class in your different projects in <a href="/advanced-topics/coded-samples/general/utility-class-in-standalone" target="_blank">Standalone Test Studio</a> or the <a href="/advanced-topics/coded-samples/general/use-external-dll-in-vs" target="_blank">Visual Studio Plugin</a>.
 
 ##Sharing Data Sources Between Projects##
 

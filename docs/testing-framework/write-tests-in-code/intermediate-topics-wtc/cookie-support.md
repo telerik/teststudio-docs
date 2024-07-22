@@ -71,7 +71,7 @@ A simple foreach loop can be used to delete all the cookies for a particular web
 
 ```C#
 // Purge any cookies associated with this server
-System.Net.CookieCollection cookies = ActiveBrowser.Cookies.GetCookies(Settings.Current.BaseUrl);
+System.Net.CookieCollection cookies = ActiveBrowser.Cookies.GetCookies(ActiveBrowser.Url);
 foreach (System.Net.Cookie cookie in cookies)
 {
     ActiveBrowser.Cookies.DeleteCookie(cookie);
@@ -79,7 +79,7 @@ foreach (System.Net.Cookie cookie in cookies)
 ```
 ```VB
 ' Purge any cookies associated with this server
-Dim cookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies(Settings.Current.BaseUrl)
+Dim cookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies(ActiveBrowser.Url)
 For Each cookie As System.Net.Cookie In cookies
      ActiveBrowser.Cookies.DeleteCookie(cookie)
 Next cookie

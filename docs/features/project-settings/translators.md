@@ -80,6 +80,10 @@ In the below grid you can find the versions of the supported UI components match
             <td>R32023</td>
             <td colspan="6" style="text-align:center;">4.6.0</td>
         </tr>
+        <tr>
+            <td>R22024</td>
+            <td colspan="6" style="text-align:center;">6.0.0</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -136,6 +140,10 @@ In the below grid you can find the versions of the supported UI components match
             <td>R32023</td>
             <td colspan="6" style="text-align:center;">2023.3.1010</td>
         </tr>
+        <tr>
+            <td>R22024</td>
+            <td colspan="6" style="text-align:center;">2024.2.513</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -191,6 +199,10 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R32023</td>
             <td colspan="6" style="text-align:center;">2023.3.1010</td>
+        </tr>
+        <tr>
+            <td>R22024</td>
+            <td colspan="6" style="text-align:center;">2024.2.514</td>
         </tr>
     </tbody>
 </table>
@@ -740,6 +752,10 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R32023</td>
             <td colspan="6" style="text-align:center;">14.0.0</td>
+        </tr>
+        <tr>
+            <td>R22024</td>
+            <td colspan="6" style="text-align:center;">16.0.0</td>
         </tr>
     </tbody>
 </table>

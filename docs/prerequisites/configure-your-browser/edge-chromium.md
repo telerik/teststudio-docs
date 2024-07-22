@@ -19,11 +19,13 @@ To ensure a flawless and consistent automation process, there is a list of brows
 
 ## Using Extension for Edge Chromium Automation (Optional)
 
-By default Test Studio projects are __set to use Edge Chromium without extension__. Along with that, there is the option to run Edge Chromium automation with the help of an extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (Edge Chromium supports adding extensions from the Chrome web store). 
+By default Test Studio projects are __configured to automate the Edge Chromium browser without extension__. 
+
+Along with that, you have the option to run Edge Chromium automation with a browser extension. The <a href="https://chrome.google.com/webstore/detail/progress-test-studio-exte/gegcllkonmciadpdldechnepmjildoan" target="_blank">__Progress Telerik Test Studio Extension__</a> is officially distributed in the Chrome web store and is available for download and installation (__Edge supports adding extensions from the Chrome web store__). 
 
 ### Enable Project for Edge Chromium Automation with Extension
 
-If you choose to use Edge Chromium for recording and execution with the extension, you need to __change a setting in the Test Studio project__. The <a href="/features/project-settings/browsers" target="_blank">project setting is listed under the __Browsers__ tab</a> and is named __Use browser extension(Chrome/Edge Chromium)__. This option is disabled by default, but you can __check the checkbox__ to set Test Studio to __start the Edge Chromium browser for this project with the extensions__.
+If you choose to use Edge for recording and execution with the extension, you need to __change a setting in the Test Studio project__. The <a href="/features/project-settings/browsers" target="_blank">project setting is listed under the __Browsers__ tab</a> and is named __Use browser extension(Chrome/Edge Chromium)__. This option is disabled by default, but you can __check the checkbox__ to set Test Studio to __start the Edge Chromium browser for this project with the extensions__.
 
 ![Enable UseBrowserExtension](/img/prerequisites/browser-config/disable-extension.png)
 

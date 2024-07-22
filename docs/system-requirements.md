@@ -73,7 +73,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     <tbody>
         <tr>
             <td>Minimum</td>
-            <td colspan="6" style="text-align:center;">1280 x 720</td>
+            <td colspan="6" style="text-align:center;">1280 x 800</td>
         </tr>
         <tr>
             <td>Recommended</td>
@@ -96,7 +96,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Windows 11, Windows 10, &nbsp; <br>Windows Server 2022, Windows Server 2019, Windows Server 2016</td>
+            <td colspan="4">Windows 11, Windows 10, &nbsp; <br>Windows Server 2022, Windows Server 2019</td>
         </tr>
     </tbody>
 </table>
@@ -121,7 +121,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
         </colgroup>
     <thead>
         <tr>
-			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">WPF Support<td>
+			<td style="color:white;text-align:center;background-color:#5f6977;font-weight:bold;text-align:left;">WPF Applications Support<td>
 		</tr>
     </thead>
     <tbody>

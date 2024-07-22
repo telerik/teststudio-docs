@@ -4,6 +4,7 @@ page_title: MSTest
 description: "Execute Test Studio with the Visual Studio command line runner MSTest. "
 previous_url: /user-guide/test-runners/mstest.aspx, /user-guide/test-runners/mstest
 position: 1
+publish: false
 ---
 # Executing Tests with MSTest
 
