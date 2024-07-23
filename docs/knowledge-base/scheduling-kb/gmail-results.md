@@ -4,35 +4,48 @@ page_title: Results Through Gmail
 description: Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution
 position: 9
 ---
-#Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution#
+# Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution 
 
-Test Studio's Scheduling feature allows you to send an email containing results from your test lists. However, in order to do so you'll need access to an SMTP server as well as the necessary rights to use it. You can view additional information on how to configure the SMTP settings <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">here</a>.
+Test Studio's Scheduling service allows sending an email with the results from scheduled test list runs. To enable the feature you need an available SMTP server and the necessary settings to access it from within Test Studio. 
 
-There's an alternative to using your company's SMTP server, however. You can use Gmail as the SMTP server for free. This is a great alternative to using a dedicated SMTP server. <a href="https://support.google.com/mail/troubleshooter/1668960?rd=1" target="_blank">This article</a> describes how to set this up. All you need is an active Gmail account.
+This article describes the settings needed if you decide to use the Google SMTP server instead of a company mail server in the Test Studio Scheduling setup. 
  
-Note: Ensure your company's security settings allow for communication with an SMTP server outside of the company's domain. This may not be allowed by default. Discuss this with your System Administrators.
+> __Important__ 
+> <br>
+> Ensure your company's security settings allow for communication with an SMTP server outside of the company's domain. As this may not be allowed by default you may need to discuss the matter with your System Administrators.
 
-In the context of Test Studio, here's how to make this work:
+## Prerequisites
 
-1. Start the **Configure as Scheduling Server** application.
+You need to have few things in place before you continue: 
 
-2. Fill the Host **Name/IP** and **Port** fields and click the **Connect** button.
+* Active gmail account;
+* Two-factor authentication activated for the gmail account;
+* An application password created for the gmail account - see <a href="https://support.google.com/accounts/answer/185833/" target="_blank">here for further details and recommendations on using an application password</a>. 
 
-3. After you get the notification Connection Successful, click OK
+## Configure Google SMTP in Test Studio Scheduling Service
 
-4. Expand the **Configure Email (SMTP) Server** section.
+Follow the steps below to apply the settings for using the Google mail server. 
 
-5. Use the following settings and click **Done**:
+1. <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#start-the-test-studio-scheduling-config-wizard" target="_blank">Start the Test Studio Scheduling Config Wizard application</a>. 
 
-**Address**: smtp.gmail.com
+2. Switch to the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#scheduling-tab" target="_blank">Scheduling tab</a> in the wizard. 
 
-**Port**: 587
+3. Expand the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#automatic-email-notification-for-scheduled-executions" target="_blank">Configure Email (SMTP) Server section</a>.
 
-**User Email**: your gmail e-mail account
+4. Use the following settings for the gmail SMTP:
 
-**Password**: the password for your gmail account
+    **Address**: smtp.gmail.com
 
+    **Port**: 587
 
-![SMTP configuration][1]
+    **User Email**: your gmail email account
 
-[1]: /img/knowledge-base/scheduling-kb/gmail-results/fig1.jpg
+    **Password**: the application password created for your gmail account
+
+    **Ssl**: enable the checkbox
+
+5. Use the **Apply** button to restart the Scheduling service and let it use the SMTP settings. 
+
+    ![SMTP configuration][1]
+
+[1]: /img/knowledge-base/scheduling-kb/gmail-results/fig1.png
