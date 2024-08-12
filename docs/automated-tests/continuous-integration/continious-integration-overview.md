@@ -1,38 +1,51 @@
 ---
 title: Continuous Integration Testing 
 page_title: Telerik Testing in Continuous Integration Environments
-description: "Telerik Testing in Continuous Integration Environments with Test Studio"
-previous_url: /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments.aspx, /user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments
-position: 1
+description: "Implement Telerik Test Studio Tests in Continuous Integration Environments"
+position: 0
 ---
 # Test Studio Tests in Continuous Integration Environments
 
-Continuous Integration almost continuously integrates the individual developer's changes into the main source code control system or repository, performing a new build, verifying the build, and running automated tests against those builds. Continuous integration has many advantages. These include the constant availability of a current build for testing purposes, immediate testing of all changes, and the opportunity for developers to revert the codebase back to a bug-free state when a test fails or a bug is discovered, without wasting time debugging. Learn more about continuous integration at <a href="http://msdn.microsoft.com/en-us/library/ee308011(v=vs.100).aspx" target="_blank">MSDN</a> and Martin Fowler's <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous Integration</a>.
+Continuous Integration (CI) and Continuous Delivery/Continuous Deployment (CD) practices are essential in modern software development. The CI/CD pipeline is a crucial part of the DevOps lifecycle nowadays which cannot be complete without testing phase. And this is where you can implement the functional UI tests designed with Test Studio. 
 
-Continuous integration environments use a variety of build tools, including <a href="http://msdn.microsoft.com/en-us/library/0k6kkbsd.aspx" target="_blank">MSBuild</a>. Automation of the build can include deployment into a testing environment that closely mimics production. The build can include the project to be tested, as well as Telerik Testing Framework tests and coded steps of Test Studio tests.
+This article provides the requirements from Test Studio perspective to setup the execution of functional UI tests as part of an automated pipeline.
 
-Once the build completes, tests may run automatically. The build automation can use <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner</a> or <a href="/features/test-runners/mstest" target="_blank">MSTest</a> to execute Telerik tests against the build. As part of the automated build process, Telerik test results can publish to custom locations. ArtOfTest.Runner publishes test results as .aiiresults files; MSTest publishes results as .trx files.
+* [Requirements to cover on the execution machine](#execution-machine-requirements)
+* [The setup in overall](#setup-automated-testing-agents)
+* [Examples for setting up pipeline in most common CI tools](#examples-of-implementing-test-studio-tests-in-different-ci-pipelines)
 
-Because the framework actually drives and interacts with the browser, the setup of the testing agents is sensitive. Many automated build servers and testing agents run under the 'Local System' or 'Local Service' account. This will cause Telerik tests to fail, because browser interaction is prohibited for these types of accounts.
+## Execution Machine Requirements 
 
-The testing agent (sometimes identical with the build server) must run in console mode (that is, started via the command line after logging onto the testing machine). Running a testing agent as a service that logs onto a real user account does not provide full functionality. Some Telerik test features require desktop interaction, which is disabled for test agents running as a service.
-Do not run Telerik tests in parallel. Telerik tests are not thread safe. Also, if one Telerik test is running at the time a second test opens, the second test may connect to the browser window already connected to the first Telerik testing session. 
+1. Active user session.
+1. CI agent app running in console mode. 
+1. Test Studio installation - minimum the Test Studio Run-time edition. 
+1. Latest browser or tested WPF/Desktop application installed. 
 
-## Setup automated testing agents ##
+## Setup Automated Testing Agent Machines
 
-1. Log onto the testing agent machine using an account with permissions needed to run your agent and unit tests.
+1. Log onto the build machine (from Test Studio perspective we also call it testing or execution machine) using an account with permissions needed to run the CI build agent.
 
-2. Install your testing agent software.
+1. Install the CI build agent from the CI tool in use. 
 
-3. Run the testing agent in console mode (from the command line or a shortcut link). Do not run the agent as a service.
+1. Run the CI agent in console mode - use command line or a shortcut link, follow the instructions from vendor. 
 
-4. Install Test Studio or the Telerik Testing Framework. Enter your license.
+    > __Important!__
+    > __Do not run the CI agent as a service__.
 
-5. Leave the machine running and logged into the account. If your tests perform direct desktop interaction (such as Desktop.Mouse.Click or Window.GetBitmap), do not lock the machine. Instead, leave your machine logged on and displaying the desktop at all times. Disable the screensaver and **never lock** the machine.
+1. Install Test Studio software on the build machine - the minimum requirement is <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Test Studio Run-time Edition</a>.
 
-## Examples of Implementing Test Studio tests in Different CI Tools
+1. Leave the machine running and logged into the account. 
 
-* <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps</a>
+1. Most UI tests require active desktop session. Exception are the web tests executed in headless mode. 
+
+> __Tip__
+> Keeping an active user session is always a challenge. Thus we, from Test Studio, implemented few options to help in controlling the user session on the testing machines. These are available in the <a href="/advanced-topics/build-server/ts-test-runner-app" target="_blank">Test Studio Test Runner application</a> which gets installed with the Run-time Edition. 
+
+## Examples of Implementing Test Studio Tests in Different CI Pipelines
+
+Find out the desired type of pipeline and follow the instructions on how to implement Test Studio test runs in it. 
+
+* <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps Classic Pipeline</a>
 * <a href="/advanced-topics/build-server/jenkins-ci" target="_blank">Jenkins CI</a>
 * <a href="/advanced-topics/build-server/team-city-builds" target="_blank">TeamCity</a>
 * <a href="/advanced-topics/build-server/bamboo" target="_blank">Bamboo</a>

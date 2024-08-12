@@ -1,153 +1,308 @@
 ---
-title: ArtOfTest.Runner
-page_title: ArtOfTest.Runner
-description: "Test Studio Command line runner client is called ArtOfTest.Runner. Test Studio execution engine in the command prompt"
+title: Test Studio CLI Runner
+page_title: Test Studio CLI Runner "ArtOfTest.Runner.exe"
+description: "Test Studio Command line runner client is called ArtOfTest.Runner.exe. Test Studio execution engine in the command prompt"
 position: 1
 ---
-# ArtOfTest.Runner
+# Test Studio CLI Runner `ArtOfTest.Runner.exe`
 
-The ArtOfTest.Runner.exe is installed in your <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> installation directory. The default location is:
+The CLI runner `ArtOfTest.Runner.exe` is deployed with any of the Test Studio editions in the Test Studio installation directory. The default install folder where you can find the runner is `C:\Program Files (x86)\Progress\Test Studio\Bin`.
 
-- **C:\Program Files (x86)\Progress\Test Studio\Bin**
+This article guides you trough the options of the Test Studio CLI Runner for building commands to execute tests. 
 
- 
+- [How to Call the `ArtOfTest.Runner.exe` in Command Prompt](#how-to-call-the-artoftestrunnerexe-in-command-prompt)
+- [Help Screen](#help-screen)
+- [Options to Specify Which File to Execute](#options-to-specify-which-file-to-execute)
+- [Options to Customize the Results File](#options-to-customize-the-results-file)
+- [Option to Use Custom Settings for the Execution](#option-to-use-custom-settings-for-the-execution)
 
-When working with the execution engine in the command prompt always make sure you have started it as Administrator and have the root directory in context as shown below so that you can call the runner directly.
+## How to Call the `ArtOfTest.Runner.exe` in Command Prompt
+
+Similar to any other executable files you have few options to call the `ArtOfTest.Runner.exe` in the command prompt. 
+
+- Use the full file path to call the *.exe. 
+- Change the context root directory in the command prompt window to the one containing the *.exe file and use the *.exe name directly. 
+- Set the *.exe directory as environmental variable in the OS and use the *.exe name directly from whichever directory is the current context. 
 
 ![cmd][1]
 
 ## Help Screen
 
-Here is the Help Screen for ArtOfTest.Runner.exe:
+Use the `help` option to get a list of all options suuported by the CLI runner. The short form to use is `/?` or `/h`. Below is the Help Screen for `ArtOfTest.Runner.exe`:
 
-![Options][2]
+![Help screen shows the list of all options][2]
 
-## Execution Options
 
-Execution options modify command line test execution behavior. The help screen (displayed by inputting ArtOfTest.Runner.exe -help from the command line) provides a brief explanation of each option. Here are some further notes about specific options.
+## Options to Specify Which File to Execute
 
-Several execution options use file paths as values. Keep in mind the following notes when using file paths in the command prompt:
+The `ArtOfTest.Runner.exe` supports the execution of a single test or a list of tests. Choose the option suitable for your needs. 
 
-- Enclose the file path in double quotes.
-- To prevent typing mistakes, use the clipboard paste option within the command prompt window. To find the paste option after copying the path to the clipboard, right mouse click on the top left corner of the command prompt and choose **Edit > Paste**.
+### `test` Option
 
-![Edit>Paste][3]
+The `test` option accepts full file path to an individual test with the **\*.tstest** file extension. 
 
-### File to Execute Options
+> __Note!__
+><br>
+><br>
+> Each Test Studio test is part of a project and it can't exist on its own. This is why running individual tests requires a project `Settings.aiis` file. 
+><br>
+> That means you can __use the `test` option by itself only__ when the test file is in the project root folder where is the `Settings.aiis` file. 
+><br>
+> Otherwise, when the test is nested under any folder in the project __use the `test` option in combination with the `root` one__ to specify the associated project root folder where the `Settings.aiis` file is. 
+ 
+### Example Commands for `test` Option
 
-- The **test** option takes the full path to an individual test file with the **.tstest** file extension. This file will be located in your main project directory and under any folder structure you have created to organize your tests. You can use the **test** option by itself. By default results will be stored in the **Results** folder under the project’s root directory.
+> Run individual test stored in the project root folder: 
 
-<table id="no-table">
-<tr>
-<td>![Test Execution Syntax][4]<br>ArtOfTest.Runner Test Execution syntax</td>
-</tr>
-<tr>
-<td>![Test Execution Result][5]<br>ArtOfTest.Runner Test Execution result</td>
-</tr>
-<table>
+```cmd
+> "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
+```
+![Run individual test stored in the project root folder][5]
 
-- The **list** option takes the full path to a test list file with the **.aiilist** file extension. This option  will execute a test list which has multiple tests included. All test lists for your project can be found in the test list folder under your project root folder. You can use the test option by itself. By default results will be stored in the **Results** folder under the project’s root directory. For more information about test lists, see <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">Test Lists</a>.
+> Run individual test stored in a sub-folder under the project root one: 
 
-<table id="no-table">
-<tr>
-<td>![Test List Execution Syntax][6]<br>ArtOfTest.Runner Test List Execution syntax</td>
-</tr>
-<tr>
-<td>![Test List Execution Result][7]<br>ArtOfTest.Runner Test List Execution result</td>
-</tr>
-<table>
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+test="D:\Test Studio Projects\July2024\inProjectFolder\nestedDemoTest.tstest" 
+root="D:\Test Studio Projects\July2024"
+```
+![Run individual test stored in a sub-folder under the project root one][4]
 
-- The **root** option takes full path to the project root folder.
+### `list` Option
 
-### Results Related Options
+The `list` option takes the full path to a test list file with the **\*.aiilist** file extension. 
 
-- The **out** option allows choice of an alternative folder to store the results to and takes a full path value to the respective folder.
-<br>
+> __Note!__
+><br>
+><br>
+> Each Test Studio test list is part of a project and it can't exist on its own. Test list files are stored in the __TestLists__ sub-folder under the project root one.
+><br>
+> The **\*.aiilist** file contains the test list settings applied for it in the Test Studio project. That means you can __use the `list` option by itself__. 
 
-- The **result** option allows change of the default result file name and takes file name (including the file extension and in double quotes).
-<br>
+### Example Commands for `list` Option
 
-- If any of the **xml** or **html** options are used the respective alternative result file will be stored to the default location if an output folder is not specified.
-<br>
+> Run test list: 
 
-- If any of the **junit** or **junitstep** options is used a JUnit xml result file will be generated. The difference will be respectively whether to convert a test or a test step to a junit test.
-<br>
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist"
+```
+![Run test list][6]
 
-- The **PersistOnEachStep** option could be set to true in case explicitly the results are required. This option will save the results after each executed step.
-<br>
+### `root` Option 
 
-### Settings Option
+The `root` option takes the full path to the project root folder and is used in combination with either `test`, or `list` options.
 
-- The **settings** option takes the full path to a JSON file containing custom settings for the run.
+## Options to Customize the Results File
 
-Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. These are corresponding to the available <a href="/getting-started/test-execution/test-list-settings" target="_blank">test list settings</a>.
+By default the result files generated from the CLI runner execution are output in the **Results** sub-folder under the project’s root directory.The `ArtOfTest.Runner.exe` supports outputting the results from a test/test list run in different formats and saving the file in custom location. 
+
+> __Tip__ 
+> All result related options can be used in combination or on their own. 
+
+### `out` Option
+
+The `out` option defines an alternative folder to store the results to and takes the full path to the specified folder.
+
+### Example Commands for `out` Option
+
+> Run test list outputting the results in specified folder: 
+
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder"
+```
+![Run test list outputting the results in specified folder][7]
+
+### `result` Option
+
+The `result` sets specific name for the default result file and takes a file name in double quotes. 
+
+### Example Commands for `result` Option
+
+> Run test list outputting the results in specified folder and setting custom name for the result file: 
+
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
+result="customName"
+```
+![Run test list outputting the results in specified folder with custom name][8]
+
+### `xml` or `html` Options
+
+Use either the `xml`, or the `html` option to output the result into the corresponding file type - `*.xml` or `*.html` file. The different format result file is output in addition to the default result file with file extension `*.aiiresult`. 
+
+> __Note__
+> `xml` or `html` option is valid only when executing a test list. 
+
+### Example Commands for `xml` or `html` Options
+
+> Run test list outputting the results in xml format: 
+
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
+xml
+``` 
+![Run test list outputting the results in xml format][9]
+
+> Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
+
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
+result="customName" 
+html
+```
+![Run test list outputting the results in html format in specified folder with custom name][10]
+
+> __Note__
+> Result files are saved into the project **Results** sub-folder if the `out` option is not used, and with default name if the `result` option is not used.
+
+### `junit` or `junitstep` Options
+
+Use the `junit` or `junitstep` options to output the result into a `junit(step).xml` result file. The difference between the two is whether to convert a test or a test step to a junit test in the output result.
+
+### Example Commands for `junit` or `junitstep` Options
+
+> Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
+
+```cmd
+>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
+out="D:\SharedFolder" 
+result="customName" 
+junitstep
+```
+![Run test list outputting the results in junitstep format in specified folder with custom name][11]
+
+> Run single test outputting the results in junit format: 
+
+```cmd
+>>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
+test="D:\elle\Test Studio Projects\July2024\demoTest-AOTRunner.tstest" 
+junit
+```
+![Run single test outputting the results in junit format][12]
+
+> __Note__
+> Result files are saved into the project **Results** sub-folder if the `out` option is not used, and with default name if the `result` option is not used.
+
+### `persistOnEachStep` Option
+
+By deafult the `PersistOnEachStep` option is _false_. If set to _true_ it saves the results after each executed step. It is used when debugging specific cases when the final result is not generated as expected.
+
+## Option to Use Custom Settings for the Execution
+
+By default the CLI runner execution uses the settings applied in the `Settings.aiis` file for a single test run, or the settings specified in the executed test list. The `ArtOfTest.Runner.exe` supports customizing the execution by using custom settings file. 
+
+### `settings` Option
+
+The `settings` option takes the full path to a JSON file containing custom settings for the run. 
+
+Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. 
 
 ```JSON
 {
   "Settings": {
-    "__type": "ArtOfTest.WebAii.Core.Settings",
-    "__value": {
-      "Web": {
-        "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
-        "__value": {
-          "IsProfilingExecution": false,
-          "ExecutingBrowsers": [],
-          "UseMultiBrowserExecution": false,
-          "RecycleBrowser": true,
-          "AspNetDevServerPort": -1,
-          "LocalWebServer": 0,
-          "EnableUILessRequestViewing": false,
-          "WebAppPhysicalPath": "",
-          "DefaultBrowser": 2,
-          "EnableScriptLogging": false,
-          "BaseUrl": "http://testedSite.com",
-          "KillBrowserProcessOnClose": false,
-          "AutoCalibrateBrowsers": false,
-          "UseHttpProxy": false,
-          "EnableSilverlight": false,
-          "VerboseHttpProxy": false,
-          "SilverlightConnectTimeout": 60000,
-          "SilverlightApplicationPath": null
-        }
-      },
-      "Wpf": {
-        "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
-        "__value": {
-          "DefaultApplicationPath": null
-        }		
-      },
-	   "ResponsiveWeb": {
-		"__type": "ArtOfTest.WebAii.Core.Settings+ResponsiveWeb",
-		"__value": {
-		  "Width": 414,
-		  "Height": 896,
-		  "UserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1. 38 (KHTML, like Gecko) Version/11.0 Mobile/15A356 Safari/604.1"         
-	    }
-	   },
-      "CreateLogFile": true,
-      "LogLocation": "C:\\\\WebAiiLog\\\\",
-      "QueryEventLogErrorsOnExit": false,
-      "LogAnnotations": true,
-      "SimulatedMouseMoveSpeed": 0.3,
-      "ExecuteInDevelopmentTests": false,
-      "WaitCheckInterval": 500,
-      "ElementWaitTimeout": 15000,
-      "ExecuteCommandTimeout": 1000,
-      "ExecutionDelay": 0,
-      "UnexpectedDialogAction": 2,
-      "AnnotateExecution": false,
-      "AnnotationMode": 0,
-      "XMultiMgr": true,
-      "ClientReadyTimeout": 15000,
-      "DisableDialogMonitoring": false,
-      "RunnerResponseTimeout": 0.0
-    }
-  },
+      "__type": "ArtOfTest.WebAii.Core.Settings",
+      "__value": {
+        "ResponsiveWeb": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+ResponsiveWebSettings",
+          "__value": {
+            "Width": 0,
+            "Height": 0,
+            "UserAgent": null
+          }
+        },
+        "Web": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+          "__value": {
+            "IsProfilingExecution": false,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
+            "RecycleBrowser": false,
+            "AspNetDevServerPort": -1,
+            "LocalWebServer": 0,
+            "EnableUILessRequestViewing": false,
+            "WebAppPhysicalPath": "",
+            "DefaultBrowser": 10,
+            "EnableScriptLogging": false,
+            "BaseUrl": "",
+            "KillBrowserProcessOnClose": false,
+            "KillBrowsersBeforeStart": true,
+            "AutoCalibrateBrowsers": false,
+            "UseHttpProxy": false,
+            "EnableSilverlight": false,
+            "VerboseHttpProxy": false,
+            "SilverlightConnectTimeout": 60000,
+            "SilverlightApplicationPath": null,
+            "WebComponents": true,
+            "UseBrowserExtension": false,
+            "ChromiumFirstInteractionDelay": 500,
+            "FirefoxMinimumJSClickDelay": 100
+          }
+        },
+        "Wpf": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+          "__value": {
+            "DefaultApplicationPath": null,
+            "DefaultApplicationArgs": null,
+            "DefaultApplicationWorkingFolder": null
+          }
+        },
+        "Desktop": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+DesktopSettings",
+          "__value": {
+            "DefaultApplicationPath": null,
+            "DefaultApplicationArgs": null,
+            "DefaultApplicationWorkingFolder": null
+          }
+        },
+        "CreateLogFile": true,
+        "LogLocation": "C:\\WebAiiLog\\",
+        "QueryEventLogErrorsOnExit": false,
+        "LogAnnotations": false,
+        "SimulatedMouseMoveSpeed": 0.3,
+        "ExecuteInDevelopmentTests": false,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 15000,
+        "SearchByImageFirst": false,
+        "ExecuteCommandTimeout": 20000,
+        "ExecutionDelay": 0,
+        "RerunFailedTests": false,
+        "UnexpectedDialogAction": 2,
+        "AnnotateExecution": false,
+        "AnnotationMode": 0,
+        "RecordingMode": 0,
+        "RecordingCodec": 0,
+        "RecordingScale": 100,
+        "RecordingFPS": 5,
+        "RecordingOutputLocation": "",
+        "RecordingSizeLimit": 0,
+        "XMultiMgr": true,
+        "ClientReadyTimeout": 60000,
+        "DisableDialogMonitoring": false,
+        "RunnerResponseTimeout": 0.0,
+        "EnableImageSearch": true,
+        "ElementImageSearchTimeout": 15000,
+        "ElementImageSearchDelay": 300,
+        "ScrollOnImageSearch": true,
+        "TelerikComponentsVersion": 0
+      }
+    },
   "WebSettings": null,
   "PropertyBag": null
 }
 
 ```
+
+> __Tip__
+> The settings listed in the settings file correspond to these available in the <a href="/getting-started/test-execution/test-list-settings" target="_blank">test list settings</a>.
+
+
 
 ## Publish Results To TFS
 
@@ -233,3 +388,7 @@ padding: 8px;
 [6]: /img/features/test-runners/artoftest-runner/fig6.png
 [7]: /img/features/test-runners/artoftest-runner/fig7.png
 [8]: /img/features/test-runners/artoftest-runner/fig8.png
+[9]: /img/features/test-runners/artoftest-runner/fig9.png
+[10]: /img/features/test-runners/artoftest-runner/fig10.png
+[11]: /img/features/test-runners/artoftest-runner/fig11.png
+[12]: /img/features/test-runners/artoftest-runner/fig12.png

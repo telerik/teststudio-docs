@@ -16,9 +16,9 @@ Choose the __Connect to WPF Application__ option from the <a href="/features/cus
 
 There are few notable properties of the step:
 
-- __Process Name__ - defines the process to connect to; mandatory property.
-- __Process Index__ - defines the index of the application process, if needed.
-- __Set Focus__ - sets focus on the application one it is launched.
+- __Process Name__ - (required) defines the process to connect to.
+- __Process Index__ - (optional) defines the index of the application process.
+- __Set Focus__ - sets focus on the application when launched.
 - __Auto Close__ - closes the application process when test completes.
 
 ![Connect to Application step properties][2]
