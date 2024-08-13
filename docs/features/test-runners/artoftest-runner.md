@@ -1,5 +1,5 @@
 ---
-title: ArtOfTest.Runner.exe - the Test Studio CLI Runner
+title: ArtOfTest.Runner.exe - Test Studio CLI Runner
 page_title: Test Studio CLI Runner "ArtOfTest.Runner.exe"
 description: "Test Studio Command line runner client is called ArtOfTest.Runner.exe. Test Studio execution engine in the command prompt"
 position: 1
@@ -10,7 +10,7 @@ The CLI runner __ArtOfTest.Runner.exe__ is deployed with any of the Test Studio 
 
 This article guides you trough the options of the Test Studio CLI Runner for building commands to execute tests. 
 
-- [How to Call the `ArtOfTest.Runner.exe` in Command Prompt](#how-to-call-the-artoftestrunnerexe-in-command-prompt)
+- [How to Call the ArtOfTest.Runner.exe in Command Prompt](#how-to-call-the-artoftestrunnerexe-in-command-prompt)
 - [Help Screen](#help-screen)
 - [Options to Specify Which File to Execute](#options-to-specify-which-file-to-execute)
 - [Options to Customize the Results File](#options-to-customize-the-results-file)
@@ -50,7 +50,7 @@ The `test` option accepts full file path to an individual test with the **\*.tst
  
 ### Example Commands for test Option
 
-Run individual test stored in the project root folder: 
+- Run individual test stored in the project root folder: 
 
 ```cmd
 > "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -59,7 +59,7 @@ test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
 
 ![Run individual test stored in the project root folder][5]
 
-Run individual test stored in a sub-folder under the project root one: 
+- Run individual test stored in a sub-folder under the project root one: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -81,7 +81,7 @@ The `list` option takes the full path to a test list file with the **\*.aiilist*
 
 ### Example Commands for list Option
 
-> Run test list: 
+- Run test list: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -108,7 +108,7 @@ The `out` option defines an alternative folder to store the results to and takes
 
 ### Example Commands for out Option
 
-Run test list outputting the results in specified folder: 
+- Run test list outputting the results in specified folder: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -123,7 +123,7 @@ The `result` sets specific name for the default result file and takes a file nam
 
 ### Example Commands for result Option
 
-Run test list outputting the results in specified folder and setting custom name for the result file: 
+- Run test list outputting the results in specified folder and setting custom name for the result file: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -143,7 +143,7 @@ Use either the `xml`, or the `html` option to output the result into the corresp
 
 ### Example Commands for xml or html Options
 
-Run test list outputting the results in xml format: 
+- Run test list outputting the results in xml format: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -153,7 +153,7 @@ xml
 
 ![Run test list outputting the results in xml format][9]
 
-Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
+- Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -174,7 +174,7 @@ Use the `junit` or `junitstep` options to output the result into a `junit(step).
 
 ### Example Commands for junit or junitstep Options
 
-Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
+- Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -186,7 +186,7 @@ junitstep
 
 ![Run test list outputting the results in junitstep format in specified folder with custom name][11]
 
-Run single test outputting the results in junit format: 
+- Run single test outputting the results in junit format: 
 
 ```cmd
 >>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -318,7 +318,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
 
 **Note:** All options listed in the help screen in relation to results publishing to TFS are mandatory. Below are some additional notes to each of the options. 
 
-- The **server** option takes the TFS server name with its full path in double quotes like this *"http://myTFS.myDomain.com:8080/tfs"*.
+- The **server** option takes the TFS server name with its full path in double quotes like this **http://myTFS.myDomain.com:8080/tfs**.
 
 - The **build** option takes the respective build which the results could be associated to.
 

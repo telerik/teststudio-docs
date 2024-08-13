@@ -2,23 +2,29 @@
 title: Test Studio Execution Client in CI Builds
 page_title: Test Studio Execution Client in CI
 description: "Use Test Studio Test Runner app to control the machine user session when running UI tests as part of CI pipeline. "
-position: 3
+position: 0
 ---
 # Test Studio Test Runner in CI Builds
 
-The **Test Studio Execution Client** is the Run-time component of Test Studio. It gets installed both with the Test Studio Standalone and the Run-time editions. Part of its options are also applicable when running UI tests as part of a CI build pipelines.
+The **Test Studio Execution Client** is the Run-time component of Test Studio. It gets installed with the Test Studio Standalone and the Run-time editions. Part of its options are also applicable when running UI tests from a CI build pipeline.
 
 This article guides you through the configuration of the Test Studio Execution Client when used in CI environment. 
 
+- [Start the Execution Client](#start-the-execution-client)
+- [Set Test Runner app to run on machine startup](#run-on-startup)
+- [Use the options to control the user session](#user-session-configuration)
+- [Access Test Studio application logging on the build machine](#use-test-studio-application-log)
+
+
 ## Start the Execution Client
 
-To start the Execution Client, called also Test Runner, type in the __Windows Start Menu__ > **Start Execution Server**.
+To start the Execution Client, called also Test Studio Test Runner, type in the __Windows Start Menu__ > **Start Execution Server**.
 
 ![Start Execution Server from Windows Start Menu][1a]
 
 ### Message "Test Runner is already running"
 
-By default the Execution client is running in the background. Thus if the runner is __already started__ (automatically on machine startup, or automatically with a test project, or under another user session) and you try starting it you get prompted with a message that **The Test Runner is already running**. 
+The Execution client is running in the background. Thus if the runner is __already started__ (for example automatically on machine startup; or automatically with a test project; or under another user session) and you try starting it again you get prompted with a message that **The Test Runner is already running**. 
 
 ![Test Runner is already running][0]
 

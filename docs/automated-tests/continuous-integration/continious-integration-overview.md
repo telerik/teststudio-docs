@@ -17,10 +17,15 @@ This article provides the requirements from Test Studio perspective to setup the
 ## Execution Machine Requirements 
 
 * Active user session. 
+    
     > __Tip:__ The only exception is if the executed tests are <a href="/automated-tests/headless/headless-test-execution" target="_blank">web test run in headless browser mode</a>. 
+
 * CI agent app running in console mode. 
+    
     > __Tip:__ The only exception is if the executed tests are web test run in headless browser mode.
+
 * Test Studio installation - minimum the <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Test Studio Run-time Edition</a>. 
+
 * Latest browser(s) or WPF/Desktop application under test installed. 
 
 ## Setup Automated Testing Agent Machines
@@ -33,7 +38,7 @@ This article provides the requirements from Test Studio perspective to setup the
 
     > __Important!__
     > </br>
-    > __Do not run the CI agent as a service__ unless you intend to execute web tests in headless browser mode.
+    > __Do not run the CI agent as a service__ unless you intend to execute <a href="/automated-tests/headless/headless-test-execution" target="_blank">web tests in headless browser mode</a>.
 
 1. Install Test Studio software on the build machine - the minimum required installation is Test Studio Run-time edition.
 
@@ -47,7 +52,7 @@ This article provides the requirements from Test Studio perspective to setup the
 
 ## Examples of Implementing Test Studio Tests in Different CI Pipelines
 
-Find out the desired type of pipeline and follow the instructions on how to implement Test Studio test runs in it. 
+Find out few examples of setting a pipeline on specific platform and follow the instructions on how to implement Test Studio test runs in it. 
 
 * <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps Classic Pipeline</a>
 * <a href="/advanced-topics/build-server/jenkins-ci" target="_blank">Jenkins CI</a>
