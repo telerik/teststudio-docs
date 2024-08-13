@@ -1,12 +1,12 @@
 ---
-title: Test Studio CLI Runner
+title: ArtOfTest.Runner.exe - the Test Studio CLI Runner
 page_title: Test Studio CLI Runner "ArtOfTest.Runner.exe"
 description: "Test Studio Command line runner client is called ArtOfTest.Runner.exe. Test Studio execution engine in the command prompt"
 position: 1
 ---
-# Test Studio CLI Runner `ArtOfTest.Runner.exe`
+# Test Studio CLI Runner ArtOfTest.Runner.exe
 
-The CLI runner `ArtOfTest.Runner.exe` is deployed with any of the Test Studio editions in the Test Studio installation directory. The default install folder where you can find the runner is `C:\Program Files (x86)\Progress\Test Studio\Bin`.
+The CLI runner __ArtOfTest.Runner.exe__ is deployed with any of the Test Studio editions in the Test Studio installation directory. The default install folder where you can find the runner is __C:\Program Files (x86)\Progress\Test Studio\Bin__.
 
 This article guides you trough the options of the Test Studio CLI Runner for building commands to execute tests. 
 
@@ -16,9 +16,9 @@ This article guides you trough the options of the Test Studio CLI Runner for bui
 - [Options to Customize the Results File](#options-to-customize-the-results-file)
 - [Option to Use Custom Settings for the Execution](#option-to-use-custom-settings-for-the-execution)
 
-## How to Call the `ArtOfTest.Runner.exe` in Command Prompt
+## How to Call the ArtOfTest.Runner.exe in Command Prompt
 
-Similar to any other executable files you have few options to call the `ArtOfTest.Runner.exe` in the command prompt. 
+Similar to any other executable files you have few options to call the ArtOfTest.Runner.exe in the command prompt. 
 
 - Use the full file path to call the *.exe. 
 - Change the context root directory in the command prompt window to the one containing the *.exe file and use the *.exe name directly. 
@@ -28,59 +28,58 @@ Similar to any other executable files you have few options to call the `ArtOfTes
 
 ## Help Screen
 
-Use the `help` option to get a list of all options suuported by the CLI runner. The short form to use is `/?` or `/h`. Below is the Help Screen for `ArtOfTest.Runner.exe`:
+Use the `help` option to get a list of all options supported by the CLI runner. The short form to use is `/?` or `/h`. Below is the Help Screen for __ArtOfTest.Runner.exe__:
 
 ![Help screen shows the list of all options][2]
 
 
 ## Options to Specify Which File to Execute
 
-The `ArtOfTest.Runner.exe` supports the execution of a single test or a list of tests. Choose the option suitable for your needs. 
+The __ArtOfTest.Runner.exe__ supports the execution of a single test or a list of tests. Choose the option suitable for your needs. 
 
-### `test` Option
+### test Option
 
 The `test` option accepts full file path to an individual test with the **\*.tstest** file extension. 
 
 > __Note!__
 ><br>
+> Each Test Studio test is part of a project and it can't exist on its own. This is why __running individual tests requires a project Settings.aiis file__. So, you can __use the `test` option by itself only when the test file is in the project root folder__ where the Settings.aiis file. 
 ><br>
-> Each Test Studio test is part of a project and it can't exist on its own. This is why running individual tests requires a project `Settings.aiis` file. 
 ><br>
-> That means you can __use the `test` option by itself only__ when the test file is in the project root folder where is the `Settings.aiis` file. 
-><br>
-> Otherwise, when the test is nested under any folder in the project __use the `test` option in combination with the `root` one__ to specify the associated project root folder where the `Settings.aiis` file is. 
+> Otherwise, __when the test is nested under any folder in the project use the `test` option in combination with the `root` one__ to specify the associated project root folder where the Settings.aiis file is. 
  
-### Example Commands for `test` Option
+### Example Commands for test Option
 
-> Run individual test stored in the project root folder: 
+Run individual test stored in the project root folder: 
 
 ```cmd
 > "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
 ```
+
 ![Run individual test stored in the project root folder][5]
 
-> Run individual test stored in a sub-folder under the project root one: 
+Run individual test stored in a sub-folder under the project root one: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\Test Studio Projects\July2024\inProjectFolder\nestedDemoTest.tstest" 
 root="D:\Test Studio Projects\July2024"
 ```
+
 ![Run individual test stored in a sub-folder under the project root one][4]
 
-### `list` Option
+### list Option
 
 The `list` option takes the full path to a test list file with the **\*.aiilist** file extension. 
 
 > __Note!__
 ><br>
-><br>
 > Each Test Studio test list is part of a project and it can't exist on its own. Test list files are stored in the __TestLists__ sub-folder under the project root one.
 ><br>
-> The **\*.aiilist** file contains the test list settings applied for it in the Test Studio project. That means you can __use the `list` option by itself__. 
+> The **\*.aiilist** file contains the test list settings applied for it in the Test Studio project, so you can __use the `list` option by itself__.
 
-### Example Commands for `list` Option
+### Example Commands for list Option
 
 > Run test list: 
 
@@ -88,67 +87,73 @@ The `list` option takes the full path to a test list file with the **\*.aiilist*
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist"
 ```
+
 ![Run test list][6]
 
-### `root` Option 
+### root Option 
 
 The `root` option takes the full path to the project root folder and is used in combination with either `test`, or `list` options.
 
 ## Options to Customize the Results File
 
-By default the result files generated from the CLI runner execution are output in the **Results** sub-folder under the project’s root directory.The `ArtOfTest.Runner.exe` supports outputting the results from a test/test list run in different formats and saving the file in custom location. 
+By default the result files generated from the CLI runner execution are output in the **Results** sub-folder under the project’s root directory.The __ArtOfTest.Runner.exe__ supports outputting the results from a test/test list run in different formats and saving the file in custom location. 
 
 > __Tip__ 
+><br>
 > All result related options can be used in combination or on their own. 
 
-### `out` Option
+### out Option
 
 The `out` option defines an alternative folder to store the results to and takes the full path to the specified folder.
 
-### Example Commands for `out` Option
+### Example Commands for out Option
 
-> Run test list outputting the results in specified folder: 
+Run test list outputting the results in specified folder: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder"
 ```
+
 ![Run test list outputting the results in specified folder][7]
 
-### `result` Option
+### result Option
 
 The `result` sets specific name for the default result file and takes a file name in double quotes. 
 
-### Example Commands for `result` Option
+### Example Commands for result Option
 
-> Run test list outputting the results in specified folder and setting custom name for the result file: 
+Run test list outputting the results in specified folder and setting custom name for the result file: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
 result="customName"
 ```
+
 ![Run test list outputting the results in specified folder with custom name][8]
 
-### `xml` or `html` Options
+### xml or html Options
 
 Use either the `xml`, or the `html` option to output the result into the corresponding file type - `*.xml` or `*.html` file. The different format result file is output in addition to the default result file with file extension `*.aiiresult`. 
 
 > __Note__
+><br>
 > `xml` or `html` option is valid only when executing a test list. 
 
-### Example Commands for `xml` or `html` Options
+### Example Commands for xml or html Options
 
-> Run test list outputting the results in xml format: 
+Run test list outputting the results in xml format: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
 xml
 ``` 
+
 ![Run test list outputting the results in xml format][9]
 
-> Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
+Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -156,18 +161,20 @@ list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out
 result="customName" 
 html
 ```
+
 ![Run test list outputting the results in html format in specified folder with custom name][10]
 
 > __Note__
+><br>
 > Result files are saved into the project **Results** sub-folder if the `out` option is not used, and with default name if the `result` option is not used.
 
-### `junit` or `junitstep` Options
+### junit or junitstep Options
 
 Use the `junit` or `junitstep` options to output the result into a `junit(step).xml` result file. The difference between the two is whether to convert a test or a test step to a junit test in the output result.
 
-### Example Commands for `junit` or `junitstep` Options
+### Example Commands for junit or junitstep Options
 
-> Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
+Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
 
 ```cmd
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
@@ -176,29 +183,32 @@ out="D:\SharedFolder"
 result="customName" 
 junitstep
 ```
+
 ![Run test list outputting the results in junitstep format in specified folder with custom name][11]
 
-> Run single test outputting the results in junit format: 
+Run single test outputting the results in junit format: 
 
 ```cmd
 >>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\elle\Test Studio Projects\July2024\demoTest-AOTRunner.tstest" 
 junit
 ```
+
 ![Run single test outputting the results in junit format][12]
 
 > __Note__
+><br>
 > Result files are saved into the project **Results** sub-folder if the `out` option is not used, and with default name if the `result` option is not used.
 
-### `persistOnEachStep` Option
+### persistOnEachStep Option
 
-By deafult the `PersistOnEachStep` option is _false_. If set to _true_ it saves the results after each executed step. It is used when debugging specific cases when the final result is not generated as expected.
+By default the `PersistOnEachStep` option is _false_. If set to _true_ it saves the results after each executed step. It is used when debugging specific cases when the final result is not generated as expected.
 
 ## Option to Use Custom Settings for the Execution
 
-By default the CLI runner execution uses the settings applied in the `Settings.aiis` file for a single test run, or the settings specified in the executed test list. The `ArtOfTest.Runner.exe` supports customizing the execution by using custom settings file. 
+By default the CLI runner execution uses the settings applied in the Settings.aiis file for a single test run, or the settings specified in the executed test list. The __ArtOfTest.Runner.exe__ supports customizing the execution by using custom settings file. 
 
-### `settings` Option
+### settings Option
 
 The `settings` option takes the full path to a JSON file containing custom settings for the run. 
 
@@ -324,7 +334,7 @@ Below is a sample command to publish results to TFS from a test list execution.
 
 ## Exit Codes
 
-ArtOfTest.Runner returns an exit code so the Build Server can check for it on process exit in case of an exception:
+__ArtOfTest.Runner.exe__ returns an exit code so the Build Server can check for it on process exit in case of an exception:
 
 <style>
 table.docs {
