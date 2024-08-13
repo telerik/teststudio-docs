@@ -22,7 +22,7 @@ To start the Execution Client, called also Test Studio Test Runner, type in the 
 
 ![Start Execution Server from Windows Start Menu][1a]
 
-### Message "Test Runner is already running"
+### Message 'Test Runner is already running'
 
 The Execution client is running in the background. Thus if the runner is __already started__ (for example automatically on machine startup; or automatically with a test project; or under another user session) and you try starting it again you get prompted with a message that **The Test Runner is already running**. 
 
@@ -64,7 +64,7 @@ With this option enabled and as long as the Test Studio Scheduling Client proces
 ><br>
 > __Note!__ 
 ><br> 
-><br> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
+><br> Using this functionality is a potential risk as it prevents the machine from locking when expected by your security policies. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
 
 Once the __option is disabled or the Test Studio Scheduling Client process is stopped__, the operating system is able to get to sleep/lock normally.
 
@@ -103,9 +103,6 @@ All available and supported browsers on the Execution Server are listed in this 
 
 ![Browsers Information][6b]
 
-<br>
-<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
-<br>
 
 ## Browser Support Update
 

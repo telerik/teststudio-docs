@@ -310,9 +310,12 @@ Below is an example of a complete JSON setting file that contains all of Telerik
 ```
 
 > __Tip__
+><br>
 > The settings listed in the settings file correspond to these available in the <a href="/getting-started/test-execution/test-list-settings" target="_blank">test list settings</a>.
 
-
+<br>
+<br>
+<br>
 
 ## Publish Results To TFS
 

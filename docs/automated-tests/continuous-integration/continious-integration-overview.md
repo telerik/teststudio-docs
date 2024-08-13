@@ -18,11 +18,11 @@ This article provides the requirements from Test Studio perspective to setup the
 
 * Active user session. 
     
-    > __Tip:__ The only exception is if the executed tests are <a href="/automated-tests/headless/headless-test-execution" target="_blank">web test run in headless browser mode</a>. 
+    __Tip:__ The only exception is if the executed tests are <a href="/automated-tests/headless/headless-test-execution" target="_blank">web test run in headless browser mode</a>. 
 
 * CI agent app running in console mode. 
     
-    > __Tip:__ The only exception is if the executed tests are web test run in headless browser mode.
+    __Tip:__ The only exception is if the executed tests are web test run in headless browser mode.
 
 * Test Studio installation - minimum the <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Test Studio Run-time Edition</a>. 
 
@@ -37,7 +37,7 @@ This article provides the requirements from Test Studio perspective to setup the
 1. Run the CI agent in console mode - use command line or a shortcut link. Follow the instructions from vendor. 
 
     > __Important!__
-    > </br>
+    > <br>
     > __Do not run the CI agent as a service__ unless you intend to execute <a href="/automated-tests/headless/headless-test-execution" target="_blank">web tests in headless browser mode</a>.
 
 1. Install Test Studio software on the build machine - the minimum required installation is Test Studio Run-time edition.
@@ -47,15 +47,17 @@ This article provides the requirements from Test Studio perspective to setup the
 1. Ensure active desktop session on the build machine. Most UI tests require active desktop session. The only exception is running web tests in headless browser mode. 
 
     > __Tip__
-    > </br>
+    > <br>
     > Use the Test Studio built-in options to control the user session. These options are available in the <a href="/advanced-topics/build-server/ts-test-runner-app" target="_blank">Test Studio Test Runner application</a> which gets installed with the Run-time Edition. 
 
 ## Examples of Implementing Test Studio Tests in Different CI Pipelines
 
 Find out few examples of setting a pipeline on specific platform and follow the instructions on how to implement Test Studio test runs in it. 
 
-* <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps Classic Pipeline</a>
+* <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps Classic Pipeline using self-hosted agent</a>
 * <a href="/advanced-topics/build-server/jenkins-ci" target="_blank">Jenkins CI</a>
 * <a href="/advanced-topics/build-server/team-city-builds" target="_blank">TeamCity</a>
 * <a href="/advanced-topics/build-server/bamboo" target="_blank">Bamboo</a>
 * <a href="/advanced-topics/build-server/cruise-control.net-builds" target="_blank">CruiseControl .Net</a>
+* <a href="/advanced-topics/build-server/docker-container-testing" target="_blank">Testing in Docker Container</a> - applicable for headless browser testing only. 
+* <a href="/advanced-topics/build-server/microsoft-hosted-agent-testing" target="_blank">Azure DevOps Classic Pipeline using Microsoft-hosted agent</a> - applicable for headless browser testing only.
