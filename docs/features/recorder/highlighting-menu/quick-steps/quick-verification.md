@@ -42,7 +42,7 @@ Test Studio implements verification through "sentences" that compare a portion o
 
 > **Note**
 >
-> The engine for creating the verification sentences allows you to __convert any Verification step to Wait or Extracttion step (converting to extraction step is available for text based verifications)__. Use the _Change Role_ option from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose from the options in the sub-menu.
+> The engine for creating the verification sentences allows you to __convert any Verification step to Wait or Extraction step (converting to extraction step is available for text based verification)__. Use the _Change Role_ option from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose from the options in the sub-menu.
 > ![Change Role Option](/img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig0.png)
 
 ## Create a Verification Step in Recording Mode

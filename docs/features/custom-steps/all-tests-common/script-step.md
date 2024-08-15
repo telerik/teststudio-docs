@@ -10,7 +10,7 @@ The __Coded Step__ feature allows you to insert a coded function in the automati
 
 This article demonstrates how to add this type of step into the test.
 
-Choose the __API Test as Step__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
+Choose the __Coded Step__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
 ![Coded step](/img/features/custom-steps/script-step/fig2.png)
 
