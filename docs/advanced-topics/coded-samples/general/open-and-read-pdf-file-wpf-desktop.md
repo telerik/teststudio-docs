@@ -17,7 +17,7 @@ The described approach using a 3rd party and open source dll is applicable for W
 
     > __Note__
     ></br>
-    > You can choose any other external library with the same functionality and implement the appropriate code for the actions that suits your needs. 
+    > You can choose any other external library with the same functionality and implement the proper code for the actions that suits your needs. 
 
 2. Copy the unzipped dll into the project root folder and <a href="/features/coded-steps/add-assembly-reference" target="_blank">add reference to it in the Test Studio project</a> from that location.
 
