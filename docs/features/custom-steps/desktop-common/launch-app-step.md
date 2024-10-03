@@ -14,12 +14,11 @@ Choose the __Launch Application__ option from the <a href="/features/custom-step
 
 ![Add Launch Application step][1]
 
-> The __Launch Application__ step can be used for 
-
 There are few notable properties of the step:
 
 - __App Path__ - defines the full file path to the application executable file.
-- __Startup Arguments__ - defines the startup arguments if needed.
+- __Startup Arguments__ - (optional) defines startup arguments.
+- __Working Folder__ - (optional) defines a working folder for desktop app. 
 
 ![Launch Application step properties][2]
 

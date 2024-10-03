@@ -3,6 +3,7 @@ title: TFS 2017 Builds
 page_title: TFS 2017 Test Execution
 description: "Integrate Test Studio tests in TFS 2017 continuous integration. Execute Test Studio tests with TFS 2017 build."
 position: 9
+publish: false
 ---
 # TFS 2017 Builds Test Execution
 

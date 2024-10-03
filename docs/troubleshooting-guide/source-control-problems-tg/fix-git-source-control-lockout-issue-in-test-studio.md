@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Git Source Control Lockout Issue
-description: Learn how to troubleshoot the issue of being locked out of source control when pushing commits in Test Studio. Learn how to change the Git credentials used in Test Studio project. 
+description: Learn how to troubleshoot the issue of being locked out of source control when pushing commits in Test Studio. Learn how to change the Git credentials used in Test Studio project. Refresh Git credentials used in Test Studio project. Update Git passsword in Test Studio project. 
 type: troubleshooting
 page_title: Fix Git Source Control Unable to Push in Test Studio
 slug: fix-git-source-control-lockout-issue-in-test-studio

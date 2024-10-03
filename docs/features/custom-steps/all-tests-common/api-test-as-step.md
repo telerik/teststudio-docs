@@ -14,7 +14,7 @@ Choose the __API Test as Step__ option from the <a href="/features/custom-steps/
 
 ![Step Builder API Test as step][1]
 
-The API test as step requires additional adjustments. The details for these can be found in the following articles:
+The __API test as step requires additional adjustments__, see following articles for details:
 
 - <a href="/automated-tests/execute-apitest/add-api-test-as-step" target="_blank">Add API Test as Step</a>
 - <a href="/automated-tests/execute-apitest/edit-integrated-api-project" target="_blank">Edit Tests in Integrated API Project</a>

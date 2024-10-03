@@ -13,6 +13,7 @@ Find out more about extraction steps in the and how you can use these in the bel
 - [General notes about wait steps](#general-notes)
 - [Add an extraction step](#create-an-extraction-step-in-recording-mode)
 - [Use the extracted variable in the next test steps](#use-the-extracted-value-in-the-next-steps)
+- [Use the extracted value in a test as step](#use-the-extracted-value-in-a-test-used-as-step)
 - [Add an extraction step without recording session](#create-an-extraction-step-without-recording-session)
 - [Extract the value of element attribute](#extract-the-value-of-element-attribute)
 
@@ -23,23 +24,27 @@ The Test Studio extraction steps are using the implementation for verification s
 The variable can be as well referenced in a sub-test used as step in the main test. In such case you need to manually type the name of the variable in the data driven property.
 
 > **Note**
->
-> The engine for creating the verification sentences allows you to __convert any Verification step to Wait or Extracttion step (converting to extraction step is available for text based verifications)__. Use the _Change Role_ option from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose from the options in the sub-menu.
+> <br>
+> The engine for creating the verification sentences allows you to __convert any Verification step to Wait or Extraction step (converting to extraction step is available for text based verification)__. Use the _Change Role_ option from the <a href="/features/test-maintenance/test-step-context-menu" target="_blank">step context menu</a> and choose from the options in the sub-menu.
 > ![Change Role Option](/img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig0.png)
 
 ## Create an Extraction Step in Recording Mode
 
 The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">Highlighting menu</a> gives quick access to a set of predefined extractions, which can be added with a single click while recording. You can follow the below steps to insert a wait step in your test.
 
-1.&nbsp; Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
+1. Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
 
-2.&nbsp; Enable the highlighting once the recorder is attached to the browser. Hold the mouse over the __Demos__ option in the navigation menu and add a step to extract its text content.
+1. Enable the highlighting once the recorder is attached to the browser. Hold the mouse over the __Demos__ option in the navigation menu and add a step to extract its text content.
 
-![Add extract step][1]
+    ![Add extract step][1]
 
-3.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the extraction step and allow you to change the variable name.
+1. Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the extraction step and allow you to change the variable name.
 
-![Step Properties][2]
+    ![Step Properties][2]
+
+> __Tip__
+><br>
+> Extracted variables can be also used in coded steps - you can either <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">get or set their values</a>. This can help in the scenarios when you need to modify the initially extracted string before using it in the next steps.
 
 ## Use the Extracted Value in the Next Steps
 
@@ -49,23 +54,21 @@ Let's continue the described test scenario and __use the extracted variable__ to
 
 ![Test Scenario][3]
 
-1.&nbsp; Open the <a href="/features/test-maintenance/test-step-properties" target="_blank">properties</a> of the 'Enter text' step and expand the _Bindings_ option. The only property to data drive is the text to type and the extracted variable _DemosLink_ is listed in the dropdown as an option for data binding.
+1. Open the <a href="/features/test-maintenance/test-step-properties" target="_blank">properties</a> of the 'Enter text' step and expand the _Bindings_ option. The only property to data drive is the text to type and the extracted variable _DemosLink_ is listed in the dropdown as an option for data binding.
 
-![Data binding properties][4]
+    ![Data binding properties][4]
 
-2.&nbsp; In the same manner use the extracted variable to data drive the two verification steps.
+1. In the same manner use the extracted variable to data drive the two verification steps.
 
-![Data binding properties][4a]
+    ![Data binding properties][4a]
 
-> __Note__
-><br>
-> If you need to use the extracted variable into another <a href="/features/custom-steps/test-as-step" target="_blank">test used as a step</a>, the variable name is not directly listed in the sub-test's step properties. However, you still can use it by __typing the variable name in the text box__ (without the $ notation), click on the _brackets_ icon and then _Set_ button:
->
-> ![Bind external extracted variable][5]
-><br>
-> __Tip__
-><br>
-> Extracted variables can be also used in coded steps - you can either <a href="/advanced-topics/coded-samples/general/extracted-variables-in-code" target="_blank">get or set their values</a>. This can help in the scenarios when you need to modify the initially extracted string before using it in the next steps.
+## Use the Extracted Value in a Test Used as Step
+
+If you need to use the extracted variable into another <a href="/features/custom-steps/test-as-step" target="_blank">test used as a step</a>, the variable name is not directly listed in the sub-test's step properties. __Type the variable name in the text box__ (without the $ notation), click on the _brackets_ icon and then the _Set_ button to use the extracted variable in the nested test:
+
+![Bind external extracted variable][5]
+
+
 
 ## Create an Extraction Step without Recording Session
 
