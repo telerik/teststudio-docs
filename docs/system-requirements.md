@@ -47,15 +47,15 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
         </tr>
         <tr>
             <td>Minimum</td>
-            <td style="text-align:center;" align="center">500MB</td>
+            <td style="text-align:center;" align="center">1GB</td>
             <td style="text-align:center;">1.8GHz</td>
             <td style="text-align:center;">2GB</td>
         </tr>
         <tr>
             <td>Recommended</td>
-            <td style="text-align:center;">2GB+</td>
-            <td style="text-align:center;">2.2GHz+</td>
             <td style="text-align:center;">4GB+</td>
+            <td style="text-align:center;">2.2GHz+</td>
+            <td style="text-align:center;">6GB+</td>
         </tr>
     </tbody>
 
@@ -111,7 +111,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Internet Explorer 11, Latest Edge Chromium, Latest Chrome, Latest Firefox</td>
+            <td colspan="4">Latest Edge Chromium, Latest Chrome, Latest Firefox</td>
         </tr>
     </tbody>
 </table>
@@ -146,9 +146,16 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </tbody>
 </table>
 
+> **Note** 
+><br>
+> Test Studio deprecate Internet Explorer support in Q1 2025.
+
+
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
+
+
 
 ## Admin Rights
 
@@ -170,9 +177,7 @@ Admin permissions are required for:
     * Visual Studio 2022 requires <a href="/prerequisites/installation/installation-consideration#visual-studio-2022-installation-specifics" target="_blank">minimum selection of components</a> to add in its installation.
 	
 
-> **Note** 
-><br>
-> Test Studio ended support for Visual Studio 2017 with release 2024 Q1 (2024.1.219).
+
 
 
 ## .NET Framework

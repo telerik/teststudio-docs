@@ -12,7 +12,7 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 - <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/system-requirements" target="_blank">Visual Studio 2022</a>
 - <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio 2019</a>
-- <a href="https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2017-system-requirements-vs" target="_blank">Visual Studio 2017</a>
+
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
@@ -20,26 +20,20 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 ## User Account Control (UAC)
 
-* If you are using Internet Explorer for test recording, the UAC needs to be set to 'Never Notify' in corresponding Settings page.
+* User Account Control Settings set to 'Never Notify'.
 
 ## Recommended Browsers
 
-* Internet Explorer 11
 * Chrome latest version
-* Firefox latest version
 * Edge Chromium latest version
+* Firefox latest version
 
-## Visual Studio requirements
+## Visual Studio Requirements
 
-* The **Test Studio Dev** extension can be installed on Visual Studio 2017, 2019 and 2022 **Professional or Enterprise** edition.
-* You must run Visual Studio as Administrator.
-* Visual Studio projects should target .NET Framework 4.7.2 to .NET Framework 4.8.
-* Visual Studio 2017 requires additional <a href="/advanced-topics/installation/vs-2017-compatibility" target="_blank">Individual components</a> on top of its default installation.
-* Visual Studio 2022 requires minimum <a href="/advanced-topics/installation/vs-2022-compatibility" target="_blank">workload components selection</a>.
-
-## Data Binding
-
-* Microsoft Office installation or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=23734" target="_blank">Microsoft Data Connectivity Components (x86 redistributable)</a>.
+* **Test Studio Dev** can be installed on Visual Studio 2019 and Visual Studio 2022.
+    * You must run Visual Studio as Administrator.
+    * Visual Studio projects target a version between .NET Framework 4.7.2 to .NET Framework 4.8.
+    * Visual Studio 2022 requires minimum <a href="/advanced-topics/installation/vs-2022-compatibility" target="_blank">workload components selection</a>.
 
 ## .NET Framework
 

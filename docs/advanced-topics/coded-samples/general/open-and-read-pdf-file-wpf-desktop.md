@@ -16,8 +16,8 @@ The described approach using a 3rd party and open source dll is applicable for W
 1. We prepared a sample using the third party dll **iTextSharp.dll**. It can be downloaded from its official page <a href="https://sourceforge.net/projects/itextsharp/" target="_blank">here</a>.
 
     > __Note__
-    ></br>
-    > You can choose any other external library with the same functionality and implement the proper code for the actions that suits your needs. 
+    ><br>
+    > You can choose any other external library with similar functionality and implement the proper code for the actions that suits your needs. 
 
 2. Copy the unzipped dll into the project root folder and <a href="/features/coded-steps/add-assembly-reference" target="_blank">add reference to it in the Test Studio project</a> from that location.
 
