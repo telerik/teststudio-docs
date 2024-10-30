@@ -49,15 +49,18 @@ navigation:
     "testing-framework":
         title: "Testing Framework"
         position: 10
+    "security":
+        title: "Security"
+        position: 11
     "test-studio-mobile":
         title: "Test Studio Mobile"
-        position: 11
+        position: 12
     "license-server":
         title: "License Server"
-        position: 12
+        position: 13
     "archived-docs":
        title: "Archive"
-       position: 13
+       position: 14
 
 # === Installation and Setup ===
     prerequisites/installation:
