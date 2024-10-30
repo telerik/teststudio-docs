@@ -9,6 +9,32 @@ downscaling
 downscale
 uncheck
 Uncheck
+codeless
+Codeless
+DesktopInvokePattern
+undock
+Undock
+undocked
+Dockable
+dockable
+junit
+junitstep
+ArtOfTest.Runner.exe
+ExecuteCommand
+BrowserCommand
+InError
+combobox
+Combobox
+mongod.exe
+nginx
+openssl
+.PFX
+cmd
+WaitOnElementsTimeout
+Settings.aiis
+persistOnEachStep
+WebDriver
+usings
 
 
 
