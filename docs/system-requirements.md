@@ -148,7 +148,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 > **Note** 
 ><br>
-> Test Studio deprecate Internet Explorer support in Q1 2025.
+> Test Studio deprecates Internet Explorer support in Q1 2025.
 
 
 {% if site.has_cta_panels == true %}

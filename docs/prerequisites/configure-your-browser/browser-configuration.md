@@ -25,7 +25,7 @@ To ease you in applying these settings, Test Studio provides a built-in mechanis
 
 > **Note** 
 ><br>
-> Test Studio deprecate Internet Explorer support in Q1 2025.
+> Test Studio deprecates Internet Explorer support in Q1 2025.
 
 [1]: /img/prerequisites/browser-config/edge-notification.jpg
 [2]: /img/prerequisites/browser-config/accept-popup.jpg
