@@ -1,7 +1,7 @@
 ---
 title: Send Keystrokes
 page_title: Send Keystrokes
-description: "Send keystrokes like Alt+F4 in Test Studio test run. How to automate holding down the Ctrl key + performing selection in Test Studio test run"
+description: "Send key press or combination of key presses in Test Studio test run. "
 previous_url: /user-guide/code-samples/general/send-keystrokes.aspx, /user-guide/code-samples/general/send-keystrokes
 position: 1
 ---
@@ -104,7 +104,7 @@ End Namespace
 
 ##Problem 3##
 
-*I want to perform multi-select while holding down the Ctrl key.*
+*I want to perform combination of key presses like Ctrl+A.*
 
 ##Solution 3##
 
@@ -126,11 +126,7 @@ namespace TestProject8
         [CodedStep(@"New Coded Step")]
          public void Keystrokes()
         {
-                Manager.Desktop.KeyBoard.KeyDown(Keys.Control);
- 
-                //You can put the click steps HERE
- 
-                Manager.Desktop.KeyBoard.KeyUp(Keys.Control);
+           Manager.Desktop.KeyBoard.KeyPress(Keys.Control | Keys.X);     
         }
     }
 }
@@ -144,14 +140,9 @@ Namespace TestProject8
          
         <CodedStep("New Coded Step")> _
         Public Sub KeyStrokes()
-             
-            Manager.Desktop.KeyBoard.KeyDown(Keys.Control)
- 
-            'You can put the click steps HERE
- 
-            Manager.Desktop.KeyBoard.KeyUp(Keys.Control)
- 
-        
+
+            Manager.Desktop.KeyBoard.KeyPress(Keys.Control | Keys.X)
+            
         End Sub
     End Class
 End Namespace
