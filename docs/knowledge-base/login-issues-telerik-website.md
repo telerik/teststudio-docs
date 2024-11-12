@@ -12,7 +12,15 @@ position: 19
 
 ## Description
 
-When attempting to sign into the Telerik website, several errors may appear in the browser console. The issue persists across different browsers and devices. Clearing the browser's cache or using incognito mode might temporarily allow for successful login, but the problem reoccurs.
+When attempting to sign into the Telerik website, several errors may appear in the browser console. The error in the browser is as follows: 
+
+```
+Oops! We couldn't verify you're human. Please try a different browser or contact us for assistance. 
+```
+
+![Login error](/img/knowledge-base/telerik-login-kb/fig1.png)
+
+The issue persists across different browsers and devices. Clearing the browser's cache or using incognito mode might temporarily allow for successful login, but the problem reoccurs.
 
 ## Cause
 

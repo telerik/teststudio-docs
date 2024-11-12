@@ -10,9 +10,11 @@ Continuous Integration (CI) and Continuous Delivery/Continuous Deployment (CD) p
 
 This article provides the requirements from Test Studio perspective to setup the execution of functional UI tests as part of an automated pipeline.
 
-* [Requirements to cover on the execution machine](#execution-machine-requirements)
-* [The setup in overall](#setup-automated-testing-agents)
-* [Examples for setting up pipeline in most common CI tools](#examples-of-implementing-test-studio-tests-in-different-ci-pipelines)
+
+- [Test Studio Tests in Continuous Integration Environments](#test-studio-tests-in-continuous-integration-environments)
+  - [Execution Machine Requirements](#execution-machine-requirements)
+  - [Setup Automated Testing Agent Machines](#setup-automated-testing-agent-machines)
+  - [Examples of Implementing Test Studio Tests in Different CI Pipelines](#examples-of-implementing-test-studio-tests-in-different-ci-pipelines)
 
 ## Execution Machine Requirements 
 
@@ -25,6 +27,8 @@ This article provides the requirements from Test Studio perspective to setup the
     __Tip:__ The only exception is if the executed tests are web test run in headless browser mode.
 
 * Test Studio installation - minimum the <a href="/test-studio-editions#test-studio-run-time-add-on" target="_blank">Test Studio Run-time Edition</a>. 
+
+* Test Studio <a href="/advanced-topics/build-server/ts-test-runner-app" target="_blank">Execution client running</a>. 
 
 * Latest browser(s) or WPF/Desktop application under test installed. 
 
