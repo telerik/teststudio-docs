@@ -25,7 +25,9 @@ To set up a load test for a web application in Test Studio, follow these steps:
 
 1. Start by [creating a user profile](/automated-tests/load/designing-load-tests/adding-user-profiles#add-a-user-profile). This will capture the HTTP(S) requests generated during the web test scenario.
 
-2. Review the captured traffic and remove requests that load visual resources (e.g., JS scripts, CSS, images) from the user profile. Load test does not interact with the application UI so this type of requests are not needed.
+2. Review the captured traffic and remove requests that load visual resources (e.g., JS scripts, CSS, images) from the user profile. Load test does not interact with the application UI so this type of requests are not needed. 
+
+3. Usually in the recorded traffic some of the HTTP requests load resources from other sources - like google analytics, fontawesome, or any other 3rd party providers. Remove such requests from the user profile as these are not needed for loading the tested application server. 
 
 ## Managing Dynamic Targets
 

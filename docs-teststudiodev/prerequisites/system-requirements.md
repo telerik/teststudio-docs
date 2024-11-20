@@ -28,6 +28,11 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 * Edge Chromium latest version
 * Firefox latest version
 
+## Supported WPF and Desktop Applications 
+
+* __WPF__ for .NET Framework 4.5+, .NET Core 3.1, .NET 5, .NET 6, .NET 7, .NET 8, .NET 9
+* All Windows __desktop applications__ supporting the Microsoft UI Automation framework, including applications containing custom controls that provide the required automation peers.
+
 ## Visual Studio Requirements
 
 * **Test Studio Dev** can be installed on Visual Studio 2019 and Visual Studio 2022.

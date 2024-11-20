@@ -126,7 +126,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">WPF for .NET Framework 4.5+, .NET Core 3.1, .NET 5, .NET 6, .NET 7, .NET 8</td>
+            <td colspan="4">WPF for .NET Framework 4.5+, .NET Core 3.1, .NET 5, .NET 6, .NET 7, .NET 8, .NET 9</td>
         </tr>
     </tbody>
 </table>
