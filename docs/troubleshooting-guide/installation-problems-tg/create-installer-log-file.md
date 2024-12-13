@@ -24,11 +24,11 @@ Regardless of the reason for the failed install, the best feedback to get is an 
 
 ## Troubleshoot
 
-The most convenient approach to investigate such kind of issues is to check the installer log and analyze the specific case.
+The most convenient approach to investigate such issues is to check the installer log and analyze the specific case.
 
 ## Generate Installer Log for Telerik Control Panel Installation
 
-If you used the __Telerik Control Panel__ to install Test Studio, the log was automatically generated for you. Simply open the folder %ProgramData%\Telerik\Installer\Logs and locate the appropriate log file. It will be named something like:
+If you used the __Telerik Control Panel__ to install Test Studio, the log was automatically generated for you. Simply open the folder %ProgramData%\Progress\Installer\Logs and locate the appropriate log file. It will be named something like:
 
 - `msi_log_2015-11-18_TestStudio_WebDesktop_xxxx_x_xxx_Purchase.log`
 
@@ -48,9 +48,9 @@ If you're installing using the .MSI file follow these steps to generate a MSI lo
 
   c. Click **OK**.
 
-You should have a new command prompt console window open. When it opens:
+Open a new command prompt console window and follow the steps: 
 
-2.&nbsp; Navigate to the folder that the downloaded installer file is saved within.
+2.&nbsp; Navigate to the folder where the downloaded installer file is saved within.
 
 In the example below, the installer is contained in D:\TestStudio\ but your location on your drive may be different so make sure you are in the right folder before running the below command.
 

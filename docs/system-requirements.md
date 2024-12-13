@@ -164,21 +164,13 @@ Admin permissions are required for:
 - Test Studio installation process - initial install, modification of existing installation, uninstall.
 - Test Studio Services installation and configuration - to enable the Scheduling setup for remote test execution.
 
-## User Account Control (UAC)
-
-* User Account Control Settings set to __'Never Notify'__.
-
 ## Visual Studio Plug-in Support
 
-* IDE (Visual Studio plug-in only): __Visual Studio 2019__ and __Visual Studio 2022__.
+* IDE (Visual Studio plug-in only): compatible with __Visual Studio 2019__ and __Visual Studio 2022__.
 
-	* You must run Visual Studio as Administrator.
 	* Visual Studio projects target a version between .NET Framework 4.7.2 to 4.8.1.
     * Visual Studio 2022 requires <a href="/prerequisites/installation/installation-consideration#visual-studio-2022-installation-specifics" target="_blank">minimum selection of components</a> to add in its installation.
 	
-
-
-
 
 ## .NET Framework
 
