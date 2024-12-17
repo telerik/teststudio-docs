@@ -147,15 +147,23 @@ Before describing all of the methods of the FrameworkElement object I'd like to 
 
 	
 	```C#
+	WpfApplication app = Manager.ActiveApplication;
+	Assert.IsNotNull(app);
+
 	Grid containerGrid = app.Find.ByText("SomeText").Parent("Grid").As<Grid>();
+
 	```
 
-	OR
+	__OR__
 
 	If you are working with a custom control that doesn't have a strongly-typed object under **ArtOfTest.WebAii.Silverlight.UI**, the navigation methods all offer a non-generic version that can be used to search for a certain type. For example, let's say you are trying to find the custom control "Bar" that contains some text, then you can do the following:
 
 	```C#
+	WpfApplication app = Manager.ActiveApplication;
+	Assert.IsNotNull(app);
+
 	FrameworkElement barElement = app.Find.ByText("SomeText").Parent("Bar");
+	
 	```
 
 	**Parent**, **NextSibling**, **PreviousSibling & AnySibling** all offer a non-generic versions in addition to the generic one.

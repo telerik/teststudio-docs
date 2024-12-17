@@ -13,6 +13,10 @@ position: 4
 
 This is possible with a coded solution. Here's an example that goes through all the visible cells in a WPF demo grid (as opposed to all the cells contained in the grid). It writes the text content of each cell into the test log.
 
+> **Note** 
+><br>
+> The application used to build the sample code is the official <a href="https://demos.telerik.com/wpf/" target="_blank">Telerik UI for WPF Controls Demo app</a>. 
+
 ```C#
 WpfApplication app = Manager.ActiveApplication;
 Assert.IsNotNull(app);
