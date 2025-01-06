@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Login Issues on Telerik Website
-description: Users experiencing difficulties signing into their Telerik accounts can follow these steps to troubleshoot the common causes.
+description: Users might experience difficulties signing into their Telerik accounts due to the CloudFlare verification with error "Oops! We couldn't verify you're human. Please try a different browser or contact us for assistance." Anyone with the issue can try these steps to troubleshoot the issue and find a workaround.
 type: troubleshooting
 page_title: How to Resolve Login Problems on Telerik.com
 slug: login-issues-telerik-website
@@ -12,7 +12,7 @@ position: 19
 
 ## Description
 
-When attempting to sign into the Telerik website, several errors may appear in the browser console. The error in the browser is as follows: 
+When attempting to sign into the Telerik website errors may appear in the browser console due to the CloudFlare verification. The error in the browser is as follows: 
 
 ```HTML
 Oops! We couldn't verify you're human. Please try a different browser or contact us for assistance. 
