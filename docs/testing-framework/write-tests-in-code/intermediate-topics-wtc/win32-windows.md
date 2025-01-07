@@ -4,7 +4,7 @@ page_title: Win32 Windows
 description: "Test Studio Testing Framework support in coded tests for Win32 Windows through the WindowManager and Window classes"
 position: 1
 ---
-#Native Win32 Windows Handling#
+#Native Win32 Windows Handling
 
 Telerik Testing Framework provides generic support for Win32 Windows handling. Under the 'ArtOfTest.Common.Win32' namespace, Telerik Framework provides two key objects that you can use in your test code to generically manage Win32 Windows and Dialogs.
 

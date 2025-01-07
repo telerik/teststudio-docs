@@ -5,11 +5,11 @@ description: "Use relative paths in a Test Studio test - upload/download dialog 
 position: 1
 ---
 
-#Use Relative Paths in File Upload/Downloads#
+# Use Relative Paths in File Upload/Downloads
 
 *I need to upload/download a file to a path relative to my test execution folder. I don't want to use an absolute file path.*
 
-##Solution##
+## Solution
 
 This can only be done in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a>. The key is to use this.ExecutionContext.DeploymentDirectory. This property identifies the folder the test is running in. You want to use it in a coded step to create an absolute path for file upload/download like this:
 

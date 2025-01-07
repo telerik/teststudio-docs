@@ -4,7 +4,7 @@ page_title: Modal Dialogs
 description: "Handle a modal dialog in a coded step in Test Studio. Coded test to handle modal dialogs in Test Studio. Test Studio Testing Framework Download Modal Dialog handling.."
 position: 9
 ---
-#Handling IE Modal Dialogs#
+#Handling IE Modal Dialogs
 
 ![Modal Dialog][1]
 

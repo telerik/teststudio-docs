@@ -4,7 +4,7 @@ page_title: Find and Navigate Elements
 description: "Test Studio Testing Framework finding elements in code and navigating through the DOM."
 position: 2
 ---
-#Finding and Navigating HTML Elements#
+#Finding and Navigating HTML Elements
 
 The example above used just two of the available find methods, the Find.ById<**TControl**> and the Find.AllByTagName<**TControl**> and did not take advantage of the powerful navigation features. Let's look at some other find examples:
 

@@ -152,7 +152,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 

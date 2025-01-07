@@ -5,13 +5,13 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/wpf/parameterize-wpf-app-location.aspx, /user-guide/code-samples/wpf/parameterize-wpf-app-location
 position: 2
 ---
-#Parameterize the Location of a WPF Application#
+# Parameterize the Location of a WPF Application
 
 Currently Test Studio is rigged that you cannot run a WPF Test unless you provide a definite (non-parameterized) location for the application under testing.
 
 ![Configure WPF path][1]
 
-##Solution##
+## Solution
 
 To work around this limitation, create a mock application to feed to Test Studio. Then change the application under testing in a coded step. This allows you to use a parameterization method of your choosing for the app's location. This solution is applicable for both Test Studio Standalone version and the Visual Studio plugin.
 

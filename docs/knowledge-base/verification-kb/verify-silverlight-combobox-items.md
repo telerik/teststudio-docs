@@ -4,7 +4,7 @@ page_title: Verify Silverlight ComboBox Items
 description: Verifying/Check the items contained in a Silverlight ComboBox DropDownList in Test Studio test
 position: 1
 ---
-#Verifying the items contained in a Silverlight ComboBox DropDownList#
+#Verifying the items contained in a Silverlight ComboBox DropDownList
 
 ![ComboBox][1]
 

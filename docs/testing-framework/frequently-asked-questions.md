@@ -4,7 +4,7 @@ page_title: Frequently Asked Questions
 description: "Test Studio Testing Framework FAQ."
 position: 1
 ---
-#Frequently Asked Questions#
+#Frequently Asked Questions
 
 * **How much does Telerik Testing Framework cost?**
 	

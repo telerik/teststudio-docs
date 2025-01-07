@@ -4,11 +4,11 @@ page_title: Verify Text in Rich TextBox
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
 ---
-#Verify Text in a Silverlight RichTextBox#
+# Verify Text in a Silverlight RichTextBox
 *
 I cannot verify all the text or its properties in my Silverlight RichTextBox. The contents are either not visible or each word is contained in an individual TextBlock in the Visual Tree.*
 
-##Solution##
+## Solution
 
 The <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.richtextbox%28v=vs.95%29.aspx" target="_blank">Silverlight RichTextBox</a> is tricky to work with. It is a "container" type of control, meaning it contains other <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.block%28v=vs.95%29.aspx" target="_blank">"block" elements</a>, usually the <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.paragraph%28v=vs.95%29.aspx" target="_blank">Paragraph</a> or <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.section%28v=vs.95%29.aspx" target="_blank">Section</a>. It is these block elements that hold the actual text displayed in the RichTextBox. Thus, to fetch the displayed text, you must enumerate through the individual blocks and fetch the text from each block element.
 

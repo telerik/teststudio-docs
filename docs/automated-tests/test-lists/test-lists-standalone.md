@@ -14,7 +14,7 @@ Test Studio provides two options for a test list - a static one, which contains 
 * <a href="#dynamic-test-lists">Dynamic Test List</a> 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## <strong>Static Test Lists</strong>
@@ -69,7 +69,7 @@ These criteria can be used when <a href="/features/test-lists/create-test-lists#
 ><br>
 > Each time you trigger a dynamic list execution, Test Studio queries the project and executes the tests, that __meet the criteria of the _Rules___. Thus, if there are new tests added after the test list creation, and these meet the criteria of the rules, they will be included in the test list upon execution.
 
-## See also ##
+## See also 
 
 * <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">Power of Dynamic Test Lists</a>
 

@@ -5,13 +5,13 @@ description: "Send keystrokes like Alt+F4 in Test Studio test run. How to automa
 previous_url: /user-guide/code-samples/general/send-keystrokes.aspx, /user-guide/code-samples/general/send-keystrokes
 position: 1
 ---
-#Send Keystrokes#
+# Send Keystrokes
 
-##Problem 1##
+## Problem 1
 
 *I want to press Enter key.*
 
-##Solution 1##
+## Solution 1
 
 This is possible with a coded solution:
 
@@ -53,11 +53,11 @@ Namespace TestProject8
 End Namespace
 ```
 
-##Problem 2##
+## Problem 2
 
 *I want to type text with keystrokes.*
 
-##Solution 2##
+## Solution 2
 
 This is possible with a coded solution:
 
@@ -102,11 +102,11 @@ End Namespace
 
 > <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys(v=vs.110).aspx" target="_blank">Here</a> you can find the list with key codes.
 
-##Problem 3##
+## Problem 3
 
 *I want to perform multi-select while holding down the Ctrl key.*
 
-##Solution 3##
+## Solution 3
 
 This is possible with a coded solution:
 

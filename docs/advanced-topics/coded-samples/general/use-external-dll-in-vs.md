@@ -4,11 +4,11 @@ page_title: Use External DLL in VS
 description: "Use External DLL in the Test Studio project from the Visual Studio solution."
 position: 1
 ---
-# Use External DLL in VS #
+# Use External DLL in VS 
 
 *I need to reference and use an external DLL that contains global functions from a coded step in Visual Studio.*
 
-## Solution ##
+## Solution 
 
 You'll find an attached sample Visual Studio Solution attached at bottom of the page. The solution contains two projects. One is a Test Studio project and the other is a "normal" Class Library Project. We use functions from the Class Library inside a coded step in the test project.
 

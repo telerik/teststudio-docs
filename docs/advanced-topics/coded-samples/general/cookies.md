@@ -4,7 +4,7 @@ page_title: Get/Set Cookies in Code
 description: "Get/Set Cookies in Code in Test Studio test."
 position: 1
 ---
-#Get/Set Cookies in Code#
+# Get/Set Cookies in Code
 
 Here is a working code sample:
 

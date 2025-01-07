@@ -15,7 +15,7 @@ position: 1
 }
 </style>
 
-# Configuring Firefox for Test Studio Automation#
+# Configuring Firefox for Test Studio Automation
 
 This document describes the steps to enable Firefox browser for test recording and execution.
 

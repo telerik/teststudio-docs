@@ -95,7 +95,7 @@ This can help you see how the chained find expression will work against the DOM.
 
 ![Locate in DOM][11]
 
-##See Also##
+##See Also
 
 * <a href="http://www.telerik.com/videos/teststudio/test-studio---flexible-locators-" target="_blank">Watch a video tutorial on chained find expressions</a>
 

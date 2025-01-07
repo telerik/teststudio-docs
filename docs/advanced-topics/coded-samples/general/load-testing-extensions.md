@@ -5,7 +5,7 @@ description: "Load Testing Extensions in Test Studio."
 position: 1
 publish: false
 ---
-#Load Testing Extensions#
+# Load Testing Extensions
 
 A load testing plugin is similar to other <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">execution extensions</a>, but implements a different set of interfaces. Instead of a class that implements the IExecutionExtension interface, implement one or more of the following interfaces:
 

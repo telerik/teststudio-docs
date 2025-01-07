@@ -4,11 +4,11 @@ page_title: Convert Progress Testing Framework Test .trx Results to HTML
 description: Convert Progress Testing Framework Test .trx Results to HTML
 position: 1
 ---
-#Convert .trx to HTML#
+#Convert .trx to HTML
 
 *I'm executing <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Progress Testing Framework-powered</a> tests with Visual Studio's MSTest runner. The results are outputted to trx result files. I would like to convert these files (which are XML-based) into HTML for easier viewing.*
 
-##Solution##
+##Solution
 
 This is doable with a custom solution. There's a number of sources on the Internet that describe how to implement this. However, we recommend that you use an CMD app that offers this functionality out of the box: **trx2html**. Download it <a href="http://trx2html.codeplex.com/" target="_blank">here</a>.
  

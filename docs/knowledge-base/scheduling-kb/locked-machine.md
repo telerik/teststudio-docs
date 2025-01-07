@@ -29,7 +29,7 @@ Is it possible for tests to execute normally without requiring my account to alw
 
 Any test that requires **moving the mouse** or sending **key strokes** requires access to the GUI session - e.g dialog handling uses both the mouse and keyboard typing. Telerik tests are not the only affected by this Windows limitation, you will find this is a general problem with any tool that performs UI testing.
 
-## Minimum Requirements for a Test Studio Execution Machine ###
+## Minimum Requirements for a Test Studio Execution Machine 
 
 Ensure all the following conditions are met for the server on which the tests will be executed:
 

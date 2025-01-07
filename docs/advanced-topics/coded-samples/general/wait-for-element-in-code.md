@@ -5,11 +5,11 @@ description: "Wait for Element in Coded Test Studio test."
 previous_url: /user-guide/code-samples/general/wait-for-element-to-exist-in-code.aspx, /user-guide/code-samples/general/wait-for-element-to-exist-in-code
 position: 1
 ---
-#Wait for Element in Code#
+# Wait for Element in Code
 
 *In a coded step you need to wait for an element to exist before performing an action or a verification against that element. Perhaps you selected to "Customize Step in Code" and the default element wait time is not sufficient.*
 
-##Solution##
+## Solution
 
 After customizing a step in code you may have code that looks like this for an HTML element:
 

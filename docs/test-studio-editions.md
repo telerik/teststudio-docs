@@ -14,7 +14,7 @@ The **Test Studio** tool consists of a few different modules, which are packed i
 > Licensing is managed on a per machine basis. Each VM is considered a machine and must be licensed.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## Test Studio Standalone Application

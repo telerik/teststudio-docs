@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 position: 1
 ---
 
-#Using xUnit#
+#Using xUnit
 
 Telerik Testing Framework comes with built-in support for xUnit.net 1.8 and higher. The latest release of xUnit can be downloaded <a href="http://xunit.codeplex.com/releases/view/62840" target="_blank">here</a>.
  
@@ -17,7 +17,7 @@ Telerik Automation Infrastructure comes with the following features to facilitat
 
 * When installing Telerik Testing Framework, a new fully commented xUnit.net item template will be added to your list of available templates. This will enable you to start using Telerik by simply selecting it from the Add->New Item tool menu (or context menu) available to your VS project. You are provided with both a C# and a VB.NET template.
 
-##Getting Started Using xUnit.net##
+##Getting Started Using xUnit.net
 
 In this section we will walk you through the steps to get you started using Telerik Testing Framework with xUnit.net.
 
@@ -41,7 +41,7 @@ In this section we will walk you through the steps to get you started using Tele
 
 * Start writing your automated Telerik Testing Framework unit tests.
 
-##Telerik's xUnit Template##
+##Telerik's xUnit Template
 
 Telerik xUnit.net tests inherit from a base test class called **BaseTest** that lives in the **ArtOfTest.WebAii.TestTemplate** namespace. The base class, in addition to providing the integration benefits described above, provides:
 
@@ -121,7 +121,7 @@ Initialize(mySettings)
 
 For more information on Telerik Testing Framework's settings & configuration please refer to the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc/settings-class" target="_blank">Settings and Configuration</a> topic.
 
-##Starting Automation##
+##Starting Automation
 
 
 ```C#

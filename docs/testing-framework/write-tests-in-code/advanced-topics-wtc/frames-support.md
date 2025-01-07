@@ -4,7 +4,7 @@ page_title: Frames Support
 description: "Test Studio Testing Framework support for iFrames. Access elements in iFrames from a coded step. Coded test to interact with elements in iFrames. "
 position: 1
 ---
-#Frames Support#
+#Frames Support
 
 Telerik Testing Framework understands what Frames and IFrames are and includes built-in support to work with them. It automatically scans the webpage and locates all of the frames it contains and then adds them to the FramesCollection property of the Browser object.
  
@@ -108,6 +108,6 @@ t2_frame.Actions.Click(toggleOff)
 
 At this point, the 't1_frame' object is just like any other Browser object. You can use the Find.Byxxx/Actions objects to find elements/execute actions in the document or execute any of the browser actions like 'NavigateTo' or 'Refresh()', 'GoBack()', etc.
  
-###Notes about Frames support:###
+###Notes about Frames support:
 
 The Frames collection supports two methods that can be used to easily wait on all frames to be ready or to refresh all the DOM trees within these frames. The methods are : 'ActiveBrowser.Frames.RefreshAllDomTrees()' & 'ActiveBrowser.Frames.WaitAllUntilReady()'. You can use these methods if you are doing actions that affect all frames in the page and you want to wait for these actions across all frames all at once

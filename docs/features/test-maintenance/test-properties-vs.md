@@ -4,9 +4,9 @@ page_title: Test Properties (VS Plugin)
 description: "Test Studio Test Properties in Visual Studio Plugin"
 position: 1
 ---
-# Test Properties (VS Plugin) #
+# Test Properties (VS Plugin) 
 
-## 2017 R2 Version or Later ##
+## 2017 R2 Version or Later 
 
 <a href="/features/test-maintenance/test-properties-standalone" target="_blank">Test properties</a> can be reviewed from a button in the test ribbon as shown on the following screenshot.
 
@@ -60,9 +60,9 @@ Here are the test properties with a brief description of each:
 
 > *Indicates field is read-only.
 
-## 2017 R1 Version and Earlier ##
+## 2017 R1 Version and Earlier 
 
-### Visual Studio 2012 ###
+### Visual Studio 2012 
 
 1. <a href="/getting-started/test-execution/visual-studio-2012-and-later-test-list" target="_blank">Create a **.vsmdi** file.</a>
 

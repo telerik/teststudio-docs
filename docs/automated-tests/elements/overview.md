@@ -5,7 +5,7 @@ description: "Elements Explorer in Test Studio. Elements in the Elements Explore
 previous_url: /user-guide/elements-pane-overview.aspx, /user-guide/elements-pane-overview
 position: 0
 ---
-# Elements Explorer #
+# Elements Explorer 
 
 The Elements Explorer in a Test Studio project is the visual representation of all elements recorded or manually added during the <a href="/general-information/test-recording/overview" target="_blank">Test Recording process</a>.
 
@@ -23,7 +23,7 @@ The Elements Explorer pane provides a one-stop shop to view all elements used in
 > <br>
 > Although elements may be used in several tests and test steps, each element with unique find expression is shown only once in the Elements Explorer.
 
-## Hierarchy of Recorded Elements ##
+## Hierarchy of Recorded Elements 
 
 The elements are organized under Page nodes (and also <a href="/general-information/test-recording/frames" target="_blank">Frame nodes</a> if there are frames used in the web page) for web applications and Application and Window Caption nodes for WPF applications.
 
@@ -50,9 +50,9 @@ Each element in the Elements Explorer is tied to a step from the project. The la
 - __If I select a step in the test, how do I know which element it uses?__ - when a step is selected in the test, its target element gets marked with a red arrow sign in front of its name. The target element is also listed in the <a href="/features/test-maintenance/test-step-properties#elements" target="_blank">step properties</a> under _Primary Target_ property.
 - __Can I change the element, which a step uses?__ - the element can be <a href="/features/test-maintenance/change-step-target-element" target="_blank">changed with another existing element by editing the _Primary Target_ step property</a>. Alternatively, you can <a href="/automated-tests/elements/find-element" target="_blank">change the find expression</a> of the element in Test Studio and that way change the element. which will be located on the page.
 
-## Element's Explorer Context Menu ##
+## Element's Explorer Context Menu 
 
-### Page Node Context Menu ###
+### Page Node Context Menu 
 
 Right click a Page node to see a context menu with these active choices:
 
@@ -63,7 +63,7 @@ Right click a Page node to see a context menu with these active choices:
 - **Load Page** - loads the URL to which the page belongs in the recording window.
 - **Properties** - makes the Properties pane active.
 
-### Element Context Menu ###
+### Element Context Menu 
 
 Each Element node has a context menu with these active choices:
 
@@ -80,7 +80,7 @@ Each Element node has a context menu with these active choices:
 - **Load Page** - loads the URL to which the element belongs in the recording window.
 - **Properties** - makes the Properties pane active.
 
-## Element's Explorer Menu Bar ##
+## Element's Explorer Menu Bar 
 
 The Elements menu bar ![Elements bar][3] has the following buttons:
 

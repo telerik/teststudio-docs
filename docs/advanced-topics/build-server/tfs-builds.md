@@ -64,7 +64,7 @@ As part of your project development and testing you may find the need to add a n
 </MetaDataFile>
 ```
 
-## Modifying the List of Individual Tests to Run ##
+## Modifying the List of Individual Tests to Run 
 
 As part of your project development and testing you may find the need to add a new test or change the name of an existing one. If this happens (and you want the change to be part of the automated build rather than adding or modifying the test list) you'll have to manually modify the TFSBuild.proj file for your project. Follow these steps:
 

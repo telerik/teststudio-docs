@@ -4,7 +4,7 @@ page_title: Verify The Text Content of an Element is Not Empty
 description: "Verify the text content of an element is not empty in Test Studio test run."
 position: 1
 ---
-# Verify Not Empty #
+# Verify Not Empty 
 
 *I would like to verify the text content of an element is not empty. In other words, that it contains one or more characters.*
 

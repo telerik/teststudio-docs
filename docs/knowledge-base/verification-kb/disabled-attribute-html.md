@@ -4,7 +4,7 @@ page_title: Disabled Attribute (HTML)
 description: How to verify an HTML element attribute is disabled. Many website developers will setup buttons or other elements within the site to be "disabled" until a certain action occurs. When using Test Studio to test this, it is sometimes necessary to create a special verification that confirms that the button (in this example) is visible but disabled (not clickable/usable)
 position: 1
 ---
-#How to Verify the Disabled Attribute (HTML)#
+#How to Verify the Disabled Attribute (HTML)
 
 Many website developers will setup buttons or other elements within the site to be "disabled" until a certain action occurs. When using Test Studio to test this, it is sometimes necessary to create a special verification that confirms that the button (in this example) is visible but disabled (not clickable/usable). You can similarly verify that the disabled attribute no longer exists, indicating the button is clickable/usable.
 
@@ -13,7 +13,7 @@ For example, when you have a disabled or not disabled element on a page that nee
 
 ![Element Mapping][1]
 
-##SOLUTION 1 (No Code)##
+##SOLUTION 1 (No Code)
 
 1.&nbsp; Start recording.
 
@@ -31,7 +31,7 @@ For example, when you have a disabled or not disabled element on a page that nee
 
 4.&nbsp; A new Verify rule will be created within the Test at the location you specified. You can right click this step to **Change Role** and **Set as Wait**, if desired. 
 
-##SOLUTION 2 (Using Code, also apples to Telerik Testing Framework)##
+##SOLUTION 2 (Using Code, also apples to Telerik Testing Framework)
 
 There are several ways to indicate a disabled element in HTML. This solution will work for each type of <a href="/troubleshooting-guide/browser-inconsistencies-tg/disabled-attribute" target="_blank">disabled</a>. First, access the element from a <a href="/features/custom-steps/script-step" target="_blank">Coded Step</a>.
 

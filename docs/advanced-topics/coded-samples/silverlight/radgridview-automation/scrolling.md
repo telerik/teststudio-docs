@@ -5,13 +5,13 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/radgridview/scrolling.aspx, /user-guide/code-samples/silverlight/radgridview/scrolling
 position: 1
 ---
-#RadGridView Scrolling#
+# RadGridView Scrolling
 
 > This issue can now be resolved <a href="/knowledge-base/silverlight-kb/codeless-scrolling-in-virtualized-panel" target="_blank">without code</a>.
 
 *I need to scroll down through the entire GridView verifying the data, because currently only the rows presented in the Visual Tree can be tested.*
 
-##Solution##
+## Solution
 
 This is a limitation of the Visual Tree contained in the Silverlight engine. Silverlight puts into the Visual Tree only the UI components necessary to render the page on the screen.
  

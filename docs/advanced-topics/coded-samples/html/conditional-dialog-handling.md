@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/conditional-dialog-handling.aspx, /user-guide/code-samples/html/conditional-dialog-handling
 position: 1
 ---
-#Conditionally Handling Dialog#
+# Conditionally Handling Dialog
 
 ***I would like to conditionally handle a dialog. If it appears, I'd like to handle it normally. If it doesn't, I'd like to continue with test execution.***
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The action that potentially triggers the dialog must be included in the code.
 

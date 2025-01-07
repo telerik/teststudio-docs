@@ -4,7 +4,7 @@ page_title: Element Validation
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 3
 ---
-#Validating Properties of Silverlight Elements#
+#Validating Properties of Silverlight Elements
 
 ```C#
 Assert.IsTrue(guidanceOverlays.Count == 15);

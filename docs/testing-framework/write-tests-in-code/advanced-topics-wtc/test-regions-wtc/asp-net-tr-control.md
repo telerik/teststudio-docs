@@ -4,7 +4,7 @@ page_title: Asp.NET TR Control
 description: "Using TestRegions in Test Studio Testing Framework tests. Example of using TestRegions in coded tests. "
 position: 2
 ---
-#Using Asp.Net TestRegion Control#
+#Using Asp.Net TestRegion Control
 
 TestRegions can be a powerful tool to build testability into your web applications and enable your test automation teams to build highly resilient test beds that have low maintenance costs compared to the traditional automation methods like the HTTP record/replay approaches. TestRegions are ideal to be used with dynamic web frameworks like ASP.NET since they can take out some of the complexity that comes with the auto generated html. Given that TestRegions are injected in the source code of web pages, we wanted to provide Visual Studio and ASP.NET developers a richer experience at design time. Telerik Testing Framework includes an ASP.NET TestRegion Custom Control that can be used just like any other asp: control to define TestRegion's into your code. This control allows you to:
 
@@ -20,7 +20,7 @@ Below is a segment of the HTML persisted that is shown in design view above.
 
 **Note:** The samples shown above are included in full in the code samples installed with Telerik Testing Framework.
 
-##Adding ASP.NET TestRegion Control to Your Toolbox##
+##Adding ASP.NET TestRegion Control to Your Toolbox
 
 To be able to use this control as shown above, you simply need to add it first to your ToolBox. Visual Studio should handle all tag registrations once you drag-n-drop the control on your pages. To add the control to your toolbox:
 

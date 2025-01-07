@@ -4,7 +4,7 @@ page_title: Verify Silverlight Tooltips
 description: Verify Silverlight Tooltips
 position: 1
 ---
-#How to Verify Tooltips in Silverlight#
+#How to Verify Tooltips in Silverlight
 
 Verifying Silverlight tooltips sometimes can be tricky. First we must understand that tooltips are attached to elements and Test Studio has the ability to verify what the tooltip is that is attached to a specific element. We don't try to get the tooltip element itself and verify the tooltip contents, because a tooltip is just a property of the Silverlight UI element for which the tooltip is intended to be displayed.
 

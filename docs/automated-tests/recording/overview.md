@@ -9,7 +9,7 @@ position: 0
 The __Compact Recording Toolbar__ in Test Studio is the key element in recording tests. Once attached to an application it detects how you act upon the app and represent your actions as automated steps in the test. It also gives access to a variety of useful features enabling you for an entirely codeless testing experience.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 This article guides you trough the __recording workflow for web and WPF tests__ and how you can get the most out of it.

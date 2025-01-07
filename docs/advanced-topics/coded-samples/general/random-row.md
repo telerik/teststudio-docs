@@ -5,11 +5,11 @@ description: "Data drive a Test Studio test with random row from the data source
 previous_url: /user-guide/code-samples/general/random-row.aspx, user-guide/code-samples/general/random-row.aspx, /user-guide/code-samples/general/random-row.aspx, user-guide/code-samples/general/random-row
 position: 1
 ---
-#Random Row from Excel Data Source#
+# Random Row from Excel Data Source
 
 *Is there a way to data drive a step in a test script so that each time the script is run, the test step will select a random row from the Excel data source?*
 
-##Solution##
+## Solution
 
 In code, generate a random number based on the number of rows. Then use the corresponding text from that row's cell in the applicable test step.
 
@@ -57,7 +57,7 @@ app = Nothing
 Pages.Bing.SbFormQText.Text = value
 ```
 
-##How to find and use Office PIA's without Visual Studio installed
+## How to find and use Office PIA's without Visual Studio installed
 
 1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 

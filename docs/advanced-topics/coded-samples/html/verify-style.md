@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/verify-style.aspx, /user-guide/code-samples/html/verify-style
 position: 1
 ---
-#Verify HTML Style#
+# Verify HTML Style
 
 *I would like to verify an HTML element's style and extract it for use later in the test.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. First, be aware that if you're simply verifying a style, that can be accomplished without code using an <a href="/features/verifications/advanced-verification" target="_blank">Advanced Verification</a>.
 

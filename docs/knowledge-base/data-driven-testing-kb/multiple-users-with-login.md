@@ -4,7 +4,7 @@ page_title: Multiple Users with Login
 description: How to configure a test to use the same data source row multiple times. 
 position: 1
 ---
-#Repeating Actions for Multiple Users with Login#
+#Repeating Actions for Multiple Users with Login
 
 After loading the input data using data binding (an Excel file), I want to get the specific row item in the data multiple times. Here is the business scenario:
 

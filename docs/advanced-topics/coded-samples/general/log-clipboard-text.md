@@ -4,11 +4,11 @@ page_title: Log Clipboard Text
 description: "Log copied text from the Clipboard and output it during test execution in Test Studio."
 position: 1
 ---
-#Log Clipboard Text#
+# Log Clipboard Text
 
 *My test copies text into the Clipboard and I would like to log its content.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution:
 

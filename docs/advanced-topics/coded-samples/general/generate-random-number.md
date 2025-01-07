@@ -5,11 +5,11 @@ description: "Generate Random Number in Test Studio coded test."
 previous_url: /user-guide/code-samples/general/random-number-input.aspx, /user-guide/code-samples/general/random-number-input
 position: 1
 ---
-#Generate Random Number#
+# Generate Random Number
 
 *I would like to generate a random number in Test Studio. This number will be used in an input control or for a similar purpose.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The .NET Framework provides the <a href="http://msdn.microsoft.com/en-us/library/system.random.aspx" target="_blank">System.Random</a> class which can be used to generate random numbers.
 

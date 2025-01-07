@@ -4,7 +4,7 @@ page_title: JSON Objects
 description: "Using JSON objects in a coded step in Test Studio. Coded test to handle JSON objects in Test Studio. Test Studio Testing Framework handle JSON objects in tests."
 position: 5
 ---
-#Handling JSON Objects#
+#Handling JSON Objects
 
 Your tests can understand JSON (<a href="http://www.json.org/" target="_blank" rel="nofollow">JavaScript Object Notation</a>) and can handle strongly typed objects returned from JavaScript. This might be a bit advanced for regular testers implementing test automation. However, if you are building mini-frameworks on top of Telerik Testing Framework, it is a great tool to help you get rid of having to parse complex strings returned by the InvokeScript function.
  

@@ -20,7 +20,7 @@ Running web tests in __headless browser mode uses a web browser to run the scrip
 > Find out further advantages of <a href="https://www.telerik.com/blogs/what-is-headless-browser-testing-when-and-why-use-it" target="_blank">headless testing in this Test Studio blog post</a>.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## How to Execute Test in Headless Browser Mode?

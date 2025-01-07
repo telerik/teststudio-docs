@@ -10,7 +10,7 @@ position: 1
 **Open** Git project in the terms of Test Studio is to be applied when one should open an existing remote repository containing a project for first time. This option will create a local copy of the remote project in the specified folder during establishing connection.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 Follow the steps to open a Test Studio project from remote Git repository.

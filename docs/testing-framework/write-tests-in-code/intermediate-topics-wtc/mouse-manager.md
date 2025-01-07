@@ -4,7 +4,7 @@ page_title: Mouse Manager
 description: "Test Studio Testing Framework support in coded tests for using direct mouse actions through the Mouse Manager class."
 position: 1
 ---
-#Mouse Manager Class#
+#Mouse Manager Class
 
 The Mouse manager class is used to simulate moving the physical mouse and performing various types of mouse clicks. It has the following properties:
 

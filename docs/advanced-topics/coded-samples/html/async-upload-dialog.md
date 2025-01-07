@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/handling-radasynchdialog.aspx, /user-guide/code-samples/html/handling-radasynchdialog
 position: 1
 ---
-#How to Handle the AsyncUpload Dialog#
+# How to Handle the AsyncUpload Dialog
 
 There are differences in how RadAsyncUpload is interpreted across different browsers. AsyncUpload is built over Silverlight in Internet Explorer, but rendered in HTML5 in the other browsers (Firefox, Safari, and Chrome). This greatly affects cross-browser UI Automation. You can work around the problem by using a coded step to handle the dialog:
 

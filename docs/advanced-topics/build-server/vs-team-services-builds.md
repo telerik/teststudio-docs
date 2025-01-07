@@ -5,7 +5,7 @@ description: "Integrate Test Studio tests in VS Team Services, Azure DevOps, onl
 position: 9
 publish: false
 ---
-# VS Team Services/ Azure DevOps Test Execution #
+# VS Team Services/ Azure DevOps Test Execution 
 
 **VS Team Services** supports integration with external command line utility where <a href="/features/test-runners/artoftest-runner" target="_blank">**ArtOfTest.Runner.exe**</a> could be plugged in to execute the <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests.
 

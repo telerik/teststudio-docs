@@ -5,12 +5,12 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/select-listbox-item-by-text.aspx, /user-guide/code-samples/silverlight/select-listbox-item-by-text
 position: 1
 ---
-#Select Listbox Item by Text in Silverlight#
+# Select Listbox Item by Text in Silverlight
 
 
 *I have a listbox contained in my Silverlight application. I want to be able to find and select an item contained in the listbox by its text, not by its index. I can't use select by index because the position of the item that needs to be selected may change at any time.*
 
-##Solution##
+## Solution
 
 This is a tricky one to solve. There are two subtle problems that need to be dealt with before accomplishing the end goal:
 
