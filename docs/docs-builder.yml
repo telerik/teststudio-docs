@@ -1,0 +1,473 @@
+top-navigation-product: test-studio
+path-prefix: /teststudio
+product-id: 846
+product-name: Progress Test Studio
+product-url: https://www.telerik.com/teststudio
+search-engine-id: 8ac1ab64606d234f1
+cta-overview: "@ProductLinkis a UI test automation platform that helps QA and Engineering teams build stable and easily maintainable automated tests. Sign up for a free 30-day trial!"
+cta-intro: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+default-title-prefix: Telerik Test Studio
+avatar-path: ./images/avatar-ninja.svg
+no-results-image-path: ./images/ninja-no-results.svg
+primary-color: "#27A306"
+
+product-code: TESTSTUDIO
+product-trial-url: https://www.telerik.com/try/test-studio-ultimate
+contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs
+enable-tabbed-code-blocks: true
+#pdf-cover-png-path: ./images/pdf-cover.png
+img-max-width: 100%
+table-layout: fixed
+
+
+meta:
+## Test Studio Documentation Main Nodes:
+    prerequisites:
+        title: "Installation and Setup"
+        position: 3
+    getting-started:
+        title: "Getting Started" 
+        position: 4
+    automated-tests:
+        title: "Automated Tests with Test Studio"
+        position: 5 
+    features:
+        title: "Features"
+        position: 6
+    advanced-topics:
+        title: "Advanced Topics"
+        position: 7
+    knowledge-base:
+        title: "Knowledge Base"
+        position: 8
+    troubleshooting-guide:
+        title: "Troubleshooting Guide"
+        position: 9
+    testing-framework:
+        title: "Testing Framework"
+        position: 10
+    security:
+        title: "Security"
+        position: 11
+    copyright:
+        title: "Product Documentation Copyright Notice"
+        position: 14
+    faq:
+        title: "FAQ"
+        position: 15
+    archived-docs:
+        title: "Archived Docs"
+        position: 16
+        hidden: true
+    license-server:
+        title: "License Server"
+        position: 17
+        hidden: true
+    api:
+        title: "API Reference"
+        position: 30
+
+# Installation and Setup
+    prerequisites/installation:
+        title: "Install Test Studio"
+        position: 1
+    prerequisites/license-activation:
+        title: "Activate Test Studio License"
+        position: 2
+    prerequisites/configure-your-browser:
+        title: "Configure Browsers for Test Automation"
+        position: 3
+
+# Getting Started
+    getting-started/first-project:
+        title: "Launch Test Studio"
+        position: 1
+    getting-started/first-test:
+        title: "Record Tests in Test Studio"
+        position: 2
+    getting-started/first-execution:
+        title: "Execute Your First Test"
+        position: 3
+    getting-started/analyze-the-results:
+        title: "Review the Results and Debug Test Failures"
+        position: 4
+    getting-started/next-steps:
+        title: "Next Steps"
+        position: 5
+    
+
+# Automated Tests with Test Studio
+    automated-tests/customize-project:
+        title: "Customize Your Project"
+        position: 1        
+# ... Customize Your Project
+    automated-tests/customize-project/built-in-help-tools:
+        title: "Help Tools in Test Studio"
+        position: 10
+
+    automated-tests/recording:
+        title: "Record Tests in Test Studio"
+        position: 2
+    automated-tests/test-execution:
+        title: "Execute Tests in Test Studio"
+        position: 3
+    automated-tests/test-results:
+        title: "Explore Test Results"
+        position: 4
+    automated-tests/troubleshooting:
+        title: "Troubleshoot a Failing Test"
+        position: 5
+    automated-tests/elements:
+        title: "Elements in Test Studio"
+        position: 6
+    automated-tests/data-drive-test:
+        title: "Data Driven Automated Tests"
+        position: 7
+    automated-tests/test-lists:
+        title: "Test Lists in Test Studio"
+        position: 8
+    automated-tests/test-list-results:
+        title: "Results from Test List Runs"
+        position: 9
+    automated-tests/scheduling:
+        title: "Schedule Tests in Test Studio"
+        position: 10        
+# ... Scheduling Test Runs
+    automated-tests/scheduling/multiple-machines-scheduling-setup:
+        title: "Remote Scheduled Execution (Multiple Machines Setup)"
+        position: 4
+    automated-tests/scheduling/advanced-topics:
+        title: "Scheduling Setup Advanced Topics"
+        position: 20
+
+    automated-tests/scheduling-results:
+        title: "Results from Scheduled Test Executions"
+        position: 11
+# ... Scheduling Test Runs
+    automated-tests/scheduling-results/dashboard:
+        title: "Executive Dashboard"
+        position: 5
+
+    automated-tests/headless:
+        title: "Headless Test Executions"
+        position: 12
+    automated-tests/responsive:
+        title: "Web Responsive Tests in Test Studio"
+        position: 13
+    automated-tests/desktop-testing:
+        title: "Desktop Tests in Test Studio"
+        position: 14
+    automated-tests/wpf:
+        title: "WPF Tests in Test Studio"
+        position: 15
+    automated-tests/load:
+        title: "Load Tests in Test Studio"
+        position: 16
+# ... Load Testing
+    automated-tests/load/designing-load-tests:
+        title: "Design Your Load Test"
+        position: 5
+    automated-tests/load/running-load-test:
+        title: "Execute Load Test"
+        position: 6
+    automated-tests/load/load-testing-results:
+        title: "Load Test Results"
+        position: 7
+    automated-tests/load/advanced-topics:
+        title: "Advanced Topics for Load Test"
+        position: 8
+
+    automated-tests/performance:
+        title: "Performance Tests in Test Studio"
+        position: 17
+    automated-tests/execute-apitest:
+        title: "Implement API test as Step"
+        position: 18
+    automated-tests/vs-plugin:
+        title: "Test Studio Plugin for Visual Studio"
+        position: 18
+    automated-tests/coded-tests:
+        title: "Coded Tests in Test Studio"
+        position: 19
+    automated-tests/source-control:
+        title: "Source Control Options in Test Studio"
+        position: 20
+# ... Source Control        
+    automated-tests/source-control/git:
+        title: "Git"
+        position: 2
+    automated-tests/source-control/tfs:
+        title: "TFS"
+        position: 3
+
+    automated-tests/continuous-integration:
+        title: "Test Studio Tests in CI Builds"
+        position: 21
+
+# Features
+    features/recorder:
+        title: "Recorder"
+        position: 1
+# ... Recorder section
+    features/recorder/highlighting-menu:
+        title: "Highlighting Menu Options"
+        position: 2
+    features/recorder/advanced-recording-tools:
+        title: "Advanced Recording Tools"
+        position: 3
+# ... Highlighting Menu Options section
+    features/recorder/highlighting-menu/quick-steps:
+        title: "Quick Steps"
+        position: 1
+# ... Advanced Recording Tools section
+    features/recorder/advanced-recording-tools/element-steps:
+        title: "Element Steps Tab"
+        position: 2
+# ... Element Steps Tab section
+    features/recorder/advanced-recording-tools/element-steps/actions:
+        title: "Advanced Actions"
+        position: 2
+    features/recorder/advanced-recording-tools/element-steps/verifications:
+        title: " Advanced Verifications"
+        position: 3
+
+    features/elements-explorer:
+        title: "Elements"
+        position: 2
+    features/test-lists:
+        title: "Test Lists"
+        position: 3
+    features/data-driven-testing:
+        title: "Data Driven Testing"
+        position: 4
+    features/custom-steps:
+        title: "Step Builder Pane"
+        position: 5
+# ... Step Builder section
+    features/custom-steps/all-tests-common:
+        title: "All Tests Common Steps"
+        position: 1
+    features/custom-steps/web-test-common:
+        title: "Web Test Specific Steps"
+        position: 2
+    features/custom-steps/wpf-common:
+        title: "WPF Test Specific Steps"
+        position: 3
+    features/custom-steps/desktop-common:
+        title: "Desktop Test Specific Steps"
+        position: 4
+
+    features/dialogs-and-popups:
+        title: "Handle Dialogs & Popups Steps"
+        position: 6
+    features/logical-steps:
+        title: "Logical/Conditional Steps"
+        position: 7
+    features/random-gens-steps:
+        title: "Random Generators Steps"
+        position: 8
+    features/test-maintenance:
+        title: "Test Maintenance"
+        position: 9
+    features/project-settings:
+        title: "Project Settings"
+        position: 10
+    features/project-explorer:
+        title: "Project Explorer"
+        position: 11
+    features/integration:
+        title: "Integration"
+        position: 12
+# ... Integration section
+    features/integration/bug-tracking:
+        title: "Bug Tracking"
+        position: 1
+    features/integration/quality-center:
+        title: "Quality Center"
+        position: 2
+
+    features/test-runners:
+        title: "Test Runners"
+        position: 13
+    features/testing-types:
+        title: "Testing Types"
+        position: 14
+# ... Testing Types section
+    features/testing-types/manual-testing:
+        title: "Manual Testing"
+        position: 1
+    features/testing-types/exploratory-testing:
+        title: "Exploratory Testing"
+        position: 2 
+
+    features/azure-dev-ops-mapper:
+        title: "Azure DevOps Mapper"
+        position: 15
+    
+# Advanced Topics
+    advanced-topics/build-server:
+        title: "Build Server"
+        position: 1
+    advanced-topics/coded-samples:
+        title: "Coded Samples"
+        position: 2
+  
+# ... Coded Samples section
+    advanced-topics/coded-samples/general:
+        title: "General"
+        position: 1
+    advanced-topics/coded-samples/html:
+        title: "HTML"
+        position: 2
+    advanced-topics/coded-samples/silverlight:
+        title: "Silverlight"
+        position: 3
+    advanced-topics/coded-samples/wpf:
+        title: "WPF"
+        position: 4
+
+# ... Silverlight section
+    advanced-topics/coded-samples/silverlight/combobox-automation:
+        title: "ComboBox Automation"
+        position: 10
+    advanced-topics/coded-samples/silverlight/radgridview-automation:
+        title: "RadGridView Automation"
+        position: 11
+
+# Knowledge Base section
+    knowledge-base/best-practices-kb:
+        title: "Best Practices"
+        position: 3
+    knowledge-base/browsers-kb:
+        title: "Browsers"
+        position: 4
+    knowledge-base/data-driven-testing-kb:
+        title: "Data Driven Testing"
+        position: 5
+    knowledge-base/dialogs-and-popups-kb:
+        title: "Dialogs and Popups"
+        position: 6
+    knowledge-base/load-testing-kb:
+        title: "Load Testing"
+        position: 7
+    knowledge-base/product-notices-kb:
+        title: "Product Notices"
+        position: 8
+    knowledge-base/project-configuration-kb:
+        title: "Project Configuration"
+        position: 9
+    knowledge-base/scheduling-kb:
+        title: "Scheduling"
+        position: 10
+    knowledge-base/test-automation-kb:
+        title: "Test Automation"
+        position: 11
+    knowledge-base/test-execution-kb:
+        title: "Test Execution"
+        position: 12
+    knowledge-base/test-recording-kb:
+        title: "Test Recording"
+        position: 13
+    knowledge-base/verification-kb:
+        title: "Verification"
+        position: 14
+    knowledge-base/visual-studio-kb:
+        title: "Visual Studio"
+        position: 15
+
+# Troubleshooting Guide section
+    troubleshooting-guide/browser-inconsistencies-tg:
+        title: "Browser Inconsistencies"
+        position: 1
+    troubleshooting-guide/cannot-launch-test-studio-tg:
+        title: "Cannot Launch Test Studio"
+        position: 2
+    troubleshooting-guide/installation-problems-tg:
+        title: "Installation Problems"
+        position: 3
+    troubleshooting-guide/load-testing-problems-tg:
+        title: "Load Testing Problems"
+        position: 4
+    troubleshooting-guide/network-related-problems-tg:
+        title: "Network Related Problems"
+        position: 5
+    troubleshooting-guide/recording-problems-tg:
+        title: "Recording Problems"
+        position: 6
+    troubleshooting-guide/scheduling-issues-tg:
+        title: "Scheduling Issues"
+        position: 7
+    troubleshooting-guide/source-control-problems-tg:
+        title: "Source Control Problems"
+        position: 8
+    troubleshooting-guide/test-execution-problems-tg:
+        title: "Test Execution Problems"
+        position: 9
+    troubleshooting-guide/visual-studio-tg:
+        title: "Visaul Studio"
+        position: 10
+
+# ... Test Execution Problems section
+    troubleshooting-guide/test-execution-problems-tg/chrome-tg:
+        title: "Chrome"
+        position: 1
+    troubleshooting-guide/test-execution-problems-tg/firefox-tg:
+        title: "Firefox"
+        position: 2
+    troubleshooting-guide/test-execution-problems-tg/safari-tg:
+        title: "Safari"
+        position: 3
+    troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg:
+        title: "Silverlight WPF"
+        position: 4
+
+# Testing Framework section
+    testing-framework/write-tests-in-code:
+        title: "Write Tests in Code"
+        position: 20
+
+# ... Write Tests in Code section
+    testing-framework/write-tests-in-code/intermediate-topics-wtc:
+        title: "Intermediate Topics"
+        position: 1
+    testing-framework/write-tests-in-code/advanced-topics-wtc:
+        title: "Advanced Topics"
+        position: 2
+    testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc:
+        title: "Silverlight/WPF Automation"
+        position: 3
+
+# ... Intermediate Topics section
+    testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc:
+        title: "Element Identification"
+        position: 20
+    testing-framework/write-tests-in-code/intermediate-topics-wtc/html-control-suite-wtc:
+        title: "HTML Control Suite"
+        position: 21
+    testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc:
+        title: "Settings & Configuration"
+        position: 22
+
+# ... Advanced Topics section
+    testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc:
+        title: "Javascript"
+        position: 20
+    testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc:
+        title: "Test Regions"
+        position: 21
+    testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc:
+        title: "WPF/HTML Dialogs and Popups"
+        position: 22
+
+        
+    api/*:
+        res_type: api
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/?$"
+    to: "/welcome"
