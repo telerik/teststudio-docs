@@ -4,7 +4,11 @@ page_title: Frequently Asked Questions
 description: "Test Studio Testing Framework FAQ."
 position: 1
 ---
+<<<<<<< HEAD
 # Frequently Asked Questions
+=======
+#Frequently Asked Questions
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 * **How much does Telerik Testing Framework cost?**
 	

@@ -4,7 +4,11 @@ page_title: Verify Deleted Data
 description: verify that an element does not exist within a Test Studio test
 position: 1
 ---
+<<<<<<< HEAD
 ## Verify Deleted Data
+=======
+#Verify Deleted Data
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 I would like to verify that an element does not exist, like after deleting a row from a data grid.
 

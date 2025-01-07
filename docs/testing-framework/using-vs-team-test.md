@@ -38,6 +38,7 @@ Public Sub DLog()
 End Sub
 ````
 
+<<<<<<< HEAD
 ## Visual Studio log
 
 ### VS 2012 / 2013
@@ -45,6 +46,15 @@ End Sub
 ![VS 2012/2013][1]
 
 ### VS 2010
+=======
+##Visual Studio log
+
+###VS 2012 / 2013
+
+![VS 2012/2013][1]
+
+###VS 2010
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 ![VS 2010][2]
 
@@ -52,7 +62,11 @@ End Sub
 
 * When installing Telerik Testing Framework, a new fully commented Visual Studio item template will be added to your list of available templates. This will enable you to start using Telerik Testing Framework by simply selecting it from the 'Add->New Item' tool menu (or context menu) available to your VS project. You are provided with both a C# and a VB.NET template.
 
+<<<<<<< HEAD
 ## Getting Started Using Visual Studio Team Test
+=======
+##Getting Started Using Visual Studio Team Test
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 In this section we will walk you through the steps to get you started using Telerik Framework inside a Visual Studio Team Test environment.
 
@@ -76,7 +90,11 @@ In this section we will walk you through the steps to get you started using Tele
 
 * Start writing your automated Telerik unit test just like any other Visual Studio unit test. You can view, manage, and execute your Telerik unit tests just like any other Visual Studio unit tests.
 
+<<<<<<< HEAD
 ## Telerik's Visual Studio Team Test Template
+=======
+##Telerik's Visual Studio Team Test Template
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The Telerik Framework template is very similar to Visual Studio's unit test template with the addition of Telerik's integration points to initialize and clean up Telerik's infrastructure. Telerik Visual Studio tests also inherit from a base test class called **BaseTest** that lives in the **ArtOfTest.WebAii.TestTemplate** namespace. The base class, in addition to providing the integration benefits described above, provides:
 

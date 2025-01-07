@@ -18,6 +18,10 @@ Generally, <a href="/features/data-driven-testing/bind-test-data-source" target=
 
 A <a href="/features/data-driven-testing/sql-database-example" target="_blank">SQL database</a>, however, behaves differently: any test configured to connect to a SQL database as a data source will retrieve up-to-date data from that database. So, any number of projects can data bind to the same SQL database and access the same data.
 
+<<<<<<< HEAD
 ## Importing Tests from Another Project
+=======
+##Importing Tests from Another Project
+>>>>>>> 0c79da84 (Fix headers, CTA banners and other)
 
 All Test Studio projects are file-based. To import tests from one project to another, you can copy the test files (.tstest) from those projects into the target project. Next, manually <a href="/troubleshooting-guide/test-execution-problems-tg/pages-not-defined" target="_blank">update the namespace</a> for any copied code-behind files. Test Studio will automatically detect this new test on restart or Project view refresh. 

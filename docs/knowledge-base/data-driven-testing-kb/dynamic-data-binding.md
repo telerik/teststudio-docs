@@ -37,7 +37,7 @@ Put your data into a SQL data base and <a href="/features/data-driven-testing/bi
 
 You can <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">Create Your Own Test Extension DLL</a> and implement the OnInitializeDataSource in which you can do pretty much anything in code. Place the DLL into the following directory:
 
-* **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
+*C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
 
  
 

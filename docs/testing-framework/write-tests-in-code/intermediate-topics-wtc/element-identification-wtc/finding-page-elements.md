@@ -6,6 +6,35 @@ previous_url: /user-guide/write-tests-in-code/intermediate-topics/element-identi
 position: 1
 ---
 
+<<<<<<< HEAD
+=======
+<style>
+table.docs {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border: 1px solid #dbdbdb;
+border-collapse: collapse;
+table-layout: fixed;
+width: 900px;
+
+}
+table.docs th {
+color:#fff;
+background-color:#ed8200;
+border: 1px solid #dbdbdb;
+padding: 8px;
+}
+table.docs tr {
+background-color:#ffffff;
+}
+table.docs td {
+border: 1px solid #dbdbdb;
+padding: 8px;
+}
+</style>
+
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 # Finding Page Elements 
 
 Telerik Testing Framework provides one of the richest markup identification infrastructures currently available on the market. It builds on top of commonly known element identification methods like 'getElementById', 'getElementByName' or 'XPath' and extends them to provide identification routines that cater more to application automation scenarios. In addition to maintaining a simple and easy to use set of APIs, Telerik Testing Framework introduces a consistent and extensible way to build identification and persist it using 'FindParam' objects.
@@ -14,7 +43,11 @@ All the Find.Byxxx methods now support LINQ queries.
 
 It is important to understand how Telerik's identification method works because that understanding will allow you to exploit the power of these identification methods to build robust automation quicker.
 
+<<<<<<< HEAD
 ## Element Identification Overview
+=======
+##Element Identification Overview
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The following identification methods are supported:
 
@@ -239,7 +272,11 @@ Assert.IsNotNull(btn);
 </tr>
 </table>
 
+<<<<<<< HEAD
 ## Identification Methods Usage
+=======
+##Identification Methods Usage
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Telerik Testing Framework identification methods are accessible using the **Find** object that is exposed as a property off of the 'Browser' object : *Manager.ActiveBrowser.Find.Byxx(...)* and also as a property off of each TestRegion object : *TestRegion.Find.Byxx(...)*.
 
@@ -247,7 +284,11 @@ The difference between the Find object off of the Browser class (Root Base Ident
 
 With TestRegions, depending on the areas of the application that each automated test is targeting, you can use different Find objects to give each test a greater level of independence and shield it from product changes outside its target area. This topic is discussed in greater details in <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/introduction" target="_blank">Introduction to TestRegions</a>.
 
+<<<<<<< HEAD
 ## Matching Syntax Used in Parameters
+=======
+##Matching Syntax Used in Parameters
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The Byxxx functions that take a nameValuePairs parameter recognizes the following matching syntax:
 
@@ -267,7 +308,11 @@ The Byxxx functions that take a content string parameter recognizes the followin
 
 * Prefix the string parameter with 'x:' for regular expression matching. e.g. 'x:[*foo*]' will match any content containing the string 'foo' in the middle of it. For more information about regular expressions see <a href="http://msdn.microsoft.com/en-us/library/2k3te2cs.aspx" target="_blank">this MSDN article</a>.
 
+<<<<<<< HEAD
 ## Identification Sample
+=======
+##Identification Sample
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 To help illustrate the above identification methods, let's use the following sample application. Note that this application uses TestRegions excessively to allow it to demonstrate the different identification methods that can be performed using both **RBI** and **RGBI**:
 

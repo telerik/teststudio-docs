@@ -5,7 +5,11 @@ description: "Invoke JavaScript in a coded step in Test Studio. Coded test to in
 previous_url: /user-guide/write-tests-in-code/advanced-topics/javascript/invoking-javascript.aspx, /user-guide/write-tests-in-code/advanced-topics/javascript/invoking-javascript
 position: 1
 ---
+<<<<<<< HEAD
 # Invoking Javascript
+=======
+#Invoking Javascript
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Telerik Testing Framework supports directly invoking JavaScript functions from your .NET test code. One key advantage to this support is that you can use it to do your JavaScript unit testing without having to integrate yet another unit testing framework into your development environment. You can also avoid having to learn/support this additional framework. Abilities include:
 
@@ -19,7 +23,11 @@ Telerik Testing Framework supports directly invoking JavaScript functions from y
 
 * Perform logging/tracing of your JavaScript routines. The logging is done directly into the unified log you are using.
 
+<<<<<<< HEAD
 ## Invoking JavaScript Functions
+=======
+##Invoking JavaScript Functions
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The Actions.InvokeScript() enables you to simply provide a JavaScript function name to invoke. For example:
 
@@ -65,7 +73,11 @@ Here is a code which calls an Angular function against input field:
 Actions.InvokeScript("angular.element(" + element.ClientSideLocator + ").val('" + text.Replace("'", "\\'") + "').triggerHandler('input')");
 ````
 
+<<<<<<< HEAD
 ## JavaScript Unit Testing Using NUnit or Visual Studio Team Test
+=======
+##JavaScript Unit Testing Using NUnit or Visual Studio Team Test
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Below is an example of how you can define JavaScript unit tests that is consistent with the rest of your tests and manages their execution and reporting using the same unit testing infrastructure, whether it is NUnit or Visual Studio Team Test.
 

@@ -4,7 +4,11 @@ page_title: Executing a Test from an Excel Event
 description: Executing a Test from an Excel Event. Execute Test Studio tests or test lists by triggering events in an Excel spreadsheet
 position: 1
 ---
+<<<<<<< HEAD
 ## Executing a Test from an Excel Event
+=======
+#Executing a Test from an Excel Event
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Some users may want to execute Test Studio tests or test lists by triggering events in an Excel spreadsheet. For example, your goal may be to create an Excel spreadsheet with a button whose click event is attached to a macro that runs your Test Studio tests.
 

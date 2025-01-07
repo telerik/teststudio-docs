@@ -6,7 +6,11 @@ position: 1
 ---
 
 
+<<<<<<< HEAD
 # LINQ Queries
+=======
+#LINQ Queries
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Some of the Find functions are intended to be used by LINQ queries only. These include:
 

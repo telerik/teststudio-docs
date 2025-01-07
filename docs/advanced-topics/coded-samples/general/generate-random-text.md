@@ -8,11 +8,15 @@ position: 1
 
 *I would like to generate random text in Test Studio. This text will be used in an input control or for a similar purpose.*
 
-> __Tip!__
-> <br>
-> Test Studio provides a <a href="/features/random-gens-steps/random-string" target="_blank">built-in step to generate random text</a> out-of-the-box. 
+## Solution
 
-## Solution 
+There are two possible approaches: with or without code.
+
+## Without code
+
+See our article on the <a href="/features/verifications/Extraction" target="_blank">Extraction</a> feature.
+
+## With code
 
 The .NET Framework provides the <a href="http://msdn.microsoft.com/en-us/library/system.random.aspx" target="_blank">System.Random</a> class which can be used to generate random text.
 

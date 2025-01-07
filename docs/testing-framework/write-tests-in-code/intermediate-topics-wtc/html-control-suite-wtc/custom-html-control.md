@@ -4,7 +4,11 @@ page_title: Custom HtmlControl
 description: "Test Studio Testing Framework Custom HtmlControl - design CustomControl class in coded test to interact with custom components on the tested application."
 position: 2
 ---
+<<<<<<< HEAD
 # Creating Your Own Custom HtmlControls
+=======
+#Creating Your Own Custom HtmlControls
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Let's suppose you're testing a web site that uses a third party or custom control. You can easily create your own custom HtmlControl class and then design tests that interact with the custom control via your custom HtmlControl class.
  

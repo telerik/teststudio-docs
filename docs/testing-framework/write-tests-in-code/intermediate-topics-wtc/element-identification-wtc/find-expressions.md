@@ -6,7 +6,11 @@ previous_url: /user-guide/write-tests-in-code/intermediate-topics/element-identi
 position: 1
 ---
 
+<<<<<<< HEAD
 # HTML and XAML Find Expressions
+=======
+#HTML and XAML Find Expressions
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 FindExpression's are the replacement/evolution of FindParam's. We will be using FindExpression's as the base for all element searches in the DOM, HWnd, or control trees (including Translator Locators). The key design goal for FindExpressions is to enable a flexible, rich and extensible search definition pattern that can be used across all of our Telerik technologies. This will enable our customers to carry over their product experience as they move across our product stacks making the learning curve for customers moving from one technology to another minimal.ma
  
@@ -34,11 +38,19 @@ FindExpression's are the following:
 
 6.&nbsp; Can't easily be leveraged for searches within other technologies.
 
+<<<<<<< HEAD
 ## Basic Concept
 
 The key to understanding FindExpression's is to understand its basic component: the FindClause. A FindClause is a name/value pair with an optional comparison operator. A FindExpression consists of 1-n FindClauses. For example:
 
 ### FindClauses Without Operators
+=======
+##Basic Concept
+
+The key to understanding FindExpression's is to understand its basic component: the FindClause. A FindClause is a name/value pair with an optional comparison operator. A FindExpression consists of 1-n FindClauses. For example:
+
+###FindClauses Without Operators
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 ````
 TagName=div
@@ -46,7 +58,11 @@ id=bar
 innermarkup=hellothere
 ````
 
+<<<<<<< HEAD
 ### FindClauses With Operators
+=======
+###FindClauses With Operators
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 ````
 name=~bar [name attribute partially contains bar]
@@ -57,7 +73,11 @@ automationid=^hat [the automation id of an element starts with hat]
 **Note:** The optional operator is ALWAYS the first character after the = in the expression. This special character can be escaped with a preceding ' character if it is meant to be interpreted as a literal character.
 
 
+<<<<<<< HEAD
 ### Supported Operators
+=======
+###Supported Operators
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 <table class="docs">
 <tr>
@@ -122,7 +142,11 @@ is interpreted by the HTML search tree as a specific search that requires XPATH 
 automationid=?sam
 ````
 
+<<<<<<< HEAD
 ## Constructing FindExpressions
+=======
+##Constructing FindExpressions
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Each technology (HTML, WPF, or Desktop) will define its own FindExpression that inherits from the base FindExpression object. All FindExpression's need only one constructor to define any type of search.
  
@@ -134,7 +158,11 @@ Find the HTML element with an id that ends with 'sam' and also has a class attri
 HtmlFindExpression expr = new HtmlFindExpression("id=bar","|","tagindex=td:0","|","tagname=img","src=~png");
 ````
 
+<<<<<<< HEAD
 ## Hierarchy Constraint
+=======
+##Hierarchy Constraint
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 You can also describe a certain hierarchal constraint to be applied against that FindExpression so that the decision on whether a specific element matches a specific translator or not is not solely based on the tag but also takes into consideration its hierarchical position. For example a tag that looks like ```HTML <div class='foo' />```might be part of a grid while at the same time other elements on the page could contain that tag. The only way to distinguish whether that tag is part of the grid is to inspect its parent or child hierarchy.
  
@@ -205,7 +233,11 @@ If we wish the constraint to match the first child of the parent's parent (i.e. 
  
 The path in that case is -2, 1 => Two parents up, one down at index 1. (Or -1, -1, 1, both are the same) and the second FindExpression will be "TagName=span" instead of "id=foo1".
 
+<<<<<<< HEAD
 ## HtmlFindExpression Types
+=======
+##HtmlFindExpression Types
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The following is a list of the types that can appear on the left side of the expression in HtmlFindExpressions:
 
@@ -229,7 +261,11 @@ The following is a list of the types that can appear on the left side of the exp
 
 * XPath - search for an element at the specified XPath expression.
 
+<<<<<<< HEAD
 ## XamlFindExpression Types
+=======
+##XamlFindExpression Types
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The following is a list of the types that can appear on the left side of the expression in XamlFindExpressions:
 

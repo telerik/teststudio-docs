@@ -17,7 +17,11 @@ Telerik Automation Infrastructure comes with the following features to facilitat
 
 * When installing Telerik Testing Framework, a new fully commented xUnit.net item template will be added to your list of available templates. This will enable you to start using Telerik by simply selecting it from the Add->New Item tool menu (or context menu) available to your VS project. You are provided with both a C# and a VB.NET template.
 
+<<<<<<< HEAD
 ## Getting Started Using xUnit.net
+=======
+##Getting Started Using xUnit.net
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 In this section we will walk you through the steps to get you started using Telerik Testing Framework with xUnit.net.
 
@@ -41,7 +45,11 @@ In this section we will walk you through the steps to get you started using Tele
 
 * Start writing your automated Telerik Testing Framework unit tests.
 
+<<<<<<< HEAD
 ## Telerik's xUnit Template
+=======
+##Telerik's xUnit Template
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Telerik xUnit.net tests inherit from a base test class called **BaseTest** that lives in the **ArtOfTest.WebAii.TestTemplate** namespace. The base class, in addition to providing the integration benefits described above, provides:
 
@@ -121,7 +129,11 @@ Initialize(mySettings)
 
 For more information on Telerik Testing Framework's settings & configuration please refer to the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc/settings-class" target="_blank">Settings and Configuration</a> topic.
 
+<<<<<<< HEAD
 ## Starting Automation
+=======
+##Starting Automation
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 
 ````C#

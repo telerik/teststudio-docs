@@ -5,7 +5,11 @@ description: "Test Studio Testing Framework support in coded tests for sending d
 position: 1
 ---
 
+<<<<<<< HEAD
 # The KeyBoard Manager Class
+=======
+#The KeyBoard Manager Class
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The KeyBoard manager class is used to simulate typing keys on the keyboard. It has the following methods:
 

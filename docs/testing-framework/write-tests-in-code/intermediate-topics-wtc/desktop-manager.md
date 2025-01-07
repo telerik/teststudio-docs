@@ -5,7 +5,11 @@ description: "Test Studio Testing Framework support in coded tests for interacti
 position: 1
 ---
 
+<<<<<<< HEAD
 # The Desktop Manager Class
+=======
+#The Desktop Manager Class
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The Desktop manager class is used to control interaction between the Windows desktop and the browser. It also contains instances of the Keyboard and Mouse managers. It has the following properties:
 

@@ -5,7 +5,11 @@ description: "Test Studio Testing Framework support in coded test for automating
 previous_url: /user-guide/getting-started/automating-browser-actions.aspx, /user-guide/getting-started/automating-browser-actions
 position: 1
 ---
+<<<<<<< HEAD
 # Automate Browser Actions (DOM & UI)
+=======
+#Automate Browser Actions (DOM & UI)
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Telerik Testing Framework supports three types of automation actions:
 
@@ -201,7 +205,11 @@ Manager.Desktop.Mouse.Click(MouseClickType.LeftClick, input1.GetRectangle())
 Manager.Desktop.KeyBoard.TypeText("Hello there", 100)
 ````
 
+<<<<<<< HEAD
 ## Advanced Scenarios
+=======
+##Advanced Scenarios
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The 'Mouse' object offers a rich set of APIs to perform some complex UI automation including operations like DragAndDrop that is extremely difficult to perform using direct DOM automation. Such types of operations are becoming more popular with the rich content applications that are emerging on the internet. For example, you can use this DragAndDrop support to automate portals that include web part regions that can be dragged and repositioned like Microsoft's SharePoint server or Google's customized homepage.
  

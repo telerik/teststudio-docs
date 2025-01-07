@@ -4,7 +4,11 @@ page_title: Think Times
 description: Think times in Test Studioo Load test represents the time it takes a user to process the information received from the application and decide what to do next. It also represents other delays, like the amount of time spent filling in a form before submitting the content. Advantages if choosing the right Think Times in Test Studio load test. 
 position: 1
 ---
+<<<<<<< HEAD
 ## Think Times
+=======
+#Think Times
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 In Test Studio Load Tests, <a href="/features/testing-types/load-testing/think-times" target="_blank">Think Time</a> represents the time it takes a user to process the information received from the application and decide what to do next. It also represents other delays, like the amount of time spent filling in a form before submitting the content.
 
@@ -31,7 +35,11 @@ Because every user is different, accurate load tests need a range of Think Time 
 A usual deviation will be anywhere from 10 to 120 seconds, depending on the specific user scenario. A good approach to determine what this range should be for any specific webpage is to study the logs of your website and determine what is the median amount of time users spend on the page and the ranges of variations from this median.
 
 
+<<<<<<< HEAD
 ## See Also
+=======
+##See Also
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 * <a href="/features/testing-types/load-testing/think-times" target="_blank">Think Times How-To article</a>
 

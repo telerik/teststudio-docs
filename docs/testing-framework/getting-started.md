@@ -31,12 +31,20 @@ padding: 8px;
 
 </style>
 
+<<<<<<< HEAD
 # Getting Started with Telerik Testing Framework
+=======
+#Getting Started with Telerik Testing Framework
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Thanks for using Telerik Testing Automation infrastructure. To get started using this framework, please follow the instructions below. If you have further questions, feel free to <a href="http://www.telerik.com/account/support-tickets/available-support-list.aspx" target="_blank">contact us</a>.
 
 
+<<<<<<< HEAD
 ## Installing and Setting Up the Infrastructure
+=======
+##Installing and Setting Up the Infrastructure
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 To get started, first download the <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Telerik Testing Framework</a> installer package and run the installation. Once it is complete, you will have all of the following placed in the Telerik Testing Framework %InstallDir% folder:
 
@@ -62,7 +70,11 @@ To get started, first download the <a href="https://www.telerik.com/teststudio/t
 
 > Both the Telerik Testing Framework library and the Internet Explorer client are installed and ready to use once the installation is complete. The templates are also installed into your local templates for the current user. You also have a copy of these templates under %InstallDir%\Visual Studio Templates\.
 
+<<<<<<< HEAD
 ## Starting Automation Using Telerik Testing Framework
+=======
+##Starting Automation Using Telerik Testing Framework
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 * If you are using Visual Studio Team Test, please reference the <a href="/testing-framework/using-vs-team-test" target="_blank">Studio Team Test</a> Using Visual  topic.
 
@@ -84,7 +96,11 @@ Once <a href="https://www.telerik.com/teststudio/testing-framework" target="_bla
 
 5. Click OK to finish adding the needed references.
 
+<<<<<<< HEAD
 ## Quick Start Sample Code
+=======
+##Quick Start Sample Code
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Before calling into any of the Telerik library methods, you need to make sure that you have properly initialized an instance of the **Manager** object passing in the settings you want used for this instance. To initialize the project:
 

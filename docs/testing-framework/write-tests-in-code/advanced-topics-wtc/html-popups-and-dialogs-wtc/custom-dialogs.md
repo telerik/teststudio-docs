@@ -4,7 +4,11 @@ page_title: Handle Custom Dialogs
 description: "Test Studio Testing Framework Custom Dialog handling. Handle a dialog in custom manner in a coded step in Test Studio. Coded test to handle dialogs in Test Studio using custom logic."
 position: 10
 ---
+<<<<<<< HEAD
 # Custom Dialog Handler
+=======
+#Custom Dialog Handler
+>>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 If for whatever reason you decide that you don't like the way the dialog is being handled or want to perform extra tasks before handling the dialog, you can simply craft your own dialog handling code and then ask the dialog to call your code instead of its dialog handling code. Here is an example:
 
