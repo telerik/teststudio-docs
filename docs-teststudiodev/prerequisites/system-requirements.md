@@ -18,9 +18,6 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
 
-## User Account Control (UAC)
-
-* User Account Control Settings set to 'Never Notify'.
 
 ## Recommended Browsers
 
@@ -28,10 +25,15 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 * Edge Chromium latest version
 * Firefox latest version
 
+## Supported WPF and Desktop Applications 
+
+* __WPF__ for .NET Framework 4.5+, .NET Core 3.1, .NET 5, .NET 6, .NET 7, .NET 8, .NET 9
+* All Windows __desktop applications__ supporting the Microsoft UI Automation framework, including applications containing custom controls that provide the required automation peers.
+
 ## Visual Studio Requirements
 
-* **Test Studio Dev** can be installed on Visual Studio 2019 and Visual Studio 2022.
-    * You must run Visual Studio as Administrator.
+* **Test Studio Dev** is compatible with Visual Studio 2019 and Visual Studio 2022.
+
     * Visual Studio projects target a version between .NET Framework 4.7.2 to .NET Framework 4.8.
     * Visual Studio 2022 requires minimum <a href="/advanced-topics/installation/vs-2022-compatibility" target="_blank">workload components selection</a>.
 

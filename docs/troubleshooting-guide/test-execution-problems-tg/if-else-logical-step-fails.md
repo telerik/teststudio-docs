@@ -6,11 +6,11 @@ position: 1
 ---
 # If... Else Logical Step Fails
 
-## PROBLEM
+## Problem
 
 I added an **If...Else** logical step to my test. When the verification attached to the IF portion is true, that branch correctly executes. However, when that verification is false, the ELSE branch does not execute and the test fails.
 
-## SOLUTION
+## Solution 1
 
 The issue is likely with the verification attached to the IF portion. Let's say it verifies the element is visible. When the element does not exist and cannot be found, the verification cannot be performed, the ELSE portion is not executed, and the entire test fails.
  
@@ -18,7 +18,12 @@ The fix is to record a new verification on the element and attach it to the IF. 
 
 ![Test Steps][1]
 
-**See Also**
+## Solution 2 
+
+If the if..else conditional steps continue executing incorrectly, see [here](/knowledge-base/test-execution-kb/if-else-step-failure-test-studio) other possible solution to address the misbehavior. 
+
+
+## See Also
 
 - <a href="/features/logical-steps/if-else" target="_blank">If else</a>
 

@@ -35,8 +35,8 @@ Settings.aiis
 persistOnEachStep
 WebDriver
 usings
-
-
+ProgramData
+msi
 
 
 
