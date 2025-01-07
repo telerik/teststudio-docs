@@ -359,17 +359,17 @@ End Function
 
  - Press Cancel to use the original data source.
 
-##Remote Execution Behavior##
+## Remote Execution Behavior
 
 It was mentioned above in terms of the scope for variables, that some methods are executed only on the machine, where the scheduling server for the current remote setup is located. It is important to know how will the execution extension behave in case of different execution scenarios. For all of the listed configurations the built custom dll file needs to be copied in the **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\** folder on each remote machine.
 
-###Scheduling Server Setup###
+### Scheduling Server Setup
 
 This feature allows only one machine to have a running <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">scheduling server</a> and multiple machines to be connected to it and serve as <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution clients</a>. In this case **the complete set of execution extension methods will be executed on the scheduling server machine** only.
 
 All execution machines will **not execute *OnBeforeTestListStarted()* and _OnAfterTestListCompleted()_** and will only recognize the *OnBeforeTestStarted()* and *OnAfterTestCompleted()*.
 
-###CI Setup###
+### CI Setup
 
 In the context of <a href="/advanced-topics/build-server/continious-integration-overview" target="_blank">Continuous Integration</a> setup - running test lists using the <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> with **the *list* option, will execute all methods** in the extension.
 

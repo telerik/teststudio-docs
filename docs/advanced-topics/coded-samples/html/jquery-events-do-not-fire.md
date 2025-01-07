@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/jquery-events-do-not-fire.aspx, /user-guide/code-samples/html/jquery-events-do-not-fire
 position: 1
 ---
-#jQuery Events Do Not Fire During Test Execution#
+# jQuery Events Do Not Fire During Test Execution
 
 **Note:** As of 2012 R1 SP1, use the TriggerjQueryEvent <a href="/features/test-maintenance/test-step-properties" target="_blank">Test Step Property</a> to trigger jQuery events for HTML drop-down menus. Minimum supported jQuery version is 1.4.
 

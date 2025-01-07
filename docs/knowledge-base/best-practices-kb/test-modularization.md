@@ -4,21 +4,21 @@ page_title: Test Modularization
 description: Best practices how to organize a Test Studio project to ease its maintenance in the future. Reusing tests across the project, using coded steps and custom code, data driven testing, data binding verification and input steps, dynamic data binding using extracted values in runtime. logical steps - if else, loop.
 position: 1
 ---
-#Test Modularization#
+#Test Modularization
 
 *How can I create common global functions for all my tests? Does Test Studio support global project variables or a built-in data store that can be used for all tests? Is there an ability to collaborate between tests, pass arguments to them, and run a set of tests without using test lists?*
 
-##Solution##
+##Solution
 
 The term "*Test Modularization*" is often used to describe common approaches how to configure your project to ease its maintenance and perception. Test Studio offers lots of features to obtain great project visibility and implementing their usage is  very much encouraged. There are two main approaches to accomplish good modularization: **Test as Step** and **Using Code**.
 
-###Test as Step###
+###Test as Step
 
 <a href="/features/custom-steps/test-as-step" target="_blank">Test as Step</a> is the method most commonly used.  The idea is to divide your script into sub-tests that could be called by a parent test. A good example for such sub-tests are "Login" and "Logout". Basically you could insert any repeating actions into a sub-test and call it whenever required. We do not limit how deep you can go with sub-tests, although it becomes unmanageable and we do not recommend to go too deep. 
  
 In the <a href="/features/project-explorer/overview" target="_blank">project explorer</a> you could create sub-folders within the test project folder to better organize and group the main tests and sub-tests together. Right click the project node and select **Create Folder** to add a new one. 
 
-###Using Code###
+###Using Code
 
 In this approach you use the <a href="/features/custom-steps/script-step" target="_blank">Script Step</a> feature to call your own coded functions. These coded functions can exist in any of the below places:
 
@@ -30,7 +30,7 @@ In this approach you use the <a href="/features/custom-steps/script-step" target
 
 4. Within a <a href="/features/coded-steps/standalone-code-file" target="_blank">standalone code file</a> which will be globally accessible in the terms of the current project. 
 
-###Other useful features###
+###Other useful features
 
 The closest built-in feature we have for globally accessible data is <a href="/features/data-driven-testing/Overview" target="_blank">Data Driven Testing</a>. Setting the sub-test to <a href="/features/data-driven-testing/multi-level-tests" target="_blank">Inherit the Data</a> from the parent test will allow you to have global project data. This parameterizes the sub-test by binding the parent test to a different set of data. In general you could data bind each test with separate data sources - it depends on your particular scenario. For your convenience there are different <a href="/features/data-driven-testing/add-data-source" target="_blank">internal and external sources</a> supported. 
  

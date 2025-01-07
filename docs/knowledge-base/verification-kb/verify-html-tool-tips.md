@@ -4,7 +4,7 @@ page_title: Verify HTML Tooltips
 description: Verify HTML Tooltips in Test Studio web test. Check the tooltip text in a Test Studio test. 
 position: 1
 ---
-#Verify HTML Tool-Tips#
+#Verify HTML Tool-Tips
 
 There's more than one way to implement Tool-tips in HTML. They are usually implemented using the Title attribute that gets applied to elements. Consider this HTML code snippet:
 
@@ -14,7 +14,7 @@ There's more than one way to implement Tool-tips in HTML. They are usually imple
 
 When you hover your mouse over the word Telerik, the tooltip will be displayed as shown in this screenshot:
 
-##SOLUTION 1 (No Code)##
+##SOLUTION 1 (No Code)
 
 ![Tool tip][1]
 
@@ -30,7 +30,7 @@ When you hover your mouse over the word Telerik, the tooltip will be displayed a
 
 5.&nbsp; Click **Add Step**. 
 
-##SOLUTION 2 (Using Code, also apples to Telerik Testing Framework)##
+##SOLUTION 2 (Using Code, also apples to Telerik Testing Framework)
 
 1.&nbsp; Create a <a href="/features/custom-steps/script-step" target="_blank">coded step</a>.
 

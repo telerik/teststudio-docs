@@ -4,7 +4,7 @@ page_title: Drag & Drop
 description: "Test Studio Testing Framework Drag&Drop  actions in coded tests. Use the DragTo() methods to define the desired action to drag an element and drop it on specific point."
 position: 2
 ---
-#How to Drag and Drop#
+#How to Drag and Drop
 
 The HTML element wrapper classes make mouse drag & drop operations significantly easier. There are 7 different drag methods defined:
 

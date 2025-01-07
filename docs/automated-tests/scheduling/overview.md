@@ -142,5 +142,4 @@ When these prerequisites are complete - including the case when all these compon
 
 * <a href="https://www.telerik.com/blogs/architecture-remote-execution-test-studio" target="_blank">The Architecture of Remote Execution With Test Studio</a>
 
-[10]: /img/features/scheduling-test-runs/overview/fig1.png
 [1]: /img/automated-tests/scheduling/overview/scheduling-setup-revamp.png

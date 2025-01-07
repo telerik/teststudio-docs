@@ -5,13 +5,13 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/radgridview/find-element-scrolling-and-paging.aspx, /user-guide/code-samples/silverlight/radgridview/find-element-scrolling-and-paging
 position: 1
 ---
-#RadGridView Scrolling & Paging #
+# RadGridView Scrolling & Paging 
 
 I have a lot of data contained in a RadGridView with scrolling and paging. I need to find a specific element in the Grid. To find it, I need to scroll down through the entire GridView and go through every page verifying the data.
 
 ![Paging][1]
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. To accomplish the main goal, we need to combine the solutions of the two sub-problems (Scrolling and Paging) seen here and here. We need to take the following steps to implement the solution:
 

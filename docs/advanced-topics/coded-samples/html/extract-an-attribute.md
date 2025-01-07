@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/extract-an-attribute.aspx, /user-guide/code-samples/html/extract-an-attribute
 position: 1
 ---
-#Extract an Individual HTML Attribute#
+# Extract an Individual HTML Attribute
 
 *I would like to extract an individual HTML attribute and use it later in the test.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. First, be aware that if you're simply verifying the value for a specific attribute, that can be accomplished without code using an <a href="/features/verifications/advanced-verification" target="_blank">Advanced Verification</a>.
 

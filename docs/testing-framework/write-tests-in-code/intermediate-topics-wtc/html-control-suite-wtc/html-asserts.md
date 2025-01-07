@@ -4,7 +4,7 @@ page_title: HTML Asserts
 description: "Test Studio Testing Framework validate an HTML element identified in the DOM in coded tests. HTML asserts to perform on an element in coded tests."
 position: 2
 ---
-#HTML Asserts#
+#HTML Asserts
 
 Telerik Testing Framework has a set of Assert classes to make validation of your HTML controls easier. An 'Assert' basically says "Verify the specified property of the control has the specified value or setting. If it doesn't have that setting/value, then throw an error and stop the test." 
 

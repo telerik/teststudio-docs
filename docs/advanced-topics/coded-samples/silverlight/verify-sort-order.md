@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/verify-sort-order.aspx, /user-guide/code-samples/silverlight/verify-sort-order
 position: 1
 ---
-#Verify Sort Order in a Silverlight DataGrid#
+# Verify Sort Order in a Silverlight DataGrid
 
 I would like to sort a column in a Silverlight DataGrid and verify the content is in the correct order.
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The example below is against <a href="http://silverlight.codeplex.com/downloads/get/119862" target="_blank">a Silverlight toolkit sample</a>.
  

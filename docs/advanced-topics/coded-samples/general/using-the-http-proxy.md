@@ -5,7 +5,7 @@ description: "Use the HTTP Proxy in Test Studio coded tests."
 previous_url: /user-guide/code-samples/general/using_the_http_proxy.aspx, /user-guide/code-samples/general/using_the_http_proxy
 position: 1
 ---
-#Using the HTTP Proxy in Test Studio#
+# Using the HTTP Proxy in Test Studio
 
 The Telerik Testing *Framework ArtOfTest.WebAii.Messaging.Http* namespace contains classes to intercept HTTP requests and responses. However, using these classes in a Test Studio coded step and executing against browsers other than Internet Explorer, the HTTP proxy may not become enabled. To use this code in a Test Studio test, <a href="/features/project-settings/General" target="_blank">enable the HTTP proxy</a> in the Test Studio Project Settings.
 

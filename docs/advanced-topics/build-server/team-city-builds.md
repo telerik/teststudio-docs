@@ -15,7 +15,7 @@ The below steps will guide you through the necessary TeamCity project adjustment
 There are no specifics in installation of the TeamCity server. To be able to execute automated tests that include Windows and Browser interactions it is necessary to run build agent from command line.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## Run the Build Agent

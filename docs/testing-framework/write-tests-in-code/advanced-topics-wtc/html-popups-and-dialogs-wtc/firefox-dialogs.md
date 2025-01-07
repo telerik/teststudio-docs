@@ -5,7 +5,7 @@ description: "Test Studio Testing Framework FF dialogs - obsolete"
 position: 1
 publish: false
 ---
-#How to Handle Firefox Dialogs#
+#How to Handle Firefox Dialogs
 
 Firefox dialogs require special attention because some of them are not standard Win32 dialogs, for example Firefox's download manager dialog. As a result the usual method for handing dialogs does not work with Firefox dialogs. Here is what the download manager dialog looks like:
 

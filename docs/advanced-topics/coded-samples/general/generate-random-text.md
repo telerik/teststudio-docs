@@ -5,19 +5,19 @@ description: "Generate Random Text in Test Studio coded test. Progress Telerik T
 previous_url: /user-guide/code-samples/general/generate-random-text.aspx, /user-guide/code-samples/general/generate-random-text
 position: 1
 ---
-#Generate Random Text#
+# Generate Random Text
 
 I would like to generate random text in Test Studio. This text will be used in an input control or for a similar purpose.
 
-##Solution##
+## Solution
 
 There are two possible approaches: with or without code.
 
-##Without code##
+## Without code
 
 See our article on the <a href="/features/verifications/Extraction" target="_blank">Extraction</a> feature.
 
-##With code##
+## With code
 
 The .NET Framework provides the <a href="http://msdn.microsoft.com/en-us/library/system.random.aspx" target="_blank">System.Random</a> class which can be used to generate random text.
 

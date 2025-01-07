@@ -4,11 +4,11 @@ page_title: Pass a Variable
 description: An example how to reuse a dynamically extracted variable (during runtime) in different tests.
 position: 1
 ---
-#Pass a Variable Between Tests#
+#Pass a Variable Between Tests
 
 I would like to capture data in one test and pass it to another. Is it possible to set a variable in one test and have it accessible by another test in the project?
 
-##Solution##
+##Solution
 
 This is possible using the <a href="/features/recorder/verifications/Extraction" target="_blank">Extraction</a> and <a href="/features/custom-steps/test-as-step" target="_blank">Test as Step</a> features.
 

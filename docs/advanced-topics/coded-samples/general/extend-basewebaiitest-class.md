@@ -4,7 +4,7 @@ page_title: Extend BaseWebAiiTest Class
 description: "How to Extend BaseWebAiiTest Class Functionality in Test Studio coded projects."
 position: 1
 ---
-# How to Extend BaseWebAiiTest Class Functionality #
+# How to Extend BaseWebAiiTest Class Functionality 
 
 A possible scenario is to use same functionality in most of the tests in the project. It is possible to implement a method which will be available in each code behind test files in the project. The approach to this problem is to extend the <a href="https://docs.telerik.com/teststudioapi/html/T_ArtOfTest_WebAii_Design_BaseWebAiiTest.htm" target="_blank">BaseWebAiiTest</a> class and all test files to inherit from the new extended class.
 

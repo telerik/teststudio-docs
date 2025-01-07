@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/ajax-calendar-random-date-selection.aspx, /user-guide/code-samples/html/ajax-calendar-random-date-selection
 position: 1
 ---
-#AJAX Calendar - Random Date Selection#
+# AJAX Calendar - Random Date Selection
 
 *I would like to select a random date from an Ajax Calendar.*
 
-##Solution##
+## Solution
 
 The code below will show you how to select a random date from the Calendar on <a href="http://www.weekendesk.fr/week-end/4398/week-end-a-Courseulles-sur-Mer-Normandie-Week-ends_gourmands" target="_blank">this site</a>.
 

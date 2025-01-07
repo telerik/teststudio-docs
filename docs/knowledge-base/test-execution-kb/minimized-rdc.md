@@ -4,11 +4,11 @@ page_title: Minimized RDC
 description: Scheduled tests cannot be run on minimized RDC. To run tests on a remote machine while the RDC window is minimized, add registry keys on the computer from which you connect to the remote machine
 position: 1
 ---
-#Minimized Remote Desktop Connection#
+#Minimized Remote Desktop Connection
 
 *I am executing tests on a remote machine using Remote Desktop Connection/Protocol. It works correctly as long as the RDC window is active and/or maximized. However the tests fail when the RDC window is minimized.*
 
-##Solution##
+##Solution
 
 This is a common issue with all UI automation tools. To run tests on a remote machine while the RDC window is minimized, add registry keys on the computer from which you connect to the remote machine:
 

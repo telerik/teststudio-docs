@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/table-search-and-paging.aspx, /user-guide/code-samples/html/table-search-and-paging
 position: 1
 ---
-#HTML Table Searching and Paging#
+# HTML Table Searching and Paging
 
 *I would like to search an HTML table for specific content and continue through the pages until it is found.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/grid/index" target="_blank">Telerik demo site</a>.
 

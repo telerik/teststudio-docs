@@ -5,12 +5,12 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/radgridview/verify-data-in-specific-column.aspx, /user-guide/code-samples/silverlight/radgridview/verify-data-in-specific-column
 position: 1
 ---
-#RadGridView Verify Data in a Specific Column#
+# RadGridView Verify Data in a Specific Column
 
 *I need to find the correct column of a GridView based on something other than index, such as text content or a data driven variable.*
 
 
-##Solution##
+## Solution
 
 Here is how to accomplish this on a <a href="http://demos.telerik.com/silverlight/#GridView/Totals" target="_blank">Telerik demo site</a>.. First you need to retrieve all the Header Row Cells from the Grid and iterate through each one looking for a specific string. Each time it isn't found, the integer idx is increased by one. Once a match is made, idx will equal the index of the target column. Then you can use that integer to identify the column later:
 

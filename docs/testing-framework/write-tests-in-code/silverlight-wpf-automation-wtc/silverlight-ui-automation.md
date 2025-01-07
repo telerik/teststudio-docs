@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/silverlight-test-automation/introduction.aspx, /user-guide/write-tests-in-code/silverlight-test-automation/introduction
 position: 1
 ---
-#Getting Started with Silverlight UI Automation#
+#Getting Started with Silverlight UI Automation
 
 When thinking about Silverlight applications and automated testing, there are a couple of different approaches that come to mind:
  

@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/verify-sort-order.aspx, /user-guide/code-samples/html/verify-sort-order
 position: 1
 ---
-#Verify Sort Order in an HTML Table#
+# Verify Sort Order in an HTML Table
 
 *I would like to sort a column in an HTML Table and verify the content is in the correct order.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/grid/index" target="_blank">Telerik demo site</a>.
  

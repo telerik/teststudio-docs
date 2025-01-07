@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 position: 2
 publish: false
 ---
-#How to Transfer Files#
+#How to Transfer Files
 
 We can even perform complete file uploads and downloads with Telerik Testing Framework automatically handling all of the popup dialogs that appear as part of the file upload/download:
 

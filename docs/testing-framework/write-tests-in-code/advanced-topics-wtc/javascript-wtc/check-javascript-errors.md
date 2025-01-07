@@ -4,7 +4,7 @@ page_title: Check JavaScript Errors
 description: "Check JS Errors in a coded step in Test Studio. Coded test to Check JS Errors in Test Studio. Test Studio Testing Framework Check for JS Errors."
 position: 4
 ---
-# Check for JavaScript Errors #
+# Check for JavaScript Errors 
 
 Telerik Testing Framework allows you to verify if there are any JavaScript errors on the currently loaded page. The below example demonstrates how to collect the errors in a list and a possible approach how to use these. The sample code will fail the test if there are errors on the page.
 

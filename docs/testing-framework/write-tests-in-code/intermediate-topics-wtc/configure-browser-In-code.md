@@ -4,7 +4,7 @@ page_title: Configure Browser In Code
 description: "Test Studio Testing Framework supports browser calibration in coded tests. Configure execution browser in code. "
 position: 1
 ---
-#Configure Browser In Code#
+#Configure Browser In Code
 
 Apart from manually configuring each of the browsers for test execution this could be also accomplished in code. 
 

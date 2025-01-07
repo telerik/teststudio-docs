@@ -5,11 +5,11 @@ description: "Invoke a Web Service Call from a coded step in Test Studio."
 previous_url: /user-guide/code-samples/general/invoke-web-service-call.aspx
 position: 1
 ---
-#Invoke a Web Service Call#
+# Invoke a Web Service Call
 
 *I would like to invoke a web service call from a coded step in Test Studio and verify its response.*
 
-##Solution##
+## Solution
 
 Below you will find a code sample which demonstrates one possible solution for this automation challenge. This sample requires that you add references to the following assemblies:
 

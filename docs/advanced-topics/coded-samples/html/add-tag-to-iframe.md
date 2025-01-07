@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/tagframe.aspx, /user-guide/code-samples/html/tagframe
 position: 1
 ---
-#Add Tag to iFrame#
+# Add Tag to iFrame
 
 To help Test Studio locate your iframes, you can add a custom tag to the iframe. You can then add this tag to the <a href="/getting-started/test-recording/Frames" target="_blank">frame properties</a> in your test. There are two ways to add a tag to an iframe:
 
@@ -13,7 +13,7 @@ To help Test Studio locate your iframes, you can add a custom tag to the iframe.
 
 * Add the tag dynamically in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a>.
 
-##Add a Tag to a iframe in HTML##
+## Add a Tag to a iframe in HTML
 
 To add a tag to a iframe in your application's HTML, add the 'testStudioTag' attribute to the frame element. For example:
 
@@ -21,7 +21,7 @@ To add a tag to a iframe in your application's HTML, add the 'testStudioTag' att
 <iframe src="http://www.example.com" testStudioTag="ExampleTag"></iframe>
 ```
 
-##Add a Tag Dynamically in Code##
+## Add a Tag Dynamically in Code
 
 If it is not possible to add custom tags to your iframes, you can add them at runtime using a coded step.
 
@@ -61,6 +61,6 @@ public void WebTest1_CodedStep()
 }
 ```
 
-##See also##
+## See also
 
 * <a href="/getting-started/test-recording/Frames" target="_blank">Recording Frames</a>

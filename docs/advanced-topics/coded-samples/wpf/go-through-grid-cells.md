@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/wpf/go-through-cells.aspx, /user-guide/code-samples/wpf/go-through-cells
 position: 4
 ---
-#Go Through Each Cell in a WPF RadGridView#
+# Go Through Each Cell in a WPF RadGridView
 
 *I would like to go through each cell in a WPF RadGridView and perform some action or verification.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. Here's an example that goes through all the visible cells in a WPF demo grid (as opposed to all the cells contained in the grid). It writes the text content of each cell into the test log.
 

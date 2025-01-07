@@ -5,13 +5,13 @@ description: "Data Driven Find Expressions in Test Studio test. Select different
 previous_url: /user-guide/code-samples/general/data-driven-find-expressions.aspx, /user-guide/code-samples/general/data-driven-find-expressions
 position: 1
 ---
-# Data Driven Find Expressions #
+# Data Driven Find Expressions 
 
 *I would like to data drive a find expression and use it to perform an action against or verify an element.*
 
 > After 2012 R2, you can create <a href="/features/elements-explorer/find-element#data-driven" target="_blank">data driven find expressions without code</a>.
 
-## Solution ##
+## Solution 
 
 The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/combobox/index" target="_blank">Telerik demo site</a>.
 

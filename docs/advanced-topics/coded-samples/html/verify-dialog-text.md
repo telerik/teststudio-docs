@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/verify-dialog-text.aspx, /user-guide/code-samples/html/verify-dialog-text
 position: 1
 ---
-#How to Verify Dialog Text (Internet Explorer only)#
+# How to Verify Dialog Text (Internet Explorer only)
 
 *I would like to verify the text of a <a href="/features/dialogs-and-popups/Dialogs" target="_blank">Dialog</a> that is fired from the browser during test execution.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The code serves two purposes. It handles the dialog and verifies the text within it. The first part is the standard way to handle dialogs in code as seen <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/JavaScript-dialogs" target="_blank">here</a>. The second part uses a <a href="http://msdn.microsoft.com/en-us/library/ms173171(v=vs.80).aspx" target="_blank">delegate</a> to implement a custom handler for the dialog.
  

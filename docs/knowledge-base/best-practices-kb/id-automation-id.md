@@ -4,7 +4,7 @@ page_title: ID & Automation ID
 description: Static and unique id attribute for the elements in a dynamic application. It is recommended to assign such during the application development process to ease the automation process. 
 position: 1
 ---
-# Element Identification with ID and Automation ID #
+# Element Identification with ID and Automation ID 
 
 As a QA professional, it's **important** to get **involved** with the **development team** early on in the process. This article will discuss just one of the many benefits in doing so – coding standards and the use of IDs for enhanced team productivity. Require this up front and you can significantly cut back test case maintenance.
  

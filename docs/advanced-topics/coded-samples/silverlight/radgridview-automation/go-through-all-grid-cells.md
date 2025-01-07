@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/radgridview/go-through-cells.aspx, /user-guide/code-samples/silverlight/radgridview/go-through-cells
 position: 1
 ---
-## Welcome to Test Studio##
+## Welcome to Test Studio
 
 *I'd like to go through each cell in a Silverlight RadGridView in order to perform some action or verification.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. Here's an example:
 

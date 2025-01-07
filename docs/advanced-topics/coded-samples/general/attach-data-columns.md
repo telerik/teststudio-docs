@@ -5,11 +5,11 @@ description: "Attach Data Columns in Code in Test Studio coded test. Data bind a
 previous_URL: /user-guide/code-samples/general/attach-columns-to-input-values-in-code.aspx
 position: 1
 ---
-# Attach Columns to Input Values in Code #
+# Attach Columns to Input Values in Code 
 
 *I would like to attach a column from my data table to an input value in code. (This is more easily accomplished through the <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">Test Studio UI</a>.)*
 
-## Solution ##
+## Solution 
 
 Use the Data object in conjunction with the column name or index.
 

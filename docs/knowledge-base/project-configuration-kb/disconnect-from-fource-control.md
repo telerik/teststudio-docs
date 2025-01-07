@@ -4,11 +4,11 @@ page_title: Disconnect From Source Control
 description: How to disconnect a local project from TFS, so it is no longer source controlled.
 position: 1
 ---
-#Disconnect From Source Control#
+#Disconnect From Source Control
 
 I'd like to disconnect a local project from TFS, so it is no longer source controlled.
 
-##Solution##
+##Solution
 
 This can be done from the Project Explorer UI.
 

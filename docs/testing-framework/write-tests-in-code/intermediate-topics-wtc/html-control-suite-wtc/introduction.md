@@ -5,7 +5,7 @@ description: "Test Studio Testing Framework introducing the HTML Control Suite -
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/html-control-suite/introduction.aspx, /user-guide/write-tests-in-code/intermediate-topics/html-control-suite/introduction
 position: 1
 ---
-#Intro to Telerik Testing Framework's HTML Control Element Wrappers Suite#
+#Intro to Telerik Testing Framework's HTML Control Element Wrappers Suite
 
 Telerik Framework includes an extensive suite of strongly typed HTML element wrappers that abstracts out actions and verifications of the controls contained on the webpage. With the classes contained in the control suite you can do things like:
 
@@ -426,7 +426,7 @@ Here is a list of the support classes that make it easier to use the rest of the
 <table>
 *Table 3. List of HtmlControl support classes contained in Telerik Testing Framework's HTML control suite.*
 
-##Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite##
+##Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite
 
 Suppose we're automating a form to submit an auto classified ad. Here's how to write the code and take advantage of the HTML element wrapper suite:
 

@@ -4,11 +4,11 @@ page_title: Override app.config
 description: "Override Test Studio app.config to get tue run-time configuration settings in Visual Studio."
 position: 1
 ---
-#Override the app.config File in a Test Studio Project#
+# Override the app.config File in a Test Studio Project
 
 *I would like Visual Studio to load the app.config file to get its run-time configuration settings.*
 
-##Solution##
+## Solution
 
 > The app.config only applies to projects in Visual Studio as expained <a href="http://msdn.microsoft.com/en-us/library/a65txexh.aspx" target="_blank">here</a>.
 

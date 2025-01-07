@@ -5,7 +5,7 @@ description: "Preview Code (VS plugin) in Test Studio Plugin for Visual Studio."
 position: 7
 publish: false
 ---
-# Preview Code (VS plugin) #
+# Preview Code (VS plugin) 
 
 Use the **Preview Code** button to see the corresponding code for your Test Studio test.
 

@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/common-find-expressions.aspx, /user-guide/code-samples/html/common-find-expressions
 position: 1
 ---
-#Common HTML Find Expressions#
+# Common HTML Find Expressions
 
 *I would like to click on a hyperlink based on its text value. I prefer to do this in code and not by editing an existing element's <a href="/features/elements-explorer/find-element" target="_blank">Find Settings</a>*.
 
-##Solution##
+## Solution
 
 Let's use <a href="http://www.wikipedia.org/" target="_blank">wikipedia.org</a> as an example. First we'll find and click the top bold English link.
 
