@@ -4,11 +4,7 @@ page_title: Cookie Support
 description: "Test Studio Testing Framework support for retrieving Cookies from browser using the CookieManager class. "
 position: 1
 ---
-<<<<<<< HEAD
 # Cookie Support
-=======
-#Cookie Support
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Using the CookieManager class you can:
 
@@ -20,11 +16,7 @@ Using the CookieManager class you can:
 
 * Delete a cookie in the browser
 
-<<<<<<< HEAD
 ## Retrieving Cookies
-=======
-##Retrieving Cookies
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 There are two functions that can be used to retrieve cookies from the browser:
 
@@ -49,11 +41,7 @@ System.Net.CookieCollection siteCookies = ActiveBrowser.Cookies.GetCookies("http
 Dim siteCookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies("http://www.telerik.com")
 ````
 
-<<<<<<< HEAD
 ## Creating and Setting Cookies
-=======
-##Creating and Setting Cookies
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Below is an example of how to create or set a cookie. If the cookie already exists, it will be overwritten. If it does not exist, a new cookie will be created in the browser:
 
@@ -66,11 +54,7 @@ ActiveBrowser.Cookies.SetCookie(new System.Net.Cookie("WebAii", "Rocks", "/", "h
 ActiveBrowser.Cookies.SetCookie(New System.Net.Cookie("WebAii", "Rocks", "/", "http://www.telerik.com"))
 ````
 
-<<<<<<< HEAD
 ## Deleting Cookies
-=======
-##Deleting Cookies
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Here is an example of how to delete a cookie:
 

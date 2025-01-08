@@ -5,11 +5,7 @@ description: "Test Studio Testing Framework Settings class. Use the Setting Clas
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/settings-class.aspx, /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/settings-class
 position: 1
 ---
-<<<<<<< HEAD
 # Settings Class
-=======
-#Settings Class
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 How the Telerik Testing Framework behaves during a test run is controlled by the settings contained in the Settings object. There are many settings you can take advantage of to modify its behavior to better meet your testing requirements or testing environment. The complete list of settings is detailed in the table below. A few of the more commonly used settings include:
 
@@ -20,11 +16,7 @@ How the Telerik Testing Framework behaves during a test run is controlled by the
  
 There are a few methods of controlling the settings in the Settings object. Which method you use depends on when and how you want them set in your unit test.
 
-<<<<<<< HEAD
 ## Initializing the Settings Object Without Using a Telerik Test Template
-=======
-##Initializing the Settings Object Without Using a Telerik Test Template
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 If you're not using one of Telerik's test templates (VsUnit, NUnit, MbUnit, xUnit) to create your unit test, you'll need to create your own Settings object and then pass that object as a parameter to the constructor of your Manager object. For example:
 
@@ -47,11 +39,7 @@ mySettings.ClientReadyTimeout = 60000
 Dim myManager As New Manager(mySettings)
 ````
 
-<<<<<<< HEAD
 ## Initializing the Settings Object When Using a Test Template
-=======
-##Initializing the Settings Object When Using a Test Template
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 If you're using one of Telerik's test templates (VsUnit, NUnit, MbUnit, xUnit) to create your unit test, you'll need to create your own Settings object in the TestInitialize section (or Setup section if you're using NUnit) and then pass that object as a parameter to the Initialize method of the base class. For example:
 
@@ -82,11 +70,7 @@ Initialize(settings, New TestContextWriteLine(AddressOf Me.TestContext.WriteLine
 
 **Note:** Be sure to call Initialize only once. Calling Initialize a second time will simply be ignored and you'll be left wondering why your settings did not take effect.
 
-<<<<<<< HEAD
 ## Changing Settings On-The-Fly
-=======
-##Changing Settings On-The-Fly
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Lastly you can modify most of the settings after your test is already initialized and under-way. Here's how you to do that:
 
@@ -101,11 +85,7 @@ Manager.Settings.DefaultBrowser = BrowserType.FireFox
 
 **Note:** The following settings can only be set during initialization: AspNetDevServerPort, CreateLogFile, EnableUILessRequestViewing, LocalWebServer, LogLocation, VerboseHttpProxy and WebAppPhysicalPath.
 
-<<<<<<< HEAD
 ## Using the RecycleBrowser Feature
-=======
-##Using the RecycleBrowser Feature
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The RecycleBrowser feature was added in version 2.0. Using it can significantly speed up running an entire test suite, no more starting and shutting down of the browser for each individual unit test. It works by launching one browser window in the test fixture initialization of your test suite and then constantly reusing that same browser window for all unit tests contained in your test suite.
 
@@ -115,11 +95,7 @@ There are a just a couple of things you need to be aware of to properly use the 
 
 2.&nbsp; You must call the base classes ShutDown() method in the test fixture teardown section to properly the browser window at the end of the test suite. If you miss this then browser windows will be left behind after your test suite has finished and exited.
 
-<<<<<<< HEAD
 ## Restoring Default Settings
-=======
-##Restoring Default Settings
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 If it ever becomes necessary you can restore all the settings (except for those that can only be set during initialization) back to their default values. Just use the Reset() method of the Settings object. For example:
 

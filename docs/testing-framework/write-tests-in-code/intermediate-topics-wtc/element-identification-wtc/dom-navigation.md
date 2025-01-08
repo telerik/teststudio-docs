@@ -4,11 +4,7 @@ page_title: DOM Navigation
 description: "Test Studio Testing Framework DOM Navigation. Use an element from the DOM to navigate to other elements on the page in the coded steps and tests. Get Element parent in code. Get Element sibling in code. Get Element child or children nodes in code"
 position: 1
 ---
-<<<<<<< HEAD
 # DOM Navigation
-=======
-#DOM Navigation
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Once you have an element, you can navigate to other elements relative to this element. Navigation methods include:
 

@@ -139,11 +139,7 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 </tr>
 </table>
 
-<<<<<<< HEAD
 ## The FrameworkElement Methods
-=======
-##The FrameworkElement Methods
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Before describing all of the methods of the FrameworkElement object I'd like to point out the following special features:
 

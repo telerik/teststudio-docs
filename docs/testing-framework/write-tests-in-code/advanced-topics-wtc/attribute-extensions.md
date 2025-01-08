@@ -4,19 +4,11 @@ page_title: Attribute Extensions
 description: "Test Studio Testing Framework Attribute Extensions."
 position: 1
 ---
-<<<<<<< HEAD
 # Unit Testing Attribute Extensions
 
 > <span class="redcolor">IMPORTANT:</span> If you want to use the Attribute Extensions with NUnit, please make sure to setup NUnit extensions as described in the <a href="/testing-framework/using-nunit" target="_blank">Using NUnit</a> topic. Visual Studio Team Test does not require any additional steps.
 
 ## What Are These Extensions?
-=======
-#Unit Testing Attribute Extensions
-
-> <span class="redcolor">IMPORTANT:</span> If you want to use the Attribute Extensions with NUnit, please make sure to setup NUnit extensions as described in the <a href="/testing-framework/using-nunit" target="_blank">Using NUnit</a> topic. Visual Studio Team Test does not require any additional steps.
-
-##What Are These Extensions?
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Unit testing attribute extensions is one of the coolest features of the framework. They came about as we were reviewing automated unit test code for some of our customers and our own unit testing code for the framework. The things that became apparent after reviewing these automated tests were:
 
@@ -38,15 +30,9 @@ Attribute Extensions are test fixture attributes that can be used to decorate un
 
 * **DialogAttribute**: You use this attribute on test methods to define the Win32 pop-up dialogs you want monitored and define how you want them handled. If you have common dialogs that pop-up across your test methods, you can simply set this attribute on the test class and the dialog will be monitored and handled for all test methods contained in that test class.
 
-<<<<<<< HEAD
 ## Examples
 
 ### FindParamAttribute
-=======
-##Examples
-
-###FindParamAttribute
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Let's start by taking few examples for FindParamAttribute. Assume we have an input textbox that we commonly access through out all the test methods in our Foo test class. Well, we can share this methods across all the test methods in 'foo' by setting that FindParam using FindParamAttribute on the test class like this:
 
@@ -190,11 +176,7 @@ Public Class Foo
 End Class
 ````
 
-<<<<<<< HEAD
 ### FindParamAttributes and TestRegions
-=======
-###FindParamAttributes and TestRegions
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 FindParamAttributes can also be used with TestRegions when they are defined within an application. In this scenario, the FindParam needs to reflect an element search within a specific TestRegion. To tie a FindParamAttribute with a TestRegion, simply set the TestRegionId property of that FindParam on your test method or test class. Here is an example:
 
@@ -254,11 +236,7 @@ Public Sub UsingFindParamAttributeWithTestRegions()
 End Sub
 ````
 
-<<<<<<< HEAD
 ### DialogAttribute
-=======
-###DialogAttribute
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 Dialog attribute is used similar to the FindParamAttribute but instead of defining how an element should be found, it defines how a dialog should be handled in addition to the dialog types to handle. Again these attributes can be shared across test methods by setting them on a test class or can be directly set on the test method that will cause the dialog to pop up. Here are few examples of some of the common dialogs:
 

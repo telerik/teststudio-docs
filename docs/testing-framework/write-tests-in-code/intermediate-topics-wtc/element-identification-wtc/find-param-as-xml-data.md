@@ -4,11 +4,8 @@ page_title: FindParam as XML Data
 description: "Test Studio Testing Framework FindParam Data Sources."
 position: 1
 ---
-<<<<<<< HEAD
+
 # FindParams as External XML Data Sources
-=======
-#FindParams as External XML Data Sources
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 **Note:** This topics assumes a basic understanding of FindParam objects. It is recommended to read the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Finding Page Elements</a> topic first before reading this topic.
  
@@ -22,11 +19,8 @@ By doing so we can:
 
 * Enable the same test logic/code to run against different versions of the same application that differ in UI layout or DOM structure. By versioning the external data sources per each different application version, we can configure our tests to consume different data source versions for each application being tested without having to duplicate test code and worry about maintaining multiple code bases. This approach can dramatically cut down maintenance and support costs especially for product teams that maintain and service multiple versions of the same application. It is also a great approach to take on if you are starting a new project and you think you will end up having to support multiple versions of that product in the future.
  
-<<<<<<< HEAD
+
 ## Building FindParam Data Sources
-=======
-##Building FindParam Data Sources
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 We currently don't offer any UI design tools that can help build these data sources directly from your application. Therefore, to build these data source we need to craft our FindParams manually and then using FindParam and FindParamCollection XML serialization methods, store the generated sources to our storage medium of choice (i.e. database, file system ...etc).
 The sample below shows an example of how to build an XML file that can be later consumed by your test code to identify elements to use in the automation logic.
@@ -56,11 +50,7 @@ paramCol.Save(@"C:\AppParams.xml");
 // string serializedParams = paramCol.ToXml();
 ````
 
-<<<<<<< HEAD
 ## Consuming the Data Sources
-=======
-##Consuming the Data Sources
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 The are three different methods you can use to consume the data source generated above. We can deserialize the data back into a FindParamCollection object and then select one of these FindParams to locate a specific element on the page.
 
@@ -126,11 +116,7 @@ Assert.IsTrue(Find.Elements["MainTable"].ElementType == ElementType.Table);
 Assert.IsTrue(Find.Elements["ProgramsTable"].ElementType == ElementType.Table);
 ````
 
-<<<<<<< HEAD
 ## Managing and Organizing Data Sources for an Entire Application
-=======
-##Managing and Organizing Data Sources for an Entire Application
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
 
 There are probably many ways you can think of to organize your external data sources for your an entire application. We though want to discuss three approaches you might want to consider. You can organize your external sources:
 
