@@ -17,7 +17,7 @@ For example, when you have a disabled or not disabled element on a page that nee
 
 1.&nbsp; Start recording.
 
-2.&nbsp; 2.Navigate to the page/step with the disabled element you'd like to verify.
+2.&nbsp; Navigate to the page/step with the disabled element you'd like to verify.
 
 *	Enable hover over highlighting.
 *	Hover the mouse over the applicable element
@@ -37,7 +37,7 @@ There are several ways to indicate a disabled element in HTML. This solution wil
 
 There are two ways to do that:
 
-1.&nbsp; 1.Write the Find Logic yourself in code. Use this approach if you are using Telerik Testing Framework only. You can insert this logic in the same coded step that does the disabled verification.
+1.&nbsp; Write the Find Logic yourself in code. Use this approach if you are using Telerik Testing Framework only. You can insert this logic in the same coded step that does the disabled verification.
 
 ```C#
 Element e = Find.ByExpression("id=myInput");
