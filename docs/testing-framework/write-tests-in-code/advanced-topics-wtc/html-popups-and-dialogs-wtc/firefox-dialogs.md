@@ -3,9 +3,9 @@ title: Firefox Dialogs
 page_title: Firefox Dialogs
 description: "Test Studio Testing Framework FF dialogs - obsolete"
 position: 1
-publish: false
+published: false
 ---
-#How to Handle Firefox Dialogs
+# How to Handle Firefox Dialogs
 
 Firefox dialogs require special attention because some of them are not standard Win32 dialogs, for example Firefox's download manager dialog. As a result the usual method for handing dialogs does not work with Firefox dialogs. Here is what the download manager dialog looks like:
 
@@ -139,16 +139,16 @@ Public Class FFDownloadsDialog
     ' Semaphore used by the WaitUntilHandled function.
     ' </summary>
     Private _autoEvent As AutoResetEvent = New AutoResetEvent(False)
-#End Region
+# End Region
  
-#Region "Private Constants"
+# Region "Private Constants"
     ' <summary>
     ' The title of the dialog we want handled.
     ' </summary>
     Private Const DIALOG_TITLE As String = "Downloads"
-#End Region
+# End Region
  
-#Region "Properties"
+# Region "Properties"
     ' <summary>
     ' Gets the Window object of the dialog being handled.
     ' </summary>
@@ -199,37 +199,37 @@ Public Class FFDownloadsDialog
             Me._currentState = value
         End Set
     End Property
-#End Region
+# End Region
 ```
 
 
 So far everything is very simple and straightforward. Now that the local variables and properties are complete, it's time to implement the constructor. Since all we're going to do to handle the dialog is close it, we don't require the Desktop or DialogButton parameter that standard Win32 dialog handlers require:
 
 ```C#
-#region Constructor
+# region Constructor
 /// <summary>
 /// Create the dialog.
 /// </summary>
 public FFDownloadsDialog()
 {
 }
-#endregion
+# endregion
 ```
 ```VB
-#Region "Constructor"
+# Region "Constructor"
     ' <summary>
     ' Create the dialog handler instance.
     ' </summary>
     Public Sub New()
         MyBase.New()
     End Sub
-#End Region
+# End Region
 ```
 
 Since there's nothing to the constructor, we could optionally leave it out and let the default constructor take over. So let's start implementing the IDialog methods starting with IsDialogActive.
 
 ```C#
-#region IDialog Members
+# region IDialog Members
 /// <summary>
 /// Check whether the dialog is present or not. This function is
 /// called by the DialogMonitor object.

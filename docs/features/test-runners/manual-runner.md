@@ -4,7 +4,7 @@ page_title: Telerik.TestStudio.ManualRunner
 description: "Test Studio Manual Runner. Run manual test in Test Studio"
 previous_url: /user-guide/test-runners/manual-runner.aspx, /user-guide/test-runners/manual-runner
 position: 1
-publish: false
+published: false
 ---
 # Telerik.TestStudio.ManualRunner
 

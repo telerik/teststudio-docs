@@ -4,7 +4,7 @@ page_title: Execute Test Studio Test and Test lists with VSTestConsole.exe
 description: "Integrate Test Studio tests in TFS continuous integration builds. Execute Test Studio tests and test lists with VSTestConsole.exe"
 position: 10
 ---
-# Execute Test Studio Tests with VSTest.Console.exe #
+# Execute Test Studio Tests with VSTest.Console.exe
 
 The <a href="https://msdn.microsoft.com/en-us/library/jj155796.aspx" target="_blank">VSTest.Console.exe</a> in Visual Studio discovers and runs tests, including Test Studio tests and <a href="/automated-tests/vs-plugin/test-lists-in-vs-2017-2019" target="_blank">test lists</a>.
 

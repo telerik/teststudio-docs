@@ -4,7 +4,7 @@ page_title: Asp.NET Host Server
 description: "Test Studio Testing Framework support for Asp.NET Host Server"
 position: 1
 ---
-#Using Asp.Net In-Process Host Server
+# Using Asp.Net In-Process Host Server
 
 Many of our customers have asked for a way to execute tests without the need for a browser. They wanted a light-weight, fast and agile execution that fits within their Continuous Integration Builds and works easily with 'CruiseControl.Net' or 'Visual Studio Team Foundation Server.' We enabled these scenarios with two areas of support:
 
@@ -237,6 +237,6 @@ Assert.IsTrue(label.InnerText.Contains("Node2"))
 ```
 
 
-##Debugging Page Requests
+## Debugging Page Requests
 
 Given that these page requests are running in-process without any UI showing, it is sometimes difficult to see what exactly is being rendered. To make debugging scenarios easier, Telerik Testing Framework enables the option of rendering the responses from the Asp.Net In-Process server into an IE browser instance. To enable this debug mode, simply set the **Settings.EnableUILessRequestViewing** to True and an IE instance will launch and redirect a copy of all responses from the Asp.Net host to that instance so you can visually inspect the UI of the pages.

@@ -5,7 +5,7 @@ description: "Handle a download dialog in a coded step in Test Studio. Coded tes
 previous_url: /user-guide/write-tests-in-code/advanced-topics/handling-html-popups-and-dialogs/built-in-dialog-handlers/handling-filedownload-dialog.aspx, /user-guide/write-tests-in-code/advanced-topics/handling-html-popups-and-dialogs/built-in-dialog-handlers/handling-filedownload-dialog
 position: 7
 ---
-#Handling FileDownload Dialogs
+# Handling FileDownload Dialogs
 
 With FileDownload, you need to pass in the full path to the download location and how the dialog should be handled. 
 

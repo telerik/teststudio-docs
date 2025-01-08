@@ -3,7 +3,7 @@ title: Test Recorder
 page_title: Test Recorder
 description: "Overview of the recording feature in Test Studio. Codeless test step recording. Automate test scenarios without code. Codeless automation."
 position: 10
-publish: false
+published: false
 ---
 
 # Test Recorder 

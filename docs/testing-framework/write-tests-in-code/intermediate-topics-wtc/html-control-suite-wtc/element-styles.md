@@ -4,7 +4,7 @@ page_title: Element Styles
 description: "Test Studio Testing Framework read and validate the styles of HTML elements in coded tests."
 position: 2
 ---
-#Element Styles and HtmlStyle, GetStyle, GetComputedStyle
+# Element Styles and HtmlStyle, GetStyle, GetComputedStyle
 
 Telerik Testing Framework includes a good set of classes and methods for reading and validating the styles often attached to HTML controls. With this feature you can do things like:
 

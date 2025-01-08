@@ -33,7 +33,7 @@ Build and execute <a href="http://www.telerik.com/teststudio" target="_blank">Te
 
 Your test execution step is now ready to save and run.
 
-##Build a Visual Studio project or a Solution
+## Build a Visual Studio project or a Solution
 
 1. **Configure MSBuild Plugin to build coded tests**.
 
@@ -55,7 +55,7 @@ Your test execution step is now ready to save and run.
 
 	![Specify a Visual Studio project][8]
 
-##Attach the results files to the Job##
+## Attach the results files to the Job
 
 1.	Add "**out**" parameter in the batch command. It should point to the default jenkins workspace **(C:\Users\[userName]\.jenkins\jobs\test\workspace\%JOB_NAME%%BUILD_NUMBER%**) so the results files are outputted in a folder with an unique name (Job Name + Build Number).
 

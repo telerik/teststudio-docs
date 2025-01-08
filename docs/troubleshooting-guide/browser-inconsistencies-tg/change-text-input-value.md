@@ -3,7 +3,7 @@ title: Change Text Input Value
 page_title: Change Text Input Value
 description: "Test Studio Testing Framework "
 position: 1
-publish: false
+published: false
 
 ---
 # Change Text Input Value

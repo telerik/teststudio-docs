@@ -3,7 +3,7 @@ title: Installation and Activation
 page_title: Getting started with installing Test Studio
 description: "A step by step guide on how to download, install and activate Test Studio."
 position: 1
-publish: false
+published: false
 ---
 # Installation and Activation 
 

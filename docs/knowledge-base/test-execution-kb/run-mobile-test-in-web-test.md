@@ -3,9 +3,9 @@ title: Run a Mobile Test within a Web Test
 page_title: Run a Mobile Test within a Web Test
 description: Run mobile Test within a Web Test with Test Studio. Execute mobile test as step in a web test in Test Studio. Run Mobiletests as part of a Test Studio web project. Integrate Mobile testing with Test Studio web tests. 
 position: 1
-publish: false
+published: false
 ---
-#How to Run a Mobile Test within a Web Test
+# How to Run a Mobile Test within a Web Test
 
 A common testing scenario is to have a web based application that could interact both with web and mobile users. There is a way to develop and execute a web test that at certain step runs a mobile test. To complete that the following initial conditions are needed:
 

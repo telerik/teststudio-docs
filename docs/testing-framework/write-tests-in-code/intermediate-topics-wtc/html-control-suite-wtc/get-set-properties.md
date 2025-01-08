@@ -4,7 +4,7 @@ page_title: Get & Set Properties
 description: "Test Studio Testing Framework getting and setting properties of HTML elements in coded tests."
 position: 2
 ---
-#Getting and Setting Properties
+# Getting and Setting Properties
 
 We can also get and set the current value of any property of the wrapped element:
 

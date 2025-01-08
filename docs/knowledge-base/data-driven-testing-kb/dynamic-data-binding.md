@@ -5,11 +5,11 @@ description: I want my test to dynamically bind to a different data set at run-t
 previous_url: /user-guide/knowledge-base/data-driven-testing/dynamic-data-binding.aspx, user-guide/knowledge-base/data-driven-testing/dynamic-data-binding
 position: 1
 ---
-#Dynamic Data Binding
+# Dynamic Data Binding
 
 *I want my test to dynamically bind to a different data set at run-time. The data I want the test to use will depend on certain conditions of my application, but the test steps will always be the same.*
 
-##Solution 1
+## Solution 1
 
 First, be aware that dynamically binding data is not currently a built-in feature in Test Studio. You can only bind a test to a single data source. However, there is a trick you can implement in code to achieve the same result. The trick relies on swapping the data file to which a test is bound at run time. 
 
@@ -29,11 +29,11 @@ For example:
 
 3. Keep in mind that when Test Studio binds a test to an Excel file, it actually makes a copy of the file in the **Project\Data** folder. Ensure you swap the file located in the **Project\Data** folder, and not the file in its original location.
 
-##Solution 2
+## Solution 2
 
 Put your data into a SQL data base and <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">Use T-SQL to Pull the Data</a> you want from the database. Optionally, you can <a href="/knowledge-base/data-driven-testing-kb/sql-random-row" target="_blank">Generate a Random Number</a> in your T-SQL to point to the row of data to pull.
 
-##Solution 3
+## Solution 3
 
 You can <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">Create Your Own Test Extension DLL</a> and implement the OnInitializeDataSource in which you can do pretty much anything in code. Place the DLL into the following directory:
 

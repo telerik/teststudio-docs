@@ -255,7 +255,7 @@ If instead you are running Telerik Testing Framework coded unit tests we need to
 </dashboard>
 ```
 
-### 5.2 Modifying the xslReportBuildPlugin Section###
+### 5.2 Modifying the xslReportBuildPlugin Section
 
 This section is used to generate a menu of the different detail reports you can display. After you make these changes you'll get something that looks like this:
 

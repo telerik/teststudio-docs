@@ -4,7 +4,7 @@ page_title: Jenkins CI Plugin
 description: "Test Studio plugin for Jenkins Continuous integration setup. Configure the Test Studio plugin for Jenkins CI."
 position: 2
 ---
-# Test Studio Plugin for Jenkins CI #
+# Test Studio Plugin for Jenkins CI
 
 The Test Studio Plugin for Jenkins allows you to build and execute <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests and test lists in Jenkins CI environment and easily explore the generated JUnit xml results in the built-in Jenkins functionality.
 

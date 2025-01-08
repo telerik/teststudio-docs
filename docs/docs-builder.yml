@@ -3,8 +3,8 @@ path-prefix: /teststudio
 product-id: 846
 product-name: Progress Test Studio
 product-url: https://www.telerik.com/teststudio
-search-engine-id: 8ac1ab64606d234f1
-cta-overview: "@ProductLinkis a UI test automation platform that helps QA and Engineering teams build stable and easily maintainable automated tests. Sign up for a free 30-day trial!"
+search-engine-id: 001595215763381649090:ymztq4og6vc
+cta-overview: "@ProductLink is a UI test automation platform that helps QA and Engineering teams build stable and easily maintainable automated tests. Sign up for a free 30-day trial!"
 cta-intro: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
 default-title-prefix: Telerik Test Studio
 avatar-path: ./images/avatar-ninja.svg
@@ -55,13 +55,9 @@ meta:
     faq:
         title: "FAQ"
         position: 15
-    archived-docs:
-        title: "Archived Docs"
-        position: 16
-        hidden: true
     license-server:
         title: "License Server"
-        position: 17
+        position: 16
         hidden: true
     api:
         title: "API Reference"

@@ -4,11 +4,11 @@ page_title: Introduction to TestRegions
 description: "Test Studio Testing Framework: Introducing TestRegions. What are TestRegions and how TestRegions can help in designing coded automation tests. "
 position: 1
 ---
-#Introduction to TestRegions
+# Introduction to TestRegions
 
 Building testability and agility into your markup applications.
 
-##What Are TestRegions? (*)
+## What Are TestRegions? (*)
 
 TestRegions are simple innovations that bring a new perspective to automated software testing by breaking the traditional silos between application authoring and testing. They pave the way to a better and more robust test automation while enhancing the agility of the overall development lifecycle. TestRegions are hopefully a first step that others can use and build upon to usher a new generation of tools and methodologies that bring new advancements in the art of software testing and quality assurance.
  
@@ -67,7 +67,7 @@ To help demonstrate these benefits, we will be using the following simple markup
 </html>
 ```
 
-##Current Automation Practices
+## Current Automation Practices
 
 Before digging into TestRegions, let's first take a look at some of the current common automation approaches for markup applications and understand their characteristics, challenges and drawbacks.
  
@@ -92,7 +92,7 @@ To clarify this point more, let's take a simple example:
  
 With that being said, it is important to note that TestRegions DO NOT completely eradicate the need for ids/names but instead they augment the current use of ids/names and common automation practices to help address some of the issues mentioned above and add more structure and consistency to test automation.
 
-##Using TestRegions
+## Using TestRegions
 
 Let's start by using TestRegions in the above sample to provide a structured approach to accessing this application from test automation. To do so, we need to inject TestRegions within our application markup. The TestRegions supported by Telerik Testing Framework Automation Infrastructure are:
 
@@ -167,7 +167,7 @@ Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata
 
 Each TestRegion above represents the part of the application as defined by the TestRegio's that are part of the application. It is worth noting here that the TestRegions collection accessor is case-insensitive to avoid test failures due to id casing mistakes.
 
-##Identifying Elements Using TestRegions
+## Identifying Elements Using TestRegions
 
 Now that we know how to define test regions as part of an application under test and how to access them from our automated test code, our next step is to be able to access elements contained in these TestRegions to perform actions on or extract data from.
  
@@ -217,7 +217,7 @@ Manager.ActiveBrowser.Actions.SetText(zipCodeTextBox, "90210")
 
 In the first sample above, the test will not be impacted by any changes to the application regardless of how many 'table' tags get added before or after that testregion. You can even extract that testregion and embed it in a different portion of a different application and all tests that target that region will still work as expected. Same with the second sample.
 
-##Summary
+## Summary
 
 The samples above introduce you to basic usage of TestRegions as part of the Telerik Testing Framework Automation Infrastructure. They also demonstrate how you can utilize this approach to build robust test automation code that exhibit low maintenance cost and is highly resilient to undesired test breaks. Moreover, they demonstrate how to use a consistent and structured approach to identify application segments to target for automation while making test code more legible and faster to learn and understand. TestRegions can enhance the agility of development teams and fits nicely within an agile development environment.
 
