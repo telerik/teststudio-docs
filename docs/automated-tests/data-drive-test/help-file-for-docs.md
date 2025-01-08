@@ -2,7 +2,7 @@
 title: Help file
 page_title: help file
 position: 1
-publish: false
+published: false
 ---
 
 

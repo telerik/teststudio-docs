@@ -4,9 +4,9 @@ page_title: Build Server Test Execution
 description: "Build Server Test Studio Test Execution."
 previous_url: /user-guide/command-line-test-execution.aspx, /user-guide/command-line-test-execution
 position: 0
-publish: false 
+published: false 
 ---
-#Build Server Test Execution#
+# Build Server Test Execution
 
 > A minimum of Test Studio <a href="/general-information/test-studio-run-time" target="_blank">Run-Time Edition</a> is required on your build server.
 

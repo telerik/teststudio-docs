@@ -4,13 +4,13 @@ page_title: Merge Page Nodes
 description: Merge Page Nodes in Test Studio elements repository. Each time I start a recording session I get a new element recorded for the same control under different page node in the elements explorer. The element uses the same find expression, but the page URL differs as it has dynamically generated part. How can I reuse the same recorded element
 position: 7
 ---
-#Merge Page Nodes
+# Merge Page Nodes
 
 * <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#page-nodes">Page nodes</a>
 * <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#frames">Frame nodes</a>
 * <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#silverlightapps">Silverlight apps</a>
 
-##Page Nodes
+## Page Nodes
 
 The default for the **Compare Mode** in <a href="/features/project-settings/recording-options" target="_blank">Project Settings > Recording</a> is *FullPathAndQuery*. Depending on your application, this can cause duplication in the Elements Explorer. Although the page node is not used to locate an element during execution, it's best to consolidate duplicate page nodes for organizational and maintenance purposes. For example:
 
@@ -51,7 +51,7 @@ The default for the **Compare Mode** in <a href="/features/project-settings/reco
 
 If *FullPath* is not applicable to your project, review the <a href="/features/project-settings/recording-options" target="_blank">Project Settings > Recording Options</a> page and select the Compare Mode that best suits your needs.
 
-##Frames
+## Frames
 
 An element directly under a page node is located entirely by its Find Settings. Conversely, an element within a frame must be located via the frame first.
 
@@ -67,7 +67,7 @@ An element directly under a page node is located entirely by its Find Settings. 
 
 	![Merge nodes][9]
 
-##SilverlightApps
+## SilverlightApps
 
 Like frames, an element within a SilverlightApp must be located via the SilverlightApp first. Unlike a frame node, a SilverlightApp node has Find Settings just like a regular element, which can be changed via the <a href="/features/elements-explorer/find-element" target="_blank">Find Element</a> dialog.
 

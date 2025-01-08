@@ -4,11 +4,11 @@ page_title: Data Driven Tests With MSTest
 description: How to configure data driven tests to be executed with MSTest.
 position: 1
 ---
-#How To Use Data Driven Tests With MSTest
+# How To Use Data Driven Tests With MSTest
 
 *I want to execute data driven test with MStest.*
 
-##Solution
+## Solution
 
 1.&nbsp; Right click "Solution Items"and choose **Add > New Item**.
 

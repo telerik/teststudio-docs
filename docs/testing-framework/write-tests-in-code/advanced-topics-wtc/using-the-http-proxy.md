@@ -4,7 +4,7 @@ page_title: Using the HTTP Proxy
 description: "Test Studio Testing Framework support for using HTTP proxy. "
 position: 1
 ---
-#Using the HTTP Proxy
+# Using the HTTP Proxy
 
 Telerik Testing framework includes the ArtOfTest.WebAii.Messaging.Http namespace. With it you have the ability to intercept raw HTTP traffic under the cover. Using the HTTP proxy you can intercept an HTTP request originating from the browser before it is sent to the web server and/or intercept HTTP responses coming from the web server just before they reach the browser and are rendered by it. This functionality opens up the framework to be used in a wider range of automation scenarios like:
 

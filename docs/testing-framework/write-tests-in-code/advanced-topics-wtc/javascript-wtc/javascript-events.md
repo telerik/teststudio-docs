@@ -4,9 +4,9 @@ page_title: JavaScript Events
 description: "Invoking JS events in a coded step in Test Studio. Coded test to Invoke JS events in Test Studio. Test Studio Testing Framework Invoking JS Events"
 position: 2
 ---
-#JavaScript Events
+# JavaScript Events
 
-##Invoking JavaScript Events
+## Invoking JavaScript Events
 
 Telerik Testing Framework allows you to invoke JavaScript events directly with or without event arguments. For example:
 
@@ -43,7 +43,7 @@ Dim [me] As New MouseEvent()
 area1.InvokeEvent([me])
 ```
 
-##JavaScript Event Handlers
+## JavaScript Event Handlers
 
 The framework gives you the ability to attach a .NET event handler to your JavaScript happening in the browser. Start by defining your event handler like this:
 

@@ -40,7 +40,7 @@ All the Find.Byxxx methods now support LINQ queries.
 
 It is important to understand how Telerik's identification method works because that understanding will allow you to exploit the power of these identification methods to build robust automation quicker.
 
-##Element Identification Overview
+## Element Identification Overview
 
 The following identification methods are supported:
 
@@ -253,7 +253,7 @@ Assert.IsNotNull(btn);
 </tr>
 <table>
 
-##Identification Methods Usage
+## Identification Methods Usage
 
 Telerik Testing Framework identification methods are accessible using the **Find** object that is exposed as a property off of the 'Browser' object : *Manager.ActiveBrowser.Find.Byxx(...)* and also as a property off of each TestRegion object : *TestRegion.Find.Byxx(...)*.
 
@@ -261,7 +261,7 @@ The difference between the Find object off of the Browser class (Root Base Ident
 
 With TestRegions, depending on the areas of the application that each automated test is targeting, you can use different Find objects to give each test a greater level of independence and shield it from product changes outside its target area. This topic is discussed in greater details in <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/introduction" target="_blank">Introduction to TestRegions</a>.
 
-##Matching Syntax Used in Parameters
+## Matching Syntax Used in Parameters
 
 The Byxxx functions that take a nameValuePairs parameter recognizes the following matching syntax:
 
@@ -281,7 +281,7 @@ The Byxxx functions that take a content string parameter recognizes the followin
 
 * Prefix the string parameter with 'x:' for regular expression matching. e.g. 'x:[*foo*]' will match any content containing the string 'foo' in the middle of it. For more information about regular expressions see <a href="http://msdn.microsoft.com/en-us/library/2k3te2cs.aspx" target="_blank">this MSDN article</a>.
 
-##Identification Sample
+## Identification Sample
 
 To help illustrate the above identification methods, let's use the following sample application. Note that this application uses TestRegions excessively to allow it to demonstrate the different identification methods that can be performed using both **RBI** and **RGBI**:
 

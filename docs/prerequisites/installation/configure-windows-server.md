@@ -3,7 +3,7 @@ title: Configure Windows Server
 page_title: Configuring Windows Server 2008/2012 for Test Automation
 description: "Test Studio Configuring Windows Server 2008/2012 for Test Automation"
 position: 9
-publish: false
+published: false
 ---
 # Configuring Windows Server 2008/2012 for Test Automation 
 

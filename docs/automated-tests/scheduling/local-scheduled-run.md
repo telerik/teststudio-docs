@@ -3,7 +3,7 @@ title: Local Scheduled Execution
 page_title: Local Scheduled Test List Execution
 description: "With Test Studio you can schedule tests and test lists on a single machine. The below article describe the necessary steps to enable scheduling for a Standalone Test Studio installation."
 position: 2
-publish: false
+published: false
 ---
 # Local Scheduled Test List Execution
 

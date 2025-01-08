@@ -4,7 +4,7 @@ page_title: Ajax Support
 description: "Test Studio Testing Framework support in coded tests for AJAX calls."
 position: 1
 ---
-#Ajax Support
+# Ajax Support
 
 Ajax is one of the latest and fastest growing web development technologies that is fueling today's Web 2.0 era. The technology enables developers to build great and rich web content. However at the same time it adds great complexity to the testing methods required to validate the web applications that use it. To a certain extent, websites that rely heavily on Ajax can no longer rely on using the legacy HTTP record/replay methods to test the entire functionality given that major portions of the website logic are executed within the browser JavaScript engine and in some cases no HTTP requests are being made to the server at all!
 
@@ -26,7 +26,7 @@ Telerik Testing Framework has been built from the ground up with features like A
 
 * **Attach event handlers** directly to JavaScript events. This topic is covered in detail under <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc/javascript-events" target="_blank">JavaScript Events</a>.
 
-##Waiting on DOM Changes: WaitForElement(s)
+## Waiting on DOM Changes: WaitForElement(s)
 
 **WaitForElement**(s) is a great method to use when trying to suspend test execution until a certain element is present or has changed or a specific value of a certain attribute for an element has been set (or even a combination of values). This is a common scenario when automating Ajax applications. WaitForElement(s) requires a basic understanding of <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/find-param-objects" target="_blank">FindParams and how to define them</a>. Once you know how to craft FindParam's, you will be able to write custom and rich wait routines using a consistent pattern.
  
@@ -138,7 +138,7 @@ ActiveBrowser.Actions.WaitForElement(New FindParam() {myspan, sixth_row}, 500)
 
 The above scenario is one of the most common when testing Ajax apps. Therefore, the WaitForElement provides an easy to use overload for these common scenarios where you need to first identify an element by id/name then validate a certain attribute list. This helps reduce the lines of code each time you need to identify an element. If you need a more complex identification, you can use chained identification as described above.
 
-##Retrieving Dynamic Property Values Directly From the DOM
+## Retrieving Dynamic Property Values Directly From the DOM
 
 When using Ajax the application, in most scenarios, updates the document's DOM using JavaScript. The DOM tree provided to your test code by Telerik Testing Framework is automatically updated after each command gets executed against the browser if Browser.AutoDomRefresh property is set to "true," which is the default value. In most scenarios the DOM tree is the latest up-to-date DOM tree from the browser. In cases where the DOM tree is updated without using Telerik browser commands (for example, the page auto-refreshes based on an internal timer, or you are using Pure UI automation), you can always refresh the DOM by calling Browser.RefreshDomTree().
  
@@ -177,7 +177,7 @@ Dim visibility As String = input.GetValue(Of String)("visibility")
 
 **Note:** If you are retrieving property values of set attributes available in the serialized DOM string, you should use the GetAttribute() method to retrieve these attributes and their values.
 
-##Browser.WaitForAjax()
+## Browser.WaitForAjax()
 
 This method will wait for any active AJAX requests to complete.
 

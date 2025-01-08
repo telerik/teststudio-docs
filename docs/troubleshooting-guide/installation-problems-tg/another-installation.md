@@ -7,7 +7,7 @@ position: 1
 
 #"Another installation is in progress" error
 
-##Problem
+## Problem
 
 While installing Test Studio *Another installation is in progress* appears and it cannot continue:
 
@@ -15,7 +15,7 @@ The installer for Test Studio is a Windows .MSI install file. The above error me
 
 ![Error message][1]
 
-##Solution
+## Solution
 
 You should determine which installation is still in progress and finish it or abort it.
 

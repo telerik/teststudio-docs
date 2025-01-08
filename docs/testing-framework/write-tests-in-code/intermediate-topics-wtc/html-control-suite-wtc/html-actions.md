@@ -4,7 +4,7 @@ page_title: HTML Actions
 description: "Test Studio Testing Framework interact with an HTML element identified in the DOM in coded tests. HTML actions to perform on an element in coded tests."
 position: 2
 ---
-#Common HTML Control Actions
+# Common HTML Control Actions
 
 What are some of the things we can do after finding the element we want to act upon? We can:
 

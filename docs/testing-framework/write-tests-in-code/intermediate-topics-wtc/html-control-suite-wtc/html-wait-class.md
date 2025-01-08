@@ -4,7 +4,7 @@ page_title: HtmlWait Class
 description: "Test Studio Testing Framework HtmlWait Class used to wait for visibility state of an HTML element identified in the DOM in coded tests. Wait for an element's custom condition in coded tests."
 position: 2
 ---
-#How to Use the HtmlWait Class
+# How to Use the HtmlWait Class
 
 The HtmlWait class extends and enhances the Element.Wait class with some powerful methods that are very useful with the HTML control suite. It adds:
 

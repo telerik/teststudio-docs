@@ -4,10 +4,10 @@ page_title: Visual Capturing
 description: "Test Studio Testing Framework support in coded tests to capture the visual state of the current active application window."
 position: 1
 ---
-#Visual Capturing
+# Visual Capturing
 
 
-##Visual Capturing of Browser States and Win32 Windows
+## Visual Capturing of Browser States and Win32 Windows
 
 Each Telerik Testing Framework Window object provides functionality to capture the visual bitmaps of the actual window it represents. You can capture the entire window or a targeted portion of that window using the Window.GetBitmap() method. You can use this method for any Win32 window represented by the Window object. Lets take a quick example:
 
@@ -35,7 +35,7 @@ Manager.Log.CaptureBrowser(Manager.ActiveBrowser);
 Manager.Log.CaptureBrowser(Manager.ActiveBrowser)
 ```
 
-##Visual Capturing of Elements
+## Visual Capturing of Elements
 
 In addition to capturing the entire window, you can also capture targeted portions of that window. Such functionality can be extremely useful when combined with the functionality provided by each DOM element in Telerik Testing Framework. For example, you can use the Element.GetRectangle() to get the coordinates of a specific element and pass that to the Window.GetBitmap(targetRectangle) to visually capture that element. You can then do bitmap comparisons of that element to a base line or even compare it across browsers.
  

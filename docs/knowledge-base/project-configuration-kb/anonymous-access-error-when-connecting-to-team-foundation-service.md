@@ -4,15 +4,15 @@ page_title: Anonymous Access Error When Connecting to Team Foundation Service
 description: Anonymous Access Error When Connecting to Team Foundation Service. Error message - Resource not available for anonymous access. Client authentication required.
 previous_url: /knowledge-base/project-configuration-kb/anonymous-access-error-when-connectiong-to-team-foundation-service
 position: 1
-publish: false 
+published: false 
 ---
-#Anonymous Access Error When Connecting to Team Foundation Service
+# Anonymous Access Error When Connecting to Team Foundation Service
 
 Specific machines fail to connect to Team Foundation Service with the error:
 
 **TF400813: Resource not available for anonymous access. Client authentication required.**
 
-##Solution
+## Solution
 
 Install the following updates:
 

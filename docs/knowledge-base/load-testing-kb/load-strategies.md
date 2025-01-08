@@ -4,11 +4,11 @@ page_title: Load Strategies
 description: Choose which load strategy will suit the current requirements and adjust the Test Strudio load test accordingly. Stress Testing. Baseline Tests and High Load Tests. Soak Testing. Scalability Testing. Geographic Diversity Testing. 
 position: 1
 ---
-#Types of Load Tests
+# Types of Load Tests
 
 There are many types of load tests, each designed to answer specific questions. Here are four common types of load test, and how to start building them in Test Studio.
 
-##Stress Testing
+## Stress Testing
 
 A typical stress test begins with a small amount of load and slowly increase this amount throughout the test. This test type answers these questions:
 
@@ -32,11 +32,11 @@ Once the test is completed, you can identify the time in the <a href="/features/
 
 ![Performance counters][2]
 
-###Baseline Tests and High Load Tests
+### Baseline Tests and High Load Tests
 
 Two related load test types are **baseline tests** and **high load** tests. Unlike a stress test, these tests use a continuous number of VUs. A baseline test uses a number of VUs equal to the number of users the application is required to support; a high load test uses a number of VUs greater than the requirements. These tests can answer the questions, "Does my application support the required number of users?" and "Does my application support the target number of users?" You can also answer these questions by stress testing.
 
-##Soak Testing
+## Soak Testing
 
 Soak tests (also known as **endurance tests**) apply a constant load to the target application for an extended period of time. This test type answers these questions:
 
@@ -52,7 +52,7 @@ Users Over Time for a soak test is a flat line:
 
 The amount of load is often the expected number of users, but you may also wish to soak test your application at multiple load levels. The purpose of the soak test is to identify problems in application performance that do not occur over shorter test durations, such as memory leaks. When analyzing the soak test results, make sure to analyze the performance counters on the application server to find patterns in resource usage.
 
-##Scalability Testing
+## Scalability Testing
 
 Scalability tests perform multiple load tests against different resource configurations. This test type tries to answer these questions:
 
@@ -68,7 +68,7 @@ Scalability tests correspond to different application and server configurations:
 
 Keep in mind that some cloud services may not expose their performance counters to our Profiler, which is included in Test Studio Runtime and Standalone installations.
 
-##Geographic Diversity Testing
+## Geographic Diversity Testing
 
 Geographic diversity tests generate load from different locations. This test type tries to answer these questions:
 
@@ -78,7 +78,7 @@ Geographic diversity tests generate load from different locations. This test typ
 
 You can use Test Studio Load Testing to perform geographic diversity testing by installing and selecting <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Servers</a> in different locations. These locations can simulate the locations of different users or user populations. You can compare the results from load tests run on a machine in one location with those run in another. Keep in mind that Test Studio Test Lists will be distributed automatically to different Execution Machines, so select one Execution Machine for each Test List in this type of test. Once you have performed this type of test, you may want to repeat the test with a different application server location to see if this improves results.
 
-##See Also
+## See Also
 
 * <a href="/knowledge-base/load-testing-kb/selecting-traffic" target="_blank">Selecting Load Traffic</a>
 

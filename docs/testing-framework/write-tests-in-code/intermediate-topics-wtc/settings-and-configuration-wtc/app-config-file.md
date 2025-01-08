@@ -5,7 +5,7 @@ description: "Test Studio Testing Framework App .config file"
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/using-application-config-file.aspx, /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/using-application-config-file
 position: 1
 ---
-#Using the Application's .config File
+# Using the Application's .config File
 
 Instead of programmatically setting the configuration, the application or test program can use an application .config file to fetch the appropriate settings. The Telerik infrastructure has a built in .NET Config SectionHandler (under the 'ArtOfTest.Core' namespace) that can read the configuration settings from the .config file associated with the application or test. You place the settings in your .config file as follows:
 

@@ -4,7 +4,7 @@ page_title: Virtual Users
 description: clarify some of the concepts behind Virtual Users in Test Studio Load Tests. Workload in Test Studio load test. How to adjust the workload of user profiles to cover the load test requirements.
 position: 1
 ---
-#Virtual Users
+# Virtual Users
 
 This document attempts to clarify some of the concepts behind Virtual Users in Test Studio Load Tests.
 

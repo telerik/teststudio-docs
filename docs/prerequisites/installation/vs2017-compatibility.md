@@ -3,7 +3,7 @@ title: VS 2017 Compatibility
 page_title: VS 2017 Compatibility
 description: "Test Studio Compatibility with Visual Studio 2017. Prerequisites to install Test Studio plugin with Visual Studio 2017. Test Studio installed on Visual Studio 2017 but cannot start a test project. "
 position: 8
-publish: false
+published: false
 ---
 # How to Install Visual Studio 2017 to Integrate Test Studio
 

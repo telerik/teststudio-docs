@@ -3,7 +3,7 @@ title: Internet Explorer could not record/execute a test
 page_title: Internet Explorer could not record/execute a test
 description: "Internet Explorer could not record/execute a test in Test Studio. Is there a specific setting to adjust in order to use IE for recording and executing Test Studio test"
 position: 1
-publish: false
+published: false
 ---
 # Internet Explorer 11 could not record/execute a test
 

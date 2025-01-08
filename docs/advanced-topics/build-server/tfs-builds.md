@@ -4,7 +4,7 @@ page_title: TFS Builds
 description: "Integrate Test Studio tests in TFS continuous integration. Execute Test Studio tests with TFS build."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds.aspx, /user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds
 position: 2
-publish: false
+published: false
 ---
 # Telerik Testing Framework and Team Foundation Server Builds
 

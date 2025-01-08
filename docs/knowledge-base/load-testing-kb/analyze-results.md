@@ -4,29 +4,29 @@ page_title: Analyze Results
 description: Analyze Load Result. Identify Key Areas of Load Data. User Experience Metrics. Load Generation Metrics. Resource Use Metrics. Correlate Key Load Data. Identify Issues based on the load test runs results. View Page Specific Metrics. 
 position: 1
 ---
-#Analyze Load Results
+# Analyze Load Results
 
 Test Studio load tests can generate a large amount of data. This document contains suggestions to help you interpret this data. Keep in mind that the behavior of your application may be complex, and that each application is different. Work with the developers of your application, server administrators, and other stakeholders to gain insights specific to your environment.
 
-##Identify Key Areas of Load Data
+## Identify Key Areas of Load Data
 
 Three sets of results data that your load test produces are usually important for the purposes of results analysis.
 
-###User Experience Metrics
+### User Experience Metrics
 
 These data directly measure the behavior of the application from the perspective of the end user. This category includes metrics like Average Response Time, HTTP Errors/second, and Responses Received/second. These metrics are gathered by Test Studio Load Tests by default, and do not require you to profile Performance Counters.
 
-###Load Generation Metrics
+### Load Generation Metrics
 
 These data measure the amount of traffic that your test sends to the application under test. This category includes metrics like Created Virtual Users, Current Virtual Users, and Requests Sent/second. These metrics are gathered by Test Studio Load Tests by default, and do not require you to profile Performance Counters.
 
-###Resource Use Metrics
+### Resource Use Metrics
 
 These data measure the amount of hardware resources the application under test uses during your load test. This category includes metrics like % Processor Time, Memory Cache Faults/sec, and Avg. Disk Queue Length. These metrics are not gathered by Test Studio Load Tests by default, and require you to profile Performance Counters.
 
 Your test may measure additional metrics, but these are a good place to start your analysis.
 
-##Correlate Key Load Data
+## Correlate Key Load Data
 
 Once you have gathered and identified the key areas of load test data, you can ask questions about how these data relate to one another. For example:
 
@@ -44,7 +44,7 @@ Once you have gathered and identified the key areas of load test data, you can a
 
 You can help identify whether your application meets its requirements or goals using the <a href="/features/testing-types/load-testing/running-tests" target="_blank">Goals</a> feature.
 
-##Identify Issues
+## Identify Issues
 
 You can identify numerous problems by asking these questions. Most of these issues fall into one or more of the following categories.
 
@@ -56,7 +56,7 @@ You can identify numerous problems by asking these questions. Most of these issu
 
 * **Bugs**. These are issues that are not responsive to load.
 
-##Compare Key Load Data Graphically
+## Compare Key Load Data Graphically
 
 Comparing any of the three key areas of load data to one another can help answer your questions about how these data relate to one another. Here are some common graphs to view:
 
@@ -78,7 +78,7 @@ Spikes in processor usage may be associated with increased response times for us
 
 ![Average Time to First Byte (ms) vs. Total % Processor Time][3]
 
-##View Page Specific Metrics
+## View Page Specific Metrics
 
 To identify slow resources and the cause of HTTP errors, view the <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">Page Specific Metrics</a> screen for your load results. This view helps identify which pages generated the most HTTP errors and which pages had the highest average response time.
 
@@ -92,7 +92,7 @@ To find out what kind of errors a page generated, click on the row for that URL 
 
 ![Error code][5]
 
-##See Also
+## See Also
 
 * <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">Analyze Results Screen</a>
 

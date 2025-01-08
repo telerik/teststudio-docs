@@ -3,7 +3,7 @@ title: Maintain Scheduling Services
 page_title: Maintain Scheduling Services
 description: Restart Telerik Scheduling and Storage Services. The Scheduling setup is stuck or hanged and no scheduled tests or test lists can be executed. 
 position: 1
-publish: false
+published: false
 ---
 
 # Maintain Scheduling Services
