@@ -464,8 +464,6 @@ redirects:
     from: "^/?$"
     to: "/welcome"
     type: Permanent
-<<<<<<< HEAD
-    
 -
     from: "^/archived-docs/(.*)$"
     to: "/welcome"
@@ -2569,9 +2567,6 @@ redirects:
 -
     from: "/prerequisites/configure-your-browser/safari"
     to: "/prerequisites/configure-your-browser/browser-configuration"
-
-=======
 -
-    from: "^/?$"
+    from: "^/archived-docs/(.*)$"
     to: "/welcome"
->>>>>>> 1d96aff (Add docs-builder configuration file)
