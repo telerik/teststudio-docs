@@ -3,7 +3,7 @@ title: Debug Project
 page_title: Compile Project
 description: "Progress® Test Studio® for APIs - Code Features - Debug Project"
 position: 6
-publish: true
+published: true
 ---
 
 # Debug Project

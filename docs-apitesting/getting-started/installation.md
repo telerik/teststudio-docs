@@ -3,10 +3,10 @@ title: Installation
 page_title: Installation
 description: "Progress® Test Studio® for APIs - Getting Started - Installation"
 position: 1
-publish: true
+published: true
 ---
 
-#Installation Procedure
+# Installation Procedure
 
 1. After you have downloaded the install file, locate it using Windows Explorer and double click it to launch the installer.
 2. Click __Read License Agreement__, then __OK__, then I __Agree - Continue__.

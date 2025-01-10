@@ -3,7 +3,7 @@ title: Overview
 page_title: Overview
 description: "Progress® Test Studio® for APIs - Command Line Interface - Overview"
 position: 0
-publish: true
+published: true
 ---
 # Command Line Interface - Overview
 

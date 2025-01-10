@@ -3,7 +3,7 @@ title: Code Items
 page_title: Code Items
 description: "Progress® Test Studio® for APIs - Code Features - Code Items"
 position: 3
-publish: true
+published: true
 ---
 
 # Code Items
