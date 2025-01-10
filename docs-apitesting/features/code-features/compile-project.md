@@ -3,7 +3,7 @@ title: Compile Project
 page_title: Compile Project
 description: "Progress® Test Studio® for APIs - Code Features - Compile Project"
 position: 5
-publish: true
+published: true
 ---
 
 # Compile Project

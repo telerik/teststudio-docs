@@ -3,7 +3,7 @@ title: Configure Custom Proxy
 page_title: Configure Custom Proxy
 description: "Progress® Test Studio® for APIs - CI Server Integration"
 position: 2
-publish: true
+published: true
 ---
 
 # Overview

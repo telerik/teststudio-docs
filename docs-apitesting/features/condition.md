@@ -3,7 +3,7 @@ title: Condition
 page_title: Condition
 description: "Progress® Test Studio® for APIs - Condition"
 position: 0
-publish: true
+published: true
 ---
 
 # Condition

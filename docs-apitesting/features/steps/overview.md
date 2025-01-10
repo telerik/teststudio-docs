@@ -3,7 +3,7 @@ title: Overview
 page_title: Overview
 description: "Progress® Test Studio® for APIs - Steps - Overview"
 position: 0
-publish: true
+published: true
 ---
 
 # Steps Overview

@@ -3,7 +3,7 @@ title: Test Results
 page_title: Test Results
 description: "Progress® Test Studio® for APIs - Test Results"
 position: 0
-publish: true
+published: true
 ---
 
 # Test Results

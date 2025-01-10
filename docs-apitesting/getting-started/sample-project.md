@@ -3,10 +3,10 @@ title: Sample Project
 page_title: Sample Project
 description: "Progress® Test Studio® for APIs - Getting Started - Sample Project"
 position: 2
-publish: true
+published: true
 ---
 
-#Running Sample Project 
+# Running Sample Project 
 
 To help you explore the functionalities of Test Studio for APIs we have created a demo test project that calls a very simple demo application under test.
 

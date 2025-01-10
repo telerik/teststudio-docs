@@ -3,7 +3,7 @@ title: Http Request Step
 page_title: Http Request Step
 description: "Progress® Test Studio® for APIs - Steps - Http Request Step"
 position: 2
-publish: true
+published: true
 ---
 
 # Http Request Step

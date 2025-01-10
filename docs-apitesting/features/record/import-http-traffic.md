@@ -3,7 +3,7 @@ title: Import HTTP(S) Traffic
 page_title: Import HTTP(S) Traffic
 description: "Progress® Test Studio® for APIs - Import HTTP(S) Traffic"
 position: 2
-publish: true
+published: true
 ---
 
 # Import HTTP(S) Traffic

@@ -4,7 +4,7 @@ page_title: CI Server Integration
 description: "Progress® Test Studio® for APIs - CI Server Integration"
 previous_url: /api-testing/advanced-topics
 position: 1
-publish: true
+published: true
 ---
 
 # CI Server Integration

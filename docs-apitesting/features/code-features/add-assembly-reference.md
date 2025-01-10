@@ -3,7 +3,7 @@ title: Add Assembly Reference
 page_title: Add Assembly Reference
 description: "Progress® Test Studio® for APIs - Code Features - Add Assembly Reference"
 position: 8
-publish: true
+published: true
 ---
 
 # Add Assembly Reference

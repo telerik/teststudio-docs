@@ -3,7 +3,7 @@ title: No Test Execution Output
 page_title: No Test Execution Output
 description: "Progress® Test Studio® for APIs - Troubleshooting guide - No Test Execution Output"
 position: 1
-publish: true
+published: true
 ---
 # No Test Execution Output
 

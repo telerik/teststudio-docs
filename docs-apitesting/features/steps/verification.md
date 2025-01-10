@@ -3,7 +3,7 @@ title: Verification Step
 page_title: Verification Step
 description: "Progress® Test Studio® for APIs - Steps - Verification Step"
 position: 4
-publish: true
+published: true
 ---
 
 # Verification Step

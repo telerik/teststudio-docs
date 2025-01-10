@@ -3,7 +3,7 @@ title: Code-Behind Files
 page_title: Code-Behind Files
 description: "Progress® Test Studio® for APIs - Code Features - Code-Behind Files"
 position: 2
-publish: true
+published: true
 ---
 
 # Code-Behind Files
