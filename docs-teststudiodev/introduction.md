@@ -18,7 +18,7 @@ Releases can be stressful especially with the market’s high demand for continu
 Test Automation can replace error-prone, repetitive and tedious manual testing tasks, with minimal efforts to maintain sustainable levels of software quality on schedule.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## How Test Studio Dev Edition Helps You in Automation Testing

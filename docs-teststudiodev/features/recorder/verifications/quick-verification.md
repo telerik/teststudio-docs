@@ -5,7 +5,7 @@ description: How to create a quick verification in Test Studio Dev
 slug: recorder/quick-execution
 position: 1
 ---
-# Add a Quick Verification#
+# Add a Quick Verification
 
 The easiest and fastest way to add a _verification_ to your test is through the Quick Steps section in the element's context menu.
 

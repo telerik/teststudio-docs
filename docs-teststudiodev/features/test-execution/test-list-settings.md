@@ -4,13 +4,13 @@ page_title: Test List Settings  - Test Studio Dev Documentation
 description: "Test Studio Test List Settings. Change the browser for a test list run. RunnerResponseTimeout. UnexpectedDialogAction. KillBrowserProcessOnClose KillBrowsersBeforeStart Test list baseURL"
 position: 4
 ---
-# Test List Settings #
+# Test List Settings
 
 The Test lists in Test Studio Dev have various settings to modify and customize the test runs. These are specific for the test lists in Test Studio Dev project.
 
 ![Test List Settings][1]
 
-## General Tab ##
+## General Tab
 
 * ***Annotation***
 	* **AnnotateExecution** - whether to highlight and annotate the target element that the current action is being executed against.
@@ -49,7 +49,7 @@ The Test lists in Test Studio Dev have various settings to modify and customize 
 	* **RecordingScale** - sets downscaling of the recorded video in percents. From 10 to 100.
 	* **RecordingSizeLimit** - sets file size limit in megabytes, 0 is unlimited size. If the limit is reached, video recording will be stopped before the test execution ends.
 
-## Web Tab ##
+## Web Tab
 
 * ***ASP.NET***
 	* **AspNetDevServerPort** - the ASP.NET development server port to use, if enabled. If set to -1, a random port is generated each time the manager is created.
@@ -77,7 +77,7 @@ The Test lists in Test Studio Dev have various settings to modify and customize 
 	* **SilverlightApplicationPath** - the web address or local directory from which to load a Silverlight application.
 	* **SilverlightConnectTimeout** - the amount of time to wait for a Silverlight application to load before timing out.
 
-## WPF Tab ##
+## WPF Tab
 
 * ***Misc***
 	* **DefaultApplicationPath** - represents the default application path for WPF tests.

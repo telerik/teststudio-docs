@@ -4,11 +4,11 @@ page_title: Override app.config - Test Studio Dev Documentation
 description: Override app.config
 position: 1
 ---
-#Override the app.config File in a Test Studio Project#
+# Override the app.config File in a Test Studio Project
 
 *I would like Visual Studio to load the app.config file to get its run-time configuration settings.*
 
-##Solution##
+## Solution
 
 > The app.config only applies to projects in Visual Studio as explained <a href="http://msdn.microsoft.com/en-us/library/a65txexh.aspx" target="_blank">here</a>.
 
@@ -20,10 +20,7 @@ However, this doesn't work with a default Test Studio Dev project. A Test Studio
 
 * *System.Configuration*
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     Assembly me = Assembly.GetExecutingAssembly();
     Configuration config = ConfigurationManager.OpenExeConfiguration(me.ManifestModule.Assembly.Location);
     
@@ -32,12 +29,8 @@ However, this doesn't work with a default Test Studio Dev project. A Test Studio
     string pw = config.AppSettings.Settings["Pass"].Value;
     string UserId = config.AppSettings.Settings["UserId"].Value;
     string conn = config.ConnectionStrings.ConnectionStrings["ConnectionString"].ConnectionString;
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim [me] As Assembly = Assembly.GetExecutingAssembly()
     Dim config As Configuration = ConfigurationManager.OpenExeConfiguration([me].ManifestModule.Assembly.Location)
     
@@ -46,4 +39,4 @@ However, this doesn't work with a default Test Studio Dev project. A Test Studio
     Dim pw As String = config.AppSettings.Settings("Pass").Value
     Dim UserId As String = config.AppSettings.Settings("UserId").Value
     Dim conn As String = config.ConnectionStrings.ConnectionStrings("ConnectionString").ConnectionString
-    {{endregion}}
+````

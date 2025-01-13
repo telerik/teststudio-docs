@@ -4,14 +4,11 @@ page_title: Data Driven Image Verification - Test Studio Dev Documentation
 description: How to data drive image verification in Test Studio Dev
 position: 3
 ---
-# Data Driven Image Verification #
+# Data Driven Image Verification
 
 To data bind an <a href="/features/recorder/verifications/image-verification" target="_blank">image verification</a> step certain actions have to be performed. An approach to this scenario is to have previously stored histograms of the image element to which verification should be bonded. Then in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> the verification has to be managed as it is given in the sample below:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     // get an image of MyImage element
     System.Drawing.Bitmap bitmap = Pages.MyPage.MyImage.Capture();
 
@@ -36,12 +33,8 @@ To data bind an <a href="/features/recorder/verifications/image-verification" ta
 
     // Assert statement 
     ArtOfTest.Common.UnitTesting.Assert.IsTrue(tolerance >= compareValue);
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim bitmap As System.Drawing.Bitmap = Pages.MyPage.MyImage.Capture()
 
     Dim histogram As ArtOfTest.Common.Histogram = ArtOfTest.Common.Histogram.FromBitmap(bitmap)
@@ -59,8 +52,7 @@ To data bind an <a href="/features/recorder/verifications/image-verification" ta
     Dim tolerance As Double = 10.0
 
     ArtOfTest.Common.UnitTesting.Assert.IsTrue(tolerance >= compareValue)
-    {{endregion}}
-
+````
 To complete this scenario using the provided sample:
 
 - *System.Drawings* .NET assembly has to be referenced in the project

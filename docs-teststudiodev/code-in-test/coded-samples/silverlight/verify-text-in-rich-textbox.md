@@ -4,23 +4,23 @@ page_title: Verify Text in Rich TextBox - Test Studio Dev Documentation
 description: Verify Text in Rich TextBox
 position: 1
 ---
-# Verify Text in a Silverlight RichTextBox #
+# Verify Text in a Silverlight RichTextBox
 
 _I cannot verify all the text or its properties in my Silverlight RichTextBox. The contents are either not visible or each word is contained in an individual TextBlock in the Visual Tree._
 
-## Solution ##
+## Solution
 
 The <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.richtextbox%28v=vs.95%29.aspx" target="_blank">Silverlight RichTextBox</a> is tricky to work with. It is a "container" type of control, meaning it contains other <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.block%28v=vs.95%29.aspx" target="_blank">"block" elements</a>, usually the <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.paragraph%28v=vs.95%29.aspx" target="_blank">Paragraph</a> or <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.section%28v=vs.95%29.aspx" target="_blank">Section</a>. It is these block elements that hold the actual text displayed in the RichTextBox. Thus, to fetch the displayed text, you must enumerate through the individual blocks and fetch the text from each block element.
 
 To make matters worse, the contents of the RichTextBox may not be contained in the Silverlight Visual Tree. You have to get the Xaml property and parse the contents yourself. Here is an example. Let's assume that you have this in the XAML file for your Silverlight application:
 
-```XAML
+````XAML
 <RichTextBox AutomationProperties.AutomationId="richTextBox1" Name="richTextBox1" Margin="310,6,6,235">
     <Paragraph FontSize="11" FontFamily="Portable User Interface" Foreground="#FF000000" FontWeight="Normal" FontStyle="Normal" FontStretch="Normal" TextAlignment="Left">
         <Run FontWeight="Bold" Text="Now is the time for all good men to come to the aid of their country." />
     </Paragraph>
 </RichTextBox>
-```
+````
 
 The application will show text as shown below.
 
@@ -28,7 +28,7 @@ The application will show text as shown below.
 
 However in DOM Explorer all you see is this:
 
-```XAML
+````XAML
 <?xml version="1.0"?>
 <richtextbox Name="richTextBox1" AutomationId="richTextBox1" Uid="16157963">
   <grid Name="RootElement" Uid="37840511">
@@ -52,14 +52,13 @@ However in DOM Explorer all you see is this:
     <border Name="FocusVisualElement" Uid="13045638" />
   </grid>
 </richtextbox>
-```
+````
 
 Notice that there's no text in the DOM view, even though it is specified in the XAML and displayed in the application. We have to use code to fetch the XAML that the RichTextBox holds as data, then parse out the text buried in it. Here's an example:
 
-#### __[C#]__
+````C#
 
-  {{region }}
-
+  
   // Fetch the XAML property of the RichTextBox
   string rtbContents = (string)Pages.SilverlightAppTesting.SilverlightApp.RichTextBox1Richtextbox.GetProperty(new AutomationProperty("Xaml", typeof(string)));
   
@@ -75,12 +74,10 @@ Notice that there's no text in the DOM view, even though it is specified in the 
   {
       Log.WriteLine(runNode.Attributes["Text"].Value);
   }
-  {{endregion}}
+````
+````VB
 
-#### __[VB]__
-
-  {{region }}
-
+  
   Dim rtbContents As String = DirectCast(Pages.SilverlightAppTesting.SilverlightApp.RichTextBox1Richtextbox.GetProperty(New AutomationProperty("Xaml", GetType(String))), String)
     
   Dim doc As XmlDocument = New System.Xml.XmlDocument()
@@ -91,14 +88,13 @@ Notice that there's no text in the DOM view, even though it is specified in the 
   For Each runNode As XmlNode In runNodes
       Log.WriteLine(runNode.Attributes("Text").Value)
   Next
-  {{endregion}}
+````
 
 Here's how to verify the text is bold:
 
-#### __[C#]__
+````C#
 
-  {{region }}
-
+  
   string rtbContents = (string)Pages.SilverlightAppTesting.SilverlightApp.RichTextBox1Richtextbox.GetProperty(new AutomationProperty("Xaml", typeof(string)));
   Log.WriteLine(rtbContents);
     
@@ -114,12 +110,10 @@ Here's how to verify the text is bold:
   
   // Verify it is Bold
   Assert.AreEqual<string>("Bold", attr.Value);
-  {{endregion}}
+````
+````VB
 
-#### __[VB]__
-
-  {{region }}
-
+  
   Dim rtbContents As String = DirectCast(Pages.SilverlightAppTesting.SilverlightApp.RichTextBox1Richtextbox.GetProperty(New AutomationProperty("Xaml", GetType(String))), String)
   Log.WriteLine(rtbContents)
     
@@ -135,6 +129,6 @@ Here's how to verify the text is bold:
     
 
   Assert.AreEqual(Of String)("Bold", attr.Value)
-  {{endregion}}
+````
 
 [1]: images/verify-text-in-rich-textbox/fig1.png

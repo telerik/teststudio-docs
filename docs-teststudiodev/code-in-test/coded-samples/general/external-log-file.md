@@ -20,10 +20,7 @@ We have code samples for two file types:
 
 ## Text File
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     public IList<AutomationStepResult> stepResults { get; set; }
     public override void OnAfterTestCompleted(TestResult result)
     {
@@ -42,12 +39,8 @@ We have code samples for two file types:
         file.WriteLine("Total Test Result: "+ overall);
         file.Close();
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Public Property stepResults() As IList(Of AutomationStepResult)
         Get
             Return m_stepResults
@@ -73,7 +66,7 @@ We have code samples for two file types:
         file.WriteLine("Total Test Result: " & overall)
         file.Close()
     End Sub
-    {{endregion}}
+````
 
 Finally you'll need to add an Assembly Reference for *ArtOfTest.Common.Design*. If it is already present, remove it and add it again. Add it from the \**Test Studio\Bin** directory:
 
@@ -85,10 +78,7 @@ Finally you'll need to add an Assembly Reference for *ArtOfTest.Common.Design*. 
 
 * You'll need to create the Excel file on disk first.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     public override void OnAfterTestCompleted(TestResult result)
     {
         string passed = Convert.ToString(result.TotalPassedSteps);
@@ -123,12 +113,8 @@ Finally you'll need to add an Assembly Reference for *ArtOfTest.Common.Design*. 
         GC.Collect();
         System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Public Overrides Sub OnAfterTestCompleted(result As TestResult)
         Dim passed As String = Convert.ToString(result.TotalPassedSteps)
         Dim notRunSteps As String = Convert.ToString(result.TotalNumberOfNotRunSteps)
@@ -161,4 +147,4 @@ Finally you'll need to add an Assembly Reference for *ArtOfTest.Common.Design*. 
         GC.Collect()
         System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp)
     End Sub
-    {{endregion}}
+````

@@ -4,11 +4,11 @@ page_title: Random Row - Test Studio Dev Documentation
 description: Random Row
 position: 1
 ---
-#Random Row from Excel Data Source#
+# Random Row from Excel Data Source
 
 *Is there a way to data drive a step in a test script so that each time the script is run, the test step will select a random row from the Excel data source?*
 
-##Solution##
+## Solution
 
 In code, generate a random number based on the number of rows. Then use the corresponding text from that row's cell in the applicable test step.
 
@@ -18,10 +18,7 @@ In code, generate a random number based on the number of rows. Then use the corr
 
 	* **Note:** Ensure you <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *Microsoft.Office.Interop.Excel*. You can download a version of that file on Microsoft's website that matches your version of MS Office.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     Random random = new Random();
     int num = random.Next(1, 6);
     
@@ -36,12 +33,8 @@ In code, generate a random number based on the number of rows. Then use the corr
     app = null;
     
     Pages.Bing.SbFormQText.Text = value;
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim random As New Random()
     Dim num As Integer = random.[Next](1, 6)
     
@@ -58,5 +51,5 @@ In code, generate a random number based on the number of rows. Then use the corr
     app = Nothing
     
     Pages.Bing.SbFormQText.Text = value
-    {{endregion}}
+````
 

@@ -4,7 +4,7 @@ page_title: Drag & Drop - Test Studio Dev Documentation
 description: Drag & Drop
 position: 2
 ---
-#How to Drag and Drop#
+# How to Drag and Drop
 
 The HTML element wrapper classes make mouse drag & drop operations significantly easier. There are 7 different drag methods defined:
 
@@ -33,10 +33,7 @@ The HTML element wrapper classes make mouse drag & drop operations significantly
 Suppose we have an sales by area table that supports drag & drop between cells. We can easily drag & drop the contents of one cell to another cell like this:
 
 
-#### __[C#]__
-
-          {{region }}
-
+````C#      
 // Find the sales table
 HtmlTable salesTable = Find.ById<HtmlTable>("area_1_table");
   
@@ -46,13 +43,10 @@ salesTable.BodyRows[3].Cells[1].DragTo(salesTable.BodyRows[2].Cells[1]);
 // Verify the new row subtotals are correct
 Assert.AreEqual(salesTable.Rows[2].Cells[5].TextContent, "$3342.78");
 Assert.AreEqual(salesTable.Rows[3].Cells[5].TextContent, "$2175.17");
-{{endregion}}
+````
  
 
-#### __[VB]__
-
-          {{region }}
-
+````VB      
 ' Find the sales table
 Dim salesTable As HtmlTable = Find.ById(Of HtmlTable)("area_1_table")
   
@@ -62,4 +56,4 @@ salesTable.BodyRows(3).Cells(1).DragTo(salesTable.BodyRows(2).Cells(1))
 ' Verify the new row subtotals are correct
 Assert.AreEqual(salesTable.Rows(2).Cells(5).TextContent, "$3342.78")
 Assert.AreEqual(salesTable.Rows(3).Cells(5).TextContent, "$2175.17")
-{{endregion}}
+````

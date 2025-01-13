@@ -4,11 +4,11 @@ page_title: Non-iterative Data Driving - Test Studio Dev Documentation
 description: Non-iterative Data Driving
 position: 1
 ---
-#Non-iterative Data Driving#
+# Non-iterative Data Driving
 
 *Is there a way to data drive a step in a test script so that each time the script is run, the test step will select a different sequential row from the data source?*
 
-##Solution##
+## Solution
 
 The solution is to save the number of the row into an XML file. Each time you execute the test, read the number of the row from the XML file and tell Test Studio to use this row from your data source.
 
@@ -20,12 +20,12 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 1.3 Write the following code into the file:
 
-```XML
+````XML
 	<?xmlversion="1.0" encoding="UTF-8"?>
 		<IterationValue> 
 		<numVal>0</numVal>
 	</IterationValue>
-```
+````
 
 2.&nbsp; Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
 
@@ -47,10 +47,9 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 3.5 Create a method which will save the row number into the XML file:
 
-#### __[C#]__
+````C#
 
-	{{region }}
-
+	
 	public void SaveValue(int numVal)
 	{
 		string path = @"C:\Box\NextRowOnEachRun\IterationValue.xml";
@@ -58,26 +57,23 @@ The solution is to save the number of the row into an XML file. Each time you ex
 		e.Add(new XElement("numVal", numVal));
 		e.Save(path);
 	}
-	{{endregion}}
+````
+````VB
 
-#### __[VB]__
-
-	{{region }}
-
+	
 	Public Sub SaveValue(numVal As Integer)
 		Dim path As String = "C:\Box\NextRowOnEachRun\IterationValue.xml"
 		Dim e As New XElement("IterationValue")
 		e.Add(New XElement("numVal", numVal))
 		e.Save(path)
 	End Sub
-	{{endregion}}
+````
 
 3.6 Create a method which will load the row number from the XML file:
 
-#### __[C#]__
+````C#
 
-	{{region }}
-
+	
 	public int LoadValue()
 	{
 		string path = @"C:\Box\NextRowOnEachRun\IterationValue.xml";
@@ -87,12 +83,10 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 		return numVal;
 	}
-	{{endregion}}
+````
+````VB
 
-#### __[VB]__
-
-	{{region }}
-
+	
 	Public Function LoadValue() As Integer
 		Dim path As String = "C:\Box\NextRowOnEachRun\IterationValue.xml"
 		Dim e As XElement = XElement.Load(path)
@@ -101,14 +95,13 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 		Return numVal
 	End Function
-	{{endregion}}
+````
 
 3.7 Create a method which will read the row from the Excel file:
 
-#### __[C#]__
+````C#
 
-	{{region }}
-
+	
 	public string ReadingExcel()
 	{
 		int rowValue = LoadValue();
@@ -130,12 +123,10 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 		return value;
 	}
-	{{endregion}}
+````
+````VB
 
-#### __[VB]__
-
-	{{region }}
-
+	
 	Public Function ReadingExcel() As String
 		Dim rowValue As Integer = LoadValue()
 		Dim input As String = "C:\Box\NextRowOnEachRun\foo.xlsx"
@@ -157,6 +148,6 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 		Return value
 	End Function
-	{{endregion}}
+````
 
 [1]: images/non-iterative-data-driving/fig1.png

@@ -14,33 +14,23 @@ To automate a WPF application it is necessary to <a href="/features/recorder/rec
 
 It is necessary to create a stand alone class file (*Utility*) which static property (*pathFile*) will be used to store the path to the latest app version:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     public class Utility
     {
         public static string pathFile = string.Empty;
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Public Class Utility
 
         Public Shared pathFile As String = String.Empty
 
     End Class
-    {{endregion}}
+````
 
 The following scenario assumes that the app is downloaded form a web destination, installed and ran from a browser. In such case the first test in the list will be a Web test that will complete the app installation part. At the end of the installation the latest app version will be up and running. This test have to end with acoded step which will save in a variable the path to the new application as given bellow:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     // check if there is running process with same name
     var runningApp = System.Diagnostics.Process.GetProcesses().Where(p => p.ProcessName == "YourClickOnceWpfApp");
 
@@ -52,12 +42,8 @@ The following scenario assumes that the app is downloaded form a web destination
 
     // save the full path to a common variable
     Utility.pathFile = proc.MainModule.FileName.ToString();
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim runningApp = System.Diagnostics.Process.GetProcesses().Where(Function(p) p.ProcessName = "YourClickOnceWpfApp")
 
     Dim proc = runningApp.FirstOrDefault()
@@ -66,14 +52,11 @@ The following scenario assumes that the app is downloaded form a web destination
 
     Utility.pathFile = proc.MainModule.FileName.ToString()
 
-    {{endregion}}
+````
 
 Next step is to create a WPF test that begins with a coded step and is configured to run a dummy WPF app. In the coded step the initially started mock app will be closed. Then depending on the latest version state (running/stoped) Test Studio will connect to or open it for next test steps execution:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     // Shut down "mock" app
     ActiveApplication.Quit();
 
@@ -90,12 +73,8 @@ Next step is to create a WPF test that begins with a coded step and is configure
         // or - launch new application
         Manager.LaunchNewApplication(Utility.pathFile);
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     ActiveApplication.Quit()
 
     Dim runningApp = System.Diagnostics.Process.GetProcesses().Where(Function(p) p.ProcessName = "YourClickOnceWpfApp")
@@ -110,4 +89,4 @@ Next step is to create a WPF test that begins with a coded step and is configure
 
     End If
 
-    {{endregion}}
+````

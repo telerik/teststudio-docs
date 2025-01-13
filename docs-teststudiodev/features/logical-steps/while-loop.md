@@ -10,7 +10,7 @@ position: 1
 
 Walk--through of <a href="/features/logical-steps/while-loop#Build-a-While-loop">Do...While Statement process</a> and <a href="/features/logical-steps/while-loop#Execution-Status">execution status overview</a>.
 
-##Build a While loop
+## Build a While loop
 
 1.&nbsp; Create a Web Test and click Record.
 

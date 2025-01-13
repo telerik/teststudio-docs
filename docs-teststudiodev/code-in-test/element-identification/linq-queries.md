@@ -4,7 +4,7 @@ page_title: LINQ Queries - Test Studio Dev Documentation
 description: LINQ Queries
 position: 1
 ---
-#LINQ Queries#
+# LINQ Queries
 
 The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Some of the Find functions are intended to be used by LINQ queries only. These include:
 
@@ -29,8 +29,7 @@ Using LINQ we can create strongly typed advanced queries with intellisense suppo
 
 ### __[VB]__
 
-				{{region }}
-
+				
 	// Find all images on a page.
 	var images = Find.AllControls<HtmlImage>();
 	
@@ -38,14 +37,13 @@ Using LINQ we can create strongly typed advanced queries with intellisense suppo
 	{
 		// Do what you want with each img.
 	}
-	{{endregion}}
+````
 
 We can also use lambda expressions like this:
 
 ### __[VB]__
 
-            {{region }}
-
+            
 	// Find the first element that contains "Go Google"
 	Element el = Find.ByCustom(e => e.TextContent.Contains("Go Google"));
 	
@@ -69,4 +67,4 @@ We can also use lambda expressions like this:
 	// Fetch a list of HTML anchor's that contain 'a' in the ID
 	IList<Element> li = (from b in Find.AllElements() where b.IdAttributeValue.Contains("a") select b).ToArray();
 	Assert.IsTrue(li.Count > 0);
-	{{endregion}}
+````

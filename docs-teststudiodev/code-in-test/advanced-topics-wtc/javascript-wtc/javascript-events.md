@@ -4,13 +4,13 @@ page_title: JavaScript Events
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 2
 ---
-#JavaScript Events#
+# JavaScript Events
 
-##Invoking JavaScript Events##
+## Invoking JavaScript Events
 
 Telerik Testing Framework allows you to invoke JavaScript events directly with or without event arguments. For example:
 
-```C#
+````C#
 // Invoke the OnFocus event
 HtmlButton b = Find.ById<HtmlButton>("b");
 b.InvokeEvent(ScriptEventType.OnFocus);
@@ -25,10 +25,10 @@ MouseEvent me = new MouseEvent();
 me.Type = "mouseover";
 me.SetRelatedTarget(body1);
 area1.InvokeEvent(me);
-```
+````
  
 
-```VB
+````VB
 ' Invoke the OnFocus event
 Dim b As HtmlButton = Find.ById(Of HtmlButton)("b")
 b.InvokeEvent(ScriptEventType.OnFocus)
@@ -43,13 +43,13 @@ Dim [me] As New MouseEvent()
 [me].Type = "mouseover"
 [me].SetRelatedTarget(body1)
 area1.InvokeEvent([me])
-```
+````
 
-##JavaScript Event Handlers##
+## JavaScript Event Handlers
 
 The framework gives you the ability to attach a .NET event handler to your JavaScript happening in the browser. Start by defining your event handler like this:
 
-```C#
+````C#
 private volatile bool _clickHandled;
 private System.Threading.AutoResetEvent _clickARE;
  
@@ -58,10 +58,10 @@ private void OnClick(object sender, JavascriptEventArgs e)
     _clickHandled = true;
     _clickARE.Set();
 }
-```
+````
  
 
-```VB
+````VB
 Private _clickHandled As Boolean
 _clickHandled
 Private _clickARE As System.Threading.AutoResetEvent
@@ -70,11 +70,11 @@ Private Sub OnClick(ByVal sender As Object, ByVal e As JavascriptEventArgs)
     _clickHandled = True
     _clickARE.[Set]()
 End Sub
-```
+````
 
 All that's left is to attach the event handler to an element on the DOM like this:
 
-```C#
+````C#
 [TestMethod]
 public void ClickHandler()
 {
@@ -94,10 +94,10 @@ public void ClickHandler()
  
     Assert.IsTrue(_clickHandled);
 }
-```
+````
  
 
-```VB
+````VB
 <TestMethod()> _
 Public Sub ClickHandler()
     _clickARE = New System.Threading.AutoResetEvent(False)
@@ -116,4 +116,4 @@ Public Sub ClickHandler()
  
     Assert.IsTrue(_clickHandled)
 End Sub
-```
+````

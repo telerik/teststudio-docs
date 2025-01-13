@@ -46,13 +46,13 @@ Then select data source and data table in the _Bind test to data source_ dialog 
 
 Here is an example of a basic XML file with two columns:
 
-```xml
+````XML
 <Searches>
    <Search UserName="john.smith" Password="t3ler1k" />
    <Search UserName="bob.brown" Password="5ilverl1ght" />
    <Search UserName="sam.jones" Password="t3st5tudi0" />
 </Searches>
-```
+````
 
 *Search* is the equivalent of an Excel Sheet. *UserName* and *Password* translate as the column names. Use **$(UserName)** and **$(Password)** to data bind the applicable properties.
 

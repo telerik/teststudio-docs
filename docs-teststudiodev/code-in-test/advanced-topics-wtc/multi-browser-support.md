@@ -5,12 +5,12 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/advanced-topics/multi-browser-instance-support.aspx, /user-guide/write-tests-in-code/advanced-topics/multi-browser-instance-support
 position: 3
 ---
-#Multi-Browser Instance Support#
+# Multi-Browser Instance Support
 
 Throughout the Telerik Testing Framework tutorials, we've been focusing only on the single browser instance 'ActiveBrowser,' given that it is the most common usage in web automation. Multi-browser instance automation within one session of the Manager object is supported, however. Having different types of browsers being automated within the same session is also supported. For example, within one test case session, you can automate two Internet Explorer browser instances and one Firefox instance all running concurrently. Such types of automation might not be very common but might be useful for certain specialized scenarios. (i.e. you could use this feature to do bitmap comparison across different browser types by capturing browser images from one instance and comparing it to the captured image from another instance).
 
 
-##How It Works##
+## How It Works
 
 The 'Manager' object is the main object that keeps tracks of all active browser instances using the Manager.Browsers[] collection. Users can launch as many instances as they want by using the 'Manager.LaunchNewBrowser()' method. Each time a new browser is launched, the 'Manager' creates the new 'Browser' object corresponding to that browser instance and adds it to the Browsers[] collection. The 'ActiveBrowser' property exposed off the 'Manager' is actually the last launched browser and should be the last browser instance in the 'Browsers[]' collection.
 
@@ -18,7 +18,7 @@ The 'Manager' object is the main object that keeps tracks of all active browser 
  
 The below sample demonstrates how you can leverage the multi-browser support to automate multiple instances of a browser within one test case. Such testing might be needed when performing concurrency testing in your web app.
 
-```C#
+````C#
 // Launch a new instance of IE
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, true);
   
@@ -56,10 +56,10 @@ ie.Window.SetFocus();
 // You can also choose to set a timeout as shown below to double check that the
 // browser has actually closed and its handle is no longer visible.
 ff.Close(40);
-```
+````
  
 
-```VB
+````VB
 ' Launch a new instance of IE
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)
   
@@ -97,4 +97,4 @@ ie.Window.SetFocus()
 ' You can also choose to set a timeout as shown below to double check that the
 ' browser has actually closed and its handle is no longer visible.
 ff.Close(40)
-```
+````

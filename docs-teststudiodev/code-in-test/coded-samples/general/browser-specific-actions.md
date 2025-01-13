@@ -20,10 +20,7 @@ The **RunsAgainst** Test Step Property allows you to choose against which browse
 
 You can  put together a much more complex use-case by using a coded solution. Here's the code from the test sample. It demonstrates how to use a different search word based on browser type:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     ActiveBrowser.NavigateTo("http://www.telerik.com/"); 
     //Navigate to the page
     
@@ -49,12 +46,8 @@ You can  put together a much more complex use-case by using a coded solution. He
     
     Find.ById<HtmlInputSubmit>("~btnSearchSubmit").Click(); //Click submit button
     System.Threading.Thread.Sleep(2000); //Wait a bit so we can see the result
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     ActiveBrowser.NavigateTo("http://www.telerik.com/")
     'Navigate to the page
     
@@ -82,6 +75,6 @@ You can  put together a much more complex use-case by using a coded solution. He
     'Click submit button
     System.Threading.Thread.Sleep(2000)
     'Wait a bit so we can see the result
-    {{endregion}}
+````
 
 [1]: images/run-against.png
