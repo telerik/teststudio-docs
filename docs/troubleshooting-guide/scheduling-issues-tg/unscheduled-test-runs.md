@@ -10,20 +10,10 @@ position: 1
 
 A test list runs repeatedly, but does not appear in the Results view.
 
-## PROBLEM
-
-The scheduling service will start, but after about 60 seconds it shuts back down. Looking at the Windows event log  in the <a href="https://www.microsoftpressstore.com/articles/article.aspx?p=2467489&seqNum=2" target="_blank">Event Viewer</a> reveals:
-
-<pre>
-Application: Telerik.TestStudio.ExecutionManagerService.exe
-Framework Version: v4.0.30319
-Description: The process was terminated due to an unhandled exception.
-Exception Info: System.IO.DirectoryNotFoundException
-</pre>
 
 ## SOLUTION
 
-To solve such misbehavior remove manually the scheduled jobs stored on the machine which hosts the Scheduling Server. The scheduled run jobs are stored as files in the ScheduleStorage directory and the easiest way is to delete all these in the respective folder. 
+To solve such misbehavior remove manually the scheduled jobs stored on the machine which hosts the Scheduling Server. The scheduled run jobs are stored as files in the ScheduleStorage directory and the easiest way is to delete all these in the respective folder. Then restart the Scheduling service. 
 
 The location of the ScheduleStorage directory depends on your configuration:
 
@@ -42,3 +32,5 @@ The location of the ScheduleStorage directory depends on your configuration:
     *%appdata%\Telerik\TestStudio\Scheduler\ScheduleStorage* 
 
 >**Note:** Deleting all of the files in the respective folder will remove all scheduled jobs from your scheduling server!
+
+

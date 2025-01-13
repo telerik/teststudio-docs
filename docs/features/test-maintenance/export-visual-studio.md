@@ -17,7 +17,7 @@ You can export your test project from the Standalone version to Visual Studio fo
 
 ![Export][1]
 
-3.&nbsp; Choose **Visual Studio 2012, 2013 or 2015**.
+3.&nbsp; Choose **Visual Studio 2019 or 2022**.
 
 ![Version][2]
 

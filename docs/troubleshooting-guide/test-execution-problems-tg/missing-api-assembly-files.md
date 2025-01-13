@@ -1,7 +1,7 @@
 ---
 title: Missing API Assembly Files
-page_title: APITesting Framework solution
-description: How to resolve error missing assembly for APITesting Framework. Error "Could not load file or assembly Telerik.ApiTesting.Framework. The system cannot find the file specified". Could not load file or assembly 'Telerik.ApiTesting.Framework, Version=xxxx.x.xxx.xxxx, Culture=neutral, PublicKeyToken=xxx' or one of its dependencies. The system cannot find the file specified.
+page_title: API Testing Framework solution
+description: How to resolve error missing assembly for API Testing Framework. Error "Could not load file or assembly Telerik.ApiTesting.Framework. The system cannot find the file specified". Could not load file or assembly 'Telerik.ApiTesting.Framework, Version=xxxx.x.xxx.xxxx, Culture=neutral, PublicKeyToken=xxx' or one of its dependencies. The system cannot find the file specified.
 position: 1
 ---
 # Resolve a Missing API Assembly Files Error

@@ -20,7 +20,11 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 
 3. Set the monitor's **DPI** setting at **Smaller** or **100%** as well.
 
-### Change DPI on Windows 10
+------------------------------------------------------
+
+Below you can find instructions on how to change the display DPI settings in Windows 10. 
+
+#### Change DPI on Windows 10
 
 1. Go to Control Panel -> Appearance and Personalization -> Display
 
@@ -29,24 +33,6 @@ When executing a test with real user actions, like **SimulateRealClick**, **Simu
 3. Select 100% from the dropdown  
 
 ![win 10][4]
-
-### Change DPI on Windows 8
-
-1. Go to Control Panel -> Appearance and Personalization -> Display
-
-2. Check **Let me choose one scaling level for all my displays** check box
-
-3. Select **Smaller - 100%** and click Apply
-
-![win 8][2]
-
-### Change DPI on Windows 7
-
-1. Go to Control Panel -> Appearance and Personalization -> Display
-
-2. Select **Smaller - 100%** and click Apply
-
-![win 7][3]
 
 [1]: /img/troubleshooting-guide/test-execution-problems-tg/click-action-fails/fig1.png
 [2]: /img/troubleshooting-guide/test-execution-problems-tg/click-action-fails/fig2.png

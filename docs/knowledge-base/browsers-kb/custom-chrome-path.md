@@ -8,7 +8,7 @@ position: 1
 
 Test Studio looks by default at *C:\Program Files (x86)\Google\Chrome\Application\* for the chrome.exe and *C:\Users\\[UserName]\AppData\Local\Google\Chrome\User Data\Default\* for preferences file.
 
-As of version **2015.3.1015** Test Studio also provides options for the user to support **custom location** for Chrome through setting **custom registry keys**.
+Test Studio also provides option for the user to support **custom location** for Chrome through setting **custom registry keys**.
 
 1.&nbsp; Run **regedit.exe**
 

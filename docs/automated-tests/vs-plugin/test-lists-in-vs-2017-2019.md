@@ -1,21 +1,23 @@
 ---
-title: Test Lists in Visual Studio 2017 and Later
-page_title: Test Lists in Visual Studio 2017 and Later
-description: "Test Studio Test Lists in Visual Studio - supported for Visual Studio 2017, 2019 and 2022. How to create a list (suite) of Test Studio tests in Visual Studio project. Can I execute static or dynamic Test Studio test list from Visual Studio project."
+title: Test Lists in Visual Studio 2019 and Later
+page_title: Test Lists in Visual Studio 2019 and Later
+description: "Test Studio Test Lists in Visual Studio - supported for Visual Studio  2019 and 2022. How to create a list (suite) of Test Studio tests in Visual Studio project. Can I execute static or dynamic Test Studio test list from Visual Studio project."
 position: 3
 ---
-# Test Lists in Visual Studio 2017 and Later
+# Test Lists in Visual Studio 2019 and Later
 
-Visual Studio 2017 and later allows you to add and run the <a href="/automated-tests/test-lists/test-lists-standalone">Test Studio test lists</a> in the context of the Visual Studio project. Depending on the requirements there are two options of test lists, which you can add in the Visual Studio project - **Static** and **Dynamic**.
+Visual Studio 2019 and later allows you to add and run the <a href="/automated-tests/test-lists/test-lists-standalone">Test Studio test lists</a> in the context of the Visual Studio project. Depending on the requirements there are two options of test lists, which you can add in the Visual Studio project - **Static** and **Dynamic**.
 
 In this article you can find useful information on the below topics:
 
-* [How to create a test list in Visual Studio project](#create-a-test-list-in-visual-studio-project)
-* [How to add a test list in an existing project prior Test Studio R3 2019 (v.2019.3.xx)](#add-a-test-list-in-an-existing-project)
-* [Setup a static test list](#add-test-files-to-static-test-list)
-* [Setup a dynamic test list](#add-test-files-to-dynamic-test-list)
-* [Customize settings for the test list in Visual Studio](#test-list-settings-in-visual-studio)
-* [Execute test lists in Visual Studio](#execute-test-list-files-in-visual-studio)
+- [Test Lists in Visual Studio 2019 and Later](#test-lists-in-visual-studio-2019-and-later)
+  - [Create a Test List in Visual Studio Project](#create-a-test-list-in-visual-studio-project)
+  - [Add a Test List in an Existing Project](#add-a-test-list-in-an-existing-project)
+  - [Add Test Files to Static Test List](#add-test-files-to-static-test-list)
+  - [Add Test Files to Dynamic Test List](#add-test-files-to-dynamic-test-list)
+  - [See Also](#see-also)
+  - [Test List Settings in Visual Studio](#test-list-settings-in-visual-studio)
+  - [Execute Test List Files in Visual Studio](#execute-test-list-files-in-visual-studio)
 
 > __Note!__
 ><br>

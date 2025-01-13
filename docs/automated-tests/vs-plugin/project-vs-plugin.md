@@ -33,16 +33,10 @@ The Test Studio project in Visual Studio is now launched. The project template l
 
 You can create a new Test Studio project from the _Telerik_ menu available in Visual Studio toolbar.
 
-In __Visual Studio 2015 and 2017__ the _Telerik_ menu is listed as separate one and you can find the option under __Telerik -> Test Studio -> Create New Test Project__
-
 In __Visual Studio 2019 and later__ the _Telerik_ menu is listed under the _Extensions_ menu and you can find the option under __Extensions -> Telerik -> Test Studio -> Create New Test Project__
 
-<table id=no-table>
-	<tr>
-		<td>![Create project][1] <br><br>**Visual Studio 2015 and 2017**</td>
-		<td>![Create project VS 2019][11]<br><br>**Visual Studio 2019 and Later**</td>
-	</tr>
-<table>
+
+![Create project VS 2019][11]
 
 ## Test Studio Components in the Visual Studio Project
 

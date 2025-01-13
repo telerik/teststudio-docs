@@ -7,7 +7,7 @@ position: 4
 ---
 # Branch Management For Git Source Control
 
-As of version 2017.R2 Test Studio supports management of Git branches in remote and local repositories.
+Test Studio supports management of Git branches in remote and local repositories.
 
 ## Remote Repository
 

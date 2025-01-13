@@ -3,6 +3,7 @@ title: Test from TFS Doesn't Run
 page_title: Test from TFS Doesn't Run
 description: "Scheduled test via Test Studio Scheduling setup and enabled to get latest from TFS connected project doesn't run on the remote machine. "
 position: 1
+publish: false
 ---
 # Test from TFS Doesn't Run
 
@@ -50,7 +51,7 @@ The remote path in TFS for each source control enabled project is stored in the 
 
 ## SOLUTION 2
 
-> Note: Since product version **R2 2017 SP1** such library dependency problem will not be present
+> Note! Since product version **R2 2017 SP1** such library dependency problem will not be present
 
 -  If the execution machine does not have the necessary TFS components installed, Test Studio cannot log on to TFS to check out the test project. If this is the problem, the following error will appear in the Execution Server application log: 
 

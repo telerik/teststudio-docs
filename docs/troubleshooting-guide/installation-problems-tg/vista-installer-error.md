@@ -3,6 +3,8 @@ title: Vista Installer Error
 page_title: Vista Installer Problem
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
+publish: false
+
 ---
 # Vista Installer Problem
 

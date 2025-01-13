@@ -1,42 +1,51 @@
 ---
 title: Error Starting Services
 page_title: Error Starting Services
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio installation error Service 'Telerik Scheduling Service' (Telerik Scheduling Service) failed to start. Verify that you have sufficient privileges to start system services. How to resolve Test Studio Scheduling service not starting during the installation of the tool"
 position: 1
+
 ---
 
 # Error Starting Services
 
-## PROBLEM
+## Problem
 
-While upgrading to Test Studio, this message appears:
+While upgrading Test Studio installation I get a message like this:
 
-**Service 'Telerik Scheduling Service' (Telerik Scheduling Service) failed to start. Verify that you have sufficient privileges to start system services.**
+`Service 'Telerik Scheduling Service' (Telerik Scheduling Service) failed to start. Verify that you have sufficient privileges to start system services.`
 
-## SOLUTION 1:
+## Cause
 
-It is very likely port: 8009 to be used by another application. This can be verified using <a href="http://windows.microsoft.com/en-us/windows/what-information-event-logs-event-viewer#1TC=windows-7" target="_blank">Event Viewer</a>. If this is the case:
+This error may appear if the default port used for the Scheduling service - 8009, is used by another application. This can be verified using the <a href="https://learn.microsoft.com/en-us/shows/inside/event-viewer" target="_blank"> Windows Event Viewer</a>. 
 
-1.&nbsp; Navigate to: **C:\ProgramData\Telerik\Configs**.
+## Solution 1:
 
-2.&nbsp;  Open **Telerik.TestStudio.ExecutionManager.exe.config** in text editor such as Notepad.
+1. Cancel the current Test Studio installation.
 
-3.&nbsp; Change the port (the highlighted part) to something else, for example 8010. Save your changes and continue with installation.
+1. Open a File Explorer and browse to: `C:\ProgramData\Telerik\Configs`.
 
-![Change port][1]
+1. Locate file with name `Telerik.TestStudio.ExecutionManager.exe.config` and open it in a text editor app such as Notepad++.
 
-## SOLUTION 2:
+1. Change the port (highlighted in the image below) to another port - for example 8010. Save the changes and continue with installation.
+
+    ![Change port][1]
+
+1. Restart the installation.
+
+## Solution 2:
 
 
-1.&nbsp; Cancel your Test Studio installation.
+1. Cancel the current Test Studio installation.
 
-2.&nbsp; Uninstall the old version of Test Studio.
+1. Uninstall the old version of Test Studio through the Windows Control Panel -> Programs and Features.
 
-3.&nbsp; Open the Progress Test Studio Configs folder (C:\ProgramData\Telerik\Configs in Windows 7; C:\Documents and Settings\All Users\Application Data\Telerik\Configs in Windows XP). This is a hidden folder.
+1. Open a File explorer and browse to the Progress Test Studio folder with config files `C:\ProgramData\Telerik\Configs`. 
 
-4.&nbsp; Rename the Execution Manager configuration file (Telerik.TestStudio.ExecutionManager.exe.config.xml) to a backup name (for example, Telerik.TestStudio.ExecutionManager.exe.config.xml.bak).
+    > __Note__ 'ProgramData' is a Windows system folder and is hidden by default. You my need to change the Windows File Explorer settings to show all files. 
 
-5.&nbsp; Restart the installation.
+2. Locate file with name `Telerik.TestStudio.ExecutionManager.exe.config` and to a backup name - for example `Telerik.TestStudio.ExecutionManager.exe.config.bak`. This will cause the installation process to create a new config file with the default settings for the Scheduling configuration. 
+
+3. Restart the installation.
 
 [1]: /img/troubleshooting-guide/installation-problems-tg/error-starting-services/fig1.png
 

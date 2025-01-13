@@ -24,7 +24,7 @@ The issue persists across different browsers and devices. Clearing the browser's
 
 ## Cause
 
-This issue can arise from various browser-related problems including outdated browser versions, stored cache and cookies, disabled JavaScript or cookies, active browser extensions, or network restrictions.
+This issue can arise from various browser-related problems. These include outdated browser versions, stored cache and cookies, disabled JavaScript or cookies, active browser extensions, or network restrictions.
 
 ## Solution
 

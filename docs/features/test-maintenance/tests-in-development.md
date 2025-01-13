@@ -7,7 +7,7 @@ position: 1
 ---
 # Tests In Development
 
-As of version 2017 R3 each test or standalone code file could be set into 'In Development' state. If the test includes a code file it will be automatically set to 'In Development' along with the test.
+Test Studio allows setting each test or standalone code file into 'In Development' state. If the test includes a code file it will be automatically set to 'In Development' along with the test.
 
 ![Set In Development State][1]
 

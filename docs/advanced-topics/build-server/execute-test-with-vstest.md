@@ -21,8 +21,6 @@ __2.__&nbsp; __Start the VS Developer Command Prompt with Admin privilege__.
 
 __3.__&nbsp; Change the __working folder__ to this, which __contains the vstest.console.exe__. Depending on the Visual Studio installation this can be:
 
-* for **Visual Studio 2015** it is C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow
-* for **Visual Studio 2017 Enterprise** it is C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow
 * for **Visual Studio 2019 Professional** it is C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow
 
 __4.__&nbsp; __Set these two variables__ - ***TS_PROJECT_PATH*** (the folder, which contains the Test Studio project _Settings.aiis_) and ***TS_DLL_PATH*** (the folder, which contains the built project dll - by default it is in the project root under _\bin\Debug_).
@@ -43,8 +41,6 @@ set TS_DLL_PATH=C:\Projects\TestStudioProject11\TestStudioProject11\bin\Debug\Te
 
 __5.__&nbsp; The execution of Test Studio tests with VSTest.Console.exe requires the usage of the argument /TestAdapterPath:[path] - this is the __Telerik.TestStudio.TestAdapter-VS20XX.dll__ and can be found in the folder corresponding to the Visual Studio version in use:
 
-* for **Visual Studio 2015** the TestAdapter.dll is in any of the sub-folders in the *Visual Studio Extensions* directory, which is C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\
-* for **Visual Studio 2017 Enterprise** the TestAdapter.dll is deployed in a sub folder of the Test Studio installation folder C:\Program Files (x86)\Progress\Test Studio\VS2017
 * for **Visual Studio 2019 Professional** the TestAdapter.dll is deployed in a sub folder of the Test Studio installation folder C:\Program Files (x86)\Progress\Test Studio\VS2019
 
 __6.__&nbsp; __Visual Studio 2019 requires the argument /Settings:[_file name_]__, which accepts a Visual Studio <a href="/knowledge-base/visual-studio-kb/test-explorer-settings" target="_blank">Test Explorer project settings file</a>.

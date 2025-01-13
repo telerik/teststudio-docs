@@ -10,16 +10,16 @@ The <a href="https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-w
 
 In this article you can find useful details for running the Test Studio tests from the Test Explorer:
 
-* [Open Test Explorer and view Test Studio tests and test lists](#view-tests-and-test-lists-in-test-explorer)
-* [Group Test Studio tests and test lists in Test Explorer](#group-tests-and-test-lists-in-test-explorer)
-* [Run Test Studio tests and test lists in Test Explorer](#run-tests-and-test-lists-in-test-explorer)
-* [Test Studio settings for Test Explorer test runs](#test-studio-settings-for-test-explorer-test-runs)
+- [Test Explorer in Visual Studio](#test-explorer-in-visual-studio)
+  - [View Tests and Test Lists in Test Explorer](#view-tests-and-test-lists-in-test-explorer)
+  - [Group Tests and Test Lists in Test Explorer](#group-tests-and-test-lists-in-test-explorer)
+  - [Run Tests and Test Lists in Test Explorer](#run-tests-and-test-lists-in-test-explorer)
+  - [Test Studio Settings for Test Explorer Test Runs](#test-studio-settings-for-test-explorer-test-runs)
 
 ## View Tests and Test Lists in Test Explorer
 
 If the __Test Explorer__ pane is not opened in your Visual Studio, you can access this as follows:
 
-- in Visual Studio 2015 and 2017 - **Test -> Windows -> Test Explorer**;
 - in Visual Studio 2019 and later - **Test -> Test Explorer**;
 - or use keyboard shortcut _Ctrl + E, T_.
 
