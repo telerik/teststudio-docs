@@ -40,18 +40,18 @@ The key to understanding FindExpression's is to understand its basic component: 
 
 ### FindClauses Without Operators
 
-```
+````
 TagName=div
 id=bar
 innermarkup=hellothere
-```
+````
 
 ### FindClauses With Operators
 
-```
+````
 name=~bar [name attribute partially contains bar]
 automationid=^hat [the automation id of an element starts with hat]
-```
+````
 
 
 **Note:** The optional operator is ALWAYS the first character after the = in the expression. This special character can be escaped with a preceding ' character if it is meant to be interpreted as a literal character.
@@ -112,15 +112,15 @@ automationid=^hat [the automation id of an element starts with hat]
 
 The name portion of the clause can be a well known enumeration that a certain technology (i.e. HTML, XAML) recognizes as a certain search pattern. For example, in HTML:
 
-```
+````
 xpath=HTML[0]/div[1]
-```
+````
 
 is interpreted by the HTML search tree as a specific search that requires XPATH interpretation.
 
-```
+````
 automationid=?sam
-```
+````
 
 ## Constructing FindExpressions
 
@@ -130,9 +130,9 @@ For example:
  
 Find the HTML element with an id that ends with 'sam' and also has a class attribute that contains bar and also has a text content that does not contain foo.
 
-```C#
+````C#
 HtmlFindExpression expr = new HtmlFindExpression("id=bar","|","tagindex=td:0","|","tagname=img","src=~png");
-```
+````
 
 ## Hierarchy Constraint
 
@@ -148,16 +148,16 @@ A hierarchy constraint contains two pieces of data:
  
 For example, suppose we have the following HTML code snippet to deal with:
 
-```HTML
+````HTML
 <div class="bar">
   <div id="foo1">
      <section id="foo2">
          <div class="bar">
-```
+````
 
 Now we want to match the div tag that has class='bar' and its parent's parent has an id='foo1':
 
-```C#
+````C#
 // This expression will locate both p tags at [0] & [3]
 HtmlFindExpression expression = new HtmlFindExpression("class=bar", "tagname=div");
   
@@ -168,8 +168,8 @@ HtmlFindExpression parentExpr = new HtmlFindExpression("id=foo1"); // matches [1
 // -2 signifies two parents up.
 // Note that HierarchyConstraints are [1] based. Zero signifies the target element or reference point.
 expression.AddHierarchyConstraint(new HierarchyConstraint(parentExpr, -2));
-```
-```VB
+````
+````VB
 ' This expression will locate both p tags at [0] & [3]
 Dim expression As New HtmlFindExpression("class=bar", "tagname=div")
   
@@ -180,14 +180,14 @@ Dim parentExpr As New HtmlFindExpression("id=foo1")
 ' -2 signifies two parents up.
 ' Note that HierarchyConstraints are [1] based. Zero signifies the target element or reference point.
 expression.AddHierarchyConstraint(New HierarchyConstraint(parentExpr, -2))
-```
+````
 
 
 The resulting expression now will match [3] ONLY.
  
 Here is a more involved scenario:
 
-```HTML
+````HTML
 <div class="bar">
   <p id="foo1">
     <span id="foo2" />
@@ -199,7 +199,7 @@ Here is a more involved scenario:
     </span>
   </p>
 </div>
-```
+````
 
 If we wish the constraint to match the first child of the parent's parent (i.e. [2]) and to be an 'span' instead, that is also doable.
  

@@ -24,22 +24,22 @@ For default installation the dll file could be found in the Oracle data base ins
 
 Include the following *usings* in the code.
 
-```C#
+````C#
 using Oracle.DataAccess.Client;
 using Oracle.DataAccess.Types;
-```
-```VB
+````
+````VB
 import Oracle.DataAccess.Client
 import Oracle.DataAccess.Types
-```
+````
 
 ## Data Connection String
 
 An Oracle connection string is required to identify the database to connect to. Here is an example:
 
-```
+````
 Data Source=XE;User Id=SYSTEM;Password=pass;
-```
+````
 
 Different connection strings could be used. See <a href="https://www.connectionstrings.com/oracle/" target="_blank">here</a> for more examples.
 
@@ -47,7 +47,7 @@ Different connection strings could be used. See <a href="https://www.connections
 
 This code runs a simple query against a database table similar to <a href="/features/data-driven-testing/oracle-db-example" target="_blank">this example</a>:
 
-```C#
+````C#
 string oradb = "Data Source=XE;User Id=SYSTEM;Password=pass;";
 
 OracleConnection conn = new OracleConnection(oradb);
@@ -71,7 +71,7 @@ dr.Read();
 Log.WriteLine(dr.GetString(0).ToString());
 
 conn.Dispose();
-```
+````
 
 
 >This code won't run without modification. The database, table, and column in the original code won't exist in your environment unless you create the same database.

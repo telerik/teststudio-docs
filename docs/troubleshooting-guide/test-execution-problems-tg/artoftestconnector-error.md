@@ -10,10 +10,10 @@ position: 1
 
 I need to automate a 64-bit WPF application. When I try to configure a WPF test in Test Studio or run an existing one, I get a message that a dll is missing. If I check the listed directory I can see the file listed in it, but no test starts for the automated WPF application.
 
-```
+````
 There was a problem starting C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Connector_64.dll. 
 The specified module could not be found.
-```
+````
 
 ## Solution
 

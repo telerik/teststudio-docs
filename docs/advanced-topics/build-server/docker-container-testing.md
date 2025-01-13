@@ -41,10 +41,10 @@ Below are listed the steps to setup a Docker container for testing.
 
 2.&nbsp; Pull the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">official Microsoft Windows Docker image</a> from the Docker Hub. Use the command that is provided in the Docker Hub and make sure to specify the exact build to be pulled.
 
-```
+````
 //For Windows build 1909, use the following command
 docker pull mcr.microsoft.com/windows:1909
-```
+````
 
 > __Note__
 > <br>
@@ -68,9 +68,9 @@ Then, expand the _Optional Settings_ and specify **Host Path** and **Container P
 
 __Install both Test Studio Run-Time and Chrome browser enterprise edition in passive mode__, because there is no UI in the container and active installation can not complete. You can use the following command, but make sure that each installer is finished without errors before you proceed with the next one.
 
-```
+````
 msiexec.exe /i msiInstallerFileName.msi /passive /le c:\tools\errorLogForThisInstaller.txt
-```
+````
 
 > __Note__
 > <br>
@@ -88,10 +88,10 @@ After completing the above steps in this article, you need to copy the project, 
 
 Open the container's Command Line Interface (CLI) and use the <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> to start the execution. This test runner provide multiple options for execution and output, which are all explained in the linked documentation. The below example command triggers a test list execution.
 
-```
+````
 //navigate to the Test Studio installation bin sub-folder
 ArtOfTest.Runner.exe /list="full path to the test list file with extension .aiilist"
-```
+````
 
 You can apply specific settings for Docker container test list execution, like the browser type. Since the test list execution runs only in Headless mode, you can choose different <a href="/features/test-runners/artoftest-runner#settings-option" target="_blank">settings file</a> to be used from the ArtOfTest.Runner.exe. Using such file allows you to not change the <a href="/features/test-lists/test-list-settings" target="_blank">Test List Settings</a> on your original test list and still execute it in Headless mode in the container.
 

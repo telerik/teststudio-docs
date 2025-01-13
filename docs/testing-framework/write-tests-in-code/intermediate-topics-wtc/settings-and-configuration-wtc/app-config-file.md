@@ -11,13 +11,13 @@ Instead of programmatically setting the configuration, the application or test p
 
 1.&nbsp; First add the following line to the 'configSections' section:
 
-```XML
+````XML
 <configSections>                                     
 <section name="WebAii.Settings" type="ArtOfTest.WebAii.Core.SettingsConfigSectionHandler,ArtOfTest.WebAii"/>
 <section name="WebAii.Settings.Web" type="ArtOfTest.WebAii.Core.WebSettingsConfigSectionHandler,ArtOfTest.WebAii"/>
 <section type="ArtOfTest.WebAii.Core.WpfSettingsConfigSectionHandler,ArtOfTest.WebAii" name="WebAii.Settings.Wpf"/>  
 </configSections>
-```
+````
 
 2.&nbsp; Then add the settings you need under the 'WebAii.Settings' section or WebAii.Settings.Web' section.
 
@@ -26,7 +26,7 @@ Instead of programmatically setting the configuration, the application or test p
 	**Note:** The configuration setting names are case sensitive e.g.  **AnnotateExecution** will not be recognized and will cause an exception to be thrown while **annotateExecution** will be recognized and used.
 
 		
-```XML
+````XML
 	<WebAii.Settings                                           
                    logLocation="F:\Log\"
                    executionTimeout="30000"
@@ -41,11 +41,11 @@ Instead of programmatically setting the configuration, the application or test p
 	</WebAii.Settings>
 	<WebAii.Settings.Web baseUrl="http://www.lava.com">           
 	</WebAii.Settings.Web>
-```
+````
 
 Here is an example of a complete app.config file that contains all of Telerik's configuration settings:
 
-```XML
+````XML
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
  <configSections>
@@ -60,12 +60,12 @@ Here is an example of a complete app.config file that contains all of Telerik's 
 ```	
 In your test code initialization, you read these settings by simply setting the UseConfig flag to true when calling the Manager() constructor. If you use the BaseTest template (which is what the VsUnit, MbUnit, NUnit and xUnit templates do) this call is done for you by BaseTest during the Initialize call:
 
-```C#
+````C#
 Manager mgr = new Manager(true);
-```
-```VB
+````
+````VB
 Dim myManager As Manager = New Manager(True)
-```
+````
 
 **Note:** If you are using Telerik's BaseTest (which the Telerik VS item templates use), there is no need to for your test code to read from the app.config file as shown above. The base class already does that for you. Read the item template's comments for the initialization routine for more details.
 

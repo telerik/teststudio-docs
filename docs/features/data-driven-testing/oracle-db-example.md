@@ -28,9 +28,9 @@ Once the table is created it is possible to connect to it and use it for data-dr
 
 4.&nbsp; Here's an example for **Connection String**:
 
-```
+````
 Data Source=XE;User Id=SYSTEM;Password=pass;
-```
+````
 
 It is possible to create many different connection strings. See <a href="https://www.connectionstrings.com/oracle/" target="_blank">here</a> for more examples.
 

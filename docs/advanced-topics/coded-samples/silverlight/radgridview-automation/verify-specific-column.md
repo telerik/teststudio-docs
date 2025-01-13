@@ -14,7 +14,7 @@ position: 1
 
 Here is how to accomplish this on a <a href="http://demos.telerik.com/silverlight/#GridView/Totals" target="_blank">Telerik demo site</a>.. First you need to retrieve all the Header Row Cells from the Grid and iterate through each one looking for a specific string. Each time it isn't found, the integer idx is increased by one. Once a match is made, idx will equal the index of the target column. Then you can use that integer to identify the column later:
 
-```C#
+````C#
 int verticalOffset = 0; // Holds the current vertical offset in the viewport
 int viewPortHeight; // The height of the visible part of the grid
 int extentHeight; // The total height of the grid, visible plus non-visible
@@ -58,9 +58,7 @@ while (verticalOffset < extentHeight)
       verticalOffset += viewPortHeight;
       VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset);
 }
-```
-
-```VB
+````VB
 
 Dim verticalOffset As Integer = 0
 
@@ -103,7 +101,7 @@ While verticalOffset < extentHeight
     verticalOffset += viewPortHeight
     VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset)
 End While
-```
+````
 
 
 

@@ -51,7 +51,7 @@ Once you've added the assembly references, change the .NET Framework version of 
 
 The application gets values from *Yahoo! Finance* and outputs them to the console screen. Here's the sole class that holds the logic for the application:
 
-```C#
+````C#
 class Program
     {
         //The URL to navigate to
@@ -91,8 +91,8 @@ class Program
             Console.Read();
         }
     }
-```
-```VB
+````
+````VB
  Class Program
         'The URL to navigate to
         Shared ReadOnly url As String = "http://finance.yahoo.com/"
@@ -131,4 +131,4 @@ class Program
             Console.Read()
         End Sub
     End Class
-```
+````

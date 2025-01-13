@@ -15,7 +15,7 @@ This is possible with a coded solution. The example below is against <a href="ht
  
 After navigating there, click DataGrid in the left-hand menu. Then click the **FirstName** column header to sort that column. Finally, add a coded step:
 
-```C#
+````C#
 //Get the data grid.
 SilverlightApp app = ActiveBrowser.SilverlightApps()[0];
 DataGrid grid = app.Find.ByAutomationId<DataGrid>("dataGrid");
@@ -44,9 +44,7 @@ for (int j = 0; j < list.Count; j++)
         Assert.IsTrue(list[j+1].CompareTo(list[j]) >= 0);
     }
 }
-```
-
-```VB
+````VB
 
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
 Dim grid As DataGrid = app.Find.ByAutomationId(Of DataGrid)("dataGrid")
@@ -70,6 +68,6 @@ For j As Integer = 0 To list.Count - 1
         Assert.IsTrue(list(j + 1).CompareTo(list(j)) >= 0)
     End If
 Next
-```
+````
 
 

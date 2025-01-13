@@ -21,7 +21,7 @@ In order to access the results of a performance test in code, it will be necessa
 
 The following extension class will store the full path to each performance test result and its ID in a Dictionary data structure. This structure will be updated after each test completion in the *OnAfterTestCompleted()* method. Then at the end of the test list execution in *OnAfterTestListCompleted()* method - all files will be opened one by one to collect necessary data and save it in *C:\temp\lastPerformanceResults.txt* file.
 
-```C#
+````C#
 namespace ExecutionExtensionSample
 {
     using System.Collections.Generic;
@@ -89,8 +89,8 @@ namespace ExecutionExtensionSample
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Collections.Generic
 Imports System.Data
 Imports ArtOfTest.WebAii.Design.Execution
@@ -138,4 +138,4 @@ Namespace ExecutionExtensionSample
         End Sub
     End Class
 End Namespace
-```
+````

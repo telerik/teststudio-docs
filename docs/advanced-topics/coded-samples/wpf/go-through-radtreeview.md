@@ -13,7 +13,7 @@ position: 3
 
 This is possible with a coded solution. You'll expand each node and refresh the tree until you find your match.
 
-```C#
+````C#
 WpfApplication app = Manager.ActiveApplication;
 Assert.IsNotNull(app);
 Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView tree = app.MainWindow.Find.ByName<Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView>("treeView");
@@ -53,8 +53,8 @@ while (found == false)
         break;
     }
 }
-```
-```VB
+````
+````VB
 Dim app As WpfApplication = Manager.ActiveApplication
 Assert.IsNotNull(app)
 Dim tree As Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView = app.MainWindow.Find.ByName(Of Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView)("treeView")
@@ -86,6 +86,6 @@ While found = False
         Exit While
     End If
 End While
-```
+````
 
 

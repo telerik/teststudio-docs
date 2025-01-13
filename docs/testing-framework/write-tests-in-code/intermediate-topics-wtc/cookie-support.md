@@ -21,66 +21,66 @@ Using the CookieManager class you can:
 There are two functions that can be used to retrieve cookies from the browser:
 
 
-```C#
+````C#
 public CookieCollection GetCookies (string url)
 public CookieCollection GetCookies (Uri uri)
-```
-```VB
+````
+````VB
 Public Function GetCookies(ByVal url As String) As System.Net.CookieCollection
 Public Function GetCookies(ByVal uri As System.Uri) As System.Net.CookieCollection
-```
+````
 
 These functions retrieve all the cookies from the browser for the specified website. For example:
 
-```C#
+````C#
 // Query the cookie
 System.Net.CookieCollection siteCookies = ActiveBrowser.Cookies.GetCookies("http://www.telerik.com");
-```
-```VB
+````
+````VB
 ' Query the cookie
 Dim siteCookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies("http://www.telerik.com")
-```
+````
 
 ## Creating and Setting Cookies
 
 Below is an example of how to create or set a cookie. If the cookie already exists, it will be overwritten. If it does not exist, a new cookie will be created in the browser:
 
-```C#
+````C#
 // Let's create a new cookie for a url.
 ActiveBrowser.Cookies.SetCookie(new System.Net.Cookie("WebAii", "Rocks", "/", "http://www.telerik.com"));
-```
-```VB
+````
+````VB
 ' Let's create a new cookie for a url.
 ActiveBrowser.Cookies.SetCookie(New System.Net.Cookie("WebAii", "Rocks", "/", "http://www.telerik.com"))
-```
+````
 
 ## Deleting Cookies
 
 Here is an example of how to delete a cookie:
 
-```C#
+````C#
 // Now delete the cookie.
 ActiveBrowser.Cookies.DeleteCookie(siteCookies[0]);
-```
-```VB
+````
+````VB
 ' Now delete the cookie.
 ActiveBrowser.Cookies.DeleteCookie(siteCookies(0))
-```
+````
 
 A simple foreach loop can be used to delete all the cookies for a particular website:
 
-```C#
+````C#
 // Purge any cookies associated with this server
 System.Net.CookieCollection cookies = ActiveBrowser.Cookies.GetCookies(ActiveBrowser.Url);
 foreach (System.Net.Cookie cookie in cookies)
 {
     ActiveBrowser.Cookies.DeleteCookie(cookie);
 }
-```
-```VB
+````
+````VB
 ' Purge any cookies associated with this server
 Dim cookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies(ActiveBrowser.Url)
 For Each cookie As System.Net.Cookie In cookies
      ActiveBrowser.Cookies.DeleteCookie(cookie)
 Next cookie
-```
+````

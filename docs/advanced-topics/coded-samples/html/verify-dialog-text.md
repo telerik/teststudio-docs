@@ -15,7 +15,7 @@ This is possible with a coded solution. The code serves two purposes. It handles
  
 **Note:** This code requires an assembly reference to System.Windows.Forms. <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Here</a> is an article on how to add an assembly reference in the Standalone version.
 
-```C#
+````C#
 string dialogText;
  
 [CodedStep(@"Navigate then verify text in popup dialog")]
@@ -53,8 +53,8 @@ public void MyCustomAlertHandler(IDialog dialog)
     Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
     dialog.HandleCount++;
 }
-```
-```VB
+````
+````VB
 Private dialogText As String
  
 <CodedStep("Navigate then verify text in popup dialog")> _
@@ -86,17 +86,17 @@ Public Sub MyCustomAlertHandler(dialog As IDialog)
     Manager.Desktop.KeyBoard.KeyPress(Keys.Enter)
     dialog.HandleCount += 1
 End Sub
-```
+````
 
 
 Ensure you add the following *using or Imports* statements to the top of the code-behind file. Click the **View Entire Code Behind File** button, scroll to the top of the code, and add these lines:
 
-```C#
+````C#
 using ArtOfTest.WebAii.Win32.Dialogs;
 using System.Windows.Forms;
-```
-```VB
+````
+````VB
 Imports ArtOfTest.WebAii.Win32.Dialogs
 Imports System.Windows.Forms
-```
+````
 

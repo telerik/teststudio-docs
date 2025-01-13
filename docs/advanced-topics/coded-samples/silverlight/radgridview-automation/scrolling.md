@@ -19,7 +19,7 @@ Here is an example. Let's say you have a grid that holds 100 rows of data but ca
  
 The following code demonstrates how to accomplished this on a <a href="http://demos.telerik.com/silverlight/#GridView/UIVirtualization" target="_blank">Telerik demo page</a>.
 
-```C#
+````C#
 int verticalOffset = 0; // Holds the current vertical offset in the viewport
 int viewPortHeight; // The height of the visible part of the grid
 int extentHeight; // The total height of the grid, visible plus non-visible
@@ -54,9 +54,7 @@ grid.Refresh();
 verticalOffset += viewPortHeight;
 VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset);
 }
-```
-
-```VB
+````VB
 
 Dim verticalOffset As Integer = 0
 ' Holds the current vertical offset in the viewport
@@ -91,6 +89,6 @@ Next
 verticalOffset += viewPortHeight
 VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset)
 End While
-```
+````
 
 Due to the volume of data contained in the sample RadGridView, this test will take hours to run through it all. But it shows all the necessary steps.  

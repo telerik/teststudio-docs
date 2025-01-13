@@ -28,7 +28,7 @@ The solution is to use this approach in a **loop**:
 
 My sample Silverlight application to test contains this XAML code to render my listbox:
 
-```XAML
+````XAML
 <ListBox AutomationProperties.AutomationId="lb001" Height="117" HorizontalAlignment="Left" Margin="23,102,0,0" Name="listBox1" VerticalAlignment="Top" Width="281">
     <ListBoxItem Content="Item 1" />
     <ListBoxItem Content="Item 2" />
@@ -90,11 +90,11 @@ My sample Silverlight application to test contains this XAML code to render my l
     <ListBoxItem Content="Item 58" />
     <ListBoxItem Content="Item 59" />
 </ListBox>
-```
+````
 
 To help make the code necessary to accomplish our search task more modular, let's define a function that takes a listbox, a string to search for and finds and returns the listbox item want. Here is that function:
 
-```C#
+````C#
 private static ListBoxItem FindListboxItemByText
     (string itemToFind, ListBox myLB)
 {
@@ -129,12 +129,12 @@ private static ListBoxItem FindListboxItemByText
     // We scanned the entire list and didn't find the right item to select.
     return null;
 }
-```
+````
 
 We call this resusable function from a coded step like this:
 
 
-```C#
+````C#
 [CodedStep("Select a listbox item by text")]
 public void SelectListItemByTextCodedStep()
 {
@@ -147,5 +147,5 @@ public void SelectListItemByTextCodedStep()
     Assert.IsNotNull(item, "\"" + itemToFind + "\" not found in the listbox.");
     item.User.Click();
 }
-```
+````
 

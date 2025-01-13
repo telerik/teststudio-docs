@@ -24,7 +24,7 @@ This is possible with a coded solution. The stipulation is that the dialog is di
 
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the Dynamic Pages Reference region:
 
-```C#
+````C#
 using System.Threading;
 using System.Windows.Forms;
 using ArtOfTest.WebAii.Win32.Dialogs;
@@ -67,8 +67,8 @@ namespace TestProject7
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Threading
 Imports System.Windows.Forms
 Imports ArtOfTest.WebAii.Win32.Dialogs
@@ -106,6 +106,6 @@ Namespace TestProject7
         End Sub
     End Class
 End Namespace
-```
+````
 
 [1]: /img/advanced-topics/coded-samples/general/log-error-dialogs/fig1.png

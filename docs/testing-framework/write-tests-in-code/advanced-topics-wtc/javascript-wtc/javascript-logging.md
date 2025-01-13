@@ -10,7 +10,7 @@ Telerik Testing Framework also supports logging directly from JavaScript into th
  
 Below is a sample to demonstrate how to perform logging from your JavaScript routines:
 
-```C#
+````C#
 // Settings.Current.EnableScriptLogging must be set to true before
 // LaunchNewBrowser. This was done in the Initialize section of
 // this test.
@@ -28,8 +28,8 @@ Settings.Current.EnableScriptLogging = false;
  
 // NOTE: Once script logging is disabled, any logging calls from
 // the script will be ignored and won't cause a script error.
-```
-```VB
+````
+````VB
 ' Settings.Current.EnableScriptLogging must be set to true before
 ' LaunchNewBrowser. This was done in the Initialize section of
 ' this test.
@@ -47,13 +47,13 @@ Settings.Current.EnableScriptLogging = False
  
 ' NOTE: Once script logging is disabled, any logging calls from
 ' the script will be ignored and won't cause a script error.
-```
+````
 
 The page script function Test5() can perform logging like this:
 
-```JavaScript
+````JavaScript
 function Test5()
 {
     WebAiiLog("Trace", "Test5: Log this message!");
 }
-```
+````

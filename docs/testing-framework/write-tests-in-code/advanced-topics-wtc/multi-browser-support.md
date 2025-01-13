@@ -17,7 +17,7 @@ The 'Manager' object is the main object that keeps tracks of all active browser 
  
 The below sample demonstrates how you can leverage the multi-browser support to automate multiple instances of a browser within one test case. Such testing might be needed when performing concurrency testing in your web app.
 
-```C#
+````C#
 // Launch a new instance of IE
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, true);
   
@@ -55,8 +55,8 @@ ie.Window.SetFocus();
 // You can also choose to set a timeout as shown below to double check that the
 // browser has actually closed and its handle is no longer visible.
 ff.Close(40);
-```
-```VB
+````
+````VB
 ' Launch a new instance of IE
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)
   
@@ -94,4 +94,4 @@ ie.Window.SetFocus()
 ' You can also choose to set a timeout as shown below to double check that the
 ' browser has actually closed and its handle is no longer visible.
 ff.Close(40)
-```
+````

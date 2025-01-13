@@ -58,13 +58,13 @@ In the below section you can read how to prepare the XML file and add it to the 
 
 XML files are type of documents that both humans and machines can read. The structure of the document is defined by tags and Test Studio uses these to define the data source values. Here is an example of a basic XML file with two columns:
 
-```xml
+````XML
 <Searches>
    <Search UserName="john.smith" Password="johnspass" />
    <Search UserName="bob.brown" Password="bobspass" />
    <Search UserName="sam.jones" Password="samspass" />
 </Searches>
-```
+````
 
 *Search* is the equivalent of an Excel Sheet. *UserName* and *Password* translate as the column names.
 

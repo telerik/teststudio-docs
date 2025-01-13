@@ -45,7 +45,7 @@ Telerik Testing Framework allows users to access frames and perform automation a
  
 Let's take an example that demonstrates this support. Assuming we have the following simple web page:
 
-```HTML
+````HTML
 <HTML>
 <HEAD><TITLE>THE I HATE FRAMES PAGE</TITLE></HEAD>
 <FRAMESET COLS="33%,33%">
@@ -53,11 +53,11 @@ Let's take an example that demonstrates this support. Assuming we have the follo
     <FRAMESRC="..\BrowserActions.htm" id="T2_Frame">
 </FRAMESET>
 </HTML>
-```
+````
 
 To access the 't1.html' frame elements and perform actions against it, first I need to navigate to the page, then I need to access the frame that contains that page from the 'Frames[]' collection as follows:
 
-```C#
+````C#
 // Launch an instance of the browser
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, true);
    
@@ -80,8 +80,8 @@ t1_frame.Actions.Click(toggleOn);
    
 // Click the toggleoff button
 t2_frame.Actions.Click(toggleOff);
-```
-```VB
+````
+````VB
 ' Launch an instance of the browser
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)
  
@@ -104,7 +104,7 @@ t1_frame.Actions.Click(toggleOn)
  
 ' Click the toggleoff button
 t2_frame.Actions.Click(toggleOff)
-```
+````
 
 At this point, the 't1_frame' object is just like any other Browser object. You can use the Find.Byxxx/Actions objects to find elements/execute actions in the document or execute any of the browser actions like 'NavigateTo' or 'Refresh()', 'GoBack()', etc.
  

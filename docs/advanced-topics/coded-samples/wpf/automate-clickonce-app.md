@@ -16,25 +16,25 @@ To automate a WPF application it is necessary to <a href="/features/testing-type
 
 It is necessary to create a <a href="/features/coded-steps/standalone-code-file" target="_blank">stand alone class file</a> (*Utility*) which static property (*pathFile*) will be used to store the path to the latest app version:
 
-```C#
+````C#
 public class Utility
 {
     public static string pathFile = string.Empty;
 }
-```
-```VB
+````
+````VB
 Public Class Utility
 
     Public Shared pathFile As String = String.Empty
 
 End Class
-```
+````
 
 <br/>
 
 The following scenario assumes that the app is downloaded form a web destination, installed and ran from a browser. In such case the first test in the list will be a Web test that will complete the app installation part. At the end of the installation the latest app version will be up and running. This test have to end with a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> that will save in a variable path to the new application as given below:
 
-```C#
+````C#
 // check if there is running process with same name
 var runningApp = System.Diagnostics.Process.GetProcesses().Where(p => p.ProcessName == "YourClickOnceWpfApp");
 
@@ -46,8 +46,8 @@ Log.WriteLine(proc.MainModule.FileName.ToString());
 
 // save the full path to a common variable
 Utility.pathFile = proc.MainModule.FileName.ToString();
-```
-```VB
+````
+````VB
 
 Dim runningApp = System.Diagnostics.Process.GetProcesses().Where(Function(p) p.ProcessName = "YourClickOnceWpfApp")
 
@@ -57,14 +57,14 @@ Log.WriteLine(proc.MainModule.FileName.ToString())
 
 Utility.pathFile = proc.MainModule.FileName.ToString()
 
-```
+````
 
 <br/>
 
 Next step is to create a WPF test that begins with a coded step and is configured to run a dummy WPF app. In the coded step the initially started mock app will be closed. Then depending on the latest version state (running/stoped) Test Studio will connect to or open it for next test steps execution:
 
 
-```C#
+````C#
 // Shut down "mock" app
 ActiveApplication.Quit();
 
@@ -81,8 +81,8 @@ else
     // or - launch new application
     Manager.LaunchNewApplication(Utility.pathFile);
 }
-```
-```VB
+````
+````VB
 
 ActiveApplication.Quit()
 
@@ -98,7 +98,7 @@ Else
 
 End If
 
-```
+````
 
 <br/>
 

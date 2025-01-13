@@ -20,7 +20,7 @@ The <a href="https://docs.microsoft.com/en-us/windows/win32/shell/appids" target
 
 2.&nbsp; __Copy the below script and paste__ it in the PowerShell console. Press __Enter__ to execute it.
 
-```
+````
 $listOfAppUserModelIds = @()
 
 foreach ($app in get-AppxPackage)
@@ -39,7 +39,7 @@ foreach ($app in get-AppxPackage)
 }
 
 $listOfAppUserModelIds
-```
+````
 ![Paste script in PowerShell console](/img/automated-tests/desktop-testing/user-model-id/fig2.png)
 
 3.&nbsp; The script iterates through the installed applications and __outputs a list with their User Model ID__ - every app ID is on a new line. 
@@ -57,7 +57,7 @@ Usually the name of the application is part of the User Model ID and you can use
 
 Let's use the _Windows Calculator_ app as an example - the filter parameter for this application is `| Select-String -Pattern 'Calculator'` and is added on the last line.
 
-```
+````
 $listOfAppUserModelIds = @()
 
 foreach ($app in get-AppxPackage)
@@ -76,7 +76,7 @@ foreach ($app in get-AppxPackage)
 }
 
 $listOfAppUserModelIds | Select-String -Pattern 'Calculator'
-```
+````
 ![Filtered list of app ids in PowerShell console](/img/automated-tests/desktop-testing/user-model-id/fig4.png)
 
 >__Note__

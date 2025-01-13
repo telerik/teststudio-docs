@@ -28,9 +28,9 @@ position: 3
 
 # Local Machine Example
 
-```cmd 
+````cmd 
 "c:\Program Files (x86)\Progress\Test Studio\Bin\AzureResultsMapper\Telerik.TestStudio.AzureResultsSync.exe" url=https://dev.azure.com/my-org token=<MY-TOKEN> map="<PATH-MAPPING-FILE>" aiiresult="<PATH-MAPPING-FILE>"
-```
+````
 
 # Azure DevOps Example
 
@@ -38,7 +38,7 @@ In the scenario of building a CI pipeline the test list run needs to be set thro
 
 Below is an example pipeline with only these two jobs:
 
-```yml
+````yml
 jobs:
   - job: Run and Upload Results
     steps:
@@ -58,7 +58,7 @@ jobs:
           script: |
             "c:\Program Files (x86)\Progress\Test Studio\Bin\AzureResultsMapper\Telerik.TestStudio.AzureResultsSync.exe" url=https://dev.azure.com/prgs-devtools map=$(System.DefaultWorkingDirectory)\TestingProjects\HTMLProject\MapperPipeline\AzDoMap.tsazdo aiiresult=$(System.DefaultWorkingDirectory)\TestingProjects\HTMLProject\MapperPipeline\Results\myResult.aiiresult
 
-```
+````
 
 - The __'Run Test Studio tests'__ task executes a test list with the ArtOfTest.Runner.exe and stores the results in file named myResult.aiiresult.
 - The __'Upload results'__ task converts the Test Studio results from myResult.aiiresult file and uploads them as new Azure DevOps run. 

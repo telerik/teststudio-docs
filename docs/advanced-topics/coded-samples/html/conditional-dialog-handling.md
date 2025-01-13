@@ -13,7 +13,7 @@ position: 1
 
 This is possible with a coded solution. The action that potentially triggers the dialog must be included in the code.
 
-```C#
+````C#
 ActiveBrowser.NavigateTo("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
  
 //Create the dialog and add it to the monitor
@@ -38,8 +38,8 @@ catch (TimeoutException)
 Manager.DialogMonitor.RemoveDialog(ad);
  
 ActiveBrowser.NavigateTo("http://www.bing.com");
-```
-```VB
+````
+````VB
 ActiveBrowser.NavigateTo("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert")
  
 
@@ -59,5 +59,5 @@ End Try
 Manager.DialogMonitor.RemoveDialog(ad)
  
 ActiveBrowser.NavigateTo("http://www.bing.com")
-```
+````
 

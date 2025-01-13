@@ -8,7 +8,7 @@ position: 1
 
 Apart from manually configuring each of the browsers for test execution this could be also accomplished in code. 
 
-```C#
+````C#
 //declare string variable to write possible errors in 
 string error;
 // to configure FireFox
@@ -21,12 +21,12 @@ Manager.ConfigureBrowser(BrowserType.InternetExplorer, out error);
 Manager.ConfigureBrowser(BrowserType.Safari, out error);
 // to configure Edge
 Manager.ConfigureBrowser(BrowserType.MicrosoftEdge, out error);
-```
-```VB
+````
+````VB
 Dim error As String
 Manager.ConfigureBrowser(BrowserType.FireFox, error)
 Manager.ConfigureBrowser(BrowserType.Chrome, error)
 Manager.ConfigureBrowser(BrowserType.InternetExplorer, error)
 Manager.ConfigureBrowser(BrowserType.Safari, error)
 Manager.ConfigureBrowser(BrowserType.MicrosoftEdge, error)
-```
+````

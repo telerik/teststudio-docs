@@ -22,7 +22,7 @@ In code, generate a random number based on the number of rows. Then use the corr
 
 	* **Note:** Ensure you <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *Microsoft.Office.Interop.Excel*. You can download a version of that file on Microsoft's website that matches your version of MS Office.
 
-```C#
+````C#
 Random random = new Random();
 int num = random.Next(1, 6);
  
@@ -37,8 +37,8 @@ app.Quit();
 app = null;
  
 Pages.Bing.SbFormQText.Text = value;
-```
-```VB
+````
+````VB
 Dim random As New Random()
 Dim num As Integer = random.[Next](1, 6)
  
@@ -55,7 +55,7 @@ app.Quit()
 app = Nothing
  
 Pages.Bing.SbFormQText.Text = value
-```
+````
 
 ## How to find and use Office PIA's without Visual Studio installed
 

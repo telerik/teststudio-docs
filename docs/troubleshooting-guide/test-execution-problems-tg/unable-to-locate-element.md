@@ -88,7 +88,7 @@ Start by using the same steps to determine if the test is on the right page. Loo
 
 Let's take the second failure list above as an example. The find logic is saying find an element that has the id "*rpbNavigator_i3_rtvROOFER*" then find the third \<li> element (because it's zero based) underneath it. Here's what the DOM looked like when the test failed:
 
-```
+````
 <div id="rpbNavigator_i3_rtvROOFER" >
 	<div id="rpbNavigator_i3_rtvROOFER_RadTreeViewContextMenuROOFER" >
 		<div id="rpbNavigator_i3_rtvROOFER_RadTreeViewContextMenuROOFER_detached" >
@@ -99,7 +99,7 @@ Let's take the second failure list above as an example. The find logic is saying
 	</div>
 	<input id="rpbNavigator_i3_rtvROOFER_ClientState" >
 </div>
-```
+````
 
 Notice that there are no \<li> elements contained in the unordered list (the \<ul> element). Here's a case where the dropdown combobox doesn't get populated until you actually open the combobox. Opening the combobox initiates an AJAX postback which returns the list of items to populate in the combobox. The solution was to add a test step to open the combobox before our failing step.
 
@@ -113,7 +113,7 @@ If you use XPath or TagIndex to locate the element and the structure of the page
 
 Make sure the name/IDF didn't change after recording the test. You can compare the find expression for the particular element and the DOM tree of the application:
 
-```
+````
 <html>
 <head>
 </head>
@@ -123,7 +123,7 @@ Make sure the name/IDF didn't change after recording the test. You can compare t
     </div>
 </body>
 </html>
-```
+````
 
 *DOM tree of our application which shows us the ID of the DIV.*
 

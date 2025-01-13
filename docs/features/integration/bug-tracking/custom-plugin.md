@@ -25,24 +25,24 @@ Test Studio uses its plugins model to run the Bug Trackers. The type of Bug Trac
 
 3.&nbsp; Add the following using statement to the class file:
 
-```C#
+````C#
 using ArtOfTest.WebAii.Design.Extensibility.BugTracking;
-```
+````
 
 4.&nbsp; The *ArtOfTest.WebAii.Design.Extensibility.BugTracking* namespace contains **IBugTracker** that the class needs 	to implement:
 
-```C#
+````C#
 namespace ClassLibrary1
 {
     public class Class2 : IBugTracker
     {
     }
 }
-```
+````
 
 5.&nbsp; Right click on IBugTracker and select Implement Interface > Implement Interface. This displays all the methods   	and notifications exposed by Test Studio. Here are definitions for each IBugTracker member:
 
-```C#
+````C#
 	namespace ClassLibrary1
 	{
 		public class Class2 : IBugTracker
@@ -119,7 +119,7 @@ namespace ClassLibrary1
         #endregion
     }
     }
-```
+````
 
 6.&nbsp; Any implementation beyond this is specific to the actual Bug Tracking application you're using.
 
@@ -151,7 +151,7 @@ The **IBugTrackerConnectionUI** interface exposes additional methods to further 
 
 Create another class and implement the **IBugTrackerConnectionUI** interface. Here are the definitions for each **IBugTrackerConnectionUI** member:
 
-```C#
+````C#
         public class Class3 : IBugTrackerConnectionUI
                 {
     	#region IBugTrackerConnectionUI Members
@@ -218,4 +218,4 @@ Create another class and implement the **IBugTrackerConnectionUI** interface. He
 	 
 	    #endregion
 		}
-```
+````

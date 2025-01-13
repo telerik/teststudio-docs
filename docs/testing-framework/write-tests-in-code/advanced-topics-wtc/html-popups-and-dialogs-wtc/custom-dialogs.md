@@ -8,7 +8,7 @@ position: 10
 
 If for whatever reason you decide that you don't like the way the dialog is being handled or want to perform extra tasks before handling the dialog, you can simply craft your own dialog handling code and then ask the dialog to call your code instead of its dialog handling code. Here is an example:
 
-```C#
+````C#
 public void DoCustomDialogHandlingForBuiltInDialogs()
  {
     AlertDialog myAlertDialog = new AlertDialog(ActiveBrowser, DialogButton.OK);
@@ -46,8 +46,8 @@ public bool MyCustomAlertHandler(IDialog dialog)
          return false;
     }
 }
-```
-```VB
+````
+````VB
 <TestMethod()> _
 Public Sub DoCustomDialogHandlingForBuiltInDialogs()
   
@@ -80,7 +80,7 @@ Public Sub MyCustomAlertHandler(ByVal dialog As ArtOfTest.WebAii.Win32.Dialogs.I
     End Try
   
 End Sub
-```
+````
 
 
 > **To compile the above code include the following using:**

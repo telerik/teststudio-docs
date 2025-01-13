@@ -27,7 +27,7 @@ The code will wait for the end of the API test execution. After the process ends
 Hint: in a default installation, the path to the executable Telerik.ApiTesting.Runner.exe is: 
 "C:\Program Files (x86)\Progress\Test Studio\Bin\ApiTesting\runnerconsole\Telerik.ApiTesting.Runner.exe"
 
-```C#
+````C#
 	
 	// Have to include the references:
 	using System.Diagnostics;
@@ -57,8 +57,8 @@ Hint: in a default installation, the path to the executable Telerik.ApiTesting.R
 	    Assert.AreEqual(exitCode, 0);
 	}
 	
-```
-```VB
+````
+````VB
 	
 	Imports System.Diagnostics
 	
@@ -81,7 +81,7 @@ Hint: in a default installation, the path to the executable Telerik.ApiTesting.R
 
 	End Sub
 	
-```
+````
 
 ## Advanced: Passing a Variable from an API Test to a Web Test
 
@@ -110,7 +110,7 @@ To achieve that you can:
 
  - Add another coded step after that, that will read the .variables file for your test and extract the desired variable:
 
-```C#
+````C#
 		
 		// Have to include the references:
 		using System.IO;
@@ -139,8 +139,8 @@ To achieve that you can:
 	        SetExtractedValue("extractedEmail", email);
 		}
 		
-```
-```VB
+````
+````VB
 
 		Imports System.IO
 		Imports Newtonsoft.Json.Linq
@@ -163,7 +163,7 @@ To achieve that you can:
            
         End Sub
 
-```
+````
 
 Note: .variables files contain text in json format. An easy way to extract a particular value from them is if you parse the file using [Json.NET](http://www.newtonsoft.com/json). Test Studio already uses Json.NET so its .dll file (Newtonsoft.Json.dll) is available in the Bin folder of the Test Studio installation folder. In order to add `using Newtonsoft.Json.Linq;` to your coded step, you need to add an assembly reference to Newtonsoft.Json.dll as described [here](http://docs.telerik.com/teststudio/features/coded-steps/add-assembly-reference)
 

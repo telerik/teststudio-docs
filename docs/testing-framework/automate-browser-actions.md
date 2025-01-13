@@ -17,7 +17,7 @@ Telerik Testing Framework supports three types of automation actions:
  
 The code sample below demonstrates browser control and direct DOM actions.
 
-```C#
+````C#
 // *** Browser control below
   
 // Some test cases may require that all cookies be cleared ahead of time.  
@@ -98,8 +98,8 @@ ActiveBrowser.Actions.SelectDropDown(selection, "test", true);
 // the currently selected text should be the dropdown selection
 string textSelected = ActiveBrowser.GetSelectedText();   
 Assert.AreEqual("test", textSelected, "Actual test is \"{0}\"", textSelected);
-```
-```VB
+````
+````VB
  
 ActiveBrowser.NavigateTo("http://www.google.com")
   
@@ -172,7 +172,7 @@ Actions.SelectDropDown(selection, 2)
 
 Dim textSelected As String = ActiveBrowser.GetSelectedText()
 Assert.AreEqual("test", textSelected, "Actual test is ""{0}""", textSelected)
-```
+````
 
 Let's look at some pure UI automation to simulate some of the DOM actions above. Before we look at the sample code, there are few things to note regarding pure UI automation using Telerik Testing Framework:
 
@@ -184,7 +184,7 @@ Let's look at some pure UI automation to simulate some of the DOM actions above.
  
 The code below shows how to set the text for the 'input1' text box using pure UI automation:
 
-```C#
+````C#
 ActiveBrowser.Actions.ScrollToVisible(input1);
 
 //The ScrollToVisible method could set an element to the top  or the bottom of the page 
@@ -194,12 +194,12 @@ input1.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementTopAtWin
 
 Manager.Desktop.Mouse.Click(MouseClickType.LeftClick, input1.GetRectangle());
 Manager.Desktop.KeyBoard.TypeText("Hello there", 100);
-```
-```VB
+````
+````VB
 ActiveBrowser.Actions.ScrollToVisible(input1)
 Manager.Desktop.Mouse.Click(MouseClickType.LeftClick, input1.GetRectangle())
 Manager.Desktop.KeyBoard.TypeText("Hello there", 100)
-```
+````
 
 ## Advanced Scenarios
 
@@ -213,7 +213,7 @@ For example, if you are attempting to click the red (x) on this window to drag i
 
 You would write something like this:
 
-```C#
+````C#
 // get the window element we are trying to drag.
 Element mywindow = ActiveBrowser.Find.ByName("mydraggablewindow");
   
@@ -224,8 +224,8 @@ Element mydestination = ActiveBrowser.Find.ById("mydestinationlocation");
 // from the top center edge) and dragging it to the center of the destination location.
 Manager.Desktop.Mouse.DragDrop(mywindow.GetRectangle(), new System.Drawing.Point(0, 2), OffsetReference.TopCenter,
     mydestination.GetRectangle(), new System.Drawing.Point(0, 0), OffsetReference.AbsoluteCenter);
-```
-```VB
+````
+````VB
 ' get the window element we are trying to drag.
 Dim mywindow As Element = ActiveBrowser.Find.ByName("mydraggablewindow")
   
@@ -236,6 +236,6 @@ Dim mydestination As Element = ActiveBrowser.Find.ById("mydestinationlocation")
 ' from the top center edge) and dragging it to the center of the destination location.
 Manager.Desktop.Mouse.DragDrop(mywindow.GetRectangle(), New Drawing.Point(0, 2), OffsetReference.TopCenter, _
     mydestination.GetRectangle(), New Drawing.Point(0, 0), OffsetReference.AbsoluteCenter)
-```
+````
 
 [1]: /img/testing-framework/automate-browser-actions/fig1.jpg

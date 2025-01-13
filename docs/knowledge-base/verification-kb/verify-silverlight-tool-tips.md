@@ -28,7 +28,7 @@ Instead we have to resort to code to perform our tooltip verification. First add
 
 Now we have an element reference we can use in a coded step. Next add a coded step as follows:
 
-```C#
+````C#
 FrameworkElement elem = Pages.SilverlightToolkitSamples.SilverlightApp.AmusedRatingitem;
 
 string actualTip = elem.ToolTipText;
@@ -36,10 +36,10 @@ string actualTip = elem.ToolTipText;
 Log.WriteLine(actualTip);
 
 Assert.AreEqual<string>("Amused", actualTip);
-```
+````
  
 
-```VB
+````VB
 Dim elem As FrameworkElement = Pages.SilverlightToolkitSamples.SilverlightApp.AmusedRatingitem
 
 Dim actualTip As String = elem.ToolTipText
@@ -47,7 +47,7 @@ Dim actualTip As String = elem.ToolTipText
 Log.WriteLine(actualTip)
 
 Assert.AreEqual(Of String)("Amused", actualTip)
-```
+````
 
 [1]: /img/knowledge-base/verification-kb/verify-silverlight-tool-tips/fig1.png
 [2]: /img/knowledge-base/verification-kb/verify-silverlight-tool-tips/fig2.png

@@ -20,7 +20,7 @@ However, this doesn't work with a default Test Studio project. A Test Studio pro
 
 * *System.Configuration*
 
-```C#
+````C#
 Assembly me = Assembly.GetExecutingAssembly();
 Configuration config = ConfigurationManager.OpenExeConfiguration(me.ManifestModule.Assembly.Location);
   
@@ -29,8 +29,8 @@ string name = config.AppSettings.Settings["LoginName"].Value;
 string pw = config.AppSettings.Settings["Pass"].Value;
 string UserId = config.AppSettings.Settings["UserId"].Value;
 string conn = config.ConnectionStrings.ConnectionStrings["ConnectionString"].ConnectionString;
-```
-```VB
+````
+````VB
 Dim [me] As Assembly = Assembly.GetExecutingAssembly()
 Dim config As Configuration = ConfigurationManager.OpenExeConfiguration([me].ManifestModule.Assembly.Location)
  
@@ -39,4 +39,4 @@ Dim name As String = config.AppSettings.Settings("LoginName").Value
 Dim pw As String = config.AppSettings.Settings("Pass").Value
 Dim UserId As String = config.AppSettings.Settings("UserId").Value
 Dim conn As String = config.ConnectionStrings.ConnectionStrings("ConnectionString").ConnectionString
-```
+````

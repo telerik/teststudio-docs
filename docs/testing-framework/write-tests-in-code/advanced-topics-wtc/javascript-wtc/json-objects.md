@@ -10,7 +10,7 @@ Your tests can understand JSON (<a href="http://www.json.org/" target="_blank" r
  
 This is a basic example of how to use JSON:
 
-```C#
+````C#
 [TestMethod]
 public void KeyValuePairs()
 {
@@ -23,8 +23,8 @@ public void KeyValuePairs()
     Assert.AreEqual<string>("value1", o["root"]["key1"]);
     Assert.AreEqual<string>("value2", o["root"]["key2"]);
 }
-```
-```VB
+````
+````VB
 <TestMethod()> _
 Public Sub KeyValuePairs()
     Manager.LaunchNewBrowser()
@@ -35,11 +35,11 @@ Public Sub KeyValuePairs()
     Assert.AreEqual(Of String)("value1", o("root")("key1"))
     Assert.AreEqual(Of String)("value2", o("root")("key2"))
 End Sub
-```
+````
 
 In this example we define our own object in a Data Contract:
 
-```C#
+````C#
 [DataContract]
 public class MyObject
 {
@@ -57,8 +57,8 @@ public void ReturnObject()
     Assert.AreEqual<int>(1, o.One);
     Assert.AreEqual<int>(15, o.Fifteen);
 }
-```
-```VB
+````
+````VB
 <DataContract()> _
 Public Class MyObject
     Private _One As Integer
@@ -90,11 +90,11 @@ Public Sub ReturnObject()
     Assert.AreEqual(Of Integer)(1, o.One)
     Assert.AreEqual(Of Integer)(15, o.Fifteen)
 End Sub
-```
+````
 
 In this example we'll access an array returned by InvokeScript, treat it as JSON, and parse it manually for its values.
 
-```C#
+````C#
 var actions = Manager.Current.ActiveBrowser.Actions;
 JsonObject result = actions.InvokeScript <JsonObject>("window.my_list=[1,2,3]");
 JsonArray arr = (JsonArray)result["root"];
@@ -103,8 +103,8 @@ for (int i = 0; i < 3; i++)
 double val = arr[i];
 Log.WriteLine(val.ToString());
 }
-```
-```VB
+````
+````VB
 Dim actions = Manager.Current.ActiveBrowser.Actions
 Dim result As JsonObject = actions.InvokeScript(Of JsonObject)("window.my_list=[1,2,3]")
 Dim arr As JsonArray = DirectCast(result("root"), JsonArray)
@@ -112,4 +112,4 @@ For i As Integer = 0 To 2
     Dim val As Double = arr(i)
     Log.WriteLine(val.ToString())
 Next
-```
+````

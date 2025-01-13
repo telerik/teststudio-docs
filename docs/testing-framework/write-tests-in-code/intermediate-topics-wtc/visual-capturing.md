@@ -12,28 +12,28 @@ position: 1
 Each Telerik Testing Framework Window object provides functionality to capture the visual bitmaps of the actual window it represents. You can capture the entire window or a targeted portion of that window using the Window.GetBitmap() method. You can use this method for any Win32 window represented by the Window object. Lets take a quick example:
 
 
-```C#
+````C#
 // Get the current browser window bitmap.
 System.Drawing.Bitmap browserImage = ActiveBrowser.Window.GetBitmap();
-```
-```VB
+````
+````VB
 Dim browserImage As System.Drawing.Bitmap = ActiveBrowser.Window.GetBitmap()
-```
+````
 
 The Log uses the above method to capture the browser window when calling the Log.CaptureBrowser() method. The log also saves the captured bitmap to the 'LogLocation' as provided by your settings and a line is added to the log file that points to that bitmap file. The bitmaps are also added to the Log.CapturedBitmaps[] array. For example:
 
 
-```C#
+````C#
 // Capture the bitmap of my current ActiveBrowser and save it to the LogLocation
 // [LogLocation is set using the Settings object that is passed in to the Manager's constructor]
 Manager.Log.CaptureBrowser(Manager.ActiveBrowser);
   
 // Note: If you are automating multiple browser instances, you can simply
 // call the CaptureBrowser() passing in any instance from the Manager.Browser[] collection.
-```
-```VB
+````
+````VB
 Manager.Log.CaptureBrowser(Manager.ActiveBrowser)
-```
+````
 
 ## Visual Capturing of Elements
 
@@ -41,7 +41,7 @@ In addition to capturing the entire window, you can also capture targeted portio
  
 Let's take a simple example to demonstrate this functionality. Assume we have the following simple page:
 
-```HTML
+````HTML
 <html>
    <head>
     <title>Visual Capturing sample</title>
@@ -61,7 +61,7 @@ Let's take a simple example to demonstrate this functionality. Assume we have th
      </div>
    </body>
 </html>
-```
+````
 
 The above page renders as follows:
 
@@ -69,20 +69,20 @@ The above page renders as follows:
 
 The below code shows how we can get the visual capture of the second 'div' element:
 
-```C#
+````C#
 // Get the element
 Element myDiv = ActiveBrowser.Find.ById("mydiv");
   
 // Capture it visually as a bitmap
 System.Drawing.Bitmap divimage = ActiveBrowser.Window.GetBitmap(myDiv.GetRectangle());
-```
-```VB
+````
+````VB
 ' Get the element
 Dim myDiv As Element = ActiveBrowser.Find.ById("mydiv")
   
 ' Capture it visually as a bitmap
 Dim divimage As System.Drawing.Bitmap = ActiveBrowser.Window.GetBitmap(myDiv.GetRectangle())
-```
+````
 
 The divimage bitmap captured object is:
 

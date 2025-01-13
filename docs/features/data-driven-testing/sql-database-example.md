@@ -25,9 +25,9 @@ Now we can connect to it and use it for data-driven testing.
 
 4.&nbsp; Here's an example for **Connection String**:
 
-```
+````
 Data Source=MACHINENAME\SQLEXPRESS; Initial Catalog=myFirstDB; Integrated Security=true;
-```
+````
 
 - Data Source is the name of the SQL Server.
 - Initial Catalog is the named of the Database.

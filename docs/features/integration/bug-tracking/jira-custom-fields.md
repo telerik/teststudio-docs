@@ -18,12 +18,12 @@ In order to denote your required fields and what to fill them with, create a fil
 
 Open it with a text editor, like Notepad, and insert the following content:
 
-```json
+````JSON
 {
 "IssueTypeName": "Defect",
 "Fields" : {"assignee": {"name": "username" }, "labels": ["defect"],  "customfield_10401":{"required custom field": "value"}, "customfield_10402":{"another required custom field": "value"} }
 }
-```
+````
 
 In JIRA, custom fields are referenced by "customfield_" + the id of the custom field. In the above example there are two custom fields referrenced with their names and respective values. 
 

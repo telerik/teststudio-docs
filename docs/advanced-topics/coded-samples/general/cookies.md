@@ -8,7 +8,7 @@ position: 1
 
 Here is a working code sample:
 
-```C#
+````C#
 Manager.LaunchNewBrowser();
  
 const string url = "http://www.google.com";
@@ -26,8 +26,8 @@ foreach (Cookie cookie in ActiveBrowser.Cookies.GetCookies("http://www.google.co
 {
     Log.WriteLine(cookie.Name);
 }
-```
-```VB
+````
+````VB
 Manager.LaunchNewBrowser()
  
 Const  url As String = "http://www.google.com"
@@ -44,4 +44,4 @@ Log.WriteLine(count.ToString())
 For Each cookie As Cookie In ActiveBrowser.Cookies.GetCookies("http://www.google.com")
     Log.WriteLine(cookie.Name)
 Next
-```
+````

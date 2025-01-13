@@ -10,10 +10,7 @@ Telerik Testing Framework allows you to verify if there are any JavaScript error
 
 > The page in the current example does not actually contain JavaScript errors. Therefore these are invoked on purpose to demonstrate the feature.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     // Navigate to a page
     Manager.ActiveBrowser.NavigateTo("https://www.google.com");
             
@@ -45,7 +42,7 @@ Telerik Testing Framework allows you to verify if there are any JavaScript error
             
     // Assert if there are any errors on the current page
     Assert.AreEqual(0, currentErrorsOnPage.Count());
-    {{endregion}}
+````
 
 > __Note!__ The JS error check step detects only JavaScript errors. Any errors related to not loaded resources will not be detected. An example for such console error is listed below:<br>
 <br>

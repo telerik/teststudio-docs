@@ -36,11 +36,11 @@ Upon <a href="/automated-tests/test-execution/quick-execution" target="_blank">e
 
 Looking at the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a> and the <a href="/automated-tests/test-results/step-failure-details#images-section" target="_blank">images</a>, we can clearly see the correct page is loaded, the element is there, but the test failed with the following failure reason:
 
-```
+````
 Attempting to find [Html] element using Find logic  (Html): 
 [id 'Exact' 1fe4125d-59c9-51c3-ba05-59d1e602d1dc] AND [tagname 'Exact' input]
 Unable to locate element. Search failed!
-```
+````
 
 ## Troubleshoot the 'Element Not Found' Error
 
@@ -64,9 +64,9 @@ Click on __Update Filters__ button to replace the id in the find expression with
 
 The Test Studio find expression builder lists all attributes of the opened element and any of these can be added in the find expression. If we look closely at the _input_ element, we see its __name__ attribute is unique and, if it is used in the find expression instead of the __id__, finding the element in test runtime gets more robust.
 
-```HTML
+````HTML
 <input class="form-control" type="text" placeholder="User Name" name="UserName" id="041a3438-f784-c57c-1805-72a73d88ff1d">
-```
+````
 
 Remove the __id__ filter from the current find expression and add the __name__ filter instead.
 

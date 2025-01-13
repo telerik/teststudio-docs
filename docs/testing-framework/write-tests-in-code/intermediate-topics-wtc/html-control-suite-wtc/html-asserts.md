@@ -142,7 +142,7 @@ For example: AssertCheck.IsTrue() will verify the associated checkbox control is
 
 Now let's see how this works in action:
 
-```C#
+````C#
 // Attribute checks
 HtmlSpan span = Find.ById<HtmlSpan>("Warning");
 span.AssertAttribute().Exists("style");
@@ -198,8 +198,8 @@ table.AssertTable().RowCount(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.
 table.AssertTable().RowRange(ArtOfTest.Common.NumberRangeCompareType.OutsideRange, 1, 2);
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.Contains, "TD5");
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.NotContain, "TD37");
-```
-```VB
+````
+````VB
 ' Attribute checks
 Dim span As HtmlSpan = Find.ById(Of HtmlSpan)("Warning")
 span.AssertAttribute().Exists("style")
@@ -253,7 +253,7 @@ table.AssertTable().RowCount(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.
 table.AssertTable().RowRange(ArtOfTest.Common.NumberRangeCompareType.OutsideRange, 1, 2)
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.Contains, "TD5")
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.NotContain, "TD37")
-```
+````
 
 
 There are many other possible assert verification combinations built into the framework that you can take advantage of. The above examples are just a small subset of what is possible to help you get started implementing them in your code and crafting the kinds of verification you need for your particular website. Consult the API reference manual to learn about the other combinations.

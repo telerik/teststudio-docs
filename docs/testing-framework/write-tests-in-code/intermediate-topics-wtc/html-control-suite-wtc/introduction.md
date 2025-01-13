@@ -430,7 +430,7 @@ Here is a list of the support classes that make it easier to use the rest of the
 
 Suppose we're automating a form to submit an auto classified ad. Here's how to write the code and take advantage of the HTML element wrapper suite:
 
-```C#
+````C#
 [TestClass]
 public class SubmitAdTestClass : BaseTest
 {
@@ -500,8 +500,8 @@ public class SubmitAdTestClass : BaseTest
         submit.Click();
     }
 }
-```
-```VB
+````
+````VB
 <TestClass()> _
  Public Class SubmitAdTestClass
     Inherits BaseTest
@@ -574,7 +574,7 @@ public class SubmitAdTestClass : BaseTest
     End Sub
    
 End Class
-```
+````
 
 
 By taking advantage of the object oriented nature of the HTML element wrapper classes, our test code that fills in the fields and clicks the submit button is much simpler, more descriptive and more intuitive in nature. Note how simple it was to enter text into all the input fields, as well as make all the drop down selections using intuitive methods included with Telerik's HTML element wrapper classes!

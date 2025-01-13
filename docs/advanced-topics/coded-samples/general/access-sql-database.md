@@ -19,12 +19,12 @@ If a reference to System.Data 2.0 already exists, remove it add it again from th
 
 Ensure you add the *using* or *Imports* statement to the top of the code-behind file. Click the View Class button, scroll to the top of the code, and add this line:
 
-```C#
+````C#
 using System.Data.SqlClient;
-```
-```VB
+````
+````VB
 Imports System.Data.SqlClient;
-```
+````
 
 ## Sample Code
 
@@ -34,7 +34,7 @@ Here we've create a SQL database named **myFirstDB**. This database contains a t
 
 ### Read from SQL Database
 
-```C#
+````C#
 //Define a new SQL connection with a connection string. 
 //The connection string will be different depending on your environment and the name of the database, table, etc.
 //See http://www.connectionstrings.com for connection string examples.
@@ -57,8 +57,8 @@ while (thisReader.Read())
  
 thisReader.Close();
 thisConnection.Close();
-```
-```VB
+````
+````VB
 'Define a new SQL connection with a connection string. 
 'The connection string will be different depending on your environment and the name of the database, table, etc.
 'See http://www.connectionstrings.com for connection string examples.
@@ -80,11 +80,11 @@ End While
  
 thisReader.Close()
 thisConnection.Close()
-```
+````
 
 ### Write into SQL Database
 
-```C#
+````C#
 //Define a new SQL connection with a connection string.
 //The connection string will be different depending on your environment and the name of the database, table, etc.
 //See http://www.connectionstrings.com for connection string examples.
@@ -98,8 +98,8 @@ Log.WriteLine(thisConnection.Database);
 SqlCommand thisCommand = thisConnection.CreateCommand();
 thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')";
 thisCommand.ExecuteNonQuery();
-```
-```VB
+````
+````VB
 'Define a new SQL connection with a connection string.
 'The connection string will be different depending on your environment and the name of the database, table, etc.
 'See http://www.connectionstrings.com for connection string examples.
@@ -113,7 +113,7 @@ Log.WriteLine(thisConnection.Database)
 Dim thisCommand As SqlCommand = thisConnection.CreateCommand()
 thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')"
 thisCommand.ExecuteNonQuery()
-```
+````
 
 **Note**: This code won't run without modification. The database, table, and column in the original code won't exist in your environment.
 

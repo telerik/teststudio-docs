@@ -15,7 +15,7 @@ When I execute my test in the Standalone version, or build my test project in th
 
 ## SOLUTION
 
-```C#
+````C#
 namespace TestProject2
 {
     using ArtOfTest.WebAii.Core;
@@ -25,8 +25,8 @@ namespace TestProject2
     using ArtOfTest.WebAii.Controls.HtmlControls;
     public class Pages
 }
-```
-```VB
+````
+````VB
 	Imports ArtOfTest.WebAii.Core
 	Imports ArtOfTest.WebAii.ObjectModel
 	Imports ArtOfTest.WebAii.TestAttributes
@@ -36,12 +36,12 @@ namespace TestProject2
 	Namespace TestProject2
  
 	Public Class Pages
-```
+````
 
 If the code behind files are not using the same namespace, you receive one of the errors. This is how the code behind file should look for *TestProject2*:
 
 
-```C#
+````C#
 using Telerik.WebAii.Controls.Html;
 using Telerik.WebAii.Controls.Xaml;
 using System;
@@ -61,8 +61,8 @@ using ArtOfTest.WebAii.Silverlight.UI;
  
 namespace TestProject2
 {
-```
-```VB
+````
+````VB
 Imports Telerik.WebAii.Controls.Html
 Imports Telerik.WebAii.Controls.Xaml
 Imports System
@@ -81,5 +81,5 @@ Imports ArtOfTest.WebAii.Silverlight
 Imports ArtOfTest.WebAii.Silverlight.UI
  
 Namespace TestProject2
-```
+````
 

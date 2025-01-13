@@ -10,7 +10,7 @@ position: 1
 In some automation scenarios it is necessary to limit a single test execution to a certain time frame. That is possible if the following approach is used. In an <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">execution extension</a> library is set timer that is re-set each time the new test starts. If the time expired before the timer is re-set - all processes related to test execution are killed. This will ensure if a test takes more than initially defined time interval to stop its execution and continue with the next test. Below is given sample execution extension library with time frame set to 5 minutes.
 
 
-```C#
+````C#
 	
 public class ExecutionTimeout : IExecutionExtension
 {
@@ -100,9 +100,7 @@ public class ExecutionTimeout : IExecutionExtension
         }
     }
 }
-```
-
-```VB
+````VB
 
 Public Class ExecutionTimeout
 	Implements IExecutionExtension
@@ -179,4 +177,4 @@ Public Class ExecutionTimeout
 	End Sub
 End Class
 
-```
+````

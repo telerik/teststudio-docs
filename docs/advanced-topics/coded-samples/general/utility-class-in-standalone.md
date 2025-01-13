@@ -15,7 +15,7 @@ position: 1
 
 <a href="/features/coded-steps/standalone-code-file" target="_blank">Here</a> you could read how to create a standalone code file within a Test Studio project. Below are listed two examples how a class file named *Utility* could be adjusted to cover two  common scenarios: ***write text to external file*** and ***perform certain action against an element***. The provided sample code requires reference to ***System.IO.dll*** and  ***ArtOfTest.WebAii.Controls.HtmlControls.dll*** added in the project settings and the respective *using* statements in the code. Note that the namespace of the standalone code file must be the same as the namespace of the project.
 
-```C#
+````C#
 using System.IO;
 using ArtOfTest.WebAii.Controls.HtmlControls;
 
@@ -42,8 +42,8 @@ namespace YourTestProjectNamespace
         }
 	}
 }
-```
-```VB
+````
+````VB
 Imports System.IO
 Imports ArtOfTest.WebAii.Controls.HtmlControls
 
@@ -72,7 +72,7 @@ Namespace YourTestProjectNamespace
 		End Sub
 	End Class
 End Namespace
-```
+````
 
 Once the code file is ready for use compile the project to build the assembly. Then you'll be able to access the functions/variables within your *Utility* class from all tests in this project. Note that the Test Studio code editor will not auto-complete references to the contents of the *Utility* class.
 
@@ -80,7 +80,7 @@ Once the code file is ready for use compile the project to build the assembly. T
 
 The code sample below demonstrates how the global methods and variables could be accessed in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a>. 
 
-```C#
+````C#
 //set value to the global variable
 Utility.valueHolder = 2;
 
@@ -95,8 +95,8 @@ HtmlControl searchBtn = Find.ById<HtmlControl>("controlId");
 
 //call Utility class method to perform click on element using the predefined static function
 Utility.ClickOnElement(searchBtn);
-```
-```VB
+````
+````VB
 Utility.valueHolder = 2
 
 Log.WriteLine("Value from Utility class:" + Utility.valueHolder.ToString())
@@ -106,4 +106,4 @@ Utility.writeToFile("c:\myNewText200.txt", "some content")
 Dim searchBtn As HtmlControl = Find.ById(Of HtmlControl)("sb_form_go")
 
 Utility.clickOnElement(searchBtn)
-```
+````

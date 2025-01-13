@@ -13,12 +13,12 @@ You may encounter the *Wait for condition* has timed out error after your test p
 
 __Failure Information:__
 
-```
+````
 Wait for condition has timed out
 InnerException:
 System.TimeoutException: Wait for condition has timed out
 at ArtOfTest.WebAii.Core.Browser.WaitUntilReady()
-```
+````
 
 This indicates the test timed out waiting for the browser to return to a "ready" state after the click command was sent to it.
 

@@ -20,7 +20,7 @@ Once you have an element, you can navigate to other elements relative to this el
 Suppose we have some HTML that looks like this:
 
 
-```HTML
+````HTML
 <div id="div1">
   DIV1 TEXT
        <div id="div2">
@@ -30,12 +30,12 @@ Suppose we have some HTML that looks like this:
                <span id="span3" class="style-span-3">SPAN3 TEXT</span>
        </div>
 </div>
-```
+````
 
 
 Here is how we can navigate around the DOM once we have a starting element:
 
-```C#
+````C#
 // Let's start with the span1 element.
 Element span1 = Find.ById("span1");
 Element span2 = span1.GetNextSibling();
@@ -66,8 +66,8 @@ span3 = parentDiv.Children[2];
 Assert.IsTrue(span1.IdAttributeValue.Equals("span1"), string.Format("Actual ID: {0}", span1.IdAttributeValue));
 Assert.IsTrue(span2.IdAttributeValue.Equals("span2"), string.Format("Actual ID: {0}", span2.IdAttributeValue));
 Assert.IsTrue(span3.IdAttributeValue.Equals("span3"), string.Format("Actual ID: {0}", span3.IdAttributeValue));
-```
-```VB
+````
+````VB
 ' Let's start with the span1 element.
 Dim span1 As Element = Find.ById("span1")
 Dim span2 As Element = span1.GetNextSibling()
@@ -98,4 +98,4 @@ span3 = parentDiv.Children(2)
 Assert.IsTrue(span1.IdAttributeValue.Equals("span1"), String.Format("Actual ID: {0}", span1.IdAttributeValue))
 Assert.IsTrue(span2.IdAttributeValue.Equals("span2"), String.Format("Actual ID: {0}", span2.IdAttributeValue))
 Assert.IsTrue(span3.IdAttributeValue.Equals("span3"), String.Format("Actual ID: {0}", span3.IdAttributeValue))
-```
+````

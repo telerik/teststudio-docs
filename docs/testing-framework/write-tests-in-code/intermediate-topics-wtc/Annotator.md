@@ -14,49 +14,49 @@ The annotator displays in the browser window the actions that Telerik Testing Fr
 
 There are 2 methods to activating Telerik Testing Framework's automatic annotator. The simplest method is to activate it via the application .config file. By setting "annotateExecution" to true, the framework turns on the annotator and begins annotating all actions in the browser
 
-```XML
+````XML
 <WebAii.Settings
   annotateExecution="true"
 />
-```
+````
 
 ## Activating the Annotator Programmatically
 
 The next method is to turn on the annotator programmatically in your application. This is accomplished by placing this simple line of code in your unit test:
 
-```C#
+````C#
 // Enable Annotated Execution.
 Manager.Settings.AnnotateExecution = true;
 // Disable Annotated Execution.
 Manager.Settings.AnnotateExecution = false;
-```
-```VB
+````
+````VB
 ' Enable Annotated Execution.
 Manager.Settings.AnnotateExecution = True
 ' Disable Annotated Execution.
 Manager.Settings.AnnotateExecution = False
-```
+````
 
 ## Performing Your Own Annotation
 
 You can also perform your own annotation programmatically using the Annotator class. First you must create an Annotator object passing into it which browser window to display annotation in. Once you have an Annotator object you can call one of the annotate functions. For example:
 
-```C#
+````C#
 Annotator myAnnotator = new Annotator(ActiveBrowser);
 myAnnotator.Annotate("This annotation message appears at the top of the browser document window");
 myAnnotator.Annotate("This annotation message appears at the top left corner of the browser document window",
      350, OffsetReference.TopLeftCorner);
 myAnnotator.Annotate(new Point(100, 300), "This annotation message appears under the point at 100,300 in the browser document window");
 myAnnotator.Annotate(Find.ById("btn1").GetRectangle(), "This annotation highlights the Color On button");
-```
-```VB
+````
+````VB
 Dim myAnnotator As Annotator = New Annotator(ActiveBrowser)
 myAnnotator.Annotate("This annotation message appears at the top of the browser document window")
 myAnnotator.Annotate("This annotation message appears at the top left corner of the browser document window", _
                       350, OffsetReference.TopLeftCorner)
 myAnnotator.Annotate(New Point(100, 300), "This annotation message appears under the point at 100,300 in the browser document window")
 myAnnotator.Annotate(Find.ById("btn1").GetRectangle(), "This annotation highlights the Color On button")
-```
+````
 
 [1]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/annotator/fig1.png
 

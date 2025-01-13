@@ -58,11 +58,11 @@ As part of your project development and testing you may find the need to add a n
 
 4. Find the section that specifies the list of test lists to run and modify it to look something like this:
 
-```XML
+````XML
 <MetaDataFile Include="$(BuildProjectFolderPath)/SydneyProject.vsmdi">
   <TestList>BVTsTestList;CoreFeaturesTestList</TestList>
 </MetaDataFile>
-```
+````
 
 ## Modifying the List of Individual Tests to Run 
 
@@ -76,11 +76,11 @@ As part of your project development and testing you may find the need to add a n
 
 4. Find the section that specifies the list of individual tests to run and modify it to look something like this:
 
-```XML
+````XML
 <PropertyGroup>
   <TestNames>BVT;CoreFeatA;CoreFeatB</TestNames>
 </PropertyGroup>
-```
+````
 ## How to Run Tests in a Build Without Test Metadata Files and Test Lists (.vsmdi Files)
 
 Normally when you create a new test project, a metadata file is automatically created and added to the project. If you don't want to use this metadata file to create test lists there's a good <a href="http://blogs.msdn.com/buckh/archive/2006/11/04/how-to-run-tests-without-test-metadata-files-and-test-lists-vsmdi-files.aspx" target="_blank">blog post on how to do that here</a>.

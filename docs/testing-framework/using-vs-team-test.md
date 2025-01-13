@@ -15,7 +15,7 @@ Telerik Automation Infrastructure comes with the following features to facilitat
 
 * Unifies both the logging location and the log content. Any logging from Telerik automation using its Log object will also be logged to the Visual Studio log location and to the actual Visual Studio log content of that particular test. This includes logging from JavaScipt.
 
-```C#
+````C#
 [TestMethod]
 public void DLog()
 {
@@ -25,8 +25,8 @@ public void DLog()
      Log.WriteLine("Hello from Telerik");
   
 }
-```
-```VB
+````
+````VB
 <TestMethod()> _
 Public Sub DLog()
   
@@ -36,7 +36,7 @@ Public Sub DLog()
      Log.WriteLine("Hello from Telerik")
   
 End Sub
-```
+````
 
 ## Visual Studio log
 

@@ -17,7 +17,7 @@ This is possible with a coded solution. Change the SilverlightApp or any Framewo
 
 The example below is against this <a href="http://www.silverlight.net/content/samples/sl4/toolkitcontrolsamples/run/default.html" target="_blank">Silverlight demo site</a>. After navigating there, click DataGrid in the left-hand menu. Then add a coded step:
 
-```C#
+````C#
 SilverlightApp app = ActiveBrowser.SilverlightApps()[0];
 FindStrategy originalStrategy = app.Find.Strategy;
  
@@ -42,9 +42,7 @@ finally
 {
     app.Find.Strategy = originalStrategy;
 }
-```
-
-```VB
+````VB
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
 Dim originalStrategy As FindStrategy = app.Find.Strategy
  
@@ -63,6 +61,6 @@ Try
 Finally
     app.Find.Strategy = originalStrategy
 End Try
-```
+````
 
 **Note:** As is, the IF portion is executed. You can disable step two (treeview item 'DataGrid' select action) to see the ELSE portion execute.

@@ -29,7 +29,7 @@ Here's a sample test that automates this case:
 
 Here's the code from that sample:
 
-```C#
+````C#
     string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\domainResults.xlsx";
     string myPath = "C:\\domainResults.xlsx";
 
@@ -63,8 +63,8 @@ Here's the code from that sample:
     excelApp.Quit();
     GC.Collect();
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-```
-```VB
+````
+````VB
     Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\domainResults.xlsx"
     Dim myPath As String = "C:\domainResults.xlsx"
     
@@ -95,7 +95,7 @@ Here's the code from that sample:
     excelApp.Quit()
     GC.Collect()
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp)
-```
+````
 
 ## How to Find and Use Office PIA's
 

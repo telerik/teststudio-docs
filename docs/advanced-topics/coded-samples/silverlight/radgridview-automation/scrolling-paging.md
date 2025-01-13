@@ -23,7 +23,7 @@ This is possible with a coded solution. To accomplish the main goal, we need to 
 
 The following code demonstrates how to accomplished this on a <a href="http://demos.telerik.com/silverlight/#GridView/PagingLargeData" target="_blank">Telerik demo site</a>.
 
-```C#
+````C#
 public FrameworkElement FindElementByTextContent(string content)
 {
     int extentHeight; // The total height of the grid, visible plus non-visible     
@@ -77,9 +77,7 @@ public FrameworkElement FindElementByTextContent(string content)
     grid.Find.Strategy = originalStrategy;
     return null;
 }
-```
-
-```VB
+````VB
 Public Function FindElementByTextContent(content As String) As FrameworkElement
     
     Dim extentHeight As Integer
@@ -132,7 +130,7 @@ Public Function FindElementByTextContent(content As String) As FrameworkElement
     grid.Find.Strategy = originalStrategy
     Return Nothing
 End Function
-```
+````
 
 
 Place this in the code-behind and then call this method from a coded step.

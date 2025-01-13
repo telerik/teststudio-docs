@@ -27,9 +27,9 @@ The very first step in verifying the drop down items is to simply open the drop 
 
 Now that the drop down has been opened we'll be able to get to the ComboBoxItems in the visual tree. Since Test Studio has no built-in verification's of ComboBoxItems we have to resort to code to perform our verification. Let's start by fetching our ComboBox and storing it in a local variable for easy reference:
 
-```C#
+````C#
 ComboBox cbox = Pages.SilverlightApplication3.SilverlightApp.Item0Combobox;
-```
+````
 
 Now you may be wondering how did I know to use "Pages.Pale2.SilverlightApp.ComboBoxItem1Combobox"? If you click on the test step that opens the drop down (step 2 in my example) you will see the target element highlighted in Elements Explorer like this:
 
@@ -39,27 +39,27 @@ By looking at the element hierarchy you can construct the element reference quit
 
 The next problem you may run into (depending on the design of the application) is there could be a delay between when the drop down opens and the items appear in the list. Sometimes the application has to communicate with the remote web server to obtain the list of items to be displayed in the drop down. This remote communication can cause a significant delay before the items actually show up. If this is happening in your application, we can synchronize with the items showing up by adding a Wait.For call like this:
 
-```C#
+````C#
 Wait.For<ComboBox>(cb => cb.Items.Count > 0, cbox, 10000);
-```
+````
 
 This code will wait up to 10 seconds for the list of available items to be at least 1. The test will fail and abort here if there isn't at least 1 items present after 10 seconds. If you know exactly how many items should show up, you can change "> 0" so something like "== 5" to wait for 5 items to be present. To change the timeout, simply change 10000 to the number of milliseconds you want to use for your timeout.
 
 To verify the number of items presented we use this code:
 
-```C#
+````C#
 IList<ComboBoxItem> items = cbox.Items;
 
 //Log.WriteLine(items.Count + " ComboBoxItem's found");
 
 Assert.AreEqual<int>(5, items.Count);
-```
+````
 
 This code will cause the test to fail of the count is something other than 5. Adjust it to match what your ComboBox actually has.
 
 To verify the actual text contain in the drop down we'll need to use code like this:
 
-```C#
+````C#
 //foreach (ComboBoxItem item in items)
 
 //{
@@ -77,12 +77,12 @@ Assert.AreEqual<string>("ComboBoxItem3", items[2].TextBlockContent);
 Assert.AreEqual<string>("ComboBoxItem4", items[3].TextBlockContent);
 
 Assert.AreEqual<string>("ComboBoxItem5", items[4].TextBlockContent);
-```
+````
 
 This code assumes the list of items and their order will never change. The test will immediately fail at the first item that doesn't match. Putting it all together this is our code:
 
 
-```C#
+````C#
 ComboBox cbox = Pages.Pale2.SilverlightApp.ComboBoxItem1Combobox;
 
  
@@ -112,7 +112,7 @@ Assert.AreEqual<string>("ComboBoxItem3", items[2].TextBlockContent);
 Assert.AreEqual<string>("ComboBoxItem4", items[3].TextBlockContent);
 
 Assert.AreEqual<string>("ComboBoxItem5", items[4].TextBlockContent);
-```
+````
 
 For this code to compile you will need to have two using statements at the top of your code file:
 

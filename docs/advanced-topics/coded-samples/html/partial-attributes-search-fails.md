@@ -11,17 +11,17 @@ position: 1
 
 A partial search of control by attribute may return null even with correct partial search syntax. For example a HtmlInputButton search on the page having a complex ID containing some specific string should be located successfully using the following syntax:
 
-```C#
+````C#
 HtmlInputButton button = Find.ById<HtmlInputButton>("~MyButtonIDPart");
-```
+````
 
 
 Although the next example works:
 
 
-```C#
+````C#
 HtmlInputButton button = Find.ById<HtmlInputButton>("SomeButtonIDPart_MyButtonIDPart");
-```
+````
 
 ## DESCRIPTION
 
@@ -33,9 +33,9 @@ In the first example, the framework returns null if there is another element tha
 
 A simple solution is available. Use Find.AllByAttributes<Control Type> overload and return the first (and actually the only completely matching control):
 
-```C#
+````C#
 HtmlInputButton button = Find.AllByAttributes<HtmlInputButton>("id=~MyButtonIDPart")[0];
-```
+````
 
 
 

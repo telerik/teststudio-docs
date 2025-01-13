@@ -14,7 +14,7 @@ This is most easily achieved with standard (and non-coded) <a href="/features/ve
  
 The following code contains basic examples for demonstration purposes:
 
-```C#
+````C#
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-mvc/grid");
 HtmlTable table = Find.ByExpression<HtmlTable>("id=Grid", "|", "tagIndex=table:1");
 Assert.IsNotNull(table);
@@ -22,8 +22,8 @@ Assert.IsNotNull(table);
 int r = table.Rows.Count;
 Assert.AreEqual(r, 10);
 Assert.IsTrue(table.InnerText.Contains("Mario"));
-```
-```VB
+````
+````VB
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-mvc/grid")
 Dim table As HtmlTable = Find.ByExpression(Of HtmlTable)("id=Grid", "|", "tagIndex=table:1")
 Assert.IsNotNull(table)
@@ -31,13 +31,13 @@ Assert.IsNotNull(table)
 Dim r As Integer = table.Rows.Count
 Assert.AreEqual(r, 10)
 Assert.IsTrue(table.InnerText.Contains("Mario"))
-```
+````
 
 ## Throw New Exception 
 
 When an *Assert* statement is not appropriate, you can throw your own exception. In the example below, the *FileNotFoundException* will result in failure if the specified file does not exist on disk.
 
-```C#
+````C#
 string fileName = "C:\\test.txt";
  
 if (System.IO.File.Exists(fileName) == true)
@@ -48,8 +48,8 @@ else
 {
     throw new System.IO.FileNotFoundException("File does not exist: ", fileName);
 }
-```
-```VB
+````
+````VB
 Dim fileName As String = "C:\test.txt"
  
 If System.IO.File.Exists(fileName) = True Then
@@ -57,4 +57,4 @@ If System.IO.File.Exists(fileName) = True Then
 Else
     Throw New System.IO.FileNotFoundException("File does not exist: ", fileName)
 End If
-```
+````

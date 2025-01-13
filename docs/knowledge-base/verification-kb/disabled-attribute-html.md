@@ -39,21 +39,21 @@ There are two ways to do that:
 
 1.&nbsp; Write the Find Logic yourself in code. Use this approach if you are using Telerik Testing Framework only. You can insert this logic in the same coded step that does the disabled verification.
 
-```C#
+````C#
 Element e = Find.ByExpression("id=myInput");
-```
+````
 
 2.&nbsp; Add the element to your Project Elements, then reference it from that source. Use this approach if you are using Test Studio Standalone version or the Visual Studio plugin.
 
-```C#
+````C#
 HtmlInputText e = Pages.TryitEditorV14.FrameView.LnameText;
-```
+````
 
 3.&nbsp; Once you have your Element e, here is the verification in code:
 
-```C#
+````C#
 Assert.IsTrue(e.ToString().Contains("disabled"));
-```
+````
 
 [1]: /img/knowledge-base/verification-kb/disabled-attribute-html/fig1.png
 [2]: /img/knowledge-base/verification-kb/disabled-attribute-html/fig2.png

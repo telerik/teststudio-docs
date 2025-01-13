@@ -13,7 +13,7 @@ position: 4
 
 This is possible with a coded solution. Here's an example that goes through all the visible cells in a WPF demo grid (as opposed to all the cells contained in the grid). It writes the text content of each cell into the test log.
 
-```C#
+````C#
 WpfApplication app = Manager.ActiveApplication;
 Assert.IsNotNull(app);
  
@@ -34,8 +34,8 @@ foreach (Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow gRow in grid.Rows)
     }
     rowCounter++;
 }
-```
-```VB
+````
+````VB
 Dim app As WpfApplication = Manager.ActiveApplication
 Assert.IsNotNull(app)
  
@@ -54,7 +54,7 @@ For Each gRow As Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow In grid.Rows
     Next
     rowCounter += 1
 Next
-```
+````
 
 
 

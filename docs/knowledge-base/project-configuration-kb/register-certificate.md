@@ -46,9 +46,9 @@ Without a full version of Test Studio installed, there is no GUI to register the
 
 Open a command prompt and change the working directory to the Test Studio installation folder `C:\Program Files (x86)\Progress\Test Studio\Bin`. Then enter the following command:
 
-```
+````
 ArtOfTest.WebAii.HttpProxy.exe InstallCertificate
-```
+````
 
  
 

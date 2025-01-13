@@ -8,9 +8,9 @@ position: 1
 
 There's more than one way to implement Tool-tips in HTML. They are usually implemented using the Title attribute that gets applied to elements. Consider this HTML code snippet:
 
-```HTML
+````HTML
 <p>Test Studio, made by <span name="myHtmlSpan" title="Telerik is a leading vendor of development, team productivity, and automated testing tools.">Telerik</span>, is a quantum leap forward in Web test automation.</p>
-```
+````
 
 When you hover your mouse over the word Telerik, the tooltip will be displayed as shown in this screenshot:
 
@@ -36,9 +36,9 @@ When you hover your mouse over the word Telerik, the tooltip will be displayed a
 
 2.&nbsp; Write the code as follows:
 
-```C#
+````C#
 Find.ByName<HtmlSpan>("myHtmlSpan").AssertAttribute().Value("title", ArtOfTest.Common.StringCompareType.Same, "Telerik is a leading vendor of development, team productivity, and automated testing tools.");
-```
+````
 
 Now when you execute your test it will verify that the Title attribute, i.e. the tool-tip, of your HTML element contains the correct text.
 

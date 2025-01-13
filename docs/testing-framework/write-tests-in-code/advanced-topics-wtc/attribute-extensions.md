@@ -37,7 +37,7 @@ Attribute Extensions are test fixture attributes that can be used to decorate un
 Let's start by taking few examples for FindParamAttribute. Assume we have an input textbox that we commonly access through out all the test methods in our Foo test class. Well, we can share this methods across all the test methods in 'foo' by setting that FindParam using FindParamAttribute on the test class like this:
 
 
-```C#
+````C#
 [TestClass]
 [FindParam("InputTxtbx", FindType.TagIndex, "input:0")]
 class Foo : BaseTest
@@ -62,8 +62,8 @@ class Foo : BaseTest
          Actions.SetText(Find.Elements["InputTxtbx"], "test2");
      }
 }
-```
-```VB
+````
+````VB
 <TestClass(), _
 FindParam("InputTxtbx", FindType.TagIndex, "input:0")> _
 Public Class Foo
@@ -94,11 +94,11 @@ Public Class Foo
     End Sub
  
 End Class
-```
+````
 
 You can use 1-N FindParam attributes on your test class or test method. If you have elements that are shared across more than one test method, set these FindParam's on the test class, else simply set them on the test method. For example:
 
-```C#
+````C#
 [TestClass]
 [FindParam("InputTxtbx", FindType.TagIndex, "input:0")]
 class Foo : BaseTest
@@ -134,8 +134,8 @@ class Foo : BaseTest
          // here. Calling Find.Elements["CheckBx"], will throw an exception.
      }
 }
-```
-```VB
+````
+````VB
 <TestClass(), _
 FindParam("InputTxtbx", FindType.TagIndex, "input:0")> _
 Public Class Foo
@@ -174,7 +174,7 @@ Public Class Foo
     End Sub
  
 End Class
-```
+````
 
 ### FindParamAttributes and TestRegions
 
@@ -182,7 +182,7 @@ FindParamAttributes can also be used with TestRegions when they are defined with
 
 FindParamAttributes can also be used with TestRegions when they are defined within an application. In this scenario, the FindParam needs to reflect an element search within a specific TestRegion. To tie a FindParamAttribute with a TestRegion, simply set the TestRegionId property of that FindParam on your test method or test class. Here is an example:
 
-```C#
+````C#
 
 [TestMethod]
 [Description("Illustrate how to use FindParamAttributes with TestRegion's")]
@@ -209,8 +209,8 @@ public void UsingFindParamAttributeWithTestRegion's()
      // Note: You can also use the FindParamAttribute(fileName) and scope all
      // the elements contained in file to a specific testregion.
 }
-```
-```VB
+````
+````VB
 <TestMethod(), _
 Description("Illustrate how to use FindParamAttributes with TestRegion's"), _
 FindParam("progtbl", FindType.TagIndex, "table:1"), _
@@ -234,13 +234,13 @@ Public Sub UsingFindParamAttributeWithTestRegions()
      ' the elements contained in the file to a specific testregion.
  
 End Sub
-```
+````
 
 ### DialogAttribute
 
 Dialog attribute is used similar to the FindParamAttribute but instead of defining how an element should be found, it defines how a dialog should be handled in addition to the dialog types to handle. Again these attributes can be shared across test methods by setting them on a test class or can be directly set on the test method that will cause the dialog to pop up. Here are few examples of some of the common dialogs:
 
-```C#
+````C#
 // ALERTS
 [TestMethod]
 [Dialog(DialogButton.OK)] // handle any alert dialogs in this test method
@@ -284,8 +284,8 @@ public void LogonDialogWithAttributes()
      // Navigate to a page that needs a logon
      ActiveBrowser.NavigateTo(http://www.test.com/pageneedinglogon.aspx);
 }
-```
-```VB
+````
+````VB
 
 ' Alerts
 <TestMethod(), _
@@ -319,7 +319,7 @@ Dialog("<username>", "<password>", DialogButton.OK)> _
 Public Sub LogonDialogWithAttributes()
      ActiveBrowser.NavigateTo("<Place a Url to LogOn to here>")
 End Sub
-```
+````
 
 
 **Note:** All examples shown above should work with NUnit 2.4 and higher and Visual Studio Team Test. In the samples above we simply used Visual Studio Team Test.
