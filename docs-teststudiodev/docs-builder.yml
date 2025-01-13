@@ -1,0 +1,159 @@
+#top nagivation might be wrong
+top-navigation-product: test-studio-dev-edition
+path-prefix: /devtools/teststudiodev
+product-id: 1846
+product-name: Progress Telerik Test Studio Dev Edition Documentation
+product-url: https://www.telerik.com/teststudio-dev
+search-engine-id: 001595215763381649090:8yrsvynfbrc
+cta-overview: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+cta-intro: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+default-title-prefix: Telerik Test Studio Dev Edition
+avatar-path: ./images/avatar-ninja.svg
+no-results-image-path: ./images/ninja-no-results.svg
+primary-color: "#27A306"
+
+product-code: TSDEVED
+product-trial-url: https://www.telerik.com/try/test-studio-dev-edition
+contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs-teststudiodev
+enable-tabbed-code-blocks: true
+#pdf-cover-png-path: ./images/pdf-cover.png
+img-max-width: 100%
+table-layout: fixed
+
+
+meta:
+## Test Studio Dev Edition Documentation Main Nodes:
+    prerequisites:
+        title: Prerequisites
+        position: 1
+    code-in-test:
+        title: Implement Code in Test
+        position: 4
+    features:
+        title: Features
+        position: 6
+    advanced-topics:
+        title: Advanced Topics
+        position: 7
+
+#   Implement Code in Test Section
+    code-in-test/element-identification:
+        title: Element Identification
+        position: 2
+    code-in-test/html-control-suite:
+        title: HTML Control Suite
+        position: 3
+    code-in-test/silverlight-wpf-automation-wtc:
+        title: WPF/Silverlight Automation
+        position: 4
+    code-in-test/settings-and-configuration-wtc:
+        title: Settings and Configuration
+        position: 5
+    code-in-test/advanced-topics-wtc:
+        title: Advanced Topics
+        position: 6
+    code-in-test/coded-samples:
+        title: Coded Samples
+        position: 7
+
+#   Implement Code in Tests/Advanced Topics Section
+    code-in-test/advanced-topics-wtc/html-popups-and-dialogs-wtc:
+        title: Popups and Dialogs
+        position: 0
+    code-in-test/advanced-topics-wtc/javascript-wtc:
+        title: JavaScript
+        position: 1
+    code-in-test/advanced-topics-wtc/test-regions-wtc:
+        title: Test Regions
+        position: 2
+
+#   Implement Code in Tests/Coded Samples Section
+    code-in-test/coded-samples/general:
+        title: General
+        position: 0
+    code-in-test/coded-samples/html:
+        title: HTML
+        position: 1
+    code-in-test/coded-samples/silverlight:
+        title: Silverlight
+        position: 2
+    code-in-test/coded-samples/wpf:
+        title: WPF
+        position: 3
+
+#   Implement Code in Tests/Coded Samples/Silverlight Section
+    code-in-test/coded-samples/silverlight/combobox-automation:
+        title: ComboBox Automatiion
+        position: 10
+    code-in-test/coded-samples/silverlight/radgridview-automation:
+        title: RadGridView Automation
+        position: 11
+
+#   Features Section
+    features/recorder:
+        title: Recorder
+        position: 1
+    features/elements-explorer:
+        title: Elements Explorer
+        position: 2
+    features/test-execution:
+        title: Test Execution
+        position: 3
+    features/failed-tests-debugging:
+        title: Debug Failed Tests
+        position: 4
+    features/test-maintenance:
+        title: Test Maintenance
+        position: 5
+    features/data-driven-testing:
+        title: Data Driven Testing
+        position: 6    
+    features/logical-steps:
+        title: Logical Steps
+        position: 7
+    features/custom-steps:
+        title: Custom Steps
+        position: 8
+    features/project-settings:
+        title: Project Settings
+        position: 9
+
+#   Features/Recorder Section
+    features/recorder/verifications:
+        title: Verifications
+        position: 5
+    features/recorder/mouse-actions:
+        title: Mouse Actions
+        position: 6
+    features/recorder/specific-recording-scenario:
+        title: Recording Specifics
+        position: 7
+
+#   Advanced Topics Section
+    advanced-topics/installation:
+        title: Installation
+        position: 0
+    advanced-topics/recording:
+        title: Recording
+        position: 1
+    advanced-topics/elements:
+        title: Elements
+        position: 2
+    advanced-topics/data-driven-testing:
+        title: Data Driven Testing 
+        position: 3
+    advanced-topics/project-configuration:
+        title: Project Configuration
+        position: 4
+    advanced-topics/ci:
+        title: Continuous Integration
+        position: 5
+        
+    api/*:
+        res_type: api
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/introduction"
+    type: Permanent
