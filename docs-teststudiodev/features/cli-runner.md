@@ -66,7 +66,7 @@ Several execution options use file paths as values. When using file paths in the
 
 Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. These are corresponding to the available <a href="/features/test-execution/test-list-settings" target="_blank">test list settings</a>.
 
-```JSON
+````JSON
 {
   "Settings": {
     "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -131,7 +131,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
   "PropertyBag": null
 }
 
-```
+````
 
 ## Exit Codes
 

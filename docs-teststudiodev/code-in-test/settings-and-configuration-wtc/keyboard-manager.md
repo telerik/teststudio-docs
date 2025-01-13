@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 position: 1
 ---
 
-#The KeyBoard Manager Class#
+# The KeyBoard Manager Class
 
 The KeyBoard manager class is used to simulate typing keys on the keyboard. It has the following methods:
 

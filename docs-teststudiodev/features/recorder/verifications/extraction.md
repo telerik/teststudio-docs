@@ -45,7 +45,7 @@ This example is against a <a href="http://www.wordgenerator.net/random-word-gene
 
 ![Extracted variable in code](images/extracted-in-code.png)
 
-## Extract an attribute of an element##
+## Extract an attribute of an element
 
 1.&nbsp; Create an <a href="/features/recorder/verifications/advanced-verification" target="_blank">advanced verification</a> for an attribute of an element (e.g. Title).
 

@@ -4,7 +4,7 @@ page_title: Frames Support
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 3
 ---
-#Frames Support#
+# Frames Support
 
 Telerik Testing Framework understands what Frames and IFrames are and includes built-in support to work with them. It automatically scans the webpage and locates all of the frames it contains and then adds them to the FramesCollection property of the Browser object.
  
@@ -45,7 +45,7 @@ Telerik Testing Framework allows users to access frames and perform automation a
  
 Let's take an example that demonstrates this support. Assuming we have the following simple web page:
 
-```HTML
+````HTML
 <HTML>
 <HEAD><TITLE>THE I HATE FRAMES PAGE</TITLE></HEAD>
 <FRAMESET COLS="33%,33%">
@@ -53,11 +53,11 @@ Let's take an example that demonstrates this support. Assuming we have the follo
     <FRAMESRC="..\BrowserActions.htm" id="T2_Frame">
 </FRAMESET>
 </HTML>
-```
+````
 
 To access the 't1.html' frame elements and perform actions against it, first I need to navigate to the page, then I need to access the frame that contains that page from the 'Frames[]' collection as follows:
 
-```C#
+````C#
 // Launch an instance of the browser
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, true);
    
@@ -80,10 +80,10 @@ t1_frame.Actions.Click(toggleOn);
    
 // Click the toggleoff button
 t2_frame.Actions.Click(toggleOff);
-```
+````
  
 
-```VB
+````VB
 ' Launch an instance of the browser
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)
  
@@ -106,10 +106,10 @@ t1_frame.Actions.Click(toggleOn)
  
 ' Click the toggleoff button
 t2_frame.Actions.Click(toggleOff)
-```
+````
 
 At this point, the 't1_frame' object is just like any other Browser object. You can use the Find.Byxxx/Actions objects to find elements/execute actions in the document or execute any of the browser actions like 'NavigateTo' or 'Refresh()', 'GoBack()', etc.
  
-###Notes about Frames support:###
+### Notes about Frames support:
 
 The Frames collection supports two methods that can be used to easily wait on all frames to be ready or to refresh all the DOM trees within these frames. The methods are : 'ActiveBrowser.Frames.RefreshAllDomTrees()' & 'ActiveBrowser.Frames.WaitAllUntilReady()'. You can use these methods if you are doing actions that affect all frames in the page and you want to wait for these actions across all frames all at once

@@ -4,18 +4,15 @@ page_title: Go Through Grid Cells - Test Studio Dev Documentation
 description: Connect to Running App
 position: 4
 ---
-# Go Through Each Cell in a WPF RadGridView #
+# Go Through Each Cell in a WPF RadGridView
 
 *I would like to go through each cell in a WPF RadGridView and perform some action or verification.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. Here's an example that goes through all the visible cells in a WPF demo grid (as opposed to all the cells contained in the grid). It writes the text content of each cell into the test log.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     WpfApplication app = Manager.ActiveApplication;
     Assert.IsNotNull(app);
     
@@ -36,12 +33,8 @@ This is possible with a coded solution. Here's an example that goes through all 
         }
         rowCounter++;
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim app As WpfApplication = Manager.ActiveApplication
     Assert.IsNotNull(app)
     
@@ -60,7 +53,7 @@ This is possible with a coded solution. Here's an example that goes through all 
         Next
         rowCounter += 1
     Next
-    {{endregion}}
+````
 
 
 

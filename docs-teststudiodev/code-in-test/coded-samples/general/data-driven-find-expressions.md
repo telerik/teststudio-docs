@@ -22,23 +22,20 @@ The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/c
 5.Use the <a href="/features/data-driven-testing/local-data-driven-test" target="_blank">local data</a> to enter values for the find expression.
 6.We will use the Find.ByContent method in the coded step. More information can be found in our <a href="/code-in-test/element-identification/finding-page-elements" target="_blank">Finding Page Elements</a> article. Here's the code for our Script Step:
 
-#### __[C#]__
+````C#
 
-	{{region }}
-
+	
 	HtmlListItem listItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent<HtmlListItem>(Data["Col1"].ToString());
 	Assert.IsNotNull(listItem);
 	listItem.Click();
-	{{endregion}}
+````
+````VB
 
-#### __[VB]__
-
-	{{region }}
-
+	
 	Dim listItem As HtmlListItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent(Of HtmlListItem)(Data("Col1").ToString())
 	Assert.IsNotNull(listItem)
 	listItem.Click()
-	{{endregion}}
+````
 
 7.Test Studio Dev uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
 

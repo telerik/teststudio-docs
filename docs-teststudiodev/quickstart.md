@@ -14,7 +14,7 @@ __Test Studio Dev Edition__ is the Test Studio plugin for Visual Studio.With thi
 Follow the steps lised below to get familiar with the Test Studio Dev Edition capabilities. 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 - [Create a project](#create-a-test-studio-dev-project)

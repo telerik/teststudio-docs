@@ -14,10 +14,9 @@ The steps to implement such approach are as follows:
 
 2.Add a <a href="/code-in-test/features-in-code#Custom-Code" target="_blank">stand alone class file</a> *ExtendedBaseWebAiiTest* which inherits from the abstract class *BaseWebAiiTest*. A sample implementation of such file containing the method *PrintMessage()* is listed below:
 
-#### __[C#]__
+````C#
 
-	{{region }}
-
+	
 		using ArtOfTest.WebAii.Design;
 		
 		namespace ExtendBaseWebAiiTestProject
@@ -31,12 +30,10 @@ The steps to implement such approach are as follows:
 				}
 			}
 		}
-		{{endregion}}
+	````
+````VB
 
-#### __[VB]__
-
-	{{region }}
-
+	
 		Imports ArtOfTest.WebAii.Design
 		
 		Namespace ExtendBaseWebAiiTestProject
@@ -49,14 +46,13 @@ The steps to implement such approach are as follows:
 				End Sub
 			End Class
 		End Namespace
-		{{endregion}}
+	````
 
 3.Open the code behind file of any test and modify its class to inherit the newly created _ExtendedBaseWebAiiTest_ class and the _PrintMessage()_ method defined in it will be available for the test. 
 
-#### __[C#]__
+````C#
 
-	{{region }}
-
+	
 		using ArtOfTest.WebAii.Core;
 		using ArtOfTest.WebAii.Design.Execution;
 		
@@ -71,12 +67,10 @@ The steps to implement such approach are as follows:
 				}
 			}
 		}
-		{{endregion}}
+	````
+````VB
 
-#### __[VB]__
-
-	{{region }}
-
+	
 		Imports ArtOfTest.WebAii.Core
 		Imports ArtOfTest.WebAii.Design.Execution
 		
@@ -91,4 +85,4 @@ The steps to implement such approach are as follows:
 				End Sub
 			End Class
 		End Namespace
-		{{endregion}}
+	````

@@ -4,7 +4,7 @@ page_title: Introduction - Test Studio Dev Documentation
 description: Introduction
 position: 1
 ---
-#Intro to Test Studio Devs HTML Control Element Wrappers Suite#
+# Intro to Test Studio Devs HTML Control Element Wrappers Suite
 
 Telerik Framework includes an extensive suite of strongly typed HTML element wrappers that abstracts out actions and verifications of the controls contained on the webpage. With the classes contained in the control suite you can do things like:
 
@@ -425,14 +425,11 @@ Here is a list of the support classes that make it easier to use the rest of the
 <table>
 *Table 3. List of HtmlControl support classes contained in Telerik Testing Framework's HTML control suite.*
 
-##Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite##
+## Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite
 
 Suppose we're automating a form to submit an auto classified ad. Here's how to write the code and take advantage of the HTML element wrapper suite:
 
-#### __[C#]__
-
-          {{region }}
-
+````C#      
 	[TestClass]
 	public class SubmitAdTestClass : BaseTest
 	{
@@ -502,13 +499,10 @@ Suppose we're automating a form to submit an auto classified ad. Here's how to w
 			submit.Click();
 		}
 	}
-	{{endregion}}
+````
  
 
-#### __[VB]__
-
-          {{region }}
-
+````VB      
 	<TestClass()> _
 	Public Class SubmitAdTestClass
 		Inherits BaseTest
@@ -581,7 +575,7 @@ Suppose we're automating a form to submit an auto classified ad. Here's how to w
 		End Sub
 	
 	End Class
-	{{endregion}}
+````
 	
 By taking advantage of the object oriented nature of the HTML element wrapper classes, our test code that fills in the fields and clicks the submit button is much simpler, more descriptive and more intuitive in nature. Note how simple it was to enter text into all the input fields, as well as make all the drop down selections using intuitive methods included with Telerik's HTML element wrapper classes!
 Also notice how we're doing a nested find. The line **form.Find.AllByTagName<HtmlSelect>("select");** is returning all of the **\<select>** elements that are contained within the form "Form2" contained on the page, not the entire page itself which may contain other \<select> elements on the page, perhaps even on other forms contained on the same page.

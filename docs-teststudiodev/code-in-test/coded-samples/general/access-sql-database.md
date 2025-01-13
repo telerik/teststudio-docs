@@ -19,19 +19,12 @@ If a reference to System.Data 2.0 already exists, remove it and add it from the 
 
 Ensure you add the *using* or *Imports* statement to the top of the code-behind file.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     using System.Data.SqlClient;
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Imports System.Data.SqlClient;
-    {{endregion}}
+````
 
 ## Sample Code
 
@@ -41,10 +34,7 @@ Here is a SQL database named **myFirstDB** with a table named **Table_1** and co
 
 ### Read from SQL Database
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     //Define a new SQL connection with a connection string. 
     //The connection string will be different depending on your environment and the name of the database, table, etc.
     //See http://www.connectionstrings.com for connection string examples.
@@ -67,12 +57,8 @@ Here is a SQL database named **myFirstDB** with a table named **Table_1** and co
  
     thisReader.Close();
     thisConnection.Close();
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     'Define a new SQL connection with a connection string. 
     'The connection string will be different depending on your environment and the name of the database, table, etc.
     'See http://www.connectionstrings.com for connection string examples.
@@ -94,14 +80,11 @@ Here is a SQL database named **myFirstDB** with a table named **Table_1** and co
     
     thisReader.Close()
     thisConnection.Close()
-    {{endregion}}
+````
 
 ### Write into SQL Database
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     //Define a new SQL connection with a connection string.
     //The connection string will be different depending on your environment and the name of the database, table, etc.
     //See http://www.connectionstrings.com for connection string examples.
@@ -115,12 +98,8 @@ Here is a SQL database named **myFirstDB** with a table named **Table_1** and co
     SqlCommand thisCommand = thisConnection.CreateCommand();
     thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')";
     thisCommand.ExecuteNonQuery();
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     'Define a new SQL connection with a connection string.
     'The connection string will be different depending on your environment and the name of the database, table, etc.
     'See http://www.connectionstrings.com for connection string examples.
@@ -134,7 +113,7 @@ Here is a SQL database named **myFirstDB** with a table named **Table_1** and co
     Dim thisCommand As SqlCommand = thisConnection.CreateCommand()
     thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')"
     thisCommand.ExecuteNonQuery()
-    {{endregion}}
+````
 
 **Note**: The example requires to be modified as per the databse which will be used as data source. 
 

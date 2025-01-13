@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/silverlight-test-automation/wpf-test-automation.aspx, /user-guide/write-tests-in-code/silverlight-test-automation/wpf-test-automation
 position: 2
 ---
-#Getting started with WPF UI Automation#
+# Getting started with WPF UI Automation
 
 To get started, let's use a simple application and demo some basic automation scenarios like button click and set text. Then we will expand into more advanced topics and scenarios. Let's take the following simple application that contains a button and a text box. When you click the button, it simply changes "Push the button" to "Hello world!" in the text box. The application looks like this:
 
@@ -13,7 +13,7 @@ To get started, let's use a simple application and demo some basic automation sc
 
 To automate the application above to set the text, click the button and then verify the hello text in **Telerik Testing Framework**, we can simply write the following code using the **WPF Extension** (which resides under **ArtOfTest.WebAii.Wpf**). The template for this method is based on a VsUnit test. However, the code itself can be reused in other type of Unit tests - it's just the template that will be different.
 
-```C#
+````C#
 [TestMethod]
 public void wpfDemo()
    {
@@ -36,10 +36,10 @@ public void wpfDemo()
     Assert.IsTrue(tb.Text.Equals("Hello World!"));
    
     }
-```
+````
  
 
-```VB
+````VB
 <TestMethod> _
   Public Sub wpfDemo()
    ' Launch the application instance from its location in file system
@@ -61,7 +61,7 @@ public void wpfDemo()
       Assert.IsTrue(tb.Text.Equals("Hello World!"))
    
   End Sub
-```
+````
 Let's take a closer look at the code above line by line:
 
 * Line 5 (*WpfApplication wpfApp = Manager.LaunchNewApplication(@"C:\Projects\WpfApplication2\bin\Debug\WpfApplication2.exe");*)

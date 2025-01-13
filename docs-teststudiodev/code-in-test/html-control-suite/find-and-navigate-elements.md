@@ -4,15 +4,12 @@ page_title: Find and Navigate Elements - Test Studio Dev Documentation
 description: Find and Navigate Elements 
 position: 2
 ---
-#Finding and Navigating HTML Elements#
+# Finding and Navigating HTML Elements
 
 The example above used just two of the available find methods, the Find.ById<**TControl**> and the Find.AllByTagName<**TControl**> and did not take advantage of the powerful navigation features. Let's look at some other find examples:
 
 
-#### __[C#]__
-
-          {{region }}
-
+````C#      
 // Find the first table on the page.
 HtmlTable outertable = Find.ByTagIndex<HtmlTable>("table", 0);
   
@@ -42,13 +39,10 @@ Assert.AreEqual(1, imgCtrls.Count);
 // Find the <div> section containing the Eastern US Division sales report
 HtmlDiv EasternUSDivision = Find.ByContent<HtmlDiv>("Eastern US Division", FindContentType.TextContent);
 Assert.IsNotNull(EasternUSDivision);
-{{endregion}}
+````
 
 
-#### __[VB]__
-
-          {{region }}
-
+````VB      
     ' Find the first table on the page.
     Dim outertable As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)
     Assert.AreEqual(3, outertable.Rows.Count)
@@ -79,15 +73,12 @@ Assert.IsNotNull(EasternUSDivision);
     ' Find the <div> section containing the Eastern US Division sales report
     Dim EasternUSDivision As HtmlDiv = Find.ByContent(Of HtmlDiv)("Eastern US Division", FindContentType.TextContent)
     Assert.IsNotNull(EasternUSDivision)
-    {{endregion}} 
+```` 
 
 The above example demonstrates how to use many of the more useful find methods. There are many more. It would take up too much space to try and document them all here. Refer to the API reference to learn about the others. Let's look at some HTML navigation functions:
 
 
-#### __[C#]__
-
-            {{region }}
-
+````C#        
     // Traverse the control tree upwards too. You can easily
     // Find the container control of a certain type from its children.
     
@@ -113,14 +104,11 @@ The above example demonstrates how to use many of the more useful find methods. 
     // Find the form this table is contained in.
     HtmlForm form1 = table2.Parent<HtmlForm>();
     Assert.IsTrue(form1.ID.Equals("form1"));
-    {{endregion}}
+````
  
 
 
-#### __[VB]__
-
-          {{region }}
-
+````VB      
 ' Traverse the control tree upwards too. You can easily
 ' Find the container control of a certain type from its children.
 
@@ -147,4 +135,4 @@ Assert.IsTrue(table2.ID.Equals(outertable.ID))
 ' Find the form this table is contained in.
 Dim form1 As HtmlForm = table2.Parent(Of HtmlForm)()
 Assert.IsTrue(form1.ID.Equals("form1"))
-{{endregion}}
+````

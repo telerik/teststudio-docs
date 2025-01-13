@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/silverlight-test-automation/introduction.aspx, /user-guide/write-tests-in-code/silverlight-test-automation/introduction
 position: 1
 ---
-#Getting Started with Silverlight UI Automation#
+# Getting Started with Silverlight UI Automation
 
 When thinking about Silverlight applications and automated testing, there are a couple of different approaches that come to mind:
  
@@ -15,7 +15,7 @@ To get started, let's use a simple application and demo some basic automation sc
 
 To automate the application above to set the text, click the button and then verify the hello text in Telerik Testing Framework, we can simply write the following code using the Silverlight Extension (which resides under ArtOfTest.WebAii.Silverlight).
 
-```C#
+````C#
 [TestMethod]
 public void SLDemo()
 {  
@@ -40,10 +40,10 @@ public void SLDemo()
 	// Verify the text
 	Assert.IsTrue(app.Find.ByTextContent("p:Hello").TextContent.Equals("Hello Telerik"));
 }
-```
+````
  
 
-```VB
+````VB
 <TestMethod> _
 Public Sub SampleWebAiiTest()
     'Enable Silverlight
@@ -67,7 +67,7 @@ Public Sub SampleWebAiiTest()
     ' Verify the text
     Assert.IsTrue(app.Find.ByTextContent("p:Hello").TextContent.Equals("Hello Telerik"))
 End Sub
-```
+````
 Let's take a closer look at the code above line by line:
 
 * Line 8-12

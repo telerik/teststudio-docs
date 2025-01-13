@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/silverlight-test-automation/locating-elements.aspx, /user-guide/write-tests-in-code/silverlight-test-automation/locating-elements
 position: 3
 ---
-#Locating Elements in Silverlight and WPF applications 
+# Locating Elements in Silverlight and WPF applications 
 
 Before you can automate interaction with elements contained in a Silverlight/WPF application, you need to first locate the elements contained within the application. For complex applications, locating elements is probably going to be one of the more time consuming tasks. Testers will need to spend time understanding how to reliably find an element. Silverlight/WPF applications that we studied that rely heavily on control templates and data binding produce quite complex visual trees. Their elements are not easily searchable by **Find.ByName()** given the different <a href=http://msdn.microsoft.com/en-us/library/cc189026%28VS.95%29.aspx" target="_blank">Silverlight</a> and <a href="http://msdn.microsoft.com/en-us/library/ms746659.aspx" target="_blank">WPF</a> name scopes created, and the duplication of names within those templates.
 
@@ -19,16 +19,16 @@ Before you can automate interaction with elements contained in a Silverlight/WPF
 
 The simplest method of searching is to use the **Find.ByName(String name)** method or the **Find.ByName\<TControl>(String name)** method. Both methods take a string parameter that specifies the name of the element to locate in the application. The first method returns a FrameworkElement object while the second method returns an object of type T having the specified name. If an element having the specified name does not exist or is not currently visible, or if the found element cannot be cast into type T, the functions will return null ('Nothing' in VB.NET). For example:
 
-```C#
+````C#
 FrameworkElement zoomBox = app.FindName("zoomBox");
 TextBox searchText = app.FindName<TextBox>("searchText");
-```
+````
  
 
-```VB
+````VB
 Dim zoomBox As FrameworkElement = app.FindName("zoomBox")
 Dim searchText As TextBox = app.FindName(Of TextBox)("searchText")
-```
+````
 
 You might be asking "How do I know what name to use to find the element I want?" There really are only a few ways to find out:
 
@@ -62,7 +62,7 @@ All of the common methods for finding an element to operate on are:
 </tr>
 <table>
 
-##The Find Strategy##
+## The Find Strategy
 
 The Find object has a 'Strategy' property that controls how the method behaves when searching for an element. To change the strategy simply change the Strategy property on the Find object. The following strategies can be set:
 
@@ -84,21 +84,21 @@ The Find object has a 'Strategy' property that controls how the method behaves w
 </tr>
 <table>
 
-##Finding All Elements##
+## Finding All Elements
 
 Sometimes you may need to fetch a list of the elements contained in the application. Suppose we want a list of all the DataGrids contained in the application. Either of the following lines of code will return this list:
 
 
-```C#
+````C#
 IList<FrameworkElement> dataGrids1 = app.Find.AllByType("DataGrid");
 IList<DataGrid> dataGrids2 = app.Find.AllByType<DataGrid>();
-```
+````
  
 
-```VB
+````VB
 Dim dataGrids1 As IList(Of FrameworkElement) = app.Find.AllByType("DataGrid")
 Dim dataGrids2 As IList(Of DataGrid) = app.Find.AllByType(Of DataGrid)()
-```
+````
 
 All of the Find.AllByxxx functions are:
 
@@ -120,33 +120,33 @@ All of the Find.AllByxxx functions are:
 </tr>
 <table>
 
-##Scoped Searches##
+## Scoped Searches
 
 A more advanced feature is scoped searches. Suppose you need to find the ScrollBar attached to some other element. You would use code like this:
 
 
-```C#
+````C#
 ScrollViewer searchScroll = app.FindName("patientSearchScroller").Find.ByType<ScrollViewer>();
 searchScroll = app.FindName().Find.ByType<>();
-```
+````
  
 
-```VB
+````VB
 Dim searchScroll As ScrollViewer = app.FindName("patientSearchScroller").Find.ByType(Of ScrollViewer)()
 searchScroll ScrollViewer = app.FindName().Find.ByType( ScrollViewer)()
-```
+````
 
 The above code first locates the element named "patientSearchScroller" and then within that control finds the element of type "ScrollViewer". The search for "ScrollViewer" is considered a scoped search (aka chained search) because the search is limited to only those elements found underneath the "patientSearchScroller" element of the Visual Tree. The FrameworkElement base class has a Find property which allows scoped searches for all elements of an application.
 
-##Finding Elements by XamlFindExpression##
+## Finding Elements by XamlFindExpression
 
 Another advanced feature is to find the element using a XamlFindExpression. FindExpressions are the replacement/evolution of FindParams. Telerik Testing Framework uses FindExpressions as the basis for all element searches in the DOM, HWnd, or control trees (including Translator Locators). For example, the above scoped search to retrieve a ScrollViewer can be written using Find.ByExpression as follows:
 
-```C#
+````C#
 ScrollViewer searchScroll = app.Find.ByExpression(new XamlFindExpression("Name=patientSearchScroller", "|", "XamlTag=ScrollViewer")).As<ScrollViewer>();
-```
+````
  
 
-```VB
+````VB
 Dim searchScroll2 As ScrollViewer = app.Find.ByExpression(New XamlFindExpression("Name=patientSearchScroller", "|", "XamlTag=ScrollViewer")).[As](Of ScrollViewer)()
-```
+````

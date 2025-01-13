@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/settings-class.aspx, /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/settings-class
 position: 1
 ---
-#Settings Class#
+# Settings Class
 
 How the Telerik Testing Framework behaves during a test run is controlled by the settings contained in the Settings object. There are many settings you can take advantage of to modify its behavior to better meet your testing requirements or testing environment. The complete list of settings is detailed in the table below. A few of the more commonly used settings include:
 
@@ -17,11 +17,11 @@ How the Telerik Testing Framework behaves during a test run is controlled by the
  
 There are a few methods of controlling the settings in the Settings object. Which method you use depends on when and how you want them set in your unit test.
 
-##Initializing the Settings Object Without Using a Telerik Test Template##
+## Initializing the Settings Object Without Using a Telerik Test Template
 
 If you're not using one of Telerik's test templates (VsUnit, NUnit, MbUnit, xUnit) to create your unit test, you'll need to create your own Settings object and then pass that object as a parameter to the constructor of your Manager object. For example:
 
-```C#
+````C#
 // Create my own Settings object and then modify the defaults
 Settings mySettings = new Settings();
 mySettings.DefaultBrowser = BrowserType.FireFox;
@@ -29,10 +29,10 @@ mySettings.ClientReadyTimeout = 60000;
   
 // Use my Settings object to construct my Manager object
 Manager myManager = new Manager(mySettings);
-```
+````
  
 
-```VB
+````VB
 ' Create my own Settings object and then modify the defaults
 Dim mySettings As New Settings()
 mySettings.DefaultBrowser = BrowserType.FireFox
@@ -40,13 +40,13 @@ mySettings.ClientReadyTimeout = 60000
   
 ' Use my Settings object to construct my Manager object
 Dim myManager As New Manager(mySettings)
-```
+````
 
-##Initializing the Settings Object When Using a Test Template##
+## Initializing the Settings Object When Using a Test Template
 
 If you're using one of Telerik's test templates (VsUnit, NUnit, MbUnit, xUnit) to create your unit test, you'll need to create your own Settings object in the TestInitialize section (or Setup section if you're using NUnit) and then pass that object as a parameter to the Initialize method of the base class. For example:
 
-```C#
+````C#
 // This will get a new Settings object. If a configuration
 // section exists, then settings from that section will be
 // loaded
@@ -57,10 +57,10 @@ settings.UseHttpProxy = true;
   
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(this.TestContext.WriteLine));
-```
+````
  
 
-```VB
+````VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
 ' loaded
@@ -71,28 +71,28 @@ settings.UseHttpProxy = True
   
 ' Now call Initialize again with your updated settings object
 Initialize(settings, New TestContextWriteLine(AddressOf Me.TestContext.WriteLine))
-```
+````
 
 **Note:** Be sure to call Initialize only once. Calling Initialize a second time will simply be ignored and you'll be left wondering why your settings did not take effect.
 
-##Changing Settings On-The-Fly##
+## Changing Settings On-The-Fly
 
 Lastly you can modify most of the settings after your test is already initialized and under-way. Here's how you to do that:
 
-```C#
+````C#
 Manager.Settings.AnnotateExecution = true;
 Manager.Settings.DefaultBrowser = BrowserType.FireFox;
-```
+````
  
 
-```VB
+````VB
 Manager.Settings.AnnotateExecution = True
 Manager.Settings.DefaultBrowser = BrowserType.FireFox
-```
+````
 
 **Note:** The following settings can only be set during initialization: AspNetDevServerPort, CreateLogFile, EnableUILessRequestViewing, LocalWebServer, LogLocation, VerboseHttpProxy and WebAppPhysicalPath.
 
-##Using the RecycleBrowser Feature##
+## Using the RecycleBrowser Feature
 
 The RecycleBrowser feature was added in version 2.0. Using it can significantly speed up running an entire test suite, no more starting and shutting down of the browser for each individual unit test. It works by launching one browser window in the test fixture initialization of your test suite and then constantly reusing that same browser window for all unit tests contained in your test suite.
 
@@ -102,18 +102,18 @@ There are a just a couple of things you need to be aware of to properly use the 
 
 2. You must call the base classes ShutDown() method in the test fixture teardown section to properly the browser window at the end of the test suite. If you miss this then browser windows will be left behind after your test suite has finished and exited.
 
-##Restoring Default Settings##
+## Restoring Default Settings
 
 If it ever becomes necessary you can restore all the settings (except for those that can only be set during initialization) back to their default values. Just use the Reset() method of the Settings object. For example:
 
-```C#
+````C#
 Manager.Settings.Reset();
-```
+````
  
 
-```VB
+````VB
 Manager.Settings.Reset()
-```
+````
 
 This table lists all of the WebAii framework settings that are available for you to use:
 

@@ -40,6 +40,6 @@ This is expected behavior and it's related to the way Test Studio Dev hooks into
 
 Open a command prompt and navigate to the __Test Studio Dev__ installation directory `C:\Program Files (x86)\Progress\Test Studio\Bin`. Then enter the following command to install the security certificate:
 
-```
+````
 ArtOfTest.WebAii.HttpProxy.exe InstallCertificate
-```
+````

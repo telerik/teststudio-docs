@@ -34,10 +34,7 @@ Going back to Test Studio Dev project, you will notice a new element has appeare
 
 Create a new coded step and add the following lines that go through each (visible) cell in the Grid:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     foreach (HtmlTableRow r in Pages.ClientSideRowSelection.ContentPlaceholder1RadGrid1Table.AllRows)
     {
         foreach(HtmlTableCell c in r.Cells)
@@ -45,7 +42,7 @@ Create a new coded step and add the following lines that go through each (visibl
             Log.WriteLine("Cell found. TextContent:"+c.TextContent);  
         }
     }
-    {{endregion}}
+````
 
 This is C# code, the VB code will follow the same logic only transcribed in the corresponding syntax. Make sure the coded step executes at a point in your test when the page contains the grid fully loaded in the currently active browser.
 
@@ -57,10 +54,7 @@ Let's look at the grid in the below image. Let's imagine we want to get the row 
 
 In this example we want to check a checkbox but this could be any kind of control. The code we will use doesn't take into account what the content of the actual cell is: we just click it. Once again we'll be using the definition of the grid that we've stored in the the elements repository. Here's the code:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     HtmlTableRow containerRow=null; //The variable that will store the row that contains the name cell and the checkbox cell
 
     foreach (HtmlTableRow r in Pages.ClientSideRowSelection.ContentPlaceholder1RadGrid1Table.AllRows)
@@ -83,7 +77,7 @@ In this example we want to check a checkbox but this could be any kind of contro
     checkbox.ScrollToVisible();
 
     checkbox.MouseClick();
-    {{endregion}}
+````
 
 [1]: images/dynamic-grid/fig1.png
 [2]: images/dynamic-grid/fig2.png

@@ -4,7 +4,7 @@ page_title: Re-activating Your License - Test Studio Dev Documentation
 description: How to re-activate your Test Studio Dev license 
 position: 2
 ---
-# Re-activating your License #
+# Re-activating your License
 
 My machine was freshly imaged or replaced and I need to re-activate my license on the new machine. When I try to re-activate my new machine I have 0 seats available. To be able to generate new license key corresponding to the fresh machine follow the below steps:
 
