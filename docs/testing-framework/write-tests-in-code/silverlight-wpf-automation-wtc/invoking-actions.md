@@ -25,7 +25,7 @@ Once you have found an element you can then interact with it. Many different typ
 
 To invoke a UI action, use the User object that is attached to every UI element. For example, to click on an element such as a button, enter code like this:
 
-```C#
+````C#
 //In this example app can be a Silverlight application or the MainWindow element of a WPF application 
 // Click the ShowGuide button.
 app.Find.ByName("guideButton").User.Click();
@@ -33,8 +33,8 @@ app.Find.ByName("guideButton").User.Click();
 // Right click the ShowGuide button 5 pixels away from the center of the control
 app.Find.ByName("guideButton").User.Click(MouseClickType.RightClick,
      new System.Drawing.Point(5, 5), OffsetReference.AbsoluteCenter);
-```
-```VB
+````
+````VB
 'In this example app can be a Silverlight application or the MainWindow of a WPF application 
 ' Click the ShowGuide button.
 app.Find.ByName("guideButton").User.Click()
@@ -43,47 +43,47 @@ app.Find.ByName("guideButton").User.Click()
 app.Find.ByName("guideButton").User.Click(MouseClickType.RightClick, _
                                        New System.Drawing.Point(5, 5), _
                                         OffsetReference.AbsoluteCenter)
-```
+````
 
 ## Sending Text to a Control
 
 To send text to the control use one of the following lines of code:
 
-```C#
+````C#
 searchText.User.TypeText("Abe Lincoln", 100);
  
 searchText.User.KeyPress(System.Windows.Forms.Keys.L, 100);
  
 searchText.User.KeyDown(System.Windows.Forms.Keys.L);
 searchText.User.KeyUp(System.Windows.Forms.Keys.L);
-```
-```VB
+````
+````VB
 searchText.User.TypeText("Abe Lincoln", 100)
  
 searchText.User.KeyPress(Windows.Forms.Keys.L, 100)
  
 searchText.User.KeyDown(Windows.Forms.Keys.L)
 searchText.User.KeyUp(Windows.Forms.Keys.L)
-```
+````
 
 ## Mouse Actions
 
 To perform one of the various possible mouse actions use one of the following lines of code:
 
-```C#
+````C#
 admin2.Find.ByType("Thumb").User.DragTo(admin3.Find.ByType("Thumb"));
 admin1.User.HoverOver();
 admin1.User.MouseEnter(OffsetReference.LeftCenter);
 admin1.User.MouseLeave(OffsetReference.RightCenter);
 admin1.User.TurnMouseWheel(5, MouseWheelTurnDirection.Backward, false);
-```
-```VB
+````
+````VB
 admin2.Find.ByType("Thumb").User.DragTo(admin3.Find.ByType("Thumb"))
 admin1.User.HoverOver()
 admin1.User.MouseEnter(OffsetReference.LeftCenter)
 admin1.User.MouseLeave(OffsetReference.RightCenter)
 admin1.User.TurnMouseWheel(5, MouseWheelTurnDirection.Backward, False)
-```
+````
 
 ## Framework Element Properties and Actions
 
@@ -186,7 +186,7 @@ The FrameworkElement class implements a number of methods just for purpose of te
 
 If the property of an element you want to get or set isn't available as a property in the UI element wrapper object, you can use the GetProperty and SetProperty from the FrameworkElement object to get/set it. This is especially useful if you start designing your own custom Silverlight UI controls or use a third party custom control. Let's suppose I have a UI element that represents an airline ticket. One of the many obvious properties such a control would need to have is flight number. To fetch this property from the control I can use code like this:
 
-```C#
+````C#
 // Fetch the flight number from the ticket
 FrameworkElement ticket = app.FindName("airlineTicket");
 AutomationProperty flightNoProperty = new AutomationProperty("flightNo", typeof(string));
@@ -194,8 +194,8 @@ string flightNo = (string)ticket.GetProperty(flightNoProperty);
  
 // Update the flight number on the ticket
 ticket.SetProperty(flightNoProperty, "HX-1572");
-```
-```VB
+````
+````VB
 ' Fetch the flight number from the ticket
 Dim ticket As FrameworkElement = app.FindName("airlineTicket")
 Dim flightNoProperty As New AutomationProperty("flightNo", GetType(String))
@@ -203,22 +203,22 @@ Dim flightNo As String = DirectCast(ticket.GetProperty(flightNoProperty), String
  
 ' Update the flight number on the ticket
 ticket.SetProperty(flightNoProperty, "HX-1572")
-```
+````
 
 ## Invoking Element Methods
 
 Another advanced feature of the framework is the ability to invoke any method attached to an element. Here's how to invoke the ScrollToVerticalOffset method of a ScrollViewer element.
 
-```C#
+````C#
 ScrollViewer searchScroll = app.FindName("patientSearchScroller").Find.ByType<ScrollViewer>();
 searchScroll = app.FindName().Find.ByType<>();
  
 AutomationMethod scrollVert = new AutomationMethod("ScrollToVerticalOffset", null);
 searchScroll.InvokeMethod(scrollVert, 2000);
-```
-```VB
+````
+````VB
 Dim searchScroll As ScrollViewer = app.FindName("patientSearchScroller").Find.ByType(Of ScrollViewer)()
  
 Dim scrollVert As New AutomationMethod("ScrollToVerticalOffset", Nothing)
 searchScroll.InvokeMethod(scrollVert, 2000)
-```
+````

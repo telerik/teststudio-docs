@@ -25,11 +25,11 @@ __3.__&nbsp; Change the __working folder__ to this, which __contains the vstest.
 
 __4.__&nbsp; __Set these two variables__ - ***TS_PROJECT_PATH*** (the folder, which contains the Test Studio project _Settings.aiis_) and ***TS_DLL_PATH*** (the folder, which contains the built project dll - by default it is in the project root under _\bin\Debug_).
 
-```
+````
 set TS_PROJECT_PATH=C:\Projects\TestStudioProject11\TestStudioProject11
 
 set TS_DLL_PATH=C:\Projects\TestStudioProject11\TestStudioProject11\bin\Debug\TestStudioProject11.dll
-```
+````
 
 > __Important__
 ><br>
@@ -49,7 +49,7 @@ __6.__&nbsp; __Visual Studio 2019 requires the argument /Settings:[_file name_]_
 
 Below are listed sample commands to execute a Test Studio test and test list with the **VSTestConsole.exe in Visual Studio 2019**, after the **TS\_PROJECT\_PATH** and **TS\_DLL\_PATH** variables are set for the current instance of the VS Developer Command Prompt:
 
-```
+````
 trigger Parent.tstest run
 
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow>vstest.console.exe "C:\Projects\TestStudioProject11\TestStudioProject11\Parent.tstest" /TestAdapterPath:"C:\Program Files (x86)\Progress\Test Studio\VS2019" /Settings:"C:\Projects\TestStudioProject11\TestStudioProject11\TestSettings1.testsettings
@@ -57,4 +57,4 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Com
 trigger sampleList.aiilist run
 
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow>vstest.console.exe  "C:\Projects\TestStudioProject11\TestStudioProject11\TestLists\sampleList.aiilist" /TestAdapterPath:"C:\Program Files (x86)\Progress\Test Studio\VS2019" /Settings:"C:\Projects\TestStudioProject11\TestStudioProject11\TestSettings1.testsettings
-```
+````

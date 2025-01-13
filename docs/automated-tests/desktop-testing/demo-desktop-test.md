@@ -57,15 +57,15 @@ Launch the Inspect tool and highlight the desired element to reveal its properti
 
 Make sure you have the following using statements included: 
 
-```C#
+````C#
     using ArtOfTest.WebAii.DesktopAutomation; 
     using ArtOfTest.WebAii.DesktopAutomation.Controls; 
     using ArtOfTest.WebAii.DesktopAutomation.FindExpressions; 
-```
+````
 
 By following the below code flow, users can automate the selection of a radio button within a Windows desktop application using the Test Studio Framework.
 
-```C#
+````C#
     //The code begins by obtaining the root element of the desktop using ‘DesktopElement.FromDesktopRoot()’. 
 
     var desktop = DesktopElement.FromDesktopRoot(); 
@@ -84,7 +84,7 @@ By following the below code flow, users can automate the selection of a radio bu
     //Finally, the code selects the radio button: 
 
     radioButton.Select(); 
-```
+````
 
 ### DesktopInvokePattern Example
 
@@ -92,7 +92,7 @@ Test Studio also provides support for invoking patterns on desktop applications.
 
 Here are the general steps to use the `DesktopInvokePattern` with the radio button from the  above example. 
 
-```C#
+````C#
     //Find the targer UI element 
     var desktop = DesktopElement.FromDesktopRoot(); 
 
@@ -104,7 +104,7 @@ Here are the general steps to use the `DesktopInvokePattern` with the radio butt
 
     //Invoke the desired action 
     invokePattern.Invoke(); 
-```
+````
 
 ## Automation Properties
 

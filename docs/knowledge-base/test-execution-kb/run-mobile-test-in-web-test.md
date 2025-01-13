@@ -23,7 +23,7 @@ The code will wait for the end of the mobile test execution. After the process e
 
 Detailed results of the mobile test execution will be present in the mobile project folder (*Results* sub-folder), where the mobile test is located. 
 
-```C#
+````C#
 // Need to include the references:
 using System.IO;
 using System.Diagnostics;
@@ -52,8 +52,8 @@ public void Run_Mobile_Test_CodedStep()
     // check if this test step pass or fail. If return 0 - process complete normally, else - process fould.
     Assert.AreEqual(exitCode, 0);
 }
-```
-```VB
+````
+````VB
 
 Imports System.IO
 Imports System.Diagnostics
@@ -76,4 +76,4 @@ Public Sub Run_Mobile_Test_CodedStep()
     Assert.AreEqual(exitCode, 0)
 
 End Sub
-```
+````

@@ -12,9 +12,9 @@ position: 1
 
 This is doable with a coded solution. The code is desktop-based, which means it is not associated with an element in your Test Project. Because of this you will need to make sure that the intended target element has focus within the browser before the attempted mouse scroll action. Typically you can give an element focus by invoking a mouse click on it (via regular, non-coded step). Here's an example:
 
-```C#
+````C#
 Manager.Desktop.Mouse.TurnWheel(100, MouseWheelTurnDirection.Backward);
-```
-```VB
+````
+````VB
 Manager.Desktop.Mouse.TurnWheel(100, MouseWheelTurnDirection.Backward)
-```
+````

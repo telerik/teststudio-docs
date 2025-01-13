@@ -12,15 +12,15 @@ So far we've addressed the common dialogs that browsers popup and how the built-
 
 Using the GenericDialog class you can create your own custom dialog handler that can handle most any simple standard Win32 dialog. Here's an example of how to implement a handler for Internet Explorers Security Warning dialog:
 
-```C#
+````C#
 GenericDialog SecurityWarningDialog = new GenericDialog(ActiveBrowser, "Security Warning", false, 1);  // Click on the Yes button
 Manager.DialogMonitor.AddDialog(SecurityWarningDialog);
-```
-```VB
+````
+````VB
 Dim SecurityWarningDialog As GenericDialog = New GenericDialog(Me.ActiveBrowser, "Security Warning", False, 1)  ' Click on the Yes button
 SecurityWarningDialog GenericDialog = GenericDialog(.ActiveBrowser, , , 1) 
 Manager.DialogMonitor.AddDialog(SecurityWarningDialog)
-```
+````
 
 ## Using the BaseDialog Class
 
@@ -28,7 +28,7 @@ By using the BaseDialog class as your base class to derive your custom dialog ha
 
 The below example is a complete custom dialog handler that handles the "Security Alert" dialog displayed by Internet Explorer:
 
-```C#
+````C#
 using System;
 using ArtOfTest.WebAii.Core;
 using ArtOfTest.Common.Win32;
@@ -141,8 +141,8 @@ namespace WebTesting
         #endregion
     }
 }
-```
-```VB
+````
+````VB
 Imports ArtOfTest.WebAii.Core
 Imports ArtOfTest.Common.Win32
 Imports ArtOfTest.WebAii.Win32.Dialogs
@@ -239,22 +239,22 @@ Namespace WebTesting
 		#End Region
 	End Class
 End Namespace
-```
+````
 
 Once you have implemented your new custom dialog handler it requires just one line of code to add it to the DialogMonitor:
 
-```C#
+````C#
 Manager.DialogMonitor.AddDialog(new SecurityAlertDialog(ActiveBrowser, DialogButton.YES, Manager.Desktop));
-```
-```VB
+````
+````VB
 Manager.DialogMonitor.AddDialog(New SecurityAlertDialog(Me.ActiveBrowser, DialogButton.YES, Me.Manager.Desktop))
-```
+````
 
 ## Implementing a Custom Dialog Handler with IDialog
 
 When the GenericDialog and the BaseDialog classes don't provide the functionality you need, you can roll your own complete custom dialog handling by implementing the <a href="http://docs.telerik.com/teststudioapi/html/T_ArtOfTest_WebAii_Win32_Dialogs_IDialog.htm" target="_blank">IDialog</a> interface. An example of when this is necessary is when creating handlers for most FireFox dialogs. See How to handle FireFox dialogs for an example of a FireFox dialog handler implemented using the IDialog interface. A reference to UIAutomationClient.dll has to be added to the project and a using to System.Windows.Automation namespace would be required in the code. The IDialog interface has the following methods and properties that you must implement:
 
-```C#
+````C#
 /// <summary>
 /// Interface to implement for dialogs to be monitored and handled by the DialogMonitor object.
 /// </summary>
@@ -318,8 +318,8 @@ public interface IDialog
      /// </summary>
 	 bool MatchesUIAutomationElement(AutomationElement element);
 }
-```
-```VB
+````
+````VB
 ''' <summary>
 ''' The dialogs current state. This property is Managed by the dialog
 ''' monitor. Implementors should simply provide a private field to
@@ -428,7 +428,7 @@ End Sub
 ''' </summary>
 Private Function MatchesUIAutomationElement(element As AutomationElement) As Boolean
 End Function
-```
+````
 
 After implementing this interface and creating an instance of your class in your test code, you can add the instance to the DialogMonitor to begin handling of your special dialog. See Handling FireFox dialogs for an example of implementing the IDialog interface. The interface is pretty straight forward but here is how the DialogMonitor uses it:
 

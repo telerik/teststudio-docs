@@ -19,7 +19,7 @@ Each of these has its own set of functions that extend load testing functionalit
 
 The below code creates a new, randomly-named file every time Test Studio creates a new Virtual User during load testing The code overrides all the extensible load functions, but only gives **VirtualUserAllocated** an implementation. The rest of the functions do nothing, and the exceptions they throw are benign. This class requires an assembly reference to *Telerik.TestStudio.Load.Common.dll*.
 
-```C#
+````C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -72,4 +72,4 @@ namespace ClassLibrary1
         }
     }
 }
-```
+````

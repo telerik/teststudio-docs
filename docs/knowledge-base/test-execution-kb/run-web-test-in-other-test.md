@@ -11,7 +11,7 @@ This scenario makes sense for example when there is a web test or test list loca
 To run an external test it has to be in a coded step. There a separate system process has to be started. The following code will run the ArtOfTest.Runner.exe with argument - a test list containing single or multiple tests to be executed. All possible arguments are listed in this <a href="/features/test-runners/artoftest-runner" target="_blank">article</a>.
 
 
-```C#
+````C#
     
 // references to the project
 using System.IO;
@@ -42,8 +42,8 @@ public void Run_Web_Test_CodedStep()
     Assert.AreEqual(exitCode, 0);
 }
     
-```
-```VB
+````
+````VB
     
 Imports System.IO
 Imports System.Diagnostics
@@ -67,4 +67,4 @@ Imports System.Diagnostics
 	
 End Sub
     
-```
+````

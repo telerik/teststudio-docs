@@ -28,7 +28,7 @@ Some of the key benefits of TestRegions are:
  
 To help demonstrate these benefits, we will be using the following simple markup page as our sample application through out this tutorial.
 
-```HTML
+````HTML
 <html>
 <head>
    <title>Basic TestRegion's Usage</title>
@@ -65,7 +65,7 @@ To help demonstrate these benefits, we will be using the following simple markup
    </div>
 </body>
 </html>
-```
+````
 
 ## Current Automation Practices
 
@@ -96,21 +96,21 @@ With that being said, it is important to note that TestRegions DO NOT completely
 
 Let's start by using TestRegions in the above sample to provide a structured approach to accessing this application from test automation. To do so, we need to inject TestRegions within our application markup. The TestRegions supported by Telerik Testing Framework Automation Infrastructure are:
 
-```HTML
+````HTML
 <testregion id="regionid">...region content...</testregion>
-```
+````
 
 Given that these are custom tags and are currently not handled as expected in latest browsers (for example, in Firefox, custom tags - even if they are Xhtml defined with extended dtd - are always included with the closing tag right after the open tag regardless of the tag content), the comment version of these tags is supported:
 
-```HTML
+````HTML
 <!--testregion id="regionid"-->...region content...<!--/testregion-->
-```
+````
 
 Using these tags as comments is a very unintrusive approach to the overall application and is completely compliant with markup standards like XHTML and XML.
 
 Let's start by defining two logical regions within our sample application above that we want to target in our automated testing. The page below shows the sample above with the following two logical regions defined: userinput, restaurantdata.
 
-```HTML
+````HTML
 <html>
 <head>
    <title>Basic TestRegion's Usage</title>
@@ -151,18 +151,18 @@ Let's start by defining two logical regions within our sample application above 
    </div>
 </body>
 </html>
-```
+````
 
 With test regions defined, our test code can directly access these regions regardless of their nesting or positioning as follows:
 
-```C#
+````C#
 TestRegion userInput = Manager.ActiveBrowser.Regions["userinput"];
 TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
-```
-```VB
+````
+````VB
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
-```
+````
 
 
 Each TestRegion above represents the part of the application as defined by the TestRegio's that are part of the application. It is worth noting here that the TestRegions collection accessor is case-insensitive to avoid test failures due to id casing mistakes.
@@ -179,22 +179,22 @@ Each TestRegion object has two properties that provide access to the elements co
  
 For example, to locate the restaurants table in the above sample, you can write:
 
-```C#
+````C#
 TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
  
 // Given that the table is the first table within the 'restaurantdata' test region, it has an occurrence index of '0'
 Element restaurantTable = restaurantData.Find.ByTagIndex("table", 0);
-```
-```VB
+````
+````VB
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
  
 ' Given that the table is the first table within the 'restaurantdata' test region, it has an occurrence index of '0'
 Dim restaurantTable As Element = restaurantData.Find.ByTagIndex("table", 0)
-```
+````
 
 Once you have access to the Element object, you can now use it to extract information from or execute actions on. For example:
 
-```C#
+````C#
 // access the userinput test region.
 TestRegion userInput = Manager.ActiveBrowser.Regions["userinput"];
  
@@ -203,8 +203,8 @@ Element zipCodeTextBox = userInput.Find.ByXPath("//input[2]");
  
 // Perform an action on the element.
 Manager.ActiveBrowser.Actions.SetText(zipCodeTextBox, "90210");
-```
-```VB
+````
+````VB
 ' access the userinput test region.
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")
  
@@ -213,7 +213,7 @@ Dim zipCodeTextBox As Element = userInput.Find.ByXPath("/input[2]")
  
 ' Perform an action on the element.
 Manager.ActiveBrowser.Actions.SetText(zipCodeTextBox, "90210")
-```
+````
 
 In the first sample above, the test will not be impacted by any changes to the application regardless of how many 'table' tags get added before or after that testregion. You can even extract that testregion and embed it in a different portion of a different application and all tests that target that region will still work as expected. Same with the second sample.
 

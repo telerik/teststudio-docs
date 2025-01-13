@@ -15,7 +15,7 @@ First you need to get a reference to the RadWindow control by ID. Once you get i
 
 Here is the standard approach:
 
-```C#
+````C#
 Manager.LaunchNewBrowser();
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx");
 Find.ById<HtmlInputSubmit>("Button3").MouseClick();
@@ -25,8 +25,8 @@ RadWindow window = Find.ById<RadWindow>("RadWindowWrapper_RadWindow_ContentTempl
  
 //First Option
 Assert.AreEqual(300, window.Width);
-```
-```VB
+````
+````VB
 Manager.LaunchNewBrowser()
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx")
 Find.ById(Of HtmlInputSubmit)("Button3").MouseClick()
@@ -35,11 +35,11 @@ ActiveBrowser.RefreshDomTree()
 Dim window As RadWindow = Find.ById(Of RadWindow)("RadWindowWrapper_RadWindow_ContentTemplate")
 
 Assert.AreEqual(300, window.Width)
-```
+````
 
 Invoking JavaScript on the page:
 
-```C#
+````C#
 Manager.LaunchNewBrowser();
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx");
 Find.ById<HtmlInputSubmit>("Button3").MouseClick();
@@ -50,8 +50,8 @@ RadWindow window = Find.ById<RadWindow>("RadWindowWrapper_RadWindow_ContentTempl
 //Second Option
 string windowWidth = this.ActiveBrowser.Actions.InvokeScript(String.Format("$telerik.getBounds($find('RadWindow_ContentTemplate').get_popupElement()).width"));
 Assert.AreEqual("300", windowWidth);
-```
-```VB
+````
+````VB
 Manager.LaunchNewBrowser()
 ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx")
 Find.ById(Of HtmlInputSubmit)("Button3").MouseClick()
@@ -61,4 +61,4 @@ Dim window As RadWindow = Find.ById(Of RadWindow)("RadWindowWrapper_RadWindow_Co
 
 Dim windowWidth As String = Me.ActiveBrowser.Actions.InvokeScript([String].Format("$telerik.getBounds($find('RadWindow_ContentTemplate').get_popupElement()).width"))
 Assert.AreEqual("300", windowWidth)
-```
+````

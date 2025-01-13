@@ -18,21 +18,21 @@ Telerik Automation Infrastructure comes with the following features to facilitat
 
 * Unifies the log content. Any logging from Telerik automation using its Log object will also be logged to NUnit's output including logging from JavaScript. For example:
 
-```C#
+````C#
 [Test]
 public void NUnitLog()
 {
      Log.WriteLine("Hi from WebAii");
 }
-```
-```VB
+````
+````VB
 <Test()> _
 Public Sub NUnitLog()
   
      Log.WriteLine("Hi from WebAii")
   
 End Sub
-```
+````
 
 NUnit log:
 
@@ -120,17 +120,17 @@ Telerik NUnit tests inherit from a base test class called **BaseTest** that live
 
 * The base class also offers different options that you might want to choose from depending on the scenarios and your testing environment. The Telerik template installed on your machines, by default uses the following initialization:
 
-```C#
+````C#
 Initialize(new TestContextWriteLine(Console.Out.WriteLine));
-```
-```VB
+````
+````VB
 Initialize(New TestContextWriteLine(AddressOf Console.Out.WriteLine))
-```
+````
 
 The above initialization passes in a delegate to the WriteLine method of NUnit so that you can unify the logging across both frameworks. If that initialization does not work for you, you can choose to pass in different parameters or choose to do your own custom setup of the framework. For example, if you want to override some of the settings from the .config file in one or two of your test cases, you can simply do the following:
 
 
-```C#
+````C#
 // This will get a new Settings object. If a configuration
 // section exists, then settings from that section will be
 // loaded
@@ -142,8 +142,8 @@ settings.DefaultBrowser = BrowserType.FireFox;
   
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(Console.Out.WriteLine));
-```
-```VB
+````
+````VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
 ' loaded
@@ -155,17 +155,17 @@ mySettings.DefaultBrowser = BrowserType.FireFox
   
 ' Now call Initialize again with your updated settings object
 Initialize(mySettings, New TestContextWriteLine(AddressOf Console.Out.WriteLine))
-```
+````
 
 Also if you don't really want to unify the logging and would prefer the framework to perform its own logging in a custom folder, you can simply use the following overload:
 
 
-```C#
+````C#
 Initialize(myCustomLocation);
-```
-```VB
+````
+````VB
 Initialize(myCustomLocation)
-```
+````
 
 For more information on Telerik Testing Framework's settings & configuration please refer to the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc/settings-class" target="_blank">Settings and Configuration</a> topic.
 
@@ -173,7 +173,7 @@ For more information on Telerik Testing Framework's settings & configuration ple
 
 Now that we have an understanding of the template, we can start automating right away. Pick your test method and start writing your automation test code for your unit test. For example:
 
-```C#
+````C#
 [Test]
 [Description("My simple demo")]
 public void SimpleTest()
@@ -187,8 +187,8 @@ public void SimpleTest()
      // verify the title is actually Google.
      Assert.AreEqual("Google", ActiveBrowser.Find.ByTagIndex("title", 0).InnerText);
 }
-```
-```VB
+````
+````VB
 <Test(), _
 Description("My simple demo")> _
 Public Sub SimpleTest()
@@ -203,7 +203,7 @@ Public Sub SimpleTest()
      Assert.AreEqual("Google", ActiveBrowser.Find.ByTagIndex("title", 0).InnerText)
   
 End Sub
-```
+````
 
 [1]: /img/testing-framework/using-nunit/fig1.png
 [2]: /img/testing-framework/using-nunit/fig2.png

@@ -25,7 +25,7 @@ To work around this limitation, create a mock application to feed to Test Studio
 
 Let's assume that the "real" application is in the following location: **C:\myapps\Go.exe**. Here's the code:
 
-```C#
+````C#
 //Shut down "mock" app
 ActiveApplication.Quit();
  
@@ -43,8 +43,8 @@ WpfApplication app = Manager.LaunchNewApplication(pinfo);
  
 //Check whether we connected successfully
 Assert.IsNotNull(app);
-```
-```VB
+````
+````VB
 ActiveApplication.Quit()
  
 
@@ -58,15 +58,15 @@ Dim app As WpfApplication = Manager.LaunchNewApplication(pinfo)
  
 
 Assert.IsNotNull(app)
-```
+````
 
 
 You can extend this code to include parameterization for the app's location. You can use data binding, for instance. Let's say your test is bound to a data sheet with a column named "paths":
 
 
-```C#
+````C#
 var pinfo = new System.Diagnostics.ProcessStartInfo(Data["paths"]);
-```
+````
 
 
 Of course this is only one of the possible solutions you can implement. If you need to use additional assemblies, <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">here</a> is how to do that in the Standalone version.

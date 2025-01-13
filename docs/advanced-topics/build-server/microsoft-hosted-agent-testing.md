@@ -93,9 +93,9 @@ To trigger the installation of the downloaded package, add the next task and cho
 
 The installation can be triggered with a <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec" target="_blank">msiexec command</a> in passive mode due to the lack of UI session. Find below an example command to use in the task.
 
-```
+````
 msiexec.exe /i c:\TestStudio_Runtime_2021_3_1103_1.msi /passive /le c:\errorlog.txt
-```
+````
 
 ### Execute the Tests on Microsoft-hosted Agent
 

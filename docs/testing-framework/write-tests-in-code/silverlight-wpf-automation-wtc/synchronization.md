@@ -40,44 +40,44 @@ The framework has many features implemented to aid you in synchronizing with you
 
 Before you can use the VisualWait.ForExists method to wait for an element to exist you need to create what is called an "Element Proxy". An element proxy is a lightweight FrameworkElement that doesn't actually represent a real element but contains information on how to find the desired element in the Visual Tree. To create an element proxy implement code like this:
 
-```C#
+````C#
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy;
 FrameworkElement myElementProxy = app.Find.ByName("MyElement");
-```
-```VB
+````
+````VB
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy
 Dim myElementProxy As FrameworkElement = app.Find.ByName("MyElement")
-```
+````
 
 Now that you have an element proxy you use it to wait for the element to exist using this line of code:
 
-```C#
+````C#
 // Wait 15 seconds for the element to exist
 proxy.Wait.ForExists(15000);
-```
-```VB
+````
+````VB
 ' Wait 15 seconds for the element to exist
 proxy.Wait.ForExists(15000)
-```
+````
 
 ## Using ForExistsNot, ForVisible, ForVisibleNot,  ForNoMotion
 
 Using any of these functions is pretty straightforward. Just call the method with appropriate parameters, for example:
 
-```C#
+````C#
 FrameworkElement ticket = app.FindName("airlineTicket");
 ticket.Wait.ForExistsNot();         // Wait for the element to no longer exist
 ticket.Wait.ForVisible(3000);       // Wait up to 3 seconds for the element to become visible
 ticket.Wait.ForVisibleNot(2500);    // Wait up to 2.5 seconds for the element to no longer be visible
 ticket.Wait.ForNoMotion(250, 4500); // Wait up to 4.5 seconds for the element to stop moving. Check every 1/4 second.
-```
-```VB
+````
+````VB
 Dim ticket As FrameworkElement = app.FindName("airlineTicket")
 ticket.Wait.ForExistsNot()          ' Wait for the element to no longer exist
 ticket.Wait.ForVisible(3000)        ' Wait up to 3 seconds for the element to become visible
 ticket.Wait.ForVisibleNot(2500)     ' Wait up to 2.5 seconds for the element to no longer be visible
 ticket.Wait.ForNoMotion(250, 4500)  ' Wait up to 4.5 seconds for the element to stop moving. Check every 1/4 second.
-```
+````
 
 ## Creating Your Own Wait Condition
 
@@ -85,7 +85,7 @@ If none of the built-in framework wait for methods meet your needs, the framewor
  
 You can implement your conditional predicate in a function or a lambda expression. Here is a sample of how to implement and use your own conditional predicate in a function:
 
-```C#
+````C#
 FrameworkElement guideButton = app.FindName("guideButton");
 guideButton.Wait.For(myComparator);
  
@@ -93,25 +93,25 @@ public bool myComparator(FrameworkElement elem)
 {
     return elem.Visibility == ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible;
 }
-```
-```VB
+````
+````VB
 Dim guideButton As FrameworkElement = app.FindName("guideButton")
     guideButton.Wait.[For](AddressOf myComparator)
  
 Public Function myComparator(ByVal elem As FrameworkElement) As Boolean
     Return elem.Visibility = ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible
 End Function
-```
+````
 
 
 To do the same thing in a lambda expression would look like this:
 
 
-```C#
+````C#
 FrameworkElement guideButton = app.FindName("guideButton");
 guideButton.Wait.For(new System.Predicate<FrameworkElement>((fe) => fe.Visibility == ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible));
-```
-```VB
+````
+````VB
 Dim guideButton As FrameworkElement = app.FindName("guideButton")
 guideButton.Wait.[For](New System.Predicate(Of FrameworkElement)(Function(fe) fe.Visibility = ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible))
-```
+````

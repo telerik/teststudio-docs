@@ -35,7 +35,7 @@ With CruiseControl.NET you have two different build configurations you can use. 
 
 To build using the <a href="http://www.cruisecontrolnet.org/projects/ccnet/wiki/Visual_Studio_Task" target="_blank">Visual Studio task</a>, you simply add the task configuration to your project file. The following example assumes you're using Visual Studio 2010. Refer to the CruiseControl.NET documentation for other settings to make it work with other versions of Visual Studio. It should look something like this:
 
-```XML
+````XML
 <cruisecontrol xmlns:cb="urn:ccnet.config.builder">
   <project name="Test Studio Unit Tests For Project Sydney">
     <sourcecontrol type="enter your type here">
@@ -57,13 +57,13 @@ To build using the <a href="http://www.cruisecontrolnet.org/projects/ccnet/wiki/
     </publishers>
   </project>
 </cruisecontrol>
-```
+````
 
 ### 4.1.2 Building Using the MSBuild Task
 
 This method is pretty much the same but instead of a Visual Studio task we replace it with a <a href="http://www.cruisecontrolnet.org/projects/ccnet/wiki/MsBuild_Task" target="_blank">MSBuild task</a>. It should look something like this:
 
-```XML
+````XML
 <cruisecontrol xmlns:cb="urn:ccnet.config.builder">
   <project name="WebAii Unit Tests For Project Sydney">
     <sourcecontrol type="enter your type here">
@@ -86,7 +86,7 @@ This method is pretty much the same but instead of a Visual Studio task we repla
     </publishers>
   </project>
 </cruisecontrol>
-```
+````
 
 ### 4.2 Adding a Run Tests Task
 
@@ -94,7 +94,7 @@ The program that runs Visual Studio unit tests is <a href="http://msdn.microsoft
 If you're using NUnit or something similar you can skip this section but be sure to add an appropriate NUnit (or whatever testing framework you use) test task to your project.
 An MSTest task is an "Exec" task to CruiseControl.NET. It should look something like this:
 
-```XML
+````XML
 <cruisecontrol xmlns:cb="urn:ccnet.config.builder">
   <project name="QuickStarts_VSTS_CS_1.1">
     <sourcecontrol type="...">
@@ -121,11 +121,11 @@ An MSTest task is an "Exec" task to CruiseControl.NET. It should look something 
     </publishers>
   </project>
 </cruisecontrol>
-```
+````
 
 If you want to run a suite of tests, add them to a Visual Studio test list and use a buildArgs like this:
 
-```XML
+````XML
 <cruisecontrol xmlns:cb="urn:ccnet.config.builder">
   <project name="QuickStarts_VSTS_CS_1.1">
     <sourcecontrol type="...">
@@ -152,13 +152,13 @@ If you want to run a suite of tests, add them to a Visual Studio test list and u
     </publishers>
   </project>
 </cruisecontrol>
-```
+````
 
 ### 4.3 Publishing Test Results
 
 You need to merge the generated .trx file from MSTest into the build results. Add something like this to the 'publishers' section of your project configuration:
 
-```XML
+````XML
   <publishers>
       <!--to get the test results in the dashboard we have to merge the results XML file -->
       <merge>
@@ -168,14 +168,14 @@ You need to merge the generated .trx file from MSTest into the build results. Ad
       </merge>
       <xmllogger />
     </publishers>
-```
+````
 
 ### 4.4 Publishing Test Results
 
 One caveat to using MSTest is that you must delete the .trx file it creates before doing another test run. Otherwise MSTest will fail indicating it was unable to create the output file.
 This is done via another "Exec" task in ccnet.config. Place this section just in before your Exec task that runs MSTest. It probably would be best to place it at the beginning of the build because if a build fails (which causes CruiseControl.NET to skip any remaining tasks) to compile, CruiseControl.NET will still pick up and merge any left over .trx file into the build log:
 
-```XML
+````XML
 <exec>
         <!--Delete the testResults.trx first. This is required as MsTest will not create the file if
             it exists this could be merged with the mstest action in a single batch file-->
@@ -184,7 +184,7 @@ This is done via another "Exec" task in ccnet.config. Place this section just in
         <buildArgs>/c if exist testResults.trx del testResults.trx /f</buildArgs>
         <buildTimeoutSeconds>30</buildTimeoutSeconds>
       </exec>
-```
+````
 
 ### 4.5 Publishing Test Results
 
@@ -208,7 +208,7 @@ This section is a list of .xsl files that will be used after every build to gene
 
 If you are running Test Studio tests you will want to install and use the TestStudioMSTest2010Report.xsl file. Download the file from the previous link and place it in the folder C:\Program Files (x86)\CruiseControl.NET\webdashboard\xsl. Next we need to add TestStudioMSTest2010Report.xsl so that it looks something like this:
 
-```XML
+````XML
 <dashboard>
   <remoteServices>
 
@@ -228,11 +228,11 @@ If you are running Test Studio tests you will want to install and use the TestSt
     </buildPlugins>
   </plugins>
 </dashboard>
-```
+````
 
 If instead you are running Telerik Testing Framework coded unit tests we need to add MsTestSummary2010.xsl and MsTestReport2010 so that it looks something like this:
 
-```XML
+````XML
 <dashboard>
   <remoteServices>
 
@@ -253,7 +253,7 @@ If instead you are running Telerik Testing Framework coded unit tests we need to
     </buildPlugins>
   </plugins>
 </dashboard>
-```
+````
 
 ### 5.2 Modifying the xslReportBuildPlugin Section
 
@@ -263,7 +263,7 @@ This section is used to generate a menu of the different detail reports you can 
 
 Note the last entry in the list. To obtain this entry we need to modify this section in the dashboard.config file to look something like this:
 
-```XML
+````XML
 <?xml version="1.0" encoding="utf-8" ?>
 <dashboard>
 
@@ -278,7 +278,7 @@ Note the last entry in the list. To obtain this entry we need to modify this sec
     </buildPlugins>
   </plugins>
 </dashboard>
-```
+````
 
 After making the above changes, the next build will successfully display test results.
 

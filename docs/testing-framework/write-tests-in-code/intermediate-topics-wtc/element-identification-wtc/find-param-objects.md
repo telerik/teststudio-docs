@@ -8,17 +8,17 @@ position: 1
 
 All the identification methods exposed by the 'Find' object described above use FindParam objects under the covers to describe the desired element within the DOM tree to Telerik's identification engine. The engine itself can only understand searches using FindParam's. You can directly invoke element searches against the identification engine using the Find.ByParam() or Find.AllByParam() methods. When FindParam's are used directly to define a search, they enable a richer, consistent and more flexible way to describe a certain element than just the Find.Byxx() which were designed to cater for the most common scenarios. For example, if you want to describe the second 'div' on a page with class=myclass. You can't directly do that using the Find.Byxx() methods unless you first find the second 'div' element then inspect its attributes to figure out if the class attribute is set 'myclass'. With FindParam objects, you can simply describe that search by:
 
-```C#
+````C#
 // The find object will only return an element if all conditions
 // exist. Else NULL.
 Element e = Find.ByParam(new FindParam("div", 1,"class=myclass"));
 Assert.IsNotNull(e);
-```
+````
 
 
 Here are some other examples:
 
-```C#
+````C#
 Element e;
   
 // Find.ById() is implemented as
@@ -36,7 +36,7 @@ FindParam p = new FindParam(FindType.Content, "p:Some Data", "title=~Div", "clas
 p.ContentType = FindContentType.InnerMarkup;
 e = Find.ByParam(p);
 Assert.IsNotNull(e);
-```
+````
 
 
 ## Chained Identification
@@ -49,7 +49,7 @@ To help understand chained identification better, let's take a concrete example.
  
 Many times developers find themselves struggling with a markup nesting similar to the one below; particularly on rich content websites when heavy styling is applied or when using dynamic web development technologies like ASP.NET. In the sample below, the outer table contains an id attribute but the rest of the nested tables don't. Let's assume a test needs to access the inner most table to verify its content. Instead of looking up the overall 'table' occurrence index over an entire document which can easily become difficult on large complex pages, we would like to first identify the "table1" element by its id and then simply count two table occurrences from it (occurrence index 1) to locate the inner table.
 
-```HTML
+````HTML
 <table id="table1">
    <tr>
      <td>
@@ -75,11 +75,11 @@ Many times developers find themselves struggling with a markup nesting similar t
      </td>
    </tr>
 </table>
-```
+````
 
 Below is the chained identification code to accomplish that.
 
-```C#
+````C#
 // Generic chained identification
 FindParam idtable1 = new FindParam("id=table1");
   
@@ -90,7 +90,7 @@ FindParam innertable = new FindParam("table", 1);
 Element innerTable = Find.ByParam(new FindParam[] { idtable1, innertable });
 Assert.IsNotNull(innertable);
 Assert.AreEqual(3, innerTable.Children[0].Children.Count);
-```
+````
 
 ## Defining FindParam Objects Outside Test Code (i.e. FindParam Serialization)
 

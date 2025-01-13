@@ -17,9 +17,9 @@ To help Test Studio locate your iframes, you can add a custom tag to the iframe.
 
 To add a tag to a iframe in your application's HTML, add the 'testStudioTag' attribute to the frame element. For example:
 
-```HTML
+````HTML
 <iframe src="http://www.example.com" testStudioTag="ExampleTag"></iframe>
-```
+````
 
 ## Add a Tag Dynamically in Code
 
@@ -47,7 +47,7 @@ If it is not possible to add custom tags to your iframes, you can add them at ru
 
 To tag a nested iframe, ensure the entire DOM is built, so that Test Studio can access the iframes. For example:
 
-```C#
+````C#
 [CodedStep(@"Tag nested frame with 'MyCustomTag'")]
 public void WebTest1_CodedStep()
 {
@@ -59,7 +59,7 @@ public void WebTest1_CodedStep()
         myFrame.TagFrame("MyCustomTag");
     }           
 }
-```
+````
 
 ## See also
 

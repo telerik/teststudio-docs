@@ -25,11 +25,11 @@ The first test uses code to go through all the visible cells in the grid (as opp
 
 The code can be resued in a Telerik Testing Framework test, but you'll need to add the following line of code:
 
-```
+````
 Settings.Current.Web.EnableSilverlight = true;
-```
+````
 
-```C#
+````C#
 SilverlightApp app = ActiveBrowser.SilverlightApps()[0]; //Get Silverlight app              
   
 Telerik.WebAii.Controls.Xaml.RadGridView rgv = app.Find.ByType<Telerik.WebAii.Controls.Xaml.RadGridView>(); //Get RadGrid
@@ -49,8 +49,8 @@ foreach (Telerik.WebAii.Controls.Xaml.GridViewRow gRow in rgv.Rows) { //Loop to 
     }
     rowCounter++;
 }
-```
-```VB
+````
+````VB
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
 'Get Silverlight app              
 Dim rgv As Telerik.WebAii.Controls.Xaml.RadGridView = app.Find.ByType(Of Telerik.WebAii.Controls.Xaml.RadGridView)()
@@ -68,7 +68,7 @@ For Each gRow As Telerik.WebAii.Controls.Xaml.GridViewRow In rgv.Rows
     Next
     rowCounter += 1
 Next
-```
+````
 
 The second test, **GoThroughAllCellsInGrid**, scrolls through the Grid and goes through all its cells, not just the ones that are currently visible. Basically it combines the above code with the code from <a href="/advanced-topics/coded-samples/silverlight/radgridview-automation/scrolling" target="_blank">this article</a>.
 

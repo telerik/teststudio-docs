@@ -30,7 +30,7 @@ Determine which DOM element represents the loading screen and then wait for this
 
 If you're using the Telerik Testing Framework, this is harder to implement. This is because you will need to manually determine which element represents the AJAX loading screen. In the demo app, this is a DIV element with an ID of RadAjaxLoadingPanel1Panel1. Once you've determined that, you can write the test that waits for it to not exist. Here's the code that triggers the AJAX loading screen and then waits for it to not exist:
 
-```C#
+````C#
 // Launch a browser instance
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer);
  
@@ -44,8 +44,8 @@ Find.ById<HtmlInputButton>("Button1").Click();
 Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000);
  
 //Now we're free to click around the page without worrying whether the click will actually occur
-```
-```VB
+````
+````VB
 ' Launch a browser instance
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer)
  
@@ -59,6 +59,6 @@ Find.ById(Of HtmlInputButton)("Button1").Click()
 Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000)
  
 'Now we're free to click around the page without worrying whether the click will actually occur
-```
+````
 
 [1]: /img/advanced-topics/coded-samples/general/grayed-out-controls/fig1.png

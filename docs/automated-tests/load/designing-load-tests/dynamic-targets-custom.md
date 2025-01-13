@@ -44,10 +44,10 @@ Once any custom targets are added to the user profile these will be displayed un
 __Example:__ The head section of a HTTP response's body is:
 
 
-```
+````
 <html>
 <head><title>Example ASP Scripts</title></head>
-```
+````
 
 To get the actual title you may use __Starts after:__ \<title\> and __Ends before:__ \</title\>
 
@@ -57,31 +57,31 @@ To get the actual title you may use __Starts after:__ \<title\> and __Ends befor
 
 __Example:__ The cookie of a HTTP response is the following string and the requirement is to get the domain name value only:
 
-```
+````
 _EDGE_S=SID=04D5974D8509631807D39B2484BF62E4; path=/; httponly; domain=bing.com
-```
+````
 
 The only possible approach is to use the partial search using Regex. The standard regex for extracting the desired value looks like this:
 
-```
+````
 domain=(.*?)$
-```
+````
 
 
 This returns the following match information:
 
 
-```
+````
 Full match	65-80	`domain=bing.com`
 Group 1.	72-80	`bing.com`
-```
+````
 
 Using that standard regular expression in Test Studio will return the _Full match_ instead the value in _Group 1_. Therefore Test Studio uses \<val\> to express the first match group and the regular expression becomes:
 
 
-```
+````
 domain=(?<val>.*?)$
-```
+````
 
 
 - ___JSON___ - use <a href="http://goessner.net/articles/JsonPath/index.html#e3" target="_blank">JSONPath</a> to locate the desired value in response.

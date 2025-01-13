@@ -45,35 +45,35 @@ First, create a coded step in order to generate a code-behind file. Then open th
 
 The TestResult object lets you access the test results from the run that just finished (i.e. the one invoking the **OnAfterTestCompleted** method):
 
-```C#
+````C#
 public override void OnAfterTestCompleted(TestResult result)
 {
     string overall = Convert.ToString(result.Result);
     Log.WriteLine(overall);
     result.ExportToResultFile(@"C:\", result.TestName);
 }
-```
-```VB
+````
+````VB
 Public Overrides Sub OnAfterTestCompleted(result As TestResult)
 	Dim overall As String = Convert.ToString(result.Result)
 	Log.WriteLine(overall)
 	result.ExportToResultFile("C:\", result.TestName)
 End Sub
-```
+````
 
 The **OnBeforeTestStarted** method allows you to perform actions required for the initialization of your test (starting scripts, etc.):
 
-```C#
+````C#
 public override void OnBeforeTestStarted(BeforeTestStartedArgs args)
 {
     this.ExecuteTest("Folder1\\WebTest2.tstest");
 }
-```
-```VB
+````
+````VB
 Public Overrides Sub OnBeforeTestStarted(BeforeTestStartedArgs args)
 	Me.ExecuteTest("Folder1\WebTest2.tstest")
 End Sub
-```
+````
 
 You can use logic from assemblies in these methods. First add references to the assemblies. For Test Studio Standalone version, see the article on how to <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a>.
 

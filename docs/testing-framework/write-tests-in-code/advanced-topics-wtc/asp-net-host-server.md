@@ -22,7 +22,7 @@ Many of our customers have asked for a way to execute tests without the need for
 
 With all these in mind, let's look at an example that illustrates how we can enable our tests to run against the Asp.Net inproc host. Here is a simply Asp.Net page that utilizes several Asp.Net controls:
 
-```ASP
+````ASP
 <%@ Page Language="C#" %>
  
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -90,30 +90,30 @@ With all these in mind, let's look at an example that illustrates how we can ena
     </form>
 </body>
 </html>
-```
+````
 
 
 You can run this page using the Asp.Net InProc server by first setting the default browser to 'AspNetHost' and setting the physical location of the web application. For example, you can override these settings in your test initialization or set them in your .config file:
 
-```C#
+````C#
 // Set the default browser to be AspNetHost
 settings.DefaultBrowser = BrowserType.AspNetHost;
  
 // Set the location of the Asp.Net App
 settings.WebAppPhysicalPath = @"C:\MyAspNetApp\";
-```
-```VB
+````
+````VB
 ' Set the default browser to be AspNetHost
 mysettings.DefaultBrowser = BrowserType.AspNetHost
  
 ' Set the location of the Asp.Net App
 mysettings.WebAppPhysicalPath = System.IO.Path.Combine(Globals.PATH_TO_PAGES, "AspNetApp")
-```
+````
 
 Next you can perform your automation in the same manner as you would for any other browser. For example:
 
 
-```C#
+````C#
 // Will initialize a new AspNetApplication object.
 Manager.LaunchNewBrowser();
  
@@ -175,8 +175,8 @@ Assert.IsTrue(label.InnerText.Contains(DateTime.Today.ToShortDateString()));
 Actions.Click(Find.ById("treeView1t1"));
 label.Refresh();
 Assert.IsTrue(label.InnerText.Contains("Node2"));
-```
-```VB
+````
+````VB
 
 ' Will initialize a new AspNetApplication object.
 Manager.LaunchNewBrowser()
@@ -234,7 +234,7 @@ Assert.IsTrue(label.InnerText.Contains(DateTime.Today.ToShortDateString))
 Actions.Click(Find.ById("treeView1t1"))
 label.Refresh()
 Assert.IsTrue(label.InnerText.Contains("Node2"))
-```
+````
 
 
 ## Debugging Page Requests

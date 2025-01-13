@@ -13,7 +13,7 @@ position: 1
 
 This is possible with a coded solution. The example below is against <a href="http://www.w3schools.com/html/html_tables.asp" target="_blank">this W3Schools site</a>.
 
-```C#
+````C#
 HtmlTable table = Find.ByTagIndex<HtmlTable>("table", 0);
  
 double r = table.Rows.Count;
@@ -36,8 +36,8 @@ Log.WriteLine("Sum: " + sum.ToString());
 double average = sum / r;
 Log.WriteLine("Average: " + average.ToString());
 Assert.IsTrue(sum == 90);
-```
-```VB
+````
+````VB
 Dim table As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)
  
 Dim r As Double = table.Rows.Count
@@ -59,6 +59,6 @@ Log.WriteLine("Sum: " + sum.ToString())
 Dim average As Double = sum / r
 Log.WriteLine("Average: " + average.ToString())
 Assert.IsTrue(sum = 90)
-```
+````
 
 

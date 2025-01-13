@@ -30,38 +30,38 @@ Also add the following **.NET** references (these are required for the demonstra
 3.&nbsp; Add the following using statements to the class file:
 
 	
-```C#
+````C#
 using System.IO;
 using System.Data;
 using System.Data.OleDb;
 using System.Windows.Forms;
 using ArtOfTest.WebAii.Design.Execution;
-```
-```VB
+````
+````VB
 Imports System.IO
 Imports System.Data
 Imports System.Data.OleDb
 Imports System.Windows.Forms
 Imports ArtOfTest.WebAii.Design.Execution
-```
+````
 
 4.&nbsp; The *ArtOfTest.WebAii.Design.Execution* namespace contains an IExecutionExtension that the class library needs to inherit and implement:
 
-```C#
+````C#
 namespace ClassLibrary1
 {
 	public class Class1 : IExecutionExtension
 	{
 	}
 }
-```
-```VB
+````
+````VB
 Namespace ClassLibrary1
 	Public Class Class1
 		Implements IExecutionExtension
 	End Class
 End Namespace
-```
+````
 
 5.&nbsp; Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
 
@@ -70,7 +70,7 @@ End Namespace
  - The rest of the functions, which you're not using, should be left empty (remove *throw new NotImplementedException*).
 
 
-```C#
+````C#
 namespace ClassLibrary1
 {
     public class Class1 : IExecutionExtension
@@ -126,8 +126,8 @@ namespace ClassLibrary1
         #endregion
     }
 }
-```
-```VB
+````
+````VB
 Namespace ClassLibrary1
 	Public Class Class1
 		Implements IExecutionExtension
@@ -176,7 +176,7 @@ Namespace ClassLibrary1
 		#End Region
 	End Class
 End Namespace
-```
+````
 
 A few notes about the code above:
 	
@@ -191,7 +191,7 @@ A few notes about the code above:
 6.&nbsp; For the first example, we'll add code to the **OnAfterTestListCompleted** method to write the result of a test list as a basic string to a text file:
 
 	
-```C#
+````C#
 public void OnAfterTestListCompleted(RunResult result)
 {
 	string msg = string.Format("TestList '{0}' completed on '{1}'. ({2}/{3}) Passed", result.Name, result.EndTime, result.PassedCount, result.TestResults.Count);
@@ -199,15 +199,15 @@ public void OnAfterTestListCompleted(RunResult result)
 	file.WriteLine(msg);
 	file.Close();
 }
-```
-```VB
+````
+````VB
 Public Sub OnAfterTestListCompleted(result As RunResult)
 	Dim msg As String = String.Format("TestList '{0}' completed on '{1}'. ({2}/{3}) Passed", result.Name, result.EndTime, result.PassedCount, result.TestResults.Count)
 	Dim file As New StreamWriter("c:\test-list-results.txt")
 	file.WriteLine(msg)
 	file.Close()
 End Sub
-```
+````
 
 7.&nbsp; Compile the class library.
 
@@ -223,7 +223,7 @@ Let's see another example using the **OnInitializeDataSource** method. This assu
 
 1.&nbsp; Add the following code to that method:
 
-```C#
+````C#
 public System.Data.DataTable OnInitializeDataSource(ExecutionContext executionContext)
 {
     System.Data.DataTable table = null;
@@ -252,8 +252,8 @@ public System.Data.DataTable OnInitializeDataSource(ExecutionContext executionCo
     thread.Join();
     return table;
 }
-```
-```VB
+````
+````VB
 Public Function OnInitializeDataSource(executionContext As ExecutionContext) As System.Data.DataTable
 	Dim table As System.Data.DataTable = Nothing
 	Dim thread = New System.Threading.Thread(Function(obj) 
@@ -277,11 +277,11 @@ End Function)
 	thread.Join()
 	Return table
 End Function
-```
+````
 
 2.&nbsp; Now add the following *ImportExcelXLS* method within the same public class:
 
-```C#
+````C#
 private static DataSet ImportExcelXLS(string FileName, bool hasHeaders)
 {
     string HDR = hasHeaders ? "Yes" : "No";
@@ -318,8 +318,8 @@ private static DataSet ImportExcelXLS(string FileName, bool hasHeaders)
     }
     return output;
 }
-```
-```VB
+````
+````VB
 Private Shared Function ImportExcelXLS(FileName As String, hasHeaders As Boolean) As DataSet
 	Dim HDR As String = If(hasHeaders, "Yes", "No")
 	Dim strConn As String = Nothing
@@ -349,7 +349,7 @@ Private Shared Function ImportExcelXLS(FileName As String, hasHeaders As Boolean
 	End Using
 	Return output
 End Function
-```
+````
 
 3.&nbsp; Rebuild the class library, copy the resulting DLL file, and paste it into the Plugins folder (overwriting the existing file).
 

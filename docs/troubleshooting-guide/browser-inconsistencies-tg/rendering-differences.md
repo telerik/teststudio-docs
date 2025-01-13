@@ -26,7 +26,7 @@ The default is **AllBrowsers**. Copy your step and set one to **InternetExplorer
 
 If you need to do a similar action in code, you can use code like this:
 
-```C#
+````C#
 if (ActiveBrowser.BrowserType == BrowserType.InternetExplorer)
 {
     // Do IE specific action
@@ -39,8 +39,8 @@ else
 {
     throw new ApplicationException("Unknown browser type");
 }
-```
-```VB
+````
+````VB
 ' Do IE specific action
 If ActiveBrowser.BrowserType = BrowserType.InternetExplorer Then
 ' Do Firefox specific action
@@ -48,7 +48,7 @@ ElseIf ActiveBrowser.BrowserType = BrowserType.FireFox Then
 Else
     Throw New ApplicationException("Unknown browser type")
 End If
-```
+````
 
 
 [1]: /img/troubleshooting-guide/verification-problems-tg/work-ie-not-ff/fig1.png

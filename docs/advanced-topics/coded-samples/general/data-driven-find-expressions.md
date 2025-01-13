@@ -28,16 +28,16 @@ The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/c
 
 6.&nbsp; We will use the Find.ByContent method in the coded step. More information can be found in our <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Finding Page Elements</a> article. Here's the code for our Script Step:
 
-```C#
+````C#
 HtmlListItem listItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent<HtmlListItem>(Data["Col1"].ToString());
 Assert.IsNotNull(listItem);
 listItem.Click();
-```
-```VB
+````
+````VB
 Dim listItem As HtmlListItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent(Of HtmlListItem)(Data("Col1").ToString())
 Assert.IsNotNull(listItem)
 listItem.Click()
-```
+````
 
 7.&nbsp; Test Studio uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
 

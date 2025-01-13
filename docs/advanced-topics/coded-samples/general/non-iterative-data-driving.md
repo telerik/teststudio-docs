@@ -21,12 +21,12 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 1.3 Write the following code into the file:
 
-```XML
+````XML
 	<?xmlversion="1.0" encoding="UTF-8"?>
 		<IterationValue> 
 		<numVal>0</numVal>
 	</IterationValue>
-```
+````
 
 2.&nbsp; Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
 
@@ -47,7 +47,7 @@ The solution is to save the number of the row into an XML file. Each time you ex
 
 3.5 Create a method which will save the row number into the XML file:
 
-```C#
+````C#
 public void SaveValue(int numVal)
 {
     string path = @"C:\Box\NextRowOnEachRun\IterationValue.xml";
@@ -55,19 +55,19 @@ public void SaveValue(int numVal)
     e.Add(new XElement("numVal", numVal));
     e.Save(path);
 }
-```
-```VB
+````
+````VB
 Public Sub SaveValue(numVal As Integer)
 	Dim path As String = "C:\Box\NextRowOnEachRun\IterationValue.xml"
 	Dim e As New XElement("IterationValue")
 	e.Add(New XElement("numVal", numVal))
 	e.Save(path)
 End Sub
-```
+````
 
 3.6 Create a method which will load the row number from the XML file:
 
-```C#
+````C#
 public int LoadValue()
 {
     string path = @"C:\Box\NextRowOnEachRun\IterationValue.xml";
@@ -77,8 +77,8 @@ public int LoadValue()
 
     return numVal;
 }
-```
-```VB
+````
+````VB
 Public Function LoadValue() As Integer
 	Dim path As String = "C:\Box\NextRowOnEachRun\IterationValue.xml"
 	Dim e As XElement = XElement.Load(path)
@@ -87,11 +87,11 @@ Public Function LoadValue() As Integer
 
 	Return numVal
 End Function
-```
+````
 
 3.7 Create a method which will read the row from the Excel file:
 
-```C#
+````C#
 public string ReadingExcel()
 {
 	int rowValue = LoadValue();
@@ -113,8 +113,8 @@ public string ReadingExcel()
 
 	return value;
 }
-```
-```VB
+````
+````VB
 Public Function ReadingExcel() As String
 	Dim rowValue As Integer = LoadValue()
 	Dim input As String = "C:\Box\NextRowOnEachRun\foo.xlsx"
@@ -136,7 +136,7 @@ Public Function ReadingExcel() As String
 
 	Return value
 End Function
-```
+````
 
 See <a href="http://screencast.com/t/bqt6zXOj" target="_blank">this video</a> to see how this sample works.
 

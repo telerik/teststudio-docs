@@ -17,7 +17,11 @@ This is possible with a coded solution. Here's an example that goes through all 
 ><br>
 > The application used to build the sample code is the official <a href="https://demos.telerik.com/wpf/" target="_blank">Telerik UI for WPF Controls Demo app</a>. 
 
-```C#
+> **Note** 
+><br>
+> The application used to build the sample code is the official <a href="https://demos.telerik.com/wpf/" target="_blank">Telerik UI for WPF Controls Demo app</a>. 
+
+````C#
 WpfApplication app = Manager.ActiveApplication;
 Assert.IsNotNull(app);
  
@@ -38,8 +42,8 @@ foreach (Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow gRow in grid.Rows)
     }
     rowCounter++;
 }
-```
-```VB
+````
+````VB
 Dim app As WpfApplication = Manager.ActiveApplication
 Assert.IsNotNull(app)
  
@@ -58,7 +62,7 @@ For Each gRow As Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow In grid.Rows
     Next
     rowCounter += 1
 Next
-```
+````
 
 
 

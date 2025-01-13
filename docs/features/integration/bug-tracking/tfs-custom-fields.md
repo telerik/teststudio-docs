@@ -33,7 +33,7 @@ Where *BugTrackingName* is the name of the required field and *NULL* is its curr
 
 4.&nbsp; Open it with a text editor, like Notepad, and insert the following content:
 
-```xml
+````XML
 <?xml version="1.0" encoding="utf-8"?>
 <TFSMappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TemplateName>BugNew1</TemplateName>
@@ -44,7 +44,7 @@ Where *BugTrackingName* is the name of the required field and *NULL* is its curr
     </FieldMapping>
   </Fields>
 </TFSMappings>
-```
+````
 
 5.&nbsp; Submit the bug once again through Test Studio. It should succeed:
 

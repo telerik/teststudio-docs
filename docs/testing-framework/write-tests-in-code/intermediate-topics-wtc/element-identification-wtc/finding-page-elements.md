@@ -55,7 +55,7 @@ The following identification methods are supported:
 ```	
 // Find element with id=input1
 Element e = Find.ById("input1");
-```
+````
 </td>
 </tr>
 <tr>
@@ -65,7 +65,7 @@ Element e = Find.ById("input1");
 ```	
 // Find element with name=goButton
 Element e = Find.ByName("goButton")
-```
+````
 </td>
 </tr>
 <tr>
@@ -73,14 +73,14 @@ Element e = Find.ByName("goButton")
     <a href="/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByImage_System_Drawing_Image_System_Double_System_Boolean_System_Drawing_Point_System_Int32_" target="_blank">**Find.AllByImage()**</a></td>
 	<td>Searches for an element or 'All' elements that look like a predefined image</td>
 <td>
-```
+````
 // Specify the predefined image on which the search will be based
 System.Drawing.Image img1 = System.Drawing.Image.FromFile(@"C:\sampleImg.png");
 // Find an element that looks like the predefind image
 var elementImg1 = Manager.ActiveBrowser.Find.ByImage(img1, 70); // the second argument is the threshold % to use, while searching for the image
 // Cast the found element to be able to use it. The type of located element needs to be specified.
 HtmlButton btn1 = elementImg1.As<HtmlButton>();
-```
+````
 </td>
 </tr>
 <tr>
@@ -90,7 +90,7 @@ HtmlButton btn1 = elementImg1.As<HtmlButton>();
 ```	
 // Find the 3rd occurrence of table tag
 Element table = Find.ByTagIndex("table", 2);
-```
+````
 </td>
 </tr>
 <tr>
@@ -106,7 +106,7 @@ Element e = Find.ByAttributes("class=myclass");
 Element e = Find.ByAttributes("class=myclass", "src=~foo.gif");
 // Find all elements with class=myclass and src has a partial foo.gif
 IList<Element> allbtns = Find.AllByAttributes("class=myclass", "src=~foo.gif");
-```
+````
 </td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ IList<Element> alle = Find.AllByContent("p:car")
 // TextContent of div1 : Text1 {non-recursive}
 //
 // Default for ByContent is TextContent which is the most common usage.
-```
+````
 </td>
 </tr>
 <tr>
@@ -152,7 +152,7 @@ IList<Element> alle = Find.AllByContent("p:car")
 HtmlFindExpression expr = new HtmlFindExpression("id=?sam","class=~bar","textcontent=!foo");
 // Return all elements matching HtmlFindExpression
 IList<Element> allSams = Find.AllByExpression(expr);
-```
+````
 </td>
 </tr>
 <tr>
@@ -165,7 +165,7 @@ IList<Element> allSams = Find.AllByExpression(expr);
 Element img = Find.ByXPath("//body[1]/table[1]/tbody[1]/tr[1]/td[1]/img[1]");
 // Find all times with id=div
 IList<Element> allDivs = Find.AllByXPath("/descendant::node()[starts-with(@id,'div')]");
-```
+````
 </td>
 </tr>
 <tr>
@@ -178,7 +178,7 @@ IList<Element> allDivs = Find.AllByXPath("/descendant::node()[starts-with(@id,'d
 HtmlAnchor activeLink = Find.ByCssSelector<HtmlAnchor>("a:active");
 // Find all links
 IList<HtmlAnchor> allLinks = Find.AllByCssSelector<HtmlAnchor>("a"); 
-```
+````
 </td>
 </tr>
 <tr>
@@ -188,7 +188,7 @@ IList<HtmlAnchor> allLinks = Find.AllByCssSelector<HtmlAnchor>("a");
 ```	
 // Return all img elements
 IList<Element> allimg = Find.AllByTagName("img");
-```
+````
 </td>
 </tr>
 <tr>
@@ -218,7 +218,7 @@ Given this DOM:
 
 // We can find the <target></target> element by:
 Element target = Find.ByNodeIndexPath("0/2/0/1");
-```
+````
 </td>
 </tr>
 <tr>
@@ -228,7 +228,7 @@ Element target = Find.ByNodeIndexPath("0/2/0/1");
 ```	
 FindParamCollection col = FindParamCollection.LoadFromXml(xml);
 return this.FromCollection(col);
-```
+````
 </td>
 </tr>
 <tr>
@@ -248,7 +248,7 @@ HtmlInputButton btn = Find.ByCustom<HtmlInputButton>(
     }
 );
 Assert.IsNotNull(btn);
-```
+````
 </td>
 </tr>
 <table>
@@ -285,7 +285,7 @@ The Byxxx functions that take a content string parameter recognizes the followin
 
 To help illustrate the above identification methods, let's use the following sample application. Note that this application uses TestRegions excessively to allow it to demonstrate the different identification methods that can be performed using both **RBI** and **RGBI**:
 
-```HTML
+````HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -329,11 +329,11 @@ To help illustrate the above identification methods, let's use the following sam
 <!--/testregion-->
 </body>
 </html>
-```
+````
 
 The code below shows the different methods you can use in your test code to identify elements. Note in the sample below, we are using Visual Studio's Assert class to demonstrate how different objects can be identified differently and to illustrate how to scope the identification with TestRegions using RGBI and across the entire document DomTree using RBI.
 
-```C#
+````C#
 // Set the short-cuts to the main automation objects.
 Browser brwser = mgr.ActiveBrowser;
 Find rootFind = brwser.Find;
@@ -387,8 +387,8 @@ Assert.IsTrue(rootFind.ByNodeIndexPath("1/0/0").TagName.Equals("div", StringComp
   
 //*** Using name
 Assert.IsNull(r1.Find.ByName("bla"));
-```
-```VB
+````
+````VB
 ' Set the short-cuts to the main automation objects.
 Dim brwser As ArtOfTest.WebAii.Core.Browser = Manager.ActiveBrowser
 Dim rootFind As Find = brwser.Find
@@ -442,4 +442,4 @@ Assert.IsTrue(rootFind.ByNodeIndexPath("1/0/0").TagName.Equals("div", StringComp
   
 '*** Using name
 Assert.IsNull(r1.Find.ByName("bla"))
-```
+````

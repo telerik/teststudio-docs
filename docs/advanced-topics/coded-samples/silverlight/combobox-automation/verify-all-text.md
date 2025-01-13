@@ -8,7 +8,7 @@ position: 1
 
 This is possible with a coded solution:
 
-```C#
+````C#
 ComboBox cb = Pages.SilverlightToolkitSamples.SilverlightApp.Item0Combobox;
  
 string full = cb.TextBlockContent.ToString();
@@ -16,9 +16,7 @@ full = full.Trim();
  
 Log.WriteLine(full);
 Assert.AreEqual(full, "All Add Delete Edit Navigation None");
-```
-
-```VB
+````VB
 Dim cb As ComboBox = Pages.SilverlightToolkitSamples.SilverlightApp.Item0Combobox
  
 Dim full As String = cb.TextBlockContent.ToString()
@@ -26,6 +24,6 @@ full = full.Trim()
  
 Log.WriteLine(full)
 Assert.AreEqual(full, "All Add Delete Edit Navigation None")
-```
+````
 
 

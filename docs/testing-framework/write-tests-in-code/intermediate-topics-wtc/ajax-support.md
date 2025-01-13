@@ -32,17 +32,17 @@ Telerik Testing Framework has been built from the ground up with features like A
  
 Let's examine a couple of examples to illustrate how WaitForElement(s) is used. Assume that you are waiting for a table to be inserted in your DOM tree at a certain location and you want to wait until the whole table is built including the sixth row. The following is the DOM segment before the Ajax call is made:
 
-```HTML
+````HTML
 <!--testregion id="ajaxupdate"-->
 <div>
 </div>
 <!--/testregion-->
-```
+````
 
 Here is the DOM after the call has been made:
 
 
-```HTML
+````HTML
 <!--testregion id="ajaxupdate"-->
 <div>
   <table>
@@ -55,11 +55,11 @@ Here is the DOM after the call has been made:
    </table>
 </div>
 <!--/testregion-->
-```
+````
 
 The following code will perform this wait:
 
-```C#
+````C#
 // Get the ajaxupdate region.
 // Notice how using a testregion simplifies our identification and makes it
 // more isolated to the current DOM region being targeted and less prone
@@ -75,8 +75,8 @@ FindParam sixth_row = new FindParam("tr", 6);
 // perform the wait for both elements. WaitForElements() takes 1-N FindParam objects to
 // to wait for.
 ActiveBrowser.Actions.WaitForElements(500, ajaxupdate, false, table, sixth_row);
-```
-```VB
+````
+````VB
 ' Get the ajaxupdate region.
 ' Notice how using a testregion simplifies our identification and makes it
 ' more isolated to the current DOM region being targeted and less prone
@@ -92,13 +92,13 @@ Dim sixth_row As FindParam = New FindParam("tr", 6)
 ' perform the wait for both elements. WaitForElements() takes 1-N FindParam objects to
 ' to wait for.
 ActiveBrowser.Actions.WaitForElements(500, ajaxupdate, False, table, sixth_row)
-```
+````
 
 In the above code sample, we used <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/introduction" target="_blank">TestRegions</a> to make our automation simpler and targeted at the DOM region we are interested in. If you choose to not use TestRegions, you can simply use the WaitForElement(s) overload that takes in only the FindParam and the Timeout. In that case, all identification will be performed with reference to the root element of the DomTree.
  
 You can also use "Chained Identification" to wait for an element. For example if we have a DOM segment that looks like the sample below: 
 
-```HTML
+````HTML
 <spanid="myspan">
    <div>
      <table>
@@ -111,11 +111,11 @@ You can also use "Chained Identification" to wait for an element. For example if
      </table>
    </div>
  </span>
-```
+````
 
 ... and we want to wait until we have six rows available, then we can use chained identification as follows:
 
-```C#
+````C#
 // First find the span by id
 FindParam myspan = new FindParam("id=myspan");
   
@@ -124,8 +124,8 @@ FindParam sixth_row = new FindParam("tr", 5);
   
 // perform the wait for the row element.
 ActiveBrowser.Actions.WaitForElement(new FindParam[] { myspan, sixth_row }, 500);
-```
-```VB
+````
+````VB
 ' First find the span by id
 Dim myspan As FindParam = New FindParam("id=myspan")
   
@@ -134,7 +134,7 @@ Dim sixth_row As FindParam = New FindParam("tr", 5)
   
 ' perform the wait for the row element.
 ActiveBrowser.Actions.WaitForElement(New FindParam() {myspan, sixth_row}, 500)
-```
+````
 
 The above scenario is one of the most common when testing Ajax apps. Therefore, the WaitForElement provides an easy to use overload for these common scenarios where you need to first identify an element by id/name then validate a certain attribute list. This helps reduce the lines of code each time you need to identify an element. If you need a more complex identification, you can use chained identification as described above.
 
@@ -148,7 +148,7 @@ To help address this issue and potentially other issues, the Telerik infrastruct
  
 For example, if you want to retrieve the text set by a user in an input textbox in Firefox, you can simply do the following:
 
-```C#
+````C#
 // Get the element.
 Element input = ActiveBrowser.Find.ById("myinput");
   
@@ -160,8 +160,8 @@ string display = input.GetValue<string>("display");
   
 // Get its 'visibility' property from the DOM
 string visibility = input.GetValue<string>("visibility");
-```
-```VB
+````
+````VB
 ' Get the element.
 Dim input As Element = ActiveBrowser.Find.ById("myinput")
   
@@ -173,7 +173,7 @@ Dim display As String = input.GetValue(Of String)("display")
   
 ' Get its 'visibility' property from the DOM
 Dim visibility As String = input.GetValue(Of String)("visibility")
-```
+````
 
 **Note:** If you are retrieving property values of set attributes available in the serialized DOM string, you should use the GetAttribute() method to retrieve these attributes and their values.
 
@@ -181,9 +181,9 @@ Dim visibility As String = input.GetValue(Of String)("visibility")
 
 This method will wait for any active AJAX requests to complete.
 
-```C#
+````C#
 Manager.ActiveBrowser.WaitForAjax(30000);
-```
-```VB
+````
+````VB
 Manager.ActiveBrowser.WaitForAjax(30000)
-```
+````

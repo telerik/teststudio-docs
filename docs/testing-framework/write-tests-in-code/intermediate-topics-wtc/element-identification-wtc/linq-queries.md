@@ -29,7 +29,7 @@ The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Som
 
 Using LINQ we can create strongly typed advanced queries with intellisense support that we couldn't before. The most basic LINQ example is something like this:
 
-```C#
+````C#
 // Find all images on a page.
 var images = Find.AllControls<HtmlImage>();
  
@@ -37,12 +37,12 @@ foreach (HtmlImage img in images)
 {
     // Do what you want with each img.
 }
-```
+````
 
 
 We can also use lambda expressions like this:
 
-```C#
+````C#
 // Find the first element that contains "Go Google"
 Element el = Find.ByCustom(e => e.TextContent.Contains("Go Google"));
   
@@ -66,4 +66,4 @@ Assert.IsTrue(rd.Count > 0);
 // Fetch a list of HTML anchor's that contain 'a' in the ID
 IList<Element> li = (from b in Find.AllElements() where b.IdAttributeValue.Contains("a") select b).ToArray();
 Assert.IsTrue(li.Count > 0);
-```
+````

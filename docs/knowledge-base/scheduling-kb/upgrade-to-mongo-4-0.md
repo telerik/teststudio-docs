@@ -22,9 +22,9 @@ What we found working quite well for us is to back up your existing database and
 
 Start a Command Prompt as Administrator and change the directory to the bin/ folder in the 3.x  MongoDB installation directory. Run the following command:
 
-```
+````
 mongodump --db TSStorageData
-```
+````
 
 The result is a dump/ folder where the command is run, which contains the dump of the TSStorageData database.
 
@@ -38,9 +38,9 @@ Open the Windows services and manually stop the MongoDB service.
 
 Start a Command Prompt as Administrator and type the following command:
  
-```
+````
 sc delete MongoDB
-```
+````
 
 ![Delete Service][2]
 
@@ -64,9 +64,9 @@ The MongoDB service can now be started. The most convenient way to start it is t
 
 Once the installation of MongoDB 4.x is finished and the service is running, you can restore the - database. Copy the *dump* folder, created in point 1., from the MongoDB 3.x *bin* folder to the *bin* in installation folder of the 4.x MongoDB server. Start a Command Prompt as Administrator and change the directory to the *bin* folder under the 4.x MongoDB installation, run the following command:
 
-```
+````
 Mongorestore dump/
-```
+````
 
 [1]: /img/knowledge-base/scheduling-kb/upgrade-to-mongo-4-0/fig1.png
 [2]: /img/knowledge-base/scheduling-kb/upgrade-to-mongo-4-0/fig2.png

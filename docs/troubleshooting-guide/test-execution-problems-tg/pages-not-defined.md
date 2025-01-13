@@ -19,7 +19,7 @@ The coded files need to use the namespace as the one set on project level in the
 
 The code-behind file for a test in project with name TestProj2 looks like this: 
 
-```C#
+````C#
 
 // Starting with a list of using statements which may vary 
 // and therefore are not listed here
@@ -59,7 +59,7 @@ namespace TestProj2 // This is the namespace set in the project settings
 	}
 
 }
-```
+````
 
 ## Solution
 

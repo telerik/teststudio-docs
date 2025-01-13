@@ -21,7 +21,7 @@ There are a few methods of controlling the settings in the Settings object. Whic
 
 If you're not using one of Telerik's test templates (VsUnit, NUnit, MbUnit, xUnit) to create your unit test, you'll need to create your own Settings object and then pass that object as a parameter to the constructor of your Manager object. For example:
 
-```C#
+````C#
 // Create my own Settings object and then modify the defaults
 Settings mySettings = new Settings();
 mySettings.DefaultBrowser = BrowserType.FireFox;
@@ -30,7 +30,7 @@ mySettings.ClientReadyTimeout = 60000;
 // Use my Settings object to construct my Manager object
 Manager myManager = new Manager(mySettings);
 ``` 
-```VB
+````VB
 ' Create my own Settings object and then modify the defaults
 Dim mySettings As New Settings()
 mySettings.DefaultBrowser = BrowserType.FireFox
@@ -38,13 +38,13 @@ mySettings.ClientReadyTimeout = 60000
   
 ' Use my Settings object to construct my Manager object
 Dim myManager As New Manager(mySettings)
-```
+````
 
 ## Initializing the Settings Object When Using a Test Template
 
 If you're using one of Telerik's test templates (VsUnit, NUnit, MbUnit, xUnit) to create your unit test, you'll need to create your own Settings object in the TestInitialize section (or Setup section if you're using NUnit) and then pass that object as a parameter to the Initialize method of the base class. For example:
 
-```C#
+````C#
 // This will get a new Settings object. If a configuration
 // section exists, then settings from that section will be
 // loaded
@@ -55,8 +55,8 @@ settings.UseHttpProxy = true;
   
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(this.TestContext.WriteLine));
-```
-```VB
+````
+````VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
 ' loaded
@@ -67,7 +67,7 @@ settings.UseHttpProxy = True
   
 ' Now call Initialize again with your updated settings object
 Initialize(settings, New TestContextWriteLine(AddressOf Me.TestContext.WriteLine))
-```
+````
 
 **Note:** Be sure to call Initialize only once. Calling Initialize a second time will simply be ignored and you'll be left wondering why your settings did not take effect.
 
@@ -75,14 +75,14 @@ Initialize(settings, New TestContextWriteLine(AddressOf Me.TestContext.WriteLine
 
 Lastly you can modify most of the settings after your test is already initialized and under-way. Here's how you to do that:
 
-```C#
+````C#
 Manager.Settings.AnnotateExecution = true;
 Manager.Settings.DefaultBrowser = BrowserType.FireFox;
-```
-```VB
+````
+````VB
 Manager.Settings.AnnotateExecution = True
 Manager.Settings.DefaultBrowser = BrowserType.FireFox
-```
+````
 
 **Note:** The following settings can only be set during initialization: AspNetDevServerPort, CreateLogFile, EnableUILessRequestViewing, LocalWebServer, LogLocation, VerboseHttpProxy and WebAppPhysicalPath.
 
@@ -100,12 +100,12 @@ There are a just a couple of things you need to be aware of to properly use the 
 
 If it ever becomes necessary you can restore all the settings (except for those that can only be set during initialization) back to their default values. Just use the Reset() method of the Settings object. For example:
 
-```C#
+````C#
 Manager.Settings.Reset();
-```
-```VB
+````
+````VB
 Manager.Settings.Reset()
-```
+````
 
 This table lists all of the WebAii framework settings that are available for you to use:
 

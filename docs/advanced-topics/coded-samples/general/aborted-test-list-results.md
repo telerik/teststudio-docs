@@ -14,12 +14,12 @@ Test Studio has the ability to store run results on each executed step and this 
 
  
 
-```XML
+````XML
   <appSettings>
       <add key="CommandLineRun" value="True" />
       <add key="PersistOnEachStep" value="False" />
   </appSettings>
-```
+````
 
 ## Command line runner arguments 
 

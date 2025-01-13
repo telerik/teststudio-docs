@@ -12,7 +12,7 @@ res_type: kb
 
 Executing a test in Test Studio that includes a step to download a file, the test fails with the following error:
 
-```
+````
 Failure detected during execution. Details:
 ------------------------------------------------------------
 System.ArgumentException: Open or Run downloaded file is not supported for ChromeHeadless.
@@ -24,7 +24,7 @@ System.ArgumentException: Open or Run downloaded file is not supported for Chrom
    at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.InternalExecuteTestIteration(Object codeBehindInstance, Boolean isDataDriven)
    at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.InternalExecuteTest(Test test, TestResult initializationResult)
    at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.ExecuteTest(ExecuteTestCommand command)
-```
+````
 
 The error occurs when running the test with the regular Chrome browser, not just the headless version. Running the test in Edge and Firefox behaves the same way and fails with the same error. 
 

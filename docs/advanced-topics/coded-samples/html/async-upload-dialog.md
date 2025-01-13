@@ -9,7 +9,7 @@ position: 1
 
 There are differences in how RadAsyncUpload is interpreted across different browsers. AsyncUpload is built over Silverlight in Internet Explorer, but rendered in HTML5 in the other browsers (Firefox, Safari, and Chrome). This greatly affects cross-browser UI Automation. You can work around the problem by using a coded step to handle the dialog:
 
-```C#
+````C#
 public void Upload(int index, string filePath)
 {
 FileUploadDialog uploadDialog = new FileUploadDialog(OwnerBrowser, filePath, DialogButton.OPEN, this.UploadDialogTitle);
@@ -21,8 +21,8 @@ uploadDialog.WaitUntilHandled();
 Manager.Current.DialogMonitor.Stop();
 Manager.Current.DialogMonitor.RemoveDialog(uploadDialog);
 }
-```
-```VB
+````
+````VB
 Public Sub Upload(index As Integer, filePath As String)
     Dim uploadDialog As New FileUploadDialog(OwnerBrowser, filePath, DialogButton.OPEN, Me.UploadDialogTitle)
     Manager.Current.DialogMonitor.AddDialog(uploadDialog)
@@ -33,6 +33,6 @@ Public Sub Upload(index As Integer, filePath As String)
     Manager.Current.DialogMonitor.[Stop]()
     Manager.Current.DialogMonitor.RemoveDialog(uploadDialog)
 End Sub
-```
+````
 
 

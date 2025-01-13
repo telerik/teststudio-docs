@@ -22,7 +22,7 @@ What are some of the things we can do after finding the element we want to act u
  
 Here are some examples:
 
-```C#
+````C#
 // All controls have a Click/MouseClick. The .Click invokes a click from the DOM,
 // the MouseClick(), moves the mouse to the control and clicks it.
   
@@ -113,8 +113,8 @@ Assert.IsTrue(link.BaseElement.TextContent.Trim().Equals("Link"));
   
 // Invoke any events on the control
 link.InvokeEvent(ScriptEventType.OnFocus);
-```
-```VB
+````
+````VB
 ' All controls have a Click/MouseClick. The .Click invokes a click from the DOM,
 ' the MouseClick(), moves the mouse to the control and clicks it.   
   
@@ -205,4 +205,4 @@ Assert.IsTrue(link.BaseElement.TextContent.Trim().Equals("Link"))
     
 ' Invoke any events on the control
 link.InvokeEvent(ScriptEventType.OnFocus)
-```
+````

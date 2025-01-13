@@ -8,7 +8,7 @@ position: 2
 
 The HTML element wrapper classes make mouse drag & drop operations significantly easier. There are 7 different drag methods defined:
 
-```C#
+````C#
 public virtual void DragTo(ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl control)
 
 public virtual void DragTo(System.Drawing.Point absolutePoint)
@@ -23,11 +23,11 @@ public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReferenc
 public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, System.Drawing.Point sourceOffset, int destinationOffsetX, int destinationOffsetY)
 
 public virtual void DragTo(ArtOfTest.Common.OffsetReference sourceOffsetReference, int sourceOffsetX, int sourceOffsetY, bool sourcePixelDrag, ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl destination, ArtOfTest.Common.OffsetReference destinationOffsetReference, int destinationOffsetX, int destinationOffsetY, bool destinationPixelDrop)
-```
+````
 
 Suppose we have a sales by area table that supports drag & drop between cells. We can easily drag & drop the contents of one cell to another cell like this:
 
-```C#
+````C#
 // Find the sales table
 HtmlTable salesTable = Find.ById<HtmlTable>("area_1_table");
   
@@ -40,8 +40,8 @@ salesTable.BodyRows[3].Cells[1].DragTo(ArtOfTest.Common.OffsetReference.Absolute
 // Verify the new row subtotals are correct
 Assert.AreEqual(salesTable.Rows[2].Cells[5].TextContent, "$3342.78");
 Assert.AreEqual(salesTable.Rows[3].Cells[5].TextContent, "$2175.17");
-```
-```VB
+````
+````VB
 ' Find the sales table
 Dim salesTable As HtmlTable = Find.ById(Of HtmlTable)("area_1_table")
   
@@ -51,4 +51,4 @@ salesTable.BodyRows(3).Cells(1).DragTo(salesTable.BodyRows(2).Cells(1))
 ' Verify the new row subtotals are correct
 Assert.AreEqual(salesTable.Rows(2).Cells(5).TextContent, "$3342.78")
 Assert.AreEqual(salesTable.Rows(3).Cells(5).TextContent, "$2175.17")
-```
+````

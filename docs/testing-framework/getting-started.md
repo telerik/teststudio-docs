@@ -98,7 +98,7 @@ Once <a href="https://www.telerik.com/teststudio/testing-framework" target="_bla
 
 Before calling into any of the Telerik library methods, you need to make sure that you have properly initialized an instance of the **Manager** object passing in the settings you want used for this instance. To initialize the project:
 
-```C#
+````C#
 // Initialize the settings
 Settings mySettings = new Settings();
  
@@ -123,8 +123,8 @@ myManager.ActiveBrowser.Actions.Click(mybtn);
  
 // Shut-down the manager and do all clean-up
 myManager.Dispose();
-```
-```VB
+````
+````VB
 
 
 Dim mySettings As New Settings()
@@ -150,7 +150,7 @@ myManager.ActiveBrowser.Actions.Click(mybtn)
  
 
 myManager.Dispose()
-```
+````
 
 The Manager object exposes all methods/properties needed to perform browser automation, element identification, logging and DOM traversal including TestRegion identification. Below is a brief description of the key objects exposed off the Manager and their corresponding key object properties/methods:
 

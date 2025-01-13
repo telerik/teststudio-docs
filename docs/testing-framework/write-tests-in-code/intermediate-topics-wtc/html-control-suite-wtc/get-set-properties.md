@@ -8,7 +8,7 @@ position: 2
 
 We can also get and set the current value of any property of the wrapped element:
 
-```C#
+````C#
 // Get whether a checkbox is enabled or disabled.
 HtmlInputCheckBox cks = Find.ById<HtmlInputCheckBox>("checkbox1");
 bool disabled = cks.GetValue<bool>("disabled");
@@ -32,8 +32,8 @@ string strColor = mySpan.GetStyleValue("color");
 // style.
 HtmlStyle styleMargin = mySpan.GetComputedStyle("margin");
 string strMargin = mySpan.GetComputedStyleValue("margin");
-```
-```VB
+````
+````VB
 ' Get whether a checkbox is enabled or disabled.
 Dim cks As HtmlInputCheckBox = Find.ById(Of HtmlInputCheckBox)("checkbox1")
 Dim disabled As Boolean = cks.GetValue(Of Boolean)("disabled")
@@ -51,4 +51,4 @@ Dim strColor As String = mySpan.GetStyleValue("color")
 ' style.
 Dim styleMargin As HtmlStyle = mySpan.GetComputedStyle("margin")
 Dim strMargin As String = mySpan.GetComputedStyleValue("margin")
-```
+````

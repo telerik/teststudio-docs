@@ -16,7 +16,7 @@ A scheduled test list with Get Latest from TFS enabled does not run.
 
 The first time a project is opened from TFS it is mapped to a local directory. A relative common scenario is to change the remote project location in TFS which will not be reflected in the local copy of the project. Thus when trying to execute a test list using 'Get Latest' option the project could not be found in the previous remote location. As a result no tests execution starts and the following exception is logged in the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-application-log" target="_blank">application log</a>:
 
-```
+````
 [date time,Telerik.TestStudio.ExecutionManagerService.exe(6336:125),Execution] FileReaderWriterSync.ReadFileAsync() : EXCEPTION! (see below)
      Outer Exception Type: System.IO.DirectoryNotFoundException
      Message: Could not find a part of the path 'C:\Users\[User Name]\AppData\Local\Temp\Projects\[GUID]\TestLists\My Test List.aiilist'.
@@ -26,11 +26,11 @@ The first time a project is opened from TFS it is mapped to a local directory. A
           at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
           at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
           at Telerik.TestStudio.Shared.Storage.Local.FileReaderWriterSync.<ReadFileAsync>d__1.MoveNext()
-```
+````
 
 The remote path in TFS for each source control enabled project is stored in the Settings.aiis file and could be changed only manually. The value of "RemotePath" setting in Test Studio project settings file (Settings.aiis) must be updated with the actual TFS project location. For your reference below is listed part of a sample Settings.aiis file showing the "RemotePath" setting:
 
-```
+````
     ...
     "SourceControlRepository": {
       "__type": "ArtOfTest.Common.TFSClient.TFSRepositoryInfo",
@@ -46,7 +46,7 @@ The remote path in TFS for each source control enabled project is stored in the 
       }
     },
     ...
-```
+````
 
 
 ## SOLUTION 2

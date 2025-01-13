@@ -37,19 +37,19 @@ There are a few workarounds to consider:
 
 4. Add a <a href="/features/custom-steps/script-step" target="_blank">Coded Step</a>. The code will perform different actions (such as mouse clicks and/or key presses) based on which browser is used. This will handle the different Certificate screens you encounter across browsers. Here's an example for Chrome:
 
-```C#
+````C#
 if (ActiveBrowser.BrowserType == BrowserType.Chrome)
 {
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Tab);
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Space);
 }
-```
-```VB
+````
+````VB
 If ActiveBrowser.BrowserType = BrowserType.Chrome Then
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Tab)
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Space)
 End If
-```
+````
 
 [1]: /img/knowledge-base/test-automation-kb/security-certificates/fig1.png
 [2]: /img/knowledge-base/test-automation-kb/security-certificates/fig2.png
