@@ -48,7 +48,6 @@ Element e = Find.ByName("goButton")
     <a href="https://docs.telerik.com/teststudio/api/artoftest.webaii.core.find.html#ArtOfTest_WebAii_Core_Find_AllByImage_System_Drawing_Image_System_Double_System_Boolean_System_Drawing_Point_System_Int32_" target="_blank">Find.AllByImage()</a></td>
 	<td>Searches for an element or 'All' elements that look like a predefined image</td>
 <td>
-
 ````
 // Specify the predefined image on which the search will be based
 System.Drawing.Image img1 = System.Drawing.Image.FromFile(@"C:\sampleImg.png");
