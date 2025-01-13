@@ -12,11 +12,11 @@ When a test project is compiled, Progress® Test Studio® for APIs generates a *
 
 To launch the debugger in Visual studio, you can add a `Debugger.Launch()` statement in the code that you wish to debug. (You wll need a `using System.Diagnostics` statement too.)
 
-```C#
+````C#
 `Debugger.Launch();
 ```
 
-```VB
+````VB
 `Debugger.Launch()`
 ```
 
