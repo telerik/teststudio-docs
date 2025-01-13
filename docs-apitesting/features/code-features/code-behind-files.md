@@ -44,7 +44,7 @@ The example below shows hot to log messages to the test output before and after 
 
 ![Base Test Methods][4]
 
-```C#
+````C#
 // This method will execute before the start of the test case
 public override void OnBeforeTestStarted()
 {
@@ -58,7 +58,7 @@ public override void OnAfterTestCompleted()
 }
 ```
 
-```VB
+````VB
 ' This method will execute before the start of the test Case'
 Public Overrides Sub OnBeforeTestStarted()
   Log.WriteLine("The test case is starting ...")
@@ -94,7 +94,7 @@ The **Context.SetValue** method sets a value to a runtime variable. You can stor
 
 #### Examples
 
-```C#
+````C#
 // This statement will create a variable named "user-name" with value "user1"
 // in the scope of the current test case
 this.Context.SetValue("user-name", "user1", o);
@@ -104,7 +104,7 @@ this.Context.SetValue("user-name", "user1", o);
 this.Context.SetValue("user-id", 123, 1);
 ```
 
-```VB
+````VB
 // This statement will create a variable named "user-name" with value "user1"
 // in the scope of the current test case
 this.Context.SetValue("user-name", "user1", 0);
@@ -135,11 +135,11 @@ The **Context.GetValue** method returns the value of a specified runtime variabl
 
 #### Examples
 
-```C#
+````C#
 string userName = this.Context.GetValue("user-name").ToString();
 ```
 
-```VB
+````VB
 Dim userName As String = Context.GetValue("user-name").ToString()
 ```
 
@@ -147,7 +147,7 @@ Dim userName As String = Context.GetValue("user-name").ToString()
 
 ![Casting Variables][5]
 
-```C#
+````C#
 int count = 5;
 this.Context.SetValue("count", count, 0);
 
@@ -180,11 +180,11 @@ The **ApiTestBase** base class exposes a **Log** property of type **ILog** which
 
 #### Examples
 
-```C#
+````C#
 this.Log.WriteLine("Logging some message from C# code ...");
 ```
 
-```VB
+````VB
 Log.WriteLine("Logging some message from VB code ...")
 ```
 
@@ -198,7 +198,7 @@ The Telerik.ApiTesting.Framework namespace provides a basic assertion framework 
 
 The following methods ae available:
 
-```C#
+````C#
 static void AreEqual<T>(T expected, T actual);
 
 static void AreEqual<T>(T expected, T actual, string message);
@@ -228,7 +228,7 @@ static void IsTrue(bool condition);
 static void IsTrue(bool condition, string message);
 ```
 
-```VB
+````VB
 Shared Sub AreEqual(Of T)(expected As T, actual As T)
 
 Shared Sub AreEqual(Of T)(expected As T, actual As T, message As String)
@@ -262,11 +262,11 @@ Shared Sub IsTrue(condition As Boolean, message As String)
 
 ### Examples
 
-```C#
+````C#
 Assert.AreEqual("administrator", actualValue);
 ```
 
-```VB
+````VB
 Assert.AreEqual("administrator", actualValue);
 ```
 
