@@ -2,40 +2,52 @@
 title: How to Record Dialogs and Popups 
 page_title: How to Handle Dialogs and Popups during Test Recording
 description: "Test Studio records specific steps to handle the dialogs and popups generated from the tested application. How to record the test scenario if I need to download a file? Can I handle dialogs in Test Studio automatically? How to handle in Test Studio a popup opened in new window/tab. 
-
 How to handle download dialog. How to handle upload dialog? How to handle confirm dialog? How to handle  alert dialog? How to handle logon dialog? How to handle prompt dialog? How to handle generic dialog? FileUpload dialog in Test Studio test."
 position: 3
 ---
 # How to Handle Dialogs and Popups Generated from the Tested Page
 
-Test Studio recording process recognizes the different dialogs generated from the automated page and detects what actions are taken to handle the dialog. These actions are represented as a single step in the test.
+Test Studio recording process recognizes the dialogs generated from the automated application and detects how the user handles the dialog. These actions are represented as a single step in the test.
 
 In this article you can find out more about dialog handling in Test Studio tests divided in few sections:
 
-- [Alert, Confirm, Prompt Dialog Boxes](#alert-confirm-prompt-dialog-boxes)
-- [Logon Dialog](#logon-dialog)
-- [Download and Upload File Dialogs](#download-and-upload-file-dialogs)
-- [Record in a Popup Window](#how-to-handle-a-popup-page-opened-in-new-tab)
-- [Maintain the Handle Dialog and Connect to Popup Steps](#maintain-the-handle-dialog-and-popup-steps)
+- [How to Handle Dialogs and Popups Generated from the Tested Page](#how-to-handle-dialogs-and-popups-generated-from-the-tested-page)
+  - [How to Record a Dialog Displayed from the Tested Application](#how-to-record-a-dialog-displayed-from-the-tested-application)
+  - [Alert, Confirm, Prompt Dialog Boxes](#alert-confirm-prompt-dialog-boxes)
+  - [Logon Dialog](#logon-dialog)
+  - [Download and Upload File Dialogs](#download-and-upload-file-dialogs)
+    - [Upload Dialog](#upload-dialog)
+    - [Download Dialog](#download-dialog)
+  - [How to Handle a Popup Page Opened in New Tab](#how-to-handle-a-popup-page-opened-in-new-tab)
+  - [Maintain the Handle Dialog and Popup Steps](#maintain-the-handle-dialog-and-popup-steps)
 
-## How to Record a Dialog Displayed from the Tested Page
+## How to Record a Dialog Displayed from the Tested Application
 
-All sample pages used in this article are from the  <a href="https://www.w3schools.com/" target="_blank">W3School</a> platform.
+All sample web pages used in this article are from the  <a href="https://www.w3schools.com/" target="_blank">W3School</a> platform.
 
-Dialogs are automatically recorded in Test Studio test taking your actions as baseline. There is a dedicated step for each different dialog with various properties related to the specifics of the dialog - for example, download/upload file path or text, username, etc. When the tested page prompts any dialog, handle it as you would do without Test Studio and __Test Studio recorder will add the step__ for you.
+Handling a dialog is automatically recorded in Test Studio test taking your actions as baseline. Each different dialog is handled via a separate step, which introduces various properties related to the specifics of the dialog - for example, download/upload file path or text, username, etc. When the tested page prompts any dialog, handle it as you would do without Test Studio and __Test Studio recorder will add the step__ for you.
 
 > __Tip__
 ><br>
 ><br>
 > If you experience any troubles with recording or executing the dialog steps, check if there is an available update in the <a href="/prerequisites/configure-your-browser/browser-support-updater" target="_blank">Latest Browser Support section</a> and apply it before you proceed.
 
-### Alert, Confirm, Prompt Dialog Boxes
+## Alert, Confirm, Prompt Dialog Boxes
 
 JavaScript generates three type of popup messages and these are as follows:
 
-* __Alert__ - often used if some information is to be shared to the user. To proceed the user needs to click 'OK'.
-* __Confirm__ - often used when the user needs to verify or accept something. The user needs to click either "OK" or "Cancel" to proceed.
-* __Prompt__ - often used if the user should submit a value before entering a page. The user needs to click either "OK" or "Cancel" to proceed after entering the input value.
+* __Alert__ - often used if some information is to be shared to the user. The user has the only option to click 'OK'.
+
+    ![Alert Dialog](/img/automated-tests/recording/dialogs/alert-dialog.png)
+
+* __Confirm__ - often used when the user needs to verify or accept something. The user has the option to click either "OK" or "Cancel" to handle the dialog.
+
+    ![Confirm dialog](/img/automated-tests/recording/dialogs/confirm-dialog.png)
+
+* __Prompt__ - often used if the user should submit a value before entering a page. The user has the option to enter the input value and then to click either "OK" or "Cancel". 
+
+    ![Prompt dialog](/img/automated-tests/recording/dialogs/prompt-dialog.png)
+
 
 To try out these types of dialogs you can use the _'Try It Yourself'_ buttons on each example for the <a href="https://www.w3schools.com/js/js_popup.asp" target="_blank">W3School JavaScript Popup Boxes</a> page. Here are the steps recorded in a test for each of the dialog boxes.
 
@@ -60,9 +72,9 @@ To try out these types of dialogs you can use the _'Try It Yourself'_ buttons on
 > __Tip__
 ><br>
 ><br>
-> When handling such type of a dialog, usually there is something changed on the page (or remains unchanged depending on the scenario). You can use a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">verification step</a> to check if the expected outcome after handling the dialog is present.
+> When handling such type of a dialog, usually there is something changed on the page (or remains unchanged depending on the scenario). You can __use a <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification" target="_blank">verification step</a> to check if the expected outcome__ after handling the dialog is present.
 
-### Logon Dialog
+## Logon Dialog
 
 This is an authorization dialog, which requires the user to enter username and password in order to access the requested page. If the logon dialog is canceled or the entered credentials are incorrect, the page returns some sort of an error that the request is not authorized.
 
@@ -70,7 +82,7 @@ Due to the specifics of this dialog and the Test Studio recording process flow, 
 
 1. Start the recording session and navigate to the page.
 2. The page is not fully loaded until the logon dialog is handled. Thus the Test Studio recorder is not yet started and attached to the browser. Therefore, if you enter any username and password, these does not get recorded in the Test Studio test.
-3. One option is to enter the valid credentials to login to the page and then <a href="/features/dialogs-and-popups/dialogs#add-a-handle-dialog-step-manually" target="_blank">manually insert the step to handle the Logon dialog.
+3. One option is to enter the valid credentials to login to the page and then <a href="/features/dialogs-and-popups/dialogs#add-a-handle-dialog-step-manually" target="_blank">manually insert the step to handle the Logon dialog</a>.
 4. The other option is to __first cancel the logon dialog__ - there is no step added in the test because the recorder is not yet active. Once the page returns the message that access is denied, the Test Studio recorder gets attached to the browser. On __manually refreshing the page__ from the browser, the __logon dialog prompts again__ and this time, while you enter your credentials to access the page, Test Studio __records your actions and adds the step__ in the test.
 
 <table id=no-table>
@@ -79,9 +91,22 @@ Due to the specifics of this dialog and the Test Studio recording process flow, 
 </tr>
 <table>
 
-### Download and Upload File Dialogs
+## Download and Upload File Dialogs
 
-The __Upload__ dialog brings up the File Explorer window and let's you choose a file from the local disc to upload to the tested server.
+The Download and Upload file actions usually require more than one single interaction with the dialog. Test Studio recording process detects the user actions to choose a folder and file and represents these into a single step to handle the dialog. 
+
+> __Note__
+><br>
+><br>
+> The __user needs to have read/write permissions for the folders__ in which is the file to upload or save. Check here if you get prompted for insufficent permissions 
+
+### Upload Dialog 
+
+The Upload File opens a __Open__ dialog in Windows File Explorer in which the user browses to a specific folder and selects a specified file to be uploaded. 
+
+![Upload dialog](/img/automated-tests/recording/dialogs/upload-dialog.png)
+
+Test Studio fetches the selected folder and file and automatically populates the complete file path into the __Handle Upload dialog__ step. 
 
 <table id=no-table>
 <tr>
@@ -89,7 +114,21 @@ The __Upload__ dialog brings up the File Explorer window and let's you choose a 
 </tr>
 <table>
 
-The __Download__ dialog is typically a sequence of dialogs - the browser prompts to download a file and the File Explorer lets you choose the destination path. Although the _'Save As'_ option for the download procedure in the browsers differs, Test Studio recognizes this and records a single __Handle Download dialog__ step. This step covers the complete sequence of dialogs for each browser including the prompt message that the __file already exists__ in the destination folder - the file is overwritten.
+> __Tip!__
+><br>
+><br>
+> If the user selects any system folder which can be replaced with a <a href="https://learn.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables" target="_blank">recognized system variable</a> __Test Studio automatically converts the path using the respective system variable__
+><br>
+><br>
+> For example, if the user selects a destination folder under the current Windows user folder __Test Studio automatically converts the path using the Windows variable %USERPROFILE%__.
+
+### Download Dialog
+
+The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in which the user browses to a specific folder and enters name for the file to be downloaded. 
+
+![Download dialog](/img/automated-tests/recording/dialogs/download-dialog.png)
+
+Handling of a download dialog typically requires handling a sequence of dialogs - the browser prompts to download a file and the File Explorer lets you choose the destination path; optionally, handling a prompt message that a file with the same name already exists in the selected folder - the existing file is overwritten in such case. Test Studio fetches all actions taken and automatically records the __Handle Download dialog__ step and populates the complete file path and name. 
 
 <table id=no-table>
 <tr>
@@ -97,10 +136,13 @@ The __Download__ dialog is typically a sequence of dialogs - the browser prompts
 </tr>
 <table>
 
-> __Tip__
+> __Tip!__
 ><br>
 ><br>
-> Part of the <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">browsers calibration settings</a> is to __disable the automatic download__ of files. Thus, if calibrated, the browser always asks where to save the file. In case you don't see the option to choose the destination folder where to save the file, __ensure the browser is calibrated__ and re-record the test scenario.
+> If the user selects any system folder which can be replaced with a <a href="https://learn.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables" target="_blank">recognized system variable</a> __Test Studio automatically converts the path using the respective system variable__
+><br>
+><br>
+> For example, if the user selects a destination folder under the current Windows user folder __Test Studio automatically converts the path using the Windows variable %USERPROFILE%__.
 
 ## How to Handle a Popup Page Opened in New Tab
 

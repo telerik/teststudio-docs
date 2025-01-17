@@ -1,8 +1,8 @@
 ---
 title:  Test Studio's Recording Quick Menu Stays Behind App Menus
-description: This article provides a workaround for the issue where Test Studio's highlighting quick menu is hidden behind the menus of the tested application.
+description: "Issue with Test Studio's highlighting element menu remains hidden behind the menus of the tested application. Issue with adding wait/verify step for dropdown or menuitem components. Find a workaround for automating menus or dropdowns with Telerik Test Studio recording feature. "
 type: how-to
-page_title: Test Studio Highlighting Quick Menu Hidden Behind App Menus
+page_title: Test Studio Highlighting Quick Menu Causes the Dropdown to Close
 slug: test-studio-inspecting-context-menu-hidden-behind-app-menus
 tags: test-studio, inspecting-context-menu, hidden-menu, workaround
 res_type: kb
@@ -11,7 +11,7 @@ res_type: kb
 
 ## Description
 
-When working with Test Studio's <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">highlighting quick menu in recording mode</a> on a combobox or context menu in the tested application, you may encounter an issue where the Test Studio menu is hidden behind the app menus. This makes it difficult to interact with the elements using the Test Studio recorder.
+When working with Test Studio's <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">highlighting quick menu in recording mode</a> on a combobox, dropdown or context menu in the tested application, you may encounter an issue where the Test Studio menu is hidden behind the app menus or the list with items disappears. This makes it difficult to interact with the elements using the Test Studio recorder.
 
 ## Solution 1
 
