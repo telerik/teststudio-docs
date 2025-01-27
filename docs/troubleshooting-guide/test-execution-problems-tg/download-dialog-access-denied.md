@@ -13,7 +13,7 @@ A test with 'Handle Download dialog' or 'Handle Upload dialog' step fails with t
 
 ```txt
 Failure Information: 
-~~~~~~~~~~~~~~~
+
 The current user does not have access to this folder C:\workingStation\temp\noPermissionsFolder\myw3schoolsimage.jpg. 
 
 You can use the %USERPROFILE%\Downloads\myw3schoolsimage.jpg folder instead or grant access to the folder on all executing machines. 
