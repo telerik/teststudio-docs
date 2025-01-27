@@ -15,7 +15,7 @@ When I execute my test in the Standalone version, or build my test project in th
 
 ## Cause
 
-The coded files need to use the namespace as the one set on project level in the <a href="/features/project-settings/overview)" target="_blank">Project settings</a> under the Script tab. The issue usually appears if the coded files are copied within a new project and not inserted through the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">Project Explorer options to add existing test, or coded file. 
+The coded files need to use the namespace as the one set on project level in the <a href="/features/project-settings/overview)" target="_blank">Project settings</a> under the Script tab. The issue usually appears if the coded files are copied within a new project and not inserted through the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">Project Explorer options to add existing test, or coded file</a>. 
 
 The code-behind file for a test in project with name TestProj2 looks like this: 
 
@@ -63,4 +63,11 @@ namespace TestProj2 // This is the namespace set in the project settings
 
 ## Solution
 
-To fix the errors set the namespace in the code-behind file to match the one in the Project settings. 
+* One option is to fix the errors __set the namespace in the code-behind file to match the one in the Project settings__. 
+
+* The other option is to remove the test from the project and add it again using the option to add existing test. Follow the step below: 
+  1. Delete the test from project through the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">Project Explorer context menu options</a> -> *Delete*.
+  2. Now use the <a href="/knowledge-base/best-practices-kb/add-existing-test" target="_blank">Project Explorer option to add an existing test file into the project</a> and choose the original test file you need to add.
+
+
+

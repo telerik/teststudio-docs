@@ -10,10 +10,12 @@ position: 0
 
 In this article you can find useful information about:
 
-- [Add manually a step to handle dialog](#add-a-handle-dialog-step-manually)
-- [Dialog steps timeouts](#timeouts)
-- [Choose button to handle the dialog box](#handle-button)
-- [File location for download and upload dialogs](#download-and-upload-file-locations)
+- [Dialog Handling Steps](#dialog-handling-steps)
+  - [Add a Handle Dialog Step Manually](#add-a-handle-dialog-step-manually)
+  - [Properties for Handle Dialog Steps](#properties-for-handle-dialog-steps)
+  - [Timeouts](#timeouts)
+  - [Handle Button](#handle-button)
+  - [Download and Upload File Locations](#download-and-upload-file-locations)
 
 ## Add a Handle Dialog Step Manually
 
@@ -47,12 +49,13 @@ The __DownloadPath__ and __FileUploadPath__ properties are mandatory for the res
 
 ![File Locations][5]
 
-> __Note__
+> __Tip!__
 ><br>
 ><br>
-> You __cannot directly use the Windows shortcut locations on the disc like _Desktop_ or _Documents___. If you record the test using any of these locations, the path is fetched as _Downloads/fileName.*_, but this is not a valid file path to use and the test fails upon execution.
+> If the user selects any system folder which can be replaced with a <a href="https://learn.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables" target="_blank">recognized system variable</a> __Test Studio automatically converts the path using the respective system variable__
 ><br>
-> To use any of these reserved folders, you need to use their complete paths like _C:\Users\\\<userName>\Desktop__ or _C:\Users\\\<userName>\Documents_.
+><br>
+> For example, if the user selects a destination folder under the current Windows user folder __Test Studio automatically converts the path using the Windows variable %USERPROFILE%__.
 
 The __FileUploadPath__ accepts multiple files listed quoted and space separated. These will be uploaded if the server accepts multiple files upload.
 

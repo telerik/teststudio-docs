@@ -10,9 +10,11 @@ The __Capture Browser__ feature allows you to visually capture states at any poi
 
 This article demonstrates how to add this type of step into the test and use its properties.
 
-- [Add Capture Browser Step](#add-capture-browser-step)
-- [Capture Browser Step Properties](#capture-browser-step-properties)
-- [Find the Images from Capture Browser Step](#find-the-images-from-capture-browser-step)
+- [Browser and Desktop Capture](#browser-and-desktop-capture)
+  - [Add Capture Browser Step](#add-capture-browser-step)
+  - [Capture Browser Step Properties](#capture-browser-step-properties)
+  - [Find the Images from Capture Browser Step](#find-the-images-from-capture-browser-step)
+  - [Find the Images from Capture Browser Step in Visual Studio Execution](#find-the-images-from-capture-browser-step-in-visual-studio-execution)
 
 ## Add Capture Browser Step
 
@@ -42,7 +44,13 @@ To store the Browser and Desktop Capture images to disk include the test in a te
 
 ![Test List settings][4]
 
-> In the VS plugin, the images are output to **ProjectsFolder\ProjectName\TestResults\User_MachineName_Date_Time\Out**
+> __Note!__
+> <br>
+> If the user running the Test Studio process does not have permissions to write in the folder specified in the test list settings, the __execution process automatically saves the images in %PUBLIC%\WebAiiLog__.
+
+## Find the Images from Capture Browser Step in Visual Studio Execution
+
+In the VS plugin the images are output to **ProjectsFolder\ProjectName\TestResults\User_MachineName_Date_Time\Out**.
 
 [1]: /img/features/custom-steps/capture/step-builder-browser-capture.png
 [2]: /img/features/custom-steps/capture/step-properties.png
