@@ -23,33 +23,12 @@ In the Results tab when you hover over a scheduled job, a small X button appears
 
 ## Delete the Physical File That Represents the Scheduled Job
 
-The scheduled job is actually a file on the disk on the machine which is hosting the scheduling server. Just find and delete the file.
+Each scheduled job is represented as a file on the disk. These files are stored on the machine which is hosting the Scheduling service. If it happens that the scheduled job doesn't appear in the Results tab you can delete the physical file. 
 
-- If you are running it locally, it will be located by default at **C:\Users\\\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** 
+- If you are using the local setup, it will be located by default at **C:\Users\\\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** 
 
-- If you are running it remotely, you have to look at the service account at
+- If you are the remote scheduleng configuration, you have to look at the service account folder at __C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage__
 
-   	**C:\Windows\System32\config\systemprofile\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** for 32-bit machines
-
-   	or
-
-   	**C:\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** for 64-bit machines.
-
-## Use REST Web Service to Delete a Scheduled Job
-
-The Scheduling communication uses a REST Web Service. If you are familiar with <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler's</a> Composer tab you can send a delete call to **http://<yourserver>:8009/Jobs/<jobId>**. In order to get the job ID, send a GET request to **http://<yourserver>:8009/Jobs/**
-
-![GET Request][3]
-
-*Send GET request to the scheduling server*
-
-![GET ID][4]
-
-*Get the ID of the scheduled job*
-
-![Delete][5]
-
-*Delete the scheduled job*
 
 [1]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig1.png
 [2]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig2.png
