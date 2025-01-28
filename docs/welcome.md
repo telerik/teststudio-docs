@@ -95,7 +95,7 @@ Test Studio also supports load and performance testing by allowing you to conver
 ### Learn and Help Resources
 
 * <a href="https://www.telerik.com/videos/teststudio" target="_blank">Videos</a>
-* <a href="https://learn.telerik.com/learn/course/external/view/elearning/31/telerik-test-studio" target="_blank">Virtual Classroom</a>
+* <a href="https://www.telerik.com/support/video-courses" target="_blank">Virtual Classroom</a>
 * <a href="https://www.telerik.com/forums/teststudio" target="_blank">Community</a>
 * <a href="https://www.telerik.com/account/support-tickets/customer-service" target="_blank">Submit a general feedback</a>
 * <a href="https://www.telerik.com/account/support-tickets" target="_blank">Contact support</a>

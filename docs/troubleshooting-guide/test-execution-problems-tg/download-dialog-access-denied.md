@@ -1,7 +1,7 @@
 ---
 title: Download Dialog Fails Due to Access Denied
 page_title: Download/Upload Dialog Fails Due to Current User Does Not Have Access
-description: "Handle Download Dialog step fails with message that current user doesn't have access to the folder specified in Handle download dialog step. Handle Upload dialog step fails with message that current user doesn't have access to the folder specified in Handle upload dialog step. Handling Download or Upload dialogs in Test Studio fails with System.UnauthorizedAccessException "
+description: "Handle Download/SaveFile Dialog step fails with message that current user doesn't have access to the folder specified in Handle download dialog step. Handle Upload/OpenFile dialog step fails with message that current user doesn't have access to the folder specified in Handle upload dialog step. Handling Download or Upload dialogs in Test Studio fails with System.UnauthorizedAccessException. Handling SaveFile or OpenFile dialogs in Test Studio fails with System.UnauthorizedAccessException  "
 position: 1
 ---
 
@@ -9,7 +9,8 @@ position: 1
 
 ## Issue
 
-A test with 'Handle Download dialog' or 'Handle Upload dialog' step fails with the following error message in the execution log. 
+A web test with 'Handle Download dialog' or 'Handle Upload dialog' step fails with the following error message in the execution log. 
+A WPF test with 'Handle OpenFile dialog' or 'Handle SaveFile dialog' step fails with the following error message in the execution log. 
 
 ```txt
 Failure Information: 
@@ -38,8 +39,8 @@ The error indicates that the current user running the test __does not have acces
 
 You have two options to address the case:
 
-* Contact your system administrator and request read/write access to the folder specified in the 'Handle Upload dialog' or 'Handle Download dialog' steps. 
-* Modify the file path used in the 'Handle Upload dialog' or 'Handle Download dialog' steps and replace it with a folder for which the current user has sufficient permissions. 
+* Contact your system administrator and request read/write access to the folder specified in the 'Handle Upload dialog' or 'Handle Download dialog' steps for web test, and the 'Handle OpenFile dialog' or 'Handle SaveFile dialog' steps for WPF test. 
+* Modify the file path used in the 'Handle Upload dialog' or 'Handle Download dialog' steps for web test, and the 'Handle OpenFile dialog' or 'Handle SaveFile dialog' steps for WPF test, and replace it with a folder for which the current user has the proper permissions. 
 
  > __Tip!__
 ><br>
