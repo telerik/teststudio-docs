@@ -3,6 +3,7 @@ title: Change Scheduling Service Account
 page_title: Change Scheduling Service Account
 description: "Test Studio Scheduling Service Account. change the Scheduling Service Account if using TFS with different than the logged user account, Get Latest from TFS for Test Studio Scheduled job fails to authenticate, Get Latest from TFS fails to authenticate for scheduled test list run in Test Studio"
 position: 1
+publish: false
 
 ---
 # Scheduling service account

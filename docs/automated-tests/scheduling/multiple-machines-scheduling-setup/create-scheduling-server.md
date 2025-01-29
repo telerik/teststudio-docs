@@ -10,9 +10,18 @@ The Test Studio Scheduling services work together to ensure the seamless communi
 
 The below article describes the configuration steps.
 
-- [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
-- [Configure the Test Studio Services](#configure-the-test-studio-services)
-- [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
+- [Configure the Scheduling Services](#configure-the-scheduling-services)
+  - [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
+  - [Configure the Test Studio Services](#configure-the-test-studio-services)
+    - [Communication Tab](#communication-tab)
+    - [MongoDB Tab](#mongodb-tab)
+    - [Storage Tab](#storage-tab)
+    - [Scheduling Tab](#scheduling-tab)
+    - [Automatic Email Notification for Scheduled Executions](#automatic-email-notification-for-scheduled-executions)
+    - [Executive Dashboard Tab](#executive-dashboard-tab)
+    - [Execution Server Tab](#execution-server-tab)
+  - [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
+  - [See Also](#see-also)
 
 > __Important__
 > <br>
@@ -47,30 +56,51 @@ You can start the Scheduling config wizard in any of the following ways:
 
 There are few tabs in the __Scheduling configuration wizard__, which provide the configuration details for each of the components of the Scheduling setup.
 
-- [Communication Tab](#communication-tab)
-- [MongoDB Tab](#mongodb-tab)
-- [Storage Tab](#storage-tab)
-- [Scheduling Tab](#scheduling-tab)
-- [Setup Automatic Emails for Scheduled Jobs](#automatic-email-notification-for-scheduled-executions)
-- [Executive Dashboard Tab](#executive-dashboard-tab)
-- [Non Admin Port Setup Tab](#non-admin-port-setup-tab)
+- [Configure the Scheduling Services](#configure-the-scheduling-services)
+  - [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
+  - [Configure the Test Studio Services](#configure-the-test-studio-services)
+    - [Communication Tab](#communication-tab)
+    - [MongoDB Tab](#mongodb-tab)
+    - [Storage Tab](#storage-tab)
+    - [Scheduling Tab](#scheduling-tab)
+    - [Automatic Email Notification for Scheduled Executions](#automatic-email-notification-for-scheduled-executions)
+    - [Executive Dashboard Tab](#executive-dashboard-tab)
+    - [Execution Server Tab](#execution-server-tab)
+  - [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
+  - [See Also](#see-also)
 
 ### Communication Tab 
 
-The **Communication Key** is required by all Test Studio Scheduling components - services and clients, to establish the connection and communicate between each other. The **Communication** tab lets you manage the current key in use or generate and import a new one. 
+The Communication tab lets you manage the **Communication Key** which is required by all Test Studio Scheduling components - services and clients. It is used to establish the connection and successful communication between each of the Scheduling modules. 
 
 ![Communication tab][10]
 
-The **Current Key** section allows you to **Copy to Clipboard** the current key in use or **Show** its value (for the cases when copying is not an option). 
+The **Current Key** section indicates which is the key in use. The Scheduling setup is configured to use a default communication key for each Test Studio installation. Thus, after initial install you see the current key is the __Default Key Loaded__. In this configuration you can't copy or see the key. 
+
+![Default Communication key][101]
+
+> **Tip**
+> <br>
+> <br>
+> We strongly recommend to generate a new custom communication key and replace it for all machines in the setup.
+><br>
+> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
+
+Once a custom key is generated and imported, the **Current Key** section allows you to copy the value of the key using the __Copy to Clipboard__ button, or see it using the __Show__ button (for the cases when copying is not an option). The key value can be reset to the default value using the __Reset to Default__ button.
+
+![Custom Communication key][102]
 
 The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. Hit the **Import** button to replace the current key with the new one. 
+
+![Replace Communication key][103]
 
 > **Note**
 > <br>
 > <br>
-> Importing a new key in the Scheduling Config wizard **restarts the Scheduling service and Execution Server on that same machine to apply the new value**. 
+> Importing a new key in the Scheduling Config wizard **restarts the Scheduling service on that same machine to apply the new value**. 
 > <br>
 > <br>
+> The Execution Client application is stopped but you need to start it manually. 
 > If Test Studio application is also running on the same machine at the time of renewing the communication key, it is not automatically restarted. To apply the recent changes you __need to restart the standalone Test Studio app manually__. 
 ><br> 
 ><br>
@@ -82,7 +112,7 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 
 ### MongoDB Tab
 
-The first tab is the **MongoDB** one and it contains the details required for the MongoDB database, which is used as a storage database in the Scheduling configuration.
+The **MongoDB** tab contains the details required for the MongoDB database, which is used as a storage database in the Scheduling configuration.
 
 The **MongoDB data path** and **mongod.exe path** fields are populated with the values for a default MongoDB installation, so you need to change these, **only if the MongoDB installation was modified**.
 
@@ -93,7 +123,7 @@ Hit the **Apply** button and confirm the *'MongoDB is running'* status appears i
 > **Note**
 > <br>
 > <br>
-> The **MongoDB** tab will be grayed out (inactive) if you do not have MongoDB installed on the machine! This will get enabled when the correct __Storage Service Location__ is set in the **Scheduling** tab.
+> The **MongoDB** tab is grayed out (inactive) if you do not have MongoDB installed on the machine! This gets enabled when the correct __Storage Service Location__ is set in the **Scheduling** tab.
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -137,7 +167,7 @@ Hit the **Apply** button and check the *'Telerik Scheduling Service is running'*
 
 Optionally, the **Test Studio Scheduling service can be configured to use an Email (SMTP) server** by specifying the email server connection details. By adding these settings you will be able to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list.
 
-The SMTP server settings are listed in the expandable section __Configure Email (SMTP) server__ in the **Scheduling** tab. Mandatory fields are the *'SMTP server address'* and the *'Port'* to communicate with it, and the *'User Email'*, who sends the email. Depending on the SMTP server configuration, thr *'Password'* field and *'Ssl'* checkbox may not be explicitly required.
+The SMTP server settings are listed in the expandable section __Configure Email (SMTP) server__ in the **Scheduling** tab. Mandatory fields are the **'SMTP server address'** and the **'Port'** to communicate with it, and the **'User Email'**, who sends the email. Depending on the SMTP server configuration, the **'Password'** field and **'Ssl'** checkbox may not be explicitly required.
 
 Once the necessary data is entered, hit the **Apply** button to reflect the changes to the Scheduling service and check if the status *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
 
@@ -166,25 +196,13 @@ Hit the **Apply** button and check the *'Telerik Scheduling Service is running'*
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
 <br>
 
-### Non Admin Port Setup Tab
+### Execution Server Tab
 
-The __Non Admin Port Setup__ tab allows registering the ports, used from the Test Studio Scheduling configuration, to be available for users with no admin permissions in the _'URL Access Control List'_ for the preselected user or group. The default listed group __'NT Authority\Authenticated Users'__ represents all authenticated users. It can be changed to whatever is applicable for your organization.
+The __Execution Server__ tab contains information for the configuration settings of the Execution client application on the current machine. In this tab you can change the Scheduling URL to which the Execution client is connected, the port and temp folder it uses, and whether to run it on startup. 
+ 
+The default populated values point to the local machine Scheduling service - _localhost_ using the port 55555. Hit the __Apply__ button to apply any changes - wait until you see a message in the lower left corner of the wizard stating _'Changes applied successfully'_.
 
-> **Note**
-> <br>
-> <br>
-> The default ports for the Test Studio services are reserved during installation for the _'NT Authority\Authenticated Users'_ user group.
-
-Hit the __Grant Access__ button to create reservation for the listed ports and an informational message appears to report the status of the action.
-
-![Register ports for non admin users][7]
-
-In the sample screenshot two of the ports are already reserved for the users in the listed group - in such case you see an `Error: 183. Cannot create a file, when that file already exists.` message to inform that the ports cannot be registered second time for the same user group.
-
-> **Tip**
-> <br>
-> <br>
-> The __Ports in Use__ section displays the ports configured in the previous tabs of the Scheduling setup wizard. If you need to change any of these, get back to the respective tab and apply the necessary changes.
+![Execution Server config tab][15]
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -209,3 +227,7 @@ When all necessary settings are applied and all services are reported running, c
 [6]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
 [7]: /img/features/scheduling-test-runs/create-scheduling-server/fig7.png
 [10]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png
+[101]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png
+[102]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png
+[103]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-replace-key.png
+[15]: /img/features/scheduling-test-runs/create-scheduling-server/execution-client-tab.png

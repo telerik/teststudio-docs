@@ -126,14 +126,13 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 
 ### MongoDB Tab
 
-The **MongoDB** tab contains the settings required for the MongoDB database. The **MongoDB data path** and **mongod.exe path** fields are populated with the values for a default MongoDB installation. Hit the **Apply** button and confirm the *MongoDB is started* status appears in the lower left corner of the wizard.
+The **MongoDB** tab contains the details required for the MongoDB database, which is used as a storage database in the Scheduling configuration.
+
+The **MongoDB data path** and **mongod.exe path** fields are populated with the values for a default MongoDB installation, so you need to change these, **only if the MongoDB installation was modified**.
+
+Hit the **Apply** button and confirm the *'MongoDB is running'* status appears in the lower left corner of the wizard.
 
 ![MongoDB][11]
-
-> **Note**
-> <br>
-> <br>
-> The Scheduling config wizard uses the default MongoDB parameters to connect to it. Thus, you may need to change these, **only if the MongoDB installation was modified**.
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -141,7 +140,9 @@ The **MongoDB** tab contains the settings required for the MongoDB database. The
 
 ### Storage Tab
 
-The **Storage** tab displays the Test Studio Storage service details. You can manage the **MongoDB connection string**, which is the default way to connect to the Mongo database, and the __Port__ used from the Storage service. Hit the **Apply** button and check the *Telerik Storage Service is started* status appears in the lower left corner of the wizard.
+The **Storage** tab displays the connection details used from Test Studio Storage Service to access the MongoDB. The listed **MongoDB connection string** is the default connection string to be used for MongoDB database and is the only valid connection option for the Storage service.
+
+Hit the **Apply** button and check the *'Telerik Storage Service is started'* status appears in the lower left corner of the wizard.
 
 ![Storage][12]
 
@@ -151,7 +152,9 @@ The **Storage** tab displays the Test Studio Storage service details. You can ma
 
 ### Scheduling Tab
 
-The **Scheduling** tab contains information about the location of the Test Studio Storage and Scheduling services. The default populated values are pointing to the local machine - *localhost*. For this particular configuration, these can remain unchanged and you can hit the **Apply** button. This starts the scheduling service which is indicated with a message in the lower left corner of the wizard stating *'Telerik Scheduling Service is running'*.
+The **Scheduling** tab contains information about the location of the Test Studio Storage and Scheduling services. The default populated values are pointing to the local machine - *localhost*. 
+
+For this particular configuration, these can remain unchanged and you can hit the **Apply** button. This starts the scheduling service which is indicated with a message in the lower left corner of the wizard stating *'Telerik Scheduling Service is running'*.
 
 ![Scheduling][13]
 
@@ -161,7 +164,11 @@ The **Scheduling** tab contains information about the location of the Test Studi
 
 ### Automatic Email for Scheduled Test Lists
 
-Optionally, you can configure the Test Studio Scheduling service to use an Email (SMTP) server by specifying few additional details. These settings allow you to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list. Depending on the SMTP server configuration, mandatory fields are the **'SMTP server address'** and the **'Port'** to communicate with it, the **'User Email'** and **'Password'** are not explicitly required. Once these fields are populated, hit the **Apply** button to reflect the changes to the Scheduling service and check if the message *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
+Optionally, you can configure the Test Studio Scheduling service to use an Email (SMTP) server by specifying few additional details. These settings allow you to <a href="/features/scheduling-test-runs/schedule-execution#step-3" target="_blank">send an automatic email</a> with the results of a scheduled test list. 
+
+The SMTP server settings are listed in the expandable section __Configure Email (SMTP) server__ in the **Scheduling** tab. Mandatory fields are the **'SMTP server address'** and the **'Port'** to communicate with it, and the **'User Email'**, who sends the email. Depending on the SMTP server configuration, the **'Password'** field and **'Ssl'** checkbox may not be explicitly required.
+
+Once the necessary data is entered, hit the **Apply** button to reflect the changes to the Scheduling service and check if the status *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
 
 ![Scheduling SMTP][13a]
 
@@ -253,7 +260,7 @@ A confirmation message appears when the connection is successful. Confirm the co
 [2a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2a.png
 [3]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3.png
 [3a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3a.png
-[33]: /img/features/scheduling-test-runs/remote-run-all-in-one/configure-execution-server-button.png.png
+[33]: /img/features/scheduling-test-runs/remote-run-all-in-one/configure-execution-server-button.png
 [4]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
 [5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
 [6]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig6.png
