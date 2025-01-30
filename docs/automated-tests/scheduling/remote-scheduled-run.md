@@ -15,6 +15,7 @@ The below article describes how to enable scheduling tests for a Standalone Test
 > <br>
 > You refer to __this Step-By-Step <a href="https://www.telerik.com/blogs/test-studio-step-by-step-scheduling-tests" target="_blank">blog post about setting up Test Studio Scheduling</a>__.
 
+<!-- no toc -->
 - [Remote Scheduled Execution (Single Machine Setup)](#remote-scheduled-execution-single-machine-setup)
   - [Installing Test Studio for Remote Scheduled Execution](#installing-test-studio-for-remote-scheduled-execution)
   - [Configure the Test Studio Services](#configure-the-test-studio-services)
@@ -29,7 +30,8 @@ The below article describes how to enable scheduling tests for a Standalone Test
   - [Setting Up a Project for Remote Scheduled Runs](#setting-up-a-project-for-remote-scheduled-runs)
   - [Schedule a Test List](#schedule-a-test-list)
   - [View Results of Remote Scheduled Run](#view-results-of-remote-scheduled-run)
-  - [See Also](#see-also)
+
+    
 
 ## Installing Test Studio for Remote Scheduled Execution
 
@@ -66,22 +68,15 @@ Optionally, the **Configure Services** wizard can be accessed through the Window
 ![Configure Test Studio services][2a]
 
 Go through each tab to setup the Test Studio services:
+<!-- no toc -->
+  * [Communication Tab](#communication-tab)
+  * [MongoDB Tab](#mongodb-tab)
+  * [Storage Tab](#storage-tab)
+  * [Scheduling Tab](#scheduling-tab)
+  * [Automatic Email for Scheduled Test Lists](#automatic-email-for-scheduled-test-lists)
+  * [Executive Dashboard Tab](#executive-dashboard-tab)
+  * [Execution Server Tab](#execution-server-tab)
 
-- [Remote Scheduled Execution (Single Machine Setup)](#remote-scheduled-execution-single-machine-setup)
-  - [Installing Test Studio for Remote Scheduled Execution](#installing-test-studio-for-remote-scheduled-execution)
-  - [Configure the Test Studio Services](#configure-the-test-studio-services)
-    - [Communication Tab](#communication-tab)
-    - [MongoDB Tab](#mongodb-tab)
-    - [Storage Tab](#storage-tab)
-    - [Scheduling Tab](#scheduling-tab)
-    - [Automatic Email for Scheduled Test Lists](#automatic-email-for-scheduled-test-lists)
-    - [Executive Dashboard Tab](#executive-dashboard-tab)
-    - [Execution Server Tab](#execution-server-tab)
-  - [Configure the Execution Client](#configure-the-execution-client)
-  - [Setting Up a Project for Remote Scheduled Runs](#setting-up-a-project-for-remote-scheduled-runs)
-  - [Schedule a Test List](#schedule-a-test-list)
-  - [View Results of Remote Scheduled Run](#view-results-of-remote-scheduled-run)
-  - [See Also](#see-also)
 
 ### Communication Tab 
 

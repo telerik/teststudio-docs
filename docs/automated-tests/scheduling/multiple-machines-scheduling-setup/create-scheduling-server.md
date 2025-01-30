@@ -10,6 +10,7 @@ The Test Studio Scheduling services work together to ensure the seamless communi
 
 The below article describes the configuration steps.
 
+<!-- no toc -->
 - [Configure the Scheduling Services](#configure-the-scheduling-services)
   - [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
   - [Configure the Test Studio Services](#configure-the-test-studio-services)
@@ -21,7 +22,6 @@ The below article describes the configuration steps.
     - [Executive Dashboard Tab](#executive-dashboard-tab)
     - [Execution Server Tab](#execution-server-tab)
   - [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
-  - [See Also](#see-also)
 
 > __Important__
 > <br>
@@ -56,19 +56,17 @@ You can start the Scheduling config wizard in any of the following ways:
 
 There are few tabs in the __Scheduling configuration wizard__, which provide the configuration details for each of the components of the Scheduling setup.
 
-- [Configure the Scheduling Services](#configure-the-scheduling-services)
-  - [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
-  - [Configure the Test Studio Services](#configure-the-test-studio-services)
-    - [Communication Tab](#communication-tab)
-    - [MongoDB Tab](#mongodb-tab)
-    - [Storage Tab](#storage-tab)
-    - [Scheduling Tab](#scheduling-tab)
-    - [Automatic Email Notification for Scheduled Executions](#automatic-email-notification-for-scheduled-executions)
-    - [Executive Dashboard Tab](#executive-dashboard-tab)
-    - [Execution Server Tab](#execution-server-tab)
-  - [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
-  - [See Also](#see-also)
+Go through each tab to setup the Test Studio services:
+<!-- no toc -->
+  * [Communication Tab](#communication-tab)
+  * [MongoDB Tab](#mongodb-tab)
+  * [Storage Tab](#storage-tab)
+  * [Scheduling Tab](#scheduling-tab)
+  * [Automatic Email for Scheduled Test Lists](#automatic-email-for-scheduled-test-lists)
+  * [Executive Dashboard Tab](#executive-dashboard-tab)
+  * [Execution Server Tab](#execution-server-tab)
 
+  
 ### Communication Tab 
 
 The Communication tab lets you manage the **Communication Key** which is required by all Test Studio Scheduling components - services and clients. It is used to establish the connection and successful communication between each of the Scheduling modules. 

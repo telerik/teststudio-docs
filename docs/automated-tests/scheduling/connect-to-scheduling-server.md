@@ -10,8 +10,14 @@ Once you've <a href="/features/scheduling-test-runs/multiple-machines-scheduling
 
 This article guides you how to connect:
 
-- [To a Scheduling server for remote execution](#connect-the-project-to-schedule-test-lists-on-remote-execution-machines)
-- [To a Reverse Proxy server behind which is the Scheduling server](#connect-via-reverse-proxy-advanced)
+
+
+- [Connect a Project to the Scheduling Server](#connect-a-project-to-the-scheduling-server)
+  - [Connect the Project to Schedule Test Lists on Remote Execution Machines](#connect-the-project-to-schedule-test-lists-on-remote-execution-machines)
+    - [Communication Key](#communication-key)
+    - [Server Name](#server-name)
+  - [Confirm Connection](#confirm-connection)
+  - [Connect via Reverse Proxy (Advanced)](#connect-via-reverse-proxy-advanced)
 
 ## Connect the Project to Schedule Test Lists on Remote Execution Machines
 
@@ -50,7 +56,6 @@ Test Studio allows you to connect a project to a Scheduling server hosted in a n
 ![Reverse proxy connect][1a]
 
 [1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
-[2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
 [5a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5a.png
 [5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
 

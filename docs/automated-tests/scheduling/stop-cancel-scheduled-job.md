@@ -25,9 +25,14 @@ In the Results tab when you hover over a scheduled job, a small X button appears
 
 Each scheduled job is represented as a file on the disk. These files are stored on the machine which is hosting the Scheduling service. If it happens that the scheduled job doesn't appear in the Results tab you can delete the physical file. 
 
-- If you are using the local setup, it will be located by default at **C:\Users\\\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage** 
+- If you are using the local setup, by default it will be located at: 
+ 
+__C:\Users\\\<yourUserName>\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage__
 
-- If you are the remote scheduleng configuration, you have to look at the service account folder at __C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage__
+
+- If you are using the scheduling configuration with installed Test Studio Services, you have to look at the service account folder at: 
+
+__C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Telerik\TestStudio\Scheduler\ScheduleStorage__
 
 
 [1]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig1.png

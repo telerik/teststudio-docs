@@ -29,6 +29,7 @@ The Execution client is running in the background, so if this is __already start
 
 Once the **Test Studio Test Runner** window appears, there are multiple options you can customize as per the specifics of the particular environment.
 
+<!-- no toc -->
 * [Execution Server Configuration](#execution-server-configuration)
 * [Machine Information](#machine-information)
 * [Logging Information](#logging-information)
@@ -59,7 +60,7 @@ The configuration of the Test Studio Test Runner requires admin rights and is pe
 
 - **Run on start up** - the option allows you to decide whether the Test Runner should start automatically on machine startup.
 
-![Execution server configuration][2a]
+![Execution server configuration][2]
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -114,7 +115,10 @@ To help in covering this requirement Test Studio provides a separate application
 - From the Test Studio Test Runner by clicking the __Configure__ button in the __User Session Configuration__ section. 
     ![Start Session Monitor from Test Runner][8b]
 
-Running and configuring this separate application requires admin rights. 
+> __Note!__ 
+><br> 
+><br>
+> Running and configuring the separate application Test Studio Session Monitor requires admin rights. 
 
 ![Session Monitor application][8]
 
