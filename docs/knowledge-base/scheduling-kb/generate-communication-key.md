@@ -1,6 +1,6 @@
 ---
 title: Generate Communication Key
-page_title: Generate an Update Communication Key
+page_title: Generate and Update Communication Key
 description: Generate Communication Key for the Test Studio Scheduling configuration. Import the new key for all Test Studio components across all involved machines. 
 position: 1
 ---
@@ -52,7 +52,7 @@ The copied key must be imported on all machines included in the Test Studio Sche
 > <br>
 > The communication key is set per machine. This means that importing a key on one machine lets all other components on the same machine to use it. If you see any troubles with the imported key on a machine, be sure to restart all Test Studio processes. 
 
-## Importing New Key in Single Machine Scheduling Setup 
+## Generate and Import Key in Single Machine Scheduling Setup 
 
 Once you generate a new key, hit the **Import** button to replace the current key in use for the Scheduling service. This triggers restart of the service to take the new key and restart of the Execution client application. 
 
@@ -68,12 +68,13 @@ In the setup where all components of the Scheduling configuration are on the sam
 4. The <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Execution client application from the system tray</a> is restarted. 
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
+
     ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
 5. Restart Test Studio standalone application. 
 6. Continue with <a href="/automated-tests/scheduling/connect-to-scheduling-server" target="_blank">connecting the project to the Scheduler</a> and scheduling test lists. 
 
-### Importing New Key in Multiple Machines Scheduling Setup 
+## Generate and Import Key in Multiple Machines Scheduling Setup 
 
 Once you generate a new key, hit the **Import** button to replace the current key in use for the Scheduling service. This triggers restart of the service to take the new key and restart of the Execution client application on that same machine. 
 
@@ -105,6 +106,7 @@ In the setup where all components of the Scheduling configuration are on differe
 11. If running the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Execution client application from the system tray</a> is restarted. 
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
+    
     ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
 12. If the machine with the project is a separate machine repeat steps 8. to 10. also for it. If Test Studio application is running while importing the new key be sure to restart it. 
