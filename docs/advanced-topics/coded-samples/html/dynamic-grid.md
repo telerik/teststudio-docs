@@ -1,8 +1,7 @@
 ---
 title: Dynamic Grid
 page_title: Dynamic Grid
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-
+description: "Automating a dynamic grid - how to overcome the challenge that the content of the cells in grid changes? The recorded elements use the text content of cells which changes and I can't execute the tests unless if I don't change the find expressions of elements.  How can avoid constant update of grid elements?"
 position: 1
 ---
 #Automating a Dynamically Generated Grid#
@@ -38,11 +37,11 @@ Going back to Test Studio, you will notice a new element has appeared in Project
 Create a new coded step and add the following lines that go through each (visible) cell in the Grid:
 
 ```C#
-foreach (HtmlTableRow r in Pages.ClientSideRowSelection.ContentPlaceholder1RadGrid1Table.AllRows)
+foreach (HtmlTableRow r in Pages.TelerikWebUIGridRow.ContentPlaceholder1RadGrid1Table.AllRows)
 {
     foreach(HtmlTableCell c in r.Cells)
     {
-        Log.WriteLine("Cell found. TextContent:"+c.TextContent);  
+        Log.WriteLine("Cell found. TextContent: "+c.TextContent);  
     }
 }
 ```
@@ -55,12 +54,13 @@ Let's look at the grid in the below image. Let's imagine we want to get the row 
 
 ![Get a particular row][4]
 
-In this example we're want to check a checkbox but this could be any kind of control. The code we will use doesn't take into account what the content of the actual cell is: we just click it. Once again we'll be using the definition of the Grid that we've stored in the the Project Elements (as seen in Solution 1 of this article). Here's the code:
+In this example we want to click a checkbox but the nested control in the grid may be any other type. To adjust it you will need to change the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Find.ByXX statement</a>. For this example we again use the definition of the Grid that we've stored in the Project's Elements Explorer (as seen in Solution 1 of this article). Here's the code:
 
 ```C#
-HtmlTableRow containerRow=null; //The variable that will store the row that contains the name cell and the checkbox cell
+//The variable that will store the row which contains the name cell and the checkbox cell
+HtmlTableRow containerRow=null; 
 
-foreach (HtmlTableRow r in Pages.ClientSideRowSelection.ContentPlaceholder1RadGrid1Table.AllRows)
+foreach (HtmlTableRow r in Pages.TelerikWebUIGridRow.ContentPlaceholder1RadGrid1Table.AllRows)
 {
     //Go through all the cells to find the one that contains the name;
     //This assumes you won't know which column has the name.
@@ -69,16 +69,25 @@ foreach (HtmlTableRow r in Pages.ClientSideRowSelection.ContentPlaceholder1RadGr
    
         if (c.TextContent.Equals("Thomas Hardy")) //The name can be data-driven if you use code that will extract values from a datasource
         {
-         containerRow = c.Parent<HtmlTableRow>(); //We want to get the row which has this cell   
-        }
-            
+            containerRow = c.Parent<HtmlTableRow>(); //We want to get the row which has this cell
+
+            // Use the below lines while working on setting up the coded solution
+            // This statement outputs the inner text content of each cell in the 
+            // containerRow along with its index and can help with identifying which cell 
+            // to use later
+            foreach(HtmlTableCell cell in containerRow.Cells)
+            {
+                Log.WriteLine("Cell index is " + cell.CellIndex.ToString()+" and its content is: " + cell.InnerText);
+            }   
+        }   
   }
 }
 
-HtmlTableCell checkbox = containerRow.Cells[0]; //Get the cell with the checkbox
-
-checkbox.ScrollToVisible();
-
+// Find the chekcbox element under the respective cell from the containerRow
+HtmlInputCheckBox checkbox = containerRow.Cells[0].Find.ByAttributes<HtmlInputCheckBox>("type=checkbox");
+Assert.IsNotNull(checkbox);
+// Scroll the element to be visible and click on it
+checkbox.ScrollToVisible(ScrollToVisibleType.ElementCenterAtWindowCenter);
 checkbox.MouseClick();
 ```
 
