@@ -33,7 +33,6 @@ Once the **Test Studio Test Runner** window appears, there are multiple options 
 * [Execution Server Configuration](#execution-server-configuration)
 * [Machine Information](#machine-information)
 * [Logging Information](#logging-information)
-* [Run on Startup](#run-on-startup)
 * [Browsers Information](#browsers-information)
 
 ### Execution Server Configuration
@@ -44,7 +43,7 @@ The configuration of the Test Studio Test Runner requires admin rights and is pe
 
 - **Status** - shows the current status of the Execution Server and if it can connect to the listed Scheduling server.
 
-- **Scheduling URL** - shows the URL of the current Scheduling server to which the Execution server is connected. 
+- **Scheduling URL** - shows the URL of the current Scheduling server to which the Execution server is connected.  
 
 - **Temp Folder** - executing tests on a remote machine includes deployment of the project files in a temporary folder on the remote machine. You can choose where this temp folder will be located on the disc - the default location is the %PUBLIC% folder which is accessible for all users. 
 
@@ -117,7 +116,6 @@ To help in covering this requirement Test Studio provides a separate application
 
 > __Note!__ 
 ><br> 
-><br>
 > Running and configuring the separate application Test Studio Session Monitor requires admin rights. 
 
 ![Session Monitor application][8]
@@ -130,12 +128,12 @@ Enabling this option __prevents the machine from falling to sleep, locking or sh
 
 > __Note!__ 
 ><br> 
-><br> This functionality __does not prevent__ the user to manually lock the machine or put it to sleep.
+> This functionality __does not prevent__ the user to manually lock the machine or put it to sleep.
 ><br> 
 ><br>
 > __Note!__ 
 ><br> 
-><br> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
+> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
 
 Once the __option is disabled or the Test Studio Session Monitor process is stopped__, the operating system is able to get to sleep/lock normally.
 

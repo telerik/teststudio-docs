@@ -2,7 +2,6 @@
 title: CruiseControl.NET Builds
 page_title: CruiseControl.NET Builds
 description: "Integrate Test Studio tests in CruiseControl.NET continuous integration builds. Execute Test Studio tests with CruiseControl.NET"
-previous_url: /user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net.aspx, /user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net
 position: 2
 ---
 # Telerik Testing Framework and CruiseControl.NET
