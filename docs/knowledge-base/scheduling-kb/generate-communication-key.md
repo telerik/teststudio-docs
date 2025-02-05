@@ -90,6 +90,7 @@ In the setup where all components of the Scheduling configuration are on differe
 5. The <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Execution client application from the system tray</a> on this machine is restarted. 
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
+
     ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
 6. On this same machine copy the new key value from the __Current Key__ section in the Scheduling config wizard->Communication tab. 
@@ -106,10 +107,10 @@ In the setup where all components of the Scheduling configuration are on differe
 11. If running the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Execution client application from the system tray</a> is restarted. 
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
-    
+
     ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
-12. If the machine with the project is a separate machine repeat steps 8. to 10. also for it. If Test Studio application is running while importing the new key be sure to restart it. 
+12. If the machine with the project is a separate machine repeat steps 8. to 10. also for it. If __Test Studio application is running while importing the new key be sure to restart it__. 
 13. Continue with <a href="/automated-tests/scheduling/connect-to-scheduling-server" target="_blank">connecting the project to the Scheduler</a> and scheduling test lists.
 
 

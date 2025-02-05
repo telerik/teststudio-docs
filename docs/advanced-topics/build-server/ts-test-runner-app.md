@@ -78,7 +78,7 @@ To help in covering this requirement Test Studio provides a separate application
 * [Keep Machine Awake](#keep-machine-awake)
 * [Reconnect to Console on Disconnect](#reconnect-to-console-on-disconnect)
 * [Change Console Resolution](#change-console-resolution)
-* [Run Session Monitor app on machine startup](#run-on-startup)
+* [Run Session Monitor app on machine startup](#run-session-monitor-app-on-startup)
 
 ### Keep Machine Awake
 
@@ -124,7 +124,7 @@ When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have t
 
 ![Change Console Resolution][11]
 
-### Run on Startup 
+### Run Session Monitor App on Startup 
 
 The Run on start up option allows you to decide whether the Test Studio Session Monitor starts automatically on machine startup. We recommend using the option if this is the tool you use to control the user session. 
 
