@@ -8,13 +8,12 @@ position: 1
 
 ## PROBLEM
 
-After clicking the Manage button in the Project view to open the Machines Viewer dialog, an Execution Machine is missing from the list.
+I open the Machine status view to see the Execution server machines and one of the Execution Machine is missing from the list.
 
 ## SOLUTION
 
-- The Execution Server may not be running. On the execution machine, open the Start Execution Server dialog.
-- The Execution Server may not be registered to the Scheduling Server.
-  - On the execution machine, right-click the Test Studio icon in the System Tray and click Open.
-  - In the Test Studio Test Runner window, confirm that the Execution Server is connected to the correct Scheduling Server URL. If not, click Change location... and enter the correct URL.
+1. __The Execution Server may not be running.__ 
+   - <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Start the Test Studio Execution client application</a> on the remote execution machine.
+2. __The Execution Client app may not be registered to the Scheduling Server.__
+  - <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#configure-test-studio-execution-client" target="_blank">Configure the Test Studio Execution client application</a> on the remote execution machine to connect to the Scheduling service in use. 
 
-> If the Change button does not appear, <a href="/troubleshooting-guide/scheduling-issues-tg/no-change-button" target="_blank">update your Scheduling Client configuration file</a>.
