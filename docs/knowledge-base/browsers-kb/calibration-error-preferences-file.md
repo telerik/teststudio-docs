@@ -2,7 +2,7 @@
 title: Edge Calibration Error
 page_title: Edge Calibration Error
 description: "Edge Calibration Error in Test Studio - Could not read Edge Preferences file Error during serialization or deserialization. The length of the string exceeds the value set on the maxJsonLength value." 
-position: 0
+position: 1
 ---
 # Error on Trying to Calibrate Edge Browser 
 
