@@ -27,6 +27,8 @@ The Visual Debugger can be stopped manually at any time of the test run using th
 
 ![Visual Debugger auto-pause options](/img/automated-tests/troubleshooting/visual-debugger/fig2.png)
 
+## Set Breakpoint
+
 Along with these specific errors, you can choose any step from a test, prior which execution you want to pause the execution, and __set a breakpoint__ for it. The breakpoint for a step indicates pausing the test before the step is executed, if the Visual Debugger is enabled for the test run.
 
 ![Visual Debugger pause on breakpoint](/img/automated-tests/troubleshooting/visual-debugger/fig3.png)

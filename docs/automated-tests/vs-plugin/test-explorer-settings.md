@@ -10,8 +10,9 @@ Running a Test Studio test from the Test Explorer in Visual Studio uses a set of
 
 This article describes the details for this settings file and how to use it for the Test Studio test runs initiated from the Visual Studio Test Explorer.
 
-* [Add Test Explorer runsettings file in Test Studio project in Visual Studio 2019 and 2022](#visual-studio-2019-and-2022)
-* [Add Test Explorer testsettings file in Test Studio project in Visual Studio 2017](#visual-studio-2017)
+- [Test Explorer Settings](#test-explorer-settings)
+  - [Visual Studio 2019 and 2022](#visual-studio-2019-and-2022)
+
 
 > __Note!__
 ><br>
@@ -32,25 +33,6 @@ __3.&nbsp;__ To use these Test Studio specific settings for the test runs initia
 
 __4.&nbsp;__ You can store the file in the project root folder and use the option __Auto Detect runsettings Files__. The alternative is to specify the file from an external location through the __Select Solution Wide runsettings File__.
 
-## Visual Studio 2017
-
-To specify the settings for the Test Studio test runs from the Test Explorer you need to create a _testsettings_ file in the Visual Studio project.
-
-__1.&nbsp;__ Right click on the solution name in the __Solution Explorer__ and choose the option __Add -> New Item...__
-
-![Add new item][1]
-
-__2.&nbsp;__ Then choose the **Test Settings** option, enter specific name for the settings file and click the **Add** button.
-
-![Test settings item][2]
-
-__3.&nbsp;__ This new settings file appears in the __Solution Explorer__ under the __Solution Items__ section. Double click the file to open it and choose the last section **Telerik Test Studio** on the left side list. The Test Studio specific settings are listed on the right side of the pane under three tabs - __General__, __Web__ and __WPF__, and are accessible to modify these and customize the test runs.
-
-![Settings][3]
-
-__4.&nbsp;__ Select _testsettings_ file under __Test -> Test Settings -> Select Test Settings File__.
-
-![Set test settings for Test Explorer 2017][4]
 
 [1]: /img/knowledge-base/visual-studio-kb/test-explorer-settings/fig1.png
 [2]: /img/knowledge-base/visual-studio-kb/test-explorer-settings/fig2.png

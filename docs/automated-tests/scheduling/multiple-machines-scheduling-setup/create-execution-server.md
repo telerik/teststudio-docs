@@ -29,39 +29,37 @@ The Execution client is running in the background, so if this is __already start
 
 Once the **Test Studio Test Runner** window appears, there are multiple options you can customize as per the specifics of the particular environment.
 
+<!-- no toc -->
 * [Execution Server Configuration](#execution-server-configuration)
 * [Machine Information](#machine-information)
 * [Logging Information](#logging-information)
-* [Run on Startup](#run-on-startup)
 * [Browsers Information](#browsers-information)
 
 ### Execution Server Configuration
 
+The configuration of the Test Studio Test Runner requires admin rights and is performed through the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Test Studio Services config wizard</a>. Use the __Configure__ button to open the wizard showing its <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#execution-server-tab" target="_blank">Execution server tab</a> and apply any necessary changes. 
+
+![Configure button to open Execution server config][2a]
+
 - **Status** - shows the current status of the Execution Server and if it can connect to the listed Scheduling server.
 
-- **Scheduling URL** - shows the URL of the current Scheduling server to which the Execution server is connected. Use the **three dots button** next to the Scheduler name to **change the address** of Scheduling server to use.
+- **Scheduling URL** - shows the URL of the current Scheduling server to which the Execution server is connected.  
 
-    ![Change Location][2]
-
-    Type in the **Scheduling Service URI** text field the Scheduling service machine with the correct port on which it's configured. Hit the **Change** button to connect to the listed Scheduling Server.
-
-    ![Service URI][3]
-
-- **Temp Folder** - executing tests on a remote machine includes deployment of the project files in a temporary folder on the remote machine. You can choose where this temp folder will be located on the disc - click the three dots button next to the listed folder and browse to the desired one. The **Reset** button will set the default temporary location on the execution machine.
-
-    ![Temporary folder][4]
+- **Temp Folder** - executing tests on a remote machine includes deployment of the project files in a temporary folder on the remote machine. You can choose where this temp folder will be located on the disc - the default location is the %PUBLIC% folder which is accessible for all users. 
 
     > **Note**
     ><br> 
-    ><br> You need to allow access to the newly set location for all users.
+    ><br> If you want to change the temp folder be sure to allow access to the newly set location for all users.
 
 - **Key** - the communication key is required to establish the connection and to enable the communication to the Scheduling server machine. A <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-services" target="_blank">key is generated in the Scheduling Config wizard</a> and if it's not matching on both the Scheduler and Execution machines, the connection between these is not possible. 
-
-    ![Communication key][5]
 
     > **Note**
     ><br> 
     ><br> See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
+
+- **Run on start up** - the option allows you to decide whether the Test Runner should start automatically on machine startup.
+
+![Execution server configuration][2]
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -87,16 +85,6 @@ You can access the logging of the Execution Server - enable, disable or view <a 
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
 <br>
 
-### Run on Startup
-
-The **Run on start up** option allows you to decide whether the Test Runner should be started automatically on machine startup.
-
-![Run on start up][7]
-
-<br>
-<div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
-<br>
-
 ### Browsers Information
 
 All available and supported browsers on the Execution Server are listed in this section. You can <a href="/features/project-settings/browsers" target="_blank">calibrate</a> these or restore their default settings. If using the legacy version of Edge, you can browse here the WebDriver folder location on disc.
@@ -115,30 +103,47 @@ This section appears only if there is an <a href="/features/dialogs-and-popups/d
 
 ## User Session Configuration
 
-Test Studio allows you to apply different configurations for the user session on the execution machines. That way you can make sure the machine is available and ready to execute UI tests.
+Test Studio requires active user session for executing functional UI tests such as automated tests for WPF and desktop application, and web tests executed in headful browser mode. 
 
-![User session configuration][8]
+To help in covering this requirement Test Studio provides a separate application which is dedicated to keep the machine awake and with active user session. The application is called __Test Studio Session Monitor__ and you can start it as follows: 
 
-### Keep Machine Awake
+- From the Windows start menu by typing _Session Monitor_.
+  
+    ![Start Session Monitor from Win menu][8a]
 
-With this option enabled and as long as the Test Studio Scheduling Client process is running, it __prevents the machine from falling to sleep, locking or showing screen saver__.
+- From the Test Studio Test Runner by clicking the __Configure__ button in the __User Session Configuration__ section. 
+    ![Start Session Monitor from Test Runner][8b]
 
 > __Note!__ 
 ><br> 
-><br> This functionality __does not prevent__ the user to manually lock the machine or put it to sleep.
+> Running and configuring the separate application Test Studio Session Monitor requires admin rights. 
+
+![Session Monitor application][8]
+
+### Keep Machine Awake
+
+Enabling this option __prevents the machine from falling to sleep, locking or showing screen saver__. The setting is applied as long as the __Test Studio Session Monitor__ application is running in the background. 
+
+![Keep Machine awake][9]
+
+> __Note!__ 
+><br> 
+> This functionality __does not prevent__ the user to manually lock the machine or put it to sleep.
 ><br> 
 ><br>
 > __Note!__ 
 ><br> 
-><br> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
+> Using this functionality could be a security risk since it will prevent the machine from locking when expected by your security policy. Consider if leaving the test machine unlocked for prolonged periods is acceptable for your organization before using the feature (especially when using Test Studio on your local physical machine).
 
-Once the __option is disabled or the Test Studio Scheduling Client process is stopped__, the operating system is able to get to sleep/lock normally.
+Once the __option is disabled or the Test Studio Session Monitor process is stopped__, the operating system is able to get to sleep/lock normally.
 
 ### Reconnect to Console on Disconnect
 
-When running tests on a remote virtual or physical machine, users would usually connect to that machine via Remote Desktop Connection (RDC) to start and configure the Test Studio Scheduling Client. If after that the user closes their RDC window, their user session on the virtual machine is switched to 'disconnected' state and lose access to the graphical user interface (GUI). This prevents UI tests to be executed normally, whenever an interaction to the GUI is needed (e.g. performing real mouse click or keyboard actions, dialog interaction, etc.).
+When running tests on a remote virtual or physical machine, users would usually connect to that machine via Remote Desktop Connection (RDC) to start and configure the Test Studio Execution Server. Closing the RDC window sets the user session on the virtual machine to 'disconnected' state and the access to the graphical user interface (GUI) is lost. This prevents UI tests to be executed normally, whenever an interaction to the GUI is needed (e.g. performing real mouse click or keyboard actions, dialog interaction, etc.).
 
-When the __'Reconnect to Console on Disconnect'__ feature is enabled, Test Studio tries __to reconnect your disconnected session to the local console session__, regaining access to the GUI.
+When the __'Reconnect to Console on Disconnect'__ feature is enabled, Test Studio Session Monitor app tries __to reconnect your disconnected session to the local console session__, regaining access to the GUI.
+
+![Reconnect to console][10]
 
 > __Note!__ 
 ><br>
@@ -157,6 +162,14 @@ When the __'Reconnect to Console on Disconnect'__ feature is enabled, Test Studi
 
 When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have the option to change the __Console session resolution__ - you can choose the desired resolution from the dropdown menu. This option is useful when tests are executed on remote machine and successful test run depends on particular screen resolution. When set through the Test Studio Runner, you can ensure the automated tests are executed on the specified resolution.
 
+![Change Console Resolution][11]
+
+### Run on Startup 
+
+The Run on start up option allows you to decide whether the Test Studio Session Monitor starts automatically on machine startup. We recommend using the option if this is the tool you use to control the user session. 
+
+![Run Session Monitor on startup][12]
+
 ## See Also
 
 * <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">Improve Your Remote Test Execution with Test Studio User Session Configuration</a>.
@@ -164,6 +177,7 @@ When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have t
 [1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png
 [1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png
 [2]: /img/features/scheduling-test-runs/create-execution-server/fig2.png
+[2a]: /img/features/scheduling-test-runs/create-execution-server/fig2-configure-button.png
 [3]: /img/features/scheduling-test-runs/create-execution-server/fig3.png
 [4]: /img/features/scheduling-test-runs/create-execution-server/fig4.png
 [5]: /img/features/scheduling-test-runs/create-execution-server/fig5.png
@@ -173,3 +187,9 @@ When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have t
 [6c]: /img/features/scheduling-test-runs/create-execution-server/fig6c.png
 [7]: /img/features/scheduling-test-runs/create-execution-server/fig7.png
 [8]: /img/features/scheduling-test-runs/create-execution-server/fig8.png
+[8a]: /img/features/scheduling-test-runs/create-execution-server/start-session-monitor-win-menu.png
+[8b]: /img/features/scheduling-test-runs/create-execution-server/start-session-monitor-config.png
+[9]: /img/features/scheduling-test-runs/create-execution-server/fig9.png
+[10]: /img/features/scheduling-test-runs/create-execution-server/fig10.png
+[11]: /img/features/scheduling-test-runs/create-execution-server/fig11.png
+[12]: /img/features/scheduling-test-runs/create-execution-server/fig12.png

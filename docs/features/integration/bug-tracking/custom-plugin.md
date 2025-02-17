@@ -144,7 +144,7 @@ namespace ClassLibrary1
 </br>
 </br>
 </br>
-> Note that as of version **2017 R3 2017.3.1010** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
+> __Note!__ As of Test Studio version **2017 R3 2017.3.1010** the default installation path for new installation is **C:\Program Files (x86)\Progress\Test Studio**.
 
 The **IBugTrackerConnectionUI** interface exposes additional methods to further customize the connection dialog behavior. For example, use it if you'd like to restrict submitting the data depending on what's entered.
 

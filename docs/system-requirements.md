@@ -178,7 +178,7 @@ Admin permissions are required for:
 
 ## Required Database for Scheduling Configuration
 
-* MongoDB 4.0 - 6.3
+* MongoDB 4.0 - 8.0
 
 > **Note** 
 ><br>

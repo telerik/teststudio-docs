@@ -6,14 +6,13 @@ position: 5
 ---
 # Predefined Elements
 
-* [Test Studio Standalone](#test-studio-standalone)
-* [Visual Studio Plugin](#visual-studio-plugin)
+- [Predefined Elements](#predefined-elements)
+  - [Test Studio Standalone](#test-studio-standalone)
+  - [Visual Studio Plugin](#visual-studio-plugin)
 
 ## Test Studio Standalone
 
-Predefined elements and element mapping is a new Test Studio feature introduced in the R1 2015 release. Now you have the ability to create your automated tests while the application you will be testing is still in development and does not yet have the UI elements for the test or tests you want to create. You can create your test while waiting for the UI of the application to catch up.
-
-This new feature should be extremely helpful for QA engineers since they no longer have to wait until the application feature is developed before creating a test script.
+Predefined elements and element mapping is a Test Studio feature which introduce the the ability to create your automated tests while the application you will be testing is still in development and does not yet have the UI elements for the test or tests you want to create. You can create your test while waiting for the UI of the application to catch up.
 
 You can start creating your automated tests using predefined elements and add actions or verifications against those elements.  
 

@@ -6,80 +6,68 @@ position: 1
 ---
 # Pages Not Defined
 
-## PROBLEM
+## Problem
 
 When I execute my test in the Standalone version, or build my test project in the VS plugin, I receive one of the following errors:
 
 - Type 'Pages' is not defined
 - The type or namespace name 'Pages' could not be found
 
-## SOLUTION
+## Cause
+
+The coded files need to use the namespace as the one set on project level in the <a href="/features/project-settings/overview)" target="_blank">Project settings</a> under the Script tab. The issue usually appears if the coded files are copied within a new project and not inserted through the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">Project Explorer options to add existing test, or coded file</a>. 
+
+The code-behind file for a test in project with name TestProj2 looks like this: 
 
 ```C#
-namespace TestProject2
+
+// Starting with a list of using statements which may vary 
+// and therefore are not listed here
+
+namespace TestProj2 // This is the namespace set in the project settings
 {
-    using ArtOfTest.WebAii.Core;
-    using ArtOfTest.WebAii.ObjectModel;
-    using ArtOfTest.WebAii.TestAttributes;
-    using ArtOfTest.WebAii.TestTemplates;
-    using ArtOfTest.WebAii.Controls.HtmlControls;
-    public class Pages
+
+	// This is the class name which matches the test name in which the coded step was created
+    public class KendoReactCombobox : BaseWebAiiTest 
+    {
+        #region [ Dynamic Pages Reference ]
+
+        private Pages _pages;
+
+        /// <summary>
+        /// Gets the Pages object that has references
+        /// to all the elements, frames or regions
+        /// in this project.
+        /// </summary>
+        public Pages Pages
+        {
+            get
+            {
+                if (_pages == null)
+                {
+                    _pages = new Pages(Manager.Current);
+                }
+                return _pages;
+            }
+        }
+
+        #endregion
+        
+        // Add your test methods here...
+
+
+	}
+
 }
 ```
-```VB
-	Imports ArtOfTest.WebAii.Core
-	Imports ArtOfTest.WebAii.ObjectModel
-	Imports ArtOfTest.WebAii.TestAttributes
-	Imports ArtOfTest.WebAii.TestTemplates
-	Imports ArtOfTest.WebAii.Controls.HtmlControls
- 
-	Namespace TestProject2
- 
-	Public Class Pages
-```
 
-If the code behind files are not using the same namespace, you receive one of the errors. This is how the code behind file should look for *TestProject2*:
+## Solution
+
+* One option is to fix the errors __set the namespace in the code-behind file to match the one in the Project settings__. 
+
+* The other option is to remove the test from the project and add it again using the option to add existing test. Follow the step below: 
+  1. Delete the test from project through the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">Project Explorer context menu options</a> -> *Delete*.
+  2. Now use the <a href="/knowledge-base/best-practices-kb/add-existing-test" target="_blank">Project Explorer option to add an existing test file into the project</a> and choose the original test file you need to add.
 
 
-```C#
-using Telerik.WebAii.Controls.Html;
-using Telerik.WebAii.Controls.Xaml;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
- 
-using ArtOfTest.Common.UnitTesting;
-using ArtOfTest.WebAii.Core;
-using ArtOfTest.WebAii.Controls.HtmlControls;
-using ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts;
-using ArtOfTest.WebAii.Design;
-using ArtOfTest.WebAii.Design.Execution;
-using ArtOfTest.WebAii.ObjectModel;
-using ArtOfTest.WebAii.Silverlight;
-using ArtOfTest.WebAii.Silverlight.UI;
- 
-namespace TestProject2
-{
-```
-```VB
-Imports Telerik.WebAii.Controls.Html
-Imports Telerik.WebAii.Controls.Xaml
-Imports System
-Imports System.Collections.Generic
-Imports System.Text
-Imports System.Linq
- 
-Imports ArtOfTest.Common.UnitTesting
-Imports ArtOfTest.WebAii.Core
-Imports ArtOfTest.WebAii.Controls.HtmlControls
-Imports ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts
-Imports ArtOfTest.WebAii.Design
-Imports ArtOfTest.WebAii.Design.Execution
-Imports ArtOfTest.WebAii.ObjectModel
-Imports ArtOfTest.WebAii.Silverlight
-Imports ArtOfTest.WebAii.Silverlight.UI
- 
-Namespace TestProject2
-```
 

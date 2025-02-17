@@ -10,9 +10,11 @@ The __Capture Window__ feature allows you to visually capture states at any poin
 
 This article demonstrates how to add this type of step into the test and use its properties.
 
-- [Add Capture Window Step](#add-capture-window-step)
-- [Capture Window Step Properties](#capture-window-step-properties)
-- [Find the Images from Capture Window Step](#find-the-images-from-capture-window-step)
+- [Capture Application Window](#capture-application-window)
+  - [Add Capture Window Step](#add-capture-window-step)
+  - [Capture Window Step Properties](#capture-window-step-properties)
+  - [Find the Images from Capture Window Step](#find-the-images-from-capture-window-step)
+  - [Find the Images from Capture Browser Step in Visual Studio Execution](#find-the-images-from-capture-browser-step-in-visual-studio-execution)
 
 ## Add Capture Window Step
 
@@ -39,6 +41,14 @@ The images from __Capture Window__ step are generated and stored when the test i
 To store the Window and Desktop Capture images to disk include the test in a test list and edit <a href="/features/test-lists/test-list-settings" target="_blank">its settings</a>. Ensure **CreateLogFile** is enabled and, optionally, specify the output directory for the image captures in the __LogLocation__ setting.
 
 ![Test List settings][3]
+
+> __Note!__
+> <br>
+> If the user running the Test Studio process does not have permissions to write in the folder specified in the test list settings, the __execution process automatically saves the images in %PUBLIC%\WebAiiLog__.
+
+## Find the Images from Capture Browser Step in Visual Studio Execution
+
+In the VS plugin the images are output to **ProjectsFolder\ProjectName\TestResults\User_MachineName_Date_Time\Out**.
 
 [1]: /img/features/custom-steps/capture-window/step-builder-capture-window.png
 [2]: /img/features/custom-steps/capture-window/extended-menu-capture-window.png

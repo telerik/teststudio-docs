@@ -24,7 +24,7 @@ The issue persists across different browsers and devices. Clearing the browser's
 
 ## Cause
 
-This issue can arise from various browser-related problems including outdated browser versions, stored cache and cookies, disabled JavaScript or cookies, active browser extensions, or network restrictions.
+This issue can arise from various browser-related problems. These include outdated browser versions, stored cache and cookies, disabled JavaScript or cookies, active browser extensions, or network restrictions.
 
 ## Solution
 
@@ -35,14 +35,13 @@ To troubleshoot and potentially resolve login issues on the Telerik website, fol
 3. Disable all browser extensions including Test Studio Extension. Extensions can interfere with website functionality, including login processes.
 4. Confirm that JavaScript is enabled in the browser settings. JavaScript is essential for many website interactions.
 5. Ensure that cookies are enabled. Cookies are necessary for maintaining a login session.
-6. Try accessing the website again using incognito or private browsing mode. This mode uses a fresh session without saved cookies or cache.
-7. Test the login process with a different browser or device to rule out browser-specific issues.
-8. Attempt to access the website from a different network. Some networks may have restrictions that impact website functionality.
+6. Try accessing the website again __using incognito or private browsing mode__. This mode uses a fresh session without saved cookies or cache.
+7. Test the login process with a __different browser or device__ to rule out browser-specific issues.
+8. Attempt to __access the website from a different network__. Some networks may have restrictions that impact website functionality.
 
 
 
 ## See Also
 
-- [Test Studio Documentation](https://docs.telerik.com/teststudio/)
 - [How to Enable JavaScript in Your Browser](https://www.enable-javascript.com/)
 - [How to Clear Cache and Cookies in Major Browsers](https://www.pcworld.com/article/242939/how-to-delete-cookies.html)

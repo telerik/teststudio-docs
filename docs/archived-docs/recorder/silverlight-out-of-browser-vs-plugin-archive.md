@@ -3,6 +3,7 @@ title: Silverlight Out-of-Browser
 page_title: Create a Silverlight Out-of-Browser Test (VS plugin)
 description: "Test Studio Create a Silverlight Out-of-Browser Test (VS plugin)"
 position: 3
+publish: false
 ---
 # Create a Silverlight Out-of-Browser Test (VS plugin) #
 

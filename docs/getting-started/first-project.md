@@ -4,16 +4,18 @@ page_title: Launch Test Studio and Create Your First Project
 description: "A step by step guide on what you can find in your first Test Studio project. Create a Test Studio Project. Start automating with Test Studio."
 position: 1
 ---
-# Create Your First Project
+# Start with Your First Project
 
 Once you have successfully <a href="/prerequisites/installation/install-procedure" target="_blank">installed</a> and <a href="/prerequisites/license-activation/activating-your-license" target="_blank">activated</a> Test Studio, and <a href="/prerequisites/configure-your-browser/browser-configuration" target="_blank">calibrated the browsers for test automation</a>, you are ready to create your first project and get familiar with the Test Studio layout. In this article you will find details about the following topics.
 
-1. [Starting Welcome Screen](#starting-welcome-screen)
-2. [Create Your First Project](#create-your-first-project)
-3. [Test Studio Project Layout](#test-studio-project-layout)
-4. [Types of Tests in Test Studio Project](#types-of-tests-in-test-studio-project)
-5. [Types of Files in Test Studio Project](#types-of-files-in-test-studio-project)
-6. [Elements in Test Studio Project](#elements-in-test-studio-project)
+- [Start with Your First Project](#start-with-your-first-project)
+	- [Starting Welcome Screen](#starting-welcome-screen)
+	- [Create Your First Project](#create-your-first-project)
+		- [Demo Web \& Desktop Project](#demo-web--desktop-project)
+	- [Test Studio Project Layout](#test-studio-project-layout)
+	- [Types of Tests in Test Studio Project](#types-of-tests-in-test-studio-project)
+	- [Types of Files in Test Studio Project](#types-of-files-in-test-studio-project)
+	- [Elements in Test Studio Project](#elements-in-test-studio-project)
 
 <br><br>
 <div><a style="float:right" href="/getting-started/first-test">Go to <strong>Your First Test</strong></a></div>
@@ -30,7 +32,11 @@ Once you have successfully <a href="/prerequisites/installation/install-procedur
 
 ## Starting Welcome Screen
 
-Launching Test Studio gets you to the <a href="/general-information/start-a-project/welcome-screen" target="_blank">**Welcome Screen**</a>. It lets you create new or open existing projects, access demo resources, see notifications about software updates and news related to the product.
+Launching Test Studio gets you to the <a href="/general-information/start-a-project/welcome-screen" target="_blank">**Welcome Screen**</a>. In this view you can choose between a few options to continue: 
+* Create new project in the __Project__ tab,
+* Choose existing project to open from __Recent Projects__ list, 
+* Explore getting started demo resources in the __Get Started__ tab, 
+* See notifications about software updates and news related to the product in the __News Feed__ tab.
 
 ![Launch Test Studio Welcome Screen](/img/getting-started/first-project/fig0b.png)
 
@@ -40,11 +46,16 @@ In the <a href="/general-information/start-a-project/welcome-screen#create-a-new
 
 ![Test Studio Welcome Screen Project](/img/getting-started/first-project/fig0a.png)
 
-Let's create a new project for the current demonstration - depending on the type of application and testing you perform, you can choose between __Web Testing__, __Desktop Testing__, __WPF Testing__ or __Load Testing__ projects (Load testing is only available in Test Studio Ultimate). Let's choose __Web Testing__ - on the next screen specify the project name and its location and click the **OK** button.
+Let's create a new project for the current demonstration - depending on the type of application and testing you perform, you can choose between __Web Testing__, __Desktop Testing__, __WPF Testing__ or __Load Testing__ projects (Load testing is only available in Test Studio Ultimate). Let's start by hitting the __Web Testing__ button. On the next screen specify the project name and its location and click the **OK** button.
 
 ![Create new Project](/img/getting-started/first-project/fig00.png)
 
-The __Cancel__ button returns you in the initial screen with listed the different types of project.
+> __Note__
+><br>
+><br>
+> The __user needs to have read/write permissions for the folder__ in which the project is created. 
+
+The __Cancel__ button returns you in the initial screen with the different types of projects listed.
 
 ### Demo Web & Desktop Project
 

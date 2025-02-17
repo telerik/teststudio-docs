@@ -25,6 +25,7 @@ To resolve this behavior, use one of these two solutions:
 > Using either of these solutions, you only need to run the test list with the utility test once each time you change the utility class. After this, the test list will be able to reference the utility class, even if you remove the utility test from the test list or remove the Test as Step.
 <br>
 <br>
+
 **See Also**
 
 - <a href="/advanced-topics/coded-samples/general/utility-class-in-standalone" target="_blank">Create a Utility Class in Test Studio Standalone</a>

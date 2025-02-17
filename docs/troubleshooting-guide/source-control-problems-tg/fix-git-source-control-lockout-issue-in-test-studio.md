@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Git Source Control Lockout Issue
-description: Learn how to troubleshoot the issue of being locked out of source control when pushing commits in Test Studio. Learn how to change the Git credentials used in Test Studio project. Refresh Git credentials used in Test Studio project. Update Git passsword in Test Studio project. 
+description: "Troubleshoot the error loading Git source control plugin in Test Studio. Test Studio Git connected project cannot push commits or locks the user out. The source control icon in the header doesn't bring any pop up to let the user commit or push. 
+Learn how to change the Git credentials used in Test Studio project. Refresh Git credentials used in Test Studio project. Update Git passsword in Test Studio project."  
 type: troubleshooting
 page_title: Fix Git Source Control Unable to Push in Test Studio
 slug: fix-git-source-control-lockout-issue-in-test-studio
@@ -9,7 +10,19 @@ res_type: kb
 ---
 
 ## Description
-When pushing commits to Git source control in Test Studio, you get to a state where you are automatically locked out and the changes are not pushed.
+
+When pushing commits to Git source control in Test Studio, you get to a state where you are automatically locked out and the changes are not pushed. While in this state the source control icon in the header doesn't bring any popup with the branches. 
+
+In the log you can see errors like this: 
+
+```txt
+SourceControlFactory.GetControlInstance() : EXCEPTION! (see below)
+     Situation: Error loading Git source control plugin.
+     ...
+Inner Exception Type: LibGit2Sharp.LibGit2SharpException
+     Message: too many redirects or authentication replaysInner Exception Type: LibGit2Sharp.LibGit2SharpException
+     Message: too many redirects or authentication replays
+```
 
 ## Solution
 To fix the Git source control lockout issue, follow these steps:

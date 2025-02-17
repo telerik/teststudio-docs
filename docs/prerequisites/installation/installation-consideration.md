@@ -12,8 +12,6 @@ Before you install Test Studio, make sure that the following requirements are me
 
 - Your user account has administrator permissions to install, change, repair or uninstall Test Studio. You must be logged on as Administrator or belong to the Administrators group on the computer.
 
-- If you plan on using the Test Studio plugin in Visual Studio 2017, <a href="#modify-visual-studio-2017-installation" target="_blank">add the __Testing Tools Core Features__ component in the Visual Studio installation</a>.
-
 - If you plan on running Test Studio test automation on Windows Server OS and use IE, <a href="#configuring-windows-server-for-test-studio-test-automation" target="_blank">turn off the __Windows component Internet Explorer Enhanced Security Configuration__</a>.
 
 {% if site.has_cta_panels == true %}
