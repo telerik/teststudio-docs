@@ -18,7 +18,7 @@ When executing a Test List in Telerik Test Studio, the execution stops unexpecte
 
 The issue may occur due to a test referenced in the Test List being missing from the project. This situation can lead to the Test Studio Test Runner ending up the test list run without completing the execution of all tests.
 
-The missing test is usually moved or renamed, or completely removed outside of Test Studio project - like for example, managing the test files in File Explorer. It is recommended to maintain the test files only within the Test Studio project via the [Project Explorer options](/features/project-explorer/overview#project-items-context-menu). 
+The missing test is usually moved or renamed, or completely removed outside of Test Studio project - like for example, managing the test files in File Explorer. __It is recommended to maintain the test files only within the Test Studio project via the [Project Explorer options](/features/project-explorer/overview#project-items-context-menu)__. 
 
 ## Solution
 
@@ -32,8 +32,8 @@ To identify and resolve the issue with the Test List execution stopping unexpect
 
     ```
     [Error] LoadTest: Unable to find test at 'C:\Test Studio\ProjectFolder\SubFolder\Test1.tstest'!
-....
-CommandLineTestListRunner.RunnerProcess_Exited() : Runner process exit code: 12 - NOT_RUN_TEST_NOT_FOUND.
+    ....
+    CommandLineTestListRunner.RunnerProcess_Exited() : Runner process exit code: 12 - NOT_RUN_TEST_NOT_FOUND.
     ```
 
 4. This error indicates that a test referenced in the Test List (`Test1.tstest`) is missing from the specified location in the project.
