@@ -28,8 +28,8 @@ To continue using Progress® Telerik® Test Studio® for automated test case exe
    - Both Edge Chromium and Chrome support an extensionless mode, which allows for automated testing without the need for the Test Studio extension. This mode was introduced as an alternative due to the anticipated deprecation of Chrome extensions.
 
 2. **Configure the Project to use Edge Chromium and Chrome in Extensionless Mode**:
-    - Use the Project Settings and enable the project to use the browsers in their extensionless mode. The setting `UseBrowserExtension` is a checkbox under the <a href="(/features/project-settings/browsers" target="_blank">Browsers tab</a> which needs to be unchecked. 
-    - Use the Test List Settings to enable test list execution to use the browsers in their extensionless mode. The setting `UseBrowserExtension` is a checkbox under the <a href="(/features/test-lists/test-list-settings#web-tab" target="_blank">Web Settings tab</a> which needs to be unchecked. 
+    - Use the Project Settings and enable the project to use the browsers in their extensionless mode. The setting `UseBrowserExtension` is a checkbox under the <a href="/features/project-settings/browsers" target="_blank">Browsers tab</a> which needs to be unchecked. 
+    - Use the Test List Settings to enable test list execution to use the browsers in their extensionless mode. The setting `UseBrowserExtension` is a checkbox under the <a href="/features/test-lists/test-list-settings#web-tab" target="_blank">Web Settings tab</a> which needs to be unchecked. 
 
 3. **Test Execution**:
     - Once you have configured the project in extensionless mode, proceed with your test case execution as usual. This mode is designed to offer a seamless automation testing experience similar to the one with the extension.
