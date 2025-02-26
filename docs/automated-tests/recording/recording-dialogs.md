@@ -183,7 +183,8 @@ The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in w
 <tr>
 <td>![SaveFile dialog](/img/automated-tests/recording/dialogs/saveFile-dialog-step.png)<br>__Handle SaveFile Dialog__</td>
 </tr>
-<table>
+</table>
+
 
 > __Tip!__
 ><br>
