@@ -659,7 +659,167 @@ redirects:
     from: "^/user-guide/overview/for-team-leads$"
     to: "/welcome"
 -
-    from: "^/general-information/for-team-leads$"
+    from: "/features/testing-types/wpf-testing/wpf-test"
+    to: "/features/testing-types/wpf-test"
+
+-
+    from: "/features/testing-types"
+    to: "/features/testing-types/manual-testing/overview"
+
+-
+    from: "/user-guide/verifications/image-verification.aspx"
+    to: "/features/recorder/verifications/image-verification"
+-
+    from: "/user-guide/verifications/image-verification"
+    to: "/features/recorder/verifications/image-verificationt"
+-
+    from: "/features/verifications/image-verification"
+    to: "/features/recorder/verifications/image-verificationt"
+
+
+-
+    from: "/user-guide/knowledge-base/test-execution/using-baseurl.aspx"
+    to: "/knowledge-base/test-execution-kb/base-url"
+-
+    from: "/user-guide/knowledge-base/test-execution/using-baseurl"
+    to: "/knowledge-base/test-execution-kb/base-url"
+
+
+-
+    from: "/user-guide/getting-started/using-telerik-testing-framework.aspx"
+    to: "/testing-framework/getting-started"
+-
+    from: "/user-guide/getting-started/using-telerik-testing-framework"
+    to: "/testing-framework/getting-started"
+
+-
+    from: "/user-guide/test-runners/artoftestrunner.aspx"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "/user-guide/test-runners/artoftestrunner"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "/user-guide/command-line-test-execution/artoftestrunner.aspx"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "/user-guide/command-line-test-execution/artoftestrunner"
+    to: "/features/test-runners/artoftest-runner"
+
+-
+    from: "/user-guide/code-samples/general/extracted-variables-in-code"
+    to: "/advanced-topics/coded-samples/general/extracted-variables-in-code"
+-
+    from: "/user-guide/code-samples/general/extracted-variables-in-code.aspx"
+    to: "/advanced-topics/coded-samples/general/extracted-variables-in-code"
+
+
+-
+    from: "/user-guide/modifying-tests/convert-all-steps-to-code"
+    to: "/features/test-maintenance/convert-steps-code"
+-
+    from: "/user-guide/modifying-tests/convert-all-steps-to-codes.aspx"
+    to: "/features/test-maintenance/convert-steps-code"
+
+
+-
+    from: "/user-guide/coded_steps/code-behind-file"
+    to: "/features/coded-steps/code-behind-file"
+-
+    from: "/user-guide/coded_steps/code-behind-file.aspx"
+    to: "/features/coded-steps/code-behind-file"
+-
+    from: "/advanced-topics/coded-steps/code-behind-file"
+    to: "/features/coded-steps/code-behind-file"
+
+-
+    from: "/user-guide/coded_steps/add-an-assembly-reference"
+    to: "/features/coded-steps/add-assembly-reference"
+-
+    from: "/user-guide/coded_steps/add-an-assembly-reference.aspx"
+    to: "/features/coded-steps/add-assembly-reference"
+-
+    from: "/advanced-topics/coded-steps/add-assembly-reference"
+    to: "/features/coded-steps/add-assembly-reference"
+
+-
+    from: "/user-guide/coded_steps"
+    to: "/features/coded-steps/coded-step"
+-
+    from: "/user-guide/coded_steps.aspx"
+    to: "/features/coded-steps/coded-step"
+-
+    from: "/advanced-topics/coded-steps/coded-step"
+    to: "/features/coded-steps/coded-step"
+
+-
+    from: "/user-guide/modifying-tests/change-test-step-properties"
+    to: "/features/test-maintenance/change-test-step-properties"
+-
+    from: "/user-guide/modifying-tests/change-test-step-properties.aspx"
+    to: "/features/test-maintenance/change-test-step-properties"
+
+-
+    from: "/user-guide/modifying-tests/test-test-step-context-menu"
+    to: "/features/test-maintenance/test-step-context-menu"
+-
+    from: "/user-guide/modifying-tests/test-test-step-context-menu.aspx"
+    to: "/features/test-maintenance/test-step-context-menu"
+
+-
+    from: "/user-guide/modifying-tests/test-properties-vs-plugin"
+    to: "/features/test-maintenance/test-properties-vs-plugin"
+-
+    from: "/user-guide/modifying-tests/test-properties-vs-plugin.aspx"
+    to: "/features/test-maintenance/test-properties-vs-plugin"
+
+-
+    from: "/user-guide/modifying-tests/test-properties"
+    to: "/features/test-maintenance/test-properties"
+-
+    from: "/user-guide/modifying-tests/test-properties.aspx"
+    to: "/features/test-maintenance/test-properties"
+
+-
+    from: "/user-guide/modifying-tests/storyboard"
+    to: "/features/test-maintenance/storyboard"
+-
+    from: "/user-guide/modifying-tests/storyboard.aspx"
+    to: "/features/test-maintenance/storyboard"
+
+-
+    from: "/user-guide/modifying-tests/steps-pane-overview"
+    to: "/features/test-maintenance/steps-pane-overview"
+-
+    from: "/user-guide/modifying-tests/steps-pane-overview.aspx"
+    to: "/features/test-maintenance/steps-pane-overview"
+
+-
+    from: "/user-guide/modifying-tests/search_test_steps"
+    to: "/features/test-maintenance/search-test-steps"
+-
+    from: "/user-guide/modifying-tests/search_test_steps.aspx"
+    to: "/features/test-maintenance/search-test-steps"
+
+-
+    from: "/user-guide/modifying-tests/reorder-test-steps"
+    to: "/features/test-maintenance/reorder-test-steps"
+-
+    from: "/user-guide/modifying-tests/reorder-test-steps.aspx"
+    to: "/features/test-maintenance/reorder-test-steps"
+
+-
+    from: "/user-guide/modifying-tests/change-step-target-element"
+    to: "/features/test-maintenance/change-step-target-element"
+-
+    from: "/user-guide/modifying-tests/change-step-target-element.aspx"
+    to: "/features/test-maintenance/change-step-target-element"
+
+-
+    from: "/getting-started/create-test-standalone/wpf-test"
+    to: "/features/testing-types/wpf-testing/wpf-test"
+
+-
+    from: "teststudio/index"
     to: "/welcome"
 -
     from: "^/introduction/for-team-leads$"
