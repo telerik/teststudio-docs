@@ -137,7 +137,7 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 <tr>
 	<td>**XamlTag**</td><td>Get the XAML tag name of this FrameworkElement. This is used for hierarchy matching and traversal.</td>
 </tr>
-<table>
+</table>
 
 ## The FrameworkElement Methods
 
@@ -247,6 +247,6 @@ These are all of the FrameworkElement methods available for use by your automati
 <tr>
 	<td>**ToXml**</td><td>Gets an XML formatted string that represents this element and all its children This XML represents the VisualTree.</td>
 </tr>
-<table>
+</table>
 
 [1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png

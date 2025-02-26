@@ -32,11 +32,11 @@ Click the __'Read License Agreement'__ button to get familiar with it and confir
 
 By clicking the __'I Agree and Continue'__ button you confirm you agree to the terms and conditions listed in the Test Studio EULA.
 
-![Setup Wizzard](../../img/general-information/installation/install-procedure/fig1.png)
+![Setup Wizzard](/img/general-information/installation/install-procedure/fig1.png)
 
 On the next screen, click  the __'Install'__ button to perform a default installation and skip to <a href="#finish-installation">Finish Installation</a>.
 
-![Install](../../img/general-information/installation/install-procedure/fig2.png)
+![Install](/img/general-information/installation/install-procedure/fig2.png)
 
 If you need to check what components are selected for installation and change these, click the __'Customize'__ button.
 
@@ -50,7 +50,7 @@ In the __Customize__ screen you can see each separate component, which the insta
 - Telerik Controls Translators and
 - Test Studio Services.
 
-![Components to be installed](./img/general-information/installation/install-procedure/fig3-listOfComponents.png)
+![Components to be installed](/img/general-information/installation/install-procedure/fig3-listOfComponents.png)
 
 Any of these can be removed or added in the __Customize__ screen. You are also allowed to change the default installation path. After making your selections, click the __'OK'__ button to continue.
 
@@ -61,9 +61,9 @@ There are a few important notes to consider if you select some of the below comp
 - To add the __Storage, Scheduling and Executive Dashboard features__ at a later stage, <a href="/getting-started/installation/add-services" target="_blank">you must change the existing installation</a> and select the respective components in the __Customize__ screen.
 - Storage service uses <a href="https://www.mongodb.com" target="_blank">MongoDB</a> as storage database and this gets automatically installed, if not available on the machine. __MongoDB requires at least 4Gb free hard drive space__ to operate normally.
 
-![Install services](./img/general-information/installation/install-procedure/fig3.png)
+![Install services](/img/general-information/installation/install-procedure/fig3.png)
 
-![Install services](./img/general-information/installation/install-procedure/fig4.png)
+![Install services](/img/general-information/installation/install-procedure/fig4.png)
 
 ![Install services](/img/general-information/installation/install-procedure/fig5.png)
 

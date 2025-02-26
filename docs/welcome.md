@@ -51,7 +51,7 @@ Test Studio also supports load and performance testing by allowing you to conver
 
 * __Validating PDFs__ – add <a href="/automated-tests/recording/pdf-validation" target="_blank">PDF validation</a> steps during test recording or whenever you need to during automation.
 
-<table id=no-table>
+<table id="no-table" style="border:none;">
 <tr>
 <td valign=top>
 
@@ -110,4 +110,4 @@ Test Studio also supports load and performance testing by allowing you to conver
 
 </td>
 </tr>
-<table>
+</table>

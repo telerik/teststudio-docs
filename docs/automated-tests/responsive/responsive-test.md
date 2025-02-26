@@ -16,12 +16,16 @@ The __Responsive Web test__ in Test Studio is a separate type of test, which req
 
 To add a __Responsive Web test__ to your project, use the respective type of test to create. You can use the option both from the Project Ribbon or from the <a href="/features/project-explorer/overview#project-context-menu-options" target="_blank">Project Explorer context menu</a>.
 
-<table id="no-table">
-	<tr>
-		<td>![Project Ribbon][1] <br><br>**Project Ribbon**</td>
-		<td>![Project Explorer][2] <br><br>**Project Explorer**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Project Ribbon][1] <br><br>**Project Ribbon**</td>
+<td>
+		
+![Project Explorer][2] <br><br>**Project Explorer**</td>
+</tr>
+</table>
 
 ## Configure a Device to Simulate
 

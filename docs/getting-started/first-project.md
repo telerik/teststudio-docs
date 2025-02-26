@@ -94,12 +94,16 @@ One Test Studio project allows you to include different types of tests:
 - <a href="/automated-tests/performance/overview" target="_blank">__Manual Test__</a> - a test in which you can add steps to manually execute against any application. This can be converted to a web test if automating a web page.
 - __Performance Test__ - a Performance test is always related to a valid web test and is being executed on top of this.
 
-<table id=no-table>
-	<tr>
-		<td>![Add new Test from Ribbon](/img/getting-started/first-project/add-new-test1.png) <td>
-		<td>![Add new Test from Project root](/img/getting-started/first-project/add-new-test2.png)</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Add new Test from Ribbon](/img/getting-started/first-project/add-new-test1.png) <td>
+<td>
+
+![Add new Test from Project root](/img/getting-started/first-project/add-new-test2.png)</td>
+</tr>
+</table>
 
 ## Types of Files in Test Studio Project
 

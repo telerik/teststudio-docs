@@ -40,7 +40,7 @@ To help demonstrate these benefits, we will be using the following simple markup
      <input type="text" id="yourname" />
      <input type="text" id="zipcode" />
      <!-- Italian restaurants in your zipcode -->
-     <table>
+     </table>
        <tr>
          <td>Name</td>
          <td>Address</td>

@@ -87,7 +87,7 @@ padding: 8px;
 <tr>
 	<td>> 60 hours</td><td>10 minutes</td>
 </tr>
-<table>
+</table>
 
 ## Test Run Goals
 

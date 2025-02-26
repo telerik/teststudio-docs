@@ -138,7 +138,7 @@ For example: AssertCheck.IsTrue() will verify the associated checkbox control is
 	<td>RowRange</td>
 	<td>Asserts if the number of rows is not inside or not outside of the specified range.</td>
 </tr>
-<table>
+</table>
 
 Now let's see how this works in action:
 

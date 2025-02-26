@@ -163,7 +163,7 @@ padding: 8px;
 <tr>
 	<td>Responses Received per Second</td><td>The number of HTTP responses received per second across all virtual users. </td>
 </tr>
-<table>
+</table>
 
 [1a]: /img/features/testing-types/load-testing/analyzing-results/fig1a.png
 [1]: /img/features/testing-types/load-testing/analyzing-results/fig1.png

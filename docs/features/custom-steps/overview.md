@@ -40,12 +40,16 @@ The __General__ section in the __Step Builder__ is divided in three sub-sections
 
 - The __Common__ section consists of different steps suggestions based on the type of test - web, desktop or WPF.
 
-<table id="no-table">
-	<tr>
-		<td>![Common web test steps][5] <br><br>**Web Test**</td>
-		<td>![Common WPF test steps][7] <br><br>**WPF Test**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Common web test steps][5] <br><br>**Web Test**</td>
+<td>
+
+![Common WPF test steps][7] <br><br>**WPF Test**</td>
+</tr>
+</table>
 
 1. [Test as Step](/features/custom-steps/test-as-step) - run an existing test as a single step.
 1. [API Test as Step](/features/execute-apitest/add-api-test-as-step) - run an existing API test as a single step.

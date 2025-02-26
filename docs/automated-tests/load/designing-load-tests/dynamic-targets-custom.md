@@ -27,15 +27,21 @@ Once any custom targets are added to the user profile these will be displayed un
 - **Search Result**: Click to show the reuslt based on the search query.
 - **Current Value**: Display the current reuslt based on the search query.
 
-<table id="no-table">
-	<tr>
-		<td>__Source Body__<br>![Source Section Properties][7]</td>
-		<td>__Source Headers__<br>![Source Section Properties][8]</td>
-    </tr>
-    <tr>
-        <td>__Source Cookie__<br>![Source Section Properties][9]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Source Section Properties][7] <br>**Source Body**</td>
+<td>
+
+![Source Section Properties][8] <br>**Source Headers**</td>
+</tr>
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Source Section Properties][9] <br>**Source Cookie**</td>
+</tr>
+</table>
 
 ### Search Options
 

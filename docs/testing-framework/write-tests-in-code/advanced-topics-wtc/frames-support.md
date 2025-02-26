@@ -39,7 +39,7 @@ Frames are treated just like another browser instance. In order to work with the
 	<td>Takes a string that specifies the source of the frame. Prefix with a tilde (~) to indicate a partial match.</td>
 	<td>This method searches for a frame that matches the specified string and then returns a Browser object representing that frame that you can use to interact with the frame. Returns null if no matching frame can be found. </td>
 </tr>
-<table>
+</table>
 
 Telerik Testing Framework allows users to access frames and perform automation against these frames just like any other page. A frame is simply a mini browser window inside your web page that can host its own HTML document. That is why frames are represented as Browser objects and are accessible using the **Frames[]** collection of the browser object that contains the 'iframe' or 'frameset' elements.
  

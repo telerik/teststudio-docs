@@ -14,12 +14,16 @@ If a test list is scheduled to be executed any time in the future or is set for 
 
 In the Results tab when you hover over a scheduled job, a small X button appears. After clicking that Test Studio will prompt you for deleting the scheduled job.
 
-<table id="no-table">
-<tr>
-<td>![X button][1]</td>
-<td>![Delete Series][2]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![X button][1]</td>
+<td>
+
+![Delete Series][2]</td>
 </tr>
-<table>
+</table>
 
 ## Delete the Physical File That Represents the Scheduled Job
 

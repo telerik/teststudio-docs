@@ -127,11 +127,13 @@ To stop the current recording session __close the automated browser or WPF/deskt
 
 The specifics of the recording process allow to __attach a recorder and trigger a recording session to an already running WPF application__. To start such recording session you need to use the dropdown under the __Record__ button - in the list you can see all compatible processes, to which Test Studio recorder can be attached. Select one and wait for the __Compact Recorder__ to attach to the application.
 
-<table id=no-table>
-	<tr>
-		<td>![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
+</tr>
+</table>
 
 > **Note**
 > <br>

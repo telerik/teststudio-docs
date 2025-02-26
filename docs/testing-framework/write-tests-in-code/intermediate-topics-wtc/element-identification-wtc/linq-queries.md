@@ -25,7 +25,7 @@ The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Som
 	<td>Gets an IEnumerable for TControl to be used for LINQ queries. This will return only elements that are convertible to TControl.</td>
 	<td>var images = Find.AllControls<HtmlImage>();</td>
 </tr>
-<table>
+</table>
 
 Using LINQ we can create strongly typed advanced queries with intellisense support that we couldn't before. The most basic LINQ example is something like this:
 

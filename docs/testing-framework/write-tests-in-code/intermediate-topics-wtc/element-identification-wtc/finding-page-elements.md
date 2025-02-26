@@ -251,7 +251,7 @@ Assert.IsNotNull(btn);
 ````
 </td>
 </tr>
-<table>
+</table>
 
 ## Identification Methods Usage
 

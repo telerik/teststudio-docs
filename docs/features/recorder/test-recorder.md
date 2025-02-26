@@ -28,12 +28,16 @@ There are two ways to initiate recording. You can either launch a new browser or
 
 1.&nbsp;  Open the test by double clicking on it. Click the **Record** button in the **Tests** tab or press **CTRL+R**.
 
-<table id=no-table>
-	<tr>
-		<td>![Test Studio][1] <br><br>**Standalone version**</td>
-		<td>![VS][2] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Test Studio][1] <br><br>**Standalone version**</td>
+<td>
+
+![VS][2] <br><br>**VS plugin**</td>
+</tr>
+</table>
 
 2.&nbsp; Type the URL you want to navigate to or select it from recent URLs. Choose the recording browser (for web tests) and press Enter or the *Record* button in that window.
 
@@ -55,12 +59,16 @@ If you enable **Save my choice for the future** or set a preferred browser from 
 
 Click the drop-down arrow on the **Record** button to see a list of available IE browser instances or WPF applications. Select one to attach the recorder to that instance.
 
-<table id=no-table>
-	<tr>
-		<td>![Attach to running browser][6] <br><br>**Web Test - Internet Explorer only**</td>
-		<td>![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Attach to running browser][6] <br><br>**Web Test - Internet Explorer only**</td>
+<td>
+
+![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
+</tr>
+</table>
 
 ## See also 
 

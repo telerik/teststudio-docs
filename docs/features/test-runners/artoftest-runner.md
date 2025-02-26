@@ -390,7 +390,7 @@ padding: 8px;
 <tr>
 	<td>**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
 </tr>
-<table>
+</table>
 
 
 [1]: /img/features/test-runners/artoftest-runner/fig1.png

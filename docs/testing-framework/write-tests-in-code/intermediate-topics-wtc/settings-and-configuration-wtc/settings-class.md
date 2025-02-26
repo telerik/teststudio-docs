@@ -279,4 +279,4 @@ This table lists all of the WebAii framework settings that are available for you
 	<td>The full physical path to the web application root.</td>
 	<td>string.Empty</td>
 </tr>
-<table>
+</table>

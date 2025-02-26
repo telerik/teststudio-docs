@@ -34,12 +34,16 @@ In order to avoid this duplication in the feature recording of your tests change
 
 1. Open Project Settings.
 
-	<table id="no-table">
+	<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+	<td>
+	
+	![Standalone][5]<br>**Standalone version**</td>
+	<td>
+	
+	![VS Plugin][6]<br>**VS Plugin**</td>
 	<tr>
-	<td>![Standalone][5]<br>**Standalone version**</td>
-	<td>![VS Plugin][6]<br>**VS Plugin**</td>
-	<tr>
-	<table>
+	</table>
 
 2. Click **Recording Options**.
 

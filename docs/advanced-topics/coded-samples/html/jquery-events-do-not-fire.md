@@ -13,13 +13,20 @@ In some cases, Test Studio does not automatically call local jQuery events. You 
 
 Inputting text into <a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_change" target="_blank">this</a> simple HTML text box triggers a jQuery event that changes the background color of the text box.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
 	<tr>
-		<td>![Before Selection][1] </br></br>**Before Selection**</td>
-		<td>![Available Selections][2] </br></br>**Available Selections**</td>
-		<td>![After Selection][3] </br></br>**After Selection**</td>
-	</tr>
-<table>
+		<td style="text-align: center;">
+		
+![Before Selection][1] </br></br>**Before Selection**</td>
+<td style="text-align: center;">
+
+![Available Selections][2] </br></br>**Available Selections**</td>
+<td style="text-align: center;">
+
+![After Selection][3] </br></br>**After Selection**</td>
+
+</tr>
+</table>
 
 This is the HTML for the text input element:
 

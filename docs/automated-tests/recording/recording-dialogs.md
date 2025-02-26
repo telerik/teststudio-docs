@@ -54,23 +54,23 @@ JavaScript generates three type of popup messages and these are as follows:
 
 To try out these types of dialogs you can use the _'Try It Yourself'_ buttons on each example for the <a href="https://www.w3schools.com/js/js_popup.asp" target="_blank">W3School JavaScript Popup Boxes</a> page. Here are the steps recorded in a test for each of the dialog boxes.
 
-<table id=no-table>
-<tr>
-<td>![Alert dialog](/img/automated-tests/recording/dialogs/alert-dialog-step.png)<br>__Handle Alert Dialog__</td>
+<table id=no-table style="background-color: transparent; border:none;">
+<tr style="background-color: transparent; border:none;">
+<td style="background-color: transparent; border:none;"><img src="/img/automated-tests/recording/dialogs/alert-dialog-step.png" alt="Alert dialo"><br><strong>Handle Alert Dialog</strong></td>
 </tr>
-<table>
+</table>
 
-<table id=no-table>
-<tr>
-<td>![Confirm dialog](/img/automated-tests/recording/dialogs/confirm-dialog-step.png)<br>__Handle Confirm Dialog__</td>
+<table id=no-table style="background-color: transparent; border:none;">
+<tr style="background-color: transparent; border:none;">
+<td style="background-color: transparent; border:none;"><img src="/img/automated-tests/recording/dialogs/confirm-dialog-step.png" alt="Confirm dialog"><br><strong>Handle Confirm Dialog</strong></td>
 </tr>
-<table>
+</table>
 
-<table id=no-table>
-<tr>
-<td>![Prompt dialog](/img/automated-tests/recording/dialogs/prompt-dialog-step.png)<br>__Handle Prompt Dialog__</td>
+<table id=no-table style="background-color: transparent; border:none;">
+<tr style="background-color: transparent; border:none;">
+<td style="background-color: transparent; border:none;"><img src="/img/automated-tests/recording/dialogs/prompt-dialog-step.png" alt="Prompt dialog"><br><strong>Handle Prompt Dialog</strong></td>
 </tr>
-<table>
+</table>
 
 > __Tip__
 ><br>
@@ -88,11 +88,11 @@ Due to the specifics of this dialog and the Test Studio recording process flow, 
 3. One option is to enter the valid credentials to login to the page and then <a href="/features/dialogs-and-popups/dialogs#add-a-handle-dialog-step-manually" target="_blank">manually insert the step to handle the Logon dialog</a>.
 4. The other option is to __first cancel the logon dialog__ - there is no step added in the test because the recorder is not yet active. Once the page returns the message that access is denied, the Test Studio recorder gets attached to the browser. On __manually refreshing the page__ from the browser, the __logon dialog prompts again__ and this time, while you enter your credentials to access the page, Test Studio __records your actions and adds the step__ in the test.
 
-<table id=no-table>
-<tr>
-<td>![Logon dialog](/img/automated-tests/recording/dialogs/logon-dialog-step.png)<br>__Handle Logon Dialog__</td>
+<table id=no-table style="background-color: transparent; border:none;">
+<tr style="background-color: transparent; border:none;">
+<td style="background-color: transparent; border:none;"><img src="/img/automated-tests/recording/dialogs/logon-dialog-step.png" alt="Logon dialog"><br><strong>Handle Prompt Dialog</strong></td>
 </tr>
-<table>
+</table>
 
 ## Download and Upload File Dialogs in Web Test
 
@@ -111,11 +111,11 @@ The Upload File opens a __Open__ dialog in Windows File Explorer in which the us
 
 Test Studio fetches the selected folder and file and automatically populates the complete file path into the __Handle Upload dialog__ step. 
 
-<table id=no-table>
-<tr>
-<td>![Upload dialog](/img/automated-tests/recording/dialogs/upload-dialog-step.png)<br>__Handle Upload Dialog__</td>
+<table id=no-table style="background-color: transparent; border:none;">
+<tr style="background-color: transparent; border:none;">
+<td style="background-color: transparent; border:none;"><img src="/img/automated-tests/recording/dialogs/upload-dialog-step.png" alt="Upload dialog"><br><strong>Handle Prompt Dialog</strong></td>
 </tr>
-<table>
+</table>
 
 > __Tip!__
 ><br>
@@ -133,11 +133,12 @@ The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in w
 
 Handling of a download dialog typically requires handling a sequence of dialogs - the browser prompts to download a file and the File Explorer lets you choose the destination path; optionally, handling a prompt message that a file with the same name already exists in the selected folder - the existing file is overwritten in such case. Test Studio fetches all actions taken and automatically records the __Handle Download dialog__ step and populates the complete file path and name. 
 
-<table id=no-table>
-<tr>
-<td>![Download dialog](/img/automated-tests/recording/dialogs/download-dialog-step.png)<br>__Handle Download Dialog__</td>
+<table id=no-table style="background-color: transparent; border:none;">
+<tr style="background-color: transparent; border:none;">
+<td style="background-color: transparent; border:none;"><img src="/img/automated-tests/recording/dialogs/download-dialog-step.png" alt="Download dialog"><br><strong>Handle Prompt Dialog</strong></td>
 </tr>
-<table>
+</table>
+
 
 > __Tip!__
 ><br>

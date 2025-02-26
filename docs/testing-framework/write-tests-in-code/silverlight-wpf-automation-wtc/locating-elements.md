@@ -58,7 +58,7 @@ All of the common methods for finding an element to operate on are:
 <tr>
 	<td>**Find.ByType**</td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
 </tr>
-<table>
+</table>
 
 ## The Find Strategy
 
@@ -80,7 +80,7 @@ The Find object has a 'Strategy' property that controls how the method behaves w
 <tr>
 	<td>**WhenNotVisibleThrowException**</td><td>In this mode a generic exception is thrown if the element cannot be found right away.</td>
 </tr>
-<table>
+</table>
 
 ## Finding All Elements
 
@@ -114,7 +114,7 @@ All of the Find.AllByxxx functions are:
 <tr>
 	<td>**Find.AllByAutomationID()/Find.AllByAutomationID\<T>**</td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
 </tr>
-<table>
+</table>
 
 ## Scoped Searches
 

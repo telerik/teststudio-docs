@@ -11,12 +11,16 @@ The Elements Explorer in a Test Studio project is the visual representation of a
 
 The Elements Explorer pane provides a one-stop shop to view all elements used in the project and edit the way they are found during execution. You can find the Elements Explorer under/next to the Project's Explorer on the left bottom pane.
 
-<table id=no-table>
-	<tr>
-		<td>![Standalone Version][1] <br><br>**Standalone version**</td>
-		<td>![VS Plugin][2] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Standalone Version][1] <br><br>**Standalone version**</td>
+<td>
+
+![VS Plugin][2] <br><br>**VS plugin**</td>
+</tr>
+</table>
 
 > __Tip__
 > <br>
@@ -27,13 +31,19 @@ The Elements Explorer pane provides a one-stop shop to view all elements used in
 
 The elements are organized under Page nodes (and also <a href="/general-information/test-recording/frames" target="_blank">Frame nodes</a> if there are frames used in the web page) for web applications and Application and Window Caption nodes for WPF applications.
 
-<table id="no-table">
-<tr>
-<td>![HTML Tree View][4]<br>**HTML Tree View**</td>
-<td>![Silverlight Tree View][5]<br>**Silverlight Tree View**</td>
-<td>![WPF Tree View][6]<br> **WPF Tree View**</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![HTML Tree View][4]<br>**HTML Tree View**</td>
+<td>
+
+![Silverlight Tree View][5]<br>**Silverlight Tree View**</td>
+<td>
+
+![WPF Tree View][6]<br> **WPF Tree View**</td>
 </tr>
-<table>
+</table>
 
 - The HTML tree view is organized by **Page > Frame > Test Regions > Element**.
 - The Silverlight tree view is organized by **Page > Frame > SilverlightApp > Element**.

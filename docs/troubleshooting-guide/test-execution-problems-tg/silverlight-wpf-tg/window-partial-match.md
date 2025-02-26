@@ -15,12 +15,16 @@ I have a dynamic window title in my application. Elements in the window cannot b
 
 Edit the **Caption** property for the Window node in the Elements Explorer. Use a leading tilde (~) character to indicate a partial match and remove the dynamic portion.
 
-<table id="no-table">
-<tr>
-<td>![fig1][1]<br>![fig2][2]<br>**Original Window Caption**</td>
-<td>![fig3][3]<br>![fig4][4]<br>**Edited for Partial Match**</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![fig1][1]<br>![fig2][2]<br>**Original Window Caption**</td>
+<td>
+
+![fig3][3]<br>![fig4][4]<br>**Edited for Partial Match**</td>
 </tr>
-<table>
+</table>
 
 [1]: /img/troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg/window-partial-match/fig1.png
 [2]: /img/troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg/window-partial-match/fig2.png

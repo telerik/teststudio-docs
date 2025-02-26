@@ -646,6 +646,10 @@ redirects:
     to: "/features/testing-types/wpf-test"
 
 -
+    from: "/features/testing-types"
+    to: "/features/testing-types/manual-testing/overview"
+
+-
     from: "/user-guide/verifications/image-verification.aspx"
     to: "/features/recorder/verifications/image-verification"
 -

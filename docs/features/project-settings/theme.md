@@ -13,52 +13,76 @@ The default theme of Test Studio is **Light**. You can change it to **Dark** and
 The screenshots below show different views from Test Studio in both themes.
 
 Project theme settings
-<table id="no-table">
-<tr>
-<td>![Light Settings][1]</td>
-<td>![Dark Settings][2]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Light Settings][1]</td>
+<td>
+
+![Dark Settings][2]</td>
 </tr>
-<table>
+</table>
 
 Test Studio Welcome screen
-<table id="no-table">
-<tr>
-<td>![Light Welcome][3]</td>
-<td>![Dark Welcome][4]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Light Welcome][3]</td>
+<td>
+
+![Dark Welcome][4]</td>
 </tr>
-<table>
+</table>
 
 Test Studio test development
-<table id="no-table">
-<tr>
-<td>![Light Test Studio][5]</td>
-<td>![Dark Test Studio][6]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Light Test Studio][5]</td>
+<td>
+
+![Dark Test Studio][6]</td>
 </tr>
-<table>
+</table>
 
 Test Studio Test Runner
-<table id="no-table">
-<tr>
-<td>![Light Test Runner][7]</td>
-<td>![Dark Test Runner][8]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Light Test Runner][7]</td>
+<td>
+
+![Dark Test Runner][8]</td>
 </tr>
-<table>
+</table>
 
 Schedule a test list for remote execution
-<table id="no-table">
-<tr>
-<td>![Light TestList][9]</td>
-<td>![Dark TestList][10]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Light TestList][9]</td>
+<td>
+
+![Dark TestList][10]</td>
 </tr>
-<table>
+</table>
 
 Visual Studio integration with matching theme colors
-<table id="no-table">
-<tr>
-<td>![Light Visual Studio][11]</td>
-<td>![Dark Visual Studio][12]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Light Visual Studio][11]</td>
+<td>
+
+![Dark Visual Studio][12]</td>
 </tr>
-<table>
+</table>
 
 [1]: /img/features/project-settings/theme/fig1.png
 [2]: /img/features/project-settings/theme/fig2.png

@@ -44,12 +44,16 @@ In this article you can find the following topics:
 
 8.&nbsp; Choose **Conditions** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a> and add **if...else** step.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Standalone][4]<br>**Standalone version**</td>
+<td>
+
+![VS Plugin][5]<br>**VS Plugin**</td>
 <tr>
-<td>![Standalone][4]<br>**Standalone version**</td>
-<td>![VS Plugin][5]<br>**VS Plugin**</td>
-<tr>
-<table>
+</table>
 
 9.&nbsp; From the drop down in the IF step select the previously recorded verification.
 

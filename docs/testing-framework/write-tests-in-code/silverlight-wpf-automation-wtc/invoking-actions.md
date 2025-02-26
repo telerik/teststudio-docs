@@ -114,7 +114,7 @@ All of the Telerik Testing Framework UI controls derive from the FrameworkElemen
 <tr>
 	<td>**Width**</td><td>Gets or sets the suggested width of a FrameworkElement.</td>
 </tr>
-<table>
+</table>
 
 ## UI Element Actions
 
@@ -155,7 +155,7 @@ We have implemented a few special properties in our FrameworkElement object to a
 <tr>
 	<td>**XamlTag**</td><td>Gets the XAML tag name of this FrameworkElement. This is used for hierarchy matching and traversal.</td>
 </tr>
-<table>
+</table>
 
 ## Telerik Testing Framework Specific Methods
 
@@ -180,7 +180,7 @@ The FrameworkElement class implements a number of methods just for purpose of te
 <tr>
 	<td>**ScrollToVisible()**</td><td>Scrolls the browser so that the Framework Element is visible.</td>
 </tr>
-<table>
+</table>
 
 ## Getting and Setting Properties on Elements
 

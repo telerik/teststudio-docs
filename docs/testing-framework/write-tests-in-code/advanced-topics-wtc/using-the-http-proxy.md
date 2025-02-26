@@ -48,7 +48,7 @@ In this namespace you will find the following methods classes:
 	<td>**ResponseListenerInfo**</td>
 	<td>Wraps a listener for BeforeResponse events from the proxy.</td>
 </tr>
-<table>
+</table>
 
 You must enable the HTTP proxy before you can start using it. This setting is turned off by default. This can be done either by adding the setting to your .config file or modifying the setting in the Settings object. To add the setting to your .config file add this to your .config file:
 

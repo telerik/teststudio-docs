@@ -157,7 +157,7 @@ padding: 8px;
 <tr>
 	<td>**WaitTime**</td><td>Time to wait in milliseconds.</td><td>With an Execution Delay step. </td>
 </tr>
-<table>
+</table>
 
 ## Comment
 
@@ -168,7 +168,7 @@ padding: 8px;
 <tr>
 	<td>**Comment**</td><td>The text comment to display as a single test step in the test log.</td><td>To insert a comment into the test log next to the step. </td>
 </tr>
-<table>
+</table>
 
 ## Data Driven
 
@@ -179,7 +179,7 @@ padding: 8px;
 <tr>
 	<td>**(Bindings)**</td><td>Bind data driven properties against a data source. Click the drop-down to see properties that support data binding.</td><td>To data bind the step to a specific column from the data source.</td>
 </tr>
-<table>
+</table>
 
 ## Dialog Indentification
 
@@ -196,7 +196,7 @@ padding: 8px;
 <tr>
 	<td>**MatchPartialTitle**</td><td>Whether to use partial text matching to match the dialog title.</td><td>To match an exact or partial dialog title. </td>
 </tr>
-<table>
+</table>
 
 ## Download
 
@@ -207,7 +207,7 @@ padding: 8px;
 <tr>
 	<td>**DownloadPath**</td><td>The download location to set for the download dialog.</td><td>To change where a file is saved by the Download dialog handler step. </td>
 </tr>
-<table>
+</table>
 
 ## Drag Settings
 
@@ -218,7 +218,7 @@ padding: 8px;
 <tr>
 	<td>**Offset**</td><td>ClickUnitType - the unit of point to use: percentage or pixel.<br>OffSetReference - the reference point of screen to use for the click.<br>X - the x-axis offset from reference point.<br>Y - the y-axis offset from reference point.</td><td>To start the drag from an offset of the source element, as opposed to absolute center. </td>
 </tr>
-<table>
+</table>
 
 ## Drop Settings
 
@@ -235,7 +235,7 @@ padding: 8px;
 <tr>
 	<td>**DropTargetType**</td><td>The type of drop target to use for the drag drop.</td><td>To drop the source element to a window or element target. Element targets tend to be more reliable. </td>
 </tr>
-<table>
+</table>
 
 ## Elements
 
@@ -261,7 +261,7 @@ padding: 8px;
 <tr>
 	<td>**Virtualizing Container Offset**</td><td>The offset to scroll the virtualizing container to before searching for the target element of this step.</td><td>(Silverlight only) </td>
 </tr>
-<table>
+</table>
 
 ## Execution
 
@@ -293,7 +293,7 @@ padding: 8px;
 <tr>
 	<td>**WaitOnElementsTimeout**</td><td>Number of milliseconds to wait for element to exist if <em>WaitOnElements</em> is true.</td><td>To specifically increase one step's element locating timeout. </td>
 </tr>
-<table>
+</table>
 
 ## Extraction
 
@@ -304,7 +304,7 @@ padding: 8px;
 <tr>
 	<td>**DataBindVariableName**</td><td>The name with which this extraction is published.</td><td>To change the Extraction variable used for later data binding. </td>
 </tr>
-<table>
+</table>
 
 ## jQuery
 
@@ -315,7 +315,7 @@ padding: 8px;
 <tr>
 	<td>**TriggerjQueryEvent**</td><td>During step execution, attempt to trigger proper jQuery event.</td><td>Step is expected to trigger a jQuery event on the page.</td>
 </tr>
-<table>
+</table>
 
 ## Handle Button
 
@@ -332,7 +332,7 @@ padding: 8px;
 <tr>
 	<td>**HandleButtonMethod**</td><td>Identification method of the handle method. <em>NoneCloseDialog</em> simply attempts to knock down the dialog using the Close button.</td><td>To change the handle method for a Generic dialog.</td>
 </tr>
-<table>
+</table>
 
 ## Logon
 
@@ -346,7 +346,7 @@ padding: 8px;
 <tr>
 	<td>**UserName**</td><td>The user name to use to log on.</td><td>To edit the user name in a Logon dialog handler step. </td>
 </tr>
-<table>
+</table>
 
 ## Manual Properties
 
@@ -360,7 +360,7 @@ padding: 8px;
 <tr>
 	<td>**ManualDescription**</td><td>Description displayed in <em>Execute Manual Step</em> dialog.</td><td>To edit the message displayed in the Manual step dialog. </td>
 </tr>
-<table>
+</table>
 
 ## Misc
 
@@ -413,7 +413,7 @@ padding: 8px;
 <tr>
 	<td>**WaitTimeout**</td><td>The timeout to use for waiting.</td><td>With a Wait For Url step.</td>
 </tr>
-<table>
+</table>
 
 ## Upload
 
@@ -424,7 +424,7 @@ padding: 8px;
 <tr>
 	<td>**FileUploadPath**</td><td>The file upload path on disk.</td><td>To change the upload path. </td>
 </tr>
-<table>
+</table>
 
 ## Verification
 
@@ -456,7 +456,7 @@ padding: 8px;
 <tr>
 	<td>**Value**</td><td>Represents the expected value of the property.</td><td>To change the value to verify. </td>
 </tr>
-<table>
+</table>
 
 ## Wait
 
@@ -476,7 +476,7 @@ padding: 8px;
 <tr>
 	<td>**Timeout**</td><td>The wait time when acting as a wait.</td><td>To increase or decrease the wait time. </td>
 </tr>
-<table>
+</table>
 
 
 [1]: /img/features/test-maintenance/test-step-properties/step-properties.png

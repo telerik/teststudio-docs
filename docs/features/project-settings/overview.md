@@ -14,12 +14,16 @@ Use the **Project Settings** to configure how tests are recorded, fine tune how 
 
 On the **Project** ribbon in Test Studio Standalone version find the **Settings** button which opens the Project Settings window. In the Visual Studio plugin, the gear icon in the toolbar loads the same Project Settings window.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Standalone][1]<br>**Standalone version**</td>
+<td>
+
+![VS Plugin][2]<br>**VS Plugin**</td>
 <tr>
-<td>![Standalone][1]<br>**Standalone version**</td>
-<td>![VS Plugin][2]<br>**VS Plugin**</td>
-<tr>
-<table>
+</table>
 
 The available settings are divided in few areas:
 

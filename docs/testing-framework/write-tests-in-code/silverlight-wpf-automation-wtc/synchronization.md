@@ -34,7 +34,7 @@ The framework has many features implemented to aid you in synchronizing with you
 <tr>
 	<td>**For(Predicate)**</td><td>This method takes a custom predicate and waits for that predicate to return true. It accepts an optional error message and an optional timeout parameter.</td>
 </tr>
-<table>
+</table>
 
 ## Waiting for an Element to Exist
 

@@ -13,12 +13,16 @@ Have a smooth getting started experience with the guided interactive tutorials b
 
 You can start a tutorial from the Test Studio [**Welcome Screen**](/automated-tests/customize-project/welcome-screen#get-started) or from within the product.
 
-<table id="no-table">
-<tr>
-<td>![Welcome Screen][1]<br>**Start from Welcome Screen**</td>
-<td>![In-product][2]<br>**Start In-Product**</td>
-<tr>
-<table>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td style="text-align: center; background-color: transparent; border:none;">
+
+![Welcome Screen][1]<br>**Start from Welcome Screen**</td>
+<td style="text-align: center; background-color: transparent; border:none;">
+
+![In-product][2]<br>**Start In-Product**</td>
+</tr>
+</table>
 
 ## Scenarios to Guide You Through
 

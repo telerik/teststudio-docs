@@ -15,12 +15,16 @@ We recommend that you consider changing your application in order to make it use
 
 1. Open the Project Settings menu:
 
-	<table id="no-table">
+	<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+	<td>
+	
+    ![Standalone][1]<br>**Standalone version**</td>
+	<td>
+	
+	![VS Plugin][2]<br>**VS Plugin**</td>
 	<tr>
-	<td>![Standalone][1]<br>**Standalone version**</td>
-	<td>![VS Plugin][2]<br>**VS Plugin**</td>
-	<tr>
-	<table>
+	</table>
 
 2. Go to **Find Logic** from the navigation bar on the left:
 

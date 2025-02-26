@@ -14,12 +14,20 @@ This is possible with a coded solution. Here's an example:
 
 Let's automate <a href="http://www.checkdomain.com/" target ="_blank">checkdomain.com</a> to check whether the domains listed in an Excel file are still available. We'll write Registered or Available into the first column of the Excel file for each domain name.
 
-<table id="no-table">
-	<tr>
-		<td>![Before Test Run][1] <br><br>**Before Test Run**</td>
-		<td>![After Test Run][2] <br><br>**After Test Run**</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td style="text-align: center;">
+
+![Before Test Run][1]
+<strong>Before Test Run</strong>
+</td>
+		<td style="text-align: center;">
+
+![After Test Run][2]
+<strong>After Test Run</strong>
+        </td>
 	</tr>
-<table>
+</table>
 
 Here's a sample test that automates this case:
 

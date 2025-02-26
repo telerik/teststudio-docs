@@ -42,12 +42,16 @@ The **Performance** test list type allows you to execute **performance runs for 
 
 The **Manual** type of list allows you to add only **manual** tests and execute them together (the rest of the tests are greyed out). Run the manual tests sequentially or toggle back and forth between them using the **Previous** and **Next** buttons at the bottom.
 
-<table id="no-table">
-	<tr>
-		<td>![Previous][2]</td>
-		<td>![Next][3]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![Previous][2]</td>
+<td>
+		
+![Next][3]</td>
+</tr>
+</table>
 
 ## <strong>Dynamic Test Lists</strong>
 

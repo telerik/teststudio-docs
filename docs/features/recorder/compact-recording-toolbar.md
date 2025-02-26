@@ -62,12 +62,16 @@ From the **Compact Recording Toolbar** you can also access the <a href="/feature
 
 Choose between vertical and horizontal **Compact Recording Toolbar** and move it around inside or outside the tested application.
 
-<table id=no-table>
-	<tr>
-		<td>![Horizontal Toolbar][12]</td>
-		<td>![Vertical Toolbar][13]</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Horizontal Toolbar][12]</td>
+<td>
+
+![Vertical Toolbar][13]</td>
 	</tr>
-<table>
+</table>
 
 [1]: /img/features/recorder/compact-recording-toolbar/anim1.gif
 [1a]: /img/features/recorder/compact-recording-toolbar/fig1.png

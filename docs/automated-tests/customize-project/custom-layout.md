@@ -77,12 +77,16 @@ If you want to place the panel separately, you can use the arrows on the right, 
 
 If you select the center of the target panel, the undocked panel will appear as a tab next to the target panel.
 
-<table id=no-table>
-	<tr>
-		<td>![choose center][5]</td>
-		<td>![tabs][6]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="background-color: transparent; border:none;">
+		<td>
+
+![choose center][5]</td>
+<td>
+
+![tabs][6]</td>
+</tr>
+</table>
 
 ### Hide or Show a Panel
 

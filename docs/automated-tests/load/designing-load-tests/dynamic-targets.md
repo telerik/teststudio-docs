@@ -75,15 +75,21 @@ __See Also:__ A sample scenario to cover with the help of custom dynamic targets
 - **Search Result**: Click to show the result based on the search query.
 - **Current Value**: Display the current result based on the search query.
 
-<table id="no-table">
-	<tr>
-		<td>__Source Body__<br>![Source Section Properties][7]</td>
-		<td>__Source Headers__<br>![Source Section Properties][8]</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+__Source Body__<br>![Source Section Properties][7]</td>
+		<td>
+		
+__Source Headers__<br>![Source Section Properties][8]</td>
     </tr>
-    <tr>
-        <td>__Source Cookie__<br>![Source Section Properties][9]</td>
-	</tr>
-<table>
+    <tr style="text-align: center; background-color: transparent; border:none;">
+        <td>
+
+__Source Cookie__<br>![Source Section Properties][9]</td>
+</tr>
+</table>
 
 ### Search Options
 
@@ -168,16 +174,24 @@ URL
 	* __Ex.:__ http://google.com/{value} - if the extracted value is _test_, the URL will be appended as _http://google.com/test_.
 	* __Ex.:__ http://google.com/{value}/id=1379 - if the extracted value is _test_, the URL will be appended as _http://google.com/test/id=1379_.
 
-<table id="no-table">
-	<tr>
-		<td>__Append Query Parameter__<br>![Append Query Parameter][11]</td>
-		<td>__Append Header__<br>![Append Header][12]</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+__Append Query Parameter__<br>![Append Query Parameter][11]</td>
+<td>
+
+__Append Header__<br>![Append Header][12]</td>
     </tr>
-    <tr>
-        <td>__Append Cookie__<br>![Append Cookie][13]</td>
-		<td>__Append URL__<br>![Append URL][14]</td>
-	</tr>
-<table>
+    <tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+		
+__Append Cookie__<br>![Append Cookie][13]</td>
+<td>
+
+__Append URL__<br>![Append URL][14]</td>
+</tr>
+</table>
 
 > __Note!__ The above examples only represent how to append some predefined text before or after the dynamic value for the different types of destination fields. These are no real example of working HTTP calls.
 

@@ -301,7 +301,7 @@ In addition there are many other features that make the abstraction even more po
 	<td></td>
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
-<table>
+</table>
 *Table 1. List of HTML element control wrappers contained in Telerik Testing Framework's HTML control suite.*
 
 Here is a list of the base classes along with the properties and methods they expose:
@@ -380,7 +380,7 @@ Here is a list of the base classes along with the properties and methods they ex
 	Refresh</td>
 	<td><a href="#" target="_blank">HtmlContainerControl</a></td>
 </tr>
-<table>
+</table>
 *Table 2. List of base classes used by Telerik Testing Framework's HTML control suite.*
 
 Here is a list of the support classes that make it easier to use the rest of the HTML control suite:
@@ -423,7 +423,7 @@ Here is a list of the support classes that make it easier to use the rest of the
 	ForVisibleNot</td>
 	<td>Wait</td>
 </tr>
-<table>
+</table>
 *Table 3. List of HtmlControl support classes contained in Telerik Testing Framework's HTML control suite.*
 
 ## Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite

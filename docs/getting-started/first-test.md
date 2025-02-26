@@ -94,12 +94,16 @@ The click-and-record functionality in Test Studio is designed to record the user
 
 6. The configured application - WPF or Desktop - starts and once it is loaded entirely the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Compact Recording Toolbar__</a> gets attached to it.
 
-    <table id="no-table">
-    <tr>
-    <td> ![Attached recorder WPF app][9] <br><br>Recording WPF Application</td>
-    <td> ![Attached recorder desktop app][10] <br><br>Recording Desktop Application</td>
-    <tr>
-    <table>
+    <table id="no-table" style="border:none;">
+    <tr style="text-align: center; background-color: transparent; border:none;">
+    <td>
+    
+![Attached recorder WPF app][9] <br><br>Recording WPF Application</td>
+<td>
+    
+![Attached recorder desktop app][10] <br><br>Recording Desktop Application</td>
+<tr>
+</table>
 
 7. To __stop the recording session__, close the application instance (browser, desktop or WPF) with the attached Recording Toolbar.
 

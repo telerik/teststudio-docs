@@ -9,12 +9,16 @@ published: false
 
 Firefox dialogs require special attention because some of them are not standard Win32 dialogs, for example Firefox's download manager dialog. As a result the usual method for handing dialogs does not work with Firefox dialogs. Here is what the download manager dialog looks like:
 
-<table id="no-table">
-	<tr>
-		<td>![Firefox download manager dialog window][1] <br><br>**Firefox download manager dialog window**</td>
-		<td>![Firefox download manager dialog window after download completes][2] <br><br>**Firefox download manager dialog window after download completes**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+        
+![Firefox download manager dialog window][1] <br><br>**Firefox download manager dialog window**</td>
+<td>
+        
+![Firefox download manager dialog window after download completes][2] <br><br>**Firefox download manager dialog window after download completes**</td>
+</tr>
+</table>
 
 Using Microsoft's Spy++ tool the first thing we discover about this dialog is that the class name is **MozillaUIWindowClass** instead of the standard dialog class name of #**32770**. As a result this dialog will not be included in the WindowCollection list that is passed in to the IsDialogActive function. This is because DialogMonitor filters the desktop windows on the class name #**32770**. This fact alone necessitates rolling our own custom dialog handler using the IDialog interface to overcome this problem.
  

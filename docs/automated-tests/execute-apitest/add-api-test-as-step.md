@@ -20,12 +20,16 @@ Double click it to trigger the ___'Select API test'___ dialog.
 
 The available options are either to create a new test or import an existing one.
 
-<table id="no-table">
-	<tr>
-		<td>![Create an API Test][3]</td>
-		<td>![Add existing API test][4]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![Create an API Test][3]</td>
+<td>
+		
+![Add existing API test][4]</td>
+</tr>
+</table>
 
 ## Create Test
 
