@@ -2,7 +2,7 @@
 title: Firefox
 page_title: Firefox
 description: "Configure Firefox to use for testing with Test Studio. Prerequisites for testing against Firefox with Test Studio. Firefox extension not found."
-position: 1
+position: 3
 ---
 
 

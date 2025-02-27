@@ -1,7 +1,7 @@
 ---
 title: FAQ
 page_title: Frequently asked questions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio is an innovative and easy-to-use automated web, WPF and desktop testing solution. Test Studio tests support a proprietary Testing framework, functional UI testing, web responsive testing, etc. Find out more info reading through our FAQ section."
 position: 101
 previous_url: /user-guide/faq.aspx, /user-guide/faq
 ---
@@ -215,12 +215,6 @@ As with any other system, there are some guidelines to follow in order for you t
 
 ## License Keys
 
-<p class="trigger"><a href="#">Do I need a license key to run RadControls?</a></p>
-<div class="toggle_container">
-   <div class="block">
-        <p>No, you don’t. None of the RadControls suites (ASP.NET AJAX, Telerik Extensions for ASP.NET MVC, WinForms, Silverlight, WPF, Windows Phone), as well as Telerik Reporting, Telerik OpenAccess ORM, Telerik JustCode and Telerik JustMock utilize license keys. This applies to both, trial and purchased licenses.</p>
-    </div>
-</div>
 
 <p class="trigger"><a href="#">Do I need a license key to install Test Studio / Test Studio Run-Time Edition?</a></p>
 <div class="toggle_container">

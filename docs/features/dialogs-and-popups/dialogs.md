@@ -66,7 +66,7 @@ The __FileUploadPath__ accepts multiple files listed quoted and space separated.
 
 The __FilePath__ property is mandatory for the __SaveFile__ and __OpenFile__ dialogs. They require a valid full path to the file to interact with.
 
-![FilePath step property][7]
+![FilePath property in WPF SaveFile][7]
 
 > __Tip!__
 ><br>
@@ -76,7 +76,9 @@ The __FilePath__ property is mandatory for the __SaveFile__ and __OpenFile__ dia
 ><br>
 > For example, if the user selects a destination folder under the current Windows user folder __Test Studio automatically converts the path using the Windows variable %USERPROFILE%__.
 
+The __FilePath__ property in __OpenFile__ dialog accepts multiple files listed quoted and space separated. These will be uploaded if the server accepts multiple files upload.
 
+![FilePath property in WPF OpenFile][8]
 
 [1]: /img/features/dialogs-and-popups/dialogs/dialog-step-builder.png
 [2]: /img/features/dialogs-and-popups/dialogs/timeouts-extended-menu.png
@@ -84,4 +86,5 @@ The __FilePath__ property is mandatory for the __SaveFile__ and __OpenFile__ dia
 [4]: /img/features/dialogs-and-popups/dialogs/button-warning.png
 [5]: /img/features/dialogs-and-popups/dialogs/download-path.png
 [6]: /img/features/dialogs-and-popups/dialogs/file-upload-extended-menu.png
-[7]: /img/features/dialogs-and-popups/dialogs/filepath-in-savefile-dialog.png.png
+[7]: /img/features/dialogs-and-popups/dialogs/filepath-in-savefile-dialog.png
+[8]: /img/features/dialogs-and-popups/dialogs/open-file-dialog-multiple-file.png
