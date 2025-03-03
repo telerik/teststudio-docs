@@ -19,8 +19,8 @@ In this article you can find out more about dialog handling in Test Studio tests
     - [Upload Dialog](#upload-dialog)
     - [Download Dialog](#download-dialog)
   - [SaveFile and OpenFile Dialogs in WPF Test](#savefile-and-openfile-dialogs-in-wpf-test)
-    - [Upload Dialog](#upload-dialog-1)
-    - [Download Dialog](#download-dialog-1)
+    - [OpenFile Dialog](#openfile-dialog)
+    - [SaveFile Dialog](#savefile-dialog)
   - [How to Handle a Popup Page Opened in New Tab](#how-to-handle-a-popup-page-opened-in-new-tab)
   - [Maintain the Handle Dialog and Popup Steps](#maintain-the-handle-dialog-and-popup-steps)
 
@@ -156,7 +156,7 @@ The SaveFile and OpenFile actions usually require more than one single interacti
 ><br>
 > The __user needs to have read/write permissions for the folders__ in which is the file to upload or save. Check here if you get prompted for insufficient permissions 
 
-### Upload Dialog 
+### OpenFile Dialog 
 
 The OpenFile action opens a __OpenFile__ dialog in Windows File Explorer in which the user browses to a specific folder and selects a specified file to be uploaded. Test Studio fetches the selected folder and file and automatically populates the complete file path into the __Handle OpenFile dialog__ step. 
 
@@ -174,13 +174,13 @@ The OpenFile action opens a __OpenFile__ dialog in Windows File Explorer in whic
 ><br>
 > For example, if the user selects a destination folder under the current Windows user folder __Test Studio automatically converts the path using the Windows variable %USERPROFILE%__.
 
-### Download Dialog
+### SaveFile Dialog
 
 The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in which the user browses to a specific folder and enters name for the file to be downloaded. Handling the download dialog typically requires interacting with a sequence of dialogs - the application prompts to download a file and the File Explorer lets you choose the destination path; optionally, handling a prompt message that a file with the same name already exists in the selected folder - the existing file is overwritten in such case. Test Studio fetches all actions taken and automatically records the __Handle SaveFile dialog__ step and populates the complete file path and name. 
 
 <table id=no-table>
 <tr>
-<td>![Download dialog](/img/automated-tests/recording/dialogs/saveFile-dialog-step.png)<br>__Handle SaveFile Dialog__</td>
+<td>![SaveFile dialog](/img/automated-tests/recording/dialogs/saveFile-dialog-step.png)<br>__Handle SaveFile Dialog__</td>
 </tr>
 <table>
 
