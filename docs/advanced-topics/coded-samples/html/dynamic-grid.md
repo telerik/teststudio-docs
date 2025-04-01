@@ -94,4 +94,3 @@ checkbox.MouseClick();
 [2]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig2.png
 [3]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig3.png
 [4]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig4.png
-[5]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig5.png

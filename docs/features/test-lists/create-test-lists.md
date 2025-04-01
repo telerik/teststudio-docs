@@ -109,9 +109,9 @@ Once you have created a test list, you can <a href="/automated-tests/test-lists/
 [1]: /img/features/test-lists/create-test-list/fig1.png
 [2]: /img/features/test-lists/create-test-list/fig2.png
 [2a]: /img/features/test-lists/create-test-list/fig2a.png
-[3]: /img/features/test-lists/create-test-list/fig3.png
-[4]: /img/features/test-lists/create-test-list/fig4.png
-[5]: /img/features/test-lists/create-test-list/fig5.png
+
+
+
 [6]: /img/features/test-lists/create-test-list/fig6.png
 [7]: /img/features/test-lists/create-test-list/fig7.png
 [8]: /img/features/test-lists/create-test-list/fig8.png

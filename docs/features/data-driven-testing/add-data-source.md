@@ -113,12 +113,7 @@ Adding a database source requires additional details compared to adding an Excel
 > Find examples for **[How to connect to a SQL Database](/features/data-driven-testing/sql-database-example)** and **[How to connect to an Oracle Database](/features/data-driven-testing/oracle-db-example)**.
 
 [1]: /img/features/data-driven-testing/add-data-source/fig1.png
-[2]: /img/features/data-driven-testing/add-data-source/fig2.png
-[3]: /img/features/data-driven-testing/add-data-source/fig3.png
 [4]: /img/features/data-driven-testing/add-data-source/fig4.png
-[5]: /img/features/data-driven-testing/add-data-source/fig5.png
-[6]: /img/features/data-driven-testing/add-data-source/fig6.png
-[7]: /img/features/data-driven-testing/add-data-source/fig7.png
 [8]: /img/features/data-driven-testing/add-data-source/fig8.png
 [9]: /img/features/data-driven-testing/add-data-source/fig9.png
 [9a]: /img/features/data-driven-testing/add-data-source/fig9a.png

@@ -4,7 +4,7 @@ page_title: Disabled Attribute (HTML)
 description: How to verify an HTML element attribute is disabled. Many website developers will setup buttons or other elements within the site to be "disabled" until a certain action occurs. When using Test Studio to test this, it is sometimes necessary to create a special verification that confirms that the button (in this example) is visible but disabled (not clickable/usable)
 position: 1
 ---
-# How to Verify the Disabled Attribute (HTML)
+## How to Verify the Disabled Attribute (HTML)
 
 Many website developers will setup buttons or other elements within the site to be "disabled" until a certain action occurs. When using Test Studio to test this, it is sometimes necessary to create a special verification that confirms that the button (in this example) is visible but disabled (not clickable/usable). You can similarly verify that the disabled attribute no longer exists, indicating the button is clickable/usable.
 

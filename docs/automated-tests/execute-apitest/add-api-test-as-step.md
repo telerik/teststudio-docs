@@ -60,5 +60,3 @@ Once the test is imported click on it and then the _Select_ button. If there are
 [5]: /img/features/execute-apitest/add-api-test-as-step/browse-apitest.png
 [6]: /img/features/execute-apitest/add-api-test-as-step/warning.png
 [7]: /img/features/execute-apitest/add-api-test-as-step/select-test.png
-[8]: /img/features/execute-apitest/add-api-test-as-step/fig8.png
-[9]: /img/features/execute-apitest/add-api-test-as-step/fig9.png

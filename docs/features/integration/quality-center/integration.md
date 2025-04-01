@@ -72,4 +72,3 @@ Open a File Explorer and navigate to the Test Studio installation _Bin_ sub-fold
 [4]: /img/features/integration/quality-center/integration/fig4.png
 [5]: /img/features/integration/quality-center/integration/fig5.png
 [6]: /img/features/integration/quality-center/integration/fig6.png
-[7]: /img/features/integration/quality-center/integration/fig7.png

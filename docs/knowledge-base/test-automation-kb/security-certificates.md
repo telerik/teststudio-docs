@@ -4,7 +4,7 @@ page_title: Security Certificates
 description: Security (SSL) Certificates. Browser prompt certificate warning. 
 position: 1
 ---
-# Security Certificates
+## Security Certificates
 
 Security (SSL) Certificates are tricky to automate because each browser prompts its warning differently. Because Test Studio only records in Internet Explorer, the "Continue to this website" link pictured below is recorded and expected to pass when executed in IE. That specific link does not exist in the other browsers, so we expect the test to fail at that step in Firefox, Safari, and Chrome.
 

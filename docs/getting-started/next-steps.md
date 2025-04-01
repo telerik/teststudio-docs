@@ -24,7 +24,7 @@ The successful recording and execution of your first test is just the beginning.
 
 * The [**Results Tab**](/general-information/test-results/analyze-test-list-results) provides overview of the executed test lists. You can drill down and investigate the individual test steps.
 
-* Test Studio supports different [**Continuous Integration and Deployment (CD/CI)**](/advanced-topics/build-server/continious-integration-overview.html) tools and allows you to execute tests when the build completes.
+* Test Studio supports different [**Continuous Integration and Deployment (CD/CI)**](/automated-tests/continuous-integration/continious-integration-overview) tools and allows you to execute tests when the build completes.
 
 * [**Custom Step from Step Builder**](/features/custom-steps/overview) is for manually adding a specific step or condition to the test.
 

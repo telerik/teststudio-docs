@@ -4,7 +4,7 @@ page_title: Generate and Update Communication Key
 description: Generate Communication Key for the Test Studio Scheduling configuration. Import the new key for all Test Studio components across all involved machines. 
 position: 1
 ---
-# Generate New Communication Key 
+## Generate New Communication Key 
 
 The **Communication Key** is required by all Test Studio Scheduling components - services and clients, to establish the connection and communicate between each other. You can get the current key or generate a new one in the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Scheduling Config wizard</a>. 
 
@@ -16,18 +16,18 @@ Find useful details on the available options to manage the Communication key val
 
 The **Communication** tab in the Scheduling Config wizard lets you manage the current key in use or generate and import a new one. 
 
-![Communication key tab](/img/features//scheduling-test-runs/create-scheduling-server/communication-tab.png)
+![Communication key tab](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png)
 
 The **Current Key** section indicates which is the key in use. The Scheduling setup is configured to use a default communication key for each Test Studio installation. Thus, after initial install you see the current key is the __Default Key Loaded__. In this configuration you can't copy or see the key. 
 
-![Default Communication key](/img/features//scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png)
+![Default Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png)
 
 
 ### Generate New Key
 
 The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. Hit the **Import** button to replace the current key with the new one. 
 
-![Replace Communication key](/img/features//scheduling-test-runs/create-scheduling-server/communication-tab-replace-key.png)
+![Replace Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-replace-key.png)
 
 > **Note**
 > <br>
@@ -43,7 +43,7 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 
 Once a custom key is generated and imported, the **Current Key** section allows you to copy the value of the key using the __Copy to Clipboard__ button, or see it using the __Show__ button (for the cases when copying is not an option). The key value can be reset to the default value using the __Reset to Default__ button.
 
-![Custom Communication key](/img/features//scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png)
+![Custom Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png)
 
 The copied key must be imported on all machines included in the Test Studio Scheduling setup.
 

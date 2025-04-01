@@ -89,8 +89,8 @@ To remove the external data source associated with a test, right click that test
 
 ![Remove Data Binding][8]
 
-[1]: /img/features/data-driven-testing/bind-test-data-source/fig1.png
-[2]: /img/features/data-driven-testing/bind-test-data-source/fig2.png
+
+
 [3]: /img/features/data-driven-testing/bind-test-data-source/fig3.png
 [4]: /img/features/data-driven-testing/bind-test-data-source/fig4.png
 [5]: /img/features/data-driven-testing/bind-test-data-source/fig5.png

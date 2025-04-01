@@ -111,10 +111,10 @@ domain=(?<val>.*?)$
 <br>
 > __Note!__ As of now there is no visual representation for any custom dynamic targets within the __Edit User Profile__ view. To verify if the HTTP requests are built as you expect you could use <a href="https://www.telerik.com/fiddler" target="_blank">Fiddler</a> to capture the traffic of a sample load test execution and inspect these.
 
-[1]: /img/features/testing-types/load-testing/dynamic-targets/fig1.png
-[2]: /img/features/testing-types/load-testing/dynamic-targets/fig2.png
-[3]: /img/features/testing-types/load-testing/dynamic-targets/fig3.png
-[4]: /img/features/testing-types/load-testing/dynamic-targets/fig4.png
+
+
+
+
 [5]: /img/features/testing-types/load-testing/dynamic-targets/fig5.png
 [6]: /img/features/testing-types/load-testing/dynamic-targets/fig6.png
 [7]: /img/features/testing-types/load-testing/dynamic-targets/fig7.png

@@ -4,7 +4,7 @@ page_title: Upgrade Existing MongoDB to Version 4.0
 description: Upgrade an existing MongoDB version lower than 3.6 to MongoDB version 4.0 or higher. Problems with starting MongoDB service. Not able to use Test Studio Scheduling feature. MongoDB service unable to start. 
 position: 10
 ---
-# Upgrade Existing MongoDB to Version 4.0
+## Upgrade Existing MongoDB to Version 4.0
 
 MongoDB is a third party database used by Test Studio to store the project data required for scheduling tests on remote machines. We strive to keep this working out of the box, though there are upgrades of the Mongo, which affect the database used by Test Studio.
 

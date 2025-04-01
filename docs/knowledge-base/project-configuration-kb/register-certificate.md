@@ -4,7 +4,7 @@ page_title: Register Certificate
 description: "Register Certificate for HTTPS Connection. I encounter certificate-related warnings when the Test Studio recorder or runner is attached to the browser. Load Test cannot navigate to the desired page due to security warning certificate error"
 position: 1
 ---
-# Register Certificate for HTTPS Connection
+## Register Certificate for HTTPS Connection
 
 When running performance and load tests, you might encounter warnings for the website's security certificate against https pages.
 

@@ -4,7 +4,7 @@ page_title: Fix Trimmed Numeric Values
 description: External data source from CSV file is trimmed after the numeric separator. Data is not the same when you bind it to a test. IP values are not full in data driven test.
 position: 6
 ---
-# Numeric Values from External Data Source are Trimmed
+## Numeric Values from External Data Source are Trimmed
 
 ## Problem
 

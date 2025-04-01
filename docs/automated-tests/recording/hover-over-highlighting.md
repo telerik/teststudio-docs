@@ -95,16 +95,10 @@ In certain occasions you may need to scroll the page and change the visible part
 
 There are additional actions and verifications you can add against the selected element. For example, you can add mouse actions and <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">advanced verification steps</a> for attribute, image or text from image.
 
-[1]: /img/features/recorder/compact-recording-toolbar/anim1.gif
-[2]: /img/features/recorder/compact-recording-toolbar/fig2.png
-[3]: /img/features/recorder/compact-recording-toolbar/fig3.png
-[4]: /img/features/recorder/compact-recording-toolbar/fig4.png
+
+
+
+
 [5]: /img/features/recorder/compact-recording-toolbar/fig5.png
 [6]: /img/features/recorder/compact-recording-toolbar/fig6.png
 [7]: /img/features/recorder/compact-recording-toolbar/fig7.png
-[8]: /img/features/recorder/compact-recording-toolbar/fig8.png
-[9]: /img/features/recorder/compact-recording-toolbar/fig9.png
-[10]: /img/features/recorder/compact-recording-toolbar/fig10.png
-[11]: /img/features/recorder/compact-recording-toolbar/fig11.png
-[12]: /img/features/recorder/compact-recording-toolbar/fig12.png
-[13]: /img/features/recorder/compact-recording-toolbar/fig13.png

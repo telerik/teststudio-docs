@@ -4,7 +4,7 @@ page_title: Exported Results
 description: What exported Load results show. Overall Test Statistics. HTTP Statistics by URI. Status Codes by URI.
 position: 1
 ---
-# Understand Exported Load Results
+## Understand Exported Load Results
 
 The Test Studio Load Test <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">Analysis Screen</a> displays graphical results. If you export your load test results in HTML or .XLSX format, the results appear as a table. This document contains tips on interpreting this data.
 

@@ -4,7 +4,7 @@ page_title: Extract run results from MongoDB
 description: Extract run results from Storage database MongoDB
 position: 9
 ---
-# Extract run results from MongoDB
+## Extract run results from MongoDB
 
 ## Data Overview
 

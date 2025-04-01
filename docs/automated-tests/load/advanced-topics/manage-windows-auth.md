@@ -39,7 +39,7 @@ If your test is <a href="/features/data-driven-testing/bind-test-data-source" ta
 
 ![Bind Win Auth][5]
 
-[1]: /img/features/testing-types/load-testing/manage-windows-auth/fig1.png
+
 [2]: /img/features/testing-types/load-testing/manage-windows-auth/fig2.png
 [3]: /img/features/testing-types/load-testing/manage-windows-auth/fig3.png
 [4]: /img/features/testing-types/load-testing/manage-windows-auth/fig4.png

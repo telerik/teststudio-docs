@@ -4,7 +4,7 @@ page_title: Fail test step or mark the entire test result as failed
 description: Even if all test steps are successful, you might need to fail one step or the entire test at the end of the execution. You can do that programmatically in OnAfterTestCompleted method.
 position: 1
 ---
-# Fail Step or Test Programatically
+## Fail Step or Test Programatically
 
 ## PROBLEM
 

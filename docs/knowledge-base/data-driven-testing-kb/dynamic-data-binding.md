@@ -5,7 +5,7 @@ description: I want my test to dynamically bind to a different data set at run-t
 previous_url: /user-guide/knowledge-base/data-driven-testing/dynamic-data-binding.aspx, user-guide/knowledge-base/data-driven-testing/dynamic-data-binding
 position: 1
 ---
-# Dynamic Data Binding
+## Dynamic Data Binding
 
 *I want my test to dynamically bind to a different data set at run-time. The data I want the test to use will depend on certain conditions of my application, but the test steps will always be the same.*
 

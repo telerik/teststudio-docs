@@ -27,7 +27,7 @@ When executing the tests from the <a href="/getting-started/test-execution/vs-20
 
 ![View test results 2012][6]
 
-[3]: /img/general-information/test-results/test-results-vs/fig3.png
-[4]: /img/general-information/test-results/test-results-vs/fig4.png
-[5]: /img/general-information/test-results/test-results-vs/fig5.png
+
+
+
 [6]: /img/general-information/test-results/test-results-vs/fig6.png

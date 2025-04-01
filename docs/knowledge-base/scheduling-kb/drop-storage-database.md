@@ -4,7 +4,7 @@ page_title: Drop The Storage Database
 description: Drop The Storage Database. The Telerik Storage Database cannot be accessed. Telerik Storage database gets corrupted. This can lead to execution of outdated test lists or even inability to execute a test list. Unable to find test file.  
 position: 9
 ---
-# Drop The Storage Database
+## Drop The Storage Database
 
 In certain situations the storage database can get corrupted and cannot be updated with the latest changes of your test lists. This can lead to execution of outdated test lists or even inability to execute a test list due to missing test files. 
 

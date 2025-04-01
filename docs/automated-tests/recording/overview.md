@@ -163,14 +163,14 @@ Below you can find a short description of each button in the toolbar (in the ord
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
 
 [1]: /img/automated-tests/recording/overview/fig1.png
-[2]: /img/automated-tests/recording/overview/fig2.png
+
 [3]: /img/automated-tests/recording/overview/fig3.png
-[4]: /img/automated-tests/recording/overview/fig4.png
+
 [5]: /img/automated-tests/recording/overview/fig5.png
 [5a]: /img/automated-tests/recording/overview/fig5a.png
 [6]: /img/automated-tests/recording/overview/fig6.png
 [10]: /img/automated-tests/recording/overview/fig10.png
 [11]: /img/automated-tests/recording/overview/fig11.png
 [12]: /img/automated-tests/recording/overview/fig12.png
-[8]: /img/features/recorder/test-recorder/fig6.png
+
 [7]: /img/features/recorder/test-recorder/fig7.png

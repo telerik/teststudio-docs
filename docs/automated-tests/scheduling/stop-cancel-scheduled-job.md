@@ -41,6 +41,3 @@ __C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Telerik\TestStudio\Sch
 
 [1]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig1.png
 [2]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig2.png
-[3]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig3.png
-[4]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig4.png
-[5]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig5.png

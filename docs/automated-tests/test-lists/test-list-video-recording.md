@@ -76,5 +76,5 @@ Click _"Other Options.."_ -> Uncheck _"Display encoder status"_
 
 [1]: /img/automated-tests/test-lists/test-list-runs-specifics/fig1.png
 [2]: /img/automated-tests/test-lists/test-list-runs-specifics/fig2.png
-[3]: /img/automated-tests/test-lists/test-list-runs-specifics/fig3.png
+
 [4]: /img/automated-tests/test-lists/test-list-runs-specifics/fig4.png

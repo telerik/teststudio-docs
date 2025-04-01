@@ -4,7 +4,7 @@ page_title: ReSharper Compatibility
 description: ReSharper Compatibility in Test Studio. Cannot resolve symbol error messages in Test Studio.
 position: 1
 ---
-# ReSharper Compatibility
+## ReSharper Compatibility
 
 *With ReSharper installed, you receive Cannot resolve symbol error messages in Test Studio code-behind files.*
 

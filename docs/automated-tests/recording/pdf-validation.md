@@ -103,4 +103,3 @@ Comparing the content of two PDF files is not a straight-forward scenario, but c
 [2b]: /img/automated-tests/recording/validate-pdf/fig2b.png
 [3]: /img/automated-tests/recording/validate-pdf/fig3.png
 [4]: /img/automated-tests/recording/validate-pdf/fig4.png
-[5]: /img/automated-tests/recording/validate-pdf/fig5.png

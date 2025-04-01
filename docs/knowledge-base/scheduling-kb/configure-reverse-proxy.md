@@ -4,7 +4,7 @@ page_title: Example Configuration for Reverse Proxy Server
 description: Example Configuration for Reverse Proxy Server to use for connecting to the Test Studio Scheduling setup. 
 position: 2
 ---
-# Reverse Proxy Server
+## Reverse Proxy Server
 
 Test Studio Standalone application allows connection to Scheduling setup configured behind a pre-configured reverse proxy using client and server certificates. The reverse proxy have to use TLS and to have client certificate authentication enabled.
 

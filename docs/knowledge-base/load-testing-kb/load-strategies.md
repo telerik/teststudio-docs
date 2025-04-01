@@ -4,7 +4,7 @@ page_title: Load Strategies
 description: Choose which load strategy will suit the current requirements and adjust the Test Strudio load test accordingly. Stress Testing. Baseline Tests and High Load Tests. Soak Testing. Scalability Testing. Geographic Diversity Testing. 
 position: 1
 ---
-# Types of Load Tests
+## Types of Load Tests
 
 There are many types of load tests, each designed to answer specific questions. Here are four common types of load test, and how to start building them in Test Studio.
 

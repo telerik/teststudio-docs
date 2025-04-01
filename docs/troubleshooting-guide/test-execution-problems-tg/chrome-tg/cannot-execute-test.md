@@ -15,6 +15,3 @@ When executing a test in Chrome, the browser opens and navigates to http://local
 ## SOLUTION
 
 Please refer to <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome" target="_blank">this article</a> for more information.
-
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/chrome-tg/cannot-execite-test/fig1.png
-[2]: /img/troubleshooting-guide/test-execution-problems-tg/chrome-tg/cannot-execite-test/fig2.png

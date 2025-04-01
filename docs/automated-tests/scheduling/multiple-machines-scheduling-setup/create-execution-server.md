@@ -178,14 +178,14 @@ The Run on start up option allows you to decide whether the Test Studio Session 
 [1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png
 [2]: /img/features/scheduling-test-runs/create-execution-server/fig2.png
 [2a]: /img/features/scheduling-test-runs/create-execution-server/fig2-configure-button.png
-[3]: /img/features/scheduling-test-runs/create-execution-server/fig3.png
-[4]: /img/features/scheduling-test-runs/create-execution-server/fig4.png
-[5]: /img/features/scheduling-test-runs/create-execution-server/fig5.png
+
+
+
 [6]: /img/features/scheduling-test-runs/create-execution-server/fig6.png
 [6a]: /img/features/scheduling-test-runs/create-execution-server/fig6a.png
 [6b]: /img/features/scheduling-test-runs/create-execution-server/fig6b.png
 [6c]: /img/features/scheduling-test-runs/create-execution-server/fig6c.png
-[7]: /img/features/scheduling-test-runs/create-execution-server/fig7.png
+
 [8]: /img/features/scheduling-test-runs/create-execution-server/fig8.png
 [8a]: /img/features/scheduling-test-runs/create-execution-server/start-session-monitor-win-menu.png
 [8b]: /img/features/scheduling-test-runs/create-execution-server/start-session-monitor-config.png

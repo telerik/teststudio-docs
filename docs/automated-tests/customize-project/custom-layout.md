@@ -154,7 +154,7 @@ Test Studio comes with a __Light__ and __Dark__ theme. Choose the one that suits
 [4a]: /img/automated-tests/customize-project/custom-layout/fig4a.png
 [5]: /img/automated-tests/customize-project/custom-layout/fig5.png
 [6]: /img/automated-tests/customize-project/custom-layout/fig6.png
-[7]: /img/automated-tests/customize-project/custom-layout/fig7.png
+
 [8a]: /img/automated-tests/customize-project/custom-layout/fig8a.png
 [8]: /img/automated-tests/customize-project/custom-layout/unpin-pane.gif
 [8b]: /img/automated-tests/customize-project/custom-layout/show-and-pin-pane.gif

@@ -4,7 +4,7 @@ page_title: Think Times
 description: Think times in Test Studioo Load test represents the time it takes a user to process the information received from the application and decide what to do next. It also represents other delays, like the amount of time spent filling in a form before submitting the content. Advantages if choosing the right Think Times in Test Studio load test. 
 position: 1
 ---
-# Think Times
+## Think Times
 
 In Test Studio Load Tests, <a href="/features/testing-types/load-testing/think-times" target="_blank">Think Time</a> represents the time it takes a user to process the information received from the application and decide what to do next. It also represents other delays, like the amount of time spent filling in a form before submitting the content.
 

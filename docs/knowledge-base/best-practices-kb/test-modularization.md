@@ -4,7 +4,6 @@ page_title: Test Modularization
 description: Best practices how to organize a Test Studio project to ease its maintenance in the future. Reusing tests across the project, using coded steps and custom code, data driven testing, data binding verification and input steps, dynamic data binding using extracted values in runtime. logical steps - if else, loop.
 position: 1
 ---
-# Test Modularization
 
 *How can I create common global functions for all my tests? Does Test Studio support global project variables or a built-in data store that can be used for all tests? Is there an ability to collaborate between tests, pass arguments to them, and run a set of tests without using test lists?*
 

@@ -25,4 +25,3 @@ The output of the compilation process is displayed in the <a href="/features/cod
 
 [1]: /img/features/coded-steps/compile-project/fig1.png
 [2]: /img/features/coded-steps/compile-project/fig2.png
-[3]: /img/features/coded-steps/compile-project/fig3.png

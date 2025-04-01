@@ -4,7 +4,7 @@ page_title: Selecting Traffic
 description: Select the traffic in a load user profile for useful and robust load test results. 
 position: 1
 ---
-# Selecting Load Traffic
+## Selecting Load Traffic
 
 There are many types of load tests, each with its own goals. But for most load tests, following a few general principles should provide more useful and robust load test results.
 

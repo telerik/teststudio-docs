@@ -4,7 +4,7 @@ page_title: Generate Application Log
 description: How to generate the Test Studio application log? The application log records all events happening in the UI and can be used when troubleshooting various errors, which appear while recording, executing tests or while maintaining the test project. Any unexpected errors can be also explored in the application log. 
 position: 1
 ---
-# How to Generate the Test Studio Application Log
+## How to Generate the Test Studio Application Log
 
 Test Studio application logging records all events triggered from the tool while recording tests, executing these or maintaining elements and tests in the project. It is a powerful source of information, which helps to investigate any sort of issues.
 
@@ -112,15 +112,14 @@ Start <a href="http://support2.microsoft.com/kb/136393" target="_blank">Regedit<
 
 Find (or create) the __TraceLogEnabled__ key in this folder. Double click it and change the Value data to 1. The __TraceLogPath__ value is where the log gets stored. Ensure to isnert the file full path with name and file extension like this **C:\Temp\TraceLog\log.txt**.
 
-[1]: /img/knowledge-base/best-practices-kb/generate-application-log/fig1.png
+
 [2]: /img/knowledge-base/best-practices-kb/generate-application-log/fig2.png
 [2a]: /img/knowledge-base/best-practices-kb/generate-application-log/fig2a.png
 [3]: /img/knowledge-base/best-practices-kb/generate-application-log/fig3.png
 [4]: /img/knowledge-base/best-practices-kb/generate-application-log/fig4.png
-[5]: /img/knowledge-base/best-practices-kb/generate-application-log/fig5.png
+
 [6]: /img/knowledge-base/best-practices-kb/generate-application-log/fig6.png
 [7]: /img/knowledge-base/best-practices-kb/generate-application-log/fig7.png
 [7a]: /img/knowledge-base/best-practices-kb/generate-application-log/fig7a.png
 [8]: /img/knowledge-base/best-practices-kb/generate-application-log/fig8.png
 [8a]: /img/knowledge-base/best-practices-kb/generate-application-log/fig8a.png
-[9]: /img/knowledge-base/best-practices-kb/generate-application-log/fig9.png

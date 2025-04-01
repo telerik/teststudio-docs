@@ -4,7 +4,7 @@ page_title: Execute Selenium Test with Test Studio
 description: Execute Selenium Test with Test Studio. Execute Selenium Test as part of Test Studio web test.
 position: 1
 ---
-# Execute Selenium Test with Test Studio
+## Execute Selenium Test with Test Studio
 
 If you have written your selenium tests using C# then you can easily execute them using Test Studio. Steps to proceed:
 

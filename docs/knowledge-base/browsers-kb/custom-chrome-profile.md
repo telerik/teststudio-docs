@@ -4,7 +4,7 @@ page_title: Custom Chrome Profile
 description: Calibrate the default Chrome Profile
 position: 2
 ---
-# How to Set a Custom Chrome Profile
+## How to Set a Custom Chrome Profile
 
 Test Studio allows you to create a custom profile in Chrome browser, which remains in use only when running tests from Test Studio.
 

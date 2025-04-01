@@ -44,4 +44,3 @@ Then, you can open the _Manage Data Source_ dialog, choose the data file to dele
 [1]: /img/features/data-driven-testing/manage-external-data-source/fig1.png
 [2]: /img/features/data-driven-testing/manage-external-data-source/fig2.png
 [3]: /img/features/data-driven-testing/manage-external-data-source/fig3.png
-[4]: /img/features/data-driven-testing/manage-external-data-source/fig4.png

@@ -530,9 +530,6 @@ redirects:
     from: "/features/data-driven-testing/multi-level-tests"
     to: "/automated-tests/data-drive-test/multi-level-tests"
 -
-    from: "/features/data-driven-testing/local-data-driven-test"
-    to: "/automated-tests/data-drive-test/local-data-driven-test"
--
     from: "/features/data-driven-testing/test-list-results"
     to: "/automated-tests/data-drive-test/ddt-results#test-list-results"
 -
@@ -817,10 +814,6 @@ redirects:
     to: "/features/scheduling-test-runs/advanced-topics/using-service-api"
 
 -
-    from: "/features/scheduling-test-runs/migrate-database"
-    to: "/features/scheduling-test-runs/advanced-topics/migrate-database"
-
--
     from: "/user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection"
     to: "/knowledge-base/project-configuration-kb/register-certificate"
 -
@@ -944,15 +937,6 @@ redirects:
 -
     from: "/user-guide/scheduling-test-runs/scheduling-results"
     to: "/features/scheduling-test-runs/scheduling-results"
-
-
--
-    from: "/user-guide/scheduling-test-runs/schedule-test-execution.aspx"
-    to: "/features/scheduling-test-runs/schedule-execution"
--
-    from: "/user-guide/scheduling-test-runs/schedule-test-execution"
-    to: "/features/scheduling-test-runs/schedule-execution"
-
 
 -
     from: "/user-guide/scheduling-test-runs/run-list-remotely.aspx"
@@ -1108,7 +1092,6 @@ redirects:
     from: "/features/testing-types/load-testing/running-tests"
     to: "/features/testing-types/load-testing/running-load-test/running-tests"
 
-
 -
     from: "/features/testing-types/load-testing/analyzing-results"
     to: "/features/testing-types/load-testing/load-testing-results/analyzing-results"
@@ -1116,16 +1099,9 @@ redirects:
     from: "/user-guide/load-testing/load-analyzing-results.aspx"
     to: "/features/testing-types/load-testing/load-testing-results/analyzing-results"
 
-
--
-    from: "/features/testing-types/load-testing/export-results"
-    to: "/features/testing-types/load-testing/load-testing-results/export-results"
-
-
 -
     from: "/features/testing-types/load-testing/troubleshooting-results-errors"
     to: "/features/testing-types/load-testing/load-testing-results/troubleshooting-results-errors"
-
 
 -
     from: "/features/testing-types/load-testing/export-results"
@@ -1615,36 +1591,12 @@ redirects:
     to: "/automated-tests/recording/hover-over-highlighting"
 
 -
-    from: "/general-information/test-execution/quick-execution"
-    to: "/automated-tests/test-execution/quick-execution"
-
--
     from: "/general-information/test-execution/quick-execution#execute-a-test"
     to: "/automated-tests/test-execution/quick-execution"
 
 -
     from: "/general-information/test-execution/quick-execution#execution-results"
     to: "/automated-tests/test-execution/quick-execution#quick-run-results"
-
--
-    from: "/general-information/test-execution/quick-execution#visual-debugger"
-    to: "/automated-tests/test-execution/quick-run-visual-debugger"
-
--
-    from: "/general-information/test-execution/quick-execution#debugger-options"
-    to: "/automated-tests/test-execution/quick-run-visual-debugger"
-
--
-    from: "/general-information/test-execution/quick-execution#execute-with-annotations"
-    to: "/automated-tests/test-execution/quick-run-annotations"
-
--
-    from: "/general-information/test-execution/quick-execution#execution-timeouts"
-    to: "/automated-tests/test-execution/quick-run-timeouts"
-
--
-    from: "/general-information/test-execution/quick-execution#baseurl"
-    to: "/automated-tests/test-execution/quick-run-baseurl"
 
 -
     from: "/general-information/test-execution/quick-execution#compare-mode"
@@ -1659,17 +1611,10 @@ redirects:
 -
     from: "/getting-started/test-results/quick-execution-test-step"
     to: "/automated-tests/test-results/quick-execute-test-step"
--
-    from: "/general-information/test-results/quick-execute-test-step"
-    to: "/automated-tests/test-results/quick-execute-test-step"
 
 -
     from: "/general-information/test-results/analyze-quick-run-results"
     to: "/automated-tests/test-results/analyze-quick-run-results"
-
--
-    from: "/general-information/test-results/step-failure-details"
-    to: "/automated-tests/test-results/step-failure-details"
 
 -
     from: "/archived-docs/recorder/overview"
@@ -1682,10 +1627,6 @@ redirects:
 -
     from: "/archived-docs/recorder/step-suggestions"
     to: "/archived-docs/recorder/step-suggestions-archive"
-
--
-    from: "/general-information/test-recording/overview"
-    to: "/automated-tests/recording/overview"
 
 -
     from: "/features/recorder/test-recorder"
@@ -1771,10 +1712,6 @@ redirects:
     to: "/automated-tests/test-execution/quick-run-baseurl"
 
 -
-    from: "/general-information/test-execution/quick-execution#compare-mode"
-    to: "/automated-tests/test-execution/quick-run-baseurl#adjust-the-compare-mode-for-urls"
-
--
     from: "/general-information/create-test-standalone/add-test"
     to: "/getting-started/first-test#add-a-test-to-the-project"
 
@@ -1853,10 +1790,6 @@ redirects:
 -
     from: "/general-information/test-execution/visual-studio-2012-and-later-test-list"
     to: "/archived-docs/results/visual-studio-2012-and-later-test-list"
-
--
-    from: "/general-information/test-results/analyze-quick-run-results"
-    to: "/automated-tests/test-results/analyze-quick-run-results"
 
 -
     from: "/general-information/test-results/analyze-test-list-results"
@@ -2504,12 +2437,6 @@ redirects:
 -
     from: "/troubleshooting-guide/browser-inconsistencies-tg/change-text-input-value"
     to: "https://docs.telerik.com/teststudio/automated-tests/recording/overview#how-to-add-steps-in-the-test"
--
-    from: "/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome"
-    to: "/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome"
--
-    from: "/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-ff"
-    to: "/prerequisites/configure-your-browser/firefox"
 -
     from: "/troubleshooting-guide/browser-inconsistencies-tg/html-button"
     to: "/features/recorder/highlighting-menu/quick-steps/quick-verification"

@@ -4,7 +4,7 @@ page_title: Verify HTML Tooltips
 description: Verify HTML Tooltips in Test Studio web test. Check the tooltip text in a Test Studio test. 
 position: 1
 ---
-# Verify HTML Tool-Tips
+## Verify HTML Tool-Tips
 
 There's more than one way to implement Tool-tips in HTML. They are usually implemented using the Title attribute that gets applied to elements. Consider this HTML code snippet:
 

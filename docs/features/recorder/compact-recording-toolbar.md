@@ -77,10 +77,10 @@ Choose between vertical and horizontal **Compact Recording Toolbar** and move it
 [1a]: /img/features/recorder/compact-recording-toolbar/fig1.png
 [2]: /img/features/recorder/compact-recording-toolbar/fig2.png
 [3]: /img/features/recorder/compact-recording-toolbar/fig3.png
-[4]: /img/features/recorder/compact-recording-toolbar/fig4.png
-[5]: /img/features/recorder/compact-recording-toolbar/fig5.png
-[6]: /img/features/recorder/compact-recording-toolbar/fig6.png
-[7]: /img/features/recorder/compact-recording-toolbar/fig7.png
+
+
+
+
 [8]: /img/features/recorder/compact-recording-toolbar/fig8.png
 [9]: /img/features/recorder/compact-recording-toolbar/fig9.png
 [10]: /img/features/recorder/compact-recording-toolbar/fig10.png

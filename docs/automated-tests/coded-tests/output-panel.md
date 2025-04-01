@@ -30,9 +30,7 @@ Under the **Source Control** tab can be found information about the actions take
 
 ![Source Control][4]
 
-
 [1]: /img/features/coded-steps/output-panel/fig1.png
 [2]: /img/features/coded-steps/output-panel/fig2.png
 [3]: /img/features/coded-steps/output-panel/fig3.png
 [4]: /img/features/coded-steps/output-panel/fig4.png
-[5]: /img/features/coded-steps/compile-project/fig1.png

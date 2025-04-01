@@ -5,7 +5,7 @@ description: Web site or application generates ID attributes for its elements dy
 previous_url: /user-guide/knowledge-base/test-automation/dynamically-generated-id-attributes.aspx
 position: 1
 ---
-# Working Around Dynamically Generated ID Attributes
+## Working Around Dynamically Generated ID Attributes
 
 *Your web site or application generates ID attributes for its elements dynamically. This causes your tests to fail because once the ID attribute for a given element changes, it can no longer be identified.*
 

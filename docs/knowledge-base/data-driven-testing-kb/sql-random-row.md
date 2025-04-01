@@ -4,7 +4,7 @@ page_title: SQL Random Row
 description: I would like to use a single, random row of data for each execution of a test that is data bound to a SQL Database.
 position: 1
 ---
-# Use T-SQL to Pull a Random Row from a SQL Database
+## Use T-SQL to Pull a Random Row from a SQL Database
 
 *I would like to use a single, random row of data for each execution of a test that is data bound to a SQL Database.*
 

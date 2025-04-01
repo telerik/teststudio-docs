@@ -36,7 +36,7 @@ The *project root folder* and *settings file* fields accept relative path to the
 
 Your test execution step is now ready to save and run.
 
-[1]: /img/advanced-topics/build-server/jenkins-ci-plugin/fig1.png
+
 [2]: /img/advanced-topics/build-server/jenkins-ci-plugin/fig2.png
 [3]: /img/advanced-topics/build-server/jenkins-ci-plugin/fig3.png
 [4]: /img/advanced-topics/build-server/jenkins-ci-plugin/fig4.png

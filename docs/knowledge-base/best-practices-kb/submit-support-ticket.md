@@ -4,7 +4,6 @@ page_title: Submit Support Ticket
 description: How to submit a support ticket to contact the Test Studio Support Team. What details to provide to get help for a Test Studio query as soon as possible. 
 position: 1
 ---
-# Submit Support Ticket 
 
 You can submit your support query in your your Telerik account <a href="https://www.telerik.com/account/support-tickets" target="_blank">here</a>.
 

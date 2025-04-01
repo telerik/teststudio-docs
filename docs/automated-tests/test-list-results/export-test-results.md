@@ -136,11 +136,11 @@ All of the supported export file types can be directly __sent via email__. Selec
 * **Submit Bug**: Load the <a href="/features/integration/bug-tracking/submit-bug" target="_blank">Submit Bug</a> dialog and log a bug about the failed result in your previously configured bug tracking application.
 
 
-[1]: /img/automated-tests/test-list-results/export-test-results/fig1.png
-[2]: /img/automated-tests/test-list-results/export-test-results/fig2.png
+
+
 [3]: /img/automated-tests/test-list-results/export-test-results/fig3.png
-[4]: /img/automated-tests/test-list-results/export-test-results/fig4.png
-[5]: /img/automated-tests/test-list-results/export-test-results/fig5.png
+
+
 [6]: /img/automated-tests/test-list-results/export-test-results/fig6.png
 [7]: /img/automated-tests/test-list-results/export-test-results/fig7.png
 [8]: /img/automated-tests/test-list-results/export-test-results/fig8.png

@@ -4,7 +4,7 @@ page_title: How to Run Tests in Parallel / in Multi Browsers
 description: How can I run my tests in parallel? How do I run my tests in multiple browsers? Run scheduled Test Studio tests against different browsers.
 position: 1
 ---
-# How to Run Tests in Parallel / in Multi Browsers
+## How to Run Tests in Parallel / in Multi Browsers
 
 Customers often wonder "How can I run my tests in parallel" and/or "How do I run my tests in multiple browsers, including multiple versions of the same browser". There are many ways to accomplish this. This article will focus on how to achieve this using the <a href="/features/scheduling-test-runs/Overview" target="_blank">Scheduling Server and Execution Server</a> that comes with both full Test Studio and our <a href="/general-information/test-studio-run-time" target="_blank">Runtime edition</a>.
 

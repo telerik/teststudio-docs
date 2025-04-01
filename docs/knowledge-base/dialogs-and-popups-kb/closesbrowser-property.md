@@ -4,7 +4,7 @@ page_title: ClosesBrowser Property
 description: When to use the ClosesBrowser Property for popups which invokes an event that closes the pop-up.
 position: 1
 ---
-# Using the ClosesBrowser Property for Pop-ups
+## Using the ClosesBrowser Property for Pop-ups
 
 Pop-ups can have a control (usually a button) which invokes an event that closes the pop-up. This can cause problems when performing UI Automation with Test Studio.
 

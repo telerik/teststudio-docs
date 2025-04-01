@@ -114,7 +114,7 @@ Click the _'Screen Recording Info'_ icon for any of the tests which triggered vi
 [1a]: /img/automated-tests/test-list-results/analyze-test-results/fig1a.png
 [2]: /img/automated-tests/test-list-results/analyze-test-results/fig2.png
 [2a]: /img/automated-tests/test-list-results/analyze-test-results/fig2a.png
-[3]: /img/automated-tests/test-list-results/analyze-test-results/fig3.png
+
 [4]: /img/automated-tests/test-list-results/analyze-test-results/fig4.png
 [5]: /img/automated-tests/test-list-results/analyze-test-results/fig5.png
 [6]: /img/automated-tests/test-list-results/analyze-test-results/fig6.png

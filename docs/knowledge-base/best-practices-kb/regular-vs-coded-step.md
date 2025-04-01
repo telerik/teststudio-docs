@@ -4,7 +4,6 @@ page_title: Regular vs. Coded Step
 description: The benefits of recorded steps against coded and vice versa. 
 position: 1
 ---
-# Regular vs. Coded Step 
 
 *We've noticed that a considerable number our customers' projects rely heavily on code in order to implement their test cases.*
 

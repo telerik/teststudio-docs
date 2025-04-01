@@ -136,4 +136,3 @@ Click **Advanced Settings** ![Advanced settings button][20] to set whether to at
 [30]: /img/features/integration/bug-tracking/configuration/bug-report-icon-navigate-JIRA.png
 [20]: /img/features/integration/bug-tracking/configuration/advanced-settings.png
 [21]: /img/features/integration/bug-tracking/configuration/choose-advanced-settings.png
-[22]: /img/features/integration/bug-tracking/configuration/import-from-exploratory.png

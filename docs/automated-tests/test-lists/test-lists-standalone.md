@@ -81,10 +81,7 @@ These criteria can be used when <a href="/features/test-lists/create-test-lists#
 [2]: /img/automated-tests/test-lists/test-lists-types/fig2.png
 [3]: /img/automated-tests/test-lists/test-lists-types/fig3.png
 [4]: /img/automated-tests/test-lists/test-lists-types/fig4.png
-[5]: /img/automated-tests/test-lists/test-lists-types/fig5.png
+
 [6]: /img/automated-tests/test-lists/test-lists-types/fig6.png
-[7]: /img/automated-tests/test-lists/test-lists-types/fig7.png
+
 [8]: /img/automated-tests/test-lists/test-lists-types/fig8.png
-[9]: /img/automated-tests/test-lists/test-lists-types/fig2_FilterTestsByType.png
-[10]: /img/automated-tests/test-lists/test-lists-types/fig2_searchField.png
-[11]: /img/automated-tests/test-lists/test-lists-types/fig2_collapse.png

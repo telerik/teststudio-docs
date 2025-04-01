@@ -5,7 +5,6 @@ description: Getting Out of Memory Exception (OutOfMemory or System.OutOfMemoryE
 previous_url: /user-guide/knowledge-base/oom.aspx
 position: 20
 ---
-# Dealing with `OutOfMemoryException` Errors
 
 ## Problem
 
