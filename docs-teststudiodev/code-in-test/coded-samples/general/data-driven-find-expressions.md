@@ -42,5 +42,5 @@ The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/c
 ![Execute test][3]
 
 [1]: images/data-driven-find-expressions/fig1.png
-[2]: images/data-driven-find-expressions/fig2.png
+
 [3]: images/data-driven-find-expressions/fig3.png

@@ -83,6 +83,3 @@ In this example we want to check a checkbox but this could be any kind of contro
 [2]: images/dynamic-grid/fig2.png
 [3]: images/dynamic-grid/fig3.png
 [4]: images/dynamic-grid/fig4.png
-[5]: images/dynamic-grid/fig5.png
-
-

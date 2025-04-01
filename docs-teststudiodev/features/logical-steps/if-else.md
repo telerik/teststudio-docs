@@ -82,16 +82,15 @@ If step 4 is executed the *SecondLink* element would be added to the DOM and **i
 [1]: images/if-else/fig1.png
 [2]: images/if-else/fig2.png
 [3]: images/if-else/fig3.png
-[4]: images/if-else/fig4.png
-[5]: images/if-else/fig5.png
+
+
 [6]: images/if-else/fig6.png
 [7]: images/if-else/fig7.png
 [8]: images/if-else/fig8.png
 [9]: images/if-else/fig9.png
 [10]: images/if-else/fig10.png
 [11]: images/if-else/fig11.png
-[12]: images/if-else/fig12.png
+
 [13]: images/if-else/fig13.png
 [14]: images/if-else/fig14.png
 [15]: images/if-else/fig15.png
-

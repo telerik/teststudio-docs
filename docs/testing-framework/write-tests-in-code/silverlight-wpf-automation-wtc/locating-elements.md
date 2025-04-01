@@ -47,16 +47,16 @@ All of the common methods for finding an element to operate on are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td>**Find.ByName()/Find.ByName\<T>**</td><td>Returns the first element having the specified name.</td>
+	<td>Find.ByName()/Find.ByName\<T></td><td>Returns the first element having the specified name.</td>
 </tr>
 <tr>
-	<td>**Find.ByText**</td><td>Returns the first TextBlock that matches the text provided.</td>
+	<td>Find.ByText</td><td>Returns the first TextBlock that matches the text provided.</td>
 </tr>
 <tr>
-	<td>**Find.ByAutomationId**</td><td>Returns an element having the automation ID you specify.</td>
+	<td>Find.ByAutomationId</td><td>Returns an element having the automation ID you specify.</td>
 </tr>
 <tr>
-	<td>**Find.ByType**</td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
+	<td>Find.ByType</td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
 </tr>
 </table>
 
@@ -69,16 +69,16 @@ The Find object has a 'Strategy' property that controls how the method behaves w
 	<th>Strategy</th><th>Description</th>
 </tr>
 <tr>
-	<td>**AlwaysWaitForElementsVisible**</td><td>In this mode the Find object always waits for the element to exist and for its Visibility property to equal "Visible". The default amount of time it will wait is 5 seconds. This timeout can be changed by modifying the Find.Timeout property before using the Find object. This strategy is the default setting.</td>
+	<td>AlwaysWaitForElementsVisible</td><td>In this mode the Find object always waits for the element to exist and for its Visibility property to equal "Visible". The default amount of time it will wait is 5 seconds. This timeout can be changed by modifying the Find.Timeout property before using the Find object. This strategy is the default setting.</td>
 </tr>
 <tr>
-	<td>**WhenNotVisibleReturnElementProxy**</td><td>In this mode an 'Element Proxy' is returned if the element cannot be found right away. An 'Element Proxy' is a lightweight FrameworkElement object that only contains information on how to locate the desired element in the Visual Tree. This is useful when you want to use the SilverlightApp.Wait.ForExists method.</td>
+	<td>WhenNotVisibleReturnElementProxy</td><td>In this mode an 'Element Proxy' is returned if the element cannot be found right away. An 'Element Proxy' is a lightweight FrameworkElement object that only contains information on how to locate the desired element in the Visual Tree. This is useful when you want to use the SilverlightApp.Wait.ForExists method.</td>
 </tr>
 <tr>
-	<td>**WhenNotVisibleReturnNull**</td><td>In this mode null (Nothing in VB.NET) is returned if the element cannot be found right away.</td>
+	<td>WhenNotVisibleReturnNull</td><td>In this mode null (Nothing in VB.NET) is returned if the element cannot be found right away.</td>
 </tr>
 <tr>
-	<td>**WhenNotVisibleThrowException**</td><td>In this mode a generic exception is thrown if the element cannot be found right away.</td>
+	<td>WhenNotVisibleThrowException</td><td>In this mode a generic exception is thrown if the element cannot be found right away.</td>
 </tr>
 </table>
 
@@ -103,16 +103,16 @@ All of the Find.AllByxxx functions are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td>**Find.AllByName()/Find.AllByName\<T>**</td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
+	<td>Find.AllByName()/Find.AllByName\<T></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
 </tr>
 <tr>
-	<td>**Find.AllByText()**</td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
+	<td>Find.AllByText()</td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
 </tr>
 <tr>
-	<td>**Find.AllByType()/Find.AllByType\<T>**</td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
+	<td>Find.AllByType()/Find.AllByType\<T></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
 </tr>
 <tr>
-	<td>**Find.AllByAutomationID()/Find.AllByAutomationID\<T>**</td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
+	<td>Find.AllByAutomationID()/Find.AllByAutomationID\<T></td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
 </tr>
 </table>
 

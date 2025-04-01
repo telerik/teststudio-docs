@@ -57,7 +57,7 @@ A code behind file can be generated for each test where you need to implement co
 You can implement any custom logic organized in standalone code files located in your project. This includes but is not limited to classes and functions which perform common or often re-used functionality and can be called by your coded steps or code behind methods. The only requirement is to define classes in the project namespace else they will not be accessible.
 
 [1]: images/fig1.png
-[2]: images/fig2.png
+
 [3]: images/fig3.png
 [4]: images/fig4.png
 [5]: images/fig5.png

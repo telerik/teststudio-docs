@@ -21,10 +21,9 @@ Instead of programmatically setting the configuration, the application or test p
 
 2.&nbsp; Then add the settings you need under the 'WebAii.Settings' section or WebAii.Settings.Web' section.
 
-	**Note:** It is not necessary to include all of Telerik's settings in your .config file. You only need to add settings for those you wish to override. The Telerik Testing Framework uses default values for any setting not explicitly set in the .config file. 
+**Note:** It is not necessary to include all of Telerik's settings in your .config file. You only need to add settings for those you wish to override. The Telerik Testing Framework uses default values for any setting not explicitly set in the .config file. 
 
-	**Note:** The configuration setting names are case sensitive e.g.  **AnnotateExecution** will not be recognized and will cause an exception to be thrown while **annotateExecution** will be recognized and used.
-
+**Note:** The configuration setting names are case sensitive e.g.  **AnnotateExecution** will not be recognized and will cause an exception to be thrown while **annotateExecution** will be recognized and used.
 		
 ````XML
 	<WebAii.Settings                                           
@@ -57,7 +56,7 @@ Here is an example of a complete app.config file that contains all of Telerik's 
  <WebAii.Settings.Web verboseHttpProxy="false" enableSilverlight="true" useHttpProxy="false" enableUILessRequestViewing="false" aspNetDevServerPort="-1" webAppPhysicalPath="" localWebServer="None" silverlightApplicationPath="" silverlightConnectTimeout="30000" enableScriptLogging="false" defaultBrowser="InternetExplorer" killBrowserProcessOnClose="false" baseUrl="http://www.telerik.com"> </WebAii.Settings.Web>
 <WebAii.Settings.Wpf defaultApplicationPath="E:\Users\Dad\Documents\visual studio 2010\Projects\TelerikWpfApp1\TelerikWpfApp1\bin\Debug\TelerikWpfApp1.exe" />
 </configuration>
-```	
+````
 In your test code initialization, you read these settings by simply setting the UseConfig flag to true when calling the Manager() constructor. If you use the BaseTest template (which is what the VsUnit, MbUnit, NUnit and xUnit templates do) this call is done for you by BaseTest during the Initialize call:
 
 ````C#

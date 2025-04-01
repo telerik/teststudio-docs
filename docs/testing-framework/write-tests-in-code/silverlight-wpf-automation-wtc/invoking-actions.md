@@ -94,25 +94,25 @@ All of the Telerik Testing Framework UI controls derive from the FrameworkElemen
 	<th>Property</th><th>Description</th>
 </tr>
 <tr>
-	<td>**AutomationId**</td><td>Retrieves the Automation ID assigned to this element.</td>
+	<td>AutomationId</td><td>Retrieves the Automation ID assigned to this element.</td>
 </tr>
 <tr>
-	<td>**Children**</td>Retrieves a list of elements that are children of this element in the visual tree.</td>
+	<td>Children</td>Retrieves a list of elements that are children of this element in the visual tree.</td>
 </tr>
 <tr>
-	<td>**Clip**</td><td>Gets or sets the Geometry used to define the outline of the contents of a UI Element.</td>
+	<td>Clip</td><td>Gets or sets the Geometry used to define the outline of the contents of a UI Element.</td>
 </tr>
 <tr>
-	<td>**Height**</td><td>Gets or sets the suggested height of a FrameworkElement.</td>
+	<td>Height</td><td>Gets or sets the suggested height of a FrameworkElement.</td>
 </tr>
 <tr>
-	<td>**Opacity**</td><td>Gets or sets the degree of the object's opacity.</td>
+	<td>Opacity</td><td>Gets or sets the degree of the object's opacity.</td>
 </tr>
 <tr>
-	<td>**OpacityMask**</td><td>Gets or sets the brush used to alter the opacity of regions of this object.</td>
+	<td>OpacityMask</td><td>Gets or sets the brush used to alter the opacity of regions of this object.</td>
 </tr>
 <tr>
-	<td>**Width**</td><td>Gets or sets the suggested width of a FrameworkElement.</td>
+	<td>Width</td><td>Gets or sets the suggested width of a FrameworkElement.</td>
 </tr>
 </table>
 
@@ -129,31 +129,31 @@ We have implemented a few special properties in our FrameworkElement object to a
 	<th>Property</th><th>Description</th>
 </tr>
 <tr>
-	<td>**AbsoluteSiblingTagIndex**</td><td>Returns the sibling tag index of this FrameworkElement relative to its other siblings within the Visual Tree.</td>
+	<td>AbsoluteSiblingTagIndex</td><td>Returns the sibling tag index of this FrameworkElement relative to its other siblings within the Visual Tree.</td>
 </tr>
 <tr>
-	<td>**AbsoluteTagIndex**</td><td>Returns the absolute index of this XAML tag within the entire Visual Tree.</td>
+	<td>AbsoluteTagIndex</td><td>Returns the absolute index of this XAML tag within the entire Visual Tree.</td>
 </tr>
 <tr>
-	<td>**Application**</td><td>Gets the Application object that owns this element.</td>
+	<td>Application</td><td>Gets the Application object that owns this element.</td>
 </tr>
 <tr>
-	<td>**EnableValidateMouseLocation**</td><td>Enables or disables the validation of mouse click locations before performing mouse actions.</td>
+	<td>EnableValidateMouseLocation</td><td>Enables or disables the validation of mouse click locations before performing mouse actions.</td>
 </tr>
 <tr>
-	<td>**Find**</td><td>Gets the Find object that can be used to search the visual children of this element.</td>
+	<td>Find</td><td>Gets the Find object that can be used to search the visual children of this element.</td>
 </tr>
 <tr>
-	<td>**TagNameIndex**</td><td>Gets the tag name index of the XAML tag name in the visual tree.</td>
+	<td>TagNameIndex</td><td>Gets the tag name index of the XAML tag name in the visual tree.</td>
 </tr>
 <tr>
-	<td>**User**</td><td>Gets the UI interaction object which allows you to interact with this framework element directly using real mouse and keyboard interactions.</td>
+	<td>User</td><td>Gets the UI interaction object which allows you to interact with this framework element directly using real mouse and keyboard interactions.</td>
 </tr>
 <tr>
-	<td>**Wait**</td><td>Gets a VisualWait object you can use to wait for Visual elements in the Visual Tree.</td>
+	<td>Wait</td><td>Gets a VisualWait object you can use to wait for Visual elements in the Visual Tree.</td>
 </tr>
 <tr>
-	<td>**XamlTag**</td><td>Gets the XAML tag name of this FrameworkElement. This is used for hierarchy matching and traversal.</td>
+	<td>XamlTag</td><td>Gets the XAML tag name of this FrameworkElement. This is used for hierarchy matching and traversal.</td>
 </tr>
 </table>
 
@@ -166,19 +166,19 @@ The FrameworkElement class implements a number of methods just for purpose of te
 	<th>Property</th><th>Description</th>
 </tr>
 <tr>
-	<td>**CastAs\<T>()**</td><td>Returns a FrameworkElement as a strongly-typed control. Does not enforce a tagname to match the type.</td>
+	<td>CastAs\<T>()</td><td>Returns a FrameworkElement as a strongly-typed control. Does not enforce a tagname to match the type.</td>
 </tr>
 <tr>
-	<td>**GetChildren()**</td>Returns the child elements of the FrameworkElement.</td>
+	<td>GetChildren()</td>Returns the child elements of the FrameworkElement.</td>
 </tr>
 <tr>
-	<td>**GetNextSibling()**</td><td>Returns the next sibling of  the FrameworkElement.</td>
+	<td>GetNextSibling()</td><td>Returns the next sibling of  the FrameworkElement.</td>
 </tr>
 <tr>
-	<td>**Parent()**</td><td>Returns the parent element of the current Framework Element</td>
+	<td>Parent()</td><td>Returns the parent element of the current Framework Element</td>
 </tr>
 <tr>
-	<td>**ScrollToVisible()**</td><td>Scrolls the browser so that the Framework Element is visible.</td>
+	<td>ScrollToVisible()</td><td>Scrolls the browser so that the Framework Element is visible.</td>
 </tr>
 </table>
 

@@ -23,7 +23,8 @@ By doing so we can:
 We currently don't offer any UI design tools that can help build these data sources directly from your application. Therefore, to build these data source we need to craft our FindParams manually and then using FindParam and FindParamCollection XML serialization methods, store the generated sources to our storage medium of choice (i.e. database, file system ...etc).
 The sample below shows an example of how to build an XML file that can be later consumed by your test code to identify elements to use in the automation logic.
 
-````C#        // First we build the list of FindParam objects we want serialized
+````C#        
+    // First we build the list of FindParam objects we want serialized
     // and add them to a FindParamCollection object.
     
     FindParam param1 = new FindParam("table", 0);

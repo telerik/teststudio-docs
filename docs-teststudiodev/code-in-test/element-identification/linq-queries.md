@@ -27,9 +27,7 @@ The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Som
 
 Using LINQ we can create strongly typed advanced queries with intellisense support that we couldn't before. The most basic LINQ example is something like this:
 
-### __[VB]__
-
-				
+````C#				
 	// Find all images on a page.
 	var images = Find.AllControls<HtmlImage>();
 	
@@ -41,9 +39,7 @@ Using LINQ we can create strongly typed advanced queries with intellisense suppo
 
 We can also use lambda expressions like this:
 
-### __[VB]__
-
-            
+````C#            
 	// Find the first element that contains "Go Google"
 	Element el = Find.ByCustom(e => e.TextContent.Contains("Go Google"));
 	

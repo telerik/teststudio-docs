@@ -39,5 +39,5 @@ Walk--through of creating a loop process.
 [1]: images/loop/fig1.png
 [4]: images/loop/fig4.png
 [5]: images/loop/fig5.png
-[6]: images/loop/fig6.png
+
 [7]: images/loop/fig7.png

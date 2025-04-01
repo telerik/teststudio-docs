@@ -474,5 +474,5 @@ padding: 8px;
 </tr>
 <table>
 
-[1]: images/test-step-properties/fig1.png
+
 [2]: images/test-step-properties/fig2.png

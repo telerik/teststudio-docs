@@ -77,12 +77,12 @@ An execution status example when the while condition is false and the steps in t
 [1]: images/while-loop/fig1.png
 [2]: images/while-loop/fig2.png
 [3]: images/while-loop/fig3.png
-[4]: images/while-loop/fig4.png
+
 [7]: images/while-loop/fig7.png
 [8]: images/while-loop/fig8.png
 [9]: images/while-loop/fig9.png
 [10]: images/while-loop/fig10.png
-[11]: images/while-loop/fig11.png
+
 [12]: images/while-loop/fig12.png
 [13]: images/while-loop/fig13.jpg
 [14]: images/while-loop/fig14.jpg

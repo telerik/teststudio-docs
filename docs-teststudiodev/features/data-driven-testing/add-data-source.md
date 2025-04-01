@@ -89,7 +89,7 @@ __See Also:__
 [1]: images/add-data-source/fig1.png
 [3]: images/add-data-source/fig3.png
 [4]: images/add-data-source/fig4.png
-[5]: images/add-data-source/fig5.png
+
 [6]: images/add-data-source/fig6.png
 [7]: images/add-data-source/fig7.png
 [8]: images/add-data-source/fig8.png

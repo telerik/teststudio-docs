@@ -195,6 +195,3 @@ padding: 8px;
 [3]: images/artoftest-runner/fig3.png
 [4]: images/artoftest-runner/fig4.png
 [5]: images/artoftest-runner/fig5.png
-[6]: images/artoftest-runner/fig6.png
-[7]: images/artoftest-runner/fig7.png
-[8]: images/artoftest-runner/fig8.png

@@ -69,4 +69,3 @@ You can configure the threshold and scrolling options that will be used during t
 [6]: /features/recorder/verifications/images/image-verification/fig6.png
 [7]: /features/recorder/verifications/images/image-verification/fig7.png
 [8]: /features/recorder/verifications/images/image-verification/fig8.png
-[9]: /features/recorder/verifications/images/image-verification/gif9.gif
