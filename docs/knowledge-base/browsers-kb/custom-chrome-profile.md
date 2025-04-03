@@ -2,7 +2,7 @@
 title: Custom Chrome Profile
 page_title: Custom Chrome Profile
 description: Calibrate the default Chrome Profile
-position: 2
+position: 4
 ---
 ## How to Set a Custom Chrome Profile
 
