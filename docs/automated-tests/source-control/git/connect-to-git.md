@@ -17,9 +17,13 @@ position: 2
 
 ![Connect][1]
 
-3.&nbsp; The **Connect to Source Control** dialog appears. Select **Git**, fill in the appropriate information click **Connect** and **OK**. **Two-factor authentication** is supported using only <a href="/features/source-control/git/overview-git#support-for-git-two-factor-authentication" target="_blank">a personal access token</a>. Account password will not work.
+3.&nbsp; The **Connect to Source Control** dialog appears. Select **Git**, fill in the authentication details, click **Connect** and **OK**.
 
-You can choose between local and remote repository. For the local repository the local project path is set by default.
+> **Important**
+> <br>
+> <br> We __strongly recommend to <a href="/teststudio/automated-tests/source-control/git/overview-git#using-personal-access-token-for-authentication-in-git-repo" target="_blank">generate a PAT (Personal Access Token)</a> scoped__ for accessing the testing project repository only and use it to connect to the remote repo.
+
+4.&nbsp; You can choose between local and remote repository. For the local repository the local project path is set by default.
 
 > An empty remote repository should have already been created as described in the <a href="/features/source-control/git/overview-git" target="_blank">Overview</a> page. A Test Studio project is mapped to a single remote repository.
 
@@ -30,11 +34,11 @@ You can choose between local and remote repository. For the local repository the
 > <br>
 > If you are not able to connect to the Git system and get a message _Error connecting to Git, too many redirects or authentication replays_, check if the remote repository requires 2FA to be accessed. Generate a personal access token in your Git account for this repository and use that token instead of the account password.
 
-4.&nbsp; The project and project files are now marked with a ![PLus][4] icon. This indicates it is bound to Source Control.
+5.&nbsp; The project and project files are now marked with a ![PLus][4] icon. This indicates it is bound to Source Control.
 
 ![Connected][3]
 
-5.&nbsp; The <a href="/features/coded-steps/output-panel" target="_blank">**Output panel**</a> includes Source Control tab where furhter useful info could be found while using the source control features.
+6.&nbsp; The <a href="/features/coded-steps/output-panel" target="_blank">**Output panel**</a> includes Source Control tab where you can find additional info for the outcome of commands while using the source control features.
 
 ## Connect To Local Repository
 
