@@ -23,75 +23,75 @@ The described approach using a 3rd party and open source dll is applicable for W
 
 3. <a href="/automated-tests/coded-tests/coded-step" target="_blank">Create a coded step in your test and add the following *usings*, or *Imports* for VB.Net, on top:
 
-    ```C#
-    using iTextSharp.text.pdf;
-    using iTextSharp.text.pdf.parser;
-    using System.IO;
-    ```
-    ```VB
-    Imports iTextSharp.text.pdf
-    Imports iTextSharp.text.pdf.parser
-    Imports System.IO
-    ```
+````C#
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.parser;
+using System.IO;
+````
+````VB
+Imports iTextSharp.text.pdf
+Imports iTextSharp.text.pdf.parser
+Imports System.IO
+````
 
 4. The below snippet opens a PDF file, which is stored locally on the disc, then reads and outputs its content to the test execution log file. The sample uses <a href="https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.8" target="_blank">C# StringBuidler Class</a> to append the text from the PDF file. 
 
-    ```C#
-    // Define the name of the file to open
-    string fileName = "C:\\pathToYourPDF\\PDFName.pdf";
+````C#
+// Define the name of the file to open
+string fileName = "C:\\pathToYourPDF\\PDFName.pdf";
 
-    // Define the file to store the read from PDF content
-    StringBuilder text = new StringBuilder();
+// Define the file to store the read from PDF content
+StringBuilder text = new StringBuilder();
 
-    // Verify if the PDF file exists and open it
-    if (File.Exists(fileName))
+// Verify if the PDF file exists and open it
+if (File.Exists(fileName))
+    {
+    // Initilize the pdfReader
+    PdfReader pdfReader = new PdfReader(fileName);
+
+    // Go through the pages of the PDF file, read its content and append it
+    for (int page = 1; page <= pdfReader.NumberOfPages; page++)
         {
-        // Initilize the pdfReader
-        PdfReader pdfReader = new PdfReader(fileName);
+            ITextExtractionStrategy strategy = new SimpleTextExtractionStrategy();
+            string currentText = PdfTextExtractor.GetTextFromPage(pdfReader, page, strategy);
 
-        // Go through the pages of the PDF file, read its content and append it
-        for (int page = 1; page <= pdfReader.NumberOfPages; page++)
-            {
-                ITextExtractionStrategy strategy = new SimpleTextExtractionStrategy();
-                string currentText = PdfTextExtractor.GetTextFromPage(pdfReader, page, strategy);
-
-                currentText = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(currentText)));
-                text.Append(currentText);
-            }
-
-        // Output the collected text in the test execution log file
-        Log.WriteLine(text.ToString());
-
-        // Close the pdfReader
-        pdfReader.Close();
+            currentText = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(currentText)));
+            text.Append(currentText);
         }
-    ```
-    ```VB
-    ' Define the name of the file to open
-    Dim fileName AsString = "folder\\pdfFileName.pdf"
 
-    ' Define the file to store the read from PDF content
-    Dim text AsNew StringBuilder()
+    // Output the collected text in the test execution log file
+    Log.WriteLine(text.ToString());
 
-    ' Verify if the PDF file exists and open it
-    If File.Exists(fileName)
-        Then
-            ' Initilize the pdfReader
-            Dim pdfReader AsNew PdfReader(fileName)
+    // Close the pdfReader
+    pdfReader.Close();
+    }
+````
+````VB
+' Define the name of the file to open
+Dim fileName AsString = "folder\\pdfFileName.pdf"
 
-            ' Go through the pages of the PDF file, read its content and append it
-            For page AsInteger = 1 To pdfReader.NumberOfPages
+' Define the file to store the read from PDF content
+Dim text AsNew StringBuilder()
 
-                Dim strategy As ITextExtractionStrategy = New SimpleTextExtractionStrategy()
-                Dim currentText AsString = PdfTextExtractor.GetTextFromPage(pdfReader, page, strategy)
+' Verify if the PDF file exists and open it
+If File.Exists(fileName)
+    Then
+        ' Initilize the pdfReader
+        Dim pdfReader AsNew PdfReader(fileName)
 
-                currentText = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.[Default], Encoding.UTF8, Encoding.[Default].GetBytes(currentText)))
-                text.Append(currentText)
-            Next
-        ' Output the collected text in the test execution log file
-        Log.WriteLine(text.ToString())
+        ' Go through the pages of the PDF file, read its content and append it
+        For page AsInteger = 1 To pdfReader.NumberOfPages
 
-        ' Close the pdfReader
-        pdfReader.Close()
-    EndIf
-    ```
+            Dim strategy As ITextExtractionStrategy = New SimpleTextExtractionStrategy()
+            Dim currentText AsString = PdfTextExtractor.GetTextFromPage(pdfReader, page, strategy)
+
+            currentText = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.[Default], Encoding.UTF8, Encoding.[Default].GetBytes(currentText)))
+            text.Append(currentText)
+        Next
+    ' Output the collected text in the test execution log file
+    Log.WriteLine(text.ToString())
+
+    ' Close the pdfReader
+    pdfReader.Close()
+EndIf
+````

@@ -49,13 +49,13 @@ These are frames, which have different __FrameInfo__ properties each time when t
 
 This usually happens when any of the frame properties are dynamic and don't match next time when the page and frame are loaded. There is an error message listed in the <a href="/automated-tests/test-results/analyze-quick-run-results#generate-the-quick-execution-log" target="_blank">test execution log</a>:
 
-   ```
-   Unable to find the target host (Browser/SilverlightApp) to locate an element. Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out.
-   Error: Wait for condition has timed out
-      InnerException:
-   System.Exception: Unable to find the target host (Browser/SilverlightApp) to locate an element.
-   Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out. Error: Wait for condition has timed out
-   ```
+````
+Unable to find the target host (Browser/SilverlightApp) to locate an element. Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out.
+Error: Wait for condition has timed out
+   InnerException:
+System.Exception: Unable to find the target host (Browser/SilverlightApp) to locate an element.
+Failure: Waiting for frame '[Frame:id=<>,name=<>,src=<>,UseQuery:False]' timed out. Error: Wait for condition has timed out
+````
 
 * ___How can the dynamic frame be identified for each test run?___
 

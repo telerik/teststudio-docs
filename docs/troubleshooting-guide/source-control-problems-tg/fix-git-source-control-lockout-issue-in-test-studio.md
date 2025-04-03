@@ -15,14 +15,14 @@ When pushing commits to Git source control in Test Studio, you get to a state wh
 
 In the log you can see errors like this: 
 
-```txt
+````txt
 SourceControlFactory.GetControlInstance() : EXCEPTION! (see below)
      Situation: Error loading Git source control plugin.
      ...
 Inner Exception Type: LibGit2Sharp.LibGit2SharpException
      Message: too many redirects or authentication replaysInner Exception Type: LibGit2Sharp.LibGit2SharpException
      Message: too many redirects or authentication replays
-```
+````
 
 ## Solution
 To fix the Git source control lockout issue, follow these steps:

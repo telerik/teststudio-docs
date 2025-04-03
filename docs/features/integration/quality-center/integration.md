@@ -56,13 +56,13 @@ Open a File Explorer and navigate to the Test Studio installation _Bin_ sub-fold
 1. Open the file with a text editor (like Notepad++).
 1. In the _appSettings_ section add a key _ShowQCPlugin_ and set its value to true. See example below.
 
-	```
-	<appSettings>
-		<add key="CommandLineRun" value="True" />
-		<add key="PersistOnEachStep" value="False" />
-		<add key="ShowQCPlugin" value="False" />
-	</appSettings>
-	```
+````
+<appSettings>
+	<add key="CommandLineRun" value="True" />
+	<add key="PersistOnEachStep" value="False" />
+	<add key="ShowQCPlugin" value="False" />
+</appSettings>
+````
 
 1. Restart Test Studio and the QC button will be back in the _Project Ribbon_.
 

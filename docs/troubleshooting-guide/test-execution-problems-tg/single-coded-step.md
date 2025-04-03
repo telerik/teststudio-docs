@@ -21,10 +21,10 @@ This happens because a single coded step is not set to automatically call refres
 
 Add a statement to refresh the DOM tree as first row in the coded step.
 
-```C# 
+````C# 
 // Use Manager.ActiveBrowser for a web application 
 Manager.ActiveBrowser.RefreshDomTree();
 
 // Use Manager.ActiveApplication for a wpf application 
 Manager.ActiveApplication.MainWindow.RefreshVisualTrees();
-```
+````

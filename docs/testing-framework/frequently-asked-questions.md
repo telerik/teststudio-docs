@@ -75,6 +75,6 @@ System.Configuration.ConfigurationErrorsException: System.Configuration.Configur
        <div>Lower Level Text</div>
    </nobr>
 </td>
-```   
+````   
 
 *In this example TextContent is the string "Same Level Text". InnerText is the string "Same Level TextForemenLower Level Text". You can probably use InnerText in your code in place of TextContent and be just fine.*	

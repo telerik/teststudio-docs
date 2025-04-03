@@ -14,9 +14,9 @@ position: 19
 
 When attempting to sign into the Telerik website errors may appear in the browser console due to the CloudFlare verification. The error in the browser is as follows: 
 
-```HTML
+````HTML
 Oops! We couldn't verify you're human. Please try a different browser or contact us for assistance. 
-```
+````
 
 ![Login error](/img/knowledge-base/telerik-login-kb/fig1.png)
 

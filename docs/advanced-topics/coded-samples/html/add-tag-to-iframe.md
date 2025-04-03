@@ -27,23 +27,23 @@ If it is not possible to add custom tags to your iframes, you can add them at ru
 
 1. Add the following using directive to your <a href="/advanced-topics/coded-steps/code-behind-file" target="_blank">code-behind file</a>:
 
-	```C#
-	using ArtOfTest.WebAii.Design.Extensions;
-	```
+````C#
+using ArtOfTest.WebAii.Design.Extensions;
+````
 
 2. Call the **myFrame()** method on the frame object in a coded step. For example:
 
-	```C#
-	[CodedStep(@"Tag Frame with 'MyCustomTag'")]
-	public void WebTest1_CodedStep()
+````C#
+[CodedStep(@"Tag Frame with 'MyCustomTag'")]
+public void WebTest1_CodedStep()
+{
+	Browser myFrame = this.ActiveBrowser.Frames[0] as Browser;
+	if (myFrame != null )
 	{
-	    Browser myFrame = this.ActiveBrowser.Frames[0] as Browser;
-	    if (myFrame != null )
-	    {
-	        myFrame.TagFrame("MyCustomTag");
-	    }          
-	}
-	```
+		myFrame.TagFrame("MyCustomTag");
+	}          
+}
+````
 
 To tag a nested iframe, ensure the entire DOM is built, so that Test Studio can access the iframes. For example:
 

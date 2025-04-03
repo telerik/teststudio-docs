@@ -23,12 +23,12 @@ This is possible with T-SQL. Here's how to do it:
 
 3. Check **Use T-SQL**. Enter the following code into the **T-SQL Editor** section and click **Update**:
 
-	```SQL
-	SELECT TOP 1 [Name], [City], [Email], [Message]
-	FROM [myDataBase].[dbo].[table]
-	Where Email Like '%domain%'
-	ORDER By NEWID()
-	```
+````SQL
+SELECT TOP 1 [Name], [City], [Email], [Message]
+FROM [myDataBase].[dbo].[table]
+Where Email Like '%domain%'
+ORDER By NEWID()
+````
 	* Line 1 indicates how many rows and which columns to use.
 	
 	* Line 2 indicates the database and table name.
