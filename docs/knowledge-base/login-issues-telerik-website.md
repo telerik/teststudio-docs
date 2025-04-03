@@ -7,7 +7,7 @@ slug: login-issues-telerik-website
 tags: progress, telerik, test studio, login, troubleshooting
 res_type: kb
 ticketid: 1661389
-position: 19
+position: 1
 ---
 
 ## Description
