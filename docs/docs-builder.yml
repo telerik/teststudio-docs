@@ -2497,5 +2497,6 @@ redirects:
     from: "/prerequisites/configure-your-browser/safari"
     to: "/prerequisites/configure-your-browser/browser-configuration"
 -
-    from: "^/archived-docs/(.*)$"
-    to: "/welcome"
+    from: "/automated-tests/load/advanced-topics/manage-windows-auth"
+    to: "/automated-tests/load/configuring-load-tests-quick-guide"
+
