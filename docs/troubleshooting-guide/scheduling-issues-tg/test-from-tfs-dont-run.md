@@ -3,7 +3,7 @@ title: Test from TFS Doesn't Run
 page_title: Test from TFS Doesn't Run
 description: "Scheduled test via Test Studio Scheduling setup and enabled to get latest from TFS connected project doesn't run on the remote machine. "
 position: 1
-publish: false
+published: false
 ---
 # Test from TFS Doesn't Run
 

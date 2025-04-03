@@ -3,7 +3,7 @@ title: Search And Filter Tests
 page_title: Search And Filter Tests
 description: "Search for a test in Test Studio. Filter tests containing a key word in Test Studio."
 previous_url: /features/test-maintenance/search-tests
-publish: true
+published: true
 position: 1
 ---
 # Search Project Tests

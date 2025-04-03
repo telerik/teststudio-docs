@@ -3,7 +3,7 @@ title: Read Saved PDF File - WPF and Desktop Tests
 page_title: Read Saved PDF File - WPF and Desktop Tests
 description: "Open a saved locally PDF file in Test Studio WPF and Desktop Tests and read its content. The tested application creates a PDF file and let's you save it locally on the hard disc. How to open that PDF file and read its content from WPF or Desktop test?"
 position: 1
-publish: true
+published: true
 ---
 # Read Saved PDF File 
 

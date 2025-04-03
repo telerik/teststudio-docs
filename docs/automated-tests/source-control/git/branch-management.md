@@ -2,7 +2,7 @@
 title: Branch Management For Git
 page_title: Branch Management For Git
 description: "Test Studio Git integration Branch Management For Git Source Control"
-publish: true
+published: true
 position: 4
 ---
 # Branch Management For Git Source Control

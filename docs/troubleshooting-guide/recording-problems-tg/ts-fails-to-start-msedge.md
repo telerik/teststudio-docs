@@ -3,7 +3,7 @@ title: Test Studio Fails to Start Edge Chromium
 page_title: Test Studio Fails to Start Microsoft Edge Browser
 description: "Telerik Test Studio cannot start Microsoft Edge Chromium browser in the mode without browser extension."
 position: 1
-publish: true
+published: true
 ---
 # Test Studio Fails to Start Microsoft Edge Browser
 

@@ -3,7 +3,7 @@ title: My Project Runs Locally but Does Not Remotely
 page_title: My Project Runs Locally but Does Not Remotely
 description: "Possible issues if My Project Runs Locally but Does Not Remotely via Test Studio Scheduling setup"
 position: 1
-publish: true
+published: true
 ---
 
 # My Project Runs Locally but Does Not Remotely 
