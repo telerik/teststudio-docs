@@ -77,6 +77,7 @@ public FrameworkElement FindElementByTextContent(string content)
     grid.Find.Strategy = originalStrategy;
     return null;
 }
+````
 ````VB
 Public Function FindElementByTextContent(content As String) As FrameworkElement
     

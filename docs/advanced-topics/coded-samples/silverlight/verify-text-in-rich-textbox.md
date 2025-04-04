@@ -73,6 +73,7 @@ foreach(XmlNode runNode in runNodes)
 {
     Log.WriteLine(runNode.Attributes["Text"].Value);
 }
+````
 ````VB
 Dim rtbContents As String = DirectCast(Pages.SilverlightAppTesting.SilverlightApp.RichTextBox1Richtextbox.GetProperty(New AutomationProperty("Xaml", GetType(String))), String)
   
@@ -104,6 +105,7 @@ Log.WriteLine(attr.Value);
  
 // Verify it is Bold
 Assert.AreEqual<string>("Bold", attr.Value);
+````
 ````VB
 Dim rtbContents As String = DirectCast(Pages.SilverlightAppTesting.SilverlightApp.RichTextBox1Richtextbox.GetProperty(New AutomationProperty("Xaml", GetType(String))), String)
 Log.WriteLine(rtbContents)

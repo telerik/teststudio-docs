@@ -16,6 +16,7 @@ full = full.Trim();
  
 Log.WriteLine(full);
 Assert.AreEqual(full, "All Add Delete Edit Navigation None");
+````
 ````VB
 Dim cb As ComboBox = Pages.SilverlightToolkitSamples.SilverlightApp.Item0Combobox
  

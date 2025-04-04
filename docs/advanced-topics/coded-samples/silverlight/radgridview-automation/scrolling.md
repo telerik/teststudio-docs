@@ -54,6 +54,7 @@ grid.Refresh();
 verticalOffset += viewPortHeight;
 VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset);
 }
+````
 ````VB
 
 Dim verticalOffset As Integer = 0

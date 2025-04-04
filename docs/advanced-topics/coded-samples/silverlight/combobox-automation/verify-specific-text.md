@@ -18,6 +18,7 @@ bool found = cb.TextBlockContent.Contains(Data["Col1"].ToString());
  
 Log.WriteLine("Match found: " + found.ToString());
 Assert.IsTrue(found);
+````
 ````VB
 Dim cb As ComboBox = Pages.SilverlightToolkitSamples.SilverlightApp.Item0Combobox
 Dim found As Boolean = cb.TextBlockContent.Contains(Data("Col1").ToString())

@@ -44,6 +44,7 @@ for (int j = 0; j < list.Count; j++)
         Assert.IsTrue(list[j+1].CompareTo(list[j]) >= 0);
     }
 }
+````
 ````VB
 
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)

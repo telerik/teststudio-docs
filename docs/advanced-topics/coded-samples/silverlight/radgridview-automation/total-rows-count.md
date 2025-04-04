@@ -46,6 +46,7 @@ totalOverallRows = totalPageRows + totalOverallRows;
   
 // Show the result
 Log.WriteLine("Total Number of Rows: "+ totalOverallRows.ToString());
+````
 ````VB
 Dim extentHeight As Integer
 

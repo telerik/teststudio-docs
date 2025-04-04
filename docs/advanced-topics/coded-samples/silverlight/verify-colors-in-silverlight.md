@@ -44,6 +44,7 @@ else
     // If it's not a SolidColorBrush what is it? How do we handle it?
     throw new ApplicationException("Expecting a SolidColorBrush, but got a " + textblockBrush.GetType().ToString());
 }
+````
 ````VB
 Manager.Settings.Web.EnableSilverlight = True
 Manager.LaunchNewBrowser()
