@@ -30,8 +30,8 @@ Include the following *usings* in the code.
     using Oracle.DataAccess.Types;
 ````
 ````VB
-    imports Oracle.DataAccess.Client
-    imports Oracle.DataAccess.Types
+    Imports Oracle.DataAccess.Client
+    Imports Oracle.DataAccess.Types
 ````
 
 ## Data Connection String
