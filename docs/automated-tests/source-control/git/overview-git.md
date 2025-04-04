@@ -25,16 +25,16 @@ These are the steps to connect and use a Test Studio project stored in a remote 
 - <a href="/features/source-control/git/supported-git-commands" target="_blank">Supported Git commands</a>
 - <a href="/features/source-control/git/branch-management" target="_blank">Branch Management for Git repos</a>
 
-> **Important**
-> <br>
-> <br>
-> Test Studio provides general support for git repositories -this includes __commit__, __push__, __pull__ and __revert__ commands.
-> <br>
-> <br>
-> Test Studio does not provide any means for creating a repository in a remote provider. Instead, it leaves it up to you to decide in what remote provider you want your projects stored. Having that in mind, you __must first create an empty remote repository__ in a remote provider of choice, and only then <a href="/features/source-control/git/connect-to-git" target="_blank">connect a local project</a> to that repository using Test Studio.
-> <br>
-> <br>
-> If an attempt is made to connect a local project to a remote repository, in which there is an existing project, you need to __manually merge and resolve the conflicting project files__.
+    > **Important**
+    > <br>
+    > <br>
+    > Test Studio provides general support for git repositories -this includes __commit__, __push__, __pull__ and __revert__ commands.
+    > <br>
+    > <br>
+    > Test Studio does not provide any means for creating a repository in a remote provider. Instead, it leaves it up to you to decide in what remote provider you want your projects stored. Having that in mind, you __must first create an empty remote repository__ in a remote provider of choice, and only then <a href="/features/source-control/git/connect-to-git" target="_blank">connect a local project</a> to that repository using Test Studio.
+    > <br>
+    > <br>
+    > If an attempt is made to connect a local project to a remote repository, in which there is an existing project, you need to __manually merge and resolve the conflicting project files__.
 
 ## Create Git Remote Repository
 
@@ -52,12 +52,16 @@ The concept of using the _Personal Access Token_ is designed to provide an optio
 
 The following workflow guides you how to __create a personal access token (PAT)__ for a GitHub.com repository. Then, that personal access token is used instead of the user password, when connecting to GitHub through Test Studio:
 
-1.&nbsp; Open your GitHub account and navigate to its section __Settings -> Developer settings__.
+1. Open your GitHub account and navigate to its section __Settings -> Developer settings__.
 	
-2.&nbsp; Switch to __Personal access tokens__ section and use the __Generate new token__ button to create one.
-	
-3.&nbsp; Use the generated token to paste it instead a password in the Test Studio _Connect to Git_ dialog.
+2. Switch to __Personal access tokens__ section and use the __Generate new token__ button to create one.
 
-> __Note:__ The example shows creating a PAT in Github.com. If not using this platform to store the repository, please, follow the provider's guidelines for creating a PAT. 
+    > **Important**
+    > <br>
+    > <br> We __strongly recommend to generate a PAT (Personal Access Token) scoped__ for accessing the testing project repository only and use it to connect to the remote repo. 
+	
+3. Use the generated token to paste it instead a password in the Test Studio _Connect to Git_ dialog.
+
+    > __Note:__ The example shows creating a PAT in Github.com. If not using this platform to store the repository, please, follow the provider's guidelines for creating a PAT. 
 
 [1]: /img/features/source-control/git/overview/fig1.png
