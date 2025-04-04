@@ -1,6 +1,6 @@
 #top nagivation might be wrong
 top-navigation-product: test-studio-dev-edition
-path-prefix: /devtools/teststudiodev
+path-prefix: /teststudio-dev/documentation
 product-id: 1846
 product-name: Progress Telerik Test Studio Dev Edition Documentation
 product-url: https://www.telerik.com/teststudio-dev

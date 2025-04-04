@@ -1,6 +1,6 @@
 #top nagivation might be wrong
 top-navigation-product: api-testing
-path-prefix: /teststudio-apis
+path-prefix: /teststudio-apis/documentation
 product-id: 1720
 product-name: Progress Telerik Test Studio for APIs
 product-url: https://www.telerik.com/teststudio-apis
