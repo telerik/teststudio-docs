@@ -26,656 +26,159 @@ As Quality Assurance Engineer you often don't know what type and version of UI c
 
 In the below grid you can find the versions of the supported UI components matching the translators versions from the list.
 
-<p id="Blazor">
-<table class="Tbl k-table">
-    <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-    </colgroup>
-    <thead>
-        <tr>
-			<td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for Blazor<td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>R32021</td>
-            <td colspan="6" style="text-align:center;">2.27.0</td>
-        </tr>
-        <tr>
-            <td>R12022</td>
-            <td colspan="6" style="text-align:center;">3.0.0</td>
-        </tr>
-        <tr>
-            <td>R12022SP1</td>
-            <td colspan="6" style="text-align:center;">3.1.0</td>
-        </tr>
-        <tr>
-            <td>R22022</td>
-            <td colspan="6" style="text-align:center;">3.3.0</td>
-        </tr>
-        <tr>
-            <td>R22022SP1</td>
-            <td colspan="6" style="text-align:center;">3.4.0</td>
-        </tr>
-        <tr>
-            <td>R32022</td>
-            <td colspan="6" style="text-align:center;">3.6.0</td>
-        </tr>
-    </tbody>
-</table>
-</p>
+## Telerik UI for Blazor
 
-<p id="asp.net ajax">
-<table class="Tbl k-table">
-    <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-    </colgroup>
-    <thead>
-        <tr>
-			<td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for ASP.NET AJAX<td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>R32021</td>
-            <td colspan="6" style="text-align:center;">2021.3.914</td>
-        </tr>
-        <tr>
-            <td>R12022</td>
-            <td colspan="6" style="text-align:center;">2022.1.119</td>
-        </tr>
-        <tr>
-            <td>R12022SP1</td>
-            <td colspan="6" style="text-align:center;">2022.1.302</td>
-        </tr>
-        <tr>
-            <td>R22022</td>
-            <td colspan="6" style="text-align:center;">2022.2.511</td>
-        </tr>
-        <tr>
-            <td>R22022SP1</td>
-            <td colspan="6" style="text-align:center;">2022.2.622</td>
-        </tr>
-        <tr>
-            <td>R32022</td>
-            <td colspan="6" style="text-align:center;">2022.3.913</td>
-        </tr>
-    </tbody>
-</table>
-</p>
+| Release    | Version  |
+|------------|----------|
+| R32021     | 2.27.0   |
+| R12022     | 3.0.0    |
+| R12022SP1  | 3.1.0    |
+| R22022     | 3.3.0    |
+| R22022SP1  | 3.4.0    |
+| R32022     | 3.6.0    |
+| R12023     | 4.0.0    |
+| R12023SP1  | 4.1.0    |
+| R22023     | 4.3.0    |
+| R32023     | 4.6.0    |
+| R22024     | 6.0.0    |
 
-<p id="jQuery">
-<table class="Tbl k-table">
-    <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-    </colgroup>
-    <thead>
-        <tr>
-			<td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for jQuery<td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>R32021</td>
-            <td colspan="6" style="text-align:center;">2021.3.914</td>
-        </tr>
-        <tr>
-            <td>R12022</td>
-            <td colspan="6" style="text-align:center;">2022.1.119</td>
-        </tr>
-        <tr>
-            <td>R12022SP1</td>
-            <td colspan="6" style="text-align:center;">2022.1.301</td>
-        </tr>
-        <tr>
-            <td>R22022</td>
-            <td colspan="6" style="text-align:center;">2022.2.510</td>
-        </tr>
-        <tr>
-            <td>R22022SP1</td>
-            <td colspan="6" style="text-align:center;">2022.2.621</td>
-        </tr>
-        <tr>
-            <td>R32022</td>
-            <td colspan="6" style="text-align:center;">2022.3.913</td>
-        </tr>
-    </tbody>
-</table>
-</p>
+## Telerik UI for ASP.NET AJAX
 
+| Release    | Version      |
+|------------|--------------|
+| R32021     | 2021.3.914   |
+| R12022     | 2022.1.119   |
+| R12022SP1  | 2022.1.302   |
+| R22022     | 2022.2.511   |
+| R22022SP1  | 2022.2.622   |
+| R32022     | 2022.3.913   |
+| R12023     | 2023.1.117   |
+| R12023SP1  | 2023.1.314   |
+| R22023     | 2023.2.606   |
+| R32023     | 2023.3.1010  |
+| R22024     | 2024.2.513   |
 
-<script type="text/javascript">
-        function showHideRow(row) {
-            $("#" + row).toggle();
-            $('#expand'+row[row.length-1]).text(function (i, oldText) {
-        return $.trim(oldText) == 'Click to expand the list of translators' ? 'Collapse' : 'Click to expand the list of translators';
-		});
-        }
-</script>
+## Kendo UI for jQuery
 
-<style>
-    #Angular .hidden_row {
-            display: none;
-        }
-</style>
+| Release    | Version      |
+|------------|--------------|
+| R32021     | 2021.3.914   |
+| R12022     | 2022.1.119   |
+| R12022SP1  | 2022.1.301   |
+| R22022     | 2022.2.510   |
+| R22022SP1  | 2022.2.621   |
+| R32022     | 2022.3.913   |
+| R12023     | 2023.1.117   |
+| R12023SP1  | 2023.1.314   |
+| R22023     | 2023.2.606   |
+| R32023     | 2023.3.1010  |
+| R22024     | 2024.2.514   |
 
-<table class="Tbl k-table" id="Angular">
-    <colgroup>
-        <col width="30%" />
-        <col width="70%" />
-    </colgroup>
-    <thead>
-        <tr>
-			<td colspan="2" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for Angular</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr onclick="showHideRow('hidden_row1');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row1" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                            <col width="34%" />
-                            <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">6.3.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">5.1.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
-                        </tr>                        
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">7.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">1.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.3.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">7.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.3.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">5.1.1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr onclick="showHideRow('hidden_row2');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row2" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                        <col width="34%" />
-                        <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">7.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">3.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr onclick="showHideRow('hidden_row3');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row3" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                        <col width="34%" />
-                        <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">7.0.3</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">6.0.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">6.1.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">8.0.7</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">3.0.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.5.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">8.0.7</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.5.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">6.0.2</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr onclick="showHideRow('hidden_row4');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row4" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                        <col width="34%" />
-                        <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">4.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.0.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr onclick="showHideRow('hidden_row5');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row5" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                        <col width="34%" />
-                        <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.2</td>
-                        </tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.3</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">4.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.3</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.2</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr onclick="showHideRow('hidden_row6');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row6" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                        <col width="34%" />
-                        <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
-                        </tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">8.1.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">7.3.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">10.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">4.0.5</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">10.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-    </tbody>
-</table>
+## Kendo UI for Angular
+
+| Release R32021           |                            |                   |
+|--------------------------|----------------------------|-------------------|
+| **Translator Name**      | **Component Name**         | **Component Version** |
+| KendoAngularAutoComplete | kendo-angular-dropdowns    | 5.4.0             |
+| KendoAngularButton       | kendo-angular-buttons      | 6.3.0             |
+| KendoAngularComboBox     | kendo-angular-dropdowns    | 5.4.0             |
+| KendoAngularDialog       | kendo-angular-dialog       | 5.1.1             |
+| KendoAngularDropdownList | kendo-angular-dropdowns    | 5.4.0             |
+| KendoAngularGrid         | kendo-angular-grid         | 5.4.0             |
+| KendoAngularInputs       | kendo-angular-inputs       | 7.4.0             |
+| KendoAngularPager        | kendo-angular-pager        | 1.0.0             |
+| KendoAngularPanelBar     | kendo-angular-layout       | 6.3.0             |
+| KendoAngularSwitch       | kendo-angular-inputs       | 7.4.0             |
+| KendoAngularTabStrip     | kendo-angular-layout       | 6.3.0             |
+| KendoAngularWindow       | kendo-angular-dialog       | 5.1.1             |
+
+| Release R12022           |                            |                   |
+|--------------------------|----------------------------|-------------------|
+| **Translator Name**      | **Component Name**         | **Component Version** |
+| KendoAngularAutoComplete | kendo-angular-dropdowns    | 6.0.0             |
+| KendoAngularButton       | kendo-angular-buttons      | 7.0.0             |
+| KendoAngularComboBox     | kendo-angular-dropdowns    | 6.0.0             |
+| KendoAngularDialog       | kendo-angular-dialog       | 6.0.0             |
+| KendoAngularDropdownList | kendo-angular-dropdowns    | 6.0.0             |
+| KendoAngularGrid         | kendo-angular-grid         | 6.0.0             |
+| KendoAngularInputs       | kendo-angular-inputs       | 8.0.0             |
+| KendoAngularPager        | kendo-angular-pager        | 3.0.0             |
+| KendoAngularPanelBar     | kendo-angular-layout       | 6.4.0             |
+| KendoAngularSwitch       | kendo-angular-inputs       | 8.0.0             |
+| KendoAngularTabStrip     | kendo-angular-layout       | 6.4.0             |
+| KendoAngularWindow       | kendo-angular-dialog       | 6.0.0             |
+
+| Release R12022SP1        |                            |                   |
+|--------------------------|----------------------------|-------------------|
+| **Translator Name**      | **Component Name**         | **Component Version** |
+| KendoAngularAutoComplete | kendo-angular-dropdowns    | 6.0.1             |
+| KendoAngularButton       | kendo-angular-buttons      | 7.0.3             |
+| KendoAngularComboBox     | kendo-angular-dropdowns    | 6.0.1             |
+| KendoAngularDialog       | kendo-angular-dialog       | 6.0.2             |
+| KendoAngularDropdownList | kendo-angular-dropdowns    | 6.0.1             |
+| KendoAngularGrid         | kendo-angular-grid         | 6.1.0             |
+| KendoAngularInputs       | kendo-angular-inputs       | 8.0.7             |
+| KendoAngularPager        | kendo-angular-pager        | 3.0.2             |
+| KendoAngularPanelBar     | kendo-angular-layout       | 6.5.1             |
+| KendoAngularSwitch       | kendo-angular-inputs       | 8.0.7             |
+| KendoAngularTabStrip     | kendo-angular-layout       | 6.5.1             |
+| KendoAngularWindow       | kendo-angular-dialog       | 6.0.2             |
+
+| Release R22022           |                            |                   |
+|--------------------------|----------------------------|-------------------|
+| **Translator Name**      | **Component Name**         | **Component Version** |
+| KendoAngularAutoComplete | kendo-angular-dropdowns    | 7.0.1             |
+| KendoAngularButton       | kendo-angular-buttons      | 8.0.0             |
+| KendoAngularComboBox     | kendo-angular-dropdowns    | 7.0.1             |
+| KendoAngularDialog       | kendo-angular-dialog       | 7.0.0             |
+| KendoAngularDropdownList | kendo-angular-dropdowns    | 7.0.1             |
+| KendoAngularGrid         | kendo-angular-grid         | 7.0.1             |
+| KendoAngularInputs       | kendo-angular-inputs       | 9.0.1             |
+| KendoAngularPager        | kendo-angular-pager        | 4.0.0             |
+| KendoAngularPanelBar     | kendo-angular-layout       | 7.0.1             |
+| KendoAngularSwitch       | kendo-angular-inputs       | 9.0.1             |
+| KendoAngularTabStrip     | kendo-angular-layout       | 7.0.1             |
+| KendoAngularWindow       | kendo-angular-dialog       | 7.0.0             |
+
+| Release R22022SP1        |                            |                   |
+|--------------------------|----------------------------|-------------------|
+| **Translator Name**      | **Component Name**         | **Component Version** |
+| KendoAngularAutoComplete | kendo-angular-dropdowns    | 7.0.2             |
+| KendoAngularButton       | kendo-angular-buttons      | 8.0.0             |
+| KendoAngularComboBox     | kendo-angular-dropdowns    | 7.0.2             |
+| KendoAngularDialog       | kendo-angular-dialog       | 7.1.2             |
+| KendoAngularDropdownList | kendo-angular-dropdowns    | 7.0.2             |
+| KendoAngularGrid         | kendo-angular-grid         | 7.2.0             |
+| KendoAngularInputs       | kendo-angular-inputs       | 9.0.3             |
+| KendoAngularPager        | kendo-angular-pager        | 4.0.0             |
+| KendoAngularPanelBar     | kendo-angular-layout       | 7.1.0             |
+| KendoAngularSwitch       | kendo-angular-inputs       | 9.0.3             |
+| KendoAngularTabStrip     | kendo-angular-layout       | 7.1.0             |
+| KendoAngularWindow       | kendo-angular-dialog       | 7.1.2             |
+
+| Release R32022           |                            |                   |
+|--------------------------|----------------------------|-------------------|
+| **Translator Name**      | **Component Name**         | **Component Version** |
+| KendoAngularAutoComplete | kendo-angular-dropdowns    | 7.2.0             |
+| KendoAngularButton       | kendo-angular-buttons      | 8.1.0             |
+| KendoAngularComboBox     | kendo-angular-dropdowns    | 7.2.0             |
+| KendoAngularDialog       | kendo-angular-dialog       | 7.1.3             |
+| KendoAngularDropdownList | kendo-angular-dropdowns    | 7.2.0             |
+| KendoAngularGrid         | kendo-angular-grid         | 7.3.1             |
+| KendoAngularInputs       | kendo-angular-inputs       | 10.0.0            |
+| KendoAngularPager        | kendo-angular-pager        | 4.0.5             |
+| KendoAngularPanelBar     | kendo-angular-layout       | 7.1.3             |
+| KendoAngularSwitch       | kendo-angular-inputs       | 10.0.0            |
+| KendoAngularTabStrip     | kendo-angular-layout       | 7.1.3             |
+| KendoAngularWindow       | kendo-angular-dialog       | 7.1.3             |
+
+| Release    | Version  |
+|------------|----------|
+| R12023     | 11.0.0   |
+| R12023SP1  | 11.4.0   |
+| R22023     | 13.0.0   |
+| R32023     | 14.0.0   |
+| R22024     | 16.0.0   |
 
 ## Available Translators
 
