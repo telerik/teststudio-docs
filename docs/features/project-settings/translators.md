@@ -28,7 +28,7 @@ As Quality Assurance Engineer you often don't know what type and version of UI c
 
 In the below grid you can find the versions of the supported UI components matching the translators versions from the list.
 
-# Telerik UI for Blazor
+## Telerik UI for Blazor
 
 | Release    | Version  |
 |------------|----------|
@@ -44,7 +44,7 @@ In the below grid you can find the versions of the supported UI components match
 | R32023     | 4.6.0    |
 | R22024     | 6.0.0    |
 
-# Telerik UI for ASP.NET AJAX
+## Telerik UI for ASP.NET AJAX
 
 | Release    | Version      |
 |------------|--------------|
@@ -60,7 +60,7 @@ In the below grid you can find the versions of the supported UI components match
 | R32023     | 2023.3.1010  |
 | R22024     | 2024.2.513   |
 
-# Kendo UI for jQuery
+## Kendo UI for jQuery
 
 | Release    | Version      |
 |------------|--------------|
@@ -76,7 +76,7 @@ In the below grid you can find the versions of the supported UI components match
 | R32023     | 2023.3.1010  |
 | R22024     | 2024.2.514   |
 
-# Kendo UI for Angular
+## Kendo UI for Angular
 
 | Release R32021           |                            |                   |
 |--------------------------|----------------------------|-------------------|
