@@ -31,7 +31,7 @@ In the first example, the framework returns null if there is another element tha
 
 ## Solution
 
-A simple solution is available. Use Find.AllByAttributes<Control Type> overload and return the first (and actually the only completely matching control):
+A simple solution is available. Use `Find.AllByAttributes<Control Type>` overload and return the first (and actually the only completely matching control):
 
 ````C#
 HtmlInputButton button = Find.AllByAttributes<HtmlInputButton>("id=~MyButtonIDPart")[0];

@@ -102,7 +102,7 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 	<td>RenderTransformOrigin</td><td>Gets or sets the origin point of any possible render transform declared by <a href="http://msdn.microsoft.com/en-us/library/system.windows.uielement.rendertransform(VS.96).aspx" target="_blank">RenderTransform</a>, relative to the bounds of the <a href="http://msdn.microsoft.com/en-us/library/system.windows.uielement(VS.96).aspx" target="_blank">UIElement</a>.</td>
 </tr>
 <tr>
-	<td>Resources</td><td>Gets the locally defined resource dictionary. In XAML, you can establish resource items as child object elements of the <object.Resources> property element, through XAML implicit collection syntax.</td>
+	<td>Resources</td><td>Gets the locally defined resource dictionary. In XAML, you can establish resource items as child object elements of the <code>&lt;object.Resources&gt;</code> property element, through XAML implicit collection syntax.</td>
 </tr>
 <tr>
 	<td>Style</td><td>Gets or sets an instance <a href="http://msdn.microsoft.com/en-us/library/system.windows.style(VS.96).aspx" target="_blank">Style</a> that is applied for this object during rendering.</td>
@@ -143,52 +143,50 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 
 Before describing all of the methods of the FrameworkElement object I'd like to point out the following special features:
 
-1. VisualTree navigation: All FrameworkElements enable you to navigate the visual tree up or down. The object exposes methods and properties like **Parent**, **Children**, **NextSibling**, **PreviousSibling**, **AnySibling<T>**. The navigation also supports control sensitive navigation. For example, if you would like to find the parent 'Grid' that a certain text is contained in you do the following:
+1. VisualTree navigation: All FrameworkElements enable you to navigate the visual tree up or down. The object exposes methods and properties like `Parent`, `Children`, `NextSibling`, `PreviousSibling`, `AnySibling<T>`. The navigation also supports control sensitive navigation. For example, if you would like to find the parent 'Grid' that a certain text is contained in you do the following:
 
 	
-	````C#
-	WpfApplication app = Manager.ActiveApplication;
-	Assert.IsNotNull(app);
+````C#
+WpfApplication app = Manager.ActiveApplication;
+Assert.IsNotNull(app);
 
-	Grid containerGrid = app.Find.ByText("SomeText").Parent("Grid").As<Grid>();
+Grid containerGrid = app.Find.ByText("SomeText").Parent("Grid").As<Grid>();
+````
 
-	````
+__OR__
 
-	__OR__
+If you are working with a custom control that doesn't have a strongly-typed object under **ArtOfTest.WebAii.Silverlight.UI**, the navigation methods all offer a non-generic version that can be used to search for a certain type. For example, let's say you are trying to find the custom control "Bar" that contains some text, then you can do the following:
 
-	If you are working with a custom control that doesn't have a strongly-typed object under **ArtOfTest.WebAii.Silverlight.UI**, the navigation methods all offer a non-generic version that can be used to search for a certain type. For example, let's say you are trying to find the custom control "Bar" that contains some text, then you can do the following:
+````C#
+WpfApplication app = Manager.ActiveApplication;
+Assert.IsNotNull(app);
 
-	````C#
-	WpfApplication app = Manager.ActiveApplication;
-	Assert.IsNotNull(app);
+FrameworkElement barElement = app.Find.ByText("SomeText").Parent("Bar");
+````
 
-	FrameworkElement barElement = app.Find.ByText("SomeText").Parent("Bar");
-	
-	````
-
-	**Parent**, **NextSibling**, **PreviousSibling & AnySibling** all offer a non-generic versions in addition to the generic one.
+`Parent`, `NextSibling`, `PreviousSibling` & `AnySibling` all offer a non-generic versions in addition to the generic one.
 
 2. **User Interaction object:**
 
-	The FrameworkElement object exposes a user interaction object. The object is exposed as a property named '**User**'. User then exposes all the real automation methods like moving the mouse to click an element, type a text, mouse enter, mouse leave…etc.
+The FrameworkElement object exposes a user interaction object. The object is exposed as a property named '**User**'. User then exposes all the real automation methods like moving the mouse to click an element, type a text, mouse enter, mouse leave…etc.
 
-	**Note:** One of the reasons why we moved these methods into their own object under 'User.xxx' is to help users differentiate between automation that is done by setting/getting properties vs. real automation that used the mouse or keyboard to invoke actions.
+**Note:** One of the reasons why we moved these methods into their own object under 'User.xxx' is to help users differentiate between automation that is done by setting/getting properties vs. real automation that used the mouse or keyboard to invoke actions.
 
 3. **Element coordinates:** 
 
 
-	All FrameworkElements offer the ability to get both the relative coordinates of the element within the Silverlight application and the actual coordinates in screen coordinates. The two methods are **GetRectangle()**and **GetScreenRectangle()**.
+All FrameworkElements offer the ability to get both the relative coordinates of the element within the Silverlight application and the actual coordinates in screen coordinates. The two methods are `GetRectangle()`and `GetScreenRectangle()`.
 
-	**Note:** Given that WPF/Silverlight applications allow for rich transforms for visual elements (i.e. rotate, zoom….etc) and some elements like ellipses don't really conform to a rectangle per-say, our coordinate calculations will always return the largest rectangle that contains the actual element with its center right at the center of the element. For example, a GetRectangle on an ellipse will return this:
+**Note:** Given that WPF/Silverlight applications allow for rich transforms for visual elements (i.e. rotate, zoom….etc) and some elements like ellipses don't really conform to a rectangle per-say, our coordinate calculations will always return the largest rectangle that contains the actual element with its center right at the center of the element. For example, a GetRectangle on an ellipse will return this:
 
-	![SL app][1]
+![SL app][1]
 
-	 *The highlighting above is using the FrameworkElement.Highlight() method.*
+*The highlighting above is using the FrameworkElement.Highlight() method.*
 
 4. **XML Representation**:
 
 
-	Every **FrameworkElement** has a **ToXml()** method on it that returns the VisualTree of that element as an XML formatted string. This is very useful when trying to understand the visual tree at a certain state. [Hint: You can get the entire visual tree of an app by calling **app.VisualTree.Root.ToXml()**]
+Every **FrameworkElement** has a `ToXml()` method on it that returns the VisualTree of that element as an XML formatted string. This is very useful when trying to understand the visual tree at a certain state. [Hint: You can get the entire visual tree of an app by calling `app.VisualTree.Root.ToXml()`]
 
 These are all of the FrameworkElement methods available for use by your automation code:
 

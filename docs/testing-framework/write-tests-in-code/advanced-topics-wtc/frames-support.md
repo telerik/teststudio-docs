@@ -15,27 +15,37 @@ Frames are treated just like another browser instance. In order to work with the
 	<th>Method</th><th>Parameter</th><th>Description</th>
 </tr>
 <tr>
-	<td>**Browser.Frames[string frameName]**</td>
+	<td>
+
+**Browser.Frames[string frameName]**</td>
 	<td>Takes a string that specifies the name of the frame. e.g. <frame src="t1.html" name="t1_frame"></td>
 	<td>This method searches for a frame that matches the specified string and then returns a Browser object representing that frame that you can use to interact with the frame. Returns null if no matching frame can be found.</td>
 </tr>
 <tr>
-	<td>**Browser.Frames[int frameIndex]**</td>
+	<td>
+
+**Browser.Frames[int frameIndex]**</td>
 	<td>Takes an integer specifying which frame to get from the frame collection. Useful if you know ahead of time you want the second frame. e.g. ActiveBrowser.Frames[1]</td>
 	<td>This method searches for a frame that matches the specified string and then returns a Browser object representing that frame that you can use to interact with the frame. Throws an error if the index value is out of range.</td>
 </tr>
 <tr>
-	<td>**Browser.Frames[FrameInfo frameInfo]**</td>
+	<td>
+
+**Browser.Frames[FrameInfo frameInfo]**</td>
 	<td>Takes a FrameInfo object that specifies the properties of the frame you want. Perhaps you want to locate a frame by its src property.</td>
 	<td>This method searches for a frame that matches the specified string and then returns a Browser object representing that frame that you can use to interact with the frame. Returns null if no matching frame can be found.</td>
 </tr>
 <tr>
-	<td>**Browser.Frames.ById(string frameId)**</td>
+	<td>
+
+**Browser.Frames.ById(string frameId)**</td>
 	<td>Takes a string that specifies the ID of the frame. Prefix with a tilde (~) to indicate a partial match.</td>
 	<td>This method searches for a frame that matches the specified string and then returns a Browser object representing that frame that you can use to interact with the frame. Returns null if no matching frame can be found. </td>
 </tr>
 <tr>
-	<td>**Browser.Frames.BySrc(string src)**</td>
+	<td>
+
+**Browser.Frames.BySrc(string src)**</td>
 	<td>Takes a string that specifies the source of the frame. Prefix with a tilde (~) to indicate a partial match.</td>
 	<td>This method searches for a frame that matches the specified string and then returns a Browser object representing that frame that you can use to interact with the frame. Returns null if no matching frame can be found. </td>
 </tr>

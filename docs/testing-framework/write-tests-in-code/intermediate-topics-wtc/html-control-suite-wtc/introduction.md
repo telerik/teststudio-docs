@@ -9,11 +9,11 @@ position: 1
 
 Telerik Framework includes an extensive suite of strongly typed HTML element wrappers that abstracts out actions and verifications of the controls contained on the webpage. With the classes contained in the control suite you can do things like:
 
-**nextPageButton.Click()** instead of **Actions.Click(nextPageButton)**
+`nextPageButton.Click()` instead of `Actions.Click(nextPageButton)`
 
 or
 
-**Assert.IsTrue(textBox.Text.Equals("foo"))** instead of **Assert.IsTrue(element.GetAttribute("value").Equals("foo"))**
+`Assert.IsTrue(textBox.Text.Equals("foo"))` instead of `Assert.IsTrue(element.GetAttribute("value").Equals("foo"))`
 
 
 In addition there are many other features that make the abstraction even more powerful. Here is a list off all the wrapper classes currently available along with the properties and methods they expose:
@@ -23,7 +23,9 @@ In addition there are many other features that make the abstraction even more po
 	<th>HTML Control</th><th>Description</th><th>Properties</th><th>Methods</th><th>Base Class</th>
 </tr>
 <tr>
-	<td>**HtmlAnchor**</td>
+	<td>
+
+**HtmlAnchor**</td>
 	<td>Wraps access to a HTML \<a> anchor element.</td>
 	<td>HRef<br>
 	Name<br>
@@ -33,7 +35,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlButton**</td>
+	<td>
+
+**HtmlButton**</td>
 	<td>Wraps access to a HTML \<button> element.</td>
 	<td>Disabled
 	Name<br>
@@ -43,14 +47,18 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlDefinitionDescription**</td>
+	<td>
+
+**HtmlDefinitionDescription**</td>
 	<td>Wraps access to a HTML \<dd /> element . This control is used by the HtmlDefinitionList control.</td>
 	<td>Description</td>
 	<td></td>
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlDefinitionList**</td>
+	<td>
+
+**HtmlDefinitionList**</td>
 	<td>Wraps access to a HTML \<dl> element.</td>
 	<td>Descriptions<br>
 	Terms</td>
@@ -58,21 +66,27 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlDefinitionTerm**</td>
+	<td>
+
+**HtmlDefinitionTerm**</td>
 	<td>Wraps access to a HTML \<dt> element. This control is used by the HtmlDefinitionList control.</td>
 	<td>Terms</td>
 	<td></td>
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlDiv**</td>
+	<td>
+
+**HtmlDiv**</td>
 	<td>Wraps access to a HTML \<div> container element.</td>
 	<td></td>
 	<td></td>
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlForm**</td>
+	<td>
+
+**HtmlForm**</td>
 	<td>Wraps access to a HTML \<form> element.</td>
 	<td>EncType<br>
 	Length<br>
@@ -82,7 +96,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlImage**</td>
+	<td>
+
+**HtmlImage**</td>
 	<td>Wraps access to a HTML \<image> element.</td>
 	<td>Align<br>
 	Alt<br>
@@ -94,7 +110,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputButton**</td>
+	<td>
+
+**HtmlInputButton**</td>
 	<td>Wraps access to a HTML \<input type=button> element.</td>
 	<td>Align<br>
 	Alt<br>
@@ -106,28 +124,36 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputCheckBox**</td>
+	<td>
+
+**HtmlInputCheckBox**</td>
 	<td>Wraps access to a HTML \<input type=checkbox> element.</td>
 	<td>Checked</td>
 	<td>Check</td>
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputFile**</td>
+	<td>
+
+**HtmlInputFile**</td>
 	<td>Wraps access to a HTML \<input type=file> element.</td>
 	<td>FilePath</td>
 	<td>Upload</td>
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputHidden**</td>
+	<td>
+
+**HtmlInputHidden**</td>
 	<td>Wraps access to a HTML \<input type=hidden> element.</td>
 	<td></td>
 	<td></td>
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputImage**</td>
+	<td>
+
+**HtmlInputImage**</td>
 	<td>Wraps access to a HTML \<input type=image> element.</td>
 	<td>Align<br>
 	Alt<br>
@@ -139,7 +165,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputPassword**</td>
+	<td>
+
+**HtmlInputPassword**</td>
 	<td>Wraps access to a HTML \<input type=password> element.</td>
 	<td>Disabled
 	Size<br>
@@ -149,14 +177,18 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputRadioButton**</td>
+	<td>
+
+**HtmlInputRadioButton**</td>
 	<td>Wraps access to a HTML \<input type=radio> element.</td>
 	<td>Cheched</td>
 	<td>Check</td>
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputReset**</td>
+	<td>
+
+**HtmlInputReset**</td>
 	<td>Wraps access to a HTML \<input type=reset> element.</td>
 	<td>Align<br>
 	Alt<br>
@@ -168,7 +200,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputSubmit**</td>
+	<td>
+
+**HtmlInputSubmit**</td>
 	<td>Wraps access to a HTML \<input type=submit> element.</td>
 	<td>Align<br>
 	Alt<br>
@@ -180,7 +214,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlInputText**</td>
+	<td>
+
+**HtmlInputText**</td>
 	<td>Wraps access to a HTML \<input type=text> element.</td>
 	<td>Disabled<br>
 	Size<br>
@@ -190,14 +226,18 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlInputControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlListItem**</td>
+	<td>
+
+**HtmlListItem**</td>
 	<td>Wraps access to a HTML \<li> element. This control is used by the HtmlOrdererList control and the HtmlUnorderedList control.</td>
 	<td>GetItemOrder</td>
 	<td></td>
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlOption**</td>
+	<td>
+
+**HtmlOption**</td>
 	<td>Wraps access to a HTML \<option> element which is a member of a select element.</td>
 	<td>Selected<br>
 	Text<br>
@@ -206,7 +246,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlOrderedList**</td>
+	<td>
+
+**HtmlOrderedList**</td>
 	<td>Wraps access to a HTML \<ol>.</td>
 	<td>AllItems<br>
 	Itemst</td>
@@ -214,7 +256,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlSelect**</td>
+	<td>
+
+**HtmlSelect**</td>
 	<td>Wraps access to a HTML \<select> list box or drop-down list element.</td>
 	<td>Options<br>
 	SelectedIndex<br>
@@ -231,14 +275,18 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlSpan**</td>
+	<td>
+
+**HtmlSpan**</td>
 	<td>Wraps access to a HTML \<span> inline text container element.</td>
 	<td></td>
 	<td></td>
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlTable**</td>
+	<td>
+
+**HtmlTable**</td>
 	<td>Wraps access to a HTML \<table> table element containing rows and columns.</td>
 	<td>AllRows<br>
 	BodyRows<br>
@@ -256,7 +304,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlTableCell**</td>
+	<td>
+
+**HtmlTableCell**</td>
 	<td>Wraps access to a HTML \<td> table cell element.</td>
 	<td>Align<br>
 	BgColor<br>
@@ -272,7 +322,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlTableRow**</td>
+	<td>
+
+**HtmlTableRow**</td>
 	<td>Wraps access to a HTML \<tr> element.</td>
 	<td>Align<br>
 	BgColor<br>
@@ -285,7 +337,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlTextArea**</td>
+	<td>
+
+**HtmlTextArea**</td>
 	<td>Wraps access to a HTML \<textArea> text input element.</td>
 	<td>Cols<br>
 	Rows<br>
@@ -294,7 +348,9 @@ In addition there are many other features that make the abstraction even more po
 	<td><a href="#base">HtmlContainerControl</a></td>
 </tr>
 <tr>
-	<td>**HtmlUnorderedList**</td>
+	<td>
+
+**HtmlUnorderedList**</td>
 	<td>Wraps access to a HTML \<ul> element.</td>
 	<td>AllItems<br>
 	Items</td>
@@ -311,7 +367,9 @@ Here is a list of the base classes along with the properties and methods they ex
 	<th>Base Class</th><th>Description</th><th>Properties</th><th>Methods</th><th>Base Class</th>
 </tr>
 <tr>
-	<td>**HtmlContainerControl**</td>
+	<td>
+
+**HtmlContainerControl**</td>
 	<td>Base class for all wrapper controls that can contain other controls.</td>
 	<td>Find<br>
 	InnerText<br>	
@@ -320,7 +378,9 @@ Here is a list of the base classes along with the properties and methods they ex
 	<td>HtmlControl</td>
 </tr>
 <tr>
-	<td>**HtmlInputControl**</td>
+	<td>
+
+**HtmlInputControl**</td>
 	<td>Base class for all input wrapper controls.</td>
 	<td>Name<br>
 	Type<br>
@@ -329,7 +389,9 @@ Here is a list of the base classes along with the properties and methods they ex
 	<td>HtmlControl</td>
 </tr>
 <tr>
-	<td>**HtmlControl**</td>
+	<td>
+
+**HtmlControl**</td>
 	<td>Base class for the entire HTML wrapper control suite.</td>
 	<td>Attributes<br>
 	ChildNodes<br>
@@ -366,7 +428,9 @@ Here is a list of the base classes along with the properties and methods they ex
 	<td>Control</td>
 </tr>
 <tr>
-	<td>**Control**</td>
+	<td>
+
+**Control**</td>
 	<td>Root base class for all WebAii controls.</td>
 	<td>BaseElement<br>
 	IsRefresh<br>
@@ -390,7 +454,9 @@ Here is a list of the support classes that make it easier to use the rest of the
 	<th>Base Class</th><th>Description</th><th>Properties</th><th>Methods</th><th>Base Class</th>
 </tr>
 <tr>
-	<td>**HtmlFind**</td>
+	<td>
+
+**HtmlFind**</td>
 	<td>An extended Find class that includes HTML specific find methods.</td>
 	<td>Table<br>
 	TableCell<br>
@@ -399,7 +465,9 @@ Here is a list of the support classes that make it easier to use the rest of the
 	<td>Find</td>
 </tr>
 <tr>
-	<td>**HtmlStyle**</td>
+	<td>
+
+**HtmlStyle**</td>
 	<td>Represents a single HtmlStyle. This object can be used to help probe and do validation against Html styles. Has functionality to convert unit styles to int values and color styles to System.Drawing.Color.</td>
 	<td>Name<br>
 	Value</td>
@@ -412,7 +480,9 @@ Here is a list of the support classes that make it easier to use the rest of the
 	<td>Name<br>Value</td>
 </tr>
 <tr>
-	<td>**HtmlWait**</td>
+	<td>
+
+**HtmlWait**</td>
 	<td>An extended Wait class that includes HTML specific wait methods.</td>
 	<td></td>
 	<td>ForCondition<br>
@@ -578,8 +648,8 @@ End Class
 
 
 By taking advantage of the object oriented nature of the HTML element wrapper classes, our test code that fills in the fields and clicks the submit button is much simpler, more descriptive and more intuitive in nature. Note how simple it was to enter text into all the input fields, as well as make all the drop down selections using intuitive methods included with Telerik's HTML element wrapper classes!
-Also notice how we're doing a nested find. The line **form.Find.AllByTagName<HtmlSelect>("select");** is returning all of the **\<select>** elements that are contained within the form "Form2" contained on the page, not the entire page itself which may contain other \<select> elements on the page, perhaps even on other forms contained on the same page.
+Also notice how we're doing a nested find. The line `form.Find.AllByTagName<HtmlSelect>("select");` is returning all of the `<select>` elements that are contained within the form "Form2" contained on the page, not the entire page itself which may contain other `<select>` elements on the page, perhaps even on other forms contained on the same page.
  
-One special feature to note about the **Find.AllByXXX<TControl>()** functions is that they filter on the type of the **TControl** such that the returned list only includes elements of type **TControl**. In the example above we're calling **Find.AllByTagName<HtmlInputText>("input")**. Due to the filtering being performed by the framework we only get back \<input type="text"> elements and not other input elements such as the \<input type="password"> element that is also on the form.
+One special feature to note about the `Find.AllByXXX<TControl>()` functions is that they filter on the type of the `TControl` such that the returned list only includes elements of type `TControl`. In the example above we're calling `Find.AllByTagName<HtmlInputText>("input")`. Due to the filtering being performed by the framework we only get back `<input type="text">` elements and not other input elements such as the `<input type="password">` element that is also on the form.
  
-By the same token all of the Fi**nd.ByXXX<TControl>()** functions also verify that the found element is of type **TControl**. If, for example, you call **Find.ByTagIndex<HtmlInputPassword>("input", 4)** and the 5th \<input> element is not type="password" then the framework will throw a System.ArgumentException.
+By the same token all of the `Find.ByXXX<TControl>()` functions also verify that the found element is of type `TControl`. If, for example, you call `Find.ByTagIndex<HtmlInputPassword>("input", 4)` and the 5th `<input>` element is not type="password" then the framework will throw a System.ArgumentException.

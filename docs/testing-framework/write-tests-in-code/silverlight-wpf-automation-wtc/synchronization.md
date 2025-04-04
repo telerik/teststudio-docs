@@ -17,22 +17,34 @@ The framework has many features implemented to aid you in synchronizing with you
 	<th>Wait Type</th><th>Description</th>
 </tr>
 <tr>
-	<td>**ForExists**</td><td>This method waits for the element to exist in the Visual Tree. It accepts an optional timeout parameter.</td>
+	<td>
+
+**ForExists**</td><td>This method waits for the element to exist in the Visual Tree. It accepts an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**ForExistsNot**</td><td>This method waits for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter</td>
+	<td>
+
+**ForExistsNot**</td><td>This method waits for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter</td>
 </tr>
 <tr>
-	<td>**ForVisible**</td><td>This method waits for the element to both exist in the Visual Tree and its Visibility attribute to equal "Visible". It accepts an optional timeout parameter.</td>
+	<td>
+
+**ForVisible**</td><td>This method waits for the element to both exist in the Visual Tree and its Visibility attribute to equal "Visible". It accepts an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**ForVisibleNot**</td><td>This method waits for the Visibility property of the element to not equal 'Visible' or for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter.</td>
+	<td>
+
+**ForVisibleNot**</td><td>This method waits for the Visibility property of the element to not equal 'Visible' or for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**ForNoMotion**</td><td>This method waits for the element to stop moving on the drawing surface. It takes a check interval and an optional timeout parameter.</td>
+	<td>
+
+**ForNoMotion**</td><td>This method waits for the element to stop moving on the drawing surface. It takes a check interval and an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**For(Predicate)**</td><td>This method takes a custom predicate and waits for that predicate to return true. It accepts an optional error message and an optional timeout parameter.</td>
+	<td>
+
+**For(Predicate)**</td><td>This method takes a custom predicate and waits for that predicate to return true. It accepts an optional error message and an optional timeout parameter.</td>
 </tr>
 </table>
 

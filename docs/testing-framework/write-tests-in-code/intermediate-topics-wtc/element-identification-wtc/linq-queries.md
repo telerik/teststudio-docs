@@ -15,15 +15,33 @@ The Find.Byxxx methods now support Language-Integrated Query (LINQ) queries. Som
 	<th>Methods</th><th>Description</th><th>Example</th>
 </tr>
 <tr>
-	<td>**AllElements**</td>
-	<td>Gets a IEnumerable for all elements to be used for LINQ queries.</td>
-	<td>var inlineStyledElements = Find.AllElements().Where(element =><br>
-	element.ContainsAttribute("style"));</td>
+<td>
+
+**AllElements**</td>
+<td>
+
+Gets a `IEnumerable` for all elements to be used for LINQ queries.</td>
+<td>
+
+````C#
+var inlineStyledElements = Find.AllElements().Where(element =>
+element.ContainsAttribute("style"));
+````
+</td>
 </tr>
 <tr>
-	<td>**AllControls**</td>
-	<td>Gets an IEnumerable for TControl to be used for LINQ queries. This will return only elements that are convertible to TControl.</td>
-	<td>var images = Find.AllControls<HtmlImage>();</td>
+<td>
+
+**AllControls**</td>
+<td>
+
+Gets an `IEnumerable` for `TControl` to be used for LINQ queries. This will return only elements that are convertible to TControl.</td>
+<td>
+
+````C#
+var images = Find.AllControls<HtmlImage>();
+````
+</td>
 </tr>
 </table>
 

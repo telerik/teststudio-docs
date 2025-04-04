@@ -166,19 +166,19 @@ The FrameworkElement class implements a number of methods just for purpose of te
 	<th>Property</th><th>Description</th>
 </tr>
 <tr>
-	<td>CastAs\<T>()</td><td>Returns a FrameworkElement as a strongly-typed control. Does not enforce a tagname to match the type.</td>
+	<td><code>&lt;CastAs\<T>()&gt;</code></td><td>Returns a FrameworkElement as a strongly-typed control. Does not enforce a tagname to match the type.</td>
 </tr>
 <tr>
-	<td>GetChildren()</td>Returns the child elements of the FrameworkElement.</td>
+	<td><code>&lt;GetChildren()&gt;</code></td>Returns the child elements of the FrameworkElement.</td>
 </tr>
 <tr>
-	<td>GetNextSibling()</td><td>Returns the next sibling of  the FrameworkElement.</td>
+	<td><code>&lt;GetNextSibling()&gt;</code></td><td>Returns the next sibling of  the FrameworkElement.</td>
 </tr>
 <tr>
-	<td>Parent()</td><td>Returns the parent element of the current Framework Element</td>
+	<td><code>&lt;Parent()&gt;</code></td><td>Returns the parent element of the current Framework Element</td>
 </tr>
 <tr>
-	<td>ScrollToVisible()</td><td>Scrolls the browser so that the Framework Element is visible.</td>
+	<td><code>&lt;ScrollToVisible()&gt;</code></td><td>Scrolls the browser so that the Framework Element is visible.</td>
 </tr>
 </table>
 

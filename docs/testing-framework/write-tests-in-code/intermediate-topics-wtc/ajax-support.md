@@ -144,7 +144,7 @@ When using Ajax the application, in most scenarios, updates the document's DOM u
  
 In some scenarios that might not even be enough. For example, you want to retrieve a property value that doesn't usually get emitted into the DOM when serialized like the default or inherited values of an unset property or in Firefox the 'value' property of input tags.
  
-To help address this issue and potentially other issues, the Telerik infrastructure supports a generic and simple method of retrieving any property of any element directly from the live DOM hosted in the browser. Each Element object in the Telerik Testing Framework has a GetValue<T>() method that you can use to evaluate any custom or standard attribute of your Dom element at any point in your test code or application.
+To help address this issue and potentially other issues, the Telerik infrastructure supports a generic and simple method of retrieving any property of any element directly from the live DOM hosted in the browser. Each Element object in the Telerik Testing Framework has a `GetValue<T>()` method that you can use to evaluate any custom or standard attribute of your Dom element at any point in your test code or application.
  
 For example, if you want to retrieve the text set by a user in an input textbox in Firefox, you can simply do the following:
 

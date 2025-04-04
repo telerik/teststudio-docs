@@ -7,7 +7,7 @@ position: 3
 ---
 # Locating Elements in Silverlight and WPF applications 
 
-Before you can automate interaction with elements contained in a Silverlight/WPF application, you need to first locate the elements contained within the application. For complex applications, locating elements is probably going to be one of the more time consuming tasks. Testers will need to spend time understanding how to reliably find an element. Silverlight/WPF applications that we studied that rely heavily on control templates and data binding produce quite complex visual trees. Their elements are not easily searchable by **Find.ByName()** given the different <a href=http://msdn.microsoft.com/en-us/library/cc189026%28VS.95%29.aspx" target="_blank">Silverlight</a> and <a href="http://msdn.microsoft.com/en-us/library/ms746659.aspx" target="_blank">WPF</a> name scopes created, and the duplication of names within those templates.
+Before you can automate interaction with elements contained in a Silverlight/WPF application, you need to first locate the elements contained within the application. For complex applications, locating elements is probably going to be one of the more time consuming tasks. Testers will need to spend time understanding how to reliably find an element. Silverlight/WPF applications that we studied that rely heavily on control templates and data binding produce quite complex visual trees. Their elements are not easily searchable by `Find.ByName()` given the different <a href=http://msdn.microsoft.com/en-us/library/cc189026%28VS.95%29.aspx" target="_blank">Silverlight</a> and <a href="http://msdn.microsoft.com/en-us/library/ms746659.aspx" target="_blank">WPF</a> name scopes created, and the duplication of names within those templates.
 
 1. <a href="#the-find-strategy">The Find Strategy</a> - change the 'Strategy' property that controls how the method behaves when searching for an element.
 
@@ -17,7 +17,7 @@ Before you can automate interaction with elements contained in a Silverlight/WPF
 
 4. <a href="#finding-elements-by-xamlfindexpression">Finding Elements by XamlFindExpression</a> - search for an element using a FindExpression.
 
-The simplest method of searching is to use the **Find.ByName(String name)** method or the **Find.ByName\<TControl>(String name)** method. Both methods take a string parameter that specifies the name of the element to locate in the application. The first method returns a FrameworkElement object while the second method returns an object of type T having the specified name. If an element having the specified name does not exist or is not currently visible, or if the found element cannot be cast into type T, the functions will return null ('Nothing' in VB.NET). For example:
+The simplest method of searching is to use the `Find.ByName(String name)` method or the `Find.ByName<TControl>(String name)` method. Both methods take a string parameter that specifies the name of the element to locate in the application. The first method returns a FrameworkElement object while the second method returns an object of type T having the specified name. If an element having the specified name does not exist or is not currently visible, or if the found element cannot be cast into type T, the functions will return null ('Nothing' in VB.NET). For example:
 
 ````C#
 FrameworkElement zoomBox = app.FindName("zoomBox");
@@ -47,16 +47,16 @@ All of the common methods for finding an element to operate on are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td>Find.ByName()/Find.ByName\<T></td><td>Returns the first element having the specified name.</td>
+	<td><code>&lt;Find.ByName()&gt;</code>/<code>&lt;Find.ByName\<T>&gt;</code></td><td>Returns the first element having the specified name.</td>
 </tr>
 <tr>
-	<td>Find.ByText</td><td>Returns the first TextBlock that matches the text provided.</td>
+	<td><code>&lt;Find.ByText&gt;</code></td><td>Returns the first TextBlock that matches the text provided.</td>
 </tr>
 <tr>
-	<td>Find.ByAutomationId</td><td>Returns an element having the automation ID you specify.</td>
+	<td><code>&lt;Find.ByAutomationId&gt;</code></td><td>Returns an element having the automation ID you specify.</td>
 </tr>
 <tr>
-	<td>Find.ByType</td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
+	<td><code>&lt;Find.ByType&gt;</code></td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
 </tr>
 </table>
 
@@ -96,23 +96,23 @@ Dim dataGrids1 As IList(Of FrameworkElement) = app.Find.AllByType("DataGrid")
 Dim dataGrids2 As IList(Of DataGrid) = app.Find.AllByType(Of DataGrid)()
 ````
 
-All of the Find.AllByxxx functions are:
+All of the `Find.AllByxxx` functions are:
 
 <table class="docs">
 <tr>
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td>Find.AllByName()/Find.AllByName\<T></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
+	<td><code>&lt;Find.AllByName()&gt;</code>/<code>&lt;Find.AllByName\<T>&gt;</code></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
 </tr>
 <tr>
-	<td>Find.AllByText()</td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
+	<td><code>&lt;Find.AllByText()&gt;</code></td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
 </tr>
 <tr>
-	<td>Find.AllByType()/Find.AllByType\<T></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
+	<td><code>&lt;Find.AllByType()&gt;</code>/<code>&lt;Find.AllByType\<T>&gt;</code></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
 </tr>
 <tr>
-	<td>Find.AllByAutomationID()/Find.AllByAutomationID\<T></td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
+	<td><code>&lt;Find.AllByAutomationID(&gt;</code>/<code>&lt;Find.AllByAutomationID\<T>&gt;</code>)</td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
 </tr>
 </table>
 
@@ -134,7 +134,7 @@ The above code first locates the element named "patientSearchScroller" and then 
 
 ## Finding Elements by XamlFindExpression
 
-Another advanced feature is to find the element using a XamlFindExpression. FindExpressions are the replacement/evolution of FindParams. Telerik Testing Framework uses FindExpressions as the basis for all element searches in the DOM, HWnd, or control trees (including Translator Locators). For example, the above scoped search to retrieve a ScrollViewer can be written using Find.ByExpression as follows:
+Another advanced feature is to find the element using a XamlFindExpression. FindExpressions are the replacement/evolution of FindParams. Telerik Testing Framework uses FindExpressions as the basis for all element searches in the DOM, HWnd, or control trees (including Translator Locators). For example, the above scoped search to retrieve a ScrollViewer can be written using `Find.ByExpression` as follows:
 
 ````C#
 ScrollViewer searchScroll = app.Find.ByExpression(new XamlFindExpression("Name=patientSearchScroller", "|", "XamlTag=ScrollViewer")).As<ScrollViewer>();
