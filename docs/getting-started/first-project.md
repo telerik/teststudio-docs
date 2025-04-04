@@ -22,7 +22,7 @@ Once you have successfully <a href="/prerequisites/installation/install-procedur
 <br><br>
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 > __Tip__
@@ -67,13 +67,13 @@ The <a href="/general-information/start-a-project/welcome-screen#get-started" ta
 
 Creating your first Test Studio project launches the default _Compact_ layout. This consists of useful panels providing a bunch of useful components. To speed up your flawless work with Test Studio, you can refer the below notes for each of these.
 
-- <a href="/features/project-explorer/overview" target="_blank">__Project Explorer__</a> - this is the pane, which displays the structure of the project with all tests, coded files, folders in the project root folder. Provides access to the items properties, allows you to copy, cut and paste these, add new items, etc.
-- <a href="/features/elements-explorer/overview" target="_blank">__Elements Explorer__</a> - this is the pane, which shows all elements referred from the test steps in the project, structured in a tree view, which includes page node, frame, element. Provides access to the elements' find expressions and properties, allows you to edit these.
-- <a href="/features/test-maintenance/steps-pane" target="_blank">__Edit Project Items Pane__</a> - this is the pane, which shows the selected component (test, element, coded file) and allows you to edit it.
-- <a href="/features/coded-steps/output-panel" target="_blank">__Output Pane__</a> - this is the pane, which displays different messages related to your work in the project - syntax or compilation errors when adding code snippets, or messages in regards the Source Control related actions.
-- <a href="/general-information/test-recording/step-suggestions" target="_blank">__Step Builder__</a> - this is the pane, which allows you to add different steps in the tests even if no recording session is currently active.
-- __Properties Pane__ - this is the pane to list the properties of the currently selected item (test, step, element, page node, frame) and allows you to edit these.
-- __Tools Ribbon__ - the Tools Ribbon provides access to various settings in regards the active tab in the project.
+- <a href="/features/project-explorer/overview" target="_blank">Project Explorer</a> - this is the pane, which displays the structure of the project with all tests, coded files, folders in the project root folder. Provides access to the items properties, allows you to copy, cut and paste these, add new items, etc.
+- <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a> - this is the pane, which shows all elements referred from the test steps in the project, structured in a tree view, which includes page node, frame, element. Provides access to the elements' find expressions and properties, allows you to edit these.
+- <a href="/features/test-maintenance/steps-pane" target="_blank">Edit Project Items Pane</a> - this is the pane, which shows the selected component (test, element, coded file) and allows you to edit it.
+- <a href="/features/coded-steps/output-panel" target="_blank">Output Pane</a> - this is the pane, which displays different messages related to your work in the project - syntax or compilation errors when adding code snippets, or messages in regards the Source Control related actions.
+- <a href="/general-information/test-recording/step-suggestions" target="_blank">Step Builder</a> - this is the pane, which allows you to add different steps in the tests even if no recording session is currently active.
+- Properties Pane - this is the pane to list the properties of the currently selected item (test, step, element, page node, frame) and allows you to edit these.
+- Tools Ribbon - the Tools Ribbon provides access to various settings in regards the active tab in the project.
 
 ![Project Layout](/img/getting-started/first-project/project-components.png)
 

@@ -10,7 +10,7 @@ position: 0
 A specific set of settings is required to enable each of the supported browsers for test recording and execution with Test Studio and this is called __Browser Calibration__. Some of the browsers also require the installation of an extension.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 <br>
