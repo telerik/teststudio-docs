@@ -42,6 +42,7 @@ finally
 {
     app.Find.Strategy = originalStrategy;
 }
+````
 ````VB
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
 Dim originalStrategy As FindStrategy = app.Find.Strategy
