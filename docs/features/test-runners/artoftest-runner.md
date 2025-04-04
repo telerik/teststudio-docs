@@ -52,7 +52,7 @@ The `test` option accepts full file path to an individual test with the **\*.tst
 
 - Run individual test stored in the project root folder: 
 
-````cmd
+````batch
 > "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
 ````
@@ -61,7 +61,7 @@ test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
 
 - Run individual test stored in a sub-folder under the project root one: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\Test Studio Projects\July2024\inProjectFolder\nestedDemoTest.tstest" 
 root="D:\Test Studio Projects\July2024"
@@ -83,7 +83,7 @@ The `list` option takes the full path to a test list file with the **\*.aiilist*
 
 - Run test list: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist"
 ````
@@ -110,7 +110,7 @@ The `out` option defines an alternative folder to store the results to and takes
 
 - Run test list outputting the results in specified folder: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder"
 ````
@@ -125,7 +125,7 @@ The `result` sets specific name for the default result file and takes a file nam
 
 - Run test list outputting the results in specified folder and setting custom name for the result file: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
 result="customName"
@@ -145,7 +145,7 @@ Use either the `xml`, or the `html` option to output the result into the corresp
 
 - Run test list outputting the results in xml format: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
 xml
@@ -155,7 +155,7 @@ xml
 
 - Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
 result="customName" 
@@ -176,7 +176,7 @@ Use the `junit` or `junitstep` options to output the result into a `junit(step).
 
 - Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
 
-````cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
 out="D:\SharedFolder" 
@@ -188,7 +188,7 @@ junitstep
 
 - Run single test outputting the results in junit format: 
 
-````cmd
+````batch
 >>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\elle\Test Studio Projects\July2024\demoTest-AOTRunner.tstest" 
 junit

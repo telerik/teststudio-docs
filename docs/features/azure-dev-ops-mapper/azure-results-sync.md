@@ -28,7 +28,7 @@ position: 3
 
 # Local Machine Example
 
-````cmd 
+````batch 
 "c:\Program Files (x86)\Progress\Test Studio\Bin\AzureResultsMapper\Telerik.TestStudio.AzureResultsSync.exe" url=https://dev.azure.com/my-org token=<MY-TOKEN> map="<PATH-MAPPING-FILE>" aiiresult="<PATH-MAPPING-FILE>"
 ````
 

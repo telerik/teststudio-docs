@@ -37,7 +37,7 @@ To configure the task add following arguments:
 list="PATH_TO_PROJECT\TEST_LIST_NAME.aiilist" out=${bamboo.build.working.directory} junitstep
 ````
 
-**OR**
+<strong>OR</strong>
 
 ````
 test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} junitstep

@@ -28,7 +28,7 @@ The solution is to use this approach in a **loop**:
 
 My sample Silverlight application to test contains this XAML code to render my listbox:
 
-````XAML
+````xml
 <ListBox AutomationProperties.AutomationId="lb001" Height="117" HorizontalAlignment="Left" Margin="23,102,0,0" Name="listBox1" VerticalAlignment="Top" Width="281">
     <ListBoxItem Content="Item 1" />
     <ListBoxItem Content="Item 2" />

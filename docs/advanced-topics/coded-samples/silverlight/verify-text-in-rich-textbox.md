@@ -14,7 +14,7 @@ The <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.ric
 
 To make matters worse, the contents of the RichTextBox may not be contained in the Silverlight Visual Tree. You have to get the Xaml property and parse the contents yourself. Here is an example. Let's assume that you have this in the XAML file for your Silverlight application:
 
-````XAML
+````xml
 <RichTextBox AutomationProperties.AutomationId="richTextBox1" Name="richTextBox1" Margin="310,6,6,235">
     <Paragraph FontSize="11" FontFamily="Portable User Interface" Foreground="#FF000000" FontWeight="Normal" FontStyle="Normal" FontStretch="Normal" TextAlignment="Left">
         <Run FontWeight="Bold" Text="Now is the time for all good men to come to the aid of their country." />
@@ -29,7 +29,7 @@ The application will show text as shown below.
 
 However in DOM Explorer all you see is this:
 
-````XAML
+````xml
 <?xml version="1.0"?>
 <richtextbox Name="richTextBox1" AutomationId="richTextBox1" Uid="16157963">
   <grid Name="RootElement" Uid="37840511">

@@ -53,7 +53,7 @@ Path to Test Studio runner
 list="PATH_TO_PROJECT\TEST_LIST_NAME.aiilist" out="PATH_TO_RESULT_DIR"  junitstep
 ````
 
-**OR**
+<strong>OR</strong>
 
 ````
 test="PATH_TO_PROJECT\TEST_NAME.tstest" out="PATH_TO_RESULT_DIR" junitstep

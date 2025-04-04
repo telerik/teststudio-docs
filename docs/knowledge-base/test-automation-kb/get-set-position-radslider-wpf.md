@@ -16,7 +16,7 @@ In the case when there is no explicitly defined slider thumb, you can use the Va
 
 Let's say that in the application under test there is a slider defined like this:
 
-````XAML
+````xml
 <telerik:RadSlider Name="MySlider" Minimum="0" Maximum="100" Value="50"/>
 ````
 
@@ -34,7 +34,7 @@ In the case when there is an explicitly defined slider thumb, you will have to u
 
 Let's say that in the application under test there is a slider defined like this:
 
-````XAML
+````xml
 <telerik:RadSlider Name="MySlider" Minimum="0" Maximum="100">
     <telerik:RadSlider.Thumbs>
         <telerik:SliderThumb Value="50" Visibility="Visible"/>
