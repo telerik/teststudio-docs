@@ -15,10 +15,12 @@ Once you have found an element you can then interact with it. Many different typ
 3.&nbsp; <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Mouse-Actions">Mouse Actions</a> - invoking different mouse actions on FrameworkElement.
 
 4.&nbsp; <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Framework-Element-Properties-and-Actions">Framework Element Properties and Actions.</a>
-	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#UI-Element-Actions">UI Element Actions</a> - understanding wrappers.
-	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Telerik-Testing-Framework-Specific-Properties">Telerik Testing Framework Specific Properties</a> - commonly used Properties of Telerik's FrameworkElement.
-	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Telerik-Testing-Framework-Specific-Methods">Telerik Testing Framework Specific Methods</a> - commonly used Methods of Telerik's FrameworkElement.
-	* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Getting-and-Setting-Properties-on-Elements">Getting and Setting Properties on Elements</a> - working with non-built in Properties.
+
+* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#UI-Element-Actions">UI Element Actions</a> - understanding wrappers.
+* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Telerik-Testing-Framework-Specific-Properties">Telerik Testing Framework Specific Properties</a> - commonly used Properties of Telerik's FrameworkElement.
+* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Telerik-Testing-Framework-Specific-Methods">Telerik Testing Framework Specific Methods</a> - commonly used Methods of Telerik's FrameworkElement.
+* <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Getting-and-Setting-Properties-on-Elements">Getting and Setting Properties on Elements</a> - working with non-built in Properties.
+
 5. <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/invoking-actions#Invoking-Element-Methods">Invoking Element Methods</a> - invoke any method attached to an element.
 
 ## Clicking On an Element
