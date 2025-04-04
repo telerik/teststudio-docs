@@ -10,7 +10,9 @@ cta-intro: "@ProductLink is a test automation platform for web, WPF, and respons
 default-title-prefix: Telerik Test Studio for APIs
 avatar-path: ./images/avatar-ninja.svg
 no-results-image-path: ./images/ninja-no-results.svg
-primary-color: "#27A306"
+primary-color:
+    light: "#1D8800"
+    dark: "#68BF51"
 
 product-code: TESTSTUDIOAPI
 product-trial-url: https://www.telerik.com/try/test-studio-ultimate
