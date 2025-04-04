@@ -1,11 +1,11 @@
 ---
-title: Overview
-page_title: Overview of Test Studio for APIs
+title: About Test Studio for APIs
+page_title: About of Test Studio for APIs
 description: "Progress® Test Studio® for APIs - Overview"
 position: 1
 ---
 
-# Overview
+# About Test Studio for APIs
 
 The new Test Studio for APIs helps customers verify the integrity and reliability of their APIs in an easy way and incorporate their API testing effort in their continuous testing and delivery process. Test Studio for APIs is used to determine whether APIs return the correct response for a broad range of commonly accepted requests, react properly to edge cases such as failures and unexpected inputs, as well as deliver the responses in an acceptable amount of time.
 
