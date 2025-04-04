@@ -5,8 +5,8 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 position: 1
 ---
 # Verify Text in a Silverlight RichTextBox
-*
-I cannot verify all the text or its properties in my Silverlight RichTextBox. The contents are either not visible or each word is contained in an individual TextBlock in the Visual Tree.*
+
+*I cannot verify all the text or its properties in my Silverlight RichTextBox. The contents are either not visible or each word is contained in an individual TextBlock in the Visual Tree.*
 
 ## Solution
 
