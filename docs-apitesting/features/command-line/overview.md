@@ -10,7 +10,7 @@ published: true
 Test Studio for APIs provides a Command Line Interface application (Telerik.ApiTesting.Runner.exe) that you can use to directly execute an existing test project without using the application's user interface.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 <br>

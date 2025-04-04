@@ -14,7 +14,7 @@ Continuous Integration regularly integrates the individual developer's changes i
 Thanks to its command line interface, Test Studio for APIs can easily be integrated in most famous CI Servers.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Jenkins Integration
