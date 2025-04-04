@@ -2,7 +2,7 @@
 title: Verify Sort Order
 page_title: Verify Sort Order - Test Studio Dev Documentation
 description: Verify Sort Order
-position: 1
+position: 2
 ---
 # Verify Sort Order in a Silverlight DataGrid
 

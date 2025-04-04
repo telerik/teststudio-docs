@@ -2,7 +2,7 @@
 title: Verify Text in Rich TextBox
 page_title: Verify Text in Rich TextBox - Test Studio Dev Documentation
 description: Verify Text in Rich TextBox
-position: 1
+position: 2
 ---
 # Verify Text in a Silverlight RichTextBox
 

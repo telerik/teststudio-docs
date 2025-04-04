@@ -2,7 +2,7 @@
 title: Select Listbox Item by Text
 page_title: Select Listbox Item by Text - Test Studio Dev Documentation
 description: Select Listbox Item by Text
-position: 1
+position: 2
 ---
 # Select Listbox Item by Text in Silverlight
 

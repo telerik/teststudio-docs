@@ -2,7 +2,7 @@
 title: Verify Colors in Silverlight
 page_title: Verify Colors in Silverlight - Test Studio Dev Documentation
 description: Verify Colors in Silverlight
-position: 1
+position: 2
 ---
 # Verify Colors in Silverlight
 

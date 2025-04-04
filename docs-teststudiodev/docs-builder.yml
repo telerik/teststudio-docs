@@ -86,10 +86,10 @@ meta:
 #   Implement Code in Tests/Coded Samples/Silverlight Section
     code-in-test/coded-samples/silverlight/combobox-automation:
         title: ComboBox Automatiion
-        position: 10
+        position: 0
     code-in-test/coded-samples/silverlight/radgridview-automation:
         title: RadGridView Automation
-        position: 11
+        position: 1
 
 #   Features Section
     features/recorder:

@@ -2,7 +2,7 @@
 title: Change Find Strategy
 page_title:  Change Find Strategy - Test Studio Dev Documentation
 description: Change Find Strategy
-position: 1
+position: 2
 ---
 # Change Silverlight Find Strategy
 
