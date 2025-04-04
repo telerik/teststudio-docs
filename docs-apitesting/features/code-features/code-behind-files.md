@@ -56,8 +56,7 @@ public override void OnAfterTestCompleted()
 {
 	this.Log.WriteLine("Ending the test case ...");
 }
-```
-
+````
 ````VB
 ' This method will execute before the start of the test Case'
 Public Overrides Sub OnBeforeTestStarted()
@@ -68,7 +67,7 @@ End Sub
 Public Overrides Sub OnAfterTestCompleted()
   Log.WriteLine("Ending the test case ...")
 End Sub
-```
+````
 
 [Back to top](#Code-Behind-Files)
 
@@ -102,8 +101,7 @@ this.Context.SetValue("user-name", "user1", o);
 // This statement will create a variable named "user-id" with value 123
 // in the root scope of the project
 this.Context.SetValue("user-id", 123, 1);
-```
-
+````
 ````VB
 // This statement will create a variable named "user-name" with value "user1"
 // in the scope of the current test case
@@ -112,7 +110,7 @@ this.Context.SetValue("user-name", "user1", 0);
 // This statement will create a variable named "user-id" with value 123
 // in the root scope of the project
 this.Context.SetValue("user-id", 123, 1);
-```
+````
 
 [Back to top](#Code-Behind-Files)
 
@@ -137,11 +135,10 @@ The **Context.GetValue** method returns the value of a specified runtime variabl
 
 ````C#
 string userName = this.Context.GetValue("user-name").ToString();
-```
-
+````
 ````VB
 Dim userName As String = Context.GetValue("user-name").ToString()
-```
+````
 
 > Remember to cast properly your variables when using Context.GetValue. The method returns an object and you need to be aware of where and how the target value was initially created. Any variable, created manually in the Variables pane in the UI, is stored as a string.
 
@@ -164,7 +161,7 @@ this.Log.WriteLine(newUserId.ToString());
 // The "user-name" variable is stored as string, but you still need to convert it with .ToString()
 string userName = this.Context.GetValue("user-name").ToString();
 this.Log.WriteLine(userName);
-```
+````
 
 [Back to top](#Code-Behind-Files)
 
@@ -182,11 +179,10 @@ The **ApiTestBase** base class exposes a **Log** property of type **ILog** which
 
 ````C#
 this.Log.WriteLine("Logging some message from C# code ...");
-```
-
+````
 ````VB
 Log.WriteLine("Logging some message from VB code ...")
-```
+````
 
 > See the [Sample Project](../../getting-started/sample-project) for more examples.
 
@@ -226,8 +222,7 @@ static void IsNull(object value, string message);
 static void IsTrue(bool condition);
 
 static void IsTrue(bool condition, string message);
-```
-
+````
 ````VB
 Shared Sub AreEqual(Of T)(expected As T, actual As T)
 
@@ -256,7 +251,7 @@ Shared Sub IsNull(value As Object, message As String)
 Shared Sub IsTrue(condition As Boolean)
 
 Shared Sub IsTrue(condition As Boolean, message As String)
-```
+````
 
 > When an assertion fails, the execution of the test step will be terminated with status **failed** and the assertion message will be logged to the test output.
 
@@ -264,11 +259,10 @@ Shared Sub IsTrue(condition As Boolean, message As String)
 
 ````C#
 Assert.AreEqual("administrator", actualValue);
-```
-
+````
 ````VB
-Assert.AreEqual("administrator", actualValue);
-```
+Assert.AreEqual("administrator", actualValue)
+````
 
 ![Assertion Error][6]
 
