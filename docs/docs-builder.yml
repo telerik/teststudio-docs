@@ -1173,9 +1173,11 @@ redirects:
     to: "/general-information/configure-your-browser/internet-explorer"
 -
     from: "/general-information/configure-your-browser/internet-explorer"
-    to: "/prerequisites/configure-your-browser/internet-explorer"
+    to: "/system-requirements"
 
-
+-
+    from: "/prerequisites/configure-your-browser/internet-explorer"
+    to: "/prerequisites/configure-your-browser/edge-chromium"
 
 -
     from: "/user-guide/configure-your-browser/safari.aspx"
@@ -2499,4 +2501,80 @@ redirects:
 -
     from: "/automated-tests/load/advanced-topics/manage-windows-auth"
     to: "/automated-tests/load/configuring-load-tests-quick-guide"
+
+-
+    from: "/advanced-topics/build-server/tfs-2017-builds"
+    to: "/advanced-topics/build-server/azure-devops"
+-
+    from: "/user-guide/command-line-test-execution.aspx"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "/user-guide/command-line-test-execution"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "/user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "/user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds.aspx"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "/teststudio/automated-tests/scheduling/multiple-machines-scheduling-setup/create-storage-server"
+    to: "/teststudio/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "/teststudio/automated-tests/scheduling/advanced-topics/using-service-api"
+    to: "/teststudio/automated-tests/scheduling/overview"
+-
+    from: "/teststudio/automated-tests/scheduling/advanced-topics/change-service-account"
+    to: "/teststudio/automated-tests/scheduling/overview"
+-
+    from: "/teststudio/user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net.aspx"
+    to: "/teststudio/advanced-topics/build-server/cruise-control.net-builds"
+-
+    from: "/teststudio/user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net"
+    to: "/teststudio/advanced-topics/build-server/cruise-control.net-builds"
+-
+    from: "/teststudio/user-guide/command-line-test-execution/continuous-integration/teamcity.aspx"
+    to: "/teststudio/advanced-topics/build-server/team-city-builds"
+-
+    from: "/teststudio/user-guide/command-line-test-execution/continuous-integration/teamcity"
+    to: "/teststudio/advanced-topics/build-server/team-city-builds"
+-
+    from: "/teststudio/knowledge-base/scheduling-kb/non-domain-environment"
+    to: "https://testdocs.telerik.com/teststudio/automated-tests/scheduling/overview"
+-
+    from: "/teststudio/knowledge-base/silverlight-kb/automate-in-tfs-builds"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/knowledge-base/silverlight-kb/codeless-scrolling-in-virtualized-panel"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/knowledge-base/verification-kb/verify-silverlight-combobox-items"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/knowledge-base/verification-kb/verify-silverlight-tool-tips"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/knowledge-base/silverlight-kb/silverlight-oob-and-elevated-trust"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/knowledge-base/silverlight-kb/testing-framework-with-silverlight-oob-and-elevated-trust"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/knowledge-base/data-driven-testing-kb/data-driven-test-with-mstest"
+    to: "/teststudio/automated-tests/data-drive-test/what-is-ddt"
+-
+    from: "/teststudio/knowledge-base/project-configuration-kb/anonymous-access-error-when-connecting-to-team-foundation-service"
+    to: "/teststudio/automated-tests/source-control/checkin-guidelines"
+-
+    from: "/teststudio/knowledge-base/visual-studio-kb/convert-trx-to-html"
+    to: "/teststudio/welcome"
+-
+    from: "/teststudio/troubleshooting-guide/scheduling-issues-tg/no-change-button"
+    to: "/teststudio/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "/teststudio/troubleshooting-guide/scheduling-issues-tg/scheduling-service-shuts-down"
+    to: "/teststudio/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "/teststudio/automated-tests/load/advanced-topics/manage-windows-auth"
+    to: "/teststudio/automated-tests/load/configuring-load-tests-quick-guide"
 
