@@ -19,16 +19,16 @@ Pages.HTMLFormsAndInput.VehicleCheckBox0.Check(true, true);
 ```
 
 
-Or like this for a Silverlight or WPF element:
+Or like this for a WPF element:
 
 
 ```C#
 //LeftClick on CheckBoxCheckbox
-Pages.Pale2.SilverlightApp.CheckBoxCheckbox.Click(ArtOfTest.WebAii.Core.MouseClickType.LeftClick, true, true, 8, 7, ArtOfTest.Common.OffsetReference.TopLeftCorner, ArtOfTest.Common.ActionPointUnitType.Pixel, ((System.Windows.Forms.Keys)(0)));
+Pages.Pale2.App.CheckBoxCheckbox.Click(ArtOfTest.WebAii.Core.MouseClickType.LeftClick, true, true, 8, 7, ArtOfTest.Common.OffsetReference.TopLeftCorner, ArtOfTest.Common.ActionPointUnitType.Pixel, ((System.Windows.Forms.Keys)(0)));
 ```
 
 
-In the above code sample, the parts **Pages.HTMLFormsAndInput.VehicleCheckBox0 and Pages.Pale2.SilverlightApp.CheckBoxCheckbox** actually perform an implied Find under the hood. This implied Find uses the global timeout setting of 10 seconds by default. If the element does not exist within this 10 seconds, your test fails indicating an "element not found" error.
+In the above code sample, the parts **Pages.HTMLFormsAndInput.VehicleCheckBox0 and Pages.Pale2.App.CheckBoxCheckbox** actually perform an implied Find under the hood. This implied Find uses the global timeout setting of 10 seconds by default. If the element does not exist within this 10 seconds, your test fails indicating an "element not found" error.
  
 You might think you could avoid this by calling the **Wait.ForExists** function on the element like this:
 
@@ -49,18 +49,6 @@ Pages.HTMLFormsAndInput.VehicleCheckBox0.Check(true, true);
 
 In this sample, **Pages.HTMLFormsAndInput.Expressions.VehicleCheckBox0** returns the Find Expression associated with the **VehicleCheckBox0** element, then calls **WaitForElement** with a 33 second timeout parameter. This will have the desired effect of waiting 33 seconds for the element to exist prior to acting on it.
  
-For **Silverlight** elements, precede your line of code with something like this:
-
-```C#
-CheckBox cbox = Pages.SilverlightGridControl.SilverlightApp.Get<CheckBox>(Pages.SilverlightGridControl.SilverlightApp.Expressions.Item0Checkbox, true, 33000);
- 
-//LeftClick on CheckBoxCheckbox
-Pages.Pale2.SilverlightApp.CheckBoxCheckbox.Click(ArtOfTest.WebAii.Core.MouseClickType.LeftClick, true, true, 8, 7, ArtOfTest.Common.OffsetReference.TopLeftCorner, ArtOfTest.Common.ActionPointUnitType.Pixel, ((System.Windows.Forms.Keys)(0)));
-```
-
-
-In this sample, **Pages.SilverlightGridControl.SilverlightApp.Expressions.Item0Checkbox** returns the Find Expression associated with the Item0Checkbox element. The Find Expression is used in the Get method with a 33 second timeout parameter to wait for the element to exist and return it as an object. This will have the desired effect of waiting 33 seconds for the element to exist prior to acting on it.
-
 
 
 

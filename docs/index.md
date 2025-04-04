@@ -1,13 +1,13 @@
 ---
 title: Welcome to Test Studio
 page_title: Welcome to Test Studio
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio is an innovative and easy-to-use automated web, WPF and desktop testing solution. Test Studio tests support a proprietary Testing framework, functional UI testing, web responsive testing, etc. Find out more on our Welcome page."
 position: 0
 ---
 
 # Welcome to Test Studio
 
-<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC.
+<a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, PHP and MVC.
 
 
 <a href="/getting-started/test-recording/overview" target="_blank">Test Studio functional testing</a> is a comprehensive yet cost-effective automated testing suite. Users can complete tasks quickly and easily with the product’s point-and-click interface, which is augmented by Telerik-exclusive features like a visual storyboard and 3D element selection. Test Studio also offers script-less test automation for Silverlight applications.

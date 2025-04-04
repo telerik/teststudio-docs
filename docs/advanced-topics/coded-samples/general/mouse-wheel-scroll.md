@@ -6,7 +6,7 @@ position: 1
 ---
 #Mouse Wheel Scroll#
 
-*I need to invoke desktop mouse scroll actions on an HTML or Silverlight element (typically a scroll bar).*
+*I need to invoke desktop mouse scroll actions on an HTML element (typically a scroll bar).*
 
 ##Solution##
 
