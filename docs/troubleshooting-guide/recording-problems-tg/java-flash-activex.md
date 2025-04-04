@@ -14,5 +14,5 @@ I am recording actions against a Java plugin, Flash object, ActiveX control, or 
 
 ## SOLUTION
 
-Test Studio sees Java plugins, Flash objects, ActiveX controls, and Google Chrome Frames as a single block \<object> or \<applet> element and cannot distinguish the individual components within it. It's basically a black box and the best alternative is to <a href="/troubleshooting-guide/test-execution-problems-tg/invoke-blind-mouse-click" target="_blank">Invoke Blind Mouse Clicks</a> and <a href="/troubleshooting-guide/test-execution-problems-tg/invoke-blind-keyboard-typing" target="_blank">Blind Keyboard Typing</a> on it.
+Test Studio sees Java plugins, Flash objects, ActiveX controls, and Google Chrome Frames as a single block `<object>` or `<applet>` element and cannot distinguish the individual components within it. It's basically a black box and the best alternative is to <a href="/troubleshooting-guide/test-execution-problems-tg/invoke-blind-mouse-click" target="_blank">Invoke Blind Mouse Clicks</a> and <a href="/troubleshooting-guide/test-execution-problems-tg/invoke-blind-keyboard-typing" target="_blank">Blind Keyboard Typing</a> on it.
 
