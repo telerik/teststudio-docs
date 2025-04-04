@@ -6,7 +6,7 @@ position: 3
 ---
 # Locating Elements in WPF applications 
 
-Before you can automate interaction with elements contained in a WPF application, you need to first locate the elements contained within the application. For complex applications, locating elements is probably going to be one of the more time consuming tasks. Testers will need to spend time understanding how to reliably find an element. WPF applications that we studied that rely heavily on control templates and data binding produce quite complex visual trees. Their elements are not easily searchable by **Find.ByName()** given the different <a href="http://msdn.microsoft.com/en-us/library/ms746659.aspx" target="_blank">WPF</a> name scopes created, and the duplication of names within those templates.
+Before you can automate interaction with elements contained in a Silverlight/WPF application, you need to first locate the elements contained within the application. For complex applications, locating elements is probably going to be one of the more time consuming tasks. Testers will need to spend time understanding how to reliably find an element. Silverlight/WPF applications that we studied that rely heavily on control templates and data binding produce quite complex visual trees. Their elements are not easily searchable by `Find.ByName()` given the different <a href=http://msdn.microsoft.com/en-us/library/cc189026%28VS.95%29.aspx" target="_blank">Silverlight</a> and <a href="http://msdn.microsoft.com/en-us/library/ms746659.aspx" target="_blank">WPF</a> name scopes created, and the duplication of names within those templates.
 
 1. [The Find Strategy](#the-find-strategy) - change the 'Strategy' property that controls how the method behaves when searching for an element.
 
@@ -46,16 +46,16 @@ All of the common methods for finding an element to operate on are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td><code>Find.ByName()</code>/<code>Find.ByName&lt;T&gt;</code></td><td>Returns the first element having the specified name.</td>
+	<td><code>&lt;Find.ByName()&gt;</code>/<code>&lt;Find.ByName\<T>&gt;</code></td><td>Returns the first element having the specified name.</td>
 </tr>
 <tr>
-	<td><code>Find.ByText</code></td><td>Returns the first TextBlock that matches the text provided.</td>
+	<td><code>&lt;Find.ByText&gt;</code></td><td>Returns the first TextBlock that matches the text provided.</td>
 </tr>
 <tr>
-	<td><code>Find.ByAutomationId</code></td><td>Returns an element having the automation ID you specify.</td>
+	<td><code>&lt;Find.ByAutomationId&gt;</code></td><td>Returns an element having the automation ID you specify.</td>
 </tr>
 <tr>
-	<td><code>Find.ByType</code></td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
+	<td><code>&lt;Find.ByType&gt;</code></td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
 </tr>
 </table>
 
@@ -102,16 +102,16 @@ All of the `Find.AllByxxx` functions are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td><code>Find.AllByName()</code>/<code>Find.AllByName&lt;T&gt;()</code></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
+	<td><code>&lt;Find.AllByName()&gt;</code>/<code>&lt;Find.AllByName\<T>&gt;</code></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
 </tr>
 <tr>
-	<td><code>Find.AllByText()</code></td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
+	<td><code>&lt;Find.AllByText()&gt;</code></td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
 </tr>
 <tr>
-	<td><code>Find.AllByType()</code>/<code>Find.AllByType&lt;T&gt;</code></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
+	<td><code>&lt;Find.AllByType()&gt;</code>/<code>&lt;Find.AllByType\<T>&gt;</code></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
 </tr>
 <tr>
-	<td><code>Find.AllByAutomationID()</code>/<code>Find.AllByAutomationID&lt;T&gt;()</code></td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
+	<td><code>&lt;Find.AllByAutomationID(&gt;</code>/<code>&lt;Find.AllByAutomationID\<T>&gt;</code>)</td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
 </tr>
 </table>
 
