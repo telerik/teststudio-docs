@@ -267,7 +267,7 @@ This table lists all of the WebAii framework settings that are available for you
 **LogLocation**</td>
 	<td>Location where all logging will be performed, both captured bitmaps and WebAii's log file.</td>
 	<td>Any valid URI.</td>
-	<td>C:\WebAiiLog\ </td>
+	<td>C:\WebAiiLog </td>
 </tr>
 <tr>
 <td>
