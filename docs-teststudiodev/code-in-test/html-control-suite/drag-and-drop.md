@@ -44,8 +44,6 @@ salesTable.BodyRows[3].Cells[1].DragTo(salesTable.BodyRows[2].Cells[1]);
 Assert.AreEqual(salesTable.Rows[2].Cells[5].TextContent, "$3342.78");
 Assert.AreEqual(salesTable.Rows[3].Cells[5].TextContent, "$2175.17");
 ````
- 
-
 ````VB      
 ' Find the sales table
 Dim salesTable As HtmlTable = Find.ById(Of HtmlTable)("area_1_table")

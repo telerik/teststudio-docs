@@ -17,22 +17,34 @@ The framework has many features implemented to aid you in synchronizing with you
 	<th>Wait Type</th><th>Description</th>
 </tr>
 <tr>
-	<td>**ForExists**</td><td>This method waits for the element to exist in the Visual Tree. It accepts an optional timeout parameter.</td>
+<td>
+	
+**ForExists**</td><td>This method waits for the element to exist in the Visual Tree. It accepts an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**ForExistsNot**</td><td>This method waits for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter</td>
+<td>
+	
+**ForExistsNot**</td><td>This method waits for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter</td>
 </tr>
 <tr>
-	<td>**ForVisible**</td><td>This method waits for the element to both exist in the Visual Tree and its Visibility attribute to equal "Visible". It accepts an optional timeout parameter.</td>
+<td>
+	
+**ForVisible**</td><td>This method waits for the element to both exist in the Visual Tree and its Visibility attribute to equal "Visible". It accepts an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**ForVisibleNot**</td><td>This method waits for the Visibility property of the element to not equal 'Visible' or for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter.</td>
+<td>
+	
+**ForVisibleNot**</td><td>This method waits for the Visibility property of the element to not equal 'Visible' or for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**ForNoMotion**</td><td>This method waits for the element to stop moving on the drawing surface. It takes a check interval and an optional timeout parameter.</td>
+<td>
+	
+**ForNoMotion**</td><td>This method waits for the element to stop moving on the drawing surface. It takes a check interval and an optional timeout parameter.</td>
 </tr>
 <tr>
-	<td>**For(Predicate)**</td><td>This method takes a custom predicate and waits for that predicate to return true. It accepts an optional error message and an optional timeout parameter.</td>
+<td>
+	
+**For(Predicate)**</td><td>This method takes a custom predicate and waits for that predicate to return true. It accepts an optional error message and an optional timeout parameter.</td>
 </tr>
 <table>
 
@@ -44,8 +56,6 @@ Before you can use the VisualWait.ForExists method to wait for an element to exi
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy;
 FrameworkElement myElementProxy = app.Find.ByName("MyElement");
 ````
- 
-
 ````VB
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy
 Dim myElementProxy As FrameworkElement = app.Find.ByName("MyElement")
@@ -57,8 +67,6 @@ Now that you have an element proxy you use it to wait for the element to exist u
 // Wait 15 seconds for the element to exist
 proxy.Wait.ForExists(15000);
 ````
- 
-
 ````VB
 ' Wait 15 seconds for the element to exist
 proxy.Wait.ForExists(15000)
@@ -75,8 +83,6 @@ ticket.Wait.ForVisible(3000);       // Wait up to 3 seconds for the element to b
 ticket.Wait.ForVisibleNot(2500);    // Wait up to 2.5 seconds for the element to no longer be visible
 ticket.Wait.ForNoMotion(250, 4500); // Wait up to 4.5 seconds for the element to stop moving. Check every 1/4 second.
 ````
- 
-
 ````VB
 Dim ticket As FrameworkElement = app.FindName("airlineTicket")
 ticket.Wait.ForExistsNot()          ' Wait for the element to no longer exist
@@ -100,8 +106,6 @@ public bool myComparator(FrameworkElement elem)
     return elem.Visibility == ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible;
 }
 ````
- 
-
 ````VB
 Dim guideButton As FrameworkElement = app.FindName("guideButton")
     guideButton.Wait.[For](AddressOf myComparator)
@@ -117,8 +121,6 @@ To do the same thing in a lambda expression would look like this:
 FrameworkElement guideButton = app.FindName("guideButton");
 guideButton.Wait.For(new System.Predicate<FrameworkElement>((fe) => fe.Visibility == ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible));
 ````
- 
-
 ````VB
 Dim guideButton As FrameworkElement = app.FindName("guideButton")
 guideButton.Wait.[For](New System.Predicate(Of FrameworkElement)(Function(fe) fe.Visibility = ArtOfTest.WebAii.Silverlight.UI.Visibility.Visible))

@@ -61,8 +61,6 @@ class Foo : BaseTest
      }
 }
 ````
- 
-
 ````VB
 <TestClass(), _
 FindParam("InputTxtbx", FindType.TagIndex, "input:0")> _
@@ -135,8 +133,6 @@ class Foo : BaseTest
      }
 }
 ````
- 
-
 ````VB
 <TestClass(), _
 FindParam("InputTxtbx", FindType.TagIndex, "input:0")> _
@@ -212,8 +208,6 @@ public void UsingFindParamAttributeWithTestRegion's()
      // the elements contained in file to a specific testregion.
 }
 ````
- 
-
 ````VB
 <TestMethod(), _
 Description("Illustrate how to use FindParamAttributes with TestRegion's"), _
@@ -289,8 +283,6 @@ public void LogonDialogWithAttributes()
      ActiveBrowser.NavigateTo(http://www.test.com/pageneedinglogon.aspx);
 }
 ````
- 
-
 ````VB
 
 ' Alerts

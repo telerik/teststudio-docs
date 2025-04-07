@@ -24,8 +24,6 @@ Pages.YourSite.YourButton.Click();
   
 // Dialog should be automatically handled
 ````
- 
-
 ````VB
 ' Add a FileUpload dialog to be monitored.
 Manager.DialogMonitor.AddDialog(New FileUploadDialog(ActiveBrowser, Path.Combine(Globals.PATH_TO_PAGES, "..\SupportFiles\EmptyTextFile.txt"), DialogButton.OPEN))

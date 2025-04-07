@@ -81,8 +81,6 @@ public void JsUnitTest1()
     Assert.IsTrue(bool.Parse(strBool));
 }
 ````
- 
-
 ````VB
 <TestMethod()> _
 Public Sub JsUnitTest1()

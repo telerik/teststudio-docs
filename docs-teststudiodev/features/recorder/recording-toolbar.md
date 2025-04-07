@@ -26,39 +26,48 @@ Below are listed its features related to the <a href="/features/recorder/dom-exp
 	</tr>
 	<tr cellspacing="10">
 		<td>![Pause Recording](images/fig3.png)</td>
-		<td>**Pause Recording** (Use "**Print Screen**" on your keyboard to pause recording)</td>
+		
+**Pause Recording** (Use "**Print Screen**" on your keyboard to pause recording)</td>
 	</tr>
 	<tr>
 		<td>![Start Recording](images/fig4.png)</td>
-		<td>**Start Recording** (Use "**Print Screen**" on your keyboard to resume recording)</td>
+		
+**Start Recording** (Use "**Print Screen**" on your keyboard to resume recording)</td>
 	</tr>
 	<tr>
 		<td>![Reconnect Recorder](images/fig5.png)</td>
-		<td>**Reconnect Recorder** - restores communication between Test Studio and the recording browser window or WPF app, if necessary</td>
+		
+**Reconnect Recorder** - restores communication between Test Studio and the recording browser window or WPF app, if necessary</td>
 	</tr>
 	<tr>
 		<td>![Navigation panel](images/fig6.png)</td>
-		<td>**Navigation panel** - during the recording session type URL to navigate to or refresh the browser</td>
+		
+**Navigation panel** - during the recording session type URL to navigate to or refresh the browser</td>
 	</tr>
 	<tr>
 		<td>![Dock/Undock](images/fig7.png) / ![Dock/Undock](images/fig8.png)</td>
-		<td>**Undock/Dock** - undock or dock back the recorder</td>
+		
+**Undock/Dock** - undock or dock back the recorder</td>
 	</tr>
 	<tr>
 		<td>![Add to elements repository](images/fig9.png)</td>
-		<td>**Add To Elements Repository** - add a single or multiple elements to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>)</td>
+		
+**Add To Elements Repository** - add a single or multiple elements to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>)</td>
 	</tr>
 		<tr>
 		<td>![Manual Refresh of the DOM][12]</td>
-		<td>**Manual Refresh of the DOM** - Used when auto-refresh is paused and the DOM tree is changed</td>
+		
+**Manual Refresh of the DOM** - Used when auto-refresh is paused and the DOM tree is changed</td>
 	</tr>
 	<tr>
 		<td>![Freeze DOM tree][11] / ![Unfreeze DOM tree][11a]</td>
-		<td>**Freeze/Unfreeze DOM tree** - Pause/Resume the DOM tree auto-refresh option</td>
+		
+**Freeze/Unfreeze DOM tree** - Pause/Resume the DOM tree auto-refresh option</td>
 	</tr>
 	<tr>
 		<td>![Elements tree/tag view](images/fig10.png)</td>
-		<td>**Elements Tree/Tag View** - whether to display the elements as tree view or tag view</td>
+		
+**Elements Tree/Tag View** - whether to display the elements as tree view or tag view</td>
 	</tr>
 <table>
 

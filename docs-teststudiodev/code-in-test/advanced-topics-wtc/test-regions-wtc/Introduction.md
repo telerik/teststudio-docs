@@ -159,8 +159,6 @@ With test regions defined, our test code can directly access these regions regar
 TestRegion userInput = Manager.ActiveBrowser.Regions["userinput"];
 TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
 ````
- 
-
 ````VB
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
@@ -185,8 +183,6 @@ TestRegion restaurantData = Manager.ActiveBrowser.Regions["restaurantdata"];
 // Given that the table is the first table within the 'restaurantdata' test region, it has an occurrence index of '0'
 Element restaurantTable = restaurantData.Find.ByTagIndex("table", 0);
 ````
- 
-
 ````VB
 Dim restaurantData As TestRegion = Manager.ActiveBrowser.Regions("restaurantdata")
  
@@ -206,8 +202,6 @@ Element zipCodeTextBox = userInput.Find.ByXPath("//input[2]");
 // Perform an action on the element.
 Manager.ActiveBrowser.Actions.SetText(zipCodeTextBox, "90210");
 ````
- 
-
 ````VB
 ' access the userinput test region.
 Dim userInput As TestRegion = Manager.ActiveBrowser.Regions("userinput")

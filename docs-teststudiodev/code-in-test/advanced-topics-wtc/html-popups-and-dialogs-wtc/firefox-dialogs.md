@@ -107,8 +107,6 @@ namespace WebTesting
         }
         #endregion
 ````
- 
-
 ````VB
 Public Class FFDownloadsDialog
     Implements ArtOfTest.WebAii.Win32.Dialogs.IDialog
@@ -214,8 +212,6 @@ public FFDownloadsDialog()
 }
 # endregion
 ````
- 
-
 ````VB
 # Region "Constructor"
     ' <summary>
@@ -264,8 +260,6 @@ public bool IsDialogActive(ArtOfTest.WebAii.Win32.WindowCollection dialogs)
     return true;
 }
 ````
- 
-
 ````VB
 ' <summary>
 ' Check whether the dialog is present or not. This function is
@@ -335,8 +329,6 @@ public void Handle()
     }
 }
 ````
- 
-
 ````VB
 ' <summary>
 ' This is called by the DialogMonitor whenever IsDialogActive returns true.
@@ -395,8 +387,6 @@ Lastly we need to implement the WaitUntilHandled function:
      }
 }
 ````
- 
-
 ````VB
     ' <summary>
 ' <summary>

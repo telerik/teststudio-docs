@@ -21,8 +21,6 @@ Element.Click(false);
 dialog.WaitUntilHandled(30000);
 
 ````
- 
-
 ````VB
 Dim dialog As New DownloadDialogsHandler(Manager.ActiveBrowser, DialogButton.SAVE, "D:\text.txt", Manager.Desktop)
 

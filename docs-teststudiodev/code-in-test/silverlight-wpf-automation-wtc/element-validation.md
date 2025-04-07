@@ -13,8 +13,6 @@ Assert.IsTrue(patientSearchItem.Find.ByName("Address").Visibility == Visibility.
 Assert.IsTrue(searchScroll.VerticalOffset == 2000);
 Assert.AreEqual<System.Drawing.Rectangle>(new System.Drawing.Rectangle(1700, 259, 813, 465), admin1.GetScreenRectangle());
 ````
- 
-
 ````VB
 app.Find.Strategy = FindStrategy.WhenNotVisibleReturnElementProxy
 Assert.IsTrue(CompareUtils.NumberCompareRange(foundPatients.Count, 93, 105, NumberRangeCompareType.InRange))

@@ -48,8 +48,6 @@ public void IEModalDialogsSupport()
      ActiveBrowser.NavigateTo("http://www.google.com");
 }
 ````
- 
-
 ````VB
 <TestMethod(), _
 Description("How to access and handle IE's modal dialogs")> _

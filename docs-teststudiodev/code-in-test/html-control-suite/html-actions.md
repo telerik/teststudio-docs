@@ -114,8 +114,6 @@ Here are some examples:
     // Invoke any events on the control
     link.InvokeEvent(ScriptEventType.OnFocus);
 ````
- 
-
 ````VB      
     ' All controls have a Click/MouseClick. The .Click invokes a click from the DOM,
     ' the MouseClick(), moves the mouse to the control and clicks it.   

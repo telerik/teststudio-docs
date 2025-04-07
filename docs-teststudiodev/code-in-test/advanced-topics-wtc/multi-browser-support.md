@@ -57,8 +57,6 @@ ie.Window.SetFocus();
 // browser has actually closed and its handle is no longer visible.
 ff.Close(40);
 ````
- 
-
 ````VB
 ' Launch a new instance of IE
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer, True)

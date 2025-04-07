@@ -85,8 +85,6 @@ Using the HtmlWait.ForStyles and HtmlWait.ForStylesNot methods you can wait for 
     // Uses the default timeout value from Settings.Current.ExecuteCommandTimeout
     span.Wait.ForStylesNot("backgroundColor=red", "margin=30px");
 ````
- 
-
 ````VB      
     Dim span As HtmlSpan = Find.ByTagIndex(Of HtmlSpan)("span", 0)
     Dim spanWaitObj As HtmlWait = div.Wait
@@ -163,8 +161,6 @@ Now we need the definition of the condition function 'textAreaContainsStr':
         return textArea.Text.Contains((string)obj);
     }
 ````
- 
-
 ````VB      
     ''' <summary>
     ''' Tests whether or not the HtmlTextArea element contains the specified string.

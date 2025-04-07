@@ -25,8 +25,6 @@ There are two functions that can be used to retrieve cookies from the browser:
 public CookieCollection GetCookies (string url)
 public CookieCollection GetCookies (Uri uri)
 ````
- 
-
 ````VB
 Public Function GetCookies(ByVal url As String) As System.Net.CookieCollection
 Public Function GetCookies(ByVal uri As System.Uri) As System.Net.CookieCollection
@@ -38,8 +36,6 @@ These functions retrieve all the cookies from the browser for the specified webs
 // Query the cookie
 System.Net.CookieCollection siteCookies = ActiveBrowser.Cookies.GetCookies("http://www.telerik.com");
 ````
- 
-
 ````VB
 ' Query the cookie
 Dim siteCookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies("http://www.telerik.com")
@@ -53,8 +49,6 @@ Below is an example of how to create or set a cookie. If the cookie already exis
 // Let's create a new cookie for a url.
 ActiveBrowser.Cookies.SetCookie(new System.Net.Cookie("WebAii", "Rocks", "/", "http://www.telerik.com"));
 ````
- 
-
 ````VB
 ' Let's create a new cookie for a url.
 ActiveBrowser.Cookies.SetCookie(New System.Net.Cookie("WebAii", "Rocks", "/", "http://www.telerik.com"))
@@ -68,8 +62,6 @@ Here is an example of how to delete a cookie:
 // Now delete the cookie.
 ActiveBrowser.Cookies.DeleteCookie(siteCookies[0]);
 ````
- 
-
 ````VB
 ' Now delete the cookie.
 ActiveBrowser.Cookies.DeleteCookie(siteCookies(0))
@@ -85,8 +77,6 @@ foreach (System.Net.Cookie cookie in cookies)
     ActiveBrowser.Cookies.DeleteCookie(cookie);
 }
 ````
- 
-
 ````VB
 ' Purge any cookies associated with this server
 Dim cookies As System.Net.CookieCollection = ActiveBrowser.Cookies.GetCookies(Settings.Current.BaseUrl)

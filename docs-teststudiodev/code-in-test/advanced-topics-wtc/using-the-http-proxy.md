@@ -21,31 +21,45 @@ In this namespace you will find the following methods classes:
 	<th>Class</th><th>Description</th>
 </tr>
 <tr>
-	<td>**HttpProxyManager**</td>
+<td>
+	
+**HttpProxyManager**</td>
 	<td>Manages the HTTP proxy agent.</td>
 </tr>
 <tr>
-	<td>**HttpRequest**</td>
+<td>
+	
+**HttpRequest**</td>
 	<td>Used to create and manipulate an HTTP request.</td>
 </tr>
 <tr>
-	<td>**HttpRequestEventArgs**</td>
+<td>
+	
+**HttpRequestEventArgs**</td>
 	<td>EventArgs subclass that wraps an HTTP request, and possibly the related response.</td>
 </tr>
 <tr>
-	<td>**HttpResponse**</td>
+<td>
+	
+**HttpResponse**</td>
 	<td>Class wrapper of an HTTP response.</td>
 </tr>
 <tr>
-	<td>**HttpResponseEventArgs**</td>
+<td>
+	
+**HttpResponseEventArgs**</td>
 	<td>EventArgs subclass that wraps an HTTP response and the related request.</td>
 </tr>
 <tr>
-	<td>**RequestListenerInfo**</td>
+<td>
+	
+**RequestListenerInfo**</td>
 	<td>Wraps a listener for BeforeRequest events from the proxy.</td>
 </tr>
 <tr>
-	<td>**ResponseListenerInfo**</td>
+<td>
+	
+**ResponseListenerInfo**</td>
 	<td>Wraps a listener for BeforeResponse events from the proxy.</td>
 </tr>
 <table>
@@ -73,8 +87,6 @@ settings.Web.UseHttpProxy = true;
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(this.TestContext.WriteLine));
 ````
- 
-
 ````VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
@@ -122,8 +134,6 @@ private void CheckTypeForImage(object sender, HttpResponseEventArgs e)
     }
 }
 ````
- 
-
 ````VB
 <TestMethod()> _
 Public Sub ImageDetection()
@@ -180,8 +190,6 @@ private void Check(object sender, HttpResponseEventArgs e)
     }
 }
 ````
- 
-
 ````VB
 <TestMethod()> _
 Public Sub CheckImageSize()

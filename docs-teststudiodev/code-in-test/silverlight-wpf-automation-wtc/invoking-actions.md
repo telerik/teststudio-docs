@@ -34,8 +34,6 @@ app.Find.ByName("guideButton").User.Click();
 app.Find.ByName("guideButton").User.Click(MouseClickType.RightClick,
      new System.Drawing.Point(5, 5), OffsetReference.AbsoluteCenter);
 ````
- 
-
 ````VB
 'In this example app can be a Silverlight application or the MainWindow of a WPF application 
 ' Click the ShowGuide button.
@@ -59,8 +57,6 @@ searchText.User.KeyPress(System.Windows.Forms.Keys.L, 100);
 searchText.User.KeyDown(System.Windows.Forms.Keys.L);
 searchText.User.KeyUp(System.Windows.Forms.Keys.L);
 ````
- 
-
 ````VB
 searchText.User.TypeText("Abe Lincoln", 100)
  
@@ -81,8 +77,6 @@ admin1.User.MouseEnter(OffsetReference.LeftCenter);
 admin1.User.MouseLeave(OffsetReference.RightCenter);
 admin1.User.TurnMouseWheel(5, MouseWheelTurnDirection.Backward, false);
 ````
- 
-
 ````VB
 admin2.Find.ByType("Thumb").User.DragTo(admin3.Find.ByType("Thumb"))
 admin1.User.HoverOver()
@@ -172,19 +166,19 @@ The FrameworkElement class implements a number of methods just for purpose of te
 	<th>Property</th><th>Description</th>
 </tr>
 <tr>
-	<td>CastAs\<T>()</td><td>Returns a FrameworkElement as a strongly-typed control. Does not enforce a tagname to match the type.</td>
+	<td><code>CastAs&lt;T&gt;()</code></td><td>Returns a FrameworkElement as a strongly-typed control. Does not enforce a tagname to match the type.</td>
 </tr>
 <tr>
-	<td>GetChildren()</td>Returns the child elements of the FrameworkElement.</td>
+	<td><code>GetChildren()</code></td>Returns the child elements of the FrameworkElement.</td>
 </tr>
 <tr>
-	<td>GetNextSibling()</td><td>Returns the next sibling of  the FrameworkElement.</td>
+	<td><code>GetNextSibling()</code></td><td>Returns the next sibling of  the FrameworkElement.</td>
 </tr>
 <tr>
-	<td>Parent()</td><td>Returns the parent element of the current Framework Element</td>
+	<td><code>Parent()</code></td><td>Returns the parent element of the current Framework Element</td>
 </tr>
 <tr>
-	<td>ScrollToVisible()</td><td>Scrolls the browser so that the Framework Element is visible.</td>
+	<td><code>ScrollToVisible()</code></td><td>Scrolls the browser so that the Framework Element is visible.</td>
 </tr>
 <table>
 
@@ -201,8 +195,6 @@ string flightNo = (string)ticket.GetProperty(flightNoProperty);
 // Update the flight number on the ticket
 ticket.SetProperty(flightNoProperty, "HX-1572");
 ````
- 
-
 ````VB
 ' Fetch the flight number from the ticket
 Dim ticket As FrameworkElement = app.FindName("airlineTicket")
@@ -224,8 +216,6 @@ searchScroll = app.FindName().Find.ByType<>();
 AutomationMethod scrollVert = new AutomationMethod("ScrollToVerticalOffset", null);
 searchScroll.InvokeMethod(scrollVert, 2000);
 ````
- 
-
 ````VB
 Dim searchScroll As ScrollViewer = app.FindName("patientSearchScroller").Find.ByType(Of ScrollViewer)()
  

@@ -165,28 +165,44 @@ padding: 8px;
 	<th>Code</th><th>Title</th><th>Summary</th>
 </tr>
 <tr>
-	<td>**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
+<td>
+	
+**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
 </tr>
 <tr>
-	<td>**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
+<td>
+	
+**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
 </tr>
 <tr>
-	<td>**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
+<td>
+	
+**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
 </tr>
 <tr>
-	<td>**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
+<td>
+	
+**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
 </tr>
 <tr>
-	<td>**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
+<td>
+	
+**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
 </tr>
 <tr>
-	<td>**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
+<td>
+	
+**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
 </tr>
 <tr>
-	<td>**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
+<td>
+	
+**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
 </tr>
 <tr>
-	<td>**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
+<td>
+	
+**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
 </tr>
 <table>
 

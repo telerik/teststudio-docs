@@ -76,8 +76,6 @@ FindParam sixth_row = new FindParam("tr", 6);
 // to wait for.
 ActiveBrowser.Actions.WaitForElements(500, ajaxupdate, false, table, sixth_row);
 ````
- 
-
 ````VB
 ' Get the ajaxupdate region.
 ' Notice how using a testregion simplifies our identification and makes it
@@ -126,8 +124,6 @@ FindParam sixth_row = new FindParam("tr", 5);
 // perform the wait for the row element.
 ActiveBrowser.Actions.WaitForElement(new FindParam[] { myspan, sixth_row }, 500);
 ````
- 
-
 ````VB
 ' First find the span by id
 Dim myspan As FindParam = New FindParam("id=myspan")
@@ -147,7 +143,7 @@ When using Ajax the application, in most scenarios, updates the document's DOM u
  
 In some scenarios that might not even be enough. For example, you want to retrieve a property value that doesn't usually get emitted into the DOM when serialized like the default or inherited values of an unset property or in Firefox the 'value' property of input tags.
  
-To help address this issue and potentially other issues, the Telerik infrastructure supports a generic and simple method of retrieving any property of any element directly from the live DOM hosted in the browser. Each Element object in the Telerik Testing Framework has a GetValue<T>() method that you can use to evaluate any custom or standard attribute of your Dom element at any point in your test code or application.
+To help address this issue and potentially other issues, the Telerik infrastructure supports a generic and simple method of retrieving any property of any element directly from the live DOM hosted in the browser. Each Element object in the Telerik Testing Framework has a `GetValue<T>()` method that you can use to evaluate any custom or standard attribute of your Dom element at any point in your test code or application.
  
 For example, if you want to retrieve the text set by a user in an input textbox in Firefox, you can simply do the following:
 
@@ -164,8 +160,6 @@ string display = input.GetValue<string>("display");
 // Get its 'visibility' property from the DOM
 string visibility = input.GetValue<string>("visibility");
 ````
- 
-
 ````VB
 ' Get the element.
 Dim input As Element = ActiveBrowser.Find.ById("myinput")
@@ -189,8 +183,6 @@ This method will wait for any active AJAX requests to complete.
 ````C#
 Manager.ActiveBrowser.WaitForAjax(30000);
 ````
- 
-
 ````VB
 Manager.ActiveBrowser.WaitForAjax(30000)
 ````

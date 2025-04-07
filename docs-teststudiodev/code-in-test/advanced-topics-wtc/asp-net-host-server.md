@@ -18,7 +18,7 @@ Many of our customers have asked for a way to execute tests without the need for
 
 * If you are using NUnit 2.4 or higher you might experience AppDomainUnloadException similar to the issue described here. To work around this issue, please set the configuration setting legacyUnhandledExceptionPolicy to '0' in nunit.exe.config file.
  
-\<legacyUnhandledExceptionPolicy enabled="0" />
+`<legacyUnhandledExceptionPolicy enabled="0" />`
 
 With all these in mind, let's look at an example that illustrates how we can enable our tests to run against the Asp.Net inproc host. Here is a simply Asp.Net page that utilizes several Asp.Net controls:
 
@@ -100,8 +100,6 @@ settings.DefaultBrowser = BrowserType.AspNetHost;
 // Set the location of the Asp.Net App
 settings.WebAppPhysicalPath = @"C:\MyAspNetApp\";
 ````
- 
-
 ````VB
 ' Set the default browser to be AspNetHost
 mysettings.DefaultBrowser = BrowserType.AspNetHost
@@ -175,8 +173,6 @@ Actions.Click(Find.ById("treeView1t1"));
 label.Refresh();
 Assert.IsTrue(label.InnerText.Contains("Node2"));
 ````
- 
-
 ````VB
 
 ' Will initialize a new AspNetApplication object.

@@ -102,7 +102,7 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 	<td>RenderTransformOrigin</td><td>Gets or sets the origin point of any possible render transform declared by <a href="http://msdn.microsoft.com/en-us/library/system.windows.uielement.rendertransform(VS.96).aspx" target="_blank">RenderTransform</a>, relative to the bounds of the <a href="http://msdn.microsoft.com/en-us/library/system.windows.uielement(VS.96).aspx" target="_blank">UIElement</a>.</td>
 </tr>
 <tr>
-	<td>Resources</td><td>Gets the locally defined resource dictionary. In XAML, you can establish resource items as child object elements of the <object.Resources> property element, through XAML implicit collection syntax.</td>
+	<td>Resources</td><td>Gets the locally defined resource dictionary. In XAML, you can establish resource items as child object elements of the <code>&lt;object.Resources&gt;</code> property element, through XAML implicit collection syntax.</td>
 </tr>
 <tr>
 	<td>Style</td><td>Gets or sets an instance <a href="http://msdn.microsoft.com/en-us/library/system.windows.style(VS.96).aspx" target="_blank">Style</a> that is applied for this object during rendering.</td>
@@ -143,7 +143,7 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 
 Before describing all of the methods of the FrameworkElement object I'd like to point out the following special features:
 
-1. VisualTree navigation: All FrameworkElements enable you to navigate the visual tree up or down. The object exposes methods and properties like **Parent**, **Children**, **NextSibling**, **PreviousSibling**, **AnySibling<T>**. The navigation also supports control sensitive navigation. For example, if you would like to find the parent 'Grid' that a certain text is contained in you do the following:
+1. VisualTree navigation: All FrameworkElements enable you to navigate the visual tree up or down. The object exposes methods and properties like `Parent`, `Children`, `NextSibling`, `PreviousSibling`, `AnySibling<T>`. The navigation also supports control sensitive navigation. For example, if you would like to find the parent 'Grid' that a certain text is contained in you do the following:
 
 	
 	```C#

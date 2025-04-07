@@ -62,8 +62,6 @@ In your test code initialization, you read these settings by simply setting the 
 ````C#
 Manager mgr = new Manager(true);
 ````
- 
-
 ````VB
 Dim myManager As Manager = New Manager(True)
 ````

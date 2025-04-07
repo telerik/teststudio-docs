@@ -16,8 +16,6 @@ Each Telerik Testing Framework Window object provides functionality to capture t
 // Get the current browser window bitmap.
 System.Drawing.Bitmap browserImage = ActiveBrowser.Window.GetBitmap();
 ````
- 
-
 ````VB
 Dim browserImage As System.Drawing.Bitmap = ActiveBrowser.Window.GetBitmap()
 ````
@@ -33,8 +31,6 @@ Manager.Log.CaptureBrowser(Manager.ActiveBrowser);
 // Note: If you are automating multiple browser instances, you can simply
 // call the CaptureBrowser() passing in any instance from the Manager.Browser[] collection.
 ````
- 
-
 ````VB
 Manager.Log.CaptureBrowser(Manager.ActiveBrowser)
 ````
@@ -80,8 +76,6 @@ Element myDiv = ActiveBrowser.Find.ById("mydiv");
 // Capture it visually as a bitmap
 System.Drawing.Bitmap divimage = ActiveBrowser.Window.GetBitmap(myDiv.GetRectangle());
 ````
- 
-
 ````VB
 ' Get the element
 Dim myDiv As Element = ActiveBrowser.Find.ById("mydiv")

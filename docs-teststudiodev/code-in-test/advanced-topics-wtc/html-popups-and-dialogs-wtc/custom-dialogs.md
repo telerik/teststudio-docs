@@ -47,8 +47,6 @@ public bool MyCustomAlertHandler(IDialog dialog)
     }
 }
 ````
- 
-
 ````VB
 <TestMethod()> _
 Public Sub DoCustomDialogHandlingForBuiltInDialogs()

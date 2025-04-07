@@ -16,8 +16,6 @@ Using the GenericDialog class you can create your own custom dialog handler that
 GenericDialog SecurityWarningDialog = new GenericDialog(ActiveBrowser, "Security Warning", false, 1);  // Click on the Yes button
 Manager.DialogMonitor.AddDialog(SecurityWarningDialog);
 ````
- 
-
 ````VB
 Dim SecurityWarningDialog As GenericDialog = New GenericDialog(Me.ActiveBrowser, "Security Warning", False, 1)  ' Click on the Yes button
 SecurityWarningDialog GenericDialog = GenericDialog(.ActiveBrowser, , , 1) 
@@ -145,8 +143,6 @@ namespace WebTesting
     }
 }
 ````
- 
-
 ````VB
 
 Imports ArtOfTest.WebAii.Core
@@ -252,8 +248,6 @@ Once you have implemented your new custom dialog handler it requires just one li
 ````C#
 Manager.DialogMonitor.AddDialog(new SecurityAlertDialog(ActiveBrowser, DialogButton.YES, Manager.Desktop));
 ````
- 
-
 ````VB
 Manager.DialogMonitor.AddDialog(New SecurityAlertDialog(Me.ActiveBrowser, DialogButton.YES, Me.Manager.Desktop))
 ````
@@ -327,8 +321,6 @@ public interface IDialog
 	 bool MatchesUIAutomationElement(AutomationElement element);
 }
 ````
- 
-
 ````VB
 ''' <summary>
 ''' The dialogs current state. This property is Managed by the dialog
