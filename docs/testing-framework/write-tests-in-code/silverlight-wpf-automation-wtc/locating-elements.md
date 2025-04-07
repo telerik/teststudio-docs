@@ -47,16 +47,16 @@ All of the common methods for finding an element to operate on are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td><code>&lt;Find.ByName()&gt;</code>/<code>Find.ByName&lt;T&gt;</code></td><td>Returns the first element having the specified name.</td>
+	<td><code>Find.ByName()</code>/<code>Find.ByName&lt;T&gt;</code></td><td>Returns the first element having the specified name.</td>
 </tr>
 <tr>
-	<td><code>&lt;Find.ByText&gt;</code></td><td>Returns the first TextBlock that matches the text provided.</td>
+	<td><code>Find.ByText</code></td><td>Returns the first TextBlock that matches the text provided.</td>
 </tr>
 <tr>
-	<td><code>&lt;Find.ByAutomationId&gt;</code></td><td>Returns an element having the automation ID you specify.</td>
+	<td><code>Find.ByAutomationId</code></td><td>Returns an element having the automation ID you specify.</td>
 </tr>
 <tr>
-	<td><code>&lt;Find.ByType&gt;</code></td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
+	<td><code>Find.ByType</code></td><td>Returns the first element found of the specified type (e.g. Canvas, DataGrid, Calendar).</td>
 </tr>
 </table>
 
@@ -103,16 +103,16 @@ All of the `Find.AllByxxx` functions are:
 	<th>Method</th><th>Description</th>
 </tr>
 <tr>
-	<td><code>&lt;Find.AllByName()&gt;</code>/<code>Find.AllByName&lt;T&gt;</code></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
+	<td><code>Find.AllByName()</code>/<code>Find.AllByName&lt;T&gt;()</code></td><td>Find all elements that have a specific name. Allows filtering on a specific control type.</td>
 </tr>
 <tr>
-	<td><code>&lt;Find.AllByText()&gt;</code></td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
+	<td><code>Find.AllByText()</code></td><td>Find all TextBlocks that contain a specific text. Use p:text to search for partial text.</td>
 </tr>
 <tr>
-	<td><code>&lt;Find.AllByType()&gt;</code>/<code>Find.AllByType&lt;T&gt;</code></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
+	<td><code>Find.AllByType()</code>/<code>Find.AllByType&lt;T&gt;</code></td><td>Find all elements of certain type. i.e Button, Grid..etc. Filtering on type is inherit here.</td>
 </tr>
 <tr>
-	<td><code>&lt;Find.AllByAutomationID(&gt;</code>/<code>Find.AllByAutomationID&lt;T&gt;</code>)</td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
+	<td><code>Find.AllByAutomationID()</code>/<code>Find.AllByAutomationID&lt;T&gt;()</code></td><td>Find all elements that have a specific automation ID. Allows filtering on a specific control type.</td>
 </tr>
 </table>
 

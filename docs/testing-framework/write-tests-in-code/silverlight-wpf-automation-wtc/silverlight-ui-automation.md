@@ -87,7 +87,7 @@ Let's take a closer look at the code above line by line:
  
 	`app.FindName<TextBox>("myName").User.TypeText("Telerik", 50);`
 
-* Line 20 (`app.FindName\<Button>("myBtn").User.Click();`)
+* Line 20 (`app.FindName<Button>("myBtn").User.Click();`)
 
 	Same as above in terms of accessing the button. The difference here is that we are using the '**User**' object to click the button. The **User** object is present on all elements that inherit from **FrameworkElement** and offers real user interactions with Silverlight elements. So a click using the 'User' object will actually move the mouse over that button and click it. That is exactly what this line does.
 
