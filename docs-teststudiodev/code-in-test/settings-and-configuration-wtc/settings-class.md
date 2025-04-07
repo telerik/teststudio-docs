@@ -171,7 +171,7 @@ This table lists all of the WebAii framework settings that are available for you
 	<td>"InternetExplorer"<br>
 	"FireFox"<br>
 	"AspNetHost"<br>
-	"Safari"h</td>
+	"Safari"</td>
 	<td>"InternetExplorer"</td>
 </tr>
 <tr>
