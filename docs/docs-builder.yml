@@ -558,6 +558,9 @@ redirects:
 - 
     from: "/features/data-driven-testing/local-data-driven-test"
     to: "/automated-tests/data-drive-test/local-data-driven-test"
+- 
+    from: "/features/data-driven-testing/local-data-driven-tes"
+    to: "/automated-tests/data-drive-test/local-data-driven-test"
 -
     from: "/features/custom-layout/custom-layout"
     to: "/automated-tests/customize-project/custom-layout"
