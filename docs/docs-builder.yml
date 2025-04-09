@@ -3463,4 +3463,8 @@ redirects:
     to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
 -
     from: "^/troubleshooting-guide/scheduling-issues-tg/scheduling-service-shuts-down$"
+<<<<<<< HEAD
     to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+=======
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+>>>>>>> e09f3c09 (fix article + fix and update redirects)
