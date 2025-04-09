@@ -205,64 +205,37 @@ Public Class FFDownloadsDialog
             Me._currentState = value
         End Set
     End Property
-<<<<<<< HEAD
 #End Region
-```
-=======
-# End Region
 ````
->>>>>>> 540128e (Unify code blocks and fix some mistakes)
 
 
 So far everything is very simple and straightforward. Now that the local variables and properties are complete, it's time to implement the constructor. Since all we're going to do to handle the dialog is close it, we don't require the Desktop or DialogButton parameter that standard Win32 dialog handlers require:
 
-<<<<<<< HEAD
-```C#
-#region Constructor
-=======
 ````C#
-# region Constructor
->>>>>>> 540128e (Unify code blocks and fix some mistakes)
+#region Constructor
 /// <summary>
 /// Create the dialog.
 /// </summary>
 public FFDownloadsDialog()
 {
 }
-<<<<<<< HEAD
 #endregion
-```
-```VB
-#Region "Constructor"
-=======
-# endregion
 ````
 ````VB
-# Region "Constructor"
->>>>>>> 540128e (Unify code blocks and fix some mistakes)
+#Region "Constructor"
     ' <summary>
     ' Create the dialog handler instance.
     ' </summary>
     Public Sub New()
         MyBase.New()
     End Sub
-<<<<<<< HEAD
 #End Region
-```
-
-Since there's nothing to the constructor, we could optionally leave it out and let the default constructor take over. So let's start implementing the IDialog methods starting with IsDialogActive.
-
-```C#
-#region IDialog Members
-=======
-# End Region
 ````
 
 Since there's nothing to the constructor, we could optionally leave it out and let the default constructor take over. So let's start implementing the IDialog methods starting with IsDialogActive.
 
 ````C#
-# region IDialog Members
->>>>>>> 540128e (Unify code blocks and fix some mistakes)
+#region IDialog Members
 /// <summary>
 /// Check whether the dialog is present or not. This function is
 /// called by the DialogMonitor object.
