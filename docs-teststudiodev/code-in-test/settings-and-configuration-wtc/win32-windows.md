@@ -4,7 +4,7 @@ page_title: Win32 Windows
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
 ---
-#Native Win32 Windows Handling#
+# Native Win32 Windows Handling
 
 Telerik Testing Framework provides generic support for Win32 Windows handling. Under the 'ArtOfTest.Common.Win32' namespace, Telerik Framework provides two key objects that you can use in your test code to generically manage Win32 Windows and Dialogs.
 
@@ -17,7 +17,7 @@ In addition to the functionality described above, the WindowManager exposes a st
 Let's take an example to illustrate how these two classes can help provide automation functionality for native Win32 windows:
 
 
-```C#
+````C#
 Window vsWindow = null;
   
 // Get all desktop Windows
@@ -39,10 +39,8 @@ foreach (Window win in winManager.Items)
 // Find the vsWindow recursively. Passing IntPtr.Zero will start from the desktop.
 Window vsWindowRecur = WindowManager.FindWindowRecursively(
      IntPtr.Zero, "Microsoft Visual Studio", true, 0);
-```
- 
-
-```VB
+````
+````VB
 Dim vsWindow As Window = Nothing
   
 ' Get all desktop Windows
@@ -63,5 +61,5 @@ Next
 ' Find the vsWindow recursively. Passing IntPtr.Zero will start from the desktop.
 Dim vsWindowRecur As Window = WindowManager.FindWindowRecursively( _
      IntPtr.Zero, "Microsoft Visual Studio", True, 0)
-```
+````
 

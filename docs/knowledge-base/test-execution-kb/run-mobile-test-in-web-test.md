@@ -3,9 +3,9 @@ title: Run a Mobile Test within a Web Test
 page_title: Run a Mobile Test within a Web Test
 description: Run mobile Test within a Web Test with Test Studio. Execute mobile test as step in a web test in Test Studio. Run Mobiletests as part of a Test Studio web project. Integrate Mobile testing with Test Studio web tests. 
 position: 1
-publish: false
+published: false
 ---
-#How to Run a Mobile Test within a Web Test#
+## How to Run a Mobile Test within a Web Test
 
 A common testing scenario is to have a web based application that could interact both with web and mobile users. There is a way to develop and execute a web test that at certain step runs a mobile test. To complete that the following initial conditions are needed:
 
@@ -23,7 +23,7 @@ The code will wait for the end of the mobile test execution. After the process e
 
 Detailed results of the mobile test execution will be present in the mobile project folder (*Results* sub-folder), where the mobile test is located. 
 
-```C#
+````C#
 // Need to include the references:
 using System.IO;
 using System.Diagnostics;
@@ -52,8 +52,8 @@ public void Run_Mobile_Test_CodedStep()
     // check if this test step pass or fail. If return 0 - process complete normally, else - process fould.
     Assert.AreEqual(exitCode, 0);
 }
-```
-```VB
+````
+````VB
 
 Imports System.IO
 Imports System.Diagnostics
@@ -76,4 +76,4 @@ Public Sub Run_Mobile_Test_CodedStep()
     Assert.AreEqual(exitCode, 0)
 
 End Sub
-```
+````

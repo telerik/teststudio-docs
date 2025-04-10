@@ -48,4 +48,3 @@ The <a href="/general-information/test-results/executive-dashboard" target="_bla
 [2]: /img/automated-tests/scheduling-results/scheduling-results/fig2.png
 [3]: /img/automated-tests/scheduling-results/scheduling-results/fig3.png
 [4]: /img/automated-tests/scheduling-results/scheduling-results/fig4.png
-[5]: /img/automated-tests/scheduling-results/scheduling-results/fig5.png

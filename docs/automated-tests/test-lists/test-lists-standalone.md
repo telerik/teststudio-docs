@@ -14,7 +14,7 @@ Test Studio provides two options for a test list - a static one, which contains 
 * <a href="#dynamic-test-lists">Dynamic Test List</a> 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## <strong>Static Test Lists</strong>
@@ -42,12 +42,16 @@ The **Performance** test list type allows you to execute **performance runs for 
 
 The **Manual** type of list allows you to add only **manual** tests and execute them together (the rest of the tests are greyed out). Run the manual tests sequentially or toggle back and forth between them using the **Previous** and **Next** buttons at the bottom.
 
-<table id="no-table">
-	<tr>
-		<td>![Previous][2]</td>
-		<td>![Next][3]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![Previous][2]</td>
+<td>
+		
+![Next][3]</td>
+</tr>
+</table>
 
 ## <strong>Dynamic Test Lists</strong>
 
@@ -69,7 +73,7 @@ These criteria can be used when <a href="/features/test-lists/create-test-lists#
 ><br>
 > Each time you trigger a dynamic list execution, Test Studio queries the project and executes the tests, that __meet the criteria of the _Rules___. Thus, if there are new tests added after the test list creation, and these meet the criteria of the rules, they will be included in the test list upon execution.
 
-## See also ##
+## See also 
 
 * <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">Power of Dynamic Test Lists</a>
 
@@ -77,10 +81,7 @@ These criteria can be used when <a href="/features/test-lists/create-test-lists#
 [2]: /img/automated-tests/test-lists/test-lists-types/fig2.png
 [3]: /img/automated-tests/test-lists/test-lists-types/fig3.png
 [4]: /img/automated-tests/test-lists/test-lists-types/fig4.png
-[5]: /img/automated-tests/test-lists/test-lists-types/fig5.png
+
 [6]: /img/automated-tests/test-lists/test-lists-types/fig6.png
-[7]: /img/automated-tests/test-lists/test-lists-types/fig7.png
+
 [8]: /img/automated-tests/test-lists/test-lists-types/fig8.png
-[9]: /img/automated-tests/test-lists/test-lists-types/fig2_FilterTestsByType.png
-[10]: /img/automated-tests/test-lists/test-lists-types/fig2_searchField.png
-[11]: /img/automated-tests/test-lists/test-lists-types/fig2_collapse.png

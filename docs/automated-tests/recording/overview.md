@@ -9,7 +9,7 @@ position: 0
 The __Compact Recording Toolbar__ in Test Studio is the key element in recording tests. Once attached to an application it detects how you act upon the app and represent your actions as automated steps in the test. It also gives access to a variety of useful features enabling you for an entirely codeless testing experience.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 This article guides you trough the __recording workflow for web and WPF tests__ and how you can get the most out of it.
@@ -127,11 +127,13 @@ To stop the current recording session __close the automated browser or WPF/deskt
 
 The specifics of the recording process allow to __attach a recorder and trigger a recording session to an already running WPF application__. To start such recording session you need to use the dropdown under the __Record__ button - in the list you can see all compatible processes, to which Test Studio recorder can be attached. Select one and wait for the __Compact Recorder__ to attach to the application.
 
-<table id=no-table>
-	<tr>
-		<td>![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![Attach to running WPF instance][7] <br><br>**WPF Test - connect to running WPF application instance**</td>
+</tr>
+</table>
 
 > **Note**
 > <br>
@@ -161,14 +163,14 @@ Below you can find a short description of each button in the toolbar (in the ord
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recorder Video Tutorial</a>.
 
 [1]: /img/automated-tests/recording/overview/fig1.png
-[2]: /img/automated-tests/recording/overview/fig2.png
+
 [3]: /img/automated-tests/recording/overview/fig3.png
-[4]: /img/automated-tests/recording/overview/fig4.png
+
 [5]: /img/automated-tests/recording/overview/fig5.png
 [5a]: /img/automated-tests/recording/overview/fig5a.png
 [6]: /img/automated-tests/recording/overview/fig6.png
 [10]: /img/automated-tests/recording/overview/fig10.png
 [11]: /img/automated-tests/recording/overview/fig11.png
 [12]: /img/automated-tests/recording/overview/fig12.png
-[8]: /img/features/recorder/test-recorder/fig6.png
+
 [7]: /img/features/recorder/test-recorder/fig7.png

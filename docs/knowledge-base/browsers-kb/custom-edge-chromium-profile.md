@@ -2,9 +2,9 @@
 title: Custom Edge Chromium Profile
 page_title: Custom Edge Chromium Profile
 description: Use Custom Edge Chromium Profile for testing in Test Studio. 
-position: 2
+position: 5
 ---
-# How to Set a Custom Edge Chromium Profile 
+## How to Set a Custom Edge Chromium Profile 
 
 Test Studio allows you to create a custom profile in Edge Chromium browser, which remains in use only when running tests from Test Studio.
 

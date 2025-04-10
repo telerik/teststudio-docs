@@ -5,17 +5,17 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/wpf/connect-to-running-wpf-app.aspx, /user-guide/code-samples/wpf/connect-to-running-wpf-app
 position: 1
 ---
-#Connect to a Running WPF Application#
+# Connect to a Running WPF Application
 
 *I would like to connect to an already running WPF application and execute the test there, instead of launching a new instance of the app.*
 
-##Solution##
+## Solution
 
 When you Quick Execute or execute a Test List, a new instance of the app launches from its pre-configured location.
  
 To work around this limitation, create a mock application to feed to Test Studio. Then insert a coded step as the first step of the test. Use the following code which closes the mock application and connects to the desired application if it's running. If not, a new instance is launched. This solution is applicable for both Test Studio Standalone version and the Visual Studio plugin.
 
-```C#
+````C#
 ActiveApplication.Quit();
 var runningApp = System.Diagnostics.Process.GetProcesses().Where(p => p.ProcessName == "WPFHelloWorld");
   
@@ -29,8 +29,8 @@ else
 }
  
 Manager.ActiveApplication.MainWindow.RefreshVisualTrees();
-```
-```VB
+````
+````VB
 ActiveApplication.Quit()
 Dim runningApp = System.Diagnostics.Process.GetProcesses().Where(Function(p) p.ProcessName = "WPFHelloWorld")
  
@@ -41,7 +41,7 @@ Else
 End If
  
 Manager.ActiveApplication.MainWindow.RefreshVisualTrees()
-```
+````
 
 
 

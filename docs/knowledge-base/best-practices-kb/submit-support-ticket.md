@@ -4,13 +4,12 @@ page_title: Submit Support Ticket
 description: How to submit a support ticket to contact the Test Studio Support Team. What details to provide to get help for a Test Studio query as soon as possible. 
 position: 1
 ---
-# Submit Support Ticket #
 
 You can submit your support query in your your Telerik account <a href="https://www.telerik.com/account/support-tickets" target="_blank">here</a>.
 
 For timely issue resolution, provide as much information as possible in your initial message. The below guidelines will help you determine what details may be required.
 
-## Steps to Reproduce Any Misbehavior in the Tool ##
+## Steps to Reproduce Any Misbehavior in the Tool 
 
 Provide precise steps to reproduce the issue. Please include:
 
@@ -20,7 +19,7 @@ Provide precise steps to reproduce the issue. Please include:
 
 * A short screen recording of the issue.
 
-## Error Message ##
+## Error Message 
 
 Copy and paste the entire message and/or provide a screen shot of it.
 
@@ -44,7 +43,7 @@ Copy and paste the entire message and/or provide a screen shot of it.
 
 * For issues with licensing, product activation, or accessing virtual users, email <mailto:teststudiosales@telerik.com>.
 
-## Application Under Test Details ##
+## Application Under Test Details 
 
 Is your application publicly accessible?
 
@@ -56,7 +55,7 @@ Is your application publicly accessible?
 
 * If the issue is specific to your WPF application, send the entire app. If this is not possible, create a small sample app that demonstrates the issue.
 
-## New Tickets ##
+## New Tickets 
 
 * To ask multiple, unrelated questions, please submit a separate ticket for each question. This allows us to more efficiently address your issues.
 

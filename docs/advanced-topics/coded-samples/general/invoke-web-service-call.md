@@ -5,11 +5,11 @@ description: "Invoke a Web Service Call from a coded step in Test Studio."
 previous_url: /user-guide/code-samples/general/invoke-web-service-call.aspx
 position: 1
 ---
-#Invoke a Web Service Call#
+# Invoke a Web Service Call
 
 *I would like to invoke a web service call from a coded step in Test Studio and verify its response.*
 
-##Solution##
+## Solution
 
 Below you will find a code sample which demonstrates one possible solution for this automation challenge. This sample requires that you add references to the following assemblies:
 
@@ -21,7 +21,7 @@ Below you will find a code sample which demonstrates one possible solution for t
 
 See this <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">article</a>. which explains how to add an assembly reference in Test Studio (Standalone version).
 
-```C#
+````C#
 // Create the WebRequest object we'll use for sending the request
 WebRequest request = WebRequest.Create("http://money.service.msn.com/StockQuotes.aspx?v=1&symbols=$INDU,AAPL,NFLX");
 request.Method = "GET";
@@ -53,8 +53,8 @@ using (WebResponse response = request.GetResponse())
         Assert.IsNotNull(indu);
     }
 }
-```
-```VB
+````
+````VB
 ' Create the WebRequest object we'll use for sending the request
 Dim request As WebRequest = WebRequest.Create("http://money.service.msn.com/StockQuotes.aspx?v=1&symbols=$INDU,AAPL,NFLX")
 request.Method = "GET"
@@ -84,4 +84,4 @@ Using response As WebResponse = request.GetResponse()
         Assert.IsNotNull(indu)
     End Using
 End Using
-```
+````

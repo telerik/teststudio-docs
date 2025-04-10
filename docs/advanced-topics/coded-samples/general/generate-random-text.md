@@ -5,25 +5,25 @@ description: "Generate Random Text in Test Studio coded test. Progress Telerik T
 previous_url: /user-guide/code-samples/general/generate-random-text.aspx, /user-guide/code-samples/general/generate-random-text
 position: 1
 ---
-#Generate Random Text#
+# Generate Random Text
 
 I would like to generate random text in Test Studio. This text will be used in an input control or for a similar purpose.
 
-##Solution##
+## Solution
 
 There are two possible approaches: with or without code.
 
-##Without code##
+## Without code
 
 See our article on the <a href="/features/verifications/Extraction" target="_blank">Extraction</a> feature.
 
-##With code##
+## With code
 
 The .NET Framework provides the <a href="http://msdn.microsoft.com/en-us/library/system.random.aspx" target="_blank">System.Random</a> class which can be used to generate random text.
 
 In this example, we'll navigate to Bing.com and enter random text into the search box.
 
-```C#
+````C#
 ActiveBrowser.NavigateTo("http://www.bing.com");
  
 //Define the length of the text
@@ -36,8 +36,8 @@ string randomText = new String(Enumerable.Repeat(charSet, length).Select(set => 
  
 Find.ById<HtmlInputSearch>("sb_form_q").Text = randomText;
 Find.ById<HtmlInputSubmit>("sb_form_go").Click();
-```
-```VB
+````
+````VB
 ActiveBrowser.NavigateTo("http://www.bing.com")
  
 'Define the length of the text
@@ -50,6 +50,6 @@ Dim randomText As String = New [String](Enumerable.Repeat(charSet, length).[Sele
  
 Find.ById(Of HtmlInputSearch)("sb_form_q").Text = randomText
 Find.ById(Of HtmlInputSubmit)("sb_form_go").Click()
-```
+````
 
 __See also:__ Check our blog post <a href="https://www.telerik.com/blogs/how-can-i-input-random-data-into-my-test-run" target="_blank">**How to input random data in your test**</a>.

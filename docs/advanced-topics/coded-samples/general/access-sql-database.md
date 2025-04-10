@@ -5,11 +5,11 @@ description: "how to access an SQL database through code in Test Studio coded st
 previous_url: /user-guide/code-samples/general/access-sql-database.aspx, /user-guide/code-samples/general/access-sql-database
 position: 1
 ---
-#How to Access a SQL Database in Code#
+# How to Access a SQL Database in Code
 
 > You can access an SQL database in a data driven test, as seen <a href="/features/data-driven-testing/add-data-source#add-a-database-source" target="_blank">here</a>. This is built-in functionality for Test Studio, but not for Telerik Testing Framework. This article demonstrates how to access a SQL database through code, which allows for greater flexibility. Also, writing into a database is only possible with a coded solution.
 
-##Add Assembly Reference##
+## Add Assembly Reference
 
 Use the *System.Data.SqlClient* API. You'll need to add an assembly reference to it, as seen <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">here</a>. This API is part of the *System.Data* assembly. This assembly is located, by default, in the following location (on a 64-bit Windows 7 machine with .NET 4.0):
 
@@ -19,22 +19,22 @@ If a reference to System.Data 2.0 already exists, remove it add it again from th
 
 Ensure you add the *using* or *Imports* statement to the top of the code-behind file. Click the View Class button, scroll to the top of the code, and add this line:
 
-```C#
+````C#
 using System.Data.SqlClient;
-```
-```VB
+````
+````VB
 Imports System.Data.SqlClient;
-```
+````
 
-##Sample Code##
+## Sample Code
 
 Here we've create a SQL database named **myFirstDB**. This database contains a table named **Table_1**. This table contains a column named **City**.
 
 ![Database][1]
 
-###Read from SQL Database###
+### Read from SQL Database
 
-```C#
+````C#
 //Define a new SQL connection with a connection string. 
 //The connection string will be different depending on your environment and the name of the database, table, etc.
 //See http://www.connectionstrings.com for connection string examples.
@@ -57,8 +57,8 @@ while (thisReader.Read())
  
 thisReader.Close();
 thisConnection.Close();
-```
-```VB
+````
+````VB
 'Define a new SQL connection with a connection string. 
 'The connection string will be different depending on your environment and the name of the database, table, etc.
 'See http://www.connectionstrings.com for connection string examples.
@@ -80,11 +80,11 @@ End While
  
 thisReader.Close()
 thisConnection.Close()
-```
+````
 
-###Write into SQL Database###
+### Write into SQL Database
 
-```C#
+````C#
 //Define a new SQL connection with a connection string.
 //The connection string will be different depending on your environment and the name of the database, table, etc.
 //See http://www.connectionstrings.com for connection string examples.
@@ -98,8 +98,8 @@ Log.WriteLine(thisConnection.Database);
 SqlCommand thisCommand = thisConnection.CreateCommand();
 thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')";
 thisCommand.ExecuteNonQuery();
-```
-```VB
+````
+````VB
 'Define a new SQL connection with a connection string.
 'The connection string will be different depending on your environment and the name of the database, table, etc.
 'See http://www.connectionstrings.com for connection string examples.
@@ -113,7 +113,7 @@ Log.WriteLine(thisConnection.Database)
 Dim thisCommand As SqlCommand = thisConnection.CreateCommand()
 thisCommand.CommandText = "INSERT INTO Table_1 (City) VALUES ('Richmond')"
 thisCommand.ExecuteNonQuery()
-```
+````
 
 **Note**: This code won't run without modification. The database, table, and column in the original code won't exist in your environment.
 

@@ -2,7 +2,7 @@
 title: Open Git Project
 page_title: Open Git Project
 description: "Open Test Studio Project To Git Source control repository. Use Personal Access token to connect to Git repo accessed with 2FA (two factor authentication). Unable to connect to Git. Error connecting to Git, too many redirects or authentication replays"
-publish: true
+published: true
 position: 1
 ---
 # Open Git Project
@@ -10,7 +10,7 @@ position: 1
 **Open** Git project in the terms of Test Studio is equal to __cloning an existing repository__. This option creates a local copy of the remote project in the specified folder during establishing connection.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 Follow the steps to open a Test Studio project stored into a remote Git repository.

@@ -4,18 +4,15 @@ page_title: Verify Specific Column - Test Studio Dev Documentation
 description: Verify Specific Column
 position: 1
 ---
-# RadGridView Verify Data in a Specific Column #
+# RadGridView Verify Data in a Specific Column
 
 *I need to find the correct column of a GridView based on something other than index, such as text content or a data driven variable.*
 
-## Solution ##
+## Solution
 
 Here is how to accomplish this against a <a href="http://demos.telerik.com/silverlight/#GridView/Totals" target="_blank">Telerik demo site</a>. First you need to retrieve all the Header Row Cells from the Grid and iterate through each one looking for a specific string. Each time it isn't found, the integer idx is increased by one. Once a match is made, idx will equal the index of the target column. Then you can use that integer to identify the column later:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     int verticalOffset = 0; // Holds the current vertical offset in the viewport
     int viewPortHeight; // The height of the visible part of the grid
     int extentHeight; // The total height of the grid, visible plus non-visible
@@ -59,12 +56,8 @@ Here is how to accomplish this against a <a href="http://demos.telerik.com/silve
         verticalOffset += viewPortHeight;
         VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset);
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim verticalOffset As Integer = 0
 
     Dim viewPortHeight As Integer
@@ -106,7 +99,7 @@ Here is how to accomplish this against a <a href="http://demos.telerik.com/silve
         verticalOffset += viewPortHeight
         VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset)
     End While
-    {{endregion}}
+````
 
 
 

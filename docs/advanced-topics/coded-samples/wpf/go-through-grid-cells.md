@@ -5,11 +5,11 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/wpf/go-through-cells.aspx, /user-guide/code-samples/wpf/go-through-cells
 position: 4
 ---
-#Go Through Each Cell in a WPF RadGridView#
+# Go Through Each Cell in a WPF RadGridView
 
 *I would like to go through each cell in a WPF RadGridView and perform some action or verification.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. Here's an example that goes through all the visible cells in a WPF demo grid (as opposed to all the cells contained in the grid). It writes the text content of each cell into the test log.
 
@@ -17,7 +17,11 @@ This is possible with a coded solution. Here's an example that goes through all 
 ><br>
 > The application used to build the sample code is the official <a href="https://demos.telerik.com/wpf/" target="_blank">Telerik UI for WPF Controls Demo app</a>. 
 
-```C#
+> **Note** 
+><br>
+> The application used to build the sample code is the official <a href="https://demos.telerik.com/wpf/" target="_blank">Telerik UI for WPF Controls Demo app</a>. 
+
+````C#
 WpfApplication app = Manager.ActiveApplication;
 Assert.IsNotNull(app);
  
@@ -38,8 +42,8 @@ foreach (Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow gRow in grid.Rows)
     }
     rowCounter++;
 }
-```
-```VB
+````
+````VB
 Dim app As WpfApplication = Manager.ActiveApplication
 Assert.IsNotNull(app)
  
@@ -58,7 +62,7 @@ For Each gRow As Telerik.WebAii.Controls.Xaml.Wpf.GridViewRow In grid.Rows
     Next
     rowCounter += 1
 Next
-```
+````
 
 
 

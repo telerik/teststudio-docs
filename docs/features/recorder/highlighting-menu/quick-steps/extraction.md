@@ -114,4 +114,3 @@ The implementation of verification steps allows you to convert any text based ch
 [6]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig6.png
 [7]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig7.png
 [8]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig8.png
-[9]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/extraction/fig9.png

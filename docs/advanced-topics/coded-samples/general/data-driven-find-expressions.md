@@ -5,13 +5,13 @@ description: "Data Driven Find Expressions in Test Studio test. Select different
 previous_url: /user-guide/code-samples/general/data-driven-find-expressions.aspx, /user-guide/code-samples/general/data-driven-find-expressions
 position: 1
 ---
-# Data Driven Find Expressions #
+# Data Driven Find Expressions 
 
 *I would like to data drive a find expression and use it to perform an action against or verify an element.*
 
 > After 2012 R2, you can create <a href="/features/elements-explorer/find-element#data-driven" target="_blank">data driven find expressions without code</a>.
 
-## Solution ##
+## Solution 
 
 The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/combobox/index" target="_blank">Telerik demo site</a>.
 
@@ -28,16 +28,16 @@ The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/c
 
 6.&nbsp; We will use the Find.ByContent method in the coded step. More information can be found in our <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Finding Page Elements</a> article. Here's the code for our Script Step:
 
-```C#
+````C#
 HtmlListItem listItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent<HtmlListItem>(Data["Col1"].ToString());
 Assert.IsNotNull(listItem);
 listItem.Click();
-```
-```VB
+````
+````VB
 Dim listItem As HtmlListItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent(Of HtmlListItem)(Data("Col1").ToString())
 Assert.IsNotNull(listItem)
 listItem.Click()
-```
+````
 
 7.&nbsp; Test Studio uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
 

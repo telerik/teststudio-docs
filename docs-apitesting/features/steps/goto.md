@@ -3,7 +3,7 @@ title: Goto Step
 page_title: Goto Step
 description: "Progress® Test Studio® for APIs - Steps - Goto Step"
 position: 1
-publish: true
+published: true
 ---
 
 # Goto Step

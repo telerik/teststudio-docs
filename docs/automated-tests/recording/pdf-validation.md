@@ -11,7 +11,7 @@ PDF files are commonly used for generating reports and documents across differen
 Find out how to open a PDF file in the browser and record the scenario actions in a Test Studio test.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## Enable Edge Browser for PDF Validation
@@ -93,7 +93,7 @@ Comparing the content of two PDF files is not a straight-forward scenario, but c
 1. Data drive these verification steps using the extracted variables from the downloaded file. 
 1. Execute the test and it will use the values extracted from the downloaded file to verify if this is the same with the content of the existing PDF file.
 
-## See also ##
+## See also 
 
 * 
 
@@ -103,4 +103,3 @@ Comparing the content of two PDF files is not a straight-forward scenario, but c
 [2b]: /img/automated-tests/recording/validate-pdf/fig2b.png
 [3]: /img/automated-tests/recording/validate-pdf/fig3.png
 [4]: /img/automated-tests/recording/validate-pdf/fig4.png
-[5]: /img/automated-tests/recording/validate-pdf/fig5.png

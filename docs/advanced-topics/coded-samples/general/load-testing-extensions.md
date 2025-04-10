@@ -3,9 +3,9 @@ title: Load Testing Extensions
 page_title: Load Testing Extensions
 description: "Load Testing Extensions in Test Studio."
 position: 1
-publish: false
+published: false
 ---
-#Load Testing Extensions#
+# Load Testing Extensions
 
 A load testing plugin is similar to other <a href="/advanced-topics/coded-samples/general/execution-extensions" target="_blank">execution extensions</a>, but implements a different set of interfaces. Instead of a class that implements the IExecutionExtension interface, implement one or more of the following interfaces:
 
@@ -19,7 +19,7 @@ Each of these has its own set of functions that extend load testing functionalit
 
 The below code creates a new, randomly-named file every time Test Studio creates a new Virtual User during load testing The code overrides all the extensible load functions, but only gives **VirtualUserAllocated** an implementation. The rest of the functions do nothing, and the exceptions they throw are benign. This class requires an assembly reference to *Telerik.TestStudio.Load.Common.dll*.
 
-```C#
+````C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -72,4 +72,4 @@ namespace ClassLibrary1
         }
     }
 }
-```
+````

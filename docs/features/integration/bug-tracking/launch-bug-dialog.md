@@ -40,12 +40,16 @@ Execute a test list and drill down into the failed result.
 - Click **Submit Bug** in the **Export** ribbon.
 - Click **Submit Bug** in the **Test Results** pane.
 
-<table id="no-table">
-<tr>
-<td>![Export][4]</td>
-<td>![Test Results][5]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Export][4]</td>
+<td>
+
+![Test Results][5]</td>
 </tr>
-<table>
+</table>
 
 [1]: /img/features/integration/bug-tracking/launch-bug-dialog/fig1.png
 [2]: /img/features/integration/bug-tracking/launch-bug-dialog/step-righ-click-menu-bug.png

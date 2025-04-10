@@ -95,6 +95,3 @@ Click the _'magnifier'_ icon in the __Edit User Profile__ window to expand the _
 [9]: /img/features/testing-types/load-testing/modifying-tests/fig9.png
 [10]: /img/features/testing-types/load-testing/modifying-tests/fig10.png
 [11]: /img/features/testing-types/load-testing/modifying-tests/fig11.png
-[12]: /img/features/testing-types/load-testing/modifying-tests/fig12.png
-[13]: /img/features/testing-types/load-testing/modifying-tests/fig13.png
-[14]: /img/features/testing-types/load-testing/modifying-tests/fig14.png

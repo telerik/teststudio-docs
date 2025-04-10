@@ -75,15 +75,21 @@ __See Also:__ A sample scenario to cover with the help of custom dynamic targets
 - **Search Result**: Click to show the result based on the search query.
 - **Current Value**: Display the current result based on the search query.
 
-<table id="no-table">
-	<tr>
-		<td>__Source Body__<br>![Source Section Properties][7]</td>
-		<td>__Source Headers__<br>![Source Section Properties][8]</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+__Source Body__<br>![Source Section Properties][7]</td>
+		<td>
+		
+__Source Headers__<br>![Source Section Properties][8]</td>
     </tr>
-    <tr>
-        <td>__Source Cookie__<br>![Source Section Properties][9]</td>
-	</tr>
-<table>
+    <tr style="text-align: center; background-color: transparent; border:none;">
+        <td>
+
+__Source Cookie__<br>![Source Section Properties][9]</td>
+</tr>
+</table>
 
 ### Search Options
 
@@ -91,10 +97,10 @@ __See Also:__ A sample scenario to cover with the help of custom dynamic targets
 
 __Example:__ The head section of a HTTP response's body is:
 
-```
+````
 <html>
 <head><title>Example ASP Scripts</title></head>
-```
+````
 
 To get the actual title you may use __Starts after:__ \<title\> and __Ends before:__ \</title\>
 
@@ -104,28 +110,28 @@ To get the actual title you may use __Starts after:__ \<title\> and __Ends befor
 
 __Example:__ The cookie of a HTTP response is the following string and the requirement is to get the domain name value only:
 
-```
+````
 _EDGE_S=SID=04D5974D8509631807D39B2484BF62E4; path=/; httponly; domain=bing.com
-```
+````
 
 The only possible approach is to use the partial search using Regex. The standard regex for extracting the desired value looks like this:
 
-```
+````
 domain=(.*?)$
-```
+````
 
 This returns the following match information:
 
-```
+````
 Full match	65-80	`domain=bing.com`
 Group 1.	72-80	`bing.com`
-```
+````
 
 Using that standard regular expression in Test Studio will return the _Full match_ instead the value in _Group 1_. Therefore Test Studio uses \<val\> to express the first match group and the regular expression becomes:
 
-```
+````
 domain=(?<val>.*?)$
-```
+````
 
 - ___JSON___ - use <a href="http://goessner.net/articles/JsonPath/index.html#e3" target="_blank">JSONPath</a> to locate the desired value in response.
 
@@ -145,13 +151,13 @@ In some cases the dynamic parameter is built by a value from any previous HTTP r
 
 In Test Studio load module you can create such dynamic target using the available append options allowed in the Destination section's **Field Name** text box. All of these use the following template, where ___Prefix and Suffix are optional___:
 
-```
+````
 Query Parameter, Cookie, Header
 'ParamName:Prefix{value}Suffix'
 
 URL
 'Prefix{value}Suffix'
-```
+````
 
 > __Note!__ Keep in mind that **blank spaces in the *Field Name* text box are considered valid character** and thus are included in the final string. Therefore, leave intervals in the text only if these are expected.
 
@@ -168,16 +174,24 @@ URL
 	* __Ex.:__ http://google.com/{value} - if the extracted value is _test_, the URL will be appended as _http://google.com/test_.
 	* __Ex.:__ http://google.com/{value}/id=1379 - if the extracted value is _test_, the URL will be appended as _http://google.com/test/id=1379_.
 
-<table id="no-table">
-	<tr>
-		<td>__Append Query Parameter__<br>![Append Query Parameter][11]</td>
-		<td>__Append Header__<br>![Append Header][12]</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+__Append Query Parameter__<br>![Append Query Parameter][11]</td>
+<td>
+
+__Append Header__<br>![Append Header][12]</td>
     </tr>
-    <tr>
-        <td>__Append Cookie__<br>![Append Cookie][13]</td>
-		<td>__Append URL__<br>![Append URL][14]</td>
-	</tr>
-<table>
+    <tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+		
+__Append Cookie__<br>![Append Cookie][13]</td>
+<td>
+
+__Append URL__<br>![Append URL][14]</td>
+</tr>
+</table>
 
 > __Note!__ The above examples only represent how to append some predefined text before or after the dynamic value for the different types of destination fields. These are no real example of working HTTP calls.
 

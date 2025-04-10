@@ -4,20 +4,17 @@ page_title: Total Rows Count - Test Studio Dev Documentation
 description: Total Rows Count
 position: 1
 ---
-# RadGridView Total Rows Count #
+# RadGridView Total Rows Count
 
 *I need to get the total number of rows contained in a RadGridView. The Rows.Count property of the RadGridView only returns the number of rows on the current page.*
 
-## Solution #
+## Solution
 
 The only way to get the total rows count is by calculating the number of rows per page and adding them to the running total.
 
 The following code demonstrates how to get the rows count of the RadGridView shown on this <a href="http://demos.telerik.com/silverlight/#GridView/PagingLargeData" target="_blank">Telerik demo site</a>. We use a Do/While loop in code which exits once the "Next Page" button is no longer Enabled. Then the row count is performed once more to account for the last page.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     int extentHeight; // The total height of the grid, visible plus non-visible
     int rowHeight; // The height of the row
     
@@ -48,12 +45,8 @@ The following code demonstrates how to get the rows count of the RadGridView sho
     
     // Show the result
     Log.WriteLine("Total Number of Rows: "+ totalOverallRows.ToString());
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim extentHeight As Integer
 
     Dim rowHeight As Integer
@@ -83,4 +76,4 @@ The following code demonstrates how to get the rows count of the RadGridView sho
     
 
     Log.WriteLine("Total Number of Rows: " + totalOverallRows.ToString())
-    {{endregion}}
+````

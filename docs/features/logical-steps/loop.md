@@ -23,12 +23,16 @@ Walk--through of creating a loop process.
 
 6.&nbsp; Choose **Conditions** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a> and add **loop** step.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Standalone][2]<br>**Standalone version**</td>
+<td>
+
+![VS Plugin][3]<br>**VS Plugin**</td>
 <tr>
-<td>![Standalone][2]<br>**Standalone version**</td>
-<td>![VS Plugin][3]<br>**VS Plugin**</td>
-<tr>
-<table>
+</table>
 
 7.&nbsp; Set the *Count* of the Loop step to 5.
 

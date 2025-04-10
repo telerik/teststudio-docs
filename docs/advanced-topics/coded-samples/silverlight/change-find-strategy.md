@@ -5,19 +5,19 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/change-find-strategy.aspx, /user-guide/code-samples/silverlight/change-find-strategy
 position: 1
 ---
-#Change Silverlight Find Strategy#
+# Change Silverlight Find Strategy
 
 The default behavior of Test Studio and the Telerik Testing Framework is to time out after a certain interval if the element is not found.
  
 *I would like to avoid the Timeout Exception and perform a different set of steps depending on whether the element is found.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. Change the SilverlightApp or any FrameworkElement VisualFind.Strategy value to WhenNotVisibleReturnNull.
 
 The example below is against this <a href="http://www.silverlight.net/content/samples/sl4/toolkitcontrolsamples/run/default.html" target="_blank">Silverlight demo site</a>. After navigating there, click DataGrid in the left-hand menu. Then add a coded step:
 
-```C#
+````C#
 SilverlightApp app = ActiveBrowser.SilverlightApps()[0];
 FindStrategy originalStrategy = app.Find.Strategy;
  
@@ -42,9 +42,8 @@ finally
 {
     app.Find.Strategy = originalStrategy;
 }
-```
-
-```VB
+````
+````VB
 Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
 Dim originalStrategy As FindStrategy = app.Find.Strategy
  
@@ -63,6 +62,6 @@ Try
 Finally
     app.Find.Strategy = originalStrategy
 End Try
-```
+````
 
 **Note:** As is, the IF portion is executed. You can disable step two (treeview item 'DataGrid' select action) to see the ELSE portion execute.

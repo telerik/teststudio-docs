@@ -4,11 +4,11 @@ page_title: External Log File
 description: "Store the Test Studio test results to an external location."
 position: 1
 ---
-#External Log File#
+# External Log File
 
 *I would like to save the test execution log to an external file on disk.*
 
-##Solution##
+## Solution
 
 Overwrite the *OnAfterTestCompleted* method for individual tests in order to perform logic on Test Results. See our KB article on <a href="/advanced-topics/coded-samples/general/custom-scripts-before-after" target="_blank">Executing Custom Scripts Before/After</a> your Test Run for more information.
 
@@ -24,9 +24,9 @@ We have code samples for two file types:
 
 *	<a href="#excel-file">Excel File</a>
 
-##Text File##
+## Text File
 
-```C#
+````C#
 public IList<AutomationStepResult> stepResults { get; set; }
 public override void OnAfterTestCompleted(TestResult result)
 {
@@ -45,8 +45,8 @@ public override void OnAfterTestCompleted(TestResult result)
     file.WriteLine("Total Test Result: "+ overall);
     file.Close();
 }
-```
-```VB
+````
+````VB
 Public Property stepResults() As IList(Of AutomationStepResult)
     Get
         Return m_stepResults
@@ -72,7 +72,7 @@ Public Overrides Sub OnAfterTestCompleted(result As TestResult)
     file.WriteLine("Total Test Result: " & overall)
     file.Close()
 End Sub
-```
+````
 
 Finally you'll need to <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> for *ArtOfTest.Common.Design*. If it is already present, remove it and add it again. Add it from the \**Test Studio\Bin** directory:
 
@@ -80,13 +80,13 @@ Finally you'll need to <a href="/advanced-topics/coded-steps/add-assembly-refere
 
  
 
-##Excel File##
+## Excel File
 
 * You'll need to add a reference to *Microsoft.Office.Interop.Excel.dll*. If it isn't already on your machine, ensure you download the version from Microsoft that matches your Office suite.
 
 * You'll need to create the Excel file on disk first.
 
-```C#
+````C#
 public override void OnAfterTestCompleted(TestResult result)
 {
     string passed = Convert.ToString(result.TotalPassedSteps);
@@ -121,8 +121,8 @@ public override void OnAfterTestCompleted(TestResult result)
     GC.Collect();
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
 }
-```
-```VB
+````
+````VB
 Public Overrides Sub OnAfterTestCompleted(result As TestResult)
     Dim passed As String = Convert.ToString(result.TotalPassedSteps)
     Dim notRunSteps As String = Convert.ToString(result.TotalNumberOfNotRunSteps)
@@ -155,9 +155,9 @@ Public Overrides Sub OnAfterTestCompleted(result As TestResult)
     GC.Collect()
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp)
 End Sub
-```
+````
 
-##How to find and use Office PIA's without Visual Studio installed
+## How to find and use Office PIA's without Visual Studio installed
 
 1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 

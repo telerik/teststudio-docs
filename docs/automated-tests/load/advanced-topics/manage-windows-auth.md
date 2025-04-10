@@ -3,7 +3,7 @@ title: Manage Windows Authentication
 page_title: Manage Windows Authentication
 description: "Manage Windows Authentication in Test Studio load test. The tested application supports Windows Authentication - can use that in Test Studio load test"
 position: 0
-publish: false
+published: false
 ---
 # Manage Windows Authentication
 
@@ -39,7 +39,7 @@ If your test is <a href="/features/data-driven-testing/bind-test-data-source" ta
 
 ![Bind Win Auth][5]
 
-[1]: /img/features/testing-types/load-testing/manage-windows-auth/fig1.png
+
 [2]: /img/features/testing-types/load-testing/manage-windows-auth/fig2.png
 [3]: /img/features/testing-types/load-testing/manage-windows-auth/fig3.png
 [4]: /img/features/testing-types/load-testing/manage-windows-auth/fig4.png

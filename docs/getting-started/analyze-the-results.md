@@ -30,7 +30,7 @@ The <a href="/general-information/test-results/analyze-quick-run-results" target
 
 The results generated from a <a href="/general-information/test-execution/quick-execution" target="_blank">quick execution run</a> will be displayed in the test pane - the successfully executed steps are marked with a green circle and the failed steps are marked with a red circle in front of it.
 
-<table id=no-table>
+<table id="no-table" style="border:none;">
 <colgroup>
         <col width="30%" />
         <col width="30%" />
@@ -45,7 +45,7 @@ The results generated from a <a href="/general-information/test-execution/quick-
 		<td style="text-align:center;">__Step Failed__</td>
 	</tr>
 	</tbody>
-<table>
+</table>
 
 Each failed step provides additional details for the failure, if you hover over the red circle in front of it. By clicking on that red crossed circle, you open the <a href="/general-information/test-results/step-failure-details" target="_blank">**Step Failure Details**</a> dialog. You can see detailed message for the failure, screenshots for the expected image and image at the time of failure, the DOM tree at the time of failure and suggestion how to solve the error.
 

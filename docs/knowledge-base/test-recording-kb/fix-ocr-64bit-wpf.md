@@ -4,7 +4,7 @@ page_title: Fix OCR for 64bit WPF Applications
 description: Fix OCR recording and execution for 64bit WPF applications. Optical Character Recognition OCR for WPF applications 64 bit. Test Studio release 2020 R2 fix for OCR for WPF application.
 position: 3
 ---
-# Fix Optical Character Recognition (OCR) Recording and Execution for 64bit WPF Applications
+## Fix Optical Character Recognition (OCR) Recording and Execution for 64bit WPF Applications
 
 The <a href="/features/recorder/verifications/text-from-image" target="_blank">OCR feature</a> for WPF tests was introduced with Test Studio 2020 R2 SP1 (v.2020.2.910). You can extract the text from image and use it in verification, wait of extract steps.
 

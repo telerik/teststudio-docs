@@ -49,4 +49,3 @@ This property allows you to bring up the project in the same state when it was l
 The amount of time in milliseconds to wait for Test Studio to connect to a Silverlight application.
 
 [1]: /img/features/project-settings/general/fig1.png
-[2]: /img/features/project-settings/general/fig2.png

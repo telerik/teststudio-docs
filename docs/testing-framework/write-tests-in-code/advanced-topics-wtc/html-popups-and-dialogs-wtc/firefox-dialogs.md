@@ -3,18 +3,22 @@ title: Firefox Dialogs
 page_title: Firefox Dialogs
 description: "Test Studio Testing Framework FF dialogs - obsolete"
 position: 1
-publish: false
+published: false
 ---
-#How to Handle Firefox Dialogs#
+# How to Handle Firefox Dialogs
 
 Firefox dialogs require special attention because some of them are not standard Win32 dialogs, for example Firefox's download manager dialog. As a result the usual method for handing dialogs does not work with Firefox dialogs. Here is what the download manager dialog looks like:
 
-<table id="no-table">
-	<tr>
-		<td>![Firefox download manager dialog window][1] <br><br>**Firefox download manager dialog window**</td>
-		<td>![Firefox download manager dialog window after download completes][2] <br><br>**Firefox download manager dialog window after download completes**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+        
+![Firefox download manager dialog window][1] <br><br>**Firefox download manager dialog window**</td>
+<td>
+        
+![Firefox download manager dialog window after download completes][2] <br><br>**Firefox download manager dialog window after download completes**</td>
+</tr>
+</table>
 
 Using Microsoft's Spy++ tool the first thing we discover about this dialog is that the class name is **MozillaUIWindowClass** instead of the standard dialog class name of #**32770**. As a result this dialog will not be included in the WindowCollection list that is passed in to the IsDialogActive function. This is because DialogMonitor filters the desktop windows on the class name #**32770**. This fact alone necessitates rolling our own custom dialog handler using the IDialog interface to overcome this problem.
  
@@ -22,7 +26,7 @@ The other thing we discover about this dialog is that the Clear List button and 
  
 Let's start implementing our dialog handler. First we'll need some local class variables and property accessors:
 
-```C#
+````C#
 using System;
 using System.Threading;
  
@@ -107,8 +111,8 @@ namespace WebTesting
             set {this._currentState = value; }
         }
         #endregion
-```
-```VB
+````
+````VB
 Public Class FFDownloadsDialog
     Implements ArtOfTest.WebAii.Win32.Dialogs.IDialog
  
@@ -200,12 +204,12 @@ Public Class FFDownloadsDialog
         End Set
     End Property
 #End Region
-```
+````
 
 
 So far everything is very simple and straightforward. Now that the local variables and properties are complete, it's time to implement the constructor. Since all we're going to do to handle the dialog is close it, we don't require the Desktop or DialogButton parameter that standard Win32 dialog handlers require:
 
-```C#
+````C#
 #region Constructor
 /// <summary>
 /// Create the dialog.
@@ -214,8 +218,8 @@ public FFDownloadsDialog()
 {
 }
 #endregion
-```
-```VB
+````
+````VB
 #Region "Constructor"
     ' <summary>
     ' Create the dialog handler instance.
@@ -224,11 +228,11 @@ public FFDownloadsDialog()
         MyBase.New()
     End Sub
 #End Region
-```
+````
 
 Since there's nothing to the constructor, we could optionally leave it out and let the default constructor take over. So let's start implementing the IDialog methods starting with IsDialogActive.
 
-```C#
+````C#
 #region IDialog Members
 /// <summary>
 /// Check whether the dialog is present or not. This function is
@@ -262,8 +266,8 @@ public bool IsDialogActive(ArtOfTest.WebAii.Win32.WindowCollection dialogs)
     }
     return true;
 }
-```
-```VB
+````
+````VB
 ' <summary>
 ' Check whether the dialog is present or not. This function is
 ' called by the DialogMonitor object.
@@ -294,7 +298,7 @@ Public Function IsDialogActive(ByVal dialogs As ArtOfTest.WebAii.Win32.WindowCol
         End If
     Return True
 End Function
-```
+````
 
 Because the DialogMonitor object passes in a **WindowCollection** of windows that have a class name of "#**32770**" and the FireFox dialog has the class name "**MozillaUIWindowClass**" we have to ignore the passed in WindowCollection and perform our own FindWindowRecursively. Once a window with the right caption is found we still need to verify it has the right class name.
  
@@ -302,7 +306,7 @@ Detecting when the download manager has finished downloading files is a little b
  
 Now we need to implement the Handle function:
 
-```C#
+````C#
 /// <summary>
 /// This is called by the DialogMonitor whenever IsDialogActive returns true.
 /// </summary>
@@ -331,8 +335,8 @@ public void Handle()
         }
     }
 }
-```
-```VB
+````
+````VB
 ' <summary>
 ' This is called by the DialogMonitor whenever IsDialogActive returns true.
 ' </summary>
@@ -356,7 +360,7 @@ Implements ArtOfTest.WebAii.Win32.Dialogs.IDialog.Handle
          End Try
      End If
 End Sub
-```
+````
 
 The normal action we want our custom dialog handler to perform is to simply close the window. This is easily accomplished with this.Window.Close. Once the handler sends to the window the close command we wait up to 500 milliseconds for it to actually go away. We also trigger a semaphore so that the main test thread can be notified that the dialog has been handled.
  
@@ -364,7 +368,7 @@ Optionally our handler code will call a custom handler function if the delegate 
  
 Lastly we need to implement the WaitUntilHandled function:
 
-```C#
+````C#
         /// <summary>
 ///
         /// May be called by test code. Waits up to the specific time out
@@ -389,8 +393,8 @@ Lastly we need to implement the WaitUntilHandled function:
          }
      }
 }
-```
-```VB
+````
+````VB
     ' <summary>
 ' <summary>
     ' May be called by test code. Waits up to the specific time out
@@ -412,7 +416,7 @@ Lastly we need to implement the WaitUntilHandled function:
 End Sub
  
 End Class
-```
+````
 
 The only thing really happening in this code is to wait on the semaphore to be set. If the semaphore is not set within the timeout period it throws a System.TimeoutException exception. Optionally it will also reset the HandleCount property prior to waiting for the semaphore.
 

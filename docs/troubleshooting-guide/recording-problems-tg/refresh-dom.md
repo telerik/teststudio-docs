@@ -17,9 +17,9 @@ Some elements in an application are loaded in the DOM dynamically during executi
 
 Very often in such situation refreshing the DOM after that particular action will allow the execution to go smoothly. There is no UI step for that though it could be easily obtained in <a href="/features/custom-steps/script-step" target="_blank">a coded step</a>. The only row of code you need to add is the following:
 
-```C#
+````C#
 Manager.ActiveBrowser.RefreshDomTree();
-```
-```VB
+````
+````VB
 Manager.ActiveBrowser.RefreshDomTree()
-```
+````

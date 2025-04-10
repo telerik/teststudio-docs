@@ -5,13 +5,13 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/radgridview/scrolling.aspx, /user-guide/code-samples/silverlight/radgridview/scrolling
 position: 1
 ---
-#RadGridView Scrolling#
+# RadGridView Scrolling
 
 > This issue can now be resolved <a href="/knowledge-base/silverlight-kb/codeless-scrolling-in-virtualized-panel" target="_blank">without code</a>.
 
 *I need to scroll down through the entire GridView verifying the data, because currently only the rows presented in the Visual Tree can be tested.*
 
-##Solution##
+## Solution
 
 This is a limitation of the Visual Tree contained in the Silverlight engine. Silverlight puts into the Visual Tree only the UI components necessary to render the page on the screen.
  
@@ -19,7 +19,7 @@ Here is an example. Let's say you have a grid that holds 100 rows of data but ca
  
 The following code demonstrates how to accomplished this on a <a href="http://demos.telerik.com/silverlight/#GridView/UIVirtualization" target="_blank">Telerik demo page</a>.
 
-```C#
+````C#
 int verticalOffset = 0; // Holds the current vertical offset in the viewport
 int viewPortHeight; // The height of the visible part of the grid
 int extentHeight; // The total height of the grid, visible plus non-visible
@@ -54,9 +54,8 @@ grid.Refresh();
 verticalOffset += viewPortHeight;
 VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset);
 }
-```
-
-```VB
+````
+````VB
 
 Dim verticalOffset As Integer = 0
 ' Holds the current vertical offset in the viewport
@@ -91,6 +90,6 @@ Next
 verticalOffset += viewPortHeight
 VirtualizingPanel.InvokeMethod("SetVerticalOffset", verticalOffset)
 End While
-```
+````
 
 Due to the volume of data contained in the sample RadGridView, this test will take hours to run through it all. But it shows all the necessary steps.  

@@ -15,7 +15,7 @@ The below steps will guide you through the necessary TeamCity project adjustment
 There are no specifics in installation of the TeamCity server. To be able to execute automated tests that include Windows and Browser interactions it is necessary to run build agent from command line.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## Run the Build Agent
@@ -49,15 +49,15 @@ For "Build script content" enter:
 
 Path to Test Studio runner
 
-```
+````
 list="PATH_TO_PROJECT\TEST_LIST_NAME.aiilist" out="PATH_TO_RESULT_DIR"  junitstep
-```
+````
 
-**OR**
+<strong>OR</strong>
 
-```
+````
 test="PATH_TO_PROJECT\TEST_NAME.tstest" out="PATH_TO_RESULT_DIR" junitstep
-```
+````
 
 4.&nbsp; Add new Build Feature
 
@@ -70,9 +70,9 @@ For report type select "Ant JUnit" and save build feature.
 For "Monitoring rules" specify output directory from previous step and ad all xml files.
 
 Example:
-```
+````
 C:\Users\deyan\Desktop\TestStudioResults\*.xml
-```
+````
 
 [1]: /img/advanced-topics/build-server/team-city-builds/New_project.png
 [2]: /img/advanced-topics/build-server/team-city-builds/New_Build_config.png

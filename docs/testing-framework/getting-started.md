@@ -31,12 +31,12 @@ padding: 8px;
 
 </style>
 
-#Getting Started with Telerik Testing Framework#
+# Getting Started with Telerik Testing Framework
 
 Thanks for using Telerik Testing Automation infrastructure. To get started using this framework, please follow the instructions below. If you have further questions, feel free to <a href="http://www.telerik.com/account/support-tickets/available-support-list.aspx" target="_blank">contact us</a>.
 
 
-##Installing and Setting Up the Infrastructure##
+## Installing and Setting Up the Infrastructure
 
 To get started, first download the <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Telerik Testing Framework</a> installer package and run the installation. Once it is complete, you will have all of the following placed in the Telerik Testing Framework %InstallDir% folder:
 
@@ -72,7 +72,7 @@ To get started, first download the <a href="https://www.telerik.com/teststudio/t
 
 > Both the Telerik Testing Framework library and the Internet Explorer client are installed and ready to use once the installation is complete. The templates are also installed into your local templates for the current user. You also have a copy of these templates under %InstallDir%\Visual Studio Templates\.
 
-##Starting Automation Using Telerik Testing Framework##
+## Starting Automation Using Telerik Testing Framework
 
 * If you are using Visual Studio Team Test, please reference the <a href="/testing-framework/using-vs-team-test" target="_blank">Studio Team Test</a> Using Visual  topic.
 
@@ -94,11 +94,11 @@ Once <a href="https://www.telerik.com/teststudio/testing-framework" target="_bla
 
 5. Click OK to finish adding the needed references.
 
-##Quick Start Sample Code##
+## Quick Start Sample Code
 
 Before calling into any of the Telerik library methods, you need to make sure that you have properly initialized an instance of the **Manager** object passing in the settings you want used for this instance. To initialize the project:
 
-```C#
+````C#
 // Initialize the settings
 Settings mySettings = new Settings();
  
@@ -123,8 +123,8 @@ myManager.ActiveBrowser.Actions.Click(mybtn);
  
 // Shut-down the manager and do all clean-up
 myManager.Dispose();
-```
-```VB
+````
+````VB
 
 
 Dim mySettings As New Settings()
@@ -150,7 +150,7 @@ myManager.ActiveBrowser.Actions.Click(mybtn)
  
 
 myManager.Dispose()
-```
+````
 
 The Manager object exposes all methods/properties needed to perform browser automation, element identification, logging and DOM traversal including TestRegion identification. Below is a brief description of the key objects exposed off the Manager and their corresponding key object properties/methods:
 

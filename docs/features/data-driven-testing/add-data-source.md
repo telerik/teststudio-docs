@@ -58,13 +58,13 @@ In the below section you can read how to prepare the XML file and add it to the 
 
 XML files are type of documents that both humans and machines can read. The structure of the document is defined by tags and Test Studio uses these to define the data source values. Here is an example of a basic XML file with two columns:
 
-```xml
+````XML
 <Searches>
    <Search UserName="john.smith" Password="johnspass" />
    <Search UserName="bob.brown" Password="bobspass" />
    <Search UserName="sam.jones" Password="samspass" />
 </Searches>
-```
+````
 
 *Search* is the equivalent of an Excel Sheet. *UserName* and *Password* translate as the column names.
 
@@ -113,12 +113,7 @@ Adding a database source requires additional details compared to adding an Excel
 > Find examples for **[How to connect to a SQL Database](/features/data-driven-testing/sql-database-example)** and **[How to connect to an Oracle Database](/features/data-driven-testing/oracle-db-example)**.
 
 [1]: /img/features/data-driven-testing/add-data-source/fig1.png
-[2]: /img/features/data-driven-testing/add-data-source/fig2.png
-[3]: /img/features/data-driven-testing/add-data-source/fig3.png
 [4]: /img/features/data-driven-testing/add-data-source/fig4.png
-[5]: /img/features/data-driven-testing/add-data-source/fig5.png
-[6]: /img/features/data-driven-testing/add-data-source/fig6.png
-[7]: /img/features/data-driven-testing/add-data-source/fig7.png
 [8]: /img/features/data-driven-testing/add-data-source/fig8.png
 [9]: /img/features/data-driven-testing/add-data-source/fig9.png
 [9a]: /img/features/data-driven-testing/add-data-source/fig9a.png

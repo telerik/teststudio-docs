@@ -4,7 +4,7 @@ page_title: Invoke Mouse Hover
 description: Insert Mouse Hoverover step. I recorded a click in a fly-out sub-menu, however it does not execute properly because the menu never properly expands to expose the element. Invoke mouse action.
 position: 1
 ---
-# Invoke a Mouse Hover event
+## Invoke a Mouse Hover event
 
 ## PROBLEM
 

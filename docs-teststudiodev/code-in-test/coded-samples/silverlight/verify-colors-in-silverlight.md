@@ -2,20 +2,17 @@
 title: Verify Colors in Silverlight
 page_title: Verify Colors in Silverlight - Test Studio Dev Documentation
 description: Verify Colors in Silverlight
-position: 1
+position: 2
 ---
-# Verify Colors in Silverlight #
+# Verify Colors in Silverlight
 
 _I would like to add a color verification for an element in a Silverlight application._
 
-## Solution ##
+## Solution
 
 The code below demonstrates this approach against this <a href="http://demos.telerik.com/silverlight/#TreeView/Performance" target="_blank">Telerik demo site</a>. It gets the first item in the menu and verifies that its foreground color matches pre-defined values:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     Manager.Settings.Web.EnableSilverlight = true; 
     Manager.LaunchNewBrowser(); 
     ActiveBrowser.NavigateTo("http://demos.telerik.com/silverlight/#TreeView/Performance"); 
@@ -47,11 +44,8 @@ The code below demonstrates this approach against this <a href="http://demos.tel
         // If it's not a SolidColorBrush what is it? How do we handle it?
         throw new ApplicationException("Expecting a SolidColorBrush, but got a " + textblockBrush.GetType().ToString());
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }} 
+````
+````VB
 
     Manager.Settings.Web.EnableSilverlight = True
     Manager.LaunchNewBrowser()
@@ -84,7 +78,7 @@ The code below demonstrates this approach against this <a href="http://demos.tel
     Else
         Throw New ApplicationException("Expecting a SolidColorBrush, but got a " + textblockBrush.[GetType]().ToString())
     End If
-    {{endregion}}
+````
 
 
 

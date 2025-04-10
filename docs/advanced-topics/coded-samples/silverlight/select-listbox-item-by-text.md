@@ -5,12 +5,12 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/silverlight/select-listbox-item-by-text.aspx, /user-guide/code-samples/silverlight/select-listbox-item-by-text
 position: 1
 ---
-#Select Listbox Item by Text in Silverlight#
+# Select Listbox Item by Text in Silverlight
 
 
 *I have a listbox contained in my Silverlight application. I want to be able to find and select an item contained in the listbox by its text, not by its index. I can't use select by index because the position of the item that needs to be selected may change at any time.*
 
-##Solution##
+## Solution
 
 This is a tricky one to solve. There are two subtle problems that need to be dealt with before accomplishing the end goal:
 
@@ -28,7 +28,7 @@ The solution is to use this approach in a **loop**:
 
 My sample Silverlight application to test contains this XAML code to render my listbox:
 
-```XAML
+````xml
 <ListBox AutomationProperties.AutomationId="lb001" Height="117" HorizontalAlignment="Left" Margin="23,102,0,0" Name="listBox1" VerticalAlignment="Top" Width="281">
     <ListBoxItem Content="Item 1" />
     <ListBoxItem Content="Item 2" />
@@ -90,11 +90,11 @@ My sample Silverlight application to test contains this XAML code to render my l
     <ListBoxItem Content="Item 58" />
     <ListBoxItem Content="Item 59" />
 </ListBox>
-```
+````
 
 To help make the code necessary to accomplish our search task more modular, let's define a function that takes a listbox, a string to search for and finds and returns the listbox item want. Here is that function:
 
-```C#
+````C#
 private static ListBoxItem FindListboxItemByText
     (string itemToFind, ListBox myLB)
 {
@@ -129,12 +129,12 @@ private static ListBoxItem FindListboxItemByText
     // We scanned the entire list and didn't find the right item to select.
     return null;
 }
-```
+````
 
 We call this resusable function from a coded step like this:
 
 
-```C#
+````C#
 [CodedStep("Select a listbox item by text")]
 public void SelectListItemByTextCodedStep()
 {
@@ -147,5 +147,5 @@ public void SelectListItemByTextCodedStep()
     Assert.IsNotNull(item, "\"" + itemToFind + "\" not found in the listbox.");
     item.User.Click();
 }
-```
+````
 

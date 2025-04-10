@@ -121,4 +121,3 @@ To further customize the email notification, click the **Edit** button and input
 [10]: /img/features/scheduling-test-runs/schedule-execution/fig10.png
 [11]: /img/features/scheduling-test-runs/schedule-execution/fig11.png
 [12]: /img/features/scheduling-test-runs/schedule-execution/fig12.png
-[13]: /img/features/scheduling-test-runs/schedule-execution/fig13.png

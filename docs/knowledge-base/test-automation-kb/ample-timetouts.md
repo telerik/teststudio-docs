@@ -4,7 +4,7 @@ page_title: Ample Timetouts
 description: Randomly failing tests. I have recorded few tests and each time I run these, they fail at different step. 
 position: 1
 ---
-# Setting Ample Timeouts in Test 
+## Setting Ample Timeouts in Test 
 
 Random failures in test or test list runs are often caused by the lack of synchronization between the speed of executing the action steps and the application responsiveness during the execution. 
 

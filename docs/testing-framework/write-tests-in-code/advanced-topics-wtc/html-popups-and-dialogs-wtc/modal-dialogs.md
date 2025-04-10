@@ -4,7 +4,7 @@ page_title: Modal Dialogs
 description: "Handle a modal dialog in a coded step in Test Studio. Coded test to handle modal dialogs in Test Studio. Test Studio Testing Framework Download Modal Dialog handling.."
 position: 9
 ---
-#Handling IE Modal Dialogs#
+# Handling IE Modal Dialogs
 
 ![Modal Dialog][1]
 
@@ -12,7 +12,7 @@ The main difference between IE modal dialogs and the HTML Pop-ups is that the mo
  
 IE modal dialogs require special handling. They don't act like standard HTML pop-up windows, which means the standard approach does not work. Here is an example of how to code for the IE modal dialog special case:
 
-```C#
+````C#
 [TestMethod]
 [Description("How to access and handle IE's modal dialogs")]
 public void IEModalDialogsSupport()
@@ -47,8 +47,8 @@ public void IEModalDialogsSupport()
     // The ActiveBrowser is back to the main browser window.
      ActiveBrowser.NavigateTo("http://www.google.com");
 }
-```
-```VB
+````
+````VB
 <TestMethod(), _
 Description("How to access and handle IE's modal dialogs")> _
 Public Sub IEModalDialogsSupport()
@@ -87,7 +87,7 @@ Public Sub IEModalDialogsSupport()
      ActiveBrowser.NavigateTo("http://www.google.com")
   
 End Sub
-```
+````
 
 [1]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/modal-dialogs/fig1.png
 

@@ -20,12 +20,16 @@ Double click it to trigger the ___'Select API test'___ dialog.
 
 The available options are either to create a new test or import an existing one.
 
-<table id="no-table">
-	<tr>
-		<td>![Create an API Test][3]</td>
-		<td>![Add existing API test][4]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![Create an API Test][3]</td>
+<td>
+		
+![Add existing API test][4]</td>
+</tr>
+</table>
 
 ## Create Test
 
@@ -56,5 +60,3 @@ Once the test is imported click on it and then the _Select_ button. If there are
 [5]: /img/features/execute-apitest/add-api-test-as-step/browse-apitest.png
 [6]: /img/features/execute-apitest/add-api-test-as-step/warning.png
 [7]: /img/features/execute-apitest/add-api-test-as-step/select-test.png
-[8]: /img/features/execute-apitest/add-api-test-as-step/fig8.png
-[9]: /img/features/execute-apitest/add-api-test-as-step/fig9.png

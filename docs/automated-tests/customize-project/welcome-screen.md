@@ -92,10 +92,10 @@ The __News Feed__ section lists important news related to the product, links to 
 
 ![Newsfeed][7]
 
-[1]: /img/automated-tests/customize-project/welcome-screen/fig1.png
-[2]: /img/automated-tests/customize-project/welcome-screen/fig2.png
-[3]: /img/automated-tests/customize-project/welcome-screen/fig3.png
+
+
+
 [4]: /img/automated-tests/customize-project/welcome-screen/fig4.png
 [5]: /img/automated-tests/customize-project/welcome-screen/fig5.png
-[6]: /img/automated-tests/customize-project/welcome-screen/fig6.png
+
 [7]: /img/automated-tests/customize-project/welcome-screen/fig7.png

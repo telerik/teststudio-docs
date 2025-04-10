@@ -258,7 +258,6 @@ A confirmation message appears when the connection is successful. Confirm the co
 [33]: /img/features/scheduling-test-runs/remote-run-all-in-one/configure-execution-server-button.png
 [4]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
 [5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
-[6]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig6.png
 [10]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png
 [101]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png
 [102]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png

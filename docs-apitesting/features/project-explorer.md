@@ -3,7 +3,7 @@ title: Project Explorer
 page_title: Project Explorer
 description: "Progress® Test Studio® for APIs - Project explorer functionality"
 tags: project, explorer, mobile
-publish: true
+published: true
 position: 0
 ---
 

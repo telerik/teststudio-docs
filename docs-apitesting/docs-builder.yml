@@ -1,0 +1,67 @@
+#top nagivation might be wrong
+top-navigation-product: api-testing
+path-prefix: /teststudio-apis/documentation
+product-id: 1720
+product-name: Telerik Test Studio for APIs
+product-url: https://www.telerik.com/teststudio-apis
+search-engine-id: 001595215763381649090:lxlmtcw2g-u
+cta-overview: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+cta-intro: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+default-title-prefix: Telerik Test Studio for APIs
+avatar-path: ./images/avatar-ninja.svg
+no-results-image-path: ./images/ninja-no-results.svg
+primary-color:
+    light: "#1D8800"
+    dark: "#68BF51"
+
+product-code: TESTSTUDIOAPI
+product-trial-url: https://www.telerik.com/try/test-studio-ultimate
+contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs-apitesting
+enable-tabbed-code-blocks: true
+#pdf-cover-png-path: ./images/pdf-cover.png
+img-max-width: 100%
+table-layout: fixed
+
+
+meta:
+# === Test Studio for APIs Documentation Main Nodes ===
+    getting-started:
+        title: "Getting Started"
+        position: 2
+    features:
+        title: "Features"
+        position: 3
+    advanced-topics:
+        title: "Advanced Topics"
+        position: 4
+    troubleshooting-guide:
+        title: "Troubleshooting Guide"
+        position: 5
+        
+#   Features Section        
+    features/steps:
+        title: "Steps"
+        position: 1
+    features/code-features:
+        title: "Code Features"
+        position: 2
+    features/record:
+        title: "Record"
+        position: 3
+    features/command-line:
+        title: "Command Line Interface"
+        position: 4
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/"
+-
+    from: "^/overview$"
+    to: "/"
+-
+    from: "^/features/authorization/basic-authorization$"
+    to: "/features/steps/http-request#authorization"
+-
+    from: "^/features/import/http-traffic$"
+    to: "/features/record/import-http-traffic"

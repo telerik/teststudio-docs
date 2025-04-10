@@ -57,6 +57,3 @@ The 2022 releases of the Telerik and Kendo UI components introduced significant 
 ## See Also
 
 * <a href="https://www.telerik.com/blogs/automated-testing-of-kendo-ui-made-easy" target="_blank">Automated Testing for Kendo UI Made Easy</a>.
-
-[1]: /img/features/recorder/translators/fig1.png
-[2]: /img/features/recorder/translators/fig2.png

@@ -4,7 +4,7 @@ page_title: Built-In Handlers
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
 ---
-#Built-In Handlers#
+# Built-In Handlers
 
 Telerik Testing Framework includes native support for HTML pop-ups for all supported browsers in addition to a dialog handling framework (under the Win32.Dialogs) namespace with built-in support to handle some of the common browser dialogs like JavaScript Alert, Upload dialog and Logon dialog. The framework also enables you to extend this support to handle any custom dialog you need handled in any manner.
 

@@ -38,12 +38,16 @@ Test Studio provides few options to easily modify a data table.
 
 - __Add a row/Delete the last row__ or __Add a column/Delete the last column__
 
-<table id="no-table">
-<tr>
-<td>![Add/Delete Row][22]<br>Add/Delete Row</td>
-<td>![Add/Delete Column][23]<br>Add/Delete Column</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Add/Delete Row][22]<br>Add/Delete Row</td>
+<td>
+
+![Add/Delete Column][23]<br>Add/Delete Column</td>
 </tr>
-<table>
+</table>
 
 [2]: /img/features/data-driven-testing/local-data-driven-test/fig2.png
 [4]: /img/features/data-driven-testing/local-data-driven-test/fig4.png

@@ -24,7 +24,7 @@ This could be achieved in a coded solution. The code will both handle the dialog
 > <br>
 > The last three could be usually found in *'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\'*.
 
-```C# 
+````C# 
 [CodedStep(@"New Coded Step")]
         public void WebTest_CodedStep()
         {
@@ -54,8 +54,8 @@ This could be achieved in a coded solution. The code will both handle the dialog
             // handle the dialog
             Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
         }
-```
-```VB 
+````
+````VB 
 <CodedStep("New Coded Step")> _
 Public Sub WebTest_CodedStep()
 	System.Threading.Thread.Sleep(1000)
@@ -81,18 +81,18 @@ Public Sub WebTest_CodedStep()
 	' handle the dialog
 	Manager.Desktop.KeyBoard.KeyPress(Keys.Enter)
 End Sub
-```
+````
 
 Ensure you __add the following *using or Imports* statements__ to the top of the code-behind file.Scroll to the top of the code file and add these lines:
 
-```C#
+````C#
 using System.Windows.Automation;
 using ArtOfTest.Common.Extensions;
 using System.Windows.Forms;
-```
-```VB
+````
+````VB
 Imports System.Windows.Automation
 Imports ArtOfTest.Common.Extensions
 Imports System.Windows.Forms
-```
+````
 

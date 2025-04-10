@@ -66,7 +66,7 @@ Several execution options use file paths as values. When using file paths in the
 
 Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. These are corresponding to the available <a href="/features/test-execution/test-list-settings" target="_blank">test list settings</a>.
 
-```JSON
+````JSON
 {
   "Settings": {
     "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -131,7 +131,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
   "PropertyBag": null
 }
 
-```
+````
 
 ## Exit Codes
 
@@ -165,28 +165,44 @@ padding: 8px;
 	<th>Code</th><th>Title</th><th>Summary</th>
 </tr>
 <tr>
-	<td>**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
+<td>
+	
+**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
 </tr>
 <tr>
-	<td>**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
+<td>
+	
+**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
 </tr>
 <tr>
-	<td>**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
+<td>
+	
+**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
 </tr>
 <tr>
-	<td>**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
+<td>
+	
+**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
 </tr>
 <tr>
-	<td>**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
+<td>
+	
+**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
 </tr>
 <tr>
-	<td>**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
+<td>
+	
+**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
 </tr>
 <tr>
-	<td>**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
+<td>
+	
+**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
 </tr>
 <tr>
-	<td>**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
+<td>
+	
+**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
 </tr>
 <table>
 
@@ -195,6 +211,3 @@ padding: 8px;
 [3]: images/artoftest-runner/fig3.png
 [4]: images/artoftest-runner/fig4.png
 [5]: images/artoftest-runner/fig5.png
-[6]: images/artoftest-runner/fig6.png
-[7]: images/artoftest-runner/fig7.png
-[8]: images/artoftest-runner/fig8.png

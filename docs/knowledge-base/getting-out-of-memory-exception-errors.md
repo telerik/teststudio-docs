@@ -3,9 +3,8 @@ title: Getting Out of Memory Exception Errors
 page_title: System Out of Memory Exception Errors
 description: Getting Out of Memory Exception (OutOfMemory or System.OutOfMemoryException) Errors when scheduling tests to run on remote machine. Remote test list execution is failing because of OutOfMemory exceptions. Fix OutOfMemory Exception OOM exception. Open results crashes with System.OutOfMemory.
 previous_url: /user-guide/knowledge-base/oom.aspx
-position: 20
+position: 2
 ---
-# Dealing with `OutOfMemoryException` Errors
 
 ## Problem
 

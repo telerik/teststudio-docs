@@ -12,7 +12,7 @@ The dialogs to store a file locally or open a file in the WPF application also h
 
 With OpenFile dialog you need to pass in the full path to the file to open in the WPF application and how the dialog should be handled. The options for OpenFile dialog are: DialogButton.OPEN, DialogButton.CANCEL or DialogButton.CLOSE.
 
-```C#
+````C#
 // Add OpenFile dialog
 ArtOfTest.WebAii.Win32.Dialogs.OpenFileDialog.CreateOpenFileDialog wpfOpenDialog = ArtOfTest.WebAii.Win32.Dialogs.OpenFileDialog.CreateOpenFileDialog(ActiveApplication, DialogButton.OPEN, @"d:\name");
 
@@ -32,13 +32,13 @@ wpfOpenDialog.WaitUntilHandled(15000);
 Manager.DialogMonitor.RemoveDialog(wpfOpenDialog);
   
 // Dialog should be automatically handled
-```
+````
 
 ## SaveAs Dialog Handler
 
 With SaveAs dialog, you need to pass in the full path and name for the file to save and how the dialog should be handled. The options for SaveAs dialog are: DialogButton.SAVE, DialogButton.CANCEL or DialogButton.CLOSE.
 
-```C#
+````C#
 // Add SaveAs dialog
 ArtOfTest.WebAii.Win32.Dialogs.SaveAsDialog.CreateSaveAsDialog wpfSaveAsDialog = ArtOfTest.WebAii.Win32.Dialogs.SaveAsDialog.CreateSaveAsDialog(ActiveApplication, DialogButton.SAVE, @"d:\name");
 
@@ -59,7 +59,7 @@ Manager.DialogMonitor.RemoveDialog(wpfSaveAsDialog);
   
 // Dialog should be automatically handled
 
-```
+````
 
 > **Note** To compile the above code include the following using:
 >

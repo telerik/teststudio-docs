@@ -1,0 +1,2244 @@
+top-navigation-product: test-studio
+path-prefix: /teststudio/documentation
+product-id: 846
+product-name: Telerik Test Studio
+product-url: https://www.telerik.com/teststudio
+search-engine-id: 001595215763381649090:ymztq4og6vc
+cta-overview: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+cta-intro: "@ProductLink is a test automation platform for web, WPF, and responsive web applications, supporting UI, functional, load, and RESTful API testing. Sign up for a free 30-day trial!"
+default-title-prefix: Telerik Test Studio
+avatar-path: ./images/avatar-ninja.svg
+no-results-image-path: ./images/ninja-no-results.svg
+primary-color:
+    light: "#1D8800"
+    dark: "#68BF51"
+
+product-code: TESTSTUDIO
+product-trial-url: https://www.telerik.com/try/test-studio-ultimate
+contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs
+enable-tabbed-code-blocks: true
+#pdf-cover-png-path: ./images/pdf-cover.png
+img-max-width: 100%
+table-layout: fixed
+
+
+meta:
+## Test Studio Documentation Main Nodes:
+    prerequisites:
+        title: "Installation and Setup"
+        position: 3
+    getting-started:
+        title: "Getting Started"
+        position: 4
+    automated-tests:
+        title: "Automated Tests with Test Studio"
+        position: 5 
+    features:
+        title: "Features"
+        position: 6
+    advanced-topics:
+        title: "Advanced Topics"
+        position: 7
+    knowledge-base:
+        title: "Knowledge Base"
+        position: 8
+    troubleshooting-guide:
+        title: "Troubleshooting Guide"
+        position: 9
+    testing-framework:
+        title: "Testing Framework"
+        position: 10
+    security:
+        title: "Security"
+        position: 11
+    copyright:
+        title: "Product Documentation Copyright Notice"
+        position: 14
+    faq:
+        title: "FAQ"
+        position: 15
+    license-server:
+        title: "License Server"
+        position: 16
+        hidden: true
+    api:
+        title: "API Reference"
+        position: 30
+
+# Installation and Setup
+    prerequisites/installation:
+        title: "Install Test Studio"
+        position: 1
+    prerequisites/license-activation:
+        title: "Activate Test Studio License"
+        position: 2
+    prerequisites/configure-your-browser:
+        title: "Configure Browsers for Test Automation"
+        position: 3
+
+# Getting Started
+    getting-started/first-project:
+        title: "Launch Test Studio"
+        position: 1
+    getting-started/first-test:
+        title: "Record Tests in Test Studio"
+        position: 2
+    getting-started/first-execution:
+        title: "Execute Your First Test"
+        position: 3
+    getting-started/analyze-the-results:
+        title: "Review the Results and Debug Test Failures"
+        position: 4
+    getting-started/next-steps:
+        title: "Next Steps"
+        position: 5
+    
+
+# Automated Tests with Test Studio
+    automated-tests/customize-project:
+        title: "Customize Your Project"
+        position: 1        
+# ... Customize Your Project
+    automated-tests/customize-project/built-in-help-tools:
+        title: "Help Tools in Test Studio"
+        position: 10
+
+    automated-tests/recording:
+        title: "Record Tests in Test Studio"
+        position: 2
+    automated-tests/test-execution:
+        title: "Execute Tests in Test Studio"
+        position: 3
+    automated-tests/test-results:
+        title: "Explore Test Results"
+        position: 4
+    automated-tests/troubleshooting:
+        title: "Troubleshoot a Failing Test"
+        position: 5
+    automated-tests/elements:
+        title: "Elements in Test Studio"
+        position: 6
+    automated-tests/data-drive-test:
+        title: "Data Driven Automated Tests"
+        position: 7
+    automated-tests/test-lists:
+        title: "Test Lists in Test Studio"
+        position: 8
+    automated-tests/test-list-results:
+        title: "Results from Test List Runs"
+        position: 9
+    automated-tests/scheduling:
+        title: "Schedule Tests in Test Studio"
+        position: 10        
+# ... Scheduling Test Runs
+    automated-tests/scheduling/multiple-machines-scheduling-setup:
+        title: "Remote Scheduled Execution (Multiple Machines Setup)"
+        position: 4
+    automated-tests/scheduling/advanced-topics:
+        title: "Scheduling Setup Advanced Topics"
+        position: 20
+
+    automated-tests/scheduling-results:
+        title: "Results from Scheduled Test Executions"
+        position: 11
+# ... Scheduling Test Runs
+    automated-tests/scheduling-results/dashboard:
+        title: "Executive Dashboard"
+        position: 5
+
+    automated-tests/headless:
+        title: "Headless Test Executions"
+        position: 12
+    automated-tests/responsive:
+        title: "Web Responsive Tests in Test Studio"
+        position: 13
+    automated-tests/desktop-testing:
+        title: "Desktop Tests in Test Studio"
+        position: 14
+    automated-tests/wpf:
+        title: "WPF Tests in Test Studio"
+        position: 15
+    automated-tests/load:
+        title: "Load Tests in Test Studio"
+        position: 16
+# ... Load Testing
+    automated-tests/load/designing-load-tests:
+        title: "Design Your Load Test"
+        position: 5
+    automated-tests/load/running-load-test:
+        title: "Execute Load Test"
+        position: 6
+    automated-tests/load/load-testing-results:
+        title: "Load Test Results"
+        position: 7
+    automated-tests/load/advanced-topics:
+        title: "Advanced Topics for Load Test"
+        position: 8
+
+    automated-tests/performance:
+        title: "Performance Tests in Test Studio"
+        position: 17
+    automated-tests/execute-apitest:
+        title: "Implement API test as Step"
+        position: 18
+    automated-tests/vs-plugin:
+        title: "Test Studio Plugin for Visual Studio"
+        position: 18
+    automated-tests/coded-tests:
+        title: "Coded Tests in Test Studio"
+        position: 19
+    automated-tests/source-control:
+        title: "Source Control Options in Test Studio"
+        position: 20
+# ... Source Control        
+    automated-tests/source-control/git:
+        title: "Git"
+        position: 2
+    automated-tests/source-control/tfs:
+        title: "TFS"
+        position: 3
+
+    automated-tests/continuous-integration:
+        title: "Test Studio Tests in CI Builds"
+        position: 21
+
+# Features
+    features/recorder:
+        title: "Recorder"
+        position: 1
+# ... Recorder section
+    features/recorder/highlighting-menu:
+        title: "Highlighting Menu Options"
+        position: 2
+    features/recorder/advanced-recording-tools:
+        title: "Advanced Recording Tools"
+        position: 3
+# ... Highlighting Menu Options section
+    features/recorder/highlighting-menu/quick-steps:
+        title: "Quick Steps"
+        position: 1
+# ... Advanced Recording Tools section
+    features/recorder/advanced-recording-tools/element-steps:
+        title: "Element Steps Tab"
+        position: 2
+# ... Element Steps Tab section
+    features/recorder/advanced-recording-tools/element-steps/actions:
+        title: "Advanced Actions"
+        position: 2
+    features/recorder/advanced-recording-tools/element-steps/verifications:
+        title: "Advanced Verifications"
+        position: 3
+
+    features/elements-explorer:
+        title: "Elements"
+        position: 2
+    features/test-lists:
+        title: "Test Lists"
+        position: 3
+    features/data-driven-testing:
+        title: "Data Driven Testing"
+        position: 4
+    features/custom-steps:
+        title: "Step Builder Pane"
+        position: 5
+# ... Step Builder section
+    features/custom-steps/all-tests-common:
+        title: "All Tests Common Steps"
+        position: 1
+    features/custom-steps/web-test-common:
+        title: "Web Test Specific Steps"
+        position: 2
+    features/custom-steps/wpf-common:
+        title: "WPF Test Specific Steps"
+        position: 3
+    features/custom-steps/desktop-common:
+        title: "Desktop Test Specific Steps"
+        position: 4
+
+    features/dialogs-and-popups:
+        title: "Handle Dialogs & Popups Steps"
+        position: 6
+    features/logical-steps:
+        title: "Logical/Conditional Steps"
+        position: 7
+    features/random-gens-steps:
+        title: "Random Generators Steps"
+        position: 8
+    features/test-maintenance:
+        title: "Test Maintenance"
+        position: 9
+    features/project-settings:
+        title: "Project Settings"
+        position: 10
+    features/project-explorer:
+        title: "Project Explorer"
+        position: 11
+    features/integration:
+        title: "Integration"
+        position: 12
+# ... Integration section
+    features/integration/bug-tracking:
+        title: "Bug Tracking"
+        position: 1
+    features/integration/quality-center:
+        title: "Quality Center"
+        position: 2
+
+    features/test-runners:
+        title: "Test Runners"
+        position: 13
+    features/testing-types:
+        title: "Testing Types"
+        position: 14
+# ... Testing Types section
+    features/testing-types/manual-testing:
+        title: "Manual Testing"
+        position: 1
+    features/testing-types/exploratory-testing:
+        title: "Exploratory Testing"
+        position: 2 
+
+    features/azure-dev-ops-mapper:
+        title: "Azure DevOps Mapper"
+        position: 15
+    
+# Advanced Topics
+    advanced-topics/build-server:
+        title: "Build Server"
+        position: 1
+    advanced-topics/coded-samples:
+        title: "Coded Samples"
+        position: 2
+  
+# ... Coded Samples section
+    advanced-topics/coded-samples/general:
+        title: "General"
+        position: 1
+    advanced-topics/coded-samples/html:
+        title: "HTML"
+        position: 2
+    advanced-topics/coded-samples/silverlight:
+        title: "Silverlight"
+        position: 3
+    advanced-topics/coded-samples/wpf:
+        title: "WPF"
+        position: 4
+
+# ... Silverlight section
+    advanced-topics/coded-samples/silverlight/combobox-automation:
+        title: "ComboBox Automation"
+        position: 10
+    advanced-topics/coded-samples/silverlight/radgridview-automation:
+        title: "RadGridView Automation"
+        position: 11
+
+# Knowledge Base section
+    knowledge-base/best-practices-kb:
+        title: "Best Practices"
+        position: 3
+    knowledge-base/browsers-kb:
+        title: "Browsers"
+        position: 4
+    knowledge-base/data-driven-testing-kb:
+        title: "Data Driven Testing"
+        position: 5
+    knowledge-base/dialogs-and-popups-kb:
+        title: "Dialogs and Popups"
+        position: 6
+    knowledge-base/load-testing-kb:
+        title: "Load Testing"
+        position: 7
+    knowledge-base/product-notices-kb:
+        title: "Product Notices"
+        position: 8
+    knowledge-base/project-configuration-kb:
+        title: "Project Configuration"
+        position: 9
+    knowledge-base/scheduling-kb:
+        title: "Scheduling"
+        position: 10
+    knowledge-base/test-automation-kb:
+        title: "Test Automation"
+        position: 11
+    knowledge-base/test-execution-kb:
+        title: "Test Execution"
+        position: 12
+    knowledge-base/test-recording-kb:
+        title: "Test Recording"
+        position: 13
+    knowledge-base/verification-kb:
+        title: "Verification"
+        position: 14
+    knowledge-base/visual-studio-kb:
+        title: "Visual Studio"
+        position: 15
+
+# Troubleshooting Guide section
+    troubleshooting-guide/browser-inconsistencies-tg:
+        title: "Browser Inconsistencies"
+        position: 1
+    troubleshooting-guide/cannot-launch-test-studio-tg:
+        title: "Cannot Launch Test Studio"
+        position: 2
+    troubleshooting-guide/installation-problems-tg:
+        title: "Installation Problems"
+        position: 3
+    troubleshooting-guide/load-testing-problems-tg:
+        title: "Load Testing Problems"
+        position: 4
+    troubleshooting-guide/network-related-problems-tg:
+        title: "Network Related Problems"
+        position: 5
+    troubleshooting-guide/recording-problems-tg:
+        title: "Recording Problems"
+        position: 6
+    troubleshooting-guide/scheduling-issues-tg:
+        title: "Scheduling Issues"
+        position: 7
+    troubleshooting-guide/source-control-problems-tg:
+        title: "Source Control Problems"
+        position: 8
+    troubleshooting-guide/test-execution-problems-tg:
+        title: "Test Execution Problems"
+        position: 9
+    troubleshooting-guide/visual-studio-tg:
+        title: "Visual Studio"
+        position: 10
+
+# ... Test Execution Problems section
+    troubleshooting-guide/test-execution-problems-tg/chrome-tg:
+        title: "Chrome"
+        position: 1
+    troubleshooting-guide/test-execution-problems-tg/firefox-tg:
+        title: "Firefox"
+        position: 2
+    troubleshooting-guide/test-execution-problems-tg/safari-tg:
+        title: "Safari"
+        position: 3
+    troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg:
+        title: "Silverlight WPF"
+        position: 4
+
+# Testing Framework section
+    testing-framework/write-tests-in-code:
+        title: "Write Tests in Code"
+        position: 20
+
+# ... Write Tests in Code section
+    testing-framework/write-tests-in-code/intermediate-topics-wtc:
+        title: "Intermediate Topics"
+        position: 1
+    testing-framework/write-tests-in-code/advanced-topics-wtc:
+        title: "Advanced Topics"
+        position: 2
+    testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc:
+        title: "Silverlight/WPF Automation"
+        position: 3
+
+# ... Intermediate Topics section
+    testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc:
+        title: "Element Identification"
+        position: 20
+    testing-framework/write-tests-in-code/intermediate-topics-wtc/html-control-suite-wtc:
+        title: "HTML Control Suite"
+        position: 21
+    testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc:
+        title: "Settings & Configuration"
+        position: 22
+
+# ... Advanced Topics section
+    testing-framework/write-tests-in-code/advanced-topics-wtc/javascript-wtc:
+        title: "Javascript"
+        position: 20
+    testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc:
+        title: "Test Regions"
+        position: 21
+    testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc:
+        title: "WPF/HTML Dialogs and Popups"
+        position: 22
+
+        
+    api/*:
+        res_type: api
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/archived-docs/(.*)$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/automated-tests/troubleshooting/troubleshooting-tools-tg/(.*)$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/knowledge-base/silverlight-kb/(.*)$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/test-studio-mobile/(.*)$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/online-api-reference/(.*)$"
+    to: "/api"
+    type: Permanent
+-
+    from: "^/online-api-reference-1-1/(.*)$"
+    to: "/api"
+    type: Permanent
+-
+    from: "^/online-api-reference-2-0/(.*)$"
+    to: "/api"
+    type: Permanent
+-
+    from: "^/teststudioapi/(.*)$"
+    to: "/api"
+    type: Permanent
+-
+    from: "^/user-guide/overview\\.aspx$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/user-guide/overview$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/user-guide\\.aspx$"
+    to: "/welcome"
+    type: Permanent
+-
+    from: "^/test-studio-for-apis(.*)$"
+    to: "https://www.telerik.com/teststudio-apis/documentation"
+    type: Permanent
+-
+    from: "^/general-information/installation/vs2017-compatibility$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/general-information/installation/configure-windows-server$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/general-information/installation/manual-download$"
+    to: "/prerequisites/installation/manual-download"
+-
+    from: "^/general-information/installation/install-procedure$"
+    to: "/prerequisites/installation/install-procedure"
+-
+    from: "^/general-information/installation/add-services$"
+    to: "/prerequisites/installation/add-services"
+-
+    from: "^/general-information/installation/activating-your-license$"
+    to: "/prerequisites/license-activation/activating-your-license"
+-
+    from: "^/general-information/installation/manual-activation$"
+    to: "/prerequisites/license-activation/manual-activation"
+-
+    from: "^/general-information/installation/check-for-updates$"
+    to: "/prerequisites/installation/check-for-updates"
+-
+    from: "^/general-information/installation/re-activating-your-license$"
+    to: "/prerequisites/license-activation/re-activating-your-license"
+-
+    from: "^/getting-started/installation-and-activation$"
+    to: "/prerequisites/installation/install-procedure"
+-
+    from: "^/user-guide/data-driven-testing/attach-columns-to-input-values\\.aspx$"
+    to: "/features/data-driven-testing/attach-columns-input-values"
+-
+    from: "^/user-guide/data-driven-testing/attach-columns-to-input-values$"
+    to: "/features/data-driven-testing/attach-columns-input-values"
+-
+    from: "^/user-guide/data-driven-testing/attach-columns-to-verifications\\.aspx$"
+    to: "/features/data-driven-testing/attach-columns-input-values"
+-
+    from: "^/user-guide/data-driven-testing/attach-columns-to-verifications$"
+    to: "/features/data-driven-testing/attach-columns-input-values"
+-
+    from: "^/features/data-driven-testing/attach-columns-verifications$"
+    to: "/features/data-driven-testing/attach-columns-input-values"
+-
+    from: "^/features/data-driven-testing/multi-level-tests$"
+    to: "/automated-tests/data-drive-test/multi-level-tests"
+-
+    from: "^/features/data-driven-testing/test-list-results$"
+    to: "/automated-tests/data-drive-test/ddt-results#test-list-results"
+-
+    from: "^/features/data-driven-testing/quick-execute-resultS$"
+    to: "/automated-tests/data-drive-test/ddt-results#quick-execution-results"
+-
+    from: "^/user-guide/data-driven-testing/manage-data-source\\.aspx$"
+    to: "/features/data-driven-testing/manage-external-data-source"
+-
+    from: "^/user-guide/data-driven-testing/manage-data-source$"
+    to: "/features/data-driven-testing/manage-external-data-source"
+-
+    from: "^/user-guide/data-driven-testing/add-a-data-source\\.aspx$"
+    to: "/features/data-driven-testing/add-data-source"
+-
+    from: "^/user-guide/data-driven-testing/add-a-data-source$"
+    to: "/features/data-driven-testing/add-data-source"
+-
+    from: "^/user-guide/data-driven-testing/local-data-driven-test$"
+    to: "/automated-tests/data-drive-test/local-data-driven-test"
+- 
+    from: "^/user-guide/data-driven-testing/local-data-driven-test\\.aspx$"
+    to: "/automated-tests/data-drive-test/local-data-driven-test"
+- 
+    from: "^/features/data-driven-testing/local-data-driven-test$"
+    to: "/automated-tests/data-drive-test/local-data-driven-test"
+- 
+    from: "^/features/data-driven-testing/local-data-driven-tes$"
+    to: "/automated-tests/data-drive-test/local-data-driven-test"
+-
+    from: "^/features/custom-layout/custom-layout$"
+    to: "/automated-tests/customize-project/custom-layout"
+-
+    from: "^/general-information/start-a-project/welcome-screen$"
+    to: "/automated-tests/customize-project/welcome-screen"
+-
+    from: "^/user-guide/code-samples/html/dynamic-grid\\.aspx$"
+    to: "/advanced-topics/coded-samples/html/dynamic-grid"
+-
+    from: "^/testing-framework/api-reference/api-reference$"
+    to: "/testing-framework/api-reference"
+-
+    from: "^/testing-framework/api-reference$"
+    to: "/api"
+-
+    from: "^/user-guide/troubleshooting_guide/visual-studio/missing-assembly-references\\.aspx$"
+    to: "/troubleshooting-guide/visual-studio-tg/missing-assembly-references"
+-
+    from: "^/user-guide/troubleshooting_guide/visual-studio/missing-assembly-references$"
+    to: "/troubleshooting-guide/visual-studio-tg/missing-assembly-references"
+-
+    from: "^/user-guide/overview/test-studio-vs-framework\\.aspx$"
+    to: "/test-studio-editions"
+-
+    from: "^/user-guide/overview/test-studio-vs-framework$"
+    to: "/test-studio-editions"
+-
+    from: "^/general-information/test-studio-framework$"
+    to: "/test-studio-editions"
+-
+    from: "^/introduction/test-studio-framework$"
+    to: "/test-studio-editions"
+-
+    from: "^/introduction/test-studio-run-time$"
+    to: "/test-studio-editions"
+-
+    from: "^/user-guide/overview/for-developers\\.aspx$"
+    to: "/welcome"
+-
+    from: "^/user-guide/overview/for-developers$"
+    to: "/welcome"
+-
+    from: "^/general-information/for-developers$"
+    to: "/welcome"
+-
+    from: "^/introduction/for-developers$"
+    to: "/welcome"
+-
+    from: "^/user-guide/overview/webui_for_qa_testers\\.aspx$"
+    to: "/welcome"
+-
+    from: "^/user-guide/overview/webui_for_qa_testers$"
+    to: "/welcome"
+-
+    from: "^/general-information/for-qa-tester$"
+    to: "/welcome"
+-
+    from: "^/introduction/for-qa-tester$"
+    to: "/welcome"
+-
+    from: "^/user-guide/overview/for-team-leads\\.aspx$"
+    to: "/welcome"
+-
+    from: "^/user-guide/overview/for-team-leads$"
+    to: "/welcome"
+-
+    from: "^/general-information/for-team-leads$"
+    to: "/welcome"
+-
+    from: "^/introduction/for-team-leads$"
+    to: "/welcome"
+-
+    from: "^/features/testing-types/wpf-testing/wpf-test$"
+    to: "/automated-tests/wpf/wpf-test"
+-
+    from: "^/features/testing-types$"
+    to: "/features/testing-types/manual-testing/overview"
+-
+    from: "^/user-guide/verifications/image-verification\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/image-verification"
+-
+    from: "^/user-guide/verifications/image-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/image-verification"
+-
+    from: "^/features/verifications/image-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/image-verification"
+-
+    from: "^/features/recorder/verifications/image-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/image-verification"
+-
+    from: "^/user-guide/knowledge-base/test-execution/using-baseurl\\.aspx$"
+    to: "/knowledge-base/test-execution-kb/base-url"
+-
+    from: "^/user-guide/knowledge-base/test-execution/using-baseurl$"
+    to: "/knowledge-base/test-execution-kb/base-url"
+-
+    from: "^/user-guide/getting-started/using-telerik-testing-framework\\.aspx$"
+    to: "/testing-framework/getting-started"
+-
+    from: "^/user-guide/getting-started/using-telerik-testing-framework$"
+    to: "/testing-framework/getting-started"
+-
+    from: "^/user-guide/test-runners/artoftestrunner\\.aspx$"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "^/user-guide/test-runners/artoftestrunner$"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "^/user-guide/command-line-test-execution/artoftestrunner\\.aspx$"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "^/user-guide/command-line-test-execution/artoftestrunner$"
+    to: "/features/test-runners/artoftest-runner"
+-
+    from: "^/user-guide/code-samples/general/extracted-variables-in-code$"
+    to: "/advanced-topics/coded-samples/general/extracted-variables-in-code"
+-
+    from: "^/user-guide/code-samples/general/extracted-variables-in-code\\.aspx$"
+    to: "/advanced-topics/coded-samples/general/extracted-variables-in-code"
+-
+    from: "^/user-guide/modifying-tests/convert-all-steps-to-code$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/user-guide/modifying-tests/convert-all-steps-to-codes\\.aspx$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/features/test-maintenance/convert-steps-code$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/user-guide/coded_steps/code-behind-file$"
+    to: "/automated-tests/coded-tests/coded-step#which-is-the-code-behind-file"
+-
+    from: "^/user-guide/coded_steps/code-behind-file\\.aspx$"
+    to: "/automated-tests/coded-tests/coded-step#which-is-the-code-behind-file"
+-
+    from: "^/advanced-topics/coded-steps/code-behind-file$"
+    to: "/automated-tests/coded-tests/coded-step#which-is-the-code-behind-file"
+-
+    from: "^/user-guide/coded_steps/add-an-assembly-reference$"
+    to: "/automated-tests/coded-tests/add-assembly-reference"
+-
+    from: "^/user-guide/coded_steps/add-an-assembly-reference\\.aspx$"
+    to: "/automated-tests/coded-tests/add-assembly-reference"
+-
+    from: "^/advanced-topics/coded-steps/add-assembly-reference$"
+    to: "/automated-tests/coded-tests/add-assembly-reference"
+-
+    from: "^/user-guide/coded_steps$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/user-guide/coded_steps\\.aspx$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/advanced-topics/coded-steps/coded-step$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/user-guide/modifying-tests/change-test-step-properties$"
+    to: "/features/test-maintenance/change-test-step-properties"
+-
+    from: "^/user-guide/modifying-tests/change-test-step-properties\\.aspx$"
+    to: "/features/test-maintenance/change-test-step-properties"
+-
+    from: "^/features/test-maintenance/change-test-step-properties$"
+    to: "/features/test-maintenance/test-step-properties"
+-
+    from: "^/user-guide/modifying-tests/test-test-step-context-menu$"
+    to: "/features/test-maintenance/test-step-context-menu"
+-
+    from: "^/user-guide/modifying-tests/test-test-step-context-menu\\.aspx$"
+    to: "/features/test-maintenance/test-step-context-menu"
+-
+    from: "^/user-guide/modifying-tests/test-properties-vs-plugin$"
+    to: "/features/test-maintenance/test-properties-vs"
+-
+    from: "^/user-guide/modifying-tests/test-properties-vs-plugin\\.aspx$"
+    to: "/features/test-maintenance/test-properties-vs"
+-
+    from: "^/features/test-maintenance/test-properties-vs-plugin$"
+    to: "/features/test-maintenance/test-properties-vs"
+-
+    from: "^/user-guide/modifying-tests/test-properties$"
+    to: "/features/test-maintenance/test-properties-standalone"
+-
+    from: "^/user-guide/modifying-tests/test-properties\\.aspx$"
+    to: "/features/test-maintenance/test-properties-standalone"
+-
+    from: "^/features/test-maintenance/test-properties$"
+    to: "/features/test-maintenance/test-properties-standalone"
+-
+    from: "^/user-guide/modifying-tests/storyboard$"
+    to: "/features/test-maintenance/storyboard"
+-
+    from: "^/user-guide/modifying-tests/storyboard\\.aspx$"
+    to: "/features/test-maintenance/storyboard"
+-
+    from: "^/user-guide/modifying-tests/steps-pane-overview$"
+    to: "/features/test-maintenance/steps-pane"
+-
+    from: "^/user-guide/modifying-tests/steps-pane-overview\\.aspx$"
+    to: "/features/test-maintenance/steps-pane"
+-
+    from: "^/features/test-maintenance/steps-pane-overview$"
+    to: "/features/test-maintenance/steps-pane"
+-
+    from: "^/user-guide/modifying-tests/search_test_steps$"
+    to: "/features/test-maintenance/search-test-steps"
+-
+    from: "^/user-guide/modifying-tests/search_test_steps\\.aspx$"
+    to: "/features/test-maintenance/search-test-steps"
+-
+    from: "^/user-guide/modifying-tests/reorder-test-steps$"
+    to: "/features/test-maintenance/reorder-test-steps"
+-
+    from: "^/user-guide/modifying-tests/reorder-test-steps\\.aspx$"
+    to: "/features/test-maintenance/reorder-test-steps"
+-
+    from: "^/user-guide/modifying-tests/change-step-target-element$"
+    to: "/features/test-maintenance/change-step-target-element"
+-
+    from: "^/user-guide/modifying-tests/change-step-target-element\\.aspx$"
+    to: "/features/test-maintenance/change-step-target-element"
+-
+    from: "^/getting-started/create-test-standalone/wpf-test$"
+    to: "/automated-tests/wpf/wpf-test"
+-
+    from: "^/index$"
+    to: "/welcome"
+-
+    from: "^/features/scheduling-test-runs/change-service-account$"
+    to: "/features/scheduling-test-runs/advanced-topics/change-service-account"
+-
+    from: "^/features/scheduling-test-runs/tts-command-line-client$"
+    to: "/features/scheduling-test-runs/advanced-topics/tts-command-line-client"
+-
+    from: "^/features/scheduling-test-runs/using-service-api$"
+    to: "/features/scheduling-test-runs/advanced-topics/using-service-api"
+-
+    from: "^/user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection$"
+    to: "/knowledge-base/project-configuration-kb/register-certificate"
+-
+    from: "^/user-guide/knowledge-base/project-configuration/register-certificate-for-https-connection\\.aspx$"
+    to: "/knowledge-base/project-configuration-kb/register-certificate"
+-
+    from: "^/getting-started/test-results/step-failure-details$"
+    to: "/general-information/test-results/step-failure-details"
+-
+    from: "^/user-guide/test-results/step-failure-details$"
+    to: "/general-information/test-results/step-failure-details"
+-
+    from: "^/user-guide/test-results/step-failure-details\\.aspx$"
+    to: "/general-information/test-results/step-failure-details"
+-
+    from: "^/user-guide/project-settings/translators$"
+    to: "/features/project-settings/translators"
+-
+    from: "^/user-guide/project-settings/translators\\.aspx$"
+    to: "/features/project-settings/translators"
+-
+    from: "^/user-guide/project-settings/script-options$"
+    to: "/features/project-settings/script-options"
+-
+    from: "^/user-guide/project-settings/script-options\\.aspx$"
+    to: "/features/project-settings/script-options"
+-
+    from: "^/features/test-maintenance/project-files-context-menu$"
+    to: "/features/project-explorer/overview"
+-
+    from: "^/features/project-settings/identification-logic$"
+    to: "/features/project-settings/find-logic"
+-
+    from: "^/user-guide/project-settings/browsers$"
+    to: "/features/project-settings/browsers"
+-
+    from: "^/user-guide/project-settings/browsers\\.aspx$"
+    to: "/features/project-settings/browsers"
+-
+    from: "^/user-guide/project-settings/recording-options$"
+    to: "/features/project-settings/recording-options"
+-
+    from: "^/user-guide/project-settings/recording-options\\.aspx$"
+    to: "/features/project-settings/recording-options"
+-
+    from: "^/user-guide/project-settings$"
+    to: "/features/project-settings/overview"
+-
+    from: "^/user-guide/project-settings\\.aspx$"
+    to: "/features/project-settings/overview"
+-
+    from: "^/features/project-settings/others$"
+    to: "/features/project-settings/general"
+-
+    from: "^/user-guide/overview/test-studio-vs-run-time\\.aspx$"
+    to: "/test-studio-editions"
+-
+    from: "^/user-guide/overview/test-studio-vs-run-time$"
+    to: "/test-studio-editions"
+-
+    from: "^/general-information/test-studio-run-time$"
+    to: "/test-studio-editions"
+-
+    from: "^/features/scheduling-test-runs/migrate-database$"
+    to: "/features/scheduling-test-runs/advanced-topics/migrate-database"
+-
+    from: "^/user-guide/scheduling-test-runs/telerik-teststudio-commandline-client\\.aspx$"
+    to: "/features/scheduling-test-runs/advanced-topics/tts-command-line-client"
+-
+    from: "^/user-guide/scheduling-test-runs/telerik-teststudio-commandline-client$"
+    to: "/features/scheduling-test-runs/advanced-topics/tts-command-line-client"
+-
+    from: "^/user-guide/installation/change_storage_service_account\\.aspx$"
+    to: "/features/scheduling-test-runs/advanced-topics/change-service-account"
+-
+    from: "^/user-guide/scheduling-test-runs/change-service-account\\.aspx$"
+    to: "/features/scheduling-test-runs/advanced-topics/change-service-account"
+-
+    from: "^/user-guide/scheduling-test-runs/change-service-account$"
+    to: "/features/scheduling-test-runs/advanced-topics/change-service-account"
+-
+    from: "^/user-guide/scheduling-test-runs/service-apis\\.aspx$"
+    to: "/features/scheduling-test-runs/advanced-topics/using-service-api"
+-
+    from: "^/user-guide/scheduling-test-runs/service-apis$"
+    to: "/features/scheduling-test-runs/advanced-topics/using-service-api"
+-
+    from: "^/user-guide/scheduling-test-runs/cancel-scheduled-job\\.aspx$"
+    to: "/features/scheduling-test-runs/stop-cancel-scheduled-job"
+-
+    from: "^/user-guide/scheduling-test-runs/cancel-scheduled-job$"
+    to: "/features/scheduling-test-runs/stop-cancel-scheduled-job"
+-
+    from: "^/user-guide/scheduling-test-runs/scheduling-results\\.aspx$"
+    to: "/features/scheduling-test-runs/scheduling-results"
+-
+    from: "^/user-guide/scheduling-test-runs/scheduling-results$"
+    to: "/features/scheduling-test-runs/scheduling-results"
+-
+    from: "^/user-guide/scheduling-test-runs/run-list-remotely\\.aspx$"
+    to: "/features/scheduling-test-runs/run-list-remotely"
+-
+    from: "^/user-guide/scheduling-test-runs/run-list-remotely$"
+    to: "/features/scheduling-test-runs/run-list-remotely"
+-
+    from: "^/user-guide/scheduling-test-runs/machine-status\\.aspx$"
+    to: "/features/scheduling-test-runs/connect-to-scheduling-server"
+-
+    from: "^/user-guide/scheduling-test-runs/machine-status$"
+    to: "/features/scheduling-test-runs/connect-to-scheduling-server"
+-
+    from: "^/user-guide/scheduling-test-runs/connect-a-project-to-a-scheduling-server\\.aspx$"
+    to: "/features/scheduling-test-runs/view-execution-status"
+-
+    from: "^/user-guide/scheduling-test-runs/connect-a-project-to-a-scheduling-server$"
+    to: "/features/scheduling-test-runs/view-execution-status"
+-
+    from: "^/features/scheduling-test-runs/create-execution-server$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server"
+-
+    from: "^/user-guide/scheduling-test-runs/create-an-execution-server\\.aspx$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server"
+-
+    from: "^/user-guide/scheduling-test-runs/create-an-execution-server$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server"
+-
+    from: "^/features/scheduling-test-runs/create-storage-server$"
+    to: "/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-storage-server"
+-
+    from: "^/user-guide/scheduling-test-runs/create-storage-server\\.aspx$"
+    to: "/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-storage-server"
+-
+    from: "^/user-guide/scheduling-test-runs/create-storage-server$"
+    to: "/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-storage-server"
+-
+    from: "^/features/scheduling-test-runs/create-scheduling-server$"
+    to: "/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/user-guide/scheduling-test-runs/create-a-scheduling-server\\.aspx$"
+    to: "/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/user-guide/scheduling-test-runs/create-a-scheduling-server$"
+    to: "/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/user-guide/scheduling-test-runs\\.aspx$"
+    to: "/features/scheduling-test-runs/overview"
+-
+    from: "^/user-guide/scheduling-test-runs$"
+    to: "/features/scheduling-test-runs/overview"
+-
+    from: "^/features/scheduling-test-runs/local-run-all-in-one$"
+    to: "/features/scheduling-test-runs/local-scheduled-run"
+-
+    from: "^/features/scheduling-test-runs/remote-run-all-in-one$"
+    to: "/features/scheduling-test-runs/remote-scheduled-run"
+-
+    from: "^/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-edgechromium$"
+    to: "/general-information/configure-your-browser/edge-chromium"
+-
+    from: "^/features/testing-types/load-testing/adding-user-profiles$"
+    to: "/automated-tests/load/designing-load-tests/adding-user-profiles"
+-
+    from: "^/features/testing-types/load-testing/capturing-traffic$"
+    to: "/automated-tests/load/designing-load-tests/adding-user-profiles#capturing-traffic"
+-
+    from: "^/features/testing-types/load-testing/importing-traffic$"
+    to: "/automated-tests/load/designing-load-tests/adding-user-profiles#importing-traffic"
+-
+    from: "^/features/testing-types/load-testing/modifying-tests$"
+    to: "/automated-tests/load/designing-load-tests/modifying-tests"
+-
+    from: "^/features/testing-types/load-testing/designing-tests$"
+    to: "/features/testing-types/load-testing/designing-load-tests/getting-started"
+-
+    from: "^/features/testing-types/load-testing/think-times$"
+    to: "/automated-tests/load/designing-load-tests/modifying-tests#addremovechange-the-think-times"
+-
+    from: "^/features/testing-types/load-testing/test-settings$"
+    to: "/features/testing-types/load-testing/designing-load-tests/test-settings"
+-
+    from: "^/general-information/test-execution/vs-2012-test-explorer$"
+    to: "/general-information/test-execution/vs-test-explorer"
+-
+    from: "^/features/testing-types/load-testing/filter-user-profile$"
+    to: "/automated-tests/load/designing-load-tests/modifying-tests#filter-user-profile"
+-
+    from: "^/features/testing-types/load-testing/add-custom-cookies$"
+    to: "/automated-tests/load/designing-load-tests/modifying-tests#insert-a-custom-cookie-into-a-user-profile"
+-
+    from: "^/features/testing-types/load-testing/managing-vu$"
+    to: "/features/testing-types/load-testing/designing-load-tests/managing-vu"
+-
+    from: "^/user-guide/load-testing/load-managing-users\\.aspx$"
+    to: "/features/testing-types/load-testing/designing-load-tests/managing-vu"
+-
+    from: "^/features/testing-types/load-testing/dynamic-targets$"
+    to: "/automated-tests/load/designing-load-tests/dynamic-targets"
+-
+    from: "^/features/testing-types/load-testing/configure-remote-device$"
+    to: "/features/testing-types/load-testing/advanced-topics/configure-remote-device"
+-
+    from: "^/user-guide/load-testing/designing-load-tests/adding-user-profiles/capture-remote-traffic\\.aspx$"
+    to: "/features/testing-types/load-testing/advanced-topics/configure-remote-device"
+-
+    from: "^/features/testing-types/load-testing/monitor-perf-metrics$"
+    to: "/features/testing-types/load-testing/advanced-topics/monitor-perf-metrics"
+-
+    from: "^/features/testing-types/load-testing/data-driving$"
+    to: "/features/testing-types/load-testing/advanced-topics/data-driving"
+-
+    from: "^/features/testing-types/load-testing/manage-windows-auth$"
+    to: "/automated-tests/load/configuring-load-tests-quick-guide"
+-
+    from: "^/features/testing-types/load-testing/advanced-topics/manage-windows-auth$"
+    to: "/automated-tests/load/configuring-load-tests-quick-guide"
+-
+    from: "^/automated-tests/load/advanced-topics/manage-windows-auth$"
+    to: "/automated-tests/load/configuring-load-tests-quick-guide"
+-
+    from: "^/user-guide/load-testing/load-running-tests\\.aspx$"
+    to: "/features/testing-types/load-testing/running-load-test/running-tests"
+-
+    from: "^/features/testing-types/load-testing/running-tests$"
+    to: "/features/testing-types/load-testing/running-load-test/running-tests"
+-
+    from: "^/features/testing-types/load-testing/analyzing-results$"
+    to: "/features/testing-types/load-testing/load-testing-results/analyzing-results"
+-
+    from: "^/user-guide/load-testing/load-analyzing-results\\.aspx$"
+    to: "/features/testing-types/load-testing/load-testing-results/analyzing-results"
+-
+    from: "^/features/testing-types/load-testing/troubleshooting-results-errors$"
+    to: "/features/testing-types/load-testing/load-testing-results/troubleshooting-results-errors"
+-
+    from: "^/features/testing-types/load-testing/export-results$"
+    to: "/features/testing-types/load-testing/load-testing-results/export-results"
+-
+    from: "^/features/testing-types/load-testing/best-practices$"
+    to: "/features/testing-types/load-testing/running-load-test/best-practices"
+-
+    from: "^/features/testing-types/load-testing/remote-load-test-execution$"
+    to: "/features/testing-types/load-testing/running-load-test/remote-load-test-execution"
+-
+    from: "^/user-guide/configure-your-browser/chrome\\.aspx$"
+    to: "/general-information/configure-your-browser/chrome"
+-
+    from: "^/user-guide/configure-your-browser/chrome$"
+    to: "/general-information/configure-your-browser/chrome"
+-
+    from: "^/getting-started/configure-your-browser/chrome$"
+    to: "/general-information/configure-your-browser/chrome"
+-
+    from: "^/general-information/configure-your-browser/chrome$"
+    to: "/prerequisites/configure-your-browser/chrome"
+-
+    from: "^/getting-started/configure-your-browser/edgechromium$"
+    to: "/general-information/configure-your-browser/edge-chromium"
+-
+    from: "^/general-information/configure-your-browser/edge-chromium$"
+    to: "/prerequisites/configure-your-browser/edge-chromium"
+-
+    from: "^/getting-started/configure-your-browser/edge$"
+    to: "/general-information/configure-your-browser/edge"
+-
+    from: "^/general-information/configure-your-browser/edge$"
+    to: "/prerequisites/configure-your-browser/edge"
+-
+    from: "^/user-guide/configure-your-browser/firefox\\.aspx$"
+    to: "/general-information/configure-your-browser/firefox"
+-
+    from: "^/user-guide/configure-your-browser/firefox$"
+    to: "/general-information/configure-your-browser/firefox"
+-
+    from: "^/getting-started/configure-your-browser/firefox$"
+    to: "/general-information/configure-your-browser/firefox"
+-
+    from: "^/general-information/configure-your-browser/firefox$"
+    to: "/prerequisites/configure-your-browser/firefox"
+-
+    from: "^/user-guide/configure-your-browser/internet-explorer\\.aspx$"
+    to: "/system-requirements"
+-
+    from: "^/user-guide/configure-your-browser/internet-explorer$"
+    to: "/system-requirements"
+-
+    from: "^/getting-started/configure-your-browser/internet-explorer$"
+    to: "/system-requirements"
+-
+    from: "^/general-information/configure-your-browser/internet-explorer$"
+    to: "/system-requirements"
+-
+    from: "^/prerequisites/configure-your-browser/internet-explorer$"
+    to: "/prerequisites/configure-your-browser/edge-chromium"
+-
+    from: "^/user-guide/configure-your-browser/safari\\.aspx$"
+    to: "/general-information/configure-your-browser/safari"
+-
+    from: "^/getting-started/configure-your-browser/safari$"
+    to: "/general-information/configure-your-browser/safari"
+-
+    from: "^/general-information/configure-your-browser/safari$"
+    to: "/prerequisites/configure-your-browser/safari"
+-
+    from: "^/getting-started/create-test-standalone/load-test$"
+    to: "/general-information/create-test-standalone/add-test"
+-
+    from: "^/getting-started/create-test-standalone/manual-test$"
+    to: "/general-information/create-test-standalone/add-test"
+-
+    from: "^/getting-started/create-test-standalone/web-test$"
+    to: "/general-information/create-test-standalone/add-test"
+-
+    from: "^/getting-started/create-test-standalone/add-test$"
+    to: "/general-information/create-test-standalone/add-test"
+-
+    from: "^/getting-started/create-test-standalone/silverlight-out-of-browser$"
+    to: "/general-information/create-test-standalone/silverlight-out-of-browser"
+-
+    from: "^/getting-started/create-test-vsplugin/silverlight-out-of-browser$"
+    to: "/general-information/create-test-vsplugin/silverlight-out-of-browser"
+-
+    from: "^/user-guide/create-a-test-vs-plugin/web-test\\.aspx$"
+    to: "/general-information/create-test-vsplugin/web-test"
+-
+    from: "^/user-guide/create-a-test-vs-plugin/web-test$"
+    to: "/general-information/create-test-vsplugin/web-test"
+-
+    from: "^/getting-started/create-test-vsplugin/web-test$"
+    to: "/general-information/create-test-vsplugin/web-test"
+-
+    from: "^/user-guide/create-a-test-vs-plugin/wpf-test\\.aspx$"
+    to: "/general-information/create-test-vsplugin/wpf-test"
+-
+    from: "^/user-guide/create-a-test-vs-plugin/wpf-test$"
+    to: "/general-information/create-test-vsplugin/wpf-test"
+-
+    from: "^/getting-started/create-test-vsplugin/wpf-test$"
+    to: "/general-information/create-test-vsplugin/wpf-test"
+-
+    from: "^/user-guide/installation/activating-your-license\\.aspx$"
+    to: "/prerequisites/license-activation/activating-your-license"
+-
+    from: "^/user-guide/installation/activating-your-license$"
+    to: "/prerequisites/license-activation/activating-your-license"
+-
+    from: "^/getting-started/installation/activating-your-license$"
+    to: "/prerequisites/license-activation/activating-your-license"
+-
+    from: "^/getting-started/installation/add-services$"
+    to: "/prerequisites/installation/add-services"
+-
+    from: "^/user-guide/installation/check_for_updates\\.aspx$"
+    to: "/prerequisites/installation/check-for-updates"
+-
+    from: "^/user-guide/installation/check_for_updates$"
+    to: "/prerequisites/installation/check-for-updates"
+-
+    from: "^/getting-started/installation/check-for-updates$"
+    to: "/prerequisites/installation/check-for-updates"
+-
+    from: "^/user-guide/installation/configure-windows-server\\.aspx$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/user-guide/installation/configure-windows-server$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/getting-started/installation/configure-windows-server$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/user-guide/installation/install-procedure\\.aspx$"
+    to: "/prerequisites/installation/install-procedure"
+-
+    from: "^/user-guide/installation/install-procedure$"
+    to: "/prerequisites/installation/install-procedure"
+-
+    from: "^/getting-started/installation/install-procedure$"
+    to: "/prerequisites/installation/install-procedure"
+-
+    from: "^/user-guide/installation/manual-activation\\.aspx$"
+    to: "/prerequisites/license-activation/manual-activation"
+-
+    from: "^/user-guide/installation/manual-activation$"
+    to: "/prerequisites/license-activation/manual-activation"
+-
+    from: "^/getting-started/installation/manual-activation$"
+    to: "/prerequisites/license-activation/manual-activation"
+-
+    from: "^/user-guide/installation/manual_download\\.aspx$"
+    to: "/prerequisites/installation/manual-download"
+-
+    from: "^/user-guide/installation/manual_download$"
+    to: "/prerequisites/installation/manual-download"
+-
+    from: "^/getting-started/installation/manual-download$"
+    to: "/prerequisites/installation/manual-download"
+-
+    from: "^/getting-started/installation/personal-data$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/user-guide/installation/re-activate-your-license\\.aspx$"
+    to: "/prerequisites/license-activation/re-activating-your-license"
+-
+    from: "^/user-guide/installation/re-activate-your-license$"
+    to: "/prerequisites/license-activation/re-activating-your-license"
+-
+    from: "^/getting-started/installation/re-activating-your-license$"
+    to: "/prerequisites/license-activation/re-activating-your-license"
+-
+    from: "^/getting-started/installation/vs2017-compatability$"
+    to: "/prerequisites/installation/installation-consideration"
+-
+    from: "^/getting-started/start-a-project/in-product-tips-tricks$"
+    to: "/general-information/start-a-project/in-product-tips-tricks"
+-
+    from: "^/getting-started/start-a-project/welcome-screen$"
+    to: "/automated-tests/customize-project/welcome-screen"
+-
+    from: "^/user-guide/test-execution/quick-execution\\.aspx$"
+    to: "/general-information/test-execution/quick-execution"
+-
+    from: "^/user-guide/test-execution/quick-execution$"
+    to: "/general-information/test-execution/quick-execution"
+-
+    from: "^/getting-started/test-execution/quick-execution$"
+    to: "/general-information/test-execution/quick-execution"
+-
+    from: "^/getting-started/test-execution/test-list-execution$"
+    to: "/general-information/test-execution/test-list-execution"
+-
+    from: "^/user-guide/test-execution/test-list-settings\\.aspx$"
+    to: "/general-information/test-execution/test-list-settings"
+-
+    from: "^/user-guide/test-execution/test-list-settings$"
+    to: "/general-information/test-execution/test-list-settings"
+-
+    from: "^/getting-started/test-execution/test-list-settings$"
+    to: "/general-information/test-execution/test-list-settings"
+-
+    from: "^/user-guide/test-execution/standalone-test-lists\\.aspx$"
+    to: "/general-information/test-execution/test-lists-standalone"
+-
+    from: "^/user-guide/test-execution/standalone-test-lists$"
+    to: "/general-information/test-execution/test-lists-standalone"
+-
+    from: "^/getting-started/test-execution/test-lists-standalone$"
+    to: "/general-information/test-execution/test-lists-standalone"
+-
+    from: "^/user-guide/test-execution/standalone-test-list-type\\.aspx$"
+    to: "/general-information/test-execution/test-lists-type-standalone"
+-
+    from: "^/user-guide/test-execution/standalone-test-list-type$"
+    to: "/general-information/test-execution/test-lists-type-standalone"
+-
+    from: "^/getting-started/test-execution/test-lists-type-standalone$"
+    to: "/general-information/test-execution/test-lists-type-standalone"
+-
+    from: "^/user-guide/test-execution/visual-debugger\\.aspx$"
+    to: "/general-information/test-execution/visual-debugger"
+-
+    from: "^/user-guide/test-execution/visual-debugger$"
+    to: "/general-information/test-execution/visual-debugger"
+-
+    from: "^/getting-started/test-execution/visual-debugger$"
+    to: "/general-information/test-execution/visual-debugger"
+-
+    from: "^/getting-started/test-execution/visual-studio-2012-and-later-test-list$"
+    to: "/general-information/test-execution/visual-studio-2012-and-later-test-list"
+-
+    from: "^/user-guide/test-execution/visual-studio-2012-test-explorer\\.aspx$"
+    to: "/general-information/test-execution/vs-test-explorer"
+-
+    from: "^/user-guide/test-execution/visual-studio-2012-test-explorer$"
+    to: "/general-information/test-execution/vs-test-explorer"
+-
+    from: "^/getting-started/test-execution/vs-2012-test-explorer$"
+    to: "/general-information/test-execution/vs-test-explorer"
+-
+    from: "^/user-guide/recording-tests/frames\\.aspx$"
+    to: "/general-information/test-recording/frames"
+-
+    from: "^/user-guide/recording-tests/frames$"
+    to: "/general-information/test-recording/frames"
+-
+    from: "^/getting-started/test-recording/frames$"
+    to: "/general-information/test-recording/frames"
+-
+    from: "^/user-guide/recording-tests\\.aspx$"
+    to: "/general-information/test-recording/overview"
+-
+    from: "^/user-guide/recording-tests$"
+    to: "/general-information/test-recording/overview"
+-
+    from: "^/getting-started/test-recording/overview$"
+    to: "/general-information/test-recording/overview"
+-
+    from: "^/user-guide/recording-tests/recording-toolbar\\.aspx$"
+    to: "/general-information/test-recording/recording-toolbar"
+-
+    from: "^/user-guide/recording-tests/recording-toolbar$"
+    to: "/general-information/test-recording/recording-toolbar"
+-
+    from: "^/getting-started/test-recording/recording-toolbar$"
+    to: "/general-information/test-recording/recording-toolbar"
+-
+    from: "^/user-guide/recording-tests/step-suggestions\\.aspx$"
+    to: "/general-information/test-recording/step-suggestions"
+-
+    from: "^/user-guide/recording-tests/step-suggestions$"
+    to: "/general-information/test-recording/step-suggestions"
+-
+    from: "^/getting-started/test-recording/step-suggestions$"
+    to: "/general-information/test-recording/step-suggestions"
+-
+    from: "^/user-guide/recording-tests/translators\\.aspx$"
+    to: "/general-information/test-recording/translators"
+-
+    from: "^/user-guide/recording-tests/translators$"
+    to: "/general-information/test-recording/translators"
+-
+    from: "^/getting-started/test-recording/translators$"
+    to: "/general-information/test-recording/translators"
+-
+    from: "^/getting-started/test-results/quick-execute-test-step$"
+    to: "/general-information/test-results/quick-execute-test-step"
+-
+    from: "^/general-information/test-results/executive-dashboard$"
+    to: "/general-information/test-results/dashboard/overview"
+-
+    from: "^/general-information/test-recording/step-suggestions$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/steps-overview"
+-
+    from: "^/general-information/test-recording/recording-toolbar$"
+    to: "/features/recorder/compact-recording-toolbar"
+-
+    from: "^/features/recorder/dom-explorer$"
+    to: "/features/recorder/advanced-recording-tools/dom-explorer"
+-
+    from: "^/user-guide/elements-menu/dom-explorer\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/dom-explorer"
+-
+    from: "^/user-guide/elements-menu/dom-explorer$"
+    to: "/features/recorder/advanced-recording-tools/dom-explorer"
+-
+    from: "^/features/elements-menu/dom-explorer$"
+    to: "/features/recorder/advanced-recording-tools/dom-explorer"
+-
+    from: "^/general-information/test-recording/frames$"
+    to: "/features/elements-explorer/frames"
+-
+    from: "^/general-information/test-recording/translators$"
+    to: "/features/recorder/translators"
+-
+    from: "^/features/recorder/mouse-actions/drag-and-drop$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/actions/drag-and-drop"
+-
+    from: "^/features/recorder/advanced-recording-tools/element-steps/actions/scroll-actions$"
+    to: "/features/recorder/highlighting-menu/scroll-actions"
+-
+    from: "^/features/recorder/mouse-actions/relative-mouse-actions$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/actions/adv-mouse-actions#specify-the-click-location"
+-
+    from: "^/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/actions/adv-mouse-actions"
+-
+    from: "^/features/recorder/verifications/advanced-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification"
+-
+    from: "^/user-guide/verifications/advanced-verification\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification"
+-
+    from: "^/user-guide/verifications/advanced-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification"
+-
+    from: "^/features/verifications/advanced-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification"
+-
+    from: "^/features/recorder/verifications/extraction$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/extraction"
+-
+    from: "^/user-guide/verifications/data-bind-an-extraction-step\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/extraction"
+-
+    from: "^/user-guide/verifications/data-bind-an-extraction-step$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/extraction"
+-
+    from: "^/features/verifications/Extraction$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/extraction"
+-
+    from: "^/features/verifications/Extraction.html$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/extraction"
+-
+    from: "^/features/recorder/advanced-recording-tools/element-steps/verifications/extraction$"
+    to: "/features/recorder/highlighting-menu/quick-steps/extraction"
+-
+    from: "^/features/recorder/verifications/overview$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/steps-overview#verifications"
+-
+    from: "^/user-guide/verifications\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/steps-overview#verifications"
+-
+    from: "^/user-guide/verifications$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/steps-overview#verifications"
+-
+    from: "^/features/verifications/overview$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/steps-overview#verifications"
+-
+    from: "^/features/recorder/verifications/quick-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification"
+-
+    from: "^/user-guide/verifications/quick-verification\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification"
+-
+    from: "^/user-guide/verifications/quick-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification"
+-
+    from: "^/features/verifications/quick-verification$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification"
+-
+    from: "^/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification$"
+    to: "/features/recorder/highlighting-menu/quick-steps/quick-verification"
+-
+    from: "^/features/recorder/verifications/text-from-image$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/text-from-image"
+-
+    from: "^/features/recorder/verifications/wait$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/wait"
+-
+    from: "^/user-guide/verifications/wait\\.aspx$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/wait"
+-
+    from: "^/user-guide/verifications/wait$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/wait"
+-
+    from: "^/features/verifications/wait$"
+    to: "/features/recorder/advanced-recording-tools/element-steps/verifications/wait"
+-
+    from: "^/features/recorder/advanced-recording-tools/element-steps/verifications/wait$"
+    to: "/features/recorder/highlighting-menu/quick-steps/wait"
+-
+    from: "^/features/recorder/overview$"
+    to: "/automated-tests/recording/overview"
+-
+    from: "^/features/elements-menu/overview$"
+    to: "/automated-tests/recording/hover-over-highlighting"
+-
+    from: "^/general-information/test-execution/quick-execution$"
+    to: "/automated-tests/test-execution/quick-execution"
+-
+    from: "^/user-guide/test-results/test-as-step-results\\.aspx$"
+    to: "/automated-tests/test-results/quick-execute-test-step"
+-
+    from: "^/user-guide/test-results/test-as-step-results$"
+    to: "/automated-tests/test-results/quick-execute-test-step"
+-
+    from: "^/getting-started/test-results/quick-execution-test-step$"
+    to: "/automated-tests/test-results/quick-execute-test-step"
+-
+    from: "^/general-information/test-results/analyze-quick-run-results$"
+    to: "/automated-tests/test-results/analyze-quick-run-results"
+-
+    from: "^/features/recorder/test-recorder$"
+    to: "/automated-tests/recording/overview"
+-
+    from: "^/general-information/start-a-project/guided-tutorials$"
+    to: "/automated-tests/customize-project/built-in-help-tools/in-product-guides"
+-
+    from: "^/automated-tests/customize-project/built-in-help-tools/guided-tutorials$"
+    to: "/automated-tests/customize-project/built-in-help-tools/in-product-guides"
+-
+    from: "^/general-information/start-a-project/in-product-tips-tricks$"
+    to: "/automated-tests/customize-project/built-in-help-tools/in-product-tips-tricks"
+-
+    from: "^/general-information/start-a-project/in-product-guides$"
+    to: "/automated-tests/customize-project/built-in-help-tools/in-product-guides"
+-
+    from: "^/general-information/test-recording/overview$"
+    to: "/automated-tests/recording/overview"
+-
+    from: "^/features/elements-explorer/overview$"
+    to: "/automated-tests/elements/overview"
+-
+    from: "^/features/elements-explorer/elements-find-expression$"
+    to: "/automated-tests/elements/elements-find-expression"
+-
+    from: "^/features/elements-explorer/find-element$"
+    to: "/automated-tests/elements/find-element"
+-
+    from: "^/features/elements-explorer/find-element-by-image$"
+    to: "/automated-tests/elements/find-element-by-image"
+-
+    from: "^/features/elements-explorer/frames$"
+    to: "/automated-tests/elements/frames"
+-
+    from: "^/knowledge-base/project-configuration-kb/using-chained-find-expressions$"
+    to: "/automated-tests/elements/using-chained-find-expressions"
+-
+    from: "^/knowledge-base/project-configuration-kb/element-repository$"
+    to: "/automated-tests/elements/element-repository"
+-
+    from: "^/knowledge-base/project-configuration-kb/merge-page-nodes$"
+    to: "/automated-tests/elements/merge-page-nodes"
+-
+    from: "^/general-information/create-test-standalone/add-test$"
+    to: "/getting-started/first-test#add-a-test-to-the-project"
+-
+    from: "^/general-information/create-test-standalone/silverlight-out-of-browser$"
+    to: "/welcome"
+-
+    from: "^/general-information/create-test-vsplugin/web-test$"
+    to: "/automated-tests/vs-plugin/web-test"
+-
+    from: "^/general-information/create-test-vsplugin/wpf-test$"
+    to: "/automated-tests/vs-plugin/wpf-test"
+-
+    from: "^/general-information/create-test-vsplugin/silverlight-out-of-browser$"
+    to: "/welcome"
+-
+    from: "^/general-information/test-execution/test-list-execution$"
+    to: "/automated-tests/test-lists/test-list-execution"
+-
+    from: "^/general-information/test-execution/test-lists-standalone$"
+    to: "/automated-tests/test-lists/test-lists-standalone"
+-
+    from: "^/general-information/test-execution/test-lists-type-standalone$"
+    to: "/automated-tests/test-lists/test-lists-standalone"
+-
+    from: "^/general-information/test-execution/test-lists-in-vs-2017-2019$"
+    to: "/automated-tests/vs-plugin/test-lists-in-vs-2017-2019"
+-
+    from: "^/general-information/test-execution/test-list-settings$"
+    to: "/features/test-lists/test-list-settings"
+-
+    from: "^/general-information/test-execution/vs-test-explorer$"
+    to: "/automated-tests/vs-plugin/vs-test-explorer"
+-
+    from: "^/general-information/test-execution/visual-debugger$"
+    to: "/automated-tests/troubleshooting/visual-debugger#make-use-of-the-visual-debugger-tool-options-during-test-run"
+-
+    from: "^/general-information/test-execution/visual-studio-2012-and-later-test-list$"
+    to: "/welcome"
+-
+    from: "^/general-information/test-results/analyze-test-list-results$"
+    to: "/automated-tests/test-list-results/analyze-test-list-results"
+-
+    from: "^/general-information/test-results/export-test-results$"
+    to: "/automated-tests/test-list-results/export-test-results"
+-
+    from: "^/general-information/test-results/step-failure-details$"
+    to: "/automated-tests/test-results/step-failure-details"
+-
+    from: "^/general-information/test-results/quick-execute-test-step$"
+    to: "/automated-tests/test-results/quick-execute-test-step"
+-
+    from: "^/general-information/test-results/calendar$"
+    to: "/automated-tests/test-list-results/calendar"
+-
+    from: "^/general-information/test-results/reports$"
+    to: "/automated-tests/test-list-results/reports"
+-
+    from: "^/general-information/test-results/dashboard/overview$"
+    to: "/automated-tests/scheduling-results/dashboard/overview"
+-
+    from: "^/general-information/test-results/dashboard/installation-and-configuration$"
+    to: "/automated-tests/scheduling-results/dashboard/installation-and-configuration"
+-
+    from: "^/general-information/test-results/dashboard/results$"
+    to: "/automated-tests/scheduling-results/dashboard/results"
+-
+    from: "^/general-information/test-results/dashboard/reports$"
+    to: "/automated-tests/scheduling-results/dashboard/reports"
+-
+    from: "^/general-information/test-results/dashboard/about-page$"
+    to: "/automated-tests/scheduling-results/dashboard/about-page"
+-
+    from: "^/general-information/test-results/test-results-vs$"
+    to: "/automated-tests/vs-plugin/test-results-vs"
+-
+    from: "^/features/coded-steps/preview-code$"
+    to: "/automated-tests/vs-plugin/convert-steps-code"
+-
+    from: "^/features/coded-steps/convert-steps-code$"
+    to: "/automated-tests/vs-plugin/convert-steps-code#convert-all-steps-to-code"
+-
+    from: "^/features/testing-types/responsive-test$"
+    to: "/automated-tests/responsive/responsive-test"
+-
+    from: "^/features/testing-types/wpf-test$"
+    to: "/automated-tests/wpf/wpf-test"
+-
+    from: "^/user-guide/load-testing\\.aspx$"
+    to: "/automated-tests/load/overview"
+-
+    from: "^/user-guide/load-testing$"
+    to: "/automated-tests/load/overview"
+-
+    from: "^/user-guide/performance/compare-view\\.aspx$"
+    to: "/automated-tests/performance/compare-view"
+-
+    from: "^/user-guide/performance/compare-view$"
+    to: "/automated-tests/performance/compare-view"
+-
+    from: "^/features/testing-types/performance-testing/compare-view$"
+    to: "/automated-tests/performance/compare-view"
+-
+    from: "^/features/testing-types/performance-testing/details-view$"
+    to: "/automated-tests/performance/details-view"
+-
+    from: "^/user-guide/performance/details-view\\.aspx$"
+    to: "/automated-tests/performance/details-view"
+-
+    from: "^/user-guide/performance/details-view$"
+    to: "/automated-tests/performance/details-view"
+-
+    from: "^/features/testing-types/performance-testing/export-results$"
+    to: "/automated-tests/performance/export-results"
+-
+    from: "^/user-guide/performance/export_results\\.aspx$"
+    to: "/automated-tests/performance/export-results"
+-
+    from: "^/user-guide/performance/export_results$"
+    to: "/automated-tests/performance/export-results"
+-
+    from: "^/features/testing-types/performance-testing/gather-perfomance-data$"
+    to: "/automated-tests/performance/gather-perfomance-data"
+-
+    from: "^/user-guide/performance/gather-performance-data\\.aspx$"
+    to: "/automated-tests/performance/gather-perfomance-data"
+-
+    from: "^/user-guide/performance/gather-performance-data$"
+    to: "/automated-tests/performance/gather-perfomance-data"
+-
+    from: "^/features/testing-types/performance-testing/history-view$"
+    to: "/automated-tests/performance/history-view"
+-
+    from: "^/user-guide/performance/history-view\\.aspx$"
+    to: "/automated-tests/performance/history-view"
+-
+    from: "^/user-guide/performance/history-view$"
+    to: "/automated-tests/performance/history-view"
+-
+    from: "^/features/testing-types/performance-testing/open-port-on-server$"
+    to: "/automated-tests/performance/open-port-on-server"
+-
+    from: "^/user-guide/performance/open-port-on-server\\.aspx$"
+    to: "/automated-tests/performance/open-port-on-server"
+-
+    from: "^/user-guide/performance/open-port-on-server$"
+    to: "/automated-tests/performance/open-port-on-server"
+-
+    from: "^/features/testing-types/performance-testing/overview-button$"
+    to: "/automated-tests/performance/overview-button"
+-
+    from: "^/user-guide/performance/overview\\.aspx$"
+    to: "/automated-tests/performance/overview-button"
+-
+    from: "^/user-guide/performance/overview$"
+    to: "/automated-tests/performance/overview-button"
+-
+    from: "^/features/testing-types/performance-testing/overview$"
+    to: "/automated-tests/performance/overview"
+-
+    from: "^/user-guide/performance\\.aspx$"
+    to: "/automated-tests/performance/overview"
+-
+    from: "^/user-guide/performance$"
+    to: "/automated-tests/performance/overview"
+-
+    from: "^/features/testing-types/load-testing/overview$"
+    to: "/automated-tests/load/overview"
+-
+    from: "^/features/testing-types/load-testing/running-load-test/running-tests$"
+    to: "/automated-tests/load/running-load-test/running-tests"
+-
+    from: "^/features/testing-types/load-testing/running-load-test/remote-load-test-execution$"
+    to: "/automated-tests/load/running-load-test/remote-load-test-execution"
+-
+    from: "^/features/testing-types/load-testing/running-load-test/best-practices$"
+    to: "/automated-tests/load/running-load-test/best-practices"
+-
+    from: "^/features/testing-types/load-testing/load-testing-results/analyzing-results$"
+    to: "/automated-tests/load/load-testing-results/analyzing-results"
+-
+    from: "^/features/testing-types/load-testing/load-testing-results/export-results$"
+    to: "/automated-tests/load/load-testing-results/export-results"
+-
+    from: "^/features/testing-types/load-testing/load-testing-results/troubleshooting-results-errors$"
+    to: "/automated-tests/load/load-testing-results/troubleshooting-results-errors"
+-
+    from: "^/features/testing-types/load-testing/advanced-topics/monitor-perf-metrics$"
+    to: "/automated-tests/load/advanced-topics/monitor-perf-metrics"
+-
+    from: "^/features/testing-types/load-testing/advanced-topics/data-driving$"
+    to: "/automated-tests/load/advanced-topics/data-driving"
+-
+    from: "^/features/testing-types/load-testing/advanced-topics/configure-remote-device$"
+    to: "/automated-tests/load/advanced-topics/configure-remote-device"
+-
+    from: "^/features/testing-types/load-testing/designing-load-tests/getting-started$"
+    to: "/automated-tests/load/designing-load-tests/getting-started"
+-
+    from: "^/features/testing-types/load-testing/designing-load-tests/adding-user-profiles$"
+    to: "/automated-tests/load/designing-load-tests/adding-user-profiles"
+-
+    from: "^/features/testing-types/load-testing/designing-load-tests/modifying-tests$"
+    to: "/automated-tests/load/designing-load-tests/modifying-tests"
+-
+    from: "^/features/testing-types/load-testing/designing-load-tests/dynamic-targets$"
+    to: "/automated-tests/load/designing-load-tests/dynamic-targets"
+-
+    from: "^/features/testing-types/load-testing/designing-load-tests/test-settings$"
+    to: "/automated-tests/load/designing-load-tests/test-settings"
+-
+    from: "^/features/testing-types/load-testing/designing-load-tests/managing-vu$"
+    to: "/automated-tests/load/designing-load-tests/managing-vu"
+-
+    from: "^/features/scheduling-test-runs/overview$"
+    to: "/automated-tests/scheduling/overview"
+-
+    from: "^/features/scheduling-test-runs/local-scheduled-run$"
+    to: "/automated-tests/scheduling/remote-scheduled-run"
+-
+    from: "^/features/scheduling-test-runs/remote-scheduled-run$"
+    to: "/automated-tests/scheduling/remote-scheduled-run"
+-
+    from: "^/features/scheduling-test-runs/multiple-machines-scheduling-setup/install-runtime$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/install-runtime"
+-
+    from: "^/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-scheduling-server$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-storage-server$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-storage-server"
+-
+    from: "^/features/scheduling-test-runs/multiple-machines-scheduling-setup/create-execution-server$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server"
+-
+    from: "^/features/scheduling-test-runs/connect-to-scheduling-server$"
+    to: "/automated-tests/scheduling/connect-to-scheduling-server"
+-
+    from: "^/features/scheduling-test-runs/view-execution-status$"
+    to: "/automated-tests/scheduling/view-execution-status"
+-
+    from: "^/features/scheduling-test-runs/run-list-remotely$"
+    to: "/automated-tests/scheduling/run-list-remotely"
+-
+    from: "^/features/scheduling-test-runs/schedule-execution$"
+    to: "/automated-tests/scheduling/schedule-execution"
+-
+    from: "^/features/scheduling-test-runs/scheduling-results$"
+    to: "/automated-tests/scheduling-results/scheduling-results"
+-
+    from: "^/features/scheduling-test-runs/stop-cancel-scheduled-job$"
+    to: "/automated-tests/scheduling/stop-cancel-scheduled-job"
+-
+    from: "^/features/scheduling-test-runs/advanced-topics/change-service-account$"
+    to: "/automated-tests/scheduling/advanced-topics/change-service-account"
+-
+    from: "^/features/scheduling-test-runs/advanced-topics/tts-command-line-client$"
+    to: "/automated-tests/scheduling/advanced-topics/tts-command-line-client"
+-
+    from: "^/features/scheduling-test-runs/advanced-topics/using-service-api$"
+    to: "/automated-tests/scheduling/advanced-topics/using-service-api"
+-
+    from: "^/features/scheduling-test-runs/advanced-topics/migrate-database$"
+    to: "/welcome"
+-
+    from: "^/features/coded-steps/standalone-code-file$"
+    to: "/automated-tests/coded-tests/coded-step#which-is-the-standalone-code-file"
+-
+    from: "^/features/coded-steps/compile-project$"
+    to: "/automated-tests/coded-tests/compile-project"
+-
+    from: "^/features/source-control/sc-alternatives$"
+    to: "/automated-tests/source-control/sc-alternatives"
+-
+    from: "^/features/source-control/checkin-guidelines$"
+    to: "/automated-tests/source-control/checkin-guidelines"
+-
+    from: "^/features/source-control/git/overview-git$"
+    to: "/automated-tests/source-control/git/overview-git"
+-
+    from: "^/features/source-control/git/open-git-project$"
+    to: "/automated-tests/source-control/git/open-git-project"
+-
+    from: "^/features/source-control/git/connect-to-git$"
+    to: "/automated-tests/source-control/git/connect-to-git"
+-
+    from: "^/features/source-control/git/supported-git-commands$"
+    to: "/automated-tests/source-control/git/supported-git-commands"
+-
+    from: "^/features/source-control/git/branch-management$"
+    to: "/automated-tests/source-control/git/branch-management"
+-
+    from: "^/features/source-control/tfs/overview-tfs$"
+    to: "/automated-tests/source-control/tfs/overview-tfs"
+-
+    from: "^/features/source-control/tfs/connect-to-tfs$"
+    to: "/automated-tests/source-control/tfs/connect-to-tfs"
+-
+    from: "^/features/source-control/tfs/disconnect-from-tfs$"
+    to: "/automated-tests/source-control/tfs/disconnect-from-tfs"
+-
+    from: "^/features/source-control/tfs/open-tfs-project$"
+    to: "/automated-tests/source-control/tfs/open-tfs-project"
+-
+    from: "^/features/source-control/tfs/team-foundation-service$"
+    to: "/automated-tests/source-control/tfs/team-foundation-service"
+-
+    from: "^/features/source-control/tfs/project-item-options-tfs$"
+    to: "/automated-tests/source-control/tfs/project-item-options-tfs"
+-
+    from: "^/advanced-topics/build-server/continious-integration-overview$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/advanced-topics/build-server/vs-team-services-builds$"
+    to: "/advanced-topics/build-server/azure-devops"
+-
+    from: "^/advanced-topics/build-server/mtm$"
+    to: "/advanced-topics/build-server/azure-devops"
+-
+    from: "^/advanced-topics/build-server/build-servers-test-execution$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/troubleshooting-guide/troubleshooting-tools-tg/using-the-application-log$"
+    to: "/automated-tests/troubleshooting/failing-test#test-studio-application-log"
+-
+    from: "^/troubleshooting-guide/troubleshooting-tools-tg/using-the-dom-on-failure$"
+    to: "/automated-tests/troubleshooting/failing-test#step-failure-details"
+-
+    from: "^/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log$"
+    to: "/automated-tests/troubleshooting/failing-test#execution-log-on-failure"
+-
+    from: "^/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger$"
+    to: "/automated-tests/troubleshooting/visual-debugger#make-use-of-the-visual-debugger-tool-options-during-test-run"
+-
+    from: "^/features/dialogs-and-popups/dialog-handler-updater$"
+    to: "/prerequisites/configure-your-browser/browser-support-updater"
+-
+    from: "^/getting-started/test-results/analyze-test-results$"
+    to: "/automated-tests/test-list-results/analyze-test-list-results"
+-
+    from: "^/user-guide/data-driven-testing\\.aspx$"
+    to: "/automated-tests/data-drive-test/what-is-ddt"
+-
+    from: "^/user-guide/data-driven-testing$"
+    to: "/automated-tests/data-drive-test/what-is-ddt"
+-
+    from: "^/features/data-driven-testing/overview$"
+    to: "/automated-tests/data-drive-test/what-is-ddt"
+-
+    from: "^/user-guide/add-custom-step/test-as-step\\.aspx$"
+    to: "/features/custom-steps/test-as-step"
+-
+    from: "^/user-guide/add-custom-step/script-step\\.aspx$"
+    to: "/features/custom-steps/script-step"
+-
+    from: "^/user-guide/modifying-tests/properties-pane\\.aspx$"
+    to: "/features/test-maintenance/test-properties-standalone"
+-
+    from: "^/user-guide/knowledge-base/data-driven-testing/extracted-variables-in-code\\.aspx$"
+    to: "/advanced-topics/coded-samples/general/extracted-variables-in-code"
+-
+    from: "^/getting-started/test-execution/visual-studio-test-list$"
+    to: "/automated-tests/vs-plugin/test-lists-in-vs-2017-2019"
+-
+    from: "^/user-guide/code-samples/general/relative-dialog-path$"
+    to: "/advanced-topics/coded-samples/general/relative-dialog-path"
+-
+    from: "^/user-guide/code-samples/html/ajax-postback$"
+    to: "/testing-framework/write-tests-in-code/intermediate-topics-wtc/ajax-support"
+-
+    from: "^/user-guide/code-samples/html/dynamic-grid$"
+    to: "/advanced-topics/coded-samples/html/dynamic-grid"
+-
+    from: "^/user-guide/knowledge-base/data-driven-testing/repeating-actions-for-multiple-users$"
+    to: "/knowledge-base/data-driven-testing-kb/multiple-users-with-login"
+-
+    from: "^/user-guide/knowledge-base/dialogs-popups/unexpected-dialog-action$"
+    to: "/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action"
+-
+    from: "^/user-guide/knowledge-base/project-configuration/element-repository$"
+    to: "/automated-tests/elements/element-repository"
+-
+    from: "^/user-guide/knowledge-base/scheduling/resolve-common-scheduling-issues$"
+    to: "/troubleshooting-guide/scheduling-issues-tg/project-runs-locally-not-remotely"
+-
+    from: "^/user-guide/knowledge-base/silverlight/automate-silverlight-tests-in-tfs-builds$"
+    to: "/knowledge-base/silverlight-kb/automate-in-tfs-builds"
+-
+    from: "^/user-guide/knowledge-base/silverlight/out-of-browser-and-elevated-trust$"
+    to: "/knowledge-base/silverlight-kb/silverlight-oob-and-elevated-trust"
+-
+    from: "^/user-guide/knowledge-base/test-automation/ample-timeouts$"
+    to: "/knowledge-base/test-automation-kb/ample-timetouts"
+-
+    from: "^/user-guide/knowledge-base/test-automation/dynamically-generated-id-attributes$"
+    to: "/knowledge-base/test-automation-kb/dynamic-ids"
+-
+    from: "^/user-guide/knowledge-base/test-automation/invoke-mouse-hover$"
+    to: "/knowledge-base/test-automation-kb/invoke-mouse-hover"
+-
+    from: "^/user-guide/knowledge-base/test-execution/execute-custom-scripts-before-after-test$"
+    to: "/advanced-topics/coded-samples/general/custom-scripts-before-after"
+-
+    from: "^/user-guide/knowledge-base/verification/verify-the-disabled-attribute-html$"
+    to: "/knowledge-base/verification-kb/disabled-attribute-html"
+-
+    from: "^/user-guide/knowledge-base/verification/verify-tool-tips$"
+    to: "/knowledge-base/verification-kb/verify-html-tool-tips"
+-
+    from: "^/user-guide/troubleshooting_guide/installation-problems/create-installer-log-file$"
+    to: "/troubleshooting-guide/installation-problems-tg/create-installer-log-file"
+-
+    from: "^/user-guide/troubleshooting_guide/recording-problems/hover-over-highlighting-is-misaligned$"
+    to: "/troubleshooting-guide/recording-problems-tg/highlighting-misaligned"
+-
+    from: "^/user-guide/troubleshooting_guide/recording-problems/namespace-reservation$"
+    to: "/welcome"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/cannot-execute-in-chrome$"
+    to: "/prerequisites/configure-your-browser/browser-configuration"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/invoke-blind-mouse-click$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/invoke-blind-mouse-click"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/localhost-dynamic-ports$"
+    to: "/automated-tests/test-execution/quick-execution"
+-
+    from: "^/user-guide/troubleshooting_guide/visual-studio/enable-deployment$"
+    to: "/automated-tests/vs-plugin/test-explorer-settings"
+-
+    from: "^/troubleshooting-guide/visual-studio-tg/enable-deployment$"
+    to: "/automated-tests/vs-plugin/test-explorer-settings"
+-
+    from: "^/features/coded-steps/coded-step$"
+    to: "/automated-tests/coded-tests/coded-step"
+-
+    from: "^/features/coded-steps/code-behind-file$"
+    to: "/automated-tests/coded-tests/coded-step#which-is-the-code-behind-file"
+-
+    from: "^/features/coded-steps/output-panel$"
+    to: "/automated-tests/coded-tests/output-panel"
+-
+    from: "^/features/coded-steps/add-assembly-reference$"
+    to: "/automated-tests/coded-tests/add-assembly-reference"
+-
+    from: "^/automated-tests/coded-tests/standalone-code-file$"
+    to: "/automated-tests/coded-tests/coded-step#which-is-the-standalone-code-file"
+-
+    from: "^/user-guide/dialogs-and-popups/dialogs$"
+    to: "/features/dialogs-and-popups/dialogs"
+-
+    from: "^/user-guide/dialogs-and-popups/dialogs\\.aspx$"
+    to: "/features/dialogs-and-popups/dialogs"
+-
+    from: "^/user-guide/dialogs-and-popups/html-popups\\.aspx$"
+    to: "/features/dialogs-and-popups/html-popups"
+-
+    from: "^/user-guide/dialogs-and-popups/html-popups$"
+    to: "/features/dialogs-and-popups/html-popups"
+-
+    from: "^/user-guide/dialogs-and-popups/modal-popups\\.aspx$"
+    to: "/features/dialogs-and-popups/html-popups#modal-popups"
+-
+    from: "^/user-guide/dialogs-and-popups/modal-popups$"
+    to: "/features/dialogs-and-popups/html-popups#modal-popups"
+-
+    from: "^/personal-data$"
+    to: "https://www.progress.com/legal/privacy-policy"
+-
+    from: "^/knowledge-base/visual-studio-kb/test-explorer-settings$"
+    to: "/automated-tests/vs-plugin/test-explorer-settings"
+-
+    from: "^/automated-tests/vs-plugin/preview-code$"
+    to: "/automated-tests/vs-plugin/convert-steps-code"
+-
+    from: "^/user-guide/test-results/test-results-vs-plugin\\.aspx$"
+    to: "/automated-tests/vs-plugin/test-results-vs"
+-
+    from: "^/user-guide/test-results/test-results-vs-plugin$"
+    to: "/automated-tests/vs-plugin/test-results-vs"
+-
+    from: "^/getting-started/test-results/test-results-vs$"
+    to: "/automated-tests/vs-plugin/test-results-vs"
+-
+    from: "^/features/dialogs-and-popups/modal-popups$"
+    to: "/features/dialogs-and-popups/html-popups#modal-popups"
+-
+    from: "^/prerequisites/configure-your-browser/edge$"
+    to: "/prerequisites/configure-your-browser/edge-chromium"
+-
+    from: "^/knowledge-base/test-execution-kb/run-mobile-test-in-web-test$"
+    to: "/welcome"
+-
+    from: "^/user-guide/knowledge-base/best-practices/generate-application-log\\.aspx$"
+    to: "/knowledge-base/best-practices-kb/generate-application-log"
+-
+    from: "^/user-guide/knowledge-base/best-practices/generate-application-log$"
+    to: "/knowledge-base/best-practices-kb/generate-application-log"
+-
+    from: "^/user-guide/add-custom-step/comment\\.aspx$"
+    to: "/features/custom-steps/all-tests-common/comment"
+-
+    from: "^/user-guide/add-custom-step/comment$"
+    to: "/features/custom-steps/all-tests-common/comment"
+-
+    from: "^/features/custom-steps/comment$"
+    to: "/features/custom-steps/all-tests-common/comment"
+-
+    from: "^/user-guide/add-custom-step/custom-annotation\\.aspx$"
+    to: "/features/custom-steps/all-tests-common/custom-annotation"
+-
+    from: "^/user-guide/add-custom-step/custom-annotation$"
+    to: "/features/custom-steps/all-tests-common/custom-annotation"
+-
+    from: "^/features/custom-steps/custom-annotation$"
+    to: "/features/custom-steps/all-tests-common/custom-annotation"
+-
+    from: "^/features/custom-steps/execution-delay$"
+    to: "/features/custom-steps/all-tests-common/execution-delay"
+-
+    from: "^/features/custom-steps/inspection-point$"
+    to: "/features/custom-steps/all-tests-common/inspection-point"
+-
+    from: "^/features/custom-steps/manual-step$"
+    to: "/features/custom-steps/all-tests-common/manual-step"
+-
+    from: "^/features/custom-steps/script-step$"
+    to: "/features/custom-steps/all-tests-common/script-step"
+-
+    from: "^/features/custom-steps/test-as-step$"
+    to: "/features/custom-steps/all-tests-common/test-as-step"
+-
+    from: "^/features/custom-steps/navigate-to$"
+    to: "/features/custom-steps/web-test-common/navigate-to"
+-
+    from: "^/features/custom-steps/open-pdf$"
+    to: "/features/custom-steps/web-test-common/open-pdf"
+-
+    from: "^/features/custom-steps/maximize-browser$"
+    to: "/features/custom-steps/web-test-common/maximize-browser"
+-
+    from: "^/features/custom-steps/clear-browser-cache$"
+    to: "/features/custom-steps/web-test-common/clear-browser-cache"
+-
+    from: "^/features/custom-steps/browser-refresh$"
+    to: "/features/custom-steps/web-test-common/browser-refresh"
+-
+    from: "^/features/custom-steps/capture-browser$"
+    to: "/features/custom-steps/web-test-common/capture-browser"
+-
+    from: "^/features/custom-steps/wait-for-url$"
+    to: "/features/custom-steps/web-test-common/wait-for-url"
+-
+    from: "^/features/custom-steps/check-js-errors$"
+    to: "/features/custom-steps/web-test-common/check-js-errors"
+-
+    from: "^/user-guide/add-custom-step/change-window-state\\.aspx$"
+    to: "/features/custom-steps/wpf-common/change-window-state"
+-
+    from: "^/user-guide/add-custom-step/change-window-state$"
+    to: "/features/custom-steps/wpf-common/change-window-state"
+-
+    from: "^/features/custom-steps/change-window-state$"
+    to: "/features/custom-steps/wpf-common/change-window-state"
+-
+    from: "^/features/execute-apitest/add-api-test-as-step$"
+    to: "/automated-tests/execute-apitest/add-api-test-as-step"
+-
+    from: "^/features/execute-apitest/edit-integrated-api-project$"
+    to: "/automated-tests/execute-apitest/edit-integrated-api-project"
+-
+    from: "^/features/execute-apitest/passing-variables$"
+    to: "/automated-tests/execute-apitest/passing-variables"
+-
+    from: "^/knowledge-base/scheduling-kb/upload-latest-files$"
+    to: "/automated-tests/scheduling/upload-latest-files"
+-
+    from: "^/user-guide/scheduling-test-runs/schedule-test-execution\\.aspx$"
+    to: "/automated-tests/scheduling/schedule-execution"
+-
+    from: "^/user-guide/scheduling-test-runs/schedule-test-execution$"
+    to: "/automated-tests/scheduling/schedule-execution"
+-
+    from: "^/testing-framework/write-tests-in-code/intermediate-topics-wtc/html-control-suite-wtc/transfer-files$"
+    to: "/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/built-in-handlers"
+-
+    from: "^/troubleshooting-guide/browser-inconsistencies-tg/change-text-input-value$"
+    to: "/automated-tests/recording/overview#how-to-add-steps-in-the-test"
+-
+    from: "^/troubleshooting-guide/browser-inconsistencies-tg/html-button$"
+    to: "/features/recorder/highlighting-menu/quick-steps/quick-verification"
+-
+    from: "^/user-guide/troubleshooting_guide/recording-problems/hover-over-highlighting-is-misaligned\\.aspx$"
+    to: "/troubleshooting-guide/recording-problems-tg/highlighting-misaligned"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/if-else-logical-step-fails\\.aspx$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/if-else-logical-step-fails"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/if-else-logical-step-fails$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/if-else-logical-step-fails"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/missing-page-elements\\.aspx$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/missing-page-elements"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/pages-not-defined\\.aspx$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/pages-not-defined"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element\\.aspx$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element"
+-
+    from: "^/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element$"
+    to: "/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element"
+-
+    from: "^/advanced-topics/build-server/tfs-builds$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome$"
+    to: "/prerequisites/configure-your-browser/chrome"
+-
+    from: "^/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-ff$"
+    to: "/prerequisites/configure-your-browser/firefox"
+-
+    from: "^/knowledge-base/scheduling-kb/maintain-scheduling-services$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/knowledge-base/test-execution-kb/locked-machine$"
+    to: "/knowledge-base/scheduling-kb/locked-machine"
+-
+    from: "^/knowledge-base/scheduling-kb/keep-active-session$"
+    to: "/knowledge-base/test-execution-kb/keep-active-session"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments\\.aspx$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/continuous-integration-environments$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/prerequisites/configure-your-browser/safari$"
+    to: "/prerequisites/configure-your-browser/browser-configuration"
+-
+    from: "^/advanced-topics/build-server/tfs-2017-builds$"
+    to: "/advanced-topics/build-server/azure-devops"
+-
+    from: "^/user-guide/command-line-test-execution\\.aspx$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/user-guide/command-line-test-execution$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/team-foundation-server-builds\\.aspx$"
+    to: "/automated-tests/continuous-integration/continious-integration-overview"
+-
+    from: "^/automated-tests/scheduling/multiple-machines-scheduling-setup/create-storage-server$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/automated-tests/scheduling/advanced-topics/using-service-api$"
+    to: "/automated-tests/scheduling/overview"
+-
+    from: "^/automated-tests/scheduling/advanced-topics/change-service-account$"
+    to: "/automated-tests/scheduling/overview"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net\\.aspx$"
+    to: "/advanced-topics/build-server/cruise-control.net-builds"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/cruisecontrol-net$"
+    to: "/advanced-topics/build-server/cruise-control.net-builds"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/teamcity\\.aspx$"
+    to: "/advanced-topics/build-server/team-city-builds"
+-
+    from: "^/user-guide/command-line-test-execution/continuous-integration/teamcity$"
+    to: "/advanced-topics/build-server/team-city-builds"
+-
+    from: "^/knowledge-base/scheduling-kb/non-domain-environment$"
+    to: "/automated-tests/scheduling/overview"
+-
+    from: "^/knowledge-base/silverlight-kb/automate-in-tfs-builds$"
+    to: "/welcome"
+-
+    from: "^/knowledge-base/silverlight-kb/codeless-scrolling-in-virtualized-panel$"
+    to: "/welcome"
+-
+    from: "^/knowledge-base/verification-kb/verify-silverlight-combobox-items$"
+    to: "/welcome"
+-
+    from: "^/knowledge-base/verification-kb/verify-silverlight-tool-tips$"
+    to: "/welcome"
+-
+    from: "^/knowledge-base/silverlight-kb/silverlight-oob-and-elevated-trust$"
+    to: "/welcome"
+-
+    from: "^/knowledge-base/silverlight-kb/testing-framework-with-silverlight-oob-and-elevated-trust$"
+    to: "/welcome"
+-
+    from: "^/knowledge-base/data-driven-testing-kb/data-driven-test-with-mstest$"
+    to: "/automated-tests/data-drive-test/what-is-ddt"
+-
+    from: "^/knowledge-base/project-configuration-kb/anonymous-access-error-when-connecting-to-team-foundation-service$"
+    to: "/automated-tests/source-control/checkin-guidelines"
+-
+    from: "^/knowledge-base/visual-studio-kb/convert-trx-to-html$"
+    to: "/welcome"
+-
+    from: "^/troubleshooting-guide/scheduling-issues-tg/no-change-button$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"
+-
+    from: "^/troubleshooting-guide/scheduling-issues-tg/scheduling-service-shuts-down$"
+    to: "/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server"

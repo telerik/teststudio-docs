@@ -10,13 +10,13 @@ res_type: kb
 ## Description
 When trying to compile Test Studio project I get error CS0246. The error prevents me running a test list remotely or locally. The error persists even when I try to run a single test using the Execute button.
 
-```
+````
 [ Compiler ]
 12:14:49 'ERROR' > C:\Test Studio Projects\TestProject27\getBaseUrl.tstest.cs(39,16) : error CS0246: The type or namespace name 'Pages' could not be found (are you missing a using directive or an assembly reference?)
 12:14:49 'ERROR' > C:\Test Studio Projects\TestProject27\getBaseUrl.tstest.cs(32,17) : error CS0246: The type or namespace name 'Pages' could not be found (are you missing a using directive or an assembly reference?)
 12:14:49 'INFO' > Build Failed
 
-```
+````
 
 ## Solution
 To resolve this compilation CS0246 error, follow these steps:

@@ -33,15 +33,15 @@ First step is to add new executable, it's path should be path to the Test Studio
 
 To configure the task add following arguments:
 
-```
+````
 list="PATH_TO_PROJECT\TEST_LIST_NAME.aiilist" out=${bamboo.build.working.directory} junitstep
-```
+````
 
-**OR**
+<strong>OR</strong>
 
-```
+````
 test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} junitstep
-```
+````
 
 ![Command task][5]
 
@@ -57,7 +57,7 @@ test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} jun
 
 Source of the script:
 
-```
+````
 Write-Output $env:WORKDIR;
 
 Get-ChildItem $env:WORKDIR -Filter *.xml | 
@@ -67,14 +67,14 @@ Foreach-Object {
     $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($False)
     [System.IO.File]::WriteAllLines($_.FullName, $MyFile, $Utf8NoBomEncoding)
 }
-```
+````
 
 Save the script in desired location.
 Add following Environment variable to the task:
 
-```
+````
 WORKDIR=${bamboo.build.working.directory}
-```
+````
 
 ![Script config][7]
 

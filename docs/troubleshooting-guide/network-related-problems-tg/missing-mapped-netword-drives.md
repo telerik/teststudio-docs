@@ -6,13 +6,13 @@ position: 1
 ---
 # Missing mapped network drives
 
-##Problem:
+## Problem:
 
 When open a new project in Test Studio the browser dialog may not show the mapped network drives:
 
 ![missing drives][1]
 
-##Solution:
+## Solution:
 
 You need to set the following registry option:
 

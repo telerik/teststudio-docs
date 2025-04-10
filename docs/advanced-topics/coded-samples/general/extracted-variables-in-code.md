@@ -14,25 +14,25 @@ The extracted variable can be used in a coded step as well - that way you can mo
 
 Use the *GetExtractedValue()* method to use the value of an extracted variable in a coded step:
 
-```C#
+````C#
 object myData = GetExtractedValue("ExtrVarName");
-```
-```VB
+````
+````VB
 Dim myData As Object = GetExtractedValue("ExtrVarName")
-```
+````
 
 ## Set a Value to an Extracted Variable
 
 Use the *SetExtractedValue()* method to set the value of an extraction variable so it can be used later in a standard action or verification step:
 
-```C#
+````C#
 string newValue = "newValueToAssign";
 SetExtractedValue("ExtrVarName", newValue);
-```
-```VB
+````
+````VB
 Dim newValue As String = "newValueToAssign"
 SetExtractedValue("ExtrVarName", newValue)
-```
+````
 
 ## Example of Using the Extracted Variables in Code
 
@@ -47,7 +47,7 @@ To explore the example you can download a <a href="/demoslibrary/Get-Set-Extr-Va
 
 The baseline of code to use should look similar to the one below:
 
-```C#
+````C#
 // Assign the value of the extracted variable from the recorded step 'ExtractedVar' to a variable to use in the code
 var extrVariableInCode = GetExtractedValue("ExtractedVar");
 
@@ -56,8 +56,8 @@ string newValue = "newValueToAssign";
 
 // Assign the modified variable to a new extracted variable
 SetExtractedValue("ModifiedExtrVariable", newValue);
-```
-```VB
+````
+````VB
 ' Assign the value of the extracted variable from the recorded step 'ExtractedVar' to a variable to use in the code
 Dim extrVariableInCode As Object = GetExtractedValue("ExtractedVar")
 
@@ -66,4 +66,4 @@ Dim newValue As String = "newValueToAssign"
 
 ' Assign the modified variable to a new extracted variable
 SetExtractedValue("ModifiedExtrVariable", newValue)
-```
+````

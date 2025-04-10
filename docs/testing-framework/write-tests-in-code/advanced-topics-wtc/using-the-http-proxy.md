@@ -4,7 +4,7 @@ page_title: Using the HTTP Proxy
 description: "Test Studio Testing Framework support for using HTTP proxy. "
 position: 1
 ---
-#Using the HTTP Proxy#
+# Using the HTTP Proxy
 
 Telerik Testing framework includes the ArtOfTest.WebAii.Messaging.Http namespace. With it you have the ability to intercept raw HTTP traffic under the cover. Using the HTTP proxy you can intercept an HTTP request originating from the browser before it is sent to the web server and/or intercept HTTP responses coming from the web server just before they reach the browser and are rendered by it. This functionality opens up the framework to be used in a wider range of automation scenarios like:
 
@@ -21,47 +21,61 @@ In this namespace you will find the following methods classes:
 	<th>Class</th><th>Description</th>
 </tr>
 <tr>
-	<td>**HttpProxyManager**</td>
+	<td>
+
+**HttpProxyManager**</td>
 	<td>Manages the HTTP proxy agent.</td>
 </tr>
 <tr>
-	<td>**HttpRequest**</td>
+	<td>
+
+**HttpRequest**</td>
 	<td>Used to create and manipulate an HTTP request.</td>
 </tr>
 <tr>
-	<td>**HttpRequestEventArgs**</td>
+	<td>
+
+**HttpRequestEventArgs**</td>
 	<td>EventArgs subclass that wraps an HTTP request, and possibly the related response.</td>
 </tr>
 <tr>
-	<td>**HttpResponse**</td>
+	<td>
+
+**HttpResponse**</td>
 	<td>Class wrapper of an HTTP response.</td>
 </tr>
 <tr>
-	<td>**HttpResponseEventArgs**</td>
+	<td>
+
+**HttpResponseEventArgs**</td>
 	<td>EventArgs subclass that wraps an HTTP response and the related request.</td>
 </tr>
 <tr>
-	<td>**RequestListenerInfo**</td>
+	<td>
+
+**RequestListenerInfo**</td>
 	<td>Wraps a listener for BeforeRequest events from the proxy.</td>
 </tr>
 <tr>
-	<td>**ResponseListenerInfo**</td>
+	<td>
+
+**ResponseListenerInfo**</td>
 	<td>Wraps a listener for BeforeResponse events from the proxy.</td>
 </tr>
-<table>
+</table>
 
 You must enable the HTTP proxy before you can start using it. This setting is turned off by default. This can be done either by adding the setting to your .config file or modifying the setting in the Settings object. To add the setting to your .config file add this to your .config file:
 
 
-```XML
+````XML
 <WebAii.Settings
     Manager.Settings.Web.UseHttpProxy="true"
 />
-```
+````
 
 To enable this setting in the Settings object, add code to your initialization section like this:
 
-```C#
+````C#
 // This will get a new Settings object. If a configuration
 // section exists, then settings from that section will be
 // loaded
@@ -72,8 +86,8 @@ settings.Web.UseHttpProxy = true;
  
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(this.TestContext.WriteLine));
-```
-```VB
+````
+````VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
 ' loaded
@@ -84,12 +98,12 @@ settings.UseHttpProxy = True
  
 ' Now call Initialize again with your updated settings object
 Initialize(settings, New TestContextWriteLine(AddressOf Me.TestContext.WriteLine))
-```
+````
 
 
 Now that we have the HTTP proxy turned on we can start using it. Here's an example of how we would detect that a response coming back from the web server is an image response.
 
-```C#
+````C#
 [TestMethod]
 public void ImageDetection()
 {
@@ -121,8 +135,8 @@ private void CheckTypeForImage(object sender, HttpResponseEventArgs e)
             e.Response.Headers["Content-Type"]));
     }
 }
-```
-```VB
+````
+````VB
 <TestMethod()> _
 Public Sub ImageDetection()
     ' Launch a new browser window
@@ -147,11 +161,11 @@ Private Sub CheckTypeForImage(ByVal sender As Object, ByVal e As HttpResponseEve
         Log.WriteLine([String].Format("Not an image; MIME type: {0}", e.Response.Headers("Content-Type")))
     End If
 End Sub
-```
+````
 
 Let's go one step further. Suppose we want to verify that all of the images on the web page were smaller than 40Kb. We can accomplish this using code like this:
 
-```C#
+````C#
 [TestMethod]
 public void CheckImageSize()
 {
@@ -177,8 +191,8 @@ private void Check(object sender, HttpResponseEventArgs e)
         _imageTooLarge = true;
     }
 }
-```
-```VB
+````
+````VB
 <TestMethod()> _
 Public Sub CheckImageSize()
     ' Add our HTTP response event handler
@@ -201,6 +215,6 @@ Private Sub Check(ByVal sender As Object, ByVal e As HttpResponseEventArgs)
         _imageTooLarge = True
     End If
 End Sub
-```
+````
 
 **Note:** If you are using **localhost** in the URL of the **NavigateTo** method it must contain a trailing '.' character like this: ActiveBrowser.NavigateTo("http://localhost./myTestPage") . This is an IE limitation where all URL's must contain a '.' character in them to be recognized properly when a proxy is in place.

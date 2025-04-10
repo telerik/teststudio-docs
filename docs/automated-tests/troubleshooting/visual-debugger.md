@@ -86,6 +86,3 @@ Once finished with debugging process for the current step, you have few options 
 * __Resume normal execution__ using the *Play* button.
 
 	![Visual Debugger Resume normal execution](/img/automated-tests/troubleshooting/visual-debugger/fig12.png)
-
-[1]: /img/general-information/test-execution/visual-debugger/fig1.png
-[2]: /img/general-information/test-execution/visual-debugger/fig2.png

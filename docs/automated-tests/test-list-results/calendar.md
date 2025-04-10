@@ -40,8 +40,8 @@ Double click a test list result entry to view its details displayed on the right
 
 ![drill down test list result][6]
 
-[1]: /img/automated-tests/test-list-results/calendar/fig1.png
-[2]: /img/automated-tests/test-list-results/calendar/fig2.png
+
+
 [3]: /img/automated-tests/test-list-results/calendar/fig3.png
 [4]: /img/automated-tests/test-list-results/calendar/fig4.png
 [5]: /img/automated-tests/test-list-results/calendar/fig5.png

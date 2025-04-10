@@ -24,7 +24,7 @@ Place the mouse cursor over the dots in the left or top of the __Recording Toolb
 
 ![Move Compact Recording Toolbar][1]
 
-## Enable Hover Over Highlighting ##
+## Enable Hover Over Highlighting 
 
 ![Enable Highlighting Button][2]
 
@@ -36,7 +36,7 @@ Place the mouse cursor over the dots in the left or top of the __Recording Toolb
 >
 > The __keyboard shortcut to toggle the highlighting on or off is the *Pause/Break* key__. It can be helpful in situation when you need to keep the focus on the hovered element.
 
-## Pause/Resume Recording Mode ##
+## Pause/Resume Recording Mode 
 
 Once the **Compact Recording Toolbar** is attached to the tested application, it is in active recording mode and has a red border all around. You can pause the recording, by pressing the **Pause** button.
 
@@ -50,7 +50,7 @@ When in paused mode, you see the **Record** button which allows you to return to
 >
 > The __keyboard shortcut to pause or resume the recording is the *Print Screen* key__.
 
-## Advanced Recording Tools ##
+## Advanced Recording Tools 
 
 ![Show Advanced Recording Tools][10]
 
@@ -58,25 +58,29 @@ From the **Compact Recording Toolbar** you can also access the <a href="/feature
 
 ![Advanced Recording Tools][11]
 
-## Toolbar Orientation ##
+## Toolbar Orientation 
 
 Choose between vertical and horizontal **Compact Recording Toolbar** and move it around inside or outside the tested application.
 
-<table id=no-table>
-	<tr>
-		<td>![Horizontal Toolbar][12]</td>
-		<td>![Vertical Toolbar][13]</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Horizontal Toolbar][12]</td>
+<td>
+
+![Vertical Toolbar][13]</td>
 	</tr>
-<table>
+</table>
 
 [1]: /img/features/recorder/compact-recording-toolbar/anim1.gif
 [1a]: /img/features/recorder/compact-recording-toolbar/fig1.png
 [2]: /img/features/recorder/compact-recording-toolbar/fig2.png
 [3]: /img/features/recorder/compact-recording-toolbar/fig3.png
-[4]: /img/features/recorder/compact-recording-toolbar/fig4.png
-[5]: /img/features/recorder/compact-recording-toolbar/fig5.png
-[6]: /img/features/recorder/compact-recording-toolbar/fig6.png
-[7]: /img/features/recorder/compact-recording-toolbar/fig7.png
+
+
+
+
 [8]: /img/features/recorder/compact-recording-toolbar/fig8.png
 [9]: /img/features/recorder/compact-recording-toolbar/fig9.png
 [10]: /img/features/recorder/compact-recording-toolbar/fig10.png

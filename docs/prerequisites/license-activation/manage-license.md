@@ -40,10 +40,9 @@ Another option to deactivate the license is in the __Change License...__ screen 
 ![Deactivate License from Manage window][14]
 
 [1]: /img/knowledge-base/activation-kb/change-trial-purchase/fig1.png
-[2]: /img/knowledge-base/activation-kb/change-trial-purchase/fig2.png
-[3]: /img/knowledge-base/activation-kb/change-trial-purchase/fig3.png
+
 
 [11]: /img/knowledge-base/activation-kb/change-trial-purchase/manage-license-info.png
 [12]: /img/knowledge-base/activation-kb/change-trial-purchase/change-purchased-license.png
-[13]: /img/knowledge-base/activation-kb/change-trial-purchase/welcome-screen-deactivate-license.png
+
 [14]: /img/knowledge-base/activation-kb/change-trial-purchase/change-license-deactivate.png

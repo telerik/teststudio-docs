@@ -36,7 +36,7 @@ The *project root folder* and *settings file* fields accept relative path to the
 
 Your test execution step is now ready to save and run.
 
-[1]: images/ciplugin/fig1.png
+
 [2]: images/ciplugin/fig2.png
 [3]: images/ciplugin/fig3.png
 [4]: images/ciplugin/fig4.png

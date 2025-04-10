@@ -35,16 +35,20 @@ Click the **Execute** button in the **Test** ribbon. The test steps are executed
 
 - The summary shows the result for the selected iteration.
 
-<table id="no-table">
-<tr>
-<td>![Test Studio product iteration](/img/automated-tests/data-drive-test/ddt-results/ts-product-iteration.png)</td>
-<td>![Random string product iteration](/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png)</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Test Studio product iteration](/img/automated-tests/data-drive-test/ddt-results/ts-product-iteration.png)</td>
+<td>
+
+![Random string product iteration](/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png)</td>
 </tr>
-<tr>
-<td>_Test Studio product iteration_</td>
-<td>_Random string product iteration_</td>
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>Test Studio product iteration</td>
+<td>Random string product iteration</td>
 </tr>
-<table>
+</table>
 
 - The drop-down menu contains a list with all iterations and shows the used value from the data table.
 - Expand the drop-down menu to view the list and select an iteration to see the results for it.
@@ -54,16 +58,20 @@ Click the **Execute** button in the **Test** ribbon. The test steps are executed
 - *Test Studio* and *Kendo* were both part of the text in the first listed search result, thus the verification that the search is valid was successful.
 - The random string did not appear in the first listed search result, so the last iteration failed.
 
-<table id="no-table">
-<tr>
-<td>![Kendo product iteration](/img/automated-tests/data-drive-test/ddt-results/kendo-product-iteration.png)</td>
-<td>![Random string product iteration](/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png)</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Kendo product iteration](/img/automated-tests/data-drive-test/ddt-results/kendo-product-iteration.png)</td>
+<td>
+
+![Random string product iteration](/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png)</td>
 </tr>
-<tr>
-<td>_Kendo product iteration_</td>
-<td>_Random string product iteration_</td>
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>Kendo product iteration</td>
+<td>Random string product iteration</td>
 </tr>
-<table>
+</table>
 
 ### Execution Log Results
 

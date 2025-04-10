@@ -3,7 +3,7 @@ title: Cannot Build Project After version 2015.3.1202
 page_title: Cannot Build Project After version 2015.3.1202 
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
-publish: false
+published: false
 ---
 # Cannot build projects in Visual Studio after upgrading to 2015.3.1202 version and higher
 

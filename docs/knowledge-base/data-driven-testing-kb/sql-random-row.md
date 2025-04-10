@@ -4,11 +4,11 @@ page_title: SQL Random Row
 description: I would like to use a single, random row of data for each execution of a test that is data bound to a SQL Database.
 position: 1
 ---
-#Use T-SQL to Pull a Random Row from a SQL Database#
+## Use T-SQL to Pull a Random Row from a SQL Database
 
 *I would like to use a single, random row of data for each execution of a test that is data bound to a SQL Database.*
 
-##Solution##
+## Solution
 
 This is possible with T-SQL. Here's how to do it:
 
@@ -23,19 +23,20 @@ This is possible with T-SQL. Here's how to do it:
 
 3. Check **Use T-SQL**. Enter the following code into the **T-SQL Editor** section and click **Update**:
 
-	```SQL
-	SELECT TOP 1 [Name], [City], [Email], [Message]
-	FROM [myDataBase].[dbo].[table]
-	Where Email Like '%domain%'
-	ORDER By NEWID()
-	```
-	* Line 1 indicates how many rows and which columns to use.
+````SQL
+SELECT TOP 1 [Name], [City], [Email], [Message]
+FROM [myDataBase].[dbo].[table]
+Where Email Like '%domain%'
+ORDER By NEWID()
+````
+
+- Line 1 indicates how many rows and which columns to use.
 	
-	* Line 2 indicates the database and table name.
+- Line 2 indicates the database and table name.
 	
-	* Line 3 indicates whether to filter based on text matching criteria. In this case, since all entries in the Email column contain domain, all rows are returned.
+- Line 3 indicates whether to filter based on text matching criteria. In this case, since all entries in the Email column contain domain, all rows are returned.
 	
-	* Line 4 sorts the rows by a unique identifier, which essentially randomizes them in the database.
+-  Line 4 sorts the rows by a unique identifier, which essentially randomizes them in the database.
 
 
 4.&nbsp; Click **Update again** to see the randomization in action. 

@@ -28,8 +28,6 @@ Once the external class library is referenced in the project you need to add `us
 
 ![List the dll in Code behind][5]
 
-[1]: /img/advanced-topics/coded-steps/add-assembly-reference/fig1.png
 [2]: /img/advanced-topics/coded-steps/add-assembly-reference/fig2.png
 [3]: /img/advanced-topics/coded-steps/add-assembly-reference/fig3.png
-[4]: /img/advanced-topics/coded-steps/add-assembly-reference/fig4.png
 [5]: /img/advanced-topics/coded-steps/add-assembly-reference/fig5.png

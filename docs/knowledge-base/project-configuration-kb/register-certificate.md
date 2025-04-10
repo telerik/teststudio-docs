@@ -4,7 +4,7 @@ page_title: Register Certificate
 description: "Register Certificate for HTTPS Connection. I encounter certificate-related warnings when the Test Studio recorder or runner is attached to the browser. Load Test cannot navigate to the desired page due to security warning certificate error"
 position: 1
 ---
-# Register Certificate for HTTPS Connection
+## Register Certificate for HTTPS Connection
 
 When running performance and load tests, you might encounter warnings for the website's security certificate against https pages.
 
@@ -46,9 +46,9 @@ Without a full version of Test Studio installed, there is no GUI to register the
 
 Open a command prompt and change the working directory to the Test Studio installation folder `C:\Program Files (x86)\Progress\Test Studio\Bin`. Then enter the following command:
 
-```
+````
 ArtOfTest.WebAii.HttpProxy.exe InstallCertificate
-```
+````
 
  
 

@@ -4,15 +4,15 @@ page_title: Using Elements From Repository In A Utility Class
 description: "Use Elements From Repository In A Utility Class in Test Studio code file."
 position: 1
 ---
-#How to Use Elements From Repository In A Utility Class#
+# How to Use Elements From Repository In A Utility Class
 
 *I would like to use elements recorded in the <a href="/knowledge-base/project-configuration-kb/element-repository" target="_blank">Elements repository</a> in my standalone code class file.*
 
-##Solution##
+## Solution
 
 We do not recommend using elements from the repository in a <a href="/features/coded-steps/standalone-code-file" target="_blank">standalone class file</a>. If there is a specific scenario you could not avoid you could refer to the example below. You would need to add references to ***ArtOfTest.WebAii.Core.dll*** and ***ArtOfTest.WebAii.Design.dll*** and include *using* statements for these in the code file. The ***Utility class*** inherits the ***BaseWebAiiTest*** and requires definition for region ***[Dynamic Pages Reference]***.
 
-```C#
+````C#
 using ArtOfTest.WebAii.Core;
 using ArtOfTest.WebAii.Design;
 
@@ -44,8 +44,8 @@ namespace SomeTestProject
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports ArtOfTest.WebAii.Core
 Imports ArtOfTest.WebAii.Design
 
@@ -73,21 +73,21 @@ Namespace SomeTestProject
 	End Class
 End Namespace
 
-```
+````
 
 In a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> you would need to create an instance of this class in order to use its methods as shown below:
 
-```C#
+````C#
 // create an instance of the class
 var MyClass = new Utility();
 
 // call a method of this class
 MyClass.DoSomething();
-```
-```VB
+````
+````VB
 // create an instance of the class
 Dim [MyClass] = New Utility()
 
 // call a method of this class
 [MyClass].DoSomething()
-```
+````

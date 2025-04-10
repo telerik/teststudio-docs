@@ -4,11 +4,11 @@ page_title: Browser Specific Actions
 description: "Invoke browser specific actions in a standard or coded step in Test Studio only if the specified browser type is the execution browser. "
 position: 1
 ---
-# Invoke Browser-Specific Actions #
+# Invoke Browser-Specific Actions 
 
 *I would like to invoke browser-specific actions in a standard or coded step. This means the step is only executed if the test is running in the specified browser type.*
 
-## Solution ##
+## Solution 
 
 Use a standard (non-coded) step or use a coded solution.
 
@@ -20,7 +20,7 @@ Keep in mind that if you use this feature, the step will run against the specifi
 
 You can  put together a much more complex use-case by using a coded solution. Here's the code from the test sample. It demonstrates how to use a different search word based on browser type:
 
-```C#
+````C#
 ActiveBrowser.NavigateTo("http://www.telerik.com/"); 
 //Navigate to the page
   
@@ -46,8 +46,8 @@ Log.WriteLine("Test is executing in the following browser:" + ActiveBrowser.Brow
   
 Find.ById<HtmlInputSubmit>("~btnSearchSubmit").Click(); //Click submit button
 System.Threading.Thread.Sleep(2000); //Wait a bit so we can see the result
-```
-```VB
+````
+````VB
 ActiveBrowser.NavigateTo("http://www.telerik.com/")
 'Navigate to the page
   
@@ -75,7 +75,7 @@ Find.ById(Of HtmlInputSubmit)("~btnSearchSubmit").Click()
 'Click submit button
 System.Threading.Thread.Sleep(2000)
 'Wait a bit so we can see the result
-```
+````
 
 The coded solution is also applicable to the Telerik Testing Framework.
 

@@ -134,7 +134,6 @@ When a test is failing and you need to share the identified faulty behavior with
 [13]: /img/automated-tests/test-results/new-step-failure-details/new4.png
 [14]: /img/automated-tests/test-results/new-step-failure-details/new5.png
 
-[1]: /img/automated-tests/test-results/step-failure-details/fig1.png
 [2]: /img/automated-tests/test-results/new-step-failure-details/fig2.png
 [2a]: /img/automated-tests/test-results/new-step-failure-details/fig2a.png
 [3]: /img/automated-tests/test-results/step-failure-details/fig3.png

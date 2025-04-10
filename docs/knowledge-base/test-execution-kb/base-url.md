@@ -4,11 +4,11 @@ page_title: Running a Test against Multiple Environments Using BaseURL
 description: Using BaseURL in a Test Studio project. Multiple test environments in which to execute test scripts. The server URL is different for each environment. How can I avoid rewriting all of my tests from scratch to make them work with a different server URL? Run the same tests against the different staging environments.
 position: 1
 ---
-# Running a Test Against Multiple Environments (Using BaseURL) #
+## Running a Test Against Multiple Environments (Using BaseURL) 
 
 I have multiple test environments against which to execute my test scripts. The server URL is different for each environment. How can I avoid rewriting all of my tests from scratch to make them work with a different server URL?
 
-## Solution ##
+## Solution 
 
 Test Studio allows you to create URL-relative tests with the concept of BaseURL. The BaseURL property is the static part of the URL that is set as a global setting for your entire project. A simple example is if your application **MyApplication** is deployed on both a production server **http://Server1** and a testing server **http://Server2**. If you <a href="#project-property">set the global project setting</a> and start recording, the navigation step will be recorded as follows:
 
@@ -19,14 +19,14 @@ Test Studio allows you to create URL-relative tests with the concept of BaseURL.
 
 In addition test lists have their own BaseURL property. This property is by default inherited by the project settings, but you can <a href="#test-lists-property">change it</a> to run the same set of tests against different servers. Bear in mind that if a test list has a BaseURL set it overrides the project property.
 
-## Project Property ##
+## Project Property 
 
 1. The global project setting can be set in the <a href="/features/project-settings/recording-options" target="_blank">Project Settings in the Recording tab</a>.
 1. The same setting can be quick accessed in the **Test** ribbon in the **Base URL** text field.
 
     ![BaseURL][1]
 
-## Test Lists Property ##
+## Test Lists Property 
 
 By default the test list, created in the project with already set BaseURL, inherits the same BaseURL. This can be changed in the <a href="/general-information/test-execution/test-list-settings" target="_blank">test list settings</a>. The BaseURL setting is listed under the Web tab.
 
@@ -34,7 +34,7 @@ By default the test list, created in the project with already set BaseURL, inher
 
 > __Note!__ The test list setting overrides the project setting, and thus you can create multiple test lists and set each to run against different BaseURL.
 
-## Test Step Property ##
+## Test Step Property 
 
 When the test uses any URL, which matches the BaseURL set for the project, the Navigate step will be recorded with the URL divided accordingly in the __BaseURL__ and __NavigateURL__ - this matches the relative part of the used URL.
 
@@ -52,11 +52,11 @@ If the navigated URL differs from the project BaseURL the navigation step is rec
 ><br>
 > If you need a single test to use different URL, other than the BaseURL, use the __Navigate To__ step property _BaseUrl_.
 
-## Project Property in the Visual Studio Plugin ##
+## Project Property in the Visual Studio Plugin 
 
 The default Test Studio settings are not applied in Visual Studio when executing tests through the <a href="/general-information/test-execution/vs-2012-test-explorers" target="_blank">Test Explorer</a>. To be able to set __BaseURL__ you will need to <a href="/knowledge-base/visual-studio-kb/test-explorer-settings" target="_blank">add a settings file and set it to be used from the Visual Studio Test Explorer</a>. Modify the newly created settings file to use the desired BaseURL in its Web tab.
 
-## Using the BaseURL with Frames ##
+## Using the BaseURL with Frames 
 
 When a recorded test step interacts with an element inside an iFrame, by default that iFrame is mapped with its full URL. There is an option, however, to specify that the URL of the iFrame is relative to the set BaseURL. Highlight the <a href="/general-information/test-recording/frames" target="_blank">Frame node</a> in the Elements Explorer and locate the **UsesBaseUrlHost** setting in the Frame's Properties Pane.
 
@@ -66,7 +66,7 @@ Let's say we want to run a test against the same application, but on different s
 
 When **UsesBaseUrlHost** is set to True, the frame uses the host portion of the project's or test list's BaseURL setting.
 
-### FrameInfo BaseURL ###
+### FrameInfo BaseURL 
 
 Let's say we want to run a test against the same application, but under different paths on the same server: **http://Server1/Dev1/Folder1/** and **http://Server1/Dev2/Folder1/**.
 
@@ -74,13 +74,13 @@ Modify the **BaseURL** property under **FrameInfo**. Start with '^/' to substitu
 
 ![FrameInfo BaseURL][6]
 
-## Connect to a Popup Window Using BaseURL ##
+## Connect to a Popup Window Using BaseURL 
 
 If **the base URL** of the dialog matches the one set as a **BaseUrl** property - Test Studio will automatically split the recorded URL, as well. For example - **PopupUrl** property of the "Connect to pop-up window" test step will contain the second part of the dialog's URL.
 
 ![Connect to Popup with BaseURL][7]
 
-## Maintain Previously Recorded Elements ##
+## Maintain Previously Recorded Elements 
 
 If you decide to apply the BaseURL setting for the project when there are already existing tests and elements, you may need to <a href="/knowledge-base/project-configuration-kb/merge-page-nodes" target="_blank">refactor the elements</a> in the Elements Repository to adjust the Page nodes properties to reflect the <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">BaseURL recording options</a>.
 

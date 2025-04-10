@@ -14,12 +14,16 @@ If a test list is scheduled to be executed any time in the future or is set for 
 
 In the Results tab when you hover over a scheduled job, a small X button appears. After clicking that Test Studio will prompt you for deleting the scheduled job.
 
-<table id="no-table">
-<tr>
-<td>![X button][1]</td>
-<td>![Delete Series][2]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![X button][1]</td>
+<td>
+
+![Delete Series][2]</td>
 </tr>
-<table>
+</table>
 
 ## Delete the Physical File That Represents the Scheduled Job
 
@@ -37,6 +41,3 @@ __C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Telerik\TestStudio\Sch
 
 [1]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig1.png
 [2]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig2.png
-[3]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig3.png
-[4]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig4.png
-[5]: /img/features/scheduling-test-runs/stop-cancel-scheduled-job/fig5.png

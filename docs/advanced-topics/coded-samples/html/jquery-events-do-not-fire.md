@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/jquery-events-do-not-fire.aspx, /user-guide/code-samples/html/jquery-events-do-not-fire
 position: 1
 ---
-#jQuery Events Do Not Fire During Test Execution#
+# jQuery Events Do Not Fire During Test Execution
 
 **Note:** As of 2012 R1 SP1, use the TriggerjQueryEvent <a href="/features/test-maintenance/test-step-properties" target="_blank">Test Step Property</a> to trigger jQuery events for HTML drop-down menus. Minimum supported jQuery version is 1.4.
 
@@ -13,26 +13,33 @@ In some cases, Test Studio does not automatically call local jQuery events. You 
 
 Inputting text into <a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_change" target="_blank">this</a> simple HTML text box triggers a jQuery event that changes the background color of the text box.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
 	<tr>
-		<td>![Before Selection][1] </br></br>**Before Selection**</td>
-		<td>![Available Selections][2] </br></br>**Available Selections**</td>
-		<td>![After Selection][3] </br></br>**After Selection**</td>
-	</tr>
-<table>
+		<td style="text-align: center;">
+		
+![Before Selection][1] </br></br>**Before Selection**</td>
+<td style="text-align: center;">
+
+![Available Selections][2] </br></br>**Available Selections**</td>
+<td style="text-align: center;">
+
+![After Selection][3] </br></br>**After Selection**</td>
+
+</tr>
+</table>
 
 This is the HTML for the text input element:
 
-```HTML
+````HTML
 Enter your name: <input class="field" type="text">
-```
+````
 
 
 Invoke the script that changes the background color with the following coded step:
 
-```C#
+````C#
 Pages.TryitEditorV220.FrameIframeResult.Text.AsjQueryControl().InvokejQueryEvent(ArtOfTest.WebAii.jQuery.jQueryControl.jQueryControlEvents.change);
-```
+````
 
 * The guideline is to always pair the two steps together. Immediately after performing the change step (input, radio button, etc.), run the coded step that calls the .change function for that element.
 

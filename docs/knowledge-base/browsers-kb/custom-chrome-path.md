@@ -2,9 +2,9 @@
 title: Custom Chrome Path
 page_title: Custom Chrome Path
 description: How to set Custom Chrome path if the Chrome installation is a custom one. 
-position: 1
+position: 2
 ---
-#How to Set a Custom Chrome Path#
+## How to Set a Custom Chrome Path
 
 Test Studio looks by default at *C:\Program Files (x86)\Google\Chrome\Application\* for the chrome.exe and *C:\Users\\[UserName]\AppData\Local\Google\Chrome\User Data\Default\* for preferences file.
 

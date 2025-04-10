@@ -8,12 +8,16 @@ position: 1
 
 Each test step provides further actions that can be taken in the right mouse button context menu. Note that some of the items will show up or will be enabled only for certain test step types.
 
-<table id="no-table">
-<tr>
-<td>![1][1]</td>
-<td>![2][2]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![1][1]</td>
+<td>
+
+![2][2]</td>
 </tr>
-<table>
+</table>
 
 ---
 

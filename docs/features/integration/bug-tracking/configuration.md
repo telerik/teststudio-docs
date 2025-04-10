@@ -29,12 +29,16 @@ Connect with bug tracking applications to track bugs you encounter while testing
 
 4.&nbsp; Enter the Server URL and click the **Connect** button.
 
-<table id=no-table>
-	<tr>
-		<td>![TFS service Online][5] <br><br>Azure DevOps (Online TFS Service)</td>
-		<td>![TFS server on premise][6] <br><br>TFS Server on-premise</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![TFS service Online][5] <br><br>Azure DevOps (Online TFS Service)</td>
+<td>
+		
+![TFS server on premise][6] <br><br>TFS Server on-premise</td>
+</tr>
+</table>
 
 Enter valid credentials when prompted. The below example requires username and password for the Azure DevOps service. 
 
@@ -42,12 +46,16 @@ Enter valid credentials when prompted. The below example requires username and p
 
 5.&nbsp; Once the connection to the server is successfully established, select the **Team Project** for Azure DevOps, and the **Team Project Collection** and **Team Project** for on-premise server, then click **Save**.
 
-<table id=no-table>
-	<tr>
-		<td>![TFS service Online][8] <br><br>Azure DevOps (Online TFS Service)</td>
-		<td>![TFS server on premise][9] <br><br>TFS Server on-premise</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+
+![TFS service Online][8] <br><br>Azure DevOps (Online TFS Service)</td>
+<td>
+		
+![TFS server on premise][9] <br><br>TFS Server on-premise</td>
+</tr>
+</table>
 
 ## Jira Server
 
@@ -128,4 +136,3 @@ Click **Advanced Settings** ![Advanced settings button][20] to set whether to at
 [30]: /img/features/integration/bug-tracking/configuration/bug-report-icon-navigate-JIRA.png
 [20]: /img/features/integration/bug-tracking/configuration/advanced-settings.png
 [21]: /img/features/integration/bug-tracking/configuration/choose-advanced-settings.png
-[22]: /img/features/integration/bug-tracking/configuration/import-from-exploratory.png

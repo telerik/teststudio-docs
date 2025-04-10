@@ -40,7 +40,7 @@ Or alternatively from the Source Control ribbon
 
 [1]: /img/features/source-control/git/supported-git-commands/fig1.png
 [2]: /img/features/source-control/git/supported-git-commands/fig2.png
-[5]: /img/features/source-control/git/open-git-project/fig5.png
+
 [6]: /img/features/source-control/open-tfs-project/fig6.png
 [7]: /img/features/source-control/open-tfs-project/fig7.png
 [8]: /img/features/source-control/open-tfs-project/fig8.png

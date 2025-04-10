@@ -8,24 +8,32 @@ position: 6
 
 Once your application is ready for testing you can map your <a href="/features/elements-explorer/predefined-elements" target="_blank">predefined elements</a> to the actual elements. In order to proceed select the predefined element you would like to map and select Element Mapping button:
 
-<table id="no-table">
-	<tr>
-		<td>![Element Mapping TS][6] <br><br>**Standalone version**</td>
-		<td>![Element Mapping TS][15] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+![Element Mapping TS][6] <br><br>**Standalone version**</td>
+<td>
+		
+![Element Mapping TS][15] <br><br>**VS plugin**</td>
+</tr>
+</table>
 
 The mapping dialog window appears allowing you to select between a Web or WPF test.
 
 * For Web: type New URL or choose from Recent URLs and click **Start Mapping** button. 
 * For WPF: select new WPF app using the browse button or choose from Recent Apps and click **Start Mapping** button.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+![Web][7] <br><br>**Web**</td>
+<td>
+
+![WPF][8] <br><br>**WPF**</td>
 <tr>
-<td>![Web][7] <br><br>**Web**</td>
-<td>![WPF][8] <br><br>**WPF**</td>
-<tr>
-<table>
+</table>
 
 > The example shown here is for a Web test, but for a WPF test the actions are exactly the same.
 

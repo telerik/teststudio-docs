@@ -18,21 +18,21 @@ The "blind" typing actions itself could be implemented in a <a href="/features/c
 
 Here's a line of sample code that types "*This is a sample*":
 
-```C#
+````C#
     Manager.Desktop.KeyBoard.TypeText("This is a sample", 200);
-```
-```VB
+````
+````VB
     Manager.Desktop.KeyBoard.TypeText("This is a sample", 200)
-```
+````
 
 Here's a line of sample code that presses the ENTER key: 
 
-```C#
+````C#
     Manager.Desktop.KeyBoard.KeyPress(Keys.Enter, 200);
-```
-```VB
+````
+````VB
     Manager.Desktop.KeyBoard.KeyPress(Keys.Enter, 200)
-```
+````
 
 
 **Manager.Desktop.KeyBoard** contains many additional methods you might also find useful:

@@ -77,12 +77,16 @@ If you want to place the panel separately, you can use the arrows on the right, 
 
 If you select the center of the target panel, the undocked panel will appear as a tab next to the target panel.
 
-<table id=no-table>
-	<tr>
-		<td>![choose center][5]</td>
-		<td>![tabs][6]</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="background-color: transparent; border:none;">
+		<td>
+
+![choose center][5]</td>
+<td>
+
+![tabs][6]</td>
+</tr>
+</table>
 
 ### Hide or Show a Panel
 
@@ -150,7 +154,7 @@ Test Studio comes with a __Light__ and __Dark__ theme. Choose the one that suits
 [4a]: /img/automated-tests/customize-project/custom-layout/fig4a.png
 [5]: /img/automated-tests/customize-project/custom-layout/fig5.png
 [6]: /img/automated-tests/customize-project/custom-layout/fig6.png
-[7]: /img/automated-tests/customize-project/custom-layout/fig7.png
+
 [8a]: /img/automated-tests/customize-project/custom-layout/fig8a.png
 [8]: /img/automated-tests/customize-project/custom-layout/unpin-pane.gif
 [8b]: /img/automated-tests/customize-project/custom-layout/show-and-pin-pane.gif

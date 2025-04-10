@@ -4,7 +4,7 @@ page_title: Frequently Asked Questions
 description: "Test Studio Testing Framework FAQ."
 position: 1
 ---
-#Frequently Asked Questions#
+# Frequently Asked Questions
 
 * **How much does Telerik Testing Framework cost?**
 	
@@ -68,13 +68,13 @@ System.Configuration.ConfigurationErrorsException: System.Configuration.Configur
 
 *There is a significant difference between TextContent and InnerText. TextContent is only the text at the same level as the node. InnerText is the combined text from the current node and everything below it. The text you are seeing in the browser window is probably contained within another element, such as a <span> element. Studying an HTML example will help make this clear:*
 	
-```HTML
+````HTML
 <td id="gridEvents_rc_0_0">
    Same Level Text
    <nobr>Foremen
        <div>Lower Level Text</div>
    </nobr>
 </td>
-```   
+````   
 
 *In this example TextContent is the string "Same Level Text". InnerText is the string "Same Level TextForemenLower Level Text". You can probably use InnerText in your code in place of TextContent and be just fine.*	

@@ -4,7 +4,7 @@ page_title: Variable Query Strings
 description: Often web applications are designed such that they use a variable or random query string in the URL address. The order status page at Newegg.com is a good example of this. Every time you go to their order status page, a random ID is added to the URL. Here is how Test Studio can handle these dynamic URLs.
 position: 1
 ---
-#How to Deal with Variable Query Strings in URLs#
+## How to Deal with Variable Query Strings in URLs
 
 Often web applications are designed such that they use a variable or random query string in the URL address. The order status page at Newegg.com is a good example of this. Every time you go to their order status page, a random ID is added to the URL as shown in this screen shot:
 
@@ -16,7 +16,7 @@ In this screen shot I recorded entering and leaving the Newegg order status page
 
 ![Duplicate elements][2]
 
-##Solution##
+## Solution
 
 You can easily recover from what appears to be a mess. Before I explain how to clean up this mess, I'd like to reassure you that what looks like a mess in Elements Explorer is not really a problem during test execution. The framework actually doesn't use the page nodes during test execution. It only uses the Find Expressions for the elements that the test steps interact with. So even though you have multiple page nodes, each with their own element, executing the recorded test will work correctly since it is actually ignoring the variable URL.
 
@@ -34,12 +34,16 @@ In order to avoid this duplication in the feature recording of your tests change
 
 1. Open Project Settings.
 
-	<table id="no-table">
+	<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+	<td>
+	
+	![Standalone][5]<br>**Standalone version**</td>
+	<td>
+	
+	![VS Plugin][6]<br>**VS Plugin**</td>
 	<tr>
-	<td>![Standalone][5]<br>**Standalone version**</td>
-	<td>![VS Plugin][6]<br>**VS Plugin**</td>
-	<tr>
-	<table>
+	</table>
 
 2. Click **Recording Options**.
 
@@ -49,7 +53,7 @@ In order to avoid this duplication in the feature recording of your tests change
 
 After making this change, recording your test scripts will automatically merge duplicate pages and elements into just one page node with the unique elements showing under it.
 
-##Connecting to HTML Popup Windows##
+## Connecting to HTML Popup Windows
 
 The other place you may have to deal with variable query strings is in the URL of pop-up windows. Unfortunately these have to be cleaned up manually after each recording. Test Studio currently does not have a feature to automatically strip or ignore the query strings when recording and/or executing a "Connect to pop-up window" test step. If you try to execute a test that connects to a pop-up window with a variable query string in the URL, the test will probably fail because you are almost guaranteed to get a different query string at run time then you had when you recorded your test script. Here's a screen shot of an example:
 

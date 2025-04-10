@@ -4,7 +4,7 @@ page_title: Keep an Active Session
 description: No Functional tests can be executed on locked machine or inactive desktop session. This is a possible solution how to configure few machines to keep an active session on one of the machines. 
 position: 1
 ---
-# Keep an Active Session Running on the Execution Server
+## Keep an Active Session Running on the Execution Server
 
 Scheduling involves running Test Studio tests on an Execution Server. However, any test that requires moving the mouse or sending keystrokes requires an unlocked desktop. Test Studio tests are not the only ones affected by this Windows limitation. This is a general problem with any tool that performs UI testing.
 

@@ -14,7 +14,7 @@ After installing Test Studio Dev, you will be asked to activate your license. Du
 > All users, both trial and purchased, will need to activate their product after installation before they can begin using the tool.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Activate Test Studio Dev License 

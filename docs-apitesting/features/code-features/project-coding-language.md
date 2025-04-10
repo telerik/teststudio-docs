@@ -3,7 +3,7 @@ title: Project Coding Language
 page_title: Project Coding Language
 description: "Progress® Test Studio® for APIs - Code Features - Project Coding Language"
 position: 4
-publish: true
+published: true
 ---
 
 # Project Coding Language

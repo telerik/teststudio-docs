@@ -30,11 +30,11 @@ To identify and resolve the issue with the Test List execution stopping unexpect
 
 3. Once the execution stops unexpectedly, review the generated application log. Look for entries similar to the following error message:
 
-    ```
-    [Error] LoadTest: Unable to find test at 'C:\Test Studio\ProjectFolder\SubFolder\Test1.tstest'!
-    ....
-    CommandLineTestListRunner.RunnerProcess_Exited() : Runner process exit code: 12 - NOT_RUN_TEST_NOT_FOUND.
-    ```
+````
+[Error] LoadTest: Unable to find test at 'C:\Test Studio\ProjectFolder\SubFolder\Test1.tstest'!
+....
+CommandLineTestListRunner.RunnerProcess_Exited() : Runner process exit code: 12 - NOT_RUN_TEST_NOT_FOUND.
+````
 
 4. This error indicates that a test referenced in the Test List (`Test1.tstest`) is missing from the specified location in the project.
 

@@ -4,13 +4,13 @@ page_title: Log Error Dialogs
 description: "Log Random appearing Error Dialogs and automatically handle these during a Test Studio test run."
 position: 1
 ---
-#Log Error Dialogs#
+# Log Error Dialogs
 
 *My application can potentially display a dialog containing an error message during test execution. The dialog can appear multiple times and will not always appear at the same point in the test, therefore I cannot use a standard Dialog Handler step.
 
 I want to capture these error messages and automatically handle these dialogs if they appear.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The stipulation is that the dialog is displayed the same way and has the same title in each browser:
 
@@ -24,7 +24,7 @@ This is possible with a coded solution. The stipulation is that the dialog is di
 
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the Dynamic Pages Reference region:
 
-```C#
+````C#
 using System.Threading;
 using System.Windows.Forms;
 using ArtOfTest.WebAii.Win32.Dialogs;
@@ -67,8 +67,8 @@ namespace TestProject7
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Threading
 Imports System.Windows.Forms
 Imports ArtOfTest.WebAii.Win32.Dialogs
@@ -106,6 +106,6 @@ Namespace TestProject7
         End Sub
     End Class
 End Namespace
-```
+````
 
 [1]: /img/advanced-topics/coded-samples/general/log-error-dialogs/fig1.png

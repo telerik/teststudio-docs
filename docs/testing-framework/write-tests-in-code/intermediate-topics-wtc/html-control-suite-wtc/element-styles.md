@@ -4,7 +4,7 @@ page_title: Element Styles
 description: "Test Studio Testing Framework read and validate the styles of HTML elements in coded tests."
 position: 2
 ---
-#Element Styles and HtmlStyle, GetStyle, GetComputedStyle#
+# Element Styles and HtmlStyle, GetStyle, GetComputedStyle
 
 Telerik Testing Framework includes a good set of classes and methods for reading and validating the styles often attached to HTML controls. With this feature you can do things like:
 
@@ -24,7 +24,7 @@ Telerik Testing Framework includes a good set of classes and methods for reading
  
 Let's look at some code samples to see how this works:
 
-```C#
+````C#
 // Verify the color of the warning text is Red
 HtmlSpan warningSpan = Find.ById<HtmlSpan>("Warning");
 HtmlStyle warningColorStyle = warningSpan.GetStyle("color");
@@ -60,8 +60,8 @@ HtmlStyle warningMarginStyle = warningSpan.GetStyle("margin");
 Assert.IsTrue(warningMarginStyle.IsInt());
 int warningMargin = warningMarginStyle.ToInt();
 Assert.AreEqual(30, warningMargin);
-```
-```VB
+````
+````VB
 ' Verify the color of the warning text is Red
 Dim warningSpan As HtmlSpan = Find.ById(Of HtmlSpan)("Warning")
 Dim warningColorStyle As HtmlStyle = warningSpan.GetStyle("color")
@@ -95,13 +95,13 @@ Dim warningMarginStyle As HtmlStyle = warningSpan.GetStyle("margin")
 Assert.IsTrue(warningMarginStyle.IsInt())
 Dim warningMargin As Integer = warningMarginStyle.ToInt()
 Assert.AreEqual(30, warningMargin)
-```
+````
 
 The GetComputedStyle is especially powerful. It will follow the CSS chain up through all the parent elements until it finds the first matching style and returns the value picked up from that style. This is quite different from GetStyle which only returns an explicitly set style value on the specific element (i.e. it does not follow the CSS chain). If no explicit value has been set then GetStyle returns an empty string for the value. 
 
 Here's an example:
 
-```C#
+````C#
 // GetStyle returns the value of an explicit style applied to the element.
 // If the element does not have an explicit style applied, GetStyle returns an empty value.
 // Since our warning span does not have the padding style explicitly applied to it,
@@ -114,8 +114,8 @@ Assert.IsTrue(string.IsNullOrEmpty(paddingStyle.Value));
 // Therefore GetComputedStyle on the warning span will return the value set in the parent form tag.
 paddingStyle = warningSpan.GetComputedStyle("padding");
 Assert.IsFalse(string.IsNullOrEmpty(paddingStyle.Value));
-```
-```VB
+````
+````VB
 ' GetStyle returns the value of an explicit style applied to the element.
 ' If the element does not have an explicit style applied, GetStyle returns an empty value.
 ' Since our warning span does not have the padding style explicitly applied to it,
@@ -128,4 +128,4 @@ Assert.IsTrue(String.IsNullOrEmpty(paddingStyle.Value))
 ' Therefore GetComputedStyle on the warning span will return the value set in the parent form tag.
 paddingStyle = warningSpan.GetComputedStyle("padding")
 Assert.IsFalse(String.IsNullOrEmpty(paddingStyle.Value))
-```
+````

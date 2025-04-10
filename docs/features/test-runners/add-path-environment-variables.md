@@ -71,7 +71,7 @@ Below you can find the necessary steps to add the _Bin_ sub-folder to the __PATH
 [4]: /img/features/test-runners/add-path-environment-variables/fig4.png
 [5]: /img/features/test-runners/add-path-environment-variables/fig5.png
 [6]: /img/features/test-runners/add-path-environment-variables/fig6.png
-[7]: /img/features/test-runners/add-path-environment-variables/fig7.png
+
 [8]: /img/features/test-runners/add-path-environment-variables/fig8.png
 [9]: /img/features/test-runners/add-path-environment-variables/fig9.png
 [10]: /img/features/test-runners/add-path-environment-variables/fig10.png

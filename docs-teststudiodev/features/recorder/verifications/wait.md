@@ -5,7 +5,7 @@ description: How to create a wait step to pause the Test Studio Dev test executi
 slug: recorder/wait-step
 position: 3
 ---
-# Create a Wait Step#
+# Create a Wait Step
 
 You can create a _Wait step_ in the same manner as a <a href="/features/recorder/verifications/quick-verification" target="_blank">quick verification</a> step. Instead of passing or failing based on a comparison, this step will wait for the comparison to be true before proceeding. The verification is performed after the server has responded.
 

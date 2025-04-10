@@ -5,15 +5,15 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/table-search-and-paging.aspx, /user-guide/code-samples/html/table-search-and-paging
 position: 1
 ---
-#HTML Table Searching and Paging#
+# HTML Table Searching and Paging
 
 *I would like to search an HTML table for specific content and continue through the pages until it is found.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/grid/index" target="_blank">Telerik demo site</a>.
 
-```C#
+````C#
 HtmlTable table = Find.ByExpression<HtmlTable>("id=Grid", "|", "tagIndex=table:1");
 HtmlSpan next = Find.ByExpression<HtmlSpan>("class=k-icon k-i-arrow-e");
 HtmlAnchor a = Find.ByExpression<HtmlAnchor>("title=Go to the next page");
@@ -52,8 +52,8 @@ while (false == found && false == disabled)
     System.Threading.Thread.Sleep(1000);
     table.Refresh();
 }
-```
-```VB
+````
+````VB
 Dim table As HtmlTable = Find.ByExpression(Of HtmlTable)("id=Grid", "|", "tagIndex=table:1")
 Dim [next] As HtmlSpan = Find.ByExpression(Of HtmlSpan)("class=k-icon k-i-arrow-e")
 Dim a As HtmlAnchor =
@@ -87,4 +87,4 @@ While False = found AndAlso False = disabled
     System.Threading.Thread.Sleep(1000)
     table.Refresh()
 End While
-```
+````

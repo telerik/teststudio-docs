@@ -26,20 +26,4 @@ Use the below steps to switch using the Chrome for Testing browser for test reco
 
 ## Setup Test Studio to use Chrome for Testing
 
-Once the Chrome for Testing setup is complete Test Studio starts using it automatically and no further adjustment is needed. 
-
-
-<script>
-window.addEventListener('DOMContentLoaded', function () {
-$(".toggle_container").hide();
-    
-    $("p.trigger").click(function(e){
-        e.preventDefault();
-        $(this).toggleClass("active").next().slideToggle("normal");
-		$(this).find('#d').text(function (i, oldText) {
-        return $.trim(oldText) == '+' ? '-' : '+';
-		});
-		
-    });
-    });
-</script>
+Once the Chrome for Testing setup is complete Test Studio starts using it automatically and no further adjustment is needed.

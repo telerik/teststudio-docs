@@ -46,8 +46,8 @@ Any changes in the Test Settings will appear in the _Users Over Time_ graph.
 
 ![Time Graph][6]
 
-[1]: /img/features/testing-types/load-testing/test-settings/fig1.png
-[2]: /img/features/testing-types/load-testing/test-settings/fig2.png
+
+
 [3]: /img/features/testing-types/load-testing/test-settings/fig3.png
 [4]: /img/features/testing-types/load-testing/test-settings/fig4.png
 [4a]: /img/features/testing-types/load-testing/test-settings/fig4a.png

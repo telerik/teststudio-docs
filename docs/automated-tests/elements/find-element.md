@@ -13,7 +13,7 @@ In certain scenarios the automatically generated <a href="/features/elements-exp
 
 To verify what find expression for an element was automatically generated and edit it, if necessary, use the <a href="/features/elements-explorer/overview#element-context-menu" target="_blank">Element's Explorer context menu</a> or double click on the same element.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
 	<tr>
 		<td><img src="/img/features/elements-explorer/find-element/fig101.png" alt="Edit Element"></td>
 		<td><img src="/img/features/elements-explorer/find-element/fig102.png" alt="Edit Element Double Click"></td>
@@ -173,31 +173,30 @@ To filter an element's find expression using the column name from parent data so
 
 ![Bind Coded variable][120]
 
-[1]: /img/features/elements-explorer/find-element/fig1.png
-[2]: /img/features/elements-explorer/find-element/fig2.png
-[3]: /img/features/elements-explorer/find-element/fig3.png
-[4]: /img/features/elements-explorer/find-element/fig4.png
-[5]: /img/features/elements-explorer/find-element/fig5.png
-[6]: /img/features/elements-explorer/find-element/fig6.png
-[7]: /img/features/elements-explorer/find-element/fig7.png
-[8]: /img/features/elements-explorer/find-element/fig8.png
-[9]: /img/features/elements-explorer/find-element/fig9.png
-[10]: /img/features/elements-explorer/find-element/fig10.png
-[11]: /img/features/elements-explorer/find-element/fig11.png
-[12]: /img/features/elements-explorer/find-element/fig12.png
-[13]: /img/features/elements-explorer/find-element/fig13.png
-[14]: /img/features/elements-explorer/find-element/fig14.png
-[15]: /img/features/elements-explorer/find-element/fig15.png
-[16]: /img/features/elements-explorer/find-element/fig16.png
-[17]: /img/features/elements-explorer/find-element/fig17.png
-[18]: /img/features/elements-explorer/find-element/fig18.png
-[19]: /img/features/elements-explorer/find-element/fig19.png
-[20]: /img/features/elements-explorer/find-element/fig20.png
-[21]: /img/features/elements-explorer/find-element/fig21.png
-[101]: /img/features/elements-explorer/find-element/fig101.png
-[102]: /img/features/elements-explorer/find-element/fig102.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [103]: /img/features/elements-explorer/find-element/fig103.png
-[104]: /img/features/elements-explorer/find-element/fig104.gif
 [105]: /img/features/elements-explorer/find-element/fig105.png
 [106]: /img/features/elements-explorer/find-element/fig106.png
 [107]: /img/features/elements-explorer/find-element/fig107.png

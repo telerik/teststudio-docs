@@ -23,7 +23,6 @@ The <a href="/automated-tests/test-list-results/analyze-test-list-results#automa
 ><br>
 > The tests need to be designed as autonomous tests - if these are dependent on the previous tests in the list, this setting will not be applicable.
 
-[1]: /img/automated-tests/test-lists/test-list-runs-specifics/fig1.png
-[2]: /img/automated-tests/test-lists/test-list-runs-specifics/fig2.png
+
+
 [3]: /img/automated-tests/test-lists/test-list-runs-specifics/fig3.png
-[4]: /img/automated-tests/test-lists/test-list-runs-specifics/fig4.png

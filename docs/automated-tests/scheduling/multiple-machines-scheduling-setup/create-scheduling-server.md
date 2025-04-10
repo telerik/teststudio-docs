@@ -223,7 +223,7 @@ When all necessary settings are applied and all services are reported running, c
 [4]: /img/features/scheduling-test-runs/create-scheduling-server/fig5new.png
 [5a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5a.png
 [6]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
-[7]: /img/features/scheduling-test-runs/create-scheduling-server/fig7.png
+
 [10]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png
 [101]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png
 [102]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png

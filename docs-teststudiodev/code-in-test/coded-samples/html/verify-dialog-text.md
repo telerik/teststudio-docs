@@ -4,18 +4,15 @@ page_title: Verify Dialog Text - Test Studio Dev Documentation
 description: Verify Dialog Text
 position: 1
 ---
-# How to Verify Dialog Text (Internet Explorer only) #
+# How to Verify Dialog Text (Internet Explorer only)
 
 *I would like to verify the text of a <a href="/features/recorder/specific-recording-scenario/dialogs" target="_blank">Dialog</a> that is fired from the browser during test execution.*
 
-## Solution ##
+## Solution
 
 This is possible with a coded solution.  The code will both handle the dialog and verify the text within it. The second part uses a <a href="http://msdn.microsoft.com/en-us/library/ms173171(v=vs.80).aspx" target="_blank">delegate</a> to implement a custom handler for the dialog.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     string dialogText;
     
     [CodedStep(@"Navigate then verify text in popup dialog")]
@@ -53,12 +50,8 @@ This is possible with a coded solution.  The code will both handle the dialog an
         Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
         dialog.HandleCount++;
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Private dialogText As String
     
     <CodedStep("Navigate then verify text in popup dialog")> _
@@ -90,22 +83,15 @@ This is possible with a coded solution.  The code will both handle the dialog an
         Manager.Desktop.KeyBoard.KeyPress(Keys.Enter)
         dialog.HandleCount += 1
     End Sub
-    {{endregion}}
+````
 
 Ensure you add the following *using* or *Imports* statements to the top of the code-behind file.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     using ArtOfTest.WebAii.Win32.Dialogs;
     using System.Windows.Forms;
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Imports ArtOfTest.WebAii.Win32.Dialogs
     Imports System.Windows.Forms
-    {{endregion}}
+````

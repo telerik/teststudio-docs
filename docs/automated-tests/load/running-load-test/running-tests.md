@@ -87,7 +87,7 @@ padding: 8px;
 <tr>
 	<td>> 60 hours</td><td>10 minutes</td>
 </tr>
-<table>
+</table>
 
 ## Test Run Goals
 
@@ -119,7 +119,3 @@ The “Run Locally” button will be disabled if any of the following prerequisi
 [5]: /img/features/testing-types/load-testing/running-tests/fig5.png
 [6]: /img/features/testing-types/load-testing/running-tests/fig6.png
 [7]: /img/features/testing-types/load-testing/running-tests/fig7.png
-[8]: /img/features/testing-types/load-testing/running-tests/fig8.png
-
-
-

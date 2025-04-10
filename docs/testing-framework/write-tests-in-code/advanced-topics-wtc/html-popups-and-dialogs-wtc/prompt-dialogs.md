@@ -14,7 +14,7 @@ __Telerik Testing Framework__ includes native support for dialog handling (under
 ><br>
 > _using ArtOfTest.WebAii.Win32.Dialogs;_
 
-```C#
+````C#
 // Define the Prompt dialog and how it needs to be handled - choose between Ok and Cancel
 var promptDlg = new ArtOfTest.WebAii.Win32.Dialogs.PromptDialog(Manager.ActiveBrowser, DialogButton.OK, "message to type");
 
@@ -49,8 +49,8 @@ Manager.DialogMonitor.Stop();
 // especially if the elements to use are related to the action confirmed with the dialog handling
 //Manager.ActiveBrowser.RefreshDomTree();
 
-```
-```VB
+````
+````VB
 ' Define the Prompt dialog
 IDialog promptDlg = New ArtOfTest.WebAii.Win32.Dialogs.PromptDialog(Manager.ActiveBrowser, DialogButton.OK, "stringMsg")
 
@@ -77,4 +77,4 @@ promptDlg.Handle()
 Manager.DialogMonitor.RemoveDialog(promptDlg)
 Manager.DialogMonitor.Stop()
 
-```
+````

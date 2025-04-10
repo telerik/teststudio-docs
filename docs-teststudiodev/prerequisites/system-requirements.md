@@ -15,7 +15,7 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 

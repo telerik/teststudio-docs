@@ -5,15 +5,15 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/code-samples/html/table-sum-and-average.aspx, /user-guide/code-samples/html/table-sum-and-average
 position: 1
 ---
-#HTML Table Sum and Average#
+# HTML Table Sum and Average
 
 *I would like to get the sum and the average of the values in a certain column of an HTML table.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The example below is against <a href="http://www.w3schools.com/html/html_tables.asp" target="_blank">this W3Schools site</a>.
 
-```C#
+````C#
 HtmlTable table = Find.ByTagIndex<HtmlTable>("table", 0);
  
 double r = table.Rows.Count;
@@ -36,8 +36,8 @@ Log.WriteLine("Sum: " + sum.ToString());
 double average = sum / r;
 Log.WriteLine("Average: " + average.ToString());
 Assert.IsTrue(sum == 90);
-```
-```VB
+````
+````VB
 Dim table As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)
  
 Dim r As Double = table.Rows.Count
@@ -59,6 +59,6 @@ Log.WriteLine("Sum: " + sum.ToString())
 Dim average As Double = sum / r
 Log.WriteLine("Average: " + average.ToString())
 Assert.IsTrue(sum = 90)
-```
+````
 
 

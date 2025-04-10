@@ -4,11 +4,11 @@ page_title: Log Clipboard Text
 description: "Log copied text from the Clipboard and output it during test execution in Test Studio."
 position: 1
 ---
-#Log Clipboard Text#
+# Log Clipboard Text
 
 *My test copies text into the Clipboard and I would like to log its content.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution:
 
@@ -17,7 +17,7 @@ This is possible with a coded solution:
  
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the Dynamic Pages Reference region:
 
-```C#
+````C#
 using System.Windows.Forms;
 using System.Threading;
  
@@ -49,8 +49,8 @@ namespace TestProject8
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Windows.Forms
 Imports System.Threading
  
@@ -78,4 +78,4 @@ Namespace TestProject8
         End Sub
     End Class
 End Namespace
-```
+````

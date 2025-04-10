@@ -3,9 +3,9 @@ title: Installation and Activation
 page_title: Getting started with installing Test Studio
 description: "A step by step guide on how to download, install and activate Test Studio."
 position: 1
-publish: false
+published: false
 ---
-# Installation and Activation #
+# Installation and Activation 
 
 This article explains how to download, install and activate Telerik Test Studio. The process consists of the following steps:
 
@@ -13,7 +13,7 @@ This article explains how to download, install and activate Telerik Test Studio.
 2. [Install Test Studio](#install-test-studio)
 3. [Activate Your License](#activate-your-license)
 
-## Download Test Studio ##
+## Download Test Studio 
 The easiest way to download the latest version of Test Studio is from <a href=https://www.telerik.com/teststudio target="_blank">the official website</a>.
 
 ![Download](/img/getting-started/installation-and-activation/fig00.png)
@@ -38,7 +38,7 @@ You can also download Test Studio from your telerik.com account.
 
 	![Install](/img/getting-started/installation-and-activation/fig05.png)
 
-## Install Test Studio ##
+## Install Test Studio 
 
 1. After you have [downloaded the install file](#download-test-studio), locate it using Windows Explorer and double click it to launch the installer.
 2. Click the __Read License Agreement__ to read the  <a href="http://www.telerik.com/purchase/license-agreement/teststudio" target="_blank">Test Studio EULA</a>. When ready click __OK__ and then __I Agree – Continue__ button to confirm you agree with the terms of the license.
@@ -76,7 +76,7 @@ You can also download Test Studio from your telerik.com account.
 
 Once you have installed Test Studio, you can <a href="/general-information/installation/check-for-updates" target="_blank">check for updates automatically</a>, or download and install them manually.
 
-## Activate Your License ##
+## Activate Your License 
 
 After installing Telerik <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a>, you will be asked to activate your license. During this process, your machine creates its own unique key and provides it to our server. We use this key to generate a unique license key for the installation of the product. This tutorial below describes how to go through this process and provides a guided walk-through. All users, both trial and purchased, will need to activate their product after installation before they can begin using the tool.
  
@@ -117,7 +117,7 @@ The below process assumes that you have not launched the Standalone or VS plugin
 <div><a style="float:right" href="/getting-started/first-project">Go to <strong>Your First Project</strong></a></div>
 
 
-## Test Execution ##
+## Test Execution 
 
 It is time to execute the recorded test or <a href="/general-information/test-execution/test-lists-standalone" target="_blank">test list</a> and observer the execution process. At the end of the execution, you will see which step passed and which failed, along with <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-execution-log" target="_blank">the execution log</a>.
 
@@ -147,7 +147,7 @@ It is time to execute the recorded test or <a href="/general-information/test-ex
 
     ![Toggle Annotation](/img/getting-started/first-project/fig13.png)
 
-## Execution Results ##
+## Execution Results 
 
 When the test execution is complete, there will be an indication for each step if it *Passed* or *Failed*. Test results are automatically generated and details can be reviewed by clicking on **View Log**. 
 

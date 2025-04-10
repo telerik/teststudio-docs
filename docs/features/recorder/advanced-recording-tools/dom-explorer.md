@@ -18,7 +18,7 @@ Find further details about the DOM Explorer functions:
 - [Searching with RegEx](#regular-expressions)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## Toolbar Options

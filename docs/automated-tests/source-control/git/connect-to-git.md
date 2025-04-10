@@ -2,7 +2,7 @@
 title: Connect Project To Git
 page_title: Connect Project To Git
 description: "Connect Test Studio Project To Git Source control repository. Use Personal Access token to connect to Git repo accessed with 2FA (two factor authentication). Unable to connect to Git. Error connecting to Git, too many redirects or authentication replays"
-publish: true
+published: true
 position: 2
 ---
 # Connect Project To Git

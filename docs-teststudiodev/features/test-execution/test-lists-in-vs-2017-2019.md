@@ -4,7 +4,7 @@ page_title: Test Lists in Visual Studio 2017 and Later - Test Studio Dev Documen
 description: "Test Lists in Visual Studio. How to create a Test Studio Dev test list (suite) in Visual Studio. Static test list dynamic test list"
 position: 3
 ---
-# Test Lists in Visual Studio 2017 and 2019 #
+# Test Lists in Visual Studio 2017 and 2019
 
 As of **Test Studio 2019 R3 (v.2019.3) release** test lists can be also created and executed in a Visual Studio project. There are two types of Test Lists - **Static** and **Dynamic**.
 
@@ -13,7 +13,7 @@ As of **Test Studio 2019 R3 (v.2019.3) release** test lists can be also created 
 
 > __Note!__ Test lists in Visual Studio can only execute web or WPF functional tests.
 
-## Create a Test List File in Visual Studio ##
+## Create a Test List File in Visual Studio
 
 A test list file has the extension ___*.aiilist___ and can be added in a Visual Studio project under a predefined folder named ___TestLists___ - this folder exists in each new project.
 
@@ -35,11 +35,11 @@ Build the solution (press F6) and all test list files will appear in the Test Ex
 
 ![Test list files listed in Test Explorer][5]
 
-### Add a Test List in Newly Created Project ###
+### Add a Test List in Newly Created Project
 
 Ensure you are using Test Studio with minimum version 2019.3 and create a new Test Studio project in Visual Studio 2017 or 2019. In the Solution Explorer you can add test list files under the folder named ___TestLists___.
 
-### Add a Test List in an Existing Project ###
+### Add a Test List in an Existing Project
 
 Once you upgrade Test Studio to minimum version 2019.3 and open an existing project, you will be prompted with a message, that the project needs to be upgraded as well. Once the upgrade is done and the project is loaded, you will need to include the ___TestLists___ folder in the solution.
 
@@ -55,7 +55,7 @@ Now all files from the project root folder will be listed in the __Solution Expl
 
 Again click the ___Show All Files___ button to hide the other files. Save and reopen the solution to apply the changes. Now the ___TestLists___ folder can be used to add test list files in it.
 
-## Add Test Files to Static Test List ##
+## Add Test Files to Static Test List
 
 Once a test list file is added into the ___TestLists___ folder, double click it to choose the test files to add in it.
 
@@ -63,7 +63,7 @@ Once a test list file is added into the ___TestLists___ folder, double click it 
 
 Save the test list file to apply the changes and execute the test list from the ___Test Explorer___ in Visual Studio.
 
-## Add Test Files to Dynamic Test List ##
+## Add Test Files to Dynamic Test List
 
 Once a test list file is added into the ___TestLists___ folder, double click it to craft the rules to filter, upon specific criteria, the test files to add.
 
@@ -77,13 +77,13 @@ The rules can be built upon the specific <a href="/features/test-maintenance/tes
 
 __See also:__ You can find further interesting details in the following <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">in-depth look at Dynamic Test Lists</a>.
 
-## Test List Settings in Visual Studio ##
+## Test List Settings in Visual Studio
 
 To change any of the <a href="/features/test-execution/test-list-settings" target="_blank">Test List settings</a> in Visual Studio, use the gear icon in the upper right corner in each test list.
 
 ![Test List Settings][11]
 
-## Execute Test List Files in Visual Studio ##
+## Execute Test List Files in Visual Studio
 
 To execute the designed test lists in Visual Studio, you can use the different <a href="/features/test-execution/vs-test-explorer#run-tests-and-test-lists-in-test-explorer" target="_blank">Run options in Visual Studio Test Explorer</a>.
 

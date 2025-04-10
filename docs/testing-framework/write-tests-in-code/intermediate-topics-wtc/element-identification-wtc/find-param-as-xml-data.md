@@ -4,7 +4,7 @@ page_title: FindParam as XML Data
 description: "Test Studio Testing Framework FindParam Data Sources."
 position: 1
 ---
-#FindParams as External XML Data Sources#
+# FindParams as External XML Data Sources
 
 **Note:** This topics assumes a basic understanding of FindParam objects. It is recommended to read the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Finding Page Elements</a> topic first before reading this topic.
  
@@ -18,12 +18,12 @@ By doing so we can:
 
 * Enable the same test logic/code to run against different versions of the same application that differ in UI layout or DOM structure. By versioning the external data sources per each different application version, we can configure our tests to consume different data source versions for each application being tested without having to duplicate test code and worry about maintaining multiple code bases. This approach can dramatically cut down maintenance and support costs especially for product teams that maintain and service multiple versions of the same application. It is also a great approach to take on if you are starting a new project and you think you will end up having to support multiple versions of that product in the future.
  
-##Building FindParam Data Sources##
+## Building FindParam Data Sources
 
 We currently don't offer any UI design tools that can help build these data sources directly from your application. Therefore, to build these data source we need to craft our FindParams manually and then using FindParam and FindParamCollection XML serialization methods, store the generated sources to our storage medium of choice (i.e. database, file system ...etc).
 The sample below shows an example of how to build an XML file that can be later consumed by your test code to identify elements to use in the automation logic.
 
-```C#
+````C#
 // First we build the list of FindParam objects we want serialized
 // and add them to a FindParamCollection object.
   
@@ -46,14 +46,14 @@ paramCol.Save(@"C:\AppParams.xml");
 // in your choice of storage medium.
 //
 // string serializedParams = paramCol.ToXml();
-```
+````
 
-##Consuming the Data Sources##
+## Consuming the Data Sources
 
 The are three different methods you can use to consume the data source generated above. We can deserialize the data back into a FindParamCollection object and then select one of these FindParams to locate a specific element on the page.
 
 
-```C#
+````C#
 // Given we already have a datasource of FindParam's stored on a different medium,
 // we can deserialize the data back into a FindParamCollection object and then
 // select one of these FindParam's to locate a specific element on the page
@@ -65,12 +65,12 @@ Element inputText = ActiveBrowser.Find.ByParam(paramCol["InputTextBox"]);
   
 // Perform your automation actions on the element.
 ActiveBrowser.Actions.SetText(inputText, "sometext");
-```
+````
 
 Alternatively we can can create a Dictionary lookup object from the external datasource.
 
 
-```C#
+````C#
 
 // FindParams can be completely extracted out of test code and stored in an external xml file. 
 // 
@@ -96,11 +96,11 @@ Assert.IsTrue(elements["ProgramsTable"].ElementType == ElementType.Table);
 // Note:
 // 1. If you have the XML string stored in a DataBase, you can use the Find.FromXml() 
 //    to find these elements directly from the string.
-```
+````
 
 Finally we can load the external datasource using a FindParamAttribute.
 
-```C#
+````C#
 // The SupportFiles\FindElementsFromFile.xml shows a sample xml file with two FindParams defined; one for
 // the MainTable and the other for ProgramsTable.
    
@@ -112,9 +112,9 @@ Find.All(true);
 Assert.IsTrue(Find.Elements.Count == 2);
 Assert.IsTrue(Find.Elements["MainTable"].ElementType == ElementType.Table);
 Assert.IsTrue(Find.Elements["ProgramsTable"].ElementType == ElementType.Table);
-```
+````
 
-##Managing and Organizing Data Sources for an Entire Application##
+## Managing and Organizing Data Sources for an Entire Application
 
 There are probably many ways you can think of to organize your external data sources for your an entire application. We though want to discuss three approaches you might want to consider. You can organize your external sources:
 

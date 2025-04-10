@@ -157,11 +157,6 @@ This section appears only if there is an <a href="/features/dialogs-and-popups/d
 [0]: /img/features/scheduling-test-runs/create-execution-server/fig0.png
 [1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png
 [1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png
-[2]: /img/features/scheduling-test-runs/create-execution-server/fig2.png
-[3]: /img/features/scheduling-test-runs/create-execution-server/fig3.png
-[4]: /img/features/scheduling-test-runs/create-execution-server/fig4.png
-[5]: /img/features/scheduling-test-runs/create-execution-server/fig5.png
-[6]: /img/features/scheduling-test-runs/create-execution-server/fig6.png
 [6a]: /img/features/scheduling-test-runs/create-execution-server/fig6a.png
 [6b]: /img/features/scheduling-test-runs/create-execution-server/fig6b.png
 [6c]: /img/features/scheduling-test-runs/create-execution-server/fig6c.png

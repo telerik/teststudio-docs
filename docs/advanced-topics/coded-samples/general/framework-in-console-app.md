@@ -4,11 +4,11 @@ page_title: Framework in Console App
 description: "Test Studio - create a console application that performs UI automation tasks by using the Telerik Testing Framework."
 position: 1
 ---
-#Create a Console Application that Utilizes the Telerik Testing Framework#
+# Create a Console Application that Utilizes the Telerik Testing Framework
 
 *I would like to create a console application that performs UI automation tasks by using the Telerik Testing Framework. This application can run without the use of a test runner. It cannot be considered a real "test," but an application that utilizes a specific API.*
 
-##Solution##
+## Solution
 
 **Note**: At a minimum, the Telerik Testing Framework or Run-Time Edition must be installed on the machine where you intend to run the test.
 
@@ -51,7 +51,7 @@ Once you've added the assembly references, change the .NET Framework version of 
 
 The application gets values from *Yahoo! Finance* and outputs them to the console screen. Here's the sole class that holds the logic for the application:
 
-```C#
+````C#
 class Program
     {
         //The URL to navigate to
@@ -91,8 +91,8 @@ class Program
             Console.Read();
         }
     }
-```
-```VB
+````
+````VB
  Class Program
         'The URL to navigate to
         Shared ReadOnly url As String = "http://finance.yahoo.com/"
@@ -131,4 +131,4 @@ class Program
             Console.Read()
         End Sub
     End Class
-```
+````

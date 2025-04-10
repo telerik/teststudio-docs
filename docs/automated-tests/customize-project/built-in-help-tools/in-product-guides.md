@@ -16,20 +16,17 @@ The areas for which a guide is available have the __Rocket__ icon in the ribbon.
 
 Guides are available for __Elements__ and __Tests__ panes. The __Rocket__ icon appears in the upper ribbon, which is active for an opened test or when you modify an element's find expression or image. 
 
-<table id=web-test>
-	<tr>![Tests Ribbon Web test][2]</tr>
-	<tr>Tests Ribbon Guide</tr>
-<table>
+<table id=web-test style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+	
+![Tests Ribbon Web test][2]<br> Tests Ribbon Guide</tr>
+<tr style="text-align: center; background-color: transparent; border:none;">
 
-<table id=elements>
-	<tr>![Element Ribbon][2a]</tr>
-    <tr>Elements Ribbon Guide</tr>
-<table>
+![Element Ribbon][2a]<br>Elements Ribbon Guide</tr>
+<tr style="text-align: center; background-color: transparent; border:none;">
 
-<table id=load-test>
-	<tr>![Tests Ribbon Load Test][2b]</tr>
-	<tr>Tests Ribbon Guide for Load Test</tr>
-<table>
+![Tests Ribbon Load Test][2b]<br>Tests Ribbon Guide for Load Test</tr>
+</table>
 
 The Rocket icon is also available in the __[Project Explorer](/features/project-explorer/overview)__ and __[Element Explorer](/features/elements-explorer/overview)__.
 
