@@ -25,22 +25,3 @@ By default Test Studio projects are __configured to automate the Edge Chromium b
 > __Important__
 > <br>
 > The __Progress Telerik Test Studio Extension__ <a href="/knowledge-base/browsers-kb/telerik-test-studio-extension-not-available-in-web-store" target="_blank">is missing in the Chrome Web Store</a> and is completely deprecated.
-
-
-
-<script>
-window.addEventListener('DOMContentLoaded', function () {
-$(".toggle_container").hide();
-    
-    $("p.trigger").click(function(e){
-        e.preventDefault();
-        $(this).toggleClass("active").next().slideToggle("normal");
-		$(this).find('#d').text(function (i, oldText) {
-        return $.trim(oldText) == '+' ? '-' : '+';
-		});
-		
-    });
-    });
-</script>
-
-
