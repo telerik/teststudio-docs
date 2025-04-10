@@ -158,4 +158,15 @@ redirects:
 -
     from: "^/?$"
     to: "/introduction"
-    type: Permanent
+-
+    from: "^/getting-started(\\.html)?$"
+    to: "/quickstart"
+-
+    from: "^/basic-usage/rapid-testing-with-justcode(\\.html)?$"
+    to: "/introduction"
+-
+    from: "^/advanced-usage/openaccess-mocking(\\.html)?$"
+    to: "/introduction"
+-
+    from: "^/scenarios(\\.html)?$"
+    to: "/introduction"
