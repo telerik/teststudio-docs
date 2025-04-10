@@ -56,4 +56,12 @@ redirects:
 -
     from: "^/?$"
     to: "/"
-    type: Permanent
+-
+    from: "^/overview$"
+    to: "/"
+-
+    from: "^/features/authorization/basic-authorization$"
+    to: "/features/steps/http-request#authorization"
+-
+    from: "^/features/import/http-traffic$"
+    to: "/features/record/import-http-traffic"
