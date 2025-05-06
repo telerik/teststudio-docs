@@ -8,11 +8,11 @@ position: 1
 
 *I need to data drive an element's find expression and use it to perform an action against or verify an element.*
 
-> __Tip!__ <a href="/features/elements-explorer/find-element#data-driven" target="_blank">Data driven find expressions</a> is also available directly in elements Edit mode.
+> __Tip!__ <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data driven find expressions</a> is also available directly in elements Edit mode.
 
 ## The Scenario
 
-The example below a page from the <a href="https://demos.telerik.com/aspnet-mvc/listbox" target="_blank">Telerik UI for ASP.NET MVC demo site</a>. 
+The example below uses a page from the <a href="https://demos.telerik.com/aspnet-mvc/listbox" target="_blank">Telerik UI for ASP.NET MVC demo site</a>. 
  
 1. Create a test and navigate to the demo page.
 2. The ListBox on the left side holds a list of names under the _Employees_ list. 
@@ -36,15 +36,18 @@ The example below a page from the <a href="https://demos.telerik.com/aspnet-mvc/
    
 5. <a href="/automated-tests/coded-tests/coded-step" target="_blank">Create a coded step</a> in the test. 
    
-6. Start the coded solution with <a href="/advanced-topics/coded-samples/general/attach-data-columns" target="_blank">getting the value from the data source</a> and store into a variable. 
+6. Start with <a href="/advanced-topics/coded-samples/general/attach-data-columns" target="_blank">getting the value from the data source</a> and store into a variable. 
 
 7. Next use the value of that variable to define the string, which needs to be used in the find expression definition. 
 
 8. Form the find expression definition and assert a matching element exists on the page. 
    
-9.  Click the matching element. Complete coded step looks like this: 
+9.  Click the matching element. 
+
+    __Complete coded step looks like this:__ 
 
     ```C#
+    // Get current iteration value from data source
     var dataIterVal = Data["EmplNames"];
             
     // Define a string which adds the value taken from data source as inner text for the find expression
@@ -57,7 +60,6 @@ The example below a page from the <a href="https://demos.telerik.com/aspnet-mvc/
     // Click the corresponding item from list
     nameToSelect.MouseClick(ArtOfTest.WebAii.Core.MouseClickType.LeftClick, 0, 0, ArtOfTest.Common.OffsetReference.AbsoluteCenter);
     ```
-
 
 10. Switch back to the test steps and record the click on the button to move the selected item on the right. With this the scenario is complete. 
 
