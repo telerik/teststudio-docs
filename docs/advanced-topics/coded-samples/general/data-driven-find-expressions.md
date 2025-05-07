@@ -1,48 +1,69 @@
 ---
-title: Data Driven Find Expressions
-page_title: Data Driven Find Expressions
+title: Data Driven Find Expressions in Code
+page_title: Data Driven Find Expressions in Coded Step
 description: "Data Driven Find Expressions in Test Studio test. Select different value from a drop down for each test run. Parameterize or data drive how an element in Test Studio test is found."
-previous_url: /user-guide/code-samples/general/data-driven-find-expressions.aspx, /user-guide/code-samples/general/data-driven-find-expressions
 position: 1
 ---
-# Data Driven Find Expressions #
+# Data Driven Find Expressions in Coded Step 
 
-*I would like to data drive a find expression and use it to perform an action against or verify an element.*
+*I need to data drive an element's find expression and use it to perform an action against or verify an element.*
 
-> After 2012 R2, you can create <a href="/features/elements-explorer/find-element#data-driven" target="_blank">data driven find expressions without code</a>.
+> __Tip!__ <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data driven find expressions</a> is also available directly in elements Edit mode.
 
-## Solution ##
+## The Scenario
 
-The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/combobox/index" target="_blank">Telerik demo site</a>.
+The example below uses a page from the <a href="https://demos.telerik.com/aspnet-mvc/listbox" target="_blank">Telerik UI for ASP.NET MVC demo site</a>. 
+ 
+1. Create a test and navigate to the demo page.
+2. The ListBox on the left side holds a list of names under the _Employees_ list. 
+3. Select a name and choose the button to move it on the right. 
+4. The selected name is now moved to the right under the _Developers_ list. 
+5. Do consecutive iterations for each of the names in the list on the left.
 
-1.&nbsp; Record a *Navigate* to step.
-2.&nbsp; Open the drop-down for the ComboBox.
-3.&nbsp; Locate the parent element in the DOM Explorer (see below). Here the Unordered List holds all the child List Item elements. Right click it and select **Add to Project Elements**.
+## The Solution
 
-![Add to Project][1]
+1. Create a test and <a href="/getting-started/first-test#start-a-recording-session" target="_blank">record the __Navigate__ step</a>.
+   
+2. Prepare the data table - for this example I use the internal data source and it looks like this.
 
-4.&nbsp; Insert a <a href="/features/custom-steps/script-step" target="_blank">Script Step</a>.
-5.&nbsp; Here's what the Local <a href="/features/data-driven-testing/local-data-driven-test" target="_blank">Data table</a> looks like:
+    ![Data source](/img/advanced-topics/coded-samples/general/data-driven-find-expressions/data-source.png)
 
-![Data table][2]
+3. Explore the list of items and its structure using the <a href="/features/recorder/highlighting-menu/element-options#locate-in-dom" target="_blank">Advanced Recording Tools</a>.
+   
+    ![Highlight Items from list to explore](/img/advanced-topics/coded-samples/general/data-driven-find-expressions/explore-item-in-dom.png)
 
-6.&nbsp; We will use the Find.ByContent method in the coded step. More information can be found in our <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Finding Page Elements</a> article. Here's the code for our Script Step:
+4. Based on the DOM tree the items from the list are identified as `ListItems` with specific `InnerText` property and `class=k-list-item`. These element's attributes are used when <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">defining the find expression for the element in code</a>. 
+   
+5. <a href="/automated-tests/coded-tests/coded-step" target="_blank">Create a coded step</a> in the test. 
+   
+6. Start with <a href="/advanced-topics/coded-samples/general/attach-data-columns" target="_blank">getting the value from the data source</a> and store into a variable. 
 
-```C#
-HtmlListItem listItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent<HtmlListItem>(Data["Col1"].ToString());
-Assert.IsNotNull(listItem);
-listItem.Click();
-```
-```VB
-Dim listItem As HtmlListItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent(Of HtmlListItem)(Data("Col1").ToString())
-Assert.IsNotNull(listItem)
-listItem.Click()
-```
+7. Next use the value of that variable to define the string, which needs to be used in the find expression definition. 
 
-7.&nbsp; Test Studio uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
+8. Form the find expression definition and assert a matching element exists on the page. 
+   
+9.  Click the matching element. 
 
-![Execute test][3]
+    __Complete coded step looks like this:__ 
 
-[1]: /img/advanced-topics/coded-samples/general/data-driven-find-expressions/fig1.png
-[2]: /img/advanced-topics/coded-samples/general/data-driven-find-expressions/fig2.png
-[3]: /img/advanced-topics/coded-samples/general/data-driven-find-expressions/fig3.png
+    ```C#
+    // Get current iteration value from data source
+    var dataIterVal = Data["EmplNames"];
+            
+    // Define a string which adds the value taken from data source as inner text for the find expression
+    string defForFE = "InnerText="+dataIterVal.ToString();
+    
+    // Search for the list item element using find expression with the help of the defined string value           
+    HtmlListItem nameToSelect = Find.ByExpression<HtmlListItem>("class=k-list-item", defForFE );
+    Assert.IsNotNull(nameToSelect);
+    
+    // Click the corresponding item from list
+    nameToSelect.MouseClick(ArtOfTest.WebAii.Core.MouseClickType.LeftClick, 0, 0, ArtOfTest.Common.OffsetReference.AbsoluteCenter);
+    ```
+
+
+10.&nbsp; Switch back to the test steps and record the click on the button to move the selected item on the right. With this the scenario is complete. 
+
+    ![Recorded step to move the item on the right](/img/advanced-topics/coded-samples/general/data-driven-find-expressions/recorded-step-to-move-right.png)
+
+

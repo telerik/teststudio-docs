@@ -3,6 +3,7 @@ title: Custom Chrome Path
 page_title: Custom Chrome Path
 description: How to set Custom Chrome path if the Chrome installation is a custom one. 
 position: 1
+publish : false
 ---
 #How to Set a Custom Chrome Path#
 
