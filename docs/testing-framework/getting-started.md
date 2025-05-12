@@ -42,16 +42,6 @@ To get started, first download the <a href="https://www.telerik.com/teststudio/t
 
 * The Telerik Automation Infrastructure library. **ArtOfTest.WebAii.dll** (for version 2010 and older, **ArtOfTest.Common.dll** is also included).
 
-* Telerik's Internet Explorer client. **ArtOfTest.InternetExplorer.dll**.
-
-* Telerik's Firefox client: Automatically installed in your install directory.
-
-* Chrome: You should download and install manually Telerik <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> Chrome Playback extension from the <a href="https://chrome.google.com/webstore/category/extensions" target="_blank">Chrome Web Store</a>. See <a href="/troubleshooting-guide/browser-inconsistencies-tg/extensions-disabled-in-chrome" target="_blank">this article</a> for direct extension links.
-
-* Safari client: Automatically installed in your install directory.
-
-* Silverlight plug-in: **ArtOfTest.WebAii.Mime.dll**.
-
 * Our HTTP Proxy: **ArtOfTest.WebAii.HttpProxy.exe**.
 
 * ASP.NET TestRegion Custom Control: **ArtOfTest.WebAii.AspNet.dll**.
