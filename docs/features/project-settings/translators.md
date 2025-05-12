@@ -1,7 +1,7 @@
 ---
 title: Translators Project Settings
 page_title: Translators Project Settings
-description: "Test Studio comes with built-in translators for the Telerik components. Test Studio provides Basic translators for HTML, Silverlight, and WPF, and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular, Telerik UI for Blazor"
+description: "Test Studio comes with built-in translators for the Telerik components. Test Studio provides Basic translators for HTML, and WPF, and translators built specifically for Telerik AJAX and RadControls, KendoUI for jQuery and KendoUI for Angular, Telerik UI for Blazor"
 position: 8
 ---
 # Translators Project Settings

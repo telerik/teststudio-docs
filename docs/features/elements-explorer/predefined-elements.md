@@ -32,8 +32,6 @@ Once created you can edit the properties of the element such as ControlType, Fri
 
 ![Edit Element's properties][4]
 
-> If you are using Silverlight, please make sure you change the **TechnologyType** to **Silverlight** in order to be able to create the appropriate steps.
-
 You can also use the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> to create various steps against the element such as actions and verifications:
 
 ![Actions/Verifications][5]
@@ -55,8 +53,6 @@ The element gets added in the Predefined Elements section:
 Once created you can edit the properties of the element such as ControlType, FriendlyName and Technology type:
 
 ![Edit Element's properties][19]
-
-> If you are using Silverlight, please make sure you change the **TechnologyType** to **Silverlight** in order to be able to create the appropriate steps.
 
 You can also use the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> to create various steps against the element such as actions and verifications:
 

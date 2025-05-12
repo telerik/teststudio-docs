@@ -39,10 +39,12 @@ To resolve this issue, follow one of the approaches below:
 ### Approach 3: Drop the Entire Storage Database
 
 1. Follow the steps outlined <a href="/knowledge-base/scheduling-kb/drop-storage-database" target="_blank">to drop the entire MongoDB storage database</a>.
-2. After dropping the database, use the "Upload to Storage" button in Test Studio to upload the current state of your project.
+2. After dropping the database, use <a href="/automated-tests/scheduling/upload-latest-files" target="_blank">the `Upload` button</a> in Test Studio to upload the current state of your project to the Storage database.
 
 
-> __Note__ Dropping the entire database also deletes all existing test results. If you need to retain results, consider dropping specific collections only using the instructions <a href="/knowledge-base/scheduling-kb/drop-storage-database#drop-single-collections-from-database" target="_blank">here</a>.
+> __Note!__ 
+> <br>
+> Dropping the entire database also __deletes all existing test results__. If you need __to keep the results from previous runs__, consider dropping specific collections only using the instructions <a href="/knowledge-base/scheduling-kb/drop-storage-database#drop-single-collections-from-database" target="_blank">here</a>.
 
 ## See Also
 

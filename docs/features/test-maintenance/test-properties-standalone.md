@@ -17,7 +17,6 @@ Go the **Project Tab**, click on a test and the pane to the right will instantly
 - **BrowserType** - sets the browser the test executes on. Overrides the Settings.DefaultBrowser.
 - **DisableDialogMonitoring** - whether to disable dialog monitoring and handling.
 - **ReuseAppWindow** - useful in data-driven execution to define the number of iterations to reuse the application window. By default ('0') keeps the same application open during the entire test run.
-- **SilverlightEnabled** - whether to enable Silverlight automation for this test case.
 - **StopTestListOnFailure** - gets or sets whether to stop test list execution if this test fails.
 - **WebKitExecutionDelay** - explicit commands delay in milliseconds for the WebKit browsers (Safari & Chrome).
 

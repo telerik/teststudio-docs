@@ -19,7 +19,6 @@ Here are the test properties with a brief description of each:
 - **BrowserType** - sets the browser the test executes on. Overrides the Settings.DefaultBrowser.
 - **DisableDialogMonitoring** - whether to disable dialog monitoring and handling.
 - **ReuseAppWindow** - useful in data-driven execution to define the number of iterations to reuse the application window. By default ('0') keeps the same application open during the entire test run.
-- **SilverlightEnabled** - whether to enable Silverlight automation for this test case.
 - **StopTestListOnFailure** - gets or sets whether to stop test list execution if this test fails.
 - **WebKitExecutionDelay** - explicit commands delay in milliseconds for the WebKit browsers (Safari & Chrome).
 
@@ -96,7 +95,6 @@ Here are the test properties with a brief description of each:
 - Project - test project that contains this test.
 - Project Area - nod in the team project hierarchy to which this test belongs.
 - Project Relative Path - path on disk to the project file, relative to the solution.
-- SilverlightEnabled - enabled Silverlight automation on this test.
 - Solution - solution that contains the test project to which this test belongs.
 - Test Categories - list of test categories assigned to this test.
 - Test Enabled - true = enabled; false = disabled.

@@ -14,10 +14,8 @@ I'll use Tag Indexes as my example – if my find logic says locate the tenth \<
  
 Stop the madness.
  
-Ask your development team to implement IDs for your dynamic HTML applications or Automation IDs for your Silverlight applications. As long as the IDs are unique, your element repository will not require maintenance when changes are made to your application.
+Ask your development team to implement IDs for your dynamic HTML applications or Automation IDs for your WPF applications. As long as the IDs are unique, your element repository will not require maintenance when changes are made to your application.
  
 Our Automated Testing Tools do an amazing job at automatically identifying elements for you – this saves countless hours and allows you to continue the expansion of your regression suite while keeping your project on schedule. Why not take this to the next level by implementing IDs as a coding standard and substantially reducing your test case maintenance time.
-
-* Silverlight Users – <a href="http://msdn.microsoft.com/en-us/library/system.windows.automation.automationproperties.automationid.aspx" target="_blank">read more on the AutomationProperties.AutomationID Attached Property</a>.
 
 * Dynamic HTML Testers – <a href="http://msdn.microsoft.com/en-us/library/ms533880(v=vs.85).aspx" target="_blank">read more on the Element ID Attribute</a>.

@@ -60,7 +60,7 @@ Verifications in Test Studio allow you to:
 - Build these measurements in an interactive manner without code.
 - Detect if elements are in a particular state (e.g. is visible, exists).
 - Detect if attributes and properties compare with specific values.
-- Verify content, attributes, images, image texts, styles, visibility, drop-down list selections, checkboxes, radio buttons, tables and Silverlight property values.
+- Verify content, attributes, images, image texts, styles, visibility, drop-down list selections, checkboxes, radio buttons, tables and property values.
 
 Test Studio implements verification through "sentences" that compare a portion of an element to a value, such as:
 

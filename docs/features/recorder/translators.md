@@ -11,11 +11,13 @@ Test Studio comes with __dedicated support for the Telerik and Kendo UI componen
 
 You can read further about the built-in translators in this article.
 
-- [What Are the Built-in Test Studio Translators?](#what-are-the-built-in-test-studio-translators)
-- [When Do I Need to Use the Translators?](#when-do-i-need-to-use-the-translators)
-- [How Can I Use the Built-in Translators?](#how-can-i-use-the-built-in-translators)
-- [Which Telerik and Kendo UI Components are Supported?](#which-telerik-and-kendo-ui-components-are-supported)
-- [What Is the Translators Versioning and Which Option Should I Choose?](#what-is-the-translators-versioning-and-which-option-should-i-choose)
+- [Test Studio Built-In Translators for Telerik and Kendo UI](#test-studio-built-in-translators-for-telerik-and-kendo-ui)
+  - [What Are the Built-in Test Studio Translators?](#what-are-the-built-in-test-studio-translators)
+  - [When Do I Need to Use the Translators?](#when-do-i-need-to-use-the-translators)
+  - [How Can I Use the Built-in Translators?](#how-can-i-use-the-built-in-translators)
+  - [Which Telerik and Kendo UI Components are Supported?](#which-telerik-and-kendo-ui-components-are-supported)
+  - [What Is the Translators Versioning and Which Option Should I Choose?](#what-is-the-translators-versioning-and-which-option-should-i-choose)
+  - [See Also](#see-also)
 
 ## What Are the Built-in Test Studio Translators?
 
@@ -42,7 +44,7 @@ Examples are:
 
 ## Which Telerik and Kendo UI Components are Supported?
 
-Test Studio comes with basic translators for __HTML, Silverlight and WPF__, and exclusively  built translators for __Telerik AJAX and Silverlight components, Telerik UI for Blazor, Kendo UI for Angular and Kendo UI for jQuery__. These translators have a ”base” or ”generic” group of intrinsic translators that are used whenever a more specific translator is not available.
+Test Studio comes with basic translators for __HTML and WPF__, and exclusively  built translators for __Telerik AJAX, Telerik UI for Blazor, Kendo UI for Angular and Kendo UI for jQuery__ components. These translators have a ”base” or ”generic” group of intrinsic translators that are used whenever a more specific translator is not available.
 
 A list of all supported components can be found in the <a href="/features/project-settings/Translators" target="_blank">Project Settings -> Translators</a> dialog. The translators for all components are enabled by default. You can choose to disable a specific translator, or a group of translators, but this is not a recommended practice if not advised otherwise by the Test Studio Support Team.
 

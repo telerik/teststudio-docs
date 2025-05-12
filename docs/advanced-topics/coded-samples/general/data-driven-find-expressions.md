@@ -62,6 +62,7 @@ The example below uses a page from the <a href="https://demos.telerik.com/aspnet
     ```
 
 
+
 10.&nbsp; Switch back to the test steps and record the click on the button to move the selected item on the right. With this the scenario is complete. 
 
     ![Recorded step to move the item on the right](/img/advanced-topics/coded-samples/general/data-driven-find-expressions/recorded-step-to-move-right.png)
