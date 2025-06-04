@@ -43,6 +43,9 @@ In the below grid you can find the versions of the supported UI components match
 | R22023     | 4.3.0    |
 | R32023     | 4.6.0    |
 | R22024     | 6.0.0    |
+| R22024SP1  | 6.0.2    |
+| R42024     | 7.0.0    |
+| R22025     | 9.0.0    |
 
 ## Telerik UI for ASP.NET AJAX
 
@@ -59,6 +62,9 @@ In the below grid you can find the versions of the supported UI components match
 | R22023     | 2023.2.606   |
 | R32023     | 2023.3.1010  |
 | R22024     | 2024.2.513   |
+| R22024SP1  | 2024.3.805   |
+| R42024     | 2024.4.1113  |
+| R22025     | 2025.2.528   |
 
 ## Kendo UI for jQuery
 
@@ -75,6 +81,9 @@ In the below grid you can find the versions of the supported UI components match
 | R22023     | 2023.2.606   |
 | R32023     | 2023.3.1010  |
 | R22024     | 2024.2.514   |
+| R22024SP1  | 2024.2.514   |
+| R42024     | 2024.4.1112  |
+| R22025     | 2025.2.528   |
 
 ## Kendo UI for Angular
 
@@ -181,6 +190,10 @@ In the below grid you can find the versions of the supported UI components match
 | R22023     | 13.0.0   |
 | R32023     | 14.0.0   |
 | R22024     | 16.0.0   |
+| R22024SP1  | 16.3.0   |
+| R42024     | 17.0.1   |
+| R22025     | 19.1.0   |
+
 
 ## Available Translators
 
