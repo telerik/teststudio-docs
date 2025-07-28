@@ -170,7 +170,10 @@ Admin permissions are required for:
 
 	* Visual Studio projects target a version between .NET Framework 4.7.2 to 4.8.1.
     * Visual Studio 2022 requires <a href="/prerequisites/installation/installation-consideration#visual-studio-2022-installation-specifics" target="_blank">minimum selection of components</a> to add in its installation.
-	
+
+> **Important** 
+><br>
+> Test Studio ends support for Visual Studio 2019 at the beginning of 2026. 
 
 ## .NET Framework
 
