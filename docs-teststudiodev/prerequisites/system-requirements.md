@@ -14,6 +14,7 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 - <a href="https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio 2019</a>
 
 
+
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-introduction.html %}
 {% endif %}
@@ -36,6 +37,10 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 
     * Visual Studio projects target a version between .NET Framework 4.7.2 to .NET Framework 4.8.
     * Visual Studio 2022 requires minimum <a href="/advanced-topics/installation/vs-2022-compatibility" target="_blank">workload components selection</a>.
+
+> **Important** 
+><br>
+> Test Studio Dev Edition ends support for Visual Studio 2019 at the beginning of 2026. 
 
 ## .NET Framework
 
