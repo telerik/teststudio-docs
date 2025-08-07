@@ -17,12 +17,14 @@ Use the below steps to switch using the Chrome for Testing browser for test reco
 
 1. Go to the official Chrome channel to download Chrome for Testing setup - https://googlechromelabs.github.io/chrome-for-testing/#stable
 2. Look for the URL of the current `win64` or `win32` stable version and select the one which corresponds to the OS in use.
-    For example: https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win64/chrome-win64.zip
+
+    > __Tip__ You can use the following link for Chrome v.138 for Windows 64-bit: 'https://storage.googleapis.com/chrome-for-testing-public/138.0.7153.0/win64/chrome-win64.zip'
+
 3. Download the zip file by pasting the URL in the browser and note the download folder.
 4. Open a File Explorer and browse to `Program Files` or `Program Files x86` depending on the OS in use.
 5. Create the following folder: Google\Chrome for Testing\Application
-6. Copy the downloaded zip file to this folder and extract it.
-7. Run the `setup.exe` in the same folder.
+6. Copy the downloaded zip file to this folder and extract it in this folder.
+7. Run the `setup.exe` in that same folder.
 
 ## Setup Test Studio to use Chrome for Testing
 
