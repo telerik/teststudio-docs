@@ -10,7 +10,9 @@ In certain situations the storage database can get corrupted and cannot be updat
 
 In such cases you need to drop the MongoDB database, which will force Test Studio to newly upload the project files to the storage for the next scheduled job.
 
-> Dropping the whole MongoDB database will delete the results of any previous scheduled test list executions. If the already existing results are still necessary, you can drop only single collections.
+> __Important!__
+> <br> 
+> Dropping the whole MongoDB database deletes the results of any previous scheduled test list executions. __If the already existing results are still necessary, you can drop only single collections__ as suggested below.
 
 ## Install the MongoDB Compass Tool
 
