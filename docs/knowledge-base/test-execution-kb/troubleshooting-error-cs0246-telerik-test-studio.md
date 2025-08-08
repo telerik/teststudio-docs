@@ -32,8 +32,11 @@ To resolve this compilation CS0246 error, follow these steps:
     
     > __Important!__
     ><br>
+    ><br>
     > If the local compilation is successful but you see the mendioned error when executing tests remotely via the Test Studio Scheduling setup, probably you uploaded the project to the Storage database in a corrupted state. 
-    > __If the test and code-behind file exists__ in the project, ensure <a href="/automated-tests/scheduling/upload-latest-files" target="_blank">to upload the latest state of the project to the Storage database</a>. 
+    ><br>
+    > __If the test and code-behind file exists__ in the project, ensure <a href="/automated-tests/scheduling/upload-latest-files" target="_blank">to upload the latest fixed state of the project to the Storage database</a>. 
+    ><br>
     > __If the test and code-behind file doesn't exists__ in the project anymore, you will need to <a href="/knowledge-base/scheduling-kb/drop-storage-database" target="_blank">drop the database</a>.  
 
 4. Open the Project Settings and switch to the <a href="/features/project-settings/script-options" target="_blank">"Script" tab</a>. Note the project's namespace.
@@ -44,4 +47,4 @@ To resolve this compilation CS0246 error, follow these steps:
 
 > __Tip__
 > <br> 
-> To avoid such errors ensure that you use the option to <a href="/knowledge-base/best-practices-kb/add-existing-test" target="_blank">import existing tests</a> in a Test Studio project instead of copying the files in  Windows File Explorer.
+> To avoid such errors ensure that you __use the option to <a href="/knowledge-base/best-practices-kb/add-existing-test" target="_blank">import existing tests</a> in a Test Studio project__ instead of copying the files in  Windows File Explorer.
