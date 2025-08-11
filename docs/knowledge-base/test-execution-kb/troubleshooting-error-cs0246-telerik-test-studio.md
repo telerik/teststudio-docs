@@ -33,11 +33,11 @@ To resolve this compilation CS0246 error, follow these steps:
     > __Important!__
     ><br>
     ><br>
-    > If the local compilation is successful but you see the mendioned error when executing tests remotely via the Test Studio Scheduling setup, probably you uploaded the project to the Storage database in a corrupted state. 
+    > If the __local compilation is successful__ but you see the mendioned error when executing tests remotely via the Test Studio Scheduling setup, probably you uploaded the project to the Storage database in a corrupted state. 
     ><br>
-    > __If the test and code-behind file exists__ in the project, ensure <a href="/automated-tests/scheduling/upload-latest-files" target="_blank">to upload the latest fixed state of the project to the Storage database</a>. 
+    > - __If the test and code-behind file exists__ in the project, ensure <a href="/automated-tests/scheduling/upload-latest-files" target="_blank">to upload the latest fixed state of the project to the Storage database</a>. 
     ><br>
-    > __If the test and code-behind file doesn't exists__ in the project anymore, you will need to <a href="/knowledge-base/scheduling-kb/drop-storage-database" target="_blank">drop the database</a>.  
+    > - __If the test and code-behind file doesn't exists__ in the project anymore, you will need to <a href="/knowledge-base/scheduling-kb/drop-storage-database" target="_blank">drop the database</a>.  
 
 4. Open the Project Settings and switch to the <a href="/features/project-settings/script-options" target="_blank">"Script" tab</a>. Note the project's namespace.
 5. Review the tests listed in the compilation error and their coded files.
