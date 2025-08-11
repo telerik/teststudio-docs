@@ -24,14 +24,21 @@ Use the below steps to switch using the Chrome for Testing browser for test reco
 
 3. Download the zip file by pasting the URL in the browser and note the download folder.
 4. Open a File Explorer and browse to `Program Files` or `Program Files x86` depending on the OS in use.
-5. Create the following folder: Google\Chrome for Testing\Application
-6. Copy the downloaded zip file to this folder and extract it in this folder.
-7. Run the `setup.exe` in that same folder.
+5. Create the following folder under the selected `Program Files` one: `\Google\Chrome for Testing\Application`.
+6. Copy the downloaded zip file with the installation and extract it in the newly created folder.
+7. Run the `setup.exe` in that same folder `\Google\Chrome for Testing\Application`.
 
-## Setup Test Studio to use Chrome for Testing
+>__Note__ 
+> <br>
+> Chrome for Testing doesn't update automatically. When you need a new version of the browser, use the same procedure to upgrade the Chrome for Testing. 
+
+## Setup Test Studio to Use Chrome for Testing
 
 Once the Chrome for Testing setup is complete Test Studio starts using it automatically and no further adjustment is needed. 
 
+## Switch Back to Using Standard Chrome Installation
+
+You can switch back to using Test Studio with the standard Chrome installation at any time by __deleting the folder `\Google\Chrome for Testing\Application`__ from the respective `Program Files` one selected for the setup. 
 
 <script>
 window.addEventListener('DOMContentLoaded', function () {
