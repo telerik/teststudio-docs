@@ -16,7 +16,15 @@ When available, the __Browser support update__ notification appears next to the 
 
 1. Click the __Update__ button next to the __New update available__ notification.
 
-![Browser support Update Button][2]
+    ![Browser support Update Button][2]
+
+2. Hitting the __Update__ button triggers the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Test Studio Services Cofigurator application</a> where you need to switch to its <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#browsers-tab" target="_blank">__Browsers__ tab</a>. 
+
+    > __Note!__ 
+    ><br> 
+    > Running the Browser support update through the Test Studio Services Config Wizard requires admin rights. 
+
+    ![Browser Update available](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-update-aval.png)
 
 After the update, restart Test Studio for the changes to take effect.
 

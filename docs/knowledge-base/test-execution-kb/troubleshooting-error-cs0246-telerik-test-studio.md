@@ -7,8 +7,10 @@ slug: troubleshooting-error-cs0246-telerik-test-studio
 tags: telerik-test-studio, error-cs0246, troubleshooting
 res_type: kb
 ---
+# Resolve Compiler Error "Error CS0246 'Pages' could not be found"
+
 ## Description
-When trying to compile Test Studio project I get error CS0246: The type or namespace name 'Pages' could not be found. The error prevents me running a test list remotely or locally. The error persists even when I try to run a single test using the Execute button.
+When trying to compile Test Studio project I get error __CS0246: The type or namespace name 'Pages' could not be found__. The error prevents me running a test list remotely or locally. The error persists even when I try to run a single test using the `Execute` button.
 
 ```
 [ Compiler ]
