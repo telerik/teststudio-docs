@@ -101,6 +101,20 @@ This section appears only if there is an <a href="/features/dialogs-and-popups/d
 
 ![Dialog Handler Update][6c]
 
+1. Click the __Update__ button next to the __New update available__ notification.
+
+2. Hitting the __Update__ button triggers the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Test Studio Services Cofigurator application</a> where you need to switch to its <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#browsers-tab" target="_blank">__Browsers__ tab</a>. 
+
+    > __Note!__ 
+    ><br> 
+    > Running the Browser support update through the Test Studio Services Config Wizard requires admin rights. 
+
+    ![Browser Update available](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-update-aval.png)
+
+3. After the update, restart Test Studio Execution Client for the changes to take effect.
+
+    ![Browser Update available](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-restart-after-update.png)
+
 ## User Session Configuration
 
 Test Studio requires active user session for executing functional UI tests such as automated tests for WPF and desktop application, and web tests executed in headful browser mode. 

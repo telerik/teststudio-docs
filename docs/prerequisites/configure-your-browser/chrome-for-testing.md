@@ -20,7 +20,7 @@ Use the below steps to switch using the Chrome for Testing browser for test reco
 
     > __Tip!__ 
     > <br>
-    > You can use the following direct download link for Chrome v.138 for Windows 64-bit: https://storage.googleapis.com/chrome-for-testing-public/138.0.7153.0/win64/chrome-win64.zip
+    > You can use the following __direct download link for Chrome v.138 for Windows 64-bit__: https://storage.googleapis.com/chrome-for-testing-public/138.0.7153.0/win64/chrome-win64.zip
 
 3. Download the zip file by pasting the URL in the browser and note the download folder.
 4. Open a File Explorer and browse to `Program Files` or `Program Files x86` depending on the OS in use.
