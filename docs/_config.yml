@@ -390,6 +390,8 @@ navigation:
         title: "Installation Problems"
     "*load-testing-problems-tg":
         title: "Load Testing Problems"
+    "*network-related-problems-tg":
+        title: "Network Related Problems"
     "*recording-problems-tg":
         title: "Recording Problems"
     "*scheduling-issues-tg":

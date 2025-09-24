@@ -31,7 +31,7 @@ The **Test Results** panel allows you to traverse test execution results, drilli
 
 ## Failed Test List Result
 
-If one test in the test list fails, the overall status of the test list is reported as _Failed_. To find out details about what caused the failure, you can drill down to the failing test and step. The faulty step will be marked with red cross sign to indicate that it wasn't successfully executed. Double click the red cross and open the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a>, which provide useful information for the failure.
+If one test in the test list fails, the overall status of the test list is reported as _Failed_. To find out details about what caused the failure, you can drill down to the failing test and step. The faulty step will be marked with red cross sign to indicate that it wasn't successfully executed. __Double click the red cross and open the <a href="/automated-tests/test-results/step-failure-details" target="_blank">step failure details</a>__, which provide useful information for the failure.
 
 ![Step results][2a]
 

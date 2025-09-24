@@ -4,7 +4,7 @@ page_title: No Locahost Traffic Captured in Load Test
 description: "Test Studio Load test doesn't capture traffic for localhost. How to workaround not capturing localhost in load user profile."
 position: 1
 ---
-# No Locahost Traffic
+# No Localhost Traffic
 
 ## PROBLEM
 
@@ -16,4 +16,4 @@ Replace _localhost_ with the machine name or IP address of the local machine.
 
 **See Also**
 
-- <a href="http://fiddler2.com/documentation/Observe-Traffic/Troubleshooting/NoTrafficToLocalhost" target="_blank">No Traffic to Localhost in Fiddler</a>
+- <a href="https://docs.telerik.com/fiddler/observe-traffic/troubleshooting/notraffictolocalhost" target="_blank">No Traffic to Localhost in Fiddler</a>
