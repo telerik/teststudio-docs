@@ -34,7 +34,7 @@ Which web tests make good candidates for Performance Testing?
 
 Once you designate a good candidate test, go to the **Performance** tab and get started:
 
-1.&nbsp;  <a href="/features/testing-types/performance-testing/perfomance-run" target="_blank">Initiate Performance Run</a> - Configure settings and initiate the Performance Run.
+1.&nbsp;  <a href="/automated-tests/performance/performance-run" target="_blank">Initiate Performance Run</a> - Configure settings and initiate the Performance Run.
 
 2.&nbsp; <a href="/features/testing-types/performance-testing/history-view" target="_blank">History View</a> - Visualize metrics over time, achieve performance goals, and use the Benchmark feature to establish a performance baseline. 
 

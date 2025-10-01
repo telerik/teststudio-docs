@@ -2,11 +2,11 @@
 title: Initiate Performance Run
 page_title: Initiate Performance Run
 description: "How to initiate a performance run based on a web test."
-position: 0
+position: 1
 ---
 # Initiate Performance Run
 
-> The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution server</a> needs to be running before Test Studio can connect to it for performance monitoring.
+> The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Test Studio Execution Client</a> needs to be running before Test Studio can connect to it for performance monitoring.
 
 1. Choose a web test to run in performance mode. 
 2. Click the Performance tab.
@@ -20,7 +20,7 @@ position: 0
 
     > __Tip!__
     > <b=r>
-    > The same window is accessed from the tools ribbon using the **Configure** button.
+    > The same window is accessed from the Tools ribbon using the **Configure** button.
 
 5. Set the location to save the results under section **1: Specify Save Results Folder**.
 
@@ -30,9 +30,9 @@ position: 0
 
     ![Confirm configuration for performance test run](/img/features/testing-types/performance-testing/gather-perfomance-data/fig3-saveButton.png)
 
-7. Select the desired browser to execute the web test in performance mode from the tools ribbon - click on the browser icon. 
+7. Select the desired browser to execute the web test in performance mode from the Tools ribbon - click on the browser icon. 
 
-    ![Choose browser to use for the performance run][3](/img/features/testing-types/performance-testing/gather-perfomance-data/choose-browser.png)
+    ![Choose browser to use for the performance run](/img/features/testing-types/performance-testing/gather-perfomance-data/choose-browser.png)
 
 8.  Click the **Quick Run** button under section **3: Quick Performance Run**. 
 
@@ -40,13 +40,13 @@ position: 0
 
     > __Tip!__
     > <b=r>
-    > The same action is triggered from the tools ribbon using the **Run** button.
+    > The same action is triggered from the Tools ribbon using the **Run** button.
 
-9.&nbsp; To make configuration changes before your next Performance Run, click the **Configure** button in the **Set Up** ribbon.
+9. To make configuration changes before your next Performance Run, click the **Configure** button in the **Set Up** ribbon.
 
     ![configure][15]
 
-10.&nbsp; To execute your next Performance Run, select a browser type and click Run in the Quick Performance Run ribbon.
+10. To execute your next Performance Run, select a browser type and click Run in the Quick Performance Run ribbon.
 
     ![Run][16]
 

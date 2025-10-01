@@ -6,7 +6,7 @@ position: 10
 ---
 # Gather Performance Data
 
-> The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution server</a> needs to be running before Test Studio can connect to it for performance monitoring.
+> The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Test Studio Execution Client</a> needs to be running before Test Studio can connect to it for performance monitoring.
 
 The below instruction assumes that you already have configured a performance run and you only need to add performance counters to be monitored. 
 
@@ -32,12 +32,12 @@ The below instruction assumes that you already have configured a performance run
     
     > __Tip__ 
     > <br> 
-    > If the connection fails, go to the **Help** tab and click the **View Log** button in the **Logging** ribbon. The **Enable** button must be selected beforehand for the log to populate with information.
+    > If the connection fails, go to the **Help** tab and click the **View Log** button in the **Logging** ribbon. The **Enable** button must be selected beforehand for the log to populate with information. If it is not useful for you, submit the generated log zipped into a support thread. 
     > <br> 
     > ![View Log][6]
     > <br>
     > <br>
-    > __Note!__ The most common reason that the connection cannot be made is that the Profiler Service is not running on the computer you entered. That computer must have <a href="/general-information/test-studio-run-time" target="_blank">Run-Time Edition</a> installed and the Test Studio Execution client running. 
+    > __Note!__ The most common reason that the connection cannot be made is that the Profiler Service is not running on the computer you entered. That computer must have <a href="/general-information/test-studio-run-time" target="_blank">Run-Time Edition</a> installed and the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Test Studio Execution Client</a> running. 
 
 7. In the section labeled **Select the system resources that you want to monitor** choose from the list with __Available Counters__. Select an entire group, or expand the group to select specific counters within it.
 
