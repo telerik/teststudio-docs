@@ -19,7 +19,7 @@ position: 1
     ![Set Up][2]
 
     > __Tip!__
-    > <b=r>
+    > <br>
     > The same window is accessed from the Tools ribbon using the **Configure** button.
 
 5. Set the location to save the results under section **1: Specify Save Results Folder**.
@@ -39,7 +39,7 @@ position: 1
     ![Run][14]
 
     > __Tip!__
-    > <b=r>
+    > <br>
     > The same action is triggered from the Tools ribbon using the **Run** button.
 
 9. To make configuration changes before your next Performance Run, click the **Configure** button in the **Set Up** ribbon.
@@ -51,7 +51,7 @@ position: 1
     ![Run][16]
 
 > __Tip!__
-> <b=r>
+> <br>
 > You can gather additional Performance Counter data for the execution machine - see <a href="/automated-tests/performance/gather-perfomance-data" target="_blank">here how to acivate and configure Performance Counters</a>. 
 
 [1]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig1.png

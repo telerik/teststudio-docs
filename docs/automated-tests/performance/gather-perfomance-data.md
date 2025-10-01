@@ -2,7 +2,7 @@
 title: Gather Performance Data
 page_title: Gather Performance Data
 description: "Gather Performance Data Counters on the Execution machine during a performance test run in Test Studio."
-position: 10
+position: 8
 ---
 # Gather Performance Data
 
