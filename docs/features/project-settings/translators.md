@@ -1,7 +1,7 @@
 ---
 title: Translators Project Settings
 page_title: Translators Project Settings
-description: "Test Studio comes with built-in translators for the Telerik components. Test Studio provides Basic translators for HTML, Silverlight, and WPF, and translators built specifically for Telerik AJAX and Silverlight RadControls, KendoUI for jQuery and KendoUI for Angular, Telerik UI for Blazor"
+description: "Test Studio comes with built-in translators for the Telerik components. Test Studio provides Basic translators for HTML, and WPF, and translators built specifically for Telerik AJAX and RadControls, KendoUI for jQuery and KendoUI for Angular, Telerik UI for Blazor"
 position: 8
 ---
 # Translators Project Settings
@@ -84,6 +84,18 @@ In the below grid you can find the versions of the supported UI components match
             <td>R22024</td>
             <td colspan="6" style="text-align:center;">6.0.0</td>
         </tr>
+        <tr>
+            <td>R22024SP1</td>
+            <td colspan="6" style="text-align:center;">6.0.2</td>
+        </tr>
+        <tr>
+            <td>R42024</td>
+            <td colspan="6" style="text-align:center;">7.0.0</td>
+        </tr>
+        <tr>
+            <td>R22025</td>
+            <td colspan="6" style="text-align:center;">9.0.0</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -144,6 +156,18 @@ In the below grid you can find the versions of the supported UI components match
             <td>R22024</td>
             <td colspan="6" style="text-align:center;">2024.2.513</td>
         </tr>
+        <tr>
+            <td>R22024SP1</td>
+            <td colspan="6" style="text-align:center;">2024.3.805</td>
+        </tr>
+        <tr>
+            <td>R42024</td>
+            <td colspan="6" style="text-align:center;">2024.4.1113</td>
+        </tr>
+        <tr>
+            <td>R22025</td>
+            <td colspan="6" style="text-align:center;">2025.2.528</td>
+        </tr>
     </tbody>
 </table>
 </p>
@@ -203,6 +227,18 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R22024</td>
             <td colspan="6" style="text-align:center;">2024.2.514</td>
+        </tr>
+        <tr>
+            <td>R22024SP1</td>
+            <td colspan="6" style="text-align:center;">2024.2.514</td>
+        </tr>
+        <tr>
+            <td>R42024</td>
+            <td colspan="6" style="text-align:center;">2024.4.1112</td>
+        </tr>
+        <tr>
+            <td>R22025</td>
+            <td colspan="6" style="text-align:center;">2025.2.520</td>
         </tr>
     </tbody>
 </table>
@@ -756,6 +792,18 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R22024</td>
             <td colspan="6" style="text-align:center;">16.0.0</td>
+        </tr>
+        <tr>
+            <td>R22024SP1</td>
+            <td colspan="6" style="text-align:center;">16.3.0</td>
+        </tr>
+        <tr>
+            <td>R42024</td>
+            <td colspan="6" style="text-align:center;">17.0.1</td>
+        </tr>
+        <tr>
+            <td>R22025</td>
+            <td colspan="6" style="text-align:center;">19.1.0</td>
         </tr>
     </tbody>
 </table>

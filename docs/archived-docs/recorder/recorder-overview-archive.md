@@ -98,7 +98,6 @@ Click the drop-down arrow on the __Record__ button to see a list of available br
 
 ![Attaching the recorder][9]
 
-> You cannot connect to an existing Silverlight Out-of-Browser application for Out-of-Browser tests.
 
 To end recording, simply close the IE window or WPF application that has the recording toolbar attached
 

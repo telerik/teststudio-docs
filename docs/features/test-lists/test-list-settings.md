@@ -84,7 +84,7 @@ All settings are listed below with additional details on their usage.
 	* **UseBrowserExtension** - enable or disable using browser extension (for Chrome and Edge browsers).
 	* **WebComponents** - enable or disable WebComponents support. When creating a test list, the setting gets the value set on project level in the <a href="/features/project-settings/general#web-components" target="_blank">Project Settings General tab</a>. After that the setting is independent from the project level setting.
 * ***HttpProxy***
-	* **UseHttpProxy** - whether to use the built-in HTTP proxy during automation. Enabling Silverlight will automatically enable the HTTP proxy.
+	* **UseHttpProxy** - whether to use the built-in HTTP proxy during automation. 
 * ***Log***
 	* **EnableScriptLogging** - whether to enable script logging.
 	* **VerboseHttpProxy** - whether the HTTP proxy produces a high level of tracing output.
@@ -92,10 +92,7 @@ All settings are listed below with additional details on their usage.
 	* **ExecutingBrowsers** - Select the browsers against which you will execute the test list. Supported in Test Studio Standalone version only.
 * ***Navigation***
 	* **BaseUrl** - The BaseURL to use for all NavigateTo commands. When set, NavigateTo steps should use a relative URL (i.e. "~/default.aspx").
-* ***Silverlight***
-	* **EnableSilverlight** - whether to enable Silverlight automation. Enabling Silverlight will automatically enable the HTTP proxy.
-	* **SilverlightApplicationPath** - the web address or local directory from which to load a Silverlight application.
-	* **SilverlightConnectTimeout** - the amount of time to wait for a Silverlight application to load before timing out.
+
 
 ## WPF Tab
 

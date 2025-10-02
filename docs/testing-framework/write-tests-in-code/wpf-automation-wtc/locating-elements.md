@@ -5,7 +5,7 @@ description: "Test Studio is an innovative and easy-to-use automated web, WPF an
 previous_url: /user-guide/write-tests-in-code/silverlight-test-automation/locating-elements.aspx, /user-guide/write-tests-in-code/silverlight-test-automation/locating-elements
 position: 3
 ---
-#Locating Elements in Silverlight and WPF applications 
+# Locating Elements in WPF applications 
 
 Before you can automate interaction with elements contained in a Silverlight/WPF application, you need to first locate the elements contained within the application. For complex applications, locating elements is probably going to be one of the more time consuming tasks. Testers will need to spend time understanding how to reliably find an element. Silverlight/WPF applications that we studied that rely heavily on control templates and data binding produce quite complex visual trees. Their elements are not easily searchable by **Find.ByName()** given the different <a href=http://msdn.microsoft.com/en-us/library/cc189026%28VS.95%29.aspx" target="_blank">Silverlight</a> and <a href="http://msdn.microsoft.com/en-us/library/ms746659.aspx" target="_blank">WPF</a> name scopes created, and the duplication of names within those templates.
 

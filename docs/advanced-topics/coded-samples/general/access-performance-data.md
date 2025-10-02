@@ -3,6 +3,7 @@ title: Access Performance Data
 page_title: Access Performance Data
 description: "access the results of a performance test in code in Test Studio coded step."
 position: 1
+publish: false
 ---
 #Access Performance Data#
 

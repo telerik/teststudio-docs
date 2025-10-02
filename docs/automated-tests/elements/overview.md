@@ -30,13 +30,11 @@ The elements are organized under Page nodes (and also <a href="/general-informat
 <table id="no-table">
 <tr>
 <td>![HTML Tree View][4]<br>**HTML Tree View**</td>
-<td>![Silverlight Tree View][5]<br>**Silverlight Tree View**</td>
 <td>![WPF Tree View][6]<br> **WPF Tree View**</td>
 </tr>
 <table>
 
 - The HTML tree view is organized by **Page > Frame > Test Regions > Element**.
-- The Silverlight tree view is organized by **Page > Frame > SilverlightApp > Element**.
 - The WPF tree view is organized by **Application > Window > Element**.
 
 The hierarchy is maintained according to where the element is located on the page. For example, if there are no frames or regions, then elements for that particular page will be listed under the Page node.

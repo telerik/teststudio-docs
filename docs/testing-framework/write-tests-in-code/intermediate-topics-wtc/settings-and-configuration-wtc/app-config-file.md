@@ -2,8 +2,9 @@
 title: App .config file
 page_title: App .config file
 description: "Test Studio Testing Framework App .config file"
-previous_url: /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/using-application-config-file.aspx, /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/using-application-config-file
+previous_url: /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/using-application-config-file.aspx, /user-guide/write-tests-in-code/intermediate-topics/settings-and-configuration/using-application-config-
 position: 1
+publish: false
 ---
 #Using the Application's .config File#
 
@@ -54,7 +55,7 @@ Here is an example of a complete app.config file that contains all of Telerik's 
 <section type="ArtOfTest.WebAii.Core.WpfSettingsConfigSectionHandler,ArtOfTest.WebAii" name="WebAii.Settings.Wpf"/>
  </configSections>
  <WebAii.Settings elementWaitTimeout="10000" xMultiMgr="false" unexpectedDialogAction="HandleAndFailTest" createLogFile="true" waitCheckInterval="500" logAnnotations="false" annotationMode="All" annotateExecution="true" executionDelay="0" queryEventLogErrorsOnExit="false" clientReadyTimeout="20000" executionTimeout="30000" logLocation="F:\Log\"></WebAii.Settings>
- <WebAii.Settings.Web verboseHttpProxy="false" enableSilverlight="true" useHttpProxy="false" enableUILessRequestViewing="false" aspNetDevServerPort="-1" webAppPhysicalPath="" localWebServer="None" silverlightApplicationPath="" silverlightConnectTimeout="30000" enableScriptLogging="false" defaultBrowser="InternetExplorer" killBrowserProcessOnClose="false" baseUrl="http://www.telerik.com"> </WebAii.Settings.Web>
+ <WebAii.Settings.Web verboseHttpProxy="false" useHttpProxy="false" enableUILessRequestViewing="false" aspNetDevServerPort="-1" webAppPhysicalPath="" localWebServer="None"  enableScriptLogging="false" defaultBrowser="InternetExplorer" killBrowserProcessOnClose="false" baseUrl="http://www.telerik.com"> </WebAii.Settings.Web>
 <WebAii.Settings.Wpf defaultApplicationPath="E:\Users\Dad\Documents\visual studio 2010\Projects\TelerikWpfApp1\TelerikWpfApp1\bin\Debug\TelerikWpfApp1.exe" />
 </configuration>
 ```	

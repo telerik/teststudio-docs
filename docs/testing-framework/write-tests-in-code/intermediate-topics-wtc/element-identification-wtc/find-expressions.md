@@ -124,7 +124,7 @@ automationid=?sam
 
 ##Constructing FindExpressions##
 
-Each technology (HTML, Silverlight, etc.) will define its own FindExpression that inherits from the base FindExpression object. All FindExpression's need only one constructor to define any type of search.
+Each technology (HTML, WPF, or Desktop) will define its own FindExpression that inherits from the base FindExpression object. All FindExpression's need only one constructor to define any type of search.
  
 For example:
  
@@ -247,4 +247,3 @@ The following is a list of the types that can appear on the left side of the exp
 
 * XamlPath - Uses a XAML path expression like XamlPath=/radtabcontrol[automationid=Tabs]/grid[0]/raddockpanel[0]/layouttransformcontrol[name=HeaderDockedElement]
 
-* For more information on using XamlFindExpressions, see <a href="/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/locating-elements" target="_blank">Locating Elements</a>.

@@ -4,7 +4,7 @@ page_title: Invoking Actions
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 3
 ---
-#Invoking Actions on Elements#
+# Invoking Actions on Elements
 
 Once you have found an element you can then interact with it. Many different types of interactions are supported like clicking, mouse hover over, mouse wheel-related actions, keyboard clicks etc.
 

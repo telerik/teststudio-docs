@@ -1,11 +1,11 @@
 ---
-title: 401 in Results
-page_title: 401 in Results
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+title: 401 in Load Test Results
+page_title: 401 in Load Test Results
+description: "Test Studio load test executes all requests from user profile, but these return status 401 Unauthorized Access or other error codes."
 position: 1
-publish: false
+publish: true
 ---
-# Error 401 in Results
+# How to Address Error 401 in Load Test Results
 
 ## PROBLEM
 
@@ -13,12 +13,8 @@ When running a load test, the results include a number of 401 responses.
 
 ## SOLUTION
 
-This behavior can occur when you configure your load test to use Windows Authentication credentials. Test Studio opens a new connection each time it executes a user profile, which can result in a large number of 401 responses containing authentication challenges applicable to the requested resource. 
+This behavior occurs when the traffic recorded in the User Profile of the load test is not setup correctly. Thus the traffic sent towards the application server is not authorized to access it. 
 
-- If one or two 401 responses are followed by a 200-Okay response, this means that authentication was successful. 
-
-- If there are more than two 401 responses with no 200 response, this means that your load test is not providing valid credentials when they are required by the server. 
-
-- If the 401 responses are followed by a 403-Forbidden response, this means that the credentials your load test provided lacked the permissions required for the requested resource.
+The approach for addressing these errors is to revise all requests in the User Profile, remove the unnecessary queries and parameterize the dynamic parts of the rest. Use the recommended steps in <a href="/troubleshooting-guide/load-testing-problems-tg/resolving-server-load-mismatch-telerik-load-tests" target="_blank">this KB article about adjusting the user profile in Test Studio load test</a>. 
 
 
