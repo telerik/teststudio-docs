@@ -22,4 +22,3 @@ This behavior can occur when you configure your load test to use Windows Authent
 - If the 401 responses are followed by a 403-Forbidden response, this means that the credentials your load test provided lacked the permissions required for the requested resource.
 
 
-For more information, see <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.2" target="_blank">Fielding et al. (June 1999), "Hypertext Transfer Protocol – HTTP/1.1", IETF, RFC 2616, Section 10.4.2</a>.
