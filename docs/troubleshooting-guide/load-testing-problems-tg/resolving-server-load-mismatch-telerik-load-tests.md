@@ -25,6 +25,13 @@ This knowledge base article also answers the following questions:
 
 To ensure proper load simulation and address the discrepancy in server traffic, you need to adjust the load test user profile to handle all requests correctly. Follow each of these steps for this: 
 
+<!-- no toc -->
+- [Adjusting the User Profile](#adjusting-the-user-profile)
+- [Configuring Dynamic Targets](#configuring-dynamic-targets)
+- [Adding Think Times](#adding-think-times)
+- [Running the Load Test](#running-the-load-test)
+- [Additional Resources](#additional-resources)
+
 > __Note!__ 
 > <br>
 > All images listed in the article are for illustrative purposes and do not reflect any real life scenario. The adjustments to perform are specific for the captured traffic in each user profile.
@@ -60,15 +67,21 @@ To ensure proper load simulation and address the discrepancy in server traffic, 
    - Use the <a href="/automated-tests/load/designing-load-tests/dynamic-targets#search-options" target="_blank">search options</a> to pinpoint specific dynamic values.
    - Set up the <a href="/automated-tests/load/designing-load-tests/dynamic-targets#destination-section-properties" target="_blank">destination step properties</a> to reuse the dynamic value (e.g., as a header, query parameter, or cookie).
 
-   ![Create custom dynamic target to cover the URL redirect](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/add-dynamic-target.png)
-
    > __Tip__
    ><br>
    > The example shows setting a dynamic target to cover a redirect to a specific URL generated during the current user session. 
 
+   ![Create custom dynamic target to cover the URL redirect](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/add-dynamic-target.png)
+
+   - After adding the custom dynamic target you can see it listed in the target step request field.  
+
    ![See the custom added dynamic target listed in the target step request part](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/see-added-dynamic-target-in-target-step.png)
 
 3. Refer to this <a href="https://www.telerik.com/blogs/custom-dynamic-targets-in-load-tests" target="_blank">blog post about dynamic targets</a> for another detailed example of setting up a Request Verification token.
+4. Iterate through all requests in the captured traffic to identify all necessary dynamic targets. Usually in real life scenario more than one dynamic identifier needs to be transferred from one step's response to the following requests.
+   - __E.g.__: 
+   - A session identifier cookie returned in one request's response is then used in all following requests. So you need a dynamic target for each step. 
+   - Or, in one request's response you find a session identifier cookie and a verification token which are reused in the next step - these two need separate dynamic targets from one step to the other. 
 
 ### Adding Think Times
 
@@ -85,6 +98,9 @@ Users typically need time to process the displayed information before interactin
 ### Additional Resources
 
 - [Getting Started with Load Testing in Test Studio](/automated-tests/load/designing-load-tests/getting-started)
+- [Dynamic Targets Overview](/automated-tests/load/designing-load-tests/dynamic-targets)
+- [Load Test Settings](/automated-tests/load/designing-load-tests/test-settings)
+- [Modifying User Profiles in Load Tests](/automated-tests/load/designing-load-tests/modifying-tests)
 - [Best Practices for Running Load Tests](/automated-tests/load/running-load-test/best-practices)
 - [Step-by-Step: Load Testing](https://www.telerik.com/blogs/test-studio-step-by-step-load-testing)
 - [Designing Load Tests with Test Studio and Fiddler Everywhere in 6 Easy Steps](https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps)
