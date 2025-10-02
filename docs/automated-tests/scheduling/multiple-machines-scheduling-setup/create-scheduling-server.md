@@ -15,12 +15,14 @@ The below article describes the configuration steps.
   - [Start the Test Studio Scheduling Config Wizard](#start-the-test-studio-scheduling-config-wizard)
   - [Configure the Test Studio Services](#configure-the-test-studio-services)
     - [Communication Tab](#communication-tab)
+    - [Encryption Tab](#encryption-tab)
     - [MongoDB Tab](#mongodb-tab)
     - [Storage Tab](#storage-tab)
     - [Scheduling Tab](#scheduling-tab)
     - [Automatic Email Notification for Scheduled Executions](#automatic-email-notification-for-scheduled-executions)
     - [Executive Dashboard Tab](#executive-dashboard-tab)
     - [Execution Server Tab](#execution-server-tab)
+    - [Browsers Tab](#browsers-tab)
   - [Finish the Test Studio Services Configuration](#finish-the-test-studio-services-configuration)
 
 > __Important__
@@ -54,17 +56,19 @@ You can start the Scheduling config wizard in any of the following ways:
 > - Storage Service: 8492
 > - Execution Machine(s): 55555
 
-There are few tabs in the __Scheduling configuration wizard__, which provide the configuration details for each of the components of the Scheduling setup.
+There are a few tabs in the __Scheduling configuration wizard__, which provide the configuration details for each of the components of the Scheduling setup.
 
 Go through each tab to setup the Test Studio services:
 <!-- no toc -->
   * [Communication Tab](#communication-tab)
+  * [Encryption Tab](#encryption-tab)
   * [MongoDB Tab](#mongodb-tab)
   * [Storage Tab](#storage-tab)
   * [Scheduling Tab](#scheduling-tab)
   * [Automatic Email for Scheduled Test Lists](#automatic-email-for-scheduled-test-lists)
   * [Executive Dashboard Tab](#executive-dashboard-tab)
   * [Execution Server Tab](#execution-server-tab)
+  * [Browsers Tab](#browsers-tab)
 
   
 ### Communication Tab 
@@ -103,6 +107,12 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 ><br> 
 ><br>
 > See <a href="/knowledge-base/scheduling-kb/generate-communication-key#generate-new-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
+### Encryption Tab
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -201,6 +211,20 @@ The __Execution Server__ tab contains information for the configuration settings
 The default populated values point to the local machine Scheduling service - _localhost_ using the port 55555. Hit the __Apply__ button to apply any changes - wait until you see a message in the lower left corner of the wizard stating _'Changes applied successfully'_.
 
 ![Execution Server config tab][15]
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
+### Browsers Tab
+
+When available, the __Browser support update__ notification appears along with the __Update__ button and indicates that you must update Test Studio.
+
+![Browser Update available](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-update-aval.png)
+
+Hit the __Update__ button to trigger the update. After the update, __restart Test Studio__ for the changes to take effect.
+
+![Restart required](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-restart-after-update.png)
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>

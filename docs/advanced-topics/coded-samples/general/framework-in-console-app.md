@@ -23,13 +23,6 @@ In order to access the Telerik Testing Framework API, add the necessary assembly
 	* Telerik.Webaii.Controls.Html
 	* ArtOfTest.Webaii.Design
 
-
-* Silverlight
-
-	* Telerik.Webaii.Xaml
-	* ArtOfTest.Webaii
-	* ArtOfTest.Webaii.Design
-
 * WPF
 
 	* Telerik.Webaii.Xaml.WPF

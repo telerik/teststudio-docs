@@ -1,95 +1,74 @@
 ---
 title: Gather Performance Data
 page_title: Gather Performance Data
-description: "Gather Performance Data from performance test run in Test Studio."
-position: 1
+description: "Gather Performance Data Counters on the Execution machine during a performance test run in Test Studio."
+position: 8
 ---
 # Gather Performance Data
 
-> The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution server</a> needs to be running before Test Studio can connect to it for performance monitoring.
+> The target machine to be monitored must have either <a href="/general-information/test-studio-run-time" target="_blank">**Run Time edition**</a> or Test Studio installed on it. The <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Test Studio Execution Client</a> needs to be running before Test Studio can connect to it for performance monitoring.
 
-1.&nbsp; Click the Performance tab.
+The below instruction assumes that you already have configured a performance run and you only need to add performance counters to be monitored. 
 
-2.&nbsp; Read the **Introduction** to Performance Testing.
+1. Click the **Configure** button in the **Set Up** ribbon.
 
-![Introduction][1]
+    ![Click configure button][15]
 
-3.&nbsp; Click **Get Started** to continue. 
+2. Click **Continue to Step 2 >** button in the **Configure Performance Settings** window. 
 
-4.&nbsp; Ensure you have a valid automated test candidate loaded for the Performance Run.
+    ![Continue to step 2](/img/features/testing-types/performance-testing/gather-perfomance-data/continue-to-step-2.png)
 
-5.&nbsp; Click the **Configure** button under section **2: Set Up**.
+3. Check the **Gather Computer Performance Data** checkbox.
 
-![Set Up][2]
+4. Click the **Add a computer** button.
 
-6.&nbsp; Set the location to save the results under section **1: Specify Save Results Folder**.
+    ![Add a computer][4]
 
-![Results folder][3]
+5. Set a friendly name for this machine configuration, then enter the actual machine name or IP address. The machine must be running the Test Studio Profiling Service, e.g. the Test Studio Execution client.
 
-> To gather additional Performance Counter data, continue to step 7. If not, skip to step 8. 
+6. Click the **Connect** button to confirm a connection can be established. 
 
-7.&nbsp; Click Continue to Step 2. Under section 2: **Gather Performance Counter Data**:
+    ![Connect][5]
+    
+    > __Tip__ 
+    > <br> 
+    > If the connection fails, go to the **Help** tab and click the **View Log** button in the **Logging** ribbon. The **Enable** button must be selected beforehand for the log to populate with information. If it is not useful for you, submit the generated log zipped into a support thread. 
+    > <br> 
+    > ![View Log][6]
+    > <br>
+    > <br>
+    > __Note!__ The most common reason that the connection cannot be made is that the Profiler Service is not running on the computer you entered. That computer must have <a href="/general-information/test-studio-run-time" target="_blank">Run-Time Edition</a> installed and the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-execution-server#start-the-execution-client" target="_blank">Test Studio Execution Client</a> running. 
 
-a. Check the **Gather Computer Performance Data** box.
+7. In the section labeled **Select the system resources that you want to monitor** choose from the list with __Available Counters__. Select an entire group, or expand the group to select specific counters within it.
 
-b. Click the **Add a computer** button.
+    ![Available Counters][8]
 
-![Add a computer][4]
+> __Note!__ 
+> ><br>
+> It is up to you and your team to decide which Performance Counters to use for your application depending on the monitoring you need. 
 
-c. Set a friendly name for this server configuration, then enter the actual machine name or IP address. The machine must be running the Test Studio Profiling Service.
 
-d. Click the **Connect** button to confirm a connection can be established. 
+8. You can save this set of performance counters as a template, click ![Disk][12].
 
-![Connect][5]
+    ![Save New Template][13]
 
-e. If the validation fails, go to the **Help** tab and click the **View Log** button in the **Logging** ribbon. The **Enable** button must be selected beforehand for the log to populate with information. 
+9. Click **Done Editing** when finished. Click **Cancel** to revert changes. Click **Delete** to remove this server configuration.
 
-![View Log][6]
+10. To import a previously saved template of performance counters, click ![Folder][9] .
 
->  Note: The most common reason for a validation failure is that the Profiler Service is not running on the computer you entered. That computer must have <a href="/general-information/test-studio-run-time" target="_blank">Run-Time Edition</a> installed. You can check by showing the Test Studio Test Runner from that machine's System Tray. 
+    ![Saved template][10]
 
-![Test Runner][7]
+Select the template you wish to use. You can view the performance counters included in this template. Click __Add__ to use this template.
 
-f. Move below to the section labeled **Select the system resources that you want to monitor**.
-g. Choose from the Available Counters. Select an entire group, or expand the group to select specific counters within it.
+    ![Add Template][11]
 
-![Available Counters][8]
 
-> It is up to you and your developers to decide which Performance Counters to use for your application. The selections made above were chosen for demonstration purposes. See here for more information.
+11. You can monitor Performance Counters on more than one machine. Click the **Add a computer** button to gather performance data on another machine.
 
-h. To import a previously saved template of performance counters, click ![Folder][9] .
+    ![Monitor multiple machines](/img/features/testing-types/performance-testing/gather-perfomance-data/monitor-multiple-machines.png)
 
-![Saved template][10]
+12. When finished click **Save** and continue to initiating the performance test run. 
 
-Select the template you wish to use. You can view the performance counters included in this template. Click add to use this template.
-
-![Add Template][11]
-
-i. To save this set of performance counters as a template, click ![Disk][12].
-
-![Save New Template][13]
-
-j. Click **Done Editing** when finished. Click **Cancel** to revert changes. Click **Delete** to remove this server configuration.
-
-k. Click the **Add a computer** button to gather performance data on multiple machines.
-
-l. Click **Save** when finished.
-
-8.&nbsp; Click the **Quick Run** button under section **3: Quick Performance Run**. 
-
-![Run][14]
-
-9.&nbsp; To make configuration changes before your next Performance Run, click the **Configure** button in the **Set Up** ribbon.
-
-![configure][15]
-
-10.&nbsp; To execute your next Performance Run, select a browser type and click Run in the Quick Performance Run ribbon.
-
-![Run][16]
-
-[1]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig1.png
-[2]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig2.png
-[3]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig3.png
 [4]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig4.png
 [5]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig5.png
 [6]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig6.png
@@ -102,4 +81,3 @@ l. Click **Save** when finished.
 [13]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig13.png
 [14]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig14.png
 [15]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig15.png
-[16]: /img/features/testing-types/performance-testing/gather-perfomance-data/fig16.png

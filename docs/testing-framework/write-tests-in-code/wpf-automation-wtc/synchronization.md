@@ -4,7 +4,7 @@ page_title: Synchronization
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 3
 ---
-#Synchronization#
+# Synchronization
 
 In the world of testing mostly static HTML pages synchronization was easy. Telerik Testing Framework was even able to automatically take care of synchronization for you (most of the time). All you had to do was click on a button and wait for the browser to be ready, which the framework does behind the scenes for most HTML UI actions.
  

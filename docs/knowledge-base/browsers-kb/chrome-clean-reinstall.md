@@ -18,10 +18,12 @@ Complete a clean reinstall of Chrome browser to ensure left over user data inter
 
 2. In a File Explorer browse to Chrome user data folder - default is *C:\Users\\\<YourUsername>\AppData\Local\Google\Chrome*. Delete any leftover data in this folder or remove the complete folder.
 
-3. In a File Explorer browse to Test Studio user data folder for Chrome - *C:\Users\\\<YourUsername>\AppData\Local\ArtOfTest\TSChromeUserData* and delete its content. 
+3. In a File Explorer browse to Test Studio user data folder for the browsers - *C:\Users\\\<YourUsername>\AppData\Local\ArtOfTest\* and delete the folders for Chrome and Chrome headless profiles: 
+    - TSChromeUserData
+    - TSChromeHeadlessUserData
 
-3. Perform a fresh install of the latest official version of the Chrome browser.
+4. Perform a fresh install of the latest official version of the Chrome browser.
 
-4. To use the Chrome browser for Test Studio automation again, you need to [calibrate it](https://docs.telerik.com/teststudio/getting-started/configure-your-browser/chrome#2-browser-calibration) and add the [Telerik Test Studio extension](https://chrome.google.com/webstore/detail/progress-telerik-test-stu/gegcllkonmciadpdldechnepmjildoan).
+5. Initiate a test recording session or execution using the Chrome browser.
 
-5. If you continue experience troubles with Chrome test execution, you can contact the Test Studio support team by [submitting a support ticket](/knowledge-base/best-practices-kb/submit-support-ticket).
+6. If you continue experience troubles with Chrome test execution, you can contact the Test Studio support team by [submitting a support ticket](/knowledge-base/best-practices-kb/submit-support-ticket).

@@ -249,6 +249,7 @@ navigation:
     features/integration:
         title: "Integration"
         position: 12
+
 # ....Integration section
     features/integration/bug-tracking:
         title: "Bug Tracking"
@@ -257,6 +258,7 @@ navigation:
         title: "Quality Center"
         position: 2
  # ....End Integration section    
+
     features/test-runners:
         title: "Test Runners"
         position: 13
@@ -331,8 +333,7 @@ navigation:
         position: 11
         
 # === Advanced Topics ===
-    "*coded-steps":
-        title: "Coded Steps"
+    
     "*coded-samples":
         title: "Coded Samples"
 #.....Coded Samples
@@ -340,17 +341,12 @@ navigation:
         title: "General"
     "*html":
         title: "HTML"
-    "*silverlight":
-        title: "Silverlight"
-    "*combobox-automation":
-        title: "ComboBox Automation"
-    "*radgridview-automation":
-        title: "RadGridView Automation"
     "*wpf":
         title: "WPF"
 #........................
     "*build-server":
         title: "Build Server"
+
 # === Knowledge Base ===
     "*activation-kb":
         title: "Activation"
@@ -368,8 +364,6 @@ navigation:
         title: "Project Configuration"
     "*scheduling-kb":
         title: "Scheduling"
-    "*silverlight-kb":
-        title: "Silverlight"
     "*source-control-kb":
         title: "Source Control"
     "*test-automation-kb":
@@ -386,6 +380,7 @@ navigation:
         title: "Browsers"
     "*product-notices-kb":
         title: "Product Notices"
+        position: 50
 # === Troubleshooting Guide ===
     "*browser-inconsistencies-tg":
         title: "Browser Inconsistencies"
@@ -395,6 +390,8 @@ navigation:
         title: "Installation Problems"
     "*load-testing-problems-tg":
         title: "Load Testing Problems"
+    "*network-related-problems-tg":
+        title: "Network Related Problems"
     "*recording-problems-tg":
         title: "Recording Problems"
     "*scheduling-issues-tg":
@@ -403,24 +400,9 @@ navigation:
         title: "Source Control Problems"
     "*test-execution-problems-tg":
         title: "Test Execution Problems"
-    "*chrome-tg":
-        title: "Chrome"
-    "*firefox-tg":
-        title: "Firefox"
-    "*safari-tg":
-        title: "Safari"
-    "*silverlight-wpf-tg":
-        title: "Silverlight WPF"
-    "*test-maintenance-problems-tg":
-        title: "Test Maintenance Problems"
-    "*troubleshooting-tools-tg":
-        title: "Troubleshooting Tools"
-    "*verification-problems-tg":
-        title: "Verification Problems"
     "*visual-studio-tg":
         title: "Visual Studio"
-    "*network-related-problems-tg":
-        title: "Network Related Problems"
+    
 # === Testing Framework ===
     "*write-tests-in-code":
         title: "Write Tests in Code"
@@ -442,8 +424,8 @@ navigation:
         title: "Javascript"
     "*test-regions-wtc":
         title: "Test Regions"
-    "*silverlight-wpf-automation-wtc":
-        title: "Silverlight/WPF Automation"
+    "*wpf-automation-wtc":
+        title: "WPF Automation"
     testing-framework/api-reference:
         title: "Api Reference"
 # === Mobile Testing ===

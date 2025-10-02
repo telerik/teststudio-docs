@@ -8,7 +8,7 @@ position: 7
 
 * <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#page-nodes">Page nodes</a>
 * <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#frames">Frame nodes</a>
-* <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#silverlightapps">Silverlight apps</a>
+
 
 ##Page Nodes##
 
@@ -67,13 +67,6 @@ An element directly under a page node is located entirely by its Find Settings. 
 
 	![Merge nodes][9]
 
-##SilverlightApps##
-
-Like frames, an element within a SilverlightApp must be located via the SilverlightApp first. Unlike a frame node, a SilverlightApp node has Find Settings just like a regular element, which can be changed via the <a href="/features/elements-explorer/find-element" target="_blank">Find Element</a> dialog.
-
-![SL find properties][10]
-
-![SL application][11]
 
 [1]: /img/knowledge-base/project-configuration-kb/merge-page-nodes/fig1.png
 [2]: /img/knowledge-base/project-configuration-kb/merge-page-nodes/fig2.png

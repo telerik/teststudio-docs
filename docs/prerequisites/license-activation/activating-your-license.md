@@ -10,10 +10,15 @@ position: 1
 
 You can find the following topics in the article: 
 
-- [Launch Test Studio and Login](#launch-test-studio-and-login)
-- [Choose Test Studio Edition](#choose-test-studio-edition)
-- [Choose Test Studio License](#choose-test-studio-license)
-- [Possible troubles when activating the license](#possible-troubles)
+- [Activate Your Test Studio License](#activate-your-test-studio-license)
+  - [Launch Test Studio and Login](#launch-test-studio-and-login)
+    - [Direct Login](#direct-login)
+    - [SSO Login](#sso-login)
+  - [Choose Test Studio Edition](#choose-test-studio-edition)
+  - [Choose Test Studio License](#choose-test-studio-license)
+  - [Possible Troubles](#possible-troubles)
+    - [0 Seats Available](#0-seats-available)
+    - [Connection Error](#connection-error)
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-teststudio-overview.html %}

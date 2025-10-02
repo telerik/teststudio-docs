@@ -13,7 +13,6 @@ How the Telerik Testing Framework behaves during a test run is controlled by the
 
 * DefaultBrowser - Controls which browser will be started by the LaunchNewBrowser command.
 
-* EnableSilverlight - If you will be doing any Silverlight application settings, this must be set to True.
  
 There are a few methods of controlling the settings in the Settings object. Which method you use depends on when and how you want them set in your unit test.
 
@@ -167,13 +166,7 @@ This table lists all of the WebAii framework settings that are available for you
 	false</td>
 	<td>false</td>
 </tr>
-<tr>
-	<td>**EnableSilverlight**</td>
-	<td>Controls whether or not Silverlight test automation is enabled.</td>
-	<td>true<br>
-	false</td>
-	<td>false</td>
-</tr>
+
 <tr>
 	<td>**EnableUILessRequestViewing**</td>
 	<td>Controls whether or not to allow debugging of UILess page requests using a UI browser like Internet Explorer.</td>
@@ -255,7 +248,7 @@ This table lists all of the WebAii framework settings that are available for you
 </tr>
 <tr>
 	<td>**UseHttpProxy**</td>
-	<td>Gets/Sets whether to use the built-in http proxy during automation. **NOTE:** will be forced to true when EnableSilverlight is set to true.</td>
+	<td>Gets/Sets whether to use the built-in http proxy during automation.</td>
 	<td>true<br>
 	false</td>
 	<td>false</td>

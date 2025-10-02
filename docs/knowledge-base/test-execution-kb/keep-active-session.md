@@ -8,7 +8,7 @@ position: 1
 
 Scheduling involves running Test Studio tests on an Execution Server. However, any test that requires moving the mouse or sending keystrokes requires an unlocked desktop. Test Studio tests are not the only ones affected by this Windows limitation. This is a general problem with any tool that performs UI testing.
 
-Test Studio tests running against HTML-based web applications (ASP .NET and others) frequently can work on a locked machine because most test steps don't use the mouse or keyboard. Instead they are able to inject events (like a Click or Select) directly into the DOM structure of the page. Unfortunately, when performing Silverlight or WPF testing, these events cannot be injected in the same way. We have to simulate system-wide mouse moves and mouse clicks instead.
+Test Studio tests running against HTML-based web applications (ASP .NET and others) frequently can work on a locked machine because most test steps don't use the mouse or keyboard. Instead they are able to inject events (like a Click or Select) directly into the DOM structure of the page. Unfortunately, when performing WPF testing, these events cannot be injected in the same way. We have to simulate system-wide mouse moves and mouse clicks instead.
 
 ## Solution
 

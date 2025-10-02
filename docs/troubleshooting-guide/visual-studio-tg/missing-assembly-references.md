@@ -40,7 +40,7 @@ Check the **Specific Version** property. Change it to False. The yellow warning 
 
 You must select all the unresolved references at once or repeat these steps for every unresolved reference. Once you're done, there should be no warning icons and your project should build successfully.
 
-Also ensure you select **.NET Framework 4.5** as the target framework from the properties of the Test Project.
+Also ensure you select **.NET Framework 4.7.2** as the target framework from the properties of the Test Project.
 
 ![Target Framework][4]
 

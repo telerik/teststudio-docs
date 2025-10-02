@@ -137,7 +137,7 @@ padding: 8px;
 	<td>**SimulateRealTyping**</td><td>Whether to simulate real text typing one character at a time.</td><td>If input field requires real typing to trigger an event or validation.</td>
 </tr>
 <tr>
-	<td>**SimulateRealUser**</td><td>Whether to simulate real user actions.</td><td>For Silverlight/WPF action steps.</td>
+	<td>**SimulateRealUser**</td><td>Whether to simulate real user actions.</td><td>For web and WPF action steps.</td>
 </tr>
 <tr>
 	<td>**Text**</td><td>Text entered into input control.</td><td>To edit the input text.</td>
@@ -256,10 +256,10 @@ padding: 8px;
 	<td>**SecondaryTarget**</td><td>The primary automation element that this step is targeting. Used only for steps that require two targets, like a drag and drop.</td><td>Only in drag and drop scenarios. </td>
 </tr>
 <tr>
-	<td>**Virtualizing Container**</td><td>The object containing this element, if any.</td><td>(Silverlight only) </td>
+	<td>**Virtualizing Container**</td><td>The object containing this element, if any.</td>
 </tr>
 <tr>
-	<td>**Virtualizing Container Offset**</td><td>The offset to scroll the virtualizing container to before searching for the target element of this step.</td><td>(Silverlight only) </td>
+	<td>**Virtualizing Container Offset**</td><td>The offset to scroll the virtualizing container to before searching for the target element of this step.</td>
 </tr>
 <table>
 
@@ -382,9 +382,6 @@ padding: 8px;
 </tr>
 <tr>
 	<td>**LogMessageOnFailure**</td><td>Message to log as part of log content if step fails.</td><td>To insert a custom message in the test log if the step fails. </td>
-</tr>
-<tr>
-	<td>**RequiresSilverlight**</td><td>Whether this step requires Silverlight to be enabled.</td><td></td>
 </tr>
 <tr>
 	<td>**RunsAgainst**</td><td>The browsers this step can run against.</td><td>If a step should only be run for a specific browser type. </td>
