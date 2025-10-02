@@ -17,3 +17,4 @@ This behavior occurs when the traffic recorded in the User Profile of the load t
 
 The approach for addressing these errors is to revise all requests in the User Profile, remove the unnecessary queries and parameterize the dynamic parts of the rest. Use the recommended steps in <a href="/troubleshooting-guide/load-testing-problems-tg/resolving-server-load-mismatch-telerik-load-tests" target="_blank">this KB article about adjusting the user profile in Test Studio load test</a>. 
 
+
