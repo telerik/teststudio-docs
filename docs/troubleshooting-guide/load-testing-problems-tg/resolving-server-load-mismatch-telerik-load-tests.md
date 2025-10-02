@@ -30,7 +30,7 @@ To ensure proper load simulation and address the discrepancy in server traffic, 
 - [Configuring Dynamic Targets](#configuring-dynamic-targets)
 - [Adding Think Times](#adding-think-times)
 - [Running the Load Test](#running-the-load-test)
-- [Additional Resources](#additional-resources)
+
 
 > __Note!__ 
 > <br>
@@ -69,7 +69,7 @@ To ensure proper load simulation and address the discrepancy in server traffic, 
 
    > __Tip__
    ><br>
-   > The example shows setting a dynamic target to cover a redirect to a specific URL generated during the current user session. 
+   > The example shows setting a dynamic target to cover a redirect to specific URL generated during the current user session. 
 
    ![Create custom dynamic target to cover the URL redirect](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/add-dynamic-target.png)
 
@@ -78,7 +78,7 @@ To ensure proper load simulation and address the discrepancy in server traffic, 
    ![See the custom added dynamic target listed in the target step request part](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/see-added-dynamic-target-in-target-step.png)
 
 3. Refer to this <a href="https://www.telerik.com/blogs/custom-dynamic-targets-in-load-tests" target="_blank">blog post about dynamic targets</a> for another detailed example of setting up a Request Verification token.
-4. Iterate through all requests in the captured traffic to identify all necessary dynamic targets. Usually in real life scenario more than one dynamic identifier needs to be transferred from one step's response to the following requests.
+4. Iterate through all requests in the captured traffic to __identify all necessary dynamic targets__. Usually in real life scenario more than one dynamic identifier needs to be transferred from one step's response to the following requests.
    - __E.g.__: 
    - A session identifier cookie returned in one request's response is then used in all following requests. So you need a dynamic target for each step. 
    - Or, in one request's response you find a session identifier cookie and a verification token which are reused in the next step - these two need separate dynamic targets from one step to the other. 
@@ -89,13 +89,25 @@ Include <a href="/automated-tests/load/designing-load-tests/modifying-tests#addr
 
 Users typically need time to process the displayed information before interacting with the application, and the think times simulate delays between requests in your User Profile. That way executing the load test ensures accurate user behavior simulation.
 
+![Adding Think times](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/think-times.png)
+
+The general recommendation is to insert a think time between every few requests which represent certain user action. You can refer to the following sample workflow: 
+
+- Load initial URL of the application; 
+- Insert think time - allow the user time to enter username and password, and to hit the Login button; 
+- Next few requests cover the authentication process and expected is that the user is now logged;
+- Insert think time - allow the user time to process the next action in scenario, e.g. to fulfill a form and submit it; 
+- Next few requests cover submitting the form and getting response from the application server; 
+- Etc. 
+
+
 ### Running the Load Test
 
 1. <a href="/automated-tests/load/designing-load-tests/test-settings#available-users-and-time-settings" target="_blank">Set the test to run</a> with 1 virtual user for 1 minute to verify the setup and ensure all requests execute successfully.
 2. Once verified, increase the number of virtual users and test duration to simulate the desired load.
 3. When the User profile is validated and you are sure it covers the user workflow, you can use <a href="/automated-tests/load/running-load-test/best-practices" target="_blank">remote execution</a> to simulate high user concurrency effectively.
 
-### Additional Resources
+## Additional Resources
 
 - [Getting Started with Load Testing in Test Studio](/automated-tests/load/designing-load-tests/getting-started)
 - [Dynamic Targets Overview](/automated-tests/load/designing-load-tests/dynamic-targets)
