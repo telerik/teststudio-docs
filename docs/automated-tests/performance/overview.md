@@ -10,6 +10,14 @@ How responsive is my application? What are the bottlenecks in my application? Ho
 
 All these are questions, which <a href="http://www.telerik.com/teststudio" target="_blank">Test Studio</a> answers with the Performance testing functionality.
 
+> __Feature Deprecation Notice__
+> <br>
+> <br>
+> __Performance Testing is scheduled for deprecation in the Test Studio 2026 Q1 release__.
+> <br>
+> <br>
+> If you currently rely on this feature, we encourage you to share your concerns or feedback with us via a support thread. Your input is valuable and will help us ensure a smooth transition and continued support for your testing needs.
+
 ## What is Performance Testing in Test Studio
 
 Automated functional testing tools help you build automated tests for your critical end-user scenarios. Once automated with Test Studio, these scenarios can be run automatically to help you discover any regressions. Functional correctness of your application is one measure of quality, another quite important one is performance testing.
