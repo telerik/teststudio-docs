@@ -5,6 +5,12 @@ description: "Manage Windows Authentication in Test Studio load test. The tested
 position: 0
 publish: false
 ---
+__Note__
+Currently the feature is not available in the product visually!!! It is hidden and not accessible for the customers!!! 
+Redirect is added to avoid getting to the article online. 
+
+
+
 # Manage Windows Authentication
 
 If the target application supports Windows Authentication, you can configure your load test to connect using a Windows Authentication identity.
