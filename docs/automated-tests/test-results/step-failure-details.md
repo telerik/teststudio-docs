@@ -8,13 +8,19 @@ position: 1
 
 The Step Failure Details dialog collects all the information related to the failed test step. This includes failure details, screenshots, and a snapshot of the DOM. The Step Failure Details section lists handy suggestion how you can resolve the specific error.
 
-Let's use a simple test as a baseline, which navigates to bing.com and verifies the text content of the _Images_ link. The one demonstrated below is modified to look for _'ImagesModifiedToFail'_ instead of _'Images'_ so that it actually fails.
+Let's use any sample test which fails as an example for the below article. 
 
 ## Step Failure Details Section
 
-<a href="/automated-tests/test-execution/quick-execution" target="_blank">Execute the sample test</a> and wait for the run to finish. The overall result of the test run is reported failed and the failing step is marked in the test. The __Step Failure Details__ section, displayed under, provides an overview of the __reason for the failure__, the __images__, and __suggestions__ what options you have to troubleshoot the error.
+<a href="/automated-tests/test-execution/quick-execution" target="_blank">Execute the sample test</a> and wait for the run to finish. The overall result of the test run is reported failed and the failing step is marked in the test. The __Step Failure Details__ section displayed under provides an overview of the __reason for the failure__, the __images__, and __suggestions__ what options you have to troubleshoot the error.
 
 ![Step Failure Details Section][10]
+
+<!-- no toc -->
+- [Failure Reason Section](#failure-reason-section)
+- [Suggestions Section](#suggestions-section)
+- [Images Section](#images-section)
+
 
 ### Failure Reason Section
 
@@ -23,10 +29,14 @@ The __Failure Reason__ section shows a summary of the error, which caused the fa
 - [DOM tree on failure](#page-dom-tab),
 - [Resolve failure suggestions](#resolve-failure-tab),
 - __Copy__ button to get the error log in clipboard,
-- [export the overall step failure details](#how-to-export-the-step-failure-details),
-- trigger the form to submit a bug, if you have <a href="/features/integration/bug-tracking/configuration" target="_blank">configured a bug tracking tool</a> for the project.
+- [Export the overall step failure details](#how-to-export-the-step-failure-details),
+- Trigger the form to submit a bug, if you have <a href="/features/integration/bug-tracking/configuration" target="_blank">configured a bug tracking tool</a> for the project.
 
 ![Failure Reason Section][11]
+
+<br>
+<div><a style="float:right" href="#step-failure-details-section">Back to top of section</a></div>
+<br>
 
 ### Suggestions Section
 
@@ -39,6 +49,10 @@ The __Suggestion__ section hints you with handy features in Test Studio for __tr
 
 ![Suggestion Section][12]
 
+<br>
+<div><a style="float:right" href="#step-failure-details-section">Back to top of section</a></div>
+<br>
+
 ### Images Section
 
 The __Images__ section lists the __state of the application at the time of failure__ compared to what was captured when the test steps were recorded. The images are often useful to identify that certain step gets executed before the application is in the correct state to accept the action. Such timing issues are usually resolved by adding <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> or <a href="/features/custom-steps/execution-delay" target="_blank">execution delays</a> before the action is sent towards the page.
@@ -48,6 +62,10 @@ The __Images__ section lists the __state of the application at the time of failu
 If you click the magnifier icon, the images are opened in full size and can be zoomed.
 
 ![Suggestion Section][14]
+
+<br>
+<div><a style="float:right" href="#step-failure-details-section">Back to top of section</a></div>
+<br>
 
 ## How to Open the Step Failure Details Window?
 
@@ -63,9 +81,16 @@ Click on the red cross to open the overall **Step Failure Details** with possibl
 
 The failure dialog provides a variety of useful details, which can be used for the different failure scenarios, divided in few tabs. Let's have an overview for each of these tabs and how these can help us find the solution for the failing step.
 
+<!-- no toc -->
+- [Failure Tab](#failure-tab)
+- [Images Tab](#images-tab)
+- [Page DOM Tab](#page-dom-tab)
+- [Resolve Failure Tab](#resolve-failure-tab)
+
+
 ### Failure Tab
 
-The **'Failure'** tab provides a summarized information for the encountered error - sometimes this can be quite descriptive, and other times it could be more generic.
+The **Failure** tab provides a summarized information for the encountered error - sometimes this can be quite descriptive, and other times it could be more generic.
 
 ![The failure tab][3]
 
@@ -83,15 +108,23 @@ From this view you can also access other useful options:
 
 * **Resolve**: navigates to the ***'Resolve Failure'*** tab, where you will get suggestions to apply a fix depending on the error.
 
+<br>
+<div><a style="float:right" href="#what-to-look-for-in-the-step-failure-details">Back to top of section</a></div>
+<br>
+
 ### Images Tab
 
-The **'Images'** tab displays two screenshots of the browser: the state at time of failure and the expected state. Storyboard must be enabled in <a href="/features/project-settings/recording-options" target="_blank">Project Settings</a> for the expected state image to appear.
+The **Images** tab displays two screenshots of the browser: the state at time of failure and the expected state. Storyboard must be enabled in <a href="/features/project-settings/recording-options" target="_blank">Project Settings</a> for the expected state image to appear.
 
 ![Images tab][4]
 
+<br>
+<div><a style="float:right" href="#what-to-look-for-in-the-step-failure-details">Back to top of section</a></div>
+<br>
+
 ### Page DOM Tab
 
-The **'Page DOM'** tab displays a snapshot of the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-dom-on-failure" target="_blank">DOM state</a> at the time of failure. You can use it to locate the element in the DOM tree and check its state, content, etc.
+The **Page DOM** tab displays a snapshot of the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-dom-on-failure" target="_blank">DOM state</a> at the time of failure. You can use it to locate the element in the DOM tree and check its state, content, etc.
 
 ![Page DOM tab][5]
 
@@ -108,6 +141,10 @@ The DOM on Failure is most helpful in situations where a test does not properly 
 
 The DOM on Failure provides a record of the elements that Test Studio could see in the browser at the time the test failed. Compare with <a href="/features/elements-explorer/find-element" target="_blank">the find logic</a> of the element that Test Studio expects to be in the browser during the failed step. This helps to identify which element should have been targeted, why the incorrect element may have been targeted, or what state the browser may have been in instead of the correct state.
 
+<br>
+<div><a style="float:right" href="#what-to-look-for-in-the-step-failure-details">Back to top of section</a></div>
+<br>
+
 ### Resolve Failure Tab
 
 The **'Resolve Failure'** tab provides the opportunity to identify and correct the issue that caused the failure. For validation steps, the Sentence Verification Builder allows you to reload the page, make changes to the verification sentence, and re-run the verification until the verification passes.
@@ -122,11 +159,21 @@ If the element was located on the page using the backup search recorded for it, 
 
 ![Resolve Failure tab missing element troubleshoot][8]
 
+<br>
+<div><a style="float:right" href="#what-to-look-for-in-the-step-failure-details">Back to top of section</a></div>
+<br>
+
 ## How to Export the Step Failure Details?
 
-When a test is failing and you need to share the identified faulty behavior with a team mate, developer, or the Test Studio Support team, you can easily __export the complete set of failure details into a single zipped file__. The archive contains the failed step log, the complete test execution log, a screenshot of the web page and a snapshot of the DOM tree at the time of failure. To get the zipped file, click on the __Export__ button on the _Failure_ tab and choose a folder where to store it.
+When a test is failing and you need to share the identified faulty behavior with a team mate, developer, or the Test Studio Support team, you can easily __export the complete set of failure details into a single zipped file__. The archive contains the failed step log, the complete test execution log, a screenshot of the web page and a snapshot of the DOM tree at the time of failure.
 
-![Export the step failure details][9]
+- One option to get the zipped folder is to use the __Export__ button in the __Failure Reason Section__. 
+
+    ![failure section export button](/img/automated-tests/test-results/new-step-failure-details/failure-section-export-button.png)
+
+- The other option to get the zipped file is to use the __Export__ button on the __Failure__ tab in the Step Failure window and choose a folder where to store it.
+
+    ![Export the step failure details][9]
 
 [10]: /img/automated-tests/test-results/new-step-failure-details/new1.png
 [11]: /img/automated-tests/test-results/new-step-failure-details/new2.png
