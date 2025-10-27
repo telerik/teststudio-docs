@@ -1,17 +1,17 @@
 ---
 title: AzDO Classic Pipeline Using Microsoft-Hosted Agent
-page_title: Test Studio Tests in Azure DevOps Classic Pipeline Using Self-Hosted Agent
-description: "Integrate Test Studio tests in Azure DevOps continuous integration. Execute Test Studio tests from an Azure DevOps Build Pipeline configured with Microsoft-hosted agent."
-position: 4
+page_title: Test Studio Tests in Azure DevOps Classic Pipeline Using Microsoft-Hosted Agent
+description: "Integrate Test Studio tests in Azure DevOps continuous integration. Execute Test Studio tests with Azure DevOps Classic Pipeline configured with Microsoft-hosted agent."
+position: 2
 ---
 
-# Test Studio Tests in Azure DevOps CI with Microsoft-Hosted Agent
+# Test Studio Tests in Azure DevOps Classic Piepline Using Microsoft-Hosted Agent
 
-<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. This article guide you through an example setup of classic pipeline using Microsoft-hosted agent.
+<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. This article guides you through an example setup of classic pipeline using Microsoft-hosted agent.
 
 > __Tip!__
 ><br>
-> Double check if you have covered all prerequisites for this setup.
+> Double check if you have covered all <a href="/advanced-topics/build-server/azdo/azdo-pipelines-and-test-studio-tests#choose-the-configuration-to-setup" target="_blank">prerequisites for this setup</a>.
 
 ## Create a Free Form Pipeline
 
@@ -42,7 +42,7 @@ position: 4
     > Set __all tasks__ to **Continue on error** in the task **Control Options** section. This ensures that result upload tasks run even if a previous task fails. 
     ><br>
     ><br>
-    > All tasks, except the first Command Line task which executes the test run command, are optional. 
+    > All tasks except the first Command Line task (which executes the test run command) are optional. 
 
 ## Add Universal Download Package Task to Deploy Test Studio Installer on Agent Machine
 
@@ -52,9 +52,9 @@ position: 4
 
 2. Set a meaningful name for the __Universal Packages__ task. Then set the task command to download action and specify the destination folder. 
 
-    ![Download Universal Package task](img/advanced-topics/build-server/mha-testing/fig9a.png)
+    ![Download Universal Package task](/img/advanced-topics/build-server/mha-testing/fig9a.png)
 
-3. Verify the __Feed & Packages details__ section in the __Universal Packages__ task and ensure the feed, name and version details of the artifact correspond to details specified when publishing the installer as an artifact.
+3. Verify the __Feed & packages details__ section in the __Universal Packages__ task and ensure the feed, name and version details of the artifact correspond to details specified when <a href="/advanced-topics/build-server/azdo/azdo-pipelines-and-test-studio-tests#add-test-studio-run-time-installer-as-artifact-in-azdo-project" target="_blank">publishing the installer as an artifact</a>.
 
     ![Feed & Packages details section](/img/advanced-topics/build-server/mha-testing/fig9.png)
 
@@ -106,7 +106,7 @@ position: 4
 
 ## Add Publish Pipeline Artifacts Task to Upload the Test Studio Result File 
 
-Test Studio test run produces its own test result file which contains additional useful information for the test run. That result file can be very helpful in the case when a test run fails. The __result file always ends with file extension *.aiiresult__ and we recommend to <a href="/features/test-runners/artoftest-runner#result-option" target="_blank">specify its name as part of the command which triggers the CLI runner</a> in order to upload it to the pipeline artifacts. 
+Test Studio test run produces its proprietary test result file which contains additional useful information for the test run. That result file can be very helpful in the case when a test run fails. The __result file always ends with file extension *.aiiresult__ and we recommend to <a href="/features/test-runners/artoftest-runner#result-option" target="_blank">specify its name as part of the command which triggers the CLI runner</a>. That way you can control the upload of the file to the pipeline artifacts. 
 
 1. Click the __Agent__ tile and create a new __All >> Publish Pipeline Artifacts__ task.
 
@@ -122,7 +122,7 @@ Test Studio test run produces its own test result file which contains additional
 
 ## Add Publish Pipeline Artifacts Task to Upload the Test Studio Failure Details When Available 
 
-Test Studio test run produces its own <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> in case a test run fails. These provide additional context for the specific failure and are very useful for debugging a failing test. The failure details are output in a folder which has the name of the test result and ends with __*\_files__. Since __these are available only if a test fails__ you need to setup a task to check if such folder exists and upload the artifacts only if it does. 
+Test Studio test run produces its proprietary <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> in case a test run fails. These provide additional context for the specific failure and are very useful for debugging a failing test. The failure details are output in a folder which has the name of the test result and ends with __*\_files__. Since __these are available only if a test fails__ you need to setup a task to check if such folder exists and upload the artifacts only if it does. 
 
 1. Click the __Agent__ tile and create a new __Utility >> Command line__ task.
 
@@ -158,7 +158,6 @@ Test Studio test run produces its own <a href="/automated-tests/test-results/ste
 [10]: /img/advanced-topics/build-server/azure-devops/fig10.png
 [11]: /img/advanced-topics/build-server/azure-devops/fig11.png
 [12]: /img/advanced-topics/build-server/azure-devops/fig12.png
-
 [14]: /img/advanced-topics/build-server/azure-devops/fig14.png
 [15]: /img/advanced-topics/build-server/azure-devops/fig15.png
 [16]: /img/advanced-topics/build-server/azure-devops/fig16.png

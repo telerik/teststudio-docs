@@ -333,19 +333,27 @@ navigation:
         position: 11
         
 # === Advanced Topics ===
-    
+#......Build server.......
+    "*build-server":
+        title: "Continuous Integration"
+        position: 0
+#......Azure DevOps.......
+    "*azdo":
+        title: "Azure DevOps Pipelines"
+        position: 0
+
+#.....Coded Samples......
     "*coded-samples":
         title: "Coded Samples"
-#.....Coded Samples
+        position: 1
+#.....Coded Samples-subsections......
     "*general":
         title: "General"
     "*html":
         title: "HTML"
     "*wpf":
         title: "WPF"
-#........................
-    "*build-server":
-        title: "Build Server"
+
 
 # === Knowledge Base ===
     "*activation-kb":
