@@ -1,17 +1,17 @@
 ---
 title: AzDO Classic Pipeline Using Self-Hosted Agent
 page_title: Test Studio Tests in Azure DevOps Classic Pipeline Using Self-Hosted Agent
-description: "Integrate Test Studio tests in Azure DevOps continuous integration. Execute Test Studio tests from an Azure DevOps Build Pipeline configured with self-hosted agent."
+description: "Integrate Test Studio tests in Azure DevOps continuous integration. Execute Test Studio tests with Azure DevOps Classic Pipeline configured with self-hosted agent."
 position: 1
 ---
 
 # Test Studio Tests in Azure DevOps Classic Pipeline Using Self-Hosted Agent
 
-<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. This article guide you through an example setup of classic pipeline using self-hosted agent machine. 
+<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. This article guides you through an example setup of classic pipeline using self-hosted agent machine. 
 
 > __Tip!__
 ><br>
-> Double check if you have covered all prerequisites for this setup. 
+> Double check if you have covered all <a href="/advanced-topics/build-server/azdo/azdo-pipelines-and-test-studio-tests#choose-the-configuration-to-setup" target="_blank">prerequisites for this setup</a>. 
 
 ## Create Classic Pipeline
 
@@ -42,7 +42,7 @@ position: 1
     > Set __all tasks__ to **Continue on error** in the task **Control Options** section. This ensures that result upload tasks run even if a previous task fails. 
     ><br>
     ><br>
-    > All tasks, except the first Command Line task which executes the test run command, are optional. 
+    > All tasks except the first Command Line task (which executes the test run command) are optional. 
 
 ## Add Command Line Agent Task to Execute Test or Test List
 
@@ -78,7 +78,7 @@ position: 1
 
 ## Add Publish Pipeline Artifacts Task to Upload the Test Studio Result File 
 
-Test Studio test run produces its own test result file which contains additional useful information for the test run. That result file can be very helpful in the case when a test run fails. The __result file always ends with file extension *.aiiresult__ and we recommend to <a href="/features/test-runners/artoftest-runner#result-option" target="_blank">specify its name as part of the command which triggers the CLI runner</a> in order to upload it to the pipeline artifacts. 
+Test Studio test run produces its proprietary test result file which contains additional useful information for the test run. That result file can be very helpful in the case when a test run fails. The __result file always ends with file extension *.aiiresult__ and we recommend to <a href="/features/test-runners/artoftest-runner#result-option" target="_blank">specify its name as part of the command which triggers the CLI runner</a>. That way you can control the upload of the file to the pipeline artifacts. 
 
 1. Click the __Agent__ tile and create a new __All >> Publish Pipeline Artifacts__ task.
 
@@ -94,7 +94,7 @@ Test Studio test run produces its own test result file which contains additional
 
 ## Add Publish Pipeline Artifacts Task to Upload the Test Studio Failure Details When Available 
 
-Test Studio test run produces its own <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> in case a test run fails. These provide additional context for the specific failure and are very useful for debugging a failing test. The failure details are output in a folder which has the name of the test result and ends with __*\_files__. Since __these are available only if a test fails__ you need to setup a task to check if such folder exists and upload the artifacts only if it does. 
+Test Studio test run produces its proprietary <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> in case a test run fails. These provide additional context for the specific failure and are very useful for debugging a failing test. The failure details are output in a folder which has the name of the test result and ends with __*\_files__. Since __these are available only if a test fails__ you need to setup a task to check if such folder exists and upload the artifacts only if it does. 
 
 1. Click the __Agent__ tile and create a new __Utility >> Command line__ task.
 
@@ -121,15 +121,6 @@ Test Studio test run produces its own <a href="/automated-tests/test-results/ste
     ![See published Artifacts](/img/advanced-topics/build-server/azure-devops/fig22.png)
 
 
-
-[1]: /img/advanced-topics/build-server/azure-devops/fig1.png
-[2]: /img/advanced-topics/build-server/azure-devops/fig2.png
-[3]: /img/advanced-topics/build-server/azure-devops/fig3.png
-[4]: /img/advanced-topics/build-server/azure-devops/fig4.png
-[5]: /img/advanced-topics/build-server/azure-devops/fig5.png
-[6]: /img/advanced-topics/build-server/azure-devops/fig6.png
-[7]: /img/advanced-topics/build-server/azure-devops/fig7.png
-[8]: /img/advanced-topics/build-server/azure-devops/fig8.png
 [9]: /img/advanced-topics/build-server/azure-devops/fig9.png
 [10]: /img/advanced-topics/build-server/azure-devops/fig10.png
 [11]: /img/advanced-topics/build-server/azure-devops/fig11.png

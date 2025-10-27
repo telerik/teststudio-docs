@@ -15,7 +15,7 @@ The build machine may be either a physical or virtual system that hosts both the
 Additional prerequisites: 
 
 * __Azure DevOps account__ enabled to configure Agent pools, Microsoft-hosted agent VMs and pipelines: __mandatory__
-* __Azure DevOps Agent __: __mandatory__
+* __Azure DevOps Agent__ : __mandatory__
 * __Test Studio Run-time Edition__ (ArtOfTest.Runner.exe must be available - preferably latest version): __mandatory__
 * __Internet Browser__ (Chrome, Edge, Firefox - preferably latest versions) or WPF/desktop application: __mandatory__
 
@@ -142,7 +142,7 @@ Follow the below steps to upload the Test Studio Run-time installer as artifact 
 
 ## Limitations in Using MS-Hosted Agent with Test Studio Tests
 
-* __Only web tests using Edge and Chrome browsers (both headless and headdull)__ can be executed in a Microsoft-hosted agent.
+* __Only web tests using Edge and Chrome browsers__ can be executed in a Microsoft-hosted agent.
 * __The <a href="/automated-tests/test-results/step-failure-details#images-tab" target="_blank">images on failure</a>__ are not available in the results generated from the test runs in Microsoft-hosted agent.
 
 <br>
@@ -153,10 +153,10 @@ Follow the below steps to upload the Test Studio Run-time installer as artifact 
 
 You can integrate the Test Studio automated tests execution in both classic and YAML type of pipelines in AzDO. Find reference for the different options and choose the one which suits your project needs: 
 
-- Configure classic pipeline to execute tests on self hosted machine
-- Configure classic pipeline to execute tests on Microsoft hosted machine
-- Configure YAML pipeline to execute tests on self hosted machine
-- Configure YAML pipeline to execute tests on Microsoft hosted machine
+- <a href="/advanced-topics/build-server/azdo/self-hosted-agent-classic-pipeline" target="_blank">Configure classic pipeline to execute tests on self hosted machine</a>
+- <a href="/advanced-topics/build-server/azdo/ms-hosted-agent-classic-pipeline" target="_blank">Configure classic pipeline to execute tests on Microsoft hosted machine</a>
+- <a href="/advanced-topics/build-server/azdo/self-hosted-agent-yml-pipeline" target="_blank">Configure YAML pipeline to execute tests on self hosted machine</a>
+- <a href="/advanced-topics/build-server/azdo/ms-hosted-agent-yml-pipeline" target="_blank">Configure YAML pipeline to execute tests on Microsoft hosted machine</a>
 
 [2]: /img/advanced-topics/build-server/azure-devops/fig2.png
 [3]: /img/advanced-topics/build-server/azure-devops/fig3.png
