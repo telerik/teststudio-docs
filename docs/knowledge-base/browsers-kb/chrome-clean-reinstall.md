@@ -18,9 +18,9 @@ The below steps guides you through the process:
 
 1. Start Windows Control Panel > Add/Remove Programs and choose to uninstall Chrome from your machine.
 
-2. In a File Explorer browse to Chrome user data folder - default `C:\Users\\\<YourUsername>\AppData\Local\Google\Chrome`. Delete any leftover data in this folder or remove the complete folder.
+2. In a File Explorer browse to Chrome user data folder - default `C:\Users\\YourUsername\AppData\Local\Google\Chrome`. Delete any leftover data in this folder or remove the complete folder.
 
-3. In a File Explorer browse to Test Studio user data folder for the browsers - `C:\Users\\\<YourUsername>\AppData\Local\ArtOfTest\` and delete the folders for Chrome and Chrome headless profiles: 
+3. In a File Explorer browse to Test Studio user data folder for the browsers - `C:\Users\\YourUsername\AppData\Local\ArtOfTest\` and delete the folders for Chrome and Chrome headless profiles: 
     - TSChromeUserData
     - TSChromeHeadlessUserData
 
