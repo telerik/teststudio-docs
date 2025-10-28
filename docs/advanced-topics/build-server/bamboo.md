@@ -1,6 +1,5 @@
 ---
 title: Bamboo CI
-
 page_title: Bamboo Test Studio Tests Integration
 description: "Integrate Test Studio tests in bamboo continuous integration. Execute Test Studio tests with Bamboo"
 position: 8

@@ -3,7 +3,7 @@ title: Jenkins CI
 page_title: Jenkins CI
 description: "Integrate Test Studio tests in Jenkins continuous integration. Execute Test Studio tests with Jenkins."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/jenkins_ci.aspx, /user-guide/command-line-test-execution/continuous-integration/jenkins_ci
-position: 2
+position: 4
 ---
 # Jenkins CI
 
@@ -15,7 +15,7 @@ Test Studio tests should not be run from a Windows Service account. Because the 
 
 ![Download Jenkins][1]
 
-## Run the Jenkins Listener on a custom port
+## Run the Jenkins Listener on a Custom Port
 
 By default, the Jenkins Listener runs on port 8009 -- the same port as the Test Studio Scheduling Service. When installing the .war, use a command line argument to configure a different, non-conflicting port number for the listener (that is, avoid port numbers 8009, 8010, 8011, 8012, and 8013). For example:
 
@@ -25,19 +25,19 @@ java -jar jenkins.war --ajp13Port=8019
 
 > Optionally you can use the <a href="/advanced-topics/build-server/jenkins-ci-plugin" target="_blank">Jenkins Test Studio Plugin</a> to setup Jenkins
 
-## Create a free-style software project 
+## Create a Free-style Software Project 
 
 Create a job and select 'Build a free-style software project'.
 
 ![Free-style software project][2]
 
-## Add a Windows batch command build step 
+## Add a Windows Batch Command Build Step 
 
 Under the 'Add build step menu,' select 'Execute Windows batch command'.
 
 ![Command build step][3]
 
-## Input ArtOfTest.Runner command line command to execute test
+## Input ArtOfTest.Runner Command to Execute Test
 
 Under 'Execute Windows batch command', input the ArtOfTest.Runner command to execute your test or test list, including <a href="/features/test-runners/artoftest-runner" target="_blank">full path to ArtOfTest.Runner.exe and appropriate arguments</a>.
 
@@ -45,7 +45,7 @@ Under 'Execute Windows batch command', input the ArtOfTest.Runner command to exe
 
 Your test execution step is now ready to save and run.
 
-## Attach the results files to the Job 
+## Attach the Results Files to the Job 
 
 1.	Add "**out**" parameter in the batch command. It should point to the default jenkins workspace `C:\Users\[userName]\.jenkins\jobs\test\workspace\%JOB_NAME%%BUILD_NUMBER%` so the results files are outputted in a folder with an unique name (Job Name + Build Number).
 	

@@ -1,7 +1,7 @@
 ---
 title: Missing Assembly References in Test Studio Project
 page_title: Missing Assembly References in Test Studio Project
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to fix missing assembly reference errors in Test Studio projects after updating the Visual Studio plugin. This article explains why references break and provides step-by-step solutions for restoring project builds."
 position: 1
 ---
 # Missing Assembly References in Visual Studio (Typically After Updating Test Studio Plugin)

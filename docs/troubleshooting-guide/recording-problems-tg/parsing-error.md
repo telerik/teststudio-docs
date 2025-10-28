@@ -1,7 +1,7 @@
 ---
 title: Parsing Error
 page_title: Resolving Errors Related to Invalid HTML Code
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to resolve parsing errors in Test Studio caused by invalid HTML code. This article explains common causes, troubleshooting steps, and best practices for ensuring your web pages are compatible with automated recording and testing."
 position: 1
 ---
 # Resolving Errors Related to Invalid HTML Code

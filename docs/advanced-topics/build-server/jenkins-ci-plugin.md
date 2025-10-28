@@ -2,7 +2,7 @@
 title: Jenkins CI Plugin
 page_title: Jenkins CI Plugin
 description: "Test Studio plugin for Jenkins Continuous integration setup. Configure the Test Studio plugin for Jenkins CI."
-position: 2
+position: 5
 ---
 # Test Studio Plugin for Jenkins CI #
 

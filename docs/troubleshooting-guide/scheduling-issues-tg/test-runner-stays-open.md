@@ -1,7 +1,7 @@
 ---
 title: Test Runner Stays Open
 page_title: Test Runner Stays Open
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Understand why the Test Studio Test Runner process may remain open after closing Test Studio. Learn about the intended behavior, reasons for persistent processes, and how scheduled test execution affects Test Runner lifecycle."
 position: 1
 ---
 # Test Runner Stays Open

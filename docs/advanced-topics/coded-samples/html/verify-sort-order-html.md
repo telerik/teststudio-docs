@@ -1,7 +1,7 @@
 ---
 title: Verify Sort Order
 page_title: Verify Sort Order
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to verify the sort order of an HTML table column in Test Studio using C#. This guide provides a coded solution to ensure data is sorted correctly during automated testing."
 previous_url: /user-guide/code-samples/html/verify-sort-order.aspx, /user-guide/code-samples/html/verify-sort-order
 position: 1
 ---

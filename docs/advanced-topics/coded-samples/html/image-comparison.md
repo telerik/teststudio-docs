@@ -1,7 +1,7 @@
 ---
 title: Image Comparison
 page_title: Image Comparison
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to perform image comparisons in Test Studio using C# and VB.NET. This guide provides a coded solution to compare browser images with stored images, allowing tolerance levels for automated testing."
 previous_url: /user-guide/code-samples/html/image-comparison.aspx, /user-guide/code-samples/html/image-comparison
 position: 1
 ---

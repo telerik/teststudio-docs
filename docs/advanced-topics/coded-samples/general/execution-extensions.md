@@ -1,8 +1,8 @@
 ---
 title: Execution Extensions
 page_title: Execution Extension
-description: "Test Studio has enhanced extensibility support for test execution. Integrate Test Studio better into your environment that contains custom results reporting and code defect tracking. Extend the Test Studio test execution with custom coded solutions in Execution Extension"
-previous_url: /user-guide/code-samples/general/execution-extensions.aspx, /user-guide/code-samples/general/execution-extensions
+description: "Learn how to extend and customize Test Studio’s test execution process using Execution Extensions. This article provides step-by-step guidance on building and deploying custom execution extensions in C# or VB.NET, including practical examples for custom result reporting and data source integration. It explains the IExecutionExtension interface, details each method’s purpose, and covers deployment scenarios for local, remote, and CI environments"
+
 position: 1
 ---
 # Execution Extension 

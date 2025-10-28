@@ -1,11 +1,10 @@
 ---
 title: Access SQL Database
 page_title: Access SQL Database
-description: "how to access an SQL database through code in Test Studio coded step."
-previous_url: /user-guide/code-samples/general/access-sql-database.aspx, /user-guide/code-samples/general/access-sql-database
+description: "Learn how to connect to and interact with a SQL database in Test Studio coded steps. This article covers adding assembly references, building connection strings, and using C# or VB.NET code to read from and write to SQL databases."
 position: 1
 ---
-#How to Access a SQL Database in Code#
+# How to Access a SQL Database in Code
 
 > You can access an SQL database in a data driven test, as seen <a href="/features/data-driven-testing/add-data-source#add-a-database-source" target="_blank">here</a>. This is built-in functionality for Test Studio, but not for Telerik Testing Framework. This article demonstrates how to access a SQL database through code, which allows for greater flexibility. Also, writing into a database is only possible with a coded solution.
 

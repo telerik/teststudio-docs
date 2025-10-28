@@ -1,15 +1,14 @@
 ---
 title: Connect to Running App
 page_title: Connect to Running App
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/code-samples/wpf/connect-to-running-wpf-app.aspx, /user-guide/code-samples/wpf/connect-to-running-wpf-app
+description: "Learn how to connect to a running WPF application in Test Studio. This guide provides a coded solution in C# to execute tests on an active app instance or launch a new one if needed, enhancing automated testing workflows."
 position: 1
 ---
-#Connect to a Running WPF Application#
+# Connect to a Running WPF Application
 
 *I would like to connect to an already running WPF application and execute the test there, instead of launching a new instance of the app.*
 
-##Solution##
+## Solution
 
 When you Quick Execute or execute a Test List, a new instance of the app launches from its pre-configured location.
  

@@ -2,7 +2,6 @@
 title: Import and Export Excel Workbooks
 page_title: Import and Export Excel Workbooks
 description: "Import and Export Excel Workbooks for manual tests / manual test steps in Test Studio."
-previous_url: /user-guide/manual-testing/import_and_export_excel.aspx, /user-guide/manual-testing/import_and_export_excel
 position: 5
 ---
 # Import and Export Excel Data

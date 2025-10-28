@@ -1,13 +1,11 @@
 ---
 title: jQuery Events Do Not Fire
 page_title: jQuery Events Do Not Fire
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/code-samples/html/jquery-events-do-not-fire.aspx, /user-guide/code-samples/html/jquery-events-do-not-fire
+description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 1
+publish: false
 ---
-#jQuery Events Do Not Fire During Test Execution#
-
-**Note:** As of 2012 R1 SP1, use the TriggerjQueryEvent <a href="/features/test-maintenance/test-step-properties" target="_blank">Test Step Property</a> to trigger jQuery events for HTML drop-down menus. Minimum supported jQuery version is 1.4.
+# jQuery Events Do Not Fire During Test Execution 
 
 In some cases, Test Studio does not automatically call local jQuery events. You must add a coded step to make the local jQuery event fire manually.
 

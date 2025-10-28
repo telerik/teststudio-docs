@@ -2,7 +2,6 @@
 title: Overview
 page_title: Manual Testing
 description: "Manual Testing in Test Studio."
-previous_url: /user-guide/manual-testing.aspx, /user-guide/manual-testing
 position: 1
 ---
 # Manual Testing

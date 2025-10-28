@@ -6,7 +6,9 @@ position: 3
 ---
 # Test Studio Tests in Azure DevOps YAML Pipeline Using Self-Hosted Agent
 
-<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. Below is a sample YAML pipeline using self-hosted agent machine which follows the instructions for <a href="/advanced-topics/build-server/azdo/self-hosted-agent-classic-pipeline#add-command-line-agent-task-to-execute-test-or-test-list" target="_blank">building the classic pipeline using self-hosted agent</a>.
+<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. 
+
+Below is a sample YAML pipeline using self-hosted agent machine which follows the instructions for <a href="/advanced-topics/build-server/azdo/self-hosted-agent-classic-pipeline#add-command-line-agent-task-to-execute-test-or-test-list" target="_blank">building the classic pipeline using self-hosted agent</a>.
 
 ```YAML
 trigger:

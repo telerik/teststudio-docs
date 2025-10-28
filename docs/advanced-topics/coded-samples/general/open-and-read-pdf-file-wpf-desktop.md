@@ -1,7 +1,7 @@
 ---
 title: Read Saved PDF File - WPF and Desktop Tests
 page_title: Read Saved PDF File - WPF and Desktop Tests
-description: "Open a saved locally PDF file in Test Studio WPF and Desktop Tests and read its content. The tested application creates a PDF file and let's you save it locally on the hard disc. How to open that PDF file and read its content from WPF or Desktop test?"
+description: "Learn how to open and read the contents of a saved PDF file in Test Studio WPF and Desktop tests using iTextSharp. Step-by-step guide with code examples for validating PDF content in automated scenarios."
 position: 1
 publish: true
 ---

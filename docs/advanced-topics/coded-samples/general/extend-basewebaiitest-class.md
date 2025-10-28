@@ -1,7 +1,7 @@
 ---
 title: Extend BaseWebAiiTest Class
 page_title: Extend BaseWebAiiTest Class
-description: "How to Extend BaseWebAiiTest Class Functionality in Test Studio coded projects."
+description: "Learn how to extend the BaseWebAiiTest class in Test Studio to add shared methods and functionality across all coded tests. Step-by-step guide with C# and VB.NET examples for improved code reuse and maintainability."
 position: 1
 ---
 # How to Extend BaseWebAiiTest Class Functionality #

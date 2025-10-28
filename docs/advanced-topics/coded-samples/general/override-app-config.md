@@ -3,6 +3,7 @@ title: Override app.config
 page_title: Override app.config
 description: "Override Test Studio app.config to get tue run-time configuration settings in Visual Studio."
 position: 1
+publish: false
 ---
 #Override the app.config File in a Test Studio Project#
 

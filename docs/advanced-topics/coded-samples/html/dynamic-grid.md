@@ -1,16 +1,16 @@
 ---
 title: Dynamic Grid
 page_title: Dynamic Grid
-description: "Automating a dynamic grid - how to overcome the challenge that the content of the cells in grid changes? The recorded elements use the text content of cells which changes and I can't execute the tests unless if I don't change the find expressions of elements.  How can avoid constant update of grid elements?"
+description: "Learn how to automate dynamic grids in Test Studio, handle changing cell content, and avoid constant updates to element find expressions. Step-by-step guide with code examples for reliable grid automation."
 position: 1
 ---
-#Automating a Dynamically Generated Grid#
+# Automating a Dynamically Generated Grid
 
 You need to automate an ASP .NET Grid control like the one seen <a href="http://demos.telerik.com/aspnet-ajax/grid/examples/client/selecting/defaultcs.aspx" target="_blank">here</a>.
 
 **Note:** this is a Telerik-manufactured RadControl but this solution applies to generic/custom grids as well.
 
-##Solution##
+## Solution
 
 This can be achieved in both the Standalone version and Visual Studio plugin through a coded solution. We will use <a href="http://demos.telerik.com/aspnet-ajax/grid/examples/client/selecting/defaultcs.aspx" target="_blank">this grid</a> to demonstrate how to do it.
 
@@ -32,7 +32,7 @@ Going back to Test Studio, you will notice a new element has appeared in Project
 
 ![Add to project][3]
 
-##Outputting the content of each (visible) cell to the Log
+## Outputting the content of each (visible) cell to the Log
 
 Create a new coded step and add the following lines that go through each (visible) cell in the Grid:
 
@@ -48,7 +48,7 @@ foreach (HtmlTableRow r in Pages.TelerikWebUIGridRow.ContentPlaceholder1RadGrid1
 
 This is C# code, the VB code will follow the same logic only transcribed in the corresponding syntax. Make sure the coded steps executes at a point in your test when the page congaing the Grid is loaded in the Active Browser.
 
-##Locate a specific row and click on a specific cell in that row
+## Locate a specific row and click on a specific cell in that row
 
 Let's look at the grid in the below image. Let's imagine we want to get the row that contains the Contact Name "Thomas Hardy" and from there we want to click the checkbox in the same Row:
 
