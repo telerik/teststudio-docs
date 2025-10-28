@@ -1,7 +1,7 @@
 ---
 title: Data Driven Find Expressions in Code
 page_title: Data Driven Find Expressions in Coded Step
-description: "Data Driven Find Expressions in Test Studio test. Select different value from a drop down for each test run. Parameterize or data drive how an element in Test Studio test is found."
+description: "Learn how to parameterize element find expressions in Test Studio coded steps for data-driven testing. This article demonstrates how to use data sources to dynamically locate and interact with elements, such as selecting different values from a dropdown in each test iteration."
 position: 1
 ---
 # Data Driven Find Expressions in Coded Step 
@@ -10,7 +10,7 @@ position: 1
 
 > __Tip!__ <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data driven find expressions</a> is also available directly in elements Edit mode.
 
-## The Scenario
+## Scenario
 
 The example below uses a page from the <a href="https://demos.telerik.com/aspnet-mvc/listbox" target="_blank">Telerik UI for ASP.NET MVC demo site</a>. 
  
@@ -20,7 +20,7 @@ The example below uses a page from the <a href="https://demos.telerik.com/aspnet
 4. The selected name is now moved to the right under the _Developers_ list. 
 5. Do consecutive iterations for each of the names in the list on the left.
 
-## The Solution
+## Solution
 
 1. Create a test and <a href="/getting-started/first-test#start-a-recording-session" target="_blank">record the __Navigate__ step</a>.
    

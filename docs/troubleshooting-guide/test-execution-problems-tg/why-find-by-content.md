@@ -1,7 +1,7 @@
 ---
 title: Why Find.By.Content May Return Null
 page_title: Why Find.By.Content May Return Null
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Understand why Find.ByContent may return null in Test Studio. This article explains common pitfalls, error scenarios, and provides solutions for locating elements by content in automated tests."
 position: 1
 ---
 # Why Find.By.Content May Return Null

@@ -1,8 +1,7 @@
 ---
 title: Access SQL Database
 page_title: Access SQL Database
-description: "how to access an SQL database through code in Test Studio coded step."
-previous_url: /user-guide/code-samples/general/access-sql-database.aspx, /user-guide/code-samples/general/access-sql-database
+description: "Learn how to connect to and interact with a SQL database in Test Studio coded steps. This article covers adding assembly references, building connection strings, and using C# or VB.NET code to read from and write to SQL databases."
 position: 1
 ---
 # How to Access a SQL Database in Code

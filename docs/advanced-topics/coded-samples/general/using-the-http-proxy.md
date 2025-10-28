@@ -1,8 +1,7 @@
 ---
 title: Using the HTTP Proxy
 page_title: Using the HTTP Proxy
-description: "Use the HTTP Proxy in Test Studio coded tests."
-previous_url: /user-guide/code-samples/general/using_the_http_proxy.aspx, /user-guide/code-samples/general/using_the_http_proxy
+description: "Learn how to enable and use the HTTP proxy in Test Studio coded tests. Includes setup instructions and code examples for intercepting HTTP requests and responses."
 position: 1
 ---
 # Using the HTTP Proxy in Test Studio

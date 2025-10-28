@@ -1,12 +1,12 @@
 ---
 title: FrameworkElement Object
 page_title: FrameworkElement Object
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn about the FrameworkElement object in Test Studio's WPF automation. Explore its properties, methods, and usage for navigating and interacting with the visual tree in automated tests."
 position: 3
 ---
 # FrameworkElement Object
 
-The **FrameworkElement** object is analogous to the <a href="http://msdn.microsoft.com/en-us/library/system.windows.frameworkelement(VS.95).aspx" target="_blank">FrameworkElement</a> in Silverlight and is the base object that all visual elements and controls inherit from in the **ArtOfTest.WebAii.Silverlight.UI** namespace. For customers interested in our extensibility model, the Silverlight Extension does not expose a <a href="http://msdn.microsoft.com/en-us/library/system.windows.uielement(VS.95).aspx" target="_blank">UIElement</a> and therefore, our **FrameworkElement** can be viewed as the combination of Silverlight's **UIElement + FrameworkElement**.
+The **FrameworkElement** object is the base object that all visual elements and controls inherit from in the **ArtOfTest.WebAii.Silverlight.UI** namespace. 
  
 The **FrameworkElement** and all objects that inherit from it get the following infrastructure properties:
 
@@ -247,4 +247,4 @@ These are all of the FrameworkElement methods available for use by your automati
 </tr>
 </table>
 
-[1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png
+[1]: /img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png

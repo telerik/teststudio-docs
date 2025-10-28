@@ -1,8 +1,7 @@
 ---
 title: WPF UI Automation
 page_title: WPF UI Automation
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/write-tests-in-code/silverlight-test-automation/wpf-test-automation.aspx, /user-guide/write-tests-in-code/silverlight-test-automation/wpf-test-automation
+description: "Learn how to automate WPF application UI testing with Test Studio. This article covers launching applications, interacting with UI elements, verifying results, and best practices for building robust automated tests using the WPF Extension."
 position: 2
 ---
 # Getting started with WPF UI Automation
@@ -96,4 +95,4 @@ Let's take a closer look at the code above line by line:
  
 	Now that we understand this sample, let's dig into some of the key objects available in the WPF Extension.
 
-[1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png
+[1]: /img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png

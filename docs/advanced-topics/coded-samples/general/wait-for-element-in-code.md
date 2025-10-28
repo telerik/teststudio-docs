@@ -1,8 +1,7 @@
 ---
 title: Wait for Element in Code
 page_title: Wait for Element in Code
-description: "Wait for Element in Coded Test Studio test."
-previous_url: /user-guide/code-samples/general/wait-for-element-to-exist-in-code.aspx, /user-guide/code-samples/general/wait-for-element-to-exist-in-code
+description: "Learn how to wait for elements in Test Studio coded tests using custom timeouts and best practices. Includes code examples for HTML and WPF elements to ensure reliable test execution."
 position: 1
 ---
 # Wait for Element in Code

@@ -1,7 +1,7 @@
 ---
 title: Verify Style
 page_title: Verify Style
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to verify and extract HTML element styles in Test Studio using C# and VB.NET. This guide provides a coded solution for style verification and data extraction to enhance automated testing workflows."
 previous_url: /user-guide/code-samples/html/verify-style.aspx, /user-guide/code-samples/html/verify-style
 position: 1
 ---

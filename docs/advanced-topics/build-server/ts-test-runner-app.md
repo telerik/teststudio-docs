@@ -2,7 +2,7 @@
 title: Test Studio Execution Client in CI Builds
 page_title: Test Studio Execution Client in CI
 description: "Use Test Studio Test Runner app to control the machine user session when running UI tests as part of CI pipeline. "
-position: 0
+position: 1
 ---
 # Test Studio Test Runner in CI Builds
 

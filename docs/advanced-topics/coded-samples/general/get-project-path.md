@@ -1,7 +1,7 @@
 ---
 title: Get Project Path
 page_title: Get Project Path
-description: "Get Project root Path in Test Studio coded test."
+description: "Learn how to retrieve the current Test Studio project path in coded tests. Includes code examples for accessing the project directory and data source file locations for flexible test automation."
 position: 1
 ---
 # Get Current Test Project Path

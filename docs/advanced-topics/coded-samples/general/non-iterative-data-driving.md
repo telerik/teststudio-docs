@@ -1,8 +1,7 @@
 ---
 title: Non-iterative Data Driving
 page_title: Non-iterative Data Driving
-description: "Test Studio - data drive a step in a test script to select a different sequential row from the data source by each test run. Non-iterative Data Driving in Test Studio"
-previous_url: /user-guide/code-samples/general/non-iterative-data-driven-testing.aspx, /user-guide/code-samples/general/non-iterative-data-driven-testing
+description: "Learn how to implement non-iterative data driving in Test Studio by selecting a different data row on each test run. Step-by-step guide with code samples for managing row selection using XML and Excel."
 position: 1
 ---
 # Non-iterative Data Driving

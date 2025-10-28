@@ -1,8 +1,7 @@
 ---
 title: Random Row
 page_title: Random Row
-description: "Data drive a Test Studio test with random row from the data source for each test run execution iteration."
-previous_url: /user-guide/code-samples/general/random-row.aspx, user-guide/code-samples/general/random-row.aspx, /user-guide/code-samples/general/random-row.aspx, user-guide/code-samples/general/random-row
+description: "Learn how to data drive Test Studio tests by selecting a random row from an Excel data source on each run. Includes step-by-step code examples for dynamic test input."
 position: 1
 ---
 # Random Row from Excel Data Source

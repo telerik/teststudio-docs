@@ -3,6 +3,7 @@ title: Framework in Console App
 page_title: Framework in Console App
 description: "Test Studio - create a console application that performs UI automation tasks by using the Telerik Testing Framework."
 position: 1
+publish: false
 ---
 # Create a Console Application that Utilizes the Telerik Testing Framework
 

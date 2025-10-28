@@ -2,7 +2,7 @@
 title: TeamCity Builds
 page_title: TeamCity Test Execution
 description: "Integrate Test Studio tests in TeamCity continuous integration. Execute Test Studio tests with TeamCity."
-position: 2
+position: 6
 ---
 # TeamCity Test Execution
 

@@ -2,7 +2,7 @@
 title: Docker Container Testing
 page_title: Use Docker Container for Test Studio Test Execution
 description: "Docker container testing is compatible with Test Studio. Execute Test Studio tests in a Docker container. Headless test execution of Test Studio tests in Docker container."
-position: 9
+position: 3
 ---
 # Docker Container Testing with Test Studio
 

@@ -1,12 +1,12 @@
 ---
 title: Invoke Application
 page_title: How to Invoke an Application
-description: "How to Invoke an Application from a test step in Test Studio."
+description: "Learn how to launch desktop applications or batch files from Test Studio coded steps. Includes code examples for invoking executables with arguments and tips for custom automation scenarios."
 position: 1
 ---
 # How to Invoke an Application
 
-I want to invoke a desktop application (i.e. an .exe file) from a test step.
+_I want to invoke a desktop application (i.e. an .exe file) from a test step._
 
 ## Solution
 

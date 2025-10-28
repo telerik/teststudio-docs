@@ -1,7 +1,7 @@
 ---
 title: External Log File
 page_title: External Log File
-description: "Store the Test Studio test results to an external location."
+description: "Learn how to save Test Studio test execution logs to external files, including text and Excel formats. Step-by-step code examples show how to customize result storage for better reporting and analysis."
 position: 1
 ---
 # External Log File

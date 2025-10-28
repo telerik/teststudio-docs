@@ -2,7 +2,6 @@
 title: Start a Manual Test
 page_title: Start a Manual Test
 description: "Start a Manual Test in Test Studio."
-previous_url: /user-guide/manual-testing/start-a-manual-test.aspx, /user-guide/manual-testing/start-a-manual-test
 position: 2
 ---
 # Start a Manual Test

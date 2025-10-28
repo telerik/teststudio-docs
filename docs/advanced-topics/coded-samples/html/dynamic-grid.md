@@ -1,7 +1,7 @@
 ---
 title: Dynamic Grid
 page_title: Dynamic Grid
-description: "Automating a dynamic grid - how to overcome the challenge that the content of the cells in grid changes? The recorded elements use the text content of cells which changes and I can't execute the tests unless if I don't change the find expressions of elements.  How can avoid constant update of grid elements?"
+description: "Learn how to automate dynamic grids in Test Studio, handle changing cell content, and avoid constant updates to element find expressions. Step-by-step guide with code examples for reliable grid automation."
 position: 1
 ---
 # Automating a Dynamically Generated Grid

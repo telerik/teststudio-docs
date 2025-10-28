@@ -1,7 +1,7 @@
 ---
 title: Extracted Variables in Code
 page_title: Get/Set Extracted Variables in Code
-description: "Get/Set Extracted Variables in Code in Test Studio coded test. Extract text from page, modify it and use it again in the Test Studio test recorded steps."
+description: "Get/Set Extracted Variables in Code in Test Studio coded test. Learn how to get and set extracted variables in Test Studio coded tests. Step-by-step examples show how to capture, modify, and reuse values from UI elements in your automated test workflows."
 position: 1
 ---
 # Get/Set Extracted Variables in Code

@@ -1,7 +1,7 @@
 ---
 title: Test List Does Not Complete
 page_title: Test List Does Not Complete
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Troubleshoot issues where a test list execution does not complete in Test Studio. Learn about common causes, such as the RecycleBrowser setting, and how to resolve incomplete test runs for reliable automation."
 position: 1
 ---
 # Test List Does Not Complete

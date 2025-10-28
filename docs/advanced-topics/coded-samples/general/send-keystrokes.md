@@ -1,8 +1,7 @@
 ---
 title: Send Keystrokes
 page_title: Send Keystrokes
-description: "Send key press or combination of key presses in Test Studio test run. "
-previous_url: /user-guide/code-samples/general/send-keystrokes.aspx, /user-guide/code-samples/general/send-keystrokes
+description: "Learn how to send keystrokes, type text, and perform key combinations in Test Studio coded tests. Includes C# and VB.NET examples for simulating keyboard input during automated test runs."
 position: 1
 ---
 # Send Keystrokes

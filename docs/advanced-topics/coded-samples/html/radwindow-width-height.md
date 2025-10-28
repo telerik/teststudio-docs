@@ -1,7 +1,7 @@
 ---
 title: RadWindow Width & Height
 page_title: RadWindow Width & Height
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to retrieve the width and height of a RadWindow in Test Studio using C#. This guide provides two approaches: accessing properties directly or invoking JavaScript for precise measurements during automated testing."
 previous_url: /user-guide/code-samples/html/getting-radwindow-width-and-height.aspx, /user-guide/code-samples/html/getting-radwindow-width-and-height
 position: 1
 ---

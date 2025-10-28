@@ -1,7 +1,7 @@
 ---
 title: Test Steps Not Showing in Step Panel
 page_title: Test Steps Not Showing in Step Panel
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Resolve the issue of missing test steps in the step panel when opening projects in an older version of Test Studio. Learn why this happens and how to update your installation for full compatibility."
 position: 1
 ---
 # Test Steps Not Showing in Step Panel

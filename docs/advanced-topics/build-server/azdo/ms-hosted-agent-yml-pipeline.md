@@ -6,7 +6,9 @@ position: 4
 ---
 # Test Studio Tests in Azure DevOps YAML Pipeline Using Microsoft-Hosted Agent
 
-<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. Below is a sample YAML pipeline using Microsoft-hosted agent machine which follows the instructions for <a href="/advanced-topics/build-server/azdo/ms-hosted-agent-classic-pipeline#add-universal-download-package-task-to-deploy-test-studio-installer-on-agent-machine" target="_blank">building the classic pipeline using MS-hosted agent</a>. 
+<a href="https://www.telerik.com/teststudio" target="_blank">Test Studio</a> tests can be successfully integrated for execution with the Azure DevOps pipelines. 
+
+Below is a sample YAML pipeline using Microsoft-hosted agent machine which follows the instructions for <a href="/advanced-topics/build-server/azdo/ms-hosted-agent-classic-pipeline#add-universal-download-package-task-to-deploy-test-studio-installer-on-agent-machine" target="_blank">building the classic pipeline using MS-hosted agent</a>. 
 
 
 ```YAML

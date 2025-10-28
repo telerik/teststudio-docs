@@ -1,7 +1,7 @@
 ---
 title: Partial Attributes Search Fails
 page_title: Partial Attributes Search Fails
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to resolve issues with partial attribute searches in Test Studio when locating controls by type. This guide provides a detailed explanation and a coded solution using C# to ensure accurate element identification."
 previous_url: /user-guide/code-samples/html/search-control-type-by-partial-attributes-fails.aspx, /user-guide/code-samples/html/search-control-type-by-partial-attributes-fails
 position: 1
 ---

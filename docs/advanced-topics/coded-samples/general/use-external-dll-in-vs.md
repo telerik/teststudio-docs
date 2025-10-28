@@ -1,7 +1,7 @@
 ---
 title: Use External DLL in VS
 page_title: Use External DLL in VS
-description: "Use External DLL in the Test Studio project from the Visual Studio solution."
+description: "Learn how to reference and use external DLLs in Test Studio projects within Visual Studio. Step-by-step guidance and sample solution for integrating custom libraries and global functions."
 position: 1
 ---
 # Use External DLL in VS 

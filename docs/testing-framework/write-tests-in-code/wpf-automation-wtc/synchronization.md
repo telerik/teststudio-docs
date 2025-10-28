@@ -1,16 +1,12 @@
 ---
 title: Synchronization
 page_title: Synchronization
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, #framework-element-properties-and-actions, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 3
 ---
 # Synchronization
 
-In the world of testing mostly static HTML pages synchronization was easy. Telerik Testing Framework was even able to automatically take care of synchronization for you (most of the time). All you had to do was click on a button and wait for the browser to be ready, which the framework does behind the scenes for most HTML UI actions.
- 
-In the world of Silverlight application testing, unlike testing static HTML web pages, you have to intelligently implement synchronization with the Silverlight application under test. This is because in the Silverlight world you're dealing with a real application that is running locally in the browser. The "browser is ready" indicator no longer applies since it only told you when the browser was finished loading the web page from the server.
- 
-The framework has many features implemented to aid you in synchronizing with your Silverlight application as it's being tested. There are six basic types of waits implemented in the framework that you can use for synchronization:
+The Test Studio Testing framework has many features implemented to aid you in synchronizing with your  application as it's being tested. There are six basic types of waits implemented in the framework that you can use for synchronization:
 
 <table class="docs">
 <tr>
@@ -18,35 +14,6 @@ The framework has many features implemented to aid you in synchronizing with you
 </tr>
 <tr>
 	<td>
-
-**ForExists**</td><td>This method waits for the element to exist in the Visual Tree. It accepts an optional timeout parameter.</td>
-</tr>
-<tr>
-	<td>
-
-**ForExistsNot**</td><td>This method waits for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter</td>
-</tr>
-<tr>
-	<td>
-
-**ForVisible**</td><td>This method waits for the element to both exist in the Visual Tree and its Visibility attribute to equal "Visible". It accepts an optional timeout parameter.</td>
-</tr>
-<tr>
-	<td>
-
-**ForVisibleNot**</td><td>This method waits for the Visibility property of the element to not equal 'Visible' or for the element to no longer exist in the Visual Tree. It accepts an optional timeout parameter.</td>
-</tr>
-<tr>
-	<td>
-
-**ForNoMotion**</td><td>This method waits for the element to stop moving on the drawing surface. It takes a check interval and an optional timeout parameter.</td>
-</tr>
-<tr>
-	<td>
-
-**For(Predicate)**</td><td>This method takes a custom predicate and waits for that predicate to return true. It accepts an optional error message and an optional timeout parameter.</td>
-</tr>
-</table>
 
 ## Waiting for an Element to Exist
 

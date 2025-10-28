@@ -1,7 +1,7 @@
 ---
 title: Skip Iteration
 page_title: Skip Iteration
-description: "Skip one or more iterations in a data driven Test Studio test execution."
+description: "Learn how to skip specific iterations in data-driven Test Studio tests based on custom conditions. Step-by-step guide with code examples for conditional test execution and data source inheritance."
 position: 1
 ---
 # How to Skip a Specific Iteration While Executing a Data-Bound Test

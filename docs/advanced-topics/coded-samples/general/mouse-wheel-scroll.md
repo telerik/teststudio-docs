@@ -3,6 +3,7 @@ title: Mouse Wheel Scroll
 page_title: Mouse Wheel Scroll
 description: "Invoke desktop mouse scroll actions in Test Studio test run."
 position: 1
+publish: false
 ---
 # Mouse Wheel Scroll
 

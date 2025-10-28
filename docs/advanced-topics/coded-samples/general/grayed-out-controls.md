@@ -1,7 +1,7 @@
 ---
 title: Grayed Out Controls
 page_title: Grayed Out Controls
-description: "Dealing with Grayed Out Controls in Test Studio."
+description: "Learn how to handle grayed out or disabled controls in Test Studio automated tests. Find solutions for waiting out loading screens and ensuring reliable UI automation when elements are temporarily unavailable."
 position: 1
 ---
 # Dealing with Grayed Out Controls

@@ -1,7 +1,7 @@
 ---
 title: Access Oracle Database
 page_title: Access Oracle Database
-description: "how to access an Oracle database through code in Test Studio coded step."
+description: "Learn how to connect to and query an Oracle database in Test Studio coded steps. This article covers installing Oracle Data Access Components, adding assembly references, building connection strings, and running SQL queries in C# and VB.NET"
 position: 1
 ---
 # How to Access an Oracle Database in Code

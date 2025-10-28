@@ -1,7 +1,7 @@
 ---
 title: Using Elements From Elements Repository In A Utility Class
 page_title: Using Elements From Repository In A Utility Class
-description: "Use Elements From Repository In A Utility Class in Test Studio code file."
+description: "Learn how to access and use elements from the Test Studio Elements Repository within a utility class. Includes best practices, code examples, and important considerations for standalone code files."
 position: 1
 ---
 # How to Use Elements From Repository In A Utility Class

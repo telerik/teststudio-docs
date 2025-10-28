@@ -1,8 +1,7 @@
 ---
 title: Built by Newer Runtime
 page_title: This Assembly Is Built by a Runtime Newer than the Currently Loaded Runtime
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/troubleshooting_guide/test-execution-problems/assembly-built-by-newer-runtime.aspx, /user-guide/troubleshooting_guide/test-execution-problems/assembly-built-by-newer-runtime
+description: "Learn how to resolve the 'assembly built by a newer runtime' error in Test Studio. This article explains the cause, provides troubleshooting steps, and details the correct way to run ArtOfTest.Runner.exe for successful test execution."
 position: 1
 ---
 # This Assembly Is Built by a Runtime Newer than the Currently Loaded Runtime

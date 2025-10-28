@@ -1,7 +1,7 @@
 ---
 title: Table Searching & Paging
 page_title: Table Searching & Paging
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to search and navigate through HTML tables with paging in Test Studio using C# and VB.NET. This guide provides a coded solution to locate specific content across multiple pages efficiently."
 previous_url: /user-guide/code-samples/html/table-search-and-paging.aspx, /user-guide/code-samples/html/table-search-and-paging
 position: 1
 ---

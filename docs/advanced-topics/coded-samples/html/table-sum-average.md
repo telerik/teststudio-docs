@@ -1,7 +1,7 @@
 ---
 title: Table Sum & Average
 page_title: Table Sum & Average
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to calculate the sum and average of values in an HTML table column using Test Studio. This guide provides a coded solution in C# for efficient data processing in automated testing."
 previous_url: /user-guide/code-samples/html/table-sum-and-average.aspx, /user-guide/code-samples/html/table-sum-and-average
 position: 1
 ---

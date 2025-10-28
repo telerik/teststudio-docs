@@ -1,12 +1,12 @@
 ---
 title: Log Error Dialogs
 page_title: Log Error Dialogs
-description: "Log Random appearing Error Dialogs and automatically handle these during a Test Studio test run."
+description: "Learn how to automatically capture and log random error dialogs during Test Studio test runs. Includes code examples for handling and recording dialog messages that appear unpredictably."
 position: 1
 ---
 # Log Error Dialogs
 
-*My application can potentially display a dialog containing an error message during test execution. The dialog can appear multiple times and will not always appear at the same point in the test, therefore I cannot use a standard Dialog Handler step.
+*My application can potentially display a dialog containing an error message during test execution. The dialog can appear multiple times and will not always appear at the same point in the test, therefore I cannot use a standard Dialog Handler step.*
 
 I want to capture these error messages and automatically handle these dialogs if they appear.*
 

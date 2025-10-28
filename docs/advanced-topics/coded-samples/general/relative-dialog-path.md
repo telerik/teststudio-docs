@@ -1,7 +1,7 @@
 ---
 title: Relative Dialog Path
 page_title: Relative Dialog Path
-description: "Use relative paths in a Test Studio test - upload/download dialog handling."
+description: "Learn how to use relative file paths for upload and download dialogs in Test Studio coded tests. Includes code examples for building dynamic paths based on the test execution directory."
 position: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: No Results Data
 page_title: No Results Data
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Troubleshoot the issue of missing results data in Test Studio load tests. Learn why results may not appear, how sampling period settings affect data collection, and steps to resolve common load testing problems."
 position: 1
 ---
 # No Results Data

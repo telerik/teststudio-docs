@@ -1,7 +1,7 @@
 ---
 title: Cannot Add Open Test
 page_title: Cannot Add Open Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to resolve issues when adding or opening tests in Visual Studio with the Test Studio plugin. This article covers common error messages, troubleshooting steps, and best practices for managing test files and projects."
 position: 1
 ---
 # Cannot Add Open Test
