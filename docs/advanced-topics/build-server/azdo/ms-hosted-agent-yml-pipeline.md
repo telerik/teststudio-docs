@@ -10,6 +10,9 @@ position: 4
 
 Below is a sample YAML pipeline using Microsoft-hosted agent machine which follows the instructions for <a href="/advanced-topics/build-server/azdo/ms-hosted-agent-classic-pipeline#add-universal-download-package-task-to-deploy-test-studio-installer-on-agent-machine" target="_blank">building the classic pipeline using MS-hosted agent</a>. 
 
+> __Tip!__
+><br>
+> Double check if you have covered all <a href="/advanced-topics/build-server/azdo/azdo-pipelines-and-test-studio-tests#choose-the-configuration-to-setup" target="_blank">prerequisites for this setup</a>.
 
 ```YAML
 trigger:

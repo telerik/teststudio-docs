@@ -34,7 +34,7 @@ To ensure proper load simulation and address the discrepancy in server traffic, 
 
 > __Note!__ 
 > <br>
-> All images listed in the article are for illustrative purposes and do not reflect any real life scenario. The adjustments to perform are specific for the captured traffic in each user profile.
+> All images listed in the article are for illustrative purposes and do not reflect any real life scenario. The required __adjustments are unique to the specific captured traffic__ in each user profile and need to be carefully determined!
 
 ### Adjusting the User Profile
 

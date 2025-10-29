@@ -10,6 +10,10 @@ position: 3
 
 Below is a sample YAML pipeline using self-hosted agent machine which follows the instructions for <a href="/advanced-topics/build-server/azdo/self-hosted-agent-classic-pipeline#add-command-line-agent-task-to-execute-test-or-test-list" target="_blank">building the classic pipeline using self-hosted agent</a>.
 
+> __Tip!__
+><br>
+> Double check if you have covered all <a href="/advanced-topics/build-server/azdo/azdo-pipelines-and-test-studio-tests#choose-the-configuration-to-setup" target="_blank">prerequisites for this setup</a>.
+
 ```YAML
 trigger:
 - main
