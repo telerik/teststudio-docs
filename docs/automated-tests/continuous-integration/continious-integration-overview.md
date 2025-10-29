@@ -22,7 +22,7 @@ This article provides the requirements from Test Studio perspective to setup the
     
     __Tip:__ The only exception is if the executed tests are <a href="/automated-tests/headless/headless-test-execution" target="_blank">web test run in headless browser mode</a>. 
 
-* CI agent app running in console mode. 
+* CI agent app running in __console mode__. 
     
     __Tip:__ The only exception is if the executed tests are web test run in headless browser mode.
 
@@ -52,16 +52,16 @@ This article provides the requirements from Test Studio perspective to setup the
 
     > __Tip__
     > <br>
-    > Use the Test Studio built-in options to control the user session. These options are available in the <a href="/advanced-topics/build-server/ts-test-runner-app" target="_blank">Test Studio Test Runner application</a> which gets installed with the Run-time Edition. 
+    > Use the __Test Studio built-in options to control the user session__. These options are available in the <a href="/advanced-topics/build-server/ts-test-runner-app" target="_blank">Test Studio Test Runner application</a> which gets installed with the Run-time Edition. 
 
 ## Examples of Implementing Test Studio Tests in Different CI Pipelines
 
 Find out few examples of setting a pipeline on specific platform and follow the instructions on how to implement Test Studio test runs in it. 
 
-* <a href="/advanced-topics/build-server/azure-devops" target="_blank">Azure DevOps Classic Pipeline using self-hosted agent</a>
+* <a href="/advanced-topics/build-server/azdo/azdo-pipelines-and-test-studio-tests" target="_blank">Azure DevOps pipelines </a>
+* * <a href="/advanced-topics/build-server/docker-container-testing" target="_blank">Testing in Docker Container</a> - applicable for headless browser testing only. 
 * <a href="/advanced-topics/build-server/jenkins-ci" target="_blank">Jenkins CI</a>
 * <a href="/advanced-topics/build-server/team-city-builds" target="_blank">TeamCity</a>
-* <a href="/advanced-topics/build-server/bamboo" target="_blank">Bamboo</a>
 * <a href="/advanced-topics/build-server/cruise-control.net-builds" target="_blank">CruiseControl .Net</a>
-* <a href="/advanced-topics/build-server/docker-container-testing" target="_blank">Testing in Docker Container</a> - applicable for headless browser testing only. 
-* <a href="/advanced-topics/build-server/microsoft-hosted-agent-testing" target="_blank">Azure DevOps Classic Pipeline using Microsoft-hosted agent</a> - applicable for headless browser testing only.
+* <a href="/advanced-topics/build-server/bamboo" target="_blank">Bamboo</a>
+
