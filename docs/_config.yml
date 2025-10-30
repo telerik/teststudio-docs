@@ -9,7 +9,7 @@ productName: "Test Studio Documentation"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,build.cmd,run.cmd,deploy.cmd,apireference/*, docs-watcher/*]
-exclude_navigation: ["archived-docs/*", "license-server/*", "test-studio-mobile/*", "copyright.html"]
+exclude_navigation: ["archived-docs/*", "license-server/*", "copyright.html"]
 
 
 
@@ -52,9 +52,6 @@ navigation:
     "security":
         title: "Security"
         position: 11
-    "test-studio-mobile":
-        title: "Test Studio Mobile"
-        position: 12
     "license-server":
         title: "License Server"
         position: 13
@@ -306,9 +303,7 @@ navigation:
     "*manual-testing":
         title: "Manual Testing"
         position: 1
-    "*exploratory-testing":
-        title: "Exploratory Testing"
-        position: 2
+
 
 # === Step Builder ===
     features/custom-steps/all-tests-common:
@@ -333,19 +328,27 @@ navigation:
         position: 11
         
 # === Advanced Topics ===
-    
+#......Build server.......
+    "*build-server":
+        title: "Continuous Integration"
+        position: 0
+#......Azure DevOps.......
+    "*azdo":
+        title: "Azure DevOps Pipelines"
+        position: 2
+
+#.....Coded Samples......
     "*coded-samples":
         title: "Coded Samples"
-#.....Coded Samples
+        position: 1
+#.....Coded Samples-subsections......
     "*general":
         title: "General"
     "*html":
         title: "HTML"
     "*wpf":
         title: "WPF"
-#........................
-    "*build-server":
-        title: "Build Server"
+
 
 # === Knowledge Base ===
     "*activation-kb":
@@ -428,55 +431,7 @@ navigation:
         title: "WPF Automation"
     testing-framework/api-reference:
         title: "Api Reference"
-# === Mobile Testing ===
-    test-studio-mobile/getting-started:
-       title: "Getting Started"
-       position: 3
-    test-studio-mobile/native-applications:
-       title: "Native Applications"
-       position: 4
-    test-studio-mobile/native-applications/installation:
-       title: "Installation"
-       position: 1
-    test-studio-mobile/native-applications/configure-your-app:
-       title: "Configure Your App"
-       position: 2
-    test-studio-mobile/native-applications/connect-agent-app:
-       title: "Connect Agent App"
-       position: 3
-    test-studio-mobile/web-applications:
-       title: "Web Applications"
-       position: 5
-    test-studio-mobile/web-applications/configuration:
-       title: "Configuration"
-       position: 1
-    test-studio-mobile/test-recording:
-       title: "Test Recording"
-       position: 6
-    test-studio-mobile/test-recording/record-a-test:
-       title: "Record a Test"
-       position: 1
-    test-studio-mobile/test-execution:
-       title: "Test Execution"
-       position: 7
-    test-studio-mobile/features:
-       title: "Features"
-       position: 8
-    test-studio-mobile/features/code-features:
-       title: "Code Features"
-       position: 1
-    test-studio-mobile/knowledge-base:
-       title: "Knowledge Base"
-       position: 9
-    test-studio-mobile/knowledge-base/continuous-integration:
-       title: "Continuous Integration"
-       position: 1
-    test-studio-mobile/troubleshooting:
-       title: "Troubleshooting Guide"
-       position: 10
-    test-studio-mobile/api-reference:
-        title: "API Reference"
-        position: 11
+
 
 # === Archived Documentation ===
     archived-docs/recorder:

@@ -1,7 +1,7 @@
 ---
 title: Record Results for Aborted Test List
 page_title: Record Results for Aborted Test List
-description: "Record Results for Aborted Test List in Test Studio."
+description: "Learn how to configure Test Studio to record and save results for executed tests even if a test list execution is aborted. This article explains how to enable step-by-step result persistence via configuration file or command line arguments."
 position: 1
 ---
 # Record results even if test list execution is aborted #

@@ -1,15 +1,15 @@
 ---
 title: Table Sum & Average
 page_title: Table Sum & Average
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to calculate the sum and average of values in an HTML table column using Test Studio. This guide provides a coded solution in C# for efficient data processing in automated testing."
 previous_url: /user-guide/code-samples/html/table-sum-and-average.aspx, /user-guide/code-samples/html/table-sum-and-average
 position: 1
 ---
-#HTML Table Sum and Average#
+# HTML Table Sum and Average
 
 *I would like to get the sum and the average of the values in a certain column of an HTML table.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The example below is against <a href="http://www.w3schools.com/html/html_tables.asp" target="_blank">this W3Schools site</a>.
 

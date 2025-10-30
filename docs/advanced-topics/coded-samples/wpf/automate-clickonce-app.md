@@ -1,8 +1,7 @@
 ---
 title: Automate ClickOnce App
 page_title: Automate ClickOnce App
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-
+description: "Learn how to automate ClickOnce WPF applications in Test Studio. This guide provides a coded solution in C# to handle dynamic app paths, ensuring seamless automated testing workflows for ClickOnce deployments."
 position: 5
 ---
 # Automate "ClickOnce" WPF Application

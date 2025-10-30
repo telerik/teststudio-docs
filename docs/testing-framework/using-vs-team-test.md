@@ -1,11 +1,11 @@
 ---
 title: Using VS Team Test
 page_title: Using VS Team Test
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework with VS Team test"
 position: 1
 ---
 
-#Using Visual Studio Team Test#
+# Using Visual Studio Team Test
 
 Telerik Testing Framework comes with built-in support for Visual Studio Team Test and its unit testing framework. Telerik Testing Framework can be used with or without Visual Studio, but if you are already using Visual Studio Team Test in your development environment, you can easily and quickly integrate Telerik Testing Framework as part of that environment.
  

@@ -2,7 +2,6 @@
 title: Fast Forward Test
 page_title: Fast Forward Manual Test 
 description: "Fast Forward Test Run of a manual test in Test Studio."
-previous_url: /user-guide/manual-testing/fast-forward-test.aspx, /user-guide/manual-testing/fast-forward-test
 position: 3
 ---
 # Fast Forward Test

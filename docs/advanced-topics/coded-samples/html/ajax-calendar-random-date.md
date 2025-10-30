@@ -1,8 +1,7 @@
 ---
 title: AJAX Calendar Random Date
 page_title: AJAX Calendar Random Date
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/code-samples/html/ajax-calendar-random-date-selection.aspx, /user-guide/code-samples/html/ajax-calendar-random-date-selection
+description: "Learn how to select a random date from an AJAX calendar using Test Studio's automated testing capabilities, with example in C#"
 position: 1
 ---
 #AJAX Calendar - Random Date Selection#

@@ -1,12 +1,12 @@
 ---
 title: Fail the Test
 page_title: Fail the Test
-description: "How to Fail the Test on a Condition in Test Studio."
+description: "Learn how to programmatically fail a test in Test Studio using assert statements or exceptions. Includes practical C# and VB.NET examples for handling test conditions and error scenarios."
 position: 1
 ---
 # How to Fail the Test on a Condition #
 
-There are two ways to accomplish this: *Assert* and *Throw New Exception* statements. Any unhandled exception within the coded step will fail the test step (and test) immediately.
+*There are two ways to accomplish this: **Assert** and **Throw New Exception** statements. Any unhandled exception within the coded step will fail the test step (and test) immediately.*
 
 ## Assert Statements ##
 

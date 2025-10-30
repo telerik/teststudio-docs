@@ -1,12 +1,12 @@
 ---
 title: Using NUnit
 page_title: Using NUnit
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework with NUnit test"
 previous_url: /user-guide/getting-started/using-nunit.aspx, /user-guide/getting-started/using-nunit
 position: 1
 ---
 
-#Using NUnit#
+# Using NUnit
 
 Telerik Testing Framework comes with built-in support for NUnit 2.5 and higher. The latest release of NUnit can be downloaded <a href="https://launchpad.net/nunitv2" target="_blank">here</a>.
 

@@ -1,14 +1,14 @@
 ---
 title: Log Clipboard Text
 page_title: Log Clipboard Text
-description: "Log copied text from the Clipboard and output it during test execution in Test Studio."
+description: "Learn how to log and output clipboard text during Test Studio test execution. Step-by-step code examples show how to access and display clipboard content in automated tests."
 position: 1
 ---
-#Log Clipboard Text#
+# Log Clipboard Text
 
 *My test copies text into the Clipboard and I would like to log its content.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution:
 

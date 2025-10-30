@@ -1,14 +1,14 @@
 ---
 title: Using Elements From Elements Repository In A Utility Class
 page_title: Using Elements From Repository In A Utility Class
-description: "Use Elements From Repository In A Utility Class in Test Studio code file."
+description: "Learn how to access and use elements from the Test Studio Elements Repository within a utility class. Includes best practices, code examples, and important considerations for standalone code files."
 position: 1
 ---
-#How to Use Elements From Repository In A Utility Class#
+# How to Use Elements From Repository In A Utility Class
 
 *I would like to use elements recorded in the <a href="/knowledge-base/project-configuration-kb/element-repository" target="_blank">Elements repository</a> in my standalone code class file.*
 
-##Solution##
+## Solution
 
 We do not recommend using elements from the repository in a <a href="/features/coded-steps/standalone-code-file" target="_blank">standalone class file</a>. If there is a specific scenario you could not avoid you could refer to the example below. You would need to add references to ***ArtOfTest.WebAii.Core.dll*** and ***ArtOfTest.WebAii.Design.dll*** and include *using* statements for these in the code file. The ***Utility class*** inherits the ***BaseWebAiiTest*** and requires definition for region ***[Dynamic Pages Reference]***.
 

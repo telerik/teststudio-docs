@@ -1,14 +1,14 @@
 ---
 title: Get Project Path
 page_title: Get Project Path
-description: "Get Project root Path in Test Studio coded test."
+description: "Learn how to retrieve the current Test Studio project path in coded tests. Includes code examples for accessing the project directory and data source file locations for flexible test automation."
 position: 1
 ---
-#Get Current Test Project Path#
+# Get Current Test Project Path
 
 *I would like to get the path (in the context of the file system) to which the current test project belongs.*
 
-##Solution##
+## Solution
 
 This is doable with a coded solution. Create a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside of a test:
 

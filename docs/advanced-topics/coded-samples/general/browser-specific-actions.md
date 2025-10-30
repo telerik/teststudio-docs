@@ -1,7 +1,7 @@
 ---
 title: Browser Specific Actions
 page_title: Browser Specific Actions
-description: "Invoke browser specific actions in a standard or coded step in Test Studio only if the specified browser type is the execution browser. "
+description: "Learn how to execute browser-specific actions in Test Studio tests using standard or coded steps. This article explains how to use the RunsAgainst property and provides C# and VB.NET examples for handling different browsers during automated test execution."
 position: 1
 ---
 # Invoke Browser-Specific Actions #

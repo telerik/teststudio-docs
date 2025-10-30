@@ -1,8 +1,8 @@
 ---
 title: Utility Class In Test Studio Standalone
 page_title: Utility Class In Test Studio Standalone
-description: "Utility Class Helper class file In Test Studio Standalone project"
-previous_url: /user-guide/code-samples/general/utility-in-standalone.aspx, /user-guide/code-samples/general/utility-in-standalone
+description: "Learn how to create and use a utility class in Test Studio Standalone projects for global variables and reusable functions. Includes code examples for file operations and element actions."
+
 position: 1
 ---
 # How To Use A Utility Class In Test Studio Standalone Version #

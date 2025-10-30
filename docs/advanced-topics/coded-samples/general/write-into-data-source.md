@@ -1,7 +1,7 @@
 ---
 title: Write into Data Source
 page_title: Write into Data Source
-description: "Write into external Data Source Excel file during a Test Studio test run."
+description: "Learn how to write data into an external Excel data source during a Test Studio test run. Step-by-step code examples for updating Excel files based on test results."
 position: 1
 ---
 # Write into Data Source

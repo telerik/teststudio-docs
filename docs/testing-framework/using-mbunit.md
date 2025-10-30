@@ -1,11 +1,11 @@
 ---
 title: Using MbUnit
 page_title: Using MbUnit
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework with MbUnit test"
 position: 1
 ---
 
-#Using MbUnit#
+# Using MbUnit
 
 <a href="https://www.telerik.com/teststudio/testing-framework" target="_blank">Telerik Testing Framework</a> comes with built-in support for MbUnit 3.2.3 and higher. The latest release of MbUnit can be downloaded <a href="https://code.google.com/p/mb-unit/" target="_blank">here</a>.
 

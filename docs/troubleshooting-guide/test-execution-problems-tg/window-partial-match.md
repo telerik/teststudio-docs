@@ -1,7 +1,7 @@
 ---
 title: Window Partial Match
 page_title: How to Indicate a Partial Match for WPF Window Name
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to handle dynamic WPF window titles in Test Studio by using partial match techniques. This article explains how to edit the Caption property for reliable element identification during automated test execution."
 position: 1
 
 ---
@@ -22,7 +22,7 @@ Edit the **Caption** property for the Window node in the Elements Explorer. Use 
 </tr>
 <table>
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg/window-partial-match/fig1.png
-[2]: /img/troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg/window-partial-match/fig2.png
-[3]: /img/troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg/window-partial-match/fig3.png
-[4]: /img/troubleshooting-guide/test-execution-problems-tg/silverlight-wpf-tg/window-partial-match/fig4.png
+[1]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig1.png
+[2]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig2.png
+[3]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig3.png
+[4]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig4.png

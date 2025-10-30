@@ -1,8 +1,7 @@
 ---
 title: Extract an Attribute
 page_title: Extract an Attribute
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/code-samples/html/extract-an-attribute.aspx, /user-guide/code-samples/html/extract-an-attribute
+description: "Learn how to extract individual HTML attributes in Test Studio using C# and VB.NET. This guide provides a coded solution to retrieve attribute values and use them later in automated tests through data binding."
 position: 1
 ---
 #Extract an Individual HTML Attribute#

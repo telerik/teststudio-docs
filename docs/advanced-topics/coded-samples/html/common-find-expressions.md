@@ -1,15 +1,14 @@
 ---
 title: Common HTML Find Expressions
 page_title: Common HTML Find Expressions
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
-previous_url: /user-guide/code-samples/html/common-find-expressions.aspx, /user-guide/code-samples/html/common-find-expressions
+description: "Learn how to use common HTML find expressions in Test Studio to locate and interact with elements like hyperlinks using C#, with examples for partial matches, exact matches, XPath, and data-driven expressions."
 position: 1
 ---
-#Common HTML Find Expressions#
+# Common HTML Find Expressions
 
 *I would like to click on a hyperlink based on its text value. I prefer to do this in code and not by editing an existing element's <a href="/features/elements-explorer/find-element" target="_blank">Find Settings</a>*.
 
-##Solution##
+## Solution
 
 Let's use <a href="http://www.wikipedia.org/" target="_blank">wikipedia.org</a> as an example. First we'll find and click the top bold English link.
 

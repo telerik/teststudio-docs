@@ -1,10 +1,10 @@
 ---
 title: Add MessageBox
 page_title: Add MessageBox
-description: "Add MessageBox in a Test Studio test."
+description: "Learn how to display a MessageBox in Test Studio tests using C# or VB.NET. This article explains how to add the necessary assembly reference, shows code examples for web and WPF tests, and demonstrates how to use MessageBox for debugging or displaying data-driven values."
 position: 1
 ---
-#Add a MessageBox to a Test#
+# Add a MessageBox to a Test
 
 This alert box is a pop-up that is fired at some point and displays text content.
 

@@ -1,18 +1,18 @@
 ---
 title: Access Oracle Database
 page_title: Access Oracle Database
-description: "how to access an Oracle database through code in Test Studio coded step."
+description: "Learn how to connect to and query an Oracle database in Test Studio coded steps. This article covers installing Oracle Data Access Components, adding assembly references, building connection strings, and running SQL queries in C# and VB.NET"
 position: 1
 ---
-#How to Access an Oracle Database in Code#
+# How to Access an Oracle Database in Code
 
 Oracle database could be used as data source in a data driven test as described <a href="/features/data-driven-testing/add-data-source#add-a-database-source" target="_blank">here</a>. This is a built-in functionality for Test Studio but if using the Telerik Testing Framework the connection and interaction with the database need to be established step by step. This article demonstrates how to access an Oracle database through code.
 
-##Install Oracle Client##
+## Install Oracle Client
 
 To access the Oracle database in C# it is necessary to install <a href="http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html" target="_blank">**Oracle Data Access Components**</a>. That driver package contains the necessary libraries to refer in the project.
 
-##Add an Assembly Reference##
+## Add an Assembly Reference
 
 Once the ODAC is installed the following dll have to be <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">referred</a> in the project:
 

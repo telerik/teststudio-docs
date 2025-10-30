@@ -1,12 +1,12 @@
 ---
 title: FrameworkElement Object
 page_title: FrameworkElement Object
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn about the FrameworkElement object in Test Studio's WPF automation. Explore its properties, methods, and usage for navigating and interacting with the visual tree in automated tests."
 position: 3
 ---
 # FrameworkElement Object
 
-The **FrameworkElement** object is analogous to the <a href="http://msdn.microsoft.com/en-us/library/system.windows.frameworkelement(VS.95).aspx" target="_blank">FrameworkElement</a> in Silverlight and is the base object that all visual elements and controls inherit from in the **ArtOfTest.WebAii.Silverlight.UI** namespace. For customers interested in our extensibility model, the Silverlight Extension does not expose a <a href="http://msdn.microsoft.com/en-us/library/system.windows.uielement(VS.95).aspx" target="_blank">UIElement</a> and therefore, our **FrameworkElement** can be viewed as the combination of Silverlight's **UIElement + FrameworkElement**.
+The **FrameworkElement** object is the base object that all visual elements and controls inherit from in the **ArtOfTest.WebAii.Silverlight.UI** namespace. 
  
 The **FrameworkElement** and all objects that inherit from it get the following infrastructure properties:
 
@@ -54,7 +54,7 @@ The **FrameworkElement** and all objects that inherit from it get the following 
 	<td>**HorizontalAlignment**</td><td>Gets or sets the horizontal alignment characteristics applied to a FrameworkElement when it is composed within a layout parent, such as a panel or items control.</td>
 </tr>
 <tr>
-	<td>**Host**</td><td>Returns the SilverlightApp object owning this FrameworkElement.</td>
+	<td>**Host**</td><td>Returns the object owning this FrameworkElement.</td>
 </tr>
 <tr>
 	<td>**IsHitTestVisible**</td><td>Gets or sets whether the contained area of this UIElement can return true values for hit testing.</td>
@@ -177,9 +177,9 @@ Before describing all of the methods of the FrameworkElement object I'd like to 
 3. **Element coordinates:** 
 
 
-	All FrameworkElements offer the ability to get both the relative coordinates of the element within the Silverlight application and the actual coordinates in screen coordinates. The two methods are **GetRectangle()**and **GetScreenRectangle()**.
+	All FrameworkElements offer the ability to get both the relative coordinates of the element within the application and the actual coordinates in screen coordinates. The two methods are **GetRectangle()**and **GetScreenRectangle()**.
 
-	**Note:** Given that WPF/Silverlight applications allow for rich transforms for visual elements (i.e. rotate, zoom….etc) and some elements like ellipses don't really conform to a rectangle per-say, our coordinate calculations will always return the largest rectangle that contains the actual element with its center right at the center of the element. For example, a GetRectangle on an ellipse will return this:
+	**Note:** Given that WPF applications allow for rich transforms for visual elements (i.e. rotate, zoom….etc) and some elements like ellipses don't really conform to a rectangle per-say, our coordinate calculations will always return the largest rectangle that contains the actual element with its center right at the center of the element. For example, a GetRectangle on an ellipse will return this:
 
 	![SL app][1]
 
@@ -221,13 +221,13 @@ These are all of the FrameworkElement methods available for use by your automati
 	<td>**GetPrevSibling**</td><td>Get the previous sibling.</td>
 </tr>
 <tr>
-	<td>**GetRectangle**</td><td>Get the bounding rectangle of this FrameworkElement within the owning Silverlight application.</td>
+	<td>**GetRectangle**</td><td>Get the bounding rectangle of this FrameworkElement within the owning  application.</td>
 </tr>
 <tr>
 	<td>**GetScreenRectangle**</td><td>Return the actual coordinates of this element in absolute screen coordinates taking into account the location of the overall plug-in on the page.</td>
 </tr>
 <tr>
-	<td>**Highlight**</td><td>Highlight this element in the Silverlight application.</td>
+	<td>**Highlight**</td><td>Highlight this element in the application.</td>
 </tr>
 <tr>
 	<td>**NextSibling**</td><td>Get the next sibling control of a specific type.</td>
@@ -249,4 +249,4 @@ These are all of the FrameworkElement methods available for use by your automati
 </tr>
 <table>
 
-[1]: /img/testing-framework/write-tests-in-code/silverlight-wpf-automation-wtc/wpf-ui-automation/fig1.png
+[1]: /img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png

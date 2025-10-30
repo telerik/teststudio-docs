@@ -1,12 +1,14 @@
 ---
 title: Verify Not Empty
 page_title: Verify The Text Content of an Element is Not Empty
-description: "Verify the text content of an element is not empty in Test Studio test run."
+description: "Learn how to verify that the text content of an element is not empty in Test Studio tests. Includes code examples for checking and asserting non-empty values during automated test runs."
 position: 1
 ---
 # Verify Not Empty #
 
 *I would like to verify the text content of an element is not empty. In other words, that it contains one or more characters.*
+
+## Solution
 
 This is possible with a coded solution. The example below is against <a href="http://www.w3schools.com/html/html_tables.asp" target="_blank">this W3Schools site</a>.
 

@@ -2,7 +2,7 @@
 title: Convert to Automated
 page_title: Convert to Automated
 description: "Convert manual Test Studio test to an automated one."
-previous_url: /user-guide/manual-testing/convert-to-automated.aspx, /user-guide/manual-testing/convert-to-automated
+
 position: 4
 ---
 # Convert Manual Test to an Automated

@@ -1,10 +1,10 @@
 ---
 title: External Log File
 page_title: External Log File
-description: "Store the Test Studio test results to an external location."
+description: "Learn how to save Test Studio test execution logs to external files, including text and Excel formats. Step-by-step code examples show how to customize result storage for better reporting and analysis."
 position: 1
 ---
-#External Log File#
+# External Log File
 
 *I would like to save the test execution log to an external file on disk.*
 
@@ -24,7 +24,7 @@ We have code samples for two file types:
 
 *	<a href="#excel-file">Excel File</a>
 
-##Text File##
+## Text File
 
 ```C#
 public IList<AutomationStepResult> stepResults { get; set; }
@@ -80,7 +80,7 @@ Finally you'll need to <a href="/advanced-topics/coded-steps/add-assembly-refere
 
  
 
-##Excel File##
+## Excel File
 
 * You'll need to add a reference to *Microsoft.Office.Interop.Excel.dll*. If it isn't already on your machine, ensure you download the version from Microsoft that matches your Office suite.
 
@@ -157,7 +157,7 @@ Public Overrides Sub OnAfterTestCompleted(result As TestResult)
 End Sub
 ```
 
-##How to find and use Office PIA's without Visual Studio installed
+## How to find and use Office PIA's without Visual Studio installed
 
 1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 

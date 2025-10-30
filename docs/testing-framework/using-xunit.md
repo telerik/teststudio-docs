@@ -1,11 +1,11 @@
 ---
 title: Using xUnit
 page_title: Using xUnit
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio Testing Framework with xUnit test"
 position: 1
 ---
 
-#Using xUnit#
+# Using xUnit
 
 Telerik Testing Framework comes with built-in support for xUnit.net 1.8 and higher. The latest release of xUnit can be downloaded <a href="http://xunit.codeplex.com/releases/view/62840" target="_blank">here</a>.
  

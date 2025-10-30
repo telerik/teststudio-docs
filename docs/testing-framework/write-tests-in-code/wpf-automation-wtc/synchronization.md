@@ -1,16 +1,12 @@
 ---
 title: Synchronization
 page_title: Synchronization
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, #framework-element-properties-and-actions, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 3
 ---
 # Synchronization
 
-In the world of testing mostly static HTML pages synchronization was easy. Telerik Testing Framework was even able to automatically take care of synchronization for you (most of the time). All you had to do was click on a button and wait for the browser to be ready, which the framework does behind the scenes for most HTML UI actions.
- 
-In the world of Silverlight application testing, unlike testing static HTML web pages, you have to intelligently implement synchronization with the Silverlight application under test. This is because in the Silverlight world you're dealing with a real application that is running locally in the browser. The "browser is ready" indicator no longer applies since it only told you when the browser was finished loading the web page from the server.
- 
-The framework has many features implemented to aid you in synchronizing with your Silverlight application as it's being tested. There are six basic types of waits implemented in the framework that you can use for synchronization:
+The Test Studio Testing framework has many features implemented to aid you in synchronizing with your  application as it's being tested. There are six basic types of waits implemented in the framework that you can use for synchronization:
 
 <table class="docs">
 <tr>
@@ -36,7 +32,7 @@ The framework has many features implemented to aid you in synchronizing with you
 </tr>
 <table>
 
-##Waiting for an Element to Exist##
+## Waiting for an Element to Exist
 
 Before you can use the VisualWait.ForExists method to wait for an element to exist you need to create what is called an "Element Proxy". An element proxy is a lightweight FrameworkElement that doesn't actually represent a real element but contains information on how to find the desired element in the Visual Tree. To create an element proxy implement code like this:
 
@@ -60,7 +56,7 @@ proxy.Wait.ForExists(15000);
 proxy.Wait.ForExists(15000)
 ```
 
-##Using ForExistsNot, ForVisible, ForVisibleNot,  ForNoMotion##
+## Using ForExistsNot, ForVisible, ForVisibleNot,  ForNoMotion
 
 Using any of these functions is pretty straightforward. Just call the method with appropriate parameters, for example:
 
@@ -79,7 +75,7 @@ ticket.Wait.ForVisibleNot(2500)     ' Wait up to 2.5 seconds for the element to 
 ticket.Wait.ForNoMotion(250, 4500)  ' Wait up to 4.5 seconds for the element to stop moving. Check every 1/4 second.
 ```
 
-##Creating Your Own Wait Condition##
+## Creating Your Own Wait Condition
 
 If none of the built-in framework wait for methods meet your needs, the framework has the ability to use your own coded conditional predicate instead. This feature relieves you of the burden of having to fully implement your own custom wait loop.
  

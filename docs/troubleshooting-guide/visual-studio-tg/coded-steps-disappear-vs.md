@@ -1,7 +1,7 @@
 ---
 title: Coded Steps Disappear in Visual Studio
 page_title: Coded Steps Disappear in Visual Studio
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Find out why coded steps may disappear in Visual Studio when using the Test Studio plugin. This article explains the cause, related to custom base classes, and provides steps to restore coded step visibility in your projects."
 position: 1
 ---
 # Coded steps disappear in Visual Studio plugin when user double click on Coded Step for specific project

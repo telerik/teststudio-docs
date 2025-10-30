@@ -1,15 +1,15 @@
 ---
 title: RadWindow Width & Height
 page_title: RadWindow Width & Height
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Learn how to retrieve the width and height of a RadWindow in Test Studio using C#. This guide provides two approaches: accessing properties directly or invoking JavaScript for precise measurements during automated testing."
 previous_url: /user-guide/code-samples/html/getting-radwindow-width-and-height.aspx, /user-guide/code-samples/html/getting-radwindow-width-and-height
 position: 1
 ---
-#Getting RadWindow Width and Height#
+# Getting RadWindow Width and Height
 
 *You need to get the RadWindow width or height property.*
 
-##Solution##
+## Solution
 
 First you need to get a reference to the RadWindow control by ID. Once you get it there are two options for getting the width/height. The first option is to use the relevant width/height properties of the RadWindow. The second is by invoking a straight JavaScript on the page.
 

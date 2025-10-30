@@ -1,7 +1,7 @@
 ---
 title: Unscheduled Test Runs
 page_title: Unscheduled Test Runs
-description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
+description: "Resolve issues with unscheduled or repeatedly running test lists in Test Studio. Learn how to clear scheduled jobs, restart the Scheduling service, and ensure accurate test execution and reporting."
 position: 1
 ---
 # Unscheduled Test Runs
