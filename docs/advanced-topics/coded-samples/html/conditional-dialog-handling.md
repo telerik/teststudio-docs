@@ -4,11 +4,11 @@ page_title: Conditional Dialog Handling
 description: "Learn how to conditionally handle dialogs in Test Studio using C# and VB.NET. This guide provides a coded solution to manage dialogs dynamically during automated testing, ensuring seamless test execution."
 position: 1
 ---
-#Conditionally Handling Dialog#
+# Conditionally Handling Dialog
 
 ***I would like to conditionally handle a dialog. If it appears, I'd like to handle it normally. If it doesn't, I'd like to continue with test execution.***
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. The action that potentially triggers the dialog must be included in the code.
 

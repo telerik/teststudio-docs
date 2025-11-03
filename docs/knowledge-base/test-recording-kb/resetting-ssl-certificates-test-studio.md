@@ -45,4 +45,4 @@ After resetting or removing certificates:
 
 - [Decrypting HTTPS Traffic in Fiddler](https://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps)
 - [Trusting the Fiddler Root Certificate](https://docs.telerik.com/fiddler/configure-fiddler/tasks/trustfiddlerrootcert) 
-- [Telerik Test Studio Documentation](https://docs.telerik.com/teststudio) 
+

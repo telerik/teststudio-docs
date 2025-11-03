@@ -30,15 +30,15 @@ Captchas are specifically designed to prevent automation for security purposes, 
 
 3. **Use Image-Based Element Identification:** For certain weak Captchas, you might use image-based element identification. This should only be a last resort if other options are unavailable.
 
-   - To identify an element by image for a single test step, enable `SearchByImageFirst` in the [step properties](https://docs.telerik.com/teststudio/features/test-maintenance/test-step-properties).  
-   - To set image-based identification for the entire project, enable the checkbox `Search by image first` in the [Find Logic project settings](https://docs.telerik.com/teststudio/features/project-settings/find-logic).  
+   - To identify an element by image for a single test step, enable `SearchByImageFirst` in the [step properties](/features/test-maintenance/test-step-properties).  
+   - To set image-based identification for the entire project, enable the checkbox `Search by image first` in the [Find Logic project settings](/features/project-settings/find-logic).  
 
-   Learn more about [element identification by image](https://docs.telerik.com/teststudio/automated-tests/elements/elements-find-expression#elements-image).
+   Learn more about [element identification by image](/automated-tests/elements/elements-find-expression#elements-image).
 
 Discuss the most suitable approach with your development team to align with your requirements.
 
 ## See Also
 
-- [Step Properties in Telerik Test Studio](https://docs.telerik.com/teststudio/features/test-maintenance/test-step-properties)
-- [Find Logic Project Settings](https://docs.telerik.com/teststudio/features/project-settings/find-logic)
-- [Element Identification by Image in Telerik Test Studio](https://docs.telerik.com/teststudio/automated-tests/elements/elements-find-expression#elements-image)
+- [Step Properties in Telerik Test Studio](/features/test-maintenance/test-step-properties)
+- [Find Logic Project Settings](h/features/project-settings/find-logic)
+- [Element Identification by Image in Telerik Test Studio](/automated-tests/elements/elements-find-expression#elements-image)
