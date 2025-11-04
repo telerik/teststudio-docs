@@ -42,8 +42,8 @@ Find the versions of the supported UI components matching the translators versio
         // Update the expand/collapse text for the correct span
         var spanId = "expand_" + row.replace("hidden_row_", "");
         $('#' + spanId).text(function (i, oldText) {
-            return $.trim(oldText) == 'Click to expand the list of translators' ? 'Collapse' : 'Click to expand the list of translators';
-        });
+        return $.trim(oldText).includes('Click to expand the list') ? 'Collapse' : 'Click to expand the list';
+});
     }
 </script>
 
@@ -70,7 +70,7 @@ Find the versions of the supported UI components matching the translators versio
     <thead>
         <tr onclick="showHideList('hidden_row_jquery');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for jQuery</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_jquery">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -161,7 +161,7 @@ Find the versions of the supported UI components matching the translators versio
     <thead>
         <tr onclick="showHideList('hidden_row_blazor');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for Blazor</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_blazor">Click to expand the list</span></td>
         </tr>
         </tr>
     </thead>
@@ -253,7 +253,7 @@ Find the versions of the supported UI components matching the translators versio
     <thead>
         <tr onclick="showHideList('hidden_row_aspnet_ajax');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for ASP.NET AJAX</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_ajax">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -344,7 +344,7 @@ Find the versions of the supported UI components matching the translators versio
     <thead>
         <tr onclick="showHideList('hidden_row_ang');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for Angular</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_angular">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
