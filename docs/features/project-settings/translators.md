@@ -84,60 +84,60 @@ In the below grid you can find the versions of the supported UI components match
                     </thead>
                     <tbody>
                         <tr>
-                            <td>R32021</td>
-                            <td style="text-align:center;">2021.3.914</td>
-                        </tr>
-                        <tr>
-                            <td>R12022</td>
-                            <td style="text-align:center;">2022.1.119</td>
-                        </tr>
-                        <tr>
-                            <td>R12022SP1</td>
-                            <td style="text-align:center;">2022.1.301</td>
-                        </tr>
-                        <tr>
-                            <td>R22022</td>
-                            <td style="text-align:center;">2022.2.510</td>
-                        </tr>
-                        <tr>
-                            <td>R22022SP1</td>
-                            <td style="text-align:center;">2022.2.621</td>
-                        </tr>
-                        <tr>
-                            <td>R32022</td>
-                            <td style="text-align:center;">2022.3.913</td>
-                        </tr>
-                        <tr>
-                            <td>R12023</td>
-                            <td style="text-align:center;">2023.1.117</td>
-                        </tr>
-                        <tr>
-                            <td>R12023SP1</td>
-                            <td style="text-align:center;">2023.1.314</td>
-                        </tr>
-                        <tr>
-                            <td>R22023</td>
-                            <td style="text-align:center;">2023.2.606</td>
-                        </tr>
-                        <tr>
-                            <td>R32023</td>
-                            <td style="text-align:center;">2023.3.1010</td>
-                        </tr>
-                        <tr>
-                            <td>R22024</td>
-                            <td style="text-align:center;">2024.2.514</td>
-                        </tr>
-                        <tr>
-                            <td>R22024SP1</td>
-                            <td style="text-align:center;">2024.2.514</td>
+                            <td>R22025</td>
+                            <td style="text-align:center;">2025.2.520</td>
                         </tr>
                         <tr>
                             <td>R42024</td>
                             <td style="text-align:center;">2024.4.1112</td>
                         </tr>
                         <tr>
-                            <td>R22025</td>
-                            <td style="text-align:center;">2025.2.520</td>
+                            <td>R22024SP1</td>
+                            <td style="text-align:center;">2024.2.514</td>
+                        </tr>
+                        <tr>
+                            <td>R22024</td>
+                            <td style="text-align:center;">2024.2.514</td>
+                        </tr>
+                        <tr>
+                            <td>R32023</td>
+                            <td style="text-align:center;">2023.3.1010</td>
+                        </tr>
+                        <tr>
+                            <td>R22023</td>
+                            <td style="text-align:center;">2023.2.606</td>
+                        </tr>
+                        <tr>
+                            <td>R12023SP1</td>
+                            <td style="text-align:center;">2023.1.314</td>
+                        </tr>
+                        <tr>
+                            <td>R12023</td>
+                            <td style="text-align:center;">2023.1.117</td>
+                        </tr>
+                        <tr>
+                            <td>R32022</td>
+                            <td style="text-align:center;">2022.3.913</td>
+                        </tr>
+                        <tr>
+                            <td>R22022SP1</td>
+                            <td style="text-align:center;">2022.2.621</td>
+                        </tr>
+                        <tr>
+                            <td>R22022</td>
+                            <td style="text-align:center;">2022.2.510</td>
+                        </tr>
+                        <tr>
+                            <td>R12022SP1</td>
+                            <td style="text-align:center;">2022.1.301</td>
+                        </tr>
+                        <tr>
+                            <td>R12022</td>
+                            <td style="text-align:center;">2022.1.119</td>
+                        </tr>
+                        <tr>
+                            <td>R32021</td>
+                            <td style="text-align:center;">2021.3.914</td>
                         </tr>
                     </tbody>
                 </table>
@@ -161,8 +161,8 @@ In the below grid you can find the versions of the supported UI components match
     </colgroup>
     <thead>
         <tr onclick="showHideList('hidden_row_blazor');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">Telerik UI for Blazor</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for Blazor</td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
         </tr>
         </tr>
     </thead>
@@ -182,62 +182,62 @@ In the below grid you can find the versions of the supported UI components match
                     </thead>
                     <tbody>
                         <tr>
-                            <td>R32021</td>
-                            <td style="text-align:center;">2.27.0</td>
-                        </tr>
-                        <tr>
-                            <td>R12022</td>
-                            <td style="text-align:center;">3.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>R12022SP1</td>
-                            <td style="text-align:center;">3.1.0</td>
-                        </tr>
-                        <tr>
-                            <td>R22022</td>
-                            <td style="text-align:center;">3.3.0</td>
-                        </tr>
-                        <tr>
-                            <td>R22022SP1</td>
-                            <td style="text-align:center;">3.4.0</td>
-                        </tr>
-                        <tr>
-                            <td>R32022</td>
-                            <td style="text-align:center;">3.6.0</td>
-                        </tr>
-                        <tr>
-                            <td>R12023</td>
-                            <td style="text-align:center;">4.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>R12023SP1</td>
-                            <td style="text-align:center;">4.1.0</td>
-                        </tr>
-                        <tr>
-                            <td>R22023</td>
-                            <td style="text-align:center;">4.3.0</td>
-                        </tr>
-                        <tr>
-                            <td>R32023</td>
-                            <td style="text-align:center;">4.6.0</td>
-                        </tr>
-                        <tr>
-                            <td>R22024</td>
-                            <td style="text-align:center;">6.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>R22024SP1</td>
-                            <td style="text-align:center;">6.0.2</td>
+                            <td>R22025</td>
+                            <td style="text-align:center;">9.0.0</td>
                         </tr>
                         <tr>
                             <td>R42024</td>
                             <td style="text-align:center;">7.0.0</td>
                         </tr>
                         <tr>
-                            <td>R22025</td>
-                            <td style="text-align:center;">9.0.0</td>
+                            <td>R22024SP1</td>
+                            <td style="text-align:center;">6.0.2</td>
                         </tr>
-                    </tbody>
+                        <tr>
+                            <td>R22024</td>
+                            <td style="text-align:center;">6.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R32023</td>
+                            <td style="text-align:center;">4.6.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22023</td>
+                            <td style="text-align:center;">4.3.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12023SP1</td>
+                            <td style="text-align:center;">4.1.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12023</td>
+                            <td style="text-align:center;">4.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R32022</td>
+                            <td style="text-align:center;">3.6.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22022SP1</td>
+                            <td style="text-align:center;">3.4.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22022</td>
+                            <td style="text-align:center;">3.3.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12022SP1</td>
+                            <td style="text-align:center;">3.1.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12022</td>
+                            <td style="text-align:center;">3.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R32021</td>
+                            <td style="text-align:center;">2.27.0</td>
+                        </tr>
+                    </tbody>    
                 </table>
             </td>
         </tr>
@@ -273,60 +273,60 @@ In the below grid you can find the versions of the supported UI components match
                     </thead>
                     <tbody>
                         <tr>
-                            <td>R32021</td>
-                            <td style="text-align:center;">2021.3.914</td>
-                        </tr>
-                        <tr>
-                            <td>R12022</td>
-                            <td style="text-align:center;">2022.1.119</td>
-                        </tr>
-                        <tr>
-                            <td>R12022SP1</td>
-                            <td style="text-align:center;">2022.1.302</td>
-                        </tr>
-                        <tr>
-                            <td>R22022</td>
-                            <td style="text-align:center;">2022.2.511</td>
-                        </tr>
-                        <tr>
-                            <td>R22022SP1</td>
-                            <td style="text-align:center;">2022.2.622</td>
-                        </tr>
-                        <tr>
-                            <td>R32022</td>
-                            <td style="text-align:center;">2022.3.913</td>
-                        </tr>
-                        <tr>
-                            <td>R12023</td>
-                            <td style="text-align:center;">2023.1.117</td>
-                        </tr>
-                        <tr>
-                            <td>R12023SP1</td>
-                            <td style="text-align:center;">2023.1.314</td>
-                        </tr>
-                        <tr>
-                            <td>R22023</td>
-                            <td style="text-align:center;">2023.2.606</td>
-                        </tr>
-                        <tr>
-                            <td>R32023</td>
-                            <td style="text-align:center;">2023.3.1010</td>
-                        </tr>
-                        <tr>
-                            <td>R22024</td>
-                            <td style="text-align:center;">2024.2.513</td>
-                        </tr>
-                        <tr>
-                            <td>R22024SP1</td>
-                            <td style="text-align:center;">2024.3.805</td>
+                            <td>R22025</td>
+                            <td style="text-align:center;">2025.2.528</td>
                         </tr>
                         <tr>
                             <td>R42024</td>
                             <td style="text-align:center;">2024.4.1113</td>
                         </tr>
                         <tr>
-                            <td>R22025</td>
-                            <td style="text-align:center;">2025.2.528</td>
+                            <td>R22024SP1</td>
+                            <td style="text-align:center;">2024.3.805</td>
+                        </tr>
+                        <tr>
+                            <td>R22024</td>
+                            <td style="text-align:center;">2024.2.513</td>
+                        </tr>
+                        <tr>
+                            <td>R32023</td>
+                            <td style="text-align:center;">2023.3.1010</td>
+                        </tr>
+                        <tr>
+                            <td>R22023</td>
+                            <td style="text-align:center;">2023.2.606</td>
+                        </tr>
+                        <tr>
+                            <td>R12023SP1</td>
+                            <td style="text-align:center;">2023.1.314</td>
+                        </tr>
+                        <tr>
+                            <td>R12023</td>
+                            <td style="text-align:center;">2023.1.117</td>
+                        </tr>
+                        <tr>
+                            <td>R32022</td>
+                            <td style="text-align:center;">2022.3.913</td>
+                        </tr>
+                        <tr>
+                            <td>R22022SP1</td>
+                            <td style="text-align:center;">2022.2.622</td>
+                        </tr>
+                        <tr>
+                            <td>R22022</td>
+                            <td style="text-align:center;">2022.2.511</td>
+                        </tr>
+                        <tr>
+                            <td>R12022SP1</td>
+                            <td style="text-align:center;">2022.1.302</td>
+                        </tr>
+                        <tr>
+                            <td>R12022</td>
+                            <td style="text-align:center;">2022.1.119</td>
+                        </tr>
+                        <tr>
+                            <td>R32021</td>
+                            <td style="text-align:center;">2021.3.914</td>
                         </tr>
                     </tbody>
                 </table>
@@ -348,11 +348,43 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
     </thead>
     <tbody>
-        <tr onclick="showHideList('hidden_row1');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+        <tr>
+            <td>R22025</td>
+            <td colspan="6" style="text-align:center;">19.1.0</td>
         </tr>
-        <tr id="hidden_row1" class="hidden_row">
+        <tr>
+            <td>R42024</td>
+            <td colspan="6" style="text-align:center;">17.0.1</td>
+        </tr>
+        <tr>
+            <td>R22024SP1</td>
+            <td colspan="6" style="text-align:center;">16.3.0</td>
+        </tr>
+        <tr>
+            <td>R22024</td>
+            <td colspan="6" style="text-align:center;">16.0.0</td>
+        </tr>
+        <tr>
+            <td>R32023</td>
+            <td colspan="6" style="text-align:center;">14.0.0</td>
+        </tr>
+        <tr>
+            <td>R22023</td>
+            <td colspan="6" style="text-align:center;">13.0.0</td>
+        </tr>
+        <tr>
+            <td>R12023SP1</td>
+            <td colspan="6" style="text-align:center;">11.4.0</td>
+        </tr>
+        <tr>
+            <td>R12023</td>
+            <td colspan="6" style="text-align:center;">11.0.0</td>
+        </tr>
+        <tr onclick="showHideList('hidden_row6');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
+        </tr>
+        <tr id="hidden_row6" class="hidden_row">
             <td colspan=4>
                 <table>
                     <colgroup>
@@ -371,72 +403,72 @@ In the below grid you can find the versions of the supported UI components match
                         <tr>
                             <td>KendoAngularAutoComplete</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
+                            <td colspan="6" style="text-align:center;">7.2.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularButton</td>
                             <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">6.3.0</td>
+                            <td colspan="6" style="text-align:center;">8.1.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularComboBox</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
+                            <td colspan="6" style="text-align:center;">7.2.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularDialog</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">5.1.1</td>
+                            <td colspan="6" style="text-align:center;">7.1.3</td>
                         </tr>
                         <tr>
                             <td>KendoAngularDropdownList</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
-                        </tr>                        
+                            <td colspan="6" style="text-align:center;">7.2.0</td>
+                        </tr>
                         <tr>
                             <td>KendoAngularGrid</td>
                             <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">5.4.0</td>
+                            <td colspan="6" style="text-align:center;">7.3.1</td>
                         </tr>
                         <tr>
                             <td>KendoAngularInputs</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">7.4.0</td>
+                            <td colspan="6" style="text-align:center;">10.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPager</td>
                             <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">1.0.0</td>
+                            <td colspan="6" style="text-align:center;">4.0.5</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPanelBar</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.3.0</td>
+                            <td colspan="6" style="text-align:center;">7.1.3</td>
                         </tr>
                         <tr>
                             <td>KendoAngularSwitch</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">7.4.0</td>
+                            <td colspan="6" style="text-align:center;">10.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularTabStrip</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.3.0</td>
+                            <td colspan="6" style="text-align:center;">7.1.3</td>
                         </tr>
                         <tr>
                             <td>KendoAngularWindow</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">5.1.1</td>
+                            <td colspan="6" style="text-align:center;">7.1.3</td>
                         </tr>
                     </tbody>
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideList('hidden_row2');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
+        <tr onclick="showHideList('hidden_row5');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
         </tr>
-        <tr id="hidden_row2" class="hidden_row">
+        <tr id="hidden_row5" class="hidden_row">
             <td colspan=4>
                 <table>
                     <colgroup>
@@ -448,69 +480,153 @@ In the below grid you can find the versions of the supported UI components match
                         <tr>
                             <td style="font-weight:bold;text-align:left;">Translator Name</td>
                             <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:font-weight:bold;text-align:center;">Component Version</td>
+                            <td style="font-weight:bold;text-align:center;">Component Version</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>KendoAngularAutoComplete</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.0.2</td>
                         </tr>
                         <tr>
                             <td>KendoAngularButton</td>
                             <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">7.0.0</td>
+                            <td colspan="6" style="text-align:center;">8.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularComboBox</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.0.2</td>
                         </tr>
                         <tr>
                             <td>KendoAngularDialog</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.1.2</td>
                         </tr>
                         <tr>
                             <td>KendoAngularDropdownList</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.0.2</td>
                         </tr>
                         <tr>
                             <td>KendoAngularGrid</td>
                             <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.2.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularInputs</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
+                            <td colspan="6" style="text-align:center;">9.0.3</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPager</td>
                             <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">3.0.0</td>
+                            <td colspan="6" style="text-align:center;">4.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPanelBar</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.4.0</td>
+                            <td colspan="6" style="text-align:center;">7.1.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularSwitch</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
+                            <td colspan="6" style="text-align:center;">9.0.3</td>
                         </tr>
                         <tr>
                             <td>KendoAngularTabStrip</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">6.4.0</td>
+                            <td colspan="6" style="text-align:center;">7.1.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularWindow</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.1.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr onclick="showHideList('hidden_row4');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of translators</span></td>
+        </tr>
+        <tr id="hidden_row4" class="hidden_row">
+            <td colspan=4>
+                <table>
+                    <colgroup>
+                        <col width="33%" />
+                        <col width="34%" />
+                        <col width="33%" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
+                            <td style="font-weight:bold;text-align:left;">Component Name</td>
+                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>KendoAngularAutoComplete</td>
+                            <td>kendo-angular-dropdowns</td>
+                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularButton</td>
+                            <td>kendo-angular-buttons</td>
+                            <td colspan="6" style="text-align:center;">8.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularComboBox</td>
+                            <td>kendo-angular-dropdowns</td>
+                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularDialog</td>
+                            <td>kendo-angular-dialog</td>
+                            <td colspan="6" style="text-align:center;">7.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularDropdownList</td>
+                            <td>kendo-angular-dropdowns</td>
+                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularGrid</td>
+                            <td>kendo-angular-grid</td>
+                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularInputs</td>
+                            <td>kendo-angular-inputs</td>
+                            <td colspan="6" style="text-align:center;">9.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularPager</td>
+                            <td>kendo-angular-pager</td>
+                            <td colspan="6" style="text-align:center;">4.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularPanelBar</td>
+                            <td>kendo-angular-layout</td>
+                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularSwitch</td>
+                            <td>kendo-angular-inputs</td>
+                            <td colspan="6" style="text-align:center;">9.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularTabStrip</td>
+                            <td>kendo-angular-layout</td>
+                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularWindow</td>
+                            <td>kendo-angular-dialog</td>
+                            <td colspan="6" style="text-align:center;">7.0.0</td>
                         </tr>
                     </tbody>
                 </table>
@@ -600,11 +716,11 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideList('hidden_row4');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of translators</span></td>
+        <tr onclick="showHideList('hidden_row2');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
         </tr>
-        <tr id="hidden_row4" class="hidden_row">
+        <tr id="hidden_row2" class="hidden_row">
             <td colspan=4>
                 <table>
                     <colgroup>
@@ -623,154 +739,72 @@ In the below grid you can find the versions of the supported UI components match
                         <tr>
                             <td>KendoAngularAutoComplete</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                            <td colspan="6" style="text-align:center;">6.0.0</td>
                         </tr>
+                        <tr>
                             <td>KendoAngularButton</td>
                             <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">8.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
                             <td colspan="6" style="text-align:center;">7.0.0</td>
                         </tr>
                         <tr>
+                            <td>KendoAngularComboBox</td>
+                            <td>kendo-angular-dropdowns</td>
+                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>KendoAngularDialog</td>
+                            <td>kendo-angular-dialog</td>
+                            <td colspan="6" style="text-align:center;">6.0.0</td>
+                        </tr>
+                        <tr>
                             <td>KendoAngularDropdownList</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                            <td colspan="6" style="text-align:center;">6.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularGrid</td>
                             <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
+                            <td colspan="6" style="text-align:center;">6.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularInputs</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPager</td>
-                            <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">4.0.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularPanelBar</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularSwitch</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularTabStrip</td>
-                            <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.0.1</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularWindow</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.0.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr onclick="showHideList('hidden_row5');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
-        </tr>
-        <tr id="hidden_row5" class="hidden_row">
-            <td colspan=4>
-                <table>
-                    <colgroup>
-                        <col width="33%" />
-                        <col width="34%" />
-                        <col width="33%" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <td style="font-weight:bold;text-align:left;">Translator Name</td>
-                            <td style="font-weight:bold;text-align:left;">Component Name</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>KendoAngularAutoComplete</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.2</td>
-                        </tr>
-                            <td>KendoAngularButton</td>
-                            <td>kendo-angular-buttons</td>
                             <td colspan="6" style="text-align:center;">8.0.0</td>
                         </tr>
                         <tr>
-                            <td>KendoAngularComboBox</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDialog</td>
-                            <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularDropdownList</td>
-                            <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.0.2</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularGrid</td>
-                            <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
-                        </tr>
-                        <tr>
-                            <td>KendoAngularInputs</td>
-                            <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.3</td>
-                        </tr>
-                        <tr>
                             <td>KendoAngularPager</td>
                             <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">4.0.0</td>
+                            <td colspan="6" style="text-align:center;">3.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPanelBar</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.0</td>
+                            <td colspan="6" style="text-align:center;">6.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularSwitch</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">9.0.3</td>
+                            <td colspan="6" style="text-align:center;">8.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularTabStrip</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.0</td>
+                            <td colspan="6" style="text-align:center;">6.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularWindow</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.2</td>
+                            <td colspan="6" style="text-align:center;">6.0.0</td>
                         </tr>
                     </tbody>
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideList('hidden_row6');">
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
+        <tr onclick="showHideList('hidden_row1');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
         </tr>
-        <tr id="hidden_row6" class="hidden_row">
+        <tr id="hidden_row1" class="hidden_row">
             <td colspan=4>
                 <table>
                     <colgroup>
@@ -789,97 +823,66 @@ In the below grid you can find the versions of the supported UI components match
                         <tr>
                             <td>KendoAngularAutoComplete</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
+                            <td colspan="6" style="text-align:center;">5.4.0</td>
                         </tr>
+                        <tr>
                             <td>KendoAngularButton</td>
                             <td>kendo-angular-buttons</td>
-                            <td colspan="6" style="text-align:center;">8.1.0</td>
+                            <td colspan="6" style="text-align:center;">6.3.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularComboBox</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
+                            <td colspan="6" style="text-align:center;">5.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularDialog</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
+                            <td colspan="6" style="text-align:center;">5.1.1</td>
                         </tr>
                         <tr>
                             <td>KendoAngularDropdownList</td>
                             <td>kendo-angular-dropdowns</td>
-                            <td colspan="6" style="text-align:center;">7.2.0</td>
+                            <td colspan="6" style="text-align:center;">5.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularGrid</td>
                             <td>kendo-angular-grid</td>
-                            <td colspan="6" style="text-align:center;">7.3.1</td>
+                            <td colspan="6" style="text-align:center;">5.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularInputs</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">10.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPager</td>
                             <td>kendo-angular-pager</td>
-                            <td colspan="6" style="text-align:center;">4.0.5</td>
+                            <td colspan="6" style="text-align:center;">1.0.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularPanelBar</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
+                            <td colspan="6" style="text-align:center;">6.3.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularSwitch</td>
                             <td>kendo-angular-inputs</td>
-                            <td colspan="6" style="text-align:center;">10.0.0</td>
+                            <td colspan="6" style="text-align:center;">7.4.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularTabStrip</td>
                             <td>kendo-angular-layout</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
+                            <td colspan="6" style="text-align:center;">6.3.0</td>
                         </tr>
                         <tr>
                             <td>KendoAngularWindow</td>
                             <td>kendo-angular-dialog</td>
-                            <td colspan="6" style="text-align:center;">7.1.3</td>
+                            <td colspan="6" style="text-align:center;">5.1.1</td>
                         </tr>
                     </tbody>
                 </table>
             </td>
-        </tr>
-        <tr>
-            <td>R12023</td>
-            <td colspan="6" style="text-align:center;">11.0.0</td>
-        </tr>
-        <tr>
-            <td>R12023SP1</td>
-            <td colspan="6" style="text-align:center;">11.4.0</td>
-        </tr>
-        <tr>
-            <td>R22023</td>
-            <td colspan="6" style="text-align:center;">13.0.0</td>
-        </tr>
-        <tr>
-            <td>R32023</td>
-            <td colspan="6" style="text-align:center;">14.0.0</td>
-        </tr>
-        <tr>
-            <td>R22024</td>
-            <td colspan="6" style="text-align:center;">16.0.0</td>
-        </tr>
-        <tr>
-            <td>R22024SP1</td>
-            <td colspan="6" style="text-align:center;">16.3.0</td>
-        </tr>
-        <tr>
-            <td>R42024</td>
-            <td colspan="6" style="text-align:center;">17.0.1</td>
-        </tr>
-        <tr>
-            <td>R22025</td>
-            <td colspan="6" style="text-align:center;">19.1.0</td>
         </tr>
     </tbody>
 </table>
