@@ -246,13 +246,26 @@ In the below grid you can find the versions of the supported UI components match
 <p>
 
 <script type="text/javascript">
-        function showHideRowAngList(row) {
+        function showHideListOld(row) {
             $("#" + row).toggle();
             $('#expand'+row[row.length-1]).text(function (i, oldText) {
         return $.trim(oldText) == 'Click to expand the list of translators' ? 'Collapse' : 'Click to expand the list of translators';
 		});
         }
 </script>
+
+<script type="text/javascript">
+    function showHideList(row) {
+        $("#" + row).toggle();
+        // Update the expand/collapse text for the correct span
+        var spanId = "expand_" + row.replace("hidden_row_", "");
+        $('#' + spanId).text(function (i, oldText) {
+            return $.trim(oldText) == 'Click to expand the list of translators' ? 'Collapse' : 'Click to expand the list of translators';
+        });
+    }
+</script>
+
+
 
 <style>
     #Angular .hidden_row {
@@ -272,7 +285,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
     </thead>
     <tbody>
-        <tr onclick="showHideRowAngList('hidden_row1');">
+        <tr onclick="showHideList('hidden_row1');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
         </tr>
@@ -356,7 +369,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRowAngList('hidden_row2');">
+        <tr onclick="showHideList('hidden_row2');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
         </tr>
@@ -440,7 +453,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRowAngList('hidden_row3');">
+        <tr onclick="showHideList('hidden_row3');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of translators</span></td>
         </tr>
@@ -524,7 +537,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRowAngList('hidden_row4');">
+        <tr onclick="showHideList('hidden_row4');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of translators</span></td>
         </tr>
@@ -607,7 +620,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRowAngList('hidden_row5');">
+        <tr onclick="showHideList('hidden_row5');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
         </tr>
@@ -690,7 +703,7 @@ In the below grid you can find the versions of the supported UI components match
                 </table>
             </td>
         </tr>
-        <tr onclick="showHideRowAngList('hidden_row6');">
+        <tr onclick="showHideList('hidden_row6');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
         </tr>
@@ -816,7 +829,7 @@ In the below grid you can find the versions of the supported UI components match
         <col width="50%" />
     </colgroup>
     <thead>
-        <tr onclick="showHideRowAngList('hidden_row_jquery');">
+        <tr onclick="showHideList('hidden_row_jquery');">
             <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
                 Kendo UI for jQuery <span id="expand_jquery">Click to expand the list of translators</span>
             </td>
@@ -901,6 +914,11 @@ In the below grid you can find the versions of the supported UI components match
 </table>
 </p>
 
+<style>
+    .hidden_row {
+        display: none;
+    }
+</style>
 
 <p id="Blazor">
 <table class="Tbl k-table" id="Blazornew">
@@ -909,10 +927,10 @@ In the below grid you can find the versions of the supported UI components match
         <col width="50%" />
     </colgroup>
     <thead>
-        <tr onclick="showHideRowAngList('hidden_row_blazor');">
-            <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
-                Telerik UI for Blazor <span id="expand_blazor">Click to expand the list of translators</span>
-            </td>
+        <tr onclick="showHideList('hidden_row_blazor');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">Telerik UI for Blazor</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+        </tr>
         </tr>
     </thead>
     <tbody>
@@ -1001,7 +1019,7 @@ In the below grid you can find the versions of the supported UI components match
         <col width="50%" />
     </colgroup>
     <thead>
-        <tr onclick="showHideRowAngList('hidden_row_aspnet_ajax');">
+        <tr onclick="showHideList('hidden_row_aspnet_ajax');">
             <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
                 Telerik UI for ASP.NET AJAX <span id="expand_aspnet_ajax">Click to expand the list of translators</span>
             </td>
