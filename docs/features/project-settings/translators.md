@@ -32,7 +32,7 @@ As Quality Assurance Engineer you often don't know what type and version of UI c
 
 ## Test Studio Mapping to UI Components Versions
 
-In the below grid you can find the versions of the supported UI components matching the translators versions from the list.
+Find the versions of the supported UI components matching the translators versions from the lists.
 
 ## Telerik UI for Blazor
 
@@ -199,8 +199,6 @@ In the below grid you can find the versions of the supported UI components match
 | R22024SP1  | 16.3.0   |
 | R42024     | 17.0.1   |
 | R22025     | 19.1.0   |
-
-
 
 
 ## Available Translators
