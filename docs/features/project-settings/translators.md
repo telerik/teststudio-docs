@@ -202,7 +202,7 @@ In the below grid you can find the versions of the supported UI components match
         <col width="50%" />
     </colgroup>
     <thead>
-        <tr onclick="showHideRowAngList('hidden_row_jquery');">
+        <tr onclick="showHideList('hidden_row_jquery');">
             <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
                 Kendo UI for jQuery <span id="expand_jquery">Click to expand the list of translators</span>
             </td>
@@ -287,6 +287,11 @@ In the below grid you can find the versions of the supported UI components match
 </table>
 </p>
 
+<style>
+    .hidden_row {
+        display: none;
+    }
+</style>
 
 <p id="Blazor">
 <table class="Tbl k-table" id="Blazornew">
@@ -295,10 +300,10 @@ In the below grid you can find the versions of the supported UI components match
         <col width="50%" />
     </colgroup>
     <thead>
-        <tr onclick="showHideRowAngList('hidden_row_blazor');">
-            <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
-                Telerik UI for Blazor <span id="expand_blazor">Click to expand the list of translators</span>
-            </td>
+        <tr onclick="showHideList('hidden_row_blazor');">
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">Telerik UI for Blazor</td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+        </tr>
         </tr>
     </thead>
     <tbody>
@@ -387,7 +392,7 @@ In the below grid you can find the versions of the supported UI components match
         <col width="50%" />
     </colgroup>
     <thead>
-        <tr onclick="showHideRowAngList('hidden_row_aspnet_ajax');">
+        <tr onclick="showHideList('hidden_row_aspnet_ajax');">
             <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
                 Telerik UI for ASP.NET AJAX <span id="expand_aspnet_ajax">Click to expand the list of translators</span>
             </td>
