@@ -55,6 +55,11 @@ In the below grid you can find the versions of the supported UI components match
         }
 </style>
 
+<style>
+    .hidden_row {
+        display: none;
+    }
+</style>
 
 <p id="jQuery">
 <table class="Tbl k-table" id="jQuerynew">
@@ -65,7 +70,7 @@ In the below grid you can find the versions of the supported UI components match
     <thead>
         <tr onclick="showHideList('hidden_row_jquery');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for jQuery</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -147,11 +152,7 @@ In the below grid you can find the versions of the supported UI components match
 </table>
 </p>
 
-<style>
-    .hidden_row {
-        display: none;
-    }
-</style>
+
 
 <p id="Blazor">
 <table class="Tbl k-table" id="Blazornew">
@@ -162,7 +163,7 @@ In the below grid you can find the versions of the supported UI components match
     <thead>
         <tr onclick="showHideList('hidden_row_blazor');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for Blazor</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
         </tr>
         </tr>
     </thead>
@@ -254,7 +255,7 @@ In the below grid you can find the versions of the supported UI components match
     <thead>
         <tr onclick="showHideList('hidden_row_aspnet_ajax');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for ASP.NET AJAX</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -343,8 +344,9 @@ In the below grid you can find the versions of the supported UI components match
         <col width="70%" />
     </colgroup>
     <thead>
-        <tr>
-			<td colspan="2" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for Angular</td>
+        <tr onclick="showHideList('hidden_row_ang');">
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for Angular</td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -382,7 +384,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideList('hidden_row6');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of components</span></td>
         </tr>
         <tr id="hidden_row6" class="hidden_row">
             <td colspan=4>
@@ -466,7 +468,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideList('hidden_row5');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of components</span></td>
         </tr>
         <tr id="hidden_row5" class="hidden_row">
             <td colspan=4>
@@ -550,7 +552,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideList('hidden_row4');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of components</span></td>
         </tr>
         <tr id="hidden_row4" class="hidden_row">
             <td colspan=4>
@@ -634,7 +636,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideList('hidden_row3');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of components</span></td>
         </tr>
         <tr id="hidden_row3" class="hidden_row">
             <td colspan=4>
@@ -718,7 +720,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideList('hidden_row2');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of components</span></td>
         </tr>
         <tr id="hidden_row2" class="hidden_row">
             <td colspan=4>
@@ -802,7 +804,7 @@ In the below grid you can find the versions of the supported UI components match
         </tr>
         <tr onclick="showHideList('hidden_row1');">
             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
-            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of translators</span></td>
+            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of components</span></td>
         </tr>
         <tr id="hidden_row1" class="hidden_row">
             <td colspan=4>
@@ -892,7 +894,7 @@ In the below grid you can find the versions of the supported UI components match
 
 ## Available Translators
 
-The __Available Translators__ section lists __all built-in translators__ that are currently available in Test Studio. All translators are enabled by default, which is the __recommended setup__. Each of the built-in translators can be disabled and not used while recording and executing tests, but we strongly recommend contacting the Test Studio Support Team before  applying changes to the enabled translators.
+The __Available Translators__ section lists __all built-in translators__ that are currently available in Test Studio. All translators are enabled by default, which is the __recommended setup__. Each of the built-in translators can be disabled and not used while recording and executing tests, but we strongly recommend contacting the Test Studio Support Team before applying changes to the enabled translators.
 
 ![Available Translators][3]
 
