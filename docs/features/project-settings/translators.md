@@ -29,7 +29,7 @@ As Quality Assurance Engineer you often don't know what type and version of UI c
 In the below grid you can find the versions of the supported UI components matching the translators versions from the list.
 
 <p id="Blazor">
-<table class="Tbl k-table">
+<table class="Tbl k-table" id="Blazor">
     <colgroup>
         <col width="50%" />
         <col width="50%" />
@@ -100,8 +100,8 @@ In the below grid you can find the versions of the supported UI components match
 </table>
 </p>
 
-<p id="asp.net ajax">
-<table class="Tbl k-table">
+<p id="aspnet ajax">
+<table class="Tbl k-table" id="aspnet ajax">
     <colgroup>
         <col width="50%" />
         <col width="50%" />
@@ -173,7 +173,7 @@ In the below grid you can find the versions of the supported UI components match
 </p>
 
 <p id="jQuery">
-<table class="Tbl k-table">
+<table class="Tbl k-table" id="jQuery">
     <colgroup>
         <col width="50%" />
         <col width="50%" />
@@ -804,6 +804,283 @@ In the below grid you can find the versions of the supported UI components match
         <tr>
             <td>R22025</td>
             <td colspan="6" style="text-align:center;">19.1.0</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
+<p id="jQuery">
+<table class="Tbl k-table" id="jQuerynew">
+    <colgroup>
+        <col width="50%" />
+        <col width="50%" />
+    </colgroup>
+    <thead>
+        <tr onclick="showHideRowAngList('hidden_row_jquery');">
+            <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
+                Kendo UI for jQuery <span id="expand_jquery">Click to expand the list of translators</span>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="hidden_row_jquery" class="hidden_row">
+            <td colspan="6">
+                <table>
+                    <colgroup>
+                        <col width="50%" />
+                        <col width="50%" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <td style="font-weight:bold;text-align:left;">Release</td>
+                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R32021</td>
+                            <td style="text-align:center;">2021.3.914</td>
+                        </tr>
+                        <tr>
+                            <td>R12022</td>
+                            <td style="text-align:center;">2022.1.119</td>
+                        </tr>
+                        <tr>
+                            <td>R12022SP1</td>
+                            <td style="text-align:center;">2022.1.301</td>
+                        </tr>
+                        <tr>
+                            <td>R22022</td>
+                            <td style="text-align:center;">2022.2.510</td>
+                        </tr>
+                        <tr>
+                            <td>R22022SP1</td>
+                            <td style="text-align:center;">2022.2.621</td>
+                        </tr>
+                        <tr>
+                            <td>R32022</td>
+                            <td style="text-align:center;">2022.3.913</td>
+                        </tr>
+                        <tr>
+                            <td>R12023</td>
+                            <td style="text-align:center;">2023.1.117</td>
+                        </tr>
+                        <tr>
+                            <td>R12023SP1</td>
+                            <td style="text-align:center;">2023.1.314</td>
+                        </tr>
+                        <tr>
+                            <td>R22023</td>
+                            <td style="text-align:center;">2023.2.606</td>
+                        </tr>
+                        <tr>
+                            <td>R32023</td>
+                            <td style="text-align:center;">2023.3.1010</td>
+                        </tr>
+                        <tr>
+                            <td>R22024</td>
+                            <td style="text-align:center;">2024.2.514</td>
+                        </tr>
+                        <tr>
+                            <td>R22024SP1</td>
+                            <td style="text-align:center;">2024.2.514</td>
+                        </tr>
+                        <tr>
+                            <td>R42024</td>
+                            <td style="text-align:center;">2024.4.1112</td>
+                        </tr>
+                        <tr>
+                            <td>R22025</td>
+                            <td style="text-align:center;">2025.2.520</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
+
+<p id="Blazor">
+<table class="Tbl k-table" id="Blazornew">
+    <colgroup>
+        <col width="50%" />
+        <col width="50%" />
+    </colgroup>
+    <thead>
+        <tr onclick="showHideRowAngList('hidden_row_blazor');">
+            <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
+                Telerik UI for Blazor <span id="expand_blazor">Click to expand the list of translators</span>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="hidden_row_blazor" class="hidden_row">
+            <td colspan="6">
+                <table>
+                    <colgroup>
+                        <col width="50%" />
+                        <col width="50%" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <td style="font-weight:bold;text-align:left;">Release</td>
+                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R32021</td>
+                            <td style="text-align:center;">2.27.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12022</td>
+                            <td style="text-align:center;">3.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12022SP1</td>
+                            <td style="text-align:center;">3.1.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22022</td>
+                            <td style="text-align:center;">3.3.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22022SP1</td>
+                            <td style="text-align:center;">3.4.0</td>
+                        </tr>
+                        <tr>
+                            <td>R32022</td>
+                            <td style="text-align:center;">3.6.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12023</td>
+                            <td style="text-align:center;">4.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R12023SP1</td>
+                            <td style="text-align:center;">4.1.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22023</td>
+                            <td style="text-align:center;">4.3.0</td>
+                        </tr>
+                        <tr>
+                            <td>R32023</td>
+                            <td style="text-align:center;">4.6.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22024</td>
+                            <td style="text-align:center;">6.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22024SP1</td>
+                            <td style="text-align:center;">6.0.2</td>
+                        </tr>
+                        <tr>
+                            <td>R42024</td>
+                            <td style="text-align:center;">7.0.0</td>
+                        </tr>
+                        <tr>
+                            <td>R22025</td>
+                            <td style="text-align:center;">9.0.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
+<p id="aspnet ajax">
+<table class="Tbl k-table" id="aspnet_ajax_new">
+    <colgroup>
+        <col width="50%" />
+        <col width="50%" />
+    </colgroup>
+    <thead>
+        <tr onclick="showHideRowAngList('hidden_row_aspnet_ajax');">
+            <td colspan="6" style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;">
+                Telerik UI for ASP.NET AJAX <span id="expand_aspnet_ajax">Click to expand the list of translators</span>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="hidden_row_aspnet_ajax" class="hidden_row">
+            <td colspan="6">
+                <table>
+                    <colgroup>
+                        <col width="50%" />
+                        <col width="50%" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <td style="font-weight:bold;text-align:left;">Release</td>
+                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R32021</td>
+                            <td style="text-align:center;">2021.3.914</td>
+                        </tr>
+                        <tr>
+                            <td>R12022</td>
+                            <td style="text-align:center;">2022.1.119</td>
+                        </tr>
+                        <tr>
+                            <td>R12022SP1</td>
+                            <td style="text-align:center;">2022.1.302</td>
+                        </tr>
+                        <tr>
+                            <td>R22022</td>
+                            <td style="text-align:center;">2022.2.511</td>
+                        </tr>
+                        <tr>
+                            <td>R22022SP1</td>
+                            <td style="text-align:center;">2022.2.622</td>
+                        </tr>
+                        <tr>
+                            <td>R32022</td>
+                            <td style="text-align:center;">2022.3.913</td>
+                        </tr>
+                        <tr>
+                            <td>R12023</td>
+                            <td style="text-align:center;">2023.1.117</td>
+                        </tr>
+                        <tr>
+                            <td>R12023SP1</td>
+                            <td style="text-align:center;">2023.1.314</td>
+                        </tr>
+                        <tr>
+                            <td>R22023</td>
+                            <td style="text-align:center;">2023.2.606</td>
+                        </tr>
+                        <tr>
+                            <td>R32023</td>
+                            <td style="text-align:center;">2023.3.1010</td>
+                        </tr>
+                        <tr>
+                            <td>R22024</td>
+                            <td style="text-align:center;">2024.2.513</td>
+                        </tr>
+                        <tr>
+                            <td>R22024SP1</td>
+                            <td style="text-align:center;">2024.3.805</td>
+                        </tr>
+                        <tr>
+                            <td>R42024</td>
+                            <td style="text-align:center;">2024.4.1113</td>
+                        </tr>
+                        <tr>
+                            <td>R22025</td>
+                            <td style="text-align:center;">2025.2.528</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
         </tr>
     </tbody>
 </table>
