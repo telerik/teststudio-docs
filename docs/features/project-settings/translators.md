@@ -49,11 +49,7 @@ Find the versions of the supported UI components matching the translators versio
 
 
 
-<style>
-    #Angular .hidden_row {
-            display: none;
-        }
-</style>
+
 
 <style>
     .hidden_row {
@@ -253,7 +249,7 @@ Find the versions of the supported UI components matching the translators versio
     <thead>
         <tr onclick="showHideList('hidden_row_aspnet_ajax');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Telerik UI for ASP.NET AJAX</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_ajax">Click to expand the list</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_aspnet_ajax">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -344,7 +340,7 @@ Find the versions of the supported UI components matching the translators versio
     <thead>
         <tr onclick="showHideList('hidden_row_ang');">
             <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;">Kendo UI for Angular</td>
-            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_angular">Click to expand the list</span></td>
+            <td style="color:white;text-align:center;background-color:#70757d;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_ang">Click to expand the list</span></td>
         </tr>
     </thead>
     <tbody>
@@ -394,11 +390,11 @@ Find the versions of the supported UI components matching the translators versio
                             <td>R12023</td>
                             <td colspan="6" style="text-align:center;">11.0.0</td>
                         </tr>
-                        <tr onclick="showHideList('hidden_row6');">
+                        <tr onclick="showHideList('hidden_row_6');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of components</span></td>
                         </tr>
-                        <tr id="hidden_row6" class="hidden_row">
+                        <tr id="hidden_row_6" class="hidden_row">
                             <td colspan=4>
                                 <table>
                                     <colgroup>
@@ -478,11 +474,11 @@ Find the versions of the supported UI components matching the translators versio
                                 </table>
                             </td>
                         </tr>
-                        <tr onclick="showHideList('hidden_row5');">
+                        <tr onclick="showHideList('hidden_row_5');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of components</span></td>
                         </tr>
-                        <tr id="hidden_row5" class="hidden_row">
+                        <tr id="hidden_row_5" class="hidden_row">
                             <td colspan=4>
                                 <table>
                                     <colgroup>
@@ -562,11 +558,11 @@ Find the versions of the supported UI components matching the translators versio
                                 </table>
                             </td>
                         </tr>
-                        <tr onclick="showHideList('hidden_row4');">
+                        <tr onclick="showHideList('hidden_row_4');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of components</span></td>
                         </tr>
-                        <tr id="hidden_row4" class="hidden_row">
+                        <tr id="hidden_row_4" class="hidden_row">
                             <td colspan=4>
                                 <table>
                                     <colgroup>
@@ -646,11 +642,11 @@ Find the versions of the supported UI components matching the translators versio
                                 </table>
                             </td>
                         </tr>
-                        <tr onclick="showHideList('hidden_row3');">
+                        <tr onclick="showHideList('hidden_row_3');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of components</span></td>
                         </tr>
-                        <tr id="hidden_row3" class="hidden_row">
+                        <tr id="hidden_row_3" class="hidden_row">
                             <td colspan=4>
                                 <table>
                                     <colgroup>
@@ -730,11 +726,11 @@ Find the versions of the supported UI components matching the translators versio
                                 </table>
                             </td>
                         </tr>
-                        <tr onclick="showHideList('hidden_row2');">
+                        <tr onclick="showHideList('hidden_row_2');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of components</span></td>
                         </tr>
-                        <tr id="hidden_row2" class="hidden_row">
+                        <tr id="hidden_row_2" class="hidden_row">
                             <td colspan=4>
                                 <table>
                                     <colgroup>
@@ -814,11 +810,11 @@ Find the versions of the supported UI components matching the translators versio
                                 </table>
                             </td>
                         </tr>
-                        <tr onclick="showHideList('hidden_row1');">
+                        <tr onclick="showHideList('hidden_row_1');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of components</span></td>
                         </tr>
-                        <tr id="hidden_row1" class="hidden_row">
+                        <tr id="hidden_row_1" class="hidden_row">
                             <td colspan=4>
                                 <table>
                                     <colgroup>
