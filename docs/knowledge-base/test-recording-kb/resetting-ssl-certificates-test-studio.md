@@ -13,7 +13,7 @@ ticketid: 1576623
 
 ## Description
 
-I encountered an SSL certificate error while running performance tests in Telerik Test Studio. The issue seems related to the FiddlerCore engine used in the background by Test Studio. Fiddler certificates might be improperly configured or corrupted, causing the connection to not be trusted.
+I encountered a SSL certificate error while running performance tests in Telerik Test Studio. The issue seems related to the FiddlerCore engine used in the background by Test Studio. Fiddler certificates might be improperly configured or corrupted, causing the connection to not be trusted.
 
 This knowledge base article also answers the following questions:
 - How to reset Fiddler SSL certificates for Telerik Test Studio?
