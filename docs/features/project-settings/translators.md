@@ -47,10 +47,6 @@ Find the versions of the supported UI components matching the translators versio
     }
 </script>
 
-
-
-
-
 <style>
     .hidden_row {
         display: none;
@@ -79,8 +75,8 @@ Find the versions of the supported UI components matching the translators versio
                     </colgroup>
                     <thead>
                         <tr>
-                            <td style="font-weight:bold;text-align:left;">Release</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                            <td style="font-weight:bold;text-align:left;">Test Studio Release</td>
+                            <td style="font-weight:bold;text-align:center;">Components Version</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -171,8 +167,8 @@ Find the versions of the supported UI components matching the translators versio
                     </colgroup>
                     <thead>
                         <tr>
-                            <td style="font-weight:bold;text-align:left;">Release</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                            <td style="font-weight:bold;text-align:left;">Test Studio Release</td>
+                            <td style="font-weight:bold;text-align:center;">Components Version</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -262,8 +258,8 @@ Find the versions of the supported UI components matching the translators versio
                     </colgroup>
                     <thead>
                         <tr>
-                            <td style="font-weight:bold;text-align:left;">Release</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                            <td style="font-weight:bold;text-align:left;">Test Studio Release</td>
+                            <td style="font-weight:bold;text-align:center;">Components Version</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -353,8 +349,8 @@ Find the versions of the supported UI components matching the translators versio
                     </colgroup>
                     <thead>
                         <tr>
-                            <td style="font-weight:bold;text-align:left;">Release</td>
-                            <td style="font-weight:bold;text-align:center;">Component Version</td>
+                            <td style="font-weight:bold;text-align:left;">Test Studio Release</td>
+                            <td style="font-weight:bold;text-align:center;">Components Version</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -392,7 +388,7 @@ Find the versions of the supported UI components matching the translators versio
                         </tr>
                         <tr onclick="showHideList('hidden_row_6');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand6">Click to expand the list of components</span></td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_6">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_6" class="hidden_row">
                             <td colspan=4>
@@ -476,7 +472,7 @@ Find the versions of the supported UI components matching the translators versio
                         </tr>
                         <tr onclick="showHideList('hidden_row_5');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand5">Click to expand the list of components</span></td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_5">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_5" class="hidden_row">
                             <td colspan=4>
@@ -560,7 +556,7 @@ Find the versions of the supported UI components matching the translators versio
                         </tr>
                         <tr onclick="showHideList('hidden_row_4');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand4">Click to expand the list of components</span></td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_4">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_4" class="hidden_row">
                             <td colspan=4>
@@ -644,7 +640,7 @@ Find the versions of the supported UI components matching the translators versio
                         </tr>
                         <tr onclick="showHideList('hidden_row_3');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand3">Click to expand the list of components</span></td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_3">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_3" class="hidden_row">
                             <td colspan=4>
@@ -728,7 +724,7 @@ Find the versions of the supported UI components matching the translators versio
                         </tr>
                         <tr onclick="showHideList('hidden_row_2');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand2">Click to expand the list of components</span></td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_2">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_2" class="hidden_row">
                             <td colspan=4>
@@ -812,7 +808,7 @@ Find the versions of the supported UI components matching the translators versio
                         </tr>
                         <tr onclick="showHideList('hidden_row_1');">
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand1">Click to expand the list of components</span></td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_1">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_1" class="hidden_row">
                             <td colspan=4>
