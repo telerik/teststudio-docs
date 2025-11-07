@@ -43,14 +43,17 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 
 Once a custom key is generated and imported, the **Current Key** section allows you to copy the value of the key using the __Copy to Clipboard__ button, or see it using the __Show__ button (for the cases when copying is not an option). The key value can be reset to the default value using the __Reset to Default__ button.
 
+> **Important!**
+> <br>
+> The copied key __must be imported on all machines__ included in the Test Studio Scheduling setup.
+
 ![Custom Communication key](/img/features//scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png)
 
-The copied key must be imported on all machines included in the Test Studio Scheduling setup.
 
 > **Note**
 > <br>
 > <br>
-> The communication key is set per machine. This means that importing a key on one machine lets all other components on the same machine to use it. If you see any troubles with the imported key on a machine, be sure to restart all Test Studio processes. 
+> The __communication key is set per machine__. This means that importing a key on one machine lets all other components on the same machine to use it. If you see any troubles with the imported key on a machine, be sure to restart all Test Studio processes. 
 
 ## Generate and Import Key in Single Machine Scheduling Setup 
 
@@ -93,13 +96,13 @@ In the setup where all components of the Scheduling configuration are on differe
 
     ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
-6. On this same machine copy the new key value from the __Current Key__ section in the Scheduling config wizard->Communication tab. 
+6. On this same machine __copy the new key__ value from the __Current Key__ section in the Scheduling config wizard->Communication tab. Be sure to __safely distribute the key as per your local security policies__.
 
     ![Copy current Key](/img/knowledge-base/scheduling-kb/communication-key/copy-current-key.png)
 
 7. Logon to each of the machine utilized as Execution servers in the Scheduling setup.
 8. <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#start-the-test-studio-scheduling-config-wizard" target="_blank">Start the Test Studio Services configuration wizard</a>.
-9. Switch to the Communication tab and use the copied key from the Scheduling machine (Step 6. in this list) to import it. 
+9. Switch to the Communication tab and use the copied key from the Scheduling machine (Step 6. in this list) to import it. Be sure to __safely distribute the key as per your local security policies__.
     
     ![Import new Key](/img/knowledge-base/scheduling-kb/communication-key/replace-key.png)
 

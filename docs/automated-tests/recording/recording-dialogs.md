@@ -149,7 +149,7 @@ Handling of a download dialog typically requires handling a sequence of dialogs 
 
 ## SaveFile and OpenFile Dialogs in WPF Test
 
-The SaveFile and OpenFile actions usually require more than one single interaction with the dialog. Test Studio recording process detects the user actions to choose a folder and file and represents these into a single step to handle the dialog. 
+The __SaveFile__ and __OpenFile__ actions usually require more than one single interaction with the dialog. Test Studio recording process detects the user actions to choose a folder and file and represents these into a single step to handle the dialog. 
 
 > __Note__
 ><br>
@@ -176,7 +176,12 @@ The OpenFile action opens a __OpenFile__ dialog in Windows File Explorer in whic
 
 ### SaveFile Dialog
 
-The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in which the user browses to a specific folder and enters name for the file to be downloaded. Handling the download dialog typically requires interacting with a sequence of dialogs - the application prompts to download a file and the File Explorer lets you choose the destination path; optionally, handling a prompt message that a file with the same name already exists in the selected folder - the existing file is overwritten in such case. Test Studio fetches all actions taken and automatically records the __Handle SaveFile dialog__ step and populates the complete file path and name. 
+The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in which the user browses to a specific folder and enters name for the file to be downloaded. Handling the download dialog typically requires interacting with a sequence of dialogs - the application prompts to download a file and the File Explorer lets you choose the destination path. Test Studio fetches all actions taken and automatically records the __Handle SaveFile dialog__ step and populates the complete file path and name. 
+
+ __Note!__
+><br>
+><br>
+> Optionally, you may see an additional dialog that a file with the same name already exists in the selected folder where you can choose whether to overwrite the file. This dialog is recognized as a generic type of dialog and needs to be handled only if it appears - this scenario is supported only in a coded step as described <a href="/advanced-topics/coded-samples/html/conditional-dialog-handling" target="_blank">here</a>. 
 
 <table id=no-table>
 <tr>

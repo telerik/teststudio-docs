@@ -114,6 +114,50 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 
 ### Encryption Tab
 
+The Encryption tab lets you manage the **Encryption Key** which is used to secure sensitive data across the Test Studio projects including: 
+
+- Passwords for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests;
+- Password steps recorded in automated tests when the _'Encrypt'_ step property is enabled. 
+
+> **Note**
+> <br>
+> <br>
+> The same __encryption key must be imported on all machines__ where Test Studio product is in use. This is __mandatory__ to ensure encrypted data remains accessible and test execution is not disrupted.
+
+![Encryption tab](/img/features/scheduling-test-runs/create-scheduling-server/encryption-tab.png)
+
+The **Current Key** section indicates which is the key in use. Test Studio installation uses a default encryption key and you see the current key is the __Default Key Loaded__. In this configuration you can't copy or see the key. 
+
+![Default Encryption key](/img/features/scheduling-test-runs/create-scheduling-server/encryption-default-key.png)
+
+> **Tip**
+> <br>
+> <br>
+> We __strongly recommend to generate a new encryption key__ and replace it for all machines in the setup.
+><br>
+> See <a href="" target="_blank">here step-by-step instructions on updating the communication key</a>.
+
+Once a custom key is generated and imported, the **Current Key** section allows you to copy the value of the key using the __Copy to Clipboard__ button, or see it using the __Show__ button (for the cases when copying is not an option). 
+
+![Custom Encryption key](/img/features/scheduling-test-runs/create-scheduling-server/encryption-custom-key.png)
+
+The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. Hit the **Import** button to replace the current key with the new one. 
+
+![Replace Encryption key](/img/features/scheduling-test-runs/create-scheduling-server/encryption-generate-key.png)
+
+> **Note**
+> <br>
+> <br>
+> When __importing a custom encryption key for the first time__ some of the encrypted data becomes inaccessible. To __continue using your Test Studio projects in such case you must__: 
+> * __re-enter all passwords__ for connecting to source control repository or bug tracking systems, and SMTP settings if used in Scheduling configuration;
+> * all projects on the machine are upgraded to use the new key for password steps in automated tests when the _'Encrypt'_ step property is enabled and for database connection strings used in data driven tests - __no further interaction is needed__ for these.
+
+> If you decide to __regenerate the encryption key and import a new one__ all encrypted data becomes inaccessible. To __continue using your Test Studio projects in such case you must__: 
+> * __re-enter all passwords__ for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests, and SMTP settings if used in Scheduling configuration;
+> * __re-record all password steps__ in automated tests when the _'Encrypt'_ step property is enabled.
+
+> See <a href="" target="_blank">here step-by-step instructions on updating the communication key</a>.
+
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
 <br>

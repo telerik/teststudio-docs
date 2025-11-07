@@ -26,6 +26,13 @@ The __Telerik Components Under Test__ section lets you instruct the translators'
 
 ![Telerik Components Under Test Version][2]
 
+> __Note!__
+> <br> 
+> __Test Studio supports the latest version of Telerik and Kendo UI components, as well as versions released within the past two years__.
+> <br>
+> <br>
+> All previous versions are marked with __*__ to indicate these are no longer supported. You can continue using these archived versions but in case any misbehavior is identified it will not be addressed. 
+
 ## How to Know Which is the Version of Components Used in the Tested Page?
 
 As Quality Assurance Engineer you often don't know what type and version of UI components was used to create the application you need to automate. And since there is no convenient way to identify the version of the components in an already built and deployed application, the __most reliable approach is to contact the development team__ and discuss the topic internally.
@@ -97,43 +104,43 @@ Find the versions of the supported UI components matching the translators versio
                             <td style="text-align:center;">2024.2.514</td>
                         </tr>
                         <tr>
-                            <td>R32023</td>
+                            <td>R32023*</td>
                             <td style="text-align:center;">2023.3.1010</td>
                         </tr>
                         <tr>
-                            <td>R22023</td>
+                            <td>R22023*</td>
                             <td style="text-align:center;">2023.2.606</td>
                         </tr>
                         <tr>
-                            <td>R12023SP1</td>
+                            <td>R12023SP1*</td>
                             <td style="text-align:center;">2023.1.314</td>
                         </tr>
                         <tr>
-                            <td>R12023</td>
+                            <td>R12023*</td>
                             <td style="text-align:center;">2023.1.117</td>
                         </tr>
                         <tr>
-                            <td>R32022</td>
+                            <td>R32022*</td>
                             <td style="text-align:center;">2022.3.913</td>
                         </tr>
                         <tr>
-                            <td>R22022SP1</td>
+                            <td>R22022SP1*</td>
                             <td style="text-align:center;">2022.2.621</td>
                         </tr>
                         <tr>
-                            <td>R22022</td>
+                            <td>R22022*</td>
                             <td style="text-align:center;">2022.2.510</td>
                         </tr>
                         <tr>
-                            <td>R12022SP1</td>
+                            <td>R12022SP1*</td>
                             <td style="text-align:center;">2022.1.301</td>
                         </tr>
                         <tr>
-                            <td>R12022</td>
+                            <td>R12022*</td>
                             <td style="text-align:center;">2022.1.119</td>
                         </tr>
                         <tr>
-                            <td>R32021</td>
+                            <td>R32021*</td>
                             <td style="text-align:center;">2021.3.914</td>
                         </tr>
                     </tbody>
@@ -189,43 +196,43 @@ Find the versions of the supported UI components matching the translators versio
                             <td style="text-align:center;">6.0.0</td>
                         </tr>
                         <tr>
-                            <td>R32023</td>
+                            <td>R32023*</td>
                             <td style="text-align:center;">4.6.0</td>
                         </tr>
                         <tr>
-                            <td>R22023</td>
+                            <td>R22023*</td>
                             <td style="text-align:center;">4.3.0</td>
                         </tr>
                         <tr>
-                            <td>R12023SP1</td>
+                            <td>R12023SP1*</td>
                             <td style="text-align:center;">4.1.0</td>
                         </tr>
                         <tr>
-                            <td>R12023</td>
+                            <td>R12023*</td>
                             <td style="text-align:center;">4.0.0</td>
                         </tr>
                         <tr>
-                            <td>R32022</td>
+                            <td>R32022*</td>
                             <td style="text-align:center;">3.6.0</td>
                         </tr>
                         <tr>
-                            <td>R22022SP1</td>
+                            <td>R22022SP1*</td>
                             <td style="text-align:center;">3.4.0</td>
                         </tr>
                         <tr>
-                            <td>R22022</td>
+                            <td>R22022*</td>
                             <td style="text-align:center;">3.3.0</td>
                         </tr>
                         <tr>
-                            <td>R12022SP1</td>
+                            <td>R12022SP1*</td>
                             <td style="text-align:center;">3.1.0</td>
                         </tr>
                         <tr>
-                            <td>R12022</td>
+                            <td>R12022*</td>
                             <td style="text-align:center;">3.0.0</td>
                         </tr>
                         <tr>
-                            <td>R32021</td>
+                            <td>R32021*</td>
                             <td style="text-align:center;">2.27.0</td>
                         </tr>
                     </tbody>    
@@ -280,43 +287,43 @@ Find the versions of the supported UI components matching the translators versio
                             <td style="text-align:center;">2024.2.513</td>
                         </tr>
                         <tr>
-                            <td>R32023</td>
+                            <td>R32023*</td>
                             <td style="text-align:center;">2023.3.1010</td>
                         </tr>
                         <tr>
-                            <td>R22023</td>
+                            <td>R22023*</td>
                             <td style="text-align:center;">2023.2.606</td>
                         </tr>
                         <tr>
-                            <td>R12023SP1</td>
+                            <td>R12023SP1*</td>
                             <td style="text-align:center;">2023.1.314</td>
                         </tr>
                         <tr>
-                            <td>R12023</td>
+                            <td>R12023*</td>
                             <td style="text-align:center;">2023.1.117</td>
                         </tr>
                         <tr>
-                            <td>R32022</td>
+                            <td>R32022*</td>
                             <td style="text-align:center;">2022.3.913</td>
                         </tr>
                         <tr>
-                            <td>R22022SP1</td>
+                            <td>R22022SP1*</td>
                             <td style="text-align:center;">2022.2.622</td>
                         </tr>
                         <tr>
-                            <td>R22022</td>
+                            <td>R22022*</td>
                             <td style="text-align:center;">2022.2.511</td>
                         </tr>
                         <tr>
-                            <td>R12022SP1</td>
+                            <td>R12022SP1*</td>
                             <td style="text-align:center;">2022.1.302</td>
                         </tr>
                         <tr>
-                            <td>R12022</td>
+                            <td>R12022*</td>
                             <td style="text-align:center;">2022.1.119</td>
                         </tr>
                         <tr>
-                            <td>R32021</td>
+                            <td>R32021*</td>
                             <td style="text-align:center;">2021.3.914</td>
                         </tr>
                     </tbody>
@@ -371,23 +378,23 @@ Find the versions of the supported UI components matching the translators versio
                             <td colspan="6" style="text-align:center;">16.0.0</td>
                         </tr>
                         <tr>
-                            <td>R32023</td>
+                            <td>R32023*</td>
                             <td colspan="6" style="text-align:center;">14.0.0</td>
                         </tr>
                         <tr>
-                            <td>R22023</td>
+                            <td>R22023*</td>
                             <td colspan="6" style="text-align:center;">13.0.0</td>
                         </tr>
                         <tr>
-                            <td>R12023SP1</td>
+                            <td>R12023SP1*</td>
                             <td colspan="6" style="text-align:center;">11.4.0</td>
                         </tr>
                         <tr>
-                            <td>R12023</td>
+                            <td>R12023*</td>
                             <td colspan="6" style="text-align:center;">11.0.0</td>
                         </tr>
                         <tr onclick="showHideList('hidden_row_6');">
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022</td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32022*</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_6">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_6" class="hidden_row">
@@ -471,7 +478,7 @@ Find the versions of the supported UI components matching the translators versio
                             </td>
                         </tr>
                         <tr onclick="showHideList('hidden_row_5');">
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1</td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022SP1*</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_5">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_5" class="hidden_row">
@@ -555,7 +562,7 @@ Find the versions of the supported UI components matching the translators versio
                             </td>
                         </tr>
                         <tr onclick="showHideList('hidden_row_4');">
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022</td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R22022*</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_4">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_4" class="hidden_row">
@@ -639,7 +646,7 @@ Find the versions of the supported UI components matching the translators versio
                             </td>
                         </tr>
                         <tr onclick="showHideList('hidden_row_3');">
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1</td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022SP1*</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_3">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_3" class="hidden_row">
@@ -723,7 +730,7 @@ Find the versions of the supported UI components matching the translators versio
                             </td>
                         </tr>
                         <tr onclick="showHideList('hidden_row_2');">
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022</td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R12022*</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_2">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_2" class="hidden_row">
@@ -807,7 +814,7 @@ Find the versions of the supported UI components matching the translators versio
                             </td>
                         </tr>
                         <tr onclick="showHideList('hidden_row_1');">
-                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021</td>
+                            <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;">R32021*</td>
                             <td style="color:white;text-align:center;background-color:#9ca3ad;font-weight:bold;text-align:left;cursor: pointer;"><span id="expand_1">Click to expand the list of components</span></td>
                         </tr>
                         <tr id="hidden_row_1" class="hidden_row">
