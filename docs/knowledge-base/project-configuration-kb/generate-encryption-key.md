@@ -8,6 +8,15 @@ position: 0
 
 The **Encryption Key** is used to secure sensitive data across the Test Studio projects. You can get the current key or generate a new one in the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Scheduling Config wizard</a>. 
 
+<!-- no toc -->
+- [Manage the Encryption Key](#manage-the-encryption-key)
+  - [Default Encryption Key](#default-encryption-key)
+  - [Generate New Key](#generate-new-encryption-key)
+  - [Copy Current Key](#copy-current-key)
+- [Generate and Import Custom Encryption Key in Single Machine Setup](#generate-and-import-custom-encryption-key-in-single-machine-setup)
+- [Generate and Import Custom Encryption Key in Multiple Machines Setup](#generate-and-import-custom-encryption-key-in-multiple-machines-setup)
+- [Re-Generate the Custom Key](#re-generate-the-custom-key)
+
 ## Manage the Encryption Key
 
 Find useful details on the available options to manage the Encryption key.
@@ -16,7 +25,7 @@ Find useful details on the available options to manage the Encryption key.
 
 The Encryption tab lets you manage the **Encryption Key** which is used to secure sensitive data across the Test Studio projects including: 
 
-- Passwords for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests;
+- Passwords for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests; SMTP credentials if used in the Scheduling configuration;
 - Password steps recorded in automated tests when the _'Encrypt'_ step property is enabled. 
 
 ![Encryption key tab](/img/features//scheduling-test-runs/create-scheduling-server/encryption-tab.png)
@@ -59,6 +68,9 @@ Once a custom key is generated and imported, the **Current Key** section allows 
 > <br>
 > <br>
 > The __Encryption key is set per machine__. This means that importing a key on one machine lets all projects on the same machine to use it. If you see any troubles with the imported key on a machine, be sure to restart all Test Studio processes. 
+> <br>
+> <br>
+> The actual __Encryption key__ is kept in a file named `encryptKey.txt` which is saved in folder `C:\ProgramData\Telerik\Test Studio\Configs`. This location is accessible from all users on each local machine and we strongly recommend to ensure its security as per your company security policies. 
 
 ## Generate and Import Custom Encryption Key in Single Machine Setup 
 
@@ -76,16 +88,14 @@ In the case when you have only one machine with Test Studio, follow the below st
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
 
-    ![Restart Execution server](/img/knowledge-base/scheduling-kb/Encryption-key/restart-exec-server.png)
+    ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
 5. If running __restart Test Studio standalone application__ and current project in use. When restarted __the project will be upgraded__.
 6. If the __project is connected to Git source control__ <a href="/troubleshooting-guide/source-control-problems-tg/fix-git-source-control-lockout-issue-in-test-studio" target="_blank">reset the Git credentials</a>. 
 7. If the __project is connected to bug tracking system__ <a href="/features/integration/bug-tracking/configuration" target="_blank">re-enter the credentials in use</a>.
 8. If the __current machine is used as Scheduling server__ with <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#automatic-email-notification-for-scheduled-executions" target="_blank">configured SMTP settings, re-enter the credentials in use and apply the change</a>. 
    
-    > **Note**
-    > <br> 
-    > SMTP settings are applied for the machine where the Scheduling service is in use, so you only need to change these once.
+    **Note!** SMTP settings are applied for the machine where the Scheduling service is in use, so you only need to change these once.
 
 9. __Password steps__ in automated tests when the _'Encrypt'_ step property is enabled are upgraded to use the new encryption key. 
 10.  __Database connection strings used in data driven tests__ are upgraded to use the new encryption key. 
@@ -108,16 +118,14 @@ In the setup where Test Studio project is used on multiple machines,  you need t
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
 
-    ![Restart Execution server](/img/knowledge-base/scheduling-kb/Encryption-key/restart-exec-server.png)
+    ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
 5. If running __restart Test Studio standalone application__ and current project in use. When restarted __the project will be upgraded__.
 6. If the __project is connected to Git source control__ <a href="/troubleshooting-guide/source-control-problems-tg/fix-git-source-control-lockout-issue-in-test-studio" target="_blank">reset the Git credentials</a>. 
 7. If the __project is connected to bug tracking system__ <a href="/features/integration/bug-tracking/configuration" target="_blank">re-enter the credentials in use</a>.
 8. If the __current machine is used as Scheduling server__ with <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#automatic-email-notification-for-scheduled-executions" target="_blank">configured SMTP settings, re-enter the credentials in use and apply the change</a>. 
    
-    > **Note**
-    > <br> 
-    > SMTP settings are applied for the machine where the Scheduling service is in use, so you only need to change these once.
+    **Note** SMTP settings are applied for the machine where the Scheduling service is in use, so you only need to change these once.
 
 9. __Password steps__ in automated tests when the _'Encrypt'_ step property is enabled are upgraded to use the new encryption key. 
 10. __Database connection strings used in data driven tests__ are upgraded to use the new encryption key. 
@@ -137,7 +145,7 @@ In the setup where Test Studio project is used on multiple machines,  you need t
    
     __Note!__ You may see a message that the Execution server app is closed and you need to start it manually. 
 
-    ![Restart Execution server](/img/knowledge-base/scheduling-kb/Encryption-key/restart-exec-server.png)
+    ![Restart Execution server](/img/knowledge-base/scheduling-kb/communication-key/restart-exec-server.png)
 
 18. Repeat steps 13. to 17. for all machines where Test Studio is in use. If __Test Studio application is running while importing the new key be sure to restart it__. 
 19. Continue with __getting the latest version of the project__ from the source control in use and recording/running tests. If the machine is used for test execution as part of the Test Studio Scheduling setup, you need to <a href="/automated-tests/scheduling/upload-latest-files" target="_blank">upload the latest state of project in the Storage database</a>. 
@@ -150,8 +158,6 @@ You can follow the steps described for single machine setup or multiple machines
 
 * __Password steps must be re-recorded__ in automated tests when the _'Encrypt'_ step property is used. 
     
-    > __Tip!__ 
-    > <br>
-    > You can use the option to <a href="/features/custom-steps/overview#add-step-for-a-recorded-element" target="_blank">add steps for an existing element</a> in the elements repository to re-create the step. Another possible approach is to use <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">the partial test run options</a>. 
+    __Tip!__ You can use the option to <a href="/features/custom-steps/overview#add-step-for-a-recorded-element" target="_blank">add steps for an existing element</a> in the elements repository to re-create the step. Another possible approach is to use <a href="/automated-tests/test-execution/partial-test-execution" target="_blank">the partial test run options</a>. 
 
 * __Database connection strings used in data driven tests__ must be <a href="/features/data-driven-testing/add-data-source#add-a-database-source" target="_blank">re-entered</a>.

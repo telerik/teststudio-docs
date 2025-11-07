@@ -116,7 +116,7 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 
 The Encryption tab lets you manage the **Encryption Key** which is used to secure sensitive data across the Test Studio projects including: 
 
-- Passwords for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests;
+- Passwords for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests; SMTP credentials if used in the Scheduling configuration;
 - Password steps recorded in automated tests when the _'Encrypt'_ step property is enabled. 
 
 > **Note**
@@ -135,7 +135,7 @@ The **Current Key** section indicates which is the key in use. Test Studio insta
 > <br>
 > We __strongly recommend to generate a new encryption key__ and replace it for all machines in the setup.
 ><br>
-> See <a href="" target="_blank">here step-by-step instructions on updating the communication key</a>.
+> See <a href="/knowledge-base/project-configuration-kb/generate-encryption-key" target="_blank">here step-by-step instructions on updating the communication key</a>.
 
 Once a custom key is generated and imported, the **Current Key** section allows you to copy the value of the key using the __Copy to Clipboard__ button, or see it using the __Show__ button (for the cases when copying is not an option). 
 
@@ -156,7 +156,7 @@ The **Replace Key** section lets you **Generate** a new key. Once generated, the
 > * __re-enter all passwords__ for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests, and SMTP settings if used in Scheduling configuration;
 > * __re-record all password steps__ in automated tests when the _'Encrypt'_ step property is enabled.
 
-> See <a href="" target="_blank">here step-by-step instructions on updating the communication key</a>.
+> See <a href="/knowledge-base/project-configuration-kb/generate-encryption-key" target="_blank">here step-by-step instructions on updating the encryption key</a>.
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>

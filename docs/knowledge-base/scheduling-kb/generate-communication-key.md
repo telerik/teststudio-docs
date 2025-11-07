@@ -8,6 +8,14 @@ position: 1
 
 The **Communication Key** is required by all Test Studio Scheduling components - services and clients, to establish the connection and communicate between each other. You can get the current key or generate a new one in the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Scheduling Config wizard</a>. 
 
+<!-- no toc -->
+- [Manage the Communication Key](#manage-the-communication-key)
+  - [Default Communication Key](#default-communication-key)
+  - [Generate New Key](#generate-new-key)
+  - [Copy Current Key](#copy-current-key)
+- [Generate and Import Key in Single Machine Scheduling Setup](#generate-and-import-key-in-single-machine-scheduling-setup)
+- [Generate and Import Key in Multiple Machines Scheduling Setup](#generate-and-import-key-in-multiple-machines-scheduling-setup)
+
 ## Manage the Communication Key
 
 Find useful details on the available options to manage the Communication key value.
