@@ -26,6 +26,13 @@ The __Telerik Components Under Test__ section lets you instruct the translators'
 
 ![Telerik Components Under Test Version][2]
 
+> __Note!__
+> <br> 
+> __Test Studio supports the latest version of Telerik and Kendo UI components, as well as versions released within the past two years__.
+> <br>
+> <br>
+> All previous versions are marked with __*__ to indicate these are no longer supported. You can continue using these archived versions but in case any misbehavior is identified it will not be addressed. 
+
 ## How to Know Which is the Version of Components Used in the Tested Page?
 
 As Quality Assurance Engineer you often don't know what type and version of UI components was used to create the application you need to automate. And since there is no convenient way to identify the version of the components in an already built and deployed application, the __most reliable approach is to contact the development team__ and discuss the topic internally.
