@@ -8,6 +8,7 @@ slug: fix-git-source-control-lockout-issue-in-test-studio
 tags: git, source control, lockout, push commits, troubleshooting
 res_type: kb
 ---
+# Reset Git Credentials Used in Test Studio Project
 
 ## Description
 

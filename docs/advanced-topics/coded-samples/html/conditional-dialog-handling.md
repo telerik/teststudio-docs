@@ -12,6 +12,11 @@ position: 1
 
 This is possible with a coded solution. The action that potentially triggers the dialog must be included in the code.
 
+ __Tip!__
+><br>
+><br>
+> The example shows handling an alert dialog in a web test. Though the sample can be adjusted to implement any of the <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/built-in-handlers" target="_blank">available built-in dialog handlers</a> including WPF dialogs. 
+
 ```C#
 ActiveBrowser.NavigateTo("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
  
