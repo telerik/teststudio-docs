@@ -496,15 +496,7 @@ Here is a list of the support classes that make it easier to use the rest of the
 </table>
 *Table 3. List of HtmlControl support classes contained in Telerik Testing Framework's HTML control suite.*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite
-=======
-##Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
-=======
-## Example of How to Fill Out a Web Form Using the HTML Element Wrapper Control Suite
->>>>>>> 7013f904 (fix header markdown)
 
 Suppose we're automating a form to submit an auto classified ad. Here's how to write the code and take advantage of the HTML element wrapper suite:
 

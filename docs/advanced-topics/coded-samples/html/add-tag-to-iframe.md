@@ -5,11 +5,7 @@ description: "Learn how to add custom tags to iframes in Test Studio, either by 
 
 position: 1
 ---
-<<<<<<< HEAD
 # Add Tag to iFrame
-=======
-# Add Tag to iFrame 
->>>>>>> f24fdefe ([TSDocs]remove Solverlight reference from docs where possible. Remove TS mobile docs, Update meta descriptions with some useful data. Reorder AzDo docs.)
 
 To help Test Studio locate your iframes, you can add a custom tag to the iframe. You can then add this tag to the <a href="/getting-started/test-recording/Frames" target="_blank">frame properties</a> in your test. There are two ways to add a tag to an iframe:
 
@@ -25,11 +21,7 @@ To add a tag to a iframe in your application's HTML, add the 'testStudioTag' att
 <iframe src="http://www.example.com" testStudioTag="ExampleTag"></iframe>
 ````
 
-<<<<<<< HEAD
 ## Add a Tag Dynamically in Code
-=======
-## Add a Tag Dynamically in Code 
->>>>>>> f24fdefe ([TSDocs]remove Solverlight reference from docs where possible. Remove TS mobile docs, Update meta descriptions with some useful data. Reorder AzDo docs.)
 
 If it is not possible to add custom tags to your iframes, you can add them at runtime using a coded step.
 

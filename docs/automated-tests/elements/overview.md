@@ -31,8 +31,8 @@ The Elements Explorer pane provides a one-stop shop to view all elements used in
 
 The elements are organized under Page nodes (and also <a href="/general-information/test-recording/frames" target="_blank">Frame nodes</a> if there are frames used in the web page) for web applications and Application and Window Caption nodes for WPF applications.
 
-<table id="no-table">
-<tr>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
 ![HTML Tree View][4]<br>**HTML Tree View**</td>

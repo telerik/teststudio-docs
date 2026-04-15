@@ -22,15 +22,7 @@ SecurityWarningDialog GenericDialog = GenericDialog(.ActiveBrowser, , , 1)
 Manager.DialogMonitor.AddDialog(SecurityWarningDialog)
 ````
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Using the BaseDialog Class
-=======
-##Using the BaseDialog Class
->>>>>>> 3a5a2429 (Fix headers, CTA banners and other)
-=======
-## Using the BaseDialog Class
->>>>>>> 7013f904 (fix header markdown)
 
 By using the BaseDialog class as your base class to derive your custom dialog handler you only need to override the IsDialogActive() and Handle() functions. You may also provide your own constructor to validate the button type that will dismiss the dialog and/or accept a Desktop object (which you will need if you need to call Mouse.Click or Keyboard.SendString). Reference to System.Drawing.dll have to be added to the project as well.
 
