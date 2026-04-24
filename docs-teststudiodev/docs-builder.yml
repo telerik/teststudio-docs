@@ -150,9 +150,10 @@ meta:
     advanced-topics/ci:
         title: Continuous Integration
         position: 5
-        
-    api/*:
-        res_type: api
+    api:
+        title: API Reference
+        position: 1000
+        pdfHidden: true
 
 redirects: 
 -
