@@ -32,6 +32,9 @@
                 }
             ],
             "dest": "metadata",
-            "filter": "filterConfig.yml"
+            "filter": "filterConfig.yml",
+			"exclude": [
+					"Src/ArtOfTest.InternetExplorer.dll"
+			]
   }]
 }
