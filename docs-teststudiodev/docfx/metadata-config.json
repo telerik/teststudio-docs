@@ -34,7 +34,7 @@
             "dest": "metadata",
             "filter": "filterConfig.yml",
 			"exclude": [
-					"Src/ArtOfTest.InternetExplorer.dll"
+					"**/ArtOfTest.InternetExplorer.dll"
 			]
   }]
 }
