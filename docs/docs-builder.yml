@@ -65,6 +65,7 @@ meta:
     api:
         title: "API Reference"
         position: 30
+        pdfHidden: true
 
 # Installation and Setup
     prerequisites/installation:
