@@ -4,7 +4,6 @@ page_title: Generate and Update Encryption Key
 description: Generate Encryption Key for Test Studio projects. Import the new key for all Test Studio installations across all involved machines. 
 position: 0
 ---
-# Generate New Encryption Key 
 
 The **Encryption Key** is used to secure sensitive data across the Test Studio projects. You can get the current key or generate a new one in the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Scheduling Config wizard</a>. 
 

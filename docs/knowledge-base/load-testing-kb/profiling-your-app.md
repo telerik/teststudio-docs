@@ -5,8 +5,6 @@ description: Profiling Your App in Test Studio load test. Identifying performanc
 position: 1
 ---
 
-# Profiling Your App
-
 When you load test your application with Test Studio, the Load Testing tool automatically <a href="/features/testing-types/load-testing/analyzing-results" target="_blank">calculates metrics</a> about the HTTP traffic it receives from your application server. But some of the most important data about your application's performance comes from directly observing performance counters on the application and database servers. Test Studio's Execution Server and Standalone versions provide a Profiler for the machine where they are installed. By adding a machine to a Test Studio Load Test under <a href="/features/testing-types/load-testing/monitor-perf-metrics" target="_blank">Monitor Performance</a>, you can gather robust information about the performance of any machine in your application topology.
 
 ## Identifying Metrics
