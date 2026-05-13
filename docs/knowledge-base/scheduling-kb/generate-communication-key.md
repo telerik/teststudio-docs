@@ -55,7 +55,7 @@ Once a custom key is generated and imported, the **Current Key** section allows 
 > <br>
 > The copied key __must be imported on all machines__ included in the Test Studio Scheduling setup.
 
-![Custom Communication key](/img/features//scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png)
+![Custom Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png)
 
 
 > **Note**
