@@ -10,6 +10,7 @@ cta-intro: "@ProductLink is a test automation platform for web, WPF, and respons
 default-title-prefix: Telerik Test Studio Dev Edition
 avatar-path: ./images/avatar-ninja.svg
 no-results-image-path: ./images/ninja-no-results.svg
+pdf-cover-png-path: ./images/pdf-cover.png
 primary-color:
     light: "#1D8800"
     dark: "#68BF51"
