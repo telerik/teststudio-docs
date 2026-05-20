@@ -10,8 +10,8 @@ Firefox dialogs require special attention because some of them are not standard 
 
 <table id="no-table">
 	<tr>
-		<td>![Firefox download manager dialog window][1] <br><br>**Firefox download manager dialog window**</td>
-		<td>![Firefox download manager dialog window after download completes][2] <br><br>**Firefox download manager dialog window after download completes**</td>
+		<td><img src="images/firefox-dialogs/fig1.png" alt="Firefox download manager dialog window" /> <br><br>**Firefox download manager dialog window**</td>
+		<td><img src="images/firefox-dialogs/fig2.png" alt="Firefox download manager dialog window after download completes" /> <br><br>**Firefox download manager dialog window after download completes**</td>
 	</tr>
 <table>
 
@@ -413,5 +413,3 @@ End Class
 
 The only thing really happening in this code is to wait on the semaphore to be set. If the semaphore is not set within the timeout period it throws a System.TimeoutException exception. Optionally it will also reset the HandleCount property prior to waiting for the semaphore.
 
-[1]: images/firefox-dialogs/fig1.png
-[2]: images/firefox-dialogs/fig2.png

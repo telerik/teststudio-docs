@@ -21,53 +21,48 @@ Below are listed its features related to the <a href="/features/recorder/dom-exp
 
 <table id="no-table" >
 	<tr cellspacing="10">
-		<td cellspacing="1">![Enable/Disable Hover Over Highlighting](images/fig2.png)<br></td>
-		<td><a href="/features/recorder/highlighting-elements" target="_blank">**Enable/Disable Hover Over Highlighting**</a> (Use "**Pause/Break**" on your keyboard to toggle the highlighting on/off)</td>
+		<td cellspacing="1">
+			<img src="images/fig2.png" alt="Enable/Disable Hover Over Highlighting" /><br>
+		</td>
+		<td><a href="/features/recorder/highlighting-elements" target="_blank">Enable/Disable Hover Over Highlighting</a> (Use "Pause/Break" on your keyboard to toggle the highlighting on/off)
+		</td>
 	</tr>
 	<tr cellspacing="10">
-		<td>![Pause Recording](images/fig3.png)</td>
-		
-**Pause Recording** (Use "**Print Screen**" on your keyboard to pause recording)</td>
+		<td><img src="images/fig3.png" alt="Pause Recording" /></td>
+		<td>"Pause Recording" (Use "Print Screen" on your keyboard to pause recording)</td>
 	</tr>
 	<tr>
-		<td>![Start Recording](images/fig4.png)</td>
+		<td><img src="images/fig4.png" alt="Start Recording" /></td>
 		
-**Start Recording** (Use "**Print Screen**" on your keyboard to resume recording)</td>
+<td>"Start Recording" (Use "Print Screen" on your keyboard to resume recording)</td>
 	</tr>
 	<tr>
-		<td>![Reconnect Recorder](images/fig5.png)</td>
-		
-**Reconnect Recorder** - restores communication between Test Studio and the recording browser window or WPF app, if necessary</td>
+		<td><img src="images/fig5.png" alt="Reconnect Recorder" /></td>
+	<td>"Reconnect Recorder" - restores communication between Test Studio and the recording browser window or WPF app, if necessary</td>
 	</tr>
 	<tr>
-		<td>![Navigation panel](images/fig6.png)</td>
-		
-**Navigation panel** - during the recording session type URL to navigate to or refresh the browser</td>
+		<td><img src="images/fig6.png" alt="Navigation panel" /></td>
+		<td>"Navigation panel" - during the recording session type URL to navigate to or refresh the browser</td>
 	</tr>
 	<tr>
-		<td>![Dock/Undock](images/fig7.png) / ![Dock/Undock](images/fig8.png)</td>
-		
-**Undock/Dock** - undock or dock back the recorder</td>
+		<td><img src="images/fig7.png" alt="Dock/Undock" /> / <img src="images/fig8.png" alt="Dock/Undock" /></td>
+		<td>"Undock/Dock" - undock or dock back the recorder</td>
 	</tr>
 	<tr>
-		<td>![Add to elements repository](images/fig9.png)</td>
-		
-**Add To Elements Repository** - add a single or multiple elements to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>)</td>
+		<td><img src="images/fig9.png" alt="Add to elements repository" /></td>
+		<td>"Add To Elements Repository" - add a single or multiple elements to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>)</td>
 	</tr>
 		<tr>
-		<td>![Manual Refresh of the DOM][12]</td>
-		
-**Manual Refresh of the DOM** - Used when auto-refresh is paused and the DOM tree is changed</td>
+		<td><img src="images/fig12-refresh.png" alt="Manual Refresh of the DOM" /></td>
+		<td>"Manual Refresh of the DOM" - Used when auto-refresh is paused and the DOM tree is changed</td>
 	</tr>
 	<tr>
-		<td>![Freeze DOM tree][11] / ![Unfreeze DOM tree][11a]</td>
-		
-**Freeze/Unfreeze DOM tree** - Pause/Resume the DOM tree auto-refresh option</td>
+		<td><img src="images/fig11-lock.png" alt="Freeze DOM tree" /> / <img src="images/fig11-unlock.png" alt="Unfreeze DOM tree" /></td>
+		<td>"Freeze/Unfreeze DOM tree" - Pause/Resume the DOM tree auto-refresh option</td>
 	</tr>
 	<tr>
-		<td>![Elements tree/tag view](images/fig10.png)</td>
-		
-**Elements Tree/Tag View** - whether to display the elements as tree view or tag view</td>
+		<td><img src="images/fig10.png" alt="Elements tree/tag view" /></td>
+		<td>"Elements Tree/Tag View" - whether to display the elements as tree view or tag view</td>
 	</tr>
 <table>
 
@@ -85,6 +80,3 @@ __See Also:__
 
 * <a href="/features/recorder/verifications/introduction" target="_blank">Verifications</a>
 
-[11]: images/fig11-lock.png
-[11a]: images/fig11-unlock.png
-[12]: images/fig12-refresh.png

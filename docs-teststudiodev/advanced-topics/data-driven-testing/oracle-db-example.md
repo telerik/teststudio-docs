@@ -12,39 +12,35 @@ This example is completed using an **Oracle Database Express** (Oracle Database 
 
 Next step is to create a database in order to use it for data binding. One way to do it is by using <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html" target="_blank">Oracle SQL Developer</a>. On the following image there are SQL queries that will create table **Employees** and insert there two rows of data.
 
-![Create Table][1]
+    ![Create Table](images/oracle-db-example/fig1.png)
 
 Once the table is created it is possible to connect to it and use it for data-driven testing:
 
-1.&nbsp; Click on **Add** from **Data Sources** menu: 
+1. Click on **Add** from **Data Sources** menu: 
 
-![Create Table][4]
+    ![Create Table](images/oracle-db-example/fig4.png)
 
-2.&nbsp; In the **Create new data source** dialog - for **Data Source Types** choose **Database**
+2. In the **Create new data source** dialog - for **Data Source Types** choose **Database**
 
-![Create New Data Source][2]
+    ![Create New Data Source](images/oracle-db-example/fig2.png)
 
-3.&nbsp; For **Provider**, select **Oracle Data Provider for .NET**
+3. For **Provider**, select **Oracle Data Provider for .NET**
 
-4.&nbsp; Here's an example for **Connection String**:
+4. Here's an example for **Connection String**:
 
-````
-Data Source=XE;User Id=SYSTEM;Password=pass;
-````
+    ````
+    Data Source=XE;User Id=SYSTEM;Password=pass;
+    ````
 
 It is possible to create many different connection strings. See <a href="https://www.connectionstrings.com/oracle/" target="_blank">here</a> for more examples.
 
-5.&nbsp; Customize the **Friendly Name** as desired.
+5. Customize the **Friendly Name** as desired.
 
-6.&nbsp; Click **Create** and the new data source should appear in the Data Sources list.
+6. Click **Create** and the new data source should appear in the Data Sources list.
 
 <br/>
 
 When a <a href="/features/data-driven-testing/bind-test-data-source" target="_blank">test is bound</a> to this data base the table to be used will be specified:
 
-![Bind To Table][3]
+![Bind To Table](images/oracle-db-example/fig3.png)
 
-[1]: images/oracle-db-example/fig1.png
-[2]: images/oracle-db-example/fig2.png
-[3]: images/oracle-db-example/fig3.png
-[4]: images/oracle-db-example/fig4.png

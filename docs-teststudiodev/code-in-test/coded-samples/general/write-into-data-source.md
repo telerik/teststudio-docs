@@ -16,8 +16,8 @@ Let's automate <a href="http://www.checkdomain.com/" target ="_blank">checkdomai
 
 <table id="no-table">
 	<tr>
-		<td>![Before Test Run][1] <br><br>**Before Test Run**</td>
-		<td>![After Test Run][2] <br><br>**After Test Run**</td>
+		<td><img src="images/write-into-data-source/fig1.png" alt="Before Test Run" /> <br><br>**Before Test Run**</td>
+		<td><img src="images/write-into-data-source/fig2.png" alt="After Test Run" /> <br><br>**After Test Run**</td>
 	</tr>
 <table>
 
@@ -94,5 +94,4 @@ The test needs to navigate to checkdomain.com, enter the domain for the respecti
 
 **Note:** Add an Assembly Reference to Microsoft.Office.Interop.Excel.
 
-[1]: images/write-into-data-source/fig1.png
-[2]: images/write-into-data-source/fig2.png
+

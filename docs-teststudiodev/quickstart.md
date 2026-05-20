@@ -30,8 +30,8 @@ Create a new project using the Test Studio Dev template - select _Create New Tes
 
 <table id=no-table>
 	<tr>
-		<td>![Create TS Dev project](images/quickstart/create-project.png)<br><br>**Visual Studio 2017**</td>
-		<td>![Create TS Dev project VS 2019](images/quickstart/create-project-vs-2019.png)<br><br>**Visual Studio 2019**</td>
+		<td><img src="images/quickstart/create-project.png" alt="Create TS Dev project" /><br><br>**Visual Studio 2017**</td>
+		<td><img src="images/quickstart/create-project-vs-2019.png" alt="Create TS Dev project VS 2019" /><br><br>**Visual Studio 2019**</td>
 	</tr>
 <table>
 
@@ -39,8 +39,8 @@ Next choose the type of programming language between _C# or VB.NET_ and set a me
 
 <table id=no-table>
 	<tr>
-		<td>![Choose type of TS Dev project](images/quickstart/name-of-project.png)<br><br>**Visual Studio 2017**</td>
-		<td>![Choose type of TS Dev project VS 2019](images/quickstart/name-of-project-vs-2019.png)<br><br>**Visual Studio 2019**</td>
+		<td><img src="images/quickstart/name-of-project.png" alt="Choose type of TS Dev project" /><br><br>**Visual Studio 2017**</td>
+		<td><img src="images/quickstart/name-of-project-vs-2019.png" alt="Choose type of TS Dev project VS 2019" /><br><br>**Visual Studio 2019**</td>
 	</tr>
 <table>
 

@@ -20,13 +20,13 @@ Walk--through of <a href="/features/logical-steps/while-loop#Build-a-While-loop"
 
 4.&nbsp; Click Generate.
 
-![Random][1]
+![Random](images/while-loop/fig1.png)
 
 5.&nbsp; Enable hover over highlighting and hover over the *Result* box.
 
 6.&nbsp; Click **Build Step**.
 
-![Build Verification][2]
+![Build Verification](images/while-loop/fig2.png)
 
 7.&nbsp; Choose **Content** under **Verifications** in the <a href="/features/recorder/step-builder">**Step Builder**</a>.
 
@@ -34,31 +34,31 @@ Walk--through of <a href="/features/logical-steps/while-loop#Build-a-While-loop"
 - Set the second drop-down to **NotContain**.
 - Click **Add Step**.
 
-![Content][3]
+![Content](images/while-loop/fig3.png)
 
 8.&nbsp; Disable hover over highlighting and minimize the browser.
 
 9.&nbsp; Choose **Conditions** in the **Step Builder** and add **while...loop** step. 
 
-![VS Plugin][12]
+![VS Plugin](images/while-loop/fig12.png)
 
 10.&nbsp; Choose the verification we've already added from the dropdown of the While step.
 
-![Choose Verification][7]
+![Choose Verification](images/while-loop/fig7.png)
 
 11.&nbsp; Uncheck/Delete the verification step so it will not be executed (We have this verification already added in the while step)
 
-![Uncheck Verification][8]
+![Uncheck Verification](images/while-loop/fig8.png)
 
 12.&nbsp; Drag the Click Generate Button step into the WHILE step.
 
-![Drag into While Step][9]
+![Drag into While Step](images/while-loop/fig9.png)
 
 13.&nbsp; Add an <a href="/features/custom-steps/execution-delay" target="_blank">Execution Delay</a> step from the More drop-down in the Add ribbon. Set it to 20 milliseconds.
 
 14.&nbsp; Drag the *Execution Delay* step into the *WHILE* step.
 
-![Drag Execution Step][10]
+![Drag Execution Step](images/while-loop/fig10.png)
 
 ## Execution Status
 
@@ -68,21 +68,10 @@ The **While step** will be always marked as 'Passed' since it is always executed
 
 An execution status example when the while loop is executed few times and the steps in the while loop are executed at least once. 
 
-![While condition is evaluated at least once as true][13]
+![While condition is evaluated at least once as true](images/while-loop/fig13.jpg)
 
 An execution status example when the while condition is false and the steps in the while loop are not run at all. 
 
-![While condition is evaluated at least once as false][14]
+![While condition is evaluated at least once as false](images/while-loop/fig14.jpg)
 
-[1]: images/while-loop/fig1.png
-[2]: images/while-loop/fig2.png
-[3]: images/while-loop/fig3.png
 
-[7]: images/while-loop/fig7.png
-[8]: images/while-loop/fig8.png
-[9]: images/while-loop/fig9.png
-[10]: images/while-loop/fig10.png
-
-[12]: images/while-loop/fig12.png
-[13]: images/while-loop/fig13.jpg
-[14]: images/while-loop/fig14.jpg

@@ -12,13 +12,13 @@ The ArtOfTest.Runner.exe is the command line runner for __Test Studio Dev__ test
 
 When working with the execution engine in the command prompt always make sure you have started it as Administrator and have the root directory in context as shown below so that you can call the runner directly.
 
-![cmd][1]
+![cmd](images/artoftest-runner/fig1.png)
 
 ## Help Screen
 
 Here is the Help Screen for ArtOfTest.Runner.exe:
 
-![Options][2]
+![Options](images/artoftest-runner/fig2.png)
 
 ## Execution Options
 
@@ -29,7 +29,7 @@ Several execution options use file paths as values. When using file paths in the
 - Enclose the file path in double quotes.
 - To prevent typing mistakes, use the clipboard paste option within the command prompt window. To find the paste option after copying the path to the clipboard, right mouse click on the top left corner of the command prompt and choose **Edit > Paste**.
 
-![Edit>Paste][3]
+![Edit>Paste](images/artoftest-runner/fig3.png)
 
 ### File to Execute Options
 
@@ -37,10 +37,10 @@ Several execution options use file paths as values. When using file paths in the
 
 <table id="no-table">
 <tr>
-<td>![Test Execution Syntax][4]<br>ArtOfTest.Runner Test Execution syntax</td>
+<td>![Test Execution Syntax](images/artoftest-runner/fig4.png)<br>ArtOfTest.Runner Test Execution syntax</td>
 </tr>
 <tr>
-<td>![Test Execution Result][5]<br>ArtOfTest.Runner Test Execution result</td>
+<td>![Test Execution Result](images/artoftest-runner/fig5.png)<br>ArtOfTest.Runner Test Execution result</td>
 </tr>
 <table>
 
@@ -206,8 +206,4 @@ padding: 8px;
 </tr>
 <table>
 
-[1]: images/artoftest-runner/fig1.png
-[2]: images/artoftest-runner/fig2.png
-[3]: images/artoftest-runner/fig3.png
-[4]: images/artoftest-runner/fig4.png
-[5]: images/artoftest-runner/fig5.png
+

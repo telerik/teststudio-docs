@@ -12,9 +12,9 @@ Inputting text into <a href="http://www.w3schools.com/jquery/tryit.asp?filename=
 
 <table id="no-table">
 	<tr>
-		<td>![Before Selection][1] </br></br>**Before Selection**</td>
-		<td>![Available Selections][2] </br></br>**Available Selections**</td>
-		<td>![After Selection][3] </br></br>**After Selection**</td>
+		<td><img src="images/jQuery-events-do-not-fire/fig1.png" alt="Before Selection" /> </br></br>**Before Selection**</td>
+		<td><img src="images/jQuery-events-do-not-fire/fig2.png" alt="Available Selections" /> </br></br>**Available Selections**</td>
+		<td><img src="images/jQuery-events-do-not-fire/fig3.png" alt="After Selection" /> </br></br>**After Selection**</td>
 	</tr>
 <table>
 
@@ -37,6 +37,4 @@ Invoke the script that changes the background color with the following coded ste
 
 * If you have a choice between using id and name of an element, we recommend using id. It is usually a unique value which will make your tests run more reliably. Name is sometimes duplicated, which can cause your test to find and act against the wrong element, since the selector will act on the first element it finds matching the selector criteria.
 
-[1]: images/jQuery-events-do-not-fire/fig1.png
-[2]: images/jQuery-events-do-not-fire/fig2.png
-[3]: images/jQuery-events-do-not-fire/fig3.png
+

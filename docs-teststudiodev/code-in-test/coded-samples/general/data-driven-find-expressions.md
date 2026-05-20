@@ -12,35 +12,29 @@ position: 1
 
 The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/combobox/index" target="_blank">Telerik demo site</a>.
 
-1.Record a *Navigate* to step.
-2.Open the drop-down for the ComboBox.
-3.Locate the parent element in the DOM Explorer (see below). Here the Unordered List holds all the child List Item elements. Right click it and select **Add to Project Elements**.
+1. Record a *Navigate* to step.
+2. Open the drop-down for the ComboBox.
+3. Locate the parent element in the DOM Explorer (see below). Here the Unordered List holds all the child List Item elements. Right click it and select **Add to Project Elements**.
 
-![Add to Project][1]
+	![Add to Project](images/data-driven-find-expressions/fig1.png)
 
-4.Insert a <a href="/code-in-test/features-in-code#Coded-Step" target="_blank">Coded Step</a>.
-5.Use the <a href="/features/data-driven-testing/local-data-driven-test" target="_blank">local data</a> to enter values for the find expression.
-6.We will use the Find.ByContent method in the coded step. More information can be found in our <a href="/code-in-test/element-identification/finding-page-elements" target="_blank">Finding Page Elements</a> article. Here's the code for our Script Step:
+4. Insert a <a href="/code-in-test/features-in-code#Coded-Step" target="_blank">Coded Step</a>.
+5. Use the <a href="/features/data-driven-testing/local-data-driven-test" target="_blank">local data</a> to enter values for the find expression.
+6. We will use the Find.ByContent method in the coded step. More information can be found in our <a href="/code-in-test/element-identification/finding-page-elements" target="_blank">Finding Page Elements</a> article. Here's the code for our Script Step:
 
 ````C#
-
-	
 	HtmlListItem listItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent<HtmlListItem>(Data["Col1"].ToString());
 	Assert.IsNotNull(listItem);
 	listItem.Click();
 ````
 ````VB
-
-	
 	Dim listItem As HtmlListItem = Pages.TelerikExtensionsForASP.UnorderedList.Find.ByContent(Of HtmlListItem)(Data("Col1").ToString())
 	Assert.IsNotNull(listItem)
 	listItem.Click()
 ````
 
-7.Test Studio Dev uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
+7. Test Studio Dev uses the data table to find the element in the list, performs an Assert on it, and then clicks it.
 
-![Execute test][3]
+![Execute test](images/data-driven-find-expressions/fig3.png)
 
-[1]: images/data-driven-find-expressions/fig1.png
 
-[3]: images/data-driven-find-expressions/fig3.png

@@ -16,11 +16,11 @@ The Test Studio Plugin allows you to build and execute Test Studio tests and tes
 
 3.Create a freestyle project. Create an item and select 'Build a freestyle project'.
 
-![Freestyle project][2]
+![Freestyle project](images/ciplugin/fig2.png)
 
 4.Add a Test Studio runner configuration build step. Under the 'Add build step menu' section select 'Test Studio runner configuration'.
 
-![TS Plugin build step][3]
+![TS Plugin build step](images/ciplugin/fig3.png)
 
 5.Input the full path to ArtOfTest.Runner.exe. The default path to find the Test Runner executable is C:\Program Files (x86)\Progress\Test Studio\Bin.
 
@@ -28,16 +28,11 @@ The Test Studio Plugin allows you to build and execute Test Studio tests and tes
 
 The *project root folder* and *settings file* fields accept relative path to the Jenkins job workspace only.
 
-![Build step arguments][4]
+![Build step arguments](images/ciplugin/fig4.png)
 
 7.TestStudio test as junit test. If enabled, in the test result, test studio tests will be represented as junit tests. Otherwise, test steps from the test studio result will be represented as junit tests.
 
-![Convert to JUnit][5]
+![Convert to JUnit](images/ciplugin/fig5.png)
 
 Your test execution step is now ready to save and run.
 
-
-[2]: images/ciplugin/fig2.png
-[3]: images/ciplugin/fig3.png
-[4]: images/ciplugin/fig4.png
-[5]: images/ciplugin/fig5.png

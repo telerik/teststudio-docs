@@ -12,7 +12,7 @@ position: 1
 
 The solution is to save the number of the row into an XML file. Each time you execute the test, read the number of the row from the XML file and tell Test Studio to use this row from your data source.
 
-1.&nbsp; Create an XML file which will contain the row number.
+1. Create an XML file which will contain the row number.
 
 1.1 Right-click somewhere in the project folder and select **New > Text Document**. Rename it to "IterationIndex.xml".
 
@@ -27,11 +27,11 @@ The solution is to save the number of the row into an XML file. Each time you ex
 	</IterationValue>
 ````
 
-2.&nbsp; Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
+2. Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
 
-![File][1]
+![File](images/non-iterative-data-driving/fig1.png)
 
-3.&nbsp; Open or create your project in Test Studio.
+3. Open or create your project in Test Studio.
 
 3.1 Start new project or open existing project.
 
@@ -150,4 +150,3 @@ The solution is to save the number of the row into an XML file. Each time you ex
 	End Function
 ````
 
-[1]: images/non-iterative-data-driving/fig1.png

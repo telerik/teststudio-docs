@@ -7,25 +7,25 @@ position: 0
 ---
 # Drag and Drop
 
-1.&nbsp; Start <a href="/features/recorder/record-test" target="_blank">recording a test</a>.
+1. Start <a href="/features/recorder/record-test" target="_blank">recording a test</a>.
 
-2.&nbsp; Enable Hover Over Highlighting from the Recording Toolbar. When the mouse pauses over a highlighted element in the recording surface the context menu with multiple options.
+2. Enable Hover Over Highlighting from the Recording Toolbar. When the mouse pauses over a highlighted element in the recording surface the context menu with multiple options.
 
-3.&nbsp; Highlight an element you want to drag and drop and click **Build Step**.
+3. Highlight an element you want to drag and drop and click **Build Step**.
 
-![Build Step](images/build-step.png)
+    ![Build Step](images/build-step.png)
 
-4.&nbsp; From Mouse Actions select **DragDrop** and click **Pick** button.
+4. From Mouse Actions select **DragDrop** and click **Pick** button.
 
-![Pick Target Element](images/pick-target.png)
+    ![Pick Target Element](images/pick-target.png)
 
-5.&nbsp; Highlight and select the target element where you want to drop the element.
+5. Highlight and select the target element where you want to drop the element.
 
-![Select Target](images/select-target.png)
+    ![Select Target](images/select-target.png)
 
-6.&nbsp; Choose **Element Center** from the **Location** drop down to drop the element in the center of the target element and click **Add Step**. The Drag&Drop step is created in Test Studio.
+6. Choose **Element Center** from the **Location** drop down to drop the element in the center of the target element and click **Add Step**. The Drag&Drop step is created in Test Studio.
 
-![Add Step](images/add-step.png)
+    ![Add Step](images/add-step.png)
 
 ## Drag and Drop to a specific location
 
