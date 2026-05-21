@@ -36,9 +36,9 @@ Then select data source and data table in the _Bind test to data source_ dialog 
 
 <table id="no-table">
 <tr>
-<td>![Select Data source](images/add-data-source/fig11.png)</td>
-<td>![Select Data table](images/add-data-source/fig12.png)</td>
-<td>![Preview bound data](images/add-data-source/fig13.png)</td>
+<td><img src="images/add-data-source/fig11.png" alt="Select Data source" /></td>
+<td><img src="images/add-data-source/fig12.png" alt="Select Data table" /></td>
+<td><img src="images/add-data-source/fig13.png" alt="Preview bound data" /></td>
 </tr>
 <table>
 

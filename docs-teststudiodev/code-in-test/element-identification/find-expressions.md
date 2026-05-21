@@ -132,7 +132,7 @@ Find the HTML element with an id that ends with 'sam' and also has a class attri
 
 ## Hierarchy Constraint
 
-You can also describe a certain hierarchal constraint to be applied against that FindExpression so that the decision on whether a specific element matches a specific translator or not is not solely based on the tag but also takes into consideration its hierarchical position. For example a tag that looks like <div class='foo' /> might be part of a grid while at the same time other elements on the page could contain that tag. The only way to distinguish whether that tag is part of the grid is to inspect its parent or child hierarchy.
+You can also describe a certain hierarchal constraint to be applied against that FindExpression so that the decision on whether a specific element matches a specific translator or not is not solely based on the tag but also takes into consideration its hierarchical position. For example a tag that looks like `<div class='foo' />` might be part of a grid while at the same time other elements on the page could contain that tag. The only way to distinguish whether that tag is part of the grid is to inspect its parent or child hierarchy.
  
 FindExpression's natively support hierarchy constraints. A FindExpression can have 0-n HierarchyConstraint objects associated with it.
  

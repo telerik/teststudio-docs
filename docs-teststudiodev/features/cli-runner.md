@@ -37,10 +37,10 @@ Several execution options use file paths as values. When using file paths in the
 
 <table id="no-table">
 <tr>
-<td>![Test Execution Syntax](images/artoftest-runner/fig4.png)<br>ArtOfTest.Runner Test Execution syntax</td>
+<td><img src="images/artoftest-runner/fig4.png" alt="Test Execution Syntax" /><br>ArtOfTest.Runner Test Execution syntax</td>
 </tr>
 <tr>
-<td>![Test Execution Result](images/artoftest-runner/fig5.png)<br>ArtOfTest.Runner Test Execution result</td>
+<td><img src="images/artoftest-runner/fig5.png" alt="Test Execution Result" /><br>ArtOfTest.Runner Test Execution result</td>
 </tr>
 <table>
 

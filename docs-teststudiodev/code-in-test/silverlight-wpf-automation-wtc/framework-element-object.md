@@ -169,7 +169,7 @@ Before describing all of the methods of the FrameworkElement object I'd like to 
 3. **Element coordinates:** 
 
 
-	All FrameworkElements offer the ability to get both the relative coordinates of the element within the Silverlight application and the actual coordinates in screen coordinates. The two methods are **GetRectangle()**and **GetScreenRectangle()**.
+	All FrameworkElements offer the ability to get both the relative coordinates of the element within the Silverlight application and the actual coordinates in screen coordinates. The two methods are **GetRectangle()** and **GetScreenRectangle()**.
 
 	**Note:** Given that WPF/Silverlight applications allow for rich transforms for visual elements (i.e. rotate, zoom….etc) and some elements like ellipses don't really conform to a rectangle per-say, our coordinate calculations will always return the largest rectangle that contains the actual element with its center right at the center of the element. For example, a GetRectangle on an ellipse will return this:
 
