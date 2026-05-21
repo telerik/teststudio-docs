@@ -48,7 +48,7 @@ Once Chrome and Edge Chromium browsers are __calibrated you can continue with re
 
 Firefox browser requires an extension for the purposes of automation testing with __Test Studio Dev__.
 
-The __Firefox__ extension can be found in the Firefox Add-ons Page - <a href="https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/", target=blank>__Progress Test Studio Extension__</a>.
+The __Firefox__ extension can be found in the Firefox Add-ons Page - [Progress Test Studio Extension](https://addons.mozilla.org/en-US/firefox/addon/progress-test-studio-extension/).
 
 ## Settings Applied from the Calibration
 

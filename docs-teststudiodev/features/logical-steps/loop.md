@@ -10,29 +10,29 @@ position: 1
 
 Walk--through of creating a loop process.
 
-1.&nbsp; Create a Web Test and click **Record**.
+1. Create a Web Test and click **Record**.
 
-2.&nbsp; Navigate to <a href="http://www.random.org/integers/" target="_blank">www.random.org/integers</a>.
+2. Navigate to <a href="http://www.random.org/integers/" target="_blank">www.random.org/integers</a>.
 
-3.&nbsp; Click Get Numbers. 
+3. Click Get Numbers. 
 
-4.&nbsp; Click Again.
+4. Click Again.
 
-![Random](images/loop/fig1.png)
+    ![Random](images/loop/fig1.png)
 
-5.&nbsp; Pause recording and minimize the browser.
+5. Pause recording and minimize the browser.
 
-6.&nbsp; Choose **Conditions** in the <a href="/features/recorder/step-builder">**Step Builder**</a> and add **loop** step.
+6. Choose **Conditions** in the <a href="/features/recorder/step-builder">**Step Builder**</a> and add **loop** step.
 
-![VS Plugin](images/loop/fig7.png)
+    ![VS Plugin](images/loop/fig7.png)
 
-7.&nbsp; Set the *Count* of the Loop step to 5.
+7. Set the *Count* of the Loop step to 5.
 
-![Loop step count](images/loop/fig4.png)
+    ![Loop step count](images/loop/fig4.png)
 
-8.&nbsp; Drag the second Click Submit step into the *LOOP* step.
+8. Drag the second Click Submit step into the *LOOP* step.
 
-![Drag Submit](images/loop/fig5.png)
+    ![Drag Submit](images/loop/fig5.png)
 
-9.&nbsp; Save and Execute. After the initial set of integers is generated, the process is repeated 5 times.
+9. Save and Execute. After the initial set of integers is generated, the process is repeated 5 times.
 
