@@ -11,63 +11,63 @@ Walk-through the IF...Else conditional statement process - <a href="/features/lo
 
 ## Build a new If...Else Statement
 
-1.&nbsp; Create a Web Test and click Record.
+1. Create a Web Test and click Record.
 
-2.&nbsp; Navigate to <a href="https://www.random.org/" target="_blank">www.random.org</a>.
+2. Navigate to <a href="https://www.random.org/" target="_blank">www.random.org</a>.
 
-3.&nbsp; Set the Min field to 1 and the Max field to 2.
+3. Set the Min field to 1 and the Max field to 2.
 
-4.&nbsp; Click **Generate**.
+4. Click **Generate**.
 
-![Random](images/if-else/fig1.png)
+    ![Random](images/if-else/fig1.png)
 
-5.&nbsp; Enable hover over highlighting by clicking Highlight Element in the Test Studio Recorder and hover over the *Result box*.
+5. Enable hover over highlighting by clicking Highlight Element in the Test Studio Recorder and hover over the *Result box*.
 
-![Enable Highlighting](images/if-else/fig2.png)
+    ![Enable Highlighting](images/if-else/fig2.png)
 
-6.&nbsp; Click **Quick Tasks** and double click **Verify - text contains '1'**.
+6. Click **Quick Tasks** and double click **Verify - text contains '1'**.
 
-![Verification](images/if-else/fig3.png)
+    ![Verification](images/if-else/fig3.png)
 
-7.&nbsp; Disable hover over highlighting and minimize the browser.
+7. Disable hover over highlighting and minimize the browser.
 
-8.&nbsp; Choose **Conditions** in the <a href="/features/recorder/step-builder">**Step Builder**</a> and add **if...else** step.
+8. Choose **Conditions** in the <a href="/features/recorder/step-builder">**Step Builder**</a> and add **if...else** step.
 
-![VS Plugin](images/if-else/fig13.png)
+    ![VS Plugin](images/if-else/fig13.png)
 
 
-9.&nbsp; From the drop down in the IF step select the previously recorded verification.
+9. From the drop down in the IF step select the previously recorded verification.
 
-![Choose Verification](images/if-else/fig6.png)
+    ![Choose Verification](images/if-else/fig6.png)
 
-10.&nbsp; Uncheck/Delete the verification outside the IF step, so it will not be executed (We have this verification already added in the IF step)
+10. Uncheck/Delete the verification outside the IF step, so it will not be executed (We have this verification already added in the IF step)
 
-![Uncheck Verification](images/if-else/fig7.png)
+    ![Uncheck Verification](images/if-else/fig7.png)
 
-11.&nbsp; Bring up the IE recording window and navigate to <a href="http://www.google.com" target="_blank">www.google.com</a>. Minimize the browser again.
+11. Bring up the IE recording window and navigate to <a href="http://www.google.com" target="_blank">www.google.com</a>. Minimize the browser again.
 
-12.&nbsp; Drag the *Navigate to Google* step into the IF step.
+12. Drag the *Navigate to Google* step into the IF step.
 
-![Drag in IF Step](images/if-else/fig8.png)
+    ![Drag in IF Step](images/if-else/fig8.png)
 
-13.&nbsp; Bring up the IE recording window and navigate to <a href="http://www.bing.com" target="_blank">www.bing.com</a>. Minimize the browser again.
+13. Bring up the IE recording window and navigate to <a href="http://www.bing.com" target="_blank">www.bing.com</a>. Minimize the browser again.
 
-14.&nbsp; Drag the *Navigate to Bing* step into the ELSE step.
+14. Drag the *Navigate to Bing* step into the ELSE step.
 
-![Drag in ELSE Step](images/if-else/fig9.png)
+    ![Drag in ELSE Step](images/if-else/fig9.png)
 
 ## Execution status and Results
 
-15.&nbsp; Save and Execute the test.
+15. Save and Execute the test.
 
 - If 1 is generated the **if condition** is evaluated as true and the steps in the **if branch** are executed. The steps in the **else branch** are skipped and shown as 'Not Run'.
 
-![Navigate to Google](images/if-else/fig10.png)
+    ![Navigate to Google](images/if-else/fig10.png)
 
 - If 2 is generated the **if condition** is evaluated as false (for example, the target TextBox element contains the wrong content) and the steps in the **else branch** are executed. The skipped steps are in the **if branch** and are shown as 'Not Run'. 
 - **Note**:  if the condition of an **if branch** cannot be evaluated (for example, the target element for a TextContent verification cannot be located), the steps in the **if branch** will be skipped again, and will display a 'not-run' icon as if the condition is false. 
 
-![Navigate to Bing](images/if-else/fig11.png)
+    ![Navigate to Bing](images/if-else/fig11.png)
 
 ## Check if an element exists in the DOM
 

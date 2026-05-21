@@ -10,27 +10,27 @@ The Test Studio Plugin allows you to build and execute Test Studio tests and tes
 
 >The Test Studio Plugin supports Test Studio projects only.
 
-1.Install the Jenkins CI server to run as a Java application (instead of running it as a Windows service).
+1. Install the Jenkins CI server to run as a Java application (instead of running it as a Windows service).
 
-2.Install the Test Studio Plugin - download it <a href="/downloads/Jenkins_Plugin_TeststudioDev.zip" target="_blank">here</a> and add it to the Plugin folder of the Jenkins server installation or download it from the jenkins plugin marketplace.
+2. Install the Test Studio Plugin - download it <a href="/downloads/Jenkins_Plugin_TeststudioDev.zip" target="_blank">here</a> and add it to the Plugin folder of the Jenkins server installation or download it from the jenkins plugin marketplace.
 
-3.Create a freestyle project. Create an item and select 'Build a freestyle project'.
+3. Create a freestyle project. Create an item and select 'Build a freestyle project'.
 
 ![Freestyle project](images/ciplugin/fig2.png)
 
-4.Add a Test Studio runner configuration build step. Under the 'Add build step menu' section select 'Test Studio runner configuration'.
+4. Add a Test Studio runner configuration build step. Under the 'Add build step menu' section select 'Test Studio runner configuration'.
 
 ![TS Plugin build step](images/ciplugin/fig3.png)
 
-5.Input the full path to ArtOfTest.Runner.exe. The default path to find the Test Runner executable is C:\Program Files (x86)\Progress\Test Studio\Bin.
+5. Input the full path to ArtOfTest.Runner.exe. The default path to find the Test Runner executable is C:\Program Files (x86)\Progress\Test Studio\Bin.
 
-6.Specify the test or test list to execute using the absolute path to the file in the Jenkins CI workspace or its relative to the workspace path.
+6. Specify the test or test list to execute using the absolute path to the file in the Jenkins CI workspace or its relative to the workspace path.
 
 The *project root folder* and *settings file* fields accept relative path to the Jenkins job workspace only.
 
 ![Build step arguments](images/ciplugin/fig4.png)
 
-7.TestStudio test as junit test. If enabled, in the test result, test studio tests will be represented as junit tests. Otherwise, test steps from the test studio result will be represented as junit tests.
+7. TestStudio test as junit test. If enabled, in the test result, test studio tests will be represented as junit tests. Otherwise, test steps from the test studio result will be represented as junit tests.
 
 ![Convert to JUnit](images/ciplugin/fig5.png)
 

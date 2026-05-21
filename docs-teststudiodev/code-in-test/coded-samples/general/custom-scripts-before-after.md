@@ -18,12 +18,12 @@ First, create a coded step in order to generate a code-behind file. Then open th
 
 ### Visual Studio plugin
 
-1.If your test doesn't contain any coded steps, click the <a href="/code-in-test/features-in-code#Code-Behind-File" target="_blank">Add Code-Behind File button</a>.
-2.If you test contains a coded step, right click it and select **View Code** to go to the code-behind file.
+1. If your test doesn't contain any coded steps, click the <a href="/code-in-test/features-in-code#Code-Behind-File" target="_blank">Add Code-Behind File button</a>.
+2. If you test contains a coded step, right click it and select **View Code** to go to the code-behind file.
 
-![View code](images/custom-scripts-before-after/fig3.png)
+![View code](images/fig3.png)
 
-3.Write the override definition inside the BaseTest (but not inside another method/coded step).
+3. Write the override definition inside the BaseTest (but not inside another method/coded step).
 
 ### The Override Definition
 

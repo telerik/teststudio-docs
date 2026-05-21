@@ -12,7 +12,7 @@ This article describes all necessary settings, as well as example commands.
 
 - [Add Test Studio Dev dlls to the GAC](#install-test-studio-dev-specific-dlls-in-gac)
 - [Set Test Studio Dev specific variables for the VS Command Prompt](#configure-the-vs-developer-command-prompt)
-- [Tailor up the command for the VSTest.Console.exe](#list-the-vstestconsoleexe-command)
+- [Tailor up the command for the VSTest.Console.exe](#list-the-vstest-console-exe-command)
 - [Examples](#example-commands)
 
 ## Install Test Studio Dev Specific DLLs in GAC

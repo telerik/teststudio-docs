@@ -63,83 +63,83 @@ You can check all settings applied from the calibration in the <a href="#Manual_
 
 #### Enable Extensions
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> located in the upper right corner of the browser <strong>More tools > Extensions</strong>.
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> located in the upper right corner of the browser <strong>More tools > Extensions</strong>.
 
-2.&nbsp; Ensure that the <strong>Progress Test Studio Extension</strong> is enabled.
+2. Ensure that the <strong>Progress Test Studio Extension</strong> is enabled.
 
 <img src="images/chrome/fig2.png" alt="Extensions">
 
 #### Zoom Level Set to 100%
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
 
-2.&nbsp; Use the plus (+) and minus (-) buttons next to <strong>Zoom</strong> to set it to 100% (or use the keyboard shortcut: Ctrl + 0). 
+2. Use the plus (+) and minus (-) buttons next to <strong>Zoom</strong> to set it to 100% (or use the keyboard shortcut: Ctrl + 0). 
 
 <img src="images/chrome/fig3.png" alt="Zoom">
 
 #### Enable File Downloads
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Scroll to the bottom and click <strong>Advanced</strong>.
+3. Scroll to the bottom and click <strong>Advanced</strong>.
 
-4.&nbsp; Locate the <strong>Downloads</strong> section.
+4. Locate the <strong>Downloads</strong> section.
 
-5.&nbsp; Enable <strong>Ask where to save each file before downloading</strong>.
+5. Enable <strong>Ask where to save each file before downloading</strong>.
 
 <img src="images/chrome/fig4.png" alt="Downloads">
 
 #### Disable Pop-up Blocker
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Scroll to the bottom and click <strong>Advanced</strong>.
+3. Scroll to the bottom and click <strong>Advanced</strong>.
 
-4.&nbsp; Locate the <strong>Privacy and security</strong> section.
+4. Locate the <strong>Privacy and security</strong> section.
 
-5.&nbsp; Click <strong>Content Settings</strong>.
+5. Click <strong>Content Settings</strong>.
 
 <img src="images/chrome/fig5.png" alt="Pop up blocker">
 
-6.&nbsp; Under <strong>Popups</strong> section enable <strong>Allowed</strong>.
+6. Under <strong>Popups</strong> section enable <strong>Allowed</strong>.
 
 <img src="images/chrome/fig6.png" alt="Pop up blocker">
 
 #### Allow All Sites to Run JavaScript
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu. 
+2. Select <strong>Settings</strong> from the drop-down menu. 
 
-3.&nbsp; Scroll to the bottom and click <strong>Advanced</strong>. 
+3. Scroll to the bottom and click <strong>Advanced</strong>. 
 
-4.&nbsp; Locate the <strong>Privacy and security</strong> section.  
+4. Locate the <strong>Privacy and security</strong> section.  
 
-5.&nbsp; Click <strong>Content Settings</strong>.
+5. Click <strong>Content Settings</strong>.
 
-6.&nbsp; Under <strong>JavaScript</strong> enable <strong>Allowed</strong>.
+6. Under <strong>JavaScript</strong> enable <strong>Allowed</strong>.
 
 <img src="images/chrome/fig7.png" alt="Allow JavaScript">
 
 #### Unblock Third-Party Cookies and Site Data
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner <strong>Settings > Advanced > Privacy and security > Content Settings > Cookies </strong>.
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner <strong>Settings > Advanced > Privacy and security > Content Settings > Cookies </strong>.
 
-2.&nbsp; Enable <strong>Allow sites to save and read cookie data (recommended)</strong>.
+2. Enable <strong>Allow sites to save and read cookie data (recommended)</strong>.
 
-3.&nbsp; Disable <strong>Block third-party cookies</strong>.
+3. Disable <strong>Block third-party cookies</strong>.
 
 <img src="images/chrome/fig8.png" alt="Allow Cookies">
 
 #### Allow all Sites to Download Multiple Files Automatically
 
-1.&nbsp; Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner <strong>> Settings > Advanced > Privacy and security > Content Settings</strong>. 
+1. Click on <img src="images/chrome/fig1.png" alt="chrome settings button"> in the upper right corner <strong>> Settings > Advanced > Privacy and security > Content Settings</strong>. 
 
-2.&nbsp; Under <strong>Automatic Downloads</strong> section enable <strong>Allow all sites to download multiple files automatically</strong> .
+2. Under <strong>Automatic Downloads</strong> section enable <strong>Allow all sites to download multiple files automatically</strong> .
 
 <img src="images/chrome/fig9.png" alt="Automatic Download">
 
@@ -170,99 +170,99 @@ You can check all settings applied from the calibration in the <a href="#Manual_
 
 #### Enable Extensions
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser <strong>Settings -> Extensions</strong>.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser <strong>Settings -> Extensions</strong>.
 
-2.&nbsp; Ensure that the <strong>Progress Telerik Test Studio Extension</strong> is enabled.
+2. Ensure that the <strong>Progress Telerik Test Studio Extension</strong> is enabled.
 
 <img src="images/edge-chromium/fig2.png" alt="Extensions">
 
 #### Zoom Level Set to 100%
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Use the plus (+) and minus (-) buttons next to <strong>Zoom</strong> to set it to 100%. 
+2. Use the plus (+) and minus (-) buttons next to <strong>Zoom</strong> to set it to 100%. 
 
 <img src="images/edge-chromium/fig3.png" alt="Zoom">
 
 #### Enable File Downloads
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Locate the <strong>Downloads</strong> section.
+3. Locate the <strong>Downloads</strong> section.
 
-4.&nbsp; Enable <strong>Ask where to save each file before downloading</strong>.
+4. Enable <strong>Ask where to save each file before downloading</strong>.
 
 <img src="images/edge-chromium/fig4.png" alt="Downloads">
 
 #### Disable Pop-up Blocker
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Locate the <strong>Site Permissions</strong> section.
+3. Locate the <strong>Site Permissions</strong> section.
 
-4.&nbsp; Open the <strong>Pop-ups and redirects</strong> section.
+4. Open the <strong>Pop-ups and redirects</strong> section.
 
-5.&nbsp; Disable the <strong>Block</strong> option.
+5. Disable the <strong>Block</strong> option.
 
 <img src="images/edge-chromium/fig6.png" alt="Pop up blocker">
 
 #### Allow All Sites to Run JavaScript
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Locate the <strong>Site Permissions</strong> section.
+3. Locate the <strong>Site Permissions</strong> section.
 
-4.&nbsp; Open the <strong>JavaScript</strong> section.
+4. Open the <strong>JavaScript</strong> section.
 
-5.&nbsp; Enable the <strong>Allowed</strong> option.
+5. Enable the <strong>Allowed</strong> option.
 
 <img src="images/edge-chromium/fig7.png" alt="Allow JavaScript">
 
 #### Unblock Third-Party Cookies and Site Data
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Locate the <strong>Site Permissions</strong> section.
+3. Locate the <strong>Site Permissions</strong> section.
 
-4.&nbsp; Open the <strong>Cookies and site data</strong> section.
+4. Open the <strong>Cookies and site data</strong> section.
 
-5.&nbsp; Enable the <strong>Allow sites to save cookies</strong> option.
+5. Enable the <strong>Allow sites to save cookies</strong> option.
 
-6.&nbsp; Disable the <strong>Block third-party cookies</strong> option.
+6. Disable the <strong>Block third-party cookies</strong> option.
 
 <img src="images/edge-chromium/fig8.png" alt="Allow Cookies">
 
 #### Allow all Sites to Download Multiple Files Automatically
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Select <strong>Settings</strong> from the drop-down menu.
+2. Select <strong>Settings</strong> from the drop-down menu.
 
-3.&nbsp; Locate the <strong>Site Permissions</strong> section.
+3. Locate the <strong>Site Permissions</strong> section.
 
-4.&nbsp; Open the <strong>Automatic downloads</strong> section.
+4. Open the <strong>Automatic downloads</strong> section.
 
-5.&nbsp; Enable the <strong>Ask when site tries to download multiple files</strong> option.
+5. Enable the <strong>Ask when site tries to download multiple files</strong> option.
 
 <img src="images/edge-chromium/fig9.png" alt="Automatic Download">
 
 #### Allow Extension from Other Stores
 
-1.&nbsp; Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
+1. Click on Edge browser *Settings* button - the three dots located in the upper right corner of the browser.
 
-2.&nbsp; Select <strong>Extensions</strong> from the drop-down menu.
+2. Select <strong>Extensions</strong> from the drop-down menu.
 
-3.&nbsp; Locate the <strong>Site Permissions</strong> section.
+3. Locate the <strong>Site Permissions</strong> section.
 
-4.&nbsp; Enable the <strong>Allow extensions from other stores</strong> option.
+4. Enable the <strong>Allow extensions from other stores</strong> option.
 
 <img src="images/edge-chromium/fig10.png" alt="Allow Extension from Other Stores">
 

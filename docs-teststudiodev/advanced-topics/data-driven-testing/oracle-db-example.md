@@ -12,7 +12,7 @@ This example is completed using an **Oracle Database Express** (Oracle Database 
 
 Next step is to create a database in order to use it for data binding. One way to do it is by using <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html" target="_blank">Oracle SQL Developer</a>. On the following image there are SQL queries that will create table **Employees** and insert there two rows of data.
 
-    ![Create Table](images/oracle-db-example/fig1.png)
+![Create Table](images/oracle-db-example/fig1.png)
 
 Once the table is created it is possible to connect to it and use it for data-driven testing:
 

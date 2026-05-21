@@ -53,7 +53,7 @@ This example is against a <a href="http://www.wordgenerator.net/random-word-gene
 
 If the element is **hidden** you should select it from the DOM Explorer
 
-    ![DOM Selection](images/dom-selection.png)
+![DOM Selection](images/dom-selection.png)
 
 2. Change the role of the verification step to Extraction.
 

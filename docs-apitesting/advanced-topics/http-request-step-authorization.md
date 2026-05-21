@@ -21,17 +21,17 @@ You can enable Basic and OAuth authorization for any Http Request step by follow
 
 Create 3 new variables as shown below.
 
-![Basic][1]
+![Basic](images/variables.png)  
 
 > `credentials-concatenated` is a variable that contains the `username` and `password` variables concatenated by a `:`
 
 Add a <a href="/features/steps/set-variable">Set Variable</a> step that will transform the `credentials-concatenated` variable to a Base64 string and store it in a new variable called `credentials-encoded`
 
-![Basic][2]
+![Basic](images/encode-credentials.png)
 
 Add an <a href="/features/steps/http-request">Http Request</a> step and add an `Authorization` to the list of headers and set its value to `Basic {{credentials-encoded}}`.
 
-![Basic][3]
+![Basic](images/authorization-header.png)
 
 ## OAuth
 
@@ -41,14 +41,8 @@ Enabling OAuth authentication on a REST service api call can be achieved by comb
 
 2.Add a new request header `Content-Type` and set its value to `application/x-www-form-urlencoded` 
 
-![Basic][4]
+![Basic](images/content-type.png)
 
 3.Add all the necessary authentication parameters to the `Body` of the request. 
 
-![Basic][5]
-
-[1]: /img/features/authorization/variables.png
-[2]: /img/features/authorization/encode-credentials.png
-[3]: /img/features/authorization/authorization-header.png
-[4]: /img/features/authorization/content-type.png
-[5]: /img/features/authorization/url-encoded-body.png
+![Basic](images/url-encoded-body.png)

@@ -12,15 +12,15 @@ Quick execution allows you to easily find out if a test is configured and design
 
 ## Execute a Test
 
-1.&nbsp; Once a test scenario is already recorded, click the **Execute** button in the test step pane.
+1. Once a test scenario is already recorded, click the **Execute** button in the test step pane.
 
 ![Execute button](images/quick-execution/fig2.png)
 
-1.1 &nbsp; Select the execution browser. This step will be skipped if you have already set a preferred browser from the <a href="/features/project-settings/browsers" target="_blank">Project Settings Browsers tab</a>.
+1.1  Select the execution browser. This step will be skipped if you have already set a preferred browser from the <a href="/features/project-settings/browsers" target="_blank">Project Settings Browsers tab</a>.
 
 ![Select browser](images/quick-execution/fig3.png)
 
-2.&nbsp; The Test Studio Dev Test Runner launches first in a command prompt window. This calls the set browser or application.
+2. The Test Studio Dev Test Runner launches first in a command prompt window. This calls the set browser or application.
 
 ![Test Runner](images/quick-execution/fig4.png)
 

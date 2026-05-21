@@ -12,7 +12,7 @@ position: 1
 
 Let's use <a href="http://www.wikipedia.org/" target="_blank">wikipedia.org</a> as an example. First we'll find and click the top bold English link.
 
-![wikipedia][1]
+![wikipedia](images/common-find-expressions/fig1.png)
 
 Here's the HTML code for that link:
 
@@ -42,7 +42,7 @@ The anchor element has no direct TextContent, so we'll need to locate by a parti
 
 If we locate by an exact match on TextContent, the bottom *English* link will found.
 
-![english link][2]
+![english link](images/common-find-expressions/fig2.png)
 
 Here's the HTML code for that link:
 
@@ -89,6 +89,3 @@ You can also data drive the find expression:
 ````VB
     Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("tagname=a", "textcontent=" + Data("Col1").ToString())
 ````
-
-[1]: images/common-find-expressions/fig1.png
-[2]: images/common-find-expressions/fig2.png

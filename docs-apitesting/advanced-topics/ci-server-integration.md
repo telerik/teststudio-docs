@@ -21,8 +21,7 @@ Thanks to its command line interface, Test Studio for APIs can easily be integra
  
  * Install Progress® Test Studio® for APIs on your Jenkins slave or master machine (where you will execute your Jenkins project)
    * You can alternatively just copy the Telerik.ApiTesting.Runner.exe with the whole "runnerconsole" directory as described [here](/features/command-line/overview). 
- * Configure the test execution command (see [Command Line Parameters](/features/command-line/command-line-parameters)
- ) - we recommend saving it to a build.cmd file. This is an example:
+ * Configure the test execution command (see [Command Line Parameters](/features/command-line/command-line-parameters) ) - we recommend saving it to a build.cmd file. This is an example:
  
  `Telerik.ApiTesting.Runner.exe test -p "demotests" -f junit -v base-url=http://localhost:5000 -o testresult.xml`
  

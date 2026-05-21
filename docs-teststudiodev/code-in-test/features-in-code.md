@@ -12,7 +12,7 @@ __Test Studio Dev__ allows you to implement coded solutions for a scenario that 
 
 __Test Studio Dev__ supports coded steps. This allows you to write code and have it executed as a test step. Use a coded step for a scenario where you need to extend the recorded steps functionality.
 
-1.&nbsp; Add a coded step from the <a href="/features/recorder/step-builder" target="_blank">Step Builder</a> under the _Common_ section.
+1. Add a coded step from the <a href="/features/recorder/step-builder" target="_blank">Step Builder</a> under the _Common_ section.
 
 ![Add a coded step](images/fig1.png)
 
