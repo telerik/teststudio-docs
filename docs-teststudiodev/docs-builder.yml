@@ -19,7 +19,6 @@ product-code: TSDEVED
 product-trial-url: https://www.telerik.com/try/test-studio-ultimate
 contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs-teststudiodev
 enable-tabbed-code-blocks: true
-#pdf-cover-png-path: ./images/pdf-cover.png
 img-max-width: 100%
 table-layout: fixed
 disable-html-redirect: true

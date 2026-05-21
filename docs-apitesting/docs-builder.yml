@@ -18,10 +18,11 @@ product-code: TESTSTUDIOAPI
 product-trial-url: https://www.telerik.com/try/test-studio-ultimate
 contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs-apitesting
 enable-tabbed-code-blocks: true
-#pdf-cover-png-path: ./images/pdf-cover.png
+pdf-cover-png-path: ./images/pdf-cover.png
 img-max-width: 100%
 table-layout: fixed
-
+disable-html-redirect: true
+center-images: false
 
 meta:
 # === Test Studio for APIs Documentation Main Nodes ===
