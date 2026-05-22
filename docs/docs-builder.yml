@@ -63,8 +63,8 @@ meta:
         position: 16
         hidden: true
     api:
-        title: "API Reference"
-        position: 30
+        title: API Reference
+        position: 1000
         pdfHidden: true
 
 # Installation and Setup
