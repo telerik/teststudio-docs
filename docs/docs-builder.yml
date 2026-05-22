@@ -459,11 +459,6 @@ meta:
         title: "WPF/HTML Dialogs and Popups"
         position: 22
 
-        
-    api:
-        title: API Reference
-        position: 1000
-        pdfHidden: true
 
 redirects: 
 -
