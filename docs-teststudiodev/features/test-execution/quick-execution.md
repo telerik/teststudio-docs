@@ -16,9 +16,9 @@ Quick execution allows you to easily find out if a test is configured and design
 
 ![Execute button](images/quick-execution/fig2.png)
 
-1.1  Select the execution browser. This step will be skipped if you have already set a preferred browser from the <a href="/features/project-settings/browsers" target="_blank">Project Settings Browsers tab</a>.
+1.1. Select the execution browser. This step will be skipped if you have already set a preferred browser from the <a href="/features/project-settings/browsers" target="_blank">Project Settings Browsers tab</a>.
 
-![Select browser](images/quick-execution/fig3.png)
+![Select browser](images/fig3.png)
 
 2. The Test Studio Dev Test Runner launches first in a command prompt window. This calls the set browser or application.
 

@@ -8,17 +8,17 @@ position: 1
 
 Build and execute Test Studio tests in Jenkins CI by following these steps:
 
-1.Install the Java Web Archive (.war) for Jenkins CI. Test Studio requires the Java Web Archive version to run properly. If Jenkins runs as a service, desktop actions for functional UI tests will fail (there is no desktop interaction).
+1. Install the Java Web Archive (.war) for Jenkins CI. Test Studio requires the Java Web Archive version to run properly. If Jenkins runs as a service, desktop actions for functional UI tests will fail (there is no desktop interaction).
 
-2.Create a free-style software project. Create a job and select 'Build a free-style software project'.
+2. Create a free-style software project. Create a job and select 'Build a free-style software project'.
 
 ![Free-style software project](images/fig2.png)
 
-3.Add a Windows batch command build step. Under the 'Add build step menu,' select 'Execute Windows batch command'. You can also use any other valid way that will allow you to start a windows process.
+3. Add a Windows batch command build step. Under the 'Add build step menu,' select 'Execute Windows batch command'. You can also use any other valid way that will allow you to start a windows process.
 
 ![Command build step](images/fig3.png)
 
-4.Input ArtOfTest.Runner command line command to execute tests. Under 'Execute Windows batch command', input the ArtOfTest.Runner command to execute your test or test list, including <a href="/features/cli-runner" target="_blank">full path to ArtOfTest.Runner.exe and appropriate arguments</a>.
+4. Input ArtOfTest.Runner command line command to execute tests. Under 'Execute Windows batch command', input the ArtOfTest.Runner command to execute your test or test list, including <a href="/features/cli-runner" target="_blank">full path to ArtOfTest.Runner.exe and appropriate arguments</a>.
 
 ![Arguments](images/fig4.png)
 
@@ -26,27 +26,27 @@ Your test execution step is now ready to save and run.
 
 ## Attach the results files to the Job
 
-1.Add "**out**" parameter in the batch command. It should point to the defaultrkspace **(%WORKSPACE%\%JOB_NAME%%BUILD_NUMBER%**) so the results files are outputted in a folder with an unique name (Job Name + Build Number) and set the result output to be in junit format.
+1. Add "**out**" parameter in the batch command. It should point to the defaultrkspace **(%WORKSPACE%\%JOB_NAME%%BUILD_NUMBER%**) so the results files are outputted in a folder with an unique name (Job Name + Build Number) and set the result output to be in junit format.
 
 ![Out parameter](images/fig9.png)
 
-2.Add a post-build action of type "**Archive the artifacts**".
+2. Add a post-build action of type "**Archive the artifacts**".
 
 ![Archive the artifacts](images/fig10.png)
 
-3.Type *${JOB_NAME}${BUILD_NUMBER}\\*** in the "**Files to archive**" field so all the results files can be taken.
+3. Type *${JOB_NAME}${BUILD_NUMBER}\\*** in the "**Files to archive**" field so all the results files can be taken.
 
 ![Files to archive](images/fig11.png)
 
-4.After the build completion all the results files will be attached to it.
+4. After the build completion all the results files will be attached to it.
 
 ![Files to archive](images/fig12.png)
 
-5.Click **Build Artifacts** and download the files in a *.zip file (it will keep the folder structure) and open the **.aiiresult* file.
+5. Click **Build Artifacts** and download the files in a *.zip file (it will keep the folder structure) and open the **.aiiresult* file.
 
 ![Save in zip file](images/fig13.png)
 
-6.You can also review a result summary directly from the build page (if there are junit formatted results).
+6. You can also review a result summary directly from the build page (if there are junit formatted results).
 
 ![Check the junit results](images/fig14.png)
 
