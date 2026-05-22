@@ -18,21 +18,21 @@ Walk--through of creating a loop process.
 
 4. Click Again.
 
-    ![Random](images/loop/fig1.png)
+    ![Random](images/fig1.png)
 
 5. Pause recording and minimize the browser.
 
 6. Choose **Conditions** in the <a href="/features/recorder/step-builder">**Step Builder**</a> and add **loop** step.
 
-    ![VS Plugin](images/loop/fig7.png)
+    ![VS Plugin](images/fig7.png)
 
 7. Set the *Count* of the Loop step to 5.
 
-    ![Loop step count](images/loop/fig4.png)
+    ![Loop step count](images/fig4.png)
 
 8. Drag the second Click Submit step into the *LOOP* step.
 
-    ![Drag Submit](images/loop/fig5.png)
+    ![Drag Submit](images/fig5.png)
 
 9. Save and Execute. After the initial set of integers is generated, the process is repeated 5 times.
 
