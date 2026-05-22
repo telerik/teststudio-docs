@@ -17,7 +17,7 @@ product-code: TESTSTUDIO
 product-trial-url: https://www.telerik.com/try/test-studio-ultimate
 contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs
 enable-tabbed-code-blocks: true
-#pdf-cover-png-path: ./images/pdf-cover.png
+pdf-cover-png-path: ./images/pdf-cover.png
 img-max-width: 100%
 table-layout: fixed
 disable-html-redirect: true
@@ -460,8 +460,10 @@ meta:
         position: 22
 
         
-    api/*:
-        res_type: api
+    api:
+        title: API Reference
+        position: 1000
+        pdfHidden: true
 
 redirects: 
 -
