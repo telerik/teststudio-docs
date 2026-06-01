@@ -26,8 +26,6 @@ The contents of the HTTP requests that will be sent to the application server ca
 
 Optionally, you can delete a particular HTTP transaction using the 'X' button on the row with the HTTP request you want to delete.
 
-    ![Delete Http request](/img/features/testing-types/load-testing/modifying-tests/fig3.png)
-
 > __Note!__ You cannot restore an HTTP transaction if you have accidentally deleted it.
 
 ## Filter User Profile

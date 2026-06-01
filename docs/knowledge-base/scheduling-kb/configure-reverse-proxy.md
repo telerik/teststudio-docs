@@ -26,12 +26,16 @@ An alternative is to use your own trusted certificates.
 Use the following commands to issue the Custom Authority certificate: 
 
 1. Enter the following command in the console: 
-````openssl genrsa -aes256 -out ts-CA-key.pem -passout pass:"1234" 2048```
+<pre>
+openssl genrsa -aes256 -out ts-CA-key.pem -passout pass:"1234" 2048
+</pre>
 
 where you need to replace _1234_ with a suitable password. 
 
 2. Enter the following command in the console: 
-````openssl req -passin pass:"1234" -x509 -sha256 -new -nodes -key ts-CA-key.pem -days 3650 -out ts-CA-cert.pem```
+<pre>
+openssl req -passin pass:"1234" -x509 -sha256 -new -nodes -key ts-CA-key.pem -days 3650 -out ts-CA-cert.pem
+</pre>
 
 where you need to add the information for which you get prompted. This includes `Common Name` and for the purpose of this example we use __Test Studio CA__ as Common Name
 
@@ -40,18 +44,22 @@ where you need to add the information for which you get prompted. This includes 
 Follow the steps below:
 
 1. Enter the following command in the console: 
-````openssl genrsa -aes256 -out ts-server.key -passout pass:"1234" 2048```
+<pre>
+openssl genrsa -aes256 -out ts-server.key -passout pass:"1234" 2048
+</pre>
 
 where you need to replace _1234_ with a suitable password.
 
 2. Enter the following command in the console: 
-````openssl req -passin pass:"1234" -new -key ts-server.key -out ts-server.csr```
+<pre>
+openssl req -passin pass:"1234" -new -key ts-server.key -out ts-server.csr
+</pre>
 
 where you need add the information for which you get prompted. This includes `Common Name` and we recommend using the proxy machine domain name. For the purpose of this example we use __ProxyMachineName__ as Common Name.
 
 3. Create a _ts-server.ext_ file with the following content:
 
-````
+<pre>
 authorityKeyIdentifier=keyid,issuer
 basicConstraints=CA:FALSE
 keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
@@ -61,30 +69,36 @@ subjectAltName = @alt_names
 DNS.0 = ProxyMachineName
 DNS.1 = ProxyMachineName.companyDomain.com
 IP.0 = xxx.xxx.xx.x
-````
+</pre>
 
 	where DNS.0 and DNS.1 hold the machine host name and the full qualified domain name for the machine which hosts the proxy server. IP.0 is the IP address of the proxy server machine in the network from which it will be accessed remotely. 
 
 4. Enter the following command in the console:
-````openssl x509 -passin pass:"1234" -req -in ts-server.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-server.crt -days 1825 -sha256 -extfile ts-server.ext````
+<pre>
+openssl x509 -passin pass:"1234" -req -in ts-server.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-server.crt -days 1825 -sha256 -extfile ts-server.ext
+</pre>
 
 5. Create a _ts-server.pass_ file which contains the pass phrase for _ts-server.key_. This is _1234_ for this example. 
 
 ### Create Client Certificate
 
 1. Enter the following command in the console: 
-````openssl genrsa -aes256 -out ts-client.key -passout pass:"1234" 2048````
+<pre>
+openssl genrsa -aes256 -out ts-client.key -passout pass:"1234" 2048
+</pre>
 
 where you need to replace _1234_ with a suitable password.
 
 2. Enter the following command in the console: 
-````openssl req -passin pass:"1234" -new -key ts-client.key -out ts-client.csr````
+<pre>
+openssl req -passin pass:"1234" -new -key ts-client.key -out ts-client.csr
+</pre>
 
 where you need add the information for which you get prompted. This includes `Common Name` and we recommend using the machine domain name. For the purpose of this example we use __ProxyMachineName__ as Common Name.
 
 3. Create a _ts-client.ext_ file with the following content: 
 
-````
+<pre>
 authorityKeyIdentifier=keyid,issuer
 subjectKeyIdentifier = hash
 basicConstraints=CA:FALSE
@@ -98,17 +112,23 @@ subjectAltName = @alt_names
 DNS.0 = ProxyMachineName
 DNS.1 = ProxyMachineName.companyDomain.com
 IP.0 = xxx.xxx.xx.x
-````
+</pre>
 where DNS.0 and DNS.1 hold the machine host name and the full qualified domain name for the machine which hosts the proxy server. IP.0 is the IP address of the proxy server machine in the network from which it will be accessed remotely. 
 
 4. Enter the following command in the console: 
-````openssl x509 -passin pass:"1234" -req -in ts-client.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-client.crt -days 1825 -sha256 -extfile ts-client.ext````
+<pre>
+openssl x509 -passin pass:"1234" -req -in ts-client.csr -CA ts-CA-cert.pem -CAkey ts-CA-key.pem -CAcreateserial -out ts-client.crt -days 1825 -sha256 -extfile ts-client.ext
+</pre>
 
 5. Enter the following command in the console: 
-````cat ts-client.key ts-client.crt ts-CA-cert.pem > ts-client.pem```
+<pre>
+cat ts-client.key ts-client.crt ts-CA-cert.pem > ts-client.pem
+</pre>
 
 6. Enter the following command in the console: `
-````openssl pkcs12 -passin pass:"1234" -export -out ts-client.pfx -inkey ts-client.key -in ts-client.pem -certfile ts-CA-cert.pem -passout pass:"1234"````
+<pre>
+openssl pkcs12 -passin pass:"1234" -export -out ts-client.pfx -inkey ts-client.key -in ts-client.pem -certfile ts-CA-cert.pem -passout pass:"1234"
+</pre>
 
 where you need to replace _1234_ with a suitable password.
 

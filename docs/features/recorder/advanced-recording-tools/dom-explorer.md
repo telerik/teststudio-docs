@@ -25,12 +25,12 @@ Find further details about the DOM Explorer functions:
 
 The __DOM Explorer__ tab exposes a set of useful functionalities listed in a toolbar. Find out more for each of these in the below list.
 
-- [Add elements](#1-add-elements)
-- [Refresh elements](#2-refresh-elements-tree)
-- [Freeze/Unfreeze elements tree](#3-freezeunfreeze-elements-tree)
-- [Search](#4-search-bar)
-- [Tree and Tag View](#5-elements-tree-and-tag-view)
-- [Parent element filter](#6-parent-element-filter)
+- Add elements
+- Refresh elements
+- Freeze/Unfreeze elements tree
+- Search
+- Tree and Tag View
+- Parent element filter
 
 ![Toolbar](/img/features/recorder/advanced-recording-tools/dom-explorer/fig3.png)
 
