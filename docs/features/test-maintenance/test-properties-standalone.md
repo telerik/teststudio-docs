@@ -1,4 +1,4 @@
----
+﻿---
 title: Test Properties (Standalone)
 page_title: Test Properties (Standalone)
 description: "Test Studio Test Properties reflect the attributes of anything you select in the Project tab"
@@ -10,7 +10,7 @@ Test Properties reflect the attributes of anything you select in the Project tab
 
 Go the **Project Tab**, click on a test and the pane to the right will instantly show the details for this very test. Clicking All Test Properties button will show you all test properties or by pressing F4.
 
-![Test Properties][1]
+![Test Properties](/img/features/test-maintenance/test-properties-standalone/test-properties-navigate.png)
 
 **Execution**
 
@@ -64,4 +64,3 @@ Go the **Project Tab**, click on a test and the pane to the right will instantly
 
 > Name, Path, Owner, Priority, and CustomProperty can be used as filtering criteria for Rules in <a href="/automated-tests/test-lists/test-lists-standalone#dynamic-test-lists" target="_blank">Dynamic Test Lists</a>.
 
-[1]: /img/features/test-maintenance/test-properties-standalone/test-properties-navigate.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Welcome Screen
 page_title: Welcome Screen
 description: "Test Studio welcome screen. Start a new project in Test Studio. Open an existing project in Test Studio. Get started with Test Studio. Update Test Studio. Check/Find Test Studio version. News related to Test Studio. New Test Studio blogs"
@@ -64,7 +64,7 @@ The **Recent projects** section on the left shows a list of the projects you wor
 
 The __Open Local Project__ option let's you browse to a local folder which contains a Test Studio project to load.
 
-![Open Existing Project][4]
+![Open Existing Project](/img/automated-tests/customize-project/welcome-screen/fig4.png)
 
 > __Note__
 ><br>
@@ -84,18 +84,15 @@ Test Studio provides built-in integration for TFVC and Git based repositories. T
 
 The __Get Started__ section lets you create the demo project, open the online help documentation and public Telerik forums, and submit your feedback or tickets to the Support team.
 
-![Get Started][5]
+![Get Started](/img/automated-tests/customize-project/welcome-screen/fig5.png)
 
 ## News Feed Section
 
 The __News Feed__ section lists important news related to the product, links to new Test Studio blog posts on the Telerik site. The content is updated live and requires Internet connection.
 
-![Newsfeed][7]
+![Newsfeed](/img/automated-tests/customize-project/welcome-screen/fig7.png)
 
 
 
 
-[4]: /img/automated-tests/customize-project/welcome-screen/fig4.png
-[5]: /img/automated-tests/customize-project/welcome-screen/fig5.png
 
-[7]: /img/automated-tests/customize-project/welcome-screen/fig7.png

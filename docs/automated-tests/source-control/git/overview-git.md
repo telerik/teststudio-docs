@@ -1,4 +1,4 @@
----
+﻿---
 title: Overview
 page_title: Integration with Git Source Control Systems
 description: "Test Studio Integration with Git Source Control Systems. Use Git based repository with Test Studio. Use Personal Access token to connect to Git repo accessed with 2FA (two factor authentication). Unable to connect to Git. Error connecting to Git, too many redirects or authentication replays.  "
@@ -40,7 +40,7 @@ These are the steps to connect and use a Test Studio project stored in a remote 
 
 The following applies to GitHub.com. Similar workflow is available in other remote repository providers.
 
-![Create an empty repository][1]
+![Create an empty repository](/img/features/source-control/git/overview/fig1.png)
 
 ## Using Personal Access Token for Authentication in Git Repo
 
@@ -64,4 +64,3 @@ The following workflow guides you how to __create a personal access token (PAT)_
 
     > __Note:__ The example shows creating a PAT in Github.com. If not using this platform to store the repository, please, follow the provider's guidelines for creating a PAT. 
 
-[1]: /img/features/source-control/git/overview/fig1.png

@@ -16,99 +16,83 @@ In this article you can find the following topics:
 * [An example how to verify if an element exists on the page](#check-if-an-element-exists-in-the-dom)
 
 > __Tip__
-><br>
-><br>
 > Check this <a href="https://www.telerik.com/blogs/test-studio-step-by-step-testing-execution-paths-conditional-tests">step-by-step tutorial blog post</a> on how to enhance your test scenarios with conditional steps.
 
 ## Build an If...Else Statement
 
-1.&nbsp; Create a Web Test and click Record.
+1. Create a Web Test and click Record.
 
-2.&nbsp; Navigate to <a href="https://www.calculator.net/random-number-generator.html" target="_blank">www.random.org</a>.
+2. Navigate to <a href="https://www.calculator.net/random-number-generator.html" target="_blank">www.random.org</a>.
 
-3.&nbsp; Set the Min field to 1 and the Max field to 2.
+3. Set the Min field to 1 and the Max field to 2.
 
-4.&nbsp; Click **Generate**.
+4. Click **Generate**.
 
-![Random][1]
+    ![Random](/img/features/logical-steps/if-else/rnd-num-gen-page.png)
 
-5.&nbsp; Enable hover over highlighting by clicking Highlight Element in the Test Studio Recorder and hover over the *Result box*.
+5. Enable hover over highlighting by clicking Highlight Element in the Test Studio Recorder and hover over the *Result box*.
 
-![Enable Highlighting][2]
+    ![Enable Highlighting](/img/features/logical-steps/if-else/quick-step-drop-down.png)
 
-6.&nbsp; Click **Quick Tasks** and double click **Verify - text contains '1'**.
+6. Click **Quick Tasks** and double click **Verify - text contains '1'**.
 
-![Verification][3]
+    ![Verification](/img/features/logical-steps/if-else/verify-step-choose.png)
 
-7.&nbsp; Disable hover over highlighting and minimize the browser.
+7. Disable hover over highlighting and minimize the browser.
 
-8.&nbsp; Choose **Conditions** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a> and add **if...else** step.
+8. Choose **Conditions** in the <a href="/getting-started/test-recording/step-suggestions" target="_blank">**Step Builder**</a> and add **if...else** step.
 
 <table id="no-table" style="border:none;">
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Standalone][4]<br>**Standalone version**</td>
+<img src="/img/features/logical-steps/if-else/step-builder-if-else.png" alt="Standalone" /><br>**Standalone version**</td>
 <td>
 
-![VS Plugin][5]<br>**VS Plugin**</td>
+<img src="/img/features/logical-steps/if-else/vs-step-builder.png" alt="VS Plugin" /><br>**VS Plugin**</td>
 <tr>
 </table>
 
-9.&nbsp; From the drop down in the IF step select the previously recorded verification.
+9. From the drop down in the IF step select the previously recorded verification.
 
-![Choose Verification][6]
+    ![Choose Verification](/img/features/logical-steps/if-else/select-condition-in-if.png)
 
-10.&nbsp; Uncheck/Delete the verification outside the IF step, so it will not be executed (We have this verification already added in the IF step)
+10. Uncheck/Delete the verification outside the IF step, so it will not be executed (We have this verification already added in the IF step)
 
-![Uncheck Verification][7]
+    ![Uncheck Verification](/img/features/logical-steps/if-else/uncheck-verify-step.png)
 
-11.&nbsp; Bring up the IE recording window and navigate to <a href="http://www.google.com" target="_blank">www.google.com</a>. Minimize the browser again.
+11. Bring up the IE recording window and navigate to <a href="http://www.google.com" target="_blank">www.google.com</a>. Minimize the browser again.
 
-12.&nbsp; Drag the *Navigate to Google* step into the IF step.
+12. Drag the *Navigate to Google* step into the IF step.
 
-![Drag in IF Step][8]
+![Drag in IF Step](/img/features/logical-steps/if-else/drop-inside-if.png)
 
-13.&nbsp; Bring up the IE recording window and navigate to <a href="http://www.bing.com" target="_blank">www.bing.com</a>. Minimize the browser again.
+13. Bring up the IE recording window and navigate to <a href="http://www.bing.com" target="_blank">www.bing.com</a>. Minimize the browser again.
 
-14.&nbsp; Drag the *Navigate to Bing* step into the ELSE step.
+14. Drag the *Navigate to Bing* step into the ELSE step.
 
-![Drag in ELSE Step][9]
+![Drag in ELSE Step](/img/features/logical-steps/if-else/drop-inside-else.png)
 
 ## Execution Status and Results
 
-15.&nbsp; Save and Execute the test.
+15. Save and Execute the test.
 
 - If 1 is generated the **if condition** is evaluated as true and the steps in the **if branch** are executed. The steps in the **else branch** are skipped and shown as 'Not Run'.
 
-![Navigate to Google][10]
+![Navigate to Google](/img/features/logical-steps/if-else/if-executed.png)
 
 - If 2 is generated the **if condition** is evaluated as false (for example, the target TextBox element contains the wrong content) and the steps in the **else branch** are executed. The skipped steps are in the **if branch** and are shown as 'Not Run'. 
 - **Note**:  if the condition of an **if branch** cannot be evaluated (for example, the target element for a TextContent verification cannot be located), the steps in the **if branch** will be skipped again, and will display a 'not-run' icon as if the condition is false. 
 
-![Navigate to Bing][11]
+![Navigate to Bing](/img/features/logical-steps/if-else/else-executed.png)
 
 ## Check if an Element Exists in the DOM
 
 To check if an element is present in the application DOM - a "<a href="/features/recorder/verifications/Wait" target="_blank">wait on element</a>" verification has to be used. It returns *true/false* output and **if condition** could be completed not braking the test execution. On the following image - if step 4 does not execute - the *SecondLink* element would not be added to the DOM and steps would continue in the **else branch**.
 
-![If Element Exists][12]
+![If Element Exists](/img/features/logical-steps/if-else/elem-in-dom-exist-1.png)
 
 If step 4 is executed the *SecondLink* element would be added to the DOM and **if condition** passes normally as shown below.
 
-![Else Element Exists][13]
-
-[1]: /img/features/logical-steps/if-else/rnd-num-gen-page.png
-[2]: /img/features/logical-steps/if-else/quick-step-drop-down.png
-[3]: /img/features/logical-steps/if-else/verify-step-choose.png
-[4]: /img/features/logical-steps/if-else/step-builder-if-else.png
-[5]: /img/features/logical-steps/if-else/vs-step-builder.png
-[6]: /img/features/logical-steps/if-else/select-condition-in-if.png
-[7]: /img/features/logical-steps/if-else/uncheck-verify-step.png
-[8]: /img/features/logical-steps/if-else/drop-inside-if.png
-[9]: /img/features/logical-steps/if-else/drop-inside-else.png
-[10]: /img/features/logical-steps/if-else/if-executed.png
-[11]: /img/features/logical-steps/if-else/else-executed.png
-[12]: /img/features/logical-steps/if-else/elem-in-dom-exist-1.png
-[13]: /img/features/logical-steps/if-else/elem-in-dom-exist-if.png
+![Else Element Exists](/img/features/logical-steps/if-else/elem-in-dom-exist-if.png)
 

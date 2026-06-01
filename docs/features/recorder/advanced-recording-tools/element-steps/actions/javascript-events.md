@@ -1,4 +1,4 @@
----
+﻿---
 title: JavaScript Events
 page_title: JavaScript Events
 description: "Test Studio recorder allows you to add steps to invoke JS events. Insert a test step to invoke JavaScript events on specific element. Invoke Onclick event during Test Studio test runtime. Invoke OnChange event, OnSubmit event and other JavaScript events during automated test execution."
@@ -12,23 +12,23 @@ JavaScript events are often used instead of simulating real user behavior.Find o
 
 ## Add a Step to Invoke a JavaScript Event
 
-1.&nbsp; Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
+1. Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
 
-2.&nbsp; If the recording browser window is large enough (it behaves differently if the browser window is shrunk) the __All Products__ list appears after you hover over it with the mouse. 
+2. If the recording browser window is large enough (it behaves differently if the browser window is shrunk) the __All Products__ list appears after you hover over it with the mouse. 
 
 > __Note__
 > 
 > The recommended approach to automate opening the __All Products__ list is to use the _Mouse HoverOver Step_. But you can also use the __JS events__ related to that element and trigger the action through the JavaScript. 
 
-3.&nbsp; Highlight the element and choose the option to <a href="/features/recorder/highlighting-menu/element-options#build-step" target="_blank">Build Step...</a>.
+3. Highlight the element and choose the option to <a href="/features/recorder/highlighting-menu/element-options#build-step" target="_blank">Build Step...</a>.
 
-4.&nbsp; The __Advanced Recording Tools__ window gets opened directly on its __Element Steps__ tab with that element selected in the DOM. Switch to the _Actions_ section and choose the __JavaScript Events__ dropdown. Choose the JavaScript event and click the **Add Step** button to inser the step into test. 
+4. The __Advanced Recording Tools__ window gets opened directly on its __Element Steps__ tab with that element selected in the DOM. Switch to the _Actions_ section and choose the __JavaScript Events__ dropdown. Choose the JavaScript event and click the **Add Step** button to inser the step into test. 
 
-![Add step to invoke JavaScript Events][1]
+![Add step to invoke JavaScript Events](/img/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events/fig1.png)
 
-5.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the JS event step and allow you to modify the event to be triggered.
+5. Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the JS event step and allow you to modify the event to be triggered.
 
-![SJavaScript Event step properties][2]
+![SJavaScript Event step properties](/img/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events/fig2.png)
 
 ## What Events Should Be Triggered? 
 
@@ -40,19 +40,17 @@ The automated tests require maintenance and often you find out it is necessary t
 
 For the cases when the project and scenarios are quite complex, you can __add steps for an already recorded element__ and without starting a recording session. The below list guide you through the steps for this:
 
-1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
+1. Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
 <br>
 
-2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
+2. Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 
-3.&nbsp; Choose the __JavaScript Events__ section under __Actions__ and select the event you need. Click the **Add Step** button to insert the step in the test.
+3. Choose the __JavaScript Events__ section under __Actions__ and select the event you need. Click the **Add Step** button to insert the step in the test.
 
-![Step Builder Verification][2]
+![Step Builder Verification](/img/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events/fig2.png)
 
 > __Tip__
 ><br>
 ><br>
 > Check <a href="https://www.telerik.com/videos/teststudio/how-to-add-test-steps-from-the-test-builder" target="_blank">this short video</a> demonstrating how to add a step for an existing element in Test Studio.
 
-[1]: /img/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events/fig1.png
-[2]: /img/features/recorder/advanced-recording-tools/element-steps/actions/javascript-events/fig2.png

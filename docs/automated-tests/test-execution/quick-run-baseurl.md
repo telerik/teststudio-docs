@@ -1,4 +1,4 @@
----
+﻿---
 title: BaseURL Quick Access
 page_title: BaseURL Quick Access
 description: "Test Studio Quick test Execution. Test Studio test run. Quick access the BaseURL. Quick Set BaseURL on project level. "
@@ -16,14 +16,12 @@ Test Studio allows you to reuse already recorded tests against multiple environm
 
 Set a **Base Url**, if you run tests against multiple environments. Check out our <a href="/knowledge-base/test-execution-kb/base-url" target="_blank">BaseURL KB article</a> for more information.
 
-![BaseUrl][12]
+![BaseUrl](/img/automated-tests/test-execution/quick-run-baseurl/fig12.png)
 
 ## Adjust the Compare Mode for URLs
 
 When a **BaseURL** is set for the project, you can change the **Compare Mode** for future recorded elements. Detailed description of the different options can be found <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">here</a>.
 
-![Compare Mode][13]
+![Compare Mode](/img/automated-tests/test-execution/quick-run-baseurl/fig13.png)
 
-[12]: /img/automated-tests/test-execution/quick-run-baseurl/fig12.png
-[13]: /img/automated-tests/test-execution/quick-run-baseurl/fig13.png
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Test Studio Installation Path to Environment Variables
 page_title: Add Test Studio Installation Path to Environment Variables
 description: "Test Studio CLI Runner, Test Studio Command Line Runner, Add the Test Studio installation folder as PATH in Environment Variables. Avoid always changing the working directory to the Test Studio Installation Bin folder by each call of the Test Studio execution engine ArtOftest.Runner.exe."
@@ -17,63 +17,52 @@ Below you can find the necessary steps to add the _Bin_ sub-folder to the __PATH
 
 ## Windows 10
 
-1.&nbsp; Open __Windows Control Panel__ and navigate to __System__ (Control Panel->System and Security->System).
+1. Open __Windows Control Panel__ and navigate to __System__ (Control Panel->System and Security->System).
 
-2.&nbsp; After the **System** screen appears, select **Advanced system settings**.
+2. After the **System** screen appears, select **Advanced system settings**.
 
-![Advanced System Settings][8]
+![Advanced System Settings](/img/features/test-runners/add-path-environment-variables/fig8.png)
 
-3.&nbsp; This will open the **System Properties** window. Select the **Advanced** tab and then the **Environment Variables** button.
+3. This will open the **System Properties** window. Select the **Advanced** tab and then the **Environment Variables** button.
 
-![Environment Variables][9]
+![Environment Variables](/img/features/test-runners/add-path-environment-variables/fig9.png)
 
-4.&nbsp; Under the **System variables** section, scroll down and highlight the **Path** variable. Click the **Edit** button.
+4. Under the **System variables** section, scroll down and highlight the **Path** variable. Click the **Edit** button.
 
-![Path Button][10]
+![Path Button](/img/features/test-runners/add-path-environment-variables/fig10.png)
 
-5.&nbsp; In the Edit screen, click **New** and add the path to the **Bin** directory of Test Studio. In this example, I added **C:\Program Files (x86)\Progress\Test Studio\Bin**.
+5. In the Edit screen, click **New** and add the path to the **Bin** directory of Test Studio. In this example, I added **C:\Program Files (x86)\Progress\Test Studio\Bin**.
 
-![Edit System Variable][11]
+![Edit System Variable](/img/features/test-runners/add-path-environment-variables/fig11.png)
 
-6.&nbsp; Click the **OK** button. You now have access to the __ArtOfTest.Runner.exe__ from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
+6. Click the **OK** button. You now have access to the __ArtOfTest.Runner.exe__ from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
 
-![CMD][12]
+![CMD](/img/features/test-runners/add-path-environment-variables/fig12.png)
 
 ## Windows 7
 
-1.&nbsp; To do this right-click on **Computer** and select **Properties**.
+1. To do this right-click on **Computer** and select **Properties**.
 
-![Properties][1]
+![Properties](/img/features/test-runners/add-path-environment-variables/fig1.png)
 
-2.&nbsp; After the **System** screen appears, select **Advanced system settings**.
+2. After the **System** screen appears, select **Advanced system settings**.
 
-![Advanced System Settings][2]
+![Advanced System Settings](/img/features/test-runners/add-path-environment-variables/fig2.png)
 
-3.&nbsp; This will open the **System Properties** window. Select the **Advanced** tab and then the **Environment Variables** button.
+3. This will open the **System Properties** window. Select the **Advanced** tab and then the **Environment Variables** button.
 
-![Environment Variables][3]
+![Environment Variables](/img/features/test-runners/add-path-environment-variables/fig3.png)
 
-4.&nbsp; Under the **System variables** section, scroll down and highlight the **Path** variable. Click the **Edit** button.
+4. Under the **System variables** section, scroll down and highlight the **Path** variable. Click the **Edit** button.
 
-![Path Button][4]
+![Path Button](/img/features/test-runners/add-path-environment-variables/fig4.png)
 
-5.&nbsp; In the Edit screen, append the path to the **Bin** directory to the end of the string that already exists in the **Variable value** text box (with a semicolon before the path). In this example, I added "**;C:\Program Files (x86)\Progress\Test Studio\Bin** - Notice that I added a semicolon to separate the previous path from the path to the *ArtOfTest.Runner.exe* directory.
+5. In the Edit screen, append the path to the **Bin** directory to the end of the string that already exists in the **Variable value** text box (with a semicolon before the path). In this example, I added "**;C:\Program Files (x86)\Progress\Test Studio\Bin** - Notice that I added a semicolon to separate the previous path from the path to the *ArtOfTest.Runner.exe* directory.
 
-![Edit System Variable][5]
+![Edit System Variable](/img/features/test-runners/add-path-environment-variables/fig5.png)
 
-6.&nbsp; Click the **OK** button. You now have access to the execution engine from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
+6. Click the **OK** button. You now have access to the execution engine from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
 
-![CMD][6]
+![CMD](/img/features/test-runners/add-path-environment-variables/fig6.png)
 
-[1]: /img/features/test-runners/add-path-environment-variables/fig1.png
-[2]: /img/features/test-runners/add-path-environment-variables/fig2.png
-[3]: /img/features/test-runners/add-path-environment-variables/fig3.png
-[4]: /img/features/test-runners/add-path-environment-variables/fig4.png
-[5]: /img/features/test-runners/add-path-environment-variables/fig5.png
-[6]: /img/features/test-runners/add-path-environment-variables/fig6.png
 
-[8]: /img/features/test-runners/add-path-environment-variables/fig8.png
-[9]: /img/features/test-runners/add-path-environment-variables/fig9.png
-[10]: /img/features/test-runners/add-path-environment-variables/fig10.png
-[11]: /img/features/test-runners/add-path-environment-variables/fig11.png
-[12]: /img/features/test-runners/add-path-environment-variables/fig12.png

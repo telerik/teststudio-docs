@@ -12,7 +12,7 @@ position: 1
 
 The solution is to save the number of the row into an XML file. Each time you execute the test, read the number of the row from the XML file and tell Test Studio to use this row from your data source.
 
-1.&nbsp; Create an XML file which will contain the row number.
+1. Create an XML file which will contain the row number.
 
 1.1 Right-click somewhere in the project folder and select **New > Text Document**. Rename it to "IterationIndex.xml".
 
@@ -27,11 +27,11 @@ The solution is to save the number of the row into an XML file. Each time you ex
 	</IterationValue>
 ````
 
-2.&nbsp; Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
+2. Create your data source, if you don't have one already. In my case this is an Excel file called "foo.xlsx" containing numbers from 1 to 20.
 
-![File][1]
+![File](/img/advanced-topics/coded-samples/general/non-iterative-data-driving/fig1.png)
 
-3.&nbsp; Open or create your project in Test Studio.
+3. Open or create your project in Test Studio.
 
 3.1 Start new project or open existing project.
 
@@ -141,13 +141,11 @@ See <a href="http://screencast.com/t/bqt6zXOj" target="_blank">this video</a> to
 
 ## How to find and use Office PIA's without Visual Studio installed
 
-1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
+1. Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 
-![.NET Programmability Support][2]
+![.NET Programmability Support](/img/advanced-topics/coded-samples/general/random-row/fig2.png)
 
-2.&nbsp; Then you will find the interop assemblies in the Windows Global Assembly Cache, specifically the folder: *C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\*
+2. Then you will find the interop assemblies in the Windows Global Assembly Cache, specifically the folder: *C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\*
 
 This is a hidden protected system folder which won't show up in an ordinary hard drive search. If you try to go to "C:\Windows\assembly" Windows recognizes this as a special folder and will show you the full contents of the GAC in a flattened list instead of the individual folders that make up the GAC.
 
-[1]: /img/advanced-topics/coded-samples/general/non-iterative-data-driving/fig1.png
-[2]: /img/advanced-topics/coded-samples/general/random-row/fig2.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Output Panel
 page_title: Output Panel
 description: "Output Panel in Test Studio project. "
@@ -10,7 +10,7 @@ The Output panel displays a record of log messages recorded by Test Studio throu
 
 Its default location is in the middle bottom pane.
 
-![Output panel][1]
+![Output panel](/img/features/coded-steps/output-panel/fig1.png)
 
 ## Tabs In The Output Panel
 
@@ -18,19 +18,15 @@ You could chose between **Syntax Errors**, **Compiler** and **Source Control** t
 
 Under the **Syntax Errors** tab can be found the syntax errors throughout runtime. These errors are designed to indicate important events and help pinpoint where problems may occur.
 
-![Errors tab][2]
+![Errors tab](/img/features/coded-steps/output-panel/fig2.png)
 
 Under the **Compiler** tab can be found information (if you have a code-behind file) about a specific error message or warning during the compilation of the project.
 
-![Compiler tab][3]
+![Compiler tab](/img/features/coded-steps/output-panel/fig3.png)
 
 Double-click any error message entry will navigate to the file where the problem occurs, and move to the error location.
 
 Under the **Source Control** tab can be found information about the actions taken against the Source control (connect, check in, check out). 
 
-![Source Control][4]
+![Source Control](/img/features/coded-steps/output-panel/fig4.png)
 
-[1]: /img/features/coded-steps/output-panel/fig1.png
-[2]: /img/features/coded-steps/output-panel/fig2.png
-[3]: /img/features/coded-steps/output-panel/fig3.png
-[4]: /img/features/coded-steps/output-panel/fig4.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Test Step Properties
 page_title: Test Step Properties
 description: "Test Studio Test Step Properties shown in the properties pane to the right"
@@ -8,11 +8,11 @@ position: 1
 
 In the Standalone version, select a test step and the pane to the right will instantly show the properties for this very step.
 
-![Properties standalone][1]
+![Properties standalone](/img/features/test-maintenance/test-step-properties/step-properties.png)
 
 In Visual Studio, click **View > Properties Window** or press the F4 key and to make the Properties pane visible in the lower right. By default all test step properties are listed alphabetically. Click the Categorized icon to add headings and categorize the list.
 
-![Properties VS][2]
+![Properties VS](/img/features/test-maintenance/test-step-properties/fig2.png)
 
 The type of step highlighted dictates the available properties. Highlight any property for a description of what it does and how it affects your test:
 
@@ -677,5 +677,3 @@ padding: 8px;
 </table>
 
 
-[1]: /img/features/test-maintenance/test-step-properties/step-properties.png
-[2]: /img/features/test-maintenance/test-step-properties/fig2.png

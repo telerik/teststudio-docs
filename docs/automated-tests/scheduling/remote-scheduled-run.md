@@ -1,4 +1,4 @@
----
+﻿---
 title: Remote Scheduled Execution (Single Machine Setup)
 page_title: Remote Scheduled Execution
 description: "Test Studio can be configured to run tests and test lists on remote execution machines. Scheduling setup. Telerik Scheduling Storage service"
@@ -42,7 +42,7 @@ Install Test Studio product and ensure to <a href="/getting-started/installation
 > <br>
 > The Test Studio services can be also added by <a href="/general-information/installation/add-services" target="_blank">changing the already installed product</a>.
 
-![Installation Dialog][1]
+![Installation Dialog](/img/features/scheduling-test-runs/remote-run-all-in-one/fig1.png)
 
 > **Note**
 > <br>
@@ -61,11 +61,11 @@ Install Test Studio product and ensure to <a href="/getting-started/installation
 
 Open a Test Studio project and select **Configure** button under the **Project** -> **Scheduling** ribbon and wait for the Test Studio Scheduling Config wizard to get opened.
 
-![Configure scheduling setup button][2]
+![Configure scheduling setup button](/img/features/scheduling-test-runs/remote-run-all-in-one/fig2.png)
 
 Optionally, the **Configure Services** wizard can be accessed through the Windows Start menu by typing *Configure Test Studio Services*.
 
-![Configure Test Studio services][2a]
+![Configure Test Studio services](/img/features/scheduling-test-runs/remote-run-all-in-one/fig2a.png)
 
 Go through each tab to setup the Test Studio services:
 <!-- no toc -->
@@ -82,11 +82,11 @@ Go through each tab to setup the Test Studio services:
 
 The Communication tab lets you manage the **Communication Key** which is required by all Test Studio Scheduling components - services and clients. It is used to establish the connection and successful communication between each of the Scheduling modules. 
 
-![Communication tab][10]
+![Communication tab](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png)
 
 The **Current Key** section indicates which is the key in use. The Scheduling setup is configured to use a default communication key for each Test Studio installation. Thus, after initial install you see the current key is the __Default Key Loaded__. In this configuration you can't copy or see the key. 
 
-![Default Communication key][101]
+![Default Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png)
 
 > **Tip**
 > <br>
@@ -97,11 +97,11 @@ The **Current Key** section indicates which is the key in use. The Scheduling se
 
 Once a custom key is generated and imported, the **Current Key** section allows you to copy the value of the key using the __Copy to Clipboard__ button, or see it using the __Show__ button (for the cases when copying is not an option). The key value can be reset to the default value using the __Reset to Default__ button.
 
-![Custom Communication key][102]
+![Custom Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png)
 
 The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. Hit the **Import** button to replace the current key with the new one. 
 
-![Replace Communication key][103]
+![Replace Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-replace-key.png)
 
 > **Note**
 > <br>
@@ -127,7 +127,7 @@ The **MongoDB data path** and **mongod.exe path** fields are populated with the 
 
 Hit the **Apply** button and confirm the *'MongoDB is running'* status appears in the lower left corner of the wizard.
 
-![MongoDB][11]
+![MongoDB](/img/features/scheduling-test-runs/create-scheduling-server/fig2new.png)
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -139,7 +139,7 @@ The **Storage** tab displays the connection details used from Test Studio Storag
 
 Hit the **Apply** button and check the *'Telerik Storage Service is started'* status appears in the lower left corner of the wizard.
 
-![Storage][12]
+![Storage](/img/features/scheduling-test-runs/create-scheduling-server/fig3new.png)
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -151,7 +151,7 @@ The **Scheduling** tab contains information about the location of the Test Studi
 
 For this particular configuration, these can remain unchanged and you can hit the **Apply** button. This starts the scheduling service which is indicated with a message in the lower left corner of the wizard stating *'Telerik Scheduling Service is running'*.
 
-![Scheduling][13]
+![Scheduling](/img/features/scheduling-test-runs/create-scheduling-server/fig5new.png)
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -165,7 +165,7 @@ The SMTP server settings are listed in the expandable section __Configure Email 
 
 Once the necessary data is entered, hit the **Apply** button to reflect the changes to the Scheduling service and check if the status *'Telerik Scheduling Service is running'* appears in the lower left corner of the wizard.
 
-![Scheduling SMTP][13a]
+![Scheduling SMTP](/img/features/scheduling-test-runs/create-scheduling-server/fig5a.png)
 
 > **Note**
 > <br>
@@ -182,7 +182,7 @@ The <a href="/general-information/test-results/executive-dashboard" target="_bla
 
 For this particular configuration, these can remain unchanged and you can hit the **Apply** button. This will start the Executive Dashboard service - you will see a message in the lower left corner of the wizard stating *'Telerik Test Studio Executive Dashboard Service is running'*.
 
-![Executive Dashboard][14]
+![Executive Dashboard](/img/features/scheduling-test-runs/create-scheduling-server/fig4new.png)
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -194,7 +194,7 @@ The __Execution Server__ tab contains information for the configuration settings
  
 The default populated values point to the local machine Scheduling service - _localhost_ using the port 55555. Hit the __Apply__ button to apply any changes - wait until you see a message in the lower left corner of the wizard stating _'Changes applied successfully'_.
 
-![Execution Server config tab][15]
+![Execution Server config tab](/img/features/scheduling-test-runs/create-scheduling-server/execution-client-tab.png)
 
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
@@ -204,19 +204,19 @@ The default populated values point to the local machine Scheduling service - _lo
 
 Open the **Test Studio Test Runner** from the System Tray (it is started with Test Studio, or automatically on startup of the system, if the respective option is set).
 
-![Test Runner System tray][30]
+![Test Runner System tray](/img/features/scheduling-test-runs/local-run-all-in-one/fig1.png)
 
 Use the __Configure__ button If you need to change anything in the configuration of the Execution Server. It opens up the Scheduling config wizard on its [__Execution Server__ tab](#execution-server-tab).
 
-![Test Runner Config button][33]
+![Test Runner Config button](/img/features/scheduling-test-runs/remote-run-all-in-one/configure-execution-server-button.png)
 
 Ensure the **Scheduling URL** points to the local machine - *localhost* will be resolved to the absolute name of the machine. 
 
-![Test Runner Scheduling URL][3]
+![Test Runner Scheduling URL](/img/features/scheduling-test-runs/remote-run-all-in-one/fig3.png)
 
 The communication **Key** is required to establish the connection and to enable the communication to the Scheduling server. A <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#configure-the-test-studio-services" target="_blank">key is generated in the Scheduling Config wizard</a> and if it's not matching on both the Scheduler and Execution machines, the connection between these is not possible. 
 
-![Test Runner Communication key][3a]
+![Test Runner Communication key](/img/features/scheduling-test-runs/remote-run-all-in-one/fig3a.png)
 
 > **Note**
 ><br> 
@@ -228,11 +228,11 @@ The communication **Key** is required to establish the connection and to enable 
 
 Open the Test Studio project which contains the test list to schedule for unattended execution and click the **Connect** button from the `Scheduling` ribbon in the **Project** tab.
 
-![Connect Project][4]
+![Connect Project](/img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png)
 
 In the **Scheduling Server Settings** dialog, choose **Remote** radio button to connect the project to the configured Scheduling server. Enter the Scheduling machine name or, for the current setup, use *localhost* and click the **Connect** button.
 
-![Connect to Scheduling machine][5]
+![Connect to Scheduling machine](/img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png)
 
 A confirmation message appears when the connection is successful. Confirm the connection by pressing the __Confirm__ button in the dialog. 
 
@@ -250,22 +250,3 @@ A confirmation message appears when the connection is successful. Confirm the co
 
 * <a href="https://www.telerik.com/blogs/test-studio-step-by-step-scheduling-tests" target="_blank">Test Studio Step-by-Step: Scheduling Tests</a>
 
-[1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig1.png
-[2]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2.png
-[2a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig2a.png
-[3]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3.png
-[3a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig3a.png
-[33]: /img/features/scheduling-test-runs/remote-run-all-in-one/configure-execution-server-button.png
-[4]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
-[5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
-[10]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png
-[101]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png
-[102]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-custom-key.png
-[103]: /img/features/scheduling-test-runs/create-scheduling-server/communication-tab-replace-key.png
-[11]: /img/features/scheduling-test-runs/create-scheduling-server/fig2new.png
-[12]: /img/features/scheduling-test-runs/create-scheduling-server/fig3new.png
-[13]: /img/features/scheduling-test-runs/create-scheduling-server/fig5new.png
-[13a]: /img/features/scheduling-test-runs/create-scheduling-server/fig5a.png
-[14]: /img/features/scheduling-test-runs/create-scheduling-server/fig4new.png
-[15]: /img/features/scheduling-test-runs/create-scheduling-server/execution-client-tab.png
-[30]: /img/features/scheduling-test-runs/local-run-all-in-one/fig1.png

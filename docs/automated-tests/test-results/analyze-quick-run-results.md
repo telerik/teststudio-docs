@@ -1,4 +1,4 @@
----
+﻿---
 title: Explore Quick Run Results
 page_title: Explore Quick Run Results
 description: "Test Studio Quick Run Results. Analyze the results from test run. Failing Test Studio test. Unable to find element. Warning in the execution log. Test Studio Execution log."
@@ -12,11 +12,11 @@ The __Quick Run__ results are generated after a <a href="/automated-tests/test-e
 
 <a href="/getting-started/first-project#test-recording" target="_blank">Record and execute a test</a>. The status of the generated Quick Run result is displayed in the upper ribbon in the <a href="/features/test-maintenance/steps-pane" target="_blank">Steps Pane</a>. You can see the overall result - passed in green or failed in red. You can access the execution log for this quick run through the __View Log__ button, or use the __Clear result__ option to delete the result from this execution.
 
-![Quick Run results][1]
+![Quick Run results](/img/automated-tests/test-results/new-quick-run-results/fig1.png)
 
 For each __action step, which was successfully passed__, you can see __images of the page state__ at the time of recording the test, and the time of execution. when troubleshooting a failing test, these screenshots are very useful to identify, if an action is reported successful, but it turns out during the test run it wasn't actually performed as expected.
 
-![Images for passed steps][1a]
+![Images for passed steps](/img/automated-tests/test-results/new-quick-run-results/fig1a.png)
 
 ## Open and Review the Execution Log
 
@@ -31,13 +31,13 @@ Click the **View Log** button to open and review the quick run execution log. It
 
 All these details make the execution log a beneficial source of specific information about a test execution and it is often used to debug errors in the tests.
 
-![View Quick Run result][2]
+![View Quick Run result](/img/automated-tests/test-results/new-quick-run-results/fig2.png)
 
 ## Successful Test Run with Warnings
 
 The <a href="/automated-tests/elements/elements-find-expression#elements-image" target="_blank">automatic fall back to image based search of elements</a> loga a warning in the execution log when triggered. The test result is marked as successful as all elements are located and all actions are performed, but if Test Studio fails to locate any element by its primary find expression, this is logged as message in the execution for your convenience.
 
-![Successful Test Run with Warnings][3]
+![Successful Test Run with Warnings](/img/automated-tests/test-results/new-quick-run-results/fig3.png)
 
 > __Tip__
 > <br>
@@ -46,17 +46,17 @@ The <a href="/automated-tests/elements/elements-find-expression#elements-image" 
 
 The warning is also listed in the __Steps Result Details__ section and the step is marked with an exclamation mark icon.
 
-![Successful Test Run with Warnings][3a]
+![Successful Test Run with Warnings](/img/automated-tests/test-results/new-quick-run-results/fig3a.png)
 
 ## Failed Test Run
 
 A failed test run generates an execution log with additional details about the specific failure.
 
-![Failed Test Run][4]
+![Failed Test Run](/img/automated-tests/test-results/new-quick-run-results/fig4.png)
 
 The __Step Failure Details__ section shows a summarized message for the reason of failure and specific suggestions how to troubleshoot the error.
 
-![Failed Test Run][4a]
+![Failed Test Run](/img/automated-tests/test-results/new-quick-run-results/fig4a.png)
 
 > __Tip__
 > <br>
@@ -65,22 +65,13 @@ The __Step Failure Details__ section shows a summarized message for the reason o
 
 Any __element, which failed to be located by its primary or backup search definition, fails the test__ and the overall status is reported failed. The __Step Failure Details__ section shows a summarized message for the reason of failure and specific suggestions how to troubleshoot the error.
 
-![Image based search failure][5a]
+![Image based search failure](/img/automated-tests/test-results/new-quick-run-results/fig5a.png)
 
 The execution log provides additional details for the failure and notes, if the backup search was used.
 
-![Image based search failure][5]
+![Image based search failure](/img/automated-tests/test-results/new-quick-run-results/fig5.png)
 
 ## Collect the Generated Quick Run Result
 
 If you need to provide the quick run results to a colleague of yours or within a support ticket, you can copy the overall execution log using the __Copy To Clipboard__ button, which is available when the log is opened. Paste and save the data in a text document, which can be distributed zipped.
 
-[1]: /img/automated-tests/test-results/new-quick-run-results/fig1.png
-[1a]: /img/automated-tests/test-results/new-quick-run-results/fig1a.png
-[2]: /img/automated-tests/test-results/new-quick-run-results/fig2.png
-[3]: /img/automated-tests/test-results/new-quick-run-results/fig3.png
-[3a]: /img/automated-tests/test-results/new-quick-run-results/fig3a.png
-[4]: /img/automated-tests/test-results/new-quick-run-results/fig4.png
-[4a]: /img/automated-tests/test-results/new-quick-run-results/fig4a.png
-[5]: /img/automated-tests/test-results/new-quick-run-results/fig5.png
-[5a]: /img/automated-tests/test-results/new-quick-run-results/fig5a.png

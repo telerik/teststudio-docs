@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage Test Studio Activated License
 page_title: Manage License
 description: Manage Test Studio Activated License. Deactivate Test Studio License. Deactivate license. Change Activated License.  
@@ -17,15 +17,15 @@ In this article you can find details for the following topics:
 
 In the **Manage License** window, you can review the activated Test Studio license information. To access it, you can use the **Help** drop-down in the upper right corner of a Test Studio instance.
 
-![Open Manage License window from help menu][1]
+![Open Manage License window from help menu](/img/knowledge-base/activation-kb/change-trial-purchase/fig1.png)
 
 The **Manage License** window provides details about the license expiration date, currently installed Test Studio version, license assignee, associated machine name and id.
 
-![Manage License window info][11]
+![Manage License window info](/img/knowledge-base/activation-kb/change-trial-purchase/manage-license-info.png)
 
 The __Change License...__ button will proceed to a list of all available purchased licenses and allow you to upgrade or downgrade when applicable, or deactivate the currently activated license.
 
-![Change purchased License][12]
+![Change purchased License](/img/knowledge-base/activation-kb/change-trial-purchase/change-purchased-license.png)
 
 ## Deactivate License
 
@@ -37,12 +37,8 @@ One option to deactivate the license is to access the Test Studio <a href="/feat
 
 Another option to deactivate the license is in the __Change License...__ screen in the [__Manage License__ window](#check-the-activated-license).
 
-![Deactivate License from Manage window][14]
-
-[1]: /img/knowledge-base/activation-kb/change-trial-purchase/fig1.png
+![Deactivate License from Manage window](/img/knowledge-base/activation-kb/change-trial-purchase/change-license-deactivate.png)
 
 
-[11]: /img/knowledge-base/activation-kb/change-trial-purchase/manage-license-info.png
-[12]: /img/knowledge-base/activation-kb/change-trial-purchase/change-purchased-license.png
 
-[14]: /img/knowledge-base/activation-kb/change-trial-purchase/change-license-deactivate.png
+

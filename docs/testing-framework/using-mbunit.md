@@ -1,4 +1,4 @@
----
+﻿---
 title: Using MbUnit
 page_title: Using MbUnit
 description: "Test Studio Testing Framework with MbUnit test"
@@ -27,7 +27,7 @@ In this section we will walk you through the steps to get you started using <a h
 
 * Visual Studio will pop-up the **Add New Item** dialog as shown below.
 
-![Create xUnit project][1]
+![Create xUnit project](/img/testing-framework/using-mbunit/fig1.png)
 
 * Expand the Test node displayed on the left then select Telerik Testing Framework. You should see four templates as shown in the image above.
 
@@ -156,4 +156,3 @@ Public Sub SimpleTest()
 End Sub
 ````
 
-[1]: /img/testing-framework/using-mbunit/fig1.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Using NUnit
 page_title: Using NUnit
 description: "Test Studio Testing Framework with NUnit test"
@@ -36,7 +36,7 @@ End Sub
 
 NUnit log:
 
-![NUnit log][1]
+![NUnit log](/img/testing-framework/using-nunit/fig1.png)
 
 * Telerik settings can be read directly from the **app.Config** of your test project. This allows you to configure your Telerik tests using the same .config file that you might be using to store your connection strings or other settings for your test suite.
 
@@ -52,7 +52,7 @@ In this section we will walk you through the steps to get you started using Tele
 
 * Visual Studio will pop-up the Add New Item dialog as shown below.
 
-![Create NUnit project][2]
+![Create NUnit project](/img/testing-framework/using-nunit/fig2.png)
 
 * Expand the Test node displayed on the left then select Telerik Testing Framework. You should see four templates as shown in the image above.
 
@@ -72,7 +72,7 @@ In this section we will walk you through the steps to get you started using Tele
 
 3. That's it! Verify that the extension is installed correctly from NUnit by checking the (Tools-Addins) dialog. It should look like this:
 
-![Register Addins][3]
+![Register Addins](/img/testing-framework/using-nunit/fig3.png)
 
 * Start writing your automated Telerik unit tests.
 
@@ -205,6 +205,3 @@ Public Sub SimpleTest()
 End Sub
 ````
 
-[1]: /img/testing-framework/using-nunit/fig1.png
-[2]: /img/testing-framework/using-nunit/fig2.png
-[3]: /img/testing-framework/using-nunit/fig3.png

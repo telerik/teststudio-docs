@@ -1,4 +1,4 @@
----
+﻿---
 title: ClosesBrowser Property
 page_title: ClosesBrowser Property
 description: When to use the ClosesBrowser Property for popups which invokes an event that closes the pop-up.
@@ -12,7 +12,7 @@ Pop-ups can have a control (usually a button) which invokes an event that closes
 
 "Click"-type of steps have a property called "ClosesBrowser":
 
-![ClosesBrowser property][1]
+![ClosesBrowser property](/img/knowledge-base/dialogs-and-popups-kb/closesbrowser-property/fig1.png)
 
 Depending on the implementation of the pop-up, Test Studio may or may not detect the cases where this property needs to be set to Ttrue. Symptoms related to this issue can be:
 
@@ -34,6 +34,5 @@ Depending on the implementation of the pop-up, Test Studio may or may not detect
 <!-- See also <a href="http://www.quirksmode.org/js/popup.html" target="_blank">This page</a> for an example of this kind of pop-up implementation. -->
 
 
-[1]: /img/knowledge-base/dialogs-and-popups-kb/closesbrowser-property/fig1.png
 
 

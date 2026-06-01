@@ -1,4 +1,4 @@
----
+﻿---
 title: Submit Support Ticket
 page_title: Submit Support Ticket
 description: How to submit a support ticket to contact the Test Studio Support Team. What details to provide to get help for a Test Studio query as soon as possible. 
@@ -105,6 +105,5 @@ Is your application publicly accessible?
 </tr>
 </table>
 
-![Submit support ticket][1]
+![Submit support ticket](/img/knowledge-base/best-practices-kb/submit-support-ticket/fig1.png)
 
-[1]: /img/knowledge-base/best-practices-kb/submit-support-ticket/fig1.png

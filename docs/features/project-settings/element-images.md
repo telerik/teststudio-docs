@@ -1,4 +1,4 @@
----
+﻿---
 title: Element Images Settings
 page_title: Element Images Settings
 description: "Test Studio Project settings element images. Settings to apply for the images recorded with the elements. Images used as backup search in Test Studio"
@@ -8,7 +8,7 @@ position: 3
 
 Apply specific <a href="/features/elements-explorer/elements-find-expression#elements-image" target="_blank">element's image</a> related settings on project level.
 
-![Element Images][1]
+![Element Images](/img/features/project-settings/element-images/fig1.png)
 
 > Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
 
@@ -38,4 +38,3 @@ Enable/Disable displaying the image preview in the Elements Explorer.
 
 This button allows you to delete the element images recorded for the whole project.
 
-[1]: /img/features/project-settings/element-images/fig1.png

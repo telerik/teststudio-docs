@@ -1,4 +1,4 @@
----
+﻿---
 title: UnexpectedDialogAction
 page_title: UnexpectedDialogAction
 description: Handle any unexpected dialogs if such appear during test list execution. 
@@ -28,13 +28,11 @@ If you determine that the UnexpectedDialogAction is causing unpredictable behavi
 
 In Test Studio Standalone version, set the *UnexpectedDialogAction* from the *Edit Test List Settings menu*:
 
-![UnexpectedDialogAction][1]
+![UnexpectedDialogAction](/img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig1.png)
 
 ### Visual Studio plugin
 
 In the Visual Studio plugin, edit the <a href="/features/test-runners/MSTest" target="_blank">.testsettings</a> file that corresponds to the test list run:
 
-![UnexpectedDialogAction Visual Studio][2]
+![UnexpectedDialogAction Visual Studio](/img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig2.png)
 
-[1]: /img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig1.png
-[2]: /img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig2.png

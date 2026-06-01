@@ -1,4 +1,4 @@
----
+﻿---
 title: ArtOfTest.Runner.exe - Test Studio CLI Runner
 page_title: Test Studio CLI Runner "ArtOfTest.Runner.exe"
 description: "Test Studio Command line runner client is called ArtOfTest.Runner.exe. Test Studio execution engine in the command prompt"
@@ -24,13 +24,13 @@ Similar to any other executable files you have few options to call the ArtOfTest
 - Change the context root directory in the command prompt window to the one containing the *.exe file and use the *.exe name directly. 
 - Set the *.exe directory as environmental variable in the OS and use the *.exe name directly from whichever directory is the current context. 
 
-![cmd][1]
+![cmd](/img/features/test-runners/artoftest-runner/fig1.png)
 
 ## Help Screen
 
 Use the `help` option to get a list of all options supported by the CLI runner. The short form to use is `/?` or `/h`. Below is the Help Screen for __ArtOfTest.Runner.exe__:
 
-![Help screen shows the list of all options][2]
+![Help screen shows the list of all options](/img/features/test-runners/artoftest-runner/fig2.png)
 
 
 ## Options to Specify Which File to Execute
@@ -57,7 +57,7 @@ The `test` option accepts full file path to an individual test with the **\*.tst
 test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
 ````
 
-![Run individual test stored in the project root folder][5]
+![Run individual test stored in the project root folder](/img/features/test-runners/artoftest-runner/fig5.png)
 
 - Run individual test stored in a sub-folder under the project root one: 
 
@@ -67,7 +67,7 @@ test="D:\Test Studio Projects\July2024\inProjectFolder\nestedDemoTest.tstest"
 root="D:\Test Studio Projects\July2024"
 ````
 
-![Run individual test stored in a sub-folder under the project root one][4]
+![Run individual test stored in a sub-folder under the project root one](/img/features/test-runners/artoftest-runner/fig4.png)
 
 ### list Option
 
@@ -88,7 +88,7 @@ The `list` option takes the full path to a test list file with the **\*.aiilist*
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist"
 ````
 
-![Run test list][6]
+![Run test list](/img/features/test-runners/artoftest-runner/fig6.png)
 
 ### root Option 
 
@@ -115,7 +115,7 @@ The `out` option defines an alternative folder to store the results to and takes
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder"
 ````
 
-![Run test list outputting the results in specified folder][7]
+![Run test list outputting the results in specified folder](/img/features/test-runners/artoftest-runner/fig7.png)
 
 ### result Option
 
@@ -131,7 +131,7 @@ list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out
 result="customName"
 ````
 
-![Run test list outputting the results in specified folder with custom name][8]
+![Run test list outputting the results in specified folder with custom name](/img/features/test-runners/artoftest-runner/fig8.png)
 
 ### xml or html Options
 
@@ -151,7 +151,7 @@ list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist"
 xml
 ```` 
 
-![Run test list outputting the results in xml format][9]
+![Run test list outputting the results in xml format](/img/features/test-runners/artoftest-runner/fig9.png)
 
 - Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
 
@@ -162,7 +162,7 @@ result="customName"
 html
 ````
 
-![Run test list outputting the results in html format in specified folder with custom name][10]
+![Run test list outputting the results in html format in specified folder with custom name](/img/features/test-runners/artoftest-runner/fig10.png)
 
 > __Note__
 ><br>
@@ -184,7 +184,7 @@ result="customName"
 junitstep
 ````
 
-![Run test list outputting the results in junitstep format in specified folder with custom name][11]
+![Run test list outputting the results in junitstep format in specified folder with custom name](/img/features/test-runners/artoftest-runner/fig11.png)
 
 - Run single test outputting the results in junit format: 
 
@@ -194,7 +194,7 @@ test="D:\elle\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
 junit
 ````
 
-![Run single test outputting the results in junit format][12]
+![Run single test outputting the results in junit format](/img/features/test-runners/artoftest-runner/fig12.png)
 
 > __Note__
 ><br>
@@ -329,7 +329,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
 
 Below is a sample command to publish results to TFS from a test list execution.
 
-![Publish Results to TFS][8]
+![Publish Results to TFS](/img/features/test-runners/artoftest-runner/fig8.png)
 
 ## Exit Codes
 
@@ -389,15 +389,4 @@ padding: 8px;
 </table>
 
 
-[1]: /img/features/test-runners/artoftest-runner/fig1.png
-[2]: /img/features/test-runners/artoftest-runner/fig2.png
 
-[4]: /img/features/test-runners/artoftest-runner/fig4.png
-[5]: /img/features/test-runners/artoftest-runner/fig5.png
-[6]: /img/features/test-runners/artoftest-runner/fig6.png
-[7]: /img/features/test-runners/artoftest-runner/fig7.png
-[8]: /img/features/test-runners/artoftest-runner/fig8.png
-[9]: /img/features/test-runners/artoftest-runner/fig9.png
-[10]: /img/features/test-runners/artoftest-runner/fig10.png
-[11]: /img/features/test-runners/artoftest-runner/fig11.png
-[12]: /img/features/test-runners/artoftest-runner/fig12.png

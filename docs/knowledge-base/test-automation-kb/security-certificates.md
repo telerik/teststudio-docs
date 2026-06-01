@@ -1,4 +1,4 @@
----
+﻿---
 title: Security Certificates
 page_title: Security Certificates
 description: Security (SSL) Certificates. Browser prompt certificate warning. 
@@ -10,19 +10,19 @@ Security (SSL) Certificates are tricky to automate because each browser prompts 
 
 **Internet Explorer**
 
-![Security warning][1]
+![Security warning](/img/knowledge-base/test-automation-kb/security-certificates/fig1.png)
 
 **Chrome**
 
-![Security warning Chrome][2]
+![Security warning Chrome](/img/knowledge-base/test-automation-kb/security-certificates/fig2.png)
 
 **FireFox**
 
-![Security warning FireFox][3]
+![Security warning FireFox](/img/knowledge-base/test-automation-kb/security-certificates/fig3.png)
 
 **Safari**
 
-![Security warning Safari][4]
+![Security warning Safari](/img/knowledge-base/test-automation-kb/security-certificates/fig4.png)
 
 ## Solution 
 
@@ -51,9 +51,5 @@ If ActiveBrowser.BrowserType = BrowserType.Chrome Then
 End If
 ````
 
-[1]: /img/knowledge-base/test-automation-kb/security-certificates/fig1.png
-[2]: /img/knowledge-base/test-automation-kb/security-certificates/fig2.png
-[3]: /img/knowledge-base/test-automation-kb/security-certificates/fig3.png
-[4]: /img/knowledge-base/test-automation-kb/security-certificates/fig4.png
 
 

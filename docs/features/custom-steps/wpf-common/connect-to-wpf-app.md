@@ -1,4 +1,4 @@
----
+﻿---
 title: Connect to WPF Application
 page_title: Connect to WPF Application
 description: "How to connect to a running WPF process in Test Studio Desktop test? Can use an already started WPF application to connect to and continue recording steps in the desktop test>"
@@ -12,7 +12,7 @@ This article demonstrates how to add this type of step into the test.
 
 Choose the __Connect to WPF Application__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Add Connect to WPF Application step][1]
+![Add Connect to WPF Application step](/img/features/custom-steps/connect-to-app/step-builder-connect-app-wpf.png)
 
 There are few notable properties of the step:
 
@@ -21,7 +21,5 @@ There are few notable properties of the step:
 - __Set Focus__ - sets focus on the application when launched.
 - __Auto Close__ - closes the application process when test completes.
 
-![Connect to Application step properties][2]
+![Connect to Application step properties](/img/features/custom-steps/connect-to-app/extended-menu-connect-app.png)
 
-[1]: /img/features/custom-steps/connect-to-app/step-builder-connect-app-wpf.png
-[2]: /img/features/custom-steps/connect-to-app/extended-menu-connect-app.png

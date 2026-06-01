@@ -1,4 +1,4 @@
----
+﻿---
 title: Automate Browser Actions
 page_title:  Automate Browser Actions
 description: "Test Studio Testing Framework support in coded test for automating browser actions like navigate to a page, clear cache and cookies, navigate through visited pages, etc."
@@ -210,7 +210,7 @@ In addition to that, the 'Mouse' object supports offset coordinates which are ve
  
 For example, if you are attempting to click the red (x) on this window to drag it to another location:
 
-![Coordinate offset][1]
+![Coordinate offset](/img/testing-framework/automate-browser-actions/fig1.jpg)
 
 You would write something like this:
 
@@ -239,4 +239,3 @@ Manager.Desktop.Mouse.DragDrop(mywindow.GetRectangle(), New Drawing.Point(0, 2),
     mydestination.GetRectangle(), New Drawing.Point(0, 0), OffsetReference.AbsoluteCenter)
 ````
 
-[1]: /img/testing-framework/automate-browser-actions/fig1.jpg

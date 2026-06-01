@@ -1,4 +1,4 @@
----
+﻿---
 title: Results Calendar
 page_title: Results Calendar
 description: "Test Studio Test Results Calendar. Test List results backlog in Test Studio. Review Test Studio test list results. Scheduled test list results"
@@ -15,17 +15,17 @@ This article describes the Results calendar options and how these can help you.
 
 In the __Results__ tab you can view the test lists executions in a month, week, or day. Buttons along the top, let you jump between _Day_, _Week_, _Month_, and _Timeline_ views.
 
-![Switch between day, week, month view][3]
+![Switch between day, week, month view](/img/automated-tests/test-list-results/calendar/fig3.png)
 
 Each test list result is displayed as colored block - green for _Passed_ run, red for _Failed_ run, and yellow for an _upcoming scheduled test list execution_.
 
-![Passed, Failed, Scheduled jobs][4]
+![Passed, Failed, Scheduled jobs](/img/automated-tests/test-list-results/calendar/fig4.png)
 
 ## Navigate through Calendar Dates
 
 In the upper right corner you can find _navigation arrow buttons_, which allow you to move back and forward through a period of time (one week), based on the current view. Between these arrows, there is a _calendar button_, which can be used to jump to a specific date selected from the pop-up calendar.
 
-![navigate calendar][5]
+![navigate calendar](/img/automated-tests/test-list-results/calendar/fig5.png)
 
 > __Tip__
 ><br>
@@ -38,11 +38,7 @@ In the upper right corner you can find _navigation arrow buttons_, which allow y
 
 Double click a test list result entry to view its details displayed on the right side of the Calendar view. Find out <a href="/automated-tests/test-list-results/analyze-test-list-results" target="_blank">how to read the test list results</a>.
 
-![drill down test list result][6]
+![drill down test list result](/img/automated-tests/test-list-results/calendar/fig6.png)
 
 
 
-[3]: /img/automated-tests/test-list-results/calendar/fig3.png
-[4]: /img/automated-tests/test-list-results/calendar/fig4.png
-[5]: /img/automated-tests/test-list-results/calendar/fig5.png
-[6]: /img/automated-tests/test-list-results/calendar/fig6.png

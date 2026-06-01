@@ -1,4 +1,4 @@
----
+﻿---
 title: Modal Dialogs
 page_title: Modal Dialogs
 description: "Handle a modal dialog in a coded step in Test Studio. Coded test to handle modal dialogs in Test Studio. Test Studio Testing Framework Download Modal Dialog handling.."
@@ -7,7 +7,7 @@ position: 9
 
 # Handling IE Modal Dialogs
 
-![Modal Dialog][1]
+![Modal Dialog](/img/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/modal-dialogs/fig1.png)
 
 The main difference between IE modal dialogs and the HTML Pop-ups is that the modal dialog stays in focus even when you try to focus back on the parent window, while the HTML pop-up is just like any other browser instances.
  
@@ -90,6 +90,5 @@ Public Sub IEModalDialogsSupport()
 End Sub
 ````
 
-[1]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/modal-dialogs/fig1.png
 
 

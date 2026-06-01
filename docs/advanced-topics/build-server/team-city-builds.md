@@ -1,4 +1,4 @@
----
+﻿---
 title: TeamCity Builds
 page_title: TeamCity Test Execution
 description: "Integrate Test Studio tests in TeamCity continuous integration. Execute Test Studio tests with TeamCity."
@@ -22,27 +22,27 @@ There are no specifics in installation of the TeamCity server. To be able to exe
 
 The build agent **have** to be started in a **console mode**. To complete that follow these steps:
 
-1.&nbsp; Locate the build agent's bin folder. The default is C:\TeamCity\buildAgent\bin.
+1. Locate the build agent's bin folder. The default is C:\TeamCity\buildAgent\bin.
 
-2.&nbsp; Open a command prompt window.
+2. Open a command prompt window.
 
-3.&nbsp; Change to the bin folder you just located.
+3. Change to the bin folder you just located.
 
-4.&nbsp; Enter 'agent start'.
+4. Enter 'agent start'.
 
 ## Configure TeamCity Project to Execute Test Studio Tests
 
-1.&nbsp; Create new project
+1. Create new project
 
-![Create new project][1]
+![Create new project](/img/advanced-topics/build-server/team-city-builds/New_project.png)
 
-2.&nbsp; Create new build configuration:
+2. Create new build configuration:
 
-![Create new build config][2]
+![Create new build config](/img/advanced-topics/build-server/team-city-builds/New_Build_config.png)
 
-3.&nbsp; Add new command line build step
+3. Add new command line build step
 
-![New build step][3]
+![New build step](/img/advanced-topics/build-server/team-city-builds/New_build_step.png)
 
 For "Build script content" enter:
 "PATH_TO_TEST_STUDIO_BIN_DIR\ArtOfTest.Runner.exe" test="C:\Users\deyan\Desktop\TestStudio\WebTest.tstest" out="C:\Users\deyan\Desktop\TestStudioResults" junitstep
@@ -59,9 +59,9 @@ list="PATH_TO_PROJECT\TEST_LIST_NAME.aiilist" out="PATH_TO_RESULT_DIR"  junitste
 test="PATH_TO_PROJECT\TEST_NAME.tstest" out="PATH_TO_RESULT_DIR" junitstep
 ````
 
-4.&nbsp; Add new Build Feature
+4. Add new Build Feature
 
-![New Build Feature][4]
+![New Build Feature](/img/advanced-topics/build-server/team-city-builds/New_Build_Feature.png)
 
 From drop-down list, select "XML report processing"
 
@@ -74,7 +74,3 @@ Example:
 C:\Users\deyan\Desktop\TestStudioResults\*.xml
 ````
 
-[1]: /img/advanced-topics/build-server/team-city-builds/New_project.png
-[2]: /img/advanced-topics/build-server/team-city-builds/New_Build_config.png
-[3]: /img/advanced-topics/build-server/team-city-builds/New_build_step.png
-[4]: /img/advanced-topics/build-server/team-city-builds/New_Build_Feature.png

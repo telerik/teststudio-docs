@@ -1,4 +1,4 @@
----
+﻿---
 title: General Project Settings
 page_title: General Project Settings
 description: "Test Studio project settings - general settings in Test Studio. WPF application default path in Test Studio project.  Https certificate error in Test Studio - register the https connection certificate. Enable tracking of active Test Studio test file - highlight the currently opened test in the Test Studio Project pane."
@@ -8,7 +8,7 @@ position: 1
 
 The General section displays miscellaneous settings for specialized circumstances.
 
-![General][1]
+![General](/img/features/project-settings/general/fig1.png)
 
 > Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
 
@@ -45,4 +45,3 @@ This property is useful for large projects, which contain multiple tests. If ena
 This property allows you to bring up the project in the same state when it was last closed. If enabled, by next launch of the project, any tests and code files not closed, will be automatically opened.
 
 
-[1]: /img/features/project-settings/general/fig1.png

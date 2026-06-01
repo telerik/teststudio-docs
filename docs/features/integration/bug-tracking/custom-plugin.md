@@ -1,4 +1,4 @@
----
+﻿---
 title: Custom Plugin
 page_title: Create a Custom Bug Tracking Plugin
 description: "Create a Custom Bug Tracking Plugin in Test Studio. Interface Test Studio with your custom Bug Tracking application. Sample code to build custom bug tracking plugin in Test Studio."
@@ -13,9 +13,9 @@ This document shows you how to build a plugin to interface Test Studio with your
 
 Test Studio uses its plugins model to run the Bug Trackers. The type of Bug Tracking tool isn't important – it's all about the actual implementation of the Bug Tracker (IBugTracker interface). The absolute minimum is to just implement the IBugTracker interface to display the app in the **Manage Bug Tracking** dialog. Find a sample class below.
 
-1.&nbsp; Create a Class Library project in Visual Studio. This example uses C#.
+1. Create a Class Library project in Visual Studio. This example uses C#.
 
-2.&nbsp; Reference the following DLLs in **C:\Program Files (x86)\Progress\Test Studio\Bin\**: 
+2. Reference the following DLLs in **C:\Program Files (x86)\Progress\Test Studio\Bin\**: 
 
 - **ArtOfTest.WebAii.dll**
 - **ArtOfTest.WebAii.Design.dll**
@@ -23,13 +23,13 @@ Test Studio uses its plugins model to run the Bug Trackers. The type of Bug Trac
 
 > Ensure the Specific Version property for these references is set to False. See [here](/troubleshooting-guide/visual-studio-tg/missing-assembly-references) for more information.
 
-3.&nbsp; Add the following using statement to the class file:
+3. Add the following using statement to the class file:
 
 ````C#
 using ArtOfTest.WebAii.Design.Extensibility.BugTracking;
 ````
 
-4.&nbsp; The *ArtOfTest.WebAii.Design.Extensibility.BugTracking* namespace contains **IBugTracker** that the class needs 	to implement:
+4. The *ArtOfTest.WebAii.Design.Extensibility.BugTracking* namespace contains **IBugTracker** that the class needs 	to implement:
 
 ````C#
 namespace ClassLibrary1
@@ -40,7 +40,7 @@ namespace ClassLibrary1
 }
 ````
 
-5.&nbsp; Right click on IBugTracker and select Implement Interface > Implement Interface. This displays all the methods   	and notifications exposed by Test Studio. Here are definitions for each IBugTracker member:
+5. Right click on IBugTracker and select Implement Interface > Implement Interface. This displays all the methods   	and notifications exposed by Test Studio. Here are definitions for each IBugTracker member:
 
 ````C#
 	namespace ClassLibrary1
@@ -121,21 +121,21 @@ namespace ClassLibrary1
     }
 ````
 
-6.&nbsp; Any implementation beyond this is specific to the actual Bug Tracking application you're using.
+6. Any implementation beyond this is specific to the actual Bug Tracking application you're using.
 
 - **ConnectionUI** is a WPF control Test Studio loads when you choose to configure the selected bug tracker.
 - The bug tracker implementation is supposed to work with the ConnectionUI inputs, hence it depends on the needs of the specific bug tracker.
 - For example, if the bug tracker requires a Server URL field, you can add that input here.
 
-7.&nbsp; You can also persist the configured bug tracker settings so that you don't have to reconfigure the bug tracker 	each time you load the project. The process is straight-forward – just implement the Save/Load methods in 	regards to the fields specific to the bug tracker to which you're connecting.
+7. You can also persist the configured bug tracker settings so that you don't have to reconfigure the bug tracker 	each time you load the project. The process is straight-forward – just implement the Save/Load methods in 	regards to the fields specific to the bug tracker to which you're connecting.
 
 - To provide that ability, **Get/ApplyPersistableSettings** are exposed to work with **BugTrackerPersistableSettings**. 
 - Implement that class and use it for the **IBugTracker** related methods. 
 - **Get/Apply** is called by Test Studio to save the settings in the Settings.aiis file, as well as load them and configure the bug tracker on project load. 
 
-8.&nbsp; Compile the class library.
+8. Compile the class library.
 
-9.&nbsp; Deploy the plugin by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to one of the following directories:
+9. Deploy the plugin by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to one of the following directories:
 
 - For Test Studio versions 2012.2.920 and later:  **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
 - For Test Studio versions before 2012.2.920: **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\BugTrackers\**

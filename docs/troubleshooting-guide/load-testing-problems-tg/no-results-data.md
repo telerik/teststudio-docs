@@ -14,10 +14,8 @@ Running a load test does not generate results data.
 
 This behavior may occur if the sampling period for the load test is equal to or greater than the duration of the load test. To resolve this issue:
 
-1.&nbsp; In the **Run** screen of the load test, decrease the sampling period.
+1. In the **Run** screen of the load test, decrease the sampling period.
 
-![Sampling Rate][1]
+![Sampling Rate](/img/troubleshooting-guide/load-testing-problems-tg/no-results-data/fig1.png)
 
-2.&nbsp; Run the load test again.
-
-[1]: /img/troubleshooting-guide/load-testing-problems-tg/no-results-data/fig1.png
+2. Run the load test again.

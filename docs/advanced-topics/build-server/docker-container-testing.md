@@ -1,4 +1,4 @@
----
+﻿---
 title: Docker Container Testing
 page_title: Use Docker Container for Test Studio Test Execution
 description: "Docker container testing is compatible with Test Studio. Execute Test Studio tests in a Docker container. Headless test execution of Test Studio tests in Docker container."
@@ -35,11 +35,11 @@ You can refer to the <a href="https://docs.docker.com/get-started/" target="_bla
 
 Below are listed the steps to setup a Docker container for testing.
 
-1.&nbsp; Switch Docker to __use Windows containers__, instead of the default Linux containers. Once you switch it successfully, the option will show as "Switch to Linux containers...", meaning that the current state is Windows containers.
+1. Switch Docker to __use Windows containers__, instead of the default Linux containers. Once you switch it successfully, the option will show as "Switch to Linux containers...", meaning that the current state is Windows containers.
 
-![Switch to Windows containers][1]
+![Switch to Windows containers](/img/advanced-topics/build-server/docker-container-testing/fig1.png)
 
-2.&nbsp; Pull the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">official Microsoft Windows Docker image</a> from the Docker Hub. Use the command that is provided in the Docker Hub and make sure to specify the exact build to be pulled.
+2. Pull the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">official Microsoft Windows Docker image</a> from the Docker Hub. Use the command that is provided in the Docker Hub and make sure to specify the exact build to be pulled.
 
 ````
 //For Windows build 1909, use the following command
@@ -54,17 +54,17 @@ docker pull mcr.microsoft.com/windows:1909
 > <br>
 > The Microsoft Windows Docker image does not support _"latest"_ tag. For further information check the documentation on the <a href="https://hub.docker.com/_/microsoft-windows" target="_blank">DockerHub's page for this image</a>.
 
-3.&nbsp; Create a container from the official Microsoft Windows image. To do that, go to **Images** in the Docker desktop application and click on the **Run** button.
+3. Create a container from the official Microsoft Windows image. To do that, go to **Images** in the Docker desktop application and click on the **Run** button.
 
-![Create a container][2]
+![Create a container](/img/advanced-topics/build-server/docker-container-testing/fig2.png)
 
 Then, expand the _Optional Settings_ and specify **Host Path** and **Container Path**. The **Host Path** is a folder on the machine, which is available to the Docker container and the **Container Path** is how you will reference this resources from the **Host Path** within the container.
 
-![Optional settings][3]
+![Optional settings](/img/advanced-topics/build-server/docker-container-testing/fig3.png)
 
-4.&nbsp; Copy the .msi installers of <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">Test Studio Run-Time</a> and <a href="https://chromeenterprise.google/browser/download/#windows-tab" target="_blank">Chrome Enterprise</a> in the **Host Path** folder. They become available in the **Container Path** in the Docker container and are ready to be installed. Open the Command Line Interface (CLI) of the container and navigate to the **Container Path** folder.
+4. Copy the .msi installers of <a href="https://www.telerik.com/account/product-download?product=TESTSTUDIORUNTIME" target="_blank">Test Studio Run-Time</a> and <a href="https://chromeenterprise.google/browser/download/#windows-tab" target="_blank">Chrome Enterprise</a> in the **Host Path** folder. They become available in the **Container Path** in the Docker container and are ready to be installed. Open the Command Line Interface (CLI) of the container and navigate to the **Container Path** folder.
 
-![Open CLI][4]
+![Open CLI](/img/advanced-topics/build-server/docker-container-testing/fig4.png)
 
 __Install both Test Studio Run-Time and Chrome browser enterprise edition in passive mode__, because there is no UI in the container and active installation can not complete. You can use the following command, but make sure that each installer is finished without errors before you proceed with the next one.
 
@@ -95,7 +95,3 @@ ArtOfTest.Runner.exe /list="full path to the test list file with extension .aiil
 
 You can apply specific settings for Docker container test list execution, like the browser type. Since the test list execution runs only in Headless mode, you can choose different <a href="/features/test-runners/artoftest-runner#settings-option" target="_blank">settings file</a> to be used from the ArtOfTest.Runner.exe. Using such file allows you to not change the <a href="/features/test-lists/test-list-settings" target="_blank">Test List Settings</a> on your original test list and still execute it in Headless mode in the container.
 
-[1]: /img/advanced-topics/build-server/docker-container-testing/fig1.png
-[2]: /img/advanced-topics/build-server/docker-container-testing/fig2.png
-[3]: /img/advanced-topics/build-server/docker-container-testing/fig3.png
-[4]: /img/advanced-topics/build-server/docker-container-testing/fig4.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Elements Explorer
 page_title: Elements Explorer Overview
 description: "Elements Explorer in Test Studio. Elements in the Elements Explorer in Test Studio. Edit an element in Test Studio. Unable to find element failure in Test Studio test"
@@ -15,10 +15,10 @@ The Elements Explorer pane provides a one-stop shop to view all elements used in
 	<tr style="text-align: center; background-color: transparent; border:none;">
 		<td>
 		
-![Standalone Version][1] <br><br>**Standalone version**</td>
+<img src="/img/features/elements-explorer/overview/fig1.png" alt="Standalone Version" /> <br><br>**Standalone version**</td>
 <td>
 
-![VS Plugin][2] <br><br>**VS plugin**</td>
+<img src="/img/features/elements-explorer/overview/fig2.png" alt="VS Plugin" /> <br><br>**VS plugin**</td>
 </tr>
 </table>
 
@@ -35,10 +35,10 @@ The elements are organized under Page nodes (and also <a href="/general-informat
 	<tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![HTML Tree View][4]<br>**HTML Tree View**</td>
+<img src="/img/features/elements-explorer/overview/fig4.png" alt="HTML Tree View" /><br>**HTML Tree View**</td>
 <td>
 
-![WPF Tree View][6]<br>**WPF Tree View**</td>
+<img src="/img/features/elements-explorer/overview/fig6.png" alt="WPF Tree View" /><br>**WPF Tree View**</td>
 </tr>
 </table>
 
@@ -62,7 +62,7 @@ Each element in the Elements Explorer is tied to a step from the project. The la
 
 Right click a Page node to see a context menu with these active choices:
 
-![Page Node][7]
+![Page Node](/img/features/elements-explorer/overview/fig7.png)
 
 - **Validate** - validate all elements in the page node against the currently loaded page. Requires the page to be loaded in the recording window. Results indicated with green checks and red X's. 
 - **Rename** - alters the Friendly Name.
@@ -73,7 +73,7 @@ Right click a Page node to see a context menu with these active choices:
 
 Each Element node has a context menu with these active choices:
 
-![Elements][8]
+![Elements](/img/features/elements-explorer/overview/fig8.png)
 
 - **Edit Element** - loads the Find Element menu to choose where and how to locate this element in your web page or application.
 - **Edit in Live** - locate the element in the currently loaded page (available in Test Studio 2018 R3 and earlier).
@@ -88,7 +88,7 @@ Each Element node has a context menu with these active choices:
 
 ## Element's Explorer Menu Bar 
 
-The Elements menu bar ![Elements bar][3] has the following buttons:
+The Elements menu bar ![Elements bar](/img/features/elements-explorer/overview/fig3.png) has the following buttons:
 
 - **Add Element** - add a <a href="/features/elements-explorer/predefined-elements" target="_blank">Predefined element</a>.
 - **Element Mapping (IntelliMap)** - <a href="/features/elements-explorer/element-mapping" target="_blank">Map</a> a Predefined element.
@@ -99,11 +99,3 @@ The Elements menu bar ![Elements bar][3] has the following buttons:
 - **Expand/Collapse** - show or hide all elements under their respective page nodes.
 - **This Test/All Tests** - show elements for the currently loaded test only, or the elements for every test in the project.
 
-[1]: /img/features/elements-explorer/overview/fig1.png
-[2]: /img/features/elements-explorer/overview/fig2.png
-[3]: /img/features/elements-explorer/overview/fig3.png
-[4]: /img/features/elements-explorer/overview/fig4.png
-[5]: /img/features/elements-explorer/overview/fig5.png
-[6]: /img/features/elements-explorer/overview/fig6.png
-[7]: /img/features/elements-explorer/overview/fig7.png
-[8]: /img/features/elements-explorer/overview/fig8.png

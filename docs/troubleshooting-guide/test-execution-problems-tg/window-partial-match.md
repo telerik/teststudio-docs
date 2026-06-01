@@ -1,4 +1,4 @@
----
+﻿---
 title: Window Partial Match
 page_title: How to Indicate a Partial Match for WPF Window Name
 description: "Learn how to handle dynamic WPF window titles in Test Studio by using partial match techniques. This article explains how to edit the Caption property for reliable element identification during automated test execution."
@@ -18,14 +18,10 @@ Edit the **Caption** property for the Window node in the Elements Explorer. Use 
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![fig1][1]<br>![fig2][2]<br>**Original Window Caption**</td>
+<img src="/img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig1.png" alt="fig1" /><br><img src="/img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig2.png" alt="fig2" /><br>**Original Window Caption**</td>
 <td>
 
-![fig3][3]<br>![fig4][4]<br>**Edited for Partial Match**</td>
+<img src="/img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig3.png" alt="fig3" /><br><img src="/img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig4.png" alt="fig4" /><br>**Edited for Partial Match**</td>
 </tr>
 </table>
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig1.png
-[2]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig2.png
-[3]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig3.png
-[4]: /img/troubleshooting-guide/test-execution-problems-tg/wpf-tg/window-partial-match/fig4.png

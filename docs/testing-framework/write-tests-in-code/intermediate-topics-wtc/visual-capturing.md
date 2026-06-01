@@ -1,4 +1,4 @@
----
+﻿---
 title: Visual Capturing
 page_title: Visual Capturing
 description: "Test Studio Testing Framework support in coded tests to capture the visual state of the current active application window."
@@ -65,7 +65,7 @@ Let's take a simple example to demonstrate this functionality. Assume we have th
 
 The above page renders as follows:
 
-![Site][1]
+![Site](/img/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing/fig1.png)
 
 The below code shows how we can get the visual capture of the second 'div' element:
 
@@ -86,9 +86,7 @@ Dim divimage As System.Drawing.Bitmap = ActiveBrowser.Window.GetBitmap(myDiv.Get
 
 The divimage bitmap captured object is:
 
-![Captured div][2]
+![Captured div](/img/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing/fig2.png)
 
 **Note:** If the image is not scrolled properly, the capture won't work. Make sure you use the Browser.Actions.ScrollToVisible() method to ensure the element is visible before capturing it.
 
-[1]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing/fig1.png
-[2]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/visual-capturing/fig2.png

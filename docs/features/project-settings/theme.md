@@ -1,4 +1,4 @@
----
+﻿---
 title: Theme Settings
 page_title: Theme Settings
 description: "Test Studio Project settings Theme allows you to switch between dark and light theme. Dark theme for Test Studio."
@@ -17,10 +17,10 @@ Project theme settings
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Light Settings][1]</td>
+<img src="/img/features/project-settings/theme/fig1.png" alt="Light Settings" /></td>
 <td>
 
-![Dark Settings][2]</td>
+<img src="/img/features/project-settings/theme/fig2.png" alt="Dark Settings" /></td>
 </tr>
 </table>
 
@@ -29,10 +29,10 @@ Test Studio Welcome screen
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Light Welcome][3]</td>
+<img src="/img/features/project-settings/theme/fig3.png" alt="Light Welcome" /></td>
 <td>
 
-![Dark Welcome][4]</td>
+<img src="/img/features/project-settings/theme/fig4.png" alt="Dark Welcome" /></td>
 </tr>
 </table>
 
@@ -41,10 +41,10 @@ Test Studio test development
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Light Test Studio][5]</td>
+<img src="/img/features/project-settings/theme/fig5.png" alt="Light Test Studio" /></td>
 <td>
 
-![Dark Test Studio][6]</td>
+<img src="/img/features/project-settings/theme/fig6.png" alt="Dark Test Studio" /></td>
 </tr>
 </table>
 
@@ -53,10 +53,10 @@ Test Studio Test Runner
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Light Test Runner][7]</td>
+<img src="/img/features/project-settings/theme/fig7.png" alt="Light Test Runner" /></td>
 <td>
 
-![Dark Test Runner][8]</td>
+<img src="/img/features/project-settings/theme/fig8.png" alt="Dark Test Runner" /></td>
 </tr>
 </table>
 
@@ -65,10 +65,10 @@ Schedule a test list for remote execution
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Light TestList][9]</td>
+<img src="/img/features/project-settings/theme/fig9.png" alt="Light TestList" /></td>
 <td>
 
-![Dark TestList][10]</td>
+<img src="/img/features/project-settings/theme/fig10.png" alt="Dark TestList" /></td>
 </tr>
 </table>
 
@@ -77,22 +77,10 @@ Visual Studio integration with matching theme colors
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Light Visual Studio][11]</td>
+<img src="/img/features/project-settings/theme/fig11.png" alt="Light Visual Studio" /></td>
 <td>
 
-![Dark Visual Studio][12]</td>
+<img src="/img/features/project-settings/theme/fig12.png" alt="Dark Visual Studio" /></td>
 </tr>
 </table>
 
-[1]: /img/features/project-settings/theme/fig1.png
-[2]: /img/features/project-settings/theme/fig2.png
-[3]: /img/features/project-settings/theme/fig3.png
-[4]: /img/features/project-settings/theme/fig4.png
-[5]: /img/features/project-settings/theme/fig5.png
-[6]: /img/features/project-settings/theme/fig6.png
-[7]: /img/features/project-settings/theme/fig7.png
-[8]: /img/features/project-settings/theme/fig8.png
-[9]: /img/features/project-settings/theme/fig9.png
-[10]: /img/features/project-settings/theme/fig10.png
-[11]: /img/features/project-settings/theme/fig11.png
-[12]: /img/features/project-settings/theme/fig12.png

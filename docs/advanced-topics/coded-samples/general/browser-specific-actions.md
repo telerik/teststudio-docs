@@ -1,4 +1,4 @@
----
+﻿---
 title: Browser Specific Actions
 page_title: Browser Specific Actions
 description: "Learn how to execute browser-specific actions in Test Studio tests using standard or coded steps. This article explains how to use the RunsAgainst property and provides C# and VB.NET examples for handling different browsers during automated test execution."
@@ -14,7 +14,7 @@ Use a standard (non-coded) step or use a coded solution.
 
 The **RunsAgainst** Test Step Property allows you to choose against which browser to run the step:
 
-![RunsAgainst][1]
+![RunsAgainst](/img/advanced-topics/coded-samples/general/browser-specific-actions/fig1.png)
 
 Keep in mind that if you use this feature, the step will run against the specified browser only. You can only choose one browser and not, for instance, two out of three browsers. (To accomplish that, copy and paste the step, then change the RunsAgainst property for the new step.)
 
@@ -79,4 +79,3 @@ System.Threading.Thread.Sleep(2000)
 
 The coded solution is also applicable to the Telerik Testing Framework.
 
-[1]: /img/advanced-topics/coded-samples/general/browser-specific-actions/fig1.png

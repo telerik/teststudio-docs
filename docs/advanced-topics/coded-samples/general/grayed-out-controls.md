@@ -1,4 +1,4 @@
----
+﻿---
 title: Grayed Out Controls
 page_title: Grayed Out Controls
 description: "Learn how to handle grayed out or disabled controls in Test Studio automated tests. Find solutions for waiting out loading screens and ensuring reliable UI automation when elements are temporarily unavailable."
@@ -14,7 +14,7 @@ The crux of the matter is that Test Studio cannot recognize whether a control is
 
 Let's take a simple situation in order to demonstrate this: your application contains a button that gets grayed out at some point when a specific event is triggered.
 
-![Grayed out][1]
+![Grayed out](/img/advanced-topics/coded-samples/general/grayed-out-controls/fig1.png)
 
 While recording a test for this application, you would wait out the loading screen and then click the button. This gets recorded as a Click Step. When Test Studio invokes this step during test execution, here's what happens:
 
@@ -61,4 +61,3 @@ Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000)
 'Now we're free to click around the page without worrying whether the click will actually occur
 ````
 
-[1]: /img/advanced-topics/coded-samples/general/grayed-out-controls/fig1.png

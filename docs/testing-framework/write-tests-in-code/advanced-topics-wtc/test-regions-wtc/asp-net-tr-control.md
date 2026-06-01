@@ -1,4 +1,4 @@
----
+﻿---
 title: Asp.NET Test Region Control
 page_title: Asp.NET TR Control
 description: "Using TestRegions in Test Studio Testing Framework tests. Example of using TestRegions in coded tests. "
@@ -12,11 +12,11 @@ TestRegions can be a powerful tool to build testability into your web applicatio
 
 * At runtime this control renders as an HTML comment (), so you don't need to worry about this control affecting your application's markup or layout which is a core principle in the initial design of TestRegions.
 
-![AspNetApp][1]
+![AspNetApp](/img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig1.png)
 
 Below is a segment of the HTML persisted that is shown in design view above.
 
-![HTML][2]
+![HTML](/img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig2.png)
 
 **Note:** The samples shown above are included in full in the code samples installed with Telerik Testing Framework.
 
@@ -34,22 +34,17 @@ To be able to use this control as shown above, you simply need to add it first t
 
 5. Inside the new tab, right-click again and this time select "Choose Items...". This will pop-up the 'Choose Toolbox Items' dialog.
 
-	![Choose Toolbox Items][3]
+	![Choose Toolbox Items](/img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig3.png)
 
 6. Click on 'Browse' button and navigate to the ArtOfTest.WebAii.AspNet.dll that you located in step 1 above. Select it and click 'Open'. The control should be added to the dialog.
 
 	
-	![Browser][4]
+	![Browser](/img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig4.png)
 
 7. Now your control is added to your Toolbox and should be ready to be used.
 
-	![TestRegion][5]
+	![TestRegion](/img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig5.png)
 
 
-[1]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig1.png
-[2]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig2.png
-[3]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig3.png
-[4]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig4.png
-[5]: /img/testing-framework/write-tests-in-code/advanced-topics-wtc/test-regions-wtc/asp-net-tr-control/fig5.png
 
 

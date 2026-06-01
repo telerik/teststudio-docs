@@ -1,4 +1,4 @@
----
+﻿---
 title: User Profiles in Load Testing
 page_title: User Profiles in Test Studio Load Testing
 description: "How to add user profiles in load test in Test Studio. User profiles in load testing represent what the HTTP traffic is for a particular user action or sequence Rename user profile name in Test Studio load test"
@@ -12,7 +12,7 @@ User profiles represent what the HTTP traffic is for a particular user action or
 
 Open a load test and select its __Design__ view.
 
-![User Profile][1]
+![User Profile](/img/features/testing-types/load-testing/adding-user-profiles/fig1.png)
 
 Continue by doing one of the following:
 
@@ -23,7 +23,7 @@ Continue by doing one of the following:
 
 Before making a selection, close all browser instances as well as any other applications that may generate HTTP traffic, so that the user profile does not include extra HTTP traffic. Click the _'camera'_ button to open the Capture Traffic dialog.
 
-![Capture Traffic][2]
+![Capture Traffic](/img/features/testing-types/load-testing/capturing-traffic/fig2.png)
 
 This opens the **Capture Traffic** dialog where you can choose whether to capture traffic from a __Test Studio Web Test__ or __Capture new traffic session__.
 
@@ -31,7 +31,7 @@ This opens the **Capture Traffic** dialog where you can choose whether to captur
 
 If you choose **Capture from existing web test**, a grid with all existing web tests in the project appears. Select the desired test to capture traffic from and choose the specific browser to execute the test against. Only traffic from this browser will be captured during the web test run. Once the web test execution finishes, the load test will display the <a href="/features/testing-types/load-testing/designing-load-tests/modifying-tests#user-profile-edit-mode" target="blank">captured traffic in edit mode</a>.
 
-![Existing Web Test][3]
+![Existing Web Test](/img/features/testing-types/load-testing/capturing-traffic/fig3.png)
 
 You can select a device to capture traffic from. Capturing from a remote source requires you to <a href="/features/testing-types/load-testing/configure-remote-device" target="blank">configure that device to use the remote proxy</a>.
 
@@ -39,13 +39,13 @@ You can select a device to capture traffic from. Capturing from a remote source 
 
 If you choose __Capture new session__, you can select the browser to use. Then manually navigate to the desired page and perform the necessary browser session. Close the browser and click on the __Stop recording__ button to display the <a href="/features/testing-types/load-testing/designing-load-tests/modifying-tests#user-profile-edit-mode" target="blank">captured traffic in edit mode</a>. Click the **Save** button to confirm any changes in the User Profile captured traffic.
 
-![Capture new session][4]
+![Capture new session](/img/features/testing-types/load-testing/capturing-traffic/fig4.png)
 
 ## Importing Traffic
 
 Click the _'arrow'_ button to open the Import User Scenario dialog.
 
-![Click Import traffic][5]
+![Click Import traffic](/img/features/testing-types/load-testing/importing-traffic/fig5.png)
 
 This opens the **Import User Scenario** dialog where you can choose whether to import traffic from a list with the existing  __User profiles__ or to __Browse an external file__.
 
@@ -53,13 +53,13 @@ This opens the **Import User Scenario** dialog where you can choose whether to i
 
 To import a user profile generated in another load test in the project, select the desired one in the list with available profiles by checking its checkbox and click __Add Selected__.
 
-![Add existing user profile][6]
+![Add existing user profile](/img/features/testing-types/load-testing/importing-traffic/fig6.png)
 
 ### Import HTTP Traffic from a Fiddler trace
 
 Test Studio load tests also accept Fiddler files with captured web sessions. Choose the __Browse__ button to navigate to a location where the Fiddler trace files are stored. Then select the desired and click on the __Open__ button.
 
-![Import Fiddler trace][7]
+![Import Fiddler trace](/img/features/testing-types/load-testing/importing-traffic/fig7.png)
 
 The <a href="https://docs.telerik.com/fiddler/Save-And-Load-Traffic/Tasks/CreateSAZ" target="blank">Fiddler trace file</a> is imported and added as a user profile in the load test. Think times are automatically added at the appropriate spots.
 
@@ -71,7 +71,7 @@ To remove an existing user profile click the _'X'_ button on the row of the user
 
 > __Note!__ Once deleted that user profile is permanently removed - you cannot undo this deletion.
 
-![Delete User Profile button][8]
+![Delete User Profile button](/img/features/testing-types/load-testing/adding-user-profiles/fig8.png)
 
 ## Change the User Profile Name
 
@@ -81,22 +81,12 @@ To change the name of a user profile you need to open the __Edit User Profile__ 
 
 1. To open the __Edit User Profile__ dialog click the _'pencil'_ icon on the row of the user profile you want to change. The same will be opened if you double click the same row.
 
-    ![Edit User Profile button][9]
+    ![Edit User Profile button](/img/features/testing-types/load-testing/adding-user-profiles/fig9.png)
 
 1. This will open the user profile in Edit mode and you can type in the new name at the top.
 
-    ![Change User Profile Name][10]
+    ![Change User Profile Name](/img/features/testing-types/load-testing/adding-user-profiles/fig10.png)
 
 1. Click the **Save** button to confirm the changes.
 
 
-[1]: /img/features/testing-types/load-testing/adding-user-profiles/fig1.png
-[2]: /img/features/testing-types/load-testing/capturing-traffic/fig2.png
-[3]: /img/features/testing-types/load-testing/capturing-traffic/fig3.png
-[4]: /img/features/testing-types/load-testing/capturing-traffic/fig4.png
-[5]: /img/features/testing-types/load-testing/importing-traffic/fig5.png
-[6]: /img/features/testing-types/load-testing/importing-traffic/fig6.png
-[7]: /img/features/testing-types/load-testing/importing-traffic/fig7.png
-[8]: /img/features/testing-types/load-testing/adding-user-profiles/fig8.png
-[9]: /img/features/testing-types/load-testing/adding-user-profiles/fig9.png
-[10]: /img/features/testing-types/load-testing/adding-user-profiles/fig10.png

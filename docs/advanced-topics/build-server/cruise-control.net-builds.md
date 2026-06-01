@@ -1,4 +1,4 @@
----
+﻿---
 title: CruiseControl.NET Builds
 page_title: CruiseControl.NET Builds
 description: "Integrate Test Studio tests in CruiseControl.NET continuous integration builds. Execute Test Studio tests with CruiseControl.NET"
@@ -15,7 +15,7 @@ It's pretty easy getting your test code to build using CruiseControl.NET but the
 
 Installing CruiseControl.NET is very straightforward. The only thing that needs to be different from the default is to uncheck "Install CC.Net server as Windows service" as shown in the screen shot below. Because Test Studio tests utilize UI automation, a lot of these tests will not work when you try to run them under a Windows service. Windows does not grant services permission to use the mouse or keyboard. As a result any test that uses the mouse or keyboard will fail... and most UI automation tests rely on one or both at some point during the testing procedure.
 
-![Install CruiseControl][1]
+![Install CruiseControl](/img/advanced-topics/build-server/cruise-control.NET-builds/fig1.png)
 
 ## 3. Create Required Directories
 
@@ -259,7 +259,7 @@ If instead you are running Telerik Testing Framework coded unit tests we need to
 
 This section is used to generate a menu of the different detail reports you can display. After you make these changes you'll get something that looks like this:
 
-![Menu][2]
+![Menu](/img/advanced-topics/build-server/cruise-control.NET-builds/fig2.png)
 
 Note the last entry in the list. To obtain this entry we need to modify this section in the dashboard.config file to look something like this:
 
@@ -282,5 +282,3 @@ Note the last entry in the list. To obtain this entry we need to modify this sec
 
 After making the above changes, the next build will successfully display test results.
 
-[1]: /img/advanced-topics/build-server/cruise-control.NET-builds/fig1.png
-[2]: /img/advanced-topics/build-server/cruise-control.NET-builds/fig2.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: TFS Project Item Options
 page_title: TFS Project Item Options
 description: "TFS Project Item Options in Test Studio"
@@ -11,7 +11,7 @@ position: 2
 
 In order to maintain the source controlled project, there are 5 Source Control specific options when you right click on a project item, which is connected to TFS, and hover over **Source Control**.
 
-![Source Control][1]
+![Source Control](/img/features/source-control/project-item-options/fig1.png)
 
 - **Check In to Source Control** - check-in the selected project item.
 - **Check Out from Source Control** - check-out the selected project item.
@@ -19,4 +19,3 @@ In order to maintain the source controlled project, there are 5 Source Control s
 - **Revert to Server Version** - undo changes made to the selected project item since check-out. If applied to Settings.aiis file the project will be reloaded. 
 - **Disconnect from Source Control** - disconnects the selected item from Source Control.
 
-[1]: /img/features/source-control/project-item-options/fig1.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bamboo CI
 page_title: Bamboo Test Studio Tests Integration
 description: "Integrate Test Studio tests in bamboo continuous integration. Execute Test Studio tests with Bamboo"
@@ -12,23 +12,23 @@ position: 8
 
 In order to use ArtOfTestRunner.exe for executing your tests you will need to define new plan.
 
-1.&nbsp; Create new plan
+1. Create new plan
 
-![Create new plan][1]
+![Create new plan](/img/advanced-topics/build-server/bamboo/Create_plan.png)
 
-2.&nbsp; Configure the plan
+2. Configure the plan
 
-![Configure the plan][2]
+![Configure the plan](/img/advanced-topics/build-server/bamboo/Configure_plan.png)
 
-3.&nbsp; Add tasks
+3. Add tasks
 
-* 3.1.&nbsp; Add new command task:
+* 3.1. Add new command task:
 
-![Add new command task][3]
+![Add new command task](/img/advanced-topics/build-server/bamboo/New_command_task.png)
 
 First step is to add new executable, it's path should be path to the Test Studio runner (ArtOfTest.Runner.exe). **Default location of ArtOfTest.Runner.exe is "C:\Program Files (x86)\Progress\Test Studio\Bin".**
 
-![Add new executable][4]
+![Add new executable](/img/advanced-topics/build-server/bamboo/Add_new_executable-TestStudio.png)
 
 To configure the task add following arguments:
 
@@ -42,13 +42,13 @@ list="PATH_TO_PROJECT\TEST_LIST_NAME.aiilist" out=${bamboo.build.working.directo
 test="PATH_TO_PROJECT\TEST_NAME.tstest" out=$bamboo.build.working.directory} junitstep
 ````
 
-![Command task][5]
+![Command task](/img/advanced-topics/build-server/bamboo/Runner_command_task.png)
 
 * 3.2 Add new script task - Convert to NO-BOM task
 
 > Note: This task should be "Final task"
 
-![New script task][6]
+![New script task](/img/advanced-topics/build-server/bamboo/New_script_task.png)
 
 > This step is needed, because Bamboo JUnit parser can't parse files encoded in UTF-8-BOM. <br>
 ><br>
@@ -75,24 +75,15 @@ Add following Environment variable to the task:
 WORKDIR=${bamboo.build.working.directory}
 ````
 
-![Script config][7]
+![Script config](/img/advanced-topics/build-server/bamboo/Script_config.png)
 
 * 3.3 Add new JUnit parser task
 
 >Note: "This task should be Final task"
 
-![JUnit parser task][8]
+![JUnit parser task](/img/advanced-topics/build-server/bamboo/New_JUnit_parser_task.png)
 
 Specify custom results directories to be **/*.xml
 
-![JUnit config][9]
+![JUnit config](/img/advanced-topics/build-server/bamboo/JUnit_config.png)
 
-[1]: /img/advanced-topics/build-server/bamboo/Create_plan.png
-[2]: /img/advanced-topics/build-server/bamboo/Configure_plan.png
-[3]: /img/advanced-topics/build-server/bamboo/New_command_task.png
-[4]: /img/advanced-topics/build-server/bamboo/Add_new_executable-TestStudio.png
-[5]: /img/advanced-topics/build-server/bamboo/Runner_command_task.png
-[6]: /img/advanced-topics/build-server/bamboo/New_script_task.png
-[7]: /img/advanced-topics/build-server/bamboo/Script_config.png
-[8]: /img/advanced-topics/build-server/bamboo/New_JUnit_parser_task.png
-[9]: /img/advanced-topics/build-server/bamboo/JUnit_config.png

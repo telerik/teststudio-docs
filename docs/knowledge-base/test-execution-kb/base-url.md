@@ -1,4 +1,4 @@
----
+﻿---
 title: Using BaseURL
 page_title: Running a Test against Multiple Environments Using BaseURL
 description: Using BaseURL in a Test Studio project. Multiple test environments in which to execute test scripts. The server URL is different for each environment. How can I avoid rewriting all of my tests from scratch to make them work with a different server URL? Run the same tests against the different staging environments.
@@ -24,13 +24,13 @@ In addition test lists have their own BaseURL property. This property is by defa
 1. The global project setting can be set in the <a href="/features/project-settings/recording-options" target="_blank">Project Settings in the Recording tab</a>.
 1. The same setting can be quick accessed in the **Test** ribbon in the **Base URL** text field.
 
-    ![BaseURL][1]
+    ![BaseURL](/img/knowledge-base/test-execution-kb/base-url/fig1.png)
 
 ## Test Lists Property 
 
 By default the test list, created in the project with already set BaseURL, inherits the same BaseURL. This can be changed in the <a href="/general-information/test-execution/test-list-settings" target="_blank">test list settings</a>. The BaseURL setting is listed under the Web tab.
 
-![Base URL Test List][2]
+![Base URL Test List](/img/knowledge-base/test-execution-kb/base-url/fig2.png)
 
 > __Note!__ The test list setting overrides the project setting, and thus you can create multiple test lists and set each to run against different BaseURL.
 
@@ -38,11 +38,11 @@ By default the test list, created in the project with already set BaseURL, inher
 
 When the test uses any URL, which matches the BaseURL set for the project, the Navigate step will be recorded with the URL divided accordingly in the __BaseURL__ and __NavigateURL__ - this matches the relative part of the used URL.
 
-![Step property base URL][3]
+![Step property base URL](/img/knowledge-base/test-execution-kb/base-url/fig3.png)
 
 If the navigated URL differs from the project BaseURL the navigation step is recorded as if no additional settings are changed.
 
-![Step property base URL differs from project][4]
+![Step property base URL differs from project](/img/knowledge-base/test-execution-kb/base-url/fig4.png)
 
 > __Note!__
 ><br>
@@ -62,7 +62,7 @@ When a recorded test step interacts with an element inside an iFrame, by default
 
 Let's say we want to run a test against the same application, but on different servers: **http://Server1/myApp** and **http://Server2/myApp**. Also say there's an iFrame in the app with the following source: **http://Server1/myApp/frame1.aspx**. Simply set the frame's **UsesBaseUrlHost** property to True. When you switch the BaseURL before executing the test, Test Studio will automatically swap the BaseURL portion for the frame under the hood.
 
-![UsesBaseUrlHost][5]
+![UsesBaseUrlHost](/img/knowledge-base/test-execution-kb/base-url/fig5.png)
 
 When **UsesBaseUrlHost** is set to True, the frame uses the host portion of the project's or test list's BaseURL setting.
 
@@ -72,22 +72,15 @@ Let's say we want to run a test against the same application, but under differen
 
 Modify the **BaseURL** property under **FrameInfo**. Start with '^/' to substitute the test's **BaseURL** in place of the caret (^). In this case the test's **BaseURL** defined in the **Project Settings** would be **http://Server1/Dev1** or **http://Server1/Dev2**.
 
-![FrameInfo BaseURL][6]
+![FrameInfo BaseURL](/img/knowledge-base/test-execution-kb/base-url/fig6.png)
 
 ## Connect to a Popup Window Using BaseURL 
 
 If **the base URL** of the dialog matches the one set as a **BaseUrl** property - Test Studio will automatically split the recorded URL, as well. For example - **PopupUrl** property of the "Connect to pop-up window" test step will contain the second part of the dialog's URL.
 
-![Connect to Popup with BaseURL][7]
+![Connect to Popup with BaseURL](/img/knowledge-base/test-execution-kb/base-url/fig7.png)
 
 ## Maintain Previously Recorded Elements 
 
 If you decide to apply the BaseURL setting for the project when there are already existing tests and elements, you may need to <a href="/knowledge-base/project-configuration-kb/merge-page-nodes" target="_blank">refactor the elements</a> in the Elements Repository to adjust the Page nodes properties to reflect the <a href="/features/project-settings/recording-options#elements-page-compare-mode" target="_blank">BaseURL recording options</a>.
 
-[1]: /img/knowledge-base/test-execution-kb/base-url/fig1.png
-[2]: /img/knowledge-base/test-execution-kb/base-url/fig2.png
-[3]: /img/knowledge-base/test-execution-kb/base-url/fig3.png
-[4]: /img/knowledge-base/test-execution-kb/base-url/fig4.png
-[5]: /img/knowledge-base/test-execution-kb/base-url/fig5.png
-[6]: /img/knowledge-base/test-execution-kb/base-url/fig6.png
-[7]: /img/knowledge-base/test-execution-kb/base-url/fig7.png

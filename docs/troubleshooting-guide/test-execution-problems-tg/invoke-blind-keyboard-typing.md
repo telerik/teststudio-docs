@@ -1,4 +1,4 @@
----
+﻿---
 title: Invoke Blind Keyboard Typing
 page_title: Invoke Blind (Element Independent) Keyboard Typing
 description: "Invoke Blind (Element Independent) Keyboard Typing in Test Studio test"
@@ -37,8 +37,7 @@ Here's a line of sample code that presses the ENTER key:
 
 **Manager.Desktop.KeyBoard** contains many additional methods you might also find useful:
 
-![Additional Methods][1]
+![Additional Methods](/img/troubleshooting-guide/test-execution-problems-tg/invoke-blind-keyboard-typing/fig1.png)
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/invoke-blind-keyboard-typing/fig1.png
 
 >To be able to use the code above the assembly **System.Windows.Forms.dll** needs to be <a href="/features/coded-steps/add-assembly-reference" target="_blank">referenced</a> in the Project settings.<br>

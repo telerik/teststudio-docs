@@ -1,4 +1,4 @@
----
+﻿---
 title: Launch Test Studio
 page_title: Launch Test Studio and Create Your First Project
 description: "A step by step guide on what you can find in your first Test Studio project. Create a Test Studio Project. Start automating with Test Studio."
@@ -98,10 +98,10 @@ One Test Studio project allows you to include different types of tests:
 	<tr style="text-align: center; background-color: transparent; border:none;">
 		<td>
 		
-![Add new Test from Ribbon](/img/getting-started/first-project/add-new-test1.png) <td>
+<img src="/img/getting-started/first-project/add-new-test1.png" alt="Add new Test from Ribbon" /> <td>
 <td>
 
-![Add new Test from Project root](/img/getting-started/first-project/add-new-test2.png)</td>
+<img src="/img/getting-started/first-project/add-new-test2.png" alt="Add new Test from Project root" /></td>
 </tr>
 </table>
 

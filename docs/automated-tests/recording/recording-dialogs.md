@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Record Dialogs and Popups 
 page_title: How to Handle Dialogs and Popups during Test Recording
 description: "Test Studio records specific steps to handle the dialogs and popups generated from the tested application. How to record the test scenario if I need to download a file? Can I handle dialogs in Test Studio automatically? How to handle in Test Studio a popup opened in new window/tab. 
@@ -163,7 +163,7 @@ The OpenFile action opens a __OpenFile__ dialog in Windows File Explorer in whic
 
 <table id=no-table>
 <tr>
-<td>![OpenFile dialog](/img/automated-tests/recording/dialogs/openFile-dialog-step.png)<br>__Handle OpenFile Dialog__</td>
+<td><img src="/img/automated-tests/recording/dialogs/openFile-dialog-step.png" alt="OpenFile dialog" /><br>__Handle OpenFile Dialog__</td>
 </tr>
 <table>
 
@@ -186,7 +186,7 @@ The Download File dialog opens a __SaveAs__ dialog in Windows File Explorer in w
 
 <table id=no-table>
 <tr>
-<td>![SaveFile dialog](/img/automated-tests/recording/dialogs/saveFile-dialog-step.png)<br>__Handle SaveFile Dialog__</td>
+<td><img src="/img/automated-tests/recording/dialogs/saveFile-dialog-step.png" alt="SaveFile dialog" /><br>__Handle SaveFile Dialog__</td>
 </tr>
 </table>
 

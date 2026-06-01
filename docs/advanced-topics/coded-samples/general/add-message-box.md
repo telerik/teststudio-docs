@@ -1,4 +1,4 @@
----
+﻿---
 title: Add MessageBox
 page_title: Add MessageBox
 description: "Learn how to display a MessageBox in Test Studio tests using C# or VB.NET. This article explains how to add the necessary assembly reference, shows code examples for web and WPF tests, and demonstrates how to use MessageBox for debugging or displaying data-driven values."
@@ -42,7 +42,7 @@ MessageBox.Show(window, "This is a message!")
 
 This will pause the test and the alert box will be displayed:
 
-![Messagebox][1]
+![Messagebox](/img/advanced-topics/coded-samples/general/add-message-box/fig1.png)
 
 Test Execution will not continue until you click the button.
 
@@ -68,4 +68,3 @@ window.AssignHandle(ActiveBrowser.Window.Handle)
 MessageBox.Show(window, Data("excelColumnName").ToString())
 ````
 
-[1]: /img/advanced-topics/coded-samples/general/add-message-box/fig1.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: jQuery Events Do Not Fire
 page_title: jQuery Events Do Not Fire
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
@@ -15,13 +15,13 @@ Inputting text into <a href="http://www.w3schools.com/jquery/tryit.asp?filename=
 	<tr>
 		<td style="text-align: center;">
 		
-![Before Selection][1] </br></br>**Before Selection**</td>
+<img src="/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig1.png" alt="Before Selection" /> </br></br>**Before Selection**</td>
 <td style="text-align: center;">
 
-![Available Selections][2] </br></br>**Available Selections**</td>
+<img src="/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig2.png" alt="Available Selections" /> </br></br>**Available Selections**</td>
 <td style="text-align: center;">
 
-![After Selection][3] </br></br>**After Selection**</td>
+<img src="/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig3.png" alt="After Selection" /> </br></br>**After Selection**</td>
 
 </tr>
 </table>
@@ -47,13 +47,9 @@ Pages.TryitEditorV220.FrameIframeResult.Text.AsjQueryControl().InvokejQueryEvent
 
 Here are test steps recorded against the demo page above:
 
-![Test][4]
+![Test](/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig4.png)
 
 Even there is no selection/typing in the field step 4 will triggers *.change* event and the input filed will become violet.
 
-[1]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig1.png
-[2]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig2.png
-[3]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig3.png
-[4]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig4.png
 
 

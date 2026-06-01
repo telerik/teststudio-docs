@@ -1,4 +1,4 @@
----
+﻿---
 title: Custom Chrome Path
 page_title: Custom Chrome Path
 description: How to set Custom Chrome path if the Chrome installation is a custom one. 
@@ -10,17 +10,15 @@ Test Studio looks by default at *C:\Program Files (x86)\Google\Chrome\Applicatio
 
 Test Studio also provides option for the user to support **custom location** for Chrome through setting **custom registry keys**.
 
-1.&nbsp; Run **regedit.exe**
+1. Run **regedit.exe**
 
-2.&nbsp; Navigate to *HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Telerik\TestStudio*
+2. Navigate to *HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Telerik\TestStudio*
 
-![New Key][1]
+![New Key](/img/knowledge-base/browsers-kb/custom-chrome-path/fig1.png)
 
-3.&nbsp; Create two *String* keys with names **ChromeExePath** and **ChromePreferencesPath** and values respectively: the path to the chrome.exe and the path to the preferences file.
+3. Create two *String* keys with names **ChromeExePath** and **ChromePreferencesPath** and values respectively: the path to the chrome.exe and the path to the preferences file.
 
-![Custom Registry][2]
+![Custom Registry](/img/knowledge-base/browsers-kb/custom-chrome-path/fig2.png)
 
 Once you set this Test Studio will look for Chrome in the new specified location.
 
-[1]: /img/knowledge-base/browsers-kb/custom-chrome-path/fig1.png
-[2]: /img/knowledge-base/browsers-kb/custom-chrome-path/fig2.png

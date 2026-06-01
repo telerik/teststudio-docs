@@ -1,4 +1,4 @@
----
+﻿---
 title: Keep an Active Session
 page_title: Keep an Active Session
 description: No Functional tests can be executed on locked machine or inactive desktop session. This is a possible solution how to configure few machines to keep an active session on one of the machines. 
@@ -24,7 +24,7 @@ Here is one possible solution to this challenge:
 
 A **Remote Desktop Connection** remains open between **A** and **B**. This causes **B** to keep an active session. This allows you to use the machine as an Execution Server without human intervention.
 
-![Active session][1]
+![Active session](/img/knowledge-base/scheduling-kb/keep-active-session/fig1.png)
 
 * This is a stable solution based on how Windows treats remote sessions, and works on Windows Server 2003.
 
@@ -34,7 +34,5 @@ A **Remote Desktop Connection** remains open between **A** and **B**. This cause
 
 * If you are using the Windows Task Scheduler to create a task for ArtOfTest.Runner, you must select Run only when user is logged on in the scheduled task's properties:
 
-![Create task][2]
+![Create task](/img/knowledge-base/scheduling-kb/keep-active-session/fig2.png)
 
-[1]: /img/knowledge-base/scheduling-kb/keep-active-session/fig1.png
-[2]: /img/knowledge-base/scheduling-kb/keep-active-session/fig2.png

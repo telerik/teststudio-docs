@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Record Steps for Telerik and Kendo UI Components 
 page_title: How to Record Steps for Telerik and Kendo UI Components
 description: "Test Studio records specific steps to handle Telerik and Kendo UI Components. Find out how to record test scenarios in applications built with the Telerik and Kendo controls. Find out how to automate specific actions for Telerik and Kendo UI Components "
@@ -19,11 +19,11 @@ For this demonstration we use the Kendo Angular Grid component official <a href=
 * HtmlTable
 * Grid
 
-![Hover mouse over Kendo Grid][0]
+![Hover mouse over Kendo Grid](/img/automated-tests/recording/recording-translators/highlight-components.gif)
 
 As you move the mouse over the items in the menu, the respective element on page gets highlighted. Select the <a href="/features/verifications/quick-verification" target="_blank">Quick Steps</a> option on the Elements Menu to see a list of verification tasks for the specific element and choose the suitable as per the scenario. Hit any of the pages from the list to switch to and Test Studio records a custom step for paging through the grid. Without the translator you could not get into that level of detail so easily.
 
-![Sample test steps for Kendo Angular grid][1]
+![Sample test steps for Kendo Angular grid](/img/automated-tests/recording/recording-translators/fig1.png)
 
 > __Tip__
 ><br>
@@ -32,11 +32,11 @@ As you move the mouse over the items in the menu, the respective element on page
 
 The recording experience for other Telerik and Kendo UI components is the same for the different controls. It is only the colour of the highlighting borders which differs for the various type of components.
 
-![Hover mouse over Blazor DropdownList][2]
+![Hover mouse over Blazor DropdownList](/img/automated-tests/recording/recording-translators/fig2.png)
 
 The steps added in the test are custom for the specific control you automate.
 
-![Test steps for Blazor DropdownList][3]
+![Test steps for Blazor DropdownList](/img/automated-tests/recording/recording-translators/fig3.png)
 
 > __Tip__
 ><br>
@@ -60,7 +60,3 @@ Test Studio is committed to support the latest released UI components as well as
     * For __each next Test Studio version new project and project upgrade, the _Translators Version_ setting remains with value _'Latest'___. If you need to set a fixed version to use for the translators, you need to change the _Translators Version_ setting to the corresponding Telerik and Kendo UI components as per the mapping listed <a href="/features/project-settings/translators#test-studio-mapping-to-ui-components-versions" target="_blank">here</a>.
 
 
-[0]: /img/automated-tests/recording/recording-translators/highlight-components.gif
-[1]: /img/automated-tests/recording/recording-translators/fig1.png
-[2]: /img/automated-tests/recording/recording-translators/fig2.png
-[3]: /img/automated-tests/recording/recording-translators/fig3.png

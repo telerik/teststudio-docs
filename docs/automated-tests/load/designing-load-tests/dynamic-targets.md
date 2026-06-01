@@ -1,4 +1,4 @@
----
+﻿---
 title: Dynamic Targets
 page_title: Dynamic Targets
 description: "Dynamic Target in Test Studio load test is a unique parameter or variable used by the application to generate information like a unique user ID or session ID. Configure the dynamic parameters in load test user profile. parameterize load test in test studio. dynamic values in load test. dynamic headers dynamic cookies dynamic "
@@ -15,7 +15,7 @@ A Dynamic Target is a unique parameter or variable used by the application to ge
 
 If Test Studio detected any possible Dynamic Targets in the HTTP traffic, a list of those targets will appear after you capture a user profile. In this screen, you can select which Dynamic Targets the load test should use while running the test by checking the box next to the name of the Dynamic Target.
 
-![Dynamic targets][1]
+![Dynamic targets](/img/features/testing-types/load-testing/dynamic-targets/fig1.png)
 
 In most situations, you should select all dynamic targets, unless you have a specific reason to deselect a particular dynamic target.
 
@@ -32,15 +32,15 @@ Each dynamic target lists four properties:
 
 A typical situation using dynamic targets is load testing an application that provides a unique session ID for each user. In this scenario, the session ID dynamic target may appear in the Dynamic Targets view.
 
-![Session id][2]
+![Session id](/img/features/testing-types/load-testing/dynamic-targets/fig2.png)
 
 The step whose number appears in the From column will include the dynamic target in its response. Here, it appears in the headers.
 
-![Response][3]
+![Response](/img/features/testing-types/load-testing/dynamic-targets/fig3.png)
 
 The step whose number appears in the To column will include the dynamic target in its request. A special section appears in the Request tab indicating that this response is bound to a dynamic target.
 
-![Request][4]
+![Request](/img/features/testing-types/load-testing/dynamic-targets/fig4.png)
 
 ## Custom Dynamic Targets
 
@@ -57,11 +57,11 @@ Based on the HTTP traffic there might be targets which are not detected by Test 
 
 The Custom Dynamic Targets are available in the _Choose Dynamic Targets_ view where all auto-detected are listed as well - once a <a href="/features/testing-types/load-testing/capturing-traffic" target="_blank">user profile is captured</a> or opened <a href="/features/testing-types/load-testing/modifying-tests" target="_blank">to be modified</a> click the ___Choose Dynamic Targets___ button. 
 
-![Choose Dynamic Targets][5]
+![Choose Dynamic Targets](/img/features/testing-types/load-testing/dynamic-targets/fig5.png)
 
 Once any custom targets are added to the user profile these will be displayed under the list with all auto-detected dynamic targets. To add a custom dynamic target use the ___Add Dynamic Target___ button. 
 
-![Add Dynamic Targets][6]
+![Add Dynamic Targets](/img/features/testing-types/load-testing/dynamic-targets/fig6.png)
 
 __See Also:__ A sample scenario to cover with the help of custom dynamic targets is described in our blog post <a href="https://www.telerik.com/blogs/custom-dynamic-targets-in-load-tests" target="_blank">__Custom Dynamic Targets in Load Tests__</a>.
 
@@ -79,15 +79,15 @@ __See Also:__ A sample scenario to cover with the help of custom dynamic targets
 	<tr style="text-align: center; background-color: transparent; border:none;">
 		<td>
 
-__Source Body__<br>![Source Section Properties][7]</td>
+__Source Body__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig7.png" alt="Source Section Properties" /></td>
 		<td>
 		
-__Source Headers__<br>![Source Section Properties][8]</td>
+__Source Headers__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig7a.png" alt="Source Section Properties" /></td>
     </tr>
     <tr style="text-align: center; background-color: transparent; border:none;">
         <td>
 
-__Source Cookie__<br>![Source Section Properties][9]</td>
+__Source Cookie__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig7b.png" alt="Source Section Properties" /></td>
 </tr>
 </table>
 
@@ -143,7 +143,7 @@ domain=(?<val>.*?)$
 - **Field Type**: In which part of the HTTP request to include the dynamic value - Query Paramater, Header, Cookie, POST data, URL.
 - **Field Name**: The name of the dynamic target which will be used in the HTTP request - particular query parameter, header, or cookie.
 
-![Destination Section Properties][10]
+![Destination Section Properties](/img/features/testing-types/load-testing/dynamic-targets/fig8.png)
 
 ### Append Custom Text to Dynamic Value
 
@@ -178,18 +178,18 @@ URL
 	<tr style="text-align: center; background-color: transparent; border:none;">
 		<td>
 
-__Append Query Parameter__<br>![Append Query Parameter][11]</td>
+__Append Query Parameter__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig11.png" alt="Append Query Parameter" /></td>
 <td>
 
-__Append Header__<br>![Append Header][12]</td>
+__Append Header__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig12.png" alt="Append Header" /></td>
     </tr>
     <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 		
-__Append Cookie__<br>![Append Cookie][13]</td>
+__Append Cookie__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig13.png" alt="Append Cookie" /></td>
 <td>
 
-__Append URL__<br>![Append URL][14]</td>
+__Append URL__<br><img src="/img/features/testing-types/load-testing/dynamic-targets/fig14.png" alt="Append URL" /></td>
 </tr>
 </table>
 
@@ -203,17 +203,3 @@ __Append URL__<br>![Append URL][14]</td>
 <br>
 > __Note!__ As of now there is no visual representation for any custom dynamic targets within the __Edit User Profile__ view. To verify if the HTTP requests are built as you expect you could use <a href="https://www.telerik.com/fiddler" target="_blank">Fiddler</a> to capture the traffic of a sample load test execution and inspect these.
 
-[1]: /img/features/testing-types/load-testing/dynamic-targets/fig1.png
-[2]: /img/features/testing-types/load-testing/dynamic-targets/fig2.png
-[3]: /img/features/testing-types/load-testing/dynamic-targets/fig3.png
-[4]: /img/features/testing-types/load-testing/dynamic-targets/fig4.png
-[5]: /img/features/testing-types/load-testing/dynamic-targets/fig5.png
-[6]: /img/features/testing-types/load-testing/dynamic-targets/fig6.png
-[7]: /img/features/testing-types/load-testing/dynamic-targets/fig7.png
-[8]: /img/features/testing-types/load-testing/dynamic-targets/fig7a.png
-[9]: /img/features/testing-types/load-testing/dynamic-targets/fig7b.png
-[10]: /img/features/testing-types/load-testing/dynamic-targets/fig8.png
-[11]: /img/features/testing-types/load-testing/dynamic-targets/fig11.png
-[12]: /img/features/testing-types/load-testing/dynamic-targets/fig12.png
-[13]: /img/features/testing-types/load-testing/dynamic-targets/fig13.png
-[14]: /img/features/testing-types/load-testing/dynamic-targets/fig14.png

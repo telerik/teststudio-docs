@@ -1,4 +1,4 @@
----
+﻿---
 title: Compilation Error Concerning Other Test
 page_title: Compilation Error in Test A When Executing Test B
 description: "Test Studio test cannot be executed due to compilation errors related to other tests in the same project."
@@ -10,7 +10,7 @@ position: 1
 
 My project contains two or more tests that contain coded steps. I receive a compilation error for Test A when I try to execute Test B.
 
-![Compilation error][1]
+![Compilation error](/img/troubleshooting-guide/test-execution-problems-tg/compilation-error-other-test/fig1.png)
 
 ## SOLUTION
 
@@ -20,4 +20,3 @@ One way to overcome this error is to fix whatever is causing it. If the test in 
 
 Another approach is to use <a href="/features/test-maintenance/tests-in-development" target="_blank">the ___In Development__ flag</a> for the test, which produces the compilation error. That way it is excluded from the overall compilation process.
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/compilation-error-other-test/fig1.png

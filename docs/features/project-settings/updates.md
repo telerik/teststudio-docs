@@ -1,4 +1,4 @@
----
+﻿---
 title: Software Update
 page_title: Software Update
 description: "Test Studio update settings. Check Test Studio version. Activate/Deactivate Test Studio license. Check for updates of Test Studio."
@@ -8,7 +8,7 @@ position: 11
 
 This section in Project Settings lists details for the product version and allows you to choose how to be notified on product updates.
 
-![Updates][1]
+![Updates](/img/features/project-settings/updates/fig1.png)
 
 > Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
 
@@ -24,4 +24,3 @@ This section displays the mode of your license key (Trial or Licensed) and the o
 
 This section displays options to <a href="/getting-started/installation/check-for-updates" target="_blank">check for updates</a>.
 
-[1]: /img/features/project-settings/updates/fig1.png

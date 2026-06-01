@@ -1,4 +1,4 @@
----
+﻿---
 title: Scheduling Setup in Test Studio
 page_title: Scheduling Test Runs (Standalone only)
 description: "Test Studio Scheduling setup, Test Studio Scheduling configuration. Schedule Test List Runs, Run test lists remotely. How to configure the Test Studio Scheduling setup. What to use the Test Studio scheduling for"
@@ -109,7 +109,7 @@ If there are __multiple machines dedicated for test execution__, you need:
 - __one machine, which hosts the Test Studio services__ - this can be any of the machines in the setup, so it can use either full product installation, or Run-time edition instance;
 - and at least __one machine to execute test lists - this one needs minimum the Run-time installation__.
 
-![Scheduling Scheme][1]
+![Scheduling Scheme](/img/automated-tests/scheduling/overview/scheduling-setup-revamp.png)
 
 > __Tip__
 > <br>
@@ -142,4 +142,3 @@ When these prerequisites are complete - including the case when all these compon
 
 * <a href="https://www.telerik.com/blogs/architecture-remote-execution-test-studio" target="_blank">The Architecture of Remote Execution With Test Studio</a>
 
-[1]: /img/automated-tests/scheduling/overview/scheduling-setup-revamp.png

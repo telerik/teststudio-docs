@@ -1,4 +1,4 @@
----
+﻿---
 title: Set Step to Run for Specific Browser
 page_title: A Recorded Step Behaves Differently in the Different Browsers
 description: "Test Studio tests tend to be isolated from the browser differences and each type of step works for all supported browsers. Still is available the option to set specific step to run for one browser only. "
@@ -20,7 +20,7 @@ Test Studio strives to isolate you from browser differences, but in the cases wh
 
 One quick solution is to include two separate steps and specify which browser each step will run against. All test steps include a **RunsAgainst** property setting:
 
-![RunAgainst][1]
+![RunAgainst](/img/troubleshooting-guide/verification-problems-tg/work-ie-not-ff/fig1.png)
 
 The default is **AllBrowsers**. Copy your step and set one to **InternetExplorerOnly**, for example, and the other to **FirefoxOnly**. That way the specific step will execute only against the specified browser.
 
@@ -51,4 +51,3 @@ End If
 ```
 
 
-[1]: /img/troubleshooting-guide/verification-problems-tg/work-ie-not-ff/fig1.png

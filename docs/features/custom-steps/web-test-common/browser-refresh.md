@@ -1,4 +1,4 @@
----
+﻿---
 title: Refresh Browser
 page_title: Refresh Browser
 description: "How to refresh the browser during a test run in Test Studio. Refresh Browser Test Studio execution."
@@ -12,7 +12,6 @@ This article demonstrates how to add this type of step into the test.
 
 Choose the __Refresh Browser__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Add Refresh Browser step][1]
+![Add Refresh Browser step](/img/features/custom-steps/refresh-browser/step-builder-refresh-browser.png)
 
-[1]: /img/features/custom-steps/refresh-browser/step-builder-refresh-browser.png
 

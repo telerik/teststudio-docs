@@ -1,4 +1,4 @@
----
+﻿---
 title: Machines Status View 
 page_title: Scheduling Machines Status View
 description: "Test Studio Scheduling Machines Status view. View the status of the Test Studio Execution Servers connected to a Test Studio Scheduling Server. Access the execution machines details and logging from the Test Studio Project"
@@ -17,23 +17,23 @@ The Execution Status View is a useful source of information for the current stat
 
 To access the Status view you can click **Machines** in the **Scheduling** ribbon of the **Project** tab.
 
-![Status][1]
+![Status](/img/features/scheduling-test-runs/view-execution-status/fig1.png)
 
 ## Connect Project Locally 
 
 When current project is connected to schedule test lists locally, the **Machines Status** view provides details only for the local service status under the **Scheduling server** section.
 
-![Machines Status for Locally connected project][2a]
+![Machines Status for Locally connected project](/img/features/scheduling-test-runs/view-execution-status/fig2a.png)
 
 The local Test Runner running in the system tray is listed under the **Execution Servers** section. Use the **Magnifier** icon or **double click the machine name** to open the view with additional details for the execution client - available browsers with the option to calibrate these, access to the logging of that machine.
 
-![Execution machine details locally][2b]
+![Execution machine details locally](/img/features/scheduling-test-runs/view-execution-status/fig2b.png)
 
 ## Connect Project Remotely
 
 When current project is <a href="/automated-tests/scheduling/connect-to-scheduling-server#connect-the-project-to-schedule-test-lists-on-remote-execution-machines" target="_blank">connected to schedule test lists remotely</a>, the **Remote Execution Status Window** provides an overview for the Scheduling and Storage services and a list of all Execution Servers connected to this Scheduling Server.
 
-![Status Window][2]
+![Status Window](/img/features/scheduling-test-runs/view-execution-status/fig2.png)
 
 * [Test Studio Services Possible Statuses](#test-studio-services-possible-statuses)
 * [List of Execution Servers](#list-of-execution-servers)
@@ -48,15 +48,15 @@ When current project is <a href="/automated-tests/scheduling/connect-to-scheduli
 
 - If any of the services is not running for some reason its status is highlighted in red to indicate that there is something wrong. If the **Scheduling Service** is down the Storage and Database are also down.
 
-![Status Window Scheduling Service Down][8]
+![Status Window Scheduling Service Down](/img/features/scheduling-test-runs/view-execution-status/fig2_schedulingServiceDown.png)
 
 - If the **Storage Service** is down, the Scheduling service remains alive but the Database is not usable.
 
-![Status Window Storage Service Down][9]
+![Status Window Storage Service Down](/img/features/scheduling-test-runs/view-execution-status/fig2_storageServiceDown.png)
 
 - If the **MongoDB service or the database** is down only its status is highlighted in red. 
 
-![Status Window MongoDB Service Down][10]
+![Status Window MongoDB Service Down](/img/features/scheduling-test-runs/view-execution-status/fig2_MongoServiceDown.png)
 
 <br>
 <div><a style="float:right" href="#remotely-connected-project">Back to top of section</a></div>
@@ -66,7 +66,7 @@ When current project is <a href="/automated-tests/scheduling/connect-to-scheduli
 
 - If any of the available browsers on the remote machines are not calibrated, the respective browser icon will be marked with a yellow warning sign. Double click that machine to open its details and calibrate the browser.
 
-![Status Window Non-calibrated Browsers][4]
+![Status Window Non-calibrated Browsers](/img/features/scheduling-test-runs/view-execution-status/fig2_nonCalibrated.png)
 
 > **Tip**
 ><br> 
@@ -74,7 +74,7 @@ When current project is <a href="/automated-tests/scheduling/connect-to-scheduli
 
 - When an <a  href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">update for the latest browser versions</a> is available, a warning icon appears in front of the browsers' icons. To update Test Studio for the latest browsers on this execution server, open the <a  href="/automated-tests/scheduling/view-execution-status#execution-servers-details" target="_blank">machine details in the Execution status view</a> and use the __Update__ button.
 
-![Status Window browser support Update][4a]
+![Status Window browser support Update](/img/features/scheduling-test-runs/view-execution-status/fig2_dialogHandlerUpdate.png)
 
 > **Tip**
 ><br> 
@@ -88,7 +88,7 @@ When current project is <a href="/automated-tests/scheduling/connect-to-scheduli
 
 To view detailed information about an Execution Server, double-click the respective row in the grid or click the magnifier icon in front of the machine name. The **Execution Server Details** screen provides extended information about the specifications, system performance and test execution status of an Execution machine.
 
-![Execution Server Details][3]
+![Execution Server Details](/img/features/scheduling-test-runs/view-execution-status/fig3.png)
 
 - The **Machine Information** section displays system specification for the machine.
 
@@ -108,15 +108,15 @@ The **Execution Server Details** view displays different statuses for the select
 
 - If there are tests running on the machine only the buttons in the Logging sections will be enabled. The installed browsers could not be calibrated while tests are being executed.
 
-![Running Tests][5]
+![Running Tests](/img/features/scheduling-test-runs/view-execution-status/fig3_runningTest.png)
 
 - If the name of the currently executed test on an execution machine is too long it will be partially displayed. To see the whole string hover the mouse over the partially displayed one.
 
-![Very Long Test Name][6]
+![Very Long Test Name](/img/features/scheduling-test-runs/view-execution-status/fig3_VeryLongNameTest.png)
 
 - If the execution machine could not be accessed all buttons in the Browser and Logging sections will be disabled. A warning message appears to double check what could be preventing the connection to remote execution server.
 
-![Unreachable Execution Machine][7]
+![Unreachable Execution Machine](/img/features/scheduling-test-runs/view-execution-status/fig3_unreachableExecutionMachine.png)
 
 The Back button navigates back to the list with connected execution machines.
 
@@ -130,16 +130,3 @@ When current project is <a href="/automated-tests/scheduling/advanced-topics/con
 
 ![Remote status via proxy server connection](/img/features/scheduling-test-runs/view-execution-status/fig4.png)
 
-[1]: /img/features/scheduling-test-runs/view-execution-status/fig1.png
-[2]: /img/features/scheduling-test-runs/view-execution-status/fig2.png
-[2a]: /img/features/scheduling-test-runs/view-execution-status/fig2a.png
-[2b]: /img/features/scheduling-test-runs/view-execution-status/fig2b.png
-[3]: /img/features/scheduling-test-runs/view-execution-status/fig3.png
-[4]: /img/features/scheduling-test-runs/view-execution-status/fig2_nonCalibrated.png
-[4a]: /img/features/scheduling-test-runs/view-execution-status/fig2_dialogHandlerUpdate.png
-[5]: /img/features/scheduling-test-runs/view-execution-status/fig3_runningTest.png
-[6]: /img/features/scheduling-test-runs/view-execution-status/fig3_VeryLongNameTest.png
-[7]: /img/features/scheduling-test-runs/view-execution-status/fig3_unreachableExecutionMachine.png
-[8]: /img/features/scheduling-test-runs/view-execution-status/fig2_schedulingServiceDown.png
-[9]: /img/features/scheduling-test-runs/view-execution-status/fig2_storageServiceDown.png
-[10]: /img/features/scheduling-test-runs/view-execution-status/fig2_MongoServiceDown.png

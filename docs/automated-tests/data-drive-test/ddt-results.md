@@ -1,4 +1,4 @@
----
+﻿---
 title: Data Driven Tests Results
 page_title: Data Driven Tests Results
 description: "Analyze the results of a data driven/ parameterized test in Test Studio quick execution/ single test run. Analyze the results of a data driven/ parameterized test in Test Studio test list/suite run."
@@ -39,10 +39,10 @@ Click the **Execute** button in the **Test** ribbon. The test steps are executed
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Test Studio product iteration](/img/automated-tests/data-drive-test/ddt-results/ts-product-iteration.png)</td>
+<img src="/img/automated-tests/data-drive-test/ddt-results/ts-product-iteration.png" alt="Test Studio product iteration" /></td>
 <td>
 
-![Random string product iteration](/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png)</td>
+<img src="/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png" alt="Random string product iteration" /></td>
 </tr>
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>Test Studio product iteration</td>
@@ -62,10 +62,10 @@ Click the **Execute** button in the **Test** ribbon. The test steps are executed
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Kendo product iteration](/img/automated-tests/data-drive-test/ddt-results/kendo-product-iteration.png)</td>
+<img src="/img/automated-tests/data-drive-test/ddt-results/kendo-product-iteration.png" alt="Kendo product iteration" /></td>
 <td>
 
-![Random string product iteration](/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png)</td>
+<img src="/img/automated-tests/data-drive-test/ddt-results/random-product-iteration.png" alt="Random string product iteration" /></td>
 </tr>
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>Kendo product iteration</td>

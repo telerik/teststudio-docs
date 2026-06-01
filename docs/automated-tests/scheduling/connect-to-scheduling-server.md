@@ -1,4 +1,4 @@
----
+﻿---
 title: Connect a Project to Scheduling Server
 page_title: Configure a Test Studio Project for Remote Execution
 description: "Connect the Test Studio project to the configured Scheduling Server to run test lists on remote machines. Unable to choose the connected execution machines to run test lists on these. Configure a project to execute tests from it remotely,Configure a Test Studio Project for Remote Execution"
@@ -23,11 +23,11 @@ This article guides you how to connect:
 
 Open the Test Studio project and click the **Connect** button from the `Scheduling` ribbon in the **Project** tab.
 
-![Connect][1]
+![Connect](/img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png)
 
 In the **Scheduling Server Settings** dialog, choose **Remote** radio button to connect the project to the configured Scheduling server. 
 
-![Run Remotely][5a]
+![Run Remotely](/img/features/scheduling-test-runs/remote-run-all-in-one/fig5a.png)
 
 ### Communication Key 
 
@@ -41,7 +41,7 @@ The __Communication Key__ lets you import the key generated in the Scheduling Co
 
 Enter the machine name for the machine which hosts the Scheduling service, then click **Connect**.
 
-![Connect to Scheduling machine][5]
+![Connect to Scheduling machine](/img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png)
 
 A confirmation message appears when the connection is successful. 
 
@@ -53,10 +53,6 @@ Once the connection is successfully established, click the **Confirm** button to
 
 Test Studio allows you to connect a project to a Scheduling server hosted in a network behind a Reverse Proxy server. See <a href="/automated-tests/scheduling/advanced-topics/connect-via-proxy-server" target="_blank">the detailed instructions on the required configuration to setup this connection</a>. 
 
-![Reverse proxy connect][1a]
+![Reverse proxy connect](/img/features/scheduling-test-runs/connect-via-proxy/fig1a.png)
 
-[1]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig4.png
-[5a]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5a.png
-[5]: /img/features/scheduling-test-runs/remote-run-all-in-one/fig5.png
 
-[1a]: /img/features/scheduling-test-runs/connect-via-proxy/fig1a.png

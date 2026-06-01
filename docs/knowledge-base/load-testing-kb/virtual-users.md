@@ -1,4 +1,4 @@
----
+﻿---
 title: Virtual Users
 page_title: Virtual Users
 description: clarify some of the concepts behind Virtual Users in Test Studio Load Tests. Workload in Test Studio load test. How to adjust the workload of user profiles to cover the load test requirements.
@@ -22,7 +22,7 @@ To determine how Workload will affect the number of VUs assigned to a particular
 
 Workloads determine the percentage of the Execution Server's VUs to apply to a User Profile:
 
-![user profile][1]
+![user profile](/img/knowledge-base/load-testing-kb/virtual-users/fig1.png)
 
 ### Available Users 
 
@@ -30,7 +30,7 @@ Here you specify how many users to simulate while running the load test. Test St
 
 Concurrent users increase at a constant rate:
 
-![available users][2]
+![available users](/img/knowledge-base/load-testing-kb/virtual-users/fig2.png)
 
 The minimum number of users for either entry is the total number of reporting test agents on the Execution Server multiplied by the total Workload divided by the smallest Workload and then rounded up to the next whole number. For example, if you have 1 Execution Machine with User Profile A set at 66% and User Profile B set at 33%, the calculation is this:
 
@@ -40,5 +40,3 @@ The minimum number of users for either entry is the total number of reporting te
 
 * <a href="/features/testing-types/load-testing/managing-vu" target="_blank">Managing Virtual Users</a>
 
-[1]: /img/knowledge-base/load-testing-kb/virtual-users/fig1.png
-[2]: /img/knowledge-base/load-testing-kb/virtual-users/fig2.png

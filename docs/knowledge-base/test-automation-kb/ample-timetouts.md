@@ -1,4 +1,4 @@
----
+﻿---
 title: Ample Timetouts
 page_title: Ample Timetouts
 description: Randomly failing tests. I have recorded few tests and each time I run these, they fail at different step. 
@@ -38,7 +38,7 @@ You can address the need of longer time to wait for the elements in the tested a
 
 The default value for the `Wait On Elements` timeout is 30,000 milliseconds (30 seconds). If this time is not always sufficient for the application to load its elements, you can increase it from the __Test__ ribbon. 
 
-![TimeOut][1]
+![TimeOut](/img/automated-tests/test-execution/quick-run-timeouts/fig10.png)
 
 ### Adjust the `Wait On Elements` Timeout for Test List Execution
 
@@ -54,10 +54,8 @@ In other cases you may need to increase the timeout for a single step to get it 
 
 At the bottom of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> pane you can find the property `UseStepWaitOnElementsTimeout`, which is by default set to 'False'. Set its value to 'True' and the `WaitOnElementsTimeout` gets enabled and lets you set ample timeout used for this step only. 
 
-![Step properties][2]
+![Step properties](/img/knowledge-base/test-automation-kb/ample-timetouts/fig2.png)
 
 One more option is to increase the global project `Wait On Elements` timeout, but this affects the wait time for all other elements and in case of failures the test run takes longer time until it times out. So, consider if this is convenient for the automation project. 
 
 
-[1]: /img/automated-tests/test-execution/quick-run-timeouts/fig10.png
-[2]: /img/knowledge-base/test-automation-kb/ample-timetouts/fig2.png

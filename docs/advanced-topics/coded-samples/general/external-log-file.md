@@ -1,4 +1,4 @@
----
+﻿---
 title: External Log File
 page_title: External Log File
 description: "Learn how to save Test Studio test execution logs to external files, including text and Excel formats. Step-by-step code examples show how to customize result storage for better reporting and analysis."
@@ -14,9 +14,8 @@ Overwrite the *OnAfterTestCompleted* method for individual tests in order to per
 
 You can generate a custom log file by using the TestResult class. Write code in the code-behind file of your test (outside of a coded step). Here's how the placement looks:
 
-![Override][1]
+![Override](/img/advanced-topics/coded-samples/general/external-log-file/fig1.png)
 
-[1]: /img/advanced-topics/coded-samples/general/external-log-file/fig1.png
 
 We have code samples for two file types:
 
@@ -159,12 +158,11 @@ End Sub
 
 ## How to find and use Office PIA's without Visual Studio installed
 
-1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
+1. Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 
-![.NET Programmability Support][2]
+![.NET Programmability Support](/img/advanced-topics/coded-samples/general/random-row/fig2.png)
 
-2.&nbsp; Then you will find the interop assemblies in the Windows Global Assembly Cache, specifically the folder: *C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\*
+2. Then you will find the interop assemblies in the Windows Global Assembly Cache, specifically the folder: *C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\*
 
 This is a hidden protected system folder which won't show up in an ordinary hard drive search. If you try to go to "C:\Windows\assembly" Windows recognizes this as a special folder and will show you the full contents of the GAC in a flattened list instead of the individual folders that make up the GAC.
 
-[2]: /img/advanced-topics/coded-samples/general/random-row/fig2.png

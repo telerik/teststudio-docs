@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind Test to External Data Source
 page_title: Bind Test to External Data Source
 description: "How to add/use a data source for a test in Test Studio. Bind a test to external data source. Bind test to an excel sheet. Bind test to XML file. Bind test to a database. Bind test to an SCV file. "
@@ -24,10 +24,10 @@ The **Bind test to data source** dialog opens with the option to choose a data s
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Bind test to data source window][3]</td>
+<img src="/img/features/data-driven-testing/bind-test-data-source/fig3.png" alt="Bind test to data source window" /></td>
 <td>
 
-![Select Data Source][4]</td>
+<img src="/img/features/data-driven-testing/bind-test-data-source/fig4.png" alt="Select Data Source" /></td>
 </tr>
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
@@ -59,10 +59,10 @@ If you need to use only part of the rows in an Excel sheet, you can enable the *
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![filter data][5]</td>
+<img src="/img/features/data-driven-testing/bind-test-data-source/fig5.png" alt="filter data" /></td>
 <td>
 
-![filter data][6]</td>
+<img src="/img/features/data-driven-testing/bind-test-data-source/fig6.png" alt="filter data" /></td>
 </tr>
 </table>
 
@@ -70,7 +70,7 @@ If you need to use only part of the rows in an Excel sheet, you can enable the *
 
 If your source is a SQL database, you can use a T-SQL query to select the data you want. Using T-SQL, you can get as complex as you need in your SQL select statement. Check out the example below.
 
-![SQL database][7]
+![SQL database](/img/features/data-driven-testing/bind-test-data-source/fig7.png)
 
 Once your select statement is entered, click the **Update** button to test the results - the **Preview** table shows these.
 
@@ -87,13 +87,7 @@ When the external data source is set as desired, click the __OK__ button to bind
 
 To remove the external data source associated with a test, right click that test on the **Project** tab and select **Remove Data Binding**.
 
-![Remove Data Binding][8]
+![Remove Data Binding](/img/features/data-driven-testing/bind-test-data-source/fig8.png)
 
 
 
-[3]: /img/features/data-driven-testing/bind-test-data-source/fig3.png
-[4]: /img/features/data-driven-testing/bind-test-data-source/fig4.png
-[5]: /img/features/data-driven-testing/bind-test-data-source/fig5.png
-[6]: /img/features/data-driven-testing/bind-test-data-source/fig6.png
-[7]: /img/features/data-driven-testing/bind-test-data-source/fig7.png
-[8]: /img/features/data-driven-testing/bind-test-data-source/fig8.png

@@ -8,7 +8,7 @@ position: 3
 
 The __Scroll Actions__ section in the Highlighting menu allows you to add different type of scroll actions. Scroll action steps help you move the target element within the visible part of the tested application.
 
-![Scroll Action Steps][1]
+![Scroll Action Steps](/img/features/recorder/highlighting-menu/scroll-actions/fig1.png)
 
 - [General notes](#general-notes)
 - [Add a scroll step](#add-a-scroll-step-in-recording-mode)
@@ -28,11 +28,11 @@ The options for scrolling are:
 
 ## Add a Scroll Step in Recording Mode
 
-1.&nbsp; Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
+1. Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/" target="_blank">Telerik official page</a>.
 
-2.&nbsp; This sample scenario scrolls the __Download DevCraft Trial__ button to the top of the page to reveal part of the page under. Enable the highlighting and hold the mouse over the button - choose the __Scroll to Page Top__ and add the step.
+2. This sample scenario scrolls the __Download DevCraft Trial__ button to the top of the page to reveal part of the page under. Enable the highlighting and hold the mouse over the button - choose the __Scroll to Page Top__ and add the step.
 
-![Add scroll step][2]
+    ![Add scroll step](/img/features/recorder/highlighting-menu/scroll-actions/fig2.png)
 
 ## Create a Scroll Step without Recording Session
 
@@ -40,20 +40,14 @@ Automated test maintenance may require adding new steps in an existing test. For
 
 For the cases when the project and scenarios are quite complex, you can __add scroll steps for an already recorded element__ and without starting a recording session. The below list guide you through the steps for this:
 
-1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
+1. Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
 
-2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
+2. Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 
-3.&nbsp; You can choose adding a click step from the __Quick Actions__ list or from the __Scroll Actions__ list. Select the step you need and click the **Add Step** button to insert the step in the test.
+3. You can choose adding a click step from the __Quick Actions__ list or from the __Scroll Actions__ list. Select the step you need and click the **Add Step** button to insert the step in the test.
 
-![Step Builder Scroll actions][3]
+    ![Step Builder Scroll actions](/img/features/recorder/highlighting-menu/scroll-actions/fig3.png)
 
 > __Tip__
-><br>
-><br>
 > Check <a href="https://www.telerik.com/videos/teststudio/how-to-add-test-steps-from-the-test-builder" target="_blank">this short video</a> demonstrating how to add a step for an existing element in Test Studio.
-
-[1]: /img/features/recorder/highlighting-menu/scroll-actions/fig1.png
-[2]: /img/features/recorder/highlighting-menu/scroll-actions/fig2.png
-[3]: /img/features/recorder/highlighting-menu/scroll-actions/fig3.png
 

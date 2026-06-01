@@ -1,4 +1,4 @@
----
+﻿---
 title: Automate ClickOnce App
 page_title: Automate ClickOnce App
 description: "Learn how to automate ClickOnce WPF applications in Test Studio. This guide provides a coded solution in C# to handle dynamic app paths, ensuring seamless automated testing workflows for ClickOnce deployments."
@@ -103,8 +103,7 @@ End If
 
 The project view is given on the next screenshot for a reference: 
 
-![Project][1]
+![Project](/img/advanced-topics/coded-samples/wpf/automate-clickonce-app/fig1.png)
 
 
-[1]: /img/advanced-topics/coded-samples/wpf/automate-clickonce-app/fig1.png
 

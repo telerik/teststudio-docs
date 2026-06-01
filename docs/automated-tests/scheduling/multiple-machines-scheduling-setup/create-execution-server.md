@@ -1,4 +1,4 @@
----
+﻿---
 title: Configure Test Studio Execution Server
 page_title: Configure Test Studio Execution Server
 description: "Create Test Studio Execution Server on a dedicated execution machine in a scheduling setup. Execute Test Studio tests on remote machines. The Execution Server is the Test Studio Test Runner instance of Test Studio Standalone installation or the Test Studio Run-Time Edition installation. An Execution Server is ready for use when configured and registered with your Scheduling Server."
@@ -19,11 +19,11 @@ The below article describes the configuration steps.
 
 The **Test Studio Execution Client** is the Run-time component of Test Studio. It gets installed with Test Studio Standalone and Run-time editions. To start the Execution Client, called also Test Runner, type in the __Windows Start Menu__ > **Start Execution Server**.
 
-![Start Execution Server][1a]
+![Start Execution Server](/img/features/scheduling-test-runs/create-execution-server/fig1a.png)
 
 The Execution client is running in the background, so if this is __already started__ (automatically on machine startup or automatically with a test project), you might get prompted that **The Test Runner is already running**. In this case you can access it from the __Windows Task Bar__ on the lower right corner - locate the Test Studio icon, right click on it and choose the **Show** option.
 
-![Show][1]
+![Show](/img/features/scheduling-test-runs/create-execution-server/fig1.png)
 
 ## Configure Test Studio Execution Client
 
@@ -39,7 +39,7 @@ Once the **Test Studio Test Runner** window appears, there are multiple options 
 
 The configuration of the Test Studio Test Runner requires admin rights and is performed through the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Test Studio Services config wizard</a>. Use the __Configure__ button to open the wizard showing its <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server#execution-server-tab" target="_blank">Execution server tab</a> and apply any necessary changes. 
 
-![Configure button to open Execution server config][2a]
+![Configure button to open Execution server config](/img/features/scheduling-test-runs/create-execution-server/fig2-configure-button.png)
 
 - **Status** - shows the current status of the Execution Server and if it can connect to the listed Scheduling server.
 
@@ -59,7 +59,7 @@ The configuration of the Test Studio Test Runner requires admin rights and is pe
 
 - **Run on start up** - the option allows you to decide whether the Test Runner should start automatically on machine startup.
 
-![Execution server configuration][2]
+![Execution server configuration](/img/features/scheduling-test-runs/create-execution-server/fig2.png)
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -69,7 +69,7 @@ The configuration of the Test Studio Test Runner requires admin rights and is pe
 
 The section contains details for the Execution Server machine - status, Test Studio version, machine name, OS version, machine stats.
 
-![Machine Information][6]
+![Machine Information](/img/features/scheduling-test-runs/create-execution-server/fig6.png)
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -79,7 +79,7 @@ The section contains details for the Execution Server machine - status, Test Stu
 
 You can access the logging of the Execution Server - enable, disable or view <a href="/knowledge-base/best-practices-kb/generate-application-log" target="_blank">the generated log</a>.
 
-![Logging Information][6a]
+![Logging Information](/img/features/scheduling-test-runs/create-execution-server/fig6a.png)
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -89,7 +89,7 @@ You can access the logging of the Execution Server - enable, disable or view <a 
 
 All available and supported browsers on the Execution Server are listed in this section. You can <a href="/features/project-settings/browsers" target="_blank">calibrate</a> these or restore their default settings. If using the legacy version of Edge, you can browse here the WebDriver folder location on disc.
 
-![Browsers Information][6b]
+![Browsers Information](/img/features/scheduling-test-runs/create-execution-server/fig6b.png)
 
 <br>
 <div><a style="float:right" href="#configure-test-studio-execution-client">Back to top of section</a></div>
@@ -99,7 +99,7 @@ All available and supported browsers on the Execution Server are listed in this 
 
 This section appears only if there is an <a href="/features/dialogs-and-popups/dialog-handler-updater" target="_blank">__update for latest browser versions__</a> and allows you to update these with a single button click.
 
-![Dialog Handler Update][6c]
+![Dialog Handler Update](/img/features/scheduling-test-runs/create-execution-server/fig6c.png)
 
 1. Click the __Update__ button next to the __New update available__ notification.
 
@@ -123,22 +123,22 @@ To help in covering this requirement Test Studio provides a separate application
 
 - From the Windows start menu by typing _Session Monitor_.
   
-    ![Start Session Monitor from Win menu][8a]
+    ![Start Session Monitor from Win menu](/img/features/scheduling-test-runs/create-execution-server/start-session-monitor-win-menu.png)
 
 - From the Test Studio Test Runner by clicking the __Configure__ button in the __User Session Configuration__ section. 
-    ![Start Session Monitor from Test Runner][8b]
+    ![Start Session Monitor from Test Runner](/img/features/scheduling-test-runs/create-execution-server/start-session-monitor-config.png)
 
 > __Note!__ 
 ><br> 
 > Running and configuring the separate application Test Studio Session Monitor requires admin rights. 
 
-![Session Monitor application][8]
+![Session Monitor application](/img/features/scheduling-test-runs/create-execution-server/fig8.png)
 
 ### Keep Machine Awake
 
 Enabling this option __prevents the machine from falling to sleep, locking or showing screen saver__. The setting is applied as long as the __Test Studio Session Monitor__ application is running in the background. 
 
-![Keep Machine awake][9]
+![Keep Machine awake](/img/features/scheduling-test-runs/create-execution-server/fig9.png)
 
 > __Note!__ 
 ><br> 
@@ -157,7 +157,7 @@ When running tests on a remote virtual or physical machine, users would usually 
 
 When the __'Reconnect to Console on Disconnect'__ feature is enabled, Test Studio Session Monitor app tries __to reconnect your disconnected session to the local console session__, regaining access to the GUI.
 
-![Reconnect to console][10]
+![Reconnect to console](/img/features/scheduling-test-runs/create-execution-server/fig10.png)
 
 > __Note!__ 
 ><br>
@@ -176,34 +176,19 @@ When the __'Reconnect to Console on Disconnect'__ feature is enabled, Test Studi
 
 When the __'Reconnect to Console on Disconnect'__ feature is enabled, you have the option to change the __Console session resolution__ - you can choose the desired resolution from the dropdown menu. This option is useful when tests are executed on remote machine and successful test run depends on particular screen resolution. When set through the Test Studio Runner, you can ensure the automated tests are executed on the specified resolution.
 
-![Change Console Resolution][11]
+![Change Console Resolution](/img/features/scheduling-test-runs/create-execution-server/fig11.png)
 
 ### Run on Startup 
 
 The Run on start up option allows you to decide whether the Test Studio Session Monitor starts automatically on machine startup. We recommend using the option if this is the tool you use to control the user session. 
 
-![Run Session Monitor on startup][12]
+![Run Session Monitor on startup](/img/features/scheduling-test-runs/create-execution-server/fig12.png)
 
 ## See Also
 
 * <a href="https://www.telerik.com/blogs/improve-remote-test-execution-test-studio-user-session-configuration" target="_blank">Improve Your Remote Test Execution with Test Studio User Session Configuration</a>.
 
-[1]: /img/features/scheduling-test-runs/create-execution-server/fig1.png
-[1a]: /img/features/scheduling-test-runs/create-execution-server/fig1a.png
-[2]: /img/features/scheduling-test-runs/create-execution-server/fig2.png
-[2a]: /img/features/scheduling-test-runs/create-execution-server/fig2-configure-button.png
 
 
 
-[6]: /img/features/scheduling-test-runs/create-execution-server/fig6.png
-[6a]: /img/features/scheduling-test-runs/create-execution-server/fig6a.png
-[6b]: /img/features/scheduling-test-runs/create-execution-server/fig6b.png
-[6c]: /img/features/scheduling-test-runs/create-execution-server/fig6c.png
 
-[8]: /img/features/scheduling-test-runs/create-execution-server/fig8.png
-[8a]: /img/features/scheduling-test-runs/create-execution-server/start-session-monitor-win-menu.png
-[8b]: /img/features/scheduling-test-runs/create-execution-server/start-session-monitor-config.png
-[9]: /img/features/scheduling-test-runs/create-execution-server/fig9.png
-[10]: /img/features/scheduling-test-runs/create-execution-server/fig10.png
-[11]: /img/features/scheduling-test-runs/create-execution-server/fig11.png
-[12]: /img/features/scheduling-test-runs/create-execution-server/fig12.png

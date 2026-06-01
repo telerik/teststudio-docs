@@ -1,4 +1,4 @@
----
+﻿---
 title: Settings Class
 page_title: Settings Class
 description: "Test Studio Testing Framework Settings class. Use the Setting Class object to control the coded test execution"
@@ -91,9 +91,9 @@ The RecycleBrowser feature was added in version 2.0. Using it can significantly 
 
 There are a just a couple of things you need to be aware of to properly use the RecycleBrowser feature:
 
-1.&nbsp; When RecycleBrowser is active, any Manager.LaunchNewBrowser or Browser.Close() calls will be ignored.
+1. When RecycleBrowser is active, any Manager.LaunchNewBrowser or Browser.Close() calls will be ignored.
 
-2.&nbsp; You must call the base classes ShutDown() method in the test fixture teardown section to properly the browser window at the end of the test suite. If you miss this then browser windows will be left behind after your test suite has finished and exited.
+2. You must call the base classes ShutDown() method in the test fixture teardown section to properly the browser window at the end of the test suite. If you miss this then browser windows will be left behind after your test suite has finished and exited.
 
 ## Restoring Default Settings
 

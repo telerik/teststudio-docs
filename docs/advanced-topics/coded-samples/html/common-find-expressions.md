@@ -1,4 +1,4 @@
----
+﻿---
 title: Common HTML Find Expressions
 page_title: Common HTML Find Expressions
 description: "Learn how to use common HTML find expressions in Test Studio to locate and interact with elements like hyperlinks using C#, with examples for partial matches, exact matches, XPath, and data-driven expressions."
@@ -12,7 +12,7 @@ position: 1
 
 Let's use <a href="http://www.wikipedia.org/" target="_blank">wikipedia.org</a> as an example. First we'll find and click the top bold English link.
 
-![wikipedia][1]
+![wikipedia](/img/advanced-topics/coded-samples/html/common-find-expressions/fig1.png)
 
 Here's the HTML code for that link:
 
@@ -41,7 +41,7 @@ a.Click()
 
 If we locate by an exact match on TextContent, the bottom *English* link will found.
 
-![english link][2]
+![english link](/img/advanced-topics/coded-samples/html/common-find-expressions/fig2.png)
 
 Here's the HTML code for that link:
 
@@ -90,8 +90,6 @@ Dim a As HtmlAnchor = Find.ByExpression(Of HtmlAnchor)("tagname=a", "textcontent
 ````
 
 
-[1]: /img/advanced-topics/coded-samples/html/common-find-expressions/fig1.png
-[2]: /img/advanced-topics/coded-samples/html/common-find-expressions/fig2.png
 
 
 

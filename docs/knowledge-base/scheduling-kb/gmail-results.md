@@ -1,4 +1,4 @@
----
+﻿---
 title: Results Through Gmail
 page_title: Results Through Gmail
 description: Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution
@@ -46,6 +46,5 @@ Follow the steps below to apply the settings for using the Google mail server.
 
 5. Use the **Apply** button to restart the Scheduling service and let it use the SMTP settings. 
 
-    ![SMTP configuration][1]
+    ![SMTP configuration](/img/knowledge-base/scheduling-kb/gmail-results/fig1.png)
 
-[1]: /img/knowledge-base/scheduling-kb/gmail-results/fig1.png

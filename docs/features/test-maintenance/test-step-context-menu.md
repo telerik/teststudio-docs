@@ -1,4 +1,4 @@
----
+﻿---
 title: Test Step Context Menu
 page_title: Test Step Context Menu
 description: "Test Studio Test Step Context Menu with further actions that can be taken. Partial test run, Partial test execution, Run To Here, Convert verification step to wait, convert wait stei to extraction step, convert verification step to extraction step, create Test as step, Set Breakpoint, Continue On Failure, Edit a step in Code, Convert a step in code"
@@ -12,10 +12,10 @@ Each test step provides further actions that can be taken in the right mouse but
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![1][1]</td>
+<img src="/img/features/test-maintenance/test-step-context-menu/right-click-1.png" alt="1" /></td>
 <td>
 
-![2][2]</td>
+<img src="/img/features/test-maintenance/test-step-context-menu/right-click-2.png" alt="2" /></td>
 </tr>
 </table>
 
@@ -90,5 +90,3 @@ The options in this section are only available for Verification steps!
 - **Edit in Code** - converts the recorded step to a new method in the coded file related to the test - <a href="/features/coded-steps/code-behind-file" target="_blank">the code-behind file</a>. Notice that the description and icon change to indicate the step is now a coded one. Once converted, it cannot be switched back to the initially recorded step.
 - **View Code** - switches to the code-behind file and shows the test method for the selected coded step.
 
-[1]: /img/features/test-maintenance/test-step-context-menu/right-click-1.png
-[2]: /img/features/test-maintenance/test-step-context-menu/right-click-2.png

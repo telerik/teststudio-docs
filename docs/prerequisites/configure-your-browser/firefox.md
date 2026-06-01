@@ -1,4 +1,4 @@
----
+﻿---
 title: Firefox
 page_title: Firefox
 description: "Configure Firefox to use for testing with Test Studio. Prerequisites for testing against Firefox with Test Studio. Firefox extension not found."
@@ -40,23 +40,23 @@ To ensure a flawless and consistent automation process, there are a few browser 
 
 ## Extension Install Procedure
 
-1.&nbsp; When you start recording against Firefox, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).
+1. When you start recording against Firefox, but the Progress extension is not installed, the browser will load the recording start page and will try to load the extension. The recorder will search for the extension for the period that is defined in the *ClientReady* Timeout (the default is 60 seconds).
 
 <img src="/img/general-information/configure-your-browser/firefox/fig14.png" alt="Wait For Extension">
 
-2.&nbsp;  If the Progress extension doesn't load within the timeout period, a link to the Mozzila Extension Page will be displayed to install the extension.
+2.  If the Progress extension doesn't load within the timeout period, a link to the Mozzila Extension Page will be displayed to install the extension.
 
 <img src="/img/general-information/configure-your-browser/firefox/fig10.png" alt="Get Extension">
 
-3.&nbsp; By clicking on <strong>Get It Free From Mozilla Extensions Page</strong> you will be directly navigated to the Progress extension on the Extension Page.
+3. By clicking on <strong>Get It Free From Mozilla Extensions Page</strong> you will be directly navigated to the Progress extension on the Extension Page.
 
 <img src="/img/general-information/configure-your-browser/firefox/fig11.png" alt="Extension In Page">
 
-4.&nbsp; By clicking the <strong>Add to Firefox</strong> button the extension will be added after confirmation. 
+4. By clicking the <strong>Add to Firefox</strong> button the extension will be added after confirmation. 
 
 <img src="/img/general-information/configure-your-browser/firefox/fig12.png" alt="Add Extension Confirmation">
 
-5.&nbsp; Click on the icon located to the right of the address bar to find the extension's version.
+5. Click on the icon located to the right of the address bar to find the extension's version.
 
 <img src="/img/general-information/configure-your-browser/firefox/fig13.png" alt="Extension Version">
 

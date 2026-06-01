@@ -1,4 +1,4 @@
----
+﻿---
 title: Random Row
 page_title: Random Row
 description: "Learn how to data drive Test Studio tests by selecting a random row from an Excel data source on each run. Includes step-by-step code examples for dynamic test input."
@@ -14,7 +14,7 @@ In code, generate a random number based on the number of rows. Then use the corr
 
 1. Create a basic test against Bing.com.
 
-	![Basic test][1]
+	![Basic test](/img/advanced-topics/coded-samples/general/random-row/fig1.png)
 
 2. Right click step 2 and select **Edit in Code**.
 3. Enter the below code into the coded step. The **searchQuery.xlsx** Excel file contains five rows of data.
@@ -58,13 +58,11 @@ Pages.Bing.SbFormQText.Text = value
 
 ## How to find and use Office PIA's without Visual Studio installed
 
-1.&nbsp; Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
+1. Make sure that during the installation of Microsoft Office .NET Programmability Support was selected.
 
-![.NET Programmability Support][2]
+![.NET Programmability Support](/img/advanced-topics/coded-samples/general/random-row/fig2.png)
 
-2.&nbsp; Then you will find the interop assemblies in the Windows Global Assembly Cache, specifically the folder: *C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\*
+2. Then you will find the interop assemblies in the Windows Global Assembly Cache, specifically the folder: *C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\*
 
 This is a hidden protected system folder which won't show up in an ordinary hard drive search. If you try to go to "C:\Windows\assembly" Windows recognizes this as a special folder and will show you the full contents of the GAC in a flattened list instead of the individual folders that make up the GAC.
 
-[1]: /img/advanced-topics/coded-samples/general/random-row/fig1.png
-[2]: /img/advanced-topics/coded-samples/general/random-row/fig2.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Create and Record Web Test
 page_title: Create and Record a Web Test in Visual Studio Plugin
 description: "Create and Record a Test Studio Web Test in the Visual Studio plugin."
@@ -36,7 +36,7 @@ The __Recording__ dialog pops up and you can enter the URL of the page you test 
 
 Click the __Record__ button to launch the browser in recording mode. The selected browser starts and navigates to the listed URL. Once the page is completely loaded, the <a href="/features/recorder/compact-recording-toolbar" target="_blank">__Test Studio Recorder Toolbar__</a> gets attached to the browser instance and you can <a href="/automated-tests/recording/overview#how-to-add-steps-in-the-test" target="_blank">add the steps</a> for the automation scenario.
 
-![Browser with attached recorder][6]
+![Browser with attached recorder](/img/general-information/create-test-vsplugin/web-test/fig6.png)
 
 To __stop the recording session__ close the browser.
 
@@ -53,4 +53,3 @@ If you want to use the Visual Studio Test Explorer to execute the Test Studio te
 
 
 
-[6]: /img/general-information/create-test-vsplugin/web-test/fig6.png

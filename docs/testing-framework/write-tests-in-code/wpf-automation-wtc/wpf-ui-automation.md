@@ -1,4 +1,4 @@
----
+﻿---
 title: WPF UI Automation
 page_title: WPF UI Automation
 description: "Learn how to automate WPF application UI testing with Test Studio. This article covers launching applications, interacting with UI elements, verifying results, and best practices for building robust automated tests using the WPF Extension."
@@ -8,7 +8,7 @@ position: 2
 
 To get started, let's use a simple application and demo some basic automation scenarios like button click and set text. Then we will expand into more advanced topics and scenarios. Let's take the following simple application that contains a button and a text box. When you click the button, it simply changes "Push the button" to "Hello world!" in the text box. The application looks like this:
 
-![WPF app][1]
+![WPF app](/img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png)
 
 To automate the application above to set the text, click the button and then verify the hello text in **Telerik Testing Framework**, we can simply write the following code using the **WPF Extension** (which resides under **ArtOfTest.WebAii.Wpf**). The template for this method is based on a VsUnit test. However, the code itself can be reused in other type of Unit tests - it's just the template that will be different.
 
@@ -95,4 +95,3 @@ Let's take a closer look at the code above line by line:
  
 	Now that we understand this sample, let's dig into some of the key objects available in the WPF Extension.
 
-[1]: /img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png

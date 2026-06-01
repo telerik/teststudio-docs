@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Troubleshoot a Failing Test
 page_title: How to Troubleshoot My Failing Test?
 description: "Test Studio - debug a failing test. How to understand what causes the test to fail. What options I have to debug or troubleshoot a failing test. My test fails with Element not found exception. My test fails to locate an element on page. My test fails on random step on each run." 
@@ -124,8 +124,7 @@ Test Studio logging options can be accessed from different components of the pro
 
 The application log can be useful in many ways to Test Studio support engineers and developers. Users with issues should look for exceptions. 
 
-![Log][1]
+![Log](/img/troubleshooting-guide/troubleshooting-tools-tg/using-the-application-log/fig1.png)
 
 These are usually accompanied with error messages that may guide you in troubleshooting. If you are not familiar with the error message, try searching our documentation for it. If you still cannot understand the error, consider attaching a copy of the log to a <a href="/knowledge-base/best-practices-kb/submit-support-ticket" target="_blank">support ticket</a>. 
 
-[1]: /img/troubleshooting-guide/troubleshooting-tools-tg/using-the-application-log/fig1.png

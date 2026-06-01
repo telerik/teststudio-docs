@@ -1,4 +1,4 @@
----
+﻿---
 title: Using VS Team Test
 page_title: Using VS Team Test
 description: "Test Studio Testing Framework with VS Team test"
@@ -42,11 +42,11 @@ End Sub
 
 ### VS 2012 / 2013
 
-![VS 2012/2013][1]
+![VS 2012/2013](/img/testing-framework/using-vs-team-test/fig1.png)
 
 ### VS 2010
 
-![VS 2010][2]
+![VS 2010](/img/testing-framework/using-vs-team-test/fig2.png)
 
 * Telerik settings can be read directly from an **app.config** file contained in your Visual Studio test project. This allows you to configure your Telerik tests using the same .config file that you would be using to store your connection strings and other settings for your test suite.
 
@@ -58,13 +58,13 @@ In this section we will walk you through the steps to get you started using Tele
 
 * Once you have completed installing Telerik Testing Framework on the target machine, start your Visual Studio environment and open your test project or create a new test project if you are starting from scratch.
 
-![New project][3]
+![New project](/img/testing-framework/using-vs-team-test/fig3.png)
 
 * Once you have created the project, right-click the project node in the Solution Explorer. Then select Add->New Item... (NOTE: Do not use Add->New Test)
 
 * Visual Studio will pop-up the Add New Item dialog as shown below.
 
-![Add new item][4]
+![Add new item](/img/testing-framework/using-vs-team-test/fig4.png)
 
 * Expand the Test node displayed on the left then select Telerik Testing Framework. Then choose Web or Wpf. You should see four templates as shown in the image above.
 
@@ -112,7 +112,3 @@ The Telerik Framework template is very similar to Visual Studio's unit test temp
 </tr>
 </table>
 
-[1]: /img/testing-framework/using-vs-team-test/fig1.png
-[2]: /img/testing-framework/using-vs-team-test/fig2.png
-[3]: /img/testing-framework/using-vs-team-test/fig3.png
-[4]: /img/testing-framework/using-vs-team-test/fig4.png

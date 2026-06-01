@@ -1,4 +1,4 @@
----
+﻿---
 title: Introduction
 page_title: Introduction to TestRegions
 description: "Test Studio Testing Framework: Introducing TestRegions. What are TestRegions and how TestRegions can help in designing coded automation tests. "
@@ -173,9 +173,9 @@ Now that we know how to define test regions as part of an application under test
  
 Each TestRegion object has two properties that provide access to the elements contained in it:
 
-1.&nbsp; Each TestRegion has an 'Element' property which returns the actual DOM Element object of that testregion tag as it exists in the DOM tree of the loaded document. You can use that Element object to navigate the DOM tree up or down to a specific element as needed. That approach is though highly discouraged because your test will become reliant on a specific DOM structure for your application and will result in test code that can easily break.
+1. Each TestRegion has an 'Element' property which returns the actual DOM Element object of that testregion tag as it exists in the DOM tree of the loaded document. You can use that Element object to navigate the DOM tree up or down to a specific element as needed. That approach is though highly discouraged because your test will become reliant on a specific DOM structure for your application and will result in test code that can easily break.
 
-2.&nbsp; The second way for accessing elements is the more robust and recommended way to use in test code. Each TestRegion has a 'Find' object associated with it. The Find object provides the same rich APIs and search routines as described in the Finding Page Elements topic. The difference is that this Find object uses the TestRegion element as the root element to start the search from. This difference is the key difference that enables test code to have higher resilience to changes outside the targeted testregion. In fact, test code that targets a specific testregion and exclusively uses the Find object exposed to locate elements, will not be impacted at all by any changes in the application outside that region. Of course, changes inside that region will impact the tests that target it which is probably a desired behavior.
+2. The second way for accessing elements is the more robust and recommended way to use in test code. Each TestRegion has a 'Find' object associated with it. The Find object provides the same rich APIs and search routines as described in the Finding Page Elements topic. The difference is that this Find object uses the TestRegion element as the root element to start the search from. This difference is the key difference that enables test code to have higher resilience to changes outside the targeted testregion. In fact, test code that targets a specific testregion and exclusively uses the Find object exposed to locate elements, will not be impacted at all by any changes in the application outside that region. Of course, changes inside that region will impact the tests that target it which is probably a desired behavior.
  
 For example, to locate the restaurants table in the above sample, you can write:
 

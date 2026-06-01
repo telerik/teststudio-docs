@@ -1,4 +1,4 @@
----
+﻿---
 title: Disconnect Project from TFS
 page_title: Disconnect Test Studio Project from TFS
 description: "Disconnect a Test Studio Project from TFS"
@@ -11,17 +11,15 @@ position: 2
 
 The below steps describe how to do this in Test Studio Standalone version.
 
-1.&nbsp; Open a project, which is connected to TFS in Test Studio Standalone version.
+1. Open a project, which is connected to TFS in Test Studio Standalone version.
 
-2.&nbsp; Right click on the project and select **Source Control**.
+2. Right click on the project and select **Source Control**.
 
-![Source Control][1]
+![Source Control](/img/features/source-control/disconnect-from-tfs/fig1.png)
 
-3.&nbsp; Click **Disconnect from Source Control**.
+3. Click **Disconnect from Source Control**.
 
-![Disconnect][2]
+![Disconnect](/img/features/source-control/disconnect-from-tfs/fig2.png)
 
 Once you click it the project is disconnected from TFS.
 
-[1]: /img/features/source-control/disconnect-from-tfs/fig1.png
-[2]: /img/features/source-control/disconnect-from-tfs/fig2.png

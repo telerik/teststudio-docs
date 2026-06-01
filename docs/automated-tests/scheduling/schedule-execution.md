@@ -1,4 +1,4 @@
----
+﻿---
 title: Schedule Execution
 page_title: Schedule Test List Execution
 description: "Test Studio test list schedule execution. How to schedule a test list on remote machine with Test Studio"
@@ -18,7 +18,7 @@ This article guides you trough the below topics:
 
 Once you have created a <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test list</a>, you can schedule it for execution at any time in the future. Initiate the _Scheduling wizard_ from the **Schedule TestList** button in the **Test List** tab.
 
-![Schedule Test List][1]
+![Schedule Test List](/img/features/scheduling-test-runs/schedule-execution/fig1.png)
 
 Go through the steps to setup the scheduled job: 
 
@@ -30,13 +30,13 @@ Go through the steps to setup the scheduled job:
 
 Select the desired time and recurrence settings for this test run. In product version **R3 2015** we've introduced the ability to schedule test lists *Minutely* and *Hourly*.
 
-![Step1][2]
+![Step1](/img/features/scheduling-test-runs/schedule-execution/fig2.png)
 
 ### **Step 2**
 
 Select Machine(s) step lets you pick the Execution Server on which to run the test list. If the list is empty, add at least one Execution Server. Picking multiple servers will result in the Test List executing simultaneously on all selected machines.
 
-![Step2][3]
+![Step2](/img/features/scheduling-test-runs/schedule-execution/fig3.png)
 
 Options available:
 
@@ -58,29 +58,29 @@ Options available:
 
 Choose whether an automatic email is sent after test list completion and on what condition. [Read here additional details for email customization options](#email-notification-customization).
 
-![Step3][4]
+![Step3](/img/features/scheduling-test-runs/schedule-execution/fig4.png)
 
 ## Scheduled Job Information
 
 Once you close the Scheduling Wizard, the scheduled run appears in the **Results** tab. It is yellow, indicating it's waiting to be executed.
 
-![Results tab][10]
+![Results tab](/img/features/scheduling-test-runs/schedule-execution/fig10.png)
 
 To remove a scheduled test execution:
 
 - In the **Results** tab, hover over the scheduled test execution. Click the close button that appears.
 
-![Close X ][11]
+![Close X ](/img/features/scheduling-test-runs/schedule-execution/fig11.png)
 
 - If the scheduled test run is recurring, select whether to delete all instances or edit the scheduled run to remove specific test runs.
 
-![Delete Series][12]
+![Delete Series](/img/features/scheduling-test-runs/schedule-execution/fig12.png)
 
 ### Email Notification Customization
 
 These steps lets you configure the e-mail notification sent upon test list completion.
 
-![Select Notification Setting][5]
+![Select Notification Setting](/img/features/scheduling-test-runs/schedule-execution/fig5.png)
 
 To disable mail notification, check __"I'm good...no mail for me!"__.
 
@@ -93,31 +93,19 @@ If you check __"Send test results by email"__ select one of these three options:
 
 Under **Email Customization** customize the recipients, subject line, content, and attachments. Select the body content and attachments by checking the appropriate checkboxes.
 
-![Email Customization][6]
+![Email Customization](/img/features/scheduling-test-runs/schedule-execution/fig6.png)
 
 Under __Subject Line__, type "//" to invoke the token field menu and include data from the test results in the subject line.
 
-![Subject Line][7]
+![Subject Line](/img/features/scheduling-test-runs/schedule-execution/fig7.png)
 
 > __Note!__ Once you define a scheduled test list and enable the email message, all selected settings persist in that dialog next time you schedule a job within the same project.
 
 To view the resulting email format, see the email preview on the right.
 
-![Email Preview][8]
+![Email Preview](/img/features/scheduling-test-runs/schedule-execution/fig8.png)
 
 To further customize the email notification, click the **Edit** button and input custom text into the email template.
 
-![Edit Template][9]
+![Edit Template](/img/features/scheduling-test-runs/schedule-execution/fig9.png)
 
-[1]: /img/features/scheduling-test-runs/schedule-execution/fig1.png
-[2]: /img/features/scheduling-test-runs/schedule-execution/fig2.png
-[3]: /img/features/scheduling-test-runs/schedule-execution/fig3.png
-[4]: /img/features/scheduling-test-runs/schedule-execution/fig4.png
-[5]: /img/features/scheduling-test-runs/schedule-execution/fig5.png
-[6]: /img/features/scheduling-test-runs/schedule-execution/fig6.png
-[7]: /img/features/scheduling-test-runs/schedule-execution/fig7.png
-[8]: /img/features/scheduling-test-runs/schedule-execution/fig8.png
-[9]: /img/features/scheduling-test-runs/schedule-execution/fig9.png
-[10]: /img/features/scheduling-test-runs/schedule-execution/fig10.png
-[11]: /img/features/scheduling-test-runs/schedule-execution/fig11.png
-[12]: /img/features/scheduling-test-runs/schedule-execution/fig12.png

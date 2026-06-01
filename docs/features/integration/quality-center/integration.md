@@ -1,4 +1,4 @@
----
+﻿---
 title: Integration
 page_title: Quality Center Integration
 description: "Maintain the Quality center connected project from Test Studio"
@@ -20,32 +20,32 @@ Push your tests and test results to Quality Center, leveraging your existing QC 
 
 1. On the **Project** tab, click the **Quality Center** button in the **Extensions** ribbon.
 
-	![Quality Center Button][1]
+	![Quality Center Button](/img/features/integration/quality-center/integration/qc-button.png)
 
 2. Enter the Quality Center URL and click **Connect**.
 
-	![Connect][2]
+	![Connect](/img/features/integration/quality-center/integration/fig2.png)
 
 3. Enter your Username and Password and click **Login**.
 
-	![Login][3]
+	![Login](/img/features/integration/quality-center/integration/fig3.png)
 
 4. Select which project to connect with Test Studio and click Open project.
 5. The **Sync Project with Quality Center** screen loads.
 
-	![Sync][4]
+	![Sync](/img/features/integration/quality-center/integration/fig4.png)
 
 6. Select **Tests** or **Results** in the upper-left. Select one or multiple (using Ctrl + Click or Shift + Click) tests or results to push to QC. Then click **Publish > All** or **Selected**.
 
-	![Selected][5]
+	![Selected](/img/features/integration/quality-center/integration/fig5.png)
 
 7. If you make changes to a test that has already been pushed, click the **Sync** button to update the test in QC.
 
-	![Sync button][6]
+	![Sync button](/img/features/integration/quality-center/integration/fig6.png)
 
 8. The pushed test/result now resides in Quality Center.
 
-	![QC view][6]
+	![QC view](/img/features/integration/quality-center/integration/fig6.png)
 
 ## Enable Quality Center in Test Studio 2020 R3 SP Release
 
@@ -66,9 +66,3 @@ Open a File Explorer and navigate to the Test Studio installation _Bin_ sub-fold
 
 1. Restart Test Studio and the QC button will be back in the _Project Ribbon_.
 
-[1]: /img/features/integration/quality-center/integration/qc-button.png
-[2]: /img/features/integration/quality-center/integration/fig2.png
-[3]: /img/features/integration/quality-center/integration/fig3.png
-[4]: /img/features/integration/quality-center/integration/fig4.png
-[5]: /img/features/integration/quality-center/integration/fig5.png
-[6]: /img/features/integration/quality-center/integration/fig6.png

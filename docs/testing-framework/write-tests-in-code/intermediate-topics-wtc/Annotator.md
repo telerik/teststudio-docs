@@ -1,4 +1,4 @@
----
+﻿---
 title: Annotator
 page_title: Annotator
 description: "Test Studio Testing Framework annotated coded tests runs. Use the Annotator to highlight the target element for each action from the coded test."
@@ -8,7 +8,7 @@ position: 1
 
 The annotator displays in the browser window the actions that Telerik Testing Framework is performing along with highlighting the UI element that it is acting upon. If the action does not involve a UI element (such as navigating to a URL or creating a cookie) the action is displayed at the top of the browsers window. Here is what the annotator looks like in action:
 
-![Annotation][1]
+![Annotation](/img/testing-framework/write-tests-in-code/intermediate-topics-wtc/annotator/fig1.png)
 
 ## Activating the Annotator via the Application .config File
 
@@ -58,5 +58,4 @@ myAnnotator.Annotate(New Point(100, 300), "This annotation message appears under
 myAnnotator.Annotate(Find.ById("btn1").GetRectangle(), "This annotation highlights the Color On button")
 ````
 
-[1]: /img/testing-framework/write-tests-in-code/intermediate-topics-wtc/annotator/fig1.png
 

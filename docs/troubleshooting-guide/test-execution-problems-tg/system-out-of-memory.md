@@ -1,4 +1,4 @@
----
+﻿---
 title: System Out of Memory
 page_title: System.OutOfMemoryException
 description: "How to address System.OutOfMemoryException if encountered in Test Stuido."
@@ -22,7 +22,7 @@ My data driven test has hundreds or thousands of iterations. It fails during exe
 
 A test with that many iterations is very likely to encounter memory issues deep into execution. To combat this, use the **ReuseAppWindow** feature available in the <a href="/features/test-maintenance/test-properties-standalone" target="_blank">Test Properties</a>. This defines the number of iterations to reuse the browser window for a single test.
 
-![ReuseApp][1]
+![ReuseApp](/img/troubleshooting-guide/test-execution-problems-tg/system-out-of-memory/fig1.png)
 
 By default, zero keeps the same application open during the entire data driven test. Increasing that number can help to improve memory and performance. For example, a value of 50 causes the browser/app to close and reopen after every 50 iterations.
 
@@ -40,4 +40,3 @@ However, there is sufficient available system memory.
 
 This error is caused by the Microsoft UI Automation framework, which Test Studio uses to monitor dialogs. To avoid it, enable the **DisableDialogMonitoring** <a href="/features/test-maintenance/test-properties-standalone" target="_blank">Test Property</a> or <a href="/getting-started/test-execution/test-list-settings" target="_blank">Test List Setting</a>. Note: this will prevent your test from handling dialogs.
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/system-out-of-memory/fig1.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Analyze Results
 page_title: Analyze Results
 description: Analyze Load Result. Identify Key Areas of Load Data. User Experience Metrics. Load Generation Metrics. Resource Use Metrics. Correlate Key Load Data. Identify Issues based on the load test runs results. View Page Specific Metrics. 
@@ -64,19 +64,19 @@ Comparing any of the three key areas of load data to one another can help answer
 
 Average Time to First Byte may increase abruptly with added Virtual Users:
 
-![Current Virtual Users vs. Average Time to First Byte][1]
+![Current Virtual Users vs. Average Time to First Byte](/img/knowledge-base/load-testing-kb/analyze-results/fig1.png)
 
 * **Current Virtual users vs. HTTP Errors/second**. This graph shows how increasing load affects the rate of HTTP errors received from the application server (See Figure 2). To find out more about which pages generate which errors, view Page Specific Metrics.
 
 HTTP Errors/second may increase with added Virtual Users, or abruptly decrease if the server stops responding:
 
-![Current Virtual users vs. HTTP Errors/second][2]
+![Current Virtual users vs. HTTP Errors/second](/img/knowledge-base/load-testing-kb/analyze-results/fig2.png)
 
 * **Average Time to First Byte (ms) vs. Total % Processor Time**. This graph shows how increasing processor use affects response times.
 
 Spikes in processor usage may be associated with increased response times for users.
 
-![Average Time to First Byte (ms) vs. Total % Processor Time][3]
+![Average Time to First Byte (ms) vs. Total % Processor Time](/img/knowledge-base/load-testing-kb/analyze-results/fig3.png)
 
 ## View Page Specific Metrics
 
@@ -84,13 +84,13 @@ To identify slow resources and the cause of HTTP errors, view the <a href="/feat
 
 A small number of pages may cause the majority of response time and HTTP errors. Errors are often associated with an increase in response time:
 
-![Page Specific Metrics][4]
+![Page Specific Metrics](/img/knowledge-base/load-testing-kb/analyze-results/fig4.png)
 
 To find out what kind of errors a page generated, click on the row for that URL in the Page Specific Metrics view.
 
 500 errors may indicate that the server is not configured correctly:
 
-![Error code][5]
+![Error code](/img/knowledge-base/load-testing-kb/analyze-results/fig5.png)
 
 ## See Also
 
@@ -98,9 +98,4 @@ To find out what kind of errors a page generated, click on the row for that URL 
 
 * <a href="/knowledge-base/load-testing-kb/profiling-your-app" target="_blank">Profiling Your App</a>
 
-[1]: /img/knowledge-base/load-testing-kb/analyze-results/fig1.png
-[2]: /img/knowledge-base/load-testing-kb/analyze-results/fig2.png
-[3]: /img/knowledge-base/load-testing-kb/analyze-results/fig3.png
-[4]: /img/knowledge-base/load-testing-kb/analyze-results/fig4.png
-[5]: /img/knowledge-base/load-testing-kb/analyze-results/fig5.png
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Execution on Locked Machine
 page_title: Execution on Locked Machine
 description: "Test Script Execution on Locked Machine. Test Studio test run with error SendInput: Failed. Win32Error. If disconnect from and/or lock the machine that acts as Execution Server, no scheduled tests are executed. This includes Remote Desktop Sessions that are minimized or closed. The following error may appear for tests with dialog handling - UnsupportedNonInteractiveOperationException. Test Studio test run with error SendInput: Failed. Win32Error" 
@@ -51,9 +51,8 @@ As this is a common scenario we have worked out few possible ways to address the
 
 The Test Studio Execution client provides <a href="/features/scheduling-test-runs/create-execution-server#user-session-configuration" target="_blank">built-in options to control the User session</a> on the remote execution machines. Enabling both <a href="/features/scheduling-test-runs/create-execution-server#keep-machine-awake" target="_blank">__Keep Machine Awake__</a> and <a href="/features/scheduling-test-runs/create-execution-server#reconnect-to-console-on-disconnect" target="_blank">__Reconnect to Console on Disconnect__</a> will keep the machine active and unlocked when an unattended scheduled run is triggered.
 
-![User session configuration][8]
+![User session configuration](/img/features/scheduling-test-runs/create-execution-server/fig8.png)
 
-[8]: /img/features/scheduling-test-runs/create-execution-server/fig8.png
 
 > __Tip__
 > <br>

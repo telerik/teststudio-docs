@@ -1,4 +1,4 @@
----
+﻿---
 title: Access SQL Database
 page_title: Access SQL Database
 description: "Learn how to connect to and interact with a SQL database in Test Studio coded steps. This article covers adding assembly references, building connection strings, and using C# or VB.NET code to read from and write to SQL databases."
@@ -29,7 +29,7 @@ Imports System.Data.SqlClient;
 
 Here we've create a SQL database named **myFirstDB**. This database contains a table named **Table_1**. This table contains a column named **City**.
 
-![Database][1]
+![Database](/img/advanced-topics/coded-samples/general/access-sql-database/fig1.png)
 
 ### Read from SQL Database
 
@@ -116,4 +116,3 @@ thisCommand.ExecuteNonQuery()
 
 **Note**: This code won't run without modification. The database, table, and column in the original code won't exist in your environment.
 
-[1]: /img/advanced-topics/coded-samples/general/access-sql-database/fig1.png

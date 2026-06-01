@@ -1,4 +1,4 @@
----
+﻿---
 title: ReSharper Compatibility
 page_title: ReSharper Compatibility
 description: ReSharper Compatibility in Test Studio. Cannot resolve symbol error messages in Test Studio.
@@ -27,6 +27,5 @@ Disable ReSharper's IntelliSense and enable Visual Studio's.
 
 2. Select **Visual Studio**.
 
-![VS IntelliSense][1]
+![VS IntelliSense](/img/knowledge-base/visual-studio-kb/resharper-compatibility/fig1.png)
 
-[1]: /img/knowledge-base/visual-studio-kb/resharper-compatibility/fig1.png

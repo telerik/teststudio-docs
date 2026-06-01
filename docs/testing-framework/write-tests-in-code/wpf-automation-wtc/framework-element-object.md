@@ -1,4 +1,4 @@
----
+﻿---
 title: FrameworkElement Object
 page_title: FrameworkElement Object
 description: "Learn about the FrameworkElement object in Test Studio's WPF automation. Explore its properties, methods, and usage for navigating and interacting with the visual tree in automated tests."
@@ -179,7 +179,7 @@ All FrameworkElements offer the ability to get both the relative coordinates of 
 
 **Note:** Given that WPF/Silverlight applications allow for rich transforms for visual elements (i.e. rotate, zoom….etc) and some elements like ellipses don't really conform to a rectangle per-say, our coordinate calculations will always return the largest rectangle that contains the actual element with its center right at the center of the element. For example, a GetRectangle on an ellipse will return this:
 
-![SL app][1]
+![SL app](/img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png)
 
 *The highlighting above is using the FrameworkElement.Highlight() method.*
 
@@ -247,4 +247,3 @@ These are all of the FrameworkElement methods available for use by your automati
 </tr>
 </table>
 
-[1]: /img/testing-framework/write-tests-in-code/wpf-automation-wtc/wpf-ui-automation/fig1.png

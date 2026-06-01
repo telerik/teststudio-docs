@@ -1,4 +1,4 @@
----
+﻿---
 title: Fail Step or Test Programmatically
 page_title: Fail test step or mark the entire test result as failed
 description: Even if all test steps are successful, you might need to fail one step or the entire test at the end of the execution. You can do that programmatically in OnAfterTestCompleted method.
@@ -14,11 +14,11 @@ All steps are successfully executed, but you might need to still fail the test d
 
 You can change the result from specific step or the entire test programmatically, after the test is completed. To do that, you need to <a href="/advanced-topics/coded-samples/general/custom-scripts-before-after" target="_blank">override the method **OnAfterTestCompleted()**</a> in a coded step.
 
-1.&nbsp; Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the current test.
+1. Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the current test.
 
-2.&nbsp; Override the **OnAfterTestCompleted()** method outside of the coded step method. The logic inside this method will be executed after the last step of the test.
+2. Override the **OnAfterTestCompleted()** method outside of the coded step method. The logic inside this method will be executed after the last step of the test.
 
-3.&nbsp; Find a specific condition, which will be used to evaluate the state of the application and whether the step or test should be marked as failed.
+3. Find a specific condition, which will be used to evaluate the state of the application and whether the step or test should be marked as failed.
 
 ````C#
 namespace DemoProj

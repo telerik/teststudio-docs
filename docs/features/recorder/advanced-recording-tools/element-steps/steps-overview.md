@@ -1,4 +1,4 @@
----
+﻿---
 title: Element Steps
 page_title: Element Steps Overview
 description: "Test Studio Advanced Recording Tools lets you add steps against a selected element during recording. Select an element from the DOM tree and switch to Element Steps tab to choose what step to add. Elements steps can be action or verification type."
@@ -14,15 +14,15 @@ Find out more about adding element steps below.
 
 If there is no element selected in the __DOM Explorer__, the __Element Steps__ remains empty.
 
-![Select Element from DOM][1]
+![Select Element from DOM](/img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig1.png)
 
 Choose an element from the DOM Explorer, or use the highlighting menu to locate an element in the DOM. The __Elements Steps__ tab shows the __Actions__ and __Verifications__ options relative for the selected element. Choose a step and click the **Add Step** button to add it into the test.
 
-![Add Step][2]
+![Add Step](/img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig2.png)
 
 ## Actions
 
-![Actions][3]
+![Actions](/img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig3.png)
 
 The __Actions__ section gives you the option to add different type of actions for an element - mouse clicks and actions, scrolling and JavaScript events. 
 
@@ -38,7 +38,7 @@ The __Actions__ section gives you the option to add different type of actions fo
 
 ## Verifications
 
-![Verifications][4]
+![Verifications](/img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig4.png)
 
 Once you have added the necessary actions, you still have to verify that those actions lead to a successful result and everything happened as expected. There are several ways to verify elements in Test Studio:
 
@@ -70,7 +70,3 @@ Test Studio implements verification through "sentences" that compare a portion o
 
 > Test Studio cannot read and verify against the contents of a PDF file loaded in the browser, as it does not have a DOM structure like a traditional web page. If you can store that information in a file type such as XLS, XML, CSV, or a SQL database, then you can use the <a href="/features/data-driven-testing/Overview" target="blank">Data Driving</a> feature. 
 
-[1]: /img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig1.png
-[2]: /img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig2.png
-[3]: /img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig3.png
-[4]: /img/features/recorder/advanced-recording-tools/element-steps/steps-overview/fig4.png

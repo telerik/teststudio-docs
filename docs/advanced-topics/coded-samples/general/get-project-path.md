@@ -1,4 +1,4 @@
----
+﻿---
 title: Get Project Path
 page_title: Get Project Path
 description: "Learn how to retrieve the current Test Studio project path in coded tests. Includes code examples for accessing the project directory and data source file locations for flexible test automation."
@@ -19,7 +19,7 @@ this.ExecutionContext.DeploymentDirectory;
 Me.ExecutionContext.DeploymentDirectory
 ````
 
-![Current path][1]
+![Current path](/img/advanced-topics/coded-samples/general/get-project-path/fig1.png)
 
 This will store the current project path inside the string variable *currentProjectFolder*. The actual path string can be, for example:
 
@@ -40,4 +40,3 @@ Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\
 
 It's still possible to edit or replace it from that location in a coded step. This will work even if the test is data bound to the file in question. 
 
-[1]: /img/advanced-topics/coded-samples/general/get-project-path/fig1.png

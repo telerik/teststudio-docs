@@ -1,4 +1,4 @@
----
+﻿---
 title: Data Driven Find Expressions in Code
 page_title: Data Driven Find Expressions in Coded Step
 description: "Learn how to parameterize element find expressions in Test Studio coded steps for data-driven testing. This article demonstrates how to use data sources to dynamically locate and interact with elements, such as selecting different values from a dropdown in each test iteration."
@@ -63,7 +63,7 @@ The example below uses a page from the <a href="https://demos.telerik.com/aspnet
 
 
 
-10.&nbsp; Switch back to the test steps and record the click on the button to move the selected item on the right. With this the scenario is complete. 
+10. Switch back to the test steps and record the click on the button to move the selected item on the right. With this the scenario is complete. 
 
     ![Recorded step to move the item on the right](/img/advanced-topics/coded-samples/general/data-driven-find-expressions/recorded-step-to-move-right.png)
 

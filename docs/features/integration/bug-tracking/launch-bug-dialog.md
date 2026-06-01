@@ -1,4 +1,4 @@
----
+﻿---
 title: Launch Bug Dialog
 page_title: Launch Bug Dialog
 description: "How to launch the bug dialog to submit a bug from Test Studio. Submit a bug from the genererated fauilure detail/failed test in Test Studio. Submit a bug from failed Test Studio test list results."
@@ -18,19 +18,19 @@ There are four ways to launch the Submit Bug dialog:
 
 Open the Step Failure Details for a failed step and click **Submit Bug**.
 
-![Step Failure Details][1]
+![Step Failure Details](/img/features/integration/bug-tracking/launch-bug-dialog/fig1.png)
 
 ## Test Step Context Menu
 
 Right click a failed step and select **Submit Bug**. 
 
-![Failed Step][2]
+![Failed Step](/img/features/integration/bug-tracking/launch-bug-dialog/step-righ-click-menu-bug.png)
 
 ## Visual Debugger
 
 Click Submit Bug when the debugger hits a failed step.
 
-![Visual Debugger][3]
+![Visual Debugger](/img/features/integration/bug-tracking/launch-bug-dialog/fig3.png)
 
 ## Results Tab
 
@@ -44,18 +44,13 @@ Execute a test list and drill down into the failed result.
 <tr style="text-align: center; background-color: transparent; border:none;">
 <td>
 
-![Export][4]</td>
+<img src="/img/features/integration/bug-tracking/launch-bug-dialog/test-list-icon.png" alt="Export" /></td>
 <td>
 
-![Test Results][5]</td>
+<img src="/img/features/integration/bug-tracking/launch-bug-dialog/fig5.png" alt="Test Results" /></td>
 </tr>
 </table>
 
-[1]: /img/features/integration/bug-tracking/launch-bug-dialog/fig1.png
-[2]: /img/features/integration/bug-tracking/launch-bug-dialog/step-righ-click-menu-bug.png
-[3]: /img/features/integration/bug-tracking/launch-bug-dialog/fig3.png
-[4]: /img/features/integration/bug-tracking/launch-bug-dialog/test-list-icon.png
-[5]: /img/features/integration/bug-tracking/launch-bug-dialog/fig5.png
 
 
 

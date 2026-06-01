@@ -1,4 +1,4 @@
----
+﻿---
 title: Overview
 page_title: Executive Dashboard Overview
 description: "Online results server. Executive Dashboard results and reports. View test list results and reports"
@@ -8,7 +8,7 @@ position: 1
 
 The **Executive Dashboard** allows you to monitor the results from <a href="/features/scheduling-test-runs/remote-scheduled-run" target="_blank">remotely executed test lists</a> per project. The **Executive Dashboard** gathers the results from the **Storage Server**, so you can have an overview and generate reports.
 
-![Navigation header][1]
+![Navigation header](/img/general-information/test-results/dashboard/overview/fig1.png)
 
 * **Results** - Shows test list results from all remotely executed test lists.
 * **Reports** - Generate, analyze and export reports from test list executions.
@@ -22,4 +22,3 @@ You can monitor the results and generate reports from remote test list execution
 - <a href="/general-information/test-results/dashboard/reports" target="_blank">Generate reports</a> for specific test lists.
 - <a href="/general-information/test-results/dashboard/about-page" target="_blank">The About page</a> with version details.
 
-[1]: /img/general-information/test-results/dashboard/overview/fig1.png

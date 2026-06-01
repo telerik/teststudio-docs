@@ -1,4 +1,4 @@
----
+﻿---
 title: Recording Settings
 page_title: Recording Settings
 description: "Test Studio project settings recording settings. Use the Test Studio recording settings to configure how recording will take place. Highlighting border adjustment in Test Studio recording. Set BaseURL for a project in Test Studio. How newly recorded pages are compared to the existing pages and their URL in Test Studio. The same element is recorded In Test Studio for each new recording session under different page node. Set default Record Drop-Down Option in Test Studio - by index, by value, by text. Enable/Disable Storyboard in Test Studio. Set Simulate Real Clicks/Typing By Default in Test Studio. Test Studio allow you to choose a custom name each time a new element is manually added to the Elements repository. Enable/Disable translator optimization during recording"
@@ -8,7 +8,7 @@ position: 2
 
 Use Recording section to configure how recording will take place. Some of the options are only needed for very specialized circumstances.
 
-![Recording Options][1]
+![Recording Options](/img/features/project-settings/recording-options/fig1.png)
 
 > Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
 
@@ -18,7 +18,7 @@ The "Automation Overlay Surface" defines the highlight border color, border widt
 
 Click the **Border button** to display a color selector and use the sliders to adjust **Highlight Border Width** and **Menu Hold Time**. Delaying the Elements Menu display can be helpful if you're trying to hover the mouse and the Elements Menu is popping up too quickly.
 
-![Highlighting][2a]
+![Highlighting](/img/features/project-settings/general/fig2.png)
 
 ## BaseURL
 
@@ -35,7 +35,7 @@ This setting determines the Compare Mode property to use when adding a page node
 - The Query is the portion after the "?" and before the "#".
 - The "#" marks the beginning of the Fragment portion of the URL, if present.
 
-![URL][2]
+![URL](/img/features/project-settings/recording-options/fig2.png)
 
 Consider the following three URLs:
 
@@ -91,14 +91,10 @@ By default, clicks and typing are recorded as sending clicks or text directly to
 
 If turned on, Test Studio will display a dialog for a custom name each time a new element is manually added to the repository. This is done from the <a href="/features/elements-menu/overview" target="_blank">Elements Menu</a> or the <a href="/features/elements-menu/dom-explorer" target="_blank">DOM Explorer</a> context menu.
 
-![Add Element][3]
+![Add Element](/img/features/project-settings/recording-options/fig3.png)
 
 ## Translators Optimization
 
 This option allows you to stop the optimization the usage of <a href="/getting-started/test-recording/translators" target="_blank">translators</a> during recording. By default, Test Studio <a href="/features/project-settings/translators" target="_blank">enables only the translators</a>, which are useful for the page under test, depending on what controls it is built of. If the option is enabled, all translators will be enabled in the project settings and this may slow down the recording experience.
 
-[1]: /img/features/project-settings/recording-options/fig1.png
-[2]: /img/features/project-settings/recording-options/fig2.png
-[3]: /img/features/project-settings/recording-options/fig3.png
 
-[2a]: /img/features/project-settings/general/fig2.png

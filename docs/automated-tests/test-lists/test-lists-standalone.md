@@ -1,4 +1,4 @@
----
+﻿---
 title: Test Lists
 page_title: Test Lists in Test Studio
 description: "Test Studio Test List. How to create a test list (suite) in Test Studio. Static test list dynamic test list"
@@ -21,7 +21,7 @@ Test Studio provides two options for a test list - a static one, which contains 
 
 In a static test list you can add **web, responsive web, WPF, load tests or combination of these**, **manual** and **performance** tests. There are three types of test lists to cover the different types of tests - automated, manual and performance. The type of test list is defined when <a href="/features/test-lists/create-test-lists#choose-name-and-type-of-the-test-list" target="_blank">creating the test list</a>.
 
-![Choose Test List Type][1]
+![Choose Test List Type](/img/automated-tests/test-lists/test-lists-types/fig1.png)
 
 > __Note__
 ><br>
@@ -36,7 +36,7 @@ The **Automated** test list type is the standard to execute one or more **web**,
 
 The **Performance** test list type allows you to execute **performance runs for one or more web tests**. This type of list can include only web tests (the rest of the tests are greyed out). Next to each test added in the list, you have a __Configure...__ button to apply the <a href="/features/testing-types/performance-testing/gather-perfomance-data" target="_blank">settings</a> for the performance run.
 
-![Configure][4]
+![Configure](/img/automated-tests/test-lists/test-lists-types/fig4.png)
 
 ### Manual Type of Test List
 
@@ -46,10 +46,10 @@ The **Manual** type of list allows you to add only **manual** tests and execute 
 	<tr style="text-align: center; background-color: transparent; border:none;">
 		<td>
 
-![Previous][2]</td>
+<img src="/img/automated-tests/test-lists/test-lists-types/fig2.png" alt="Previous" /></td>
 <td>
 		
-![Next][3]</td>
+<img src="/img/automated-tests/test-lists/test-lists-types/fig3.png" alt="Next" /></td>
 </tr>
 </table>
 
@@ -62,11 +62,11 @@ The **Manual** type of list allows you to add only **manual** tests and execute 
 
 The dynamic test list can be only automated type and as such, it can execute one or more **web**, **responsive web**, **load** or **WPF** tests, or a combination of these. When <a href="/features/test-lists/create-test-lists#how-to-create-a-dynamic-test-list" target="_blank">creating the dynamic test list</a> there are a bunch of <a href="/features/test-maintenance/test-properties-standalone" target="_blank">__test properties__</a>, which you can use as criteria for filtering the tests from project - __test name__, __test path__ and the, so called, __user defined properties__ - __Owner, Priority, Custom Property 1, 2, 3__.
 
-![Test properties][6]
+![Test properties](/img/automated-tests/test-lists/test-lists-types/fig6.png)
 
 These criteria can be used when <a href="/features/test-lists/create-test-lists#create-dynamic-test-list" target="_blank">defining the __Rules__</a>, which tests to be included in the dynamic test list.
 
-![Define Rules which tests to be included in the dynamic list][8]
+![Define Rules which tests to be included in the dynamic list](/img/automated-tests/test-lists/test-lists-types/fig8.png)
 
 > __Note__
 ><br>
@@ -77,11 +77,5 @@ These criteria can be used when <a href="/features/test-lists/create-test-lists#
 
 * <a href="http://blogs.telerik.com/automated-testing-tools/posts/13-09-23/power-of-dynamic-test-lists" target="_blank">Power of Dynamic Test Lists</a>
 
-[1]: /img/automated-tests/test-lists/test-lists-types/fig1.png
-[2]: /img/automated-tests/test-lists/test-lists-types/fig2.png
-[3]: /img/automated-tests/test-lists/test-lists-types/fig3.png
-[4]: /img/automated-tests/test-lists/test-lists-types/fig4.png
 
-[6]: /img/automated-tests/test-lists/test-lists-types/fig6.png
 
-[8]: /img/automated-tests/test-lists/test-lists-types/fig8.png

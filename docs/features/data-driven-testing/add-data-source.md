@@ -1,4 +1,4 @@
----
+﻿---
 title: Add External Data Source
 page_title: Add External Data Source to Your Test Project
 description: "How to add Excel/ CSV/ SQL Oracle DataBase/ external data source into a Test Studio project. How to add the data source for data driven test in Test Studio"
@@ -26,7 +26,7 @@ In the below section you can read how to prepare the Excel file and add it to th
 ><br>
 > When preparing the Excel data sheet, consider that the __first row of the Excel spreadsheet is used to define the column names__ when binding data to the steps.
 
-![Excel][1]
+![Excel](/img/features/data-driven-testing/add-data-source/fig1.png)
 
 In the above example, *Input A* is the name of the first column, *Input B* is the name of the second column, and *Results* is the name of the third column. You __use these names when attaching the columns to the input values__ of the test steps.
 
@@ -43,7 +43,7 @@ Click the __Add__ button in the _Data Sources_ section of the _Project_ tab to o
 
 Ensure the selected type of file is the Excel. Then enter the path to the prepared Excel file, or click the _three dots_ button ("...") to browse and select it from your local disk. Click the __Create__ button to save this data source definition in the project.
 
-![Create new data source][4]
+![Create new data source](/img/features/data-driven-testing/add-data-source/fig4.png)
 
 > __Tip__
 ><br>
@@ -72,7 +72,7 @@ XML files are type of documents that both humans and machines can read. The stru
 
 Click the __Add__ button in the _Data Sources_ section of the _Project_ tab to open the **Create new data source** dialog.
 
-![Bind XML file][8]
+![Bind XML file](/img/features/data-driven-testing/add-data-source/fig8.png)
 
 Ensure the selected type of file is the XML. Then enter the path to the prepared XML file, or click the _three dots_ button ("...") to browse and select it from your local disk. Click the __Create__ button to save this data source definition in the project.
 
@@ -84,7 +84,7 @@ In the below section you can read how to prepare the CSV file and add it to the 
 
 CSV files can be created in any spreadsheet application or directly in Notepad if you follow the *.csv formatting conventions - each line with comma separated values, the same number of commas in each line. Here is an example of a basic CSV file with two columns:
 
-![CSV file][9]
+![CSV file](/img/features/data-driven-testing/add-data-source/fig9.png)
 
 Just like an Excel spreadsheet, the first row of data will be used to define the column names - *UserName* and *Password*.
 
@@ -92,7 +92,7 @@ Just like an Excel spreadsheet, the first row of data will be used to define the
 
 Click the __Add__ button in the _Data Sources_ section of the _Project_ tab to open the **Create new data source** dialog.
 
-![Bind CSV file][9a]
+![Bind CSV file](/img/features/data-driven-testing/add-data-source/fig9a.png)
 
 Ensure the selected type of file is the CSV. Then enter the path to the prepared CSV file, or click the _three dots_ button ("...") to browse and select it from your local disk. Click the __Create__ button to save this data source definition in the project.
 
@@ -105,16 +105,10 @@ Adding a database source requires additional details compared to adding an Excel
 - **Test** - click this button to test the connection to your database. A dialog indicating success will display if the connection is established.
 - **Friendly Name** - enter a name to represent this database connection definition. The name entered here is displayed in the _Manage Data Sources_ window.
 
-![Database source][10]
+![Database source](/img/features/data-driven-testing/add-data-source/fig10.png)
 
 > __Tip__
 ><br>
 ><br>
 > Find examples for **[How to connect to a SQL Database](/features/data-driven-testing/sql-database-example)** and **[How to connect to an Oracle Database](/features/data-driven-testing/oracle-db-example)**.
 
-[1]: /img/features/data-driven-testing/add-data-source/fig1.png
-[4]: /img/features/data-driven-testing/add-data-source/fig4.png
-[8]: /img/features/data-driven-testing/add-data-source/fig8.png
-[9]: /img/features/data-driven-testing/add-data-source/fig9.png
-[9a]: /img/features/data-driven-testing/add-data-source/fig9a.png
-[10]: /img/features/data-driven-testing/add-data-source/fig10.png

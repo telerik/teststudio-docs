@@ -1,4 +1,4 @@
----
+﻿---
 title: Translators Project Settings
 page_title: Translators Project Settings
 description: "Test Studio comes with built-in translators for the Telerik components. Test Studio provides Basic translators for HTML, and WPF, and translators built specifically for Telerik AJAX and RadControls, KendoUI for jQuery and KendoUI for Angular, Telerik UI for Blazor"
@@ -12,7 +12,7 @@ The <a href="/getting-started/test-recording/translators" target="_blank">built-
 
 This section of the <a href="/features/project-settings/overview" target="_blank">Project Settings</a> allows you to __adjust the version of the Telerik and Kendo UI components__ used to build the application under test and lets Test Studio apply the matching translators. From this menu you can review and __disable/enable the components__ for which a translator is available.
 
-![Translators Project Settings][1]
+![Translators Project Settings](/img/features/project-settings/translators/fig1.png)
 
 <!-- no toc -->
 - [Choose the correct version of translators used in the tested application](#select-the-version-of-the-telerik-components-under-test)
@@ -24,7 +24,7 @@ This section of the <a href="/features/project-settings/overview" target="_blank
 
 The __Telerik Components Under Test__ section lets you instruct the translators' version to match the version of the UI components in the tested page for this project. This setting applies to both the <a href="/automated-tests/recording/recording-telerik-kendo-ui-components" target="_blank">recording</a> and quick execution flows and allows you to smoothly create tests and run these for various applications. The same setting is exposed in the <a href="/features/test-lists/test-list-settings" target="_blank">test list settings</a> and can be set individually per test list.
 
-![Telerik Components Under Test Version][2]
+![Telerik Components Under Test Version](/img/features/project-settings/translators/fig2.png)
 
 > __Note!__
 > <br> 
@@ -212,8 +212,5 @@ Find the versions of the supported UI components matching the translators versio
 
 The __Available Translators__ section lists __all built-in translators__ that are currently available in Test Studio. All translators are enabled by default, which is the __recommended setup__. Each of the built-in translators can be disabled and not used while recording and executing tests, but we strongly recommend contacting the Test Studio Support Team before applying changes to the enabled translators.
 
-![Available Translators][3]
+![Available Translators](/img/features/project-settings/translators/fig3.png)
 
-[1]: /img/features/project-settings/translators/fig1.png
-[2]: /img/features/project-settings/translators/fig2.png
-[3]: /img/features/project-settings/translators/fig3.png

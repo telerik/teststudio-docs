@@ -1,4 +1,4 @@
----
+﻿---
 title: Upgrade Existing MongoDB to Version 4.0
 page_title: Upgrade Existing MongoDB to Version 4.0
 description: Upgrade an existing MongoDB version lower than 3.6 to MongoDB version 4.0 or higher. Problems with starting MongoDB service. Not able to use Test Studio Scheduling feature. MongoDB service unable to start. 
@@ -32,7 +32,7 @@ The result is a dump/ folder where the command is run, which contains the dump o
 
 Open the Windows services and manually stop the MongoDB service.
 
-![Stop Service][1]
+![Stop Service](/img/knowledge-base/scheduling-kb/upgrade-to-mongo-4-0/fig1.png)
 
 #### 3. Delete the MongoDB Windows Service
 
@@ -42,7 +42,7 @@ Start a Command Prompt as Administrator and type the following command:
 sc delete MongoDB
 ````
 
-![Delete Service][2]
+![Delete Service](/img/knowledge-base/scheduling-kb/upgrade-to-mongo-4-0/fig2.png)
 
 #### 4. Uninstall MongoDB
 
@@ -68,5 +68,3 @@ Once the installation of MongoDB 4.x is finished and the service is running, you
 Mongorestore dump/
 ````
 
-[1]: /img/knowledge-base/scheduling-kb/upgrade-to-mongo-4-0/fig1.png
-[2]: /img/knowledge-base/scheduling-kb/upgrade-to-mongo-4-0/fig2.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Regular vs. Coded Step
 page_title: Regular vs. Coded Step
 description: The benefits of recorded steps against coded and vice versa. 
@@ -16,7 +16,7 @@ Pages.Wikipedia.WikipediAImage.AssertAttribute().Value("alt", ArtOfTest.Common.S
 
 Regular and coded steps visible here:
 
-![Regular vs coded step][1]
+![Regular vs coded step](/img/knowledge-base/best-practices-kb/regular-vs-coded-step/fig1.png)
 
 The single line of code might seem easy to write. However the following element:
 
@@ -36,4 +36,3 @@ The first part of this code is Find Logic. This is one of the challenging aspect
  
 Additionally using coded step increases the chances of hitting compilation errors and other errors related to building a test project.
 
-[1]: /img/knowledge-base/best-practices-kb/regular-vs-coded-step/fig1.png

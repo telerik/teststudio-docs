@@ -1,4 +1,4 @@
----
+﻿---
 title:  Create and Record WPF Test
 page_title: Create and Record a WPF Test in Visual Studio Plugin
 description: "Create and Record a Test Studio WPF Test in the Visual Studio plugin."
@@ -14,15 +14,15 @@ In this article you can find how to add and record a new WPF test in the Visual 
 
 Click with the right mouse button on the project name in __Solution Explorer__, select the __Add...__ option and choose the __Test Studio WPF Test...__ option.
 
-![New WPF test][3]
+![New WPF test](/img/general-information/create-test-vsplugin/wpf-test/fig3.png)
 
 The chosen item is selected in the list of items and you can enter name for the test. Then click the __Add__ button to insert it in the project.
 
-![Add][4]
+![Add](/img/general-information/create-test-vsplugin/wpf-test/fig4.png)
 
 To open the test, double click on its name in the Solution Explorer. The WPF test requires the path to the tested application to be configured before you can start recording. Click the __Configure WPF Application__ button in the toolbar to open the window with the WPF test settings.
 
-![Configure WPF app button][5]
+![Configure WPF app button](/img/general-information/create-test-vsplugin/wpf-test/fig5.png)
 
 The __Configure WPF Application Path__ window appears and you can insert the necessary information:
 
@@ -32,7 +32,7 @@ The __Configure WPF Application Path__ window appears and you can insert the nec
 
 Confirm the applied changes with __OK__ button.
 
-![Confirm configuration][6]
+![Confirm configuration](/img/general-information/create-test-vsplugin/wpf-test/fig6.png)
 
 ## Record Steps in a WPF Test
 
@@ -54,7 +54,3 @@ If you want to use the Visual Studio Test Explorer to execute the Test Studio te
 
 
 
-[3]: /img/general-information/create-test-vsplugin/wpf-test/fig3.png
-[4]: /img/general-information/create-test-vsplugin/wpf-test/fig4.png
-[5]: /img/general-information/create-test-vsplugin/wpf-test/fig5.png
-[6]: /img/general-information/create-test-vsplugin/wpf-test/fig6.png

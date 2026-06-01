@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Create a Test List 
 page_title: How to Create a Test List
 description: "Test Studio Test List. How to create a test list (suite) in Test Studio. Static test list dynamic test list"
@@ -27,19 +27,19 @@ Test Studio provides two options for a test list - a static one, which contains 
 
 Choose the **Test Lists** tab in the Test Studio project and hit the **List** button in the *Add* section of the tools ribbon.
 
-![Create List Button][1]
+![Create List Button](/img/features/test-lists/create-test-list/fig1.png)
 
 ### Choose Name and Type of the Test List
 
 The __'Create a New Test List'__ dialog pops up and lets you choose the _Name_ of the list, the _Type_ and _Tests_ to include. Changing the _Type_ of the test list determines what tests can be included in it - <a href="/automated-tests/test-lists/test-lists-standalone#automated-type-of-test-list" target="blank">__Automated__</a> for web, responsive web, WPF and load tests, <a href="/automated-tests/test-lists/test-lists-standalone#performance-type-of-test-list" target="blank">__Performance__</a> for running web tests in performance mode, and <a href="/automated-tests/test-lists/test-lists-standalone#manual-type-of-test-list" target="blank">__Manual__</a> for executing manual tests.
 
-![Choose Test List Type][2a]
+![Choose Test List Type](/img/features/test-lists/create-test-list/fig2a.png)
 
 ### Add Tests to the Test List
 
 To add a test in the test list, select it on the left side of the dialog, and move it to the right pane by _using the arrow buttons_, or by _double clicking_ on the test name. Once all tests are added, you can click the **OK** button to save the new test list.
 
-![Name the test list and Add tests][2]
+![Name the test list and Add tests](/img/features/test-lists/create-test-list/fig2.png)
 
 > __Tip__
 ><br>
@@ -53,15 +53,15 @@ To add a test in the test list, select it on the left side of the dialog, and mo
 
 - __Filter Tests by Type__
 
-    ![Filter][9]
+    ![Filter](/img/features/test-lists/create-test-list/fig2_FilterTestsByType.png)
 
 - __Filter Tests by Name__
 
-    ![Search][10]
+    ![Search](/img/features/test-lists/create-test-list/fig2_searchField.png)
 
 - __Use the *Collapse* Button__ to collapse any expanded folders in the listed tests from project. By default when the *'Create a New Test List'* dialog appears, all folders are expanded to see the tests these include.
 
-    ![Collapse][11]
+    ![Collapse](/img/features/test-lists/create-test-list/fig2_collapse.png)
 
 <br>
 <br>
@@ -74,7 +74,7 @@ There are few test properties you can use to create rules for tests to include i
 
 There are __few criteria you can define to filter tests__ upon execution, when creating a dynamic test lists - __test name__, __test path__ and the rest are the __user defined <a href="/features/test-maintenance/test-properties-standalone" target="blank">test properties__</a> (_Owner, Priority, Custom Property 1, 2, 3_). For the purpose of this example, two of the user-defined properties were modified - _Owner_ was set to Telerik and _Priority_ to 1.
 
-![Test properties][6]
+![Test properties](/img/features/test-lists/create-test-list/fig6.png)
 
 > __Note__
 ><br>
@@ -85,13 +85,13 @@ There are __few criteria you can define to filter tests__ upon execution, when c
 
 To be able to use these properties, you need to choose the **Dynamic List** button in the *Add* section under the **Test Lists** Tab
 
-![Add Dynamic test list][7]
+![Add Dynamic test list](/img/features/test-lists/create-test-list/fig7.png)
 
 ### Define Rules to Filter the Tests
 
 The __'Add Dynamic Test List'__ dialog pops up and lets you choose the _name_ of the list and _create rules_ which tests to include upon execution. __Craft one or more _Rules___ to filter on specific criteria, clicking plus button after each one. The current results are displayed real-time. Once done, click the **OK** button to save the new test list.
 
-![Define Rules which tests to be included in the dynamic list][8]
+![Define Rules which tests to be included in the dynamic list](/img/features/test-lists/create-test-list/fig8.png)
 
 > __Note__
 ><br>
@@ -106,15 +106,6 @@ The __'Add Dynamic Test List'__ dialog pops up and lets you choose the _name_ of
 Once you have created a test list, you can <a href="/automated-tests/test-lists/test-list-execution" target="_blank">execute it</a> immediately using the __Run List__ button from the _Execution_ section of the ribbon. If you need to schedule the test list run for a future time, or execute it on another machine, you will need to configure the Test Studio Scheduling configuration and then use the __Run List Remotely__ or __Schedule Test List__ buttons.
 
 
-[1]: /img/features/test-lists/create-test-list/fig1.png
-[2]: /img/features/test-lists/create-test-list/fig2.png
-[2a]: /img/features/test-lists/create-test-list/fig2a.png
 
 
 
-[6]: /img/features/test-lists/create-test-list/fig6.png
-[7]: /img/features/test-lists/create-test-list/fig7.png
-[8]: /img/features/test-lists/create-test-list/fig8.png
-[9]: /img/features/test-lists/create-test-list/fig2_FilterTestsByType.png
-[10]: /img/features/test-lists/create-test-list/fig2_searchField.png
-[11]: /img/features/test-lists/create-test-list/fig2_collapse.png

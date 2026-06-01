@@ -1,4 +1,4 @@
----
+﻿---
 title: Pass a Variable
 page_title: Pass a Variable
 description: An example how to reuse a dynamically extracted variable (during runtime) in different tests.
@@ -20,11 +20,11 @@ This is possible using the <a href="/features/recorder/verifications/Extraction"
 
 4. Perform an Extraction on the word.
 
-	![Extract][1]
+	![Extract](/img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig1.png)
 
 5. Edit the *DataBindVariableName* for the Extract step.
 
-	![Rename the variable][2]
+	![Rename the variable](/img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig2.png)
 
 6. Open the Child test.
 
@@ -32,13 +32,13 @@ This is possible using the <a href="/features/recorder/verifications/Extraction"
 
 8. <a href="/features/data-driven-testing/attach-columns-input-values" target="_blank">Bind</a> the variable to the Enter Text step. Type the name of the variable manually (*randomWord*), click the **brackets** and the **Set** button.
 
-	![Bind the child test][3]
+	![Bind the child test](/img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig3.png)
 
 9. Load the Parent test again.
 
 10. Add the Child test to it via the <a href="/features/custom-steps/test-as-step" target="_blank">Test as Step</a> feature.
 
-	![Test as Step][4]
+	![Test as Step](/img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig4.png)
 
 11. Execute the Parent test.
 
@@ -47,7 +47,3 @@ This is possible using the <a href="/features/recorder/verifications/Extraction"
 
 > You can also perform an Extraction in the Child test and pass that variable back to the Parent test.
 
-[1]: /img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig1.png
-[2]: /img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig2.png
-[3]: /img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig3.png
-[4]: /img/knowledge-base/data-driven-testing-kb/pass-a-variable/fig4.png

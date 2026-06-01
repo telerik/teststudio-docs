@@ -1,4 +1,4 @@
----
+﻿---
 title: Video Recording for a Test List
 page_title: Video Recording for a Test List
 description: "Test Studio Test List Execution. How to run a test list in Test Studio. Automatic re-run rerun of failed test in a test list. recording options for test list execution in Test Studio"
@@ -14,7 +14,7 @@ Test lists are designed for unattended execution and as such, you cannot always 
 
 Observing the test list execution in such occasions usually helps in understanding what caused the failure. Thus Test Studio provides built-in settings for capturing a video of the test list execution. __By default the screen recording option is disabled__, but you can choose between _always enabled_ or _enable only on failure_.
 
-![Screen recording Settings][4]
+![Screen recording Settings](/img/automated-tests/test-lists/test-list-runs-specifics/fig4.png)
 
 > __Important__
 ><br>
@@ -40,11 +40,11 @@ Supported codecs are:
    
 After installing Xvid, _"Display encoder status"_ encoder setting must be disabled. From Windows Start menu open _"Encoder Config"_ ->
 
-![Windows Start Menu][1]
+![Windows Start Menu](/img/automated-tests/test-lists/test-list-runs-specifics/fig1.png)
 
 Click _"Other Options.."_ -> Uncheck _"Display encoder status"_
 
-![Xvid config][2]
+![Xvid config](/img/automated-tests/test-lists/test-list-runs-specifics/fig2.png)
 
 > The default selected codec __MJPEG__ can be used without any further adjustments. <br/> 
 > To use __Xvid or X264__ codecs, they must be installed on the execution machine (for local and Visual Studio runs on the local machine, and for remote runs, on the machine where test list will be executed)
@@ -74,7 +74,4 @@ Click _"Other Options.."_ -> Uncheck _"Display encoder status"_
 
 > If the limit is reached, video recording will be stopped before the test execution ends.
 
-[1]: /img/automated-tests/test-lists/test-list-runs-specifics/fig1.png
-[2]: /img/automated-tests/test-lists/test-list-runs-specifics/fig2.png
 
-[4]: /img/automated-tests/test-lists/test-list-runs-specifics/fig4.png
