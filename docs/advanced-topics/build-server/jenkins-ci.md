@@ -3,8 +3,7 @@ title: Jenkins CI
 page_title: Jenkins CI
 description: "Integrate Test Studio tests in Jenkins continuous integration. Execute Test Studio tests with Jenkins."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/jenkins_ci.aspx, /user-guide/command-line-test-execution/continuous-integration/jenkins_ci
-position: 4
-position: 4
+position: 4 
 ---
 # Jenkins CI
 
