@@ -10,9 +10,7 @@ position: 1
 # Data Driven Find Expressions 
 
 *I need to data drive an element's find expression and use it to perform an action against or verify an element.*
-*I need to data drive an element's find expression and use it to perform an action against or verify an element.*
 
-> __Tip!__ <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data driven find expressions</a> is also available directly in elements Edit mode.
 > __Tip!__ <a href="/automated-tests/elements/find-element#data-driven-find-expression" target="_blank">Data driven find expressions</a> is also available directly in elements Edit mode.
 
 ## Solution 

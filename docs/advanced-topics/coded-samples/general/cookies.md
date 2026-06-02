@@ -2,7 +2,6 @@
 title: Cookies
 page_title: Get/Set Cookies in Code
 description: "Learn how to get and set browser cookies in Test Studio coded tests using C# or VB.NET. This article provides sample code for creating, setting, retrieving, and logging cookies during automated test execution."
-description: "Learn how to get and set browser cookies in Test Studio coded tests using C# or VB.NET. This article provides sample code for creating, setting, retrieving, and logging cookies during automated test execution."
 position: 1
 ---
 # Get/Set Cookies in Code

@@ -2,14 +2,12 @@
 title: Grayed Out Controls
 page_title: Grayed Out Controls
 description: "Learn how to handle grayed out or disabled controls in Test Studio automated tests. Find solutions for waiting out loading screens and ensuring reliable UI automation when elements are temporarily unavailable."
-description: "Learn how to handle grayed out or disabled controls in Test Studio automated tests. Find solutions for waiting out loading screens and ensuring reliable UI automation when elements are temporarily unavailable."
 position: 1
 ---
 # Dealing with Grayed Out Controls
 
 *My application contains "grayed out" (i.e. visible but not functioning) controls, like buttons. These controls cause unpredictable behavior when performing UI automation.*
 
-## Solution
 ## Solution
 
 The crux of the matter is that Test Studio cannot recognize whether a control is, in fact, grayed out and thus unavailable. "Grayed out" it used somewhat figuratively in this context - there are a lot of ways to signify that an element is not currently available to the user. Usually it's a gray transparent screen that covers the background or an AJAX loading animation. This is a typical implementation for modal dialogs, but also for AJAX loading screens and others.
