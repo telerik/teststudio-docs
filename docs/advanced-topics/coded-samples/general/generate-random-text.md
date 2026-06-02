@@ -2,6 +2,7 @@
 title: Generate Random Text
 page_title: Generate Random Text
 description: "Learn how to generate random text in Test Studio coded tests using .NET’s System.Random class. Includes step-by-step examples for creating random strings and automating input scenarios."
+description: "Learn how to generate random text in Test Studio coded tests using .NET’s System.Random class. Includes step-by-step examples for creating random strings and automating input scenarios."
 position: 1
 ---
 # Generate Random Text

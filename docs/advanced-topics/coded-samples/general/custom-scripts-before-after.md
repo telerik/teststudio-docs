@@ -2,14 +2,17 @@
 title: Custom Scripts Before/After Test
 page_title: Custom Scripts Before/After Test
 description: "Learn how to execute custom scripts before or after a test run in Test Studio by overriding BaseTest methods. This article explains how to use OnBeforeTestStarted and OnAfterTestCompleted for setup, cleanup, and accessing test results in both Standalone and Visual Studio plugin environments."
+description: "Learn how to execute custom scripts before or after a test run in Test Studio by overriding BaseTest methods. This article explains how to use OnBeforeTestStarted and OnAfterTestCompleted for setup, cleanup, and accessing test results in both Standalone and Visual Studio plugin environments."
 position: 1
 ---
+# Execute Custom Scripts Before/After the Test Run 
 # Execute Custom Scripts Before/After the Test Run 
 
 * *I would like to invoke a custom script once the test finishes. The custom script must have access to newly-generated test results.*
 
 * *I would like to invoke a custom script just before the test starts executing.*
 
+## Solution 
 ## Solution 
 
 Override the **OnAfterTestCompleted(TestResult result)** method for the "after" script and the **OnBeforeTestStarted()** method for the "before" script. They are both members of the BaseTest class that are invoked once the test finishes or before it starts. 

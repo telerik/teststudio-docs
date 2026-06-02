@@ -10,6 +10,7 @@ position: 7
 * <a href="/knowledge-base/project-configuration-kb/merge-page-nodes#frames">Frame nodes</a>
 
 
+
 ## Page Nodes
 
 The default for the **Compare Mode** in <a href="/features/project-settings/recording-options" target="_blank">Project Settings > Recording</a> is *FullPathAndQuery*. Depending on your application, this can cause duplication in the Elements Explorer. Although the page node is not used to locate an element during execution, it's best to consolidate duplicate page nodes for organizational and maintenance purposes. For example:

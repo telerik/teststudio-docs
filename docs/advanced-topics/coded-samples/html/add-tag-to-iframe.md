@@ -3,6 +3,8 @@ title: Add Tag to iFrame
 page_title: Add Tag to iFrame
 description: "Learn how to add custom tags to iframes in Test Studio, either by modifying HTML or dynamically through coded steps, to improve frame identification during automated testing."
 
+description: "Learn how to add custom tags to iframes in Test Studio, either by modifying HTML or dynamically through coded steps, to improve frame identification during automated testing."
+
 position: 1
 ---
 # Add Tag to iFrame

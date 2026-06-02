@@ -2,8 +2,10 @@
 title: Generate Random Number
 page_title: Generate Random Number
 description: "Learn how to generate random numbers in Test Studio coded tests using the .NET System.Random class. Includes practical examples for input controls and automated test scenarios."
+description: "Learn how to generate random numbers in Test Studio coded tests using the .NET System.Random class. Includes practical examples for input controls and automated test scenarios."
 position: 1
 ---
+# Generate Random Number
 # Generate Random Number
 
 *I would like to generate a random number in Test Studio. This number will be used in an input control or for a similar purpose.*

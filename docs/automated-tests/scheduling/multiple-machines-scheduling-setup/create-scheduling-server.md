@@ -274,6 +274,20 @@ Hit the __Update__ button to trigger the update. After the update, __restart Tes
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
 <br>
 
+### Browsers Tab
+
+When available, the __Browser support update__ notification appears along with the __Update__ button and indicates that you must update Test Studio.
+
+![Browser Update available](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-update-aval.png)
+
+Hit the __Update__ button to trigger the update. After the update, __restart Test Studio__ for the changes to take effect.
+
+![Restart required](/img/features/scheduling-test-runs/create-scheduling-server/browsers-tab-restart-after-update.png)
+
+<br>
+<div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
+<br>
+
 ## Finish the Test Studio Services Configuration
 
 When all necessary settings are applied and all services are reported running, close the wizard window to finish the Scheduling Services setup.

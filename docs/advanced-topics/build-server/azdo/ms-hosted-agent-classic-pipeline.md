@@ -1,4 +1,4 @@
-﻿---
+---
 title: AzDO Classic Pipeline Using Microsoft-Hosted Agent
 page_title: Test Studio Tests in Azure DevOps Classic Pipeline Using Microsoft-Hosted Agent
 description: "Integrate Test Studio tests in Azure DevOps continuous integration. Execute Test Studio tests with Azure DevOps Classic Pipeline configured with Microsoft-hosted agent."
