@@ -2,9 +2,6 @@
 title: Data Driven Find Expressions in Code
 page_title: Data Driven Find Expressions in Coded Step
 description: "Learn how to parameterize element find expressions in Test Studio coded steps for data-driven testing. This article demonstrates how to use data sources to dynamically locate and interact with elements, such as selecting different values from a dropdown in each test iteration."
-title: Data Driven Find Expressions in Code
-page_title: Data Driven Find Expressions in Coded Step
-description: "Learn how to parameterize element find expressions in Test Studio coded steps for data-driven testing. This article demonstrates how to use data sources to dynamically locate and interact with elements, such as selecting different values from a dropdown in each test iteration."
 position: 1
 ---
 # Data Driven Find Expressions 
