@@ -5,7 +5,7 @@
                     "files": [
 			// "Src/ArtOfTest.InternetExplorer.dll",
 			// "Src/ArtOfTest.ShDocVw.dll",
-			// "Src/ArtOfTest.WebAii.Design.dll",
+			"Src/ArtOfTest.WebAii.Design.dll",
 			"Src/ArtOfTest.WebAii.dll",
 			// "Src/ArtOfTest.WebAii.Messaging.dll",
 			"Src/Telerik.TestingFramework.Controls.KendoUI.Angular.dll",
