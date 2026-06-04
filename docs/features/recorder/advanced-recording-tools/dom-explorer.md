@@ -34,28 +34,28 @@ The __DOM Explorer__ tab exposes a set of useful functionalities listed in a too
 
 ![Toolbar](/img/features/recorder/advanced-recording-tools/dom-explorer/fig3.png)
 
-<h3>1. Add Element(s)</h3>
+### 1. Add Element(s)
 You can add a single or multiple elements to the project's <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>. Click the button to activate selection and start selecting the elements from the DOM tree. When you are ready to add them to the elements repository, click the **Add Selected** button in the bottom right corner of the *Advanced Recording Tools* window. You can cancel this action by clicking the **Cancel** button.
 
 ![Add to Elements](/img/features/recorder/advanced-recording-tools/dom-explorer/fig4.png)
 
-<h3>2. Refresh Elements Tree</h3>
+### 2. Refresh Elements Tree
 You can manually refresh the elements tree to replicate the current structure of the tested application in the DOM Explorer. This action does not refresh the browser, but only the elements tree that Test Studio recorder uses. Typically used when the elements tree is frozen and there are changes in the DOM tree.
 
-<h3>3. Freeze/Unfreeze Elements Tree</h3>
-Test Studio recorder detects any change in the application and automatically refreshes the DOM tree. This option allows you to pause and resume the auto-refresh of the elements tree. This is useful when there is a control on the page, which changes constantly or very often (a countdown watch, for example) and causes the DOM tree to refresh on every second. When in frozen state you can use the [__Refresh Elements Tree__](#refresh-elements-tree) button to update the elements tree manually.
+### 3. Freeze/Unfreeze Elements Tree
+Test Studio recorder detects any change in the application and automatically refreshes the DOM tree. This option allows you to pause and resume the auto-refresh of the elements tree. This is useful when there is a control on the page, which changes constantly or very often (a countdown watch, for example) and causes the DOM tree to refresh on every second. When in frozen state you can use the [__Refresh Elements Tree__](#2-refresh-elements-tree) button to update the elements tree manually.
 
-<h3>4. Search Bar</h3>
+### 4. Search Bar
 You can search for an element in the DOM. You can use the arrow buttons to jump to the next or previous element that matches your search criteria.
 
 > **Tip**
 >
 > Use # for find expression
 
-<h3>5. Elements Tree and Tag View</h3>
+### 5. Elements Tree and Tag View
 The tree view lists elements in their original hierarchy order and the tag view groups them by their TagName.
 
-<h3>6. Parent Element Filter</h3>
+### 6. Parent Element Filter
 This field contains entries for the entire page and for iFrame elements within the page. This field is missing if there is only one parent element (i.e. the Page node).
 
 ## Element Context Menu
