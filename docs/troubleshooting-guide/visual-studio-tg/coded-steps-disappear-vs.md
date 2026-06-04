@@ -21,7 +21,7 @@ In order to fix this problem so you are able to see your coded steps again, you 
 
 2. Generate in the project an independant class that defines the inheritance of your custom base class from Test Studio 'BaseWebAiiTest', i.e.:
 
-```C#
+````C#
 using ArtOfTest.WebAii.Design;
 using System;
 using System.Collections.Generic;
@@ -34,5 +34,5 @@ public class CustomWebAiiTest : BaseWebAiiTest
 {
 }
 }
-```
+````
 

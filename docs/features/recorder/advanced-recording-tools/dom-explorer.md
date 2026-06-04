@@ -1,4 +1,4 @@
----
+﻿---
 title: DOM Explorer Tab
 page_title: DOM Explorer Tab
 description: "The Test Studio Advanced Recording Tools allow access to the DOM tree of the tested application. The DOM Explorer tab displays the DOM in a tree or tag format where you see all elements of a page at one time. The Test Studio DOM Explorer help with the automation of complex applications when simply using the mouse and hover over highlighting may not be sufficient to find the correct elements."
@@ -8,7 +8,7 @@ position: 1
 
 The __DOM Explorer__ tab in the __Advanced Recording Tools__ window displays the DOM of the tested application in a tree or tag format. The DOM (Document Object Model) is a language neutral and platform independent abstraction that allows the content, structure and style of HTML pages and desktop applications to be represented dynamically.
 
-![DOM][1]
+![DOM](/img/features/recorder/advanced-recording-tools/dom-explorer/fig1.png)
 
 Find further details about the DOM Explorer functions:
 
@@ -18,51 +18,51 @@ Find further details about the DOM Explorer functions:
 - [Searching with RegEx](#regular-expressions)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## Toolbar Options
 
 The __DOM Explorer__ tab exposes a set of useful functionalities listed in a toolbar. Find out more for each of these in the below list.
 
-- [Add elements](#1-add-elements)
-- [Refresh elements](#2-refresh-elements-tree)
-- [Freeze/Unfreeze elements tree](#3-freezeunfreeze-elements-tree)
-- [Search](#4-search-bar)
-- [Tree and Tag View](#5-elements-tree-and-tag-view)
-- [Parent element filter](#6-parent-element-filter)
+- Add elements
+- Refresh elements
+- Freeze/Unfreeze elements tree
+- Search
+- Tree and Tag View
+- Parent element filter
 
-![Toolbar][3]
+![Toolbar](/img/features/recorder/advanced-recording-tools/dom-explorer/fig3.png)
 
-<h3>1. Add Element(s)</h3>
+### 1. Add Element(s)
 You can add a single or multiple elements to the project's <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a>. Click the button to activate selection and start selecting the elements from the DOM tree. When you are ready to add them to the elements repository, click the **Add Selected** button in the bottom right corner of the *Advanced Recording Tools* window. You can cancel this action by clicking the **Cancel** button.
 
-![Add to Elements][4]
+![Add to Elements](/img/features/recorder/advanced-recording-tools/dom-explorer/fig4.png)
 
-<h3>2. Refresh Elements Tree</h3>
+### 2. Refresh Elements Tree
 You can manually refresh the elements tree to replicate the current structure of the tested application in the DOM Explorer. This action does not refresh the browser, but only the elements tree that Test Studio recorder uses. Typically used when the elements tree is frozen and there are changes in the DOM tree.
 
-<h3>3. Freeze/Unfreeze Elements Tree</h3>
-Test Studio recorder detects any change in the application and automatically refreshes the DOM tree. This option allows you to pause and resume the auto-refresh of the elements tree. This is useful when there is a control on the page, which changes constantly or very often (a countdown watch, for example) and causes the DOM tree to refresh on every second. When in frozen state you can use the [__Refresh Elements Tree__](#refresh-elements-tree) button to update the elements tree manually.
+### 3. Freeze/Unfreeze Elements Tree
+Test Studio recorder detects any change in the application and automatically refreshes the DOM tree. This option allows you to pause and resume the auto-refresh of the elements tree. This is useful when there is a control on the page, which changes constantly or very often (a countdown watch, for example) and causes the DOM tree to refresh on every second. When in frozen state you can use the [__Refresh Elements Tree__](#2-refresh-elements-tree) button to update the elements tree manually.
 
-<h3>4. Search Bar</h3>
+### 4. Search Bar
 You can search for an element in the DOM. You can use the arrow buttons to jump to the next or previous element that matches your search criteria.
 
 > **Tip**
 >
 > Use # for find expression
 
-<h3>5. Elements Tree and Tag View</h3>
+### 5. Elements Tree and Tag View
 The tree view lists elements in their original hierarchy order and the tag view groups them by their TagName.
 
-<h3>6. Parent Element Filter</h3>
+### 6. Parent Element Filter
 This field contains entries for the entire page and for iFrame elements within the page. This field is missing if there is only one parent element (i.e. the Page node).
 
 ## Element Context Menu
 
 The __DOM Explorer__ provides few element based options in a context menu. Right click on any element and choose from the available operations.
 
-![Context menu][2]
+![Context menu](/img/features/recorder/advanced-recording-tools/dom-explorer/fig2.png)
 
 - **Add to Elements Repository** - adds the selected element to the <a href="/features/elements-explorer/overview" target="_blank">Elements Explorer</a> in the project.
 
@@ -100,21 +100,21 @@ You can use any valid attribute name (i.e. "id", "div", "name", etc.), or any of
 
 Append an additional operator to the "=" to make other comparisons.
 
-~	&nbsp;&nbsp; Contains
+~	 Contains
 
-!	&nbsp;&nbsp; NotContain
+!	 NotContain
 
-^	&nbsp;&nbsp; StartsWith
+^	 StartsWith
 
-?	&nbsp;&nbsp; EndsWith
+?	 EndsWith
 
-\#	&nbsp;&nbsp; RegEx
+\#	 RegEx
 
-,	&nbsp;&nbsp; And
+,	 And
 
 Here is an example that searches for the "type" attribute that contains "hidden".
 
-![Hidden][5]
+![Hidden](/img/features/recorder/advanced-recording-tools/dom-explorer/fig5.png)
 
 ## Regular Expressions
 
@@ -122,11 +122,5 @@ Regular Expressions (RegEx) are a sequence of text characters used to describe a
 
 Below picture demonstrates an example that searches for the "onsubmit" attribute that contains the word "myFunction".
 
-![onsubmit][6]
+![onsubmit](/img/features/recorder/advanced-recording-tools/dom-explorer/fig6.png)
 
-[1]: /img/features/recorder/advanced-recording-tools/dom-explorer/fig1.png
-[2]: /img/features/recorder/advanced-recording-tools/dom-explorer/fig2.png
-[3]: /img/features/recorder/advanced-recording-tools/dom-explorer/fig3.png
-[4]: /img/features/recorder/advanced-recording-tools/dom-explorer/fig4.png
-[5]: /img/features/recorder/advanced-recording-tools/dom-explorer/fig5.png
-[6]: /img/features/recorder/advanced-recording-tools/dom-explorer/fig6.png

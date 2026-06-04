@@ -9,23 +9,23 @@ position: 2
 
 An advanced verification allows you to interactively build verification rules and validate them against a live web document or WPF application. In order to create custom verification you need to locate the target element in the DOM tree and use the <a href="/features/recorder/step-builder" target="_blank">Step Builder</a> and its _Verification_ section.
 
-1.&nbsp; Create a Web Test and click Record.
+1. Create a Web Test and click Record.
 
-2.&nbsp; Navigate to <a href="http://www.bing.com" target="_blank">www.bing.com</a>
+2. Navigate to <a href="http://www.bing.com" target="_blank">www.bing.com</a>
 
-3.&nbsp; Enter _Telerik_ in the search box and click the __Search__ button.
+3. Enter _Telerik_ in the search box and click the __Search__ button.
 
-4.&nbsp; Enable hover over highlighting by clicking _Highlight Element_ in the __Test Studio Dev Recorder__.
+4. Enable hover over highlighting by clicking _Highlight Element_ in the __Test Studio Dev Recorder__.
 
-5.&nbsp; Choose _Build Step..._ from the context menu which will locate the element in the DOM tree and display the available options in the Step Builder to add a custom step. 
+5. Choose _Build Step..._ from the context menu which will locate the element in the DOM tree and display the available options in the Step Builder to add a custom step. 
 
-![Locate Element](images/highlight-element.png)
+    ![Locate Element](images/highlight-element.png)
 
-6.&nbsp; Select the **Verifications** tab in the Step Builder.
+6. Select the **Verifications** tab in the Step Builder.
 
-![Verifications](images/verification-section.png)
+    ![Verifications](images/verification-section.png)
 
-7.&nbsp; Start by selecting a type of available Verifications for the selected element:
+7. Start by selecting a type of available Verifications for the selected element:
 
 - IsVisible
 - Content
@@ -34,28 +34,28 @@ An advanced verification allows you to interactively build verification rules an
 - IsEnabled
 - <a href="/features/recorder/verifications/image-verification" target="_blank">Image</a>
 
-![Available verifications](images/available-verifications.png)
+    ![Available verifications](images/available-verifications.png)
 
-When crafting verifications, content is dynamically built against the currently selected element. As selections are made, default values are populated according to values the element contains.
-For example, choose Content as the verification type and three menu options appear. 
+    When crafting verifications, content is dynamically built against the currently selected element. As selections are made, default values are populated according to values the element contains.
+    For example, choose Content as the verification type and three menu options appear. 
 
-![Content](images/verify-content-options.png)
+    ![Content](images/verify-content-options.png)
 
-Click on the drop downs for each option to see a list of possible values.
+    Click on the drop downs for each option to see a list of possible values.
 
-<table id="no-table">
-<tr>
-<td>![Content Type](images/content-type.png)</td>
-<td>![Match Type](images/match-type.png)</td>
-</tr>
-<table>
+    <table id="no-table">
+    <tr>
+    <td><img src="images/content-type.png" alt="Content Type" /></td>
+    <td><img src="images/match-type.png" alt="Match Type" /></td>
+    </tr>
+    <table>
 
-8.&nbsp; Once finished building the verification(s), click **Add Step** to add it as a step to the current test.
+8. Once finished building the verification(s), click **Add Step** to add it as a step to the current test.
 
-![Add Step](images/add-step.png)
+    ![Add Step](images/add-step.png)
 
-The newly created verification appears in the test:
+    The newly created verification appears in the test:
 
-![Test Steps](images/verify-advanced-step.png)
+    ![Test Steps](images/verify-advanced-step.png)
 
 > We recommend against using the Content Markup validation types. They are fragile in the face of minor page changes, and different browsers may reorder the element attributes making them unreliable. For more information please see our Automated Testing blog entry on <a href="http://blogs.telerik.com/jimholmes/posts/11-08-23/understanding-validation-content-element-types.aspx" target="_blank">**Understanding Validation Content Element Types**</a>.

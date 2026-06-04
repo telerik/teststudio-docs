@@ -1,4 +1,4 @@
----
+﻿---
 title: Create Installer Log File
 page_title: Create an Installer Log File
 description: "How to create log file during the Test Studio installation process. Can an installer log be created for a failing installation?"
@@ -38,36 +38,33 @@ Place this file into a .zip file and attach it to a support ticket. Once we rece
 
 If you're installing using the .MSI file follow these steps to generate a MSI logfile:
 
-1.&nbsp; Bring up a command prompt window with admin privilege.
+1. Bring up a command prompt window with admin privilege.
 
   a. Click **Start > Run**.
   
   b. In the prompt, input **cmd**. 
 
-![cmd][1]
+![cmd](/img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig1.png)
 
   c. Click **OK**.
 
 Open a new command prompt console window and follow the steps: 
 
-2.&nbsp; Navigate to the folder where the downloaded installer file is saved within.
+2. Navigate to the folder where the downloaded installer file is saved within.
 
 In the example below, the installer is contained in D:\TestStudio\ but your location on your drive may be different so make sure you are in the right folder before running the below command.
 
-![Installers][2]
+![Installers](/img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig2.png)
 
-3.&nbsp; Input the following command:
+3. Input the following command:
 
 - `msiexec /i installer.msi /limev D:\TestStudio\installer.log` 
 
 where **installer.msi** is the exact name for the installer you downloaded from your Telerik account and __D:\TestStudio\installer.log__ is the full file name for the log to be saved.
 
-4.&nbsp; Once you have the above personalized as we do in the example, press the **Enter** key on your keyboard to begin the install and generate a log. 
+4. Once you have the above personalized as we do in the example, press the **Enter** key on your keyboard to begin the install and generate a log. 
 
-![Log generated][3]
+![Log generated](/img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig3.png)
 
-5.&nbsp; After you generate the file, please compress it to a .zip file and send it in your new or existing support ticket.
+5. After you generate the file, please compress it to a .zip file and send it in your new or existing support ticket.
 
-[1]: /img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig1.png
-[2]: /img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig2.png
-[3]: /img/troubleshooting-guide/installation-problems-tg/create-installer-log-file/fig3.png

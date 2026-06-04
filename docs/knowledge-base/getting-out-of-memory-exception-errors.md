@@ -1,11 +1,10 @@
----
+﻿---
 title: Getting Out of Memory Exception Errors
 page_title: System Out of Memory Exception Errors
 description: Getting Out of Memory Exception (OutOfMemory or System.OutOfMemoryException) Errors when scheduling tests to run on remote machine. Remote test list execution is failing because of OutOfMemory exceptions. Fix OutOfMemory Exception OOM exception. Open results crashes with System.OutOfMemory.
 previous_url: /user-guide/knowledge-base/oom.aspx
-position: 20
+position: 2
 ---
-# Dealing with `OutOfMemoryException` Errors
 
 ## Problem
 
@@ -27,13 +26,13 @@ Another option that sometimes helps is to use a 64-bit version of Windows. This 
 
 This last option is more experimental, but has been shown to work in a few cases. There is a flag called "LARGEADDRESSAWARE" that can be turned on for 32-bit executables like Test Studio. When this flag is set Windows will let the application use 3GB of address space instead of 2GB of address space. This flag only works when you're using a 64-bit version of Windows. It also requires Visual Studio to be installed before you can set this flag. To turn on this flag follow these 3 steps:
 
-1.&nbsp; Open a Visual Studio command prompt (the standard command prompt won’t have the path set properly), with admin privileges
+1. Open a Visual Studio command prompt (the standard command prompt won’t have the path set properly), with admin privileges
 
-2.&nbsp; Enter “**cd C:\Program Files (x86)\Progress\Test Studio\Bin**”
+2. Enter “**cd C:\Program Files (x86)\Progress\Test Studio\Bin**”
 
  
 
-3.&nbsp; Turn on the "LARGEADDRESSAWARE" flag for Telerik.TestStudio.Desktop.exe and ArtOfTest.Runner.exe, by entering “**editbin /LARGEADDRESSAWARE Telerik.TestStudio.Desktop.exe**” and "**editbin /LARGEADDRESSAWARE ArtOfTest.Runner.exe**"
+3. Turn on the "LARGEADDRESSAWARE" flag for Telerik.TestStudio.Desktop.exe and ArtOfTest.Runner.exe, by entering “**editbin /LARGEADDRESSAWARE Telerik.TestStudio.Desktop.exe**” and "**editbin /LARGEADDRESSAWARE ArtOfTest.Runner.exe**"
 
 That should be it. To double check that it worked, you can (in the same command prompt) run:
 
@@ -41,5 +40,5 @@ That should be it. To double check that it worked, you can (in the same command 
 
 You are looking for something ~12 lines down that says “Application can handle large (>2GB) addresses”
 
-4.&nbsp; If you do not have editbin exe in the bin folder you can use <a href="http://www.techpowerup.com/forums/threads/large-address-aware.112556/" target="_blank">this</a> small tool.
+4. If you do not have editbin exe in the bin folder you can use <a href="http://www.techpowerup.com/forums/threads/large-address-aware.112556/" target="_blank">this</a> small tool.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Add External Library 
 page_title: Add an Assembly Reference
 description: "Add an external Assembly Reference in Test Studio project. How to use an external dll in Test Studio project"
@@ -10,11 +10,11 @@ Extending your test project with any custom code may require the usage of extern
 
 To add an external assembly in the project open the <a href="/features/project-settings/script-options" target="_blank">Project Settings -> Script tab</a>. The Test Studio related dlls are referenced by default and you can see these listed in this window. Click the __Add Reference__ button to browse for the external dll file.
 
-![Add Reference][2]
+![Add Reference](/img/advanced-topics/coded-steps/add-assembly-reference/fig2.png)
 
 Locate the assembly on your computer and click **Open**. For this example I added the _System.Windows.Forms.dll_, which can be found in the <a href="https://docs.microsoft.com/en-us/dotnet/framework/app-domains/gac" target="_blank">Windows GAC folder</a>. The new dll will appear in the **Project References** list.
 
-![Added assembly][3]
+![Added assembly](/img/advanced-topics/coded-steps/add-assembly-reference/fig3.png)
 
 > __Tip__
 ><br>
@@ -26,10 +26,5 @@ Locate the assembly on your computer and click **Open**. For this example I adde
 
 Once the external class library is referenced in the project you need to add `using` (or `Import`) statement in the coded file, where it will be used.
 
-![List the dll in Code behind][5]
+![List the dll in Code behind](/img/advanced-topics/coded-steps/add-assembly-reference/fig5.png)
 
-[1]: /img/advanced-topics/coded-steps/add-assembly-reference/fig1.png
-[2]: /img/advanced-topics/coded-steps/add-assembly-reference/fig2.png
-[3]: /img/advanced-topics/coded-steps/add-assembly-reference/fig3.png
-[4]: /img/advanced-topics/coded-steps/add-assembly-reference/fig4.png
-[5]: /img/advanced-topics/coded-steps/add-assembly-reference/fig5.png

@@ -29,52 +29,38 @@ Also add the following **.NET** references:
 3.&nbsp; Add the following using statements to the class file:
 
 	
-#### __[C#]__
-
-    {{region }}
-
+````C#
     using System.IO;
     using System.Data;
     using System.Data.OleDb;
     using System.Windows.Forms;
     using ArtOfTest.WebAii.Design.Execution;
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Imports System.IO
     Imports System.Data
     Imports System.Data.OleDb
     Imports System.Windows.Forms
     Imports ArtOfTest.WebAii.Design.Execution
-    {{endregion}}
+````
 
 4.&nbsp; The *ArtOfTest.WebAii.Design.Execution* namespace contains an IExecutionExtension that our class needs to implement:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     namespace ClassLibrary1
     {
         public class Class1 : IExecutionExtension
         {
         }
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Namespace ClassLibrary1
         Public Class Class1
             Implements IExecutionExtension
         End Class
     End Namespace
-    {{endregion}}
+````
 
 5.&nbsp; Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
 
@@ -82,10 +68,7 @@ Also add the following **.NET** references:
 
  - The rest of the functions, which you're not using, should be left empty (remove *throw new NotImplementedException*).
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     namespace ClassLibrary1
     {
         public class Class1 : IExecutionExtension
@@ -139,12 +122,8 @@ Also add the following **.NET** references:
             #endregion
         }
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Namespace ClassLibrary1
         Public Class Class1
             Implements IExecutionExtension
@@ -191,7 +170,7 @@ Also add the following **.NET** references:
             #End Region
         End Class
     End Namespace
-    {{endregion}}
+````
 
 A few notes about the code above:
 
@@ -215,10 +194,7 @@ Let's see an example using the **OnInitializeDataSource** method. This assumes t
 
 1.&nbsp; Add the following code to that method:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     public System.Data.DataTable OnInitializeDataSource(ExecutionContext executionContext)
     {
         System.Data.DataTable table = null;
@@ -247,12 +223,8 @@ Let's see an example using the **OnInitializeDataSource** method. This assumes t
         thread.Join();
         return table;
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Public Function OnInitializeDataSource(executionContext As ExecutionContext) As System.Data.DataTable
         Dim table As System.Data.DataTable = Nothing
         Dim thread = New System.Threading.Thread(Function(obj) 
@@ -276,14 +248,11 @@ Let's see an example using the **OnInitializeDataSource** method. This assumes t
         thread.Join()
         Return table
     End Function
-    {{endregion}}
+````
 
 2.&nbsp; Now add the following *ImportExcelXLS* method within the same public class:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     private static DataSet ImportExcelXLS(string FileName, bool hasHeaders)
     {
         string HDR = hasHeaders ? "Yes" : "No";
@@ -320,12 +289,8 @@ Let's see an example using the **OnInitializeDataSource** method. This assumes t
         }
         return output;
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Private Shared Function ImportExcelXLS(FileName As String, hasHeaders As Boolean) As DataSet
         Dim HDR As String = If(hasHeaders, "Yes", "No")
         Dim strConn As String = Nothing
@@ -355,7 +320,7 @@ Let's see an example using the **OnInitializeDataSource** method. This assumes t
         End Using
         Return output
     End Function
-    {{endregion}}
+````
 
 3.&nbsp; Rebuild the class library, copy the resulting DLL file, and paste it into the Plugins folder (overwriting any other existing class library file).
 

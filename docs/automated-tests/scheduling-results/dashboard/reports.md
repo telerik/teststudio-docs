@@ -1,4 +1,4 @@
----
+﻿---
 title: Reports
 page_title: Executive Dashboard shows remote test list results
 description: "Online results server. Executive Dashboard results. View test list results"
@@ -12,7 +12,7 @@ In the Report Definitions you see a list of all predefined report definitions. T
 
 The definitions, marked as favorites, are saved locally per browser.
 
-![Report Definitions][1]
+![Report Definitions](/img/general-information/test-results/dashboard/reports/fig1.png)
 
 * **Select project** - Select a Test Studio project from a drop-down list.
 * **Create New Report Definition** - Opens the <a href="/general-information/test-results/dashboard/reports#create-report-definition">Create Report Definition</a>, where you can define new report.
@@ -24,8 +24,8 @@ The definitions, marked as favorites, are saved locally per browser.
 
 From this view you can create new report definitions for one or more test lists. You can choose the date range for the report details, or use a sliding period to generate a dynamic report for the last days, weeks or months.
 
-![Date range][2]
-![Sliding period][3]
+![Date range](/img/general-information/test-results/dashboard/reports/fig2.png)
+![Sliding period](/img/general-information/test-results/dashboard/reports/fig3.png)
 
 * **Name** - Type the name of the report definition that will be created.
 * **Selected Test Lists** - Select one or more test lists that will be included in the report.
@@ -38,7 +38,7 @@ From this view you can create new report definitions for one or more test lists.
 
 Here you can make changes to an already existing report definition or delete it. All fields are available to be modified and will be updated, when you save the report definition.
 
-![Edit Report Definition][4]
+![Edit Report Definition](/img/general-information/test-results/dashboard/reports/fig4.png)
 
 * **Name** - Type the name of the report definition that will be created.
 * **Selected Test Lists** - Select one or more test lists that will be included in the report.
@@ -52,7 +52,7 @@ Here you can make changes to an already existing report definition or delete it.
 
 You can analyze the report details and export it to PDF format, using the Export To PDF button. The report is devided into two main sections - **Report Overview** and **Test List Details**.
 
-![Report Details][5]
+![Report Details](/img/general-information/test-results/dashboard/reports/fig5.png)
 
 * **Breadcrumb navigation** - Click on the Project name link to navigate back.
 * **Export To PDF** - Export the current state of the report to PDF format.
@@ -61,7 +61,7 @@ You can analyze the report details and export it to PDF format, using the Export
 
 The Report Overview shows you details about the current report definition and a pie chart of all executed tests. The pie chart is divided by the percentage (%) of tests that passed, failed or were not ran. You can also hover over each section to show you the exact number of tests in that section.
 
-![Report Overview][6]
+![Report Overview](/img/general-information/test-results/dashboard/reports/gif1.gif)
 
 * **Report Definition Name** - The custom name of the report definition.
 * **Generated on** - Shows the date and time, when the current report was generated. It is generated again every time you open it.
@@ -78,12 +78,5 @@ Every test list has a graphic that shows passed, failed and not ran tests. The g
 * Press the Shift key and drag to select a section of the graphic.
 * Open the test list results, by clicking on the test list execution in the graphic.
 
-![Test List Details][7]
+![Test List Details](/img/general-information/test-results/dashboard/reports/gif2.gif)
 
-[1]: /img/general-information/test-results/dashboard/reports/fig1.png
-[2]: /img/general-information/test-results/dashboard/reports/fig2.png
-[3]: /img/general-information/test-results/dashboard/reports/fig3.png
-[4]: /img/general-information/test-results/dashboard/reports/fig4.png
-[5]: /img/general-information/test-results/dashboard/reports/fig5.png
-[6]: /img/general-information/test-results/dashboard/reports/gif1.gif
-[7]: /img/general-information/test-results/dashboard/reports/gif2.gif

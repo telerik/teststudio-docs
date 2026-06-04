@@ -1,4 +1,4 @@
----
+﻿---
 title: Scheduling Results
 page_title: Scheduling Results
 description: "Test Studio results from scheduled test runs. Scheduling Results. Scheduling calendar. "
@@ -14,11 +14,11 @@ Due to this specific there are few options in the __Results__ tab available, onl
 
 This options allows you to populate any result from a <a href="/automated-tests/test-lists/test-list-execution" target="_blank">local test list run</a> to the Storage Service database. That way you will be able to see this result also in the <a href="/general-information/test-results/executive-dashboard" target="_blank">Executive Dashboard</a>. Choose any local test list run result and click the __Publish To Server__ button.
 
-![Publish to Server][1]
+![Publish to Server](/img/automated-tests/scheduling-results/scheduling-results/fig1.png)
 
 If the run result is already populated in the storage database, there is a prompt message to confirm whether you need to republish this.
 
-![Confirm re-Publish to Server][2]
+![Confirm re-Publish to Server](/img/automated-tests/scheduling-results/scheduling-results/fig2.png)
 
 > __Tip__
 ><br>
@@ -29,11 +29,11 @@ If the run result is already populated in the storage database, there is a promp
 
 The **Manage Results** view provides a list of all scheduled and remote test list runs executed through the Scheduling server, for all different projects connected to the Scheduler. The details listed for each entry are the _test list name_, the _end_ and _start_ date and time and the _project name_. The local results uploaded to the database are also in this list.
 
-![Manage Results][3]
+![Manage Results](/img/automated-tests/scheduling-results/scheduling-results/fig3.png)
 
 From this list you can delete any test list run and this will delete the result file from the storage database. If this is a local run, which result was published to the storage, the local stored result remains in the _Results_ project sub-folder and, thus, in the __Results__ tab in Test Studio project.
 
-![Delete Results][4]
+![Delete Results](/img/automated-tests/scheduling-results/scheduling-results/fig4.png)
 
 > __Tip__
 ><br>
@@ -44,8 +44,3 @@ From this list you can delete any test list run and this will delete the result 
 
 The <a href="/general-information/test-results/executive-dashboard" target="_blank">Executive Dashboard</a> is a tool, which allows __anyone in the team to explore the results from the scheduled test list execution__, even if they are not a real Test Studio user. The Dashboard is connected to the storage database and visualizes the results stored into it in the browser and on any device, which has access to it.
 
-[1]: /img/automated-tests/scheduling-results/scheduling-results/fig1.png
-[2]: /img/automated-tests/scheduling-results/scheduling-results/fig2.png
-[3]: /img/automated-tests/scheduling-results/scheduling-results/fig3.png
-[4]: /img/automated-tests/scheduling-results/scheduling-results/fig4.png
-[5]: /img/automated-tests/scheduling-results/scheduling-results/fig5.png

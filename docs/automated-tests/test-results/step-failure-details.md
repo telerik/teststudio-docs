@@ -1,4 +1,4 @@
----
+﻿---
 title: Step Failure Details
 page_title: Step Failure Details
 description: "Test Studio Step Failure Details. Analyze test run failure. My test studio test failed. How to fix a failed test studio test. "
@@ -14,7 +14,7 @@ Let's use any sample test which fails as an example for the below article.
 
 <a href="/automated-tests/test-execution/quick-execution" target="_blank">Execute the sample test</a> and wait for the run to finish. The overall result of the test run is reported failed and the failing step is marked in the test. The __Step Failure Details__ section displayed under provides an overview of the __reason for the failure__, the __images__, and __suggestions__ what options you have to troubleshoot the error.
 
-![Step Failure Details Section][10]
+![Step Failure Details Section](/img/automated-tests/test-results/new-step-failure-details/new1.png)
 
 <!-- no toc -->
 - [Failure Reason Section](#failure-reason-section)
@@ -32,7 +32,7 @@ The __Failure Reason__ section shows a summary of the error, which caused the fa
 - [Export the overall step failure details](#how-to-export-the-step-failure-details),
 - Trigger the form to submit a bug, if you have <a href="/features/integration/bug-tracking/configuration" target="_blank">configured a bug tracking tool</a> for the project.
 
-![Failure Reason Section][11]
+![Failure Reason Section](/img/automated-tests/test-results/new-step-failure-details/new2.png)
 
 <br>
 <div><a style="float:right" href="#step-failure-details-section">Back to top of section</a></div>
@@ -47,7 +47,7 @@ The __Suggestion__ section hints you with handy features in Test Studio for __tr
 - <a href="/automated-tests/troubleshooting/use-partial-run" target="_blank">How to use the partial test execution</a>
 - <a href="/automated-tests/troubleshooting/use-annotated-run" target="_blank">How to trigger an annotated test execution</a>
 
-![Suggestion Section][12]
+![Suggestion Section](/img/automated-tests/test-results/new-step-failure-details/new3.png)
 
 <br>
 <div><a style="float:right" href="#step-failure-details-section">Back to top of section</a></div>
@@ -57,11 +57,11 @@ The __Suggestion__ section hints you with handy features in Test Studio for __tr
 
 The __Images__ section lists the __state of the application at the time of failure__ compared to what was captured when the test steps were recorded. The images are often useful to identify that certain step gets executed before the application is in the correct state to accept the action. Such timing issues are usually resolved by adding <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/wait" target="_blank">wait steps</a> or <a href="/features/custom-steps/execution-delay" target="_blank">execution delays</a> before the action is sent towards the page.
 
-![Suggestion Section][13]
+![Suggestion Section](/img/automated-tests/test-results/new-step-failure-details/new4.png)
 
 If you click the magnifier icon, the images are opened in full size and can be zoomed.
 
-![Suggestion Section][14]
+![Suggestion Section](/img/automated-tests/test-results/new-step-failure-details/new5.png)
 
 <br>
 <div><a style="float:right" href="#step-failure-details-section">Back to top of section</a></div>
@@ -71,11 +71,11 @@ If you click the magnifier icon, the images are opened in full size and can be z
 
 Execute the sample test and wait until it fails. Hover the mouse over the red cross next to the failed step - a **Step Failure Summary** will popup for a while.
 
-![hover over the red cross][2]
+![hover over the red cross](/img/automated-tests/test-results/new-step-failure-details/fig2.png)
 
 Click on the red cross to open the overall **Step Failure Details** with possible options to resolve the encountered error.
 
-![Click the red cross to open the failure details dialog][2a]
+![Click the red cross to open the failure details dialog](/img/automated-tests/test-results/new-step-failure-details/fig2a.png)
 
 ## What to Look for in the Step Failure Details?
 
@@ -92,7 +92,7 @@ The failure dialog provides a variety of useful details, which can be used for t
 
 The **Failure** tab provides a summarized information for the encountered error - sometimes this can be quite descriptive, and other times it could be more generic.
 
-![The failure tab][3]
+![The failure tab](/img/automated-tests/test-results/step-failure-details/fig3.png)
 
 From this view you can also access other useful options:
 
@@ -116,7 +116,7 @@ From this view you can also access other useful options:
 
 The **Images** tab displays two screenshots of the browser: the state at time of failure and the expected state. Storyboard must be enabled in <a href="/features/project-settings/recording-options" target="_blank">Project Settings</a> for the expected state image to appear.
 
-![Images tab][4]
+![Images tab](/img/automated-tests/test-results/step-failure-details/fig4.png)
 
 <br>
 <div><a style="float:right" href="#what-to-look-for-in-the-step-failure-details">Back to top of section</a></div>
@@ -126,7 +126,7 @@ The **Images** tab displays two screenshots of the browser: the state at time of
 
 The **Page DOM** tab displays a snapshot of the <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-dom-on-failure" target="_blank">DOM state</a> at the time of failure. You can use it to locate the element in the DOM tree and check its state, content, etc.
 
-![Page DOM tab][5]
+![Page DOM tab](/img/automated-tests/test-results/step-failure-details/fig5.png)
 
 **When to use the DOM on Failure?**
 
@@ -149,15 +149,15 @@ The DOM on Failure provides a record of the elements that Test Studio could see 
 
 The **'Resolve Failure'** tab provides the opportunity to identify and correct the issue that caused the failure. For validation steps, the Sentence Verification Builder allows you to reload the page, make changes to the verification sentence, and re-run the verification until the verification passes.
 
-![Resolve Failure tab][6]
+![Resolve Failure tab](/img/automated-tests/test-results/step-failure-details/fig6.png)
 
 In case the failure is caused by an element, which cannot be located on the page, the **'Resolve Failure'** tab provides different options to <a href="/features/elements-explorer/find-element" target="_blank">change the elements find expression</a>.
 
-![Resolve Failure tab missing element][7]
+![Resolve Failure tab missing element](/img/automated-tests/test-results/step-failure-details/fig7.png)
 
 If the element was located on the page using the backup search recorded for it, you can directly choose the **'Troubleshoot'** button. You can choose between the automatic update of search criteria used, or manually select a new element.
 
-![Resolve Failure tab missing element troubleshoot][8]
+![Resolve Failure tab missing element troubleshoot](/img/automated-tests/test-results/step-failure-details/fig8.png)
 
 <br>
 <div><a style="float:right" href="#what-to-look-for-in-the-step-failure-details">Back to top of section</a></div>
@@ -173,21 +173,6 @@ When a test is failing and you need to share the identified faulty behavior with
 
 - The other option to get the zipped file is to use the __Export__ button on the __Failure__ tab in the Step Failure window and choose a folder where to store it.
 
-    ![Export the step failure details][9]
+    ![Export the step failure details](/img/automated-tests/test-results/step-failure-details/fig9.png)
 
-[10]: /img/automated-tests/test-results/new-step-failure-details/new1.png
-[11]: /img/automated-tests/test-results/new-step-failure-details/new2.png
-[12]: /img/automated-tests/test-results/new-step-failure-details/new3.png
-[13]: /img/automated-tests/test-results/new-step-failure-details/new4.png
-[14]: /img/automated-tests/test-results/new-step-failure-details/new5.png
 
-[1]: /img/automated-tests/test-results/step-failure-details/fig1.png
-[2]: /img/automated-tests/test-results/new-step-failure-details/fig2.png
-[2a]: /img/automated-tests/test-results/new-step-failure-details/fig2a.png
-[3]: /img/automated-tests/test-results/step-failure-details/fig3.png
-[4]: /img/automated-tests/test-results/step-failure-details/fig4.png
-[5]: /img/automated-tests/test-results/step-failure-details/fig5.png
-[6]: /img/automated-tests/test-results/step-failure-details/fig6.png
-[7]: /img/automated-tests/test-results/step-failure-details/fig7.png
-[8]: /img/automated-tests/test-results/step-failure-details/fig8.png
-[9]: /img/automated-tests/test-results/step-failure-details/fig9.png

@@ -3,7 +3,7 @@ title: Coded Steps
 page_title: Coded Steps
 description: "Progress® Test Studio® for APIs - Code Features - Coded Steps"
 position: 1
-publish: true
+published: true
 ---
 
 # Coded Steps

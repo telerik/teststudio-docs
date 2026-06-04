@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Open Project Settings
 page_title: Test Studio Project Settings Overview
 description: "Test Studio Project Settings. How to access/open the global project settings in Test Studio project. recording options, Element find logic order, base url, element images, setting a default browser to run tests against, add reference to external dll. enable/ disable Telerik controls translators "
@@ -14,12 +14,16 @@ Use the **Project Settings** to configure how tests are recorded, fine tune how 
 
 On the **Project** ribbon in Test Studio Standalone version find the **Settings** button which opens the Project Settings window. In the Visual Studio plugin, the gear icon in the toolbar loads the same Project Settings window.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/project-settings/overview/proj-settings-icon.png" alt="Standalone" /><br>**Standalone version**</td>
+<td>
+
+<img src="/img/features/project-settings/overview/vs-proj-setting-icons.png" alt="VS Plugin" /><br>**VS Plugin**</td>
 <tr>
-<td>![Standalone][1]<br>**Standalone version**</td>
-<td>![VS Plugin][2]<br>**VS Plugin**</td>
-<tr>
-<table>
+</table>
 
 The available settings are divided in few areas:
 
@@ -35,5 +39,3 @@ The available settings are divided in few areas:
 - <a href="/features/project-settings/theme" target="_blank">Theme Settings</a>
 - <a href="/features/project-settings/updates" target="_blank">Software Update</a>
 
-[1]: /img/features/project-settings/overview/proj-settings-icon.png
-[2]: /img/features/project-settings/overview/vs-proj-setting-icons.png

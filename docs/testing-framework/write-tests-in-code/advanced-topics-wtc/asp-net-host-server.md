@@ -1,16 +1,16 @@
----
+﻿---
 title: Asp.NET Host Server
 page_title: Asp.NET Host Server
 description: "Test Studio Testing Framework support for Asp.NET Host Server"
 position: 1
 ---
-#Using Asp.Net In-Process Host Server#
+# Using Asp.Net In-Process Host Server
 
 Many of our customers have asked for a way to execute tests without the need for a browser. They wanted a light-weight, fast and agile execution that fits within their Continuous Integration Builds and works easily with 'CruiseControl.Net' or 'Visual Studio Team Foundation Server.' We enabled these scenarios with two areas of support:
 
-1.&nbsp; We enabled Non-Interactive execution using Internet Explorer and Firefox. Continuous Integration Servers usually use a user account that logs on non-interactively to the server machines to perform the build and run the smoke or BVT (Build Verification Tests) tests. We made fixes to enable these scenarios and provided developers a way to detected when they are running in non-interactive mode so they can automatically disable scenarios that require interactive UI like tests that move the mouse to click on items or handle custom dialogs. Tests can check the **Settings.IsUserInteractiveMode** property to figure out if they are running in non-interactive mode or not and perform the appropriate actions. If you attempt to perform an action that is not allowed in NonInteractive mode, an **'UnsupportedNonInteractiveOperationException'** is thrown to help inform you of this situation.
+1. We enabled Non-Interactive execution using Internet Explorer and Firefox. Continuous Integration Servers usually use a user account that logs on non-interactively to the server machines to perform the build and run the smoke or BVT (Build Verification Tests) tests. We made fixes to enable these scenarios and provided developers a way to detected when they are running in non-interactive mode so they can automatically disable scenarios that require interactive UI like tests that move the mouse to click on items or handle custom dialogs. Tests can check the **Settings.IsUserInteractiveMode** property to figure out if they are running in non-interactive mode or not and perform the appropriate actions. If you attempt to perform an action that is not allowed in NonInteractive mode, an **'UnsupportedNonInteractiveOperationException'** is thrown to help inform you of this situation.
 
-2.&nbsp; Telerik Testing Framework can host the Asp.Net runtime in-process. This allows you to execute and process Asp.Net pages without the need for a web server, a browser or any external processes. All requests are performed internally within the test .exe or .dll process. Instead of re-inventing the wheel, we opted to integrate the Asp.Net Host implemented by the 'Plasma' project at here. We extended the post backs support to allow for all common actions of Asp.Net web pages including clicking on Asp.Net Calendar links, TreeView, and Menu controls. All actions are implemented using the same **Actions** interface used for Internet Explorer and Firefox so your tests are consistent regardless of which browser/host they choose to run under. You can actually switch back and forth between browsers including the Asp.Net Host by simply setting the 'Settings.DefaultBrowser' property. This allows for ultimate flexibility to choose the environment you want your tests to run under depending on your need. (i.e. running on integration server, use AspNetHost, running on your desktop, use IE or Firefox. All with the flip of a flag.)
+2. Telerik Testing Framework can host the Asp.Net runtime in-process. This allows you to execute and process Asp.Net pages without the need for a web server, a browser or any external processes. All requests are performed internally within the test .exe or .dll process. Instead of re-inventing the wheel, we opted to integrate the Asp.Net Host implemented by the 'Plasma' project at here. We extended the post backs support to allow for all common actions of Asp.Net web pages including clicking on Asp.Net Calendar links, TreeView, and Menu controls. All actions are implemented using the same **Actions** interface used for Internet Explorer and Firefox so your tests are consistent regardless of which browser/host they choose to run under. You can actually switch back and forth between browsers including the Asp.Net Host by simply setting the 'Settings.DefaultBrowser' property. This allows for ultimate flexibility to choose the environment you want your tests to run under depending on your need. (i.e. running on integration server, use AspNetHost, running on your desktop, use IE or Firefox. All with the flip of a flag.)
 
 * With the Asp.Net In-Process server being a browser-less host, tests that require heavy client javascript execution might not be suited for this browser since there is no javascript engine running. Heavy Ajax scenarios should be tested using IE or Firefox. Asp.Net In-Proc Server is ideal in BVT type of scenarios or in unit tests that are focused on testing the business logic behind UI elements actions. It is not ideal for End-To-End Scenario automated testing.
 
@@ -18,11 +18,11 @@ Many of our customers have asked for a way to execute tests without the need for
 
 * If you are using NUnit 2.4 or higher you might experience AppDomainUnloadException similar to the issue described here. To work around this issue, please set the configuration setting legacyUnhandledExceptionPolicy to '0' in nunit.exe.config file.
  
-\<legacyUnhandledExceptionPolicy enabled="0" />
+`<legacyUnhandledExceptionPolicy enabled="0" />`
 
 With all these in mind, let's look at an example that illustrates how we can enable our tests to run against the Asp.Net inproc host. Here is a simply Asp.Net page that utilizes several Asp.Net controls:
 
-```ASP
+````ASP
 <%@ Page Language="C#" %>
  
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -90,30 +90,30 @@ With all these in mind, let's look at an example that illustrates how we can ena
     </form>
 </body>
 </html>
-```
+````
 
 
 You can run this page using the Asp.Net InProc server by first setting the default browser to 'AspNetHost' and setting the physical location of the web application. For example, you can override these settings in your test initialization or set them in your .config file:
 
-```C#
+````C#
 // Set the default browser to be AspNetHost
 settings.DefaultBrowser = BrowserType.AspNetHost;
  
 // Set the location of the Asp.Net App
 settings.WebAppPhysicalPath = @"C:\MyAspNetApp\";
-```
-```VB
+````
+````VB
 ' Set the default browser to be AspNetHost
 mysettings.DefaultBrowser = BrowserType.AspNetHost
  
 ' Set the location of the Asp.Net App
 mysettings.WebAppPhysicalPath = System.IO.Path.Combine(Globals.PATH_TO_PAGES, "AspNetApp")
-```
+````
 
 Next you can perform your automation in the same manner as you would for any other browser. For example:
 
 
-```C#
+````C#
 // Will initialize a new AspNetApplication object.
 Manager.LaunchNewBrowser();
  
@@ -175,8 +175,8 @@ Assert.IsTrue(label.InnerText.Contains(DateTime.Today.ToShortDateString()));
 Actions.Click(Find.ById("treeView1t1"));
 label.Refresh();
 Assert.IsTrue(label.InnerText.Contains("Node2"));
-```
-```VB
+````
+````VB
 
 ' Will initialize a new AspNetApplication object.
 Manager.LaunchNewBrowser()
@@ -234,9 +234,9 @@ Assert.IsTrue(label.InnerText.Contains(DateTime.Today.ToShortDateString))
 Actions.Click(Find.ById("treeView1t1"))
 label.Refresh()
 Assert.IsTrue(label.InnerText.Contains("Node2"))
-```
+````
 
 
-##Debugging Page Requests##
+## Debugging Page Requests
 
 Given that these page requests are running in-process without any UI showing, it is sometimes difficult to see what exactly is being rendered. To make debugging scenarios easier, Telerik Testing Framework enables the option of rendering the responses from the Asp.Net In-Process server into an IE browser instance. To enable this debug mode, simply set the **Settings.EnableUILessRequestViewing** to True and an IE instance will launch and redirect a copy of all responses from the Asp.Net host to that instance so you can visually inspect the UI of the pages.

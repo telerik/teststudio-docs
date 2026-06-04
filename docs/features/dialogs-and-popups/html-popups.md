@@ -1,4 +1,4 @@
----
+﻿---
 title: Properties for Handling Popup Steps
 page_title: Connect to and Close Popup Steps in Test Studio
 description: "Can I modify the steps which connect to popup window during Test Studio test run? Can I add a Connect to popup step manually? How can I connect to a modal popup? Can I connect to a popup with dynamic URL?
@@ -22,7 +22,7 @@ In this article you can find useful information about:
 
 Even if you work on the tests in the project and have no active recording session, you can still add the specific steps to connect to and close a popup from the <a href="/features/custom-steps/overview#add-a-general-step-from-the-step-builder" target="_blank">Step Builder</a>. These steps are listed under the General section of the Step Builder, under __Dialogs__. Select one of the __Connect/Close popup window__ step and add hit the __Add Step__ button.
 
-![Step Builder Connect/Close popup steps][1]
+![Step Builder Connect/Close popup steps](/img/features/dialogs-and-popups/html-popups/add-connect-close-step-builder.png)
 
 ## Properties for Connect/Close Popup Steps
 
@@ -32,13 +32,13 @@ The various properties allows you to fine tune the steps to connect and close po
 
 The properties related to timing are the __PopupWaitTimeout__ - this controls the time, which the test retries to connect to the popup until successful, and the __InitializationTime__ - it controls the time, which the test waits before it starts searching for such dialog (applicable for IE browser only). It is useful to increase this, if the popup window/tab requires longer time to popup.
 
-![Timoeouts for Connect/Close popup steps][2]
+![Timoeouts for Connect/Close popup steps](/img/features/dialogs-and-popups/html-popups/timeouts.png)
 
 ## Popup URL
 
 Test Studio recognizes the new popup windows by their URLs and records the current URL into the __PopupUrl__ step property.
 
-![PopupURL for Connect/Close popup steps][3]
+![PopupURL for Connect/Close popup steps](/img/features/dialogs-and-popups/html-popups/popup-url.png)
 
 > __Note__
 ><br>
@@ -55,26 +55,20 @@ For example:
 - Set **IsUrlPartial** to True.
 - Set **PopupUrl** to: http://www.domain.com/search
 
-![Popup with dynamic URL for Connect/Close popup steps][4]
+![Popup with dynamic URL for Connect/Close popup steps](/img/features/dialogs-and-popups/html-popups/popup-dynamic-url.png)
 
 ## Modal Popups
 
 A Modal popup window is a __child window that requires users to interact with it before they can return to operating the parent application__. Modal windows often have a different appearance than normal windows and are typically without navigation buttons and menu headings.
 
-![Modal Window][5]
+![Modal Window](/img/features/dialogs-and-popups/html-popups/fig1.png)
 
 Test Studio __detects automatically also this type of popups__, but due to their specific behavior, there is no additional recorder loaded for these modal windows. They are recognized in Test Studio by their modal caption. For them the _Connect to/Close pop-up window_ steps can be modified to use the properties __IsModalPopup__, which transforms the step to search for modal window, and the __ModalPopupPartialCaption__, which holds the modal window caption name (can use partial caption).
 
-![Connect to Modal Popup][6]
+![Connect to Modal Popup](/img/features/dialogs-and-popups/html-popups/modal-popup.png)
 
 > __Note__
 ><br>
 ><br>
 > Test Studio cannot connect to modal popup windows which do not have a title in Firefox, Safari, and Chrome. To avoid any troubles in automating the tested page in browsers other than Internet Explorer, ensure any modal popups are titled.
 
-[1]: /img/features/dialogs-and-popups/html-popups/add-connect-close-step-builder.png
-[2]: /img/features/dialogs-and-popups/html-popups/timeouts.png
-[3]: /img/features/dialogs-and-popups/html-popups/popup-url.png
-[4]: /img/features/dialogs-and-popups/html-popups/popup-dynamic-url.png
-[5]: /img/features/dialogs-and-popups/html-popups/fig1.png
-[6]: /img/features/dialogs-and-popups/html-popups/modal-popup.png

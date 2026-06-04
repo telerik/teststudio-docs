@@ -1,4 +1,4 @@
----
+﻿---
 title: Edit Tests in Integrated API Project
 page_title: Edit Tests in Integrated API Project
 description: "Edit API Tests in the Integrated API Project in Test Studio Web project. Modify the insereted API test In a Test Studio web test"
@@ -8,7 +8,7 @@ position: 1
 
 The _Create Test/ Edit API Project_ button opens the nested API project under the Test Studio currently active one.
 
-![Edit API project][3]
+![Edit API project](/img/features/execute-apitest/add-api-test-as-step/create-edit.png)
 
 If this is an empty project proceed with <a href="https://docs.telerik.com/teststudio-apis/features/steps/overview" target="_blank">creating new API tests</a>.
 
@@ -34,4 +34,3 @@ If the imported API test has a <a href="https://docs.telerik.com/teststudio-apis
 
 If the existing project refers to any <a href="https://docs.telerik.com/teststudio-apis/features/code-features/add-assembly-reference" target="_blank">external assemblies</a> these need to be manually included in the nested in Test Studio project.
 
-[3]: /img/features/execute-apitest/add-api-test-as-step/create-edit.png

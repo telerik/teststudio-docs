@@ -3,7 +3,7 @@ title: Record HTTP(S) Traffic
 page_title: Record HTTP(S) Traffic
 description: "Progress® Test Studio® for APIs - Record HTTP(S) Traffic"
 position: 1
-publish: true
+published: true
 ---
 
 # Record HTTP(S) Traffic

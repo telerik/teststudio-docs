@@ -3,7 +3,7 @@ title: Command Line Parameters
 page_title: Command Line Parameters
 description: "Progress® Test Studio® for APIs - Command Line Parameters"
 position: 1
-publish: true
+published: true
 ---
 # Command Line Parameters
 

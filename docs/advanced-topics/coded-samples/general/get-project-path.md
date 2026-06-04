@@ -1,4 +1,4 @@
----
+﻿---
 title: Get Project Path
 page_title: Get Project Path
 description: "Learn how to retrieve the current Test Studio project path in coded tests. Includes code examples for accessing the project directory and data source file locations for flexible test automation."
@@ -12,14 +12,14 @@ position: 1
 
 This is doable with a coded solution. Create a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> inside of a test:
 
-```C#
+````C#
 this.ExecutionContext.DeploymentDirectory;
-```
-```VB
+````
+````VB
 Me.ExecutionContext.DeploymentDirectory
-```
+````
 
-![Current path][1]
+![Current path](/img/advanced-topics/coded-samples/general/get-project-path/fig1.png)
 
 This will store the current project path inside the string variable *currentProjectFolder*. The actual path string can be, for example:
 
@@ -31,13 +31,12 @@ However, when running tests from the Visual Studio <a href="/getting-started/tes
 
 You might also want to get the path of the data source files attached to your test project. When a project contains a data source, it's stored in **Project Folder\Data**. For instance, your test might be data bound to an Excel file by the name of **excelSample.xlsx**. This file will be stored under **Project Folder\Data\excelSample.xlsx**. Here's how to get this path in code:
 
-```C#
+````C#
 string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\excelSample.xlsx";
-```
-```VB
+````
+````VB
 Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\excelSample.xlsx"
-```
+````
 
 It's still possible to edit or replace it from that location in a coded step. This will work even if the test is data bound to the file in question. 
 
-[1]: /img/advanced-topics/coded-samples/general/get-project-path/fig1.png

@@ -1,10 +1,10 @@
----
+﻿---
 title: Results Through Gmail
 page_title: Results Through Gmail
 description: Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution
 position: 9
 ---
-# Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution 
+## Use Gmail SMTP Server to Send Result Email for Scheduled Test List Execution 
 
 Test Studio's Scheduling service allows sending an email with the results from scheduled test list runs. To enable the feature you need an available SMTP server and the necessary settings to access it from within Test Studio. 
 
@@ -46,6 +46,5 @@ Follow the steps below to apply the settings for using the Google mail server.
 
 5. Use the **Apply** button to restart the Scheduling service and let it use the SMTP settings. 
 
-    ![SMTP configuration][1]
+    ![SMTP configuration](/img/knowledge-base/scheduling-kb/gmail-results/fig1.png)
 
-[1]: /img/knowledge-base/scheduling-kb/gmail-results/fig1.png

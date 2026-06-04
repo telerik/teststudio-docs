@@ -4,18 +4,15 @@ page_title: Table Sum & Average - Test Studio Dev Documentation
 description: Table Sum & Average
 position: 1
 ---
-# HTML Table Sum and Average #
+# HTML Table Sum and Average
 
 *I would like to get the sum and the average of the values in a certain column of an HTML table.*
 
-## Solution ##
+## Solution
 
 This is possible with a coded solution. The example below is against <a href="http://www.w3schools.com/html/html_tables.asp" target="_blank">this W3Schools site</a>.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     HtmlTable table = Find.ByTagIndex<HtmlTable>("table", 0);
     
     double r = table.Rows.Count;
@@ -38,12 +35,8 @@ This is possible with a coded solution. The example below is against <a href="ht
     double average = sum / r;
     Log.WriteLine("Average: " + average.ToString());
     Assert.IsTrue(sum == 90);
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim table As HtmlTable = Find.ByTagIndex(Of HtmlTable)("table", 0)
     
     Dim r As Double = table.Rows.Count
@@ -65,6 +58,6 @@ This is possible with a coded solution. The example below is against <a href="ht
     Dim average As Double = sum / r
     Log.WriteLine("Average: " + average.ToString())
     Assert.IsTrue(sum = 90)
-    {{endregion}}
+````
 
 

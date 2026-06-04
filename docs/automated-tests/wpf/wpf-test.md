@@ -1,4 +1,4 @@
----
+﻿---
 title: WPF Tests
 page_title: Configure WPF Test
 description: "Configure WPF Test (Standalone) in Test Studio for specific WPF application. Create a WPF test in Test Studio and record an automated scenario"
@@ -24,7 +24,7 @@ This article guides you through the WPF test configuration process.
 
 The __configuration of the WPF test requires an executable file of a valid WPF app to be specified__ and, thus, used for recording and execution. When you open a WPF test in Test Studio, you can see the __Configure__ button in the __Test__ tools ribbon. Click the __Configure__ button to open the __WPF Config Wizard__.
 
-![WPF Config Wizard][1]
+![WPF Config Wizard](/img/general-information/create-test-standalone/wpf-test/fig1.png)
 
 > **Tip**
 > <br>
@@ -40,17 +40,17 @@ Test Studio provides different options to define the application to automate:
 - [Select application from the list of active apps](#select-running-wpf-application);
 - [Define startup arguments and working directory](#startup-arguments-and-working-folder-for-wpf-application)
 
-![Specify path to WPF app][2]
+![Specify path to WPF app](/img/general-information/create-test-standalone/wpf-test/fig2.png)
 
 ## Configure Application Path in WPF Test
 
 The __WPF Application Path__ field accepts drag and drop of the application's shortcut icon; Or use the __Browse__ button to locate the executable file manually in a File Explorer. 
 
-![Browse path to WPF app][3]
+![Browse path to WPF app](/img/general-information/create-test-standalone/wpf-test/fig3.png)
 
 __WPF Application Path__ field supports using environment tokens (such as `%Program Files%\MyApp\App.exe`). When using environment tokens, the __Current Path Expanded__ field displays the full path to the executable file. 
 
-![Selected app and expanded path][5]
+![Selected app and expanded path](/img/general-information/create-test-standalone/wpf-test/fig5.png)
 
 ## Set Default WPF Application Path
 
@@ -58,25 +58,25 @@ The automation process requires multiple tests to be created for a single applic
 
 The option is available in <a href="/features/project-settings/general" target="_blank">Project Settings -> General</a> and once a __Default Path is set__ each new WPF test in the project is configured to use it.
 
-![Use default path][6]
+![Use default path](/img/general-information/create-test-standalone/wpf-test/fig6.png)
 
 ## Select Running WPF Application
 
 The __Active WPF Applications__ list displays all currently running WPF apps detected by Test Studio. Click on the desired one and hit the  __Select Application__ button and the path to the executable file in the __WPF Application Path__ field gets automatically populated.
 
-![Select running WPF app][4]
+![Select running WPF app](/img/general-information/create-test-standalone/wpf-test/fig4.png)
 
 ## Startup Arguments and Working Folder for WPF Application
 
 The configuration of a WPF application lets you set startup __Arguments__ and a __Working folder__ if these are required for the proper functioning of the tested WPF app. 
 
-![Arguments and Working folder][5a]
+![Arguments and Working folder](/img/general-information/create-test-standalone/wpf-test/fig5a.png)
 
 ## Record Application Window State
 
 Test Studio lets you record the changes in the application window state - __Minimize, Maximize, Restore__ and __Close__ actions can be captured automatically while in the recording process. If the automation scenarios require to interact with the window state, enable the checkbox under the __Recording Options__ section in the __Config Wizard__.
 
-![record the changes in the application window state][7]
+![record the changes in the application window state](/img/general-information/create-test-standalone/wpf-test/fig7.png)
 
 > **Note**
 > <br>
@@ -96,11 +96,3 @@ Once you applied all necessary settings, __confirm the configuration__ by pressi
 
 * <a href="https://www.telerik.com/videos/teststudio/test-recorder-for-wpf-video-tutorial-test-studio" target="_blank">WPF Test Recording Video Tutorial</a>.
 
-[1]: /img/general-information/create-test-standalone/wpf-test/fig1.png
-[2]: /img/general-information/create-test-standalone/wpf-test/fig2.png
-[3]: /img/general-information/create-test-standalone/wpf-test/fig3.png
-[4]: /img/general-information/create-test-standalone/wpf-test/fig4.png
-[5]: /img/general-information/create-test-standalone/wpf-test/fig5.png
-[5a]: /img/general-information/create-test-standalone/wpf-test/fig5a.png
-[6]: /img/general-information/create-test-standalone/wpf-test/fig6.png
-[7]: /img/general-information/create-test-standalone/wpf-test/fig7.png

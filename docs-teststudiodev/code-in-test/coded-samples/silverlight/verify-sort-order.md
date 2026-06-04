@@ -2,22 +2,19 @@
 title: Verify Sort Order
 page_title: Verify Sort Order - Test Studio Dev Documentation
 description: Verify Sort Order
-position: 1
+position: 2
 ---
-# Verify Sort Order in a Silverlight DataGrid #
+# Verify Sort Order in a Silverlight DataGrid
 
 _I would like to sort a column in a Silverlight DataGrid and verify the content is in the correct order._
 
-## Solution ##
+## Solution
 
 This is possible with a coded solution. The example below is against <a href="http://silverlight.codeplex.com/downloads/get/119862" target="_blank">a Silverlight toolkit sample</a>.
 
 After navigating there, click DataGrid in the left-hand menu. Then click the **FirstName** column header to sort that column. Finally, add a coded step:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     //Get the data grid.
     SilverlightApp app = ActiveBrowser.SilverlightApps()[0];
     DataGrid grid = app.Find.ByAutomationId<DataGrid>("dataGrid");
@@ -46,12 +43,8 @@ After navigating there, click DataGrid in the left-hand menu. Then click the **F
             Assert.IsTrue(list[j+1].CompareTo(list[j]) >= 0);
         }
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim app As SilverlightApp = ActiveBrowser.SilverlightApps()(0)
     Dim grid As DataGrid = app.Find.ByAutomationId(Of DataGrid)("dataGrid")
     
@@ -74,6 +67,6 @@ After navigating there, click DataGrid in the left-hand menu. Then click the **F
             Assert.IsTrue(list(j + 1).CompareTo(list(j)) >= 0)
         End If
     Next
-    {{endregion}}
+````
 
 

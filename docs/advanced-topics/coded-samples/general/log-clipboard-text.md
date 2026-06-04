@@ -1,4 +1,4 @@
----
+﻿---
 title: Log Clipboard Text
 page_title: Log Clipboard Text
 description: "Learn how to log and output clipboard text during Test Studio test execution. Step-by-step code examples show how to access and display clipboard content in automated tests."
@@ -12,12 +12,12 @@ position: 1
 
 This is possible with a coded solution:
 
-1.&nbsp; <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *System.Windows.Forms*.
-2.&nbsp; Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the test after the step that populates the Clipboard.
+1. <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to *System.Windows.Forms*.
+2. Add a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> to the test after the step that populates the Clipboard.
  
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the Dynamic Pages Reference region:
 
-```C#
+````C#
 using System.Windows.Forms;
 using System.Threading;
  
@@ -49,8 +49,8 @@ namespace TestProject8
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Windows.Forms
 Imports System.Threading
  
@@ -78,4 +78,4 @@ Namespace TestProject8
         End Sub
     End Class
 End Namespace
-```
+````

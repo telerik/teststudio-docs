@@ -3,7 +3,7 @@ title: Set Variable Step
 page_title: Set Variable Step
 description: "Progress® Test Studio® for APIs - Steps - Set Variable Step"
 position: 3
-publish: true
+published: true
 ---
 
 # Set Variable Step

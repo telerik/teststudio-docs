@@ -4,13 +4,13 @@ page_title: Scrolling & Paging - Test Studio Dev Documentation
 description: Scrolling & Paging
 position: 1
 ---
-# RadGridView Scrolling & Paging #
+# RadGridView Scrolling & Paging
 
 *I have a lot of data contained in a RadGridView with scrolling and paging. I need to find a specific element in the grid. To find it, I need to scroll down through the entire GridView and go through every page verifying the data.*
 
 ![Paging][1]
 
-## Solution ##
+## Solution
 
 This is possible with a coded solution. To accomplish the main goal, we need to combine the solutions of the two sub-problems. We need to take the following steps to implement the solution:
 
@@ -22,10 +22,7 @@ This is possible with a coded solution. To accomplish the main goal, we need to 
 
 The following code demonstrates how to accomplish this on a <a href="http://demos.telerik.com/silverlight/#GridView/PagingLargeData" target="_blank">Telerik demo site</a>.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     public FrameworkElement FindElementByTextContent(string content)
     {
         int extentHeight; // The total height of the grid, visible plus non-visible     
@@ -79,12 +76,8 @@ The following code demonstrates how to accomplish this on a <a href="http://demo
         grid.Find.Strategy = originalStrategy;
         return null;
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Public Function FindElementByTextContent(content As String) As FrameworkElement
         
         Dim extentHeight As Integer
@@ -137,7 +130,7 @@ The following code demonstrates how to accomplish this on a <a href="http://demo
         grid.Find.Strategy = originalStrategy
         Return Nothing
     End Function
-    {{endregion}}
+````
     
 Place this in the code-behind and then call this method from a coded step.
 

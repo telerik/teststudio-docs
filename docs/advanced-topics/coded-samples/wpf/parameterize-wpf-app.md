@@ -1,4 +1,4 @@
----
+﻿---
 title: Parameterize WPF App
 page_title: Parameterize WPF App
 description: "Learn how to parameterize the location of a WPF application in Test Studio. This guide provides a coded solution in C# to handle dynamic app paths, enabling flexible and efficient automated testing workflows."
@@ -8,23 +8,23 @@ position: 2
 
 Currently Test Studio is rigged that you cannot run a WPF Test unless you provide a definite (non-parameterized) location for the application under testing.
 
-![Configure WPF path][1]
+![Configure WPF path](/img/advanced-topics/coded-samples/wpf/parameterize-wpf-app/fig1.png)
 
 ## Solution
 
 To work around this limitation, create a mock application to feed to Test Studio. Then change the application under testing in a coded step. This allows you to use a parameterization method of your choosing for the app's location. This solution is applicable for both Test Studio Standalone version and the Visual Studio plugin.
 
-1.&nbsp; Create a mock WPF Application. The content of the application is irrelevant. Its location needs to be permanent.
+1. Create a mock WPF Application. The content of the application is irrelevant. Its location needs to be permanent.
 
-2.&nbsp; Record a WPF Test against your "real" application
+2. Record a WPF Test against your "real" application
 
-3.&nbsp; Now configure the WPF Application Path for your test (see screenshot above) to point to the location of the mock application created in step 1.
+3. Now configure the WPF Application Path for your test (see screenshot above) to point to the location of the mock application created in step 1.
 
-4.&nbsp; Add a Coded Step to the test and move it to be the first step. In this coded step, define the logic that will shut down the default (mock) app, then start and connect to the "real" app.
+4. Add a Coded Step to the test and move it to be the first step. In this coded step, define the logic that will shut down the default (mock) app, then start and connect to the "real" app.
 
 Let's assume that the "real" application is in the following location: **C:\myapps\Go.exe**. Here's the code:
 
-```C#
+````C#
 //Shut down "mock" app
 ActiveApplication.Quit();
  
@@ -42,8 +42,8 @@ WpfApplication app = Manager.LaunchNewApplication(pinfo);
  
 //Check whether we connected successfully
 Assert.IsNotNull(app);
-```
-```VB
+````
+````VB
 ActiveApplication.Quit()
  
 
@@ -57,18 +57,17 @@ Dim app As WpfApplication = Manager.LaunchNewApplication(pinfo)
  
 
 Assert.IsNotNull(app)
-```
+````
 
 
 You can extend this code to include parameterization for the app's location. You can use data binding, for instance. Let's say your test is bound to a data sheet with a column named "paths":
 
 
-```C#
+````C#
 var pinfo = new System.Diagnostics.ProcessStartInfo(Data["paths"]);
-```
+````
 
 
 Of course this is only one of the possible solutions you can implement. If you need to use additional assemblies, <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">here</a> is how to do that in the Standalone version.
 
-[1]: /img/advanced-topics/coded-samples/wpf/parameterize-wpf-app/fig1.png
 

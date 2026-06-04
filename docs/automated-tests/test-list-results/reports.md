@@ -1,4 +1,4 @@
----
+﻿---
 title: Test List Results Reports
 page_title: Test List Results Reports
 description: "Test Studio Test List Results Reports. Generate report based on the test list results"
@@ -17,23 +17,23 @@ With the expanded reporting functionality, spotting test pass/failure trends and
 
 * Leave comments within reports.
 
-![Reports view][3]
+![Reports view](/img/general-information/test-results/reports/fig1-new.png)
 
 ## Test List Runs View
 
 The Test List Runs view allows you to select a set of test list and runs for the given time frame as per your requirements - a single test list execution(s), specific time range executions for a single or a set of test lists. 
 
-![Test List Runs View][4]
+![Test List Runs View](/img/general-information/test-results/reports/fig2-new.png)
 
 Additionally the runs could be filtered by their consequence for the selected time frame. 
 
-![Test List Runs Filter][5]
+![Test List Runs Filter](/img/general-information/test-results/reports/fig3.png)
 
 ## Results Charts
 
 There are three different views to present the Test List Run Status: 
 
-![Test List Runs Status][6]
+![Test List Runs Status](/img/general-information/test-results/reports/fig4.png)
 
 * Pass/Fail report per test count
 
@@ -49,13 +49,13 @@ The displayed chart could be zoomed in and out either with the magnifier on the 
 
 The Results Overview provides a pie chart which could be filtered to show all selected tests or all test lists pass/fail rate. 
 
-![Results Overview][7]
+![Results Overview](/img/general-information/test-results/reports/fig5.png)
 
 ## Results Details
 
 The Results Details view provides pass/fail details for the selected test lists and the included tests. Test could be filtered per pass/fail/not run status. 
 
-![Results Details][8]
+![Results Details](/img/general-information/test-results/reports/fig6.png)
 
 ## Single Test List Pie Chart
 
@@ -65,12 +65,5 @@ From the Results tab could be generated single test list results displayed in ea
 
 * Switch between Calendar and Report views to access the respective test list pie chart and the comment field. 
 
-![Single Test List Pie Chart][9]
+![Single Test List Pie Chart](/img/general-information/test-results/reports/fig7.png)
 
-[3]: /img/general-information/test-results/reports/fig1-new.png
-[4]: /img/general-information/test-results/reports/fig2-new.png
-[5]: /img/general-information/test-results/reports/fig3.png
-[6]: /img/general-information/test-results/reports/fig4.png
-[7]: /img/general-information/test-results/reports/fig5.png
-[8]: /img/general-information/test-results/reports/fig6.png
-[9]: /img/general-information/test-results/reports/fig7.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Change Step Target Element
 page_title: Change Step Target Element
 description: "Test Studio Change the Target Element for a step if a test step targets an incorrect element"
@@ -10,19 +10,17 @@ If a test step targets an incorrect element, or if you <a href="/features/elemen
 
 To choose a different target element for a specific test step from the Elements Repository:
 
-1.&nbsp; Select a step from the **Test Steps Panel**.
+1. Select a step from the **Test Steps Panel**.
 
-2.&nbsp; In the Test Step **Properties** pane, click the **Primary Target** property.
+2. In the Test Step **Properties** pane, click the **Primary Target** property.
 
-3.&nbsp; Click the '...' button.
+3. Click the '...' button.
 
-![Click ... button][1]
+![Click ... button](/img/features/test-maintenance/change-step-target-element/step-properties.png)
 
-4.&nbsp; In the **Project Elements Selector,** click the new target element for the test step.
+4. In the **Project Elements Selector,** click the new target element for the test step.
 
-5.&nbsp; Click **Select**.
+5. Click **Select**.
 
-![Select][2]
+![Select](/img/features/test-maintenance/change-step-target-element/select-element.png)
 
-[1]: /img/features/test-maintenance/change-step-target-element/step-properties.png
-[2]: /img/features/test-maintenance/change-step-target-element/select-element.png

@@ -10,8 +10,8 @@ Once your application is ready for testing you can map your <a href="/features/e
 
 <table id="no-table">
 	<tr>
-		<td>!![Element Mapping TS][6] <br><br>**Standalone version**</td>
-		<td>![Element Mapping TS][15] <br><br>**VS plugin**</td>
+		<td><img src="images/element-mapping/fig6.png" alt="Element Mapping TS" /> <br><br>**Standalone version**</td>
+		<td><img src="images/element-mapping/fig15.png" alt="Element Mapping TS" /> <br><br>**VS plugin**</td>
 	</tr>
 <table>
 
@@ -23,8 +23,8 @@ The mapping dialog window appears allowing you to select between a Web or WPF te
 
 <table id="no-table">
 <tr>
-<td>![Web][7] <br><br>**Web**</td>
-<td>![WPF][8] <br><br>**WPF**</td>
+<td><img src="images/element-mapping/fig7.png" alt="Web" /> <br><br>**Web**</td>
+<td><img src="images/element-mapping/fig8.png" alt="WPF" /> <br><br>**WPF**</td>
 <tr>
 <table>
 
@@ -32,43 +32,34 @@ The mapping dialog window appears allowing you to select between a Web or WPF te
 
 Select Recording browser and click **Record**. 
 
-![Choose Recording Browser][9]
+![Choose Recording Browser](images/element-mapping/fig9.png)
 
 Test Studio will navigate to the URL, attach the recorder and enable Highlighting so you can directly highlight the desired element and click on **Select Element** as shown below:
 
 
-![Select Element][10]
+![Select Element](images/element-mapping/fig10.png)
 
 You select the predefined element you would like to map (1) from the Elements section, confirm the find logic (2) and click on Map Element button (3).
 
-![Map Element][11]
+![Map Element](images/element-mapping/fig11.png)
 
 > Please note in the example above we are working with only one predefined element in the Elements section. However you can have many predefined elements listed there. You need to be careful when mapping with an actual element which predefined element is selected. In order to avoid confusion it will be best to use descriptive friendly names to your predefined elements.
 
 In case you would like to build more robust find logic before mapping the predefined element you can add an **Expression Item**.
 
-![Add Expression Item][12]
+![Add Expression Item](images/element-mapping/fig12.png)
 
 Another filter is added so you can tweak the element's find logic.
 
-![find logic][13]
+![find logic](images/element-mapping/fig13.png)
 
 You can undo all the changes and revert to the default find expression using the **Restore Default Expression** button.
 
-![Restore Default Expression][14]
+![Restore Default Expression](images/element-mapping/fig14.png)
 
 <br>
 <br>
 
 * See Also: <a href="/features/elements-explorer/predefined-elements" target="_blank">Predefined elements</a>
 
-[6]: images/element-mapping/fig6.png
-[7]: images/element-mapping/fig7.png
-[8]: images/element-mapping/fig8.png
-[9]: images/element-mapping/fig9.png
-[10]: images/element-mapping/fig10.png
-[11]: images/element-mapping/fig11.png
-[12]: images/element-mapping/fig12.png
-[13]: images/element-mapping/fig13.png
-[14]: images/element-mapping/fig14.png
-[15]: images/element-mapping/fig15.png
+

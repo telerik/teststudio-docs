@@ -12,7 +12,7 @@ position: 1
 A web test with 'Handle Download dialog' or 'Handle Upload dialog' step fails with the following error message in the execution log. 
 A WPF test with 'Handle OpenFile dialog' or 'Handle SaveFile dialog' step fails with the following error message in the execution log. 
 
-```txt
+````txt
 Failure Information: 
 
 The current user does not have access to this folder C:\workingStation\temp\noPermissionsFolder\myw3schoolsimage.jpg. 
@@ -27,7 +27,7 @@ System.UnauthorizedAccessException: The current user does not have access to thi
 You can use the %USERPROFILE%\Downloads\myw3schoolsimage.jpg folder instead or grant access to the folder on all executing machines. 
 
 For more information: https://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/download-dialog-access-denied
-```
+````
 
 ![Failure details for upload or download dialog not handled](/img/troubleshooting-guide/test-execution-problems-tg/download-dialog-access-denied/failure-message.png)
 

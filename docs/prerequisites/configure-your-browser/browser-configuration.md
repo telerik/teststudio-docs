@@ -10,7 +10,7 @@ position: 0
 A specific set of settings is required to enable each of the supported browsers for test recording and execution with Test Studio and this is called __Browser Calibration__. Some of the browsers also require the installation of an extension.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 <br>
@@ -26,7 +26,3 @@ To ease you in applying these settings, Test Studio provides a built-in mechanis
 > **Note** 
 ><br>
 > Test Studio deprecates Internet Explorer support in Q1 2025.
-
-[1]: /img/prerequisites/browser-config/edge-notification.jpg
-[2]: /img/prerequisites/browser-config/accept-popup.jpg
-[3]: /img/prerequisites/browser-config/accept-permissions.jpg

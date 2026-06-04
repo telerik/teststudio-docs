@@ -14,10 +14,7 @@ This is most easily achieved with standard (and non-coded) <a href="/features/re
 
 The following code contains basic examples for demonstration purposes:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-mvc/grid");
     HtmlTable table = Find.ByExpression<HtmlTable>("id=Grid", "|", "tagIndex=table:1");
     Assert.IsNotNull(table);
@@ -25,12 +22,8 @@ The following code contains basic examples for demonstration purposes:
     int r = table.Rows.Count;
     Assert.AreEqual(r, 10);
     Assert.IsTrue(table.InnerText.Contains("Mario"));
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     ActiveBrowser.NavigateTo("http://demos.telerik.com/aspnet-mvc/grid")
     Dim table As HtmlTable = Find.ByExpression(Of HtmlTable)("id=Grid", "|", "tagIndex=table:1")
     Assert.IsNotNull(table)
@@ -38,16 +31,13 @@ The following code contains basic examples for demonstration purposes:
     Dim r As Integer = table.Rows.Count
     Assert.AreEqual(r, 10)
     Assert.IsTrue(table.InnerText.Contains("Mario"))
-    {{endregion}}
+````
 
 ## Throw New Exception
 
 When an *Assert* statement is not appropriate, you can throw your own exception. In the example below, the *FileNotFoundException* will result in failure if the specified file does not exist on disk.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     string fileName = "C:\\test.txt";
     
     if (System.IO.File.Exists(fileName) == true)
@@ -58,12 +48,8 @@ When an *Assert* statement is not appropriate, you can throw your own exception.
     {
         throw new System.IO.FileNotFoundException("File does not exist: ", fileName);
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim fileName As String = "C:\test.txt"
     
     If System.IO.File.Exists(fileName) = True Then
@@ -71,4 +57,4 @@ When an *Assert* statement is not appropriate, you can throw your own exception.
     Else
         Throw New System.IO.FileNotFoundException("File does not exist: ", fileName)
     End If
-    {{endregion}}
+````

@@ -1,4 +1,4 @@
----
+﻿---
 title: Unable to Add Reference
 page_title: Unable to Add Reference
 description: "Learn how to resolve errors when adding assembly references in Test Studio projects. This article explains common causes, such as referencing DLLs in hidden folders, and provides steps to fix reference and compilation issues."
@@ -24,6 +24,6 @@ This behavior may occur when you try to <a href="/advanced-topics/coded-steps/ad
 
 To resolve this issue:
 
-1.&nbsp; Move the external DLL to a different location within the project that is not in one of these hidden folders. 
+1. Move the external DLL to a different location within the project that is not in one of these hidden folders. 
 
-2.&nbsp; Remove and re-add the reference to the external DLL in the Project Settings screen.
+2. Remove and re-add the reference to the external DLL in the Project Settings screen.

@@ -11,59 +11,49 @@ Test Studio allows you to insert any custom code in the tests - that includes th
 Given that, you may need to use the values from the data source in coded steps and this article describes how to access the data columns through code.
 
 
-#### __[C#]__
-
-	{{region }}
-
+````C#
 	//Reference a column by name
 	Pages.Bing.SbFormQText.Text = Data["Numbers"].ToString();
 
 	//Reference a column by index (zero based)
 	Pages.Bing.SbFormQText.Text = Data[0].ToString();
-
-	{{endregion}}
-
-#### __[VB]__
-
-	{{region }}
-
+````
+````VB
 	'Reference a column by name
 	Pages.Bing.SbFormQText.Text = Data("Numbers").ToString()
 
 	'Reference a column by index (zero based)
 	Pages.Bing.SbFormQText.Text = Data(0).ToString()
+````
 
-	{{endregion}}
-
-
-```C#
+````C#
 //Reference a column by name
 Pages.Bing.SbFormQText.Text = Data["Col1"].ToString();
   
 //Reference a column by index (zero based)
 Pages.Bing.SbFormQText.Text = Data[0].ToString();
-```
-```VB
+````
+````VB
 'Reference a column by name
 Pages.Bing.SbFormQText.Text = Data("Col1").ToString()
  
 'Reference a column by index (zero based)
 Pages.Bing.SbFormQText.Text = Data(0).ToString()
-```
+````
 
 This method can also be applied to a **Verification**:
 
-```C#
+````C#
 //Reference a column by name
 Assert.IsTrue(ActiveBrowser.ContainsText(Data["Col1"].ToString()));
   
 //Reference a column by index (zero based)
 Assert.IsTrue(ActiveBrowser.ContainsText(Data[0].ToString()));
-```
-```VB
+````
+````VB
 'Reference a column by name
 Assert.IsTrue(ActiveBrowser.ContainsText(Data("Col1").ToString()))
  
 'Reference a column by index (zero based)
 Assert.IsTrue(ActiveBrowser.ContainsText(Data(0).ToString()))
-```
+````

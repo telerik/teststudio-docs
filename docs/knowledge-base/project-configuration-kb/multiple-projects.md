@@ -4,7 +4,7 @@ page_title: Multiple Projects
 description: Reusing tests and Helper methods across multiple projects. When multiple projects use the same or similar resources, you may wish to share or integrate these project resources. Here we address four scenarios - Sharing helper methods (standalone code file) between projects, sharing data sources between projects, and importing tests from other projects.
 position: 1
 ---
-# Multiple Projects
+## Multiple Projects
 
 When multiple projects use the same or similar resources, you may wish to share or integrate these project resources. Here we address four scenarios: Sharing helper methods between projects, sharing data sources between projects, and importing tests from other projects.
 

@@ -4,7 +4,7 @@ page_title: Element Images Known Scenarios
 description: "Element Images Known Scenarios Requiring Manual Adjustment. Combobox element image is incorrect. textBox element image is incorrect. Element Image Capturing on Scaled Monitors. Recording WaitForExist Step element image is missing. Recording Different Images in different browsers for the Same Element. Using different images for a single element depending on the step where the same element is used. "
 position: 1
 ---
-# Scenarios in Which Element Images Require Additional Adjustment
+## Scenarios in Which Element Images Require Additional Adjustment
 
 There are certain scenarios in which Test Studio will not record the correct image for an element, or not record an image at all. The known workflows are described in details below.
 
@@ -35,7 +35,3 @@ Test Studio allows you to capture manually a new image for an element and then a
 3. Once the desired image is correctly recorded, in the [Image Usage Details section](/features/elements-explorer/find-element-by-image#image-usage-details) choose the step to apply it to from the **"Used By"** dropdown and then click on the **Apply** button.
 
 4. Save the changes. Switching the steps, which uses the element, from the same **"Used By"** dropdown, will display the different images accordingly.
-
-[1]: /img/knowledge-base/test-recording-kb/kendoui-duplicate-elements/fig1.png
-[2]: /img/knowledge-base/test-recording-kb/kendoui-duplicate-elements/fig2.png
-[3]: /img/knowledge-base/test-recording-kb/kendoui-duplicate-elements/fig3.png

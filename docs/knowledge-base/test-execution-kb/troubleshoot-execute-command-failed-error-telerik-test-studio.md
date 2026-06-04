@@ -11,9 +11,9 @@ tags: troubleshooting, executecommand error, client error, protocol error, runti
 
 I get the following error when executing an automation script in Telerik Test Studio:
 
-```
+````
 'ExecuteCommand failed! InError set by the client. Client Error: Protocol error (Runtime.evaluate): Promise was collected BrowserCommand'
-```
+````
 
 The error occurs on a click step. Although the button is clicked and the action is performed as expected, the step fails.
 

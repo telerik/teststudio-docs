@@ -1,4 +1,4 @@
----
+﻿---
 title: Introduction
 page_title: Introduction to Load Testing
 description: "Load Testing in Test Studio. The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction"
@@ -8,10 +8,10 @@ position: 0
 
 The Load Testing feature in Test Studio Standalone enables you to assess how your web applications meet business needs for availability and user satisfaction. We make it easy for you to get started and find the data you need to help make your decisions, but we also give you the flexibility and power to create elaborate, complex load scenarios to meet your most demanding needs.
 
-![Load Test][1]
+![Load Test](/img/features/testing-types/load-testing/overview/fig1.png)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 ## What is Load Testing in Test Studio?
@@ -57,4 +57,3 @@ Load tests help answer some of the most critical questions organizations have ab
 > Having troubles with your test automation?
 > You’ve got the challenges – we have the resources and expertise to help you make testing effective and worthwhile across your organization. Make use of our <a href="https://www.telerik.com/teststudio/training" target="_blank">__free training course or explore the other training options__</a>.
 
-[1]: /img/features/testing-types/load-testing/overview/fig1.png

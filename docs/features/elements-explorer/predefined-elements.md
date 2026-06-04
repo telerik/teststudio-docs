@@ -1,4 +1,4 @@
----
+﻿---
 title: Predefined Elements
 page_title: Predefined Elements
 description: "Create your automated tests in Test Studio, while the application you will be testing, is still in development and does not yet have its UI elements."
@@ -18,59 +18,49 @@ You can start creating your automated tests using predefined elements and add ac
 
 In order to proceed create a Web or WPF test. Navigate to the Elements tab:
 
-![Elements tab][1]
+![Elements tab](/img/features/elements-explorer/element-mapping/fig1.png)
 
 Click on Add Element button:
 
-![Add Element][2]
+![Add Element](/img/features/elements-explorer/element-mapping/fig2.png)
 
 The element gets added in the Predefined Elements section:
 
-![Element Added][3]
+![Element Added](/img/features/elements-explorer/element-mapping/fig3.png)
 
 Once created you can edit the properties of the element such as ControlType, FriendlyName and Technology type:
 
-![Edit Element's properties][4]
+![Edit Element's properties](/img/features/elements-explorer/element-mapping/fig4.png)
 
 You can also use the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> to create various steps against the element such as actions and verifications:
 
-![Actions/Verifications][5]
+![Actions/Verifications](/img/features/elements-explorer/element-mapping/fig5.png)
 
 ## Visual Studio Plugin
 
 In order to proceed create a Web or WPF test. Navigate to the Elements Explorer of the project:
 
-![Elements explorer VS][16]
+![Elements explorer VS](/img/features/elements-explorer/element-mapping/fig16.png)
 
 Click on Add Element button:
 
-![Add Element][17]
+![Add Element](/img/features/elements-explorer/element-mapping/fig17.png)
 
 The element gets added in the Predefined Elements section:
 
-![Element Added][18]
+![Element Added](/img/features/elements-explorer/element-mapping/fig18.png)
 
 Once created you can edit the properties of the element such as ControlType, FriendlyName and Technology type:
 
-![Edit Element's properties][19]
+![Edit Element's properties](/img/features/elements-explorer/element-mapping/fig19.png)
 
 You can also use the <a href="/getting-started/test-recording/step-suggestions" target="_blank">Step Builder</a> to create various steps against the element such as actions and verifications:
 
-![Actions/Verifications][20]
+![Actions/Verifications](/img/features/elements-explorer/element-mapping/fig20.png)
 
 <br>
 <br>
 * See Also: <a href="/features/elements-explorer/element-mapping" target="_blank">Elements Mapping (IntelliMap)</a>
 
 
-[1]: /img/features/elements-explorer/element-mapping/fig1.png
-[2]: /img/features/elements-explorer/element-mapping/fig2.png
-[3]: /img/features/elements-explorer/element-mapping/fig3.png
-[4]: /img/features/elements-explorer/element-mapping/fig4.png
-[5]: /img/features/elements-explorer/element-mapping/fig5.png
 
-[16]: /img/features/elements-explorer/element-mapping/fig16.png
-[17]: /img/features/elements-explorer/element-mapping/fig17.png
-[18]: /img/features/elements-explorer/element-mapping/fig18.png
-[19]: /img/features/elements-explorer/element-mapping/fig19.png
-[20]: /img/features/elements-explorer/element-mapping/fig20.png

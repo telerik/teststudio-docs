@@ -1,4 +1,4 @@
----
+﻿---
 title: Troubleshooting Results Errors
 page_title: Troubleshooting Results Errors
 description: "Troubleshooting Results Errors from Test Studio load test run."
@@ -10,7 +10,7 @@ Sometimes you may be faced with trying to figure out why the number of completed
 
 This must be done manually be setting two registry keys:
 
-![Registry][1]
+![Registry](/img/features/testing-types/load-testing/troubleshooting-results-errors/fig1.png)
 
 - TraceLogPath - This registry key defines the path and filename where the write the trace data into. If the path and or file do not exist, Test Studio will create it for you.
 - TraceLogEnabled - This registry key turns on/off tracing. Turn it on by setting the value to 1. Turn it off by setting the value to 0.
@@ -70,18 +70,18 @@ This file is a text file containing trace data. Below is a sample version of thi
 To set these keys follow these steps:
 
 
-1.&nbsp; Run **Regedit** to start the Windows Registry editor.
+1. Run **Regedit** to start the Windows Registry editor.
 
-2.&nbsp; Navigate to the correct registry node depending on the bitness of your Windows installation. If the Telerik subnode does not exist, create it.
+2. Navigate to the correct registry node depending on the bitness of your Windows installation. If the Telerik subnode does not exist, create it.
 
 - 32 bit: **HKEY_USERS\.DEFAULT\Software\Telerik\Test Studio**
 - 64 bit: **HKEY_USERS\.DEFAULT\Software\Wow6432Node\Telerik\Test Studio**
 
-3.&nbsp; Add the key **TraceLogPath** as a string type.
+3. Add the key **TraceLogPath** as a string type.
 
-4.&nbsp; Set its path to the desired location and file you want trace data saved to.
+4. Set its path to the desired location and file you want trace data saved to.
 
-5.&nbsp; Add the key **TraceLogEnabled** as a DWORD type. Set its value to 1. When you want to turn off tracing, set this value to 0.
+5. Add the key **TraceLogEnabled** as a DWORD type. Set its value to 1. When you want to turn off tracing, set this value to 0.
 
 You can also use this .reg file to create the keys for you:
 
@@ -91,4 +91,3 @@ Windows Registry Editor Version 5.00
 "TraceLogPath"="C:\\Logs\\Log.txt"<br>
 "TraceLogEnabled"=dword:00000001*
 
-[1]: /img/features/testing-types/load-testing/troubleshooting-results-errors/fig1.png

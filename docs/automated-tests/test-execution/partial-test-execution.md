@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Execute Part of a Test
 page_title: Execute Part of a Test
 description: "Test Studio partial test Execution. Run part of a Test Studio test. Execute certain steps of the test. Run test to here. Run test from here. Run selected steps"
@@ -23,11 +23,11 @@ The partial test run can be triggered from the context menu based on a selected 
 > <br>
 > If the project uses a <a href="/automated-tests/test-execution/quick-run-browsers#preferred-browser" target="_blank">preferred browser</a>, this will be started automatically. Otherwise, the dialog to select recording browser appears and the run will continue after the browser is selected.
 
-![Run To here][1]
+![Run To here](/img/automated-tests/test-execution/partial-test-execution/fig1.png)
 
 The triggered partial run executes the preceding (including the selected) test step(s). Once the step execution finishes, the __executing browser remains opened, presenting the current state of the application under test, and a recorder gets attached to it__.
 
-![Run To here finished][2]
+![Run To here finished](/img/automated-tests/test-execution/partial-test-execution/fig2.png)
 
 > __Tip__
 > <br>
@@ -42,21 +42,21 @@ Although the run is only partial, it generates a complete execution log for the 
 
 The __Run From Here__ option is only available in the __context of an active recording session__ and a single step selected from a test. It is also listed in the _Run..._ sub-menu. It executes the subsequent steps starting from the selected one in an existing browser instance with attached recorder.
 
-![Run From here][3]
+![Run From here](/img/automated-tests/test-execution/partial-test-execution/fig3.png)
 
 It generates complete execution log, so in case any of the executed steps fails, the failure details are listed in the execution log and the recorder remains attached to the browser.
 
-![Run From here finished][4]
+![Run From here finished](/img/automated-tests/test-execution/partial-test-execution/fig4.png)
 
 ## Run Selected Steps
 
 The option to execute few steps selected from a test, __Run Selected Steps__, is the last listed in the _Run..._ sub-menu. It is only applicable if there is an __active recording session and one or more, but subsequent, steps are selected__. These steps gets executed in the order they are listed in the test.
 
-![Run Selected Steps][5]
+![Run Selected Steps](/img/automated-tests/test-execution/partial-test-execution/fig5.png)
 
 This partial run also generates complete execution log, so if any of the selected steps fails to be executed, the complete failing details will be listed in the logging.
 
-![Run Selected Steps finished][6]
+![Run Selected Steps finished](/img/automated-tests/test-execution/partial-test-execution/fig6.png)
 
 > __Note__
 > <br>
@@ -65,9 +65,3 @@ This partial run also generates complete execution log, so if any of the selecte
 > <br>
 > Ensure to __pause the recorder__, if you need to debug your test, or to __enable the recording__, if you need to continue recording.
 
-[1]: /img/automated-tests/test-execution/partial-test-execution/fig1.png
-[2]: /img/automated-tests/test-execution/partial-test-execution/fig2.png
-[3]: /img/automated-tests/test-execution/partial-test-execution/fig3.png
-[4]: /img/automated-tests/test-execution/partial-test-execution/fig4.png
-[5]: /img/automated-tests/test-execution/partial-test-execution/fig5.png
-[6]: /img/automated-tests/test-execution/partial-test-execution/fig6.png

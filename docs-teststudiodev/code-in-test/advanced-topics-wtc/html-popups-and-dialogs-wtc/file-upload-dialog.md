@@ -4,11 +4,11 @@ page_title: FileUpload Dialog
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, Silverlight, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
 position: 2
 ---
-#FileUpload Dialog#
+# FileUpload Dialog
 
 With FileUpload, you need to pass in the full path to the file to upload and how the dialog should be handled. The options for FileUpload are: DialogButton.OPEN, DialogButton.CANCEL or DialogButton.CLOSE.
 
-```C#
+````C#
 // Add a FileUpload dialog to be monitored.
 Manager.DialogMonitor.AddDialog(new FileUploadDialog(ActiveBrowser, @"C:\EmptyTextFile.txt", DialogButton.OPEN));
   
@@ -23,10 +23,8 @@ Manager.DialogMonitor.Start();
 Pages.YourSite.YourButton.Click();
   
 // Dialog should be automatically handled
-```
- 
-
-```VB
+````
+````VB
 ' Add a FileUpload dialog to be monitored.
 Manager.DialogMonitor.AddDialog(New FileUploadDialog(ActiveBrowser, Path.Combine(Globals.PATH_TO_PAGES, "..\SupportFiles\EmptyTextFile.txt"), DialogButton.OPEN))
   
@@ -36,13 +34,13 @@ Manager.DialogMonitor.Start()
   
 ' Cause the upload Dialog to pop-up
 Pages.YourSite.YourButton.Click()
-```
+````
 
-##Multiple Files Upload##
+## Multiple Files Upload
 
 There are scenarios where multiple files needs to be uploaded. Below you could find a sample code how to obtain that with the Testing Framework. The code will loop through a set of files and will upload each after the previous. The sample is built against a <a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_fileupload_multiple" target="_blank">public accessible webpage</a> and to give a try to that example you have to first navigate to that page. 
 
-```C#
+````C#
 
 // place small pictures with names file1.png and file2.png in c:\temp folder to have the sample working without modification
 string path = @"C:\temp\" ;
@@ -84,12 +82,12 @@ for (int i = 0; i < fileNames.Length; i++ )
     ActiveBrowser.Refresh();
 }
 
-```
+````
 
 > **Note:** To compile the above code include the following using:
 >
 > using ArtOfTest.WebAii.Win32.Dialogs;
 
-##See Also##
+## See Also
 
 * <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/html-control-suite-wtc/transfer-files" target="_blank">How to Transfer Files</a>

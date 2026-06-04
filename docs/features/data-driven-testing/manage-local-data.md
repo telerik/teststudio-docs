@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage Built-in Data Source
 page_title: Manage Built-in Data Source
 description: "Test Studio can use built-in data source for each test. Modify the built-in data source. Local data table in Test Studio test."
@@ -14,13 +14,13 @@ This article describes what options there are in Test Studio to __maintain the c
 
 At the bottom of the test steps pane in the project you will see an additional tab named __'Local Data'__. Click this one to switch to the built-in data table.
 
-![Standalone][2]
+![Standalone](/img/features/data-driven-testing/local-data-driven-test/fig2.png)
 
 ## Create a New Data Table
 
 At the top of this pane there are few buttons and currently only **Create a new data table** is enabled. To add a new data grid, click this one. The default created grid has five columns and a single row.
 
-![Create a new data table][4]
+![Create a new data table](/img/features/data-driven-testing/local-data-driven-test/fig4.png)
 
 Along with this, the rest of the buttons get active and allows you to modify the grid.
 
@@ -30,24 +30,22 @@ Test Studio provides few options to easily modify a data table.
 
 - __Set number of rows and columns__ (columns are limited to 50) and update the grid
 
-![Set number of rows and columns][20]
+![Set number of rows and columns](/img/features/data-driven-testing/local-data-driven-test/fig20.png)
 
 - __Create new data table__ or __remove current data table__ (both will prompt you the current data will be lost if you proceed)
 
-![Create new or remove data table][21]
+![Create new or remove data table](/img/features/data-driven-testing/local-data-driven-test/fig21.png)
 
 - __Add a row/Delete the last row__ or __Add a column/Delete the last column__
 
-<table id="no-table">
-<tr>
-<td>![Add/Delete Row][22]<br>Add/Delete Row</td>
-<td>![Add/Delete Column][23]<br>Add/Delete Column</td>
-</tr>
-<table>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
 
-[2]: /img/features/data-driven-testing/local-data-driven-test/fig2.png
-[4]: /img/features/data-driven-testing/local-data-driven-test/fig4.png
-[20]: /img/features/data-driven-testing/local-data-driven-test/fig20.png
-[21]: /img/features/data-driven-testing/local-data-driven-test/fig21.png
-[22]: /img/features/data-driven-testing/local-data-driven-test/fig22.png
-[23]: /img/features/data-driven-testing/local-data-driven-test/fig23.png
+<img src="/img/features/data-driven-testing/local-data-driven-test/fig22.png" alt="Add/Delete Row" /><br>Add/Delete Row</td>
+<td>
+
+<img src="/img/features/data-driven-testing/local-data-driven-test/fig23.png" alt="Add/Delete Column" /><br>Add/Delete Column</td>
+</tr>
+</table>
+

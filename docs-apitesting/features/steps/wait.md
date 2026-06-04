@@ -3,7 +3,7 @@ title: Wait Step
 page_title: Wait Step
 description: "Progress® Test Studio® for APIs - Steps - Wait Step"
 position: 5
-publish: true
+published: true
 ---
 
 # Wait Step

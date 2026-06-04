@@ -1,4 +1,4 @@
----
+﻿---
 title: In-Product Tips And Tricks
 page_title: In-Product Tips And Tricks
 description: "Test Studio In-Product Tips And Tricks. Useful links to boost up the Test Studio learning curve. Find useful links in the product as you design your test project"
@@ -17,7 +17,7 @@ While automating your first test scenarios, you will see tips and tricks with us
 
 The Tips And Tricks popup displays a list of hints relevant to your activities. Each new tip appears bold and with a label *New*. Once you click on a new tip, the label *New* disappears and a popup with an overview for the selected hint appears.
 
-![Notifications Window][2]
+![Notifications Window](/img/automated-tests/customize-project/in-product-tips-tricks/fig2.png)
 
 The tips and tricks are divided into few sections - Tests, Steps, Elements, Project, Test Lists and Results. Which section is triggered depends on your activities in Test Studio. Each item has a link to our online documentation, where you can find additional details. Most tips have a link to a video demonstrating the feature.
 
@@ -25,7 +25,7 @@ The tips and tricks are divided into few sections - Tests, Steps, Elements, Proj
 
 The number of unexplored items you have received is displayed in the **Tips And Tricks toggle button** in a red circle in the upper right corner of Test Studio window. Toggle it to show/hide the Tips And Tricks window.
 
-![Toggle Button][1]
+![Toggle Button](/img/automated-tests/customize-project/in-product-tips-tricks/fig1.png)
 
 If you close the tips window, you can bring it up again by clicking that toggle button. This allows you to review all tips triggered so far (including the already explored).
 
@@ -39,5 +39,3 @@ By default, the **Always show this pop-up** option is selected and the *Tips And
 
 - <a href="https://www.telerik.com/videos/teststudio/that-s-neat!-test-studio-notifications">That’s neat! Test Studio notifications</q>
 
-[1]: /img/automated-tests/customize-project/in-product-tips-tricks/fig1.png
-[2]: /img/automated-tests/customize-project/in-product-tips-tricks/fig2.png

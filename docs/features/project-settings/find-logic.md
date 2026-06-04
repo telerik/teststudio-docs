@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart Find Logic Settings
 page_title: Smart Find Logic for Locating Elements
 description: "Test Studio project settings. Reorder the attributes used when building the Find expressions for elements recorded in Test Studio test. Use custom elements' attributes in the default find logic used to record new elements in Test Studio tests."
@@ -16,7 +16,7 @@ Find out more about the Smart Find Logic setting for web and Dekstop elements.
 
 Test Studio generates find expressions automatically for web elements based on the __Smart Find Logic__ list of attributes - the higher an attribute is in the list, the greater priority it has when generating a find expression. 
 
-![Web smart find Logic][1]
+![Web smart find Logic](/img/features/project-settings/find-logic/fig1.png)
 
 When an element is ready to be added to the Elements Explorer, Test Studio tries to use the first item in the list (usually "**id**"). Using this criteria, if the item is unique for the entire page, the element is added, a find expression is created, and Test Studio stops evaluating. <br>
 
@@ -30,12 +30,9 @@ As of Test Studio release 2019 R2 Test Studio also records an <a href="/features
 
 Test Studio generates find expressions automatically for desktop elements based on the property set in the __Smart Find Logic__. 
 
-![Desktop smart find Logic][2]
+![Desktop smart find Logic](/img/features/project-settings/find-logic/fig2.png)
 
 The default set value is __ControlTypeName__. You can choose to change it to __xPath__ or __ClassName__. 
 
-![Desktop smart find Logic options][3]
+![Desktop smart find Logic options](/img/features/project-settings/find-logic/fig3.png)
 
-[1]: /img/features/project-settings/find-logic/fig1.png
-[2]: /img/features/project-settings/find-logic/fig2.png
-[3]: /img/features/project-settings/find-logic/fig3.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: jQuery Events Do Not Fire
 page_title: jQuery Events Do Not Fire
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and load testing solution. Test Studio tests support essential technologies like ASP.NET AJAX, PHP and MVC. HTML5, Testing framework, functional testing, performance testing, load testing, exploratory testing, manual testing."
@@ -11,26 +11,33 @@ In some cases, Test Studio does not automatically call local jQuery events. You 
 
 Inputting text into <a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_change" target="_blank">this</a> simple HTML text box triggers a jQuery event that changes the background color of the text box.
 
-<table id="no-table">
+<table id="no-table" style="border:none;">
 	<tr>
-		<td>![Before Selection][1] </br></br>**Before Selection**</td>
-		<td>![Available Selections][2] </br></br>**Available Selections**</td>
-		<td>![After Selection][3] </br></br>**After Selection**</td>
-	</tr>
-<table>
+		<td style="text-align: center;">
+		
+<img src="/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig1.png" alt="Before Selection" /> </br></br>**Before Selection**</td>
+<td style="text-align: center;">
+
+<img src="/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig2.png" alt="Available Selections" /> </br></br>**Available Selections**</td>
+<td style="text-align: center;">
+
+<img src="/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig3.png" alt="After Selection" /> </br></br>**After Selection**</td>
+
+</tr>
+</table>
 
 This is the HTML for the text input element:
 
-```HTML
+````HTML
 Enter your name: <input class="field" type="text">
-```
+````
 
 
 Invoke the script that changes the background color with the following coded step:
 
-```C#
+````C#
 Pages.TryitEditorV220.FrameIframeResult.Text.AsjQueryControl().InvokejQueryEvent(ArtOfTest.WebAii.jQuery.jQueryControl.jQueryControlEvents.change);
-```
+````
 
 * The guideline is to always pair the two steps together. Immediately after performing the change step (input, radio button, etc.), run the coded step that calls the .change function for that element.
 
@@ -40,13 +47,9 @@ Pages.TryitEditorV220.FrameIframeResult.Text.AsjQueryControl().InvokejQueryEvent
 
 Here are test steps recorded against the demo page above:
 
-![Test][4]
+![Test](/img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig4.png)
 
 Even there is no selection/typing in the field step 4 will triggers *.change* event and the input filed will become violet.
 
-[1]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig1.png
-[2]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig2.png
-[3]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig3.png
-[4]: /img/advanced-topics/coded-samples/html/jQuery-events-do-not-fire/fig4.png
 
 

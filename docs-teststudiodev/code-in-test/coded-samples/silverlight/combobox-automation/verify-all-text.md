@@ -8,10 +8,7 @@ position: 1
 
 Here is the sample code to accomplish that.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     ComboBox cb = Pages.SilverlightToolkitSamples.SilverlightApp.Item0Combobox;
     
     string full = cb.TextBlockContent.ToString();
@@ -19,12 +16,8 @@ Here is the sample code to accomplish that.
     
     Log.WriteLine(full);
     Assert.AreEqual(full, "All Add Delete Edit Navigation None");
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim cb As ComboBox = Pages.SilverlightToolkitSamples.SilverlightApp.Item0Combobox
     
     Dim full As String = cb.TextBlockContent.ToString()
@@ -32,4 +25,4 @@ Here is the sample code to accomplish that.
     
     Log.WriteLine(full)
     Assert.AreEqual(full, "All Add Delete Edit Navigation None")
-    {{endregion}}
+````

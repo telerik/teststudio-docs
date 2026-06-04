@@ -1,4 +1,4 @@
----
+﻿---
 title: System Requirements
 page_title: System Requirements
 description: "Test Studio is an innovative and easy-to-use automated web, WPF and desktop testing solution. Test Studio tests support a proprietary Testing framework, functional UI testing, web responsive testing, etc. Find out our system requirements."
@@ -96,7 +96,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
     </thead>
     <tbody>
         <tr>
-            <td colspan="4">Windows 11, Windows 10, &nbsp; <br>Windows Server 2022, Windows Server 2019</td>
+            <td colspan="4">Windows 11, Windows 10,  <br>Windows Server 2022, Windows Server 2019</td>
         </tr>
     </tbody>
 </table>
@@ -152,7 +152,7 @@ table{width: 100%; border-spacing: 0; border-collapse: collapse; background-colo
 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 

@@ -3,7 +3,7 @@ title: Corrupted Response due to HTTP compression
 page_title: Corrupted Response due to HTTP compression
 description: "Progress® Test Studio® for APIs - Troubleshooting guide - Corrupted response due to HTTP compression"
 position: 2
-publish: true
+published: true
 ---
 
 # Corrupted Response due to HTTP compression

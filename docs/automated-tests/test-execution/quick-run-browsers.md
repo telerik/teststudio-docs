@@ -1,4 +1,4 @@
----
+﻿---
 title: Browser Control in Quick Execution
 page_title: Browser Control in Quick Execution
 description: "Test Studio Quick test Execution. How to Set preferred browser for test runs and test recording. Wuick Access the browser calibration tool"
@@ -14,7 +14,7 @@ If the application under test is mainly used in one browser, or there is a requi
 
 The **Test Ribbon** provides you quick access to choose a default browser. Under the **Preferred browser** section you can access a dropdown to set your preferred browser for this project. The list contains all installed browsers or the option to select the OS default set browser. Leaving the dropdown option _'Ask me every time' will allow you to choose the browser by each recording session or quick execution.
 
-![Preferred browser dropdown][1]
+![Preferred browser dropdown](/img/automated-tests/test-execution/quick-run-browsers/fig1.png)
 
 ## Calibrate Browsers
 
@@ -22,7 +22,5 @@ The browser calibration is a required set of settings, which makes the browser c
 
 The **Test Ribbon** in Test Studio provides you quick access to this built-in tool for automatic browser calibration.
 
-![Calibrate browser quick access][2]
+![Calibrate browser quick access](/img/automated-tests/test-execution/quick-run-browsers/fig2.png)
 
-[1]: /img/automated-tests/test-execution/quick-run-browsers/fig1.png
-[2]: /img/automated-tests/test-execution/quick-run-browsers/fig2.png

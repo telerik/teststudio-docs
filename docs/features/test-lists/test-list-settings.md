@@ -1,4 +1,4 @@
----
+﻿---
 title: Test List Settings
 page_title: Test List Settings
 description: "Test Studio Test List Settings. Change the browser for a test list run. RunnerResponseTimeout. UnexpectedDialogAction. KillBrowserProcessOnClose KillBrowsersBeforeStart Test list baseURL"
@@ -10,11 +10,11 @@ Test Studio provides a rich set of settings to modify the test list execution, o
 
 The settings to use for a test list can be different for each separate test list and can be accessed on the **Test List** tab in the Test Studio project. Select a test list to modify its settings and click the **Edit Settings** button in the _Edit_ ribbon.
 
-![Test list settings][1]
+![Test list settings](/img/features/test-lists/test-list-settings/fig1.png)
 
 A dialog window pops up showing the configuration settings for this test list. The settings are listed in few tabs divided by the area of modification - <a href="#general-tab">General</a>, <a href="#web-tab">Web</a>, <a href="#wpf-tab">WPF</a>, <a href="#responsive-web-tab">Responsive Web</a>.
 
-![Test list settings view][3]
+![Test list settings view](/img/features/test-lists/test-list-settings/fig3.png)
 
 ## See also
 
@@ -110,5 +110,3 @@ All settings are listed below with additional details on their usage.
 * **DefaultApplicationPath** - represents the default application path for desktop tests.
 
 
-[1]: /img/features/test-lists/test-list-settings/fig1.png
-[3]: /img/features/test-lists/test-list-settings/fig3.png

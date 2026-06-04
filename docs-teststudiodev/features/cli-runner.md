@@ -12,13 +12,13 @@ The ArtOfTest.Runner.exe is the command line runner for __Test Studio Dev__ test
 
 When working with the execution engine in the command prompt always make sure you have started it as Administrator and have the root directory in context as shown below so that you can call the runner directly.
 
-![cmd][1]
+![cmd](images/artoftest-runner/fig1.png)
 
 ## Help Screen
 
 Here is the Help Screen for ArtOfTest.Runner.exe:
 
-![Options][2]
+![Options](images/artoftest-runner/fig2.png)
 
 ## Execution Options
 
@@ -29,7 +29,7 @@ Several execution options use file paths as values. When using file paths in the
 - Enclose the file path in double quotes.
 - To prevent typing mistakes, use the clipboard paste option within the command prompt window. To find the paste option after copying the path to the clipboard, right mouse click on the top left corner of the command prompt and choose **Edit > Paste**.
 
-![Edit>Paste][3]
+![Edit>Paste](images/artoftest-runner/fig3.png)
 
 ### File to Execute Options
 
@@ -37,10 +37,10 @@ Several execution options use file paths as values. When using file paths in the
 
 <table id="no-table">
 <tr>
-<td>![Test Execution Syntax][4]<br>ArtOfTest.Runner Test Execution syntax</td>
+<td><img src="images/artoftest-runner/fig4.png" alt="Test Execution Syntax" /><br>ArtOfTest.Runner Test Execution syntax</td>
 </tr>
 <tr>
-<td>![Test Execution Result][5]<br>ArtOfTest.Runner Test Execution result</td>
+<td><img src="images/artoftest-runner/fig5.png" alt="Test Execution Result" /><br>ArtOfTest.Runner Test Execution result</td>
 </tr>
 <table>
 
@@ -66,7 +66,7 @@ Several execution options use file paths as values. When using file paths in the
 
 Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. These are corresponding to the available <a href="/features/test-execution/test-list-settings" target="_blank">test list settings</a>.
 
-```JSON
+````JSON
 {
   "Settings": {
     "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -131,7 +131,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
   "PropertyBag": null
 }
 
-```
+````
 
 ## Exit Codes
 
@@ -165,36 +165,45 @@ padding: 8px;
 	<th>Code</th><th>Title</th><th>Summary</th>
 </tr>
 <tr>
-	<td>**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
+<td>
+	
+**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
 </tr>
 <tr>
-	<td>**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
+<td>
+	
+**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
 </tr>
 <tr>
-	<td>**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
+<td>
+	
+**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
 </tr>
 <tr>
-	<td>**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
+<td>
+	
+**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
 </tr>
 <tr>
-	<td>**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
+<td>
+	
+**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
 </tr>
 <tr>
-	<td>**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
+<td>
+	
+**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
 </tr>
 <tr>
-	<td>**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
+<td>
+	
+**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
 </tr>
 <tr>
-	<td>**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
+<td>
+	
+**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
 </tr>
 <table>
 
-[1]: images/artoftest-runner/fig1.png
-[2]: images/artoftest-runner/fig2.png
-[3]: images/artoftest-runner/fig3.png
-[4]: images/artoftest-runner/fig4.png
-[5]: images/artoftest-runner/fig5.png
-[6]: images/artoftest-runner/fig6.png
-[7]: images/artoftest-runner/fig7.png
-[8]: images/artoftest-runner/fig8.png
+

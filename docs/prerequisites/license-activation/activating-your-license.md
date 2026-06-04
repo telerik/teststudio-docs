@@ -21,7 +21,7 @@ You can find the following topics in the article:
     - [Connection Error](#connection-error)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Launch Test Studio and Login

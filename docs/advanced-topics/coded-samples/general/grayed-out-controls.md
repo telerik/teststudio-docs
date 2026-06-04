@@ -1,10 +1,10 @@
----
+﻿---
 title: Grayed Out Controls
 page_title: Grayed Out Controls
 description: "Learn how to handle grayed out or disabled controls in Test Studio automated tests. Find solutions for waiting out loading screens and ensuring reliable UI automation when elements are temporarily unavailable."
 position: 1
 ---
-# Dealing with Grayed Out Controls 
+# Dealing with Grayed Out Controls
 
 *My application contains "grayed out" (i.e. visible but not functioning) controls, like buttons. These controls cause unpredictable behavior when performing UI automation.*
 
@@ -14,7 +14,7 @@ The crux of the matter is that Test Studio cannot recognize whether a control is
 
 Let's take a simple situation in order to demonstrate this: your application contains a button that gets grayed out at some point when a specific event is triggered.
 
-![Grayed out][1]
+![Grayed out](/img/advanced-topics/coded-samples/general/grayed-out-controls/fig1.png)
 
 While recording a test for this application, you would wait out the loading screen and then click the button. This gets recorded as a Click Step. When Test Studio invokes this step during test execution, here's what happens:
 
@@ -30,7 +30,7 @@ Determine which DOM element represents the loading screen and then wait for this
 
 If you're using the Telerik Testing Framework, this is harder to implement. This is because you will need to manually determine which element represents the AJAX loading screen. In the demo app, this is a DIV element with an ID of RadAjaxLoadingPanel1Panel1. Once you've determined that, you can write the test that waits for it to not exist. Here's the code that triggers the AJAX loading screen and then waits for it to not exist:
 
-```C#
+````C#
 // Launch a browser instance
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer);
  
@@ -44,8 +44,8 @@ Find.ById<HtmlInputButton>("Button1").Click();
 Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000);
  
 //Now we're free to click around the page without worrying whether the click will actually occur
-```
-```VB
+````
+````VB
 ' Launch a browser instance
 Manager.LaunchNewBrowser(BrowserType.InternetExplorer)
  
@@ -59,6 +59,5 @@ Find.ById(Of HtmlInputButton)("Button1").Click()
 Find.ById("RadAjaxLoadingPanel1Panel1").Wait.ForExistsNot(10000)
  
 'Now we're free to click around the page without worrying whether the click will actually occur
-```
+````
 
-[1]: /img/advanced-topics/coded-samples/general/grayed-out-controls/fig1.png

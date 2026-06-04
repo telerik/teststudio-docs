@@ -6,7 +6,7 @@ page_title:  Progress® Telerik® Test Studio® Extension is Not Available in Ch
 tags: progress, telerik, test studio, chrome, extension, edge chromium
 res_type: kb
 ticketid: 1678431
-position: 0
+position: 1
 ---
 
 

@@ -3,7 +3,7 @@ title: Verifications
 page_title: Verifications
 description: "Progress® Test Studio® for APIs - Verifications"
 position: 0
-publish: true
+published: true
 ---
 
 # Verifications

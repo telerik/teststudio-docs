@@ -1,4 +1,4 @@
----
+﻿---
 title: Connect Project to TFS
 page_title: Connect Test Studio Project to TFS
 description: "Connect Test Studio Project to TFS"
@@ -11,25 +11,21 @@ position: 2
 
 The below steps guide you through the actions to connect a project to a TFS source control repository.
 
-1.&nbsp; Open a project in Test Studio Standalone version.
+1. Open a project in Test Studio Standalone version.
 
-2.&nbsp; On the **Project** tab, click the **Connect** button in the **Source Control** ribbon.
+2. On the **Project** tab, click the **Connect** button in the **Source Control** ribbon.
 
-![Connect][1]
+![Connect](/img/features/source-control/connect-to-tfs/fig1.png)
 
-3.&nbsp; The **Connect to TFS** dialog appears. Fill in the appropriate information and click **Connect**.
+3. The **Connect to TFS** dialog appears. Fill in the appropriate information and click **Connect**.
 
-![Connect to TFS][2]
+![Connect to TFS](/img/features/source-control/connect-to-tfs/fig2.png)
 
-4.&nbsp; Pick the destination directory in TFS and click **OK**.
+4. Pick the destination directory in TFS and click **OK**.
 
-5.&nbsp; The project and project files are now marked with a ![PLus][4] icon. This indicates it is bound to Source Control.
+5. The project and project files are now marked with a ![PLus](/img/features/source-control/connect-to-tfs/fig4.png) icon. This indicates it is bound to Source Control.
 
-![Connected][3]
+![Connected](/img/features/source-control/connect-to-tfs/fig3.png)
 
 - Do not use personal login credentials to connect your project to TFS. Instead, use separate test credentials.
 
-[1]: /img/features/source-control/connect-to-tfs/fig1.png
-[2]: /img/features/source-control/connect-to-tfs/fig2.png
-[3]: /img/features/source-control/connect-to-tfs/fig3.png
-[4]: /img/features/source-control/connect-to-tfs/fig4.png

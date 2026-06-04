@@ -54,12 +54,20 @@ To ensure proper load simulation and address the discrepancy in server traffic, 
 
 1. Review the captured traffic which remains after clearing the non-essential requests and drill down which are the dynamic session identifiers - such as cookies, headers, or query parameters - exchanged during the web test execution. These identifiers ensure the user session is accepted from the application server as a valid one so they need to be correctly handled during the load test execution. 
 
-   <table id="no-table">
-   <tr>
-   <td>![Dynamic value in response](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/identify-dynamics-in-response.png)<br>**Dynamic value returned in response**</td>
-   <td>![Reused dynamic value in next request](/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/identify-dynamics-in-request.png)<br>**Reused dynamic value in next request**</td>
-   <tr>
-   <table>
+    <table id="no-table">
+      <tr>
+        <td>
+          <img alt="Dynamic value in response" src="/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/identify-dynamics-in-response.png" loading="lazy" decoding="async">
+          <br>
+          <b>Dynamic value returned in response</b>
+        </td>
+        <td>
+          <img alt="Reused dynamic value in next request" src="/img/troubleshooting-guide/load-testing-problems-tg/resolve-server-load-mismatch/identify-dynamics-in-request.png" loading="lazy" decoding="async">
+          <br>
+          <b>Reused dynamic value in next request</b>
+        </td>
+      <tr>
+    </table>
    
 2. Add dynamic targets to replace these identifiers for each virtual user:
    

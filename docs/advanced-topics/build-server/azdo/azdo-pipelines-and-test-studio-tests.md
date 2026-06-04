@@ -1,4 +1,4 @@
----
+﻿---
 title: Azure DevOps Pipelines and Test Studio Tests
 page_title: Test Studio Tests in Azure DevOps Build Pipelines
 description: "Learn how to integrate and execute Test Studio automated tests in Azure DevOps pipelines using self-hosted or Microsoft-hosted agents. This guide covers prerequisites, agent setup, artifact management, and limitations for web and desktop test execution."
@@ -50,25 +50,25 @@ To create such agent, follow the steps listed below:
 
 1. Open the **Project settings** of the current AzDO project.
 
-    ![Open the current AzDO project settings][2]
+    ![Open the current AzDO project settings](/img/advanced-topics/build-server/azure-devops/fig2.png)
 
 2. Click on **Pipelines -> Agent Pools**.
 
-    ![Agent Pools][3]
+    ![Agent Pools](/img/advanced-topics/build-server/azure-devops/fig3.png)
 
 3. Add a new pool or open the default one.
 
-    ![New Agent Pools][4]
+    ![New Agent Pools](/img/advanced-topics/build-server/azure-devops/fig4.png)
 
 4. Click **New Agent**,
 
-    ![New Agent][5]
+    ![New Agent](/img/advanced-topics/build-server/azure-devops/fig5.png)
 
 5. Download the Agent to the corresponding physical or virtual machine as per the installation requirements above.
 
 6. Extract the Agent and run as Administrator.
 
-    ![Start Agent][6]
+    ![Start Agent](/img/advanced-topics/build-server/azure-devops/fig6.png)
 
 > **Note** 
 > <br>
@@ -96,11 +96,11 @@ To create such agent, follow the steps listed below:
 
 8. Choose whether to configure autologon and run agent on startup - from Test Studio perspective this is optional and depends on the project demands.
 
-    ![Configure Agent][7]
+    ![Configure Agent](/img/advanced-topics/build-server/azure-devops/fig7.png)
 
 9. Upon successful configuration the config console gets closed. Run the `run.cmd` file in console to trigger the Agent.
 
-    ![Trigger Agent][8]
+    ![Trigger Agent](/img/advanced-topics/build-server/azure-devops/fig8.png)
 
 
 <br>
@@ -158,10 +158,3 @@ You can integrate the Test Studio automated tests execution in both classic and 
 - <a href="/advanced-topics/build-server/azdo/self-hosted-agent-yml-pipeline" target="_blank">Configure YAML pipeline to execute tests on self hosted machine</a>
 - <a href="/advanced-topics/build-server/azdo/ms-hosted-agent-yml-pipeline" target="_blank">Configure YAML pipeline to execute tests on Microsoft hosted machine</a>
 
-[2]: /img/advanced-topics/build-server/azure-devops/fig2.png
-[3]: /img/advanced-topics/build-server/azure-devops/fig3.png
-[4]: /img/advanced-topics/build-server/azure-devops/fig4.png
-[5]: /img/advanced-topics/build-server/azure-devops/fig5.png
-[6]: /img/advanced-topics/build-server/azure-devops/fig6.png
-[7]: /img/advanced-topics/build-server/azure-devops/fig7.png
-[8]: /img/advanced-topics/build-server/azure-devops/fig8.png

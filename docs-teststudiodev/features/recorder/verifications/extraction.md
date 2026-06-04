@@ -11,57 +11,57 @@ An _Extraction_ step can be created in the same manner as <a href="/features/rec
 
 This example is against a <a href="http://www.wordgenerator.net/random-word-generator.php" target="_blank">random word generator site</a>.
 
-1.&nbsp; Enable highlighting and hover over the target element, choose **Quick Steps > Extract - text contains** entry. 
+1. Enable highlighting and hover over the target element, choose **Quick Steps > Extract - text contains** entry. 
 
-![Word Generator](images/highlight-element-to-extract.png)
+    ![Word Generator](images/highlight-element-to-extract.png)
 
-2.&nbsp; An Extraction step is added to the test.
+2. An Extraction step is added to the test.
 
-3.&nbsp; Pause recording, double click that step, and change the DataBindVariableName. In this example I renamed it to *randomWord*.
+3. Pause recording, double click that step, and change the DataBindVariableName. In this example I renamed it to *randomWord*.
 
-![Extracted Step Added](images/extraction-step.png)
+    ![Extracted Step Added](images/extraction-step.png)
 
-4.&nbsp; Resume recording and navigate to www.bing.com from the Navigation pane in the <a href="/features/recorder/recording-toolbar" target="_blank">Recording toolbar</a>.
+4. Resume recording and navigate to www.bing.com from the Navigation pane in the <a href="/features/recorder/recording-toolbar" target="_blank">Recording toolbar</a>.
 
-5.&nbsp; Enter any word into the search box and click **Submit**.
+5. Enter any word into the search box and click **Submit**.
 
-6.&nbsp; Close the browser to stop recording.
+6. Close the browser to stop recording.
 
-![Recorded Test Steps](images/recorded-steps.png)
+    ![Recorded Test Steps](images/recorded-steps.png)
 
-7.&nbsp; Select the step that enters a word for the search engine (step 4 in this example).
+7. Select the step that enters a word for the search engine (step 4 in this example).
 
-8.&nbsp; Click the **Bindings** drop-down in the <a href="/features/test-maintenance/test-step-properties" target="_blank">**Step Properties** pane</a>.
+8. Click the **Bindings** drop-down in the <a href="/features/test-maintenance/test-step-properties" target="_blank">**Step Properties** pane</a>.
 
-9.&nbsp; Select the extracted variable from the value drop-down and click **Set**.
+9. Select the extracted variable from the value drop-down and click **Set**.
 
-![Set Extracted Value](images/set-extracted-value.png)
+    ![Set Extracted Value](images/set-extracted-value.png)
 
-10.&nbsp; Save and execute the test.
+10. Save and execute the test.
 
-11.&nbsp; A random word is extracted from the first site and used as the query in a Bing search.
+11. A random word is extracted from the first site and used as the query in a Bing search.
 
-> If you have <a href="/code-in-test/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then Set:
+    > If you have <a href="/code-in-test/coded-samples/general/extracted-variables-in-code" target="_blank">Set an Extracted Variable in Code</a>, type the variable name in the text box (without the $ notation), click on the brackets and then Set:
 
-![Extracted variable in code](images/extracted-in-code.png)
+    ![Extracted variable in code](images/extracted-in-code.png)
 
-## Extract an attribute of an element##
+## Extract an attribute of an element
 
-1.&nbsp; Create an <a href="/features/recorder/verifications/advanced-verification" target="_blank">advanced verification</a> for an attribute of an element (e.g. Title).
+1. Create an <a href="/features/recorder/verifications/advanced-verification" target="_blank">advanced verification</a> for an attribute of an element (e.g. Title).
 
-![Advanced verification](images/create-adv-ver.png)
+    ![Advanced verification](images/create-adv-ver.png)
 
 If the element is **hidden** you should select it from the DOM Explorer
 
 ![DOM Selection](images/dom-selection.png)
 
-2.&nbsp; Change the role of the verification step to Extraction.
+2. Change the role of the verification step to Extraction.
 
-![Change the Step Role](images/change-role.png)
+    ![Change the Step Role](images/change-role.png)
 
-3.&nbsp; The step is changed to an extraction one.
+3. The step is changed to an extraction one.
 
-![Extraction](images/changed-to-extraction.png)
+    ![Extraction](images/changed-to-extraction.png)
 
 > __Note!__ Each Verfication/Wait/Extract step could have it role changed between Verification, Wait, and Extraction (if based on text). Right click the step and select from the context menu __Change Role > Set As...__
 

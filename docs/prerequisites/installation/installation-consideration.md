@@ -15,7 +15,7 @@ Before you install Test Studio, make sure that the following requirements are me
 - If you plan on running Test Studio test automation on Windows Server OS and use IE, <a href="#configuring-windows-server-for-test-studio-test-automation" target="_blank">turn off the __Windows component Internet Explorer Enhanced Security Configuration__</a>.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-overview.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Visual Studio 2022 Installation Specifics

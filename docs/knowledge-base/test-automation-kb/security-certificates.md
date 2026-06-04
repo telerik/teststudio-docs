@@ -1,28 +1,28 @@
----
+﻿---
 title: Security Certificates
 page_title: Security Certificates
 description: Security (SSL) Certificates. Browser prompt certificate warning. 
 position: 1
 ---
-# Security Certificates
+## Security Certificates
 
 Security (SSL) Certificates are tricky to automate because each browser prompts its warning differently. Because Test Studio only records in Internet Explorer, the "Continue to this website" link pictured below is recorded and expected to pass when executed in IE. That specific link does not exist in the other browsers, so we expect the test to fail at that step in Firefox, Safari, and Chrome.
 
 **Internet Explorer**
 
-![Security warning][1]
+![Security warning](/img/knowledge-base/test-automation-kb/security-certificates/fig1.png)
 
 **Chrome**
 
-![Security warning Chrome][2]
+![Security warning Chrome](/img/knowledge-base/test-automation-kb/security-certificates/fig2.png)
 
 **FireFox**
 
-![Security warning FireFox][3]
+![Security warning FireFox](/img/knowledge-base/test-automation-kb/security-certificates/fig3.png)
 
 **Safari**
 
-![Security warning Safari][4]
+![Security warning Safari](/img/knowledge-base/test-automation-kb/security-certificates/fig4.png)
 
 ## Solution 
 
@@ -37,23 +37,19 @@ There are a few workarounds to consider:
 
 4. Add a <a href="/features/custom-steps/script-step" target="_blank">Coded Step</a>. The code will perform different actions (such as mouse clicks and/or key presses) based on which browser is used. This will handle the different Certificate screens you encounter across browsers. Here's an example for Chrome:
 
-```C#
+````C#
 if (ActiveBrowser.BrowserType == BrowserType.Chrome)
 {
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Tab);
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Space);
 }
-```
-```VB
+````
+````VB
 If ActiveBrowser.BrowserType = BrowserType.Chrome Then
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Tab)
     Manager.Desktop.KeyBoard.KeyPress(System.Windows.Forms.Keys.Space)
 End If
-```
+````
 
-[1]: /img/knowledge-base/test-automation-kb/security-certificates/fig1.png
-[2]: /img/knowledge-base/test-automation-kb/security-certificates/fig2.png
-[3]: /img/knowledge-base/test-automation-kb/security-certificates/fig3.png
-[4]: /img/knowledge-base/test-automation-kb/security-certificates/fig4.png
 
 

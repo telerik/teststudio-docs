@@ -53,12 +53,3 @@ Few things to consider when choosing an Execution Server machine:
 ## See Also
 
 * <a href="https://www.telerik.com/blogs/test-studio-step-by-step-running-tests-remotely" target="_blank">Test Studio Step-by-Step: Running Tests Remotely</a>
-
-[1]: /img/features/scheduling-test-runs/install-runtime/fig1.png
-[2]: /img/features/scheduling-test-runs/install-runtime/fig2.png
-[3]: /img/features/scheduling-test-runs/install-runtime/fig3.png
-[4]: /img/features/scheduling-test-runs/install-runtime/fig4.png
-[5]: /img/features/scheduling-test-runs/install-runtime/fig5.png
-[6]: /img/features/scheduling-test-runs/install-runtime/fig6.png
-[7]: /img/features/scheduling-test-runs/install-runtime/fig7.png
-[8]: /img/features/scheduling-test-runs/install-runtime/fig8.png

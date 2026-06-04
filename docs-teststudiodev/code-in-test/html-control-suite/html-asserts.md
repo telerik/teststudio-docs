@@ -4,7 +4,7 @@ page_title: HTML Asserts - Test Studio Dev Documentation
 description: 
 position: 2
 ---
-#HTML Asserts#
+# HTML Asserts
 
 Telerik Testing Framework has a set of Assert classes to make validation of your HTML controls easier. An 'Assert' basically says "Verify the specified property of the control has the specified value or setting. If it doesn't have that setting/value, then throw an error and stop the test." 
 
@@ -142,10 +142,7 @@ For example: AssertCheck.IsTrue() will verify the associated checkbox control is
 
 Now let's see how this works in action:
 
-#### __[C#]__
-
-          {{region }}
-
+````C#      
 // Attribute checks
 HtmlSpan span = Find.ById<HtmlSpan>("Warning");
 span.AssertAttribute().Exists("style");
@@ -201,12 +198,9 @@ table.AssertTable().RowCount(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.
 table.AssertTable().RowRange(ArtOfTest.Common.NumberRangeCompareType.OutsideRange, 1, 2);
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.Contains, "TD5");
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.NotContain, "TD37");
-{{endregion}}
+````
  
-#### __[VB]__
-
-          {{region }}
-
+````VB      
 ' Attribute checks
 Dim span As HtmlSpan = Find.ById(Of HtmlSpan)("Warning")
 span.AssertAttribute().Exists("style")
@@ -260,7 +254,7 @@ table.AssertTable().RowCount(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.
 table.AssertTable().RowRange(ArtOfTest.Common.NumberRangeCompareType.OutsideRange, 1, 2)
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.Contains, "TD5")
 table.AssertTable().Contains(ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts.StringCompareType.NotContain, "TD37")
-{{endregion}}
+````
 
 There are many other possible assert verification combinations built into the framework that you can take advantage of. The above examples are just a small subset of what is possible to help you get started implementing them in your code and crafting the kinds of verification you need for your particular website. Consult the API reference manual to learn about the other combinations.
 

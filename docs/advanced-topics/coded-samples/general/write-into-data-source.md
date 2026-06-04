@@ -1,4 +1,4 @@
----
+﻿---
 title: Write into Data Source
 page_title: Write into Data Source
 description: "Learn how to write data into an external Excel data source during a Test Studio test run. Step-by-step code examples for updating Excel files based on test results."
@@ -14,22 +14,30 @@ This is possible with a coded solution. Here's an example:
 
 Let's automate <a href="http://www.checkdomain.com/" target ="_blank">checkdomain.com</a> to check whether the domains listed in an Excel file are still available. We'll write Registered or Available into the first column of the Excel file for each domain name.
 
-<table id="no-table">
-	<tr>
-		<td>![Before Test Run][1] <br><br>**Before Test Run**</td>
-		<td>![After Test Run][2] <br><br>**After Test Run**</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td style="text-align: center;">
+
+<img src="/img/advanced-topics/coded-samples/general/write-into-data-source/fig1.png" alt="Before Test Run" />
+<strong>Before Test Run</strong>
+</td>
+		<td style="text-align: center;">
+
+<img src="/img/advanced-topics/coded-samples/general/write-into-data-source/fig2.png" alt="After Test Run" />
+<strong>After Test Run</strong>
+        </td>
 	</tr>
-<table>
+</table>
 
 Here's a sample test that automates this case:
 
-![Test][3]
+![Test](/img/advanced-topics/coded-samples/general/write-into-data-source/fig3.png)
 
 > **Note** Ensure you <a href="/advanced-topics/coded-steps/add-assembly-reference" target="_blank">Add an Assembly Reference</a> to Microsoft.Office.Interop.Excel. You can download a version of that file on Microsoft's website that matches your version of MS Office.
 
 Here's the code from that sample:
 
-```C#
+````C#
     string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\domainResults.xlsx";
     string myPath = "C:\\domainResults.xlsx";
 
@@ -63,8 +71,8 @@ Here's the code from that sample:
     excelApp.Quit();
     GC.Collect();
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-```
-```VB
+````
+````VB
     Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\domainResults.xlsx"
     Dim myPath As String = "C:\domainResults.xlsx"
     
@@ -95,19 +103,15 @@ Here's the code from that sample:
     excelApp.Quit()
     GC.Collect()
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp)
-```
+````
 
 ## How to Find and Use Office PIA's
 
-1.&nbsp; Make sure that during the installation of __Microsoft Office .NET Programmability Support__ was selected.
+1. Make sure that during the installation of __Microsoft Office .NET Programmability Support__ was selected.
 
-![.NET Programmability Support][4]
+![.NET Programmability Support](/img/advanced-topics/coded-samples/general/random-row/fig2.png)
 
-2.&nbsp; Then you will find the interop assemblies in the __Windows Global Assembly Cache__, specifically the folder: ___C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\___
+2. Then you will find the interop assemblies in the __Windows Global Assembly Cache__, specifically the folder: ___C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\___
 
 This is a hidden protected system folder which won't show up in an ordinary hard drive search. If you try to go to "C:\Windows\assembly" Windows recognizes this as a special folder and will show you the full contents of the GAC in a flattened list instead of the individual folders that make up the GAC.
 
-[1]: /img/advanced-topics/coded-samples/general/write-into-data-source/fig1.png
-[2]: /img/advanced-topics/coded-samples/general/write-into-data-source/fig2.png
-[3]: /img/advanced-topics/coded-samples/general/write-into-data-source/fig3.png
-[4]: /img/advanced-topics/coded-samples/general/random-row/fig2.png

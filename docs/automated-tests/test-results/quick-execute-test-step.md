@@ -1,4 +1,4 @@
----
+﻿---
 title: Test as Step Results
 page_title: Test as Step Results
 description: "Test Studio Test as Step Results. Analyze the Test Studio test as step results. Nested tests results. "
@@ -14,23 +14,19 @@ The details of the test as step execution and what is the outcome of each of its
 
 If the test as step is executed without errors, and the rest of the test is successful, the overall test result will be marked as passed.
 
-![Successful web test with test as step][1]
+![Successful web test with test as step](/img/automated-tests/test-results/test-as-step-results/fig1.png)
 
 To review all executed actions, including these in the test as step, click the **View Log** button to open the quick execution log.
 
-![Execution log for passed test as step][2]
+![Execution log for passed test as step](/img/automated-tests/test-results/test-as-step-results/fig2.png)
 
 ## Failing Test As Step
 
 If any of the steps in a test as step fails, the parent test is marked as failed, and the step, which calls the test, will be also marked as failed in the Test Steps pane.
 
-![Failed web test with a test as step][3]
+![Failed web test with a test as step](/img/automated-tests/test-results/test-as-step-results/fig3.png)
 
 Clicking the **View Log** link displays both the overall test results and the results for the Test as Step.
 
-![Execution log for failed test as step][4]
+![Execution log for failed test as step](/img/automated-tests/test-results/test-as-step-results/fig4.png)
 
-[1]: /img/automated-tests/test-results/test-as-step-results/fig1.png
-[2]: /img/automated-tests/test-results/test-as-step-results/fig2.png
-[3]: /img/automated-tests/test-results/test-as-step-results/fig3.png
-[4]: /img/automated-tests/test-results/test-as-step-results/fig4.png

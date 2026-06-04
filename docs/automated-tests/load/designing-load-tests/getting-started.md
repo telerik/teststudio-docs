@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Started
 page_title: Getting Started with Load Testing
 description: "Design your load test in Test Studio - Add user profiles to the load test, Select the dynamic targets/parts in the http requests, add think times to simulate real user interacting with the application under test. Configure the work load distribution of the user profiles, Configure the number of virtual users and time to run the load test."
@@ -31,7 +31,7 @@ The below steps walk you trough the scenario to create and fully define a load t
 1. Enter a name for your new load test.
 1. Click the **Create** button.
 
-![Load test][1]
+![Load test](/img/features/testing-types/load-testing/getting-started/fig1.png)
 
 ### 2. Add User Profiles
 
@@ -73,4 +73,3 @@ To be able to perform a load test run, you need to <a href="/features/testing-ty
 ><br>
 > In <a href="https://www.telerik.com/blogs/designing-load-tests-test-studio-fiddler-6-easy-steps" target="_blank">this blog post</a> you can find a tutorial for creating a load test in Test Studio using the traffic captured in Fiddler Everywhere.
 
-[1]: /img/features/testing-types/load-testing/getting-started/fig1.png

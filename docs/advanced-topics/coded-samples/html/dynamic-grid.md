@@ -1,4 +1,4 @@
----
+﻿---
 title: Dynamic Grid
 page_title: Dynamic Grid
 description: "Learn how to automate dynamic grids in Test Studio, handle changing cell content, and avoid constant updates to element find expressions. Step-by-step guide with code examples for reliable grid automation."
@@ -18,25 +18,25 @@ As you can see this page contains a Grid. Fist we need to add this Grid to our p
 
 Using Hover Over Highlighting, highlight the Grid. Since this is a Telerik-manifactured ASP .Net grid, the <a href="http://docs.telerik.com/teststudio/getting-started/test-recording/translators" target="_blank">Translators</a> will kick-in and you will see multiple options depending on which specific part of the Grid you've hovered over: 
 
-![Highlight][1]
+![Highlight](/img/advanced-topics/coded-samples/html/dynamic-grid/fig1.png)
 
 Each of the rectangles represents a specific layer of the Grid. We're interested in the GridTableView, which is the second last rectangle in the image. Don't choose the actual GridView - it corresponds to a DIV element. 
 
 Now bring up the pop up menu and click on "Add to Elements":
 
-![Add to project][2]
+![Add to project](/img/advanced-topics/coded-samples/html/dynamic-grid/fig2.png)
 
  (Note: adding a generic Grid into Project Elements will be slightly different because highlighting the actual Grid element might not be so easy. You might need to bring up the <a href="/features/recorder/dom-explorer" target="_blank">DOM Explorer</a> and locate and add the Grid from there).
 
 Going back to Test Studio, you will notice a new element has appeared in Project Elements and it will be highlighted by a yellow arrow:
 
-![Add to project][3]
+![Add to project](/img/advanced-topics/coded-samples/html/dynamic-grid/fig3.png)
 
 ## Outputting the content of each (visible) cell to the Log
 
 Create a new coded step and add the following lines that go through each (visible) cell in the Grid:
 
-```C#
+````C#
 foreach (HtmlTableRow r in Pages.TelerikWebUIGridRow.ContentPlaceholder1RadGrid1Table.AllRows)
 {
     foreach(HtmlTableCell c in r.Cells)
@@ -44,7 +44,7 @@ foreach (HtmlTableRow r in Pages.TelerikWebUIGridRow.ContentPlaceholder1RadGrid1
         Log.WriteLine("Cell found. TextContent: "+c.TextContent);  
     }
 }
-```
+````
 
 This is C# code, the VB code will follow the same logic only transcribed in the corresponding syntax. Make sure the coded steps executes at a point in your test when the page congaing the Grid is loaded in the Active Browser.
 
@@ -52,13 +52,12 @@ This is C# code, the VB code will follow the same logic only transcribed in the 
 
 Let's look at the grid in the below image. Let's imagine we want to get the row that contains the Contact Name "Thomas Hardy" and from there we want to click the checkbox in the same Row:
 
-![Get a particular row][4]
+![Get a particular row](/img/advanced-topics/coded-samples/html/dynamic-grid/fig4.png)
 
 In this example we want to click a checkbox but the nested control in the grid may be any other type. To adjust it you will need to change the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/element-identification-wtc/finding-page-elements" target="_blank">Find.ByXX statement</a>. For this example we again use the definition of the Grid that we've stored in the Project's Elements Explorer (as seen in Solution 1 of this article). Here's the code:
 
-```C#
-//The variable that will store the row which contains the name cell and the checkbox cell
-HtmlTableRow containerRow=null; 
+````C#
+HtmlTableRow containerRow=null; //The variable that will store the row that contains the name cell and the checkbox cell
 
 foreach (HtmlTableRow r in Pages.TelerikWebUIGridRow.ContentPlaceholder1RadGrid1Table.AllRows)
 {
@@ -89,10 +88,5 @@ Assert.IsNotNull(checkbox);
 // Scroll the element to be visible and click on it
 checkbox.ScrollToVisible(ScrollToVisibleType.ElementCenterAtWindowCenter);
 checkbox.MouseClick();
-```
+````
 
-[1]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig1.png
-[2]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig2.png
-[3]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig3.png
-[4]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig4.png
-[5]: /img/advanced-topics/coded-samples/html/dynamic-grid/fig5.png

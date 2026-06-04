@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage External Data Source
 page_title: Manage External Data Source
 description: "Manage Test Studio external data sources. How to update the data source added in Test Studio project. "
@@ -20,13 +20,13 @@ In order to modify any external data file, you can directly open it from the men
 
 Click the **Manage** button from the _Data Source_ section in the _Project_ ribbon to open the _Manage Data Source_ dialog.
 
-![Manage Button][1]
+![Manage Button](/img/features/data-driven-testing/manage-external-data-source/fig1.png)
 
 ## Choose an External File to Edit
 
 If there are more than one data source file added to the project, there will be a list of all these files. Choose the one you need to modify and click the **Edit** icon to edit that data source.
 
-![Edit Data Source][2]
+![Edit Data Source](/img/features/data-driven-testing/manage-external-data-source/fig2.png)
 
 ## Delete an External File
 
@@ -39,9 +39,5 @@ If you need to remove a data source from a Test Studio project, you need to remo
 
 Then, you can open the _Manage Data Source_ dialog, choose the data file to delete and click the **Delete** button next to it.
 
-![Delete Data Source][3]
+![Delete Data Source](/img/features/data-driven-testing/manage-external-data-source/fig3.png)
 
-[1]: /img/features/data-driven-testing/manage-external-data-source/fig1.png
-[2]: /img/features/data-driven-testing/manage-external-data-source/fig2.png
-[3]: /img/features/data-driven-testing/manage-external-data-source/fig3.png
-[4]: /img/features/data-driven-testing/manage-external-data-source/fig4.png

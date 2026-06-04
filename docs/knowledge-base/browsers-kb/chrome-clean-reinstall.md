@@ -2,9 +2,9 @@
 title: Chrome Clean Reinstall
 page_title: Chrome Clean Reinstall
 description: A clean reinstall of Chrome browser may help to fix Test Studio Chrome Extension not loading or steps not executing issues. A clean reinstall of Chrome ensures the browser's user data is removed.
-position: 3
+position: 6
 ---
-# How to Perform Clean Reinstall of Chrome Browser
+## How to Perform Clean Reinstall of Chrome Browser
 
 ## Problem
 

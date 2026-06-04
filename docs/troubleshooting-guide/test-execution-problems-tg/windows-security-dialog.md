@@ -1,4 +1,4 @@
----
+﻿---
 title: Windows Security Dialog
 page_title: Windows Security Dialog
 description: "Handle Windows Security Dialog in Test Studio if the standard Logon dialog handler is not working."
@@ -14,7 +14,7 @@ The application I am testing prompts with custom Windows Security Dialog to logi
 
 The Windows Security Dialog could be a custom one although it does not differ from the standard one. If it is a custom one it might not be detected from Test Studio and handled with the built-in <a href="/features/dialogs-and-popups/dialogs" target="_blank">Dialog handlers</a>. 
 
-![Windows Security Dialog][1] 
+![Windows Security Dialog](/img/troubleshooting-guide/test-execution-problems-tg/windows-security-dialog/win-sec-dialog.png) 
 
 The standard coded approach to handle a <a href="/testing-framework/write-tests-in-code/advanced-topics-wtc/html-popups-and-dialogs-wtc/win32-dialogs" target="_blank">Logon Dialog</a> in code could not work for such custom dialogs.  
 
@@ -25,7 +25,7 @@ If the tested application uses similar dialog and fails to be automated the Wind
 For example the username and password might be stored and only the Ok button needs to be hit. If it is the active one and pressing Enter will confirm the dialog then only this part of the code is required after the URL is entered.  
 
 
-```C#
+````C#
         [CodedStep(@"New Coded Step")]
         public void WindowsSecurityDialog_CodedStep()
 		{
@@ -42,8 +42,8 @@ For example the username and password might be stored and only the Ok button nee
 			Manager.Desktop.KeyBoard.KeyPress(Keys.Tab); //switch the focus to the OK button
 			Manager.Desktop.KeyBoard.KeyPress(Keys.Enter); //confirm the OK button 
 		}
-```
-```VB
+````
+````VB
 <CodedStep("New Coded Step")> _
 	Public Sub WindowsSecurityDialog_CodedStep()
 		Manager.Desktop.KeyBoard.KeyPress(Keys.F6) 'pressing F6 makes the address bar of each browser active
@@ -65,7 +65,7 @@ For example the username and password might be stored and only the Ok button nee
 		Manager.Desktop.KeyBoard.KeyPress(Keys.Enter)	'confirm the OK button 
 
 	End Sub
-```
+````
 
 >To be able to use the code above the assembly **System.Windows.Forms.dll** needs to be <a href="/features/coded-steps/add-assembly-reference" target="_blank">referenced</a> in the Project settings.<br>
 
@@ -74,4 +74,3 @@ For example the username and password might be stored and only the Ok button nee
 
 For example the username and password might be stored and only the Ok button needs to be hit. If it is the active one and pressing Enter will confirm the dialog then only this part of the code is required after the URL is entered.  
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/windows-security-dialog/win-sec-dialog.png

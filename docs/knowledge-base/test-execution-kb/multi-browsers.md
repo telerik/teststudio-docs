@@ -1,10 +1,10 @@
----
+﻿---
 title: How to Run Tests in Parallel / in Multi Browsers
 page_title: How to Run Tests in Parallel / in Multi Browsers
 description: How can I run my tests in parallel? How do I run my tests in multiple browsers? Run scheduled Test Studio tests against different browsers.
 position: 1
 ---
-#How to Run Tests in Parallel / in Multi Browsers#
+## How to Run Tests in Parallel / in Multi Browsers
 
 Customers often wonder "How can I run my tests in parallel" and/or "How do I run my tests in multiple browsers, including multiple versions of the same browser". There are many ways to accomplish this. This article will focus on how to achieve this using the <a href="/features/scheduling-test-runs/Overview" target="_blank">Scheduling Server and Execution Server</a> that comes with both full Test Studio and our <a href="/general-information/test-studio-run-time" target="_blank">Runtime edition</a>.
 
@@ -20,21 +20,21 @@ You now may be wondering "With the above restrictions how is it possible to run 
 
 For example, you want to run your tests in IE 9, 10, 11 as well as the latest version of Chrome and Firefox. This requires a minimum of three machines, one for IE 9, one for IE 10 and one for IE 11. You can also install Chrome and Firefox on any of the three machines, or all three if you like. Or if you prefer setup two additional machines, one for Chrome and one for Firefox.
 
-##How to Run Tests in Multiple Browsers##
+## How to Run Tests in Multiple Browsers
 
 Now let's get into the technical details of how to make your tests run in different browsers. First you must put your test or tests into a <a href="/getting-started/test-execution/test-lists-standalone" target="_blank">test list</a>. Next open the <a href="/getting-started/test-execution/test-list-settings" target="_blank">Test List Settings</a>, go to the Web tab and open the ExecutingBrowsers drop down.
 
-![Multiple browsers][1]
+![Multiple browsers](/img/knowledge-base/test-execution-kb/multi-browsers/fig1.png)
 
 Here is where you select which browser or browsers you want Test Studio to run that test list in. The default will run the test list in IE only. In this screen shot I've selected IE and Firefox and Chrome. At run time Test Studio will run the full test list from start to finish in IE, then it will run it again in Firefox and last it will run it again in Chrome. When finished you will see three different result sets in the <a href="/getting-started/test-results/analyze-test-results" target="_blank">Results view</a>, one result set for each browser the test was executed in.
 
 That's all it takes to make your tests run in different browsers on the same machine.
 
-##How to Run Tests in Parallel##
+## How to Run Tests in Parallel
 
 As previously stated in this article, to run tests in parallel you must setup multiple execution servers. Here's a high level block diagram of what this looks like:
 
-![Parallel execution][2]
+![Parallel execution](/img/knowledge-base/test-execution-kb/multi-browsers/fig2.png)
 
 You can have as many <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">Execution Servers</a> setup and controlled by one <a href="/features/scheduling-test-runs/connect-to-scheduling-server" target="_blank">Scheduling Server</a> as you want. Of course each Execution Server requires that Test Studio is installed on it (one license per machine). We recommend installing our Runtime edition. It was specifically made for supporting this environment (and the cost for a Runtime license is a lot less than the cost for full Test Studio).
 
@@ -50,5 +50,3 @@ This process continues until all execution servers that you selected are running
 
 That's what it takes to get tests running in parallel using our Scheduling and Execution servers. As briefly mentioned above, there are other methods, but they all involve putting together your own home grown scheduling environment. Maybe you want to write your own specialized scheduling server that better fits the needs of your organization. Or maybe you'd prefer to use Microsoft Test Manager. This document will not explore those options. You may contact Test Studio technical support of you want to pursue other options.
 
-[1]: /img/knowledge-base/test-execution-kb/multi-browsers/fig1.png
-[2]: /img/knowledge-base/test-execution-kb/multi-browsers/fig2.png

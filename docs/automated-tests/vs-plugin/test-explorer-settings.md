@@ -32,9 +32,3 @@ __3.&nbsp;__ To use these Test Studio specific settings for the test runs initia
 ![Set run settings for Test Explorer 2019 and 2022](/img/knowledge-base/visual-studio-kb/test-explorer-settings/run-settings-vs22.png)
 
 __4.&nbsp;__ You can store the file in the project root folder and use the option __Auto Detect runsettings Files__. The alternative is to specify the file from an external location through the __Select Solution Wide runsettings File__.
-
-
-[1]: /img/knowledge-base/visual-studio-kb/test-explorer-settings/fig1.png
-[2]: /img/knowledge-base/visual-studio-kb/test-explorer-settings/fig2.png
-[3]: /img/knowledge-base/visual-studio-kb/test-explorer-settings/fig3.png
-[4]: /img/knowledge-base/visual-studio-kb/test-explorer-settings/fig4.png

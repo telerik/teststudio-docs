@@ -4,18 +4,15 @@ page_title: Log Clipboard Text - Test Studio Dev Documentation
 description: Log Clipboard Text
 position: 1
 ---
-#Log Clipboard Text#
+# Log Clipboard Text
 
 *My test copies text into the Clipboard and I would like to log its content.*
 
-##Solution##
+## Solution
  
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the Dynamic Pages Reference region:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     using System.Windows.Forms;
     using System.Threading;
     
@@ -47,12 +44,8 @@ Here is the full code-behind file, excluding the standard *using/Imports* statem
             }
         }
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Imports System.Windows.Forms
     Imports System.Threading
     
@@ -80,5 +73,5 @@ Here is the full code-behind file, excluding the standard *using/Imports* statem
             End Sub
         End Class
     End Namespace
-    {{endregion}}
+````
 

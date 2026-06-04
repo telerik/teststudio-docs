@@ -14,7 +14,7 @@ __Telerik Testing Framework__ includes native support for dialog handling (under
 ><br>
 > _using ArtOfTest.WebAii.Win32.Dialogs;_
 
-```C#
+````C#
 // Define the Confirm dialog and how it needs to be handled - choose between Ok and Cancel
 var confirmDlg = new ArtOfTest.WebAii.Win32.Dialogs.ConfirmDialog(Manager.ActiveBrowser, DialogButton.OK);
 
@@ -49,8 +49,8 @@ Manager.DialogMonitor.Stop();
 // especially if the elements to use are related to the action confirmed with the dialog handling
 //Manager.ActiveBrowser.RefreshDomTree();
 
-```
-```VB
+````
+````VB
 ' Define the Confirm dialog
 IDialog confirmDlg = New ArtOfTest.WebAii.Win32.Dialogs.ConfirmDialog(Manager.ActiveBrowser, DialogButton.OK)
 
@@ -76,4 +76,4 @@ Actions.InvokeScript("InvokeConfirm()")
 Manager.DialogMonitor.RemoveDialog(confirmDlg)
 Manager.DialogMonitor.Stop()
 
-```
+````

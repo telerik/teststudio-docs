@@ -1,4 +1,4 @@
----
+﻿---
 title: Capture Window
 page_title: Capture Window
 description: "How to capture the application window state/desktop state during a WPF test run with Test Studio. Test Studio captures a screenshot of the desktop during a WPF test run."
@@ -20,13 +20,13 @@ This article demonstrates how to add this type of step into the test and use its
 
 Choose the __Capture Window__ option from the <a href="/features/custom-steps/overview" target="_blank">__Step Builder__</a> and click on the __Add Step__ button in the lower right corner of the pane.
 
-![Add Capture Window step][1]
+![Add Capture Window step](/img/features/custom-steps/capture-window/step-builder-capture-window.png)
 
 ## Capture Window Step Properties
 
 Expand the __Capture__ step and toggle the __CaptureType__ to _Desktop_ or _Window_ depending on what you need to capture. The __FileNamePrefix__ property lets you choose the file name for the images.
 
-![Step Properties][2]
+![Step Properties](/img/features/custom-steps/capture-window/extended-menu-capture-window.png)
 
 ## Find the Images from Capture Window Step
 
@@ -40,7 +40,7 @@ The images from __Capture Window__ step are generated and stored when the test i
 
 To store the Window and Desktop Capture images to disk include the test in a test list and edit <a href="/features/test-lists/test-list-settings" target="_blank">its settings</a>. Ensure **CreateLogFile** is enabled and, optionally, specify the output directory for the image captures in the __LogLocation__ setting.
 
-![Test List settings][3]
+![Test List settings](/img/features/custom-steps/capture-window/fig3.png)
 
 > __Note!__
 > <br>
@@ -50,6 +50,3 @@ To store the Window and Desktop Capture images to disk include the test in a tes
 
 In the VS plugin the images are output to **ProjectsFolder\ProjectName\TestResults\User_MachineName_Date_Time\Out**.
 
-[1]: /img/features/custom-steps/capture-window/step-builder-capture-window.png
-[2]: /img/features/custom-steps/capture-window/extended-menu-capture-window.png
-[3]: /img/features/custom-steps/capture-window/fig3.png

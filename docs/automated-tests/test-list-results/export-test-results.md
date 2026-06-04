@@ -1,4 +1,4 @@
----
+﻿---
 title: Maintain Test List Results
 page_title: Maintain Test List Results
 description: "Test Studio test list results export. Can I export the test list results of a test list execution in Test Studio. "
@@ -30,7 +30,7 @@ Select a results entry from the calendar in the Test Studio _Results_ tab. To de
 
 Each _Delete_ action will prompt a message to confirm the delete action for the selected result.
 
-![Delete Results][10]
+![Delete Results](/img/automated-tests/test-list-results/export-test-results/fig10.png)
 
 > __Tip__
 ><br>
@@ -41,7 +41,7 @@ Each _Delete_ action will prompt a message to confirm the delete action for the 
 
 The __Reload__ button allows you to reload the listed results in the calendar. The _Results_ tab view gets refreshed each time when the focus is switched to it. But in the cases when a test list run was initiated and you need to check the result once this is finished, you can use the __Reload__ button for this. You can have in mind that although the test runs seem to be finished, there is always a short delay until the result can be populated in the _calendar_ view.
 
-![Reload Results][12]
+![Reload Results](/img/automated-tests/test-list-results/export-test-results/fig12.png)
 
 ## Options Specific for Scheduled Results
 
@@ -50,7 +50,7 @@ The __Publish to Server__ and __Manage Results__ buttons are specific for schedu
 - __Publish to Server__ - use this button, if you need to upload the result of a local test list run to the Storage database.
 - __Manage Results__ - this button displays a dialog with list of all test list runs initiated through the Scheduling service (including _Run remotely_ and _Scheduled test lists_). You can review these runs with details for start and end time and containing project. Deleting an entry from this list will result in deleting the result file for the selected run. 
 
-![Publish/Manage Results to Storage][13]
+![Publish/Manage Results to Storage](/img/automated-tests/test-list-results/export-test-results/fig13.png)
 
 ## __Export Results__
 
@@ -70,7 +70,7 @@ The format of the Test Studio results file is specific and is only readable in T
 
 Select a results entry and double click it to display its details on the right side of the _Calendar_ view. All options for exporting the results file into a different format are now active to use.
 
-![Export Options][11]
+![Export Options](/img/automated-tests/test-list-results/export-test-results/fig11.png)
 
 Choose the most appropriate file format and click the corresponding button. A _Save As_ dialog appears and lets you choose the file name and folder location to store the exported results file.
 
@@ -78,7 +78,7 @@ Choose the most appropriate file format and click the corresponding button. A _S
 
 _HTML_ and _Xml_ export supports multiple results selection. __Multiple results can be selected by using the *Shift* key or *Ctrl* key + click__.
 
-![Export HTML][6]
+![Export HTML](/img/automated-tests/test-list-results/export-test-results/fig6.png)
 
 > __Note__
 ><br>
@@ -89,7 +89,7 @@ _HTML_ and _Xml_ export supports multiple results selection. __Multiple results 
 
 When you drill down the results of a <a href="/getting-started/test-execution/test-lists-type-standalone" target="_blank">Performance Test List</a> execution, there is an additional icon listed in the **Test Results** panel - this is the **Stopwatch**.
 
-![Stopwatch icon][3]
+![Stopwatch icon](/img/automated-tests/test-list-results/export-test-results/fig3.png)
 
 Hitting the **Stopwatch** button will switch the result to present the overview of the performance test execution (similar to what details can be explored in the <a href="/automated-tests/performance/overview-button" target="_blank">Overview view</a> in the __Performance tab__). These performance results can be exported to Word and Excel trough the corresponding buttons.
 
@@ -115,14 +115,14 @@ All of the supported export file types can be directly __sent via email__. Selec
 ><br>
 > If you send the email without changing the default set Telerik email, you will get an email message from __System Administrator__ with title __Undelivarable__. Generate the email again and ensure to set your email address, from which to send the message. 
 
-![Email Single results][7]
+![Email Single results](/img/automated-tests/test-list-results/export-test-results/fig7.png)
 
 > __Tip__
 ><br>
 ><br>
 > Emailing _HTML_ and _Xml_ run results supports __multiple test results selection__.
 
-![Email multiple HTML/Xml][8]
+![Email multiple HTML/Xml](/img/automated-tests/test-list-results/export-test-results/fig8.png)
 
 > **Note**
 ><br>
@@ -136,15 +136,7 @@ All of the supported export file types can be directly __sent via email__. Selec
 * **Submit Bug**: Load the <a href="/features/integration/bug-tracking/submit-bug" target="_blank">Submit Bug</a> dialog and log a bug about the failed result in your previously configured bug tracking application.
 
 
-[1]: /img/automated-tests/test-list-results/export-test-results/fig1.png
-[2]: /img/automated-tests/test-list-results/export-test-results/fig2.png
-[3]: /img/automated-tests/test-list-results/export-test-results/fig3.png
-[4]: /img/automated-tests/test-list-results/export-test-results/fig4.png
-[5]: /img/automated-tests/test-list-results/export-test-results/fig5.png
-[6]: /img/automated-tests/test-list-results/export-test-results/fig6.png
-[7]: /img/automated-tests/test-list-results/export-test-results/fig7.png
-[8]: /img/automated-tests/test-list-results/export-test-results/fig8.png
-[10]: /img/automated-tests/test-list-results/export-test-results/fig10.png
-[11]: /img/automated-tests/test-list-results/export-test-results/fig11.png
-[12]: /img/automated-tests/test-list-results/export-test-results/fig12.png
-[13]: /img/automated-tests/test-list-results/export-test-results/fig13.png
+
+
+
+

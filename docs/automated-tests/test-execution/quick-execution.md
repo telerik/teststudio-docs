@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Execute Test
 page_title: Execute Your First Test in Test Studio
 description: "Test Studio Quick test Execution. Run a Test Studio test. Choose browser to execute the test against."
@@ -14,11 +14,11 @@ This article will guide you through the execution process in details.
 
 Once you have <a href="/automated-tests/recording/overview" target="_blank">recorded a complete test scenario</a>, the steps, which represents the recorded actions, are listed in the _Test Steps_ pane. These steps can be __executed against any of the supported browsers__, regardless of the browser they were recorded against. To trigger the test run, click the **Execute** button in the ___Test___ ribbon.
 
-![Test Studio][1]
+![Test Studio](/img/automated-tests/test-execution/quick-execution/fig1.png)
 
 In the next dialog, which appears on the screen, __choose the browser to run the test against__. Select any of the browsers listed for execution and click the __Run__ button.
 
-![Select browser][2]
+![Select browser](/img/automated-tests/test-execution/quick-execution/fig2.png)
 
 > __Tip__
 > <br>
@@ -27,7 +27,7 @@ In the next dialog, which appears on the screen, __choose the browser to run the
 
 The selected browser is launched from Test Studio on top of any other running apps, and the recorded steps are being executed accordingly.
 
-![Test Studio][4]
+![Test Studio](/img/automated-tests/test-execution/quick-execution/execute-test.gif)
 
 > __Important__
 > <br>
@@ -40,7 +40,7 @@ The <a href="/automated-tests/test-results/analyze-quick-run-results" target="_b
 
 Once the test run is finished, the Test Steps pane displays the overall result - whether the test is passed or failed, which step failed, if any. You can also access a complete execution log and the <a href="/automated-tests/test-results/step-failure-details" target="_blank">failure details</a> for the failing step, if applicable.
 
-![Quick run results][3]
+![Quick run results](/img/automated-tests/test-execution/quick-execution/fig3.png)
 
 > __Tip__
 > <br>
@@ -58,7 +58,3 @@ Test Studio provides multiple options to ease you in executing the tests and deb
 - <a href="/automated-tests/test-execution/quick-run-visual-debugger" target="_blank">Enable the Test Studio Visual Debugger tool</a>
 - <a href="/automated-tests/test-execution/quick-run-annotations" target="_blank">Enable Annotations during test run</a>
 
-[1]: /img/automated-tests/test-execution/quick-execution/fig1.png
-[2]: /img/automated-tests/test-execution/quick-execution/fig2.png
-[3]: /img/automated-tests/test-execution/quick-execution/fig3.png
-[4]: /img/automated-tests/test-execution/quick-execution/execute-test.gif

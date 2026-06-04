@@ -4,15 +4,15 @@ page_title: Go Through RadTreeView
 description: "Learn how to iterate through nodes in a WPF RadTreeView using Test Studio. This guide provides a coded solution in C# to expand nodes, refresh the tree, and locate specific matches during automated testing."
 position: 3
 ---
-#Go Through Each Node in a WPF RadTreeView#
+# Go Through Each Node in a WPF RadTreeView
 
 *I would like to go through each node in a WPF RadTreeView until a match is made.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. You'll expand each node and refresh the tree until you find your match.
 
-```C#
+````C#
 WpfApplication app = Manager.ActiveApplication;
 Assert.IsNotNull(app);
 Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView tree = app.MainWindow.Find.ByName<Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView>("treeView");
@@ -52,8 +52,8 @@ while (found == false)
         break;
     }
 }
-```
-```VB
+````
+````VB
 Dim app As WpfApplication = Manager.ActiveApplication
 Assert.IsNotNull(app)
 Dim tree As Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView = app.MainWindow.Find.ByName(Of Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView)("treeView")
@@ -85,6 +85,6 @@ While found = False
         Exit While
     End If
 End While
-```
+````
 
 

@@ -1,16 +1,16 @@
----
+﻿---
 title: Test Properties (VS Plugin)
 page_title: Test Properties (VS Plugin)
 description: "Test Studio Test Properties in Visual Studio Plugin"
 position: 1
 ---
-# Test Properties (VS Plugin) #
+# Test Properties (VS Plugin) 
 
-## 2017 R2 Version or Later ##
+## 2017 R2 Version or Later 
 
 <a href="/features/test-maintenance/test-properties-standalone" target="_blank">Test properties</a> can be reviewed from a button in the test ribbon as shown on the following screenshot.
 
-![Test Properties Button][1]
+![Test Properties Button](/img/features/test-maintenance/test-properties-vs/fig1.png)
 
 Here are the test properties with a brief description of each:
 
@@ -59,9 +59,9 @@ Here are the test properties with a brief description of each:
 
 > *Indicates field is read-only.
 
-## 2017 R1 Version and Earlier ##
+## 2017 R1 Version and Earlier 
 
-### Visual Studio 2012 ###
+### Visual Studio 2012 
 
 1. <a href="/getting-started/test-execution/visual-studio-2012-and-later-test-list" target="_blank">Create a **.vsmdi** file.</a>
 
@@ -69,7 +69,7 @@ Here are the test properties with a brief description of each:
 
 3. Select a test from the 'Test List Editor' to see the properties.
 
-![Test Properties][2]
+![Test Properties](/img/features/test-maintenance/test-properties-vs/fig2.png)
 
 Here are the test properties with a brief description of each:
 
@@ -116,5 +116,3 @@ Here are the test properties with a brief description of each:
 - InheritParentDataSource - gets or sets whether this data-bound test will inherit the data source from its parent data-bound test.
 - IsDataDriven - whether the test is data driven.
 
-[1]: /img/features/test-maintenance/test-properties-vs/fig1.png
-[2]: /img/features/test-maintenance/test-properties-vs/fig2.png

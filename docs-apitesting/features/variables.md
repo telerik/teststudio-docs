@@ -3,7 +3,7 @@ title: Variables
 page_title: Variables
 description: "Progress® Test Studio® for APIs - Variables"
 position: 0
-publish: true
+published: true
 ---
 
 # Variables

@@ -1,38 +1,46 @@
----
+﻿---
 title: Elements Explorer
 page_title: Elements Explorer Overview
 description: "Elements Explorer in Test Studio. Elements in the Elements Explorer in Test Studio. Edit an element in Test Studio. Unable to find element failure in Test Studio test"
 previous_url: /user-guide/elements-pane-overview.aspx, /user-guide/elements-pane-overview
 position: 0
 ---
-# Elements Explorer #
+# Elements Explorer 
 
 The Elements Explorer in a Test Studio project is the visual representation of all elements recorded or manually added during the <a href="/general-information/test-recording/overview" target="_blank">Test Recording process</a>.
 
 The Elements Explorer pane provides a one-stop shop to view all elements used in the project and edit the way they are found during execution. You can find the Elements Explorer under/next to the Project's Explorer on the left bottom pane.
 
-<table id=no-table>
-	<tr>
-		<td>![Standalone Version][1] <br><br>**Standalone version**</td>
-		<td>![VS Plugin][2] <br><br>**VS plugin**</td>
-	</tr>
-<table>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+		<td>
+		
+<img src="/img/features/elements-explorer/overview/fig1.png" alt="Standalone Version" /> <br><br>**Standalone version**</td>
+<td>
+
+<img src="/img/features/elements-explorer/overview/fig2.png" alt="VS Plugin" /> <br><br>**VS plugin**</td>
+</tr>
+</table>
 
 > __Tip__
 > <br>
 > <br>
 > Although elements may be used in several tests and test steps, each element with unique find expression is shown only once in the Elements Explorer.
 
-## Hierarchy of Recorded Elements ##
+## Hierarchy of Recorded Elements 
 
 The elements are organized under Page nodes (and also <a href="/general-information/test-recording/frames" target="_blank">Frame nodes</a> if there are frames used in the web page) for web applications and Application and Window Caption nodes for WPF applications.
 
-<table id="no-table">
-<tr>
-<td>![HTML Tree View][4]<br>**HTML Tree View**</td>
-<td>![WPF Tree View][6]<br> **WPF Tree View**</td>
+<table id="no-table" style="border:none;">
+	<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/elements-explorer/overview/fig4.png" alt="HTML Tree View" /><br>**HTML Tree View**</td>
+<td>
+
+<img src="/img/features/elements-explorer/overview/fig6.png" alt="WPF Tree View" /><br>**WPF Tree View**</td>
 </tr>
-<table>
+</table>
 
 - The HTML tree view is organized by **Page > Frame > Test Regions > Element**.
 - The WPF tree view is organized by **Application > Window > Element**.
@@ -48,24 +56,24 @@ Each element in the Elements Explorer is tied to a step from the project. The la
 - __If I select a step in the test, how do I know which element it uses?__ - when a step is selected in the test, its target element gets marked with a red arrow sign in front of its name. The target element is also listed in the <a href="/features/test-maintenance/test-step-properties#elements" target="_blank">step properties</a> under _Primary Target_ property.
 - __Can I change the element, which a step uses?__ - the element can be <a href="/features/test-maintenance/change-step-target-element" target="_blank">changed with another existing element by editing the _Primary Target_ step property</a>. Alternatively, you can <a href="/automated-tests/elements/find-element" target="_blank">change the find expression</a> of the element in Test Studio and that way change the element. which will be located on the page.
 
-## Element's Explorer Context Menu ##
+## Element's Explorer Context Menu 
 
-### Page Node Context Menu ###
+### Page Node Context Menu 
 
 Right click a Page node to see a context menu with these active choices:
 
-![Page Node][7]
+![Page Node](/img/features/elements-explorer/overview/fig7.png)
 
 - **Validate** - validate all elements in the page node against the currently loaded page. Requires the page to be loaded in the recording window. Results indicated with green checks and red X's. 
 - **Rename** - alters the Friendly Name.
 - **Load Page** - loads the URL to which the page belongs in the recording window.
 - **Properties** - makes the Properties pane active.
 
-### Element Context Menu ###
+### Element Context Menu 
 
 Each Element node has a context menu with these active choices:
 
-![Elements][8]
+![Elements](/img/features/elements-explorer/overview/fig8.png)
 
 - **Edit Element** - loads the Find Element menu to choose where and how to locate this element in your web page or application.
 - **Edit in Live** - locate the element in the currently loaded page (available in Test Studio 2018 R3 and earlier).
@@ -78,9 +86,9 @@ Each Element node has a context menu with these active choices:
 - **Load Page** - loads the URL to which the element belongs in the recording window.
 - **Properties** - makes the Properties pane active.
 
-## Element's Explorer Menu Bar ##
+## Element's Explorer Menu Bar 
 
-The Elements menu bar ![Elements bar][3] has the following buttons:
+The Elements menu bar ![Elements bar](/img/features/elements-explorer/overview/fig3.png) has the following buttons:
 
 - **Add Element** - add a <a href="/features/elements-explorer/predefined-elements" target="_blank">Predefined element</a>.
 - **Element Mapping (IntelliMap)** - <a href="/features/elements-explorer/element-mapping" target="_blank">Map</a> a Predefined element.
@@ -91,11 +99,3 @@ The Elements menu bar ![Elements bar][3] has the following buttons:
 - **Expand/Collapse** - show or hide all elements under their respective page nodes.
 - **This Test/All Tests** - show elements for the currently loaded test only, or the elements for every test in the project.
 
-[1]: /img/features/elements-explorer/overview/fig1.png
-[2]: /img/features/elements-explorer/overview/fig2.png
-[3]: /img/features/elements-explorer/overview/fig3.png
-[4]: /img/features/elements-explorer/overview/fig4.png
-[5]: /img/features/elements-explorer/overview/fig5.png
-[6]: /img/features/elements-explorer/overview/fig6.png
-[7]: /img/features/elements-explorer/overview/fig7.png
-[8]: /img/features/elements-explorer/overview/fig8.png

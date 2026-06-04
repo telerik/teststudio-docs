@@ -1,4 +1,4 @@
----
+﻿---
 title: Click Action is Offset
 page_title: Click is offset during test execution and causes failure
 description: "The mouse clicks outside of the actual element in the page. THe clicks are misaligned. Click with simulate real user behavior fails. Enter text step fails. Enter text is offset. Offset click during execution. Desktop click fails. Simulate real click not working as expected. Click is offset from button."
@@ -10,7 +10,7 @@ position: 1
 
 When executing a test with real user actions, like **SimulateRealClick**, **SimulateRealTyping** or <a href="/features/recorder/advanced-recording-tools/element-steps/actions/mouse-actions" target="_blank"><strong>desktop click</strong></a>, the click action is offset. As a result the expected button is not triggered, or text is not entered in the input field, and the test fails.
 
-![Click Offset][1]
+![Click Offset](/img/troubleshooting-guide/test-execution-problems-tg/click-action-fails/fig1.png)
 
 ### Cause
 
@@ -33,7 +33,7 @@ To access the Display settings in Windows:
 3. Under __Scale and Layout__ section check the value set for the first option - __Change the size of text, ..__. 
 4. Ensure to set this to 100%. 
 
-![Display scale settings][2]
+![Display scale settings](/img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig2.png)
 
 ### Enlarge Text and Apps Option 
 
@@ -42,15 +42,12 @@ The Windows options to <a href="https://support.microsoft.com/en-us/windows/make
 1. Press the Windows key + U to open the __Ease of Access__ settings. 
 2. Under __Make text bigger__ section, drag the slider to the left to set it to 100%.
 
-![Larger text settings][3]
+![Larger text settings](/img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig3.png)
 
 ### Browser Calibration Settings
 
 Ensure <a href="/features/project-settings/browsers" target="_blank">the browser is calibrated</a>. 
 
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/click-action-fails/fig1.png
-[2]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig2.png
-[3]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig3.png
 
 

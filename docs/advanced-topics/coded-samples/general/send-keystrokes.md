@@ -19,7 +19,7 @@ This is possible with a coded solution:
 
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the *Dynamic Pages Reference* region:
 
-```C#
+````C#
 using System.Windows.Forms;
  
 namespace TestProject8
@@ -34,8 +34,8 @@ namespace TestProject8
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Windows.Forms
  
 Namespace TestProject8
@@ -50,7 +50,7 @@ Namespace TestProject8
         End Sub
     End Class
 End Namespace
-```
+````
 
 ## Problem 2
 
@@ -65,7 +65,7 @@ This is possible with a coded solution:
 
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the *Dynamic Pages Reference* region:
 
-```C#
+````C#
 using System.Windows.Forms;
  
 namespace TestProject8
@@ -80,8 +80,8 @@ namespace TestProject8
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Windows.Forms
  
 Namespace TestProject8
@@ -96,7 +96,7 @@ Namespace TestProject8
         End Sub
     End Class
 End Namespace
-```
+````
 
 
 > <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys(v=vs.110).aspx" target="_blank">Here</a> you can find the list with key codes.
@@ -114,7 +114,7 @@ This is possible with a coded solution:
 
 Here is the full code-behind file, excluding the standard *using/Imports* statements and the *Dynamic Pages Reference* region:
 
-```C#
+````C#
 using System.Windows.Forms;
  
 namespace TestProject8
@@ -129,8 +129,8 @@ namespace TestProject8
         }
     }
 }
-```
-```VB
+````
+````VB
 Imports System.Windows.Forms
  
 Namespace TestProject8
@@ -145,5 +145,5 @@ Namespace TestProject8
         End Sub
     End Class
 End Namespace
-```
+````
 

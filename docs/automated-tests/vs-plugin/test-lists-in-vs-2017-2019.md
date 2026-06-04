@@ -1,4 +1,4 @@
----
+﻿---
 title: Test Lists in Visual Studio 2019 and Later
 page_title: Test Lists in Visual Studio 2019 and Later
 description: "Test Studio Test Lists in Visual Studio - supported for Visual Studio  2019 and 2022. How to create a list (suite) of Test Studio tests in Visual Studio project. Can I execute static or dynamic Test Studio test list from Visual Studio project."
@@ -28,23 +28,23 @@ In this article you can find useful information on the below topics:
 
 A Test Studio test list file has the extension __*.aiilist__ and can be added in a Visual Studio project under a predefined folder named __TestLists__ - this folder exists by default in each new project.
 
-![TestLists folder in Solution explorer][1]
+![TestLists folder in Solution explorer](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig1.png)
 
 Right click on the __TestLists__ folder and choose from the _Add_ section sub-menu any of the options __Test Studio Test List__ or __Test Studio Dynamic Test List__ .
 
-![Add a test list file][2]
+![Add a test list file](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig2.png)
 
 Set a name for the test list and double check if the correct test list item from the list is selected. Confirm the test list creation by clicking the _Add_ button.
 
-![Name and create the test list file][3]
+![Name and create the test list file](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig3.png)
 
 The newly created test list is listed under the __TestLists__ folder.
 
-![Test list file listed under TestLists folder][4]
+![Test list file listed under TestLists folder](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig4.png)
 
 Build the solution (press F6) and all test list files will appear in the Test Explorer available for execution.
 
-![Test list files listed in Test Explorer][5]
+![Test list files listed in Test Explorer](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig5.png)
 
 ## Add a Test List in an Existing Project
 
@@ -52,11 +52,11 @@ The Test Studio test lists in Visual Studio are implemented with Test Studio ver
 
 Open the Test Studio project and choose the option __Show All Files__ in the __Solution Explorer__.
 
-![Show All Files for the TS project][6]
+![Show All Files for the TS project](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig6.png)
 
 With this all items from the project root folder will be listed in the __Solution Explorer__. Select the __TestLists__ folder and choose the  __Include In Project__ option from the right click context menu.
 
-![Include TestLists folder in TS project][7]
+![Include TestLists folder in TS project](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig7.png)
 
 Click the __Show All Files__ button again to toggle the view and __hide the other files__ and folders. Save and reopen the solution to apply the changes. Now the __TestLists__ folder can be used to add test list files in it as described [above](#create-a-test-list-in-visual-studio-project).
 
@@ -64,7 +64,7 @@ Click the __Show All Files__ button again to toggle the view and __hide the othe
 
 Once a static test list file is added into the __TestLists__ folder, double click this to open it. In this view you can choose the test files to include in the test list. All tests in the project are listed on the left side of the pane - you can use the arrows to move a file on the right side to include it in the test list.
 
-![Add test to static list][8]
+![Add test to static list](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig8.png)
 
 Save the test list file to keep the changes. The test list can be [executed](#execute-test-list-files-in-visual-studio) from the __Test Explorer__ in Visual Studio.
 
@@ -72,11 +72,11 @@ Save the test list file to keep the changes. The test list can be [executed](#ex
 
 Once a dynamic test list file is added into the __TestLists__ folder, double click this to open it and craft the rules to filter the test files to add in the list.
 
-![Add test to dynamic list][9]
+![Add test to dynamic list](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig9.png)
 
 This type of test list lets you choose the tests to include dynamically based on some of the <a href="/features/test-maintenance/test-properties-vs" target="_blank">test properties</a>. These, which you can rely upon, are the user-defined properties - Name, Owner, Path, Priority and the custom properties.
 
-![Available properties to create rules][10]
+![Available properties to create rules](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig10.png)
 
 Save the test list file to keep the changes. The test list can be [executed](#execute-test-list-files-in-visual-studio) from the __Test Explorer__ in Visual Studio.
 
@@ -99,20 +99,9 @@ Save the test list file to keep the changes. The test list can be [executed](#ex
 
 <a href="/general-information/test-execution/test-list-settings" target="_blank">Test list settings</a> can be customized to fit the specific environment and customer requirements. In Visual Studio you can access these through the _gear_ icon in the upper right corner when a test list file is opened.
 
-![Test List Settings][11]
+![Test List Settings](/img/general-information/test-execution/test-lists-in-vs-2017-2019/fig11.png)
 
 ## Execute Test List Files in Visual Studio
 
 To execute the test lists in Visual Studio, you can use the different <a href="/general-information/test-execution/vs-test-explorer#run-tests-and-test-lists-in-test-explorer" target="_blank">Run options in Visual Studio Test Explorer</a>.
 
-[1]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig1.png
-[2]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig2.png
-[3]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig3.png
-[4]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig4.png
-[5]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig5.png
-[6]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig6.png
-[7]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig7.png
-[8]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig8.png
-[9]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig9.png
-[10]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig10.png
-[11]: /img/general-information/test-execution/test-lists-in-vs-2017-2019/fig11.png

@@ -3,7 +3,7 @@ title: Output Panel
 page_title: Output Panel
 description: "Progress® Test Studio® for APIs - Code Features - Output Panel"
 position: 7
-publish: true
+published: true
 ---
 
 # Output Panel

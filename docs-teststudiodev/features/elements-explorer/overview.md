@@ -40,9 +40,9 @@ The hierarchy is maintained according to where the element is located on the pag
 
 <table id="no-table">
 <tr>
-<td>![HTML Tree View](images/overview/html-tree-view.png)<br>**HTML Tree View**</td>
-<td>![Silverlight Tree View](images/overview/silverlight-tree-view.png)<br>**Silverlight Tree View**</td>
-<td>![WPF Tree View](images/overview/wpf-tree-view.png)<br> **WPF Tree View**</td>
+<td><img src="images/overview/html-tree-view.png" alt="HTML Tree View" /><br>**HTML Tree View**</td>
+<td><img src="images/overview/silverlight-tree-view.png" alt="Silverlight Tree View" /><br>**Silverlight Tree View**</td>
+<td><img src="images/overview/wpf-tree-view.png" alt="WPF Tree View" /><br> **WPF Tree View**</td>
 </tr>
 <table>
 

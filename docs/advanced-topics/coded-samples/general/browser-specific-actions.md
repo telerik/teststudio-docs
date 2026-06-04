@@ -1,26 +1,26 @@
----
+﻿---
 title: Browser Specific Actions
 page_title: Browser Specific Actions
 description: "Learn how to execute browser-specific actions in Test Studio tests using standard or coded steps. This article explains how to use the RunsAgainst property and provides C# and VB.NET examples for handling different browsers during automated test execution."
 position: 1
 ---
-# Invoke Browser-Specific Actions #
+# Invoke Browser-Specific Actions 
 
 *I would like to invoke browser-specific actions in a standard or coded step. This means the step is only executed if the test is running in the specified browser type.*
 
-## Solution ##
+## Solution 
 
 Use a standard (non-coded) step or use a coded solution.
 
 The **RunsAgainst** Test Step Property allows you to choose against which browser to run the step:
 
-![RunsAgainst][1]
+![RunsAgainst](/img/advanced-topics/coded-samples/general/browser-specific-actions/fig1.png)
 
 Keep in mind that if you use this feature, the step will run against the specified browser only. You can only choose one browser and not, for instance, two out of three browsers. (To accomplish that, copy and paste the step, then change the RunsAgainst property for the new step.)
 
 You can  put together a much more complex use-case by using a coded solution. Here's the code from the test sample. It demonstrates how to use a different search word based on browser type:
 
-```C#
+````C#
 ActiveBrowser.NavigateTo("http://www.telerik.com/"); 
 //Navigate to the page
   
@@ -46,8 +46,8 @@ Log.WriteLine("Test is executing in the following browser:" + ActiveBrowser.Brow
   
 Find.ById<HtmlInputSubmit>("~btnSearchSubmit").Click(); //Click submit button
 System.Threading.Thread.Sleep(2000); //Wait a bit so we can see the result
-```
-```VB
+````
+````VB
 ActiveBrowser.NavigateTo("http://www.telerik.com/")
 'Navigate to the page
   
@@ -75,8 +75,7 @@ Find.ById(Of HtmlInputSubmit)("~btnSearchSubmit").Click()
 'Click submit button
 System.Threading.Thread.Sleep(2000)
 'Wait a bit so we can see the result
-```
+````
 
 The coded solution is also applicable to the Telerik Testing Framework.
 
-[1]: /img/advanced-topics/coded-samples/general/browser-specific-actions/fig1.png

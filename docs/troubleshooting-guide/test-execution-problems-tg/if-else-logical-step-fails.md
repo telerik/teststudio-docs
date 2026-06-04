@@ -1,4 +1,4 @@
----
+﻿---
 title: If... Else Logical Step Fails
 page_title: If... Else Logical Step Fails
 description: "If... Else Logical Step Fails in a Test Studio test without determining any of the branches for execution"
@@ -16,7 +16,7 @@ The issue is likely with the verification attached to the IF portion. Let's say 
  
 The fix is to record a new verification on the element and attach it to the IF. This time, record a **Wait - element exists** step. This way, when the element does not exist, the ELSE portion will correctly execute and the test will not fail.
 
-![Test Steps][1]
+![Test Steps](/img/troubleshooting-guide/test-execution-problems-tg/if-else-logical-step-fails/fig1.png)
 
 ## Solution 2 
 
@@ -31,4 +31,3 @@ If the if..else conditional steps continue executing incorrectly, see [here](/kn
 
 - <a href="/features/verifications/advanced-verification" target="_blank">Advanced Verification</a>
 
-[1]: /img/troubleshooting-guide/test-execution-problems-tg/if-else-logical-step-fails/fig1.png

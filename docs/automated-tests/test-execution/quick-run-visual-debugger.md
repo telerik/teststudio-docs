@@ -1,4 +1,4 @@
----
+﻿---
 title: Enable Visual Debugger in Quick Execution
 page_title: Enable Visual Debugger in Quick Execution
 description: "Test Studio Quick test Execution. Test Studio test run. Visual debugger options in Test Studio for quick run. Debug the test during its execution."
@@ -14,13 +14,11 @@ The __Visual Debugger__ is a useful tool to help you explore the application, wh
 
 The <a href="/troubleshooting-guide/troubleshooting-tools-tg/using-the-visual-debugger" target="_blank">__Visual Debugger__</a> is enabled by default and it appears in the lower right corner of your screen. It indicates the current step, includes play and pause ability, and shows additional Debug Options if you set a <a href="/features/test-maintenance/steps-pane" target="_blank">Breakpoint to any step</a>. This is a feature you could turn on or off.
 
-![Visual Debugger Indicator][1]
+![Visual Debugger Indicator](/img/automated-tests/test-execution/quick-run-visual-debugger/fig1.png)
 
 ## Debugger Options
 
 Click **Debugging Options** icon in the __Test ribbon__ to turn the debugger on or off, and customize the Auto-Pause Options, if errors occur during the execution.
 
-![Test Studio][2]
+![Test Studio](/img/automated-tests/test-execution/quick-run-visual-debugger/fig2.png)
 
-[1]: /img/automated-tests/test-execution/quick-run-visual-debugger/fig1.png
-[2]: /img/automated-tests/test-execution/quick-run-visual-debugger/fig2.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Export to Visual Studio
 page_title: Export to Visual Studio
 description: "Export Test Studio project to Visual Studio. Open Test Studio Project in Visual Studio."
@@ -11,28 +11,23 @@ You can export your test project from the Standalone version to Visual Studio fo
 
 > If you simply wish to execute tests from the command line, this process is not necessary. See the article on <a href="/advanced-topics/build-server/build-servers-test-execution" target="_blank">Build Server Test Execution</a>.
 
-1.&nbsp; Click the **Test Studio Menu** button.
+1. Click the **Test Studio Menu** button.
 
-2.&nbsp; Click **Export > Export to Visual Studio**.
+2. Click **Export > Export to Visual Studio**.
 
-![Export][1]
+![Export](/img/features/test-maintenance/export-visual-studio/export-vs.png)
 
-3.&nbsp; Choose **Visual Studio 2019 or 2022**.
+3. Choose **Visual Studio 2019 or 2022**.
 
-![Version][2]
+![Version](/img/features/test-maintenance/export-visual-studio/select-vs-version-propt.png)
 
-4.&nbsp; Choose your scripting language for the project and whether to immediately load this project in Visual Studio.
+4. Choose your scripting language for the project and whether to immediately load this project in Visual Studio.
 
-![Version][3]
+![Version](/img/features/test-maintenance/export-visual-studio/fig3.png)
 
-![Confirmation][4]
+![Confirmation](/img/features/test-maintenance/export-visual-studio/fig4.png)
 
-5.&nbsp; If you choose No, open the test project later by locating the .csproj or .vbproj file in the project folder.
+5. If you choose No, open the test project later by locating the .csproj or .vbproj file in the project folder.
 
-![Project folder][5]
+![Project folder](/img/features/test-maintenance/export-visual-studio/fig5.png)
 
-[1]: /img/features/test-maintenance/export-visual-studio/export-vs.png
-[2]: /img/features/test-maintenance/export-visual-studio/select-vs-version-propt.png
-[3]: /img/features/test-maintenance/export-visual-studio/fig3.png
-[4]: /img/features/test-maintenance/export-visual-studio/fig4.png
-[5]: /img/features/test-maintenance/export-visual-studio/fig5.png

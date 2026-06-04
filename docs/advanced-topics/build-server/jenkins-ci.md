@@ -1,9 +1,9 @@
----
+﻿---
 title: Jenkins CI
 page_title: Jenkins CI
 description: "Integrate Test Studio tests in Jenkins continuous integration. Execute Test Studio tests with Jenkins."
 previous_url: /user-guide/command-line-test-execution/continuous-integration/jenkins_ci.aspx, /user-guide/command-line-test-execution/continuous-integration/jenkins_ci
-position: 4
+position: 4 
 ---
 # Jenkins CI
 
@@ -13,13 +13,13 @@ Build and execute <a href="http://www.telerik.com/teststudio" target="_blank">Te
 
 Test Studio tests should not be run from a Windows Service account. Because the Windows native package for Jenkins CI runs as a Windows Service, Test Studio requires the Java Web Archive version to run properly.
 
-![Download Jenkins][1]
+![Download Jenkins](/img/advanced-topics/build-server/jenkins-ci/fig1.png)
 
 ## Run the Jenkins Listener on a Custom Port
 
 By default, the Jenkins Listener runs on port 8009 -- the same port as the Test Studio Scheduling Service. When installing the .war, use a command line argument to configure a different, non-conflicting port number for the listener (that is, avoid port numbers 8009, 8010, 8011, 8012, and 8013). For example:
 
-```
+```shell
 java -jar jenkins.war --ajp13Port=8019
 ```
 
@@ -29,19 +29,19 @@ java -jar jenkins.war --ajp13Port=8019
 
 Create a job and select 'Build a free-style software project'.
 
-![Free-style software project][2]
+![Free-style software project](/img/advanced-topics/build-server/jenkins-ci/fig2.png)
 
 ## Add a Windows Batch Command Build Step 
 
 Under the 'Add build step menu,' select 'Execute Windows batch command'.
 
-![Command build step][3]
+![Command build step](/img/advanced-topics/build-server/jenkins-ci/fig3.png)
 
 ## Input ArtOfTest.Runner Command to Execute Test
 
 Under 'Execute Windows batch command', input the ArtOfTest.Runner command to execute your test or test list, including <a href="/features/test-runners/artoftest-runner" target="_blank">full path to ArtOfTest.Runner.exe and appropriate arguments</a>.
 
-![Arguments][4]
+![Arguments](/img/advanced-topics/build-server/jenkins-ci/fig4.png)
 
 Your test execution step is now ready to save and run.
 
@@ -49,23 +49,23 @@ Your test execution step is now ready to save and run.
 
 1.	Add "**out**" parameter in the batch command. It should point to the default jenkins workspace `C:\Users\[userName]\.jenkins\jobs\test\workspace\%JOB_NAME%%BUILD_NUMBER%` so the results files are outputted in a folder with an unique name (Job Name + Build Number).
 	
-	![Out parameter][9]
+	![Out parameter](/img/advanced-topics/build-server/jenkins-ci/fig9.png)
 
 2. Add a post-build action of type "**Archive the artifacts**".
 
-	![Archive the artifacts][10]
+	![Archive the artifacts](/img/advanced-topics/build-server/jenkins-ci/fig10.png)
 
 3. Type `${JOB_NAME}${BUILD_NUMBER}` in the "**Files to archive**" field so all the results files can be taken.
 
-	![Files to archive][11]
+	![Files to archive](/img/advanced-topics/build-server/jenkins-ci/fig11.png)
 
 4. After the build completion all the results files will be attached to it.
 
-	![Files to archive][12]
+	![Files to archive](/img/advanced-topics/build-server/jenkins-ci/fig12.png)
 
 5. Click **Build Artifacts** and download the files in a *.zip file (it will keep the folder structure) and open the **.aiiresult* file.
 
-	![Save in zip file][13]
+	![Save in zip file](/img/advanced-topics/build-server/jenkins-ci/fig13.png)
 
 Your Jenkins CI build is now ready to run.
 
@@ -96,26 +96,13 @@ The error is related to the fact that Jenkins slaves cannot be ran as service. T
 
 __Example__:
 
-```
+```shell
 java -jar slave.jar -jnlpurl http://$HOST:$PORT/computer/$SLAVEMACHINE/slave-agent.jnlp
 ```
 
 or
 
-```
+```shell
 javaws http://$HOST:$PORT/computer/$SLAVEMACHE/slave-agent.jnlp
 ```
 
-[1]: /img/advanced-topics/build-server/jenkins-ci/fig1.png
-[2]: /img/advanced-topics/build-server/jenkins-ci/fig2.png
-[3]: /img/advanced-topics/build-server/jenkins-ci/fig3.png
-[4]: /img/advanced-topics/build-server/jenkins-ci/fig4.png
-[5]: /img/advanced-topics/build-server/jenkins-ci/fig5.png
-[6]: /img/advanced-topics/build-server/jenkins-ci/fig6.png
-[7]: /img/advanced-topics/build-server/jenkins-ci/fig7.png
-[8]: /img/advanced-topics/build-server/jenkins-ci/fig8.png
-[9]: /img/advanced-topics/build-server/jenkins-ci/fig9.png
-[10]: /img/advanced-topics/build-server/jenkins-ci/fig10.png
-[11]: /img/advanced-topics/build-server/jenkins-ci/fig11.png
-[12]: /img/advanced-topics/build-server/jenkins-ci/fig12.png
-[13]: /img/advanced-topics/build-server/jenkins-ci/fig13.png

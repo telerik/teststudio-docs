@@ -1,10 +1,10 @@
----
+﻿---
 title: Extract run results from MongoDB
 page_title: Extract run results from MongoDB
 description: Extract run results from Storage database MongoDB
 position: 9
 ---
-# Extract run results from MongoDB
+## Extract run results from MongoDB
 
 ## Data Overview
 
@@ -41,7 +41,7 @@ Test Studio keeps its objects in the following collections – projects, testlis
 	* reference to the TestList object
 	* detailed information on a TestList run – single Test run result, collection of machines, on which the Tests were run, collections of configurations and counters (for performance TestLists), etc.
 
-![diagram][1]
+![diagram](/img/knowledge-base/scheduling-kb/extract-results-from-mongodb/fig1.png)
 
 ## MongoDB Query Guidelines
 
@@ -70,4 +70,3 @@ One way to dig into the Test Studio database, once some data has been aggregated
 You can find more general info on the querying the MongoDB database on the MongoDB docs pages - <a href="https://docs.mongodb.org/getting-started/shell/query/" target="_blank">here</a>.
 
 
-[1]: /img/knowledge-base/scheduling-kb/extract-results-from-mongodb/fig1.png

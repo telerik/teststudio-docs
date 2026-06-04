@@ -1,4 +1,4 @@
----
+﻿---
 title: Execution Timeouts in Quick Execution
 page_title: Execution Timeouts in Quick Execution
 description: "Test Studio Quick test Execution. Test Studio test run. annotated test run. Global Timeouts in Test Studio project. Visual debugger options in Test Studio. Set preferred browser for test runs and test recording. Quick run Execution log "
@@ -14,6 +14,5 @@ The **Client ready** timeout sets the time to wait for a page to return _ReadySt
 
 These two timeouts are set on project level and you can modify these in the Project settings. The **Test Ribbon** allows you quick access to change their default values for the current project.
 
-![Timeouts][10]
+![Timeouts](/img/automated-tests/test-execution/quick-run-timeouts/fig10.png)
 
-[10]: /img/automated-tests/test-execution/quick-run-timeouts/fig10.png

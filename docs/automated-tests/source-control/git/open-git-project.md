@@ -1,8 +1,8 @@
----
+﻿---
 title: Open Git Project
 page_title: Open Git Project
 description: "Open Test Studio Project To Git Source control repository. Use Personal Access token to connect to Git repo accessed with 2FA (two factor authentication). Unable to connect to Git. Error connecting to Git, too many redirects or authentication replays"
-publish: true
+published: true
 position: 1
 ---
 # Open Git Project
@@ -10,7 +10,7 @@ position: 1
 **Open** Git project in the terms of Test Studio is equal to __cloning an existing repository__. This option creates a local copy of the remote project in the specified folder during establishing connection.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 Follow the steps to open a Test Studio project stored into a remote Git repository.
@@ -20,7 +20,7 @@ Follow the steps to open a Test Studio project stored into a remote Git reposito
 
 1. Launch any Test Studio project and click the **Open** button in the **Source Control** ribbon.
 
-    ![Connect][1]
+    ![Connect](/img/features/source-control/git/open-git-project/fig1.png)
 
     __OR__ 
     <br>
@@ -38,7 +38,7 @@ Follow the steps to open a Test Studio project stored into a remote Git reposito
     > <br> We __strongly recommend to <a href="/teststudio/automated-tests/source-control/git/overview-git#using-personal-access-token-for-authentication-in-git-repo" target="_blank">generate a PAT (Personal Access Token)</a> scoped__ for accessing the testing project repository only and use it to connect to the remote repo. 
 
 
-    ![Connect to TFS][2]
+    ![Connect to TFS](/img/features/source-control/git/connect-to-git/fig2.png)
 
     > **Note**
     > <br>
@@ -49,14 +49,10 @@ Follow the steps to open a Test Studio project stored into a remote Git reposito
 
     ![Clone][11]
 
-4. The project and project files are now marked with a ![PLus][4] icon. This indicates it is bound to Source Control.
+4. The project and project files are now marked with a ![PLus](/img/features/source-control/connect-to-tfs/fig4.png) icon. This indicates it is bound to Source Control.
 
-    ![Connected][3]
+    ![Connected](/img/features/source-control/git/connect-to-git/fig3.png)
 
 5. The <a href="/features/coded-steps/output-panel" target="_blank">**Output panel**</a> includes Source Control tab where you can find additional info for the outcome of commands while using the source control features.
 
-[1]: /img/features/source-control/git/open-git-project/fig1.png
-[2]: /img/features/source-control/git/connect-to-git/fig2.png
-[3]: /img/features/source-control/git/connect-to-git/fig3.png
-[4]: /img/features/source-control/connect-to-tfs/fig4.png
 [11]:/img/features/source-control/git/open-git-project/fig6.png

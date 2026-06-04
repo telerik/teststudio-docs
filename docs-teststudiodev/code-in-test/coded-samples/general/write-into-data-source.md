@@ -4,11 +4,11 @@ page_title: Write into Data Source - Test Studio Dev Documentation
 description: Write into Data Source
 position: 1
 ---
-#Write into Data Source#
+# Write into Data Source
 
 *I have a data driven test that checks whether a specific condition is met. I'd like to write a message into each corresponding row based on a condition.*
 
-##Solution##
+## Solution
 
 This is possible with a coded solution. Here's an example:
 
@@ -16,17 +16,14 @@ Let's automate <a href="http://www.checkdomain.com/" target ="_blank">checkdomai
 
 <table id="no-table">
 	<tr>
-		<td>![Before Test Run][1] <br><br>**Before Test Run**</td>
-		<td>![After Test Run][2] <br><br>**After Test Run**</td>
+		<td><img src="images/write-into-data-source/fig1.png" alt="Before Test Run" /> <br><br>**Before Test Run**</td>
+		<td><img src="images/write-into-data-source/fig2.png" alt="After Test Run" /> <br><br>**After Test Run**</td>
 	</tr>
 <table>
 
 The test needs to navigate to checkdomain.com, enter the domain for the respective iteration and click on Submit. Add a coded step and insert the below code:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\domainResults.xlsx";
     string myPath = "C:\\domainResults.xlsx";
     
@@ -60,11 +57,8 @@ The test needs to navigate to checkdomain.com, enter the domain for the respecti
     excelApp.Quit();
     GC.Collect();
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }} 
+````
+````VB
 
     Dim dataSourcePath As String = Me.ExecutionContext.DeploymentDirectory + "\Data\domainResults.xlsx"
     Dim myPath As String = "C:\domainResults.xlsx"
@@ -96,9 +90,8 @@ The test needs to navigate to checkdomain.com, enter the domain for the respecti
     excelApp.Quit()
     GC.Collect()
     System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp)
-    {{endregion}}
+````
 
 **Note:** Add an Assembly Reference to Microsoft.Office.Interop.Excel.
 
-[1]: images/write-into-data-source/fig1.png
-[2]: images/write-into-data-source/fig2.png
+

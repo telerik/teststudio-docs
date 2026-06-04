@@ -4,11 +4,11 @@ page_title: Visual Studio Test Explorer - Test Studio Dev Documentation
 description: Test Studio Dev tests are recognized by VS Test Explorer and can be executed from its context. Run Test Studio Dev tests via the Test Explorer in Visual Studio
 position: 1
 ---
-# Visual Studio Test Explorer #
+# Visual Studio Test Explorer
 
 The <a href="http://msdn.microsoft.com/en-us/library/hh270865.aspx" target="_blank">Test Explorer</a> in Visual Studio discovers and runs tests, including Test Studio Dev tests and <a href="/features/test-execution/test-lists-in-vs-2017-2019" target="_blank">test lists</a>.
 
-## View Tests and Test Lists in Test Explorer ##
+## View Tests and Test Lists in Test Explorer
 
 If the __Test Explorer__ pane is not opened in your Visual Studio, you can access this as follows:
 
@@ -22,13 +22,13 @@ The Test Studio Dev tests and test lists are listed in the __Test Explorer__ aut
 
 ![Test Explorer][2]
 
-## Group Tests and Test Lists in Test Explorer ##
+## Group Tests and Test Lists in Test Explorer
 
 You can use Test Explorer to group tests into categories, filter the list of tests, and create, save, and run playlists of tests. There are few different options to group the test files and what makes sense in the context of Test Studio test project is to use __custom grouping starting with either _Namespace_ or _Project_, and use _Class_ and _State_ as sub-filters__ in the desired order.
 
 ![Group Tests and Test lists][3]
 
-## Run Tests and Test Lists in Test Explorer ##
+## Run Tests and Test Lists in Test Explorer
 
 To execute the test files from __Test Explorer__, use the **Run...** buttons and their available options.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Script Project Settings
 page_title: Script Project Settings
 description: "Test Studio script coded code settings. Where is the Namespace in Test Studio project How to add reference/reference assembly in a Test Studio project.  Test Studio project's bin folder "
@@ -8,7 +8,7 @@ position: 7
 
 Script Options dictate how Test Studio treats the <a href="/advanced-topics/coded-steps/code-behind-file" target="_blank">code behind file</a>. Note: This section is applicable to the Standalone version only.
 
-![Script Options][1]
+![Script Options](/img/features/project-settings/script-options/fig1.png)
 
 > Check <a href="/features/project-settings/overview" target="_blank">here how to open the **Project Settings** window</a>. 
 
@@ -36,4 +36,3 @@ Here you can see a list of existing project references, add a new reference, or 
 
 Click this button to restore the default references.
 
-[1]: /img/features/project-settings/script-options/fig1.png

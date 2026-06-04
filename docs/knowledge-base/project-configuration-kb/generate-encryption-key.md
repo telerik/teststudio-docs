@@ -4,7 +4,6 @@ page_title: Generate and Update Encryption Key
 description: Generate Encryption Key for Test Studio projects. Import the new key for all Test Studio installations across all involved machines. 
 position: 0
 ---
-# Generate New Encryption Key 
 
 The **Encryption Key** is used to secure sensitive data across the Test Studio projects. You can get the current key or generate a new one in the <a href="/automated-tests/scheduling/multiple-machines-scheduling-setup/create-scheduling-server" target="_blank">Scheduling Config wizard</a>. 
 
@@ -28,18 +27,18 @@ The Encryption tab lets you manage the **Encryption Key** which is used to secur
 - Passwords for connecting to source control repository or bug tracking systems, and database connection strings used in data driven tests; SMTP credentials if used in the Scheduling configuration;
 - Password steps recorded in automated tests when the _'Encrypt'_ step property is enabled. 
 
-![Encryption key tab](/img/features//scheduling-test-runs/create-scheduling-server/encryption-tab.png)
+![Encryption key tab](/img/features/scheduling-test-runs/create-scheduling-server/encryption-tab.png)
 
 The **Current Key** section indicates which is the key in use. Test Studio installation uses a default encryption key and you see the current key is the __Default Key Loaded__. In this configuration you can't copy or see the key. 
 
-![Default Encryption key](/img/features//scheduling-test-runs/create-scheduling-server/encryption-default-key.png)
+![Default Encryption key](/img/features/scheduling-test-runs/create-scheduling-server/encryption-default-key.png)
 
 
 ### Generate New Key
 
 The **Replace Key** section lets you **Generate** a new key. Once generated, the new value is populated in the text field and is ready to be imported. Hit the **Import** button to replace the current key with the new one. 
 
-![Replace Encryption key](/img/features//scheduling-test-runs/create-scheduling-server/encryption-generate-key.png)
+![Replace Encryption key](/img/features/scheduling-test-runs/create-scheduling-server/encryption-generate-key.png)
 
 > **Note**
 > <br>
@@ -61,7 +60,7 @@ Once a custom key is generated and imported, the **Current Key** section allows 
 > <br>
 > The copied key __must be imported on all machines__ where Test Studio is in use.
 
-![Custom Encryption key](/img/features//scheduling-test-runs/create-scheduling-server/encryption-custom-key.png)
+![Custom Encryption key](/img/features/scheduling-test-runs/create-scheduling-server/encryption-custom-key.png)
 
 
 > **Note**

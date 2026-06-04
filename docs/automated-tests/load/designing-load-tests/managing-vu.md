@@ -1,4 +1,4 @@
----
+﻿---
 title: Assign Virtual Users
 page_title: Assign Virtual Users to the Execution Machine
 description: "Manage Virtual Users used in Test Studio load test run. Set virtual users to be used in load test run in Test Studio. Increase/Decrease virtual users amount to be used in Test Studio Load test"
@@ -12,13 +12,13 @@ Each license of Test Studio includes 100 virtual users to be used by your execut
 
 To see and manage the available purchased virtual users, click the **Manage** button in the ribbon bar of an opened load test - the _Manage Virtual Users_ dialog window appears.
 
-![Manage button][1]
+![Manage button](/img/features/testing-types/load-testing/managing-vu/fig1.png)
 
 ### Total Number of Purchased Virtual Users
 
 The total number of virtual users you have purchased along with the number available, or unassigned to any execution machine, will be displayed at the top.
 
-![Purchased and Available users][2]
+![Purchased and Available users](/img/features/testing-types/load-testing/managing-vu/fig2.png)
 
 ### Distribution of Virtual Users per Execution Server
 
@@ -26,7 +26,7 @@ The _Distribution of Virtual Users per Execution Server_ section displays all co
 
 > When <a href="/features/testing-types/load-testing/running-load-test/running-tests" target="_blank">running a load test locally</a>, you need to add the local machine and assign virtual users to it. in the case when <a href="/features/testing-types/load-testing/running-load-test/remote-load-test-execution" target="_blank">using multiple machines to run the load scenario</a>, you need to add the machine, which is configured as a Scheduling server and assign sufficient users to that one.
 
-![Purchased and Available users][2a]
+![Purchased and Available users](/img/features/testing-types/load-testing/managing-vu/fig2a.png)
 
 ## Add New Execution Machine
 
@@ -35,43 +35,33 @@ To add a machine to assign virtual users to, click the __Add local Execution Ser
 
 > As of 2013.1.806, a machine configured as a Scheduling Server and added to assign virtual users to it, is always searched on port 8009. It will not be detected if the Scheduling Service is listening to another port.
 
-![Add Machine][3]
+![Add Machine](/img/features/testing-types/load-testing/managing-vu/fig3.png)
 
 - Once you enter a machine name or IP, hit the _Test Connection_ button. If the IP address or machine name are not correct, or the machine is unreachable in the network, you will not be able to add it as an execution machine.
 
-    ![Add Machine - invalid name or unreachable machine][3a]
+    ![Add Machine - invalid name or unreachable machine](/img/features/testing-types/load-testing/managing-vu/fig3a.png)
 
 - Enter a valid machine name or IP and ensure the computer is reachable in the network. After testing the connection is successful, you can add the machine and assign virtual users to it.
 
-    ![Add Machine - valid machine][3b]
+    ![Add Machine - valid machine](/img/features/testing-types/load-testing/managing-vu/fig3b.png)
 
 ## Assign Virtual Users
 
 - Use the slider bar next to any of the listed machines to add virtual users to it, or to remove virtual users from that controller so they may be used by another scheduling service or controller. Clicking on the left or right of the thumb bar will decrement/increment the number of assigned virtual users.
 
-    ![Slide bar][4]
+    ![Slide bar](/img/features/testing-types/load-testing/managing-vu/fig4.png)
 
 - To remove a scheduling service or controller from the list, click the **X** on the line for it. Any virtual users that were assigned to it will return to the unassigned pool of virtual users.
 
-    ![X button][5]
+    ![X button](/img/features/testing-types/load-testing/managing-vu/fig5.png)
 
 - The display of available and assigned users does not dynamically change on its own. Click Refresh to update the display after purchasing additional virtual users or changing the assignment of virtual users on a different computer.
 
-    ![Refresh button][6]
+    ![Refresh button](/img/features/testing-types/load-testing/managing-vu/fig6.png)
 
 ## Buy More Users
 
 If you need to purchase more total users, click **Buy More Users** on the top right corner of the _Manage Virtual Users_ dialog window.
 
-![Buy users][7]
+![Buy users](/img/features/testing-types/load-testing/managing-vu/fig7.png)
 
-[1]: /img/features/testing-types/load-testing/managing-vu/fig1.png
-[2]: /img/features/testing-types/load-testing/managing-vu/fig2.png
-[2a]: /img/features/testing-types/load-testing/managing-vu/fig2a.png
-[3]: /img/features/testing-types/load-testing/managing-vu/fig3.png
-[3a]: /img/features/testing-types/load-testing/managing-vu/fig3a.png
-[3b]: /img/features/testing-types/load-testing/managing-vu/fig3b.png
-[4]: /img/features/testing-types/load-testing/managing-vu/fig4.png
-[5]: /img/features/testing-types/load-testing/managing-vu/fig5.png
-[6]: /img/features/testing-types/load-testing/managing-vu/fig6.png
-[7]: /img/features/testing-types/load-testing/managing-vu/fig7.png

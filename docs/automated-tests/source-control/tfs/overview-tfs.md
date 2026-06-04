@@ -1,4 +1,4 @@
----
+﻿---
 title: Overview
 page_title: Integration with Source Control Systems
 description: "Test Studio Integration with Source Control Systems"
@@ -21,7 +21,7 @@ The TFS integration also facilitates the work of a QA team on the same test proj
 
 If you attempt to integrate with TFS in Test Studio Standalone version and do not have Visual Studio installed, you will receive the following error: *Unable to load source control plugin*.
 
-![Unable to Load][1]
+![Unable to Load](/img/features/source-control/overview/fig1.png)
 
 You will need to install Team Explorer. This is the client SKU that allows you to access the TFS functionality.
 
@@ -35,4 +35,3 @@ If you are using the Test Studio VS plugin, be aware that Visual Studio has buil
 - <a href="http://msdn.microsoft.com/library/ms181368.aspx" target="_blank">Version Control - Visual Studio 2010</a> 
 
 
-[1]: /img/features/source-control/overview/fig1.png

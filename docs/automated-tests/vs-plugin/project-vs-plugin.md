@@ -35,9 +35,6 @@ You can create a new Test Studio project from the _Telerik_ menu available in Vi
 
 In __Visual Studio 2019 and later__ the _Telerik_ menu is listed under the _Extensions_ menu and you can find the option under __Extensions -> Telerik -> Test Studio -> Create New Test Project__
 
-
-![Create project VS 2019][11]
-
 ## Test Studio Components in the Visual Studio Project
 
 In the context of Visual Studio you have access to the Test Studio specific components like the <a href="/automated-tests/elements/overview" target="_blank">Elements Explorer</a>, <a href="/features/project-settings/overview" target="_blank">Project Settings</a> and the <a href="/features/custom-steps/overview" target="_blank">Step Builder</a>. These panes will not be visible by default in the Visual Studio instance. You can toggle the panes to be visible from the specific Test Studio toolbar options and place these where suitable for you in the project area.

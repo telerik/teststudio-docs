@@ -1,4 +1,4 @@
----
+﻿---
 title: Check-in Guidelines
 page_title: Check-in Guidelines
 description: "Test Studio specific remote repository Check-in Guidelines tips and tricks. Files to exclude from source control check in"
@@ -39,8 +39,8 @@ For any source control system, check in all files **except** the following:
 
 ## Upgrading a Project Which is Used by Multiple Team Members
 
-1.&nbsp; One of the team member should check out the test project and upgrade it on his local machine.
+1. One of the team member should check out the test project and upgrade it on his local machine.
 
-2.&nbsp; After upgrading the project this same member should check in the upgraded project back into the source control.
+2. After upgrading the project this same member should check in the upgraded project back into the source control.
 
-3.&nbsp; The other team members now can get the latest version of the project and use it without merging conflict in the newer version of Test Studio.
+3. The other team members now can get the latest version of the project and use it without merging conflict in the newer version of Test Studio.

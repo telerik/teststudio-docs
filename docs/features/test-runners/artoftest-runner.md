@@ -1,4 +1,4 @@
----
+﻿---
 title: ArtOfTest.Runner.exe - Test Studio CLI Runner
 page_title: Test Studio CLI Runner "ArtOfTest.Runner.exe"
 description: "Test Studio Command line runner client is called ArtOfTest.Runner.exe. Test Studio execution engine in the command prompt"
@@ -24,13 +24,13 @@ Similar to any other executable files you have few options to call the ArtOfTest
 - Change the context root directory in the command prompt window to the one containing the *.exe file and use the *.exe name directly. 
 - Set the *.exe directory as environmental variable in the OS and use the *.exe name directly from whichever directory is the current context. 
 
-![cmd][1]
+![cmd](/img/features/test-runners/artoftest-runner/fig1.png)
 
 ## Help Screen
 
 Use the `help` option to get a list of all options supported by the CLI runner. The short form to use is `/?` or `/h`. Below is the Help Screen for __ArtOfTest.Runner.exe__:
 
-![Help screen shows the list of all options][2]
+![Help screen shows the list of all options](/img/features/test-runners/artoftest-runner/fig2.png)
 
 
 ## Options to Specify Which File to Execute
@@ -52,22 +52,22 @@ The `test` option accepts full file path to an individual test with the **\*.tst
 
 - Run individual test stored in the project root folder: 
 
-```cmd
+````batch
 > "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\Test Studio Projects\July2024\demoTest-AOTRunner.tstest"
-```
+````
 
-![Run individual test stored in the project root folder][5]
+![Run individual test stored in the project root folder](/img/features/test-runners/artoftest-runner/fig5.png)
 
 - Run individual test stored in a sub-folder under the project root one: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\Test Studio Projects\July2024\inProjectFolder\nestedDemoTest.tstest" 
 root="D:\Test Studio Projects\July2024"
-```
+````
 
-![Run individual test stored in a sub-folder under the project root one][4]
+![Run individual test stored in a sub-folder under the project root one](/img/features/test-runners/artoftest-runner/fig4.png)
 
 ### list Option
 
@@ -83,12 +83,12 @@ The `list` option takes the full path to a test list file with the **\*.aiilist*
 
 - Run test list: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist"
-```
+````
 
-![Run test list][6]
+![Run test list](/img/features/test-runners/artoftest-runner/fig6.png)
 
 ### root Option 
 
@@ -110,12 +110,12 @@ The `out` option defines an alternative folder to store the results to and takes
 
 - Run test list outputting the results in specified folder: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder"
-```
+````
 
-![Run test list outputting the results in specified folder][7]
+![Run test list outputting the results in specified folder](/img/features/test-runners/artoftest-runner/fig7.png)
 
 ### result Option
 
@@ -125,13 +125,13 @@ The `result` sets specific name for the default result file and takes a file nam
 
 - Run test list outputting the results in specified folder and setting custom name for the result file: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
 result="customName"
-```
+````
 
-![Run test list outputting the results in specified folder with custom name][8]
+![Run test list outputting the results in specified folder with custom name](/img/features/test-runners/artoftest-runner/fig8.png)
 
 ### xml or html Options
 
@@ -145,24 +145,24 @@ Use either the `xml`, or the `html` option to output the result into the corresp
 
 - Run test list outputting the results in xml format: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
 xml
-``` 
+```` 
 
-![Run test list outputting the results in xml format][9]
+![Run test list outputting the results in xml format](/img/features/test-runners/artoftest-runner/fig9.png)
 
 - Run test list outputting the results in html format in specified folder and setting custom name for the result files: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" out="D:\SharedFolder" 
 result="customName" 
 html
-```
+````
 
-![Run test list outputting the results in html format in specified folder with custom name][10]
+![Run test list outputting the results in html format in specified folder with custom name](/img/features/test-runners/artoftest-runner/fig10.png)
 
 > __Note__
 ><br>
@@ -176,25 +176,25 @@ Use the `junit` or `junitstep` options to output the result into a `junit(step).
 
 - Run test list outputting the results in junitstep format in specified folder and setting custom name for the result files: 
 
-```cmd
+````batch
 >"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 list="D:\Test Studio Projects\July2024\TestLists\demoList-ArtOfTest.aiilist" 
 out="D:\SharedFolder" 
 result="customName" 
 junitstep
-```
+````
 
-![Run test list outputting the results in junitstep format in specified folder with custom name][11]
+![Run test list outputting the results in junitstep format in specified folder with custom name](/img/features/test-runners/artoftest-runner/fig11.png)
 
 - Run single test outputting the results in junit format: 
 
-```cmd
+````batch
 >>"C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" 
 test="D:\elle\Test Studio Projects\July2024\demoTest-AOTRunner.tstest" 
 junit
-```
+````
 
-![Run single test outputting the results in junit format][12]
+![Run single test outputting the results in junit format](/img/features/test-runners/artoftest-runner/fig12.png)
 
 > __Note__
 ><br>
@@ -214,7 +214,7 @@ The `settings` option takes the full path to a JSON file containing custom setti
 
 Below is an example of a complete JSON setting file that contains all of Telerik's test/test list run configuration settings. 
 
-```JSON
+````JSON
 {
   "Settings": {
       "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -303,8 +303,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
   "WebSettings": null,
   "PropertyBag": null
 }
-
-```
+````
 
 > __Tip__
 ><br>
@@ -330,7 +329,7 @@ Below is an example of a complete JSON setting file that contains all of Telerik
 
 Below is a sample command to publish results to TFS from a test list execution.
 
-![Publish Results to TFS][8]
+![Publish Results to TFS](/img/features/test-runners/artoftest-runner/fig8.png)
 
 ## Exit Codes
 
@@ -364,41 +363,30 @@ padding: 8px;
 	<th>Code</th><th>Title</th><th>Summary</th>
 </tr>
 <tr>
-	<td>**0**</td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
+	<td><strong>0</strong></td><td>RUN_TESTS_SUCCESS </td><td>Run is processed and all tests passed.</td>
 </tr>
 <tr>
-	<td>**1**</td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
+	<td><strong>1</strong></td><td>RUN_TESTS_ERROR</td><td>Run is processed and some tests failed.</td>
 </tr>
 <tr>
-	<td>**2**</td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
+	<td><strong>2</strong></td><td>NOT_RUN_UNEXPECTED_ERROR</td><td>Run is not processed due to unexpected error.</td>
 </tr>
 <tr>
-	<td>**3**</td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
+	<td><strong>3</strong></td><td>NOT_RUN_COMPILATION_ERROR</td><td>Run is not processed due to compilation errors.</td>
 </tr>
 <tr>
-	<td>**10**</td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
+	<td><strong>10</strong></td><td>NOT_RUN_USAGE_INFO</td><td>No run to process, requested usage info.</td>
 </tr>
 <tr>
-	<td>**11**</td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
+	<td><strong>11</strong></td><td>NOT_RUN_INVALID_COMMAND_ARGS</td><td>No run to process due to general invalid arguments error.</td>
 </tr>
 <tr>
-	<td>**12**</td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
+	<td><strong>12</strong></td><td>NOT_RUN_TEST_NOT_FOUND</td><td>Run is not processed due to invalid test path argument.</td>
 </tr>
 <tr>
-	<td>**13**</td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
+	<td><strong>13</strong></td><td>NOT_RUN_TESTLIST_NOT_FOUND</td><td>Run is not processed due to invalid test list path argument.</td>
 </tr>
-<table>
+</table>
 
 
-[1]: /img/features/test-runners/artoftest-runner/fig1.png
-[2]: /img/features/test-runners/artoftest-runner/fig2.png
-[3]: /img/features/test-runners/artoftest-runner/fig3.png
-[4]: /img/features/test-runners/artoftest-runner/fig4.png
-[5]: /img/features/test-runners/artoftest-runner/fig5.png
-[6]: /img/features/test-runners/artoftest-runner/fig6.png
-[7]: /img/features/test-runners/artoftest-runner/fig7.png
-[8]: /img/features/test-runners/artoftest-runner/fig8.png
-[9]: /img/features/test-runners/artoftest-runner/fig9.png
-[10]: /img/features/test-runners/artoftest-runner/fig10.png
-[11]: /img/features/test-runners/artoftest-runner/fig11.png
-[12]: /img/features/test-runners/artoftest-runner/fig12.png
+

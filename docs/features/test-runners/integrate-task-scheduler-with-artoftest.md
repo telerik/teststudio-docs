@@ -6,21 +6,21 @@ position: 1
 ---
 # Integrate Windows Task Scheduler with ArtOfTest.Runner
 
-1.&nbsp; Create a test project and put into a location (shared) which can be accessed from the execution machine.
+1. Create a test project and put into a location (shared) which can be accessed from the execution machine.
 
-2.&nbsp; Create a *.bat file which copy the project from the shared location to execution machine and run the list.
+2. Create a *.bat file which copy the project from the shared location to execution machine and run the list.
 
-![bat file][1]
+![bat file](/img/features/test-runners/integrate-task-scheduler-with-artoftest/fig1.png)
 
-3.&nbsp; Create a <a href="http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7" target="_blank">Basic Task in Windows Task Scheduler</a> to run the already created bat file.
+3. Create a <a href="http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7" target="_blank">Basic Task in Windows Task Scheduler</a> to run the already created bat file.
 
 * Click the Action menu, and then click **Create Basic Task**.
  
-![basics task][2]
+![basics task](/img/features/test-runners/integrate-task-scheduler-with-artoftest/fig2.png)
 
 * Type a name for the task and an optional description, and then click Next.
 
-![task name][3]
+![task name](/img/features/test-runners/integrate-task-scheduler-with-artoftest/fig3.png)
 
 * Select a schedule based on the calendar.
 
@@ -34,7 +34,3 @@ Windows Task Scheduler will run the .bat file in the selected time.
 
 > OnBeforeTestListStarted and OnAfterTestListCompleted methods will be called accordingly.
 
-
-[1]: /img/features/test-runners/integrate-task-scheduler-with-artoftest/fig1.png
-[2]: /img/features/test-runners/integrate-task-scheduler-with-artoftest/fig2.png
-[3]: /img/features/test-runners/integrate-task-scheduler-with-artoftest/fig3.png

@@ -1,4 +1,4 @@
----
+﻿---
 title: Performance Testing Overview
 page_title: Performance Testing Overview
 description: "Performance Testing in Test Studio."
@@ -42,14 +42,14 @@ Which web tests make good candidates for Performance Testing?
 
 Once you designate a good candidate test, go to the **Performance** tab and get started:
 
-1.&nbsp;  <a href="/automated-tests/performance/performance-run" target="_blank">Initiate Performance Run</a> - Configure settings and initiate the Performance Run.
+1.  <a href="/automated-tests/performance/performance-run" target="_blank">Initiate Performance Run</a> - Configure settings and initiate the Performance Run.
 
-2.&nbsp; <a href="/features/testing-types/performance-testing/history-view" target="_blank">History View</a> - Visualize metrics over time, achieve performance goals, and use the Benchmark feature to establish a performance baseline. 
+2. <a href="/features/testing-types/performance-testing/history-view" target="_blank">History View</a> - Visualize metrics over time, achieve performance goals, and use the Benchmark feature to establish a performance baseline. 
 
-3.&nbsp; <a href="/features/testing-types/performance-testing/overview-button" target="_blank">Overview</a> - View data related to the server, network, and client. 
+3. <a href="/features/testing-types/performance-testing/overview-button" target="_blank">Overview</a> - View data related to the server, network, and client. 
 
-4.&nbsp; <a href="/features/testing-types/performance-testing/details-view" target="_blank">Details View</a> - View an in-depth analysis of each test step, the entire test, or a custom interval.
+4. <a href="/features/testing-types/performance-testing/details-view" target="_blank">Details View</a> - View an in-depth analysis of each test step, the entire test, or a custom interval.
 
-5.&nbsp; <a href="/features/testing-types/performance-testing/compare-view" target="_blank">Compare View</a> - Put two Performance Runs side by side and identify potential regressions or bottlenecks using delta threshold.
+5. <a href="/features/testing-types/performance-testing/compare-view" target="_blank">Compare View</a> - Put two Performance Runs side by side and identify potential regressions or bottlenecks using delta threshold.
 
-6.&nbsp;  <a href="/features/testing-types/performance-testing/gather-perfomance-data" target="_blank">Gather Performance Counters Data</a> - Configure settings to gather additional data from Performance Counters on selected machine.
+6.  <a href="/features/testing-types/performance-testing/gather-perfomance-data" target="_blank">Gather Performance Counters Data</a> - Configure settings to gather additional data from Performance Counters on selected machine.

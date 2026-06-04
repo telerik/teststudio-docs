@@ -17,19 +17,19 @@ position: 2
 
 1. In the Azure DevOps project go to **Pipelines >> New Pipeline**.
 
-    ![Create new Pipeline][9]
+    ![Create new Pipeline](/img/advanced-topics/build-server/azure-devops/fig9.png)
 
 2. For this setup choose the option to **Use the classic editor**.
 
-    ![Choose classic editor][10]
+    ![Choose classic editor](/img/advanced-topics/build-server/azure-devops/fig10.png)
 
 3. Choose the repository type where the project is and fill in the necessary details to connect to the repo. Click **Continue**.
 
-    ![Choose repo type][11]
+    ![Choose repo type](/img/advanced-topics/build-server/azure-devops/fig11.png)
 
 4. Choose **Empty job** as a template for the build
 
-    ![Choose empty job][12]
+    ![Choose empty job](/img/advanced-topics/build-server/azure-devops/fig12.png)
 
 5. Click the __Pipeline__ tile and set a meaningful name for the pipeline. Then select the __Agent pool__ for Microsoft-hosted agents and choose a default image to be installed on the VM when running the pipeline - you can use _windows-latest_.
 
@@ -62,7 +62,7 @@ position: 2
 
 1. Click the __Agent__ tile and create a new __Utility >> Command line__ task.
 
-    ![Command line new task][14]
+    ![Command line new task](/img/advanced-topics/build-server/azure-devops/fig14.png)
 
 2. Set a meaningful name for the __Command Line__ task. Then place a command which calls the <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec" target="_blank">Windows msiexec command</a> in passive mode. The passive mode is required due to the lack of UI session. Below is an example command to use as baseline in the task.
 
@@ -76,7 +76,7 @@ position: 2
 
 1. Click the __Agent__ tile and create a new __Utility >> Command line__ task.
 
-    ![Command line new task][14]
+    ![Command line new task](/img/advanced-topics/build-server/azure-devops/fig14.png)
 
 2. Set a meaningful name for the __Command Line__ task. Then place a command which calls the <a href="/features/test-runners/artoftest-runner" target="_blank">Test Studio CLI Runner</a> to trigger the test execution. 
 
@@ -86,23 +86,23 @@ position: 2
    
 3. The sample image executes a test list, sets specific name for the output Test Studio result file and also generates a _junit_ type of result. 
 
-    ![Execute test list task][15]
+    ![Execute test list task](/img/advanced-topics/build-server/azure-devops/fig15.png)
 
 ## Add Publish Test Results Task to Upload JUnit Results
 
 1. Click the __Agent__ tile and create a new __Tests >> Publish Test Results__ task.
 
-    ![Add Publish Test results task][17]
+    ![Add Publish Test results task](/img/advanced-topics/build-server/azure-devops/fig17.png)
 
 2. Test Studio CLI runner lets you output the execution result in _junit_ format and this is the type of result which can be used in this pipeline task. 
    
 3. Set a meaningful name for the **Publish Test Results**. Then set the folder where the test results are deployed and choose to upload all .xml files. 
 
-    ![Configure Publish Test results][18]
+    ![Configure Publish Test results](/img/advanced-topics/build-server/azure-devops/fig18.png)
 
 4. Once the pipeline run is complete the details from _junit_ result are visible in the **Test** tab.
 
-    ![See test results][19]
+    ![See test results](/img/advanced-topics/build-server/azure-devops/fig19.png)
 
 ## Add Publish Pipeline Artifacts Task to Upload the Test Studio Result File 
 
@@ -126,7 +126,7 @@ Test Studio test run produces its proprietary <a href="/automated-tests/test-res
 
 1. Click the __Agent__ tile and create a new __Utility >> Command line__ task.
 
-    ![Command line new task][14]
+    ![Command line new task](/img/advanced-topics/build-server/azure-devops/fig14.png)
 
 2. Set a meaningful name for the __Command Line__ task. Then place a command which checks for the folder using the predefined name of the result file set in the execution command and returns true or false depending on the outcome. 
 
@@ -154,16 +154,6 @@ Test Studio test run produces its proprietary <a href="/automated-tests/test-res
 * <a href="https://www.telerik.com/blogs/using-microsoft-hosted-agents-azure-pipelines-automated-test-execution" target="_blank">Using Microsoft Hosted Agents in Azure Pipelines for Automated Test Execution</a>.
 
 
-[9]: /img/advanced-topics/build-server/azure-devops/fig9.png
-[10]: /img/advanced-topics/build-server/azure-devops/fig10.png
-[11]: /img/advanced-topics/build-server/azure-devops/fig11.png
-[12]: /img/advanced-topics/build-server/azure-devops/fig12.png
-[14]: /img/advanced-topics/build-server/azure-devops/fig14.png
-[15]: /img/advanced-topics/build-server/azure-devops/fig15.png
-[16]: /img/advanced-topics/build-server/azure-devops/fig16.png
-[17]: /img/advanced-topics/build-server/azure-devops/fig17.png
-[18]: /img/advanced-topics/build-server/azure-devops/fig18.png
-[19]: /img/advanced-topics/build-server/azure-devops/fig19.png
 
 
 > __Tip__

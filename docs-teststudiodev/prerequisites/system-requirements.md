@@ -18,7 +18,7 @@ __Test Studio Dev__ is an extension for Visual Studio tool and as such it inheri
 > Test Studio Dev Edition ends support for Visual Studio 2019 at the beginning of 2026.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-teststudio-introduction.html %}
+{% include cta-panel-introduction.html %}
 {% endif %}
 
 

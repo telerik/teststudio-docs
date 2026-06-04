@@ -4,18 +4,15 @@ page_title: Go Through RadTreeView - Test Studio Dev Documentation
 description: Go Through RadTreeView
 position: 3
 ---
-# Go Through Each Node in a WPF RadTreeView #
+# Go Through Each Node in a WPF RadTreeView
 
 *I would like to go through each node in a WPF RadTreeView until a match is made.*
 
-## Solution ##
+## Solution
 
 This is possible with a coded solution. You'll expand each node and refresh the tree until you find your match.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     WpfApplication app = Manager.ActiveApplication;
     Assert.IsNotNull(app);
     Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView tree = app.MainWindow.Find.ByName<Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView>("treeView");
@@ -55,12 +52,8 @@ This is possible with a coded solution. You'll expand each node and refresh the 
             break;
         }
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim app As WpfApplication = Manager.ActiveApplication
     Assert.IsNotNull(app)
     Dim tree As Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView = app.MainWindow.Find.ByName(Of Telerik.WebAii.Controls.Xaml.Wpf.RadTreeView)("treeView")
@@ -92,6 +85,6 @@ This is possible with a coded solution. You'll expand each node and refresh the 
             Exit While
         End If
     End While
-    {{endregion}}
+````
 
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Theme Settings
 page_title: Theme Settings
 description: "Test Studio Project settings Theme allows you to switch between dark and light theme. Dark theme for Test Studio."
@@ -13,62 +13,74 @@ The default theme of Test Studio is **Light**. You can change it to **Dark** and
 The screenshots below show different views from Test Studio in both themes.
 
 Project theme settings
-<table id="no-table">
-<tr>
-<td>![Light Settings][1]</td>
-<td>![Dark Settings][2]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/project-settings/theme/fig1.png" alt="Light Settings" /></td>
+<td>
+
+<img src="/img/features/project-settings/theme/fig2.png" alt="Dark Settings" /></td>
 </tr>
-<table>
+</table>
 
 Test Studio Welcome screen
-<table id="no-table">
-<tr>
-<td>![Light Welcome][3]</td>
-<td>![Dark Welcome][4]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/project-settings/theme/fig3.png" alt="Light Welcome" /></td>
+<td>
+
+<img src="/img/features/project-settings/theme/fig4.png" alt="Dark Welcome" /></td>
 </tr>
-<table>
+</table>
 
 Test Studio test development
-<table id="no-table">
-<tr>
-<td>![Light Test Studio][5]</td>
-<td>![Dark Test Studio][6]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/project-settings/theme/fig5.png" alt="Light Test Studio" /></td>
+<td>
+
+<img src="/img/features/project-settings/theme/fig6.png" alt="Dark Test Studio" /></td>
 </tr>
-<table>
+</table>
 
 Test Studio Test Runner
-<table id="no-table">
-<tr>
-<td>![Light Test Runner][7]</td>
-<td>![Dark Test Runner][8]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/project-settings/theme/fig7.png" alt="Light Test Runner" /></td>
+<td>
+
+<img src="/img/features/project-settings/theme/fig8.png" alt="Dark Test Runner" /></td>
 </tr>
-<table>
+</table>
 
 Schedule a test list for remote execution
-<table id="no-table">
-<tr>
-<td>![Light TestList][9]</td>
-<td>![Dark TestList][10]</td>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
+
+<img src="/img/features/project-settings/theme/fig9.png" alt="Light TestList" /></td>
+<td>
+
+<img src="/img/features/project-settings/theme/fig10.png" alt="Dark TestList" /></td>
 </tr>
-<table>
+</table>
 
 Visual Studio integration with matching theme colors
-<table id="no-table">
-<tr>
-<td>![Light Visual Studio][11]</td>
-<td>![Dark Visual Studio][12]</td>
-</tr>
-<table>
+<table id="no-table" style="border:none;">
+<tr style="text-align: center; background-color: transparent; border:none;">
+<td>
 
-[1]: /img/features/project-settings/theme/fig1.png
-[2]: /img/features/project-settings/theme/fig2.png
-[3]: /img/features/project-settings/theme/fig3.png
-[4]: /img/features/project-settings/theme/fig4.png
-[5]: /img/features/project-settings/theme/fig5.png
-[6]: /img/features/project-settings/theme/fig6.png
-[7]: /img/features/project-settings/theme/fig7.png
-[8]: /img/features/project-settings/theme/fig8.png
-[9]: /img/features/project-settings/theme/fig9.png
-[10]: /img/features/project-settings/theme/fig10.png
-[11]: /img/features/project-settings/theme/fig11.png
-[12]: /img/features/project-settings/theme/fig12.png
+<img src="/img/features/project-settings/theme/fig11.png" alt="Light Visual Studio" /></td>
+<td>
+
+<img src="/img/features/project-settings/theme/fig12.png" alt="Dark Visual Studio" /></td>
+</tr>
+</table>
+

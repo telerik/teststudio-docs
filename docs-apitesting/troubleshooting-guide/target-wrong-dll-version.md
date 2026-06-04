@@ -3,7 +3,7 @@ title: Targeting Wrong API Framework DLL Version After Upgrade
 page_title: Targeting Wrong API Framework DLL Version After Upgrade
 description: "Progress® Test Studio® for APIs - Troubleshooting guide - Targeting Wrong API Framework DLL Version After Upgrade. Error 'Could not load file or assembly 'Telerik.ApiTesting.Framework, Version=' or one of its dependencies. The system cannot find the file specified. Die Datei oder Assembly 'Telerik.ApiTesting.Framework, Version=' oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden."
 position: 4
-publish: true
+published: true
 ---
 # Targeting Wrong API Framework DLL Version After Upgrade
 

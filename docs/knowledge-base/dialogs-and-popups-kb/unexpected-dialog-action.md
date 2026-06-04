@@ -1,15 +1,15 @@
----
+﻿---
 title: UnexpectedDialogAction
 page_title: UnexpectedDialogAction
 description: Handle any unexpected dialogs if such appear during test list execution. 
 position: 1
 ---
-#Avoiding Dialog Handling Problems with the UnexpectedDialogAction Feature#
+## Avoiding Dialog Handling Problems with the UnexpectedDialogAction Feature
 
 I am running tests as part of a test list. I am having trouble with dialog handler steps that timeout.
 
 
-##Solution##
+## Solution
 
 The problem is likely related to your test list settings. There's a setting called UnexpectedDialogAction which allows the tests (in a test list) to automatically handle dialogs that are deemed "unexpected." Since it's hard to distinguish between expected and unexpected dialogs, this feature handle dialogs that it shouldn't. Here's how to determine whether this is the problem you're experiencing:
 
@@ -24,17 +24,15 @@ Execute the problematic test as part of a test list, and then by Quick Execution
 
 If you determine that the UnexpectedDialogAction is causing unpredictable behavior in your test lists, set it *DoNotHandle* and the problem should disappear.
 
-###Standalone version###
+### Standalone version
 
 In Test Studio Standalone version, set the *UnexpectedDialogAction* from the *Edit Test List Settings menu*:
 
-![UnexpectedDialogAction][1]
+![UnexpectedDialogAction](/img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig1.png)
 
-###Visual Studio plugin###
+### Visual Studio plugin
 
 In the Visual Studio plugin, edit the <a href="/features/test-runners/MSTest" target="_blank">.testsettings</a> file that corresponds to the test list run:
 
-![UnexpectedDialogAction Visual Studio][2]
+![UnexpectedDialogAction Visual Studio](/img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig2.png)
 
-[1]: /img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig1.png
-[2]: /img/knowledge-base/dialogs-and-popups-kb/unexpected-dialog-action/fig2.png

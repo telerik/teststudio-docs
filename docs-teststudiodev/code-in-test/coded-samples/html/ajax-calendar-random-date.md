@@ -4,18 +4,15 @@ page_title: AJAX Calendar Random Date - Test Studio Dev Documentation
 description: AJAX Calendar Random Date
 position: 1
 ---
-#AJAX Calendar - Random Date Selection#
+# AJAX Calendar - Random Date Selection
 
 *I would like to select a random date from an Ajax Calendar.*
 
-##Solution##
+## Solution
 
 The code below will show you how to select a random date from the Calendar on <a href="http://www.weekendesk.fr/week-end/4398/week-end-a-Courseulles-sur-Mer-Normandie-Week-ends_gourmands" target="_blank">this site</a>.
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     //We scroll to the date picker so that we can see the click occurring. //Pages.WeekEndCourseullesSurMer.WeekendFormFormTag is a definition which Test Studio Dev automatically generated.
     Pages.WeekEndCourseullesSurMer.WeekendFormFormTag.ScrollToVisible(ScrollToVisibleType.ElementBottomAtWindowBottom);
                 
@@ -52,12 +49,8 @@ The code below will show you how to select a random date from the Calendar on <a
     
     //Click on the node after we reach it in the list.
     l.Value.MouseClick();
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     'We scroll to the date picker so that we can see the click occurring. //Pages.WeekEndCourseullesSurMer.WeekendFormFormTag is a definition which Test Studio Dev automatically generated.
     Pages.WeekEndCourseullesSurMer.WeekendFormFormTag.ScrollToVisible(ScrollToVisibleType.ElementBottomAtWindowBottom)
     
@@ -91,4 +84,4 @@ The code below will show you how to select a random date from the Calendar on <a
     
     'Click on the node after we reach it in the list.
     l.Value.MouseClick()
-    {{endregion}}
+````

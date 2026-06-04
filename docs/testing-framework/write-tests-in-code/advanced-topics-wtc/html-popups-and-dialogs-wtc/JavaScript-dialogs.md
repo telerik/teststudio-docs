@@ -14,7 +14,7 @@ __Telerik Testing Framework__ includes native support for dialog handling (under
 ><br>
 > _using ArtOfTest.WebAii.Win32.Dialogs;_
 
-```C#
+````C#
 
 // Define the Alert dialog and how it needs to be handled - choose between Ok and Cancel
 var alertDlg = new ArtOfTest.WebAii.Win32.Dialogs.AlertDialog(Manager.ActiveBrowser, DialogButton.CANCEL);
@@ -50,8 +50,8 @@ Manager.DialogMonitor.Stop();
 // especially if the elements to use are related to the action confirmed with the dialog handling
 //Manager.ActiveBrowser.RefreshDomTree();
 
-```
-```VB
+````
+````VB
 ' Define the Alert dialog
 IDialog alertDlg = New ArtOfTest.WebAii.Win32.Dialogs.AlertDialog(Manager.ActiveBrowser, DialogButton.OK)
 
@@ -77,7 +77,7 @@ Actions.InvokeScript("InvokeAlert()")
 Manager.DialogMonitor.RemoveDialog(alertDlg)
 Manager.DialogMonitor.Stop()
 
-```
+````
 
 
 

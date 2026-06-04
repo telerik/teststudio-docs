@@ -11,8 +11,8 @@ Each test step has a context menu with further actions that can be taken. Note t
 
 <table id="no-table">
 <tr>
-<td>![Step Context Menu - Navigate][1]</td>
-<td>![Step Context Menu][2]</td>
+<td><img src="images/test-step-context-menu/fig1.png" alt="Step Context Menu - Navigate" /></td>
+<td><img src="images/test-step-context-menu/fig2.png" alt="Step Context Menu" /></td>
 </tr>
 <table>
 
@@ -85,5 +85,3 @@ The options in this section are only available for Verification steps!
 - **Edit in Code** - converts the recorded step to a new method in the coded file related to the test. Notice that the description and icon change to indicate the step is now a coded one. Once converted, it cannot be switched back to the initially recorded step.
 - **View Code** - switches to the code-behind file and shows the test method for the selected coded step.
 
-[1]: images/test-step-context-menu/fig1.png
-[2]: images/test-step-context-menu/fig2.png

@@ -5,7 +5,7 @@ description: "Test Studio Testing Framework support in coded tests for sending d
 position: 1
 ---
 
-#The KeyBoard Manager Class#
+# The KeyBoard Manager Class
 
 The KeyBoard manager class is used to simulate typing keys on the keyboard. It has the following methods:
 

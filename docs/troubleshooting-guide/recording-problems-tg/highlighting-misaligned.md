@@ -1,4 +1,4 @@
----
+﻿---
 title: Highlighting Misaligned
 page_title: Highlighting Misaligned
 description: "While recording a Test Studio test the highlighting does not hover the correct elements. Highlighting is not aligned correctly. Highlight element issues. Highlight element is misaligned."
@@ -10,7 +10,7 @@ position: 1
 
 When I highlight an element the highlighting and the context menu are misaligned.
 
-![misaligned][1]
+![misaligned](/img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig1.png)
 
 ## Cause
 
@@ -33,7 +33,7 @@ To access the Display settings in Windows:
 3. Under __Scale and Layout__ section check the value set for the first option - __Change the size of text, ..__. 
 4. Ensure to set this to 100%. 
 
-![Display scale settings][2]
+![Display scale settings](/img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig2.png)
 
 ### Enlarge Text and Apps Option 
 
@@ -42,14 +42,11 @@ The Windows options to <a href="https://support.microsoft.com/en-us/windows/make
 1. Press the Windows key + U to open the __Ease of Access__ settings. 
 2. Under __Make text bigger__ section, drag the slider to the left to set it to 100%.
 
-![Larger text settings][3]
+![Larger text settings](/img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig3.png)
 
 ### Browser Calibration Settings
 
 Ensure <a href="/features/project-settings/browsers" target="_blank">the browser is calibrated</a>. 
 
 
-[1]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig1.png
-[2]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig2.png
-[3]: /img/troubleshooting-guide/recording-problems-tg/highlighting-misaligned/fig3.png
 

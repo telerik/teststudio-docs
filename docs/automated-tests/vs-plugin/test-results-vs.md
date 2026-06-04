@@ -1,4 +1,4 @@
----
+﻿---
 title: Test Results (VS Plugin)
 page_title: Test Results (VS plugin)
 description: "Review Test Studio Test Results in Visual Studio. Where to find the  the Test Studio test execution results from Test Explorer run. Where to find the  the Test Studio test execution results from quick execution run."
@@ -25,9 +25,8 @@ After the __Quick Execution__ of a test, you can explore the <a href="/automated
 
 When executing the tests from the <a href="/getting-started/test-execution/vs-2012-test-explorer" target="_blank">Visual Studio Test Explorer</a> you can see the results in the  pane of the Test Explorer - depending on the layout you are using this can be under or next to the list of tests.
 
-![View test results 2012][6]
+![View test results 2012](/img/general-information/test-results/test-results-vs/fig6.png)
 
-[3]: /img/general-information/test-results/test-results-vs/fig3.png
-[4]: /img/general-information/test-results/test-results-vs/fig4.png
-[5]: /img/general-information/test-results/test-results-vs/fig5.png
-[6]: /img/general-information/test-results/test-results-vs/fig6.png
+
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: History View
 page_title: Performance Testing History View
 description: "History View of performance test results in Test Studio."
@@ -8,19 +8,19 @@ position: 2
 
 Click the **History** button in the **Views** ribbon. Each Performance Run is listed as a row in the grid. Click a column header to sort by that column. Each Run is also represented on the line graph below the grid.
 
-![History View][1]
+![History View](/img/features/testing-types/performance-testing/history-view/fig1.png)
 
 The first column of the grid shows a chart icon. Click that icon for the Run you wish to establish as your performance baseline. Only one run can be designated as the Benchmark.
 
-![Benchmark][2]
+![Benchmark](/img/features/testing-types/performance-testing/history-view/fig2.png)
 
 Click the **Date** field for a Run to see its Overview.
 
-![Date][3]
+![Date](/img/features/testing-types/performance-testing/history-view/fig3.png)
 
 The last column of the grid shows a delete icon. Click that icon to send that Performance Run to the Recycle Bin. Once in the Recycle Bin, Runs can be restored or permanently deleted.
 
-![Delete][4]
+![Delete](/img/features/testing-types/performance-testing/history-view/fig4.png)
 
 - Performance Run files have a .tsperf file extension.
 - The file name consists of a string of digits and the machine name, for example:
@@ -30,8 +30,4 @@ The last column of the grid shows a delete icon. Click that icon to send that Pe
 
 
 
-[1]: /img/features/testing-types/performance-testing/history-view/fig1.png
-[2]: /img/features/testing-types/performance-testing/history-view/fig2.png
-[3]: /img/features/testing-types/performance-testing/history-view/fig3.png
-[4]: /img/features/testing-types/performance-testing/history-view/fig4.png
 

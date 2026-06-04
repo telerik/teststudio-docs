@@ -52,12 +52,12 @@ The available options related to test execution in the Step pane are listed belo
 | ![Test Properties](images/steps-pane/fig32.png) | __Test Properties__ - Displays the test properties |
 
 [1]: images/steps-pane/fig1.png
-[2]: images/steps-pane/fig2.png
+
 [3]: images/steps-pane/fig3.png
 [4]: images/steps-pane/fig4.png
 [5]: images/steps-pane/fig5.png
 [6]: images/steps-pane/fig6.png
-[7]: images/steps-pane/fig7.png
+
 [8]: images/steps-pane/fig8.png
 [9]: images/steps-pane/fig9.png
 [10]: images/steps-pane/fig10.png
@@ -67,6 +67,6 @@ The available options related to test execution in the Step pane are listed belo
 [14]: images/steps-pane/fig14.png
 [15]: images/steps-pane/fig15.png
 [16]: images/steps-pane/fig16.png
-[17]: images/steps-pane/fig17.png
+
 [18]: images/steps-pane/fig18.png
 [19]: images/steps-pane/fig19.png

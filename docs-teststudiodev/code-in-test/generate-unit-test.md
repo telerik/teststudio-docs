@@ -22,15 +22,14 @@ A unit test file and XML file containing your data are created in your Test Proj
 
 **Note:** When you convert an entire test to code, it doesn't take into account the **Enable Silverlight** setting. You need to enable it in code prior to the LaunchNewBrowser call:
 
-```C#
+````C#
 Manager.Settings.Web.EnableSilverlight = true;
 Manager.LaunchNewBrowser();
-```
-
-```VB
+````
+````VB
 Manager.Settings.Web.EnableSilverlight = True
 Manager.LaunchNewBrowser()
-```
+````
 
 ## Preview Code
 

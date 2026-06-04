@@ -1,4 +1,4 @@
----
+﻿---
 title: Using NUnit
 page_title: Using NUnit
 description: "Test Studio Testing Framework with NUnit test"
@@ -18,31 +18,31 @@ Telerik Automation Infrastructure comes with the following features to facilitat
 
 * Unifies the log content. Any logging from Telerik automation using its Log object will also be logged to NUnit's output including logging from JavaScript. For example:
 
-```C#
+````C#
 [Test]
 public void NUnitLog()
 {
      Log.WriteLine("Hi from WebAii");
 }
-```
-```VB
+````
+````VB
 <Test()> _
 Public Sub NUnitLog()
   
      Log.WriteLine("Hi from WebAii")
   
 End Sub
-```
+````
 
 NUnit log:
 
-![NUnit log][1]
+![NUnit log](/img/testing-framework/using-nunit/fig1.png)
 
 * Telerik settings can be read directly from the **app.Config** of your test project. This allows you to configure your Telerik tests using the same .config file that you might be using to store your connection strings or other settings for your test suite.
 
 * When installing Telerik Testing Framework, a new fully commented NUnit item template will be added to your list of available templates. This will enable you to start using Telerik Testing Framework by simply selecting it from the Add->New Item tool menu (or context menu) available to your VS project. You are provided with both a C# and a VB.NET template.
 
-##Getting Started Using NUnit##
+## Getting Started Using NUnit
 
 In this section we will walk you through the steps to get you started using Telerik Testing Framework with NUnit.
 
@@ -52,7 +52,7 @@ In this section we will walk you through the steps to get you started using Tele
 
 * Visual Studio will pop-up the Add New Item dialog as shown below.
 
-![Create NUnit project][2]
+![Create NUnit project](/img/testing-framework/using-nunit/fig2.png)
 
 * Expand the Test node displayed on the left then select Telerik Testing Framework. You should see four templates as shown in the image above.
 
@@ -72,11 +72,11 @@ In this section we will walk you through the steps to get you started using Tele
 
 3. That's it! Verify that the extension is installed correctly from NUnit by checking the (Tools-Addins) dialog. It should look like this:
 
-![Register Addins][3]
+![Register Addins](/img/testing-framework/using-nunit/fig3.png)
 
 * Start writing your automated Telerik unit tests.
 
-##Telerik's NUnit Template##
+## Telerik's NUnit Template
 
 Telerik NUnit tests inherit from a base test class called **BaseTest** that lives in the **ArtOfTest.WebAii.TestTemplate** namespace. The base class, in addition to providing the integration benefits described above, provides:
 
@@ -120,17 +120,17 @@ Telerik NUnit tests inherit from a base test class called **BaseTest** that live
 
 * The base class also offers different options that you might want to choose from depending on the scenarios and your testing environment. The Telerik template installed on your machines, by default uses the following initialization:
 
-```C#
+````C#
 Initialize(new TestContextWriteLine(Console.Out.WriteLine));
-```
-```VB
+````
+````VB
 Initialize(New TestContextWriteLine(AddressOf Console.Out.WriteLine))
-```
+````
 
 The above initialization passes in a delegate to the WriteLine method of NUnit so that you can unify the logging across both frameworks. If that initialization does not work for you, you can choose to pass in different parameters or choose to do your own custom setup of the framework. For example, if you want to override some of the settings from the .config file in one or two of your test cases, you can simply do the following:
 
 
-```C#
+````C#
 // This will get a new Settings object. If a configuration
 // section exists, then settings from that section will be
 // loaded
@@ -142,8 +142,8 @@ settings.DefaultBrowser = BrowserType.FireFox;
   
 // Now call Initialize again with your updated settings object
 Initialize(settings, new TestContextWriteLine(Console.Out.WriteLine));
-```
-```VB
+````
+````VB
 ' This will get a new Settings object. If a configuration
 ' section exists, then settings from that section will be
 ' loaded
@@ -155,25 +155,25 @@ mySettings.DefaultBrowser = BrowserType.FireFox
   
 ' Now call Initialize again with your updated settings object
 Initialize(mySettings, New TestContextWriteLine(AddressOf Console.Out.WriteLine))
-```
+````
 
 Also if you don't really want to unify the logging and would prefer the framework to perform its own logging in a custom folder, you can simply use the following overload:
 
 
-```C#
+````C#
 Initialize(myCustomLocation);
-```
-```VB
+````
+````VB
 Initialize(myCustomLocation)
-```
+````
 
 For more information on Telerik Testing Framework's settings & configuration please refer to the <a href="/testing-framework/write-tests-in-code/intermediate-topics-wtc/settings-and-configuration-wtc/settings-class" target="_blank">Settings and Configuration</a> topic.
 
-##Starting Automation##
+## Starting Automation
 
 Now that we have an understanding of the template, we can start automating right away. Pick your test method and start writing your automation test code for your unit test. For example:
 
-```C#
+````C#
 [Test]
 [Description("My simple demo")]
 public void SimpleTest()
@@ -187,8 +187,8 @@ public void SimpleTest()
      // verify the title is actually Google.
      Assert.AreEqual("Google", ActiveBrowser.Find.ByTagIndex("title", 0).InnerText);
 }
-```
-```VB
+````
+````VB
 <Test(), _
 Description("My simple demo")> _
 Public Sub SimpleTest()
@@ -203,8 +203,5 @@ Public Sub SimpleTest()
      Assert.AreEqual("Google", ActiveBrowser.Find.ByTagIndex("title", 0).InnerText)
   
 End Sub
-```
+````
 
-[1]: /img/testing-framework/using-nunit/fig1.png
-[2]: /img/testing-framework/using-nunit/fig2.png
-[3]: /img/testing-framework/using-nunit/fig3.png

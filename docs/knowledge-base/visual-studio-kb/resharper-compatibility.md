@@ -1,14 +1,14 @@
----
+﻿---
 title: ReSharper Compatibility
 page_title: ReSharper Compatibility
 description: ReSharper Compatibility in Test Studio. Cannot resolve symbol error messages in Test Studio.
 position: 1
 ---
-#ReSharper Compatibility#
+## ReSharper Compatibility
 
 *With ReSharper installed, you receive Cannot resolve symbol error messages in Test Studio code-behind files.*
 
-##Solution##
+## Solution
 
 ReSharper is warning you that it cannot locate the definition of the element in the project. The problem is that element definitions are kept in our Pages.g.cs(vb) file. This file is not included in the Visual Studio test project, but is included during project builds using an internal custom build task that is defined by Progress Test Studio. 
  
@@ -18,7 +18,8 @@ The error message is benign and can be safely ignored.
 
 Pages.MainPage.FrameContentIFrame*
 
-##Solution##
+
+## Solution
 
 Disable ReSharper's IntelliSense and enable Visual Studio's.
 
@@ -26,6 +27,5 @@ Disable ReSharper's IntelliSense and enable Visual Studio's.
 
 2. Select **Visual Studio**.
 
-![VS IntelliSense][1]
+![VS IntelliSense](/img/knowledge-base/visual-studio-kb/resharper-compatibility/fig1.png)
 
-[1]: /img/knowledge-base/visual-studio-kb/resharper-compatibility/fig1.png

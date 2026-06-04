@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a Manual Test
 page_title: Create a Manual Test
 description: "Create a Manual Test in Test Studio."
@@ -6,13 +6,13 @@ position: 2
 ---
 # Create a Manual Test
 
-1&nbsp; <a href="/getting-started/create-test-standalone/add-test" target="_blank">Add a Manual Test to Your Project</a>.
+1 <a href="/getting-started/create-test-standalone/add-test" target="_blank">Add a Manual Test to Your Project</a>.
 
-2&nbsp; The Test tab opens and displays the new Manual Test. Type the intended action for each test step. Press Enter to advance to the next step.
+2 The Test tab opens and displays the new Manual Test. Type the intended action for each test step. Press Enter to advance to the next step.
 
-![Manual test][1]
+![Manual test](/img/general-information/create-test-standalone/manual-test/step-panel.png)
 
-3&nbsp; You can edit the __Test Details__ and __Notes__ of the Manual Test:
+3 You can edit the __Test Details__ and __Notes__ of the Manual Test:
 
 * __Description__ - add more details about your test
 * __Owner__ - the person responsible for the test.
@@ -21,7 +21,5 @@ position: 2
 * __Notes__ - add helpful descriptions and test requirements.
 * __Images__ - attach screen shots or image assets of your application.
 
-![Manual test view][2]
+![Manual test view](/img/general-information/create-test-standalone/manual-test/maual-test-screen.png)
 
-[1]: /img/general-information/create-test-standalone/manual-test/step-panel.png
-[2]: /img/general-information/create-test-standalone/manual-test/maual-test-screen.png

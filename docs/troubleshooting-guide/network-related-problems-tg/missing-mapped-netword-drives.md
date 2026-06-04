@@ -1,4 +1,4 @@
----
+﻿---
 title: Missing mapped network drives
 page_title: Missing mapped network drives
 description: "Missing mapped network drives when handling download and upload dialogs in Test Studio test"
@@ -6,13 +6,13 @@ position: 1
 ---
 # Missing mapped network drives
 
-##Problem:
+## Problem:
 
 When open a new project in Test Studio the browser dialog may not show the mapped network drives:
 
-![missing drives][1]
+![missing drives](/img/troubleshooting-guide/network-related-problems-tg/fig1.png)
 
-##Solution:
+## Solution:
 
 You need to set the following registry option:
 
@@ -20,19 +20,17 @@ You need to set the following registry option:
 
     EnableLinkedConnections=1
 
-1.&nbsp; Run **regedit**.
+1. Run **regedit**.
 
-2.&nbsp; Locate *HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/System*
+2. Locate *HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/System*
 
-3.&nbsp; Create a new **DWORD** entry with the name **EnableLinkedConnections** and **value 1**.
+3. Create a new **DWORD** entry with the name **EnableLinkedConnections** and **value 1**.
 
-![Enable Linked Connections][2]
+![Enable Linked Connections](/img/troubleshooting-guide/network-related-problems-tg/fig2.png)
 
-4.&nbsp; Restart your computer.
+4. Restart your computer.
 
-5.&nbsp; Now you should be able to see and use the network drives in Test Studio.
+5. Now you should be able to see and use the network drives in Test Studio.
 
 
-[1]: /img/troubleshooting-guide/network-related-problems-tg/fig1.png
-[2]: /img/troubleshooting-guide/network-related-problems-tg/fig2.png
 

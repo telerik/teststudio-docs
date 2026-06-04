@@ -9,7 +9,6 @@ tags: telerik test studio, ui testing, virtual machine, vgpu, session monitor
 res_type: kb
 ticketid: 1698547
 ---
-# Test Studio UI Testing on Virtual Machines Fails Without Active User Session
 
 ## Description
 

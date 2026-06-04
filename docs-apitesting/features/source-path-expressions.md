@@ -3,7 +3,7 @@ title: Source Path Expressions
 page_title: Source Path Expressions
 description: "Progress® Test Studio® for APIs - Source Path Expressions"
 position: 0
-publish: true
+published: true
 ---
 
 # Source Path Expressions

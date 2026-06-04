@@ -4,13 +4,13 @@ page_title: Custom HtmlControl - Test Studio Dev Documentation
 description: Custom HtmlControl
 position: 2
 ---
-#Creating Your Own Custom HtmlControls#
+# Creating Your Own Custom HtmlControls
 
 Let's suppose you're testing a web site that uses a third party or custom control. You can easily create your own custom HtmlControl class and then design tests that interact with the custom control via your custom HtmlControl class.
  
 As an example, let's create a custom HtmlControl that wraps the ASP.NET calendar control. We'll give it some methods for reading and controlling the date selection along with a custom ClientSideLocator just for an example. First here's our ASPX web page containing a calendar control that we want to test
 
-```
+````
 <% @ Page Language="C#" MasterPageFile="~/AppMaster.master" Title="Untitled Page" %>
 <% @ Import Namespace="System.Data" %>
 <% @ Register Assembly="ArtOfTest.WebAii.AspNet" Namespace="ArtOfTest.WebAii.AspNet.WebControls" TagPrefix="test" %>
@@ -146,14 +146,11 @@ As an example, let's create a custom HtmlControl that wraps the ASP.NET calendar
      </test:TestRegion>
      <!-- This Data Page Content -->
 </asp:Content>
-```
+````
 
 Let's put together our custom HtmlControl that we can use interact with an ASP.NET calendar control:
 
-#### __[C#]__
-
-            {{region }}
-
+````C#        
     public class AspNetCalendar : HtmlTable
         {
             /// <summary>
@@ -284,12 +281,8 @@ Let's put together our custom HtmlControl that we can use interact with an ASP.N
                 return GetMonth();
             }
         }
-    {{endregion}}
-
-#### __[VB]__
-
-                {{region }}
-
+````
+````VB            
     Public Class AspNetCalendar
             Inherits HtmlTable
             ''' <summary>
@@ -408,7 +401,7 @@ Let's put together our custom HtmlControl that we can use interact with an ASP.N
                 Return GetMonth()
             End Function
         End Class
-    {{endregion}}
+````
 
 Notice how we derive from an HtmlTable. That way we can take advantage of all the functionality already built into a standard table. We'll just add all the functions useful for our calendar control which include:
 

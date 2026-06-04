@@ -1,4 +1,4 @@
----
+﻿---
 title: Error Starting Services
 page_title: Error Starting Services
 description: "Test Studio installation error Service 'Telerik Scheduling Service' (Telerik Scheduling Service) failed to start. Verify that you have sufficient privileges to start system services. How to resolve Test Studio Scheduling service not starting during the installation of the tool"
@@ -28,7 +28,7 @@ This error may appear if the default port used for the Scheduling service - 8009
 
 1. Change the port (highlighted in the image below) to another port - for example 8010. Save the changes and continue with installation.
 
-    ![Change port][1]
+    ![Change port](/img/troubleshooting-guide/installation-problems-tg/error-starting-services/fig1.png)
 
 1. Restart the installation.
 
@@ -47,5 +47,4 @@ This error may appear if the default port used for the Scheduling service - 8009
 
 3. Restart the installation.
 
-[1]: /img/troubleshooting-guide/installation-problems-tg/error-starting-services/fig1.png
 

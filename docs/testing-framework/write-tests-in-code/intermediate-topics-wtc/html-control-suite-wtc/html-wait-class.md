@@ -4,7 +4,7 @@ page_title: HtmlWait Class
 description: "Test Studio Testing Framework HtmlWait Class used to wait for visibility state of an HTML element identified in the DOM in coded tests. Wait for an element's custom condition in coded tests."
 position: 2
 ---
-#How to Use the HtmlWait Class#
+# How to Use the HtmlWait Class
 
 The HtmlWait class extends and enhances the Element.Wait class with some powerful methods that are very useful with the HTML control suite. It adds:
 
@@ -17,7 +17,7 @@ The HtmlWait class extends and enhances the Element.Wait class with some powerfu
 The HtmlWait.ForVisible and HtmlWait.ForVisibleNot use the HtmlControl.IsVisible function to test whether or not the element is currently visible in the browser. Since IsVisible follows the CSS chain, we get a true reading of whether or not the element actually is visible. For example:
 
 
-```C#
+````C#
 HtmlDiv div = Find.ByTagIndex<HtmlDiv>("div", 0);
 HtmlWait waitObj = div.Wait;
   
@@ -32,8 +32,8 @@ waitObj.Timeout = 1200000;        // Override the default value
 waitObj.ForVisible();
 // Wait 120 seconds for the div to become invisible
 waitObj.ForVisibleNot();
-```
-```VB
+````
+````VB
 HtmlDiv div = Find.ByTagIndex<HtmlDiv>("div", 0);
 HtmlWait waitObj = div.Wait;
   
@@ -48,11 +48,11 @@ waitObj.Timeout = 1200000;        // Override the default value
 waitObj.ForVisible();
 // Wait 120 seconds for the div to become invisible
 waitObj.ForVisibleNot();
-```
+````
 
 Using the HtmlWait.ForStyles and HtmlWait.ForStylesNot methods you can wait for a particular style to be set or removed from the element. For example:
 
-```C#
+````C#
 HtmlSpan span = Find.ByTagIndex<HtmlSpan>("span", 0);
 HtmlWait spanWaitObj = div.Wait;
   
@@ -84,8 +84,8 @@ spanWaitObj.ForStylesNot("backgroundColor=red", "margin=30px");
 // Will continue to wait if either style is still set to the specified value.
 // Uses the default timeout value from Settings.Current.ExecuteCommandTimeout
 span.Wait.ForStylesNot("backgroundColor=red", "margin=30px");
-```
-```VB
+````
+````VB
 Dim span As HtmlSpan = Find.ByTagIndex(Of HtmlSpan)("span", 0)
 Dim spanWaitObj As HtmlWait = div.Wait
   
@@ -117,29 +117,29 @@ spanWaitObj.ForStylesNot("backgroundColor=red", "margin=30px")
 ' Will continue to wait if either style is still set to the specified value.
 ' Uses the default timeout value from Settings.Current.ExecuteCommandTimeout
 span.Wait.ForStylesNot("backgroundColor=red", "margin=30px")
-```
+````
 
 
 The HtmlWait.ForCondition is an advanced method that calls a user defined function to determine whether or not the wait condition has been satisfied. You, the test automation programmer, may code up any sort of wait condition you can imagine. The only requirement is that your function must return true to indicate that the condition has been satisfied or return false to indicate the condition has not been satisfied.
  
 The overloads of the HtmlWait.ForCondition are split into two virtually identical sets of three overloads. The first set operates on basic Element objects. The second set operates on Control objects, which all of the classes contained in the HTML control suite derive from. Except for this difference, they operate identically. The sample below shows only the Control version:
 
-```C#
+````C#
 HtmlTextArea textArea = Find.ByTagIndex<HtmlTextArea>("textarea", 0);
 HtmlWait textAreaWaitObj = textArea.Wait;
 // Wait 30 seconds for the HtmlTextArea element to contain the text "Now is the time"
 textArea.Wait.ForCondition(textAreaContainsStr, false, "Now is the time", 30000);
-```
-```VB
+````
+````VB
 Dim textArea As HtmlTextArea = Find.ByTagIndex(Of HtmlTextArea)("textarea", 0)
 Dim textAreaWaitObj As HtmlWait = textArea.Wait
 ' Wait 30 seconds for the HtmlTextArea element to contain the text "Now is the time"
 textArea.Wait.ForCondition(AddressOf textAreaContainsStr, False, "Now is the time", 30000)
-```
+````
 
 Now we need the definition of the condition function 'textAreaContainsStr':
 
-```C#
+````C#
 /// <summary>
 /// Tests whether or not the HtmlTextArea element contains the specified string.
 /// </summary>
@@ -161,8 +161,8 @@ public bool textAreaContainsStr(ArtOfTest.WebAii.Controls.Control ctl, Object ob
     HtmlTextArea textArea = (HtmlTextArea)ctl;
     return textArea.Text.Contains((string)obj);
 }
-```
-```VB
+````
+````VB
 ''' <summary>
 ''' Tests whether or not the HtmlTextArea element contains the specified string.
 ''' </summary>
@@ -183,4 +183,4 @@ Public Function textAreaContainsStr(ByVal ctl As ArtOfTest.WebAii.Controls.Contr
     Return textArea.Text.Contains(CType(obj, String))
   
 End Function
-```
+````

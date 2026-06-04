@@ -1,4 +1,4 @@
----
+﻿---
 title: Compare View
 page_title: Performance Testing Compare View
 description: "Compare View of multiple performance test results in Test Studio."
@@ -9,30 +9,26 @@ position: 5
 
 Use this feature to put two Runs side by side and identify potential regressions.
 
-1.&nbsp; Click the **Compare** button in the **Performance** tab.
+1. Click the **Compare** button in the **Performance** tab.
 
-![Compare][1]
+![Compare](/img/features/testing-types/performance-testing/compare-view/fig1.png)
 
-2.&nbsp; Select two results to compare in section 1.
+2. Select two results to compare in section 1.
 
 - Click View to go to the Overview of that profile.
 - Click the double arrow icon to flip the comparison of profiles A and B.
 
-![Results to compare][2]
+![Results to compare](/img/features/testing-types/performance-testing/compare-view/fig2.png)
 
-3.&nbsp; Set a limit to the difference threshold in section 2. Click **Reset** to set thresholds back to zero.
+3. Set a limit to the difference threshold in section 2. Click **Reset** to set thresholds back to zero.
 
-![Reset][3]
+![Reset](/img/features/testing-types/performance-testing/compare-view/fig3.png)
 
-4.&nbsp; View the data for each step in the **Comparison Results** section.
+4. View the data for each step in the **Comparison Results** section.
 
-![Comparison results][4]
+![Comparison results](/img/features/testing-types/performance-testing/compare-view/fig4.png)
 
 - Click **Expand** to show details for each step.
 - Click **Collapse** to hide all details.
 - Click the arrow icon by a step to expand or collapse its details.
 
-[1]: /img/features/testing-types/performance-testing/compare-view/fig1.png
-[2]: /img/features/testing-types/performance-testing/compare-view/fig2.png
-[3]: /img/features/testing-types/performance-testing/compare-view/fig3.png
-[4]: /img/features/testing-types/performance-testing/compare-view/fig4.png

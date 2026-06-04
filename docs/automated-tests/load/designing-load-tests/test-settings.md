@@ -1,4 +1,4 @@
----
+﻿---
 title: Load Test Settings
 page_title: Load Test Settings
 description: "Load Test Settings in Test Studio - User Profile Name, Workload, Available Users, Time"
@@ -14,7 +14,7 @@ In the Test Studio load test can be added multiple <a href="/features/testing-ty
 
 This setting is called __Workload__ and this is the percentage of virtual users used for a User Profile compared to all the User Profiles included in the test. Set the percentage with the Workload slider in the _Design_ section of a load test.
 
-![Workload][3]
+![Workload](/img/features/testing-types/load-testing/test-settings/fig3.png)
 
 **See Also:** <a href="/knowledge-base/load-testing-kb/virtual-users" target="_blank">Workload and the concept of Virtual Users in Test Studio</a>
 
@@ -22,7 +22,7 @@ This setting is called __Workload__ and this is the percentage of virtual users 
 
 In the _Available Users_ section, you can specify how many concurrent VUs to use during the load test. Depending on the type of testing you need to perform, you can use different amounts of users and times to ramp up these.
 
-![Available users and time settings][4]
+![Available users and time settings](/img/features/testing-types/load-testing/test-settings/fig4.png)
 
 **See Also:** <a href="/knowledge-base/load-testing-kb/load-strategies" target="_blank">Load Strategies</a>
 
@@ -30,13 +30,13 @@ In the _Available Users_ section, you can specify how many concurrent VUs to use
 
 Specify the amount of users to start and end the load test run. Depending on the scenario, the amount can be increasing, decreasing or constant.
 
-![Users to use during the run][4a]
+![Users to use during the run](/img/features/testing-types/load-testing/test-settings/fig4a.png)
 
 ### Time
 
 Specify the _Ramp Up/Down_ time and the total load test duration. The _Ramp Up/Down_ time is the amount of time to gradually increase or decrease the total concurrent VUs using the values set for _Start Users_ and _End Users_.
 
-![Ramp Time][5]
+![Ramp Time](/img/features/testing-types/load-testing/test-settings/fig5.png)
 
 > The _Ramp Up/Down_ time cannot exceed the total time to run the test and will not be applied for the test run, if the virtual users amount is constant.
 
@@ -44,12 +44,7 @@ Specify the _Ramp Up/Down_ time and the total load test duration. The _Ramp Up/D
 
 Any changes in the Test Settings will appear in the _Users Over Time_ graph.
 
-![Time Graph][6]
+![Time Graph](/img/features/testing-types/load-testing/test-settings/fig6.png)
 
-[1]: /img/features/testing-types/load-testing/test-settings/fig1.png
-[2]: /img/features/testing-types/load-testing/test-settings/fig2.png
-[3]: /img/features/testing-types/load-testing/test-settings/fig3.png
-[4]: /img/features/testing-types/load-testing/test-settings/fig4.png
-[4a]: /img/features/testing-types/load-testing/test-settings/fig4a.png
-[5]: /img/features/testing-types/load-testing/test-settings/fig5.png
-[6]: /img/features/testing-types/load-testing/test-settings/fig6.png
+
+

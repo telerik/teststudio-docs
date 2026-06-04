@@ -4,20 +4,17 @@ page_title: Verify Sort Order - Test Studio Dev Documentation
 description:  Verify Sort Order
 position: 1
 ---
-# Verify Sort Order in an HTML Table #
+# Verify Sort Order in an HTML Table
 
 *I would like to sort a column in an HTML Table and verify the content is in the correct order.*
 
-## Solution ##
+## Solution
 
 This is possible with a coded solution. The example below is against this <a href="http://demos.telerik.com/aspnet-mvc/grid/index" target="_blank">Telerik demo site</a>.
 
 Let's verify the first column, Order ID, is in sequential order:
 
-#### __[C#]__
-
-    {{region }}
-
+````C#
     //Get the table.
     HtmlTable table = Find.ByExpression<HtmlTable>("id=Grid", "|", "tagIndex=table:1");
     
@@ -45,12 +42,8 @@ Let's verify the first column, Order ID, is in sequential order:
             Assert.IsTrue(list[j+1].CompareTo(list[j]) >= 0);
         }
     }
-    {{endregion}}
-
-#### __[VB]__
-
-    {{region }}
-
+````
+````VB
     Dim table As HtmlTable = Find.ByExpression(Of HtmlTable)("id=Grid", "|", "tagIndex=table:1")
     
     Dim r As Integer = table.Rows.Count
@@ -72,4 +65,4 @@ Let's verify the first column, Order ID, is in sequential order:
             Assert.IsTrue(list(j + 1).CompareTo(list(j)) >= 0)
         End If
     Next
-    {{endregion}}
+````

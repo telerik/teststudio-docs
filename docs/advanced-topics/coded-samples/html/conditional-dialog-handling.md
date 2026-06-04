@@ -42,8 +42,8 @@ catch (TimeoutException)
 Manager.DialogMonitor.RemoveDialog(ad);
  
 ActiveBrowser.NavigateTo("http://www.bing.com");
-```
-```VB
+````
+````VB
 ActiveBrowser.NavigateTo("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert")
  
 
@@ -63,5 +63,5 @@ End Try
 Manager.DialogMonitor.RemoveDialog(ad)
  
 ActiveBrowser.NavigateTo("http://www.bing.com")
-```
+````
 

@@ -4,7 +4,7 @@ page_title: No Internet Connection
 description: "Progress® Test Studio® for APIs - Troubleshooting guide - No Internet Connection"
 previous_url: /troubleshooting-guide/deregister-proxy
 position: 3
-publish: true
+published: true
 ---
 # No Internet Connection
 

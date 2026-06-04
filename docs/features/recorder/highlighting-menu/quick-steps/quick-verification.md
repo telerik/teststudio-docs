@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Verification Step
 page_title: Add Verification Step
 description: "Test Studio provides quick verification suggestions during recording based on the highlighted element. Verifications are useful for asserting the state of element in the tested application. Use one click to add verification in Test Studio test."
@@ -49,15 +49,15 @@ Test Studio implements verification through "sentences" that compare a portion o
 
 The <a href="/automated-tests/recording/hover-over-highlighting" target="_blank">Highlighting menu</a> gives quick access to a set of predefined verifications, which can be added with a single click while recording. You can follow the below steps to insert a quick verification step in your test.
 
-1.&nbsp; Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/teststudio" target="_blank">Test Studio official page</a>.
+1. Create a test and start a recording session. Navigate to the tested application - in this example we use a web test and the <a href="https://www.telerik.com/teststudio" target="_blank">Test Studio official page</a>.
 
-2.&nbsp; This sample scenario clicks on the __Download Free Trial__ button and enables highlighting on the next page. Hold the mouse over the title and add a verification for its text content to ensure the correct product download is triggered.
+2. This sample scenario clicks on the __Download Free Trial__ button and enables highlighting on the next page. Hold the mouse over the title and add a verification for its text content to ensure the correct product download is triggered.
 
-![Add quick verification][1]
+![Add quick verification](/img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/add-quick-verification.gif)
 
-3.&nbsp; Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the verification step and allow you to change the compare type or expected string value.
+3. Some of the <a href="/features/test-maintenance/test-step-properties" target="_blank">step properties</a> are specific for the verification step and allow you to change the compare type or expected string value.
 
-![Step Properties][3]
+![Step Properties](/img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig3.png)
 
 ## Create a Verification Step without Recording Session
 
@@ -65,15 +65,15 @@ The automated test execution is much faster than a real user and often you find 
 
 For the cases when the project and scenarios are quite complex, you can __add verification steps for an already recorded element__ and without starting a recording session. The below list guide you through the steps for this:
 
-1.&nbsp; Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
+1. Open a test in which you need to add a step. Choose an element from the __Elements Explorer__.
 <br>
 __Note:__  Usually, the verification step to insert is related to an action step and its element. Thus, if you click on that action step, its target element gets highlighted in the Elements Explorer with a red arrow. Select the element and proceed to the Step Builder.
 
-2.&nbsp; Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
+2. Click the **Step Builder** pane to activate it. Under the __Actions__ and __Verification__ sections, you can see the options corresponding to the type of selected element.
 
-3.&nbsp; Choose the verification you need and click the **Add Step** button to insert the step in the test.
+3. Choose the verification you need and click the **Add Step** button to insert the step in the test.
 
-![Step Builder Verification][2]
+![Step Builder Verification](/img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig2.png)
 
 > __Tip__
 ><br>
@@ -84,6 +84,3 @@ __Note:__  Usually, the verification step to insert is related to an action step
 
 * <a href="/features/recorder/advanced-recording-tools/element-steps/verifications/advanced-verification" target="_blank">Advanced verification</a>
 
-[1]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/add-quick-verification.gif
-[2]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig2.png
-[3]: /img/features/recorder/advanced-recording-tools/element-steps/verifications/quick-verification/fig3.png

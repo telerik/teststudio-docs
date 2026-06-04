@@ -24,27 +24,27 @@ If we run the test against this html source:
 
 The following find expression will return NullReferenceException:
 
-```C#
+````C#
 HtmlAnchor elementName = ActiveBrowser.Find.ByContent<HtmlAnchor>("Test");
-```
-```VB
+````
+````VB
 Dim elementName As HtmlAnchor = ActiveBrowser.Find.ByContent(Of HtmlAnchor)("Test")
-```
+````
 
 The solution is to use either the correct element type:
 
-```C#
+````C#
 HtmlDiv elementName = ActiveBrowser.Find.ByContent<HtmlDiv>("Test");
-```
-```VB
+````
+````VB
 Dim elementName As HtmlDiv = ActiveBrowser.Find.ByContent(Of HtmlDiv)("Test")
-```
+````
 
 or call the method without specifying element type: 
 
-```C#
+````C#
  Element a = ActiveBrowser.Find.ByContent("Test");
-```
-```VB
+````
+````VB
 Dim a As Element = ActiveBrowser.Find.ByContent("Test")
-```
+````

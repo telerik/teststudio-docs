@@ -1,4 +1,4 @@
----
+﻿---
 title: Start a Manual Test
 page_title: Start a Manual Test
 description: "Start a Manual Test in Test Studio."
@@ -6,40 +6,34 @@ position: 2
 ---
 # Start a Manual Test
 
-1.&nbsp; Click **Start Manual Test** from the **Next Steps** ribbon or in the test notes area.
+1. Click **Start Manual Test** from the **Next Steps** ribbon or in the test notes area.
 
-![Start Manual][1]
+![Start Manual](/img/features/testing-types/manual-testing/start-test/start-manual-test-button.png)
 
-2.&nbsp; Open the website or application you are testing. Click **Continue**.
+2. Open the website or application you are testing. Click **Continue**.
 
-![Continue][2]
+![Continue](/img/features/testing-types/manual-testing/start-test/manual-test-prompt-1.png)
 
-3.&nbsp; Perform the test. For each step you can:
+3. Perform the test. For each step you can:
 
 - Mark it as **Pass**, **Fail**, or **NotRun**.
 
-![Mark][3]
+![Mark](/img/features/testing-types/manual-testing/start-test/manual-test-prompt-2.png)
 
 - Capture a desktop screen shot (use the "Ctrl+PrtScn" key as a shortcut).
 
-![Screenshot][4]
+![Screenshot](/img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-capture-img.png)
 
 - Write notes about the step.
 
-![Notes][5]
+![Notes](/img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-comment.png)
 
 - You can also mark all or selected steps as Pass or Fail.
 
-![Pass/Fail][6]
+![Pass/Fail](/img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-pass-fail.png)
 
-4.&nbsp; Choose one of two **Next Steps**:
+4. Choose one of two **Next Steps**:
 
 - **Save & Close** - close the dialog and return to the Record tab.
 - **Reset Results** - reset all current test results and save the result file to the **Project\Results** folder (optional).
 
-[1]: /img/features/testing-types/manual-testing/start-test/start-manual-test-button.png
-[2]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-1.png
-[3]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2.png
-[4]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-capture-img.png
-[5]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-comment.png
-[6]: /img/features/testing-types/manual-testing/start-test/manual-test-prompt-2-pass-fail.png

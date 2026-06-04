@@ -1,4 +1,4 @@
----
+﻿---
 title: Execution Extensions
 page_title: Execution Extension
 description: "Learn how to extend and customize Test Studio’s test execution process using Execution Extensions. This article provides step-by-step guidance on building and deploying custom execution extensions in C# or VB.NET, including practical examples for custom result reporting and data source integration. It explains the IExecutionExtension interface, details each method’s purpose, and covers deployment scenarios for local, remote, and CI environments"
@@ -11,9 +11,9 @@ Test Studio has enhanced extensibility support for test execution. This model he
 
 To demonstrate the execution extensibility model, let's build a simple Execution Extension to Test Studio that writes the results of a test list to a text file.
 
-1.&nbsp; Create a Class Library project in Visual Studio. This example uses C#.
+1. Create a Class Library project in Visual Studio. This example uses C#.
 
-2.&nbsp; Add references to three DLLs from **C:\Program Files (x86)\Progress\Test Studio\Bin\**
+2. Add references to three DLLs from **C:\Program Files (x86)\Progress\Test Studio\Bin\**
 
  - ArtOfTest.WebAii.dll
 
@@ -27,50 +27,50 @@ Also add the following **.NET** references (these are required for the demonstra
 
  - System.Windows.Forms
 
-3.&nbsp; Add the following using statements to the class file:
+3. Add the following using statements to the class file:
 
 	
-```C#
+````C#
 using System.IO;
 using System.Data;
 using System.Data.OleDb;
 using System.Windows.Forms;
 using ArtOfTest.WebAii.Design.Execution;
-```
-```VB
+````
+````VB
 Imports System.IO
 Imports System.Data
 Imports System.Data.OleDb
 Imports System.Windows.Forms
 Imports ArtOfTest.WebAii.Design.Execution
-```
+````
 
-4.&nbsp; The *ArtOfTest.WebAii.Design.Execution* namespace contains an IExecutionExtension that the class library needs to inherit and implement:
+4. The *ArtOfTest.WebAii.Design.Execution* namespace contains an IExecutionExtension that the class library needs to inherit and implement:
 
-```C#
+````C#
 namespace ClassLibrary1
 {
 	public class Class1 : IExecutionExtension
 	{
 	}
 }
-```
-```VB
+````
+````VB
 Namespace ClassLibrary1
 	Public Class Class1
 		Implements IExecutionExtension
 	End Class
 End Namespace
-```
+````
 
-5.&nbsp; Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
+5. Right click on **IExecutionExtension** and select **Implement Interface > Implement Interface**. This displays all the methods and notifications exposed by Test Studio. Here are definitions for each **IExecutionExtension** member:
 
  - The **OnInitializeDataSource()** function __cannot__ be left empty and should return **null** if not being used. Test Studio takes into consideration only the first non null data table (if you are using more than one plugin, the first one to return non null data table is used).
 
  - The rest of the functions, which you're not using, should be left empty (remove *throw new NotImplementedException*).
 
 
-```C#
+````C#
 namespace ClassLibrary1
 {
     public class Class1 : IExecutionExtension
@@ -126,8 +126,8 @@ namespace ClassLibrary1
         #endregion
     }
 }
-```
-```VB
+````
+````VB
 Namespace ClassLibrary1
 	Public Class Class1
 		Implements IExecutionExtension
@@ -176,7 +176,7 @@ Namespace ClassLibrary1
 		#End Region
 	End Class
 End Namespace
-```
+````
 
 A few notes about the code above:
 	
@@ -188,10 +188,10 @@ A few notes about the code above:
 
  - **Scope of Variables** - Notice that OnBeforeTestListStarted() and OnAfterTestListCompleted() are called by the Scheduling Server, while OnBeforeTestExecution and OnAfterTestExecution are called by ArtOfTest.Runner on the Execution Server. This means that if you initialize variables inside of OnBeforeTestListStarted or OnAfterTestListCompleted, you will not reliably have access to these variables inside OnBeforeTestExecution or OnAfterTestExecution, and vice versa. To use the same variables in both sets of methods, you can <a href="http://msdn.microsoft.com/en-us/library/dd460709%28v=vs.110%29.aspx" target="_blank">lazy initialize</a> the variables to ensure that they are not null.
 
-6.&nbsp; For the first example, we'll add code to the **OnAfterTestListCompleted** method to write the result of a test list as a basic string to a text file:
+6. For the first example, we'll add code to the **OnAfterTestListCompleted** method to write the result of a test list as a basic string to a text file:
 
 	
-```C#
+````C#
 public void OnAfterTestListCompleted(RunResult result)
 {
 	string msg = string.Format("TestList '{0}' completed on '{1}'. ({2}/{3}) Passed", result.Name, result.EndTime, result.PassedCount, result.TestResults.Count);
@@ -199,31 +199,31 @@ public void OnAfterTestListCompleted(RunResult result)
 	file.WriteLine(msg);
 	file.Close();
 }
-```
-```VB
+````
+````VB
 Public Sub OnAfterTestListCompleted(result As RunResult)
 	Dim msg As String = String.Format("TestList '{0}' completed on '{1}'. ({2}/{3}) Passed", result.Name, result.EndTime, result.PassedCount, result.TestResults.Count)
 	Dim file As New StreamWriter("c:\test-list-results.txt")
 	file.WriteLine(msg)
 	file.Close()
 End Sub
-```
+````
 
-7.&nbsp; Compile the class library.
+7. Compile the class library.
 
-8.&nbsp; Deploy the extension by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to the following directory:
+8. Deploy the extension by copying the DLL from the **%Project Folder%\ClassLibrary1\ClassLibrary1\bin\Debug** to the following directory:
 
  - **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\**
 
-9.&nbsp; Now execute a test list. The result string is written to the defined text file.
+9. Now execute a test list. The result string is written to the defined text file.
 
 ## Example of OnInitializeDataSource Method
 
 Let's see another example using the **OnInitializeDataSource** method. This assumes that your test is already <a href="/features/data-driven-testing/add-data-source" target="_blank">binded</a> to an Excel file, and each Excel file has matching column names.
 
-1.&nbsp; Add the following code to that method:
+1. Add the following code to that method:
 
-```C#
+````C#
 public System.Data.DataTable OnInitializeDataSource(ExecutionContext executionContext)
 {
     System.Data.DataTable table = null;
@@ -252,8 +252,8 @@ public System.Data.DataTable OnInitializeDataSource(ExecutionContext executionCo
     thread.Join();
     return table;
 }
-```
-```VB
+````
+````VB
 Public Function OnInitializeDataSource(executionContext As ExecutionContext) As System.Data.DataTable
 	Dim table As System.Data.DataTable = Nothing
 	Dim thread = New System.Threading.Thread(Function(obj) 
@@ -277,11 +277,11 @@ End Function)
 	thread.Join()
 	Return table
 End Function
-```
+````
 
-2.&nbsp; Now add the following *ImportExcelXLS* method within the same public class:
+2. Now add the following *ImportExcelXLS* method within the same public class:
 
-```C#
+````C#
 private static DataSet ImportExcelXLS(string FileName, bool hasHeaders)
 {
     string HDR = hasHeaders ? "Yes" : "No";
@@ -318,8 +318,8 @@ private static DataSet ImportExcelXLS(string FileName, bool hasHeaders)
     }
     return output;
 }
-```
-```VB
+````
+````VB
 Private Shared Function ImportExcelXLS(FileName As String, hasHeaders As Boolean) As DataSet
 	Dim HDR As String = If(hasHeaders, "Yes", "No")
 	Dim strConn As String = Nothing
@@ -349,27 +349,27 @@ Private Shared Function ImportExcelXLS(FileName As String, hasHeaders As Boolean
 	End Using
 	Return output
 End Function
-```
+````
 
-3.&nbsp; Rebuild the class library, copy the resulting DLL file, and paste it into the Plugins folder (overwriting the existing file).
+3. Rebuild the class library, copy the resulting DLL file, and paste it into the Plugins folder (overwriting the existing file).
 
-4.&nbsp; When you execute a data driven test, you are prompted to select an Excel file (.xls or .xlsx). You have two choices:
+4. When you execute a data driven test, you are prompted to select an Excel file (.xls or .xlsx). You have two choices:
 
  - Select a new Excel file and press OK.
 
  - Press Cancel to use the original data source.
 
-##Remote Execution Behavior##
+## Remote Execution Behavior
 
 It was mentioned above in terms of the scope for variables, that some methods are executed only on the machine, where the scheduling server for the current remote setup is located. It is important to know how will the execution extension behave in case of different execution scenarios. For all of the listed configurations the built custom dll file needs to be copied in the **C:\Program Files (x86)\Progress\Test Studio\Bin\Plugins\** folder on each remote machine.
 
-###Scheduling Server Setup###
+### Scheduling Server Setup
 
 This feature allows only one machine to have a running <a href="/features/scheduling-test-runs/create-scheduling-server" target="_blank">scheduling server</a> and multiple machines to be connected to it and serve as <a href="/features/scheduling-test-runs/create-execution-server" target="_blank">execution clients</a>. In this case **the complete set of execution extension methods will be executed on the scheduling server machine** only.
 
 All execution machines will **not execute *OnBeforeTestListStarted()* and _OnAfterTestListCompleted()_** and will only recognize the *OnBeforeTestStarted()* and *OnAfterTestCompleted()*.
 
-###CI Setup###
+### CI Setup
 
 In the context of <a href="/advanced-topics/build-server/continious-integration-overview" target="_blank">Continuous Integration</a> setup - running test lists using the <a href="/features/test-runners/artoftest-runner" target="_blank">ArtOfTest.Runner.exe</a> with **the *list* option, will execute all methods** in the extension.
 

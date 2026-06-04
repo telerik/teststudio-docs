@@ -1,4 +1,4 @@
----
+﻿---
 title: Elements Find Expression
 page_title: Elements Find Expression
 description: "How elements get recorded in a test Studio test. Find Expressions in Test Studio. How an element is being located during test execution. What is find expression, how is find expression build for elements in Test Studio tests"
@@ -29,7 +29,7 @@ The recorded images for each element in Test Studio can be used as a default ide
 
 The basic component of elements' **Find Expressions** in Test Studio is the __FindClause - this is a _name-value_ pair connected with a comparison operator__. The Find Expression consists of at least one FindClause and this can be verified when <a href="/features/elements-explorer/find-element" target="_blank">editing the element</a>.
 
-![Element's find expression][1]
+![Element's find expression](/img/features/elements-explorer/element-find-expression/fig1.png)
 
 The *'name'* portion of a FindClause pair can be any element's property that a certain technology (i.e. HTML, XAML) recognizes.
 
@@ -75,14 +75,14 @@ The *'name'* portion of a FindClause pair can be any element's property that a c
 > <br>
 > <br>
 > When <a href="/features/elements-explorer/find-element#options-in-element-pane-with-active-recording-session" target="_blank">editing an element in active recording session</a>, all available element's properties are listed for direct selection in the Find Expression Builder.
-> ![Element's attributes][3]
+> ![Element's attributes](/img/features/elements-explorer/element-find-expression/fig3.png)
 
 ### Comparison Operators
 
 The available comparison operators for each FindClause are: *'is exactly'*, *'contains'*, *'does not contain'*, *'starts with'*, *'ends with'*,
 *'matches the regular expression'*, *'is missing'* and *'exists'*.
 
-![FindClause comparison operators][2]
+![FindClause comparison operators](/img/features/elements-explorer/element-find-expression/fig2.png)
 
 ## Element's Image
 
@@ -111,6 +111,3 @@ The main idea, when choosing the proper FindClauses and what comparison to apply
 
 - Use unique elements' attributes, which are not dynamically generated to ensure a single element in the application will be pointed by this find expression.
 
-[1]: /img/features/elements-explorer/element-find-expression/fig1.png
-[2]: /img/features/elements-explorer/element-find-expression/fig2.png
-[3]: /img/features/elements-explorer/element-find-expression/fig3.png

@@ -62,7 +62,7 @@ The **Find Settings** view is on the right side. You can edit these settings by 
 
 <table id="no-table">
 <tr>
-<td>![Element Found](images/find-element/fig12.png)</td>
-<td>![Element Not Found](images/find-element/fig13.png)</td>
+<td><img src="images/find-element/fig12.png" alt="Element Found" /></td>
+<td><img src="images/find-element/fig13.png" alt="Element Not Found" /></td>
 </tr>
 <table>

@@ -14,7 +14,7 @@ To data bind an <a href="/features/recorder/verifications/image-verification" ta
 
 1. Perform the verification in a <a href="/features/custom-steps/script-step" target="_blank">coded step</a> as demonstrated below:
 
-```C#
+````C#
 // get an image of MyImage element        
 System.Drawing.Bitmap bitmap = Pages.MyPage.MyImage.Capture();
 
@@ -39,8 +39,8 @@ double tolerance = 10D;
 
 // Assert statement 
 ArtOfTest.Common.UnitTesting.Assert.IsTrue(tolerance >= compareValue); 
-```
-```VB
+````
+````VB
 
 Dim bitmap As System.Drawing.Bitmap = Pages.MyPage.MyImage.Capture()
 
@@ -59,7 +59,7 @@ Dim compareValue As Double = (histogram.Compare(histogramToCompare) * 100)
 Dim tolerance As Double = 10.0
 
 ArtOfTest.Common.UnitTesting.Assert.IsTrue(tolerance >= compareValue)
-```
+````
 
 To complete this scenario using the provided sample:
 

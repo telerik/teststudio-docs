@@ -4,7 +4,7 @@ page_title: HTML Actions - Test Studio Dev Documentation
 description: HTML Actions 
 position: 2
 ---
-#Common HTML Control Actions#
+# Common HTML Control Actions
 
 What are some of the things we can do after finding the element we want to act upon? We can:
 
@@ -22,10 +22,7 @@ What are some of the things we can do after finding the element we want to act u
  
 Here are some examples:
 
-#### __[C#]__
-
-          {{region }}
-
+````C#      
     // All controls have a Click/MouseClick. The .Click invokes a click from the DOM,
     // the MouseClick(), moves the mouse to the control and clicks it.
     
@@ -116,13 +113,8 @@ Here are some examples:
     
     // Invoke any events on the control
     link.InvokeEvent(ScriptEventType.OnFocus);
-    {{endregion}}
- 
-
-#### __[VB]__
-
-          {{region }}
-
+````
+````VB      
     ' All controls have a Click/MouseClick. The .Click invokes a click from the DOM,
     ' the MouseClick(), moves the mouse to the control and clicks it.   
     
@@ -213,4 +205,4 @@ Here are some examples:
         
     ' Invoke any events on the control
     link.InvokeEvent(ScriptEventType.OnFocus)
-    {{endregion}}
+````
