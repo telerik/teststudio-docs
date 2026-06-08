@@ -23,6 +23,7 @@ img-max-width: 100%
 table-layout: fixed
 disable-html-redirect: true
 center-images: false
+search-provider: nuclia
 
 
 meta:
