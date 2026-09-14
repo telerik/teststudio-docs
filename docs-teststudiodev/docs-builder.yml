@@ -21,6 +21,7 @@ contribute-url: https://github.com/telerik/teststudio-docs/edit/master/docs-test
 enable-tabbed-code-blocks: true
 img-max-width: 100%
 table-layout: fixed
+gitLastCommitDateEnabled: true
 disable-html-redirect: true
 center-images: false
 search-provider: nuclia
