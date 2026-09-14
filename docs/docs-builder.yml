@@ -20,6 +20,7 @@ enable-tabbed-code-blocks: true
 pdf-cover-png-path: ./images/pdf-cover.png
 img-max-width: 100%
 table-layout: fixed
+gitLastCommitDateEnabled: true
 disable-html-redirect: true
 search-provider: nuclia
 
