@@ -26,6 +26,10 @@ The **Communication** tab in the Scheduling Config wizard lets you manage the cu
 
 ![Communication key tab](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab.png)
 
+> __Important__
+> <br>
+> Using the default communication key is not recommended. Importing a custom communication key provides increased protection and control and reduces the risk of potential communication compromise.
+
 The **Current Key** section indicates which is the key in use. The Scheduling setup is configured to use a default communication key for each Test Studio installation. Thus, after initial install you see the current key is the __Default Key Loaded__. In this configuration you can't copy or see the key. 
 
 ![Default Communication key](/img/features/scheduling-test-runs/create-scheduling-server/communication-tab-default-key.png)

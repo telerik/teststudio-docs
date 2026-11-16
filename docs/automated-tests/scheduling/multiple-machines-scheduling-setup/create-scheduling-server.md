@@ -206,6 +206,10 @@ Hit the **Apply** button and check the *'Telerik Scheduling Service is running'*
 
 ![Scheduling](/img/features/scheduling-test-runs/create-scheduling-server/fig5new.png)
 
+> __Important__
+> <br>
+> Leaving the temporary folder set to %PUBLIC% is not recommended. We strongly advise using a dedicated folder with restricted access, so that it is available only to the user accounts that are involved in the scheduling execution.
+
 > **Note**
 > <br>
 > <br>
