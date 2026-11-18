@@ -153,6 +153,10 @@ For this particular configuration, these can remain unchanged and you can hit th
 
 ![Scheduling](/img/features/scheduling-test-runs/create-scheduling-server/fig5new.png)
 
+> __Important__
+> <br>
+> Leaving the temporary folder set to %PUBLIC% is not recommended. We strongly advise using a dedicated folder with restricted access, so that it is available only to the user accounts that are involved in the scheduling execution.
+
 <br>
 <div><a style="float:right" href="#configure-the-test-studio-services">Back to top of section</a></div>
 <br>
